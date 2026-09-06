@@ -19,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     entries.push({ url: `${SITE_URL}/${locale}`, priority: 1 });
     entries.push({ url: `${SITE_URL}/${locale}/stations`, priority: 0.8 });
+    entries.push({ url: `${SITE_URL}/${locale}/roster`, priority: 0.5 });
 
     for (const office of OFFICE_HUBS) {
       entries.push({ url: `${SITE_URL}/${locale}/work/${office}`, priority: 0.8 });

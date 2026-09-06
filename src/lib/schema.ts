@@ -45,10 +45,28 @@ export type OfficeHub = (typeof OFFICE_HUBS)[number];
 
 const score = z.number().int().min(0).max(100);
 
+/** 路線マスタ（data/reference/lines.json）。駅データは id で参照する。 */
 export const lineSchema = z.object({
+  id: z.string().regex(/^\d+$/),
   nameJa: z.string().min(1),
   nameEn: z.string().min(1),
   operator: z.enum(["jr", "tokyo-metro", "toei", "private"]),
+});
+
+/**
+ * ロースター: 対象路線の23区内の全駅（data/roster/stations.json）。
+ * 詳細プロフィール（data/stations/）を持たない駅も含む「掲載候補の全体像」。
+ */
+export const rosterStationSchema = z.object({
+  slug: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/),
+  nameJa: z.string().min(1),
+  nameRomaji: z.string().min(1),
+  ward: z.string().min(1),
+  wardCode: z.string().regex(/^\d{5}$/),
+  wardNameJa: z.string().min(1),
+  lat: z.number(),
+  lon: z.number(),
+  lineIds: z.array(z.string()).min(1),
 });
 
 export const rentSchema = z.object(
@@ -119,7 +137,7 @@ export const stationSchema = z.object({
   nameRomaji: z.string().min(1),
   ward: z.string().min(1),
   wardNameJa: z.string().min(1),
-  lines: z.array(lineSchema).min(1),
+  lineIds: z.array(z.string()).min(1),
   hasFirstTrain: z.boolean(),
   /** 朝ラッシュの混雑度。1 = 空いている、5 = 非常に混雑 */
   morningCrowding: z.number().int().min(1).max(5),
@@ -144,6 +162,7 @@ export const stationSchema = z.object({
 
 export type Station = z.infer<typeof stationSchema>;
 export type Line = z.infer<typeof lineSchema>;
+export type RosterStation = z.infer<typeof rosterStationSchema>;
 export type Rent = z.infer<typeof rentSchema>;
 export type Commute = z.infer<typeof commuteSchema>;
 export type Scores = z.infer<typeof scoresSchema>;

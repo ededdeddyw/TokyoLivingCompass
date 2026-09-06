@@ -1,0 +1,374 @@
+[
+  {
+    "id": "11301",
+    "nameJa": "JR東海道本線(東京～熱海)",
+    "nameEn": "JR Tokaido Line",
+    "operator": "jr"
+  },
+  {
+    "id": "11302",
+    "nameJa": "JR山手線",
+    "nameEn": "JR Yamanote Line",
+    "operator": "jr"
+  },
+  {
+    "id": "11308",
+    "nameJa": "JR横須賀線",
+    "nameEn": "JR Yokosuka Line",
+    "operator": "jr"
+  },
+  {
+    "id": "11311",
+    "nameJa": "JR中央本線(東京～塩尻)",
+    "nameEn": "JR Chuo Main Line",
+    "operator": "jr"
+  },
+  {
+    "id": "11312",
+    "nameJa": "JR中央線(快速)",
+    "nameEn": "JR Chuo Rapid Line",
+    "operator": "jr"
+  },
+  {
+    "id": "11313",
+    "nameJa": "JR中央・総武線",
+    "nameEn": "JR Chuo-Sobu Line (Local)",
+    "operator": "jr"
+  },
+  {
+    "id": "11314",
+    "nameJa": "JR総武本線",
+    "nameEn": "JR Sobu Main Line",
+    "operator": "jr"
+  },
+  {
+    "id": "11319",
+    "nameJa": "宇都宮線",
+    "nameEn": "JR Utsunomiya Line",
+    "operator": "jr"
+  },
+  {
+    "id": "11320",
+    "nameJa": "JR常磐線(上野～取手)",
+    "nameEn": "JR Joban Line",
+    "operator": "jr"
+  },
+  {
+    "id": "11321",
+    "nameJa": "JR埼京線",
+    "nameEn": "JR Saikyo Line",
+    "operator": "jr"
+  },
+  {
+    "id": "11323",
+    "nameJa": "JR高崎線",
+    "nameEn": "JR Takasaki Line",
+    "operator": "jr"
+  },
+  {
+    "id": "11326",
+    "nameJa": "JR京葉線",
+    "nameEn": "JR Keiyo Line",
+    "operator": "jr"
+  },
+  {
+    "id": "11328",
+    "nameJa": "JR成田エクスプレス",
+    "nameEn": "Narita Express",
+    "operator": "jr"
+  },
+  {
+    "id": "11332",
+    "nameJa": "JR京浜東北線",
+    "nameEn": "JR Keihin-Tohoku Line",
+    "operator": "jr"
+  },
+  {
+    "id": "11333",
+    "nameJa": "JR湘南新宿ライン",
+    "nameEn": "JR Shonan-Shinjuku Line",
+    "operator": "jr"
+  },
+  {
+    "id": "11343",
+    "nameJa": "上野東京ライン",
+    "nameEn": "JR Ueno-Tokyo Line",
+    "operator": "jr"
+  },
+  {
+    "id": "21001",
+    "nameJa": "東武東上線",
+    "nameEn": "Tobu Tojo Line",
+    "operator": "private"
+  },
+  {
+    "id": "21002",
+    "nameJa": "東武伊勢崎線",
+    "nameEn": "Tobu Skytree Line",
+    "operator": "private"
+  },
+  {
+    "id": "21005",
+    "nameJa": "東武亀戸線",
+    "nameEn": "Tobu Kameido Line",
+    "operator": "private"
+  },
+  {
+    "id": "21006",
+    "nameJa": "東武大師線",
+    "nameEn": "Tobu Daishi Line",
+    "operator": "private"
+  },
+  {
+    "id": "22001",
+    "nameJa": "西武池袋線",
+    "nameEn": "Seibu Ikebukuro Line",
+    "operator": "private"
+  },
+  {
+    "id": "22003",
+    "nameJa": "西武有楽町線",
+    "nameEn": "Seibu Yurakucho Line",
+    "operator": "private"
+  },
+  {
+    "id": "22004",
+    "nameJa": "西武豊島線",
+    "nameEn": "Seibu Toshima Line",
+    "operator": "private"
+  },
+  {
+    "id": "22007",
+    "nameJa": "西武新宿線",
+    "nameEn": "Seibu Shinjuku Line",
+    "operator": "private"
+  },
+  {
+    "id": "23001",
+    "nameJa": "京成本線",
+    "nameEn": "Keisei Main Line",
+    "operator": "private"
+  },
+  {
+    "id": "23002",
+    "nameJa": "京成押上線",
+    "nameEn": "Keisei Oshiage Line",
+    "operator": "private"
+  },
+  {
+    "id": "23003",
+    "nameJa": "京成金町線",
+    "nameEn": "Keisei Kanamachi Line",
+    "operator": "private"
+  },
+  {
+    "id": "23006",
+    "nameJa": "成田スカイアクセス",
+    "nameEn": "Narita Sky Access Line",
+    "operator": "private"
+  },
+  {
+    "id": "24001",
+    "nameJa": "京王線",
+    "nameEn": "Keio Line",
+    "operator": "private"
+  },
+  {
+    "id": "24006",
+    "nameJa": "京王井の頭線",
+    "nameEn": "Keio Inokashira Line",
+    "operator": "private"
+  },
+  {
+    "id": "24007",
+    "nameJa": "京王新線",
+    "nameEn": "Keio New Line",
+    "operator": "private"
+  },
+  {
+    "id": "25001",
+    "nameJa": "小田急線",
+    "nameEn": "Odakyu Odawara Line",
+    "operator": "private"
+  },
+  {
+    "id": "26001",
+    "nameJa": "東急東横線",
+    "nameEn": "Tokyu Toyoko Line",
+    "operator": "private"
+  },
+  {
+    "id": "26002",
+    "nameJa": "東急目黒線",
+    "nameEn": "Tokyu Meguro Line",
+    "operator": "private"
+  },
+  {
+    "id": "26003",
+    "nameJa": "東急田園都市線",
+    "nameEn": "Tokyu Den-en-toshi Line",
+    "operator": "private"
+  },
+  {
+    "id": "26004",
+    "nameJa": "東急大井町線",
+    "nameEn": "Tokyu Oimachi Line",
+    "operator": "private"
+  },
+  {
+    "id": "26005",
+    "nameJa": "東急池上線",
+    "nameEn": "Tokyu Ikegami Line",
+    "operator": "private"
+  },
+  {
+    "id": "26006",
+    "nameJa": "東急多摩川線",
+    "nameEn": "Tokyu Tamagawa Line",
+    "operator": "private"
+  },
+  {
+    "id": "26007",
+    "nameJa": "東急世田谷線",
+    "nameEn": "Tokyu Setagaya Line",
+    "operator": "private"
+  },
+  {
+    "id": "27001",
+    "nameJa": "京急本線",
+    "nameEn": "Keikyu Main Line",
+    "operator": "private"
+  },
+  {
+    "id": "27002",
+    "nameJa": "京急空港線",
+    "nameEn": "Keikyu Airport Line",
+    "operator": "private"
+  },
+  {
+    "id": "28001",
+    "nameJa": "東京メトロ銀座線",
+    "nameEn": "Tokyo Metro Ginza Line",
+    "operator": "tokyo-metro"
+  },
+  {
+    "id": "28002",
+    "nameJa": "東京メトロ丸ノ内線",
+    "nameEn": "Tokyo Metro Marunouchi Line",
+    "operator": "tokyo-metro"
+  },
+  {
+    "id": "28003",
+    "nameJa": "東京メトロ日比谷線",
+    "nameEn": "Tokyo Metro Hibiya Line",
+    "operator": "tokyo-metro"
+  },
+  {
+    "id": "28004",
+    "nameJa": "東京メトロ東西線",
+    "nameEn": "Tokyo Metro Tozai Line",
+    "operator": "tokyo-metro"
+  },
+  {
+    "id": "28005",
+    "nameJa": "東京メトロ千代田線",
+    "nameEn": "Tokyo Metro Chiyoda Line",
+    "operator": "tokyo-metro"
+  },
+  {
+    "id": "28006",
+    "nameJa": "東京メトロ有楽町線",
+    "nameEn": "Tokyo Metro Yurakucho Line",
+    "operator": "tokyo-metro"
+  },
+  {
+    "id": "28008",
+    "nameJa": "東京メトロ半蔵門線",
+    "nameEn": "Tokyo Metro Hanzomon Line",
+    "operator": "tokyo-metro"
+  },
+  {
+    "id": "28009",
+    "nameJa": "東京メトロ南北線",
+    "nameEn": "Tokyo Metro Namboku Line",
+    "operator": "tokyo-metro"
+  },
+  {
+    "id": "28010",
+    "nameJa": "東京メトロ副都心線",
+    "nameEn": "Tokyo Metro Fukutoshin Line",
+    "operator": "tokyo-metro"
+  },
+  {
+    "id": "99301",
+    "nameJa": "都営大江戸線",
+    "nameEn": "Toei Oedo Line",
+    "operator": "toei"
+  },
+  {
+    "id": "99302",
+    "nameJa": "都営浅草線",
+    "nameEn": "Toei Asakusa Line",
+    "operator": "toei"
+  },
+  {
+    "id": "99303",
+    "nameJa": "都営三田線",
+    "nameEn": "Toei Mita Line",
+    "operator": "toei"
+  },
+  {
+    "id": "99304",
+    "nameJa": "都営新宿線",
+    "nameEn": "Toei Shinjuku Line",
+    "operator": "toei"
+  },
+  {
+    "id": "99305",
+    "nameJa": "都電荒川線",
+    "nameEn": "Tokyo Sakura Tram (Toden Arakawa Line)",
+    "operator": "toei"
+  },
+  {
+    "id": "99307",
+    "nameJa": "埼玉高速鉄道線",
+    "nameEn": "Saitama Railway Line",
+    "operator": "private"
+  },
+  {
+    "id": "99309",
+    "nameJa": "つくばエクスプレス",
+    "nameEn": "Tsukuba Express",
+    "operator": "private"
+  },
+  {
+    "id": "99311",
+    "nameJa": "ゆりかもめ",
+    "nameEn": "Yurikamome",
+    "operator": "private"
+  },
+  {
+    "id": "99336",
+    "nameJa": "東京モノレール",
+    "nameEn": "Tokyo Monorail",
+    "operator": "private"
+  },
+  {
+    "id": "99337",
+    "nameJa": "りんかい線",
+    "nameEn": "Rinkai Line",
+    "operator": "private"
+  },
+  {
+    "id": "99340",
+    "nameJa": "北総鉄道北総線",
+    "nameEn": "Hokuso Line",
+    "operator": "private"
+  },
+  {
+    "id": "99342",
+    "nameJa": "日暮里・舎人ライナー",
+    "nameEn": "Nippori-Toneri Liner",
+    "operator": "toei"
+  }
+]

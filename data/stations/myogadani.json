@@ -4,12 +4,8 @@
   "nameRomaji": "Myogadani",
   "ward": "bunkyo",
   "wardNameJa": "文京区",
-  "lines": [
-    {
-      "nameJa": "東京メトロ丸ノ内線",
-      "nameEn": "Tokyo Metro Marunouchi Line",
-      "operator": "tokyo-metro"
-    }
+  "lineIds": [
+    "28002"
   ],
   "hasFirstTrain": false,
   "morningCrowding": 4,

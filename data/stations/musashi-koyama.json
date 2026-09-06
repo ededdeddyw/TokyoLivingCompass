@@ -4,12 +4,8 @@
   "nameRomaji": "Musashi-Koyama",
   "ward": "shinagawa",
   "wardNameJa": "品川区",
-  "lines": [
-    {
-      "nameJa": "東急目黒線",
-      "nameEn": "Tokyu Meguro Line",
-      "operator": "private"
-    }
+  "lineIds": [
+    "26002"
   ],
   "hasFirstTrain": false,
   "morningCrowding": 4,

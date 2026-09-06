@@ -4,17 +4,9 @@
   "nameRomaji": "Sasazuka",
   "ward": "shibuya",
   "wardNameJa": "渋谷区",
-  "lines": [
-    {
-      "nameJa": "京王線",
-      "nameEn": "Keio Line",
-      "operator": "private"
-    },
-    {
-      "nameJa": "京王新線",
-      "nameEn": "Keio New Line",
-      "operator": "private"
-    }
+  "lineIds": [
+    "24001",
+    "24007"
   ],
   "hasFirstTrain": true,
   "morningCrowding": 4,

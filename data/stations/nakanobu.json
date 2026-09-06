@@ -4,17 +4,9 @@
   "nameRomaji": "Nakanobu",
   "ward": "shinagawa",
   "wardNameJa": "品川区",
-  "lines": [
-    {
-      "nameJa": "東急大井町線",
-      "nameEn": "Tokyu Oimachi Line",
-      "operator": "private"
-    },
-    {
-      "nameJa": "都営浅草線",
-      "nameEn": "Toei Asakusa Line",
-      "operator": "toei"
-    }
+  "lineIds": [
+    "26004",
+    "99302"
   ],
   "hasFirstTrain": false,
   "morningCrowding": 4,

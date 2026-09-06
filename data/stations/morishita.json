@@ -4,17 +4,9 @@
   "nameRomaji": "Morishita",
   "ward": "koto",
   "wardNameJa": "江東区",
-  "lines": [
-    {
-      "nameJa": "都営新宿線",
-      "nameEn": "Toei Shinjuku Line",
-      "operator": "toei"
-    },
-    {
-      "nameJa": "都営大江戸線",
-      "nameEn": "Toei Oedo Line",
-      "operator": "toei"
-    }
+  "lineIds": [
+    "99301",
+    "99304"
   ],
   "hasFirstTrain": false,
   "morningCrowding": 4,

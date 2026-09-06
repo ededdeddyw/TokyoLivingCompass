@@ -4,17 +4,9 @@
   "nameRomaji": "Koenji",
   "ward": "suginami",
   "wardNameJa": "杉並区",
-  "lines": [
-    {
-      "nameJa": "JR中央線快速",
-      "nameEn": "JR Chuo Rapid Line",
-      "operator": "jr"
-    },
-    {
-      "nameJa": "JR中央・総武線各駅停車",
-      "nameEn": "JR Chuo-Sobu Line (Local)",
-      "operator": "jr"
-    }
+  "lineIds": [
+    "11312",
+    "11313"
   ],
   "hasFirstTrain": false,
   "morningCrowding": 5,

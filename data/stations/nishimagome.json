@@ -4,12 +4,8 @@
   "nameRomaji": "Nishimagome",
   "ward": "ota",
   "wardNameJa": "大田区",
-  "lines": [
-    {
-      "nameJa": "都営浅草線",
-      "nameEn": "Toei Asakusa Line",
-      "operator": "toei"
-    }
+  "lineIds": [
+    "99302"
   ],
   "hasFirstTrain": true,
   "morningCrowding": 2,

@@ -4,17 +4,9 @@
   "nameRomaji": "Kiyosumi-Shirakawa",
   "ward": "koto",
   "wardNameJa": "江東区",
-  "lines": [
-    {
-      "nameJa": "東京メトロ半蔵門線",
-      "nameEn": "Tokyo Metro Hanzomon Line",
-      "operator": "tokyo-metro"
-    },
-    {
-      "nameJa": "都営大江戸線",
-      "nameEn": "Toei Oedo Line",
-      "operator": "toei"
-    }
+  "lineIds": [
+    "28008",
+    "99301"
   ],
   "hasFirstTrain": false,
   "morningCrowding": 4,

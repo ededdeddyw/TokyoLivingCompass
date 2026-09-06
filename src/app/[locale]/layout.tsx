@@ -50,6 +50,9 @@ export default async function LocaleLayout({
               <Link href={`/${locale}/work/toranomon`} className="hover:text-accent">
                 {dict.nav.find}
               </Link>
+              <Link href={`/${locale}/roster`} className="hover:text-accent">
+                {dict.roster.heading}
+              </Link>
             </nav>
             <div className="ml-auto flex gap-3 text-sm">
               {ACTIVE_LOCALES.map((l) => (

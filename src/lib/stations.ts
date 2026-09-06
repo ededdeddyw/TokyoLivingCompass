@@ -3,9 +3,13 @@ import { join } from "node:path";
 
 import type { ActiveLocale } from "./i18n";
 import {
+  lineSchema,
+  rosterStationSchema,
   stationContentSchema,
   stationSchema,
+  type Line,
   type LocalizedStation,
+  type RosterStation,
   type Station,
   type StationContent,
 } from "./schema";
@@ -18,6 +22,8 @@ import {
 const DATA_DIR = join(process.cwd(), "data");
 const STATIONS_DIR = join(DATA_DIR, "stations");
 const CONTENT_DIR = join(DATA_DIR, "content");
+const ROSTER_FILE = join(DATA_DIR, "roster", "stations.json");
+const LINES_FILE = join(DATA_DIR, "reference", "lines.json");
 
 function readJson(path: string): unknown {
   return JSON.parse(readFileSync(path, "utf8"));
@@ -121,4 +127,44 @@ export function listContentLocales(): string[] {
 
 export function listContentSlugs(locale: string): string[] {
   return listSlugs(join(CONTENT_DIR, locale));
+}
+
+let lineCache: Map<string, Line> | null = null;
+
+/** 路線マスタ。駅データは id で参照するので、名前の解決はここに集約する。 */
+export function getLines(): Map<string, Line> {
+  if (lineCache) return lineCache;
+  const parsed = lineSchema.array().safeParse(readJson(LINES_FILE));
+  if (!parsed.success) {
+    throw new Error(
+      `路線マスタが不正です\n${JSON.stringify(parsed.error.format(), null, 2)}`,
+    );
+  }
+  lineCache = new Map(parsed.data.map((l) => [l.id, l]));
+  return lineCache;
+}
+
+/** 駅の路線を路線マスタから解決する。未知の id は無視せず落とす。 */
+export function resolveLines(lineIds: string[]): Line[] {
+  const lines = getLines();
+  return lineIds.map((id) => {
+    const line = lines.get(id);
+    if (!line) throw new Error(`未知の路線 id: ${id}`);
+    return line;
+  });
+}
+
+let rosterCache: RosterStation[] | null = null;
+
+/** 対象路線の23区内の全駅。詳細プロフィールの有無は問わない。 */
+export function getRoster(): RosterStation[] {
+  if (rosterCache) return rosterCache;
+  const parsed = rosterStationSchema.array().safeParse(readJson(ROSTER_FILE));
+  if (!parsed.success) {
+    throw new Error(
+      `ロースターが不正です\n${JSON.stringify(parsed.error.format(), null, 2)}`,
+    );
+  }
+  rosterCache = parsed.data;
+  return rosterCache;
 }

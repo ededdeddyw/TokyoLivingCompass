@@ -20,7 +20,11 @@
 
 ```
 data/
-├── stations/           # 言語非依存のマスターデータ（1駅1ファイル）
+├── roster/
+│   └── stations.json   # 掲載候補の全駅（443駅）。駅名・所在区・路線のみ
+├── reference/
+│   └── lines.json      # 路線マスタ（62路線）
+├── stations/           # 詳細プロフィール（1駅1ファイル）
 │   ├── nishimagome.json
 │   ├── koenji.json
 │   └── ...
@@ -33,12 +37,13 @@ data/
         └── ...
 ```
 
-路線マスタとオフィス駅マスタは、現時点では独立したファイルにしていない。
-
-- 路線は駅ごとに `lines` として埋め込む（1駅あたり1〜3件で、正規化する利点より参照コストの方が大きいため）。
-- オフィス駅は `src/lib/schema.ts` の `OFFICE_HUBS`（識別子）と `src/lib/dictionaries.ts`（各言語の表示名）に持つ。
-
-駅数が数百を超えて路線ページを作る段階になったら、路線を独立エンティティへ切り出す。
+- **ロースター**（`roster/stations.json`）は「対象になる駅の全体像」。443駅。
+  詳細プロフィールの有無を問わず、駅名・所在区・路線を持つ。作り方は
+  [09-station-roster.md](./09-station-roster.md)。
+- **詳細プロフィール**（`stations/`）はロースターの部分集合。家賃・通勤・スコアを持つ。
+- **路線マスタ**（`reference/lines.json`）は路線名と事業者区分。駅は `lineIds` で参照する。
+- オフィス駅は `src/lib/schema.ts` の `OFFICE_HUBS`（識別子）と
+  `src/lib/dictionaries.ts`（各言語の表示名）に持つ。
 
 ---
 
@@ -53,7 +58,7 @@ data/
 | `nameRomaji` | string | ローマ字表記（例 `Nishimagome`） |
 | `ward` | string | 所在区の slug（例 `ota`） |
 | `wardNameJa` | string | 所在区の日本語名（例 `大田区`） |
-| `lines` | Line[] | 乗り入れ路線 |
+| `lineIds` | string[] | 乗り入れ路線。`reference/lines.json` の id を参照 |
 | `hasFirstTrain` | boolean | 始発の有無 |
 | `morningCrowding` | 1–5 | 朝ラッシュの混雑度（1 = 空いている、5 = 非常に混雑） |
 | `rent` | Rent | 間取り別の家賃相場（円 / 月） |
@@ -65,13 +70,15 @@ data/
 | `dataQuality` | `seed` \| `reviewed` \| `verified` | データの検証状態 |
 | `lastReviewedAt` | string (YYYY-MM-DD) | 最終確認日 |
 
-### Line
+### Line（路線マスタ）
 
 ```jsonc
-{ "nameJa": "都営浅草線", "nameEn": "Toei Asakusa Line", "operator": "toei" }
+{ "id": "99302", "nameJa": "都営浅草線", "nameEn": "Toei Asakusa Line", "operator": "toei" }
 ```
 
 `operator` は `jr` / `tokyo-metro` / `toei` / `private` のいずれか。
+駅側は `lineIds: ["99302"]` のように id で参照する。443駅規模で路線名を各駅に
+持たせると二重管理になるため。
 
 ### Rent（円 / 月）
 

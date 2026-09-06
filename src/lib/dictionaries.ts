@@ -61,6 +61,15 @@ export type Dictionary = {
     why: string;
     weakness: string;
   };
+  roster: {
+    heading: string;
+    lead: string;
+    stations: string;
+    lines: string;
+    allLines: string;
+    profiled: string;
+    filterByLine: string;
+  };
   compare: {
     heading: string;
     winner: string;
@@ -140,6 +149,15 @@ const ja: Dictionary = {
     fit: "適合度",
     why: "推せる点",
     weakness: "弱点",
+  },
+  roster: {
+    heading: "掲載候補の全駅",
+    lead: "都営線・東京メトロ・JR山手線・中央線・中央総武線と、23区を通る私鉄各線の駅を洗い出したものです。駅名・所在区・路線までを持ち、詳細プロフィールはここから順に作っていきます。",
+    stations: "駅",
+    lines: "路線",
+    allLines: "すべての路線",
+    profiled: "詳細ページあり",
+    filterByLine: "路線でしぼる",
   },
   compare: {
     heading: "駅を比べる",
@@ -277,6 +295,15 @@ const en: Dictionary = {
     fit: "Fit",
     why: "Why it works",
     weakness: "Trade-offs",
+  },
+  roster: {
+    heading: "Every station we plan to cover",
+    lead: "All stations on the Toei and Tokyo Metro subways, the JR Yamanote, Chuo and Chuo-Sobu lines, and the private railways running through the 23 wards. Each entry has its name, ward and lines; full profiles are being written from this list.",
+    stations: "stations",
+    lines: "lines",
+    allLines: "All lines",
+    profiled: "with a full profile",
+    filterByLine: "Filter by line",
   },
   compare: {
     heading: "Compare stations",

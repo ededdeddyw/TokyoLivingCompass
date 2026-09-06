@@ -2,6 +2,8 @@ import { ACTIVE_LOCALES, isActiveLocale } from "../src/lib/i18n";
 import { OFFICE_HUBS } from "../src/lib/schema";
 import {
   getAllStations,
+  getLines,
+  getRoster,
   getStationContent,
   listContentLocales,
   listContentSlugs,
@@ -66,6 +68,51 @@ for (const station of stations) {
   }
 }
 
+// ロースターと路線マスタの検証
+const lines = getLines();
+const roster = getRoster();
+const rosterBySlug = new Map(roster.map((r) => [r.slug, r]));
+
+if (rosterBySlug.size !== roster.length) {
+  const seen = new Set<string>();
+  for (const r of roster) {
+    if (seen.has(r.slug)) errors.push(`ロースターの slug が重複しています: ${r.slug}`);
+    seen.add(r.slug);
+  }
+}
+
+for (const r of roster) {
+  for (const id of r.lineIds) {
+    if (!lines.has(id)) {
+      errors.push(`ロースター ${r.slug}: 未知の路線 id "${id}"`);
+    }
+  }
+}
+
+// 詳細プロフィールはロースターの部分集合でなければならない
+for (const station of stations) {
+  for (const id of station.lineIds) {
+    if (!lines.has(id)) {
+      errors.push(`${station.slug}: 未知の路線 id "${id}"`);
+    }
+  }
+  const entry = rosterBySlug.get(station.slug);
+  if (!entry) {
+    errors.push(`${station.slug}: ロースターに存在しません。`);
+    continue;
+  }
+  if (entry.nameJa !== station.nameJa) {
+    errors.push(
+      `${station.slug}: 駅名がロースターと一致しません (プロフィール="${station.nameJa}" / ロースター="${entry.nameJa}")`,
+    );
+  }
+  if (entry.ward !== station.ward || entry.wardNameJa !== station.wardNameJa) {
+    errors.push(
+      `${station.slug}: 所在区がロースターと一致しません (プロフィール="${station.wardNameJa}" / ロースター="${entry.wardNameJa}")`,
+    );
+  }
+}
+
 // コンテンツ側の検証
 for (const locale of listContentLocales()) {
   if (!isActiveLocale(locale)) {
@@ -103,7 +150,16 @@ for (const locale of ACTIVE_LOCALES) {
   }
 }
 
-console.log(`駅: ${stations.length}件 / ロケール: ${ACTIVE_LOCALES.join(", ")}`);
+console.log(
+  `ロースター: ${roster.length}駅 / 路線: ${lines.size} / ` +
+    `詳細プロフィール: ${stations.length}駅 / ロケール: ${ACTIVE_LOCALES.join(", ")}`,
+);
+
+const profiled = new Set(stations.map((s) => s.slug));
+warnings.push(
+  `ロースター ${roster.length}駅のうち、詳細プロフィールがあるのは ${profiled.size}駅` +
+    `（残り ${roster.length - profiled.size}駅は駅名・所在区・路線のみ）`,
+);
 
 if (seedStations.length > 0) {
   warnings.push(

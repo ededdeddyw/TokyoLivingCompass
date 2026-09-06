@@ -4,17 +4,9 @@
   "nameRomaji": "Higashi-Nakano",
   "ward": "nakano",
   "wardNameJa": "中野区",
-  "lines": [
-    {
-      "nameJa": "JR中央・総武線各駅停車",
-      "nameEn": "JR Chuo-Sobu Line (Local)",
-      "operator": "jr"
-    },
-    {
-      "nameJa": "都営大江戸線",
-      "nameEn": "Toei Oedo Line",
-      "operator": "toei"
-    }
+  "lineIds": [
+    "11313",
+    "99301"
   ],
   "hasFirstTrain": false,
   "morningCrowding": 4,

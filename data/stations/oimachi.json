@@ -4,22 +4,10 @@
   "nameRomaji": "Oimachi",
   "ward": "shinagawa",
   "wardNameJa": "品川区",
-  "lines": [
-    {
-      "nameJa": "JR京浜東北線",
-      "nameEn": "JR Keihin-Tohoku Line",
-      "operator": "jr"
-    },
-    {
-      "nameJa": "東急大井町線",
-      "nameEn": "Tokyu Oimachi Line",
-      "operator": "private"
-    },
-    {
-      "nameJa": "りんかい線",
-      "nameEn": "Rinkai Line",
-      "operator": "private"
-    }
+  "lineIds": [
+    "11332",
+    "26004",
+    "99337"
   ],
   "hasFirstTrain": false,
   "morningCrowding": 4,

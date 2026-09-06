@@ -4,17 +4,9 @@
   "nameRomaji": "Monzen-Nakacho",
   "ward": "koto",
   "wardNameJa": "江東区",
-  "lines": [
-    {
-      "nameJa": "東京メトロ東西線",
-      "nameEn": "Tokyo Metro Tozai Line",
-      "operator": "tokyo-metro"
-    },
-    {
-      "nameJa": "都営大江戸線",
-      "nameEn": "Toei Oedo Line",
-      "operator": "toei"
-    }
+  "lineIds": [
+    "28004",
+    "99301"
   ],
   "hasFirstTrain": false,
   "morningCrowding": 5,

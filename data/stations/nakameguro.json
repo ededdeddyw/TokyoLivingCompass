@@ -4,17 +4,9 @@
   "nameRomaji": "Nakameguro",
   "ward": "meguro",
   "wardNameJa": "目黒区",
-  "lines": [
-    {
-      "nameJa": "東急東横線",
-      "nameEn": "Tokyu Toyoko Line",
-      "operator": "private"
-    },
-    {
-      "nameJa": "東京メトロ日比谷線",
-      "nameEn": "Tokyo Metro Hibiya Line",
-      "operator": "tokyo-metro"
-    }
+  "lineIds": [
+    "26001",
+    "28003"
   ],
   "hasFirstTrain": true,
   "morningCrowding": 4,

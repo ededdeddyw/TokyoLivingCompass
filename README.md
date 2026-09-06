@@ -15,7 +15,8 @@
 Phase 0（土台）が完了。動く形で以下が揃っている。
 
 - 駅ページ / 駅一覧 / 駅比較 / 勤務先起点の逆引き検索 / 重みプリセット
-- 12駅のシードデータ（日本語・英語）
+- **掲載候補の全駅 443駅 / 62路線**（都営・東京メトロ・JR山手/中央/中央総武・23区を通る私鉄）
+- 12駅の詳細シードデータ（日本語・英語）
 - スキーマ定義とデータ検証
 - 設計ドキュメント一式
 
@@ -38,6 +39,7 @@ npm run dev          # http://localhost:3000
 
 ```bash
 npm run validate:data   # 全駅データのスキーマ・整合性検証
+python3 scripts/build-roster.py   # 掲載候補の全駅を再生成（標準ライブラリのみ）
 npm run typecheck       # 型検査
 npm run build           # 本番ビルド（全駅ページの静的生成）
 ```
@@ -49,7 +51,8 @@ npm run build           # 本番ビルド（全駅ページの静的生成）
 | URL | 内容 |
 |---|---|
 | `/ja` `/en` | トップ |
-| `/{locale}/stations` | 駅一覧。`?view=family` などで評価の視点を切り替えるとランキングが変わる |
+| `/{locale}/roster` | 掲載候補の全443駅。区ごとに並び、路線でしぼれる |
+| `/{locale}/stations` | 詳細ページのある駅の一覧。`?view=family` などで評価の視点を切り替えるとランキングが変わる |
 | `/{locale}/stations/{slug}` | 駅ページ。16軸スコア、家賃、通勤、在住者コメント |
 | `/{locale}/compare/{a}-vs-{b}` | 駅比較 |
 | `/{locale}/work/{office}` | 勤務先起点の逆引き検索。条件は全て URL クエリに載る |
@@ -76,6 +79,7 @@ npm run build           # 本番ビルド（全駅ページの静的生成）
 | [docs/06-roadmap.md](./docs/06-roadmap.md) | ロードマップ |
 | [docs/07-architecture.md](./docs/07-architecture.md) | 技術構成 |
 | [docs/08-data-sources-rent.md](./docs/08-data-sources-rent.md) | 家賃相場データの出典（調査と決定） |
+| [docs/09-station-roster.md](./docs/09-station-roster.md) | 掲載候補443駅の洗い出し方と出典 |
 
 ---
 

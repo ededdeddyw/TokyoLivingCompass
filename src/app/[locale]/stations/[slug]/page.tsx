@@ -10,7 +10,12 @@ import { formatYen } from "@/lib/format";
 import { ACTIVE_LOCALES, isActiveLocale, type ActiveLocale } from "@/lib/i18n";
 import { OFFICE_HUBS, RENT_TYPES } from "@/lib/schema";
 import { overallScoreForPreset } from "@/lib/scoring";
-import { getLocalizedStation, getLocalizedStations, getStationContent } from "@/lib/stations";
+import {
+  getLocalizedStation,
+  getLocalizedStations,
+  getStationContent,
+  resolveLines,
+} from "@/lib/stations";
 
 /** そのロケールでコンテンツがある駅だけを生成する（docs/04-i18n.md §5）。 */
 export function generateStaticParams() {
@@ -76,7 +81,9 @@ export default async function StationPage({
     <article className="space-y-10">
       <header className="space-y-3">
         <p className="text-sm text-ink-soft">
-          {station.wardNameJa} · {station.lines.map((l) => (locale === "ja" ? l.nameJa : l.nameEn)).join(" / ")}
+          {station.wardNameJa} · {resolveLines(station.lineIds)
+            .map((l) => (locale === "ja" ? l.nameJa : l.nameEn))
+            .join(" / ")}
         </p>
         <h1 className="text-3xl font-bold text-ink">
           {station.content.name}
