@@ -1,0 +1,100 @@
+{
+  "slug": "sasazuka",
+  "nameJa": "笹塚",
+  "nameRomaji": "Sasazuka",
+  "ward": "shibuya",
+  "wardNameJa": "渋谷区",
+  "lines": [
+    {
+      "nameJa": "京王線",
+      "nameEn": "Keio Line",
+      "operator": "private"
+    },
+    {
+      "nameJa": "京王新線",
+      "nameEn": "Keio New Line",
+      "operator": "private"
+    }
+  ],
+  "hasFirstTrain": true,
+  "morningCrowding": 4,
+  "rent": {
+    "oneRoom": 85000,
+    "oneK": 92000,
+    "oneLDK": 152000,
+    "twoLDK": 205000
+  },
+  "commutes": [
+    {
+      "to": "shinjuku",
+      "minutes": 5,
+      "transfers": 0
+    },
+    {
+      "to": "shibuya",
+      "minutes": 18,
+      "transfers": 1
+    },
+    {
+      "to": "tokyo",
+      "minutes": 25,
+      "transfers": 1
+    },
+    {
+      "to": "shinagawa",
+      "minutes": 30,
+      "transfers": 1
+    },
+    {
+      "to": "otemachi",
+      "minutes": 25,
+      "transfers": 1
+    },
+    {
+      "to": "toranomon",
+      "minutes": 28,
+      "transfers": 2
+    },
+    {
+      "to": "roppongi",
+      "minutes": 22,
+      "transfers": 1
+    }
+  ],
+  "scores": {
+    "rentValue": 80,
+    "commute": 85,
+    "transitConvenience": 70,
+    "shopping": 78,
+    "food": 72,
+    "cafe": 55,
+    "nightlife": 48,
+    "safety": 72,
+    "quietness": 62,
+    "family": 68,
+    "singleLife": 82,
+    "internationalFriendliness": 50,
+    "style": 48,
+    "nature": 45,
+    "healthcare": 60,
+    "fitness": 55
+  },
+  "facilities": {
+    "supermarkets": [
+      "京王ストア",
+      "オオゼキ",
+      "サミットストア"
+    ],
+    "commercial": [
+      "フレンテ笹塚",
+      "十号通り商店街"
+    ],
+    "notes": "都営新宿線の始発があり、朝は座って都心へ出られる。"
+  },
+  "similarStations": [
+    "higashi-nakano",
+    "nakanobu"
+  ],
+  "dataQuality": "seed",
+  "lastReviewedAt": "2026-09-06"
+}

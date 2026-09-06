@@ -1,0 +1,95 @@
+{
+  "slug": "myogadani",
+  "nameJa": "茗荷谷",
+  "nameRomaji": "Myogadani",
+  "ward": "bunkyo",
+  "wardNameJa": "文京区",
+  "lines": [
+    {
+      "nameJa": "東京メトロ丸ノ内線",
+      "nameEn": "Tokyo Metro Marunouchi Line",
+      "operator": "tokyo-metro"
+    }
+  ],
+  "hasFirstTrain": false,
+  "morningCrowding": 4,
+  "rent": {
+    "oneRoom": 88000,
+    "oneK": 95000,
+    "oneLDK": 165000,
+    "twoLDK": 235000
+  },
+  "commutes": [
+    {
+      "to": "shinjuku",
+      "minutes": 18,
+      "transfers": 0
+    },
+    {
+      "to": "shibuya",
+      "minutes": 27,
+      "transfers": 1
+    },
+    {
+      "to": "tokyo",
+      "minutes": 15,
+      "transfers": 0
+    },
+    {
+      "to": "shinagawa",
+      "minutes": 27,
+      "transfers": 1
+    },
+    {
+      "to": "otemachi",
+      "minutes": 12,
+      "transfers": 0
+    },
+    {
+      "to": "toranomon",
+      "minutes": 22,
+      "transfers": 1
+    },
+    {
+      "to": "roppongi",
+      "minutes": 22,
+      "transfers": 1
+    }
+  ],
+  "scores": {
+    "rentValue": 58,
+    "commute": 88,
+    "transitConvenience": 55,
+    "shopping": 65,
+    "food": 55,
+    "cafe": 52,
+    "nightlife": 20,
+    "safety": 90,
+    "quietness": 88,
+    "family": 92,
+    "singleLife": 62,
+    "internationalFriendliness": 42,
+    "style": 55,
+    "nature": 78,
+    "healthcare": 82,
+    "fitness": 48
+  },
+  "facilities": {
+    "supermarkets": [
+      "ピーコックストア",
+      "マルエツプチ",
+      "三徳"
+    ],
+    "commercial": [
+      "教育の森公園",
+      "小石川植物園（近隣）"
+    ],
+    "notes": "国立大学附属校が集まる文教地区で、夜間の人通りは少ない。"
+  },
+  "similarStations": [
+    "nishimagome",
+    "musashi-koyama"
+  ],
+  "dataQuality": "seed",
+  "lastReviewedAt": "2026-09-06"
+}

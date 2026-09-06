@@ -1,0 +1,95 @@
+{
+  "slug": "nishimagome",
+  "nameJa": "西馬込",
+  "nameRomaji": "Nishimagome",
+  "ward": "ota",
+  "wardNameJa": "大田区",
+  "lines": [
+    {
+      "nameJa": "都営浅草線",
+      "nameEn": "Toei Asakusa Line",
+      "operator": "toei"
+    }
+  ],
+  "hasFirstTrain": true,
+  "morningCrowding": 2,
+  "rent": {
+    "oneRoom": 78000,
+    "oneK": 85000,
+    "oneLDK": 140000,
+    "twoLDK": 190000
+  },
+  "commutes": [
+    {
+      "to": "shinjuku",
+      "minutes": 30,
+      "transfers": 1
+    },
+    {
+      "to": "shibuya",
+      "minutes": 25,
+      "transfers": 1
+    },
+    {
+      "to": "tokyo",
+      "minutes": 32,
+      "transfers": 1
+    },
+    {
+      "to": "shinagawa",
+      "minutes": 20,
+      "transfers": 1
+    },
+    {
+      "to": "otemachi",
+      "minutes": 33,
+      "transfers": 1
+    },
+    {
+      "to": "toranomon",
+      "minutes": 30,
+      "transfers": 1
+    },
+    {
+      "to": "roppongi",
+      "minutes": 33,
+      "transfers": 1
+    }
+  ],
+  "scores": {
+    "rentValue": 88,
+    "commute": 62,
+    "transitConvenience": 42,
+    "shopping": 62,
+    "food": 48,
+    "cafe": 38,
+    "nightlife": 22,
+    "safety": 82,
+    "quietness": 85,
+    "family": 78,
+    "singleLife": 60,
+    "internationalFriendliness": 35,
+    "style": 32,
+    "nature": 65,
+    "healthcare": 60,
+    "fitness": 45
+  },
+  "facilities": {
+    "supermarkets": [
+      "ライフ",
+      "オオゼキ",
+      "まいばすけっと"
+    ],
+    "commercial": [
+      "西馬込商店会",
+      "アトレ大森（大森駅）"
+    ],
+    "notes": "駅前に大型商業施設はなく、買い物は徒歩圏のスーパーと大森・蒲田への短距離移動で成立する。"
+  },
+  "similarStations": [
+    "nakanobu",
+    "musashi-koyama"
+  ],
+  "dataQuality": "seed",
+  "lastReviewedAt": "2026-09-06"
+}

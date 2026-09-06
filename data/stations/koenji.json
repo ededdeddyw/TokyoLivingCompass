@@ -1,0 +1,101 @@
+{
+  "slug": "koenji",
+  "nameJa": "高円寺",
+  "nameRomaji": "Koenji",
+  "ward": "suginami",
+  "wardNameJa": "杉並区",
+  "lines": [
+    {
+      "nameJa": "JR中央線快速",
+      "nameEn": "JR Chuo Rapid Line",
+      "operator": "jr"
+    },
+    {
+      "nameJa": "JR中央・総武線各駅停車",
+      "nameEn": "JR Chuo-Sobu Line (Local)",
+      "operator": "jr"
+    }
+  ],
+  "hasFirstTrain": false,
+  "morningCrowding": 5,
+  "rent": {
+    "oneRoom": 80000,
+    "oneK": 87000,
+    "oneLDK": 142000,
+    "twoLDK": 190000
+  },
+  "commutes": [
+    {
+      "to": "shinjuku",
+      "minutes": 8,
+      "transfers": 0
+    },
+    {
+      "to": "shibuya",
+      "minutes": 20,
+      "transfers": 1
+    },
+    {
+      "to": "tokyo",
+      "minutes": 22,
+      "transfers": 0
+    },
+    {
+      "to": "shinagawa",
+      "minutes": 32,
+      "transfers": 1
+    },
+    {
+      "to": "otemachi",
+      "minutes": 27,
+      "transfers": 1
+    },
+    {
+      "to": "toranomon",
+      "minutes": 33,
+      "transfers": 2
+    },
+    {
+      "to": "roppongi",
+      "minutes": 26,
+      "transfers": 1
+    }
+  ],
+  "scores": {
+    "rentValue": 85,
+    "commute": 82,
+    "transitConvenience": 52,
+    "shopping": 78,
+    "food": 92,
+    "cafe": 78,
+    "nightlife": 88,
+    "safety": 65,
+    "quietness": 42,
+    "family": 55,
+    "singleLife": 90,
+    "internationalFriendliness": 68,
+    "style": 72,
+    "nature": 42,
+    "healthcare": 58,
+    "fitness": 52
+  },
+  "facilities": {
+    "supermarkets": [
+      "西友",
+      "サミットストア",
+      "オオゼキ"
+    ],
+    "commercial": [
+      "高円寺パル商店街",
+      "高円寺ルック商店街",
+      "純情商店街"
+    ],
+    "notes": "古着店とライブハウス、個人経営の飲食店が集積する。深夜まで人通りがある。"
+  },
+  "similarStations": [
+    "higashi-nakano",
+    "sasazuka"
+  ],
+  "dataQuality": "seed",
+  "lastReviewedAt": "2026-09-06"
+}

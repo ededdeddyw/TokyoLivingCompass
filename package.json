@@ -1,0 +1,29 @@
+{
+  "name": "tokyo-living-compass",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tokyo Living Compass — 東京でどこに住むべきかを決める意思決定エンジン",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "validate:data": "tsx scripts/validate-data.ts"
+  },
+  "dependencies": {
+    "next": "^15.5.25",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.1.13",
+    "@types/node": "22.18.1",
+    "@types/react": "19.1.13",
+    "@types/react-dom": "19.1.9",
+    "tailwindcss": "4.1.13",
+    "tsx": "4.20.5",
+    "typescript": "5.9.2"
+  }
+}

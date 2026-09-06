@@ -1,0 +1,95 @@
+{
+  "slug": "musashi-koyama",
+  "nameJa": "武蔵小山",
+  "nameRomaji": "Musashi-Koyama",
+  "ward": "shinagawa",
+  "wardNameJa": "品川区",
+  "lines": [
+    {
+      "nameJa": "東急目黒線",
+      "nameEn": "Tokyu Meguro Line",
+      "operator": "private"
+    }
+  ],
+  "hasFirstTrain": false,
+  "morningCrowding": 4,
+  "rent": {
+    "oneRoom": 88000,
+    "oneK": 96000,
+    "oneLDK": 168000,
+    "twoLDK": 235000
+  },
+  "commutes": [
+    {
+      "to": "shinjuku",
+      "minutes": 22,
+      "transfers": 1
+    },
+    {
+      "to": "shibuya",
+      "minutes": 15,
+      "transfers": 1
+    },
+    {
+      "to": "tokyo",
+      "minutes": 28,
+      "transfers": 1
+    },
+    {
+      "to": "shinagawa",
+      "minutes": 18,
+      "transfers": 1
+    },
+    {
+      "to": "otemachi",
+      "minutes": 25,
+      "transfers": 0
+    },
+    {
+      "to": "toranomon",
+      "minutes": 26,
+      "transfers": 1
+    },
+    {
+      "to": "roppongi",
+      "minutes": 20,
+      "transfers": 1
+    }
+  ],
+  "scores": {
+    "rentValue": 62,
+    "commute": 82,
+    "transitConvenience": 72,
+    "shopping": 88,
+    "food": 82,
+    "cafe": 68,
+    "nightlife": 55,
+    "safety": 80,
+    "quietness": 62,
+    "family": 78,
+    "singleLife": 80,
+    "internationalFriendliness": 48,
+    "style": 62,
+    "nature": 48,
+    "healthcare": 68,
+    "fitness": 65
+  },
+  "facilities": {
+    "supermarkets": [
+      "東急ストア",
+      "ライフ",
+      "西友"
+    ],
+    "commercial": [
+      "武蔵小山商店街パルム",
+      "パークシティ武蔵小山ザタワー商業区画"
+    ],
+    "notes": "全長約800mのアーケード商店街があり、雨の日でも買い物が完結する。"
+  },
+  "similarStations": [
+    "nakanobu",
+    "oimachi"
+  ],
+  "dataQuality": "seed",
+  "lastReviewedAt": "2026-09-06"
+}

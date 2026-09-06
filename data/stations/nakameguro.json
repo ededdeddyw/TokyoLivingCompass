@@ -1,0 +1,100 @@
+{
+  "slug": "nakameguro",
+  "nameJa": "中目黒",
+  "nameRomaji": "Nakameguro",
+  "ward": "meguro",
+  "wardNameJa": "目黒区",
+  "lines": [
+    {
+      "nameJa": "東急東横線",
+      "nameEn": "Tokyu Toyoko Line",
+      "operator": "private"
+    },
+    {
+      "nameJa": "東京メトロ日比谷線",
+      "nameEn": "Tokyo Metro Hibiya Line",
+      "operator": "tokyo-metro"
+    }
+  ],
+  "hasFirstTrain": true,
+  "morningCrowding": 4,
+  "rent": {
+    "oneRoom": 110000,
+    "oneK": 125000,
+    "oneLDK": 235000,
+    "twoLDK": 340000
+  },
+  "commutes": [
+    {
+      "to": "shinjuku",
+      "minutes": 15,
+      "transfers": 1
+    },
+    {
+      "to": "shibuya",
+      "minutes": 3,
+      "transfers": 0
+    },
+    {
+      "to": "tokyo",
+      "minutes": 24,
+      "transfers": 1
+    },
+    {
+      "to": "shinagawa",
+      "minutes": 20,
+      "transfers": 1
+    },
+    {
+      "to": "otemachi",
+      "minutes": 25,
+      "transfers": 1
+    },
+    {
+      "to": "toranomon",
+      "minutes": 15,
+      "transfers": 0
+    },
+    {
+      "to": "roppongi",
+      "minutes": 8,
+      "transfers": 0
+    }
+  ],
+  "scores": {
+    "rentValue": 32,
+    "commute": 92,
+    "transitConvenience": 72,
+    "shopping": 62,
+    "food": 88,
+    "cafe": 90,
+    "nightlife": 78,
+    "safety": 78,
+    "quietness": 50,
+    "family": 62,
+    "singleLife": 78,
+    "internationalFriendliness": 82,
+    "style": 95,
+    "nature": 60,
+    "healthcare": 62,
+    "fitness": 72
+  },
+  "facilities": {
+    "supermarkets": [
+      "東急ストア",
+      "ピーコックストア",
+      "成城石井"
+    ],
+    "commercial": [
+      "中目黒アトラスタワー商業区画",
+      "中目黒高架下"
+    ],
+    "notes": "目黒川沿いに独立系の飲食店と物販店が並び、家賃は東京の住宅地でも最上位帯。"
+  },
+  "similarStations": [
+    "kiyosumi-shirakawa",
+    "musashi-koyama"
+  ],
+  "dataQuality": "seed",
+  "lastReviewedAt": "2026-09-06"
+}

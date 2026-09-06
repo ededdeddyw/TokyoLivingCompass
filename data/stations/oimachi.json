@@ -1,0 +1,106 @@
+{
+  "slug": "oimachi",
+  "nameJa": "大井町",
+  "nameRomaji": "Oimachi",
+  "ward": "shinagawa",
+  "wardNameJa": "品川区",
+  "lines": [
+    {
+      "nameJa": "JR京浜東北線",
+      "nameEn": "JR Keihin-Tohoku Line",
+      "operator": "jr"
+    },
+    {
+      "nameJa": "東急大井町線",
+      "nameEn": "Tokyu Oimachi Line",
+      "operator": "private"
+    },
+    {
+      "nameJa": "りんかい線",
+      "nameEn": "Rinkai Line",
+      "operator": "private"
+    }
+  ],
+  "hasFirstTrain": false,
+  "morningCrowding": 4,
+  "rent": {
+    "oneRoom": 92000,
+    "oneK": 100000,
+    "oneLDK": 165000,
+    "twoLDK": 225000
+  },
+  "commutes": [
+    {
+      "to": "shinjuku",
+      "minutes": 22,
+      "transfers": 1
+    },
+    {
+      "to": "shibuya",
+      "minutes": 15,
+      "transfers": 1
+    },
+    {
+      "to": "tokyo",
+      "minutes": 18,
+      "transfers": 0
+    },
+    {
+      "to": "shinagawa",
+      "minutes": 6,
+      "transfers": 0
+    },
+    {
+      "to": "otemachi",
+      "minutes": 22,
+      "transfers": 1
+    },
+    {
+      "to": "toranomon",
+      "minutes": 22,
+      "transfers": 1
+    },
+    {
+      "to": "roppongi",
+      "minutes": 30,
+      "transfers": 2
+    }
+  ],
+  "scores": {
+    "rentValue": 70,
+    "commute": 92,
+    "transitConvenience": 88,
+    "shopping": 85,
+    "food": 78,
+    "cafe": 58,
+    "nightlife": 62,
+    "safety": 72,
+    "quietness": 48,
+    "family": 72,
+    "singleLife": 80,
+    "internationalFriendliness": 55,
+    "style": 45,
+    "nature": 50,
+    "healthcare": 72,
+    "fitness": 68
+  },
+  "facilities": {
+    "supermarkets": [
+      "阪急オアシス",
+      "イトーヨーカドー",
+      "西友"
+    ],
+    "commercial": [
+      "アトレ大井町",
+      "阪急大井町ガーデン",
+      "東小路飲食街"
+    ],
+    "notes": "3路線が使え、駅ビルと大型スーパーが揃うため生活が駅前で完結する。"
+  },
+  "similarStations": [
+    "musashi-koyama",
+    "monzen-nakacho"
+  ],
+  "dataQuality": "seed",
+  "lastReviewedAt": "2026-09-06"
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "kiyosumi-shirakawa",
+  "nameJa": "清澄白河",
+  "nameRomaji": "Kiyosumi-Shirakawa",
+  "ward": "koto",
+  "wardNameJa": "江東区",
+  "lines": [
+    {
+      "nameJa": "東京メトロ半蔵門線",
+      "nameEn": "Tokyo Metro Hanzomon Line",
+      "operator": "tokyo-metro"
+    },
+    {
+      "nameJa": "都営大江戸線",
+      "nameEn": "Toei Oedo Line",
+      "operator": "toei"
+    }
+  ],
+  "hasFirstTrain": false,
+  "morningCrowding": 4,
+  "rent": {
+    "oneRoom": 90000,
+    "oneK": 97000,
+    "oneLDK": 158000,
+    "twoLDK": 212000
+  },
+  "commutes": [
+    {
+      "to": "shinjuku",
+      "minutes": 30,
+      "transfers": 0
+    },
+    {
+      "to": "shibuya",
+      "minutes": 25,
+      "transfers": 0
+    },
+    {
+      "to": "tokyo",
+      "minutes": 16,
+      "transfers": 1
+    },
+    {
+      "to": "shinagawa",
+      "minutes": 29,
+      "transfers": 1
+    },
+    {
+      "to": "otemachi",
+      "minutes": 10,
+      "transfers": 0
+    },
+    {
+      "to": "toranomon",
+      "minutes": 26,
+      "transfers": 1
+    },
+    {
+      "to": "roppongi",
+      "minutes": 24,
+      "transfers": 0
+    }
+  ],
+  "scores": {
+    "rentValue": 65,
+    "commute": 85,
+    "transitConvenience": 72,
+    "shopping": 62,
+    "food": 75,
+    "cafe": 92,
+    "nightlife": 45,
+    "safety": 78,
+    "quietness": 72,
+    "family": 72,
+    "singleLife": 78,
+    "internationalFriendliness": 60,
+    "style": 82,
+    "nature": 68,
+    "healthcare": 60,
+    "fitness": 50
+  },
+  "facilities": {
+    "supermarkets": [
+      "マルエツプチ",
+      "赤札堂",
+      "まいばすけっと"
+    ],
+    "commercial": [
+      "東京都現代美術館",
+      "清澄庭園周辺のカフェ群"
+    ],
+    "notes": "サードウェーブ系のロースターが集積し、カフェの密度は都内でも突出している。"
+  },
+  "similarStations": [
+    "monzen-nakacho",
+    "morishita"
+  ],
+  "dataQuality": "seed",
+  "lastReviewedAt": "2026-09-06"
+}

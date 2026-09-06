@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #14181f;
+  --color-ink-soft: #5b6472;
+  --color-line: #e3e7ec;
+  --color-surface: #ffffff;
+  --color-canvas: #f7f8fa;
+  --color-accent: #1f5f8b;
+  --color-accent-soft: #eaf1f7;
+}
+
+html {
+  background-color: var(--color-canvas);
+  color: var(--color-ink);
+}
+
+body {
+  font-family: system-ui, -apple-system, "Hiragino Kaku Gothic ProN",
+    "Noto Sans JP", "Meiryo", sans-serif;
+}

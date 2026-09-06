@@ -1,0 +1,100 @@
+{
+  "slug": "monzen-nakacho",
+  "nameJa": "門前仲町",
+  "nameRomaji": "Monzen-Nakacho",
+  "ward": "koto",
+  "wardNameJa": "江東区",
+  "lines": [
+    {
+      "nameJa": "東京メトロ東西線",
+      "nameEn": "Tokyo Metro Tozai Line",
+      "operator": "tokyo-metro"
+    },
+    {
+      "nameJa": "都営大江戸線",
+      "nameEn": "Toei Oedo Line",
+      "operator": "toei"
+    }
+  ],
+  "hasFirstTrain": false,
+  "morningCrowding": 5,
+  "rent": {
+    "oneRoom": 92000,
+    "oneK": 99000,
+    "oneLDK": 162000,
+    "twoLDK": 218000
+  },
+  "commutes": [
+    {
+      "to": "shinjuku",
+      "minutes": 28,
+      "transfers": 1
+    },
+    {
+      "to": "shibuya",
+      "minutes": 30,
+      "transfers": 1
+    },
+    {
+      "to": "tokyo",
+      "minutes": 15,
+      "transfers": 1
+    },
+    {
+      "to": "shinagawa",
+      "minutes": 27,
+      "transfers": 1
+    },
+    {
+      "to": "otemachi",
+      "minutes": 8,
+      "transfers": 0
+    },
+    {
+      "to": "toranomon",
+      "minutes": 24,
+      "transfers": 1
+    },
+    {
+      "to": "roppongi",
+      "minutes": 22,
+      "transfers": 0
+    }
+  ],
+  "scores": {
+    "rentValue": 68,
+    "commute": 88,
+    "transitConvenience": 75,
+    "shopping": 72,
+    "food": 85,
+    "cafe": 62,
+    "nightlife": 62,
+    "safety": 75,
+    "quietness": 55,
+    "family": 70,
+    "singleLife": 78,
+    "internationalFriendliness": 55,
+    "style": 60,
+    "nature": 58,
+    "healthcare": 65,
+    "fitness": 55
+  },
+  "facilities": {
+    "supermarkets": [
+      "赤札堂",
+      "マルエツ",
+      "文化堂"
+    ],
+    "commercial": [
+      "富岡八幡宮 門前仲町商店街",
+      "深川不動堂参道"
+    ],
+    "notes": "古くからの門前町で、個人経営の飲食店が非常に多い。"
+  },
+  "similarStations": [
+    "morishita",
+    "kiyosumi-shirakawa"
+  ],
+  "dataQuality": "seed",
+  "lastReviewedAt": "2026-09-06"
+}

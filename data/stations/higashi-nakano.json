@@ -1,0 +1,100 @@
+{
+  "slug": "higashi-nakano",
+  "nameJa": "東中野",
+  "nameRomaji": "Higashi-Nakano",
+  "ward": "nakano",
+  "wardNameJa": "中野区",
+  "lines": [
+    {
+      "nameJa": "JR中央・総武線各駅停車",
+      "nameEn": "JR Chuo-Sobu Line (Local)",
+      "operator": "jr"
+    },
+    {
+      "nameJa": "都営大江戸線",
+      "nameEn": "Toei Oedo Line",
+      "operator": "toei"
+    }
+  ],
+  "hasFirstTrain": false,
+  "morningCrowding": 4,
+  "rent": {
+    "oneRoom": 82000,
+    "oneK": 89000,
+    "oneLDK": 145000,
+    "twoLDK": 195000
+  },
+  "commutes": [
+    {
+      "to": "shinjuku",
+      "minutes": 5,
+      "transfers": 0
+    },
+    {
+      "to": "shibuya",
+      "minutes": 18,
+      "transfers": 1
+    },
+    {
+      "to": "tokyo",
+      "minutes": 25,
+      "transfers": 1
+    },
+    {
+      "to": "shinagawa",
+      "minutes": 30,
+      "transfers": 1
+    },
+    {
+      "to": "otemachi",
+      "minutes": 25,
+      "transfers": 1
+    },
+    {
+      "to": "toranomon",
+      "minutes": 30,
+      "transfers": 2
+    },
+    {
+      "to": "roppongi",
+      "minutes": 20,
+      "transfers": 0
+    }
+  ],
+  "scores": {
+    "rentValue": 82,
+    "commute": 85,
+    "transitConvenience": 65,
+    "shopping": 72,
+    "food": 70,
+    "cafe": 55,
+    "nightlife": 42,
+    "safety": 70,
+    "quietness": 68,
+    "family": 65,
+    "singleLife": 82,
+    "internationalFriendliness": 58,
+    "style": 45,
+    "nature": 52,
+    "healthcare": 62,
+    "fitness": 52
+  },
+  "facilities": {
+    "supermarkets": [
+      "ライフ",
+      "サミットストア",
+      "まいばすけっと"
+    ],
+    "commercial": [
+      "東中野銀座通り",
+      "中野ブロードウェイ（近隣）"
+    ],
+    "notes": "新宿まで1駅だが、駅周辺は繁華街化しておらず住宅地の性格が強い。"
+  },
+  "similarStations": [
+    "sasazuka",
+    "koenji"
+  ],
+  "dataQuality": "seed",
+  "lastReviewedAt": "2026-09-06"
+}

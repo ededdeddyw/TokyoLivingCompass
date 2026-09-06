@@ -1,0 +1,100 @@
+{
+  "slug": "nakanobu",
+  "nameJa": "中延",
+  "nameRomaji": "Nakanobu",
+  "ward": "shinagawa",
+  "wardNameJa": "品川区",
+  "lines": [
+    {
+      "nameJa": "東急大井町線",
+      "nameEn": "Tokyu Oimachi Line",
+      "operator": "private"
+    },
+    {
+      "nameJa": "都営浅草線",
+      "nameEn": "Toei Asakusa Line",
+      "operator": "toei"
+    }
+  ],
+  "hasFirstTrain": false,
+  "morningCrowding": 4,
+  "rent": {
+    "oneRoom": 82000,
+    "oneK": 90000,
+    "oneLDK": 148000,
+    "twoLDK": 200000
+  },
+  "commutes": [
+    {
+      "to": "shinjuku",
+      "minutes": 30,
+      "transfers": 1
+    },
+    {
+      "to": "shibuya",
+      "minutes": 25,
+      "transfers": 1
+    },
+    {
+      "to": "tokyo",
+      "minutes": 27,
+      "transfers": 1
+    },
+    {
+      "to": "shinagawa",
+      "minutes": 16,
+      "transfers": 1
+    },
+    {
+      "to": "otemachi",
+      "minutes": 30,
+      "transfers": 1
+    },
+    {
+      "to": "toranomon",
+      "minutes": 28,
+      "transfers": 1
+    },
+    {
+      "to": "roppongi",
+      "minutes": 32,
+      "transfers": 1
+    }
+  ],
+  "scores": {
+    "rentValue": 82,
+    "commute": 72,
+    "transitConvenience": 62,
+    "shopping": 78,
+    "food": 70,
+    "cafe": 50,
+    "nightlife": 38,
+    "safety": 78,
+    "quietness": 72,
+    "family": 75,
+    "singleLife": 72,
+    "internationalFriendliness": 40,
+    "style": 45,
+    "nature": 45,
+    "healthcare": 62,
+    "fitness": 50
+  },
+  "facilities": {
+    "supermarkets": [
+      "ライフ",
+      "サミットストア",
+      "オオゼキ"
+    ],
+    "commercial": [
+      "中延商店街",
+      "戸越銀座商店街（徒歩圏）"
+    ],
+    "notes": "アーケード商店街が2本あり、日常の買い物は駅前で完結する。"
+  },
+  "similarStations": [
+    "nishimagome",
+    "musashi-koyama"
+  ],
+  "dataQuality": "seed",
+  "lastReviewedAt": "2026-09-06"
+}
