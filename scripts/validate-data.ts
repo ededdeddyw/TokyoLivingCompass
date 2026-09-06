@@ -57,6 +57,12 @@ for (const station of stations) {
 
   if (station.dataQuality === "seed") {
     seedStations.push(station.slug);
+  } else if (!station.sources?.rent) {
+    // 出典のないデータを "reviewed" 以上に昇格させられない
+    // （docs/08-data-sources-rent.md §6）。
+    errors.push(
+      `${station.slug}: dataQuality="${station.dataQuality}" だが sources.rent がありません。`,
+    );
   }
 }
 

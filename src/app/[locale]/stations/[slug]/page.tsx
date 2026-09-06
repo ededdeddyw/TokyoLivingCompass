@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { RentSourceNote } from "@/components/RentSourceNote";
 import { ScoreGrid } from "@/components/ScoreGrid";
 import { SeedNotice } from "@/components/SeedNotice";
 import { getDictionary } from "@/lib/dictionaries";
@@ -107,6 +108,7 @@ export default async function StationPage({
             </div>
           ))}
         </dl>
+        <RentSourceNote source={station.sources?.rent} dict={dict} />
       </Section>
 
       <Section title={dict.station.commute}>

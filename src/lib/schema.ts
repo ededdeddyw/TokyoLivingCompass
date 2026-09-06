@@ -70,6 +70,41 @@ export const scoresSchema = z.object(
   >,
 );
 
+/**
+ * データの出典（docs/08-data-sources-rent.md）。
+ * basis は「何の家賃か」。混同すると出典を揃えても数字が合わない。
+ *   asking     = 募集賃料（これから借りる人が直面する額。成約額より高めに出る）
+ *   contracted = 成約賃料
+ *   paid       = 支払家賃（既存契約を含むため低めに出る）
+ */
+/**
+ * 代表値の算出方法。自由記述にすると多言語で表示できないため ID にする。
+ * 表示ラベルは src/lib/dictionaries.ts。
+ *   vendor-station-area  = ベンダーが駅の範囲で集計した値をそのまま使う
+ *   radius-800m-weighted = 駅から半径800mの町丁を戸数加重平均（docs/08-data-sources-rent.md §4）
+ *   manual               = 手集計
+ */
+export const RENT_METHODS = [
+  "vendor-station-area",
+  "radius-800m-weighted",
+  "manual",
+] as const;
+export type RentMethod = (typeof RENT_METHODS)[number];
+
+export const rentSourceSchema = z.object({
+  name: z.string().min(1),
+  url: z.string().url().optional(),
+  basis: z.enum(["asking", "contracted", "paid"]),
+  statistic: z.enum(["median", "mean"]),
+  retrievedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+  method: z.enum(RENT_METHODS).optional(),
+  sampleSize: z.number().int().positive().optional(),
+});
+
+export const sourcesSchema = z.object({
+  rent: rentSourceSchema.optional(),
+});
+
 export const facilitiesSchema = z.object({
   supermarkets: z.array(z.string()),
   commercial: z.array(z.string()),
@@ -94,6 +129,11 @@ export const stationSchema = z.object({
   facilities: facilitiesSchema,
   similarStations: z.array(z.string()),
   /**
+   * 出典。dataQuality を "seed" から上げるには sources.rent が必須
+   * （scripts/validate-data.ts で検証）。
+   */
+  sources: sourcesSchema.optional(),
+  /**
    * seed     = 推定値。公開してはならない（docs/05-seo.md §3）
    * reviewed = 一次データに紐づけ、人間が確認済み
    * verified = 出典つきで検証済み
@@ -107,6 +147,8 @@ export type Line = z.infer<typeof lineSchema>;
 export type Rent = z.infer<typeof rentSchema>;
 export type Commute = z.infer<typeof commuteSchema>;
 export type Scores = z.infer<typeof scoresSchema>;
+export type RentSource = z.infer<typeof rentSourceSchema>;
+export type Sources = z.infer<typeof sourcesSchema>;
 
 export const stationContentSchema = z.object({
   slug: z.string().min(1),

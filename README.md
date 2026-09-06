@@ -23,6 +23,9 @@ Phase 0（土台）が完了。動く形で以下が揃っている。
 > 家賃・所要時間・スコア・在住者コメントのいずれも、公開前に実データへ差し替える必要がある。
 > seed のあいだは駅ページが `noindex` になり、sitemap にも載らないよう実装してある。
 > 次にやることは [docs/06-roadmap.md](./docs/06-roadmap.md) の Phase 1。
+> 家賃の出典は調査・決定済み（[docs/08-data-sources-rent.md](./docs/08-data-sources-rent.md)）。
+> 出典を記録する `sources.rent` と駅ページでの出典表示は実装済みで、
+> 出典のないデータは `reviewed` に昇格できないようビルドで縛ってある。
 
 ---
 
@@ -72,6 +75,7 @@ npm run build           # 本番ビルド（全駅ページの静的生成）
 | [docs/05-seo.md](./docs/05-seo.md) | SEO 設計 |
 | [docs/06-roadmap.md](./docs/06-roadmap.md) | ロードマップ |
 | [docs/07-architecture.md](./docs/07-architecture.md) | 技術構成 |
+| [docs/08-data-sources-rent.md](./docs/08-data-sources-rent.md) | 家賃相場データの出典（調査と決定） |
 
 ---
 

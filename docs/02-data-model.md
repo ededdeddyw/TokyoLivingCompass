@@ -61,6 +61,7 @@ data/
 | `scores` | Scores | 16軸スコア（0–100） |
 | `facilities` | Facilities | 周辺施設の実名リスト |
 | `similarStations` | string[] | 似ている駅の slug |
+| `sources` | Sources | 出典。`sources.rent` は `dataQuality` を `seed` から上げるとき必須 |
 | `dataQuality` | `seed` \| `reviewed` \| `verified` | データの検証状態 |
 | `lastReviewedAt` | string (YYYY-MM-DD) | 最終確認日 |
 
@@ -99,6 +100,27 @@ data/
   "notes": "..."   // 任意
 }
 ```
+
+### Sources
+
+出典の記録。詳細は [08-data-sources-rent.md](./08-data-sources-rent.md)。
+
+```jsonc
+{
+  "rent": {
+    "name": "出典名",
+    "url": "https://...",              // 任意
+    "basis": "asking",                 // asking | contracted | paid
+    "statistic": "median",             // median | mean
+    "retrievedAt": "2026-09-06",
+    "method": "radius-800m-weighted",  // 任意。RENT_METHODS の ID
+    "sampleSize": 320                  // 任意
+  }
+}
+```
+
+`basis` は「何の家賃か」を表す。募集賃料・成約賃料・支払家賃は別物なので、
+これを持たないと出典を揃えても数字が合わない。
 
 ---
 

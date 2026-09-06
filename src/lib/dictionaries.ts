@@ -1,5 +1,5 @@
 import type { ActiveLocale } from "./i18n";
-import type { RentType, ScoreAxis } from "./schema";
+import type { RentMethod, RentType, ScoreAxis } from "./schema";
 import type { Grade } from "./scoring";
 import type { WeightPreset } from "./weights";
 
@@ -68,6 +68,13 @@ export type Dictionary = {
   };
   dataQuality: {
     seedWarning: string;
+  };
+  rentSource: {
+    missing: string;
+    askingCaveat: string;
+    basis: Record<"asking" | "contracted" | "paid", string>;
+    statistic: Record<"median" | "mean", string>;
+    method: Record<RentMethod, string>;
   };
   axes: Record<ScoreAxis, string>;
   grades: Record<Grade, string>;
@@ -142,6 +149,21 @@ const ja: Dictionary = {
   dataQuality: {
     seedWarning:
       "このページのデータは開発用の推定値です。出典に基づく確定値ではありません。",
+  },
+  rentSource: {
+    missing: "家賃の出典は未設定です。",
+    askingCaveat: "募集賃料のため、実際の成約額はこれより下がることがあります。",
+    basis: {
+      asking: "募集賃料",
+      contracted: "成約賃料",
+      paid: "支払家賃",
+    },
+    statistic: { median: "中央値", mean: "平均値" },
+    method: {
+      "vendor-station-area": "出典元が駅の範囲で集計した値",
+      "radius-800m-weighted": "駅から半径800mの町丁を戸数で加重平均",
+      manual: "手集計",
+    },
   },
   axes: {
     rentValue: "家賃コスパ",
@@ -264,6 +286,23 @@ const en: Dictionary = {
   dataQuality: {
     seedWarning:
       "The data on this page is a development placeholder, not a sourced figure.",
+  },
+  rentSource: {
+    missing: "No source recorded for these rent figures yet.",
+    askingCaveat:
+      "These are asking rents; the rent actually agreed is often lower.",
+    basis: {
+      asking: "Asking rent",
+      contracted: "Contracted rent",
+      paid: "Rent currently paid",
+    },
+    statistic: { median: "median", mean: "mean" },
+    method: {
+      "vendor-station-area": "Aggregated by the source over the station area",
+      "radius-800m-weighted":
+        "Weighted average of districts within 800m of the station",
+      manual: "Compiled by hand",
+    },
   },
   axes: {
     rentValue: "Rent value",
