@@ -76,6 +76,29 @@ export type Dictionary = {
     winner: string;
     tie: string;
   };
+  depth: {
+    heading: string;
+    faces: string;
+    morning: string;
+    daytime: string;
+    night: string;
+    weekend: string;
+    terrain: string;
+    slope: Record<"flat" | "some" | "hilly", string>;
+    noiseSources: string;
+    groceries: string;
+    tier: Record<"discount" | "standard" | "premium", string>;
+    walkMinutes: string;
+    residents: string;
+    housingStock: string;
+    hazards: string;
+    stationNote: string;
+    nightWalk: string;
+    rentReason: string;
+    neighbours: string;
+    outlook: string;
+    unwritten: string;
+  };
   dataQuality: {
     seedWarning: string;
     notAvailable: string;
@@ -170,6 +193,29 @@ const ja: Dictionary = {
     heading: "駅を比べる",
     winner: "優位",
     tie: "同等",
+  },
+  depth: {
+    heading: "住むと分かること",
+    faces: "時間帯で変わる街の顔",
+    morning: "朝",
+    daytime: "昼",
+    night: "夜",
+    weekend: "週末",
+    terrain: "坂・高低差",
+    slope: { flat: "ほぼ平坦", some: "坂がある", hilly: "起伏が大きい" },
+    noiseSources: "音が気になりうる場所",
+    groceries: "日常の買い物",
+    tier: { discount: "安い", standard: "標準", premium: "高い" },
+    walkMinutes: "徒歩",
+    residents: "住んでいる人の層",
+    housingStock: "物件の傾向",
+    hazards: "災害リスク",
+    stationNote: "駅の使い勝手",
+    nightWalk: "夜の帰り道",
+    rentReason: "家賃がこの水準である理由",
+    neighbours: "隣の駅との使い分け",
+    outlook: "これからどう変わるか",
+    unwritten: "未記入",
   },
   dataQuality: {
     seedWarning:
@@ -324,6 +370,29 @@ const en: Dictionary = {
     winner: "Better",
     tie: "Even",
   },
+  depth: {
+    heading: "What you only learn by living there",
+    faces: "How the area changes through the day",
+    morning: "Morning",
+    daytime: "Daytime",
+    night: "Night",
+    weekend: "Weekend",
+    terrain: "Slopes",
+    slope: { flat: "Mostly flat", some: "Some slopes", hilly: "Hilly" },
+    noiseSources: "Possible sources of noise",
+    groceries: "Everyday shopping",
+    tier: { discount: "Cheap", standard: "Standard", premium: "Upmarket" },
+    walkMinutes: "walk",
+    residents: "Who lives here",
+    housingStock: "What the housing is like",
+    hazards: "Disaster risk",
+    stationNote: "Using the station",
+    nightWalk: "Walking home at night",
+    rentReason: "Why rent sits where it does",
+    neighbours: "When a neighbouring station is better",
+    outlook: "How it is changing",
+    unwritten: "Not written yet",
+  },
   dataQuality: {
     seedWarning:
       "The data on this page is a development placeholder, not a sourced figure.",
@@ -407,7 +476,10 @@ const en: Dictionary = {
   },
 };
 
-const DICTIONARIES: Record<ActiveLocale, Dictionary> = { ja, en };
+// en は多言語展開の再開まで使わない。定義は残しておく（docs/04-i18n.md §0）。
+void en;
+
+const DICTIONARIES: Record<ActiveLocale, Dictionary> = { ja };
 
 export function getDictionary(locale: ActiveLocale): Dictionary {
   return DICTIONARIES[locale];

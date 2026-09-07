@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 
 import { RentSourceNote } from "@/components/RentSourceNote";
 import { ScoreGrid } from "@/components/ScoreGrid";
+import { StationDepth } from "@/components/StationDepth";
 import { SeedNotice } from "@/components/SeedNotice";
 import { getDictionary } from "@/lib/dictionaries";
 import { formatYen } from "@/lib/format";
@@ -75,6 +76,13 @@ export default async function StationPage({
     station.morningCrowding === undefined
       ? dict.dataQuality.notAvailable
       : dict.crowdingLevels[station.morningCrowding as 1 | 2 | 3 | 4 | 5];
+
+  // 隣接駅の表示名を先に解決しておく（コンポーネント側でデータを取りに行かせない）。
+  const neighbourNames: Record<string, string> = {};
+  for (const n of station.content.neighbours ?? []) {
+    const other = getLocalizedStation(n.slug, locale);
+    if (other) neighbourNames[n.slug] = other.content.name;
+  }
 
   const similar = station.similarStations
     .map((s) => getLocalizedStation(s, locale as ActiveLocale))
@@ -202,6 +210,12 @@ export default async function StationPage({
           </ul>
         </Section>
       </div>
+
+      <StationDepth
+        content={station.content}
+        dict={dict}
+        neighbourNames={neighbourNames}
+      />
 
       <Section title={dict.station.residentComment}>
         <blockquote className="rounded-md border-l-4 border-accent bg-accent-soft px-5 py-4 leading-relaxed text-ink">

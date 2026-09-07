@@ -1,5 +1,5 @@
 import { ACTIVE_LOCALES, isActiveLocale } from "../src/lib/i18n";
-import { OFFICE_HUBS, SCORE_AXES } from "../src/lib/schema";
+import { DEPTH_FIELDS, depthFilled, OFFICE_HUBS, SCORE_AXES } from "../src/lib/schema";
 import {
   getAllStations,
   getLines,
@@ -165,6 +165,18 @@ for (const locale of ACTIVE_LOCALES) {
   layers.push([`コンテンツ（${locale}）`, listContentSlugs(locale).filter((x) => slugs.has(x)).length]);
 }
 
+// 日本語コンテンツの「深さ」。既存のまとめ記事に勝てるかはここで決まる
+// （docs/12-quality-standard.md）。
+const jaContents = listContentSlugs("ja")
+  .filter((x) => slugs.has(x))
+  .map((slug) => ({ slug, content: getStationContent(slug, "ja")! }))
+  .filter((x) => x.content);
+
+const complete = jaContents.filter(
+  (x) => depthFilled(x.content).length === DEPTH_FIELDS.length,
+);
+layers.push([`深さ12層すべて（ja）`, complete.length]);
+
 console.log(
   `ロースター: ${total}駅 / 路線: ${lines.size} / ロケール: ${ACTIVE_LOCALES.join(", ")}\n`,
 );
@@ -173,6 +185,23 @@ for (const [label, n] of layers) {
   console.log(`  ${label.padEnd(22)} ${bar(n)} ${String(n).padStart(3)}/${total} ${pct(n)}`);
 }
 console.log();
+
+if (jaContents.length > 0) {
+  console.log("日本語コンテンツの深さ（12層中いくつ書けているか）");
+  const sorted = [...jaContents].sort(
+    (a, b) => depthFilled(b.content).length - depthFilled(a.content).length,
+  );
+  for (const { slug, content } of sorted) {
+    const filled = depthFilled(content);
+    const missing = DEPTH_FIELDS.filter((f) => !filled.includes(f));
+    const mark = filled.length === DEPTH_FIELDS.length ? "完成" : `${filled.length}/12`;
+    console.log(
+      `  ${content.name.padEnd(10)} ${mark.padStart(5)}` +
+        (missing.length > 0 && missing.length <= 4 ? `  未: ${missing.join(", ")}` : ""),
+    );
+  }
+  console.log();
+}
 
 if (seedStations.length > 0) {
   warnings.push(

@@ -23,6 +23,10 @@ Phase 0（土台）が完了。動く形で以下が揃っている。
 方針として **443駅すべてを詳細データにする**。データは層ごとに順に埋めていく設計で、
 `npm run validate:data` が毎回、層別の充足率を表示する。計画は
 [docs/11-all-stations-plan.md](./docs/11-all-stations-plan.md)。
+
+**まず日本語で作り切る。多言語展開はそのあと。** 既存の不動産まとめ記事に対する優位は
+「深さ」でしか作れず、浅い記事を13言語に翻訳しても勝ち筋にならないため。
+何を書けば完成なのかは [docs/12-quality-standard.md](./docs/12-quality-standard.md)。
 - スキーマ定義とデータ検証
 - 設計ドキュメント一式
 
@@ -62,16 +66,16 @@ npm run build           # 本番ビルド（全駅ページの静的生成）
 | `/ja` `/en` | トップ |
 | `/{locale}/roster` | 掲載候補の全443駅。区ごとに並び、路線でしぼれる |
 | `/{locale}/stations` | 詳細ページのある駅の一覧。`?view=family` などで評価の視点を切り替えるとランキングが変わる |
-| `/{locale}/stations/{slug}` | 駅ページ。16軸スコア、家賃、通勤、在住者コメント |
+| `/{locale}/stations/{slug}` | 駅ページ。16軸スコア、家賃、通勤、深さ12層、在住者コメント |
 | `/{locale}/compare/{a}-vs-{b}` | 駅比較 |
 | `/{locale}/work/{office}` | 勤務先起点の逆引き検索。条件は全て URL クエリに載る |
 
 例:
 
+- `/ja/stations/kiyosumi-shirakawa` — 深さ12層を満たした実例
 - `/ja/stations?view=quiet`
-- `/ja/stations/kiyosumi-shirakawa`
-- `/ja/compare/koenji-vs-higashi-nakano`
-- `/en/work/toranomon?rentType=oneLDK&maxRent=170000&maxMinutes=30&view=quiet`
+- `/ja/compare/kiyosumi-shirakawa-vs-morishita`
+- `/ja/work/toranomon?rentType=oneLDK&maxRent=170000&maxMinutes=30&view=quiet`
 
 ---
 
@@ -91,6 +95,7 @@ npm run build           # 本番ビルド（全駅ページの静的生成）
 | [docs/09-station-roster.md](./docs/09-station-roster.md) | 全443駅の洗い出し方と出典 |
 | [docs/10-commute-estimation.md](./docs/10-commute-estimation.md) | 所要時間の計算方法と精度・限界 |
 | [docs/11-all-stations-plan.md](./docs/11-all-stations-plan.md) | 443駅を全部埋めるための計画と数量 |
+| [docs/12-quality-standard.md](./docs/12-quality-standard.md) | 駅ページの品質基準。「完成」の定義 |
 
 ---
 

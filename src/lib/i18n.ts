@@ -1,10 +1,17 @@
 /** ロケール定義の単一の正（docs/04-i18n.md）。 */
 
-/** 実運用中のロケール。ページ生成とサイトマップの対象になる。 */
-export const ACTIVE_LOCALES = ["ja", "en"] as const;
+/**
+ * 実運用中のロケール。ページ生成とサイトマップの対象になる。
+ *
+ * 当面は日本語のみ。既存の不動産まとめ記事に対する優位は「深さ」でしか作れず、
+ * まず日本語で作り切ってから多言語へ展開する（docs/04-i18n.md §0）。
+ * 英語を含む他言語は構造としては対応済みで、日本語が仕上がった駅から順に開く。
+ */
+export const ACTIVE_LOCALES = ["ja"] as const;
 
 /** 構造として対応済みで、コンテンツ整備を待っているロケール。 */
 export const PLANNED_LOCALES = [
+  "en",
   "zh-Hans",
   "zh-Hant",
   "ko",
@@ -24,10 +31,10 @@ export const LOCALES = [...ACTIVE_LOCALES, ...PLANNED_LOCALES] as const;
 export type Locale = (typeof LOCALES)[number];
 export type ActiveLocale = (typeof ACTIVE_LOCALES)[number];
 
-export const DEFAULT_LOCALE: ActiveLocale = "en";
+export const DEFAULT_LOCALE: ActiveLocale = "ja";
 
-/** hreflang の x-default が指すロケール。 */
-export const X_DEFAULT_LOCALE: ActiveLocale = "en";
+/** hreflang の x-default が指すロケール。多言語展開時に en へ戻す。 */
+export const X_DEFAULT_LOCALE: ActiveLocale = "ja";
 
 export const LOCALE_LABELS: Record<Locale, string> = {
   ja: "日本語",

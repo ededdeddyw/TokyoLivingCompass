@@ -199,25 +199,127 @@ export type Facilities = z.infer<typeof facilitiesSchema>;
 export type RentSource = z.infer<typeof rentSourceSchema>;
 export type Sources = z.infer<typeof sourcesSchema>;
 
+/**
+ * 駅の散文（data/content/{locale}/{slug}.json）。
+ *
+ * 既存の不動産まとめ記事が答えていない項目を、駅どうしで比較できる形に構造化する。
+ * 「駅前にスーパーがあり便利です」で終わらせないための型である。
+ * 何を書けば完成なのかは docs/12-quality-standard.md。
+ *
+ * tagline から notFor までが必須。それ以外は分かったものから足す。
+ */
+
+/** 時間帯で街の顔は変わる。夜だけ見て決めて後悔する、が最も多い失敗。 */
+export const dayFacesSchema = z.object({
+  morning: z.string().min(1),
+  daytime: z.string().min(1),
+  night: z.string().min(1),
+  weekend: z.string().min(1),
+});
+
+/** 坂と高低差。自転車が使えるか、ベビーカーを押せるかが変わる。 */
+export const terrainSchema = z.object({
+  slope: z.enum(["flat", "some", "hilly"]),
+  note: z.string().min(1),
+});
+
+/**
+ * スーパーの価格帯。同じ「スーパーが2軒」でも、
+ * 業務スーパーとオオゼキと成城石井では生活コストがまるで違う。
+ */
+export const groceryStoreSchema = z.object({
+  name: z.string().min(1),
+  tier: z.enum(["discount", "standard", "premium"]),
+  walkMinutes: z.number().int().min(0).max(30),
+  note: z.string().optional(),
+});
+
+/** 隣接駅との使い分け。「この用途なら隣の駅のほうがいい」を正直に書く。 */
+export const neighbourNoteSchema = z.object({
+  slug: z.string().min(1),
+  note: z.string().min(1),
+});
+
 export const stationContentSchema = z.object({
   slug: z.string().min(1),
   locale: z.string().min(1),
   name: z.string().min(1),
+
+  // --- 必須 ---
   tagline: z.string().min(1),
   summary: z.string().min(1),
   goodFor: z.array(z.string()).min(1),
   notFor: z.array(z.string()).min(1),
+
+  // --- 深さを作る層。分かったものから足す ---
+  /** 時間帯別の街の顔 */
+  faces: dayFacesSchema.optional(),
+  /** 坂・高低差 */
+  terrain: terrainSchema.optional(),
+  /** 騒音源。線路沿い、幹線道路、繁華街、学校など */
+  noiseSources: z.array(z.string()).optional(),
+  /** 日常の買い物先。価格帯と徒歩分数つき */
+  groceries: z.array(groceryStoreSchema).optional(),
+  /** 住民層 */
+  residents: z.string().optional(),
+  /** 物件の傾向。築年数、構造、間取りの偏り */
+  housingStock: z.string().optional(),
+  /** 災害リスク。浸水想定、木造密集など */
+  hazards: z.string().optional(),
+  /** 駅そのものの使い勝手。ホームの深さ、改札の位置、乗換の実際 */
+  stationNote: z.string().optional(),
+  /** 夜の帰り道 */
+  nightWalk: z.string().optional(),
+  /** 家賃が相場より高い／安い理由 */
+  rentReason: z.string().optional(),
+  /** 隣接駅との使い分け */
+  neighbours: z.array(neighbourNoteSchema).optional(),
+  /** 5年後の見通し。再開発、路線延伸など */
+  outlook: z.string().optional(),
+
   /** 東京在住者コメント。公開版は人間が書く（docs/02-data-model.md §4） */
   residentComment: z.string().min(1),
   /**
-   * human           = 人間が書いた（公開できる）
-   * ai-localized    = 日本語マスターから AI がローカライズし、人間がレビュー済み
+   * human            = 人間が書いた（公開できる）
+   * ai-localized     = 日本語マスターから AI がローカライズし、人間がレビュー済み
    * seed-placeholder = 開発用の仮テキスト。公開してはならない
+   * draft            = 構成は書けているが、事実確認が済んでいない
    */
-  authoredBy: z.enum(["human", "ai-localized", "seed-placeholder"]),
+  authoredBy: z.enum(["human", "ai-localized", "seed-placeholder", "draft"]),
 });
 
+/** 深さを作る層のキー。充足率の計測と品質判定に使う。 */
+export const DEPTH_FIELDS = [
+  "faces",
+  "terrain",
+  "noiseSources",
+  "groceries",
+  "residents",
+  "housingStock",
+  "hazards",
+  "stationNote",
+  "nightWalk",
+  "rentReason",
+  "neighbours",
+  "outlook",
+] as const;
+
+export type DepthField = (typeof DEPTH_FIELDS)[number];
+
 export type StationContent = z.infer<typeof stationContentSchema>;
+export type DayFaces = z.infer<typeof dayFacesSchema>;
+export type Terrain = z.infer<typeof terrainSchema>;
+export type GroceryStore = z.infer<typeof groceryStoreSchema>;
+export type NeighbourNote = z.infer<typeof neighbourNoteSchema>;
+
+/** その駅の日本語コンテンツが、深さの層をいくつ満たしているか。 */
+export function depthFilled(content: StationContent): DepthField[] {
+  return DEPTH_FIELDS.filter((field) => {
+    const value = content[field];
+    if (value === undefined) return false;
+    return Array.isArray(value) ? value.length > 0 : true;
+  });
+}
 
 /** 駅マスタと、あるロケールの散文を結合したもの。ページはこの形で受け取る。 */
 export type LocalizedStation = Station & { content: StationContent };
