@@ -1,5 +1,5 @@
 import { ACTIVE_LOCALES, isActiveLocale } from "../src/lib/i18n";
-import { OFFICE_HUBS } from "../src/lib/schema";
+import { OFFICE_HUBS, SCORE_AXES } from "../src/lib/schema";
 import {
   getAllStations,
   getLines,
@@ -38,11 +38,11 @@ for (const station of stations) {
     }
   }
 
-  // 全オフィス駅への commutes を持つか（欠損があると逆引き検索から漏れる）
+  // 全オフィス駅への所要時間があるか（欠損があると逆引き検索から漏れる）
   const covered = new Set(station.commutes.map((c) => c.to));
   for (const office of OFFICE_HUBS) {
     if (!covered.has(office)) {
-      errors.push(`${station.slug}: commutes に "${office}" がありません。`);
+      errors.push(`${station.slug}: 所要時間に "${office}" がありません。`);
     }
   }
   if (station.commutes.length !== new Set(station.commutes.map((c) => c.to)).size) {
@@ -50,14 +50,18 @@ for (const station of stations) {
   }
 
   // 家賃の大小関係（間取りが広いほど高い、が崩れていたら入力ミスの可能性が高い）
-  const { oneRoom, oneK, oneLDK, twoLDK } = station.rent;
-  if (!(oneRoom <= oneK && oneK <= oneLDK && oneLDK <= twoLDK)) {
-    errors.push(
-      `${station.slug}: 家賃の大小関係が不自然です (1R ${oneRoom} / 1K ${oneK} / 1LDK ${oneLDK} / 2LDK ${twoLDK})。`,
-    );
+  if (station.rent) {
+    const { oneRoom, oneK, oneLDK, twoLDK } = station.rent;
+    if (!(oneRoom <= oneK && oneK <= oneLDK && oneLDK <= twoLDK)) {
+      errors.push(
+        `${station.slug}: 家賃の大小関係が不自然です (1R ${oneRoom} / 1K ${oneK} / 1LDK ${oneLDK} / 2LDK ${twoLDK})。`,
+      );
+    }
   }
 
-  if (station.dataQuality === "seed") {
+  if (station.dataQuality === "roster") {
+    // プロフィール未作成。エラーではない。
+  } else if (station.dataQuality === "seed") {
     seedStations.push(station.slug);
   } else if (!station.sources?.rent) {
     // 出典のないデータを "reviewed" 以上に昇格させられない
@@ -139,31 +143,40 @@ for (const locale of listContentLocales()) {
   }
 }
 
-// 各ロケールのカバレッジ
+// 充足率レポート。443駅を段階的に埋めていくので、
+// 「いま何がどれだけ埋まっているか」が一目で分かる形にする。
+const total = stations.length;
+const pct = (n: number) => `${Math.round((n / total) * 100)}%`.padStart(4);
+const bar = (n: number) => {
+  const filled = Math.round((n / total) * 24);
+  return "\u2588".repeat(filled) + "\u2591".repeat(24 - filled);
+};
+
+const layers: [string, number][] = [
+  ["所在区・路線", stations.length],
+  ["所要時間（計算）", stations.filter((s) => s.commutes.length === OFFICE_HUBS.length).length],
+  ["朝の混雑・始発", stations.filter((s) => s.morningCrowding !== undefined).length],
+  ["家賃", stations.filter((s) => s.rent !== undefined).length],
+  ["スコア（1軸以上）", stations.filter((s) => Object.keys(s.scores).length > 0).length],
+  ["スコア（16軸すべて）", stations.filter((s) => Object.keys(s.scores).length === SCORE_AXES.length).length],
+  ["周辺施設", stations.filter((s) => s.facilities !== undefined).length],
+];
 for (const locale of ACTIVE_LOCALES) {
-  const covered = new Set(listContentSlugs(locale));
-  const missing = stations.filter((s) => !covered.has(s.slug)).map((s) => s.slug);
-  if (missing.length > 0) {
-    warnings.push(
-      `locale "${locale}" の未翻訳: ${missing.join(", ")}（これらの駅ページは生成されません）`,
-    );
-  }
+  layers.push([`コンテンツ（${locale}）`, listContentSlugs(locale).filter((x) => slugs.has(x)).length]);
 }
 
 console.log(
-  `ロースター: ${roster.length}駅 / 路線: ${lines.size} / ` +
-    `詳細プロフィール: ${stations.length}駅 / ロケール: ${ACTIVE_LOCALES.join(", ")}`,
+  `ロースター: ${total}駅 / 路線: ${lines.size} / ロケール: ${ACTIVE_LOCALES.join(", ")}\n`,
 );
-
-const profiled = new Set(stations.map((s) => s.slug));
-warnings.push(
-  `ロースター ${roster.length}駅のうち、詳細プロフィールがあるのは ${profiled.size}駅` +
-    `（残り ${roster.length - profiled.size}駅は駅名・所在区・路線のみ）`,
-);
+console.log("データ充足率");
+for (const [label, n] of layers) {
+  console.log(`  ${label.padEnd(22)} ${bar(n)} ${String(n).padStart(3)}/${total} ${pct(n)}`);
+}
+console.log();
 
 if (seedStations.length > 0) {
   warnings.push(
-    `${seedStations.length}駅が dataQuality="seed"（推定値。公開不可・docs/05-seo.md §3）: ${seedStations.join(", ")}`,
+    `${seedStations.length}駅が dataQuality="seed"（推定値。公開不可・docs/05-seo.md §3）`,
   );
 }
 if (placeholderContent.length > 0) {

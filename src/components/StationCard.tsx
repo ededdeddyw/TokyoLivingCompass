@@ -16,7 +16,7 @@ export function StationCard({
   station: LocalizedStation;
   locale: ActiveLocale;
   dict: Dictionary;
-  overall: number;
+  overall: number | null;
   rentType?: RentType;
   footnote?: string;
 }) {
@@ -35,7 +35,10 @@ export function StationCard({
           )}
         </h3>
         <span className="shrink-0 text-sm tabular-nums text-ink-soft">
-          {dict.station.overall} <strong className="text-ink">{overall.toFixed(1)}</strong>
+          {dict.station.overall}{" "}
+          <strong className="text-ink">
+            {overall === null ? dict.dataQuality.notAvailable : overall.toFixed(1)}
+          </strong>
         </span>
       </div>
 
@@ -44,8 +47,10 @@ export function StationCard({
       </p>
 
       <p className="mt-3 text-sm tabular-nums text-ink-soft">
-        {dict.rentTypes[rentType]} {formatYen(station.rent[rentType], locale)}
-        {dict.station.perMonth}
+        {dict.rentTypes[rentType]}{" "}
+        {station.rent
+          ? `${formatYen(station.rent[rentType], locale)}${dict.station.perMonth}`
+          : dict.dataQuality.notAvailable}
       </p>
 
       {footnote && <p className="mt-2 text-sm text-accent">{footnote}</p>}

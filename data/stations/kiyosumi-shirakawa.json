@@ -1,13 +1,5 @@
 {
   "slug": "kiyosumi-shirakawa",
-  "nameJa": "清澄白河",
-  "nameRomaji": "Kiyosumi-Shirakawa",
-  "ward": "koto",
-  "wardNameJa": "江東区",
-  "lineIds": [
-    "28008",
-    "99301"
-  ],
   "hasFirstTrain": false,
   "morningCrowding": 4,
   "rent": {
@@ -16,43 +8,6 @@
     "oneLDK": 158000,
     "twoLDK": 212000
   },
-  "commutes": [
-    {
-      "to": "shinjuku",
-      "minutes": 30,
-      "transfers": 0
-    },
-    {
-      "to": "shibuya",
-      "minutes": 25,
-      "transfers": 0
-    },
-    {
-      "to": "tokyo",
-      "minutes": 16,
-      "transfers": 1
-    },
-    {
-      "to": "shinagawa",
-      "minutes": 29,
-      "transfers": 1
-    },
-    {
-      "to": "otemachi",
-      "minutes": 10,
-      "transfers": 0
-    },
-    {
-      "to": "toranomon",
-      "minutes": 26,
-      "transfers": 1
-    },
-    {
-      "to": "roppongi",
-      "minutes": 24,
-      "transfers": 0
-    }
-  ],
   "scores": {
     "rentValue": 65,
     "commute": 85,

@@ -1,13 +1,5 @@
 {
   "slug": "sasazuka",
-  "nameJa": "笹塚",
-  "nameRomaji": "Sasazuka",
-  "ward": "shibuya",
-  "wardNameJa": "渋谷区",
-  "lineIds": [
-    "24001",
-    "24007"
-  ],
   "hasFirstTrain": true,
   "morningCrowding": 4,
   "rent": {
@@ -16,43 +8,6 @@
     "oneLDK": 152000,
     "twoLDK": 205000
   },
-  "commutes": [
-    {
-      "to": "shinjuku",
-      "minutes": 5,
-      "transfers": 0
-    },
-    {
-      "to": "shibuya",
-      "minutes": 18,
-      "transfers": 1
-    },
-    {
-      "to": "tokyo",
-      "minutes": 25,
-      "transfers": 1
-    },
-    {
-      "to": "shinagawa",
-      "minutes": 30,
-      "transfers": 1
-    },
-    {
-      "to": "otemachi",
-      "minutes": 25,
-      "transfers": 1
-    },
-    {
-      "to": "toranomon",
-      "minutes": 28,
-      "transfers": 2
-    },
-    {
-      "to": "roppongi",
-      "minutes": 22,
-      "transfers": 1
-    }
-  ],
   "scores": {
     "rentValue": 80,
     "commute": 85,

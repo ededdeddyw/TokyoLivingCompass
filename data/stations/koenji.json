@@ -1,13 +1,5 @@
 {
   "slug": "koenji",
-  "nameJa": "高円寺",
-  "nameRomaji": "Koenji",
-  "ward": "suginami",
-  "wardNameJa": "杉並区",
-  "lineIds": [
-    "11312",
-    "11313"
-  ],
   "hasFirstTrain": false,
   "morningCrowding": 5,
   "rent": {
@@ -16,43 +8,6 @@
     "oneLDK": 142000,
     "twoLDK": 190000
   },
-  "commutes": [
-    {
-      "to": "shinjuku",
-      "minutes": 8,
-      "transfers": 0
-    },
-    {
-      "to": "shibuya",
-      "minutes": 20,
-      "transfers": 1
-    },
-    {
-      "to": "tokyo",
-      "minutes": 22,
-      "transfers": 0
-    },
-    {
-      "to": "shinagawa",
-      "minutes": 32,
-      "transfers": 1
-    },
-    {
-      "to": "otemachi",
-      "minutes": 27,
-      "transfers": 1
-    },
-    {
-      "to": "toranomon",
-      "minutes": 33,
-      "transfers": 2
-    },
-    {
-      "to": "roppongi",
-      "minutes": 26,
-      "transfers": 1
-    }
-  ],
   "scores": {
     "rentValue": 85,
     "commute": 82,

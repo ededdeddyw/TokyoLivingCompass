@@ -8,7 +8,7 @@ import { formatYen } from "@/lib/format";
 import { ACTIVE_LOCALES, isActiveLocale } from "@/lib/i18n";
 import { OFFICE_HUBS, RENT_TYPES, type OfficeHub, type RentType } from "@/lib/schema";
 import { rankStations } from "@/lib/scoring";
-import { getLocalizedStations } from "@/lib/stations";
+import { getAllStations, getStationContent } from "@/lib/stations";
 import { isWeightPreset, PRESET_WEIGHTS, WEIGHT_PRESETS, type WeightPreset } from "@/lib/weights";
 
 /** 既定の検索条件。指定がなければこれで結果を出す（空の入力フォームを見せない）。 */
@@ -90,8 +90,10 @@ export default async function WorkPage({
   const preset =
     query.view && isWeightPreset(query.view) ? query.view : DEFAULTS.preset;
 
-  const stations = getLocalizedStations(locale);
-  const results = rankStations(stations, {
+  // 443駅すべてを対象に判定する。そうしないと「家賃が未取得で判定できなかった駅」を
+  // 数えられず、候補が少ない理由が利用者に伝わらない。
+  const stations = getAllStations();
+  const { results: ranked, excludedForMissingRent } = rankStations(stations, {
     office,
     maxRent,
     rentType,
@@ -100,8 +102,14 @@ export default async function WorkPage({
     weights: PRESET_WEIGHTS[preset],
   });
 
+  // 表示できるのはその言語のコンテンツがある駅だけ（docs/04-i18n.md §5）。
+  const results = ranked.flatMap((result) => {
+    const content = getStationContent(result.station.slug, locale);
+    return content ? [{ ...result, content }] : [];
+  });
+
   const officeName = dict.offices[office];
-  const hasSeedData = stations.some((s) => s.dataQuality === "seed");
+  const hasSeedData = results.some((r) => r.station.dataQuality === "seed");
 
   const link = (overrides: Partial<Record<keyof SearchParams, string>>) => {
     const next = new URLSearchParams({
@@ -225,6 +233,17 @@ export default async function WorkPage({
           {dict.find.results}（{results.length}）
         </h2>
 
+        {/* 家賃未取得で判定できなかった駅数を必ず出す。
+            候補が少ないのか、データが無いのかを利用者が区別できるようにするため。 */}
+        {excludedForMissingRent > 0 && (
+          <p className="text-sm text-ink-soft">
+            {dict.find.excludedForMissingRent.replace(
+              "{count}",
+              String(excludedForMissingRent),
+            )}
+          </p>
+        )}
+
         {results.length === 0 ? (
           <p className="rounded-md border border-line bg-surface px-5 py-6 text-sm leading-relaxed text-ink-soft">
             {dict.find.noResults}
@@ -232,7 +251,8 @@ export default async function WorkPage({
         ) : (
           <ol className="space-y-3">
             {results.map((result, index) => {
-              const station = result.station as (typeof stations)[number];
+              const station = result.station;
+              const content = result.content;
               return (
                 <li key={station.slug}>
                   <Link
@@ -242,7 +262,7 @@ export default async function WorkPage({
                     <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
                       <h3 className="text-lg font-semibold text-ink">
                         <span className="mr-2 text-ink-soft">{index + 1}.</span>
-                        {station.content.name}
+                        {content.name}
                       </h3>
                       <span className="text-sm tabular-nums text-ink-soft">
                         {dict.find.fit}{" "}
@@ -250,7 +270,7 @@ export default async function WorkPage({
                       </span>
                     </div>
 
-                    <p className="mt-2 text-sm text-ink-soft">{station.content.tagline}</p>
+                    <p className="mt-2 text-sm text-ink-soft">{content.tagline}</p>
 
                     <p className="mt-3 text-sm tabular-nums text-ink-soft">
                       {officeName} {result.minutes} {dict.station.minutes}

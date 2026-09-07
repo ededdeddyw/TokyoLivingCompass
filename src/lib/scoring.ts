@@ -29,11 +29,26 @@ export function gradeSymbol(grade: Grade): string {
   return GRADE_SYMBOLS[grade];
 }
 
-/** 重みつき総合評価。0–10 で返す（表示は小数第1位）。 */
-export function overallScore(station: Station, weights: Weights): number {
+/** スコアが入っている軸だけを返す。443駅ぶんが一度に揃うことはない。 */
+export function ratedAxes(station: Station): ScoreAxis[] {
+  return SCORE_AXES.filter((axis) => station.scores[axis] !== undefined);
+}
+
+/**
+ * 重みつき総合評価。0–10。スコアが1軸も無ければ null。
+ * 入っている軸だけで重みを正規化し直すので、
+ * 「半分しか埋まっていない駅が不当に低く出る」ことがない。
+ */
+export function overallScore(station: Station, weights: Weights): number | null {
+  const axes = ratedAxes(station);
+  if (axes.length === 0) return null;
+
   const w = normalize(weights);
-  const weighted = SCORE_AXES.reduce(
-    (sum, axis) => sum + station.scores[axis] * w[axis],
+  const total = axes.reduce((sum, axis) => sum + w[axis], 0);
+  if (total <= 0) return null;
+
+  const weighted = axes.reduce(
+    (sum, axis) => sum + (station.scores[axis] as number) * (w[axis] / total),
     0,
   );
   return Math.round(weighted) / 10;
@@ -42,21 +57,21 @@ export function overallScore(station: Station, weights: Weights): number {
 export function overallScoreForPreset(
   station: Station,
   preset: WeightPreset,
-): number {
+): number | null {
   return overallScore(station, PRESET_WEIGHTS[preset]);
 }
 
 /** スコアの高い順に軸を返す。「なぜ推すのか」の説明に使う。 */
 export function strongestAxes(station: Station, count: number): ScoreAxis[] {
-  return [...SCORE_AXES]
-    .sort((a, b) => station.scores[b] - station.scores[a])
+  return ratedAxes(station)
+    .sort((a, b) => (station.scores[b] as number) - (station.scores[a] as number))
     .slice(0, count);
 }
 
 /** スコアの低い順に軸を返す。「弱点」の説明に使う。 */
 export function weakestAxes(station: Station, count: number): ScoreAxis[] {
-  return [...SCORE_AXES]
-    .sort((a, b) => station.scores[a] - station.scores[b])
+  return ratedAxes(station)
+    .sort((a, b) => (station.scores[a] as number) - (station.scores[b] as number))
     .slice(0, count);
 }
 
@@ -93,27 +108,46 @@ export type MatchResult = {
  * 制約フィルタ × 重みつきスコア × 通勤ボーナス（docs/03-scoring.md §6）。
  * 制約を満たさない駅は結果に含めない。
  */
+export type RankOutcome = {
+  results: MatchResult[];
+  /** 通勤条件は満たすが、家賃が未取得のため判定できなかった駅数。 */
+  excludedForMissingRent: number;
+};
+
 export function rankStations(
   stations: Station[],
   criteria: SearchCriteria,
-): MatchResult[] {
+): RankOutcome {
   const weights = normalize(criteria.weights);
 
   const results: MatchResult[] = [];
+  let excludedForMissingRent = 0;
 
   for (const station of stations) {
     const commute = commuteTo(station, criteria.office);
     if (!commute) continue;
-
-    const rent = station.rent[criteria.rentType];
-    if (rent > criteria.maxRent) continue;
     if (commute.minutes > criteria.maxMinutes) continue;
     if (commute.transfers > criteria.maxTransfers) continue;
 
-    const weighted = SCORE_AXES.reduce(
-      (sum, axis) => sum + station.scores[axis] * weights[axis],
-      0,
-    );
+    // 家賃が無い駅は予算条件を判定できない。黙って落とすと
+    // 「候補が少ない」のか「データが無い」のか利用者に分からないので数える。
+    const rent = station.rent?.[criteria.rentType];
+    if (rent === undefined) {
+      excludedForMissingRent += 1;
+      continue;
+    }
+    if (rent > criteria.maxRent) continue;
+
+    const axes = ratedAxes(station);
+    const axisTotal = axes.reduce((sum, axis) => sum + weights[axis], 0);
+    const weighted =
+      axisTotal > 0
+        ? axes.reduce(
+            (sum, axis) =>
+              sum + (station.scores[axis] as number) * (weights[axis] / axisTotal),
+            0,
+          )
+        : 0;
 
     // 上限に対して所要時間が短いほど加点する。上限ぎりぎりより余裕がある方を上位に。
     const commuteMargin =
@@ -133,5 +167,8 @@ export function rankStations(
     });
   }
 
-  return results.sort((a, b) => b.fit - a.fit);
+  return {
+    results: results.sort((a, b) => b.fit - a.fit),
+    excludedForMissingRent,
+  };
 }

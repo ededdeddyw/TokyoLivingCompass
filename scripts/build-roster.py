@@ -314,6 +314,7 @@ def main():
 
         rows.append({
             "slug": slug,
+            "groupCode": gcd,
             "nameJa": name,
             "nameRomaji": "-".join(w[:1].upper() + w[1:].lower() for w in words),
             "ward": ward_roma,

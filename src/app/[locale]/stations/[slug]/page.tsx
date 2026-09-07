@@ -71,7 +71,10 @@ export default async function StationPage({
 
   const dict = getDictionary(locale);
   const overall = overallScoreForPreset(station, "balanced");
-  const crowding = dict.crowdingLevels[station.morningCrowding as 1 | 2 | 3 | 4 | 5];
+  const crowding =
+    station.morningCrowding === undefined
+      ? dict.dataQuality.notAvailable
+      : dict.crowdingLevels[station.morningCrowding as 1 | 2 | 3 | 4 | 5];
 
   const similar = station.similarStations
     .map((s) => getLocalizedStation(s, locale as ActiveLocale))
@@ -94,8 +97,10 @@ export default async function StationPage({
         <p className="text-lg text-ink-soft">{station.content.tagline}</p>
         <p className="text-sm text-ink-soft">
           {dict.station.overall}{" "}
-          <strong className="text-2xl tabular-nums text-ink">{overall.toFixed(1)}</strong>
-          <span className="text-ink-soft"> / 10</span>
+          <strong className="text-2xl tabular-nums text-ink">
+            {overall === null ? dict.dataQuality.notAvailable : overall.toFixed(1)}
+          </strong>
+          {overall !== null && <span className="text-ink-soft"> / 10</span>}
         </p>
       </header>
 
@@ -109,8 +114,14 @@ export default async function StationPage({
             <div key={type} className="rounded-md border border-line bg-surface p-4">
               <dt className="text-sm text-ink-soft">{dict.rentTypes[type]}</dt>
               <dd className="mt-1 tabular-nums text-ink">
-                {formatYen(station.rent[type], locale)}
-                <span className="text-sm text-ink-soft">{dict.station.perMonth}</span>
+                {station.rent ? (
+                  <>
+                    {formatYen(station.rent[type], locale)}
+                    <span className="text-sm text-ink-soft">{dict.station.perMonth}</span>
+                  </>
+                ) : (
+                  dict.dataQuality.notAvailable
+                )}
               </dd>
             </div>
           ))}
@@ -145,14 +156,24 @@ export default async function StationPage({
           </table>
         </div>
         <p className="text-sm text-ink-soft">
-          {dict.station.firstTrain}: {station.hasFirstTrain ? dict.station.yes : dict.station.no}
+          {dict.station.firstTrain}:{" "}
+          {station.hasFirstTrain === undefined
+            ? dict.dataQuality.notAvailable
+            : station.hasFirstTrain
+              ? dict.station.yes
+              : dict.station.no}
           {" · "}
           {dict.station.crowding}: {crowding}
         </p>
+        <p className="text-sm leading-relaxed text-ink-soft">{dict.commuteNote}</p>
       </Section>
 
       <Section title={dict.station.scores}>
-        <ScoreGrid scores={station.scores} dict={dict} />
+        {Object.keys(station.scores).length === 0 ? (
+          <p className="text-sm text-ink-soft">{dict.dataQuality.noScoresYet}</p>
+        ) : (
+          <ScoreGrid scores={station.scores} dict={dict} />
+        )}
       </Section>
 
       <div className="grid gap-8 sm:grid-cols-2">
@@ -188,21 +209,25 @@ export default async function StationPage({
         </blockquote>
       </Section>
 
-      <Section title={dict.station.facilities}>
-        <dl className="space-y-2 text-sm">
-          <div className="flex gap-3">
-            <dt className="w-28 shrink-0 text-ink-soft">{dict.station.supermarkets}</dt>
-            <dd className="text-ink">{station.facilities.supermarkets.join(" · ")}</dd>
-          </div>
-          <div className="flex gap-3">
-            <dt className="w-28 shrink-0 text-ink-soft">{dict.station.commercial}</dt>
-            <dd className="text-ink">{station.facilities.commercial.join(" · ")}</dd>
-          </div>
-        </dl>
-        {station.facilities.notes && (
-          <p className="text-sm leading-relaxed text-ink-soft">{station.facilities.notes}</p>
-        )}
-      </Section>
+      {station.facilities && (
+        <Section title={dict.station.facilities}>
+          <dl className="space-y-2 text-sm">
+            <div className="flex gap-3">
+              <dt className="w-28 shrink-0 text-ink-soft">{dict.station.supermarkets}</dt>
+              <dd className="text-ink">{station.facilities.supermarkets.join(" · ")}</dd>
+            </div>
+            <div className="flex gap-3">
+              <dt className="w-28 shrink-0 text-ink-soft">{dict.station.commercial}</dt>
+              <dd className="text-ink">{station.facilities.commercial.join(" · ")}</dd>
+            </div>
+          </dl>
+          {station.facilities.notes && (
+            <p className="text-sm leading-relaxed text-ink-soft">
+              {station.facilities.notes}
+            </p>
+          )}
+        </Section>
+      )}
 
       {similar.length > 0 && (
         <Section title={dict.station.similar}>

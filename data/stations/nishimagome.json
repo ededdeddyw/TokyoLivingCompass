@@ -1,12 +1,5 @@
 {
   "slug": "nishimagome",
-  "nameJa": "西馬込",
-  "nameRomaji": "Nishimagome",
-  "ward": "ota",
-  "wardNameJa": "大田区",
-  "lineIds": [
-    "99302"
-  ],
   "hasFirstTrain": true,
   "morningCrowding": 2,
   "rent": {
@@ -15,43 +8,6 @@
     "oneLDK": 140000,
     "twoLDK": 190000
   },
-  "commutes": [
-    {
-      "to": "shinjuku",
-      "minutes": 30,
-      "transfers": 1
-    },
-    {
-      "to": "shibuya",
-      "minutes": 25,
-      "transfers": 1
-    },
-    {
-      "to": "tokyo",
-      "minutes": 32,
-      "transfers": 1
-    },
-    {
-      "to": "shinagawa",
-      "minutes": 20,
-      "transfers": 1
-    },
-    {
-      "to": "otemachi",
-      "minutes": 33,
-      "transfers": 1
-    },
-    {
-      "to": "toranomon",
-      "minutes": 30,
-      "transfers": 1
-    },
-    {
-      "to": "roppongi",
-      "minutes": 33,
-      "transfers": 1
-    }
-  ],
   "scores": {
     "rentValue": 88,
     "commute": 62,

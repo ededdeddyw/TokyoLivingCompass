@@ -81,10 +81,14 @@ export const commuteSchema = z.object({
   transfers: z.number().int().min(0).max(5),
 });
 
+/**
+ * スコアは軸ごとに任意。443駅ぶんのデータは一度に揃わず、
+ * 計算できる軸・購入した軸・人が判断した軸が順に埋まっていくため。
+ */
 export const scoresSchema = z.object(
-  Object.fromEntries(SCORE_AXES.map((a) => [a, score])) as Record<
+  Object.fromEntries(SCORE_AXES.map((a) => [a, score.optional()])) as Record<
     ScoreAxis,
-    typeof score
+    z.ZodOptional<typeof score>
   >,
 );
 
@@ -129,23 +133,22 @@ export const facilitiesSchema = z.object({
   notes: z.string().optional(),
 });
 
+/**
+ * 駅プロフィール（data/stations/{slug}.json）。
+ * 駅名・所在区・路線はロースターが持つので、ここには書かない。
+ * 家賃・スコア・施設は、揃った順に埋めていく任意項目。
+ */
 export const stationSchema = z.object({
   slug: z
     .string()
     .regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, "slug はローマ字ケバブケース"),
-  nameJa: z.string().min(1),
-  nameRomaji: z.string().min(1),
-  ward: z.string().min(1),
-  wardNameJa: z.string().min(1),
-  lineIds: z.array(z.string()).min(1),
-  hasFirstTrain: z.boolean(),
+  hasFirstTrain: z.boolean().optional(),
   /** 朝ラッシュの混雑度。1 = 空いている、5 = 非常に混雑 */
-  morningCrowding: z.number().int().min(1).max(5),
-  rent: rentSchema,
-  commutes: z.array(commuteSchema).min(1),
-  scores: scoresSchema,
-  facilities: facilitiesSchema,
-  similarStations: z.array(z.string()),
+  morningCrowding: z.number().int().min(1).max(5).optional(),
+  rent: rentSchema.optional(),
+  scores: scoresSchema.default({}),
+  facilities: facilitiesSchema.optional(),
+  similarStations: z.array(z.string()).default([]),
   /**
    * 出典。dataQuality を "seed" から上げるには sources.rent が必須
    * （scripts/validate-data.ts で検証）。
@@ -160,12 +163,39 @@ export const stationSchema = z.object({
   lastReviewedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
 });
 
-export type Station = z.infer<typeof stationSchema>;
+export type StationProfile = z.infer<typeof stationSchema>;
+
+/** 計算で求めた所要時間（data/computed/commutes.json）。全443駅ぶんある。 */
+export const computedCommutesSchema = z.record(
+  z.string(),
+  z.array(commuteSchema).min(1),
+);
+
+/** 計算で求めたスコア（data/computed/scores.json）。埋まっている軸だけ入る。 */
+export const computedScoresSchema = z.record(z.string(), scoresSchema);
+
+/**
+ * ロースター（全駅の事実）＋計算値＋プロフィール（あれば）を重ねたもの。
+ * ページはこの形で受け取る。プロフィールが無い駅は dataQuality が "roster"。
+ */
+export type Station = RosterStation & {
+  commutes: Commute[];
+  scores: Partial<Record<ScoreAxis, number>>;
+  similarStations: string[];
+  hasFirstTrain?: boolean;
+  morningCrowding?: number;
+  rent?: Rent;
+  facilities?: Facilities;
+  sources?: Sources;
+  dataQuality: "roster" | "seed" | "reviewed" | "verified";
+  lastReviewedAt?: string;
+};
 export type Line = z.infer<typeof lineSchema>;
 export type RosterStation = z.infer<typeof rosterStationSchema>;
 export type Rent = z.infer<typeof rentSchema>;
 export type Commute = z.infer<typeof commuteSchema>;
 export type Scores = z.infer<typeof scoresSchema>;
+export type Facilities = z.infer<typeof facilitiesSchema>;
 export type RentSource = z.infer<typeof rentSourceSchema>;
 export type Sources = z.infer<typeof sourcesSchema>;
 

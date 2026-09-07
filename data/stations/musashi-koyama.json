@@ -1,12 +1,5 @@
 {
   "slug": "musashi-koyama",
-  "nameJa": "武蔵小山",
-  "nameRomaji": "Musashi-Koyama",
-  "ward": "shinagawa",
-  "wardNameJa": "品川区",
-  "lineIds": [
-    "26002"
-  ],
   "hasFirstTrain": false,
   "morningCrowding": 4,
   "rent": {
@@ -15,43 +8,6 @@
     "oneLDK": 168000,
     "twoLDK": 235000
   },
-  "commutes": [
-    {
-      "to": "shinjuku",
-      "minutes": 22,
-      "transfers": 1
-    },
-    {
-      "to": "shibuya",
-      "minutes": 15,
-      "transfers": 1
-    },
-    {
-      "to": "tokyo",
-      "minutes": 28,
-      "transfers": 1
-    },
-    {
-      "to": "shinagawa",
-      "minutes": 18,
-      "transfers": 1
-    },
-    {
-      "to": "otemachi",
-      "minutes": 25,
-      "transfers": 0
-    },
-    {
-      "to": "toranomon",
-      "minutes": 26,
-      "transfers": 1
-    },
-    {
-      "to": "roppongi",
-      "minutes": 20,
-      "transfers": 1
-    }
-  ],
   "scores": {
     "rentValue": 62,
     "commute": 82,

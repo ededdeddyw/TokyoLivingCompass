@@ -1,13 +1,5 @@
 {
   "slug": "monzen-nakacho",
-  "nameJa": "門前仲町",
-  "nameRomaji": "Monzen-Nakacho",
-  "ward": "koto",
-  "wardNameJa": "江東区",
-  "lineIds": [
-    "28004",
-    "99301"
-  ],
   "hasFirstTrain": false,
   "morningCrowding": 5,
   "rent": {
@@ -16,43 +8,6 @@
     "oneLDK": 162000,
     "twoLDK": 218000
   },
-  "commutes": [
-    {
-      "to": "shinjuku",
-      "minutes": 28,
-      "transfers": 1
-    },
-    {
-      "to": "shibuya",
-      "minutes": 30,
-      "transfers": 1
-    },
-    {
-      "to": "tokyo",
-      "minutes": 15,
-      "transfers": 1
-    },
-    {
-      "to": "shinagawa",
-      "minutes": 27,
-      "transfers": 1
-    },
-    {
-      "to": "otemachi",
-      "minutes": 8,
-      "transfers": 0
-    },
-    {
-      "to": "toranomon",
-      "minutes": 24,
-      "transfers": 1
-    },
-    {
-      "to": "roppongi",
-      "minutes": 22,
-      "transfers": 0
-    }
-  ],
   "scores": {
     "rentValue": 68,
     "commute": 88,

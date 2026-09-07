@@ -3,15 +3,20 @@ import { join } from "node:path";
 
 import type { ActiveLocale } from "./i18n";
 import {
+  computedCommutesSchema,
+  computedScoresSchema,
   lineSchema,
   rosterStationSchema,
   stationContentSchema,
   stationSchema,
+  type Commute,
   type Line,
   type LocalizedStation,
   type RosterStation,
   type Station,
   type StationContent,
+  type ScoreAxis,
+  type StationProfile,
 } from "./schema";
 
 /**
@@ -24,6 +29,8 @@ const STATIONS_DIR = join(DATA_DIR, "stations");
 const CONTENT_DIR = join(DATA_DIR, "content");
 const ROSTER_FILE = join(DATA_DIR, "roster", "stations.json");
 const LINES_FILE = join(DATA_DIR, "reference", "lines.json");
+const COMMUTES_FILE = join(DATA_DIR, "computed", "commutes.json");
+const COMPUTED_SCORES_FILE = join(DATA_DIR, "computed", "scores.json");
 
 function readJson(path: string): unknown {
   return JSON.parse(readFileSync(path, "utf8"));
@@ -36,27 +43,96 @@ function listSlugs(dir: string): string[] {
     .sort();
 }
 
+let profileCache: Map<string, StationProfile> | null = null;
+
+/** 駅プロフィール。ロースターの部分集合で、家賃・スコア・施設を持つ。 */
+function getProfiles(): Map<string, StationProfile> {
+  if (profileCache) return profileCache;
+
+  profileCache = new Map(
+    listSlugs(STATIONS_DIR).map((slug) => {
+      const parsed = stationSchema.safeParse(
+        readJson(join(STATIONS_DIR, `${slug}.json`)),
+      );
+      if (!parsed.success) {
+        throw new Error(
+          `駅プロフィールが不正です: ${slug}.json\n${JSON.stringify(parsed.error.format(), null, 2)}`,
+        );
+      }
+      if (parsed.data.slug !== slug) {
+        throw new Error(
+          `ファイル名と slug が一致しません: ${slug}.json は slug="${parsed.data.slug}"`,
+        );
+      }
+      return [slug, parsed.data] as const;
+    }),
+  );
+
+  return profileCache;
+}
+
+let commuteCache: Map<string, Commute[]> | null = null;
+
+/** 計算で求めた所要時間。scripts/build-commutes.py が生成する。 */
+function getComputedCommutes(): Map<string, Commute[]> {
+  if (commuteCache) return commuteCache;
+  const parsed = computedCommutesSchema.safeParse(readJson(COMMUTES_FILE));
+  if (!parsed.success) {
+    throw new Error(
+      `所要時間データが不正です\n${JSON.stringify(parsed.error.format(), null, 2)}`,
+    );
+  }
+  commuteCache = new Map(Object.entries(parsed.data));
+  return commuteCache;
+}
+
+let computedScoreCache: Map<string, Partial<Record<ScoreAxis, number>>> | null = null;
+
+/** 計算で求めたスコア。scripts/build-scores.py が生成する。 */
+function getComputedScores(): Map<string, Partial<Record<ScoreAxis, number>>> {
+  if (computedScoreCache) return computedScoreCache;
+  const parsed = computedScoresSchema.safeParse(readJson(COMPUTED_SCORES_FILE));
+  if (!parsed.success) {
+    throw new Error(
+      `計算スコアが不正です\n${JSON.stringify(parsed.error.format(), null, 2)}`,
+    );
+  }
+  computedScoreCache = new Map(Object.entries(parsed.data));
+  return computedScoreCache;
+}
+
 let stationCache: Station[] | null = null;
 
-/** 全駅のマスタデータ。日本語駅名の五十音ではなく slug 順で安定させる。 */
+/**
+ * ロースター（事実）＋計算値（所要時間）＋プロフィール（家賃・スコア）を重ねる。
+ * プロフィールが無い駅も返る。その場合 dataQuality は "roster"。
+ */
 export function getAllStations(): Station[] {
   if (stationCache) return stationCache;
 
-  stationCache = listSlugs(STATIONS_DIR).map((slug) => {
-    const parsed = stationSchema.safeParse(
-      readJson(join(STATIONS_DIR, `${slug}.json`)),
-    );
-    if (!parsed.success) {
-      throw new Error(
-        `駅データが不正です: ${slug}.json\n${JSON.stringify(parsed.error.format(), null, 2)}`,
-      );
-    }
-    if (parsed.data.slug !== slug) {
-      throw new Error(
-        `ファイル名と slug が一致しません: ${slug}.json は slug="${parsed.data.slug}"`,
-      );
-    }
-    return parsed.data;
+  const profiles = getProfiles();
+  const commutes = getComputedCommutes();
+  const computedScores = getComputedScores();
+
+  stationCache = getRoster().map((base) => {
+    const profile = profiles.get(base.slug);
+    return {
+      ...base,
+      commutes: commutes.get(base.slug) ?? [],
+      // 計算値が土台で、人が入れた値があればそちらを採る。
+      scores: {
+        ...(computedScores.get(base.slug) ?? {}),
+        ...(profile?.scores ?? {}),
+      },
+      similarStations: profile?.similarStations ?? [],
+      hasFirstTrain: profile?.hasFirstTrain,
+      morningCrowding: profile?.morningCrowding,
+      rent: profile?.rent,
+      facilities: profile?.facilities,
+      sources: profile?.sources,
+      dataQuality: profile?.dataQuality ?? "roster",
+      lastReviewedAt: profile?.lastReviewedAt,
+    };
   });
 
   return stationCache;
@@ -64,6 +140,11 @@ export function getAllStations(): Station[] {
 
 export function getStation(slug: string): Station | null {
   return getAllStations().find((s) => s.slug === slug) ?? null;
+}
+
+/** プロフィール（家賃・スコア）を持つ駅だけ。 */
+export function getProfiledStations(): Station[] {
+  return getAllStations().filter((s) => s.dataQuality !== "roster");
 }
 
 const contentCache = new Map<string, StationContent | null>();

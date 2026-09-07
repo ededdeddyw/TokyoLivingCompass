@@ -38,9 +38,10 @@ export default async function StationsPage({
   const preset: WeightPreset = view && isWeightPreset(view) ? view : "balanced";
 
   const dict = getDictionary(locale);
+  // スコア未測定の駅は順位が付けられないので末尾にまとめる。
   const stations = getLocalizedStations(locale)
     .map((station) => ({ station, overall: overallScoreForPreset(station, preset) }))
-    .sort((a, b) => b.overall - a.overall);
+    .sort((a, b) => (b.overall ?? -1) - (a.overall ?? -1));
 
   const hasSeedData = stations.some(({ station }) => station.dataQuality === "seed");
 

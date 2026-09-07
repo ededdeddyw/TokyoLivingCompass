@@ -1,13 +1,5 @@
 {
   "slug": "nakameguro",
-  "nameJa": "中目黒",
-  "nameRomaji": "Nakameguro",
-  "ward": "meguro",
-  "wardNameJa": "目黒区",
-  "lineIds": [
-    "26001",
-    "28003"
-  ],
   "hasFirstTrain": true,
   "morningCrowding": 4,
   "rent": {
@@ -16,43 +8,6 @@
     "oneLDK": 235000,
     "twoLDK": 340000
   },
-  "commutes": [
-    {
-      "to": "shinjuku",
-      "minutes": 15,
-      "transfers": 1
-    },
-    {
-      "to": "shibuya",
-      "minutes": 3,
-      "transfers": 0
-    },
-    {
-      "to": "tokyo",
-      "minutes": 24,
-      "transfers": 1
-    },
-    {
-      "to": "shinagawa",
-      "minutes": 20,
-      "transfers": 1
-    },
-    {
-      "to": "otemachi",
-      "minutes": 25,
-      "transfers": 1
-    },
-    {
-      "to": "toranomon",
-      "minutes": 15,
-      "transfers": 0
-    },
-    {
-      "to": "roppongi",
-      "minutes": 8,
-      "transfers": 0
-    }
-  ],
   "scores": {
     "rentValue": 32,
     "commute": 92,

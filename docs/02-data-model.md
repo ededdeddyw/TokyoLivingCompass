@@ -22,6 +22,9 @@
 data/
 ├── roster/
 │   └── stations.json   # 掲載候補の全駅（443駅）。駅名・所在区・路線のみ
+├── computed/
+│   ├── commutes.json   # 計算した所要時間（443駅 × 7オフィス街）
+│   └── scores.json     # 計算したスコア軸
 ├── reference/
 │   └── lines.json      # 路線マスタ（62路線）
 ├── stations/           # 詳細プロフィール（1駅1ファイル）
@@ -40,7 +43,11 @@ data/
 - **ロースター**（`roster/stations.json`）は「対象になる駅の全体像」。443駅。
   詳細プロフィールの有無を問わず、駅名・所在区・路線を持つ。作り方は
   [09-station-roster.md](./09-station-roster.md)。
-- **詳細プロフィール**（`stations/`）はロースターの部分集合。家賃・通勤・スコアを持つ。
+- **計算値**（`computed/`）は公開データから機械生成する層。全443駅ぶんある。
+  方法は [10-commute-estimation.md](./10-commute-estimation.md)。
+- **詳細プロフィール**（`stations/`）はロースターの部分集合。家賃・スコア・施設を持つ。
+  駅名・所在区・路線・所要時間はここには書かない（重複を避けるため）。
+  家賃もスコアも**任意**で、揃った順に埋めていく（[11-all-stations-plan.md](./11-all-stations-plan.md)）。
 - **路線マスタ**（`reference/lines.json`）は路線名と事業者区分。駅は `lineIds` で参照する。
 - オフィス駅は `src/lib/schema.ts` の `OFFICE_HUBS`（識別子）と
   `src/lib/dictionaries.ts`（各言語の表示名）に持つ。

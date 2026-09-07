@@ -60,6 +60,7 @@ export type Dictionary = {
     fit: string;
     why: string;
     weakness: string;
+    excludedForMissingRent: string;
   };
   roster: {
     heading: string;
@@ -77,7 +78,11 @@ export type Dictionary = {
   };
   dataQuality: {
     seedWarning: string;
+    notAvailable: string;
+    noScoresYet: string;
+    rosterOnly: string;
   };
+  commuteNote: string;
   rentSource: {
     missing: string;
     askingCaveat: string;
@@ -149,6 +154,8 @@ const ja: Dictionary = {
     fit: "適合度",
     why: "推せる点",
     weakness: "弱点",
+    excludedForMissingRent:
+      "通勤条件は満たすものの、家賃相場が未取得のため判定できなかった駅が {count} 件あります。",
   },
   roster: {
     heading: "掲載候補の全駅",
@@ -167,7 +174,12 @@ const ja: Dictionary = {
   dataQuality: {
     seedWarning:
       "このページのデータは開発用の推定値です。出典に基づく確定値ではありません。",
+    notAvailable: "—",
+    noScoresYet: "この駅のスコアはまだ測定していません。",
+    rosterOnly: "この駅はまだ駅名・所在区・路線と所要時間しかありません。",
   },
+  commuteNote:
+    "所要時間は駅間距離と路線種別から計算した推定値です（乗車時間ベース、乗換5分で算入）。優等列車は考慮していません。",
   rentSource: {
     missing: "家賃の出典は未設定です。",
     askingCaveat: "募集賃料のため、実際の成約額はこれより下がることがあります。",
@@ -295,6 +307,8 @@ const en: Dictionary = {
     fit: "Fit",
     why: "Why it works",
     weakness: "Trade-offs",
+    excludedForMissingRent:
+      "{count} more stations meet your commute limits but have no rent data yet, so they could not be checked against your budget.",
   },
   roster: {
     heading: "Every station we plan to cover",
@@ -313,7 +327,13 @@ const en: Dictionary = {
   dataQuality: {
     seedWarning:
       "The data on this page is a development placeholder, not a sourced figure.",
+    notAvailable: "—",
+    noScoresYet: "Scores for this station have not been measured yet.",
+    rosterOnly:
+      "So far this station only has its name, ward, lines and commute times.",
   },
+  commuteNote:
+    "Times are estimates computed from inter-station distance and line type (in-vehicle time, 5 minutes allowed per transfer). Express services are not modelled.",
   rentSource: {
     missing: "No source recorded for these rent figures yet.",
     askingCaveat:

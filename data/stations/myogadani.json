@@ -1,12 +1,5 @@
 {
   "slug": "myogadani",
-  "nameJa": "茗荷谷",
-  "nameRomaji": "Myogadani",
-  "ward": "bunkyo",
-  "wardNameJa": "文京区",
-  "lineIds": [
-    "28002"
-  ],
   "hasFirstTrain": false,
   "morningCrowding": 4,
   "rent": {
@@ -15,43 +8,6 @@
     "oneLDK": 165000,
     "twoLDK": 235000
   },
-  "commutes": [
-    {
-      "to": "shinjuku",
-      "minutes": 18,
-      "transfers": 0
-    },
-    {
-      "to": "shibuya",
-      "minutes": 27,
-      "transfers": 1
-    },
-    {
-      "to": "tokyo",
-      "minutes": 15,
-      "transfers": 0
-    },
-    {
-      "to": "shinagawa",
-      "minutes": 27,
-      "transfers": 1
-    },
-    {
-      "to": "otemachi",
-      "minutes": 12,
-      "transfers": 0
-    },
-    {
-      "to": "toranomon",
-      "minutes": 22,
-      "transfers": 1
-    },
-    {
-      "to": "roppongi",
-      "minutes": 22,
-      "transfers": 1
-    }
-  ],
   "scores": {
     "rentValue": 58,
     "commute": 88,

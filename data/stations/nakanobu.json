@@ -1,13 +1,5 @@
 {
   "slug": "nakanobu",
-  "nameJa": "中延",
-  "nameRomaji": "Nakanobu",
-  "ward": "shinagawa",
-  "wardNameJa": "品川区",
-  "lineIds": [
-    "26004",
-    "99302"
-  ],
   "hasFirstTrain": false,
   "morningCrowding": 4,
   "rent": {
@@ -16,43 +8,6 @@
     "oneLDK": 148000,
     "twoLDK": 200000
   },
-  "commutes": [
-    {
-      "to": "shinjuku",
-      "minutes": 30,
-      "transfers": 1
-    },
-    {
-      "to": "shibuya",
-      "minutes": 25,
-      "transfers": 1
-    },
-    {
-      "to": "tokyo",
-      "minutes": 27,
-      "transfers": 1
-    },
-    {
-      "to": "shinagawa",
-      "minutes": 16,
-      "transfers": 1
-    },
-    {
-      "to": "otemachi",
-      "minutes": 30,
-      "transfers": 1
-    },
-    {
-      "to": "toranomon",
-      "minutes": 28,
-      "transfers": 1
-    },
-    {
-      "to": "roppongi",
-      "minutes": 32,
-      "transfers": 1
-    }
-  ],
   "scores": {
     "rentValue": 82,
     "commute": 72,

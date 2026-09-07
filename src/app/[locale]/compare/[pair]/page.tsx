@@ -77,7 +77,7 @@ function Row({
   label: string;
   a: React.ReactNode;
   b: React.ReactNode;
-  /** -1 = 左が優位、1 = 右が優位、0 = 同等 */
+  /** -1 = 左が優位、1 = 右が優位、0 = 同等、undefined = 比較しない */
   highlight?: -1 | 0 | 1;
 }) {
   const win = "font-semibold text-ink";
@@ -105,7 +105,13 @@ function Row({
   );
 }
 
-function compare(a: number, b: number, higherIsBetter = true): -1 | 0 | 1 {
+/** 片方でも欠けていたら優劣を付けない。データが無いことを「負け」にしない。 */
+function compare(
+  a: number | null | undefined,
+  b: number | null | undefined,
+  higherIsBetter = true,
+): -1 | 0 | 1 | undefined {
+  if (a === null || a === undefined || b === null || b === undefined) return undefined;
   if (a === b) return 0;
   const aWins = higherIsBetter ? a > b : a < b;
   return aWins ? -1 : 1;
@@ -127,9 +133,15 @@ export default async function ComparePage({
   const [a, b] = stations as [LocalizedStation, LocalizedStation];
 
   const dict = getDictionary(locale);
+  const na = dict.dataQuality.notAvailable;
   const overallA = overallScoreForPreset(a, "balanced");
   const overallB = overallScoreForPreset(b, "balanced");
   const hasSeedData = a.dataQuality === "seed" || b.dataQuality === "seed";
+  const commutePairs = OFFICE_HUBS.map((office) => ({
+    office,
+    ca: a.commutes.find((c) => c.to === office),
+    cb: b.commutes.find((c) => c.to === office),
+  })).filter((p) => p.ca && p.cb);
 
   return (
     <div className="space-y-8">
@@ -173,8 +185,8 @@ export default async function ComparePage({
           <tbody>
             <Row
               label={dict.station.overall}
-              a={overallA.toFixed(1)}
-              b={overallB.toFixed(1)}
+              a={overallA === null ? na : overallA.toFixed(1)}
+              b={overallB === null ? na : overallB.toFixed(1)}
               highlight={compare(overallA, overallB)}
             />
 
@@ -182,36 +194,36 @@ export default async function ComparePage({
               <Row
                 key={type}
                 label={`${dict.station.rent} ${dict.rentTypes[type]}`}
-                a={formatYen(a.rent[type], locale)}
-                b={formatYen(b.rent[type], locale)}
-                highlight={compare(a.rent[type], b.rent[type], false)}
+                a={a.rent ? formatYen(a.rent[type], locale) : na}
+                b={b.rent ? formatYen(b.rent[type], locale) : na}
+                highlight={compare(a.rent?.[type], b.rent?.[type], false)}
               />
             ))}
 
-            {OFFICE_HUBS.map((office) => {
-              const ca = a.commutes.find((c) => c.to === office);
-              const cb = b.commutes.find((c) => c.to === office);
-              if (!ca || !cb) return null;
+            {commutePairs.map(({ office, ca, cb }) => (
+              <Row
+                key={office}
+                label={`${dict.station.commute} — ${dict.offices[office]}`}
+                a={`${ca!.minutes} ${dict.station.minutes}`}
+                b={`${cb!.minutes} ${dict.station.minutes}`}
+                highlight={compare(ca!.minutes, cb!.minutes, false)}
+              />
+            ))}
+
+            {SCORE_AXES.map((axis) => {
+              const sa = a.scores[axis];
+              const sb = b.scores[axis];
+              if (sa === undefined && sb === undefined) return null;
               return (
                 <Row
-                  key={office}
-                  label={`${dict.station.commute} — ${dict.offices[office]}`}
-                  a={`${ca.minutes} ${dict.station.minutes}`}
-                  b={`${cb.minutes} ${dict.station.minutes}`}
-                  highlight={compare(ca.minutes, cb.minutes, false)}
+                  key={axis}
+                  label={dict.axes[axis]}
+                  a={sa === undefined ? na : `${gradeSymbol(toGrade(sa))} ${sa}`}
+                  b={sb === undefined ? na : `${gradeSymbol(toGrade(sb))} ${sb}`}
+                  highlight={compare(sa, sb)}
                 />
               );
             })}
-
-            {SCORE_AXES.map((axis) => (
-              <Row
-                key={axis}
-                label={dict.axes[axis]}
-                a={`${gradeSymbol(toGrade(a.scores[axis]))} ${a.scores[axis]}`}
-                b={`${gradeSymbol(toGrade(b.scores[axis]))} ${b.scores[axis]}`}
-                highlight={compare(a.scores[axis], b.scores[axis])}
-              />
-            ))}
           </tbody>
         </table>
       </div>
