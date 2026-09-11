@@ -31,7 +31,7 @@ src/
 │       │   ├── page.tsx                    # 駅一覧
 │       │   └── [slug]/page.tsx             # 駅ページ
 │       ├── compare/[pair]/page.tsx         # 駅比較
-│       └── work/[office]/page.tsx          # 勤務先起点の逆引き
+│       └── work/[office]/page.tsx          # 勤務先からの逆引き
 ├── components/           # 表示専用。データ取得はしない
 └── lib/
     ├── schema.ts         # Zod スキーマと型（データ定義の単一の正）

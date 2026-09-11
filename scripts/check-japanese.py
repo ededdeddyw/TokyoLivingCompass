@@ -1,0 +1,210 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+日本語表現ルール（docs/13-japanese-style-rules.md）のうち、
+機械的に判定できるものを検査する。
+
+  python3 scripts/check-japanese.py
+
+検査対象は data/content/ja/*.json と docs/*.md。
+機械が見られるのは一部にすぎない。論旨に関わるルール（2・5・10・12・15・20・25）は
+検出できないため、書いたあとに人間が全文を読み返して確認する必要がある。
+"""
+import glob
+import json
+import os
+import re
+import sys
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# ルール13: 手段の実力を超える強すぎる断定。
+# 数値や出典で裏づけられる場合のみ使ってよいので、検出したら都度判断する。
+TOO_STRONG = [
+    "100%", "完全に", "必ず", "絶対に", "全く", "まったく問題",
+    "最悪級", "突出して", "突出している", "屈指", "随一", "No.1",
+    "間違いなく", "確実に", "最高", "最強", "圧倒的",
+]
+
+# ルール7: 強調意図のない冗長な述語。
+REDUNDANT = [
+    "できる状態にする", "を実現する", "を可能にする", "化を図る",
+    "することが可能", "を行う必要がある",
+]
+
+# ルール1: 造語的・不自然な圧縮表現。
+UNNATURAL = ["起点の", "残置", "仕組みで止ま", "軸に据える", "を担保する状態"]
+
+# ルール18: 読み手が引っかかる独自ワード。プロジェクト内で見つけ次第足していく。
+COINED = [
+    "街の質感", "生活の道具としての性能", "体感距離", "ブランド化が起き",
+    # 目的語が曖昧なまま使われやすい述語（ルール4）
+    "効いてくる", "という点で力がある", "という点では力がある",
+]
+
+# ルール3: 文末の調子。「ですます調」と「である調」の混在を見る。
+POLITE_END = re.compile(r"(です|ます|ました|ません|でしょう)[。！？]")
+PLAIN_END = re.compile(r"(である|だった|した|ない|いる|なる|れる|られる)[。！？]")
+
+# ルール22: 同じ述語の連発。
+REPEATED_ENDINGS = [
+    "たほうがいい", "確認したい", "必要がある", "ことになる",
+    "とみてよい", "しておきたい", "が多い", "が分かれる",
+]
+
+# 検査しないキー（slug や locale など、日本語の文章ではないもの）。
+SKIP_KEYS = {"slug", "locale", "authoredBy", "tier", "walkMinutes", "name"}
+
+
+# 用言止めの判定。動詞の終止形はウ段（う・く・ぐ・す・つ・ぬ・ぶ・む・る）で終わり、
+# 形容詞は「い」、過去は「た／だ」で終わる。名詞（漢字・カタカナ）で終われば体言止め。
+YOGEN_TAIL = re.compile(r"[うくぐすつぬぶむるいたきしちにひみりえけせてねへめれ]$")
+NOUN_LIKE = re.compile(r"(こと|もの|ため|とき|ところ|ほう|わけ|はず|つもり|ならでは|次第|通り|形|中心|側)$")
+
+
+def is_yogen(body):
+    """文末が用言（動詞・形容詞）で終わっているか。"""
+    if re.search(r"(です|ます|ません|でしょう|だろう|である|だった|[^たな]だ)$", body):
+        return True
+    if NOUN_LIKE.search(body):
+        return False
+    return bool(YOGEN_TAIL.search(body))
+
+
+def sentences(text):
+    return [s for s in re.split(r"(?<=[。！？])", text) if s.strip()]
+
+
+def walk(value, path, out):
+    """JSON を再帰的にたどり、日本語の文字列とその場所を集める。"""
+    if isinstance(value, dict):
+        for k, v in value.items():
+            if k in SKIP_KEYS:
+                continue
+            walk(v, f"{path}.{k}" if path else k, out)
+    elif isinstance(value, list):
+        for i, v in enumerate(value):
+            walk(v, f"{path}[{i}]", out)
+    elif isinstance(value, str) and re.search(r"[ぁ-んァ-ヶ一-龠]", value):
+        out.append((path, value))
+
+
+def check_text(label, path, text, findings, taigen=True, claims=True):
+    """
+    findings には (種別, ファイル, 場所, ルール番号, 内容) を積む。
+    種別は "違反"（機械で確定できるもの）と "要確認"（人間の判断が要るもの）。
+    """
+    def add(rule, detail, kind="違反"):
+        findings.append((kind, label, path, rule, detail))
+
+    # ルール13 は「明らかに言い切れる場合は使ってよい」ため、機械では確定できない。
+    # 読み手に対する主張（駅コンテンツ）にだけ適用する。社内ドキュメントの
+    # 「必ず参照する」のような指示文は、主張の強さの問題ではないため対象外。
+    if claims:
+        for word in TOO_STRONG:
+            if word in text:
+                add("13", f"強い断定: 「{word}」。手段の実力を超えていないか", "要確認")
+    for word in REDUNDANT:
+        if word in text:
+            add("7", f"冗長な述語: 「{word}」")
+    for word in UNNATURAL:
+        if word in text:
+            add("1", f"不自然・造語的: 「{word}」")
+    for word in COINED:
+        if word in text:
+            add("18", f"独自ワード: 「{word}」")
+
+    # ルール26: 名詞の「抜け」。「抜ける」「抜け道」などの動詞・複合語は別語なので除く。
+    if re.search(r"抜け(?!漏れ|る|た|て|ず|ない|道|穴|殻|出)", text):
+        add("26", "名詞の「抜け」。常に「抜け漏れ」と書く")
+
+    # ルール3: 同一フィールド内での文末の混在
+    ss = sentences(text)
+    polite = sum(1 for s in ss if POLITE_END.search(s))
+    plain = sum(1 for s in ss if PLAIN_END.search(s))
+    if polite > 0 and plain > 0:
+        add("3", f"文末の混在: ですます調 {polite}文 / である調 {plain}文")
+
+    # ルール3: 体言止め。1つのフィールドの中で用言止めと混在している場合だけ指摘する。
+    # 「〜人」を並べた箇条書きのように全部が体言止めで揃っているものは、混在ではない。
+    if not taigen or len(ss) < 2:
+        return
+    taigen_ends, yogen_ends = [], 0
+    for s in ss:
+        body = s.strip().rstrip("。！？")
+        if not body:
+            continue
+        if is_yogen(body):
+            yogen_ends += 1
+        elif re.search(r"[ぁ-んァ-ヶ一-龠ー]$", body):
+            taigen_ends.append(body[-14:])
+    if taigen_ends and yogen_ends:
+        add("3", f"体言止めと用言止めの混在（体言止め {len(taigen_ends)}文）: "
+                 f"「…{taigen_ends[0]}」")
+
+
+def check_repeats(label, texts, findings):
+    """ルール22: 同じ述語が1駅・1文書の中で繰り返されていないか。"""
+    joined = "".join(texts)
+    for ending in REPEATED_ENDINGS:
+        n = joined.count(ending)
+        if n >= 3:
+            findings.append(("違反", label, "(全体)", "22",
+                             f"同じ述語の連発: 「{ending}」が {n} 回"))
+
+
+def main():
+    findings = []
+
+    for p in sorted(glob.glob(os.path.join(ROOT, "data", "content", "ja", "*.json"))):
+        label = os.path.basename(p)
+        data = json.load(open(p, encoding="utf-8"))
+        collected = []
+        walk(data, "", collected)
+        for path, text in collected:
+            check_text(label, path, text, findings)
+        check_repeats(label, [t for _, t in collected], findings)
+
+    for p in sorted(glob.glob(os.path.join(ROOT, "docs", "*.md"))):
+        label = os.path.basename(p)
+        # ルール集そのものと、原文として保存している構想は対象外
+        if label.startswith(("13-", "00-")):
+            continue
+        text = open(p, encoding="utf-8").read()
+        # コードブロックと表は検査から外す（記号が多く誤検知が増えるため）
+        text = re.sub(r"```.*?```", "", text, flags=re.S)
+        text = "\n".join(l for l in text.split("\n") if not l.strip().startswith("|"))
+        # 見出しと箇条書きの断片は体言止め判定に馴染まないので、語句だけを見る。
+        check_text(label, "(本文)", text, findings, taigen=False, claims=False)
+
+    violations = [f for f in findings if f[0] == "違反"]
+    reviews = [f for f in findings if f[0] == "要確認"]
+
+    def dump(items, heading):
+        if not items:
+            return
+        print(f"{heading}（{len(items)}件）\n")
+        by_file = {}
+        for _kind, label, path, rule, detail in items:
+            by_file.setdefault(label, []).append((path, rule, detail))
+        for label in sorted(by_file):
+            print(f"  ■ {label}")
+            for path, rule, detail in by_file[label]:
+                print(f"     ルール{rule:>2}  {path}")
+                print(f"             {detail}")
+            print()
+
+    dump(violations, "◆ 違反")
+    dump(reviews, "◇ 要確認（機械では判断できない。人間が見る）")
+
+    print("※ 論旨に関わるルール（2・5・10・12・15・20・25）は機械では見られません。")
+    print("   書いたあとに全文を読み返して自分で確認すること。")
+
+    if not violations:
+        print("\n確定違反はありません。")
+        return
+    sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()
