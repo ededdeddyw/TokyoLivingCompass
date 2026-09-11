@@ -201,7 +201,7 @@ const ja: Dictionary = {
   },
   depth: {
     heading: "住むと分かること",
-    faces: "時間帯で変わる街の顔",
+    faces: "朝・昼・夜・週末のようす",
     morning: "朝",
     daytime: "昼",
     night: "夜",
