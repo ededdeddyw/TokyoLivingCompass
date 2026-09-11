@@ -97,6 +97,11 @@ export type Dictionary = {
     rentReason: string;
     neighbours: string;
     outlook: string;
+    exits: string;
+    family: string;
+    medical: string;
+    rentRange: string;
+    rentDrivers: string;
     unwritten: string;
   };
   dataQuality: {
@@ -215,6 +220,11 @@ const ja: Dictionary = {
     rentReason: "家賃がこの水準である理由",
     neighbours: "隣の駅との使い分け",
     outlook: "これからどう変わるか",
+    exits: "出口で変わる街の顔",
+    family: "子育て",
+    medical: "医療",
+    rentRange: "同じ駅でも家賃に幅がある",
+    rentDrivers: "差を生む要因",
     unwritten: "未記入",
   },
   dataQuality: {
@@ -391,6 +401,11 @@ const en: Dictionary = {
     rentReason: "Why rent sits where it does",
     neighbours: "When a neighbouring station is better",
     outlook: "How it is changing",
+    exits: "How the area differs by exit",
+    family: "Raising children",
+    medical: "Healthcare",
+    rentRange: "Rent varies within the same station",
+    rentDrivers: "What drives the difference",
     unwritten: "Not written yet",
   },
   dataQuality: {

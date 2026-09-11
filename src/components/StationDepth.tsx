@@ -85,6 +85,33 @@ export function StationDepth({
     );
   }
 
+  if (content.exits && content.exits.length > 0) {
+    blocks.push(
+      <Block key="exits" title={d.exits}>
+        <dl className="space-y-2">
+          {content.exits.map((exit) => (
+            <div key={exit.name} className="flex gap-3">
+              <dt className="w-20 shrink-0 font-medium text-ink">{exit.name}</dt>
+              <dd>{exit.character}</dd>
+            </div>
+          ))}
+        </dl>
+      </Block>,
+    );
+  }
+
+  if (content.rentRange) {
+    blocks.push(
+      <Block key="rentRange" title={d.rentRange}>
+        <p>{content.rentRange.note}</p>
+        <p className="mt-1.5">
+          <span className="font-medium text-ink">{d.rentDrivers}: </span>
+          {content.rentRange.drivers.join(" / ")}
+        </p>
+      </Block>,
+    );
+  }
+
   if (content.noiseSources && content.noiseSources.length > 0) {
     blocks.push(
       <Block key="noise" title={d.noiseSources}>
@@ -98,6 +125,8 @@ export function StationDepth({
   }
 
   const simple: [string, string | undefined][] = [
+    [d.family, content.family],
+    [d.medical, content.medical],
     [d.hazards, content.hazards],
     [d.stationNote, content.stationNote],
     [d.nightWalk, content.nightWalk],

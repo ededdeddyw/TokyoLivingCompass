@@ -234,6 +234,23 @@ export const groceryStoreSchema = z.object({
   note: z.string().optional(),
 });
 
+/**
+ * 駅の出口ごとの街の違い。
+ * 同じ駅でも北口と南口で別の街であることが多く、住む方角の選択に直結する。
+ * 既存のまとめ記事が駅を一枚岩として扱うせいで、最も抜け落ちている観点。
+ */
+export const exitSchema = z.object({
+  name: z.string().min(1),
+  character: z.string().min(1),
+});
+
+/** 家賃の幅。相場を1点で示すと、同じ駅の中の差が消えてしまう。 */
+export const rentRangeSchema = z.object({
+  note: z.string().min(1),
+  /** 何が家賃差を生んでいるか（徒歩分数、築年、通り沿いかなど） */
+  drivers: z.array(z.string()).min(1),
+});
+
 /** 隣接駅との使い分け。「この用途なら隣の駅のほうがいい」を正直に書く。 */
 export const neighbourNoteSchema = z.object({
   slug: z.string().min(1),
@@ -276,6 +293,14 @@ export const stationContentSchema = z.object({
   neighbours: z.array(neighbourNoteSchema).optional(),
   /** 5年後の見通し。再開発、路線延伸など */
   outlook: z.string().optional(),
+  /** 出口ごとの街の違い */
+  exits: z.array(exitSchema).optional(),
+  /** 子育て。学区、保育園、公園、ベビーカーでの移動 */
+  family: z.string().optional(),
+  /** 医療。夜間・休日診療、総合病院、小児科 */
+  medical: z.string().optional(),
+  /** 家賃の幅と、その幅を生んでいる要因 */
+  rentRange: rentRangeSchema.optional(),
 
   /** 東京在住者コメント。公開版は人間が書く（docs/02-data-model.md §4） */
   residentComment: z.string().min(1),
@@ -302,6 +327,10 @@ export const DEPTH_FIELDS = [
   "rentReason",
   "neighbours",
   "outlook",
+  "exits",
+  "family",
+  "medical",
+  "rentRange",
 ] as const;
 
 export type DepthField = (typeof DEPTH_FIELDS)[number];
@@ -311,6 +340,8 @@ export type DayFaces = z.infer<typeof dayFacesSchema>;
 export type Terrain = z.infer<typeof terrainSchema>;
 export type GroceryStore = z.infer<typeof groceryStoreSchema>;
 export type NeighbourNote = z.infer<typeof neighbourNoteSchema>;
+export type StationExit = z.infer<typeof exitSchema>;
+export type RentRange = z.infer<typeof rentRangeSchema>;
 
 /** その駅の日本語コンテンツが、深さの層をいくつ満たしているか。 */
 export function depthFilled(content: StationContent): DepthField[] {
