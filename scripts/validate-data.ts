@@ -143,7 +143,7 @@ for (const locale of listContentLocales()) {
   }
 }
 
-// 充足率レポート。443駅を段階的に埋めていくので、
+// 充足率レポート。448駅を段階的に埋めていくので、
 // 「いま何がどれだけ埋まっているか」が一目で分かる形にする。
 const total = stations.length;
 const pct = (n: number) => `${Math.round((n / total) * 100)}%`.padStart(4);

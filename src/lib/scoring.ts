@@ -29,7 +29,7 @@ export function gradeSymbol(grade: Grade): string {
   return GRADE_SYMBOLS[grade];
 }
 
-/** スコアが入っている軸だけを返す。443駅ぶんが一度に揃うことはない。 */
+/** スコアが入っている軸だけを返す。448駅ぶんが一度に揃うことはない。 */
 export function ratedAxes(station: Station): ScoreAxis[] {
   return SCORE_AXES.filter((axis) => station.scores[axis] !== undefined);
 }

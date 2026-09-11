@@ -21,9 +21,9 @@
 ```
 data/
 ├── roster/
-│   └── stations.json   # 掲載候補の全駅（443駅）。駅名・所在区・路線のみ
+│   └── stations.json   # 掲載候補の全駅（448駅）。駅名・所在区・路線のみ
 ├── computed/
-│   ├── commutes.json   # 計算した所要時間（443駅 × 7オフィス街）
+│   ├── commutes.json   # 計算した所要時間（448駅 × 7オフィス街）
 │   └── scores.json     # 計算したスコア軸
 ├── reference/
 │   └── lines.json      # 路線マスタ（62路線）
@@ -40,10 +40,10 @@ data/
         └── ...
 ```
 
-- **ロースター**（`roster/stations.json`）は「対象になる駅の全体像」。443駅。
+- **ロースター**（`roster/stations.json`）は「対象になる駅の全体像」。448駅。
   詳細プロフィールの有無を問わず、駅名・所在区・路線を持つ。作り方は
   [09-station-roster.md](./09-station-roster.md)。
-- **計算値**（`computed/`）は公開データから機械生成する層。全443駅ぶんある。
+- **計算値**（`computed/`）は公開データから機械生成する層。全448駅ぶんある。
   方法は [10-commute-estimation.md](./10-commute-estimation.md)。
 - **詳細プロフィール**（`stations/`）はロースターの部分集合。家賃・スコア・施設を持つ。
   駅名・所在区・路線・所要時間はここには書かない（重複を避けるため）。
@@ -84,7 +84,7 @@ data/
 ```
 
 `operator` は `jr` / `tokyo-metro` / `toei` / `private` のいずれか。
-駅側は `lineIds: ["99302"]` のように id で参照する。443駅規模で路線名を各駅に
+駅側は `lineIds: ["99302"]` のように id で参照する。448駅規模で路線名を各駅に
 持たせると二重管理になるため。
 
 ### Rent（円 / 月）

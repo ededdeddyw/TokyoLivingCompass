@@ -90,7 +90,7 @@ export default async function WorkPage({
   const preset =
     query.view && isWeightPreset(query.view) ? query.view : DEFAULTS.preset;
 
-  // 443駅すべてを対象に判定する。そうしないと「家賃が未取得で判定できなかった駅」を
+  // 448駅すべてを対象に判定する。そうしないと「家賃が未取得で判定できなかった駅」を
   // 数えられず、候補が少ない理由が利用者に伝わらない。
   const stations = getAllStations();
   const { results: ranked, excludedForMissingRent } = rankStations(stations, {

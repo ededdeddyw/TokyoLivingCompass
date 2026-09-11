@@ -5,7 +5,7 @@
 
 - 事業構想: [docs/00-concept.md](./docs/00-concept.md)
 - 駅ページの品質基準: [docs/12-quality-standard.md](./docs/12-quality-standard.md)
-- 全443駅の計画: [docs/11-all-stations-plan.md](./docs/11-all-stations-plan.md)
+- 全448駅の計画: [docs/11-all-stations-plan.md](./docs/11-all-stations-plan.md)
 
 現在の方針: **まず日本語で作り切る。多言語展開はそのあと。**
 既存の不動産まとめ記事に対する優位は「深さ」でしか作れず、浅い記事を13言語に
@@ -96,8 +96,8 @@ npm run build
 データ生成（いずれも標準ライブラリのみで動く）:
 
 ```bash
-python3 scripts/build-roster.py     # 全443駅と路線マスタ
-python3 scripts/build-commutes.py   # 所要時間（443駅 × 7オフィス街）
+python3 scripts/build-roster.py     # 全448駅と路線マスタ
+python3 scripts/build-commutes.py   # 所要時間（448駅 × 7オフィス街）
 python3 scripts/build-scores.py     # 計算で出せるスコア軸
 ```
 

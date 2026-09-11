@@ -58,7 +58,7 @@
 | 軸 | 一次データ | 人間の判断 |
 |---|---|---|
 | `rentValue` | 家賃相場と通勤時間から算出 | 補正のみ |
-| `commute` `transitConvenience` | **計算済み（全443駅）**。所要時間の平均と路線構成から算出 | 補正のみ |
+| `commute` `transitConvenience` | **計算済み（全448駅）**。所要時間の平均と路線構成から算出 | 補正のみ |
 | `shopping` `food` `cafe` `nightlife` `healthcare` `fitness` | 施設数（POI カウント） | 質の補正 |
 | `safety` | 警視庁の犯罪発生マップ | 体感の補正 |
 | `nature` | 公園面積・緑被率 | 補正のみ |
@@ -66,10 +66,10 @@
 
 つまり「機械で出せる軸は機械で出し、土地勘が要る軸に人間を集中させる」。これが構想 §4.2 の差別化を運用可能にする形。
 
-`commute` と `transitConvenience` は全443駅ぶん計算済み（`scripts/build-scores.py`）。
+`commute` と `transitConvenience` は全448駅ぶん計算済み（`scripts/build-scores.py`）。
 残る14軸をどう埋めるかは [11-all-stations-plan.md](./11-all-stations-plan.md)。
 
-スコアは**軸ごとに任意**である。443駅ぶんが一度に揃うことはなく、計算できる軸・購入した軸・
+スコアは**軸ごとに任意**である。448駅ぶんが一度に揃うことはなく、計算できる軸・購入した軸・
 人が判断した軸が順に埋まっていくため。総合評価は**入っている軸だけで重みを正規化し直す**ので、
 半分しか埋まっていない駅が不当に低く出ることはない。
 

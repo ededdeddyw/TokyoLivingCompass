@@ -82,7 +82,7 @@ export const commuteSchema = z.object({
 });
 
 /**
- * スコアは軸ごとに任意。443駅ぶんのデータは一度に揃わず、
+ * スコアは軸ごとに任意。448駅ぶんのデータは一度に揃わず、
  * 計算できる軸・購入した軸・人が判断した軸が順に埋まっていくため。
  */
 export const scoresSchema = z.object(
@@ -165,7 +165,7 @@ export const stationSchema = z.object({
 
 export type StationProfile = z.infer<typeof stationSchema>;
 
-/** 計算で求めた所要時間（data/computed/commutes.json）。全443駅ぶんある。 */
+/** 計算で求めた所要時間（data/computed/commutes.json）。全448駅ぶんある。 */
 export const computedCommutesSchema = z.record(
   z.string(),
   z.array(commuteSchema).min(1),

@@ -1198,8 +1198,8 @@
     "ward": "shinjuku",
     "wardCode": "13104",
     "wardNameJa": "新宿区",
-    "lat": 35.689912,
-    "lon": 139.6997,
+    "lat": 35.689893,
+    "lon": 139.699776,
     "lineIds": [
       "11302",
       "11311",
@@ -4103,8 +4103,8 @@
     "ward": "shibuya",
     "wardCode": "13113",
     "wardNameJa": "渋谷区",
-    "lat": 35.647008,
-    "lon": 139.709529,
+    "lat": 35.646901,
+    "lon": 139.709709,
     "lineIds": [
       "11302",
       "11321",
@@ -4136,8 +4136,8 @@
     "ward": "shibuya",
     "wardCode": "13113",
     "wardNameJa": "渋谷区",
-    "lat": 35.658973,
-    "lon": 139.701585,
+    "lat": 35.658961,
+    "lon": 139.701541,
     "lineIds": [
       "11302",
       "11321",
@@ -4803,8 +4803,8 @@
     "ward": "toshima",
     "wardCode": "13116",
     "wardNameJa": "豊島区",
-    "lat": 35.730266,
-    "lon": 139.710448,
+    "lat": 35.730264,
+    "lon": 139.710539,
     "lineIds": [
       "11302",
       "11321",
@@ -4916,6 +4916,34 @@
     "lineIds": [
       "11302",
       "28009"
+    ]
+  },
+  {
+    "slug": "kita-akabane",
+    "groupCode": "1132109",
+    "nameJa": "北赤羽",
+    "nameRomaji": "Kita-Akabane",
+    "ward": "kita",
+    "wardCode": "13117",
+    "wardNameJa": "北区",
+    "lat": 35.787007,
+    "lon": 139.70569,
+    "lineIds": [
+      "11321"
+    ]
+  },
+  {
+    "slug": "jujo",
+    "groupCode": "1132107",
+    "nameJa": "十条",
+    "nameRomaji": "Jujo",
+    "ward": "kita",
+    "wardCode": "13117",
+    "wardNameJa": "北区",
+    "lat": 35.760321,
+    "lon": 139.722233,
+    "lineIds": [
+      "11321"
     ]
   },
   {
@@ -5045,6 +5073,24 @@
     "lon": 139.732779,
     "lineIds": [
       "99305"
+    ]
+  },
+  {
+    "slug": "akabane",
+    "groupCode": "1131903",
+    "nameJa": "赤羽",
+    "nameRomaji": "Akabane",
+    "ward": "kita",
+    "wardCode": "13117",
+    "wardNameJa": "北区",
+    "lat": 35.778026,
+    "lon": 139.720928,
+    "lineIds": [
+      "11319",
+      "11321",
+      "11323",
+      "11332",
+      "11333"
     ]
   },
   {
@@ -5500,6 +5546,20 @@
     ]
   },
   {
+    "slug": "itabashi",
+    "groupCode": "1132106",
+    "nameJa": "板橋",
+    "nameRomaji": "Itabashi",
+    "ward": "itabashi",
+    "wardCode": "13119",
+    "wardNameJa": "板橋区",
+    "lat": 35.745435,
+    "lon": 139.719507,
+    "lineIds": [
+      "11321"
+    ]
+  },
+  {
     "slug": "itabashi-kuyakushomae",
     "groupCode": "9930318",
     "nameJa": "板橋区役所前",
@@ -5525,6 +5585,20 @@
     "lon": 139.705535,
     "lineIds": [
       "99303"
+    ]
+  },
+  {
+    "slug": "ukimafunado",
+    "groupCode": "1132110",
+    "nameJa": "浮間舟渡",
+    "nameRomaji": "Ukimafunado",
+    "ward": "itabashi",
+    "wardCode": "13119",
+    "wardNameJa": "板橋区",
+    "lat": 35.791209,
+    "lon": 139.691341,
+    "lineIds": [
+      "11321"
     ]
   },
   {

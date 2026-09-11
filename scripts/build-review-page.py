@@ -16,8 +16,18 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # 16層すべてを書き終えた駅だけを載せる。順序は執筆した順。
 STATIONS = [
+    # 深川エリア
     "kiyosumi-shirakawa", "morishita", "monzen-nakacho",
-    "koenji", "higashi-nakano", "nakameguro",
+    # 中央線・城西
+    "koenji", "higashi-nakano", "sasazuka",
+    # 文京・目黒
+    "myogadani", "nakameguro", "musashi-koyama",
+    # 港区
+    "roppongi", "roppongi-itchome", "nogizaka",
+    # 品川・大田
+    "osaki", "oimachi", "nakanobu", "nishimagome",
+    # 板橋
+    "itabashi",
 ]
 
 LABELS = {
@@ -60,6 +70,13 @@ BEFORE_AFTER = [
     ("町会が機能している", "町会が活発に運営され、祭りにも多くの住民が参加している"),
     ("深川エリアで最も夜が長い", "深川エリアでは飲食店が最も遅くまで営業している"),
     ("ここを甘く見積もると毎日削られる", "ここを甘く見積もると、毎朝を満員電車で過ごす疲れが積み重なる"),
+    ("住宅の供給が少ないことも価格に効いている",
+     "青山霊園と乃木神社が周辺の土地の多くを占め、新しい住宅が建つ余地が少ないことも、家賃を押し上げている"),
+    ("千代田線で大手町へ直通11分というのも効率が良い",
+     "千代田線で大手町へ乗り換えなしに11分で着くので、朝の通勤で消耗しない"),
+    ("始発駅なので、朝は必ず座って通勤できる",
+     "始発駅なので、列車を1本見送れば朝も座って通勤できる"),
+    ("甲州街道に近く、車の通りが多い", "甲州街道に近く、日中も夜も車がよく通る"),
 ]
 
 
@@ -172,14 +189,14 @@ def main():
 
     css = open(os.path.join(ROOT, "scripts", "review-page.css"), encoding="utf-8").read()
 
-    body = f"""<title>深川・中央線の6駅</title>
+    body = f"""<title>16層で書いた17駅</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap">
 <style>{css}</style>
 
 <div class="wrap">
   <header class="page-head">
     <p class="eyebrow">TOKYO LIVING COMPASS</p>
-    <h1>16層で書き切った6駅</h1>
+    <h1>16層で書き切った17駅</h1>
     <p class="lede">
       駅ページに載せる日本語を、指摘を受けて全文書き直したもの。
       比喩で意味を圧縮した表現を排除し、誰が・何を・どうして・どうなるのかを
@@ -197,24 +214,24 @@ def main():
       「効く」は薬に使う言葉であり、路線には使わない。
       もう一つは、良し悪しの方向まで書くこと。「夜は森下のほうが開いている」では、
       何が開いていて、それが利点なのか欠点なのかを読み手が判断できない。
-      該当した合計70箇所以上を書き直した。
+      該当した合計70箇所以上を書き直したうえで、その後に書いた駅にも同じ規律を適用している。
     </p>
   </section>
 
   {"".join(render(d) for d in data)}
 
   <section class="caveat">
-    <h2>この6駅はまだ下書きである</h2>
+    <h2>この17駅はまだ下書きである</h2>
     <p>
       構成と観点は基準を満たしているが、個々の事実の裏取りが済んでいない。
-      とくに浸水・高潮の想定区域、店名と徒歩分数、大江戸線ホームの深さは、
+      とくに浸水・高潮の想定区域、店名と徒歩分数、ホームの深さは、
       区のハザードマップと現地で確認しなければ公開できない。
       ここで見ていただきたいのは書きぶりであり、事実の正しさではない。
     </p>
   </section>
 
   <footer>
-    Tokyo Living Compass ／ 掲載候補443駅のうち、16層すべてを書き終えたのは6駅。
+    Tokyo Living Compass ／ 掲載候補448駅のうち、16層すべてを書き終えたのは17駅。
   </footer>
 </div>
 """

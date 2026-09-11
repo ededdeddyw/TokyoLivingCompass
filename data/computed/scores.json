@@ -1339,6 +1339,14 @@
     "commute": 59,
     "transitConvenience": 57
   },
+  "kita-akabane": {
+    "commute": 46,
+    "transitConvenience": 32
+  },
+  "jujo": {
+    "commute": 55,
+    "transitConvenience": 32
+  },
   "shimo": {
     "commute": 41,
     "transitConvenience": 32
@@ -1374,6 +1382,10 @@
   "nishigahara-yonchome": {
     "commute": 41,
     "transitConvenience": 32
+  },
+  "akabane": {
+    "commute": 55,
+    "transitConvenience": 88
   },
   "akabane-iwabuchi": {
     "commute": 38,
@@ -1499,12 +1511,20 @@
     "commute": 42,
     "transitConvenience": 32
   },
+  "itabashi": {
+    "commute": 60,
+    "transitConvenience": 32
+  },
   "itabashi-kuyakushomae": {
     "commute": 49,
     "transitConvenience": 32
   },
   "itabashihoncho": {
     "commute": 45,
+    "transitConvenience": 32
+  },
+  "ukimafunado": {
+    "commute": 43,
     "transitConvenience": 32
   },
   "hasune": {
