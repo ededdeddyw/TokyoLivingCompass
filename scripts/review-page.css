@@ -197,3 +197,5 @@ ul.bare.bad li::marker { color: var(--bad); }
 .caveat p { color: var(--ink); font-size: .92rem; }
 
 footer { color: var(--ink-faint); font-size: .82rem; border-top: 1px solid var(--line); padding-top: 1.3rem; }
+
+.note-small { margin: .5rem 0 0; font-size: .78rem; line-height: 1.7; color: var(--ink-soft); opacity: .85; }

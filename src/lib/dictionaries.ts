@@ -111,6 +111,7 @@ export type Dictionary = {
     rosterOnly: string;
   };
   commuteNote: string;
+  hazardNote: string;
   rentHistory: {
     title: string;
     period: string;
@@ -241,6 +242,8 @@ const ja: Dictionary = {
   },
   commuteNote:
     "所要時間は駅間距離と路線種別から計算した推定値です（乗車時間ベース、乗換5分で算入）。優等列車は考慮していません。",
+  hazardNote:
+    "浸水想定区域とは、想定しうる最大規模の雨や台風が起きた場合に浸水すると試算された範囲です。ふだんから浸水する場所という意味ではなく、また区域の外なら浸水しないという意味でもありません。想定される深さは同じ駅でも区画ごとに違うため、住む場所を決める前に、区が公開しているハザードマップで住所ごとに確認してください。",
   rentHistory: {
     title: "家賃の推移",
     period: "時点",
@@ -428,6 +431,8 @@ const en: Dictionary = {
   },
   commuteNote:
     "Times are estimates computed from inter-station distance and line type (in-vehicle time, 5 minutes allowed per transfer). Express services are not modelled.",
+  hazardNote:
+    "A flood hazard zone is the area a ward estimates would flood under the largest rainfall or typhoon it plans for. It does not mean the area floods routinely, nor that areas outside it never flood. Estimated depths differ block by block within the same station area, so check your specific address on the ward's own hazard map before deciding where to live.",
   rentHistory: {
     title: "How rents have moved",
     period: "Period",

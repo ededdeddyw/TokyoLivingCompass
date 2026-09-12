@@ -134,7 +134,6 @@ export function StationDepth({
   const simple: [string, string | undefined][] = [
     [d.family, content.family],
     [d.medical, content.medical],
-    [d.hazards, content.hazards],
     [d.stationNote, content.stationNote],
     [d.nightWalk, content.nightWalk],
     [d.residents, content.residents],
@@ -150,6 +149,20 @@ export function StationDepth({
         </Block>,
       );
     }
+  }
+
+  // 災害は、書き方ひとつで読み手の受け取り方が大きく変わる。
+  // 浸水想定区域が何を意味するのかを毎回そえて、駅ごとの本文が単独で
+  // 強く読まれないようにする。
+  if (content.hazards) {
+    blocks.push(
+      <Block key="hazards" title={d.hazards}>
+        <p>{content.hazards}</p>
+        <p className="mt-2 text-xs leading-relaxed text-ink-soft">
+          {dict.hazardNote}
+        </p>
+      </Block>,
+    );
   }
 
   if (content.neighbours && content.neighbours.length > 0) {
