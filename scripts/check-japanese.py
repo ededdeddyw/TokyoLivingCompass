@@ -82,6 +82,14 @@ CONDITIONAL_ASSERTION = [
     "毎日の移動で負担になる", "移動が負担になる", "負担になる。",
 ]
 
+# ルール34: 費用が動くことだけを書いて終わっている形。
+# 「食費が上がる」では、いくら上がるのか、それが読み手にとって痛い額なのかが伝わらない。
+# 誰にとっての負担なのかまで書く。
+COST_ONLY = [
+    "食費が上がる", "食費が上がり", "食費がかさむ", "生活費が上がる",
+    "高くつく", "生活コストの低さ", "生活コストを下げて", "生活コストを支えて",
+]
+
 # ルール30: それ自体では中身の決まらない名詞に、抽象的な修飾語しか付いていない形。
 # 「外食と夜の選択肢」は、夜の何の選択肢なのかが書かれていない。
 # 「夜に外食する選択肢」のように動作が書いてあるものは対象外。
@@ -186,6 +194,9 @@ def check_text(label, path, text, findings, taigen=True, claims=True):
     for word in VAGUE_QUANTITY:
         if word in text:
             add("30", f"何の{word[-3:]}なのかが書かれていない: 「{word}」")
+    for word in COST_ONLY:
+        if word in text:
+            add("34", f"費用の書き方: 「{word}」。誰の家計にどう効くのかまで書く")
     for word in HAZARD_ASSERTION:
         if word in text:
             add("32", f"災害の書き方: 「{word}」。"
