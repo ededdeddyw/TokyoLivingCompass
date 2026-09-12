@@ -1,0 +1,25 @@
+{
+  "slug": "morishita",
+  "name": "森下",
+  "note": "1サイトぶんしか取れていない。2サイト以上そろわない間取りは帯にしないため、この駅はまだ帯が出ない。",
+  "observations": [
+    {
+      "source": "LIFULL HOME'S",
+      "url": "https://www.homes.co.jp/chintai/tokyo/morishita_06431-st/price/",
+      "retrievedAt": "2024-12-01",
+      "basis": "asking",
+      "verified": false,
+      "coverage": "駅の掲載物件全体の相場。間取り別に掲載されている値",
+      "rent": { "oneRoom": 108200, "oneK": 105100, "oneLDK": 171400, "twoLDK": 216900 }
+    },
+    {
+      "source": "SUUMO",
+      "url": "https://suumo.jp/chintai/soba/tokyo/ek_39490/",
+      "retrievedAt": "2026-09-12",
+      "basis": "asking",
+      "verified": false,
+      "coverage": "検索結果には新築かつ徒歩5分以内に絞った値しか出ておらず、駅全体の相場が取れなかった",
+      "rent": { "oneRoom": null, "oneK": null, "oneLDK": null, "twoLDK": null }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "nakameguro",
+  "name": "中目黒",
+  "note": "検索結果に出た各サイトの掲載相場を記録したもの。ページを開いての確認は未実施のため verified は false。",
+  "observations": [
+    {
+      "source": "SUUMO",
+      "url": "https://suumo.jp/chintai/soba/tokyo/ek_27580/",
+      "retrievedAt": "2026-09-11",
+      "basis": "asking",
+      "verified": false,
+      "coverage": "駅の掲載物件全体の相場。間取り別に掲載されている値",
+      "rent": { "oneRoom": 152000, "oneK": 145000, "oneLDK": 207000, "twoLDK": 304000 }
+    },
+    {
+      "source": "LIFULL HOME'S",
+      "url": "https://www.homes.co.jp/chintai/tokyo/nakameguro_05051-st/price/",
+      "retrievedAt": "2026-09-12",
+      "basis": "asking",
+      "verified": false,
+      "coverage": "ワンルームと1Kをまとめて10〜11万円と示していたため、中間の10.5万円を両方に入れている",
+      "rent": { "oneRoom": 105000, "oneK": 105000, "oneLDK": null, "twoLDK": 265000 }
+    }
+  ]
+}

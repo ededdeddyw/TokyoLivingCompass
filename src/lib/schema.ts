@@ -203,6 +203,51 @@ export const computedCommutesSchema = z.record(
   z.array(commuteSchema).min(1),
 );
 
+/**
+ * 複数サイトの掲載相場を平均し、1万円刻みに丸めた帯（data/computed/rent-bands.json）。
+ * scripts/build-rent-bands.py が data/rent-survey/ の観測値から生成する。
+ *
+ * 相場を1点の数字で示すと、出典ごとに数万円ちがう値を1つに見せてしまう。
+ * 帯で示したうえで、出典ごとの最小と最大も持たせ、開きが大きければ駅ページで注記する。
+ */
+export const rentBandSchema = z.object({
+  low: z.number().int().min(0),
+  high: z.number().int().min(0),
+  mean: z.number().int().min(0),
+  sourceMin: z.number().int().min(0),
+  sourceMax: z.number().int().min(0),
+  /** 平均のもとになったサイト数。2未満の間取りは帯にしない */
+  sourceCount: z.number().int().min(2),
+  /** 出典間の開きが3万円以上か。大きければ、帯だけを信じないよう注記する */
+  wideSpread: z.boolean(),
+});
+
+export const rentBandsSchema = z.record(
+  z.string(),
+  z.object({
+    bands: z.object(
+      Object.fromEntries(
+        RENT_TYPES.map((t) => [t, rentBandSchema.optional()]),
+      ) as Record<RentType, z.ZodOptional<typeof rentBandSchema>>,
+    ),
+    sources: z
+      .array(
+        z.object({
+          name: z.string().min(1),
+          url: z.string().url().nullable().optional(),
+          retrievedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+        }),
+      )
+      .min(2),
+    retrievedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+    /** すべての観測値を人がページを開いて確認したか。false なら暫定値として表示する */
+    verified: z.boolean(),
+  }),
+);
+
+export type RentBand = z.infer<typeof rentBandSchema>;
+export type RentBands = z.infer<typeof rentBandsSchema>[string];
+
 /** 計算で求めたスコア（data/computed/scores.json）。埋まっている軸だけ入る。 */
 export const computedScoresSchema = z.record(z.string(), scoresSchema);
 
@@ -218,6 +263,8 @@ export type Station = RosterStation & {
   morningCrowding?: number;
   rent?: Rent;
   rentHistory?: RentHistory;
+  /** 複数サイトの掲載相場を平均した帯。出典を明示して「弊社調べ」として出す */
+  rentBands?: RentBands;
   facilities?: Facilities;
   sources?: Sources;
   dataQuality: "roster" | "seed" | "reviewed" | "verified";

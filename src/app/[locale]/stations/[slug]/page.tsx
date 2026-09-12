@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { RentBands } from "@/components/RentBands";
 import { RentHistoryTable } from "@/components/RentHistoryTable";
 import { RentSourceNote } from "@/components/RentSourceNote";
 import { ScoreGrid } from "@/components/ScoreGrid";
@@ -137,6 +138,12 @@ export default async function StationPage({
         </dl>
         <RentSourceNote source={station.sources?.rent} dict={dict} />
       </Section>
+
+      {station.rentBands && (
+        <Section title={dict.rentBands.title}>
+          <RentBands data={station.rentBands} dict={dict} />
+        </Section>
+      )}
 
       {station.rentHistory && (
         <Section title={dict.rentHistory.title}>

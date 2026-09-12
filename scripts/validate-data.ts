@@ -165,6 +165,26 @@ function shortLineName(nameJa: string): string {
   return nameJa.replace(/[(（].*$/, "");
 }
 
+// 家賃の帯（弊社調べ）。出典を明示して出す以上、元の観測値が残っていることを確かめる。
+const bandedStations = stations.filter((s) => s.rentBands);
+const provisionalBands: string[] = [];
+for (const station of bandedStations) {
+  const b = station.rentBands!;
+  if (b.sources.length < 2) {
+    errors.push(
+      `${station.slug}: 家賃の帯の出典が ${b.sources.length} 件しかありません。` +
+        `「複数サイトの平均」と書く以上、2件以上必要です。`,
+    );
+  }
+  if (!b.verified) provisionalBands.push(station.slug);
+}
+if (provisionalBands.length > 0) {
+  warnings.push(
+    `${provisionalBands.length}駅の家賃の帯が未確認です（掲載元のページを開いての確認が済んでいない）。` +
+      `駅ページには暫定値と表示されます: ${provisionalBands.join("、")}`,
+  );
+}
+
 // 充足率レポート。448駅を段階的に埋めていくので、
 // 「いま何がどれだけ埋まっているか」が一目で分かる形にする。
 const total = stations.length;

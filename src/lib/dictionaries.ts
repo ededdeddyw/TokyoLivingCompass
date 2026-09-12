@@ -112,6 +112,13 @@ export type Dictionary = {
   };
   commuteNote: string;
   hazardNote: string;
+  rentBands: {
+    title: string;
+    band: string;
+    attribution: string;
+    wideSpreadNote: string;
+    provisional: string;
+  };
   rentHistory: {
     title: string;
     period: string;
@@ -242,6 +249,16 @@ const ja: Dictionary = {
   },
   commuteNote:
     "所要時間は駅間距離と路線種別から計算した推定値です（乗車時間ベース、乗換5分で算入）。優等列車は考慮していません。",
+  rentBands: {
+    title: "家賃の目安（弊社調べ）",
+    band: "{low}万〜{high}万円",
+    attribution:
+      "{sources} が公開している駅ごとの掲載相場を平均し、1万円刻みに丸めた値です（{date} 時点・弊社調べ）。いずれも募集賃料のため、実際の成約額はこれより下がることがあります。",
+    wideSpreadNote:
+      "* を付けた間取りは、出典によって3万円以上の開きがあります。集計する範囲や対象物件がサイトごとに違うためで、帯の中に収まらない物件も相応にあります。",
+    provisional:
+      "この数値は掲載元のページを開いての確認が済んでいない暫定値です。公開前に確認します。",
+  },
   hazardNote:
     "浸水想定区域とは、想定しうる最大規模の雨や台風が起きた場合に浸水すると試算された範囲です。ふだんから浸水する場所という意味ではなく、また区域の外なら浸水しないという意味でもありません。想定される深さは同じ駅でも区画ごとに違うため、住む場所を決める前に、区が公開しているハザードマップで住所ごとに確認してください。",
   rentHistory: {
@@ -431,6 +448,16 @@ const en: Dictionary = {
   },
   commuteNote:
     "Times are estimates computed from inter-station distance and line type (in-vehicle time, 5 minutes allowed per transfer). Express services are not modelled.",
+  rentBands: {
+    title: "Typical rent (our own survey)",
+    band: "¥{low}0k–{high}0k",
+    attribution:
+      "Average of the per-station asking rents published by {sources}, rounded to the nearest ¥10,000 (as of {date}, our own survey). These are asking rents; the rent actually agreed is often lower.",
+    wideSpreadNote:
+      "Layouts marked * differ by more than ¥30,000 between sources, because each site aggregates a different set of listings. A fair number of homes fall outside the band.",
+    provisional:
+      "These figures have not yet been checked against the source pages and are provisional.",
+  },
   hazardNote:
     "A flood hazard zone is the area a ward estimates would flood under the largest rainfall or typhoon it plans for. It does not mean the area floods routinely, nor that areas outside it never flood. Estimated depths differ block by block within the same station area, so check your specific address on the ward's own hazard map before deciding where to live.",
   rentHistory: {

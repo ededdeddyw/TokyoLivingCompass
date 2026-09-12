@@ -6,12 +6,14 @@ import {
   computedCommutesSchema,
   computedScoresSchema,
   lineSchema,
+  rentBandsSchema,
   rosterStationSchema,
   stationContentSchema,
   stationSchema,
   type Commute,
   type Line,
   type LocalizedStation,
+  type RentBands,
   type RosterStation,
   type Station,
   type StationContent,
@@ -31,6 +33,7 @@ const ROSTER_FILE = join(DATA_DIR, "roster", "stations.json");
 const LINES_FILE = join(DATA_DIR, "reference", "lines.json");
 const COMMUTES_FILE = join(DATA_DIR, "computed", "commutes.json");
 const COMPUTED_SCORES_FILE = join(DATA_DIR, "computed", "scores.json");
+const RENT_BANDS_FILE = join(DATA_DIR, "computed", "rent-bands.json");
 
 function readJson(path: string): unknown {
   return JSON.parse(readFileSync(path, "utf8"));
@@ -101,6 +104,32 @@ function getComputedScores(): Map<string, Partial<Record<ScoreAxis, number>>> {
   return computedScoreCache;
 }
 
+let rentBandCache: Map<string, RentBands> | null = null;
+
+/**
+ * 複数サイトの掲載相場を平均した帯。scripts/build-rent-bands.py が生成する。
+ * まだ調べていない駅は入っていないので、無くても落とさない。
+ */
+function getRentBands(): Map<string, RentBands> {
+  if (rentBandCache) return rentBandCache;
+  let raw: unknown;
+  try {
+    raw = readJson(RENT_BANDS_FILE);
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code !== "ENOENT") throw error;
+    rentBandCache = new Map();
+    return rentBandCache;
+  }
+  const parsed = rentBandsSchema.safeParse(raw);
+  if (!parsed.success) {
+    throw new Error(
+      `家賃の帯が不正です\n${JSON.stringify(parsed.error.format(), null, 2)}`,
+    );
+  }
+  rentBandCache = new Map(Object.entries(parsed.data));
+  return rentBandCache;
+}
+
 let stationCache: Station[] | null = null;
 
 /**
@@ -113,6 +142,7 @@ export function getAllStations(): Station[] {
   const profiles = getProfiles();
   const commutes = getComputedCommutes();
   const computedScores = getComputedScores();
+  const rentBands = getRentBands();
 
   stationCache = getRoster().map((base) => {
     const profile = profiles.get(base.slug);
@@ -129,6 +159,7 @@ export function getAllStations(): Station[] {
       morningCrowding: profile?.morningCrowding,
       rent: profile?.rent,
       rentHistory: profile?.rentHistory,
+      rentBands: rentBands.get(base.slug),
       facilities: profile?.facilities,
       sources: profile?.sources,
       dataQuality: profile?.dataQuality ?? "roster",

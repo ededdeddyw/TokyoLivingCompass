@@ -1,0 +1,47 @@
+{
+  "nakameguro": {
+    "bands": {
+      "oneK": {
+        "high": 130000,
+        "low": 120000,
+        "mean": 125000,
+        "sourceCount": 2,
+        "sourceMax": 145000,
+        "sourceMin": 105000,
+        "wideSpread": true
+      },
+      "oneRoom": {
+        "high": 130000,
+        "low": 120000,
+        "mean": 128500,
+        "sourceCount": 2,
+        "sourceMax": 152000,
+        "sourceMin": 105000,
+        "wideSpread": true
+      },
+      "twoLDK": {
+        "high": 290000,
+        "low": 280000,
+        "mean": 284500,
+        "sourceCount": 2,
+        "sourceMax": 304000,
+        "sourceMin": 265000,
+        "wideSpread": true
+      }
+    },
+    "retrievedAt": "2026-09-12",
+    "sources": [
+      {
+        "name": "SUUMO",
+        "retrievedAt": "2026-09-11",
+        "url": "https://suumo.jp/chintai/soba/tokyo/ek_27580/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-09-12",
+        "url": "https://www.homes.co.jp/chintai/tokyo/nakameguro_05051-st/price/"
+      }
+    ],
+    "verified": false
+  }
+}

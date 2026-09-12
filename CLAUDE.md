@@ -166,10 +166,16 @@ npm run build
 データ生成（いずれも標準ライブラリのみで動く）:
 
 ```bash
-python3 scripts/build-roster.py     # 全448駅と路線マスタ
-python3 scripts/build-commutes.py   # 所要時間（448駅 × 7オフィス街）
-python3 scripts/build-scores.py     # 計算で出せるスコア軸
+python3 scripts/build-roster.py      # 全448駅と路線マスタ
+python3 scripts/build-commutes.py    # 所要時間（448駅 × 7オフィス街）
+python3 scripts/build-scores.py      # 計算で出せるスコア軸
+python3 scripts/build-rent-bands.py  # 家賃の帯（data/rent-survey/ の観測値から）
 ```
+
+家賃相場は、各サイトが公開している駅ごとの相場を人が見て記録し、平均して1万円刻みの
+帯にしたうえで「弊社調べ」として出す。記録の手順は
+[docs/08-data-sources-rent.md](./docs/08-data-sources-rent.md) §8。
+物件一覧を機械で巡回して集めることはしない（同 §E）。
 
 ## 設計上の約束
 
