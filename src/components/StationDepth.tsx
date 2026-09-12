@@ -91,7 +91,14 @@ export function StationDepth({
         <dl className="space-y-2">
           {content.exits.map((exit) => (
             <div key={exit.name} className="flex gap-3">
-              <dt className="w-20 shrink-0 font-medium text-ink">{exit.name}</dt>
+              <dt className="w-28 shrink-0 font-medium text-ink">
+                {exit.line && (
+                  <span className="block text-xs font-normal text-ink-soft">
+                    {exit.line}
+                  </span>
+                )}
+                {exit.name}
+              </dt>
               <dd>{exit.character}</dd>
             </div>
           ))}

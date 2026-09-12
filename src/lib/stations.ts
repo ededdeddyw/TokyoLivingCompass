@@ -128,6 +128,7 @@ export function getAllStations(): Station[] {
       hasFirstTrain: profile?.hasFirstTrain,
       morningCrowding: profile?.morningCrowding,
       rent: profile?.rent,
+      rentHistory: profile?.rentHistory,
       facilities: profile?.facilities,
       sources: profile?.sources,
       dataQuality: profile?.dataQuality ?? "roster",

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { RentHistoryTable } from "@/components/RentHistoryTable";
 import { RentSourceNote } from "@/components/RentSourceNote";
 import { ScoreGrid } from "@/components/ScoreGrid";
 import { StationDepth } from "@/components/StationDepth";
@@ -136,6 +137,12 @@ export default async function StationPage({
         </dl>
         <RentSourceNote source={station.sources?.rent} dict={dict} />
       </Section>
+
+      {station.rentHistory && (
+        <Section title={dict.rentHistory.title}>
+          <RentHistoryTable history={station.rentHistory} dict={dict} />
+        </Section>
+      )}
 
       <Section title={dict.station.commute}>
         <div className="overflow-x-auto">

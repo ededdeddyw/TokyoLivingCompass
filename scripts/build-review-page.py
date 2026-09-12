@@ -135,7 +135,9 @@ def render(d):
 
     if "exits" in d:
         rows = "".join(
-            f'<dl class="exit"><dt>{e(x["name"])}</dt><dd>{e(x["character"])}</dd></dl>'
+            '<dl class="exit"><dt>'
+            + (f'<span class="exit-line">{e(x["line"])}</span>' if x.get("line") else "")
+            + f'{e(x["name"])}</dt><dd>{e(x["character"])}</dd></dl>'
             for x in d["exits"]
         )
         parts.append(block(LABELS["exits"], f'<div class="exits">{rows}</div>'))

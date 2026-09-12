@@ -123,6 +123,36 @@ export const rentSourceSchema = z.object({
   sampleSize: z.number().int().positive().optional(),
 });
 
+/**
+ * 家賃の推移。相場を1時点で示すと、上がっているのか下がっているのかが分からない。
+ * 「いま高い」と「これから高くなる」は住む判断としてまったく違うため、時系列で持つ。
+ * 間取りごとに欠けがあってよい（揃った間取りから埋めていく）。
+ */
+export const rentPointSchema = z.object({
+  /** 集計年。四半期まで分かる場合は quarter も入れる */
+  year: z.number().int().min(2000).max(2100),
+  quarter: z.number().int().min(1).max(4).optional(),
+  rent: z
+    .object(
+      Object.fromEntries(
+        RENT_TYPES.map((t) => [
+          t,
+          z.number().int().min(10000).max(2000000).optional(),
+        ]),
+      ) as Record<RentType, z.ZodOptional<z.ZodNumber>>,
+    )
+    .refine((r) => Object.values(r).some((v) => v !== undefined), {
+      message: "1つ以上の間取りに値が必要です",
+    }),
+});
+
+export const rentHistorySchema = z.object({
+  /** 古い順に並べる。2点以上ないと推移にならない */
+  points: z.array(rentPointSchema).min(2),
+  /** 推移は本文で言い切る材料になるため、出典は必須にする */
+  source: rentSourceSchema,
+});
+
 export const sourcesSchema = z.object({
   rent: rentSourceSchema.optional(),
 });
@@ -146,6 +176,8 @@ export const stationSchema = z.object({
   /** 朝ラッシュの混雑度。1 = 空いている、5 = 非常に混雑 */
   morningCrowding: z.number().int().min(1).max(5).optional(),
   rent: rentSchema.optional(),
+  /** 家賃の推移。出典つきでしか持てない（rentHistorySchema） */
+  rentHistory: rentHistorySchema.optional(),
   scores: scoresSchema.default({}),
   facilities: facilitiesSchema.optional(),
   similarStations: z.array(z.string()).default([]),
@@ -185,6 +217,7 @@ export type Station = RosterStation & {
   hasFirstTrain?: boolean;
   morningCrowding?: number;
   rent?: Rent;
+  rentHistory?: RentHistory;
   facilities?: Facilities;
   sources?: Sources;
   dataQuality: "roster" | "seed" | "reviewed" | "verified";
@@ -197,6 +230,8 @@ export type Commute = z.infer<typeof commuteSchema>;
 export type Scores = z.infer<typeof scoresSchema>;
 export type Facilities = z.infer<typeof facilitiesSchema>;
 export type RentSource = z.infer<typeof rentSourceSchema>;
+export type RentPoint = z.infer<typeof rentPointSchema>;
+export type RentHistory = z.infer<typeof rentHistorySchema>;
 export type Sources = z.infer<typeof sourcesSchema>;
 
 /**
@@ -241,6 +276,12 @@ export const groceryStoreSchema = z.object({
  */
 export const exitSchema = z.object({
   name: z.string().min(1),
+  /**
+   * その出口がどの路線の改札につながっているか（「JR中央・総武線」「都営大江戸線」）。
+   * 複数路線が乗り入れる駅では、路線ごとに改札の位置も出口の先の街並みも変わる。
+   * 1路線しか通っていない駅では省略してよい。
+   */
+  line: z.string().min(1).optional(),
   character: z.string().min(1),
 });
 

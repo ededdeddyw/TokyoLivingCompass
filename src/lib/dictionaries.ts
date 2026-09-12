@@ -111,6 +111,11 @@ export type Dictionary = {
     rosterOnly: string;
   };
   commuteNote: string;
+  rentHistory: {
+    title: string;
+    period: string;
+    range: string;
+  };
   rentSource: {
     missing: string;
     askingCaveat: string;
@@ -236,6 +241,11 @@ const ja: Dictionary = {
   },
   commuteNote:
     "所要時間は駅間距離と路線種別から計算した推定値です（乗車時間ベース、乗換5分で算入）。優等列車は考慮していません。",
+  rentHistory: {
+    title: "家賃の推移",
+    period: "時点",
+    range: "{from} から {to} までの推移",
+  },
   rentSource: {
     missing: "家賃の出典は未設定です。",
     askingCaveat: "募集賃料のため、実際の成約額はこれより下がることがあります。",
@@ -418,6 +428,11 @@ const en: Dictionary = {
   },
   commuteNote:
     "Times are estimates computed from inter-station distance and line type (in-vehicle time, 5 minutes allowed per transfer). Express services are not modelled.",
+  rentHistory: {
+    title: "How rents have moved",
+    period: "Period",
+    range: "Change from {from} to {to}",
+  },
   rentSource: {
     missing: "No source recorded for these rent figures yet.",
     askingCaveat:

@@ -140,7 +140,29 @@ for (const locale of listContentLocales()) {
     if (content.authoredBy === "seed-placeholder") {
       placeholderContent.push(`${locale}/${slug}`);
     }
+
+    // 複数路線が乗り入れる駅では、路線ごとに改札の位置も出口の先の街並みも変わる。
+    // 片方の路線の出口しか書いていないと、もう片方を使う人には情報にならない。
+    const rosterEntry = rosterBySlug.get(slug);
+    if (content.exits && content.exits.length > 0 && rosterEntry && rosterEntry.lineIds.length > 1) {
+      const written = content.exits.map((e) => e.line ?? "").join(" ");
+      const missing = rosterEntry.lineIds
+        .map((id) => lines.get(id)?.nameJa)
+        .filter((name): name is string => Boolean(name))
+        .filter((name) => !written.includes(shortLineName(name)));
+      if (missing.length > 0) {
+        warnings.push(
+          `${locale}/${slug}: 出口の説明に ${missing.join("・")} が出てきません。` +
+            `路線ごとに改札の位置が違うため、路線ごとに書いてください。`,
+        );
+      }
+    }
   }
+}
+
+/** 「JR中央線(快速)」と「JR中央線（快速）」のような表記ゆれを避けて突き合わせる。 */
+function shortLineName(nameJa: string): string {
+  return nameJa.replace(/[(（].*$/, "");
 }
 
 // 充足率レポート。448駅を段階的に埋めていくので、
