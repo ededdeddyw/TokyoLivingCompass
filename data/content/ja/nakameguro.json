@@ -22,27 +22,11 @@
   ],
   "groceries": [
     {
-      "name": "東急ストア 中目黒本店",
-      "tier": "standard",
-      "walkMinutes": 2,
-      "note": "駅直結に近く、22時以降も営業している"
-    },
-    {
-      "name": "ピーコックストア",
-      "tier": "standard",
-      "walkMinutes": 6
-    },
-    {
-      "name": "成城石井",
-      "tier": "premium",
-      "walkMinutes": 3,
-      "note": "品揃えは良いが、日常の買い物をここだけで済ませると、平均的な収入の世帯には食費の負担が大きくなる"
-    },
-    {
       "name": "ライフ 中目黒店",
       "tier": "standard",
-      "walkMinutes": 9,
-      "note": "価格を抑えたいときの選択肢。坂を下る方向"
+      "note": "目黒区上目黒3-8-7にある",
+      "sourceUrl": "https://store.lifecorp.jp/detail/east670/",
+      "verifiedAt": "2026-09-12"
     }
   ],
   "exits": [

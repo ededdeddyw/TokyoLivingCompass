@@ -22,26 +22,18 @@
   ],
   "groceries": [
     {
-      "name": "東急ストア 武蔵小山店",
-      "tier": "standard",
-      "walkMinutes": 2,
-      "note": "駅至近で22時まで営業しており、帰宅が遅い日でも買い物ができる"
-    },
-    {
       "name": "オオゼキ 武蔵小山店",
       "tier": "discount",
-      "walkMinutes": 4,
-      "note": "生鮮品が安く、自炊するならここで買うことが多くなる"
-    },
-    {
-      "name": "西友 武蔵小山店",
-      "tier": "discount",
-      "walkMinutes": 5
+      "note": "品川区小山3-22-3にあり、生鮮品が安い。ここを使うかどうかで月々の食費がはっきり変わる",
+      "sourceUrl": "https://www.ozeki-net.co.jp/shop/tokyo/shinagawa/musashikoyama/",
+      "verifiedAt": "2026-09-12"
     },
     {
       "name": "ライフ 武蔵小山店",
       "tier": "standard",
-      "walkMinutes": 6
+      "note": "品川区小山2-7-14にある",
+      "sourceUrl": "https://store.lifecorp.jp/detail/east836/",
+      "verifiedAt": "2026-09-12"
     }
   ],
   "exits": [

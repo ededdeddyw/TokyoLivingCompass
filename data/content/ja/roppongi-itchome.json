@@ -21,21 +21,11 @@
   ],
   "groceries": [
     {
-      "name": "成城石井 アークヒルズ店",
+      "name": "成城石井 赤坂アークヒルズ店",
       "tier": "premium",
-      "walkMinutes": 3,
-      "note": "駅至近だが価格帯は高く、ここだけで買い物を済ませると、平均的な収入の世帯には食費の負担が大きくなる"
-    },
-    {
-      "name": "ピーコックストア 麻布十番店",
-      "tier": "standard",
-      "walkMinutes": 15,
-      "note": "価格を抑えたいときは麻布十番方面まで歩く"
-    },
-    {
-      "name": "まいばすけっと",
-      "tier": "standard",
-      "walkMinutes": 8
+      "note": "アークヒルズの中にある。価格帯は高く、ここだけで買い物を済ませると、平均的な収入の世帯には食費の負担が大きくなる",
+      "sourceUrl": "https://www.arkhills.com/gourmet_shops/0042.html",
+      "verifiedAt": "2026-09-12"
     }
   ],
   "exits": [

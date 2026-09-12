@@ -312,8 +312,19 @@ export const terrainSchema = z.object({
 export const groceryStoreSchema = z.object({
   name: z.string().min(1),
   tier: z.enum(["discount", "standard", "premium"]),
-  walkMinutes: z.number().int().min(0).max(30),
+  /**
+   * 駅からの徒歩分数。裏取りできていない場合は書かない。
+   * 実在する店でも、分数を確かめずに書くと、それだけで記事全体の信頼を落とす。
+   */
+  walkMinutes: z.number().int().min(0).max(30).optional(),
   note: z.string().optional(),
+  /**
+   * 実在を確認した情報源。店舗一覧や施設の公式ページなど、店名と所在地が載っているもの。
+   * 確認していない店は載せない（docs/12-quality-standard.md §3.1）。
+   */
+  sourceUrl: z.string().url(),
+  /** 確認した日 */
+  verifiedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
 });
 
 /**

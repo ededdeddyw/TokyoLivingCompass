@@ -165,6 +165,38 @@ function shortLineName(nameJa: string): string {
   return nameJa.replace(/[(（].*$/, "");
 }
 
+// 店名は、実在を確認していないものを載せてはいけない。
+// スキーマが sourceUrl と verifiedAt を必須にしているので、ここでは鮮度と件数を見る。
+const STORE_STALE_DAYS = 365;
+const staleStores: string[] = [];
+const noGroceries: string[] = [];
+for (const locale of listContentLocales()) {
+  if (!isActiveLocale(locale)) continue;
+  for (const slug of listContentSlugs(locale)) {
+    const content = getStationContent(slug, locale);
+    if (!content) continue;
+    if (!content.groceries || content.groceries.length === 0) {
+      noGroceries.push(slug);
+      continue;
+    }
+    for (const store of content.groceries) {
+      const age = (Date.now() - Date.parse(store.verifiedAt)) / 86_400_000;
+      if (age > STORE_STALE_DAYS) staleStores.push(`${slug}/${store.name}`);
+    }
+  }
+}
+if (noGroceries.length > 0) {
+  warnings.push(
+    `${noGroceries.length}駅に、実在を確認できた店が1つもありません: ${noGroceries.join("、")}`,
+  );
+}
+if (staleStores.length > 0) {
+  warnings.push(
+    `${staleStores.length}件の店が、確認から1年以上たっています。閉店していないか見直してください: ` +
+      staleStores.join("、"),
+  );
+}
+
 // 家賃の帯（弊社調べ）。出典を明示して出す以上、元の観測値が残っていることを確かめる。
 const bandedStations = stations.filter((s) => s.rentBands);
 const provisionalBands: string[] = [];

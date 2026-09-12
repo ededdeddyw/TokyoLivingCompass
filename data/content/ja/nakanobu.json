@@ -19,30 +19,6 @@
     "中原街道と第二京浜（国道1号）は車の通りが絶えない",
     "商店街に面した建物の上階は、日中の人の声が届く"
   ],
-  "groceries": [
-    {
-      "name": "オオゼキ 中延店",
-      "tier": "discount",
-      "walkMinutes": 3,
-      "note": "生鮮品が安く、自炊するならここで買うことが多くなる"
-    },
-    {
-      "name": "サミットストア 中延駅前店",
-      "tier": "standard",
-      "walkMinutes": 2,
-      "note": "駅至近で遅くまで営業しており、帰宅が遅い日でも買い物ができる"
-    },
-    {
-      "name": "ライフ 戸越銀座店",
-      "tier": "standard",
-      "walkMinutes": 10
-    },
-    {
-      "name": "まいばすけっと",
-      "tier": "standard",
-      "walkMinutes": 4
-    }
-  ],
   "exits": [
     {
       "name": "改札（地上1か所）",

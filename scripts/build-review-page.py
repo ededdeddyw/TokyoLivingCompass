@@ -166,10 +166,12 @@ def render(d):
         rows = []
         for g in d["groceries"]:
             note = f'<span class="shop-note">{e(g["note"])}</span>' if g.get("note") else ""
+            walk = (f'<span class="walk">徒歩 {g["walkMinutes"]}分</span>'
+                    if g.get("walkMinutes") is not None else "")
             rows.append(
                 f'<div class="shop"><span class="shop-name">{e(g["name"])}</span>'
                 f'<span class="pill {TIER_CLASS[g["tier"]]}">{e(TIER[g["tier"]])}</span>'
-                f'<span class="walk">徒歩 {g["walkMinutes"]}分</span>{note}</div>'
+                f'{walk}{note}</div>'
             )
         parts.append(block(LABELS["groceries"], f'<div class="shops">{"".join(rows)}</div>'))
 
@@ -287,7 +289,9 @@ def main():
       構成と観点は基準を満たしているが、個々の事実の裏取りが済んでいない。
       とくに浸水・高潮の想定区域、店名と徒歩分数、ホームの深さは、
       区のハザードマップと現地で確認しなければ公開できない。
-      ここで見ていただきたいのは書きぶりであり、事実の正しさではない。
+      2026-09-12 にスーパーの店名64件を洗い直し、実在を確認できた14件だけを残した。
+      「オオゼキ 五反田店」のように、それらしいが実在しない店名を50件書いていたためである。
+      店名が消えている駅は、確認できた店がまだ1つもない駅である。
     </p>
   </section>
 

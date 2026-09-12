@@ -74,9 +74,11 @@ export function StationDepth({
               <span className="rounded bg-canvas px-1.5 py-0.5 text-xs">
                 {d.tier[store.tier]}
               </span>
-              <span className="text-xs tabular-nums">
-                {d.walkMinutes} {store.walkMinutes}分
-              </span>
+              {store.walkMinutes !== undefined && (
+                <span className="text-xs tabular-nums">
+                  {d.walkMinutes} {store.walkMinutes}分
+                </span>
+              )}
               {store.note && <span className="w-full">{store.note}</span>}
             </li>
           ))}

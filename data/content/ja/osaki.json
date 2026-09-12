@@ -21,27 +21,11 @@
   ],
   "groceries": [
     {
-      "name": "成城石井 ゲートシティ大崎店",
-      "tier": "premium",
-      "walkMinutes": 2,
-      "note": "駅直結で便利だが、ここだけで買い物を済ませると、平均的な収入の世帯には食費の負担が大きくなる"
-    },
-    {
-      "name": "ライフ 大崎店",
+      "name": "ライフ 大崎ニューシティ店",
       "tier": "standard",
-      "walkMinutes": 7,
-      "note": "価格を抑えたいときはここまで歩く。駅からはやや距離がある"
-    },
-    {
-      "name": "まいばすけっと",
-      "tier": "standard",
-      "walkMinutes": 4
-    },
-    {
-      "name": "オオゼキ 五反田店",
-      "tier": "discount",
-      "walkMinutes": 15,
-      "note": "生鮮品を安く買うなら五反田方面まで足を延ばすことになる"
+      "note": "品川区大崎1-6-4の大崎ニューシティ5号館に入っており、駅から歩行者デッキでつながっている",
+      "sourceUrl": "https://store.lifecorp.jp/detail/east878/",
+      "verifiedAt": "2026-09-12"
     }
   ],
   "exits": [

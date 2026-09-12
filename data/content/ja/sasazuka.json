@@ -19,30 +19,6 @@
     "京王線の線路沿いは終電まで走行音が続く",
     "駅前の飲食店に近い区画は、23時ごろまで人の話し声が届く"
   ],
-  "groceries": [
-    {
-      "name": "京王ストア 笹塚店",
-      "tier": "standard",
-      "walkMinutes": 1,
-      "note": "駅ビルに入っており、帰宅が遅い日でも買い物ができる"
-    },
-    {
-      "name": "オオゼキ 笹塚店",
-      "tier": "discount",
-      "walkMinutes": 5,
-      "note": "生鮮品が安く、自炊するならここで買うことが多くなる"
-    },
-    {
-      "name": "サミットストア 笹塚店",
-      "tier": "standard",
-      "walkMinutes": 7
-    },
-    {
-      "name": "まいばすけっと",
-      "tier": "standard",
-      "walkMinutes": 3
-    }
-  ],
   "exits": [
     {
       "name": "北口",

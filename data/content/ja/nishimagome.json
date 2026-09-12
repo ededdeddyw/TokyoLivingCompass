@@ -19,25 +19,6 @@
     "環状7号線に近い区画でも車の音が続く",
     "羽田空港の飛行ルート変更以降、時間帯によって上空を通る航空機の音が聞こえる"
   ],
-  "groceries": [
-    {
-      "name": "ライフ 西馬込店",
-      "tier": "standard",
-      "walkMinutes": 5,
-      "note": "日常の買い物はここで足りる。駅から近い"
-    },
-    {
-      "name": "オオゼキ 馬込店",
-      "tier": "discount",
-      "walkMinutes": 9,
-      "note": "生鮮品が安いが、坂を上る方向にある"
-    },
-    {
-      "name": "まいばすけっと",
-      "tier": "standard",
-      "walkMinutes": 4
-    }
-  ],
   "exits": [
     {
       "name": "南口（第二京浜側）",

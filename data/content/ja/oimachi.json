@@ -22,27 +22,18 @@
   ],
   "groceries": [
     {
-      "name": "阪急オアシス 大井町店",
-      "tier": "standard",
-      "walkMinutes": 2,
-      "note": "駅直結で夜遅くまで営業しており、帰宅が遅い日でも買い物ができる"
-    },
-    {
       "name": "イトーヨーカドー 大井町店",
       "tier": "standard",
-      "walkMinutes": 4,
-      "note": "食品以外もそろうため、まとめ買いに向く"
+      "note": "品川区大井1-3-6にある",
+      "sourceUrl": "https://en.stores.itoyokado.co.jp/detail/538/",
+      "verifiedAt": "2026-09-12"
     },
     {
       "name": "西友 大井町店",
       "tier": "discount",
-      "walkMinutes": 5,
-      "note": "生鮮品が安く、24時間営業している"
-    },
-    {
-      "name": "クイーンズ伊勢丹",
-      "tier": "premium",
-      "walkMinutes": 3
+      "note": "品川区東大井5-18-1にある",
+      "sourceUrl": "https://www.seiyu.co.jp/shop/%E8%A5%BF%E5%8F%8B%E5%A4%A7%E4%BA%95%E7%94%BA%E5%BA%97/",
+      "verifiedAt": "2026-09-12"
     }
   ],
   "exits": [
