@@ -1,0 +1,36 @@
+{
+  "note": "駅ごとの家賃相場ページ。scripts/fetch-rent.py が参照する。各サイトが公開している駅単位の集計ページであり、物件一覧ではない。",
+  "sites": {
+    "LIFULL HOME'S": {
+      "urlTemplate": "https://www.homes.co.jp/chintai/tokyo/{id}-st/price/",
+      "basis": "asking",
+      "statistic": "mean",
+      "coverage": "駅徒歩10分以内の賃貸物件の平均賃料（管理費・駐車場代を除く）"
+    },
+    "Yahoo!不動産": {
+      "urlTemplate": "https://realestate.yahoo.co.jp/rent/price/03/13/r/{id}/",
+      "basis": "asking",
+      "statistic": "mean",
+      "coverage": "掲載されている賃貸物件の平均賃料"
+    }
+  },
+  "stations": {
+    "higashi-nakano":    {"LIFULL HOME'S": "higashinakano_00757",    "Yahoo!不動産": "2199/2384"},
+    "itabashi":          {"LIFULL HOME'S": "itabashi_00631",         "Yahoo!不動産": "2198/2198630"},
+    "kiyosumi-shirakawa":{"LIFULL HOME'S": "kiyosumishirakawa_09700","Yahoo!不動産": "2358/2424"},
+    "koenji":            {"LIFULL HOME'S": "koenji_00759",           "Yahoo!不動産": "2184/2218"},
+    "monzen-nakacho":    {"LIFULL HOME'S": "monzennakacho_06353",    "Yahoo!不動産": "2345/2409"},
+    "morishita":         {"LIFULL HOME'S": "morishita_06431",        "Yahoo!不動産": "2358/2408"},
+    "musashi-koyama":    {"LIFULL HOME'S": "musashikoyama_05069",    "Yahoo!不動産": "2327/2327230"},
+    "myogadani":         {"LIFULL HOME'S": "myogadani_06318",        "Yahoo!不動産": "2342/2342030"},
+    "nakameguro":        {"LIFULL HOME'S": "nakameguro_05051",       "Yahoo!不動産": "2321/2297"},
+    "nakanobu":          {"LIFULL HOME'S": "nakanobu_05081",         "Yahoo!不動産": "2323/2323040"},
+    "nishimagome":       {"LIFULL HOME'S": "nishimagome_06398",      "Yahoo!不動産": "2351/2351200"},
+    "nogizaka":          {"LIFULL HOME'S": "nogizaka_06371",         "Yahoo!不動産": "2346/2346160"},
+    "oimachi":           {"LIFULL HOME'S": "oimachi_00603",          "Yahoo!不動産": "2196/2238"},
+    "osaki":             {"LIFULL HOME'S": "osaki_00574",            "Yahoo!不動産": "2172/2423"},
+    "roppongi":          {"LIFULL HOME'S": "roppongi_06346",         "Yahoo!不動産": "2358/2412"},
+    "roppongi-itchome":  {"LIFULL HOME'S": "roppongiitchome_09213",  "Yahoo!不動産": "2349/2349025"},
+    "sasazuka":          {"LIFULL HOME'S": "sasazuka_04927",         "Yahoo!不動産": "2301/2301040"}
+  }
+}

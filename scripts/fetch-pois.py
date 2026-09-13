@@ -50,7 +50,16 @@ CATEGORIES = {
     "park": ['["leisure"="park"]'],
 }
 
-RADIUS_M = 800          # 駅からこの距離までを「周辺」とする
+# 施設の種類で「周辺」と呼べる距離が違う。スーパーは歩いて通う距離、
+# 総合病院は自転車や電車で行く距離で見る。
+RADIUS_BY_CATEGORY = {
+    "supermarket": 800,
+    "clinic": 800,
+    "pharmacy": 800,
+    "park": 1200,
+    "hospital": 2500,
+}
+RADIUS_M = max(RADIUS_BY_CATEGORY.values())
 DETOUR = 1.3            # 直線距離に対する実際の歩行距離の見込み
 WALK_M_PER_MIN = 80.0   # 不動産表示の慣行（徒歩1分＝80m）
 TILE_DEG = 0.08         # タイルの一辺（緯度経度）
@@ -75,7 +84,7 @@ def tiles(stations):
     """駅の分布を覆うタイルを作る。端の駅が欠けないよう余白を足す。"""
     lats = [s["lat"] for s in stations]
     lons = [s["lon"] for s in stations]
-    margin = RADIUS_M / 111000.0 + 0.01
+    margin = RADIUS_M / 111000.0 + 0.01  # 最も遠い種類（総合病院）に合わせる
     lat0, lat1 = min(lats) - margin, max(lats) + margin
     lon0, lon1 = min(lons) - margin, max(lons) + margin
     out = []
@@ -204,8 +213,9 @@ def main():
     for st in stations:
         near = []
         for p in pois:
+            limit = RADIUS_BY_CATEGORY[p["category"]]
             d = haversine_m(st["lat"], st["lon"], p["lat"], p["lon"])
-            if d <= RADIUS_M:
+            if d <= limit:
                 near.append({**p, "distanceM": round(d),
                              "walkMinutes": walk_minutes(d)})
         near.sort(key=lambda x: x["distanceM"])
@@ -217,7 +227,7 @@ def main():
         json.dump({
             "meta": {
                 "source": "OpenStreetMap contributors (ODbL)",
-                "radiusM": RADIUS_M,
+                "radiusByCategory": RADIUS_BY_CATEGORY,
                 "walkModel": f"直線距離 × {DETOUR} ÷ 分速{int(WALK_M_PER_MIN)}m、切り上げ",
                 "retrievedAt": time.strftime("%Y-%m-%d"),
             },

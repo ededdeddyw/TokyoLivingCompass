@@ -1,34 +1,34 @@
 {
-  "slug": "morishita",
+  "slug": "osaki",
   "observations": [
     {
       "source": "LIFULL HOME'S",
-      "url": "https://www.homes.co.jp/chintai/tokyo/morishita_06431-st/price/",
+      "url": "https://www.homes.co.jp/chintai/tokyo/osaki_00574-st/price/",
       "retrievedAt": "2026-09-13",
       "basis": "asking",
       "statistic": "mean",
       "verified": true,
       "coverage": "駅徒歩10分以内の賃貸物件の平均賃料（管理費・駐車場代を除く）",
       "rent": {
-        "oneRoom": 122400,
-        "oneK": 121900,
-        "oneLDK": 189500,
-        "twoLDK": 250700
+        "oneRoom": 115600,
+        "oneK": 121200,
+        "oneLDK": 219200,
+        "twoLDK": 341900
       }
     },
     {
       "source": "Yahoo!不動産",
-      "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2358/2408/",
+      "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2172/2423/",
       "retrievedAt": "2026-09-13",
       "basis": "asking",
       "statistic": "mean",
       "verified": true,
       "coverage": "掲載されている賃貸物件の平均賃料",
       "rent": {
-        "oneRoom": 123000,
-        "oneK": 131000,
-        "oneLDK": 205000,
-        "twoLDK": 260000
+        "oneRoom": 116000,
+        "oneK": 125000,
+        "oneLDK": 222000,
+        "twoLDK": 330000
       }
     }
   ]
