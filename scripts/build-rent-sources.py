@@ -177,10 +177,26 @@ def main():
     if args.site == "athome":
         collected["アットホーム"] = collect_athome()
 
+    # アットホームで実在するスラッグの一覧。路線ページから集めたときだけ埋まる。
+    athome_valid = set(collected.get("アットホーム", {}).values())
+    athome_by_name = collected.get("アットホーム", {})
+
     added = 0
     for st in roster:
-        # アットホームはローマ字から URL を組み立てられる
+        # アットホームはローマ字から URL を組み立てられる（中目黒なら nakameguro-st）。
+        # ただし「有明テニスの森」のように綴りが合わない駅があるので、
+        # 路線ページから集めた一覧に無いときだけ、駅名で引いた値に差し替える。
+        # 組み立てた値が一覧にあるなら、そのまま使う。駅名での照合は、
+        # 淡路町を新御茶ノ水に、大門を浜松町に寄せてしまうことがあり、
+        # 別の駅の相場を取りにいってしまうためである。
         athome = st["nameRomaji"].lower().replace("-", "")
+        if athome_valid and athome not in athome_valid:
+            found = athome_by_name.get(st["nameJa"])
+            if found:
+                print(f"  {st['nameJa']}: {athome} は無いので {found} を使う")
+                athome = found
+            else:
+                print(f"  {st['nameJa']}: {athome} が見つからない。あとで手当てが要る")
         entry = stations.setdefault(st["slug"], {})
         if entry.get("アットホーム") != athome:
             entry["アットホーム"] = athome
