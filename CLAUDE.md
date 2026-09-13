@@ -201,7 +201,7 @@ python3 scripts/build-rent-bands.py  # 家賃の帯（data/rent-survey/ の観�
 ```
 
 家賃相場は、各サイトが公開している駅ごとの相場を人が見て記録し、平均して1万円刻みの
-帯にしたうえで「弊社調べ」として出す。記録の手順は
+帯にしたうえで「当社調べ」として出す。記録の手順は
 [docs/08-data-sources-rent.md](./docs/08-data-sources-rent.md) §8。
 物件一覧を機械で巡回して集めることはしない（同 §E）。
 

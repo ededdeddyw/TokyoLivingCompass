@@ -36,7 +36,7 @@ def main():
         prof["rentHistory"] = {
             "points": [{"year": int(d[:4]), "rent": per_date[d]} for d in dates],
             "source": {
-                "name": "、".join(s["name"] for s in b["sources"]) + "（弊社調べ）",
+                "name": "、".join(s["name"] for s in b["sources"]) + "（当社調べ）",
                 "basis": "asking",
                 "statistic": "mean",
                 "retrievedAt": dates[-1],

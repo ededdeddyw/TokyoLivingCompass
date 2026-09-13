@@ -50,7 +50,7 @@ def main():
         prof["sources"] = {
             **prof.get("sources", {}),
             "rent": {
-                "name": "、".join(s["name"] for s in b["sources"]) + "（弊社調べ）",
+                "name": "、".join(s["name"] for s in b["sources"]) + "（当社調べ）",
                 "basis": "asking",
                 "statistic": "mean",
                 "retrievedAt": b["retrievedAt"],

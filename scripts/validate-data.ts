@@ -209,7 +209,7 @@ if (staleStores.length > 0) {
   );
 }
 
-// 家賃の帯（弊社調べ）。出典を明示して出す以上、元の観測値が残っていることを確かめる。
+// 家賃の帯（当社調べ）。出典を明示して出す以上、元の観測値が残っていることを確かめる。
 const bandedStations = stations.filter((s) => s.rentBands);
 const provisionalBands: string[] = [];
 for (const station of bandedStations) {

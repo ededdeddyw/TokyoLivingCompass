@@ -265,7 +265,7 @@ export type Station = RosterStation & {
   morningCrowding?: number;
   rent?: Rent;
   rentHistory?: RentHistory;
-  /** 複数サイトの掲載相場を平均した帯。出典を明示して「弊社調べ」として出す */
+  /** 複数サイトの掲載相場を平均した帯。出典を明示して「当社調べ」として出す */
   rentBands?: RentBands;
   facilities?: Facilities;
   sources?: Sources;
