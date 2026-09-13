@@ -3,10 +3,10 @@
   "hasFirstTrain": false,
   "morningCrowding": 4,
   "rent": {
-    "oneRoom": 90000,
-    "oneK": 97000,
-    "oneLDK": 158000,
-    "twoLDK": 212000
+    "oneRoom": 132550,
+    "oneK": 129850,
+    "oneLDK": 196150,
+    "twoLDK": 275850
   },
   "scores": {
     "rentValue": 65,
@@ -42,6 +42,15 @@
     "monzen-nakacho",
     "morishita"
   ],
-  "dataQuality": "seed",
-  "lastReviewedAt": "2026-09-06"
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13",
+  "sources": {
+    "rent": {
+      "name": "LIFULL HOME'S、Yahoo!不動産（弊社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  }
 }

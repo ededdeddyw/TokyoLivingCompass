@@ -3,10 +3,10 @@
   "hasFirstTrain": true,
   "morningCrowding": 2,
   "rent": {
-    "oneRoom": 78000,
-    "oneK": 85000,
-    "oneLDK": 140000,
-    "twoLDK": 190000
+    "oneRoom": 87450,
+    "oneK": 101000,
+    "oneLDK": 175950,
+    "twoLDK": 222050
   },
   "scores": {
     "rentValue": 88,
@@ -42,6 +42,15 @@
     "nakanobu",
     "musashi-koyama"
   ],
-  "dataQuality": "seed",
-  "lastReviewedAt": "2026-09-06"
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13",
+  "sources": {
+    "rent": {
+      "name": "LIFULL HOME'S、Yahoo!不動産（弊社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  }
 }

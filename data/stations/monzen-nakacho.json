@@ -3,10 +3,10 @@
   "hasFirstTrain": false,
   "morningCrowding": 5,
   "rent": {
-    "oneRoom": 92000,
-    "oneK": 99000,
-    "oneLDK": 162000,
-    "twoLDK": 218000
+    "oneRoom": 135750,
+    "oneK": 132600,
+    "oneLDK": 206800,
+    "twoLDK": 282750
   },
   "scores": {
     "rentValue": 68,
@@ -42,6 +42,15 @@
     "morishita",
     "kiyosumi-shirakawa"
   ],
-  "dataQuality": "seed",
-  "lastReviewedAt": "2026-09-06"
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13",
+  "sources": {
+    "rent": {
+      "name": "LIFULL HOME'S、Yahoo!不動産（弊社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  }
 }

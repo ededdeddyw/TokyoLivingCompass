@@ -49,12 +49,24 @@ for (const station of stations) {
     errors.push(`${station.slug}: commutes に重複した行き先があります。`);
   }
 
-  // 家賃の大小関係（間取りが広いほど高い、が崩れていたら入力ミスの可能性が高い）
+  // 家賃の大小関係。部屋が広いほど高いのが普通なので、崩れていたら入力ミスを疑う。
+  // ただしワンルームと1Kは広さが近く、実データでは前後が入れ替わる駅がある
+  // （六本木・清澄白河など）。ここは順序を求めず、離れすぎたときだけ警告する。
   if (station.rent) {
     const { oneRoom, oneK, oneLDK, twoLDK } = station.rent;
-    if (!(oneRoom <= oneK && oneK <= oneLDK && oneLDK <= twoLDK)) {
+    if (!(oneK <= oneLDK && oneLDK <= twoLDK)) {
       errors.push(
-        `${station.slug}: 家賃の大小関係が不自然です (1R ${oneRoom} / 1K ${oneK} / 1LDK ${oneLDK} / 2LDK ${twoLDK})。`,
+        `${station.slug}: 家賃の大小関係が不自然です (1K ${oneK} / 1LDK ${oneLDK} / 2LDK ${twoLDK})。`,
+      );
+    }
+    if (oneRoom > oneLDK) {
+      errors.push(
+        `${station.slug}: ワンルームが1LDKより高くなっています (1R ${oneRoom} / 1LDK ${oneLDK})。`,
+      );
+    }
+    if (Math.abs(oneRoom - oneK) > Math.max(oneRoom, oneK) * 0.3) {
+      warnings.push(
+        `${station.slug}: ワンルームと1Kの差が3割を超えています (1R ${oneRoom} / 1K ${oneK})。集計対象の違いかもしれません。`,
       );
     }
   }

@@ -3,10 +3,10 @@
   "hasFirstTrain": true,
   "morningCrowding": 4,
   "rent": {
-    "oneRoom": 85000,
-    "oneK": 92000,
-    "oneLDK": 152000,
-    "twoLDK": 205000
+    "oneRoom": 99350,
+    "oneK": 110600,
+    "oneLDK": 196700,
+    "twoLDK": 272500
   },
   "scores": {
     "rentValue": 80,
@@ -42,6 +42,15 @@
     "higashi-nakano",
     "nakanobu"
   ],
-  "dataQuality": "seed",
-  "lastReviewedAt": "2026-09-06"
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13",
+  "sources": {
+    "rent": {
+      "name": "LIFULL HOME'S、Yahoo!不動産（弊社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  }
 }

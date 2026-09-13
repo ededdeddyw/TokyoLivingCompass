@@ -1,0 +1,22 @@
+{
+  "slug": "osaki",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 115800,
+    "oneK": 123100,
+    "oneLDK": 220600,
+    "twoLDK": 335950
+  },
+  "sources": {
+    "rent": {
+      "name": "LIFULL HOME'S、Yahoo!不動産（弊社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

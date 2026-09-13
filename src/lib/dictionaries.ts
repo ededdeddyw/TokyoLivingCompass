@@ -278,6 +278,7 @@ const ja: Dictionary = {
     method: {
       "vendor-station-area": "出典元が駅の範囲で集計した値",
       "radius-800m-weighted": "駅から半径800mの町丁を戸数で加重平均",
+      "multi-site-average": "複数サイトが公開する駅別の相場を平均",
       manual: "手集計",
     },
   },
@@ -479,6 +480,8 @@ const en: Dictionary = {
       "vendor-station-area": "Aggregated by the source over the station area",
       "radius-800m-weighted":
         "Weighted average of districts within 800m of the station",
+      "multi-site-average":
+        "Average of the per-station figures published by several sites",
       manual: "Compiled by hand",
     },
   },

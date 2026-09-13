@@ -1,47 +1,920 @@
 {
-  "nakameguro": {
+  "higashi-nakano": {
+    "bands": {
+      "oneK": {
+        "high": 120000,
+        "low": 110000,
+        "mean": 110550,
+        "sourceCount": 2,
+        "sourceMax": 111100,
+        "sourceMin": 110000,
+        "wideSpread": false
+      },
+      "oneLDK": {
+        "high": 200000,
+        "low": 190000,
+        "mean": 193950,
+        "sourceCount": 2,
+        "sourceMax": 195000,
+        "sourceMin": 192900,
+        "wideSpread": false
+      },
+      "oneRoom": {
+        "high": 100000,
+        "low": 90000,
+        "mean": 95150,
+        "sourceCount": 2,
+        "sourceMax": 97300,
+        "sourceMin": 93000,
+        "wideSpread": false
+      },
+      "twoLDK": {
+        "high": 270000,
+        "low": 260000,
+        "mean": 266150,
+        "sourceCount": 2,
+        "sourceMax": 269300,
+        "sourceMin": 263000,
+        "wideSpread": false
+      }
+    },
+    "retrievedAt": "2026-09-13",
+    "sources": [
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-09-13",
+        "url": "https://www.homes.co.jp/chintai/tokyo/higashinakano_00757-st/price/"
+      },
+      {
+        "name": "Yahoo!不動産",
+        "retrievedAt": "2026-09-13",
+        "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2199/2384/"
+      }
+    ],
+    "verified": true
+  },
+  "itabashi": {
+    "bands": {
+      "oneK": {
+        "high": 110000,
+        "low": 100000,
+        "mean": 109250,
+        "sourceCount": 2,
+        "sourceMax": 110000,
+        "sourceMin": 108500,
+        "wideSpread": false
+      },
+      "oneLDK": {
+        "high": 190000,
+        "low": 180000,
+        "mean": 182200,
+        "sourceCount": 2,
+        "sourceMax": 186400,
+        "sourceMin": 178000,
+        "wideSpread": false
+      },
+      "oneRoom": {
+        "high": 110000,
+        "low": 100000,
+        "mean": 101250,
+        "sourceCount": 2,
+        "sourceMax": 107500,
+        "sourceMin": 95000,
+        "wideSpread": false
+      },
+      "twoLDK": {
+        "high": 240000,
+        "low": 230000,
+        "mean": 237500,
+        "sourceCount": 2,
+        "sourceMax": 241000,
+        "sourceMin": 234000,
+        "wideSpread": false
+      }
+    },
+    "retrievedAt": "2026-09-13",
+    "sources": [
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-09-13",
+        "url": "https://www.homes.co.jp/chintai/tokyo/itabashi_00631-st/price/"
+      },
+      {
+        "name": "Yahoo!不動産",
+        "retrievedAt": "2026-09-13",
+        "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2198/2198630/"
+      }
+    ],
+    "verified": true
+  },
+  "kiyosumi-shirakawa": {
     "bands": {
       "oneK": {
         "high": 130000,
         "low": 120000,
-        "mean": 125000,
+        "mean": 129850,
         "sourceCount": 2,
-        "sourceMax": 145000,
-        "sourceMin": 105000,
-        "wideSpread": true
+        "sourceMax": 132000,
+        "sourceMin": 127700,
+        "wideSpread": false
+      },
+      "oneLDK": {
+        "high": 200000,
+        "low": 190000,
+        "mean": 196150,
+        "sourceCount": 2,
+        "sourceMax": 201000,
+        "sourceMin": 191300,
+        "wideSpread": false
       },
       "oneRoom": {
-        "high": 130000,
-        "low": 120000,
-        "mean": 128500,
+        "high": 140000,
+        "low": 130000,
+        "mean": 132550,
         "sourceCount": 2,
-        "sourceMax": 152000,
-        "sourceMin": 105000,
-        "wideSpread": true
+        "sourceMax": 133100,
+        "sourceMin": 132000,
+        "wideSpread": false
+      },
+      "twoLDK": {
+        "high": 280000,
+        "low": 270000,
+        "mean": 275850,
+        "sourceCount": 2,
+        "sourceMax": 278700,
+        "sourceMin": 273000,
+        "wideSpread": false
+      }
+    },
+    "retrievedAt": "2026-09-13",
+    "sources": [
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-09-13",
+        "url": "https://www.homes.co.jp/chintai/tokyo/kiyosumishirakawa_09700-st/price/"
+      },
+      {
+        "name": "Yahoo!不動産",
+        "retrievedAt": "2026-09-13",
+        "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2358/2424/"
+      }
+    ],
+    "verified": true
+  },
+  "koenji": {
+    "bands": {
+      "oneK": {
+        "high": 110000,
+        "low": 100000,
+        "mean": 103800,
+        "sourceCount": 2,
+        "sourceMax": 106600,
+        "sourceMin": 101000,
+        "wideSpread": false
+      },
+      "oneLDK": {
+        "high": 190000,
+        "low": 180000,
+        "mean": 182300,
+        "sourceCount": 2,
+        "sourceMax": 186600,
+        "sourceMin": 178000,
+        "wideSpread": false
+      },
+      "oneRoom": {
+        "high": 90000,
+        "low": 80000,
+        "mean": 86100,
+        "sourceCount": 2,
+        "sourceMax": 89000,
+        "sourceMin": 83200,
+        "wideSpread": false
+      },
+      "twoLDK": {
+        "high": 270000,
+        "low": 260000,
+        "mean": 261150,
+        "sourceCount": 2,
+        "sourceMax": 261300,
+        "sourceMin": 261000,
+        "wideSpread": false
+      }
+    },
+    "retrievedAt": "2026-09-13",
+    "sources": [
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-09-13",
+        "url": "https://www.homes.co.jp/chintai/tokyo/koenji_00759-st/price/"
+      },
+      {
+        "name": "Yahoo!不動産",
+        "retrievedAt": "2026-09-13",
+        "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2184/2218/"
+      }
+    ],
+    "verified": true
+  },
+  "monzen-nakacho": {
+    "bands": {
+      "oneK": {
+        "high": 140000,
+        "low": 130000,
+        "mean": 132600,
+        "sourceCount": 2,
+        "sourceMax": 135000,
+        "sourceMin": 130200,
+        "wideSpread": false
+      },
+      "oneLDK": {
+        "high": 210000,
+        "low": 200000,
+        "mean": 206800,
+        "sourceCount": 2,
+        "sourceMax": 208600,
+        "sourceMin": 205000,
+        "wideSpread": false
+      },
+      "oneRoom": {
+        "high": 140000,
+        "low": 130000,
+        "mean": 135750,
+        "sourceCount": 2,
+        "sourceMax": 137000,
+        "sourceMin": 134500,
+        "wideSpread": false
       },
       "twoLDK": {
         "high": 290000,
         "low": 280000,
-        "mean": 284500,
+        "mean": 282750,
         "sourceCount": 2,
-        "sourceMax": 304000,
-        "sourceMin": 265000,
+        "sourceMax": 285000,
+        "sourceMin": 280500,
+        "wideSpread": false
+      }
+    },
+    "retrievedAt": "2026-09-13",
+    "sources": [
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-09-13",
+        "url": "https://www.homes.co.jp/chintai/tokyo/monzennakacho_06353-st/price/"
+      },
+      {
+        "name": "Yahoo!不動産",
+        "retrievedAt": "2026-09-13",
+        "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2345/2409/"
+      }
+    ],
+    "verified": true
+  },
+  "morishita": {
+    "bands": {
+      "oneK": {
+        "high": 130000,
+        "low": 120000,
+        "mean": 126450,
+        "sourceCount": 2,
+        "sourceMax": 131000,
+        "sourceMin": 121900,
+        "wideSpread": false
+      },
+      "oneLDK": {
+        "high": 200000,
+        "low": 190000,
+        "mean": 197250,
+        "sourceCount": 2,
+        "sourceMax": 205000,
+        "sourceMin": 189500,
+        "wideSpread": false
+      },
+      "oneRoom": {
+        "high": 130000,
+        "low": 120000,
+        "mean": 122700,
+        "sourceCount": 2,
+        "sourceMax": 123000,
+        "sourceMin": 122400,
+        "wideSpread": false
+      },
+      "twoLDK": {
+        "high": 260000,
+        "low": 250000,
+        "mean": 255350,
+        "sourceCount": 2,
+        "sourceMax": 260000,
+        "sourceMin": 250700,
+        "wideSpread": false
+      }
+    },
+    "retrievedAt": "2026-09-13",
+    "sources": [
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-09-13",
+        "url": "https://www.homes.co.jp/chintai/tokyo/morishita_06431-st/price/"
+      },
+      {
+        "name": "Yahoo!不動産",
+        "retrievedAt": "2026-09-13",
+        "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2358/2408/"
+      }
+    ],
+    "verified": true
+  },
+  "musashi-koyama": {
+    "bands": {
+      "oneK": {
+        "high": 130000,
+        "low": 120000,
+        "mean": 127800,
+        "sourceCount": 2,
+        "sourceMax": 131600,
+        "sourceMin": 124000,
+        "wideSpread": false
+      },
+      "oneLDK": {
+        "high": 230000,
+        "low": 220000,
+        "mean": 224600,
+        "sourceCount": 2,
+        "sourceMax": 225000,
+        "sourceMin": 224200,
+        "wideSpread": false
+      },
+      "oneRoom": {
+        "high": 110000,
+        "low": 100000,
+        "mean": 109650,
+        "sourceCount": 2,
+        "sourceMax": 112300,
+        "sourceMin": 107000,
+        "wideSpread": false
+      },
+      "twoLDK": {
+        "high": 310000,
+        "low": 300000,
+        "mean": 303650,
+        "sourceCount": 2,
+        "sourceMax": 317000,
+        "sourceMin": 290300,
+        "wideSpread": false
+      }
+    },
+    "retrievedAt": "2026-09-13",
+    "sources": [
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-09-13",
+        "url": "https://www.homes.co.jp/chintai/tokyo/musashikoyama_05069-st/price/"
+      },
+      {
+        "name": "Yahoo!不動産",
+        "retrievedAt": "2026-09-13",
+        "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2327/2327230/"
+      }
+    ],
+    "verified": true
+  },
+  "myogadani": {
+    "bands": {
+      "oneK": {
+        "high": 130000,
+        "low": 120000,
+        "mean": 121950,
+        "sourceCount": 2,
+        "sourceMax": 122000,
+        "sourceMin": 121900,
+        "wideSpread": false
+      },
+      "oneLDK": {
+        "high": 220000,
+        "low": 210000,
+        "mean": 218150,
+        "sourceCount": 2,
+        "sourceMax": 219000,
+        "sourceMin": 217300,
+        "wideSpread": false
+      },
+      "oneRoom": {
+        "high": 120000,
+        "low": 110000,
+        "mean": 117300,
+        "sourceCount": 2,
+        "sourceMax": 122600,
+        "sourceMin": 112000,
+        "wideSpread": false
+      },
+      "twoLDK": {
+        "high": 280000,
+        "low": 270000,
+        "mean": 273800,
+        "sourceCount": 2,
+        "sourceMax": 288000,
+        "sourceMin": 259600,
+        "wideSpread": false
+      }
+    },
+    "retrievedAt": "2026-09-13",
+    "sources": [
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-09-13",
+        "url": "https://www.homes.co.jp/chintai/tokyo/myogadani_06318-st/price/"
+      },
+      {
+        "name": "Yahoo!不動産",
+        "retrievedAt": "2026-09-13",
+        "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2342/2342030/"
+      }
+    ],
+    "verified": true
+  },
+  "nakameguro": {
+    "bands": {
+      "oneK": {
+        "high": 150000,
+        "low": 140000,
+        "mean": 147200,
+        "sourceCount": 2,
+        "sourceMax": 155400,
+        "sourceMin": 139000,
+        "wideSpread": false
+      },
+      "oneLDK": {
+        "high": 280000,
+        "low": 270000,
+        "mean": 279250,
+        "sourceCount": 2,
+        "sourceMax": 286500,
+        "sourceMin": 272000,
+        "wideSpread": false
+      },
+      "oneRoom": {
+        "high": 140000,
+        "low": 130000,
+        "mean": 134800,
+        "sourceCount": 2,
+        "sourceMax": 142600,
+        "sourceMin": 127000,
+        "wideSpread": false
+      },
+      "twoLDK": {
+        "high": 370000,
+        "low": 360000,
+        "mean": 362100,
+        "sourceCount": 2,
+        "sourceMax": 366000,
+        "sourceMin": 358200,
+        "wideSpread": false
+      }
+    },
+    "retrievedAt": "2026-09-13",
+    "sources": [
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-09-13",
+        "url": "https://www.homes.co.jp/chintai/tokyo/nakameguro_05051-st/price/"
+      },
+      {
+        "name": "Yahoo!不動産",
+        "retrievedAt": "2026-09-13",
+        "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2321/2297/"
+      }
+    ],
+    "verified": true
+  },
+  "nakanobu": {
+    "bands": {
+      "oneK": {
+        "high": 120000,
+        "low": 110000,
+        "mean": 113700,
+        "sourceCount": 2,
+        "sourceMax": 116000,
+        "sourceMin": 111400,
+        "wideSpread": false
+      },
+      "oneLDK": {
+        "high": 200000,
+        "low": 190000,
+        "mean": 195800,
+        "sourceCount": 2,
+        "sourceMax": 197000,
+        "sourceMin": 194600,
+        "wideSpread": false
+      },
+      "oneRoom": {
+        "high": 110000,
+        "low": 100000,
+        "mean": 103450,
+        "sourceCount": 2,
+        "sourceMax": 103900,
+        "sourceMin": 103000,
+        "wideSpread": false
+      },
+      "twoLDK": {
+        "high": 250000,
+        "low": 240000,
+        "mean": 248050,
+        "sourceCount": 2,
+        "sourceMax": 250000,
+        "sourceMin": 246100,
+        "wideSpread": false
+      }
+    },
+    "retrievedAt": "2026-09-13",
+    "sources": [
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-09-13",
+        "url": "https://www.homes.co.jp/chintai/tokyo/nakanobu_05081-st/price/"
+      },
+      {
+        "name": "Yahoo!不動産",
+        "retrievedAt": "2026-09-13",
+        "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2323/2323040/"
+      }
+    ],
+    "verified": true
+  },
+  "nishimagome": {
+    "bands": {
+      "oneK": {
+        "high": 110000,
+        "low": 100000,
+        "mean": 101000,
+        "sourceCount": 2,
+        "sourceMax": 101000,
+        "sourceMin": 101000,
+        "wideSpread": false
+      },
+      "oneLDK": {
+        "high": 180000,
+        "low": 170000,
+        "mean": 175950,
+        "sourceCount": 2,
+        "sourceMax": 180900,
+        "sourceMin": 171000,
+        "wideSpread": false
+      },
+      "oneRoom": {
+        "high": 90000,
+        "low": 80000,
+        "mean": 87450,
+        "sourceCount": 2,
+        "sourceMax": 88900,
+        "sourceMin": 86000,
+        "wideSpread": false
+      },
+      "twoLDK": {
+        "high": 230000,
+        "low": 220000,
+        "mean": 222050,
+        "sourceCount": 2,
+        "sourceMax": 224100,
+        "sourceMin": 220000,
+        "wideSpread": false
+      }
+    },
+    "retrievedAt": "2026-09-13",
+    "sources": [
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-09-13",
+        "url": "https://www.homes.co.jp/chintai/tokyo/nishimagome_06398-st/price/"
+      },
+      {
+        "name": "Yahoo!不動産",
+        "retrievedAt": "2026-09-13",
+        "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2351/2351200/"
+      }
+    ],
+    "verified": true
+  },
+  "nogizaka": {
+    "bands": {
+      "oneK": {
+        "high": 190000,
+        "low": 180000,
+        "mean": 180750,
+        "sourceCount": 2,
+        "sourceMax": 186500,
+        "sourceMin": 175000,
+        "wideSpread": false
+      },
+      "oneLDK": {
+        "high": 330000,
+        "low": 320000,
+        "mean": 323150,
+        "sourceCount": 2,
+        "sourceMax": 330000,
+        "sourceMin": 316300,
+        "wideSpread": false
+      },
+      "oneRoom": {
+        "high": 170000,
+        "low": 160000,
+        "mean": 168150,
+        "sourceCount": 2,
+        "sourceMax": 174000,
+        "sourceMin": 162300,
+        "wideSpread": false
+      },
+      "twoLDK": {
+        "high": 590000,
+        "low": 580000,
+        "mean": 581550,
+        "sourceCount": 2,
+        "sourceMax": 606000,
+        "sourceMin": 557100,
         "wideSpread": true
       }
     },
-    "retrievedAt": "2026-09-12",
+    "retrievedAt": "2026-09-13",
     "sources": [
       {
-        "name": "SUUMO",
-        "retrievedAt": "2026-09-11",
-        "url": "https://suumo.jp/chintai/soba/tokyo/ek_27580/"
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-09-13",
+        "url": "https://www.homes.co.jp/chintai/tokyo/nogizaka_06371-st/price/"
       },
       {
-        "name": "LIFULL HOME'S",
-        "retrievedAt": "2026-09-12",
-        "url": "https://www.homes.co.jp/chintai/tokyo/nakameguro_05051-st/price/"
+        "name": "Yahoo!不動産",
+        "retrievedAt": "2026-09-13",
+        "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2346/2346160/"
       }
     ],
-    "verified": false
+    "verified": true
+  },
+  "oimachi": {
+    "bands": {
+      "oneK": {
+        "high": 130000,
+        "low": 120000,
+        "mean": 120250,
+        "sourceCount": 2,
+        "sourceMax": 121000,
+        "sourceMin": 119500,
+        "wideSpread": false
+      },
+      "oneLDK": {
+        "high": 200000,
+        "low": 190000,
+        "mean": 199950,
+        "sourceCount": 2,
+        "sourceMax": 201900,
+        "sourceMin": 198000,
+        "wideSpread": false
+      },
+      "oneRoom": {
+        "high": 120000,
+        "low": 110000,
+        "mean": 110050,
+        "sourceCount": 2,
+        "sourceMax": 111100,
+        "sourceMin": 109000,
+        "wideSpread": false
+      },
+      "twoLDK": {
+        "high": 290000,
+        "low": 280000,
+        "mean": 281350,
+        "sourceCount": 2,
+        "sourceMax": 286700,
+        "sourceMin": 276000,
+        "wideSpread": false
+      }
+    },
+    "retrievedAt": "2026-09-13",
+    "sources": [
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-09-13",
+        "url": "https://www.homes.co.jp/chintai/tokyo/oimachi_00603-st/price/"
+      },
+      {
+        "name": "Yahoo!不動産",
+        "retrievedAt": "2026-09-13",
+        "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2196/2238/"
+      }
+    ],
+    "verified": true
+  },
+  "osaki": {
+    "bands": {
+      "oneK": {
+        "high": 130000,
+        "low": 120000,
+        "mean": 123100,
+        "sourceCount": 2,
+        "sourceMax": 125000,
+        "sourceMin": 121200,
+        "wideSpread": false
+      },
+      "oneLDK": {
+        "high": 230000,
+        "low": 220000,
+        "mean": 220600,
+        "sourceCount": 2,
+        "sourceMax": 222000,
+        "sourceMin": 219200,
+        "wideSpread": false
+      },
+      "oneRoom": {
+        "high": 120000,
+        "low": 110000,
+        "mean": 115800,
+        "sourceCount": 2,
+        "sourceMax": 116000,
+        "sourceMin": 115600,
+        "wideSpread": false
+      },
+      "twoLDK": {
+        "high": 340000,
+        "low": 330000,
+        "mean": 335950,
+        "sourceCount": 2,
+        "sourceMax": 341900,
+        "sourceMin": 330000,
+        "wideSpread": false
+      }
+    },
+    "retrievedAt": "2026-09-13",
+    "sources": [
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-09-13",
+        "url": "https://www.homes.co.jp/chintai/tokyo/osaki_00574-st/price/"
+      },
+      {
+        "name": "Yahoo!不動産",
+        "retrievedAt": "2026-09-13",
+        "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2172/2423/"
+      }
+    ],
+    "verified": true
+  },
+  "roppongi": {
+    "bands": {
+      "oneK": {
+        "high": 180000,
+        "low": 170000,
+        "mean": 174950,
+        "sourceCount": 2,
+        "sourceMax": 182900,
+        "sourceMin": 167000,
+        "wideSpread": false
+      },
+      "oneLDK": {
+        "high": 330000,
+        "low": 320000,
+        "mean": 323650,
+        "sourceCount": 2,
+        "sourceMax": 340000,
+        "sourceMin": 307300,
+        "wideSpread": true
+      },
+      "oneRoom": {
+        "high": 180000,
+        "low": 170000,
+        "mean": 178900,
+        "sourceCount": 2,
+        "sourceMax": 179000,
+        "sourceMin": 178800,
+        "wideSpread": false
+      },
+      "twoLDK": {
+        "high": 610000,
+        "low": 600000,
+        "mean": 608950,
+        "sourceCount": 2,
+        "sourceMax": 640000,
+        "sourceMin": 577900,
+        "wideSpread": true
+      }
+    },
+    "retrievedAt": "2026-09-13",
+    "sources": [
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-09-13",
+        "url": "https://www.homes.co.jp/chintai/tokyo/roppongi_06346-st/price/"
+      },
+      {
+        "name": "Yahoo!不動産",
+        "retrievedAt": "2026-09-13",
+        "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2358/2412/"
+      }
+    ],
+    "verified": true
+  },
+  "roppongi-itchome": {
+    "bands": {
+      "oneK": {
+        "high": 180000,
+        "low": 170000,
+        "mean": 170150,
+        "sourceCount": 2,
+        "sourceMax": 176000,
+        "sourceMin": 164300,
+        "wideSpread": false
+      },
+      "oneLDK": {
+        "high": 360000,
+        "low": 350000,
+        "mean": 356400,
+        "sourceCount": 2,
+        "sourceMax": 362800,
+        "sourceMin": 350000,
+        "wideSpread": false
+      },
+      "oneRoom": {
+        "high": 200000,
+        "low": 190000,
+        "mean": 193150,
+        "sourceCount": 2,
+        "sourceMax": 198300,
+        "sourceMin": 188000,
+        "wideSpread": false
+      },
+      "twoLDK": {
+        "high": 630000,
+        "low": 620000,
+        "mean": 623100,
+        "sourceCount": 2,
+        "sourceMax": 672000,
+        "sourceMin": 574200,
+        "wideSpread": true
+      }
+    },
+    "retrievedAt": "2026-09-13",
+    "sources": [
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-09-13",
+        "url": "https://www.homes.co.jp/chintai/tokyo/roppongiitchome_09213-st/price/"
+      },
+      {
+        "name": "Yahoo!不動産",
+        "retrievedAt": "2026-09-13",
+        "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2349/2349025/"
+      }
+    ],
+    "verified": true
+  },
+  "sasazuka": {
+    "bands": {
+      "oneK": {
+        "high": 120000,
+        "low": 110000,
+        "mean": 110600,
+        "sourceCount": 2,
+        "sourceMax": 113200,
+        "sourceMin": 108000,
+        "wideSpread": false
+      },
+      "oneLDK": {
+        "high": 200000,
+        "low": 190000,
+        "mean": 196700,
+        "sourceCount": 2,
+        "sourceMax": 197400,
+        "sourceMin": 196000,
+        "wideSpread": false
+      },
+      "oneRoom": {
+        "high": 100000,
+        "low": 90000,
+        "mean": 99350,
+        "sourceCount": 2,
+        "sourceMax": 104700,
+        "sourceMin": 94000,
+        "wideSpread": false
+      },
+      "twoLDK": {
+        "high": 280000,
+        "low": 270000,
+        "mean": 272500,
+        "sourceCount": 2,
+        "sourceMax": 292000,
+        "sourceMin": 253000,
+        "wideSpread": true
+      }
+    },
+    "retrievedAt": "2026-09-13",
+    "sources": [
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-09-13",
+        "url": "https://www.homes.co.jp/chintai/tokyo/sasazuka_04927-st/price/"
+      },
+      {
+        "name": "Yahoo!不動産",
+        "retrievedAt": "2026-09-13",
+        "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2301/2301040/"
+      }
+    ],
+    "verified": true
   }
 }

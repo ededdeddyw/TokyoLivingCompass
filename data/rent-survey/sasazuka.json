@@ -1,34 +1,34 @@
 {
-  "slug": "nogizaka",
+  "slug": "sasazuka",
   "observations": [
     {
       "source": "LIFULL HOME'S",
-      "url": "https://www.homes.co.jp/chintai/tokyo/nogizaka_06371-st/price/",
+      "url": "https://www.homes.co.jp/chintai/tokyo/sasazuka_04927-st/price/",
       "retrievedAt": "2026-09-13",
       "basis": "asking",
       "statistic": "mean",
       "verified": true,
       "coverage": "駅徒歩10分以内の賃貸物件の平均賃料（管理費・駐車場代を除く）",
       "rent": {
-        "oneRoom": 162300,
-        "oneK": 186500,
-        "oneLDK": 316300,
-        "twoLDK": 557100
+        "oneRoom": 104700,
+        "oneK": 113200,
+        "oneLDK": 197400,
+        "twoLDK": 253000
       }
     },
     {
       "source": "Yahoo!不動産",
-      "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2346/2346160/",
+      "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2301/2301040/",
       "retrievedAt": "2026-09-13",
       "basis": "asking",
       "statistic": "mean",
       "verified": true,
       "coverage": "掲載されている賃貸物件の平均賃料",
       "rent": {
-        "oneRoom": 174000,
-        "oneK": 175000,
-        "oneLDK": 330000,
-        "twoLDK": 606000
+        "oneRoom": 94000,
+        "oneK": 108000,
+        "oneLDK": 196000,
+        "twoLDK": 292000
       }
     }
   ]

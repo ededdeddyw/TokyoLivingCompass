@@ -104,11 +104,13 @@ export const scoresSchema = z.object(
  * 表示ラベルは src/lib/dictionaries.ts。
  *   vendor-station-area  = ベンダーが駅の範囲で集計した値をそのまま使う
  *   radius-800m-weighted = 駅から半径800mの町丁を戸数加重平均（docs/08-data-sources-rent.md §4）
+ *   multi-site-average   = 複数サイトの駅別集計を平均（docs/08-data-sources-rent.md §E-2）
  *   manual               = 手集計
  */
 export const RENT_METHODS = [
   "vendor-station-area",
   "radius-800m-weighted",
+  "multi-site-average",
   "manual",
 ] as const;
 export type RentMethod = (typeof RENT_METHODS)[number];

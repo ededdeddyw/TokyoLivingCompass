@@ -47,7 +47,8 @@ def main():
 
     out = {}
     for fname in sorted(os.listdir(SURVEY_DIR)):
-        if not fname.endswith(".json"):
+        # sources.json は駅ごとのURL表であって観測値ではない
+        if not fname.endswith(".json") or fname == "sources.json":
             continue
         path = os.path.join(SURVEY_DIR, fname)
         survey = json.load(open(path, encoding="utf-8"))
@@ -57,7 +58,9 @@ def main():
 
         obs = survey["observations"]
         if len(obs) < 2:
-            raise SystemExit(f"{fname}: 観測値が {len(obs)} 件しかありません。2件以上必要です")
+            # 1社しか取れていない駅は帯にしない。「複数サイトの平均」と名乗れないため。
+            print(f"  {slug}: 出典が {len(obs)} 件しかないため、帯を作らなかった")
+            continue
 
         # 「複数サイトの平均」と名乗る以上、1サイトしか値がない間取りは帯にしない。
         bands = {}

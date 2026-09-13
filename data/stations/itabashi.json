@@ -1,0 +1,22 @@
+{
+  "slug": "itabashi",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 101250,
+    "oneK": 109250,
+    "oneLDK": 182200,
+    "twoLDK": 237500
+  },
+  "sources": {
+    "rent": {
+      "name": "LIFULL HOME'S、Yahoo!不動産（弊社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

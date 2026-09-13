@@ -1,0 +1,22 @@
+{
+  "slug": "nogizaka",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 168150,
+    "oneK": 180750,
+    "oneLDK": 323150,
+    "twoLDK": 581550
+  },
+  "sources": {
+    "rent": {
+      "name": "LIFULL HOME'S、Yahoo!不動産（弊社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}
