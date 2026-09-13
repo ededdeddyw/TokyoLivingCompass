@@ -1,0 +1,20 @@
+{
+  "slug": "hikarigaoka",
+  "observations": [
+    {
+      "source": "Yahoo!不動産",
+      "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2358/2358590/",
+      "retrievedAt": "2026-09-13",
+      "basis": "asking",
+      "statistic": "mean",
+      "verified": true,
+      "coverage": "掲載されている賃貸物件の平均賃料",
+      "rent": {
+        "oneRoom": 90000,
+        "oneK": 97000,
+        "oneLDK": 141000,
+        "twoLDK": 174000
+      }
+    }
+  ]
+}
