@@ -1,0 +1,340 @@
+<title>東京__TOTAL__駅データ台帳</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap">
+<style>
+:root{
+  --ground:#F4F6F7; --surface:#FFFFFF; --raise:#EDF1F4;
+  --ink:#182028; --ink-soft:#5C6774; --ink-faint:#8B98A5;
+  --line:#DCE3E8; --line-soft:#E9EEF1;
+  --accent:#1F5F8B; --accent-soft:#E7F0F6;
+  --warn:#9A5B14; --warn-soft:#F7EEE0;
+  --good:#3B6E4B; --good-soft:#E7F0E9;
+  --sheet-shadow:0 -8px 40px rgba(24,32,40,.18);
+}
+:root:not([data-theme="light"]){
+  @media (prefers-color-scheme: dark){
+    --ground:#12161A; --surface:#1A2027; --raise:#222A32;
+    --ink:#E8EDF1; --ink-soft:#9CAAB7; --ink-faint:#6D7C8A;
+    --line:#2A333C; --line-soft:#222A32;
+    --accent:#7FB2D6; --accent-soft:#1C2C39;
+    --warn:#D9A05C; --warn-soft:#2E2618;
+    --good:#88BE9B; --good-soft:#1B2A20;
+    --sheet-shadow:0 -8px 40px rgba(0,0,0,.55);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#12161A; --surface:#1A2027; --raise:#222A32;
+  --ink:#E8EDF1; --ink-soft:#9CAAB7; --ink-faint:#6D7C8A;
+  --line:#2A333C; --line-soft:#222A32;
+  --accent:#7FB2D6; --accent-soft:#1C2C39;
+  --warn:#D9A05C; --warn-soft:#2E2618;
+  --good:#88BE9B; --good-soft:#1B2A20;
+  --sheet-shadow:0 -8px 40px rgba(0,0,0,.55);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--ground); color:var(--ink);
+  font-family:"Noto Sans JP",system-ui,-apple-system,"Hiragino Kaku Gothic ProN",sans-serif;
+  font-size:15px; line-height:1.7;
+  -webkit-text-size-adjust:100%;
+}
+.wrap{max-width:44rem; margin:0 auto; padding-inline:16px; padding-block:0 96px}
+
+/* ── 見出し ── */
+header.top{padding-block:28px 16px}
+.eyebrow{
+  margin:0 0 6px; font-size:.68rem; font-weight:700; letter-spacing:.14em;
+  color:var(--accent); text-transform:uppercase;
+}
+h1{
+  font-family:"Shippori Mincho",serif; font-weight:600;
+  font-size:clamp(1.5rem,6vw,2rem); line-height:1.35; margin:0 0 10px;
+  text-wrap:balance; letter-spacing:.01em;
+}
+.lede{margin:0; color:var(--ink-soft); font-size:.9rem; line-height:1.75}
+
+/* ── 集計 ── */
+.tally{
+  display:grid; grid-template-columns:repeat(3,1fr); gap:1px;
+  background:var(--line); border:1px solid var(--line);
+  border-radius:3px; overflow:hidden; margin-block:18px;
+}
+.tally div{background:var(--surface); padding:11px 12px}
+.tally dt{margin:0; font-size:.66rem; color:var(--ink-faint); letter-spacing:.06em}
+.tally dd{
+  margin:2px 0 0; font-size:1.15rem; font-weight:700;
+  font-variant-numeric:tabular-nums; line-height:1.2;
+}
+.tally dd small{font-size:.68rem; font-weight:400; color:var(--ink-soft); margin-inline-start:2px}
+
+/* ── 操作 ── */
+.controls{
+  position:sticky; top:0; z-index:20; background:var(--ground);
+  padding-block:10px 10px; margin-inline:-16px; padding-inline:16px;
+  border-bottom:1px solid var(--line-soft);
+}
+.search{
+  width:100%; padding:11px 13px; font:inherit; font-size:16px;
+  background:var(--surface); color:var(--ink);
+  border:1px solid var(--line); border-radius:3px;
+}
+.search::placeholder{color:var(--ink-faint)}
+.search:focus-visible{outline:2px solid var(--accent); outline-offset:1px; border-color:var(--accent)}
+.chips{display:flex; gap:6px; flex-wrap:wrap; margin-top:8px}
+.chip{
+  font:inherit; font-size:.76rem; padding:5px 11px; cursor:pointer;
+  background:var(--surface); color:var(--ink-soft);
+  border:1px solid var(--line); border-radius:100px; white-space:nowrap;
+}
+.chip[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:#fff; font-weight:500}
+.chip:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+.count{font-size:.74rem; color:var(--ink-faint); margin-top:8px; font-variant-numeric:tabular-nums}
+
+/* ── 一覧 ── */
+ul.list{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:1px;
+  background:var(--line-soft); border-block:1px solid var(--line-soft)}
+.row{
+  width:100%; display:grid; grid-template-columns:1fr auto; gap:4px 12px; align-items:center;
+  background:var(--surface); border:0; text-align:start; font:inherit; color:inherit;
+  padding:11px 12px; cursor:pointer;
+}
+.row:hover{background:var(--raise)}
+.row:focus-visible{outline:2px solid var(--accent); outline-offset:-2px}
+.nm{font-family:"Shippori Mincho",serif; font-size:1.02rem; font-weight:600; letter-spacing:.02em}
+.nm .badge{
+  font-family:"Noto Sans JP",sans-serif; font-size:.6rem; font-weight:700; letter-spacing:.06em;
+  color:var(--accent); background:var(--accent-soft); border-radius:2px;
+  padding:1px 5px; margin-inline-start:7px; vertical-align:2px;
+}
+.sub{grid-column:1; font-size:.73rem; color:var(--ink-faint); line-height:1.5}
+.fig{grid-row:1 / span 2; text-align:end; font-variant-numeric:tabular-nums}
+.fig b{display:block; font-size:.95rem; font-weight:700; line-height:1.3}
+.fig span{display:block; font-size:.66rem; color:var(--ink-faint)}
+.bar{height:3px; background:var(--line); border-radius:2px; overflow:hidden; margin-top:5px; width:64px; margin-inline-start:auto}
+.bar i{display:block; height:100%; background:var(--accent)}
+
+/* ── 詳細シート ── */
+.scrim{
+  position:fixed; inset:0; background:rgba(16,22,28,.5); z-index:30;
+  opacity:0; pointer-events:none; transition:opacity .18s;
+}
+.scrim.on{opacity:1; pointer-events:auto}
+.sheet{
+  position:fixed; left:0; right:0; bottom:0; z-index:31; max-height:88vh; overflow-y:auto;
+  background:var(--surface); border-radius:10px 10px 0 0; box-shadow:var(--sheet-shadow);
+  transform:translateY(101%); transition:transform .22s cubic-bezier(.2,.7,.3,1);
+  padding:0 16px 32px; -webkit-overflow-scrolling:touch;
+}
+.sheet.on{transform:translateY(0)}
+@media (prefers-reduced-motion:reduce){.sheet,.scrim{transition:none}}
+.sheet-bar{
+  position:sticky; top:0; background:var(--surface); padding-block:14px 10px;
+  display:flex; justify-content:space-between; align-items:flex-start; gap:12px;
+  border-bottom:1px solid var(--line-soft); margin-bottom:14px;
+}
+.sheet-bar h2{font-family:"Shippori Mincho",serif; font-size:1.3rem; font-weight:600; margin:0; line-height:1.3}
+.sheet-bar p{margin:3px 0 0; font-size:.74rem; color:var(--ink-faint)}
+.close{
+  flex:none; font:inherit; font-size:.78rem; padding:6px 12px; cursor:pointer;
+  background:var(--raise); color:var(--ink-soft); border:1px solid var(--line); border-radius:3px;
+}
+.close:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+
+.sec{margin-block:18px}
+.sec > h3{
+  font-size:.68rem; font-weight:700; letter-spacing:.12em; color:var(--ink-faint);
+  margin:0 0 8px; text-transform:uppercase;
+}
+.kv{display:grid; grid-template-columns:auto 1fr; gap:4px 14px; margin:0; font-size:.86rem}
+.kv dt{color:var(--ink-soft)}
+.kv dd{margin:0; font-variant-numeric:tabular-nums}
+.rent{display:grid; grid-template-columns:repeat(2,1fr); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:3px; overflow:hidden}
+.rent div{background:var(--surface); padding:9px 11px}
+.rent dt{font-size:.68rem; color:var(--ink-faint); margin:0}
+.rent dd{margin:1px 0 0; font-size:.95rem; font-weight:700; font-variant-numeric:tabular-nums}
+.rent dd em{font-style:normal; color:var(--warn); font-size:.7rem; margin-inline-start:3px}
+.scores{display:flex; flex-direction:column; gap:7px; margin:0}
+.srow{display:grid; grid-template-columns:4.5rem 1fr 2rem; gap:9px; align-items:center; font-size:.8rem}
+.srow span:last-child{text-align:end; font-variant-numeric:tabular-nums; color:var(--ink-soft)}
+.track{height:6px; background:var(--line); border-radius:3px; overflow:hidden}
+.track i{display:block; height:100%; background:var(--accent); border-radius:3px}
+.pill{
+  display:inline-block; font-size:.72rem; font-weight:500; padding:3px 9px; border-radius:100px;
+  background:var(--good-soft); color:var(--good);
+}
+.pill.risk{background:var(--warn-soft); color:var(--warn)}
+.note{font-size:.76rem; color:var(--ink-soft); line-height:1.7; margin:8px 0 0}
+.shops{list-style:none; margin:0; padding:0; font-size:.84rem}
+.shops li{display:flex; justify-content:space-between; gap:12px; padding-block:3px; border-bottom:1px solid var(--line-soft)}
+.shops li:last-child{border-bottom:0}
+.shops span{color:var(--ink-soft); font-variant-numeric:tabular-nums; flex:none}
+.deep{
+  display:block; margin-top:16px; padding:11px 13px; border-radius:3px; text-align:center;
+  background:var(--accent-soft); color:var(--accent); font-size:.84rem; font-weight:500;
+  text-decoration:none; border:1px solid transparent;
+}
+.deep:hover{border-color:var(--accent)}
+.empty{padding:32px 12px; text-align:center; color:var(--ink-faint); font-size:.86rem}
+
+footer{margin-top:28px; padding-top:16px; border-top:1px solid var(--line); font-size:.72rem; color:var(--ink-faint); line-height:1.8}
+footer b{color:var(--ink-soft); font-weight:500}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <p class="eyebrow">Tokyo Living Compass</p>
+    <h1>東京__TOTAL__駅データ台帳</h1>
+    <p class="lede">
+      掲載候補の全__TOTAL__駅について、いま裏が取れているデータを集めたもの。
+      駅名で検索するか、条件でしぼって、行を押すと詳細が出る。
+      数値はすべて出典のあるデータから計算していて、書き手の記憶によるものは含まない。
+    </p>
+
+    <dl class="tally">
+      <div><dt>掲載候補</dt><dd>__TOTAL__<small>駅</small></dd></div>
+      <div><dt>家賃の帯</dt><dd>__RENT__<small>駅</small></dd></div>
+      <div><dt>16層の本文</dt><dd>__DEEP__<small>駅</small></dd></div>
+    </dl>
+  </header>
+
+  <div class="controls">
+    <input id="q" class="search" type="search" placeholder="駅名でさがす（例: 中目黒）" autocomplete="off">
+    <div class="chips" role="group" aria-label="しぼりこみ">
+      <button class="chip" id="f-doc" aria-pressed="false" type="button">本文がある駅</button>
+      <button class="chip" id="f-rent" aria-pressed="false" type="button">家賃の帯がある駅</button>
+      <button class="chip" id="f-dry" aria-pressed="false" type="button">浸水想定の区域外</button>
+      <button class="chip" id="f-flat" aria-pressed="false" type="button">ほぼ平坦</button>
+    </div>
+    <div class="chips" role="group" aria-label="ならびかえ" style="margin-top:6px">
+      <button class="chip srt" data-sort="doc" aria-pressed="true" type="button">おすすめ順</button>
+      <button class="chip srt" data-sort="otemachi" aria-pressed="false" type="button">大手町が近い順</button>
+      <button class="chip srt" data-sort="shinjuku" aria-pressed="false" type="button">新宿が近い順</button>
+      <button class="chip srt" data-sort="rent" aria-pressed="false" type="button">家賃が安い順</button>
+    </div>
+    <p class="count" id="count"></p>
+  </div>
+
+  <ul class="list" id="list"></ul>
+
+  <footer>
+    <b>出典</b><br>
+    駅・路線: ekidata ほか公開データ／所要時間: 駅間距離と路線種別からの計算（実測18件との平均誤差 +0.8分）／
+    標高: 国土地理院 標高API／浸水想定: 重ねるハザードマップ（国土交通省・国土地理院）／
+    周辺施設: OpenStreetMap contributors（ODbL）／
+    家賃: LIFULL HOME'S・Yahoo!不動産が公開する駅別の相場を平均（当社調べ・__TODAY__時点）<br><br>
+    <b>読むときの注意</b><br>
+    浸水想定は、想定しうる最大規模の雨を前提にした試算を地図から読み取ったもので、
+    ふだん浸水する場所という意味でも、区域の外なら浸水しないという意味でもない。
+    家賃は募集賃料の平均のため、実際の成約額はこれより下がることがある。
+    住む場所を決める前に、住所ごとに区のハザードマップと最新の募集条件を確認してほしい。
+  </footer>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-name"></div>
+
+<script>
+const STATIONS=__STATIONS__;
+const HUB={otemachi:"大手町",shinjuku:"新宿",shibuya:"渋谷",tokyo:"東京",shinagawa:"品川",toranomon:"虎ノ門",roppongi:"六本木"};
+const AX={commute:"通勤",transitConvenience:"乗換",shopping:"買い物",healthcare:"医療",nature:"公園",food:"飲食",cafe:"カフェ",nightlife:"夜の店",fitness:"運動"};
+const SLOPE={flat:"ほぼ平坦",some:"坂がある",hilly:"起伏が大きい"};
+const RT=[["oneRoom","ワンルーム"],["oneK","1K"],["oneLDK","1LDK"],["twoLDK","2LDK"]];
+const TOTAL=__TOTAL__;
+const REVIEW="https://claude.ai/code/artifact/4ab6fa3d-b9b0-434e-b0a9-95cc765b52bd";
+
+const listEl=document.getElementById("list"), countEl=document.getElementById("count");
+const sheet=document.getElementById("sheet"), scrim=document.getElementById("scrim");
+const state={q:"",doc:false,rent:false,dry:false,flat:false,sort:"doc"};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function matches(d){
+  if(state.doc&&!d.d) return false;
+  if(state.rent&&!d.r) return false;
+  if(state.dry&&(d.hz||d.hn>0)) return false;
+  if(state.flat&&d.sl!=="flat") return false;
+  if(state.q){
+    const q=state.q.trim();
+    if(q&&!(d.n.includes(q)||d.s.includes(q.toLowerCase())||d.w.includes(q))) return false;
+  }
+  return true;
+}
+function sortKey(d){
+  if(state.sort==="rent") return d.r&&d.r.oneRoom?d.r.oneRoom[0]:9e9;
+  if(state.sort==="doc") return (d.d?0:1)*1e6 + (100-(d.sc.commute||0));
+  return d.c[state.sort]??999;
+}
+function render(){
+  const rows=STATIONS.filter(matches).sort((a,b)=>sortKey(a)-sortKey(b));
+  countEl.textContent=`${rows.length}駅を表示中（全${TOTAL}駅）`;
+  if(!rows.length){listEl.innerHTML='<li class="empty">条件にあう駅がありません。</li>';return;}
+  listEl.innerHTML=rows.map(d=>{
+    const rent=d.r&&d.r.oneRoom?`${d.r.oneRoom[0]/10000}〜${d.r.oneRoom[1]/10000}万`:"—";
+    const mins=d.c[state.sort==="shinjuku"?"shinjuku":"otemachi"];
+    const big=state.sort==="rent"&&d.r?rent:`${mins}分`;
+    const cap=state.sort==="rent"&&d.r?"ワンルーム":(state.sort==="shinjuku"?"新宿へ":"大手町へ");
+    return `<li><button class="row" data-s="${d.s}">
+      <span class="nm">${esc(d.n)}${d.d?'<span class="badge">16層</span>':""}</span>
+      <span class="sub">${esc(d.w)}・${d.l.length}路線${d.r?" ／ ワンルーム "+rent+"円":""}</span>
+      <span class="fig"><b>${big}</b><span>${cap}</span>
+        <span class="bar"><i style="width:${d.sc.commute||0}%"></i></span></span>
+    </button></li>`;
+  }).join("");
+}
+function open(slug){
+  const d=STATIONS.find(x=>x.s===slug); if(!d) return;
+  const hz=d.hz?`<span class="pill risk">駅の地点が浸水想定区域内 ${esc(d.hz)}</span>`
+    :(d.hn>0?`<span class="pill risk">周囲9地点のうち${d.hn}地点が区域内</span>`
+            :`<span class="pill">駅の周囲400mは想定区域の外</span>`);
+  const rent=d.r?`<div class="sec"><h3>家賃の目安（当社調べ）</h3><dl class="rent">${
+    RT.filter(([k])=>d.r[k]).map(([k,l])=>`<div><dt>${l}</dt><dd>${d.r[k][0]/10000}〜${d.r[k][1]/10000}万円${d.r[k][2]?'<em>差大</em>':""}</dd></div>`).join("")
+  }</dl><p class="note">LIFULL HOME'S と Yahoo!不動産が公開する駅別の相場を平均し、1万円刻みに丸めた値。いずれも募集賃料。「差大」は2社の値が3万円以上ひらいた間取り。</p></div>`:"";
+  const shops=d.sm.length?`<div class="sec"><h3>徒歩圏のスーパー</h3><ul class="shops">${
+    d.sm.map(([n,m])=>`<li>${esc(n)}<span>徒歩${m}分</span></li>`).join("")}</ul>
+    <p class="note">OpenStreetMap に登録されている店。近い順に3件まで。</p></div>`:"";
+  const axes=Object.keys(AX).filter(k=>d.sc[k]!=null);
+  sheet.innerHTML=`
+    <div class="sheet-bar">
+      <div><h2 id="sheet-name">${esc(d.n)}</h2><p>${esc(d.w)}／${d.l.map(esc).join("・")}</p></div>
+      <button class="close" type="button" id="closeBtn">閉じる</button>
+    </div>
+    <div class="sec"><h3>主なオフィス街まで</h3><dl class="kv">${
+      Object.entries(HUB).map(([k,l])=>`<dt>${l}</dt><dd>${d.c[k]??"—"}分</dd>`).join("")
+    }</dl><p class="note">駅間距離と路線種別からの計算値。乗車時間ベースで、乗換は5分で算入。優等列車は考慮していない。</p></div>
+    ${rent}
+    <div class="sec"><h3>土地の高さと坂</h3><dl class="kv">
+      <dt>駅の標高</dt><dd>${d.e??"—"}m</dd>
+      <dt>周囲800mの標高差</dt><dd>${d.sp??"—"}m</dd>
+      <dt>起伏</dt><dd>${SLOPE[d.sl]||"—"}</dd>
+    </dl><p class="note">国土地理院の標高APIから、駅と半径400mの8方位、計9点を読み取った値。</p></div>
+    <div class="sec"><h3>洪水の浸水想定</h3>${hz}
+      <p class="note">重ねるハザードマップの洪水浸水想定区域（想定最大規模）を、駅と周囲400mの9地点で読み取った。想定しうる最大規模の雨を前提にした試算であり、ふだん浸水する場所という意味ではない。区域の外なら浸水しないという意味でもない。住所ごとに区のハザードマップで確認してほしい。</p></div>
+    ${axes.length?`<div class="sec"><h3>暮らしの指標</h3><div class="scores">${
+      axes.map(k=>`<div class="srow"><span>${AX[k]}</span><span class="track"><i style="width:${d.sc[k]}%"></i></span><span>${d.sc[k]}</span></div>`).join("")
+    }</div><p class="note">通勤と乗換は所要時間と路線構成からの計算。ほかは施設の数を、23区内の駅どうしで比べた相対的な位置で表した点数。</p></div>`:""}
+    ${shops}
+    ${d.d?`<a class="deep" href="${REVIEW}" target="_blank" rel="noopener">この駅は16層の本文を書き終えています。読む →</a>`:
+          `<p class="note">この駅の本文（街のようす・夜の帰り道・隣の駅との使い分けなど16層）はまだ書けていません。</p>`}`;
+  sheet.classList.add("on"); scrim.classList.add("on");
+  document.body.style.overflow="hidden"; sheet.scrollTop=0;
+  document.getElementById("closeBtn").focus();
+}
+function close(){sheet.classList.remove("on");scrim.classList.remove("on");document.body.style.overflow=""}
+
+listEl.addEventListener("click",e=>{const b=e.target.closest(".row"); if(b) open(b.dataset.s)});
+sheet.addEventListener("click",e=>{if(e.target.id==="closeBtn") close()});
+scrim.addEventListener("click",close);
+document.addEventListener("keydown",e=>{if(e.key==="Escape") close()});
+document.getElementById("q").addEventListener("input",e=>{state.q=e.target.value;render()});
+for(const[id,key]of[["f-doc","doc"],["f-rent","rent"],["f-dry","dry"],["f-flat","flat"]]){
+  const el=document.getElementById(id);
+  el.addEventListener("click",()=>{state[key]=!state[key];el.setAttribute("aria-pressed",String(state[key]));render()});
+}
+for(const el of document.querySelectorAll(".srt")){
+  el.addEventListener("click",()=>{
+    state.sort=el.dataset.sort;
+    document.querySelectorAll(".srt").forEach(x=>x.setAttribute("aria-pressed",String(x===el)));
+    render();
+  });
+}
+render();
+</script>

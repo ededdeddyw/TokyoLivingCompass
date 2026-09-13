@@ -1,0 +1,35 @@
+{
+  "slug": "adachi-odai",
+  "observations": [
+    {
+      "source": "LIFULL HOME'S",
+      "url": "https://www.homes.co.jp/chintai/tokyo/adachiodai_10017-st/price/",
+      "retrievedAt": "2026-09-13",
+      "basis": "asking",
+      "statistic": "mean",
+      "verified": true,
+      "coverage": "駅徒歩10分以内の賃貸物件の平均賃料（管理費・駐車場代を除く）",
+      "rent": {
+        "oneRoom": 59800,
+        "oneK": 111500,
+        "oneLDK": 132000,
+        "twoLDK": 227200
+      }
+    },
+    {
+      "source": "Yahoo!不動産",
+      "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2359/2359250/",
+      "retrievedAt": "2026-09-13",
+      "basis": "asking",
+      "statistic": "mean",
+      "verified": true,
+      "coverage": "掲載されている賃貸物件の平均賃料",
+      "rent": {
+        "oneRoom": 73000,
+        "oneK": 86000,
+        "oneLDK": 132000,
+        "twoLDK": 190000
+      }
+    }
+  ]
+}

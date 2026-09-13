@@ -1,0 +1,35 @@
+{
+  "slug": "akabane-iwabuchi",
+  "observations": [
+    {
+      "source": "LIFULL HOME'S",
+      "url": "https://www.homes.co.jp/chintai/tokyo/akabaneiwabuchi_06397-st/price/",
+      "retrievedAt": "2026-09-13",
+      "basis": "asking",
+      "statistic": "mean",
+      "verified": true,
+      "coverage": "駅徒歩10分以内の賃貸物件の平均賃料（管理費・駐車場代を除く）",
+      "rent": {
+        "oneRoom": 90900,
+        "oneK": 98100,
+        "oneLDK": 162100,
+        "twoLDK": 220100
+      }
+    },
+    {
+      "source": "Yahoo!不動産",
+      "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2349/2414/",
+      "retrievedAt": "2026-09-13",
+      "basis": "asking",
+      "statistic": "mean",
+      "verified": true,
+      "coverage": "掲載されている賃貸物件の平均賃料",
+      "rent": {
+        "oneRoom": 81000,
+        "oneK": 96000,
+        "oneLDK": 166000,
+        "twoLDK": 219000
+      }
+    }
+  ]
+}

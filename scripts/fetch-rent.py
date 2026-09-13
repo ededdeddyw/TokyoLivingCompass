@@ -26,7 +26,19 @@ SURVEY = os.path.join(ROOT, "data", "rent-survey")
 SOURCES = os.path.join(SURVEY, "sources.json")
 
 UA = "Mozilla/5.0 (compatible; TokyoLivingCompass/1.0; +station rent survey)"
-PAUSE = 6.0   # 同じサイトを続けて叩かないための待ち時間
+MIN_BYTES = 5000   # これより短い応答は、中身が返っていないものとして扱う
+TRIES = 6          # 1ページを取り直す回数
+
+# ページを取りに行く間隔は、サイトごとに変えながら進める。
+# 200 を返しながら中身が空の応答は「速すぎる」という合図とみなし、
+# そのサイトの間隔を広げる。うまく取れているあいだは少しずつ縮める。
+# こうすると、相手が受け入れられる速さに自然と落ち着く。
+PACE_START = 8.0    # 最初の間隔（秒）
+PACE_MIN = 5.0      # これより速くはしない
+PACE_MAX = 90.0     # これより遅くはしない
+PACE_UP = 2.0       # 空の応答が返ったときに間隔を何倍にするか
+PACE_DOWN = 0.9     # うまく取れたときに間隔を何倍にするか
+COOLDOWN = 60.0     # 空の応答が続いたときに、いったん待つ時間
 
 # 間取りの表記ゆれを、こちらの4区分に寄せる
 LABELS = {
@@ -37,10 +49,42 @@ LABELS = {
 }
 
 
-def fetch(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=60) as res:
-        return res.read().decode("utf-8", errors="replace")
+pace = {}       # サイトごとの、次に取りに行くまでの間隔（秒）
+last_hit = {}   # サイトごとの、最後に取りに行った時刻
+
+
+def fetch(url, site):
+    """
+    1ページ取る。取りに行く間隔はサイトごとに持ち、応答を見て調整する。
+
+    続けて取りに行くと、200 を返しながら中身が空の応答が返ってくることがある。
+    これは「速すぎる」という合図とみなし、そのサイトの間隔を広げて待ち直す。
+    うまく取れているあいだは間隔を少しずつ縮め、相手が受け入れられる速さを探る。
+    """
+    pace.setdefault(site, PACE_START)
+    last = ""
+    for attempt in range(TRIES):
+        wait = pace[site] - (time.time() - last_hit.get(site, 0))
+        if wait > 0:
+            time.sleep(wait)
+        last_hit[site] = time.time()
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=70) as res:
+                body = res.read().decode("utf-8", errors="replace")
+            if len(body) >= MIN_BYTES:
+                pace[site] = max(PACE_MIN, pace[site] * PACE_DOWN)
+                return body
+            last = f"応答が{len(body)}バイトしかない"
+        except Exception as err:  # noqa: BLE001 — サイトごとに落ち方が違う
+            last = str(err)
+        pace[site] = min(PACE_MAX, pace[site] * PACE_UP)
+        print(f"    {site}: {last}。間隔を{pace[site]:.0f}秒に広げて取り直す"
+              f"（{attempt + 1}回目）")
+        if attempt >= 2:
+            print(f"    {site}: {COOLDOWN:.0f}秒待つ")
+            time.sleep(COOLDOWN)
+    raise RuntimeError(last)
 
 
 def to_lines(page):
@@ -93,14 +137,12 @@ def main():
         for site, ident in ids.items():
             url = sites[site]["urlTemplate"].format(id=ident)
             try:
-                rent = parse(fetch(url))
+                rent = parse(fetch(url, site))
             except Exception as err:  # noqa: BLE001
                 print(f"  × {slug} / {site}: {err}")
-                time.sleep(PAUSE)
                 continue
             if not rent:
                 print(f"  × {slug} / {site}: 相場が読み取れなかった")
-                time.sleep(PAUSE)
                 continue
             observations.append({
                 "source": site,
@@ -115,8 +157,7 @@ def main():
                          ("oneRoom", "oneK", "oneLDK", "twoLDK")},
             })
             got = "、".join(f"{k}{v/10000:.1f}万" for k, v in rent.items())
-            print(f"  {slug:20} {site:14} {got}")
-            time.sleep(PAUSE)
+            print(f"  {slug:20} {site:14} {got}（間隔{pace[site]:.0f}秒）")
 
         if not observations:
             print(f"  ! {slug}: 1件も取れなかった")

@@ -1,0 +1,35 @@
+{
+  "slug": "akasaka",
+  "observations": [
+    {
+      "source": "LIFULL HOME'S",
+      "url": "https://www.homes.co.jp/chintai/tokyo/akasaka_06370-st/price/",
+      "retrievedAt": "2026-09-13",
+      "basis": "asking",
+      "statistic": "mean",
+      "verified": true,
+      "coverage": "駅徒歩10分以内の賃貸物件の平均賃料（管理費・駐車場代を除く）",
+      "rent": {
+        "oneRoom": 160200,
+        "oneK": 164700,
+        "oneLDK": 293000,
+        "twoLDK": 436900
+      }
+    },
+    {
+      "source": "Yahoo!不動産",
+      "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2346/2346150/",
+      "retrievedAt": "2026-09-13",
+      "basis": "asking",
+      "statistic": "mean",
+      "verified": true,
+      "coverage": "掲載されている賃貸物件の平均賃料",
+      "rent": {
+        "oneRoom": 164000,
+        "oneK": 171000,
+        "oneLDK": 310000,
+        "twoLDK": 473000
+      }
+    }
+  ]
+}

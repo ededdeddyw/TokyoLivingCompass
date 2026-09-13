@@ -1,0 +1,35 @@
+{
+  "slug": "akado-shogakkomae",
+  "observations": [
+    {
+      "source": "LIFULL HOME'S",
+      "url": "https://www.homes.co.jp/chintai/tokyo/akadoshogakkomae_10016-st/price/",
+      "retrievedAt": "2026-09-13",
+      "basis": "asking",
+      "statistic": "mean",
+      "verified": true,
+      "coverage": "駅徒歩10分以内の賃貸物件の平均賃料（管理費・駐車場代を除く）",
+      "rent": {
+        "oneRoom": 103400,
+        "oneK": 97200,
+        "oneLDK": 138000,
+        "twoLDK": 215300
+      }
+    },
+    {
+      "source": "Yahoo!不動産",
+      "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2359/2359230/",
+      "retrievedAt": "2026-09-13",
+      "basis": "asking",
+      "statistic": "mean",
+      "verified": true,
+      "coverage": "掲載されている賃貸物件の平均賃料",
+      "rent": {
+        "oneRoom": 101000,
+        "oneK": 99000,
+        "oneLDK": 147000,
+        "twoLDK": 229000
+      }
+    }
+  ]
+}
