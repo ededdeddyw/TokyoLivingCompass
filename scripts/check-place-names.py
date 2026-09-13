@@ -19,6 +19,7 @@ import re
 import glob
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROSTER = os.path.join(ROOT, "data", "roster", "stations.json")
 POIS = os.path.join(ROOT, "data", "computed", "pois.json")
 VERIFIED = os.path.join(ROOT, "data", "reference", "verified-places.json")
 CONTENT = os.path.join(ROOT, "data", "content", "ja")
@@ -51,6 +52,9 @@ def main():
     # 駅別の取得範囲の外にあるものや、取得対象の種類に入っていないものは
     # 名前で個別に問い合わせて確認し、その記録を参照する。
     verified = set(json.load(open(VERIFIED, encoding="utf-8"))["places"])
+    # 「お台場海浜公園」「舎人公園」のように、駅名そのものが施設名の形をしている。
+    # ロースターにある駅名は実在が確かめられているので、照合の対象から外す。
+    station_names = {s["nameJa"] for s in json.load(open(ROSTER, encoding="utf-8"))}
     total, unmatched, by_record = 0, [], 0
 
     for p in sorted(glob.glob(os.path.join(CONTENT, "*.json"))):
@@ -72,6 +76,8 @@ def main():
         miss = []
         for n in sorted(names):
             if n in GENERIC:
+                continue
+            if n in station_names or any(n in sn for sn in station_names):
                 continue
             total += 1
             if n in blob or any(n in k or k in n for k in known):
