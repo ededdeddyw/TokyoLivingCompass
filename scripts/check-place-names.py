@@ -20,6 +20,7 @@ import glob
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 POIS = os.path.join(ROOT, "data", "computed", "pois.json")
+VERIFIED = os.path.join(ROOT, "data", "reference", "verified-places.json")
 CONTENT = os.path.join(ROOT, "data", "content", "ja")
 
 # 施設を指す固有名詞の形。末尾の語で切り出す。
@@ -47,7 +48,10 @@ FIELDS = ["summary", "tagline", "residents", "housingStock", "hazards", "station
 
 def main():
     pois = json.load(open(POIS, encoding="utf-8"))["stations"]
-    total, unmatched = 0, []
+    # 駅別の取得範囲の外にあるものや、取得対象の種類に入っていないものは
+    # 名前で個別に問い合わせて確認し、その記録を参照する。
+    verified = set(json.load(open(VERIFIED, encoding="utf-8"))["places"])
+    total, unmatched, by_record = 0, [], 0
 
     for p in sorted(glob.glob(os.path.join(CONTENT, "*.json"))):
         d = json.load(open(p, encoding="utf-8"))
@@ -72,11 +76,15 @@ def main():
             total += 1
             if n in blob or any(n in k or k in n for k in known):
                 continue
+            if n in verified:
+                by_record += 1
+                continue
             miss.append(n)
         if miss:
             unmatched.append((d["name"], miss))
 
     print(f"本文に出てくる施設名: {total}件")
+    print(f"  うち {by_record}件は data/reference/verified-places.json の記録で確認済み")
     if not unmatched:
         print("すべて OpenStreetMap のデータと照合できました。")
         return
