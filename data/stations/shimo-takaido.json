@@ -1,0 +1,22 @@
+{
+  "slug": "shimo-takaido",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 75050,
+    "oneK": 88300,
+    "oneLDK": 163100,
+    "twoLDK": 219850
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

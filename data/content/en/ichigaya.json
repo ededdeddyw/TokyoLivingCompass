@@ -2,8 +2,8 @@
   "slug": "ichigaya",
   "locale": "en",
   "name": "Ichigaya",
-  "tagline": "Shinjuku in 8 minutes and Otemachi in 12 minutes. Served by 4 lines.",
-  "summary": "The station is in Chiyoda City, served by JR Chuo-Sobu Line (Local), Tokyo Metro Yurakucho Line, Tokyo Metro Namboku Line and Toei Shinjuku Line. Journey times to the main business districts are 12 minutes to Otemachi, 8 minutes to Shinjuku, 18 minutes to Shibuya and 26 minutes to Shinagawa. The station stands 11.6 m above sea level, and the ground within 800 m varies in height by 18.7 m. The land around the station has gentle slopes.",
+  "tagline": "Shinjuku in 8 minutes and Otemachi in 12 minutes. Served by 4 lines. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
+  "summary": "The station is in Chiyoda City, served by JR Chuo-Sobu Line (Local), Tokyo Metro Yurakucho Line, Tokyo Metro Namboku Line and Toei Shinjuku Line. Journey times to the main business districts are 12 minutes to Otemachi, 8 minutes to Shinjuku, 18 minutes to Shibuya and 26 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 11.6 m above sea level, and the ground within 800 m varies in height by 18.7 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 11.6 m above sea level. Within 800 m the ground ranges from 11.6 m to 30.3 m, a difference of 18.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
@@ -41,14 +41,25 @@
   ],
   "medical": "Within an 800 m walk of the station there are 8 clinics and 9 pharmacies. Facilities recorded as hospitals lie at 茂恵会半蔵門病院, about 899 m away and 日本歯科大学附属病院, about 1183 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "4 lines serve the station: JR Chuo-Sobu Line (Local), Tokyo Metro Yurakucho Line, Tokyo Metro Namboku Line and Toei Shinjuku Line. The lines are split between operators (JR East runs 1 line, Tokyo Metro runs 2 lines and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 90.",
+  "rentRange": {
+    "note": "One room ¥130,000 to ¥140,000, 1K ¥130,000 to ¥140,000, 1LDK ¥250,000 to ¥260,000 and 2LDK ¥410,000 to ¥420,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "hanzomon",
-      "note": "816 m away in a straight line. It reaches Otemachi 4 minutes sooner than Ichigaya."
+      "note": "816 m away in a straight line. It reaches Otemachi 4 minutes sooner than Ichigaya. One-room rents run about ¥31,000 higher."
     },
     {
       "slug": "kojimachi",
-      "note": "864 m away in a straight line. It reaches Otemachi in about the same time as Ichigaya."
+      "note": "864 m away in a straight line. It reaches Otemachi in about the same time as Ichigaya. One-room rents run about ¥39,000 higher."
     }
   ],
   "goodFor": [

@@ -1,0 +1,22 @@
+{
+  "slug": "itabashi-kuyakushomae",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 84750,
+    "oneK": 102100,
+    "oneLDK": 148400,
+    "twoLDK": 206650
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

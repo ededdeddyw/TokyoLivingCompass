@@ -32,9 +32,15 @@ def yen(amount):
 
 
 def wan(amount):
-    """円を「12万」の形にする（簡体字中国語・韓国語も万を単位にする）。"""
+    """円を「12万」の形にする（簡体字中国語）。"""
     v = amount / 10000
     return f"{v:.0f}万" if abs(v - round(v)) < 0.05 else f"{v:.1f}万"
+
+
+def man_ko(amount):
+    """円を「12만」の形にする。韓国語は万を漢字で書かない。"""
+    v = amount / 10000
+    return f"{v:.0f}만" if abs(v - round(v)) < 0.05 else f"{v:.1f}만"
 
 
 # 韓国語の区名。23区は閉じた集合なので、訳名を持っておく。
@@ -53,6 +59,7 @@ PHRASES = {
     "ja": {
         "money": man,
         "moneyUnit": "円",
+        "sentenceGap": "",
         "listSep": "、",
         "lastSep": "、",
         "words": {"line": ("路線", "路線"), "clinic": ("件", "件"),
@@ -125,6 +132,7 @@ PHRASES = {
                                  "1つの路線が止まっても、別の運営会社の路線に乗り換えられる。",
         "stationSameOperator": "{count}{lineWord}とも{operator}の路線なので、"
                                "運営会社全体に及ぶ障害のときは、まとめて止まることがある。",
+        "stationSameOperatorTwo": "2路線とも{operator}の路線なので、運営会社全体に及ぶ障害のときは、まとめて止まることがある。",
         "stationTransitScore": "路線数と事業者の広がりから計算した乗換の利便性は、"
                                "100点満点で{score}点である。",
 
@@ -170,6 +178,7 @@ PHRASES = {
     "en": {
         "money": yen,
         "moneyUnit": "",
+        "sentenceGap": " ",
         "listSep": ", ",
         "lastSep": " and ",
         "words": {"line": ("line", "lines"), "clinic": ("clinic", "clinics"),
@@ -257,6 +266,7 @@ PHRASES = {
                                  "company. ",
         "stationSameOperator": "All {count} {lineWord} are run by {operator}, so a fault "
                                "affecting that company can stop them together. ",
+        "stationSameOperatorTwo": "Both lines are run by {operator}, so a fault affecting that company can stop them together. ",
         "stationTransitScore": "Scored out of 100 from the number of lines and the spread of "
                                "operators, transfer convenience here comes to {score}.",
 
@@ -309,6 +319,7 @@ PHRASES = {
     "zh-Hans": {
         "money": wan,
         "moneyUnit": "日元",
+        "sentenceGap": "",
         "listSep": "、",
         "lastSep": "、",
         "words": {"line": ("条线路", "条线路"), "clinic": ("家", "家"),
@@ -380,6 +391,7 @@ PHRASES = {
                                  "所以一条线路停运时，可以换乘另一家公司的线路。",
         "stationSameOperator": "{count}{lineWord}都由{operator}运营，"
                                "遇到波及整个运营公司的故障时，可能会一起停运。",
+        "stationSameOperatorTwo": "2条线路都由{operator}运营，遇到波及整个运营公司的故障时，可能会一起停运。",
         "stationTransitScore": "按线路数量和运营方的分散程度计算，"
                                "换乘便利度为{score}分（满分100分）。",
 
@@ -423,8 +435,9 @@ PHRASES = {
     },
 
     "ko": {
-        "money": wan,
+        "money": man_ko,
         "moneyUnit": "엔",
+        "sentenceGap": " ",
         "listSep": ", ",
         "lastSep": ", ",
         "words": {"line": ("개 노선", "개 노선"), "clinic": ("곳", "곳"),
@@ -500,6 +513,7 @@ PHRASES = {
                                  "다른 운영 회사의 노선으로 갈아탈 수 있다. ",
         "stationSameOperator": "{count}{lineWord} 모두 {operator}이 운영하므로, 운영 회사 "
                                "전체에 미치는 장애가 나면 한꺼번에 멈출 수 있다. ",
+        "stationSameOperatorTwo": "2개 노선 모두 {operator}이 운영하므로, 운영 회사 전체에 미치는 장애가 나면 한꺼번에 멈출 수 있다. ",
         "stationTransitScore": "노선 수와 운영 회사가 나뉜 정도로 계산한 환승 편의성은 "
                                "100점 만점에 {score}점이다.",
 
@@ -513,7 +527,7 @@ PHRASES = {
         "rentDrivers": ["건축 연수와 구조", "역에서의 도보 거리", "간선도로나 선로에 면해 있는지",
                         "언덕 위인지 아래인지", "구조 대비 전용 면적"],
         "rentReason": "원룸 시세는 {low}~{high}{unit}이다. ",
-        "rentWideSpread": "다만 {layouts}은(는) 출처마다 값이 3만 엔 이상 벌어져 있다. "
+        "rentWideSpread": "다만 {layouts}에서는 출처마다 값이 3만 엔 이상 벌어져 있다. "
                           "집계 대상이 다르므로 폭을 두고 보는 편이 좋다.",
         "rentWideSep": ", ",
 

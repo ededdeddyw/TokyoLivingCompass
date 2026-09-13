@@ -2,8 +2,8 @@
   "slug": "shinagawa",
   "locale": "en",
   "name": "Shinagawa",
-  "tagline": "Shinagawa in 1 minute and Tokyo in 10 minutes. Served by 6 lines.",
-  "summary": "The station is in Minato City, served by JR Tokaido Line, JR Yamanote Line, JR Yokosuka Line, Narita Express, JR Keihin-Tohoku Line and Keikyu Main Line. Journey times to the main business districts are 16 minutes to Otemachi, 26 minutes to Shinjuku, 21 minutes to Shibuya and 1 minute to Shinagawa. The station stands 3.1 m above sea level, and the ground within 800 m varies in height by 14.3 m. The land around the station has gentle slopes.",
+  "tagline": "Shinagawa in 1 minute and Tokyo in 10 minutes. Served by 6 lines. A one-room flat rents for roughly ¥150,000 to ¥160,000.",
+  "summary": "The station is in Minato City, served by JR Tokaido Line, JR Yamanote Line, JR Yokosuka Line, Narita Express, JR Keihin-Tohoku Line and Keikyu Main Line. Journey times to the main business districts are 16 minutes to Otemachi, 26 minutes to Shinjuku, 21 minutes to Shibuya and 1 minute to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 3.1 m above sea level, and the ground within 800 m varies in height by 14.3 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 3.1 m above sea level. Within 800 m the ground ranges from 2.6 m to 16.9 m, a difference of 14.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
@@ -41,14 +41,25 @@
   ],
   "medical": "Within an 800 m walk of the station there are 7 clinics and 8 pharmacies. Facilities recorded as hospitals lie at 地域医療機能推進機構東京高輪病院, about 701 m away and 河野臨牀医学研究所附属第三北品川病院, about 817 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "6 lines serve the station: JR Tokaido Line, JR Yamanote Line, JR Yokosuka Line, Narita Express, JR Keihin-Tohoku Line and Keikyu Main Line. The lines are split between operators (JR East runs 5 lines and Keikyu runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 98.",
+  "rentRange": {
+    "note": "One room ¥150,000 to ¥160,000, 1K ¥120,000 to ¥130,000, 1LDK ¥240,000 to ¥250,000 and 2LDK ¥370,000 to ¥380,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥150,000 to ¥160,000. For One room, 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "kitashinagawa",
-      "note": "691 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Shinagawa."
+      "note": "691 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Shinagawa. One-room rents run about ¥10,000 lower."
     },
     {
       "slug": "takanawa-gateway",
-      "note": "778 m away in a straight line. It reaches Otemachi in about the same time as Shinagawa."
+      "note": "778 m away in a straight line. It reaches Otemachi in about the same time as Shinagawa. One-room rents run about ¥13,000 higher."
     }
   ],
   "goodFor": [
@@ -57,7 +68,8 @@
   ],
   "notFor": [
     "People avoiding projected flood inundation areas",
-    "People who want to finish their shopping on foot"
+    "People who want to finish their shopping on foot",
+    "People who want to hold the rent down"
   ],
   "authoredBy": "data-generated"
 }

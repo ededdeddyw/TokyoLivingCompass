@@ -1,0 +1,22 @@
+{
+  "slug": "shirokane-takanawa",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 145900,
+    "oneK": 139100,
+    "oneLDK": 246500,
+    "twoLDK": 419750
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "kohoku",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 74550,
+    "oneK": 79050,
+    "oneLDK": 117250,
+    "twoLDK": 149700
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

@@ -2,8 +2,8 @@
   "slug": "sendagi",
   "locale": "en",
   "name": "Sendagi",
-  "tagline": "Otemachi in 11 minutes and Tokyo in 17 minutes. Served by 1 line.",
-  "summary": "The station is in Taito City, served by Tokyo Metro Chiyoda Line. Journey times to the main business districts are 11 minutes to Otemachi, 23 minutes to Shinjuku, 33 minutes to Shibuya and 31 minutes to Shinagawa. The station stands 6.3 m above sea level, and the ground within 800 m varies in height by 15.1 m. The land around the station has gentle slopes.",
+  "tagline": "Otemachi in 11 minutes and Tokyo in 17 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
+  "summary": "The station is in Taito City, served by Tokyo Metro Chiyoda Line. Journey times to the main business districts are 11 minutes to Otemachi, 23 minutes to Shinjuku, 33 minutes to Shibuya and 31 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 6.3 m above sea level, and the ground within 800 m varies in height by 15.1 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 6.3 m above sea level. Within 800 m the ground ranges from 5.7 m to 20.8 m, a difference of 15.1 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
@@ -41,19 +41,31 @@
   ],
   "medical": "Within an 800 m walk of the station there are 17 clinics and 22 pharmacies. Facilities recorded as hospitals lie at 日本医科大学附属病院, about 591 m away and 都立駒込病院, about 819 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Chiyoda Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "rentRange": {
+    "note": "One room ¥80,000 to ¥90,000, 1K ¥100,000 to ¥110,000, 1LDK ¥170,000 to ¥180,000 and 2LDK ¥230,000 to ¥240,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "nippori",
-      "note": "772 m away in a straight line. It takes 8 minutes longer to reach Otemachi than Sendagi."
+      "note": "772 m away in a straight line. It takes 8 minutes longer to reach Otemachi than Sendagi. One-room rents run about ¥6,000 higher."
     },
     {
       "slug": "nishi-nippori",
-      "note": "787 m away in a straight line. It reaches Otemachi in about the same time as Sendagi."
+      "note": "787 m away in a straight line. It reaches Otemachi in about the same time as Sendagi. One-room rents run about ¥7,000 higher."
     }
   ],
   "goodFor": [
     "People commuting to Otemachi and Marunouchi",
-    "People who want a park close by"
+    "People who want a park close by",
+    "People living alone who want to hold the rent down"
   ],
   "notFor": [
     "People who want another route when service is suspended"

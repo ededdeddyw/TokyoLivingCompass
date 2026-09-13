@@ -1,0 +1,22 @@
+{
+  "slug": "minumadai-shinsuikoen",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 81500,
+    "oneK": 78500,
+    "oneLDK": 98300,
+    "twoLDK": 102000
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "mukohara",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 102450,
+    "oneK": 112350,
+    "oneLDK": 182600,
+    "twoLDK": 244900
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

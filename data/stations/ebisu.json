@@ -1,0 +1,22 @@
+{
+  "slug": "ebisu",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 150300,
+    "oneK": 150650,
+    "oneLDK": 273550,
+    "twoLDK": 404700
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

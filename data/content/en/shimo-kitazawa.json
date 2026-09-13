@@ -2,8 +2,8 @@
   "slug": "shimo-kitazawa",
   "locale": "en",
   "name": "Shimo-Kitazawa",
-  "tagline": "Shibuya in 8 minutes and Shinjuku in 11 minutes. Served by 2 lines.",
-  "summary": "The station is in Setagaya City, served by Keio Inokashira Line and Odakyu Odawara Line. Journey times to the main business districts are 29 minutes to Otemachi, 11 minutes to Shinjuku, 8 minutes to Shibuya and 34 minutes to Shinagawa. The station stands 36.5 m above sea level, and the ground within 800 m varies in height by 12.6 m. The land around the station has gentle slopes.",
+  "tagline": "Shibuya in 8 minutes and Shinjuku in 11 minutes. Served by 2 lines. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
+  "summary": "The station is in Setagaya City, served by Keio Inokashira Line and Odakyu Odawara Line. Journey times to the main business districts are 29 minutes to Otemachi, 11 minutes to Shinjuku, 8 minutes to Shibuya and 34 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 36.5 m above sea level, and the ground within 800 m varies in height by 12.6 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 36.5 m above sea level. Within 800 m the ground ranges from 29.5 m to 42.1 m, a difference of 12.6 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
@@ -34,10 +34,21 @@
   ],
   "medical": "Within an 800 m walk of the station there are 15 clinics and 10 pharmacies. Facilities recorded as hospitals lie at 加藤医院, about 144 m away and 島津メディカルクリニック, about 210 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station: Keio Inokashira Line and Odakyu Odawara Line. The lines are split between operators (Keio runs 1 line and Odakyu runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "rentRange": {
+    "note": "One room ¥90,000 to ¥100,000, 1K ¥100,000 to ¥110,000, 1LDK ¥180,000 to ¥190,000 and 2LDK ¥260,000 to ¥270,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "ikenoue",
-      "note": "578 m away in a straight line. It reaches Otemachi in about the same time as Shimo-Kitazawa."
+      "note": "578 m away in a straight line. It reaches Otemachi in about the same time as Shimo-Kitazawa. One-room rents run about ¥19,000 higher."
     },
     {
       "slug": "shindaita",
@@ -46,7 +57,8 @@
   ],
   "goodFor": [
     "People commuting towards Shinjuku",
-    "People who want a park close by"
+    "People who want a park close by",
+    "People living alone who want to hold the rent down"
   ],
   "notFor": [
     "People avoiding projected flood inundation areas"

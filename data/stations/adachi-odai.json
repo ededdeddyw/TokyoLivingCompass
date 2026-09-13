@@ -1,0 +1,22 @@
+{
+  "slug": "adachi-odai",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 67767,
+    "oneK": 91833,
+    "oneLDK": 126233,
+    "twoLDK": 189000
+  },
+  "sources": {
+    "rent": {
+      "name": "LIFULL HOME'S、Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

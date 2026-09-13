@@ -1,0 +1,22 @@
+{
+  "slug": "hatagaya",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 96100,
+    "oneK": 106150,
+    "oneLDK": 185550,
+    "twoLDK": 284750
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

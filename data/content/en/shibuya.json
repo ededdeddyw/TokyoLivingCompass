@@ -2,8 +2,8 @@
   "slug": "shibuya",
   "locale": "en",
   "name": "Shibuya",
-  "tagline": "Shibuya in 1 minute and Shinjuku in 5 minutes. Served by 10 lines.",
-  "summary": "The station is in Shibuya City, served by JR Yamanote Line, JR Saikyo Line, Narita Express, JR Shonan-Shinjuku Line, Keio Inokashira Line, Tokyu Toyoko Line, Tokyu Den-en-toshi Line, Tokyo Metro Ginza Line, Tokyo Metro Hanzomon Line and Tokyo Metro Fukutoshin Line. Journey times to the main business districts are 19 minutes to Otemachi, 5 minutes to Shinjuku, 1 minute to Shibuya and 21 minutes to Shinagawa. The station stands 15.1 m above sea level, and the ground within 800 m varies in height by 20.7 m. The land around the station rises and falls sharply.",
+  "tagline": "Shibuya in 1 minute and Shinjuku in 5 minutes. Served by 10 lines. A one-room flat rents for roughly ¥150,000 to ¥160,000.",
+  "summary": "The station is in Shibuya City, served by JR Yamanote Line, JR Saikyo Line, Narita Express, JR Shonan-Shinjuku Line, Keio Inokashira Line, Tokyu Toyoko Line, Tokyu Den-en-toshi Line, Tokyo Metro Ginza Line, Tokyo Metro Hanzomon Line and Tokyo Metro Fukutoshin Line. Journey times to the main business districts are 19 minutes to Otemachi, 5 minutes to Shinjuku, 1 minute to Shibuya and 21 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 15.1 m above sea level, and the ground within 800 m varies in height by 20.7 m. The land around the station rises and falls sharply.",
   "terrain": {
     "slope": "hilly",
     "note": "The station sits lower than the ground around it, at 15.1 m above sea level. Within 800 m the ground ranges from 10.6 m to 31.3 m, a difference of 20.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
@@ -41,6 +41,17 @@
   ],
   "medical": "Within an 800 m walk of the station there are 26 clinics and 24 pharmacies. Facilities recorded as hospitals lie at 衣笠眼科, about 95 m away and 湘南美容外科, about 207 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "10 lines serve the station: JR Yamanote Line, JR Saikyo Line, Narita Express, JR Shonan-Shinjuku Line, Keio Inokashira Line, Tokyu Toyoko Line, Tokyu Den-en-toshi Line, Tokyo Metro Ginza Line, Tokyo Metro Hanzomon Line and Tokyo Metro Fukutoshin Line. The lines are split between operators (JR East runs 4 lines, Keio runs 1 line, Tokyu runs 2 lines and Tokyo Metro runs 3 lines), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 100.",
+  "rentRange": {
+    "note": "One room ¥150,000 to ¥160,000, 1K ¥140,000 to ¥150,000, 1LDK ¥270,000 to ¥280,000 and 2LDK ¥460,000 to ¥470,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥150,000 to ¥160,000. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "shinsen",
@@ -57,7 +68,8 @@
     "People who want another route when a line stops"
   ],
   "notFor": [
-    "People who would rather not walk up and down slopes"
+    "People who would rather not walk up and down slopes",
+    "People who want to hold the rent down"
   ],
   "authoredBy": "data-generated"
 }

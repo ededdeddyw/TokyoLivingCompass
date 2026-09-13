@@ -1,0 +1,22 @@
+{
+  "slug": "shinjuku",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 125450,
+    "oneK": 138300,
+    "oneLDK": 234800,
+    "twoLDK": 342550
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

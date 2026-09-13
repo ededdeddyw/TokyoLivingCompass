@@ -1,0 +1,22 @@
+{
+  "slug": "nishidai",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 76300,
+    "oneK": 90650,
+    "oneLDK": 129250,
+    "twoLDK": 166550
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

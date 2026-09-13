@@ -1,0 +1,22 @@
+{
+  "slug": "motohasunuma",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 80900,
+    "oneK": 95400,
+    "oneLDK": 141950,
+    "twoLDK": 196450
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

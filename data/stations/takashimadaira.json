@@ -1,0 +1,22 @@
+{
+  "slug": "takashimadaira",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 73650,
+    "oneK": 89250,
+    "oneLDK": 127900,
+    "twoLDK": 163200
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

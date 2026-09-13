@@ -1,0 +1,22 @@
+{
+  "slug": "shim-mikawashima",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 98600,
+    "oneK": 107450,
+    "oneLDK": 162850,
+    "twoLDK": 219200
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

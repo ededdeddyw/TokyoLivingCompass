@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Musashi-Koyama",
   "tagline": "Shibuya in 17 minutes and Shinjuku in 25 minutes. Served by 1 line. A one-room flat rents for roughly ¥100,000 to ¥110,000.",
-  "summary": "The station is in Shinagawa City, served by Tokyu Meguro Line. Journey times to the main business districts are 28 minutes to Otemachi, 25 minutes to Shinjuku, 17 minutes to Shibuya and 29 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000.The station stands 28 m above sea level, and the ground within 800 m varies in height by 5.4 m. The land around the station is close to level.",
+  "summary": "The station is in Shinagawa City, served by Tokyu Meguro Line. Journey times to the main business districts are 28 minutes to Otemachi, 25 minutes to Shinjuku, 17 minutes to Shibuya and 29 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 28 m above sea level, and the ground within 800 m varies in height by 5.4 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 28 m above sea level. Within 800 m the ground ranges from 23.2 m to 28.6 m, a difference of 5.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
@@ -42,7 +42,7 @@
   "medical": "Within an 800 m walk of the station there are 11 clinics and 6 pharmacies. Facilities recorded as hospitals lie at 康済会病院, about 35 m away and 鳴海耳鼻咽喉科, about 553 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyu Meguro Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
   "rentRange": {
-    "note": "One room ¥100,000 to ¥110,000, 1K ¥120,000 to ¥130,000, 1LDK ¥220,000 to ¥230,000 and 2LDK ¥300,000 to ¥310,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "One room ¥100,000 to ¥110,000, 1K ¥110,000 to ¥120,000, 1LDK ¥200,000 to ¥210,000 and 2LDK ¥270,000 to ¥280,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +51,15 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥100,000 to ¥110,000.",
+  "rentReason": "A one-room flat here goes for ¥100,000 to ¥110,000. For 1K, 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "nishi-koyama",
-      "note": "772 m away in a straight line. It reaches Otemachi in about the same time as Musashi-Koyama."
+      "note": "772 m away in a straight line. It reaches Otemachi in about the same time as Musashi-Koyama. One-room rents run about ¥5,000 lower."
     },
     {
       "slug": "fudo-mae",
-      "note": "1134 m away in a straight line. It reaches Otemachi 3 minutes sooner than Musashi-Koyama."
+      "note": "1134 m away in a straight line. It reaches Otemachi 3 minutes sooner than Musashi-Koyama. One-room rents run about ¥14,000 higher."
     }
   ],
   "goodFor": [

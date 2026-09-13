@@ -2,8 +2,8 @@
   "slug": "nishi-waseda",
   "locale": "en",
   "name": "Nishi-Waseda",
-  "tagline": "Shinjuku in 11 minutes and Shibuya in 13 minutes. Served by 1 line.",
-  "summary": "The station is in Shinjuku City, served by Tokyo Metro Fukutoshin Line. Journey times to the main business districts are 27 minutes to Otemachi, 11 minutes to Shinjuku, 13 minutes to Shibuya and 39 minutes to Shinagawa. The station stands 27.1 m above sea level, and the ground within 800 m varies in height by 9.8 m. The land around the station has gentle slopes.",
+  "tagline": "Shinjuku in 11 minutes and Shibuya in 13 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
+  "summary": "The station is in Shinjuku City, served by Tokyo Metro Fukutoshin Line. Journey times to the main business districts are 27 minutes to Otemachi, 11 minutes to Shinjuku, 13 minutes to Shibuya and 39 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 27.1 m above sea level, and the ground within 800 m varies in height by 9.8 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 27.1 m above sea level. Within 800 m the ground ranges from 19.9 m to 29.7 m, a difference of 9.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
@@ -41,6 +41,17 @@
   ],
   "medical": "Within an 800 m walk of the station there are 8 clinics and 10 pharmacies. Facilities recorded as hospitals lie at 大同病院, about 681 m away and 国立国際医療センター, about 877 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Fukutoshin Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "rentRange": {
+    "note": "One room ¥90,000 to ¥100,000, 1K ¥110,000 to ¥120,000, 1LDK ¥190,000 to ¥200,000 and 2LDK ¥260,000 to ¥270,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "takadanobaba",
@@ -48,11 +59,12 @@
     },
     {
       "slug": "omokagebashi",
-      "note": "714 m away in a straight line. It takes 8 minutes longer to reach Otemachi than Nishi-Waseda."
+      "note": "714 m away in a straight line. It takes 8 minutes longer to reach Otemachi than Nishi-Waseda. One-room rents run about ¥7,000 higher."
     }
   ],
   "goodFor": [
-    "People commuting towards Shinjuku"
+    "People commuting towards Shinjuku",
+    "People living alone who want to hold the rent down"
   ],
   "notFor": [
     "People avoiding projected flood inundation areas",

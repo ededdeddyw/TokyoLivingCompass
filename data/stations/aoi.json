@@ -1,0 +1,22 @@
+{
+  "slug": "aoi",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 71633,
+    "oneK": 80900,
+    "oneLDK": 126833,
+    "twoLDK": 156100
+  },
+  "sources": {
+    "rent": {
+      "name": "LIFULL HOME'S、Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

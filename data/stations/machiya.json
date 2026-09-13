@@ -1,0 +1,22 @@
+{
+  "slug": "machiya",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 80900,
+    "oneK": 92400,
+    "oneLDK": 140350,
+    "twoLDK": 191150
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

@@ -2,8 +2,8 @@
   "slug": "akabane-iwabuchi",
   "locale": "en",
   "name": "Akabane-Iwabuchi",
-  "tagline": "Otemachi in 35 minutes and Tokyo in 36 minutes. Served by 2 lines.",
-  "summary": "The station is in Kita City, served by Tokyo Metro Namboku Line and Saitama Railway Line. Journey times to the main business districts are 35 minutes to Otemachi, 38 minutes to Shinjuku, 44 minutes to Shibuya and 50 minutes to Shinagawa. The station stands 2.6 m above sea level, and the ground within 800 m varies in height by 3.5 m. The land around the station is close to level.",
+  "tagline": "Otemachi in 35 minutes and Tokyo in 36 minutes. Served by 2 lines. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
+  "summary": "The station is in Kita City, served by Tokyo Metro Namboku Line and Saitama Railway Line. Journey times to the main business districts are 35 minutes to Otemachi, 38 minutes to Shinjuku, 44 minutes to Shibuya and 50 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 2.6 m above sea level, and the ground within 800 m varies in height by 3.5 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 2.6 m above sea level. Within 800 m the ground ranges from 2.4 m to 5.9 m, a difference of 3.5 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
@@ -41,6 +41,17 @@
   ],
   "medical": "Within an 800 m walk of the station there are 13 clinics and 15 pharmacies. Facilities recorded as hospitals lie at 東京北医療センター, about 957 m away and 川口工業総合病院, about 2395 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station: Tokyo Metro Namboku Line and Saitama Railway Line. The lines are split between operators (Tokyo Metro runs 1 line and Saitama Railway runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "rentRange": {
+    "note": "One room ¥80,000 to ¥90,000, 1K ¥90,000 to ¥100,000, 1LDK ¥150,000 to ¥160,000 and 2LDK ¥190,000 to ¥200,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "akabane",
@@ -53,7 +64,8 @@
   ],
   "goodFor": [
     "People who get around by bicycle or with a pushchair",
-    "People who want to finish their shopping on foot"
+    "People who want to finish their shopping on foot",
+    "People living alone who want to hold the rent down"
   ],
   "notFor": [
     "People avoiding projected flood inundation areas"

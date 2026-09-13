@@ -1,0 +1,22 @@
+{
+  "slug": "keikyu-kamata",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 91400,
+    "oneK": 100150,
+    "oneLDK": 160100,
+    "twoLDK": 200350
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

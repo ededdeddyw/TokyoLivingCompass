@@ -1,0 +1,22 @@
+{
+  "slug": "akihabara",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 135700,
+    "oneK": 140067,
+    "oneLDK": 212100,
+    "twoLDK": 273767
+  },
+  "sources": {
+    "rent": {
+      "name": "LIFULL HOME'S、Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

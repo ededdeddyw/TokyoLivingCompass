@@ -2,8 +2,8 @@
   "slug": "higashi-koenji",
   "locale": "en",
   "name": "Higashi-Koenji",
-  "tagline": "Shinjuku in 10 minutes and Shibuya in 19 minutes. Served by 1 line.",
-  "summary": "The station is in Suginami City, served by Tokyo Metro Marunouchi Line. Journey times to the main business districts are 29 minutes to Otemachi, 10 minutes to Shinjuku, 19 minutes to Shibuya and 41 minutes to Shinagawa. The station stands 39.8 m above sea level, and the ground within 800 m varies in height by 9.2 m. The land around the station has gentle slopes.",
+  "tagline": "Shinjuku in 10 minutes and Shibuya in 19 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
+  "summary": "The station is in Suginami City, served by Tokyo Metro Marunouchi Line. Journey times to the main business districts are 29 minutes to Otemachi, 10 minutes to Shinjuku, 19 minutes to Shibuya and 41 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 39.8 m above sea level, and the ground within 800 m varies in height by 9.2 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 39.8 m above sea level. Within 800 m the ground ranges from 33 m to 42.2 m, a difference of 9.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
@@ -34,10 +34,21 @@
   ],
   "medical": "Within an 800 m walk of the station there are 10 clinics and 7 pharmacies. Facilities recorded as hospitals lie at 救世軍ブース記念病院, about 842 m away and 杏林大学医学部付属杉並病院, about 890 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Marunouchi Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "rentRange": {
+    "note": "One room ¥80,000 to ¥90,000, 1K ¥100,000 to ¥110,000, 1LDK ¥160,000 to ¥170,000 and 2LDK ¥230,000 to ¥240,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "shin-koenji",
-      "note": "881 m away in a straight line. It reaches Otemachi in about the same time as Higashi-Koenji."
+      "note": "881 m away in a straight line. It reaches Otemachi in about the same time as Higashi-Koenji. One-room rents run about ¥6,000 lower."
     },
     {
       "slug": "shin-nakano",
@@ -46,7 +57,8 @@
   ],
   "goodFor": [
     "People commuting towards Shinjuku",
-    "People who want a park close by"
+    "People who want a park close by",
+    "People living alone who want to hold the rent down"
   ],
   "notFor": [
     "People who want another route when service is suspended"

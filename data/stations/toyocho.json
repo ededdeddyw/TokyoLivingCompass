@@ -1,0 +1,22 @@
+{
+  "slug": "toyocho",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 120250,
+    "oneK": 122100,
+    "oneLDK": 172650,
+    "twoLDK": 226300
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

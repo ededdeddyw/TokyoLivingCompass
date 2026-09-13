@@ -2,8 +2,8 @@
   "slug": "nippori",
   "locale": "en",
   "name": "Nippori",
-  "tagline": "Tokyo in 13 minutes and Otemachi in 19 minutes. Served by 6 lines.",
-  "summary": "The station is in Arakawa City, served by JR Yamanote Line, JR Joban Line, JR Keihin-Tohoku Line, Keisei Main Line, Narita Sky Access Line and Nippori-Toneri Liner. Journey times to the main business districts are 19 minutes to Otemachi, 27 minutes to Shinjuku, 32 minutes to Shibuya and 27 minutes to Shinagawa. The station stands 6.3 m above sea level, and the ground within 800 m varies in height by 15.6 m. The land around the station has gentle slopes.",
+  "tagline": "Tokyo in 13 minutes and Otemachi in 19 minutes. Served by 6 lines. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
+  "summary": "The station is in Arakawa City, served by JR Yamanote Line, JR Joban Line, JR Keihin-Tohoku Line, Keisei Main Line, Narita Sky Access Line and Nippori-Toneri Liner. Journey times to the main business districts are 19 minutes to Otemachi, 27 minutes to Shinjuku, 32 minutes to Shibuya and 27 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 6.3 m above sea level, and the ground within 800 m varies in height by 15.6 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 6.3 m above sea level. Within 800 m the ground ranges from 3.7 m to 19.3 m, a difference of 15.6 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
@@ -41,6 +41,17 @@
   ],
   "medical": "Within an 800 m walk of the station there are 14 clinics and 19 pharmacies. Facilities recorded as hospitals lie at はせがわ病院, about 284 m away and 神経科土田病院, about 722 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "6 lines serve the station: JR Yamanote Line, JR Joban Line, JR Keihin-Tohoku Line, Keisei Main Line, Narita Sky Access Line and Nippori-Toneri Liner. The lines are split between operators (JR East runs 3 lines, Keisei runs 2 lines and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 100.",
+  "rentRange": {
+    "note": "One room ¥90,000 to ¥100,000, 1K ¥110,000 to ¥120,000, 1LDK ¥170,000 to ¥180,000 and 2LDK ¥220,000 to ¥230,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "nishi-nippori",
@@ -48,14 +59,15 @@
     },
     {
       "slug": "sendagi",
-      "note": "772 m away in a straight line. It reaches Otemachi 8 minutes sooner than Nippori."
+      "note": "772 m away in a straight line. It reaches Otemachi 8 minutes sooner than Nippori. One-room rents run about ¥6,000 lower."
     }
   ],
   "goodFor": [
     "People commuting to Otemachi and Marunouchi",
     "People who want another route when a line stops",
     "People who want to finish their shopping on foot",
-    "People who want a park close by"
+    "People who want a park close by",
+    "People living alone who want to hold the rent down"
   ],
   "notFor": [
     "The data does not show a drawback particular to this station"

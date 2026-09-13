@@ -2,8 +2,8 @@
   "slug": "tenkubashi",
   "locale": "en",
   "name": "Tenkubashi",
-  "tagline": "Shinagawa in 31 minutes and Tokyo in 35 minutes. Served by 2 lines.",
-  "summary": "The station is in Ota City, served by Keikyu Airport Line and Tokyo Monorail. Journey times to the main business districts are 40 minutes to Otemachi, 49 minutes to Shinjuku, 44 minutes to Shibuya and 31 minutes to Shinagawa. The station stands 3.1 m above sea level, and the ground within 800 m varies in height by 2.4 m. The land around the station is close to level.",
+  "tagline": "Shinagawa in 31 minutes and Tokyo in 35 minutes. Served by 2 lines. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
+  "summary": "The station is in Ota City, served by Keikyu Airport Line and Tokyo Monorail. Journey times to the main business districts are 40 minutes to Otemachi, 49 minutes to Shinjuku, 44 minutes to Shibuya and 31 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 3.1 m above sea level, and the ground within 800 m varies in height by 2.4 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 3.1 m above sea level. Within 800 m the ground ranges from 1 m to 3.4 m, a difference of 2.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
@@ -27,6 +27,17 @@
   ],
   "medical": "Within an 800 m walk of the station there are 5 clinics and 3 pharmacies. Facilities recorded as hospitals lie at 渡辺病院, about 1231 m away and 高野病院, about 1256 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station: Keikyu Airport Line and Tokyo Monorail. The lines are split between operators (Keikyu runs 1 line and Tokyo Monorail runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "rentRange": {
+    "note": "One room ¥80,000 to ¥90,000, 1K ¥100,000 to ¥110,000, 1LDK ¥130,000 to ¥140,000 and 2LDK ¥180,000 to ¥190,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000.",
   "neighbours": [
     {
       "slug": "seibijo",
@@ -34,11 +45,12 @@
     },
     {
       "slug": "anamori-inari",
-      "note": "701 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Tenkubashi."
+      "note": "701 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Tenkubashi. One-room rents run about ¥6,000 higher."
     }
   ],
   "goodFor": [
-    "People who get around by bicycle or with a pushchair"
+    "People who get around by bicycle or with a pushchair",
+    "People living alone who want to hold the rent down"
   ],
   "notFor": [
     "People avoiding projected flood inundation areas",

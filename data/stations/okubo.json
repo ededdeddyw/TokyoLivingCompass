@@ -1,0 +1,22 @@
+{
+  "slug": "okubo",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 95750,
+    "oneK": 117100,
+    "oneLDK": 201900,
+    "twoLDK": 281750
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

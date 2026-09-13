@@ -1,0 +1,22 @@
+{
+  "slug": "kita-senzoku",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 92000,
+    "oneK": 103450,
+    "oneLDK": 169400,
+    "twoLDK": 228800
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

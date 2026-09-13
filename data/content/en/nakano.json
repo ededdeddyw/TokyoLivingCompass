@@ -2,8 +2,8 @@
   "slug": "nakano",
   "locale": "en",
   "name": "Nakano",
-  "tagline": "Shinjuku in 6 minutes and Shibuya in 16 minutes. Served by 3 lines.",
-  "summary": "The station is in Nakano City, served by JR Chuo Rapid Line, JR Chuo-Sobu Line (Local) and Tokyo Metro Tozai Line. Journey times to the main business districts are 23 minutes to Otemachi, 6 minutes to Shinjuku, 16 minutes to Shibuya and 35 minutes to Shinagawa. The station stands 39.6 m above sea level, and the ground within 800 m varies in height by 10.1 m. The land around the station has gentle slopes.",
+  "tagline": "Shinjuku in 6 minutes and Shibuya in 16 minutes. Served by 3 lines. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
+  "summary": "The station is in Nakano City, served by JR Chuo Rapid Line, JR Chuo-Sobu Line (Local) and Tokyo Metro Tozai Line. Journey times to the main business districts are 23 minutes to Otemachi, 6 minutes to Shinjuku, 16 minutes to Shibuya and 35 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 39.6 m above sea level, and the ground within 800 m varies in height by 10.1 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 39.6 m above sea level. Within 800 m the ground ranges from 30.4 m to 40.5 m, a difference of 10.1 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
@@ -41,10 +41,21 @@
   ],
   "medical": "Within an 800 m walk of the station there are 19 clinics and 37 pharmacies. Facilities recorded as hospitals lie at 健友会中野共立病院, about 366 m away and 新渡戸記念中野総合病院, about 380 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "3 lines serve the station: JR Chuo Rapid Line, JR Chuo-Sobu Line (Local) and Tokyo Metro Tozai Line. The lines are split between operators (JR East runs 2 lines and Tokyo Metro runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 73.",
+  "rentRange": {
+    "note": "One room ¥80,000 to ¥90,000, 1K ¥100,000 to ¥110,000, 1LDK ¥160,000 to ¥170,000 and 2LDK ¥230,000 to ¥240,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "shin-nakano",
-      "note": "964 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Nakano."
+      "note": "964 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Nakano. One-room rents run about ¥7,000 higher."
     },
     {
       "slug": "higashi-koenji",
@@ -55,7 +66,8 @@
     "People commuting towards Shinjuku",
     "People who want another route when a line stops",
     "People who want to finish their shopping on foot",
-    "People who want a park close by"
+    "People who want a park close by",
+    "People living alone who want to hold the rent down"
   ],
   "notFor": [
     "The data does not show a drawback particular to this station"

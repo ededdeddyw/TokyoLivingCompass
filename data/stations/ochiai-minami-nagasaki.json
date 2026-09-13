@@ -1,0 +1,22 @@
+{
+  "slug": "ochiai-minami-nagasaki",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 78600,
+    "oneK": 93900,
+    "oneLDK": 149250,
+    "twoLDK": 202500
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

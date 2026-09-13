@@ -1,0 +1,22 @@
+{
+  "slug": "shirokanedai",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 152250,
+    "oneK": 139000,
+    "oneLDK": 256050,
+    "twoLDK": 423000
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

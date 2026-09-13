@@ -1,0 +1,22 @@
+{
+  "slug": "ochanomizu",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 137800,
+    "oneK": 146750,
+    "oneLDK": 224900,
+    "twoLDK": 291900
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

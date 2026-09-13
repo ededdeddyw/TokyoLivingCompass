@@ -2,8 +2,8 @@
   "slug": "yurakucho",
   "locale": "en",
   "name": "Yurakucho",
-  "tagline": "Tokyo in 2 minutes and Otemachi in 2 minutes. Served by 6 lines.",
-  "summary": "The station is in Chiyoda City, served by JR Yamanote Line, JR Keihin-Tohoku Line, Tokyo Metro Hibiya Line, Tokyo Metro Chiyoda Line, Tokyo Metro Yurakucho Line and Toei Mita Line. Journey times to the main business districts are 2 minutes to Otemachi, 20 minutes to Shinjuku, 19 minutes to Shibuya and 12 minutes to Shinagawa. The station stands 2.7 m above sea level, and the ground within 800 m varies in height by 1.8 m. The land around the station is close to level.",
+  "tagline": "Tokyo in 2 minutes and Otemachi in 2 minutes. Served by 6 lines. A one-room flat rents for roughly ¥160,000 to ¥170,000.",
+  "summary": "The station is in Chiyoda City, served by JR Yamanote Line, JR Keihin-Tohoku Line, Tokyo Metro Hibiya Line, Tokyo Metro Chiyoda Line, Tokyo Metro Yurakucho Line and Toei Mita Line. Journey times to the main business districts are 2 minutes to Otemachi, 20 minutes to Shinjuku, 19 minutes to Shibuya and 12 minutes to Shinagawa. A one-room flat rents for roughly ¥160,000 to ¥170,000. The station stands 2.7 m above sea level, and the ground within 800 m varies in height by 1.8 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 2.7 m above sea level. Within 800 m the ground ranges from 1.9 m to 3.7 m, a difference of 1.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
@@ -20,6 +20,17 @@
   ],
   "medical": "Within an 800 m walk of the station there are 10 clinics and 8 pharmacies. Facilities recorded as hospitals lie at 浩邦会日比谷病院, about 758 m away and 十仁病院, about 880 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "6 lines serve the station: JR Yamanote Line, JR Keihin-Tohoku Line, Tokyo Metro Hibiya Line, Tokyo Metro Chiyoda Line, Tokyo Metro Yurakucho Line and Toei Mita Line. The lines are split between operators (JR East runs 2 lines, Tokyo Metro runs 3 lines and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 100.",
+  "rentRange": {
+    "note": "One room ¥160,000 to ¥170,000, 1LDK ¥210,000 to ¥220,000 and 2LDK ¥360,000 to ¥370,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥160,000 to ¥170,000.",
   "neighbours": [
     {
       "slug": "ginza",
@@ -38,7 +49,8 @@
   ],
   "notFor": [
     "People avoiding projected flood inundation areas",
-    "People who want to finish their shopping on foot"
+    "People who want to finish their shopping on foot",
+    "People who want to hold the rent down"
   ],
   "authoredBy": "data-generated"
 }

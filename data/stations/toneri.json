@@ -1,0 +1,22 @@
+{
+  "slug": "toneri",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 79000,
+    "oneK": 77000,
+    "oneLDK": 103000,
+    "twoLDK": 117000
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

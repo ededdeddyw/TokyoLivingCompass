@@ -1,0 +1,22 @@
+{
+  "slug": "nagatacho",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 170100,
+    "oneK": 164250,
+    "oneLDK": 305800,
+    "twoLDK": 498750
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

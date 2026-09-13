@@ -1,0 +1,22 @@
+{
+  "slug": "asakusabashi",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 129750,
+    "oneK": 135300,
+    "oneLDK": 207650,
+    "twoLDK": 262700
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

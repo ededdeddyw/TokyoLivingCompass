@@ -1,138 +1,3535 @@
 {
+  "adachi-odai": {
+    "2026-09-13": {
+      "oneK": 91833,
+      "oneLDK": 126233,
+      "oneRoom": 67767,
+      "twoLDK": 189000
+    }
+  },
+  "akabane": {
+    "2026-09-13": {
+      "oneK": 93000,
+      "oneLDK": 150750,
+      "oneRoom": 78750,
+      "twoLDK": 206350
+    }
+  },
+  "akabane-iwabuchi": {
+    "2026-09-13": {
+      "oneK": 94133,
+      "oneLDK": 150367,
+      "oneRoom": 82367,
+      "twoLDK": 199500
+    }
+  },
+  "akabanebashi": {
+    "2026-09-13": {
+      "oneK": 141933,
+      "oneLDK": 298833,
+      "oneRoom": 176333,
+      "twoLDK": 625633
+    }
+  },
+  "akado-shogakkomae": {
+    "2026-09-13": {
+      "oneK": 98500,
+      "oneLDK": 141100,
+      "oneRoom": 95300,
+      "twoLDK": 204733
+    }
+  },
+  "akasaka": {
+    "2026-09-13": {
+      "oneK": 161433,
+      "oneLDK": 287333,
+      "oneRoom": 157967,
+      "twoLDK": 439033
+    }
+  },
+  "akebonobashi": {
+    "2026-09-13": {
+      "oneK": 135467,
+      "oneLDK": 211667,
+      "oneRoom": 130033,
+      "twoLDK": 304600
+    }
+  },
+  "akihabara": {
+    "2026-09-13": {
+      "oneK": 140067,
+      "oneLDK": 212100,
+      "oneRoom": 135700,
+      "twoLDK": 273767
+    }
+  },
+  "anamori-inari": {
+    "2026-09-13": {
+      "oneK": 99333,
+      "oneLDK": 142500,
+      "oneRoom": 89100,
+      "twoLDK": 191333
+    }
+  },
+  "aoi": {
+    "2026-09-13": {
+      "oneK": 80900,
+      "oneLDK": 126833,
+      "oneRoom": 71633,
+      "twoLDK": 156100
+    }
+  },
+  "aomono-yokocho": {
+    "2026-09-13": {
+      "oneK": 121700,
+      "oneLDK": 192550,
+      "oneRoom": 114100,
+      "twoLDK": 256100
+    }
+  },
+  "aoto": {
+    "2026-09-13": {
+      "oneK": 85500,
+      "oneLDK": 120750,
+      "oneRoom": 73300,
+      "twoLDK": 159000
+    }
+  },
+  "aoyama-itchome": {
+    "2026-09-13": {
+      "oneK": 170300,
+      "oneLDK": 308400,
+      "oneRoom": 144750,
+      "twoLDK": 509100
+    }
+  },
+  "araiyakushi-mae": {
+    "2026-09-13": {
+      "oneK": 98550,
+      "oneLDK": 159900,
+      "oneRoom": 82850,
+      "twoLDK": 206850
+    }
+  },
+  "arakawa-itchumae": {
+    "2026-09-13": {
+      "oneK": 107400,
+      "oneLDK": 167500,
+      "oneRoom": 92100,
+      "twoLDK": 205000
+    }
+  },
+  "arakawa-nanachome": {
+    "2026-09-13": {
+      "oneK": 98150,
+      "oneLDK": 154500,
+      "oneRoom": 84750,
+      "twoLDK": 198550
+    }
+  },
+  "arakawa-nichome": {
+    "2026-09-13": {
+      "oneK": 83000,
+      "oneLDK": 146750,
+      "oneRoom": 76750,
+      "twoLDK": 193750
+    }
+  },
+  "arakawa-shakomae": {
+    "2026-09-13": {
+      "oneK": 95900,
+      "oneLDK": 145350,
+      "oneRoom": 83750,
+      "twoLDK": 184250
+    }
+  },
+  "arakawa-yuenchimae": {
+    "2026-09-13": {
+      "oneK": 91750,
+      "oneLDK": 137500,
+      "oneRoom": 76500,
+      "twoLDK": 191250
+    }
+  },
+  "arakawakuyakushomae": {
+    "2026-09-13": {
+      "oneK": 98050,
+      "oneLDK": 152550,
+      "oneRoom": 78850,
+      "twoLDK": 196850
+    }
+  },
+  "ariake": {
+    "2026-09-13": {
+      "oneK": 138400,
+      "oneLDK": 201650,
+      "twoLDK": 312100
+    }
+  },
+  "ariake-tennis-no-mori": {
+    "2026-09-13": {
+      "oneK": 180850,
+      "oneLDK": 200900,
+      "twoLDK": 318450
+    }
+  },
+  "asagaya": {
+    "2026-09-13": {
+      "oneK": 91550,
+      "oneLDK": 156750,
+      "oneRoom": 79300,
+      "twoLDK": 213400
+    }
+  },
+  "asakusa": {
+    "2026-09-13": {
+      "oneK": 124750,
+      "oneLDK": 184550,
+      "oneRoom": 113200,
+      "twoLDK": 232250
+    }
+  },
+  "asakusa-tx": {
+    "2026-09-13": {
+      "oneK": 124750,
+      "oneLDK": 184550,
+      "oneRoom": 113200,
+      "twoLDK": 232250
+    }
+  },
+  "asakusabashi": {
+    "2026-09-13": {
+      "oneK": 135300,
+      "oneLDK": 207650,
+      "oneRoom": 129750,
+      "twoLDK": 262700
+    }
+  },
+  "asukayama": {
+    "2026-09-13": {
+      "oneK": 103800,
+      "oneLDK": 153500,
+      "oneRoom": 79950,
+      "twoLDK": 223800
+    }
+  },
+  "awajicho": {
+    "2026-09-13": {
+      "oneK": 144050,
+      "oneLDK": 234500,
+      "oneRoom": 151950,
+      "twoLDK": 306350
+    }
+  },
+  "ayase": {
+    "2026-09-13": {
+      "oneK": 86200,
+      "oneLDK": 129700,
+      "oneRoom": 77750,
+      "twoLDK": 171700
+    }
+  },
+  "azabu-juban": {
+    "2026-09-13": {
+      "oneK": 141400,
+      "oneLDK": 309650,
+      "oneRoom": 167000,
+      "twoLDK": 624650
+    }
+  },
+  "bakurocho": {
+    "2026-09-13": {
+      "oneK": 136450,
+      "oneLDK": 213650,
+      "oneRoom": 135850,
+      "twoLDK": 276300
+    }
+  },
+  "chidoricho": {
+    "2026-09-13": {
+      "oneK": 95050,
+      "oneLDK": 150000,
+      "oneRoom": 87400,
+      "twoLDK": 194750
+    }
+  },
+  "chikatetsu-akatsuka": {
+    "2026-09-13": {
+      "oneK": 87000,
+      "oneLDK": 131200,
+      "oneRoom": 76900,
+      "twoLDK": 166900
+    }
+  },
+  "chitose-funabashi": {
+    "2026-09-13": {
+      "oneK": 87450,
+      "oneLDK": 157150,
+      "oneRoom": 80300,
+      "twoLDK": 217750
+    }
+  },
+  "chitose-karasuyama": {
+    "2026-09-13": {
+      "oneK": 79100,
+      "oneLDK": 142650,
+      "oneRoom": 71500,
+      "twoLDK": 182800
+    }
+  },
+  "daikanyama": {
+    "2026-09-13": {
+      "oneK": 153350,
+      "oneLDK": 277900,
+      "oneRoom": 152350,
+      "twoLDK": 392500
+    }
+  },
+  "daimon": {
+    "2026-09-13": {
+      "oneK": 138650,
+      "oneLDK": 281800,
+      "oneRoom": 150100,
+      "twoLDK": 451850
+    }
+  },
+  "daishimae": {
+    "2026-09-13": {
+      "oneK": 81300,
+      "oneLDK": 118050,
+      "oneRoom": 72650,
+      "twoLDK": 158800
+    }
+  },
+  "daitabashi": {
+    "2026-09-13": {
+      "oneK": 98750,
+      "oneLDK": 170050,
+      "oneRoom": 87750,
+      "twoLDK": 220250
+    }
+  },
+  "den-en-chofu": {
+    "2026-09-13": {
+      "oneK": 94900,
+      "oneLDK": 159200,
+      "oneRoom": 88000,
+      "twoLDK": 216600
+    }
+  },
+  "ebara-machi": {
+    "2026-09-13": {
+      "oneK": 102150,
+      "oneLDK": 168550,
+      "oneRoom": 93000,
+      "twoLDK": 220200
+    }
+  },
+  "ebara-nakanobu": {
+    "2026-09-13": {
+      "oneK": 108550,
+      "oneLDK": 185850,
+      "oneRoom": 101150,
+      "twoLDK": 240150
+    }
+  },
+  "ebisu": {
+    "2026-09-13": {
+      "oneK": 150650,
+      "oneLDK": 273550,
+      "oneRoom": 150300,
+      "twoLDK": 404700
+    }
+  },
+  "edogawa": {
+    "2026-09-13": {
+      "oneK": 78100,
+      "oneLDK": 130700,
+      "oneRoom": 70150,
+      "twoLDK": 159250
+    }
+  },
+  "edogawabashi": {
+    "2026-09-13": {
+      "oneK": 132700,
+      "oneLDK": 202800,
+      "oneRoom": 115950,
+      "twoLDK": 271450
+    }
+  },
+  "eifukucho": {
+    "2026-09-13": {
+      "oneK": 88600,
+      "oneLDK": 161700,
+      "oneRoom": 78150,
+      "twoLDK": 218200
+    }
+  },
+  "ekoda": {
+    "2026-09-13": {
+      "oneK": 91850,
+      "oneLDK": 154100,
+      "oneRoom": 73250,
+      "twoLDK": 189350
+    }
+  },
+  "etchujima": {
+    "2026-09-13": {
+      "oneK": 132850,
+      "oneLDK": 204650,
+      "oneRoom": 134200,
+      "twoLDK": 275750
+    }
+  },
+  "fudo-mae": {
+    "2026-09-13": {
+      "oneK": 118700,
+      "oneLDK": 222500,
+      "oneRoom": 118850,
+      "twoLDK": 313750
+    }
+  },
+  "fujimidai": {
+    "2026-09-13": {
+      "oneK": 86050,
+      "oneLDK": 134900,
+      "oneRoom": 76100,
+      "twoLDK": 177700
+    }
+  },
+  "fujimigaoka": {
+    "2026-09-13": {
+      "oneK": 88650,
+      "oneLDK": 148650,
+      "oneRoom": 72300,
+      "twoLDK": 197400
+    }
+  },
+  "funabori": {
+    "2026-09-13": {
+      "oneK": 77600,
+      "oneLDK": 129600,
+      "oneRoom": 73150,
+      "twoLDK": 163400
+    }
+  },
+  "futako-tamagawa": {
+    "2026-09-13": {
+      "oneK": 93150,
+      "oneLDK": 157500,
+      "oneRoom": 79850,
+      "twoLDK": 224300
+    }
+  },
+  "gaiemmae": {
+    "2026-09-13": {
+      "oneK": 167300,
+      "oneLDK": 326800,
+      "oneRoom": 190800,
+      "twoLDK": 484050
+    }
+  },
+  "gakugei-daigaku": {
+    "2026-09-13": {
+      "oneK": 105500,
+      "oneLDK": 191250,
+      "oneRoom": 96900,
+      "twoLDK": 271400
+    }
+  },
+  "gakushuinshita": {
+    "2026-09-13": {
+      "oneK": 115000,
+      "oneLDK": 177000,
+      "oneRoom": 107750,
+      "twoLDK": 250400
+    }
+  },
+  "ginza": {
+    "2026-09-13": {
+      "oneK": 147450,
+      "oneLDK": 253700,
+      "oneRoom": 171900,
+      "twoLDK": 361750
+    }
+  },
+  "gokokuji": {
+    "2026-09-13": {
+      "oneK": 107850,
+      "oneLDK": 187550,
+      "oneRoom": 97450,
+      "twoLDK": 250150
+    }
+  },
+  "gotanda": {
+    "2026-09-13": {
+      "oneK": 121250,
+      "oneLDK": 235050,
+      "oneRoom": 123650,
+      "twoLDK": 340250
+    }
+  },
+  "gotanno": {
+    "2026-09-13": {
+      "oneK": 80250,
+      "oneLDK": 124050,
+      "oneRoom": 72800,
+      "twoLDK": 163050
+    }
+  },
+  "gotokuji": {
+    "2026-09-13": {
+      "oneK": 90200,
+      "oneLDK": 162900,
+      "oneRoom": 76050,
+      "twoLDK": 227350
+    }
+  },
+  "hachiman-yama": {
+    "2026-09-13": {
+      "oneK": 91750,
+      "oneLDK": 148600,
+      "oneRoom": 77400,
+      "twoLDK": 194250
+    }
+  },
+  "hakusan": {
+    "2026-09-13": {
+      "oneK": 113450,
+      "oneLDK": 189850,
+      "oneRoom": 97800,
+      "twoLDK": 246500
+    }
+  },
+  "hamacho": {
+    "2026-09-13": {
+      "oneK": 132100,
+      "oneLDK": 208050,
+      "oneRoom": 131000,
+      "twoLDK": 295550
+    }
+  },
+  "hamadayama": {
+    "2026-09-13": {
+      "oneK": 89050,
+      "oneLDK": 153050,
+      "oneRoom": 76000,
+      "twoLDK": 201650
+    }
+  },
+  "hamamatsucho": {
+    "2026-09-13": {
+      "oneK": 138650,
+      "oneLDK": 281800,
+      "oneRoom": 150100,
+      "twoLDK": 451850
+    }
+  },
+  "hanzomon": {
+    "2026-09-13": {
+      "oneK": 154200,
+      "oneLDK": 313100,
+      "oneRoom": 166950,
+      "twoLDK": 501800
+    }
+  },
+  "hasune": {
+    "2026-09-13": {
+      "oneK": 92000,
+      "oneLDK": 138250,
+      "oneRoom": 74500,
+      "twoLDK": 181050
+    }
+  },
+  "hasunuma": {
+    "2026-09-13": {
+      "oneK": 103400,
+      "oneLDK": 161650,
+      "oneRoom": 89000,
+      "twoLDK": 198400
+    }
+  },
+  "hatagaya": {
+    "2026-09-13": {
+      "oneK": 106150,
+      "oneLDK": 185550,
+      "oneRoom": 96100,
+      "twoLDK": 284750
+    }
+  },
+  "hatanodai": {
+    "2026-09-13": {
+      "oneK": 99900,
+      "oneLDK": 164450,
+      "oneRoom": 88550,
+      "twoLDK": 232000
+    }
+  },
+  "hatchobori": {
+    "2026-09-13": {
+      "oneK": 134250,
+      "oneLDK": 226950,
+      "oneRoom": 143350,
+      "twoLDK": 310550
+    }
+  },
+  "hatsudai": {
+    "2026-09-13": {
+      "oneK": 113950,
+      "oneLDK": 191000,
+      "oneRoom": 104500,
+      "twoLDK": 294050
+    }
+  },
+  "heiwadai": {
+    "2026-09-13": {
+      "oneK": 85850,
+      "oneLDK": 133450,
+      "oneRoom": 75800,
+      "twoLDK": 170200
+    }
+  },
+  "heiwajima": {
+    "2026-09-13": {
+      "oneK": 100950,
+      "oneLDK": 157550,
+      "oneRoom": 90200,
+      "twoLDK": 202100
+    }
+  },
+  "higashi-azuma": {
+    "2026-09-13": {
+      "oneK": 100050,
+      "oneLDK": 152600,
+      "oneRoom": 83450,
+      "twoLDK": 185350
+    }
+  },
+  "higashi-ginza": {
+    "2026-09-13": {
+      "oneK": 143150,
+      "oneLDK": 241900,
+      "oneRoom": 161550,
+      "twoLDK": 330350
+    }
+  },
+  "higashi-ikebukuro": {
+    "2026-09-13": {
+      "oneK": 117450,
+      "oneLDK": 188600,
+      "oneRoom": 98400,
+      "twoLDK": 253700
+    }
+  },
+  "higashi-jujo": {
+    "2026-09-13": {
+      "oneK": 91850,
+      "oneLDK": 153250,
+      "oneRoom": 79100,
+      "twoLDK": 203400
+    }
+  },
+  "higashi-kitazawa": {
+    "2026-09-13": {
+      "oneK": 112150,
+      "oneLDK": 210550,
+      "oneRoom": 112950,
+      "twoLDK": 294300
+    }
+  },
+  "higashi-koenji": {
+    "2026-09-13": {
+      "oneK": 100400,
+      "oneLDK": 169550,
+      "oneRoom": 89200,
+      "twoLDK": 237550
+    }
+  },
+  "higashi-matsubara": {
+    "2026-09-13": {
+      "oneK": 94050,
+      "oneLDK": 171800,
+      "oneRoom": 85050,
+      "twoLDK": 222100
+    }
+  },
+  "higashi-mukojima": {
+    "2026-09-13": {
+      "oneK": 100750,
+      "oneLDK": 153150,
+      "oneRoom": 86350,
+      "twoLDK": 193550
+    }
+  },
+  "higashi-nagasaki": {
+    "2026-09-13": {
+      "oneK": 91600,
+      "oneLDK": 147700,
+      "oneRoom": 79400,
+      "twoLDK": 194050
+    }
+  },
   "higashi-nakano": {
     "2026-09-13": {
-      "oneK": 110550,
-      "oneLDK": 193950,
-      "oneRoom": 95150,
-      "twoLDK": 266150
+      "oneK": 107033,
+      "oneLDK": 182933,
+      "oneRoom": 91467,
+      "twoLDK": 248000
+    }
+  },
+  "higashi-ogu-sanchome": {
+    "2026-09-13": {
+      "oneK": 98100,
+      "oneLDK": 135600,
+      "oneRoom": 79500,
+      "twoLDK": 197350
+    }
+  },
+  "higashi-ojima": {
+    "2026-09-13": {
+      "oneK": 99750,
+      "oneLDK": 153100,
+      "oneRoom": 84700,
+      "twoLDK": 180850
+    }
+  },
+  "higashi-shinjuku": {
+    "2026-09-13": {
+      "oneK": 137350,
+      "oneLDK": 221850,
+      "oneRoom": 123300,
+      "twoLDK": 310200
+    }
+  },
+  "hikarigaoka": {
+    "2026-09-13": {
+      "oneK": 87100,
+      "oneLDK": 127200,
+      "oneRoom": 81500,
+      "twoLDK": 158600
+    }
+  },
+  "hikawadai": {
+    "2026-09-13": {
+      "oneK": 86950,
+      "oneLDK": 133950,
+      "oneRoom": 71000,
+      "twoLDK": 179450
+    }
+  },
+  "hikifune": {
+    "2026-09-13": {
+      "oneK": 110250,
+      "oneLDK": 165650,
+      "oneRoom": 97800,
+      "twoLDK": 202850
+    }
+  },
+  "hinode": {
+    "2026-09-13": {
+      "oneK": 138350,
+      "oneLDK": 242150,
+      "oneRoom": 148450,
+      "twoLDK": 353450
+    }
+  },
+  "hirai": {
+    "2026-09-13": {
+      "oneK": 86850,
+      "oneLDK": 140600,
+      "oneRoom": 76400,
+      "twoLDK": 167350
+    }
+  },
+  "hiro-o": {
+    "2026-09-13": {
+      "oneK": 147950,
+      "oneLDK": 284550,
+      "oneRoom": 152750,
+      "twoLDK": 487600
+    }
+  },
+  "hon-komagome": {
+    "2026-09-13": {
+      "oneK": 112400,
+      "oneLDK": 180850,
+      "oneRoom": 96550,
+      "twoLDK": 235350
+    }
+  },
+  "honancho": {
+    "2026-09-13": {
+      "oneK": 100050,
+      "oneLDK": 167600,
+      "oneRoom": 85450,
+      "twoLDK": 225850
+    }
+  },
+  "hongo-sanchome": {
+    "2026-09-13": {
+      "oneK": 141800,
+      "oneLDK": 223050,
+      "oneRoom": 131400,
+      "twoLDK": 284750
+    }
+  },
+  "honjo-azumabashi": {
+    "2026-09-13": {
+      "oneK": 120300,
+      "oneLDK": 181350,
+      "oneRoom": 112800,
+      "twoLDK": 224950
+    }
+  },
+  "horikiri": {
+    "2026-09-13": {
+      "oneK": 83700,
+      "oneLDK": 124700,
+      "oneRoom": 67650,
+      "twoLDK": 161100
+    }
+  },
+  "horikirishobuen": {
+    "2026-09-13": {
+      "oneK": 84200,
+      "oneLDK": 124350,
+      "oneRoom": 73150,
+      "twoLDK": 167100
+    }
+  },
+  "ichigaya": {
+    "2026-09-13": {
+      "oneK": 134050,
+      "oneLDK": 251750,
+      "oneRoom": 136050,
+      "twoLDK": 419050
+    }
+  },
+  "ichinoe": {
+    "2026-09-13": {
+      "oneK": 76100,
+      "oneLDK": 121250,
+      "oneRoom": 76700,
+      "twoLDK": 160150
+    }
+  },
+  "iidabashi": {
+    "2026-09-13": {
+      "oneK": 137700,
+      "oneLDK": 225900,
+      "oneRoom": 137950,
+      "twoLDK": 356050
+    }
+  },
+  "ikebukuro": {
+    "2026-09-13": {
+      "oneK": 107800,
+      "oneLDK": 171800,
+      "oneRoom": 89500,
+      "twoLDK": 242850
+    }
+  },
+  "ikegami": {
+    "2026-09-13": {
+      "oneK": 96350,
+      "oneLDK": 148600,
+      "oneRoom": 82850,
+      "twoLDK": 197000
+    }
+  },
+  "ikejiri-ohashi": {
+    "2026-09-13": {
+      "oneK": 122200,
+      "oneLDK": 213850,
+      "oneRoom": 110700,
+      "twoLDK": 300750
+    }
+  },
+  "ikenoue": {
+    "2026-09-13": {
+      "oneK": 111650,
+      "oneLDK": 200950,
+      "oneRoom": 113950,
+      "twoLDK": 272700
+    }
+  },
+  "inaricho": {
+    "2026-09-13": {
+      "oneK": 135350,
+      "oneLDK": 203150,
+      "oneRoom": 117300,
+      "twoLDK": 259200
+    }
+  },
+  "iogi": {
+    "2026-09-13": {
+      "oneK": 80950,
+      "oneLDK": 136450,
+      "oneRoom": 74150,
+      "twoLDK": 175300
+    }
+  },
+  "iriya": {
+    "2026-09-13": {
+      "oneK": 123300,
+      "oneLDK": 180100,
+      "oneRoom": 111100,
+      "twoLDK": 234900
+    }
+  },
+  "ishikawadai": {
+    "2026-09-13": {
+      "oneK": 89100,
+      "oneLDK": 152600,
+      "oneRoom": 87200,
+      "twoLDK": 205850
     }
   },
   "itabashi": {
     "2026-09-13": {
-      "oneK": 109250,
-      "oneLDK": 182200,
-      "oneRoom": 101250,
-      "twoLDK": 237500
+      "oneK": 106167,
+      "oneLDK": 172667,
+      "oneRoom": 96167,
+      "twoLDK": 224467
+    }
+  },
+  "itabashi-kuyakushomae": {
+    "2026-09-13": {
+      "oneK": 102100,
+      "oneLDK": 148400,
+      "oneRoom": 84750,
+      "twoLDK": 206650
+    }
+  },
+  "itabashihoncho": {
+    "2026-09-13": {
+      "oneK": 95950,
+      "oneLDK": 140900,
+      "oneRoom": 78350,
+      "twoLDK": 193300
+    }
+  },
+  "iwamotocho": {
+    "2026-09-13": {
+      "oneK": 139600,
+      "oneLDK": 212000,
+      "oneRoom": 135250,
+      "twoLDK": 268750
+    }
+  },
+  "jimbocho": {
+    "2026-09-13": {
+      "oneK": 149200,
+      "oneLDK": 234750,
+      "oneRoom": 140400,
+      "twoLDK": 337900
+    }
+  },
+  "jiyugaoka": {
+    "2026-09-13": {
+      "oneK": 106700,
+      "oneLDK": 195950,
+      "oneRoom": 104200,
+      "twoLDK": 286800
+    }
+  },
+  "jujo": {
+    "2026-09-13": {
+      "oneK": 91400,
+      "oneLDK": 148450,
+      "oneRoom": 76550,
+      "twoLDK": 203250
+    }
+  },
+  "kachidoki": {
+    "2026-09-13": {
+      "oneK": 140000,
+      "oneLDK": 234150,
+      "oneRoom": 151800,
+      "twoLDK": 342600
+    }
+  },
+  "kagurazaka": {
+    "2026-09-13": {
+      "oneK": 135350,
+      "oneLDK": 208850,
+      "oneRoom": 118300,
+      "twoLDK": 300950
+    }
+  },
+  "kajiwara": {
+    "2026-09-13": {
+      "oneK": 93550,
+      "oneLDK": 159700,
+      "oneRoom": 85650,
+      "twoLDK": 193950
+    }
+  },
+  "kamata": {
+    "2026-09-13": {
+      "oneK": 100550,
+      "oneLDK": 158700,
+      "oneRoom": 88950,
+      "twoLDK": 197600
+    }
+  },
+  "kameari": {
+    "2026-09-13": {
+      "oneK": 83100,
+      "oneLDK": 124350,
+      "oneRoom": 74350,
+      "twoLDK": 161400
+    }
+  },
+  "kameido": {
+    "2026-09-13": {
+      "oneK": 116800,
+      "oneLDK": 178050,
+      "oneRoom": 106300,
+      "twoLDK": 231600
+    }
+  },
+  "kameidosuijin": {
+    "2026-09-13": {
+      "oneK": 111350,
+      "oneLDK": 167500,
+      "oneRoom": 94400,
+      "twoLDK": 206500
+    }
+  },
+  "kami-igusa": {
+    "2026-09-13": {
+      "oneK": 77950,
+      "oneLDK": 136900,
+      "oneRoom": 71350,
+      "twoLDK": 176800
+    }
+  },
+  "kami-itabashi": {
+    "2026-09-13": {
+      "oneK": 86650,
+      "oneLDK": 132350,
+      "oneRoom": 77650,
+      "twoLDK": 180050
+    }
+  },
+  "kami-kitazawa": {
+    "2026-09-13": {
+      "oneK": 91700,
+      "oneLDK": 152850,
+      "oneRoom": 76300,
+      "twoLDK": 197300
+    }
+  },
+  "kami-nakazato": {
+    "2026-09-13": {
+      "oneK": 101100,
+      "oneLDK": 159150,
+      "oneRoom": 81900,
+      "twoLDK": 202250
+    }
+  },
+  "kami-shakujii": {
+    "2026-09-13": {
+      "oneK": 80350,
+      "oneLDK": 128850,
+      "oneRoom": 71900,
+      "twoLDK": 155800
+    }
+  },
+  "kamimachi": {
+    "2026-09-13": {
+      "oneK": 94700,
+      "oneLDK": 169800,
+      "oneRoom": 76650,
+      "twoLDK": 221050
+    }
+  },
+  "kaminoge": {
+    "2026-09-13": {
+      "oneK": 95000,
+      "oneLDK": 167400,
+      "oneRoom": 79750,
+      "twoLDK": 237100
+    }
+  },
+  "kamiyacho": {
+    "2026-09-13": {
+      "oneK": 147050,
+      "oneLDK": 402400,
+      "oneRoom": 182000,
+      "twoLDK": 611250
+    }
+  },
+  "kanamachi": {
+    "2026-09-13": {
+      "oneK": 80400,
+      "oneLDK": 108050,
+      "oneRoom": 71450,
+      "twoLDK": 145050
+    }
+  },
+  "kanamecho": {
+    "2026-09-13": {
+      "oneK": 101400,
+      "oneLDK": 160300,
+      "oneRoom": 83300,
+      "twoLDK": 228800
+    }
+  },
+  "kanda": {
+    "2026-09-13": {
+      "oneK": 143900,
+      "oneLDK": 231450,
+      "oneRoom": 147000,
+      "twoLDK": 303600
+    }
+  },
+  "kanegafuchi": {
+    "2026-09-13": {
+      "oneK": 91550,
+      "oneLDK": 144500,
+      "oneRoom": 81650,
+      "twoLDK": 193300
+    }
+  },
+  "kasai": {
+    "2026-09-13": {
+      "oneK": 77600,
+      "oneLDK": 134600,
+      "oneRoom": 68750,
+      "twoLDK": 172500
+    }
+  },
+  "kasai-rinkai-koen": {
+    "2026-09-13": {
+      "oneK": 73050,
+      "oneLDK": 136900,
+      "oneRoom": 65900,
+      "twoLDK": 172700
+    }
+  },
+  "kasuga": {
+    "2026-09-13": {
+      "oneK": 122600,
+      "oneLDK": 204300,
+      "oneRoom": 112700,
+      "twoLDK": 282900
+    }
+  },
+  "kayabacho": {
+    "2026-09-13": {
+      "oneK": 132800,
+      "oneLDK": 220300,
+      "oneRoom": 141450,
+      "twoLDK": 288050
+    }
+  },
+  "keikyu-kamata": {
+    "2026-09-13": {
+      "oneK": 100150,
+      "oneLDK": 160100,
+      "oneRoom": 91400,
+      "twoLDK": 200350
+    }
+  },
+  "keisei-hikifune": {
+    "2026-09-13": {
+      "oneK": 105400,
+      "oneLDK": 160600,
+      "oneRoom": 92550,
+      "twoLDK": 199500
+    }
+  },
+  "keisei-koiwa": {
+    "2026-09-13": {
+      "oneK": 78650,
+      "oneLDK": 127850,
+      "oneRoom": 69350,
+      "twoLDK": 160700
+    }
+  },
+  "keisei-takasago": {
+    "2026-09-13": {
+      "oneK": 83550,
+      "oneLDK": 118300,
+      "oneRoom": 73750,
+      "twoLDK": 161800
+    }
+  },
+  "keisei-tateishi": {
+    "2026-09-13": {
+      "oneK": 85050,
+      "oneLDK": 121900,
+      "oneRoom": 75000,
+      "twoLDK": 159200
+    }
+  },
+  "keisei-ueno": {
+    "2026-09-13": {
+      "oneK": 135250,
+      "oneLDK": 203150,
+      "oneRoom": 110300,
+      "twoLDK": 268550
+    }
+  },
+  "kiba": {
+    "2026-09-13": {
+      "oneK": 129250,
+      "oneLDK": 179300,
+      "oneRoom": 129750,
+      "twoLDK": 238950
+    }
+  },
+  "kikukawa": {
+    "2026-09-13": {
+      "oneK": 125550,
+      "oneLDK": 192950,
+      "oneRoom": 122500,
+      "twoLDK": 242150
+    }
+  },
+  "kinshicho": {
+    "2026-09-13": {
+      "oneK": 122700,
+      "oneLDK": 190650,
+      "oneRoom": 118850,
+      "twoLDK": 239100
+    }
+  },
+  "kita-akabane": {
+    "2026-09-13": {
+      "oneK": 94050,
+      "oneLDK": 144400,
+      "oneRoom": 78450,
+      "twoLDK": 185700
+    }
+  },
+  "kita-ayase": {
+    "2026-09-13": {
+      "oneK": 84000,
+      "oneLDK": 124750,
+      "oneRoom": 73050,
+      "twoLDK": 157400
+    }
+  },
+  "kita-ikebukuro": {
+    "2026-09-13": {
+      "oneK": 105400,
+      "oneLDK": 173100,
+      "oneRoom": 89650,
+      "twoLDK": 223750
+    }
+  },
+  "kita-sando": {
+    "2026-09-13": {
+      "oneK": 144900,
+      "oneLDK": 252550,
+      "oneRoom": 156900,
+      "twoLDK": 373700
+    }
+  },
+  "kita-senju": {
+    "2026-09-13": {
+      "oneK": 93850,
+      "oneLDK": 143800,
+      "oneRoom": 80350,
+      "twoLDK": 189250
+    }
+  },
+  "kita-senzoku": {
+    "2026-09-13": {
+      "oneK": 103450,
+      "oneLDK": 169400,
+      "oneRoom": 92000,
+      "twoLDK": 228800
+    }
+  },
+  "kitashinagawa": {
+    "2026-09-13": {
+      "oneK": 126100,
+      "oneLDK": 237750,
+      "oneRoom": 140000,
+      "twoLDK": 381450
     }
   },
   "kiyosumi-shirakawa": {
     "2026-09-13": {
-      "oneK": 129850,
-      "oneLDK": 196150,
-      "oneRoom": 132550,
-      "twoLDK": 275850
+      "oneK": 129433,
+      "oneLDK": 191800,
+      "oneRoom": 130567,
+      "twoLDK": 259133
+    }
+  },
+  "kodemmacho": {
+    "2026-09-13": {
+      "oneK": 133300,
+      "oneLDK": 216150,
+      "oneRoom": 141650,
+      "twoLDK": 288550
     }
   },
   "koenji": {
     "2026-09-13": {
-      "oneK": 103800,
-      "oneLDK": 182300,
-      "oneRoom": 86100,
-      "twoLDK": 261150
+      "oneK": 98100,
+      "oneLDK": 170433,
+      "oneRoom": 81967,
+      "twoLDK": 237633
+    }
+  },
+  "kohoku": {
+    "2026-09-13": {
+      "oneK": 79050,
+      "oneLDK": 117250,
+      "oneRoom": 74550,
+      "twoLDK": 149700
+    }
+  },
+  "koiwa": {
+    "2026-09-13": {
+      "oneK": 77450,
+      "oneLDK": 122450,
+      "oneRoom": 68550,
+      "twoLDK": 155100
+    }
+  },
+  "kojimachi": {
+    "2026-09-13": {
+      "oneK": 160900,
+      "oneLDK": 319600,
+      "oneRoom": 175150,
+      "twoLDK": 504250
+    }
+  },
+  "kojiya": {
+    "2026-09-13": {
+      "oneK": 101000,
+      "oneLDK": 156950,
+      "oneRoom": 95150,
+      "twoLDK": 205850
+    }
+  },
+  "kokkai-gijidomae": {
+    "2026-09-13": {
+      "oneK": 159350,
+      "oneLDK": 290950,
+      "oneRoom": 169600,
+      "twoLDK": 473300
+    }
+  },
+  "kokuritsu-kyogijo": {
+    "2026-09-13": {
+      "oneK": 145000,
+      "oneLDK": 241100,
+      "oneRoom": 136800,
+      "twoLDK": 344600
+    }
+  },
+  "kokusai-tenjijo": {
+    "2026-09-13": {
+      "oneK": 183900,
+      "oneLDK": 199400,
+      "twoLDK": 319600
+    }
+  },
+  "komaba-todaimae": {
+    "2026-09-13": {
+      "oneK": 122800,
+      "oneLDK": 220400,
+      "oneRoom": 118700,
+      "twoLDK": 309700
+    }
+  },
+  "komagome": {
+    "2026-09-13": {
+      "oneK": 108200,
+      "oneLDK": 173750,
+      "oneRoom": 100750,
+      "twoLDK": 219200
+    }
+  },
+  "komazawa-daigaku": {
+    "2026-09-13": {
+      "oneK": 104950,
+      "oneLDK": 189950,
+      "oneRoom": 95400,
+      "twoLDK": 266300
+    }
+  },
+  "korakuen": {
+    "2026-09-13": {
+      "oneK": 122600,
+      "oneLDK": 204300,
+      "oneRoom": 112700,
+      "twoLDK": 282900
+    }
+  },
+  "koshinzuka": {
+    "2026-09-13": {
+      "oneK": 111750,
+      "oneLDK": 176950,
+      "oneRoom": 109150,
+      "twoLDK": 223100
+    }
+  },
+  "kosuge": {
+    "2026-09-13": {
+      "oneK": 86700,
+      "oneLDK": 135450,
+      "oneRoom": 80500,
+      "twoLDK": 182300
+    }
+  },
+  "kotake-mukaihara": {
+    "2026-09-13": {
+      "oneK": 87100,
+      "oneLDK": 138300,
+      "oneRoom": 74500,
+      "twoLDK": 183500
+    }
+  },
+  "koya": {
+    "2026-09-13": {
+      "oneK": 78600,
+      "oneLDK": 116750,
+      "oneRoom": 70100,
+      "twoLDK": 147250
+    }
+  },
+  "kudanshita": {
+    "2026-09-13": {
+      "oneK": 146350,
+      "oneLDK": 250350,
+      "oneRoom": 145050,
+      "twoLDK": 480400
+    }
+  },
+  "kugahara": {
+    "2026-09-13": {
+      "oneK": 91550,
+      "oneLDK": 140650,
+      "oneRoom": 75750,
+      "twoLDK": 201250
+    }
+  },
+  "kugayama": {
+    "2026-09-13": {
+      "oneK": 78550,
+      "oneLDK": 138000,
+      "oneRoom": 67900,
+      "twoLDK": 200000
+    }
+  },
+  "kuhombutsu": {
+    "2026-09-13": {
+      "oneK": 106900,
+      "oneLDK": 194750,
+      "oneRoom": 102500,
+      "twoLDK": 296950
+    }
+  },
+  "kumanomae": {
+    "2026-09-13": {
+      "oneK": 95100,
+      "oneLDK": 135450,
+      "oneRoom": 77950,
+      "twoLDK": 188350
+    }
+  },
+  "kuramae": {
+    "2026-09-13": {
+      "oneK": 131850,
+      "oneLDK": 199900,
+      "oneRoom": 127700,
+      "twoLDK": 247950
+    }
+  },
+  "kyobashi": {
+    "2026-09-13": {
+      "oneK": 141750,
+      "oneLDK": 265000,
+      "oneRoom": 165750,
+      "twoLDK": 299750
+    }
+  },
+  "kyodo": {
+    "2026-09-13": {
+      "oneK": 88000,
+      "oneLDK": 158900,
+      "oneRoom": 77100,
+      "twoLDK": 220800
+    }
+  },
+  "machiya": {
+    "2026-09-13": {
+      "oneK": 92400,
+      "oneLDK": 140350,
+      "oneRoom": 80900,
+      "twoLDK": 191150
+    }
+  },
+  "machiya-nichome": {
+    "2026-09-13": {
+      "oneK": 93250,
+      "oneLDK": 149800,
+      "oneRoom": 83000,
+      "twoLDK": 206050
+    }
+  },
+  "magome": {
+    "2026-09-13": {
+      "oneK": 101500,
+      "oneLDK": 166800,
+      "oneRoom": 91100,
+      "twoLDK": 209250
+    }
+  },
+  "matsubara": {
+    "2026-09-13": {
+      "oneK": 87900,
+      "oneLDK": 167350,
+      "oneRoom": 75200,
+      "twoLDK": 226950
+    }
+  },
+  "meguro": {
+    "2026-09-13": {
+      "oneK": 136750,
+      "oneLDK": 247450,
+      "oneRoom": 138100,
+      "twoLDK": 358250
+    }
+  },
+  "meidaimae": {
+    "2026-09-13": {
+      "oneK": 93700,
+      "oneLDK": 165900,
+      "oneRoom": 80250,
+      "twoLDK": 226400
+    }
+  },
+  "mejiro": {
+    "2026-09-13": {
+      "oneK": 111850,
+      "oneLDK": 178500,
+      "oneRoom": 99600,
+      "twoLDK": 262050
+    }
+  },
+  "midorigaoka": {
+    "2026-09-13": {
+      "oneK": 104200,
+      "oneLDK": 189250,
+      "oneRoom": 98750,
+      "twoLDK": 259350
+    }
+  },
+  "mikawashima": {
+    "2026-09-13": {
+      "oneK": 110150,
+      "oneLDK": 168750,
+      "oneRoom": 93850,
+      "twoLDK": 214000
+    }
+  },
+  "minami-asagaya": {
+    "2026-09-13": {
+      "oneK": 89800,
+      "oneLDK": 158150,
+      "oneRoom": 82050,
+      "twoLDK": 213750
+    }
+  },
+  "minami-senju": {
+    "2026-09-13": {
+      "oneK": 108200,
+      "oneLDK": 164300,
+      "oneRoom": 95300,
+      "twoLDK": 201150
+    }
+  },
+  "minami-shinjuku": {
+    "2026-09-13": {
+      "oneK": 141100,
+      "oneLDK": 228600,
+      "oneRoom": 131300,
+      "twoLDK": 342800
+    }
+  },
+  "minami-sunamachi": {
+    "2026-09-13": {
+      "oneK": 107000,
+      "oneLDK": 154250,
+      "oneRoom": 103400,
+      "twoLDK": 208200
+    }
+  },
+  "minowa": {
+    "2026-09-13": {
+      "oneK": 114800,
+      "oneLDK": 170150,
+      "oneRoom": 103150,
+      "twoLDK": 210150
+    }
+  },
+  "minowabashi": {
+    "2026-09-13": {
+      "oneK": 111050,
+      "oneLDK": 169750,
+      "oneRoom": 97650,
+      "twoLDK": 204950
+    }
+  },
+  "minumadai-shinsuikoen": {
+    "2026-09-13": {
+      "oneK": 78500,
+      "oneLDK": 98300,
+      "oneRoom": 81500,
+      "twoLDK": 102000
+    }
+  },
+  "mita": {
+    "2026-09-13": {
+      "oneK": 137250,
+      "oneLDK": 245150,
+      "oneRoom": 137850,
+      "twoLDK": 384700
+    }
+  },
+  "mitsukoshimae": {
+    "2026-09-13": {
+      "oneK": 146300,
+      "oneLDK": 251700,
+      "oneRoom": 147650,
+      "twoLDK": 307600
+    }
+  },
+  "miyanomae": {
+    "2026-09-13": {
+      "oneK": 101100,
+      "oneLDK": 129450,
+      "oneRoom": 75250,
+      "twoLDK": 196100
+    }
+  },
+  "miyanosaka": {
+    "2026-09-13": {
+      "oneK": 87400,
+      "oneLDK": 157550,
+      "oneRoom": 78950,
+      "twoLDK": 235800
+    }
+  },
+  "mizue": {
+    "2026-09-13": {
+      "oneK": 74250,
+      "oneLDK": 119550,
+      "oneRoom": 71400,
+      "twoLDK": 154650
     }
   },
   "monzen-nakacho": {
     "2026-09-13": {
-      "oneK": 132600,
-      "oneLDK": 206800,
-      "oneRoom": 135750,
-      "twoLDK": 282750
+      "oneK": 133133,
+      "oneLDK": 202267,
+      "oneRoom": 134533,
+      "twoLDK": 267733
     }
   },
   "morishita": {
     "2026-09-13": {
-      "oneK": 126450,
-      "oneLDK": 197250,
-      "oneRoom": 122700,
-      "twoLDK": 255350
+      "oneK": 125967,
+      "oneLDK": 192800,
+      "oneRoom": 122800,
+      "twoLDK": 247667
+    }
+  },
+  "motohasunuma": {
+    "2026-09-13": {
+      "oneK": 95400,
+      "oneLDK": 141950,
+      "oneRoom": 80900,
+      "twoLDK": 196450
+    }
+  },
+  "mukohara": {
+    "2026-09-13": {
+      "oneK": 112350,
+      "oneLDK": 182600,
+      "oneRoom": 102450,
+      "twoLDK": 244900
     }
   },
   "musashi-koyama": {
     "2026-09-13": {
-      "oneK": 127800,
-      "oneLDK": 224600,
-      "oneRoom": 109650,
-      "twoLDK": 303650
+      "oneK": 118800,
+      "oneLDK": 205367,
+      "oneRoom": 104833,
+      "twoLDK": 277800
+    }
+  },
+  "musashi-nitta": {
+    "2026-09-13": {
+      "oneK": 94300,
+      "oneLDK": 146950,
+      "oneRoom": 86400,
+      "twoLDK": 185950
+    }
+  },
+  "musashi-seki": {
+    "2026-09-13": {
+      "oneK": 80400,
+      "oneLDK": 125700,
+      "oneRoom": 70450,
+      "twoLDK": 156450
     }
   },
   "myogadani": {
     "2026-09-13": {
-      "oneK": 121950,
-      "oneLDK": 218150,
-      "oneRoom": 117300,
-      "twoLDK": 273800
+      "oneK": 116533,
+      "oneLDK": 204233,
+      "oneRoom": 112667,
+      "twoLDK": 253900
+    }
+  },
+  "nagahara": {
+    "2026-09-13": {
+      "oneK": 96000,
+      "oneLDK": 159200,
+      "oneRoom": 85900,
+      "twoLDK": 220850
+    }
+  },
+  "nagatacho": {
+    "2026-09-13": {
+      "oneK": 164250,
+      "oneLDK": 305800,
+      "oneRoom": 170100,
+      "twoLDK": 498750
+    }
+  },
+  "naka-itabashi": {
+    "2026-09-13": {
+      "oneK": 94650,
+      "oneLDK": 136550,
+      "oneRoom": 81300,
+      "twoLDK": 193350
+    }
+  },
+  "nakai": {
+    "2026-09-13": {
+      "oneK": 105800,
+      "oneLDK": 168200,
+      "oneRoom": 88900,
+      "twoLDK": 241000
     }
   },
   "nakameguro": {
     "2026-09-13": {
-      "oneK": 147200,
-      "oneLDK": 279250,
-      "oneRoom": 134800,
-      "twoLDK": 362100
+      "oneK": 138633,
+      "oneLDK": 256233,
+      "oneRoom": 126000,
+      "twoLDK": 336000
+    }
+  },
+  "nakamurabashi": {
+    "2026-09-13": {
+      "oneK": 86750,
+      "oneLDK": 140150,
+      "oneRoom": 70700,
+      "twoLDK": 191150
+    }
+  },
+  "nakano": {
+    "2026-09-13": {
+      "oneK": 100450,
+      "oneLDK": 169900,
+      "oneRoom": 84700,
+      "twoLDK": 237900
+    }
+  },
+  "nakano-fujimicho": {
+    "2026-09-13": {
+      "oneK": 107500,
+      "oneLDK": 178400,
+      "oneRoom": 91950,
+      "twoLDK": 240150
+    }
+  },
+  "nakano-sakaue": {
+    "2026-09-13": {
+      "oneK": 111850,
+      "oneLDK": 185750,
+      "oneRoom": 96300,
+      "twoLDK": 248650
+    }
+  },
+  "nakano-shimbashi": {
+    "2026-09-13": {
+      "oneK": 109050,
+      "oneLDK": 183500,
+      "oneRoom": 96300,
+      "twoLDK": 244950
     }
   },
   "nakanobu": {
     "2026-09-13": {
-      "oneK": 113700,
-      "oneLDK": 195800,
-      "oneRoom": 103450,
-      "twoLDK": 248050
+      "oneK": 107767,
+      "oneLDK": 184733,
+      "oneRoom": 99067,
+      "twoLDK": 227800
+    }
+  },
+  "narimasu": {
+    "2026-09-13": {
+      "oneK": 82700,
+      "oneLDK": 119500,
+      "oneRoom": 72900,
+      "twoLDK": 142000
+    }
+  },
+  "nerima": {
+    "2026-09-13": {
+      "oneK": 90350,
+      "oneLDK": 146100,
+      "oneRoom": 75650,
+      "twoLDK": 201550
+    }
+  },
+  "nerima-kasugacho": {
+    "2026-09-13": {
+      "oneK": 86250,
+      "oneLDK": 130800,
+      "oneRoom": 76650,
+      "twoLDK": 162400
+    }
+  },
+  "nerima-takanodai": {
+    "2026-09-13": {
+      "oneK": 84850,
+      "oneLDK": 137400,
+      "oneRoom": 74400,
+      "twoLDK": 166350
+    }
+  },
+  "nezu": {
+    "2026-09-13": {
+      "oneK": 110000,
+      "oneLDK": 185500,
+      "oneRoom": 81550,
+      "twoLDK": 244650
+    }
+  },
+  "nihombashi": {
+    "2026-09-13": {
+      "oneK": 132950,
+      "oneLDK": 249700,
+      "oneRoom": 162600,
+      "twoLDK": 297150
+    }
+  },
+  "ningyocho": {
+    "2026-09-13": {
+      "oneK": 132950,
+      "oneLDK": 212950,
+      "oneRoom": 136150,
+      "twoLDK": 289300
+    }
+  },
+  "nippori": {
+    "2026-09-13": {
+      "oneK": 112600,
+      "oneLDK": 174350,
+      "oneRoom": 94600,
+      "twoLDK": 224400
+    }
+  },
+  "nishi-eifuku": {
+    "2026-09-13": {
+      "oneK": 80150,
+      "oneLDK": 159850,
+      "oneRoom": 73550,
+      "twoLDK": 211550
+    }
+  },
+  "nishi-kasai": {
+    "2026-09-13": {
+      "oneK": 81300,
+      "oneLDK": 143800,
+      "oneRoom": 73650,
+      "twoLDK": 179500
+    }
+  },
+  "nishi-koyama": {
+    "2026-09-13": {
+      "oneK": 111700,
+      "oneLDK": 193850,
+      "oneRoom": 99400,
+      "twoLDK": 260950
+    }
+  },
+  "nishi-nippori": {
+    "2026-09-13": {
+      "oneK": 106350,
+      "oneLDK": 164600,
+      "oneRoom": 96100,
+      "twoLDK": 216100
+    }
+  },
+  "nishi-ogikubo": {
+    "2026-09-13": {
+      "oneK": 84150,
+      "oneLDK": 148300,
+      "oneRoom": 76950,
+      "twoLDK": 209300
+    }
+  },
+  "nishi-oi": {
+    "2026-09-13": {
+      "oneK": 106850,
+      "oneLDK": 177400,
+      "oneRoom": 99950,
+      "twoLDK": 226800
+    }
+  },
+  "nishi-ojima": {
+    "2026-09-13": {
+      "oneK": 115450,
+      "oneLDK": 167350,
+      "oneRoom": 110450,
+      "twoLDK": 215450
+    }
+  },
+  "nishi-shinjuku": {
+    "2026-09-13": {
+      "oneK": 125200,
+      "oneLDK": 224250,
+      "oneRoom": 107550,
+      "twoLDK": 324000
+    }
+  },
+  "nishi-shinjuku-gochome": {
+    "2026-09-13": {
+      "oneK": 114550,
+      "oneLDK": 190400,
+      "oneRoom": 103750,
+      "twoLDK": 266500
+    }
+  },
+  "nishi-sugamo": {
+    "2026-09-13": {
+      "oneK": 102350,
+      "oneLDK": 175000,
+      "oneRoom": 88650,
+      "twoLDK": 226050
+    }
+  },
+  "nishi-taishido": {
+    "2026-09-13": {
+      "oneK": 112400,
+      "oneLDK": 193550,
+      "oneRoom": 98800,
+      "twoLDK": 261300
+    }
+  },
+  "nishi-takashimadaira": {
+    "2026-09-13": {
+      "oneK": 80500,
+      "oneLDK": 113200,
+      "oneRoom": 72950,
+      "twoLDK": 142450
+    }
+  },
+  "nishi-waseda": {
+    "2026-09-13": {
+      "oneK": 117650,
+      "oneLDK": 192800,
+      "oneRoom": 96350,
+      "twoLDK": 269350
+    }
+  },
+  "nishiarai": {
+    "2026-09-13": {
+      "oneK": 81450,
+      "oneLDK": 118600,
+      "oneRoom": 72050,
+      "twoLDK": 157700
+    }
+  },
+  "nishiaraidaishi-nishi": {
+    "2026-09-13": {
+      "oneK": 81500,
+      "oneLDK": 114850,
+      "oneRoom": 72350,
+      "twoLDK": 152200
+    }
+  },
+  "nishidai": {
+    "2026-09-13": {
+      "oneK": 90650,
+      "oneLDK": 129250,
+      "oneRoom": 76300,
+      "twoLDK": 166550
+    }
+  },
+  "nishigahara": {
+    "2026-09-13": {
+      "oneK": 102950,
+      "oneLDK": 166550,
+      "oneRoom": 83400,
+      "twoLDK": 220550
+    }
+  },
+  "nishigahara-yonchome": {
+    "2026-09-13": {
+      "oneK": 100500,
+      "oneLDK": 170600,
+      "oneRoom": 81350,
+      "twoLDK": 220000
     }
   },
   "nishimagome": {
     "2026-09-13": {
-      "oneK": 101000,
-      "oneLDK": 175950,
-      "oneRoom": 87450,
-      "twoLDK": 222050
+      "oneK": 96900,
+      "oneLDK": 162700,
+      "oneRoom": 84700,
+      "twoLDK": 205367
+    }
+  },
+  "nogata": {
+    "2026-09-13": {
+      "oneK": 87950,
+      "oneLDK": 144650,
+      "oneRoom": 72450,
+      "twoLDK": 177900
     }
   },
   "nogizaka": {
     "2026-09-13": {
-      "oneK": 180750,
-      "oneLDK": 323150,
-      "oneRoom": 168150,
-      "twoLDK": 581550
+      "oneK": 166600,
+      "oneLDK": 309833,
+      "oneRoom": 159533,
+      "twoLDK": 541000
+    }
+  },
+  "numabe": {
+    "2026-09-13": {
+      "oneK": 92950,
+      "oneLDK": 145800,
+      "oneRoom": 82900,
+      "twoLDK": 181900
+    }
+  },
+  "numabukuro": {
+    "2026-09-13": {
+      "oneK": 92950,
+      "oneLDK": 151200,
+      "oneRoom": 78650,
+      "twoLDK": 199750
+    }
+  },
+  "ochanomizu": {
+    "2026-09-13": {
+      "oneK": 146750,
+      "oneLDK": 224900,
+      "oneRoom": 137800,
+      "twoLDK": 291900
+    }
+  },
+  "ochiai": {
+    "2026-09-13": {
+      "oneK": 106400,
+      "oneLDK": 174400,
+      "oneRoom": 88700,
+      "twoLDK": 240250
+    }
+  },
+  "ochiai-minami-nagasaki": {
+    "2026-09-13": {
+      "oneK": 93900,
+      "oneLDK": 149250,
+      "oneRoom": 78600,
+      "twoLDK": 202500
+    }
+  },
+  "odai": {
+    "2026-09-13": {
+      "oneK": 87150,
+      "oneLDK": 126600,
+      "oneRoom": 71500,
+      "twoLDK": 170600
+    }
+  },
+  "odaiba-kaihinkoen": {
+    "2026-09-13": {
+      "oneK": 189550,
+      "oneLDK": 202500,
+      "twoLDK": 406500
+    }
+  },
+  "ogi-ohashi": {
+    "2026-09-13": {
+      "oneK": 78050,
+      "oneLDK": 115650,
+      "oneRoom": 69100,
+      "twoLDK": 148350
+    }
+  },
+  "ogikubo": {
+    "2026-09-13": {
+      "oneK": 88100,
+      "oneLDK": 150650,
+      "oneRoom": 76150,
+      "twoLDK": 208850
+    }
+  },
+  "ohanajaya": {
+    "2026-09-13": {
+      "oneK": 87600,
+      "oneLDK": 124050,
+      "oneRoom": 76050,
+      "twoLDK": 168200
+    }
+  },
+  "oi-keibajo-mae": {
+    "2026-09-13": {
+      "oneK": 116100,
+      "oneLDK": 186650,
+      "oneRoom": 116050,
+      "twoLDK": 239950
     }
   },
   "oimachi": {
     "2026-09-13": {
-      "oneK": 120250,
-      "oneLDK": 199950,
-      "oneRoom": 110050,
-      "twoLDK": 281350
+      "oneK": 114600,
+      "oneLDK": 190833,
+      "oneRoom": 106167,
+      "twoLDK": 263433
+    }
+  },
+  "oizumi-gakuen": {
+    "2026-09-13": {
+      "oneK": 78400,
+      "oneLDK": 127050,
+      "oneRoom": 67650,
+      "twoLDK": 145650
+    }
+  },
+  "oji": {
+    "2026-09-13": {
+      "oneK": 98800,
+      "oneLDK": 152850,
+      "oneRoom": 88700,
+      "twoLDK": 202700
+    }
+  },
+  "oji-kamiya": {
+    "2026-09-13": {
+      "oneK": 96500,
+      "oneLDK": 155600,
+      "oneRoom": 91400,
+      "twoLDK": 205550
+    }
+  },
+  "ojima": {
+    "2026-09-13": {
+      "oneK": 113150,
+      "oneLDK": 158000,
+      "oneRoom": 101750,
+      "twoLDK": 204250
+    }
+  },
+  "okachimachi": {
+    "2026-09-13": {
+      "oneK": 136800,
+      "oneLDK": 208000,
+      "oneRoom": 131600,
+      "twoLDK": 261750
+    }
+  },
+  "oku": {
+    "2026-09-13": {
+      "oneK": 91600,
+      "oneLDK": 137700,
+      "oneRoom": 77750,
+      "twoLDK": 182550
+    }
+  },
+  "okubo": {
+    "2026-09-13": {
+      "oneK": 117100,
+      "oneLDK": 201900,
+      "oneRoom": 95750,
+      "twoLDK": 281750
+    }
+  },
+  "okusawa": {
+    "2026-09-13": {
+      "oneK": 106950,
+      "oneLDK": 197500,
+      "oneRoom": 101000,
+      "twoLDK": 301450
+    }
+  },
+  "omokagebashi": {
+    "2026-09-13": {
+      "oneK": 118150,
+      "oneLDK": 191350,
+      "oneRoom": 102900,
+      "twoLDK": 268800
+    }
+  },
+  "omori": {
+    "2026-09-13": {
+      "oneK": 103950,
+      "oneLDK": 168350,
+      "oneRoom": 94500,
+      "twoLDK": 212400
+    }
+  },
+  "omorikaigan": {
+    "2026-09-13": {
+      "oneK": 109200,
+      "oneLDK": 179550,
+      "oneRoom": 101450,
+      "twoLDK": 227050
+    }
+  },
+  "omorimachi": {
+    "2026-09-13": {
+      "oneK": 95600,
+      "oneLDK": 149700,
+      "oneRoom": 81100,
+      "twoLDK": 196250
+    }
+  },
+  "omote-sando": {
+    "2026-09-13": {
+      "oneK": 155350,
+      "oneLDK": 319450,
+      "oneRoom": 182100,
+      "twoLDK": 531600
+    }
+  },
+  "omurai": {
+    "2026-09-13": {
+      "oneK": 105700,
+      "oneLDK": 160700,
+      "oneRoom": 88650,
+      "twoLDK": 210350
+    }
+  },
+  "onarimon": {
+    "2026-09-13": {
+      "oneK": 155000,
+      "oneLDK": 309600,
+      "oneRoom": 161700,
+      "twoLDK": 407500
+    }
+  },
+  "ontakesan": {
+    "2026-09-13": {
+      "oneK": 88750,
+      "oneLDK": 142400,
+      "oneRoom": 79550,
+      "twoLDK": 208150
+    }
+  },
+  "ookayama": {
+    "2026-09-13": {
+      "oneK": 99750,
+      "oneLDK": 183750,
+      "oneRoom": 92750,
+      "twoLDK": 243650
     }
   },
   "osaki": {
     "2026-09-13": {
-      "oneK": 123100,
-      "oneLDK": 220600,
-      "oneRoom": 115800,
-      "twoLDK": 335950
+      "oneK": 117200,
+      "oneLDK": 209467,
+      "oneRoom": 110500,
+      "twoLDK": 306767
+    }
+  },
+  "osaki-hirokoji": {
+    "2026-09-13": {
+      "oneK": 119750,
+      "oneLDK": 230250,
+      "oneRoom": 120900,
+      "twoLDK": 313750
+    }
+  },
+  "otemachi": {
+    "2026-09-13": {
+      "oneK": 152950,
+      "oneLDK": 255550,
+      "oneRoom": 162300,
+      "twoLDK": 329450
+    }
+  },
+  "otorii": {
+    "2026-09-13": {
+      "oneK": 97900,
+      "oneLDK": 141950,
+      "oneRoom": 91650,
+      "twoLDK": 191200
+    }
+  },
+  "otsuka": {
+    "2026-09-13": {
+      "oneK": 113300,
+      "oneLDK": 184450,
+      "oneRoom": 99300,
+      "twoLDK": 241400
+    }
+  },
+  "oyama": {
+    "2026-09-13": {
+      "oneK": 94750,
+      "oneLDK": 150350,
+      "oneRoom": 80250,
+      "twoLDK": 207700
+    }
+  },
+  "oyamadai": {
+    "2026-09-13": {
+      "oneK": 92800,
+      "oneLDK": 163700,
+      "oneRoom": 92850,
+      "twoLDK": 231450
+    }
+  },
+  "roka-koen": {
+    "2026-09-13": {
+      "oneK": 85600,
+      "oneLDK": 145500,
+      "oneRoom": 75550,
+      "twoLDK": 185850
+    }
+  },
+  "rokucho": {
+    "2026-09-13": {
+      "oneK": 78500,
+      "oneLDK": 123250,
+      "oneRoom": 64750,
+      "twoLDK": 151000
+    }
+  },
+  "rokugodote": {
+    "2026-09-13": {
+      "oneK": 94000,
+      "oneLDK": 147000,
+      "oneRoom": 73750,
+      "twoLDK": 188500
     }
   },
   "roppongi": {
     "2026-09-13": {
-      "oneK": 174950,
-      "oneLDK": 323650,
-      "oneRoom": 178900,
-      "twoLDK": 608950
+      "oneK": 162767,
+      "oneLDK": 315933,
+      "oneRoom": 176100,
+      "twoLDK": 588767
     }
   },
   "roppongi-itchome": {
     "2026-09-13": {
-      "oneK": 170150,
-      "oneLDK": 356400,
-      "oneRoom": 193150,
-      "twoLDK": 623100
+      "oneK": 159833,
+      "oneLDK": 341200,
+      "oneRoom": 185033,
+      "twoLDK": 597867
+    }
+  },
+  "ryogoku": {
+    "2026-09-13": {
+      "oneK": 126350,
+      "oneLDK": 194150,
+      "oneRoom": 121900,
+      "twoLDK": 239000
+    }
+  },
+  "ryutsu-center": {
+    "2026-09-13": {
+      "oneK": 106500,
+      "oneLDK": 154700,
+      "oneRoom": 102850,
+      "twoLDK": 189800
+    }
+  },
+  "saginomiya": {
+    "2026-09-13": {
+      "oneK": 85800,
+      "oneLDK": 139250,
+      "oneRoom": 80650,
+      "twoLDK": 186300
+    }
+  },
+  "sakaecho": {
+    "2026-09-13": {
+      "oneK": 104800,
+      "oneLDK": 162600,
+      "oneRoom": 107900,
+      "twoLDK": 213400
+    }
+  },
+  "sakura-shimmachi": {
+    "2026-09-13": {
+      "oneK": 104250,
+      "oneLDK": 181550,
+      "oneRoom": 94250,
+      "twoLDK": 240300
+    }
+  },
+  "sakuradai": {
+    "2026-09-13": {
+      "oneK": 91850,
+      "oneLDK": 151600,
+      "oneRoom": 78800,
+      "twoLDK": 194250
+    }
+  },
+  "sakurajosui": {
+    "2026-09-13": {
+      "oneK": 88900,
+      "oneLDK": 157100,
+      "oneRoom": 73700,
+      "twoLDK": 202650
+    }
+  },
+  "samezu": {
+    "2026-09-13": {
+      "oneK": 114950,
+      "oneLDK": 190450,
+      "oneRoom": 110000,
+      "twoLDK": 252500
+    }
+  },
+  "sangen-jaya": {
+    "2026-09-13": {
+      "oneK": 108850,
+      "oneLDK": 192100,
+      "oneRoom": 96000,
+      "twoLDK": 263450
+    }
+  },
+  "sangubashi": {
+    "2026-09-13": {
+      "oneK": 121950,
+      "oneLDK": 201750,
+      "oneRoom": 117700,
+      "twoLDK": 342650
     }
   },
   "sasazuka": {
     "2026-09-13": {
-      "oneK": 110600,
-      "oneLDK": 196700,
-      "oneRoom": 99350,
-      "twoLDK": 272500
+      "oneK": 106567,
+      "oneLDK": 184967,
+      "oneRoom": 95533,
+      "twoLDK": 252367
+    }
+  },
+  "seibijo": {
+    "2026-09-13": {
+      "oneK": 100900,
+      "oneLDK": 141450,
+      "oneRoom": 87900,
+      "twoLDK": 175750
+    }
+  },
+  "seibu-shinjuku": {
+    "2026-09-13": {
+      "oneK": 130300,
+      "oneLDK": 224750,
+      "oneRoom": 133250,
+      "twoLDK": 313250
+    }
+  },
+  "seijogakuen-mae": {
+    "2026-09-13": {
+      "oneK": 83300,
+      "oneLDK": 148050,
+      "oneRoom": 74650,
+      "twoLDK": 200250
+    }
+  },
+  "sendagaya": {
+    "2026-09-13": {
+      "oneK": 145000,
+      "oneLDK": 241100,
+      "oneRoom": 136800,
+      "twoLDK": 344600
+    }
+  },
+  "sendagi": {
+    "2026-09-13": {
+      "oneK": 103750,
+      "oneLDK": 176000,
+      "oneRoom": 88800,
+      "twoLDK": 231750
+    }
+  },
+  "sengakuji": {
+    "2026-09-13": {
+      "oneK": 137400,
+      "oneLDK": 249750,
+      "oneRoom": 152300,
+      "twoLDK": 370700
+    }
+  },
+  "sengoku": {
+    "2026-09-13": {
+      "oneK": 119850,
+      "oneLDK": 188750,
+      "oneRoom": 108400,
+      "twoLDK": 239700
+    }
+  },
+  "senjuohashi": {
+    "2026-09-13": {
+      "oneK": 97650,
+      "oneLDK": 168500,
+      "oneRoom": 81250,
+      "twoLDK": 204700
+    }
+  },
+  "senkawa": {
+    "2026-09-13": {
+      "oneK": 88150,
+      "oneLDK": 147000,
+      "oneRoom": 77000,
+      "twoLDK": 206400
+    }
+  },
+  "senzoku": {
+    "2026-09-13": {
+      "oneK": 106500,
+      "oneLDK": 176850,
+      "oneRoom": 91450,
+      "twoLDK": 239150
+    }
+  },
+  "senzoku-ike": {
+    "2026-09-13": {
+      "oneK": 92600,
+      "oneLDK": 151900,
+      "oneRoom": 89800,
+      "twoLDK": 204250
+    }
+  },
+  "setagaya": {
+    "2026-09-13": {
+      "oneK": 102800,
+      "oneLDK": 182700,
+      "oneRoom": 83400,
+      "twoLDK": 244450
+    }
+  },
+  "setagaya-daita": {
+    "2026-09-13": {
+      "oneK": 101250,
+      "oneLDK": 177000,
+      "oneRoom": 94800,
+      "twoLDK": 247500
+    }
+  },
+  "shakujii-koen": {
+    "2026-09-13": {
+      "oneK": 81600,
+      "oneLDK": 133450,
+      "oneRoom": 72150,
+      "twoLDK": 159500
+    }
+  },
+  "shibakoen": {
+    "2026-09-13": {
+      "oneK": 132650,
+      "oneLDK": 292750,
+      "oneRoom": 148300,
+      "twoLDK": 633650
+    }
+  },
+  "shibamata": {
+    "2026-09-13": {
+      "oneK": 79600,
+      "oneLDK": 115200,
+      "oneRoom": 71850,
+      "twoLDK": 154550
+    }
+  },
+  "shibaura-futo": {
+    "2026-09-13": {
+      "oneK": 128700,
+      "oneLDK": 256300,
+      "oneRoom": 145050,
+      "twoLDK": 336900
+    }
+  },
+  "shibuya": {
+    "2026-09-13": {
+      "oneK": 142900,
+      "oneLDK": 278350,
+      "oneRoom": 151900,
+      "twoLDK": 469550
+    }
+  },
+  "shiinamachi": {
+    "2026-09-13": {
+      "oneK": 102050,
+      "oneLDK": 158100,
+      "oneRoom": 83650,
+      "twoLDK": 219050
+    }
+  },
+  "shijo-mae": {
+    "2026-09-13": {
+      "oneK": 165450,
+      "oneLDK": 213650,
+      "oneRoom": 182350,
+      "twoLDK": 351750
+    }
+  },
+  "shim-mikawashima": {
+    "2026-09-13": {
+      "oneK": 107450,
+      "oneLDK": 162850,
+      "oneRoom": 98600,
+      "twoLDK": 219200
+    }
+  },
+  "shimbamba": {
+    "2026-09-13": {
+      "oneK": 124250,
+      "oneLDK": 193300,
+      "oneRoom": 112350,
+      "twoLDK": 261750
+    }
+  },
+  "shimbashi": {
+    "2026-09-13": {
+      "oneK": 149600,
+      "oneLDK": 305750,
+      "oneRoom": 158300,
+      "twoLDK": 394550
+    }
+  },
+  "shimo": {
+    "2026-09-13": {
+      "oneK": 96200,
+      "oneLDK": 153350,
+      "oneRoom": 80600,
+      "twoLDK": 207950
+    }
+  },
+  "shimo-igusa": {
+    "2026-09-13": {
+      "oneK": 81450,
+      "oneLDK": 134300,
+      "oneRoom": 78600,
+      "twoLDK": 176350
+    }
+  },
+  "shimo-itabashi": {
+    "2026-09-13": {
+      "oneK": 108700,
+      "oneLDK": 164650,
+      "oneRoom": 97250,
+      "twoLDK": 224100
+    }
+  },
+  "shimo-kitazawa": {
+    "2026-09-13": {
+      "oneK": 101050,
+      "oneLDK": 182700,
+      "oneRoom": 95350,
+      "twoLDK": 260200
+    }
+  },
+  "shimo-ochiai": {
+    "2026-09-13": {
+      "oneK": 114500,
+      "oneLDK": 178650,
+      "oneRoom": 93700,
+      "twoLDK": 248900
+    }
+  },
+  "shimo-shimmei": {
+    "2026-09-13": {
+      "oneK": 115550,
+      "oneLDK": 186650,
+      "oneRoom": 104800,
+      "twoLDK": 261500
+    }
+  },
+  "shimo-takaido": {
+    "2026-09-13": {
+      "oneK": 88300,
+      "oneLDK": 163100,
+      "oneRoom": 75050,
+      "twoLDK": 219850
+    }
+  },
+  "shimomaruko": {
+    "2026-09-13": {
+      "oneK": 92950,
+      "oneLDK": 140100,
+      "oneRoom": 82250,
+      "twoLDK": 193800
+    }
+  },
+  "shimura-sakaue": {
+    "2026-09-13": {
+      "oneK": 93800,
+      "oneLDK": 141950,
+      "oneRoom": 78250,
+      "twoLDK": 185050
+    }
+  },
+  "shimura-sanchome": {
+    "2026-09-13": {
+      "oneK": 92650,
+      "oneLDK": 138100,
+      "oneRoom": 76450,
+      "twoLDK": 184750
+    }
+  },
+  "shin-egota": {
+    "2026-09-13": {
+      "oneK": 97200,
+      "oneLDK": 159250,
+      "oneRoom": 79900,
+      "twoLDK": 196650
+    }
+  },
+  "shin-itabashi": {
+    "2026-09-13": {
+      "oneK": 103550,
+      "oneLDK": 165550,
+      "oneRoom": 85900,
+      "twoLDK": 222100
+    }
+  },
+  "shin-kiba": {
+    "2026-09-13": {
+      "oneK": 108500
+    }
+  },
+  "shin-koenji": {
+    "2026-09-13": {
+      "oneK": 94450,
+      "oneLDK": 160600,
+      "oneRoom": 83700,
+      "twoLDK": 208600
+    }
+  },
+  "shin-koiwa": {
+    "2026-09-13": {
+      "oneK": 78450,
+      "oneLDK": 122450,
+      "oneRoom": 73250,
+      "twoLDK": 152700
+    }
+  },
+  "shin-koshinzuka": {
+    "2026-09-13": {
+      "oneK": 115250,
+      "oneLDK": 174900,
+      "oneRoom": 103500,
+      "twoLDK": 230650
+    }
+  },
+  "shin-nakano": {
+    "2026-09-13": {
+      "oneK": 106600,
+      "oneLDK": 182450,
+      "oneRoom": 91650,
+      "twoLDK": 239300
+    }
+  },
+  "shin-okachimachi": {
+    "2026-09-13": {
+      "oneK": 135000,
+      "oneLDK": 204650,
+      "oneRoom": 129100,
+      "twoLDK": 255250
+    }
+  },
+  "shin-okubo": {
+    "2026-09-13": {
+      "oneK": 119950,
+      "oneLDK": 204400,
+      "oneRoom": 99100,
+      "twoLDK": 292650
+    }
+  },
+  "shin-otsuka": {
+    "2026-09-13": {
+      "oneK": 112000,
+      "oneLDK": 181900,
+      "oneRoom": 101100,
+      "twoLDK": 238200
+    }
+  },
+  "shin-sakuradai": {
+    "2026-09-13": {
+      "oneK": 91850,
+      "oneLDK": 150750,
+      "oneRoom": 77100,
+      "twoLDK": 188250
+    }
+  },
+  "shin-shibamata": {
+    "2026-09-13": {
+      "oneK": 78800,
+      "oneLDK": 125200,
+      "oneRoom": 72250,
+      "twoLDK": 158600
+    }
+  },
+  "shin-takashimadaira": {
+    "2026-09-13": {
+      "oneK": 82350,
+      "oneLDK": 119050,
+      "oneRoom": 67500,
+      "twoLDK": 158450
+    }
+  },
+  "shin-toyosu": {
+    "2026-09-13": {
+      "oneK": 160400,
+      "oneLDK": 229250,
+      "oneRoom": 190050,
+      "twoLDK": 317650
+    }
+  },
+  "shinagawa": {
+    "2026-09-13": {
+      "oneK": 125350,
+      "oneLDK": 244250,
+      "oneRoom": 150450,
+      "twoLDK": 379950
+    }
+  },
+  "shinagawa-seaside": {
+    "2026-09-13": {
+      "oneK": 121850,
+      "oneLDK": 192600,
+      "oneRoom": 121200,
+      "twoLDK": 258100
+    }
+  },
+  "shinanomachi": {
+    "2026-09-13": {
+      "oneK": 141500,
+      "oneLDK": 216600,
+      "oneRoom": 114750,
+      "twoLDK": 336200
+    }
+  },
+  "shindaita": {
+    "2026-09-13": {
+      "oneK": 103800,
+      "oneLDK": 180750,
+      "oneRoom": 93500,
+      "twoLDK": 237600
+    }
+  },
+  "shinjuku": {
+    "2026-09-13": {
+      "oneK": 138300,
+      "oneLDK": 234800,
+      "oneRoom": 125450,
+      "twoLDK": 342550
+    }
+  },
+  "shinjuku-gyoemmae": {
+    "2026-09-13": {
+      "oneK": 149000,
+      "oneLDK": 228900,
+      "oneRoom": 147950,
+      "twoLDK": 335350
+    }
+  },
+  "shinjuku-nishiguchi": {
+    "2026-09-13": {
+      "oneK": 138300,
+      "oneLDK": 234800,
+      "oneRoom": 125450,
+      "twoLDK": 342550
+    }
+  },
+  "shinjuku-sanchome": {
+    "2026-09-13": {
+      "oneK": 152400,
+      "oneLDK": 252650,
+      "oneRoom": 144150,
+      "twoLDK": 370500
+    }
+  },
+  "shinonome": {
+    "2026-09-13": {
+      "oneK": 128150,
+      "oneLDK": 209800,
+      "twoLDK": 277050
+    }
+  },
+  "shinozaki": {
+    "2026-09-13": {
+      "oneK": 74750,
+      "oneLDK": 119950,
+      "oneRoom": 70650,
+      "twoLDK": 146450
+    }
+  },
+  "shinsen": {
+    "2026-09-13": {
+      "oneK": 140300,
+      "oneLDK": 248250,
+      "oneRoom": 152950,
+      "twoLDK": 379950
+    }
+  },
+  "shiodome": {
+    "2026-09-13": {
+      "oneK": 156550,
+      "oneLDK": 304850,
+      "oneRoom": 157300,
+      "twoLDK": 439200
+    }
+  },
+  "shiomi": {
+    "2026-09-13": {
+      "oneK": 127250,
+      "oneLDK": 172150,
+      "oneRoom": 119950,
+      "twoLDK": 237000
+    }
+  },
+  "shirokane-takanawa": {
+    "2026-09-13": {
+      "oneK": 139100,
+      "oneLDK": 246500,
+      "oneRoom": 145900,
+      "twoLDK": 419750
+    }
+  },
+  "shirokanedai": {
+    "2026-09-13": {
+      "oneK": 139000,
+      "oneLDK": 256050,
+      "oneRoom": 152250,
+      "twoLDK": 423000
+    }
+  },
+  "shoin-jinja-mae": {
+    "2026-09-13": {
+      "oneK": 97100,
+      "oneLDK": 186150,
+      "oneRoom": 93050,
+      "twoLDK": 253000
+    }
+  },
+  "showajima": {
+    "2026-09-13": {
+      "oneK": 87100,
+      "oneLDK": 139750,
+      "oneRoom": 69250,
+      "twoLDK": 171550
+    }
+  },
+  "soshigaya-okura": {
+    "2026-09-13": {
+      "oneK": 85150,
+      "oneLDK": 157650,
+      "oneRoom": 81250,
+      "twoLDK": 211950
+    }
+  },
+  "suehirocho": {
+    "2026-09-13": {
+      "oneK": 143700,
+      "oneLDK": 216200,
+      "oneRoom": 138650,
+      "twoLDK": 281350
+    }
+  },
+  "sugamo": {
+    "2026-09-13": {
+      "oneK": 114200,
+      "oneLDK": 184000,
+      "oneRoom": 106650,
+      "twoLDK": 239450
+    }
+  },
+  "sugamoshinden": {
+    "2026-09-13": {
+      "oneK": 109500,
+      "oneLDK": 178900,
+      "oneRoom": 103550,
+      "twoLDK": 234800
+    }
+  },
+  "suidobashi": {
+    "2026-09-13": {
+      "oneK": 144550,
+      "oneLDK": 228750,
+      "oneRoom": 138350,
+      "twoLDK": 324050
+    }
+  },
+  "sumiyoshi": {
+    "2026-09-13": {
+      "oneK": 121850,
+      "oneLDK": 185550,
+      "oneRoom": 118150,
+      "twoLDK": 234650
+    }
+  },
+  "tabata": {
+    "2026-09-13": {
+      "oneK": 99450,
+      "oneLDK": 149700,
+      "oneRoom": 88950,
+      "twoLDK": 204050
+    }
+  },
+  "tachiaigawa": {
+    "2026-09-13": {
+      "oneK": 112600,
+      "oneLDK": 183650,
+      "oneRoom": 103550,
+      "twoLDK": 243500
+    }
+  },
+  "takadanobaba": {
+    "2026-09-13": {
+      "oneK": 115200,
+      "oneLDK": 190200,
+      "oneRoom": 96250,
+      "twoLDK": 268650
+    }
+  },
+  "takaido": {
+    "2026-09-13": {
+      "oneK": 90700,
+      "oneLDK": 148950,
+      "oneRoom": 76400,
+      "twoLDK": 200400
+    }
+  },
+  "takanawa-gateway": {
+    "2026-09-13": {
+      "oneK": 135050,
+      "oneLDK": 250400,
+      "oneRoom": 163700,
+      "twoLDK": 368350
+    }
+  },
+  "takanawadai": {
+    "2026-09-13": {
+      "oneK": 127950,
+      "oneLDK": 242050,
+      "oneRoom": 128250,
+      "twoLDK": 439650
+    }
+  },
+  "takashimadaira": {
+    "2026-09-13": {
+      "oneK": 89250,
+      "oneLDK": 127900,
+      "oneRoom": 73650,
+      "twoLDK": 163200
+    }
+  },
+  "takebashi": {
+    "2026-09-13": {
+      "oneK": 149200,
+      "oneLDK": 210300,
+      "oneRoom": 140000,
+      "twoLDK": 709650
+    }
+  },
+  "takenotsuka": {
+    "2026-09-13": {
+      "oneK": 77000,
+      "oneLDK": 112950,
+      "oneRoom": 71000,
+      "twoLDK": 145350
+    }
+  },
+  "takeshiba": {
+    "2026-09-13": {
+      "oneK": 155100,
+      "oneLDK": 302550,
+      "oneRoom": 178850,
+      "twoLDK": 508600
+    }
+  },
+  "takinogawa-itchome": {
+    "2026-09-13": {
+      "oneK": 109300,
+      "oneLDK": 164300,
+      "oneRoom": 77050,
+      "twoLDK": 221000
+    }
+  },
+  "tamachi": {
+    "2026-09-13": {
+      "oneK": 136250,
+      "oneLDK": 243150,
+      "oneRoom": 138000,
+      "twoLDK": 352800
+    }
+  },
+  "tamagawa": {
+    "2026-09-13": {
+      "oneK": 91200,
+      "oneLDK": 151250,
+      "oneRoom": 83250,
+      "twoLDK": 230850
+    }
+  },
+  "tameike-sanno": {
+    "2026-09-13": {
+      "oneK": 159350,
+      "oneLDK": 290950,
+      "oneRoom": 169600,
+      "twoLDK": 473300
+    }
+  },
+  "tatsumi": {
+    "2026-09-13": {
+      "oneK": 127550,
+      "oneLDK": 200600,
+      "oneRoom": 119200,
+      "twoLDK": 262200
+    }
+  },
+  "tawaramachi": {
+    "2026-09-13": {
+      "oneK": 133400,
+      "oneLDK": 197200,
+      "oneRoom": 123250,
+      "twoLDK": 249500
+    }
+  },
+  "tenkubashi": {
+    "2026-09-13": {
+      "oneK": 102050,
+      "oneLDK": 138300,
+      "oneRoom": 83200,
+      "twoLDK": 182150
+    }
+  },
+  "tennozu-isle": {
+    "2026-09-13": {
+      "oneK": 126100,
+      "oneLDK": 216450,
+      "oneRoom": 162450,
+      "twoLDK": 307200
+    }
+  },
+  "tobu-nerima": {
+    "2026-09-13": {
+      "oneK": 86700,
+      "oneLDK": 132300,
+      "oneRoom": 72600,
+      "twoLDK": 171300
+    }
+  },
+  "tochomae": {
+    "2026-09-13": {
+      "oneK": 133650,
+      "oneLDK": 234550,
+      "oneRoom": 124350,
+      "twoLDK": 358700
+    }
+  },
+  "todaimae": {
+    "2026-09-13": {
+      "oneK": 107100,
+      "oneLDK": 188200,
+      "oneRoom": 91550,
+      "twoLDK": 249950
+    }
+  },
+  "toden-zoshigaya": {
+    "2026-09-13": {
+      "oneK": 116400,
+      "oneLDK": 191750,
+      "oneRoom": 97250,
+      "twoLDK": 257150
+    }
+  },
+  "todoroki": {
+    "2026-09-13": {
+      "oneK": 90150,
+      "oneLDK": 162650,
+      "oneRoom": 83750,
+      "twoLDK": 217150
+    }
+  },
+  "togoshi": {
+    "2026-09-13": {
+      "oneK": 112650,
+      "oneLDK": 202500,
+      "oneRoom": 101900,
+      "twoLDK": 275000
+    }
+  },
+  "togoshi-koen": {
+    "2026-09-13": {
+      "oneK": 109550,
+      "oneLDK": 182900,
+      "oneRoom": 102250,
+      "twoLDK": 244250
+    }
+  },
+  "tokiwadai": {
+    "2026-09-13": {
+      "oneK": 91250,
+      "oneLDK": 135850,
+      "oneRoom": 78850,
+      "twoLDK": 189000
+    }
+  },
+  "tokyo": {
+    "2026-09-13": {
+      "oneK": 144350,
+      "oneLDK": 256750,
+      "oneRoom": 155650,
+      "twoLDK": 339050
+    }
+  },
+  "tokyo-skytree": {
+    "2026-09-13": {
+      "oneK": 119200,
+      "oneLDK": 179550,
+      "oneRoom": 106350,
+      "twoLDK": 224050
+    }
+  },
+  "tokyo-teleport": {
+    "2026-09-13": {
+      "oneLDK": 232250,
+      "twoLDK": 438500
+    }
+  },
+  "toneri": {
+    "2026-09-13": {
+      "oneK": 77000,
+      "oneLDK": 103000,
+      "oneRoom": 79000,
+      "twoLDK": 117000
+    }
+  },
+  "toneri-koen": {
+    "2026-09-13": {
+      "oneK": 78500,
+      "oneLDK": 113500,
+      "oneRoom": 72500,
+      "twoLDK": 145000
+    }
+  },
+  "toranomon": {
+    "2026-09-13": {
+      "oneK": 153700,
+      "oneLDK": 427650,
+      "oneRoom": 160750,
+      "twoLDK": 543600
+    }
+  },
+  "toritsu-daigaku": {
+    "2026-09-13": {
+      "oneK": 105500,
+      "oneLDK": 195900,
+      "oneRoom": 106050,
+      "twoLDK": 279850
+    }
+  },
+  "toritsu-kasei": {
+    "2026-09-13": {
+      "oneK": 88200,
+      "oneLDK": 137800,
+      "oneRoom": 77300,
+      "twoLDK": 176200
+    }
+  },
+  "toshimaen": {
+    "2026-09-13": {
+      "oneK": 85800,
+      "oneLDK": 141350,
+      "oneRoom": 71250,
+      "twoLDK": 197750
+    }
+  },
+  "toyocho": {
+    "2026-09-13": {
+      "oneK": 122100,
+      "oneLDK": 172650,
+      "oneRoom": 120250,
+      "twoLDK": 226300
+    }
+  },
+  "toyosu": {
+    "2026-09-13": {
+      "oneK": 133300,
+      "oneLDK": 196000,
+      "oneRoom": 133400,
+      "twoLDK": 277400
+    }
+  },
+  "tsukiji": {
+    "2026-09-13": {
+      "oneK": 136000,
+      "oneLDK": 231150,
+      "oneRoom": 145650,
+      "twoLDK": 329000
+    }
+  },
+  "tsukijishijo": {
+    "2026-09-13": {
+      "oneK": 130300,
+      "oneLDK": 254350,
+      "oneRoom": 147350,
+      "twoLDK": 327100
+    }
+  },
+  "tsukishima": {
+    "2026-09-13": {
+      "oneK": 131400,
+      "oneLDK": 226450,
+      "oneRoom": 139800,
+      "twoLDK": 326300
+    }
+  },
+  "uchisaiwaicho": {
+    "2026-09-13": {
+      "oneK": 157700,
+      "oneLDK": 312250,
+      "oneRoom": 175900,
+      "twoLDK": 463750
+    }
+  },
+  "ueno": {
+    "2026-09-13": {
+      "oneK": 135250,
+      "oneLDK": 203150,
+      "oneRoom": 110300,
+      "twoLDK": 268550
+    }
+  },
+  "uguisudani": {
+    "2026-09-13": {
+      "oneK": 126250,
+      "oneLDK": 182300,
+      "oneRoom": 114450,
+      "twoLDK": 241050
+    }
+  },
+  "ukimafunado": {
+    "2026-09-13": {
+      "oneK": 91050,
+      "oneLDK": 139500,
+      "oneRoom": 73500,
+      "twoLDK": 184000
+    }
+  },
+  "umegaoka": {
+    "2026-09-13": {
+      "oneK": 88500,
+      "oneLDK": 157250,
+      "oneRoom": 79150,
+      "twoLDK": 222400
+    }
+  },
+  "umejima": {
+    "2026-09-13": {
+      "oneK": 80700,
+      "oneLDK": 120000,
+      "oneRoom": 73250,
+      "twoLDK": 159650
+    }
+  },
+  "umeyashiki": {
+    "2026-09-13": {
+      "oneK": 96500,
+      "oneLDK": 150950,
+      "oneRoom": 89600,
+      "twoLDK": 192850
+    }
+  },
+  "unoki": {
+    "2026-09-13": {
+      "oneK": 89300,
+      "oneLDK": 137550,
+      "oneRoom": 77250,
+      "twoLDK": 204100
+    }
+  },
+  "ushida": {
+    "2026-09-13": {
+      "oneK": 94950,
+      "oneLDK": 149600,
+      "oneRoom": 77500,
+      "twoLDK": 200000
+    }
+  },
+  "ushigome-kagurazaka": {
+    "2026-09-13": {
+      "oneK": 135750,
+      "oneLDK": 219100,
+      "oneRoom": 120900,
+      "twoLDK": 353750
+    }
+  },
+  "ushigome-yanagicho": {
+    "2026-09-13": {
+      "oneK": 127950,
+      "oneLDK": 200100,
+      "oneRoom": 113750,
+      "twoLDK": 283800
+    }
+  },
+  "wakabayashi": {
+    "2026-09-13": {
+      "oneK": 107600,
+      "oneLDK": 186600,
+      "oneRoom": 92850,
+      "twoLDK": 248700
+    }
+  },
+  "wakamatsu-kawada": {
+    "2026-09-13": {
+      "oneK": 128600,
+      "oneLDK": 197600,
+      "oneRoom": 111100,
+      "twoLDK": 284850
+    }
+  },
+  "yaguchi-no-watashi": {
+    "2026-09-13": {
+      "oneK": 97700,
+      "oneLDK": 148850,
+      "oneRoom": 85650,
+      "twoLDK": 190200
+    }
+  },
+  "yahiro": {
+    "2026-09-13": {
+      "oneK": 95300,
+      "oneLDK": 143900,
+      "oneRoom": 78950,
+      "twoLDK": 180850
+    }
+  },
+  "yazaike": {
+    "2026-09-13": {
+      "oneK": 80550,
+      "oneLDK": 114750,
+      "oneRoom": 71300,
+      "twoLDK": 153700
+    }
+  },
+  "yoga": {
+    "2026-09-13": {
+      "oneK": 100700,
+      "oneLDK": 170800,
+      "oneRoom": 86100,
+      "twoLDK": 237200
+    }
+  },
+  "yotsugi": {
+    "2026-09-13": {
+      "oneK": 84050,
+      "oneLDK": 123450,
+      "oneRoom": 71850,
+      "twoLDK": 158950
+    }
+  },
+  "yotsuya": {
+    "2026-09-13": {
+      "oneK": 143000,
+      "oneLDK": 237850,
+      "oneRoom": 128200,
+      "twoLDK": 385650
+    }
+  },
+  "yotsuya-sanchome": {
+    "2026-09-13": {
+      "oneK": 140200,
+      "oneLDK": 215600,
+      "oneRoom": 124950,
+      "twoLDK": 313650
+    }
+  },
+  "yoyogi": {
+    "2026-09-13": {
+      "oneK": 141250,
+      "oneLDK": 233350,
+      "oneRoom": 138800,
+      "twoLDK": 354350
+    }
+  },
+  "yoyogi-hachiman": {
+    "2026-09-13": {
+      "oneK": 129800,
+      "oneLDK": 229800,
+      "oneRoom": 136000,
+      "twoLDK": 336800
+    }
+  },
+  "yoyogi-uehara": {
+    "2026-09-13": {
+      "oneK": 116500,
+      "oneLDK": 217150,
+      "oneRoom": 110200,
+      "twoLDK": 311350
+    }
+  },
+  "yukigaya-otsuka": {
+    "2026-09-13": {
+      "oneK": 89300,
+      "oneLDK": 153550,
+      "oneRoom": 85550,
+      "twoLDK": 217500
+    }
+  },
+  "yurakucho": {
+    "2026-09-13": {
+      "oneLDK": 212000,
+      "oneRoom": 167500,
+      "twoLDK": 365000
+    }
+  },
+  "yushima": {
+    "2026-09-13": {
+      "oneK": 145600,
+      "oneLDK": 225900,
+      "oneRoom": 159300,
+      "twoLDK": 286700
+    }
+  },
+  "yutenji": {
+    "2026-09-13": {
+      "oneK": 111500,
+      "oneLDK": 200500,
+      "oneRoom": 98350,
+      "twoLDK": 286300
+    }
+  },
+  "zoshigaya": {
+    "2026-09-13": {
+      "oneK": 106350,
+      "oneLDK": 180400,
+      "oneRoom": 95500,
+      "twoLDK": 261450
+    }
+  },
+  "zoshiki": {
+    "2026-09-13": {
+      "oneK": 95400,
+      "oneLDK": 146550,
+      "oneRoom": 83750,
+      "twoLDK": 175400
     }
   }
 }

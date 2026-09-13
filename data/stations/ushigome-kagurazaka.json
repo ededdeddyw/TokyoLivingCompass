@@ -1,0 +1,22 @@
+{
+  "slug": "ushigome-kagurazaka",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 120900,
+    "oneK": 135750,
+    "oneLDK": 219100,
+    "twoLDK": 353750
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

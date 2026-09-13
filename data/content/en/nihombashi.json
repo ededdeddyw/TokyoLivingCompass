@@ -2,8 +2,8 @@
   "slug": "nihombashi",
   "locale": "en",
   "name": "Nihombashi",
-  "tagline": "Otemachi in 3 minutes and Toranomon in 8 minutes. Served by 3 lines.",
-  "summary": "The station is in Chuo City, served by Tokyo Metro Ginza Line, Tokyo Metro Tozai Line and Toei Asakusa Line. Journey times to the main business districts are 3 minutes to Otemachi, 21 minutes to Shinjuku, 21 minutes to Shibuya and 17 minutes to Shinagawa. The station stands 4 m above sea level, and the ground within 800 m varies in height by 2.9 m. The land around the station is close to level.",
+  "tagline": "Otemachi in 3 minutes and Toranomon in 8 minutes. Served by 3 lines. A one-room flat rents for roughly ¥160,000 to ¥170,000.",
+  "summary": "The station is in Chuo City, served by Tokyo Metro Ginza Line, Tokyo Metro Tozai Line and Toei Asakusa Line. Journey times to the main business districts are 3 minutes to Otemachi, 21 minutes to Shinjuku, 21 minutes to Shibuya and 17 minutes to Shinagawa. A one-room flat rents for roughly ¥160,000 to ¥170,000. The station stands 4 m above sea level, and the ground within 800 m varies in height by 2.9 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 4 m above sea level. Within 800 m the ground ranges from 2.1 m to 5 m, a difference of 2.9 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
@@ -41,14 +41,25 @@
   ],
   "medical": "Within an 800 m walk of the station there are 19 clinics and 13 pharmacies. Facilities recorded as hospitals lie at いしせ脳神経外科クリニック, about 1115 m away and 宮内庁病院, about 1402 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "3 lines serve the station: Tokyo Metro Ginza Line, Tokyo Metro Tozai Line and Toei Asakusa Line. The lines are split between operators (Tokyo Metro runs 2 lines and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 73.",
+  "rentRange": {
+    "note": "One room ¥160,000 to ¥170,000, 1K ¥130,000 to ¥140,000, 1LDK ¥240,000 to ¥250,000 and 2LDK ¥290,000 to ¥300,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥160,000 to ¥170,000. For One room, 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "mitsukoshimae",
-      "note": "556 m away in a straight line. It reaches Otemachi in about the same time as Nihombashi."
+      "note": "556 m away in a straight line. It reaches Otemachi in about the same time as Nihombashi. One-room rents run about ¥15,000 lower."
     },
     {
       "slug": "kayabacho",
-      "note": "574 m away in a straight line. It reaches Otemachi in about the same time as Nihombashi."
+      "note": "574 m away in a straight line. It reaches Otemachi in about the same time as Nihombashi. One-room rents run about ¥21,000 lower."
     }
   ],
   "goodFor": [
@@ -57,7 +68,8 @@
     "People who get around by bicycle or with a pushchair"
   ],
   "notFor": [
-    "People avoiding projected flood inundation areas"
+    "People avoiding projected flood inundation areas",
+    "People who want to hold the rent down"
   ],
   "authoredBy": "data-generated"
 }

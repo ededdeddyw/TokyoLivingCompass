@@ -2,8 +2,8 @@
   "slug": "tabata",
   "locale": "en",
   "name": "Tabata",
-  "tagline": "Tokyo in 16 minutes and Otemachi in 20 minutes. Served by 2 lines.",
-  "summary": "The station is in Kita City, served by JR Yamanote Line and JR Keihin-Tohoku Line. Journey times to the main business districts are 20 minutes to Otemachi, 23 minutes to Shinjuku, 28 minutes to Shibuya and 30 minutes to Shinagawa. The station stands 6 m above sea level, and the ground within 800 m varies in height by 19.1 m. The land around the station has gentle slopes.",
+  "tagline": "Tokyo in 16 minutes and Otemachi in 20 minutes. Served by 2 lines. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
+  "summary": "The station is in Kita City, served by JR Yamanote Line and JR Keihin-Tohoku Line. Journey times to the main business districts are 20 minutes to Otemachi, 23 minutes to Shinjuku, 28 minutes to Shibuya and 30 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 6 m above sea level, and the ground within 800 m varies in height by 19.1 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 6 m above sea level. Within 800 m the ground ranges from 3.8 m to 22.9 m, a difference of 19.1 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
@@ -40,21 +40,33 @@
     }
   ],
   "medical": "Within an 800 m walk of the station there are 17 clinics and 16 pharmacies. Facilities recorded as hospitals lie at 都立駒込病院, about 1010 m away and はせがわ病院, about 1597 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "2 lines serve the station: JR Yamanote Line and JR Keihin-Tohoku Line. All 2 lines are run by JR East, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "stationNote": "2 lines serve the station: JR Yamanote Line and JR Keihin-Tohoku Line. Both lines are run by JR East, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "rentRange": {
+    "note": "One room ¥80,000 to ¥90,000, 1K ¥90,000 to ¥100,000, 1LDK ¥140,000 to ¥150,000 and 2LDK ¥200,000 to ¥210,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "nishi-nippori",
-      "note": "811 m away in a straight line. It reaches Otemachi 7 minutes sooner than Tabata."
+      "note": "811 m away in a straight line. It reaches Otemachi 7 minutes sooner than Tabata. One-room rents run about ¥7,000 higher."
     },
     {
       "slug": "akado-shogakkomae",
-      "note": "872 m away in a straight line. It reaches Otemachi in about the same time as Tabata."
+      "note": "872 m away in a straight line. It reaches Otemachi in about the same time as Tabata. One-room rents run about ¥6,000 higher."
     }
   ],
   "goodFor": [
     "People commuting to Otemachi and Marunouchi",
     "People who want to finish their shopping on foot",
-    "People who want a park close by"
+    "People who want a park close by",
+    "People living alone who want to hold the rent down"
   ],
   "notFor": [
     "The data does not show a drawback particular to this station"

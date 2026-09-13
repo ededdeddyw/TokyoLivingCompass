@@ -1,0 +1,22 @@
+{
+  "slug": "aoyama-itchome",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 144750,
+    "oneK": 170300,
+    "oneLDK": 308400,
+    "twoLDK": 509100
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

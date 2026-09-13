@@ -1,0 +1,22 @@
+{
+  "slug": "samezu",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 110000,
+    "oneK": 114950,
+    "oneLDK": 190450,
+    "twoLDK": 252500
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

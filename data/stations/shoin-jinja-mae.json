@@ -1,0 +1,22 @@
+{
+  "slug": "shoin-jinja-mae",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 93050,
+    "oneK": 97100,
+    "oneLDK": 186150,
+    "twoLDK": 253000
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

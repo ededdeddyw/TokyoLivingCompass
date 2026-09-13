@@ -1,0 +1,22 @@
+{
+  "slug": "hiro-o",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 152750,
+    "oneK": 147950,
+    "oneLDK": 284550,
+    "twoLDK": 487600
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

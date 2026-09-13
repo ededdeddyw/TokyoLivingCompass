@@ -49,8 +49,9 @@ def main():
 
     out = {}
     for fname in sorted(os.listdir(SURVEY_DIR)):
-        # sources.json は駅ごとのURL表であって観測値ではない
-        if not fname.endswith(".json") or fname == "sources.json":
+        # sources.json は駅ごとのURL表、history.json は帯の履歴であって、
+        # どちらも駅ごとの観測値ではない
+        if not fname.endswith(".json") or fname in ("sources.json", "history.json"):
             continue
         path = os.path.join(SURVEY_DIR, fname)
         survey = json.load(open(path, encoding="utf-8"))
@@ -70,6 +71,19 @@ def main():
             values = [o["rent"][t] for o in obs if o["rent"].get(t) is not None]
             if len(values) >= 2:
                 bands[t] = band(values)
+        # 広い部屋のほうが高いのが普通で、崩れているときは、掲載が少ない間取りに
+        # 一部の高額物件が混ざって平均を押し上げていることが多い。
+        # 東雲のワンルームは、1社が29.4万円、もう1社が18.0万円で、平均が
+        # 同じ駅の1LDKを超えた。そのまま出すより、その間取りは帯にしないほうがよい。
+        for smaller, larger in (("oneRoom", "oneLDK"), ("oneK", "oneLDK"),
+                                ("oneLDK", "twoLDK")):
+            if smaller in bands and larger in bands:
+                if bands[smaller]["mean"] > bands[larger]["mean"]:
+                    print(f"  {slug}: {smaller} の平均が {larger} を超えたため、"
+                          f"{smaller} は帯にしなかった"
+                          f"（{bands[smaller]['sourceMin']}〜{bands[smaller]['sourceMax']}円）")
+                    del bands[smaller]
+
         if not bands:
             print(f"  {slug}: 2サイト以上そろった間取りがないため、帯を作らなかった")
             continue

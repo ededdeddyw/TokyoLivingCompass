@@ -1,0 +1,22 @@
+{
+  "slug": "takaido",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 76400,
+    "oneK": 90700,
+    "oneLDK": 148950,
+    "twoLDK": 200400
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

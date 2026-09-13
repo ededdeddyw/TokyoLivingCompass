@@ -2,8 +2,8 @@
   "slug": "narimasu",
   "locale": "en",
   "name": "Narimasu",
-  "tagline": "Shinjuku in 33 minutes and Shibuya in 37 minutes. Served by 3 lines.",
-  "summary": "The station is in Itabashi City, served by Tobu Tojo Line, Tokyo Metro Yurakucho Line and Tokyo Metro Fukutoshin Line. Journey times to the main business districts are 42 minutes to Otemachi, 33 minutes to Shinjuku, 37 minutes to Shibuya and 59 minutes to Shinagawa. The station stands 32.1 m above sea level, and the ground within 800 m varies in height by 18.3 m. The land around the station has gentle slopes.",
+  "tagline": "Shinjuku in 33 minutes and Shibuya in 37 minutes. Served by 3 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
+  "summary": "The station is in Itabashi City, served by Tobu Tojo Line, Tokyo Metro Yurakucho Line and Tokyo Metro Fukutoshin Line. Journey times to the main business districts are 42 minutes to Otemachi, 33 minutes to Shinjuku, 37 minutes to Shibuya and 59 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 32.1 m above sea level, and the ground within 800 m varies in height by 18.3 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 32.1 m above sea level. Within 800 m the ground ranges from 16.6 m to 34.9 m, a difference of 18.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
@@ -41,6 +41,17 @@
   ],
   "medical": "Within an 800 m walk of the station there are 9 clinics and 9 pharmacies. Facilities recorded as hospitals lie at 国立病院機構埼玉病院, about 1205 m away and 国立病院機構 埼玉病院, about 1216 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "3 lines serve the station: Tobu Tojo Line, Tokyo Metro Yurakucho Line and Tokyo Metro Fukutoshin Line. The lines are split between operators (Tobu runs 1 line and Tokyo Metro runs 2 lines), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 73.",
+  "rentRange": {
+    "note": "One room ¥70,000 to ¥80,000, 1K ¥80,000 to ¥90,000, 1LDK ¥110,000 to ¥120,000 and 2LDK ¥140,000 to ¥150,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. For 1LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "chikatetsu-akatsuka",
@@ -48,13 +59,14 @@
     },
     {
       "slug": "hikarigaoka",
-      "note": "2069 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Narimasu."
+      "note": "2069 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Narimasu. One-room rents run about ¥9,000 higher."
     }
   ],
   "goodFor": [
     "People who want another route when a line stops",
     "People who want to finish their shopping on foot",
-    "People avoiding projected flood inundation areas"
+    "People avoiding projected flood inundation areas",
+    "People living alone who want to hold the rent down"
   ],
   "notFor": [
     "People who want plenty of places to eat out"

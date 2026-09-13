@@ -1,0 +1,22 @@
+{
+  "slug": "kayabacho",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 141450,
+    "oneK": 132800,
+    "oneLDK": 220300,
+    "twoLDK": 288050
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "nogata",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 72450,
+    "oneK": 87950,
+    "oneLDK": 144650,
+    "twoLDK": 177900
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

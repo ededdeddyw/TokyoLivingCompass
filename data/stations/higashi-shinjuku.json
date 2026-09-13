@@ -1,0 +1,22 @@
+{
+  "slug": "higashi-shinjuku",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 123300,
+    "oneK": 137350,
+    "oneLDK": 221850,
+    "twoLDK": 310200
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

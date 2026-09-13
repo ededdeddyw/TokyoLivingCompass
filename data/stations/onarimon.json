@@ -1,0 +1,22 @@
+{
+  "slug": "onarimon",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 161700,
+    "oneK": 155000,
+    "oneLDK": 309600,
+    "twoLDK": 407500
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

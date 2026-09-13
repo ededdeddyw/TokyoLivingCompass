@@ -1,0 +1,22 @@
+{
+  "slug": "sendagi",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 88800,
+    "oneK": 103750,
+    "oneLDK": 176000,
+    "twoLDK": 231750
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

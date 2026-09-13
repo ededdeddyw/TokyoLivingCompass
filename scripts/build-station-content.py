@@ -21,7 +21,8 @@
 これらはデータが無く、書けば記憶で書くことになる（CLAUDE.md ルール35）。
 16層のうち埋まるのは、データのある層だけである。
 
-すでに人が書いた駅（authoredBy が draft か human）は上書きしない。
+すでに人が書いた駅（authoredBy が draft か human）と、
+文章としてローカライズした駅（ai-localized）は上書きしない。
 
 言語ごとに違うのは文型だけで、組み立ての手順は変わらない。
 文型は scripts/station_phrases.py にまとめてある。
@@ -130,7 +131,7 @@ def build(st, ctx):
                                 minuteWord=word(p, "minute", com[h]))
         for h in hub_order if h in com))))
     if rent_txt:
-        parts.append(rent_txt)
+        parts.append(rent_txt + p["sentenceGap"])
     if ter.get("slope"):
         parts.append(p["summaryTerrain"].format(
             elevation=ter["stationElevationM"], spread=ter["spreadM"],
@@ -218,7 +219,8 @@ def build(st, ctx):
             for co in unique))
         note.append(p["stationMixedOperators"].format(breakdown=breakdown))
     else:
-        note.append(p["stationSameOperator"].format(
+        key = "stationSameOperatorTwo" if len(lines) == 2 else "stationSameOperator"
+        note.append(p[key].format(
             count=len(lines), lineWord=word(p, "line", len(lines)),
             operator=p["company"][unique[0]]))
     sc = ctx["sc"].get(slug, {})
@@ -266,8 +268,11 @@ def build(st, ctx):
         if band and ob and "oneRoom" in band["bands"] and "oneRoom" in ob["bands"]:
             dm = ob["bands"]["oneRoom"]["mean"] - band["bands"]["oneRoom"]["mean"]
             if abs(dm) >= 5000:
+                # 平均どうしの差をそのまま出すと「7,233円ほど高い」のように、
+                # 元の帯（1万円刻み）より細かい数字になり、精度を偽ることになる。
+                rounded = int(round(abs(dm) / 1000)) * 1000
                 key = "neighbourRentHigher" if dm > 0 else "neighbourRentLower"
-                bits.append(p[key].format(amount=money(abs(dm)), unit=unit))
+                bits.append(p[key].format(amount=money(rounded), unit=unit))
         nb.append({"slug": o["slug"], "note": "".join(bits).strip()})
     if nb:
         c["neighbours"] = nb
@@ -351,8 +356,8 @@ def main():
         path = os.path.join(out_dir, f"{st['slug']}.json")
         if os.path.exists(path):
             existing = json.load(open(path, encoding="utf-8"))
-            # 人が書いた駅は上書きしない
-            if existing.get("authoredBy") in ("human", "draft"):
+            # 人が書いた駅と、文章としてローカライズした駅は上書きしない
+            if existing.get("authoredBy") in ("human", "draft", "ai-localized"):
                 skipped += 1
                 continue
         c = build(st, ctx)
@@ -362,7 +367,7 @@ def main():
             open(path, "a", encoding="utf-8").write("\n")
             written += 1
 
-    print(f"組み立てた駅: {made} / 人が書いた駅は残した: {skipped}")
+    print(f"組み立てた駅: {made} / 人が書いた駅・訳した駅は残した: {skipped}")
     if args.dry_run:
         print("（--dry-run のため書き込んでいない）")
     else:

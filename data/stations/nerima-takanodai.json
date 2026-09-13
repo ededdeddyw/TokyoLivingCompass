@@ -1,0 +1,22 @@
+{
+  "slug": "nerima-takanodai",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 74400,
+    "oneK": 84850,
+    "oneLDK": 137400,
+    "twoLDK": 166350
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

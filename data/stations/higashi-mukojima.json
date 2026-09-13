@@ -1,0 +1,22 @@
+{
+  "slug": "higashi-mukojima",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 86350,
+    "oneK": 100750,
+    "oneLDK": 153150,
+    "twoLDK": 193550
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "bakurocho",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 135850,
+    "oneK": 136450,
+    "oneLDK": 213650,
+    "twoLDK": 276300
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "kita-sando",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 156900,
+    "oneK": 144900,
+    "oneLDK": 252550,
+    "twoLDK": 373700
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

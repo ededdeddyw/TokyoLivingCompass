@@ -1,0 +1,22 @@
+{
+  "slug": "suehirocho",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 138650,
+    "oneK": 143700,
+    "oneLDK": 216200,
+    "twoLDK": 281350
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

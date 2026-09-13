@@ -1,0 +1,22 @@
+{
+  "slug": "yotsuya-sanchome",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 124950,
+    "oneK": 140200,
+    "oneLDK": 215600,
+    "twoLDK": 313650
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

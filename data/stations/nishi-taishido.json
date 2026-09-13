@@ -1,0 +1,22 @@
+{
+  "slug": "nishi-taishido",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 98800,
+    "oneK": 112400,
+    "oneLDK": 193550,
+    "twoLDK": 261300
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

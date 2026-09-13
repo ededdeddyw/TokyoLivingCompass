@@ -1,0 +1,22 @@
+{
+  "slug": "senkawa",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 77000,
+    "oneK": 88150,
+    "oneLDK": 147000,
+    "twoLDK": 206400
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

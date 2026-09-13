@@ -2,8 +2,8 @@
   "slug": "roppongi-itchome",
   "locale": "en",
   "name": "Roppongi-Itchome",
-  "tagline": "Toranomon in 9 minutes and Roppongi in 10 minutes. Served by 1 line. A one-room flat rents for roughly ¥190,000 to ¥200,000.",
-  "summary": "The station is in Minato City, served by Tokyo Metro Namboku Line. Journey times to the main business districts are 19 minutes to Otemachi, 16 minutes to Shinjuku, 17 minutes to Shibuya and 23 minutes to Shinagawa. A one-room flat rents for roughly ¥190,000 to ¥200,000.The station stands 16.2 m above sea level, and the ground within 800 m varies in height by 13.7 m. The land around the station has gentle slopes.",
+  "tagline": "Toranomon in 9 minutes and Roppongi in 10 minutes. Served by 1 line. A one-room flat rents for roughly ¥180,000 to ¥190,000.",
+  "summary": "The station is in Minato City, served by Tokyo Metro Namboku Line. Journey times to the main business districts are 19 minutes to Otemachi, 16 minutes to Shinjuku, 17 minutes to Shibuya and 23 minutes to Shinagawa. A one-room flat rents for roughly ¥180,000 to ¥190,000. The station stands 16.2 m above sea level, and the ground within 800 m varies in height by 13.7 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 16.2 m above sea level. Within 800 m the ground ranges from 14.7 m to 28.4 m, a difference of 13.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
@@ -42,7 +42,7 @@
   "medical": "Within an 800 m walk of the station there are 16 clinics and 14 pharmacies. Facilities recorded as hospitals lie at 虎の門病院, about 647 m away and 東京慈恵会医科大学附属病院, about 1142 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Namboku Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
   "rentRange": {
-    "note": "One room ¥190,000 to ¥200,000, 1K ¥170,000 to ¥180,000, 1LDK ¥350,000 to ¥360,000 and 2LDK ¥620,000 to ¥630,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "One room ¥180,000 to ¥190,000, 1K ¥150,000 to ¥160,000, 1LDK ¥340,000 to ¥350,000 and 2LDK ¥590,000 to ¥600,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,7 +51,7 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥190,000 to ¥200,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥180,000 to ¥190,000. For 1K, 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "kamiyacho",
@@ -59,7 +59,7 @@
     },
     {
       "slug": "roppongi",
-      "note": "720 m away in a straight line. It reaches Otemachi 3 minutes sooner than Roppongi-Itchome. One-room rents run about ¥14,250 lower."
+      "note": "720 m away in a straight line. It reaches Otemachi 3 minutes sooner than Roppongi-Itchome. One-room rents run about ¥9,000 lower."
     }
   ],
   "goodFor": [

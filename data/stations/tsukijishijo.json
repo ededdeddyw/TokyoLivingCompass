@@ -1,0 +1,22 @@
+{
+  "slug": "tsukijishijo",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 147350,
+    "oneK": 130300,
+    "oneLDK": 254350,
+    "twoLDK": 327100
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

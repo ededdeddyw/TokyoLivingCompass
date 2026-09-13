@@ -1,0 +1,22 @@
+{
+  "slug": "kanda",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 147000,
+    "oneK": 143900,
+    "oneLDK": 231450,
+    "twoLDK": 303600
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

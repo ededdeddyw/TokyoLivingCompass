@@ -1,0 +1,22 @@
+{
+  "slug": "shijo-mae",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 182350,
+    "oneK": 165450,
+    "oneLDK": 213650,
+    "twoLDK": 351750
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

@@ -36,6 +36,16 @@ def main():
         if len(rent) < len(RENT_TYPES):
             print(f"  {slug}: 4つの間取りが揃っていないため反映しない（{len(rent)}件）")
             skipped += 1
+            # 前回は4つ揃っていて、今回そろわなくなった駅がある（東雲など）。
+            # 古い値を残すと、帯と駅プロフィールで違う数字を出すことになる。
+            path = os.path.join(STATIONS, f"{slug}.json")
+            if os.path.exists(path):
+                prof = json.load(open(path, encoding="utf-8"))
+                if prof.pop("rent", None) is not None and not args.dry_run:
+                    json.dump(prof, open(path, "w", encoding="utf-8"),
+                              ensure_ascii=False, indent=2)
+                    open(path, "a", encoding="utf-8").write("\n")
+                    print(f"    古い家賃を消した")
             continue
 
         path = os.path.join(STATIONS, f"{slug}.json")

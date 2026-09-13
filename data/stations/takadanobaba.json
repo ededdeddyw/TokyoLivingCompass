@@ -1,0 +1,22 @@
+{
+  "slug": "takadanobaba",
+  "scores": {},
+  "similarStations": [],
+  "rent": {
+    "oneRoom": 96250,
+    "oneK": 115200,
+    "oneLDK": 190200,
+    "twoLDK": 268650
+  },
+  "sources": {
+    "rent": {
+      "name": "Yahoo!不動産、アットホーム（当社調べ）",
+      "basis": "asking",
+      "statistic": "mean",
+      "retrievedAt": "2026-09-13",
+      "method": "multi-site-average"
+    }
+  },
+  "dataQuality": "reviewed",
+  "lastReviewedAt": "2026-09-13"
+}

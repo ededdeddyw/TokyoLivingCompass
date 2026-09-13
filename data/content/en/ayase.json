@@ -2,8 +2,8 @@
   "slug": "ayase",
   "locale": "en",
   "name": "Ayase",
-  "tagline": "Tokyo in 27 minutes and Otemachi in 27 minutes. Served by 2 lines.",
-  "summary": "The station is in Adachi City, served by JR Joban Line and Tokyo Metro Chiyoda Line. Journey times to the main business districts are 27 minutes to Otemachi, 38 minutes to Shinjuku, 48 minutes to Shibuya and 42 minutes to Shinagawa. The station stands 0 m above sea level, and the ground within 800 m varies in height by 0.8 m. The land around the station is close to level.",
+  "tagline": "Tokyo in 27 minutes and Otemachi in 27 minutes. Served by 2 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
+  "summary": "The station is in Adachi City, served by JR Joban Line and Tokyo Metro Chiyoda Line. Journey times to the main business districts are 27 minutes to Otemachi, 38 minutes to Shinjuku, 48 minutes to Shibuya and 42 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 0 m above sea level, and the ground within 800 m varies in height by 0.8 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 0 m above sea level. Within 800 m the ground ranges from -0.7 m to 0.1 m, a difference of 0.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
@@ -41,10 +41,21 @@
   ],
   "medical": "Within an 800 m walk of the station there are 21 clinics and 18 pharmacies. Facilities recorded as hospitals lie at 東京拘置所医務部病院, about 1099 m away and 健和会柳原病院, about 2315 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station: JR Joban Line and Tokyo Metro Chiyoda Line. The lines are split between operators (JR East runs 1 line and Tokyo Metro runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "rentRange": {
+    "note": "One room ¥70,000 to ¥80,000, 1K ¥80,000 to ¥90,000, 1LDK ¥120,000 to ¥130,000 and 2LDK ¥170,000 to ¥180,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "aoi",
-      "note": "1142 m away in a straight line. It reaches Otemachi in about the same time as Ayase."
+      "note": "1142 m away in a straight line. It reaches Otemachi in about the same time as Ayase. One-room rents run about ¥6,000 lower."
     },
     {
       "slug": "kosuge",
@@ -53,7 +64,8 @@
   ],
   "goodFor": [
     "People who get around by bicycle or with a pushchair",
-    "People who want to finish their shopping on foot"
+    "People who want to finish their shopping on foot",
+    "People living alone who want to hold the rent down"
   ],
   "notFor": [
     "People avoiding projected flood inundation areas"

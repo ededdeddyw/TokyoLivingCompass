@@ -2,8 +2,8 @@
   "slug": "toyocho",
   "locale": "en",
   "name": "Toyocho",
-  "tagline": "Otemachi in 12 minutes and Tokyo in 19 minutes. Served by 1 line.",
-  "summary": "The station is in Koto City, served by Tokyo Metro Tozai Line. Journey times to the main business districts are 12 minutes to Otemachi, 33 minutes to Shinjuku, 36 minutes to Shibuya and 32 minutes to Shinagawa. The station stands -0.8 m above sea level, and the ground within 800 m varies in height by 5.3 m. The land around the station is close to level.",
+  "tagline": "Otemachi in 12 minutes and Tokyo in 19 minutes. Served by 1 line. A one-room flat rents for roughly ¥120,000 to ¥130,000.",
+  "summary": "The station is in Koto City, served by Tokyo Metro Tozai Line. Journey times to the main business districts are 12 minutes to Otemachi, 33 minutes to Shinjuku, 36 minutes to Shibuya and 32 minutes to Shinagawa. A one-room flat rents for roughly ¥120,000 to ¥130,000. The station stands -0.8 m above sea level, and the ground within 800 m varies in height by 5.3 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at -0.8 m above sea level. Within 800 m the ground ranges from -1.7 m to 3.6 m, a difference of 5.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
@@ -41,14 +41,25 @@
   ],
   "medical": "Within an 800 m walk of the station there are 8 clinics and 8 pharmacies. Facilities recorded as hospitals lie at 修世会木場病院, about 893 m away and 藤崎病院, about 1126 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Tozai Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "rentRange": {
+    "note": "One room ¥120,000 to ¥130,000, 1K ¥120,000 to ¥130,000, 1LDK ¥170,000 to ¥180,000 and 2LDK ¥220,000 to ¥230,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥120,000 to ¥130,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "kiba",
-      "note": "953 m away in a straight line. It reaches Otemachi in about the same time as Toyocho."
+      "note": "953 m away in a straight line. It reaches Otemachi in about the same time as Toyocho. One-room rents run about ¥10,000 higher."
     },
     {
       "slug": "minami-sunamachi",
-      "note": "1182 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Toyocho."
+      "note": "1182 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Toyocho. One-room rents run about ¥17,000 lower."
     }
   ],
   "goodFor": [
