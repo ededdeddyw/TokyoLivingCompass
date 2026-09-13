@@ -33,6 +33,7 @@ OUT = os.path.join(ROOT, "data", "computed", "hazard.json")
 ZOOM = 15
 UA = "Mozilla/5.0 (compatible; TokyoLivingCompass/1.0; +hazard lookup)"
 PAUSE = 0.3
+RING_M = 400   # 駅からこの距離の8方位も見る。駅前だけで判断しないため
 
 LAYERS = {
     "flood": "01_flood_l2_shinsuishin_data",       # 洪水（想定最大規模）
@@ -96,12 +97,12 @@ def depth_of(rgba):
 
 
 def sample(layer, lat, lon):
-    """駅の地点と、その周囲8方位200mを見る。駅前だけで判断しないため。"""
+    """駅の地点と、その周囲8方位を見る。駅前だけで判断しないため。"""
     points = [(lat, lon)]
     for bearing in range(0, 360, 45):
         b = math.radians(bearing)
-        dlat = 200 * math.cos(b) / 111000.0
-        dlon = 200 * math.sin(b) / (111000.0 * math.cos(math.radians(lat)))
+        dlat = RING_M * math.cos(b) / 111000.0
+        dlon = RING_M * math.sin(b) / (111000.0 * math.cos(math.radians(lat)))
         points.append((lat + dlat, lon + dlon))
 
     found = []
@@ -146,9 +147,10 @@ META = {
     "layers": {"flood": "洪水浸水想定区域（想定最大規模）",
                "hightide": "高潮浸水想定区域（想定最大規模）",
                "tsunami": "津波浸水想定"},
-    "method": f"ズーム{ZOOM}のタイルから、駅と周囲8方位200mの計9点を読み取る",
+    "method": f"ズーム{ZOOM}のタイルから、駅と周囲8方位{RING_M}mの計9点を読み取る",
     "caveat": "地図に描かれている想定を読み取ったものであり、危険・安全の判断ではない。"
-              "住所ごとの確認は区のハザードマップで行う。",
+              "住所ごとの確認は区のハザードマップで行う。"
+              "内水氾濫は全国共通のタイルが公開されていないため、ここには含まれない。",
     "retrievedAt": time.strftime("%Y-%m-%d"),
 }
 
