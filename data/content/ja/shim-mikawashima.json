@@ -25,17 +25,17 @@
       "verifiedAt": "2026-09-13"
     },
     {
-      "name": "Can★Do",
-      "tier": "standard",
-      "walkMinutes": 3,
-      "sourceUrl": "https://www.openstreetmap.org/node/5483264562",
-      "verifiedAt": "2026-09-13"
-    },
-    {
       "name": "業務スーパー 町屋店",
       "tier": "discount",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/way/1272440953",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツ 西日暮里店",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/5593490369",
       "verifiedAt": "2026-09-13"
     }
   ],
@@ -43,12 +43,12 @@
   "stationNote": "京成本線の1路線が使える。乗り入れは1路線だけなので、その路線が止まったときは、ほかの路線が通る駅まで歩くことになる。路線数と事業者の広がりから計算した乗換の利便性は、100点満点で32点である。",
   "neighbours": [
     {
-      "slug": "akado-shogakkomae",
-      "note": "直線で735mの距離にある。大手町へは新三河島と同じくらいの時間で着く。"
+      "slug": "mikawashima",
+      "note": "直線で512mの距離にある。大手町へは新三河島と同じくらいの時間で着く。"
     },
     {
-      "slug": "machiya-nichome",
-      "note": "直線で786mの距離にある。大手町へは新三河島と同じくらいの時間で着く。"
+      "slug": "akado-shogakkomae",
+      "note": "直線で735mの距離にある。大手町へは新三河島と同じくらいの時間で着く。"
     }
   ],
   "goodFor": [

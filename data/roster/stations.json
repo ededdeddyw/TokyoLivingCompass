@@ -146,8 +146,8 @@
     "ward": "chiyoda",
     "wardCode": "13101",
     "wardNameJa": "千代田区",
-    "lat": 35.675204,
-    "lon": 139.761194,
+    "lat": 35.675244,
+    "lon": 139.761629,
     "lineIds": [
       "11302",
       "11332",
@@ -179,8 +179,8 @@
     "ward": "chiyoda",
     "wardCode": "13101",
     "wardNameJa": "千代田区",
-    "lat": 35.681512,
-    "lon": 139.765638,
+    "lat": 35.681427,
+    "lon": 139.765963,
     "lineIds": [
       "11301",
       "11302",
@@ -296,8 +296,8 @@
     "ward": "chiyoda",
     "wardCode": "13101",
     "wardNameJa": "千代田区",
-    "lat": 35.691978,
-    "lon": 139.770727,
+    "lat": 35.691776,
+    "lon": 139.770706,
     "lineIds": [
       "11302",
       "11312",
@@ -313,8 +313,8 @@
     "ward": "chiyoda",
     "wardCode": "13101",
     "wardNameJa": "千代田区",
-    "lat": 35.698572,
-    "lon": 139.774077,
+    "lat": 35.698582,
+    "lon": 139.773919,
     "lineIds": [
       "11302",
       "11313",
@@ -393,8 +393,8 @@
     "ward": "chuo",
     "wardCode": "13102",
     "wardNameJa": "中央区",
-    "lat": 35.686004,
-    "lon": 139.77337,
+    "lat": 35.686899,
+    "lon": 139.773324,
     "lineIds": [
       "11314",
       "28001",
@@ -440,8 +440,8 @@
     "ward": "chuo",
     "wardCode": "13102",
     "wardNameJa": "中央区",
-    "lat": 35.674851,
-    "lon": 139.776982,
+    "lat": 35.674734,
+    "lon": 139.777344,
     "lineIds": [
       "11326",
       "28003"
@@ -604,8 +604,8 @@
     "ward": "chuo",
     "wardCode": "13102",
     "wardNameJa": "中央区",
-    "lat": 35.692123,
-    "lon": 139.783794,
+    "lat": 35.692537,
+    "lon": 139.783323,
     "lineIds": [
       "11314",
       "99302",
@@ -692,8 +692,8 @@
     "ward": "minato",
     "wardCode": "13103",
     "wardNameJa": "港区",
-    "lat": 35.628522,
-    "lon": 139.738544,
+    "lat": 35.628665,
+    "lon": 139.738817,
     "lineIds": [
       "11301",
       "11302",
@@ -768,8 +768,8 @@
     "ward": "minato",
     "wardCode": "13103",
     "wardNameJa": "港区",
-    "lat": 35.666177,
-    "lon": 139.759028,
+    "lat": 35.666185,
+    "lon": 139.758839,
     "lineIds": [
       "11301",
       "11302",
@@ -846,8 +846,8 @@
     "ward": "minato",
     "wardCode": "13103",
     "wardNameJa": "港区",
-    "lat": 35.655529,
-    "lon": 139.756941,
+    "lat": 35.655483,
+    "lon": 139.757006,
     "lineIds": [
       "11302",
       "11332",
@@ -1041,7 +1041,8 @@
     "lat": 35.6355,
     "lon": 139.7407,
     "lineIds": [
-      "11302"
+      "11302",
+      "11332"
     ]
   },
   {
@@ -1124,8 +1125,8 @@
     "ward": "shinjuku",
     "wardCode": "13104",
     "wardNameJa": "新宿区",
-    "lat": 35.685675,
-    "lon": 139.730196,
+    "lat": 35.685748,
+    "lon": 139.730286,
     "lineIds": [
       "11311",
       "11312",
@@ -1198,8 +1199,8 @@
     "ward": "shinjuku",
     "wardCode": "13104",
     "wardNameJa": "新宿区",
-    "lat": 35.689893,
-    "lon": 139.699776,
+    "lat": 35.689866,
+    "lon": 139.699891,
     "lineIds": [
       "11302",
       "11311",
@@ -1652,8 +1653,8 @@
     "ward": "taito",
     "wardCode": "13106",
     "wardNameJa": "台東区",
-    "lat": 35.712251,
-    "lon": 139.777096,
+    "lat": 35.713213,
+    "lon": 139.777063,
     "lineIds": [
       "11302",
       "11319",
@@ -1716,8 +1717,8 @@
     "ward": "taito",
     "wardCode": "13106",
     "wardNameJa": "台東区",
-    "lat": 35.707376,
-    "lon": 139.774518,
+    "lat": 35.707357,
+    "lon": 139.77456,
     "lineIds": [
       "11302",
       "11332",
@@ -2025,8 +2026,8 @@
     "ward": "sumida",
     "wardCode": "13107",
     "wardNameJa": "墨田区",
-    "lat": 35.69719,
-    "lon": 139.814538,
+    "lat": 35.697061,
+    "lon": 139.814404,
     "lineIds": [
       "11313",
       "11314",
@@ -2183,8 +2184,8 @@
     "ward": "koto",
     "wardCode": "13108",
     "wardNameJa": "江東区",
-    "lat": 35.646002,
-    "lon": 139.826828,
+    "lat": 35.646059,
+    "lon": 139.827019,
     "lineIds": [
       "11326",
       "28006",
@@ -2320,6 +2321,20 @@
     ]
   },
   {
+    "slug": "shiomi",
+    "groupCode": "1132604",
+    "nameJa": "潮見",
+    "nameRomaji": "Shiomi",
+    "ward": "koto",
+    "wardCode": "13108",
+    "wardNameJa": "江東区",
+    "lat": 35.658702,
+    "lon": 139.817341,
+    "lineIds": [
+      "11326"
+    ]
+  },
+  {
     "slug": "nishi-ojima",
     "groupCode": "9930414",
     "nameJa": "西大島",
@@ -2346,6 +2361,20 @@
     "lineIds": [
       "28006",
       "99311"
+    ]
+  },
+  {
+    "slug": "etchujima",
+    "groupCode": "1132603",
+    "nameJa": "越中島",
+    "nameRomaji": "Etchujima",
+    "ward": "koto",
+    "wardCode": "13108",
+    "wardNameJa": "江東区",
+    "lat": 35.667946,
+    "lon": 139.792713,
+    "lineIds": [
+      "11326"
     ]
   },
   {
@@ -2500,8 +2529,8 @@
     "ward": "shinagawa",
     "wardCode": "13109",
     "wardNameJa": "品川区",
-    "lat": 35.607535,
-    "lon": 139.735025,
+    "lat": 35.607109,
+    "lon": 139.734967,
     "lineIds": [
       "11332",
       "26004",
@@ -2711,6 +2740,21 @@
     "lon": 139.707571,
     "lineIds": [
       "26004"
+    ]
+  },
+  {
+    "slug": "nishi-oi",
+    "groupCode": "1130804",
+    "nameJa": "西大井",
+    "nameRomaji": "Nishi-Oi",
+    "ward": "shinagawa",
+    "wardCode": "13109",
+    "wardNameJa": "品川区",
+    "lat": 35.601616,
+    "lon": 139.721729,
+    "lineIds": [
+      "11308",
+      "11333"
     ]
   },
   {
@@ -2997,6 +3041,20 @@
     "lineIds": [
       "26002",
       "26004"
+    ]
+  },
+  {
+    "slug": "omori",
+    "groupCode": "1133229",
+    "nameJa": "大森",
+    "nameRomaji": "Omori",
+    "ward": "ota",
+    "wardCode": "13111",
+    "wardNameJa": "大田区",
+    "lat": 35.588903,
+    "lon": 139.728079,
+    "lineIds": [
+      "11332"
     ]
   },
   {
@@ -3319,8 +3377,8 @@
     "ward": "ota",
     "wardCode": "13111",
     "wardNameJa": "大田区",
-    "lat": 35.561767,
-    "lon": 139.714626,
+    "lat": 35.562017,
+    "lon": 139.715095,
     "lineIds": [
       "11332",
       "26005",
@@ -4103,8 +4161,8 @@
     "ward": "shibuya",
     "wardCode": "13113",
     "wardNameJa": "渋谷区",
-    "lat": 35.646901,
-    "lon": 139.709709,
+    "lat": 35.646847,
+    "lon": 139.7098,
     "lineIds": [
       "11302",
       "11321",
@@ -4136,8 +4194,8 @@
     "ward": "shibuya",
     "wardCode": "13113",
     "wardNameJa": "渋谷区",
-    "lat": 35.658961,
-    "lon": 139.701541,
+    "lat": 35.658951,
+    "lon": 139.701508,
     "lineIds": [
       "11302",
       "11321",
@@ -4803,8 +4861,8 @@
     "ward": "toshima",
     "wardCode": "13116",
     "wardNameJa": "豊島区",
-    "lat": 35.730264,
-    "lon": 139.710539,
+    "lat": 35.730263,
+    "lon": 139.710608,
     "lineIds": [
       "11302",
       "11321",
@@ -4919,6 +4977,20 @@
     ]
   },
   {
+    "slug": "kami-nakazato",
+    "groupCode": "1133213",
+    "nameJa": "上中里",
+    "nameRomaji": "Kami-Nakazato",
+    "ward": "kita",
+    "wardCode": "13117",
+    "wardNameJa": "北区",
+    "lat": 35.74728,
+    "lon": 139.745769,
+    "lineIds": [
+      "11332"
+    ]
+  },
+  {
     "slug": "kita-akabane",
     "groupCode": "1132109",
     "nameJa": "北赤羽",
@@ -4947,6 +5019,21 @@
     ]
   },
   {
+    "slug": "oku",
+    "groupCode": "1131902",
+    "nameJa": "尾久",
+    "nameRomaji": "Oku",
+    "ward": "kita",
+    "wardCode": "13117",
+    "wardNameJa": "北区",
+    "lat": 35.74683,
+    "lon": 139.753846,
+    "lineIds": [
+      "11319",
+      "11323"
+    ]
+  },
+  {
     "slug": "shimo",
     "groupCode": "2800902",
     "nameJa": "志茂",
@@ -4958,6 +5045,20 @@
     "lon": 139.732599,
     "lineIds": [
       "28009"
+    ]
+  },
+  {
+    "slug": "higashi-jujo",
+    "groupCode": "1133211",
+    "nameJa": "東十条",
+    "nameRomaji": "Higashi-Jujo",
+    "ward": "kita",
+    "wardCode": "13117",
+    "wardNameJa": "北区",
+    "lat": 35.763803,
+    "lon": 139.726858,
+    "lineIds": [
+      "11332"
     ]
   },
   {
@@ -5010,8 +5111,8 @@
     "ward": "kita",
     "wardCode": "13117",
     "wardNameJa": "北区",
-    "lat": 35.753583,
-    "lon": 139.73764,
+    "lat": 35.753234,
+    "lon": 139.73779,
     "lineIds": [
       "11332",
       "28009",
@@ -5137,6 +5238,20 @@
     ]
   },
   {
+    "slug": "mikawashima",
+    "groupCode": "1132003",
+    "nameJa": "三河島",
+    "nameRomaji": "Mikawashima",
+    "ward": "arakawa",
+    "wardCode": "13118",
+    "wardNameJa": "荒川区",
+    "lat": 35.733383,
+    "lon": 139.777131,
+    "lineIds": [
+      "11320"
+    ]
+  },
+  {
     "slug": "minami-senju",
     "groupCode": "1132004",
     "nameJa": "南千住",
@@ -5144,8 +5259,8 @@
     "ward": "arakawa",
     "wardCode": "13118",
     "wardNameJa": "荒川区",
-    "lat": 35.732906,
-    "lon": 139.799028,
+    "lat": 35.733281,
+    "lon": 139.799152,
     "lineIds": [
       "11320",
       "28003",
@@ -5364,8 +5479,8 @@
     "ward": "arakawa",
     "wardCode": "13118",
     "wardNameJa": "荒川区",
-    "lat": 35.732055,
-    "lon": 139.766742,
+    "lat": 35.73203,
+    "lon": 139.76677,
     "lineIds": [
       "11302",
       "11332",
@@ -5967,8 +6082,8 @@
     "ward": "adachi",
     "wardCode": "13121",
     "wardNameJa": "足立区",
-    "lat": 35.749303,
-    "lon": 139.804802,
+    "lat": 35.749378,
+    "lon": 139.804816,
     "lineIds": [
       "11320",
       "21002",
@@ -6275,6 +6390,20 @@
     ]
   },
   {
+    "slug": "kameari",
+    "groupCode": "1132007",
+    "nameJa": "亀有",
+    "nameRomaji": "Kameari",
+    "ward": "katsushika",
+    "wardCode": "13122",
+    "wardNameJa": "葛飾区",
+    "lat": 35.766527,
+    "lon": 139.847573,
+    "lineIds": [
+      "11320"
+    ]
+  },
+  {
     "slug": "keisei-tateishi",
     "groupCode": "2300205",
     "nameJa": "京成立石",
@@ -6385,8 +6514,8 @@
     "ward": "katsushika",
     "wardCode": "13122",
     "wardNameJa": "葛飾区",
-    "lat": 35.768471,
-    "lon": 139.870387,
+    "lat": 35.769026,
+    "lon": 139.870434,
     "lineIds": [
       "11320",
       "23003"
@@ -6532,6 +6661,20 @@
     "lon": 139.872458,
     "lineIds": [
       "28004"
+    ]
+  },
+  {
+    "slug": "kasai-rinkai-koen",
+    "groupCode": "1132606",
+    "nameJa": "葛西臨海公園",
+    "nameRomaji": "Kasairinkaikoen",
+    "ward": "edogawa",
+    "wardCode": "13123",
+    "wardNameJa": "江戸川区",
+    "lat": 35.644392,
+    "lon": 139.861529,
+    "lineIds": [
+      "11326"
     ]
   },
   {

@@ -20,6 +20,7 @@ import argparse
 import json
 import math
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -167,8 +168,17 @@ def fetch_box(box, group, depth=0):
     return {"elements": merged}
 
 
+# shop=supermarket が付いているが食料品店ではない店。
+# 100円ショップやドラッグストアが誤って付けられていることがある。
+NOT_SUPERMARKET = ("Can★Do", "キャンドゥ", "ダイソー", "DAISO", "セリア", "Seria",
+                   "ワッツ", "Watts", "３コインズ", "3COINS")
+
+
 def category_of(tags):
     if tags.get("shop") == "supermarket":
+        name = tags.get("name", "")
+        if any(w in name for w in NOT_SUPERMARKET):
+            return None
         return "supermarket"
     a = tags.get("amenity")
     if a == "hospital":
@@ -233,8 +243,12 @@ def main():
         if any(k.startswith(("disused:", "was:", "abandoned:")) for k in tags):
             continue
         # OSM は支店名を branch に分けて持つことがある。あれば店名に足す。
+        # ただし日本語の店名に英語の支店名（"Nishi Nippori Station East"）を
+        # つなぐと、日本では通じない表記になるので足さない。
         branch = tags.get("branch")
-        if branch and branch not in name:
+        if (branch and branch not in name
+                and not (re.search(r"[ぁ-んァ-ヶ一-龠]", name)
+                         and not re.search(r"[ぁ-んァ-ヶ一-龠]", branch))):
             name = f"{name} {branch}"
         cat = category_of(tags)
         if not cat:

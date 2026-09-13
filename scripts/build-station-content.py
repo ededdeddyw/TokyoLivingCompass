@@ -26,6 +26,7 @@ import argparse
 import json
 import math
 import os
+import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D = os.path.join(ROOT, "data")
@@ -54,6 +55,15 @@ def load(p):
     return json.load(open(os.path.join(D, p), encoding="utf-8"))
 
 
+def line_name(name):
+    """
+    路線名を文章に載る形にする。ekidata の名前は「JR常磐線(上野～取手)」のように
+    区間を括弧で添えるが、文中では読みにくいので区間だけ落とす。
+    「JR中央線(快速)」の括弧は快速と各駅停車を分ける情報なので残す。
+    """
+    return re.sub(r"\([^（）()]*～[^（）()]*\)", "", name)
+
+
 def man(yen):
     """円を「12万」の形にする。1万円未満は切り捨てず小数第1位まで見せる。"""
     v = yen / 10000
@@ -72,7 +82,7 @@ def haversine_m(a, b):
 def build(st, ctx):
     """1駅ぶんのコンテンツを組み立てる。データの無い層は入れない。"""
     slug, name = st["slug"], st["nameJa"]
-    lines = [ctx["lines"][i]["nameJa"] for i in st["lineIds"] if i in ctx["lines"]]
+    lines = [line_name(ctx["lines"][i]["nameJa"]) for i in st["lineIds"] if i in ctx["lines"]]
     ops = {ctx["lines"][i]["operator"] for i in st["lineIds"] if i in ctx["lines"]}
     com = {e["to"]: e["minutes"] for e in ctx["com"].get(slug, [])}
     ter = ctx["ter"].get(slug, {})
