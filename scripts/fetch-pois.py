@@ -174,6 +174,16 @@ def main():
         name = tags.get("name")
         if not name:
             continue  # 名前のない施設は載せられない
+        # 閉店した店が名前だけ残っていることがある（「文化堂跡」など）。
+        # 実在しない店を載せるのが最も重い失敗なので、疑わしいものは落とす。
+        if any(w in name for w in ("跡", "閉店", "跡地", "旧")):
+            continue
+        if any(k.startswith(("disused:", "was:", "abandoned:")) for k in tags):
+            continue
+        # OSM は支店名を branch に分けて持つことがある。あれば店名に足す。
+        branch = tags.get("branch")
+        if branch and branch not in name:
+            name = f"{name} {branch}"
         cat = category_of(tags)
         if not cat:
             continue

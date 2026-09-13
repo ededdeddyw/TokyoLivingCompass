@@ -19,7 +19,9 @@ coverage/
 npm-debug.log*
 .cache/
 
-# Overpass から落としたタイルの生データ。data/computed/pois.json を作るための
-# 一時キャッシュで、消しても scripts/fetch-pois.py で取り直せる。
-data/poi/raw/
+# 外部から落とした生データの置き場。いずれも取り直せる一時キャッシュで、
+# 成果物は data/computed/ に入る。
+# 標高は駅ごとの最小・最大・標高差を terrain.json が持つので、
+# 点ごとの値を残す必要はない（国土地理院への問い合わせを減らすためだけのもの）。
+data/poi/
 __pycache__/

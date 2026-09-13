@@ -25,10 +25,12 @@ MAX_STORES = 5      # 1駅に載せる上限。多すぎると読み手が選べ
 
 # 価格帯の判断。安い順に買い回れるかどうかが生活費に効くため、この3段階で示す。
 DISCOUNT = ["オオゼキ", "業務スーパー", "ロピア", "西友", "ドン・キホーテ", "アコレ",
-            "ビッグ・エー", "赤札堂", "OK", "オーケー", "ラ・ムー", "セイフー",
-            "ヨークフーズ", "スーパーバリュー", "サンディ"]
+            "ビッグ・エー", "Big-A", "赤札堂", "オーケー", "ラ・ムー", "セイフー",
+            "ヨークフーズ", "スーパーバリュー", "サンディ", "肉のハナマサ",
+            "食品館あおば", "まいばすけっと"]
 PREMIUM = ["成城石井", "紀ノ国屋", "明治屋", "クイーンズ伊勢丹", "福島屋", "北野エース",
-           "DEAN", "プレッセ", "スーパーマーケットクイーンズ", "リンコス", "ザ・ガーデン"]
+           "DEAN", "プレッセ", "リンコス", "ザ・ガーデン", "三浦屋", "信濃屋",
+           "Shinanoya", "Bio c", "Bio C", "ピカール", "Picard", "紀ノ國屋"]
 
 
 def tier_of(name):
@@ -76,6 +78,19 @@ def main():
             picked.append(p)
             if len(picked) >= MAX_STORES:
                 break
+
+        # 近い順に選ぶだけだと価格帯が偏る。安い店と高い店の差が生活費に効くので、
+        # 半径内にあるのに選から漏れた価格帯があれば、その最寄りを1軒足す。
+        tiers_shown = {tier_of(p["name"]) for p in picked}
+        for want in ("discount", "premium"):
+            if want in tiers_shown:
+                continue
+            extra = next((p for p in pois
+                          if tier_of(p["name"]) == want
+                          and p["name"] not in [q["name"] for q in picked]), None)
+            if extra:
+                picked.append(extra)
+        picked.sort(key=lambda p: p["distanceM"])
 
         old_notes = {g["name"]: g.get("note") for g in content.get("groceries", [])}
         groceries = []
