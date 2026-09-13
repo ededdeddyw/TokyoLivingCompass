@@ -11,7 +11,9 @@ LIFULL HOME'S と Yahoo!不動産は、どちらも路線ごとの相場一覧�
 
 アットホームは駅コードを使わず、駅名のローマ字をそのまま URL に置いている
 （中目黒なら nakameguro-st）。ロースターが持つローマ字から組み立てられるので、
-このサイトについてはページを取りに行かない。
+まずは組み立てた値を入れる。ただし「有明テニスの森」のように綴りが合わない駅が
+あり、その場合はページが 503 を返す。--site athome を指定すると、
+路線ごとの相場一覧ページからスラッグを読み取って上書きする。
 
 読むのは路線の一覧ページだけで、物件一覧は巡回しない
 （docs/08-data-sources-rent.md §E）。取得したコードは sources.json に残すので、
@@ -47,6 +49,12 @@ YAHOO_LINE = "https://realestate.yahoo.co.jp/rent/price/03/13/r/{line}/"
 YAHOO_SEED = "2321"   # 東急東横線。ここから他の路線へたどる
 YAHOO_LINE_RE = re.compile(r'/rent/price/03/13/r/(\d+)/["\'>]')
 YAHOO_PAIR_RE = re.compile(r'/rent/price/03/13/r/(\d+)/(\d+)/"?>([^<]{1,20})</a>')
+
+ATHOME_INDEX = "https://www.athome.co.jp/chintai/souba/tokyo/"
+ATHOME_LINE = "https://www.athome.co.jp/chintai/souba/tokyo/{line}/"
+ATHOME_LINE_RE = re.compile(r"/chintai/souba/tokyo/([a-z0-9-]+-line)/")
+ATHOME_PAIR_RE = re.compile(
+    r'/chintai/tokyo/([a-z0-9-]+)-st/list/"[^>]*>([^<]{1,24})</a>')
 
 
 def norm(name):
@@ -124,11 +132,34 @@ def collect_yahoo():
     return codes
 
 
+def collect_athome():
+    """アットホームの路線ページから、駅名とスラッグの組を集める。"""
+    index = get(ATHOME_INDEX)
+    lines = sorted(set(ATHOME_LINE_RE.findall(index)))
+    print(f"アットホーム: 路線ページ {len(lines)}件")
+    codes = {}
+    for i, line in enumerate(lines, 1):
+        page = get(ATHOME_LINE.format(line=line))
+        if not page:
+            print(f"  [{i}/{len(lines)}] {line} 取得できなかった")
+            continue
+        new = 0
+        for slug, station in ATHOME_PAIR_RE.findall(page):
+            station = html.unescape(station).strip()
+            if station and station not in codes:
+                codes[station] = slug
+                new += 1
+        print(f"  [{i}/{len(lines)}] {line} 新規{new}件 累計{len(codes)}件")
+        time.sleep(PAUSE / 2)
+    return codes
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--refresh", action="store_true", help="取得済みのページも取り直す")
-    ap.add_argument("--site", choices=["homes", "yahoo", "both"], default="both",
-                    help="駅コードを取りに行くサイト。アットホームは常に組み立てる")
+    ap.add_argument("--site", choices=["homes", "yahoo", "athome", "both"], default="both",
+                    help="駅コードを取りに行くサイト。"
+                         "athome を指定すると、組み立てた値を路線ページの値で上書きする")
     args = ap.parse_args()
     if args.refresh and os.path.isdir(CACHE):
         for f in os.listdir(CACHE):
@@ -143,6 +174,8 @@ def main():
         collected["LIFULL HOME'S"] = collect_homes()
     if args.site in ("yahoo", "both"):
         collected["Yahoo!不動産"] = collect_yahoo()
+    if args.site == "athome":
+        collected["アットホーム"] = collect_athome()
 
     added = 0
     for st in roster:
