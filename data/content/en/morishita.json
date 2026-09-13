@@ -2,13 +2,23 @@
   "slug": "morishita",
   "locale": "en",
   "name": "Morishita",
-  "tagline": "Tokyo in 12 minutes and Otemachi in 15 minutes. Served by 2 lines. A one-room flat rents for roughly ¥120,000 to ¥130,000.",
-  "summary": "The station is in Koto City, served by Toei Oedo Line and Toei Shinjuku Line. Journey times to the main business districts are 15 minutes to Otemachi, 22 minutes to Shinjuku, 30 minutes to Shibuya and 27 minutes to Shinagawa. A one-room flat rents for roughly ¥120,000 to ¥130,000. The station stands 1.4 m above sea level, and the ground within 800 m varies in height by 2.7 m. The land around the station is close to level.",
+  "tagline": "Next door to Kiyosumi-Shirakawa and a notch cheaper. Long-established izakaya are still trading, and more restaurants stay open late here than there.",
+  "summary": "The Toei Shinjuku and Oedo Lines cross here: Shinjuku is 22 minutes with no change, and the Oedo Line runs direct to Roppongi. Otemachi takes about 15 minutes with one change at Jimbocho or Bakuro-yokoyama. Kiyosumi-Shirakawa is within walking distance, yet rent is a notch lower, and more of the independent shops and small factories remain here. Long-established restaurants such as Yamariki and Minoya are still trading, so there is more choice for eating out at night than at the next station. The neighbourhood has no glamour, but shopping and eating out are within walking distance, and you will not need to move if your workplace changes.",
+  "faces": {
+    "morning": "Both lines are busy in the morning, though not as busy as the big central terminals. Shinjuku Line trains arrive from Motoyawata, so a seat at Morishita is unlikely. Few people stop or wait outside the station; commuters come through the gates and disperse straight away.",
+    "daytime": "In the afternoon the residential streets and small factories mix, and the roads are quiet and lived-in. The shopping street still has the same family-run shops it always had, and both the stock and the distance to the shopkeeper differ from a street of chains.",
+    "night": "Of the 18 restaurants whose opening hours are recorded in OpenStreetMap, 6 stay open past 23:00. Only some restaurants are recorded, so the real number is higher. Places like Yamariki draw customers from across the city, so some nights bring people in from outside. Even so, this is not an entertainment district, and it goes quiet after 23:00.",
+    "weekend": "It is not a tourist destination, so weekends stay calm. Unlike Kiyosumi-Shirakawa it does not fill with people coming for the cafes, and the quiet at weekends is steadier here."
+  },
   "terrain": {
     "slope": "flat",
-    "note": "The station sits on the higher side of the ground around it, at 1.4 m above sea level. Within 800 m the ground ranges from 0.2 m to 2.9 m, a difference of 2.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "Low ground enclosed by the Sumida and Onagi rivers, about 1 m above sea level, with only 3 m of variation within 800 m. With a bicycle you can reach Nihonbashi and Ginza without effort. There is no need to pick where you live on account of slopes."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 8 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "noiseSources": [
+    "Shin-ohashi-dori and Kiyosumi-dori carry heavy traffic, and along them the cars are audible with a window open",
+    "The Metropolitan Expressway Route 7 runs nearby, and traffic can be heard along the elevated section",
+    "The Onagi riverside is quiet, but sound carries over water"
+  ],
   "groceries": [
     {
       "name": "まいばすけっと",
@@ -37,38 +47,73 @@
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/way/650844330",
       "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "野菜のちから",
+      "tier": "standard",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/9712857387",
+      "verifiedAt": "2026-09-13"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 16 clinics and 14 pharmacies. Facilities recorded as hospitals lie at 山村病院, about 612 m away and 湘南メディカル記念病院, about 943 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "2 lines serve the station: Toei Oedo Line and Toei Shinjuku Line. Both lines are run by the Tokyo Metropolitan Bureau of Transportation, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "exits": [
+    {
+      "name": "A1–A3",
+      "line": "Toei Shinjuku Line",
+      "character": "Towards the Morishita shopping street and the independent shops, and the centre of daily life. Everyday shopping is done in this direction."
+    },
+    {
+      "name": "A4 and A5",
+      "line": "Toei Shinjuku Line / Toei Oedo Line",
+      "character": "Kiyosumi-Shirakawa is within walking distance from here. If you want to use the cafes and the museum, living on this side widens what you can reach on foot."
+    },
+    {
+      "name": "A6 and A7",
+      "line": "Toei Oedo Line",
+      "character": "Small factories and housing mixed together, and rents fall further in this direction. In exchange, fewer people are about at night."
+    }
+  ],
+  "residents": "A high share of households who have lived in the Fukagawa area for generations, and neighbours still know one another. In recent years more people living alone and dual-income couples have moved in for the balance of central access and rent, but the turnover is less advanced than at Kiyosumi-Shirakawa. The neighbourhood association is run actively, and the local festival is held every year.",
+  "housingStock": "Mostly timber-built flats and older blocks; new buildings are few. Some blocks mix small factories with housing, so within the same ten-minute walk the surroundings change from one street to the next. Low rent here usually comes at the cost of building age, so view before you decide.",
+  "hazards": "On the national hazard map, for the flood scenario based on the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. All nine points within 400 m of the station fall inside the area. For storm surge, eight of the points fall in the 0.5 to 3 m projection. For the blocks of densely packed timber housing, the Tokyo Metropolitan Government publishes a fire-risk rating by neighbourhood in its regional hazard assessment, so look up the figure for the block you would live in. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "stationNote": "The Shinjuku Line platform is comparatively shallow, but the Oedo Line is deep and takes several minutes to reach street level. Changing between the two means walking an underground passage, so allow more time than the timetable suggests. There are several sets of gates, and which exit you use depends on which direction you live in.",
+  "nightWalk": "From the station towards the shopping street is well lit, but the Onagi riverside and the blocks lined with small factories see few people at night. It does not feel dangerous, but if walking alone at night concerns you, walk the route you would take home once in the evening before deciding.",
+  "rentReason": "Rent is clearly low for somewhere 15 minutes from Otemachi and 22 from Shinjuku. The reasons are that the name is not widely known, that this is low ground with flood risk, that a high share of the stock is old, and that there is no shopping complex by the station. Because the name has not caught on the way Kiyosumi-Shirakawa's has, the discount is still there today.",
   "rentRange": {
-    "note": "One room ¥120,000 to ¥130,000, 1K ¥120,000 to ¥130,000, 1LDK ¥190,000 to ¥200,000 and 2LDK ¥240,000 to ¥250,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Low rent in Morishita is usually traded against the age of the building. Within the same ten-minute walk, an old timber-built flat and a newer block differ completely in fittings, sound insulation and daylight. Some blocks sit next to small factories, and the surroundings change from one street to the next, so judging from a table of averages alone leads people wrong.",
     "drivers": [
-      "Age and construction of the building",
-      "Walking distance from the station",
-      "Whether it faces a main road or the railway",
-      "Whether it sits at the top or the bottom of a slope",
-      "Floor area for the layout"
+      "Age of the building (much of the stock is old timber)",
+      "Timber-built or reinforced concrete",
+      "Whether a small factory or workshop stands next door",
+      "Whether it faces Shin-ohashi-dori or Kiyosumi-dori",
+      "Towards Kiyosumi-Shirakawa or towards Ryogoku"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥120,000 to ¥130,000.",
+  "family": "As at Kiyosumi-Shirakawa, the ground is almost level and easy with a pushchair. Kiyosumi Garden and Sarue Onshi Park are within cycling range, but there is no large park right by the station. The neighbourhood association is active, so it is easy to get to know neighbours through the festival and the clean-up days. On the other hand, some people find being asked to take part a nuisance. Check nursery availability and school catchment for each flat against Koto City's own current information.",
+  "medical": "Within walking distance of the station there are 16 clinics and 14 pharmacies. Facilities recorded as hospitals include Yamamura Hospital about 610 m away and Doai Memorial Hospital about 1.3 km away. For the Fukagawa area, the number of medical facilities within walking distance here is generous. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "neighbours": [
     {
       "slug": "kiyosumi-shirakawa",
-      "note": "671 m away in a straight line. It reaches Otemachi 7 minutes sooner than Morishita. One-room rents run about ¥8,000 higher."
+      "note": "If you want the cafes and the museum, and a direct train towards Shibuya, choose Kiyosumi-Shirakawa. It is within walking distance, so living in Morishita and using the shops there is also an option."
     },
     {
-      "slug": "hamacho",
-      "note": "805 m away in a straight line. It reaches Otemachi in about the same time as Morishita. One-room rents run about ¥8,000 higher."
+      "slug": "monzen-nakacho",
+      "note": "Monzen-Nakacho beats it on places to eat and on how busy the evenings are. The Tozai Line is known as one of the most crowded stretches in the morning, though, so the morning commute is easier from Morishita."
     }
   ],
+  "outlook": "No large redevelopment is on the horizon. If rents at Kiyosumi-Shirakawa keep rising, expect more people who gave up on it for budget reasons to choose Morishita instead. Nothing suggests the streets themselves will change quickly, and the run of independent shops and timber houses looks set to remain for some time.",
   "goodFor": [
-    "People commuting to Otemachi and Marunouchi",
-    "People who get around by bicycle or with a pushchair",
-    "People who want a park close by"
+    "People who want to reach both Shinjuku and Roppongi without changing",
+    "People who want to stay close to the centre while holding the rent down",
+    "People who want somewhere quiet but still with places to eat out at night",
+    "People who can put location and rent ahead of the age of the building"
   ],
   "notFor": [
-    "People avoiding projected flood inundation areas"
+    "People looking for a new or newly built flat",
+    "People who want to finish their shopping and eating right by the station",
+    "People avoiding low ground with flood risk",
+    "People who care about the look and feel of the neighbourhood"
   ],
-  "authoredBy": "data-generated"
+  "residentComment": "Now that rents at Kiyosumi-Shirakawa have risen, Morishita is the one that still feels like good value. Two lines mean a wide area reachable without changing, so a change of workplace can be absorbed. There is no easily explained appeal like a cafe district, but a place such as Yamariki is simply there in the neighbourhood. The stock is noticeably old, so rather than jumping at the low rent, view before deciding. That this is low ground is something to judge separately from the atmosphere, the same as at Kiyosumi-Shirakawa.",
+  "authoredBy": "ai-localized"
 }
