@@ -1,0 +1,20 @@
+{
+  "slug": "kanda",
+  "observations": [
+    {
+      "source": "Yahoo!不動産",
+      "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2172/2176/",
+      "retrievedAt": "2026-09-13",
+      "basis": "asking",
+      "statistic": "mean",
+      "verified": true,
+      "coverage": "掲載されている賃貸物件の平均賃料",
+      "rent": {
+        "oneRoom": 151000,
+        "oneK": 147000,
+        "oneLDK": 244000,
+        "twoLDK": 318000
+      }
+    }
+  ]
+}

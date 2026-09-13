@@ -1,0 +1,20 @@
+{
+  "slug": "mizue",
+  "observations": [
+    {
+      "source": "Yahoo!不動産",
+      "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2353/2353190/",
+      "retrievedAt": "2026-09-13",
+      "basis": "asking",
+      "statistic": "mean",
+      "verified": true,
+      "coverage": "掲載されている賃貸物件の平均賃料",
+      "rent": {
+        "oneRoom": 77000,
+        "oneK": 77000,
+        "oneLDK": 131000,
+        "twoLDK": 176000
+      }
+    }
+  ]
+}
