@@ -1,839 +1,1466 @@
 {
   "kudanshita": {
     "commute": 85,
-    "transitConvenience": 73
+    "transitConvenience": 73,
+    "shopping": 36,
+    "healthcare": 77,
+    "nature": 11
   },
   "nijubashimae": {
     "commute": 86,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 23,
+    "healthcare": 52,
+    "nature": 13
   },
   "uchisaiwaicho": {
     "commute": 81,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 20,
+    "healthcare": 96,
+    "nature": 16
   },
   "hanzomon": {
     "commute": 84,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 83,
+    "healthcare": 80,
+    "nature": 4
   },
   "kokkai-gijidomae": {
     "commute": 90,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 28,
+    "healthcare": 87,
+    "nature": 11
   },
   "otemachi": {
     "commute": 89,
-    "transitConvenience": 93
+    "transitConvenience": 93,
+    "shopping": 36,
+    "healthcare": 64,
+    "nature": 13
   },
   "iwamotocho": {
     "commute": 70,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 98,
+    "healthcare": 99,
+    "nature": 26
   },
   "ichigaya": {
     "commute": 80,
-    "transitConvenience": 90
+    "transitConvenience": 90,
+    "shopping": 51,
+    "healthcare": 60,
+    "nature": 19
   },
   "ochanomizu": {
     "commute": 85,
-    "transitConvenience": 85
+    "transitConvenience": 85,
+    "shopping": 84,
+    "healthcare": 99,
+    "nature": 55
   },
   "yurakucho": {
     "commute": 96,
-    "transitConvenience": 100
+    "transitConvenience": 100,
+    "shopping": 9,
+    "healthcare": 61,
+    "nature": 22
   },
   "suehirocho": {
     "commute": 73,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 99,
+    "healthcare": 100,
+    "nature": 52
   },
   "tokyo": {
     "commute": 93,
-    "transitConvenience": 98
+    "transitConvenience": 98,
+    "shopping": 36,
+    "healthcare": 72,
+    "nature": 35
   },
   "sakuradamon": {
     "commute": 84,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 0,
+    "healthcare": 35,
+    "nature": 4
   },
   "suidobashi": {
     "commute": 77,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 74,
+    "healthcare": 94,
+    "nature": 40
   },
   "nagatacho": {
     "commute": 94,
-    "transitConvenience": 88
+    "transitConvenience": 88,
+    "shopping": 74,
+    "healthcare": 95,
+    "nature": 16
   },
   "awajicho": {
     "commute": 72,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 84,
+    "healthcare": 99,
+    "nature": 55
   },
   "tameike-sanno": {
     "commute": 90,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 65,
+    "healthcare": 90,
+    "nature": 16
   },
   "jimbocho": {
     "commute": 85,
-    "transitConvenience": 73
+    "transitConvenience": 73,
+    "shopping": 44,
+    "healthcare": 98,
+    "nature": 22
   },
   "kanda": {
     "commute": 85,
-    "transitConvenience": 85
+    "transitConvenience": 85,
+    "shopping": 90,
+    "healthcare": 98,
+    "nature": 48
   },
   "akihabara": {
     "commute": 78,
-    "transitConvenience": 98
+    "transitConvenience": 98,
+    "shopping": 98,
+    "healthcare": 99,
+    "nature": 40
   },
   "takebashi": {
     "commute": 79,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 23,
+    "healthcare": 75,
+    "nature": 19
   },
   "kasumigaseki": {
     "commute": 96,
-    "transitConvenience": 68
+    "transitConvenience": 68,
+    "shopping": 0,
+    "healthcare": 83,
+    "nature": 8
   },
   "iidabashi": {
     "commute": 77,
-    "transitConvenience": 98
+    "transitConvenience": 98,
+    "shopping": 83,
+    "healthcare": 86,
+    "nature": 16
   },
   "kojimachi": {
     "commute": 80,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 73,
+    "healthcare": 84,
+    "nature": 4
   },
   "mitsukoshimae": {
     "commute": 87,
-    "transitConvenience": 73
+    "transitConvenience": 73,
+    "shopping": 73,
+    "healthcare": 84,
+    "nature": 30
   },
   "kyobashi": {
     "commute": 83,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 60,
+    "healthcare": 80,
+    "nature": 73
   },
   "ningyocho": {
     "commute": 80,
-    "transitConvenience": 73
+    "transitConvenience": 73,
+    "shopping": 90,
+    "healthcare": 70,
+    "nature": 43
   },
   "hatchobori": {
     "commute": 83,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 59,
+    "healthcare": 69,
+    "nature": 75
   },
   "kachidoki": {
     "commute": 71,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 43,
+    "healthcare": 55,
+    "nature": 66
   },
   "kodemmacho": {
     "commute": 71,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 92,
+    "healthcare": 90,
+    "nature": 26
   },
   "nihombashi": {
     "commute": 84,
-    "transitConvenience": 73
+    "transitConvenience": 73,
+    "shopping": 65,
+    "healthcare": 75,
+    "nature": 69
   },
   "tsukishima": {
     "commute": 75,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 35,
+    "healthcare": 59,
+    "nature": 84
   },
   "higashi-ginza": {
     "commute": 85,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 9,
+    "healthcare": 74,
+    "nature": 48
   },
   "hamacho": {
     "commute": 68,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 83,
+    "healthcare": 71,
+    "nature": 55
   },
   "tsukiji": {
     "commute": 82,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 11,
+    "healthcare": 62,
+    "nature": 71
   },
   "tsukijishijo": {
     "commute": 75,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 9,
+    "healthcare": 56,
+    "nature": 48
   },
   "kayabacho": {
     "commute": 78,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 51,
+    "healthcare": 76,
+    "nature": 71
   },
   "ginza": {
     "commute": 95,
-    "transitConvenience": 80
+    "transitConvenience": 80,
+    "shopping": 20,
+    "healthcare": 73,
+    "nature": 35
   },
   "bakurocho": {
     "commute": 77,
-    "transitConvenience": 73
+    "transitConvenience": 73,
+    "shopping": 90,
+    "healthcare": 77,
+    "nature": 30
   },
   "odaiba-kaihinkoen": {
     "commute": 54,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 37,
+    "healthcare": 33,
+    "nature": 3
   },
   "mita": {
     "commute": 82,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 84,
+    "healthcare": 90,
+    "nature": 40
   },
   "nogizaka": {
     "commute": 81,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 29,
+    "healthcare": 75,
+    "nature": 48
   },
   "roppongi": {
     "commute": 89,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 65,
+    "healthcare": 51,
+    "nature": 62
   },
   "roppongi-itchome": {
     "commute": 80,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 74,
+    "healthcare": 81,
+    "nature": 52
   },
   "shinagawa": {
     "commute": 79,
-    "transitConvenience": 98
+    "transitConvenience": 98,
+    "shopping": 29,
+    "healthcare": 60,
+    "nature": 52
   },
   "gaiemmae": {
     "commute": 85,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 44,
+    "healthcare": 85,
+    "nature": 43
   },
   "daimon": {
     "commute": 87,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 43,
+    "healthcare": 52,
+    "nature": 52
   },
   "hiro-o": {
     "commute": 83,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 67,
+    "healthcare": 69,
+    "nature": 16
   },
   "onarimon": {
     "commute": 77,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 51,
+    "healthcare": 75,
+    "nature": 52
   },
   "shimbashi": {
     "commute": 95,
-    "transitConvenience": 100
+    "transitConvenience": 100,
+    "shopping": 36,
+    "healthcare": 86,
+    "nature": 30
   },
   "hinode": {
     "commute": 70,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 35,
+    "healthcare": 43,
+    "nature": 26
   },
   "tokyo-teleport": {
     "commute": 52,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 37,
+    "healthcare": 38,
+    "nature": 4
   },
   "shiodome": {
     "commute": 85,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 44,
+    "healthcare": 66,
+    "nature": 22
   },
   "sengakuji": {
     "commute": 78,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 51,
+    "healthcare": 49,
+    "nature": 30
   },
   "hamamatsucho": {
     "commute": 82,
-    "transitConvenience": 73
+    "transitConvenience": 73,
+    "shopping": 43,
+    "healthcare": 53,
+    "nature": 43
   },
   "tamachi": {
     "commute": 77,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 84,
+    "healthcare": 86,
+    "nature": 48
   },
   "shirokanedai": {
     "commute": 75,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 43,
+    "healthcare": 44,
+    "nature": 13
   },
   "shirokane-takanawa": {
     "commute": 78,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 51,
+    "healthcare": 59,
+    "nature": 2
   },
   "kamiyacho": {
     "commute": 88,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 83,
+    "healthcare": 71,
+    "nature": 48
   },
   "takeshiba": {
     "commute": 74,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 14,
+    "healthcare": 39,
+    "nature": 30
   },
   "shibakoen": {
     "commute": 75,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 69,
+    "healthcare": 79,
+    "nature": 62
   },
   "shibaura-futo": {
     "commute": 65,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 20,
+    "healthcare": 47,
+    "nature": 19
   },
   "toranomon": {
     "commute": 94,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 29,
+    "healthcare": 95,
+    "nature": 19
   },
   "omote-sando": {
     "commute": 86,
-    "transitConvenience": 68
+    "transitConvenience": 68,
+    "shopping": 51,
+    "healthcare": 94,
+    "nature": 55
   },
   "akasaka": {
     "commute": 84,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 65,
+    "healthcare": 85,
+    "nature": 26
   },
   "akabanebashi": {
     "commute": 79,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 44,
+    "healthcare": 80,
+    "nature": 35
   },
   "aoyama-itchome": {
     "commute": 94,
-    "transitConvenience": 73
+    "transitConvenience": 73,
+    "shopping": 23,
+    "healthcare": 66,
+    "nature": 59
   },
   "takanawa-gateway": {
     "commute": 73,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 36,
+    "healthcare": 51,
+    "nature": 30
   },
   "takanawadai": {
     "commute": 74,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 20,
+    "healthcare": 68,
+    "nature": 40
   },
   "azabu-juban": {
     "commute": 82,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 74,
+    "healthcare": 70,
+    "nature": 30
   },
   "shimo-ochiai": {
     "commute": 57,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 69,
+    "healthcare": 80,
+    "nature": 91
   },
   "nakai": {
     "commute": 62,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 35,
+    "healthcare": 69,
+    "nature": 86
   },
   "shinanomachi": {
     "commute": 74,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 0,
+    "healthcare": 55,
+    "nature": 35
   },
   "yotsuya": {
     "commute": 85,
-    "transitConvenience": 93
+    "transitConvenience": 93,
+    "shopping": 60,
+    "healthcare": 56,
+    "nature": 13
   },
   "yotsuya-sanchome": {
     "commute": 81,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 56,
+    "healthcare": 77,
+    "nature": 48
   },
   "kokuritsu-kyogijo": {
     "commute": 80,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 11,
+    "healthcare": 56,
+    "nature": 40
   },
   "okubo": {
     "commute": 69,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 89,
+    "healthcare": 86,
+    "nature": 81
   },
   "shin-okubo": {
     "commute": 70,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 89,
+    "healthcare": 89,
+    "nature": 76
   },
   "shinjuku": {
     "commute": 85,
-    "transitConvenience": 100
+    "transitConvenience": 100,
+    "shopping": 20,
+    "healthcare": 97,
+    "nature": 11
   },
   "shinjuku-sanchome": {
     "commute": 80,
-    "transitConvenience": 73
+    "transitConvenience": 73,
+    "shopping": 43,
+    "healthcare": 93,
+    "nature": 19
   },
   "shinjuku-gyoemmae": {
     "commute": 80,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 20,
+    "healthcare": 56,
+    "nature": 35
   },
   "shinjuku-nishiguchi": {
     "commute": 59,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 74,
+    "healthcare": 98,
+    "nature": 26
   },
   "waseda": {
     "commute": 67,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 69,
+    "healthcare": 78,
+    "nature": 66
   },
   "waseda-toden": {
     "commute": 41,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 61,
+    "healthcare": 62,
+    "nature": 48
   },
   "akebonobashi": {
     "commute": 73,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 66,
+    "healthcare": 72,
+    "nature": 48
   },
   "higashi-shinjuku": {
     "commute": 69,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 79,
+    "healthcare": 90,
+    "nature": 35
   },
   "edogawabashi": {
     "commute": 67,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 79,
+    "healthcare": 64,
+    "nature": 76
   },
   "ushigome-yanagicho": {
     "commute": 64,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 69,
+    "healthcare": 90,
+    "nature": 35
   },
   "ushigome-kagurazaka": {
     "commute": 66,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 92,
+    "healthcare": 93,
+    "nature": 43
   },
   "kagurazaka": {
     "commute": 70,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 86,
+    "healthcare": 93,
+    "nature": 66
   },
   "wakamatsu-kawada": {
     "commute": 63,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 65,
+    "healthcare": 83,
+    "nature": 40
   },
   "nishi-shinjuku": {
     "commute": 74,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 56,
+    "healthcare": 89,
+    "nature": 73
   },
   "nishi-waseda": {
     "commute": 63,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 44,
+    "healthcare": 66,
+    "nature": 69
   },
   "seibu-shinjuku": {
     "commute": 53,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 90,
+    "healthcare": 98,
+    "nature": 30
   },
   "tochomae": {
     "commute": 56,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 50,
+    "healthcare": 87,
+    "nature": 73
   },
   "omokagebashi": {
     "commute": 44,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 51,
+    "healthcare": 64,
+    "nature": 22
   },
   "takadanobaba": {
     "commute": 69,
-    "transitConvenience": 78
+    "transitConvenience": 78,
+    "shopping": 73,
+    "healthcare": 73,
+    "nature": 81
   },
   "sengoku": {
     "commute": 63,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 65,
+    "healthcare": 64,
+    "nature": 84
   },
   "korakuen": {
     "commute": 76,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 74,
+    "healthcare": 88,
+    "nature": 43
   },
   "shin-otsuka": {
     "commute": 67,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 74,
+    "healthcare": 62,
+    "nature": 69
   },
   "kasuga": {
     "commute": 72,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 71,
+    "healthcare": 93,
+    "nature": 40
   },
   "hongo-sanchome": {
     "commute": 76,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 56,
+    "healthcare": 98,
+    "nature": 43
   },
   "hon-komagome": {
     "commute": 62,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 61,
+    "healthcare": 90,
+    "nature": 78
   },
   "todaimae": {
     "commute": 65,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 79,
+    "healthcare": 95,
+    "nature": 55
   },
   "nezu": {
     "commute": 68,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 23,
+    "healthcare": 75,
+    "nature": 48
   },
   "hakusan": {
     "commute": 66,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 66,
+    "healthcare": 77,
+    "nature": 73
   },
   "myogadani": {
     "commute": 69,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 28,
+    "healthcare": 47,
+    "nature": 73
   },
   "gokokuji": {
     "commute": 64,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 11,
+    "healthcare": 40,
+    "nature": 71
   },
   "minowa": {
     "commute": 55,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 89,
+    "healthcare": 95,
+    "nature": 95
   },
   "ueno": {
     "commute": 74,
-    "transitConvenience": 98
+    "transitConvenience": 98,
+    "shopping": 91,
+    "healthcare": 99,
+    "nature": 26
   },
   "keisei-ueno": {
     "commute": 48,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 91,
+    "healthcare": 99,
+    "nature": 30
   },
   "iriya": {
     "commute": 60,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 86,
+    "healthcare": 74,
+    "nature": 52
   },
   "sendagi": {
     "commute": 64,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 69,
+    "healthcare": 92,
+    "nature": 73
   },
   "okachimachi": {
     "commute": 74,
-    "transitConvenience": 98
+    "transitConvenience": 98,
+    "shopping": 92,
+    "healthcare": 100,
+    "nature": 40
   },
   "shin-okachimachi": {
     "commute": 65,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 83,
+    "healthcare": 99,
+    "nature": 55
   },
   "asakusa": {
     "commute": 62,
-    "transitConvenience": 78
+    "transitConvenience": 78,
+    "shopping": 69,
+    "healthcare": 90,
+    "nature": 35
   },
   "asakusa-tx": {
     "commute": 61,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 89,
+    "healthcare": 93,
+    "nature": 52
   },
   "asakusabashi": {
     "commute": 70,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 84,
+    "healthcare": 97,
+    "nature": 48
   },
   "yushima": {
     "commute": 74,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 91,
+    "healthcare": 99,
+    "nature": 30
   },
   "tawaramachi": {
     "commute": 62,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 84,
+    "healthcare": 86,
+    "nature": 48
   },
   "inaricho": {
     "commute": 66,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 82,
+    "healthcare": 99,
+    "nature": 35
   },
   "kuramae": {
     "commute": 65,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 61,
+    "healthcare": 89,
+    "nature": 48
   },
   "uguisudani": {
     "commute": 65,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 74,
+    "healthcare": 78,
+    "nature": 55
   },
   "tokyo-skytree": {
     "commute": 50,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 43,
+    "healthcare": 73,
+    "nature": 52
   },
   "ryogoku": {
     "commute": 63,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 35,
+    "healthcare": 73,
+    "nature": 52
   },
   "keisei-hikifune": {
     "commute": 46,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 51,
+    "healthcare": 57,
+    "nature": 64
   },
   "yahiro": {
     "commute": 42,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 29,
+    "healthcare": 42,
+    "nature": 22
   },
   "omurai": {
     "commute": 40,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 36,
+    "healthcare": 44,
+    "nature": 43
   },
   "oshiage": {
     "commute": 57,
-    "transitConvenience": 90
+    "transitConvenience": 90,
+    "shopping": 51,
+    "healthcare": 75,
+    "nature": 59
   },
   "hikifune": {
     "commute": 47,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 50,
+    "healthcare": 61,
+    "nature": 64
   },
   "honjo-azumabashi": {
     "commute": 58,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 35,
+    "healthcare": 57,
+    "nature": 48
   },
   "higashi-azuma": {
     "commute": 42,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 20,
+    "healthcare": 38,
+    "nature": 48
   },
   "higashi-mukojima": {
     "commute": 45,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 59,
+    "healthcare": 53,
+    "nature": 73
   },
   "kikukawa": {
     "commute": 61,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 65,
+    "healthcare": 82,
+    "nature": 86
   },
   "kinshicho": {
     "commute": 66,
-    "transitConvenience": 73
+    "transitConvenience": 73,
+    "shopping": 89,
+    "healthcare": 84,
+    "nature": 64
   },
   "kanegafuchi": {
     "commute": 42,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 14,
+    "healthcare": 53,
+    "nature": 35
   },
   "telecom-center": {
     "commute": 44,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 0,
+    "healthcare": 40,
+    "nature": 1
   },
   "kameido": {
     "commute": 55,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 74,
+    "healthcare": 53,
+    "nature": 35
   },
   "kameidosuijin": {
     "commute": 45,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 59,
+    "healthcare": 35,
+    "nature": 35
   },
   "sumiyoshi": {
     "commute": 63,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 69,
+    "healthcare": 77,
+    "nature": 73
   },
   "minami-sunamachi": {
     "commute": 55,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 14,
+    "healthcare": 50,
+    "nature": 48
   },
   "kokusai-tenjijo": {
     "commute": 50,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 14,
+    "healthcare": 42,
+    "nature": 6
   },
   "kokusai-tenjijo-seimon": {
     "commute": 42,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 0,
+    "healthcare": 39,
+    "nature": 4
   },
   "ojima": {
     "commute": 51,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 35,
+    "healthcare": 50,
+    "nature": 55
   },
   "shijo-mae": {
     "commute": 50,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 0,
+    "healthcare": 28,
+    "nature": 16
   },
   "shin-kiba": {
     "commute": 60,
-    "transitConvenience": 78
+    "transitConvenience": 78,
+    "shopping": 0,
+    "healthcare": 11,
+    "nature": 16
   },
   "shin-toyosu": {
     "commute": 52,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 9,
+    "healthcare": 39,
+    "nature": 35
   },
   "ariake": {
     "commute": 43,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 14,
+    "healthcare": 42,
+    "nature": 6
   },
   "ariake-tennis-no-mori": {
     "commute": 46,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 14,
+    "healthcare": 34,
+    "nature": 8
   },
   "kiba": {
     "commute": 63,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 28,
+    "healthcare": 48,
+    "nature": 62
   },
   "higashi-ojima": {
     "commute": 48,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 28,
+    "healthcare": 46,
+    "nature": 40
   },
   "toyocho": {
     "commute": 59,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 44,
+    "healthcare": 58,
+    "nature": 82
   },
   "shinonome": {
     "commute": 50,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 9,
+    "healthcare": 31,
+    "nature": 2
   },
   "morishita": {
     "commute": 67,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 69,
+    "healthcare": 82,
+    "nature": 84
   },
   "kiyosumi-shirakawa": {
     "commute": 70,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 59,
+    "healthcare": 64,
+    "nature": 90
   },
   "nishi-ojima": {
     "commute": 55,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 35,
+    "healthcare": 43,
+    "nature": 71
   },
   "toyosu": {
     "commute": 66,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 36,
+    "healthcare": 73,
+    "nature": 35
   },
   "tatsumi": {
     "commute": 59,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 9,
+    "healthcare": 27,
+    "nature": 8
   },
   "monzen-nakacho": {
     "commute": 70,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 36,
+    "healthcare": 39,
+    "nature": 62
   },
   "aomi": {
     "commute": 41,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 31,
+    "healthcare": 43,
+    "nature": 4
   },
   "shimo-shimmei": {
     "commute": 59,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 35,
+    "healthcare": 42,
+    "nature": 96
   },
   "fudo-mae": {
     "commute": 63,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 83,
+    "healthcare": 55,
+    "nature": 89
   },
   "nakanobu": {
     "commute": 62,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 74,
+    "healthcare": 85,
+    "nature": 98
   },
   "gotanda": {
     "commute": 76,
-    "transitConvenience": 78
+    "transitConvenience": 78,
+    "shopping": 59,
+    "healthcare": 62,
+    "nature": 84
   },
   "kitashinagawa": {
     "commute": 68,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 29,
+    "healthcare": 57,
+    "nature": 55
   },
   "daiba": {
     "commute": 50,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 20,
+    "healthcare": 35,
+    "nature": 1
   },
   "shinagawa-seaside": {
     "commute": 61,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 29,
+    "healthcare": 45,
+    "nature": 59
   },
   "oimachi": {
     "commute": 73,
-    "transitConvenience": 73
+    "transitConvenience": 73,
+    "shopping": 69,
+    "healthcare": 52,
+    "nature": 79
   },
   "oi-keibajo-mae": {
     "commute": 52,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 20,
+    "healthcare": 25,
+    "nature": 30
   },
   "osaki": {
     "commute": 76,
-    "transitConvenience": 85
+    "transitConvenience": 85,
+    "shopping": 51,
+    "healthcare": 64,
+    "nature": 79
   },
   "osaki-hirokoji": {
     "commute": 63,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 79,
+    "healthcare": 73,
+    "nature": 89
   },
   "tennozu-isle": {
     "commute": 65,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 0,
+    "healthcare": 34,
+    "nature": 35
   },
   "togoshi-koen": {
     "commute": 56,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 65,
+    "healthcare": 53,
+    "nature": 99
   },
   "togoshi": {
     "commute": 65,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 78,
+    "healthcare": 52,
+    "nature": 97
   },
   "shimbamba": {
     "commute": 66,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 20,
+    "healthcare": 50,
+    "nature": 66
   },
   "hatanodai": {
     "commute": 54,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 65,
+    "healthcare": 93,
+    "nature": 78
   },
   "musashi-koyama": {
     "commute": 59,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 96,
+    "healthcare": 68,
+    "nature": 97
   },
   "meguro": {
     "commute": 77,
-    "transitConvenience": 90
+    "transitConvenience": 90,
+    "shopping": 69,
+    "healthcare": 51,
+    "nature": 48
   },
   "tachiaigawa": {
     "commute": 57,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 20,
+    "healthcare": 46,
+    "nature": 59
   },
   "fune-no-kagakukan": {
     "commute": 47,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 9,
+    "healthcare": 42,
+    "nature": 0
   },
   "ebara-nakanobu": {
     "commute": 57,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 65,
+    "healthcare": 67,
+    "nature": 99
   },
   "ebara-machi": {
     "commute": 53,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 69,
+    "healthcare": 90,
+    "nature": 93
   },
   "nishi-koyama": {
     "commute": 55,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 96,
+    "healthcare": 66,
+    "nature": 88
   },
   "aomono-yokocho": {
     "commute": 62,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 51,
+    "healthcare": 55,
+    "nature": 69
   },
   "samezu": {
     "commute": 60,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 51,
+    "healthcare": 48,
+    "nature": 66
   },
   "nakameguro": {
     "commute": 78,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 44,
+    "healthcare": 74,
+    "nature": 52
   },
   "gakugei-daigaku": {
     "commute": 63,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 51,
+    "healthcare": 51,
+    "nature": 35
   },
   "ikejiri-ohashi": {
     "commute": 68,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 44,
+    "healthcare": 57,
+    "nature": 62
   },
   "senzoku": {
     "commute": 53,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 79,
+    "healthcare": 62,
+    "nature": 73
   },
   "yutenji": {
     "commute": 67,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 65,
+    "healthcare": 66,
+    "nature": 26
   },
   "midorigaoka": {
     "commute": 50,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 61,
+    "healthcare": 90,
+    "nature": 16
   },
   "jiyugaoka": {
     "commute": 56,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 82,
+    "healthcare": 80,
+    "nature": 4
   },
   "toritsu-daigaku": {
     "commute": 59,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 44,
+    "healthcare": 45,
+    "nature": 35
   },
   "komaba-todaimae": {
     "commute": 67,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 14,
+    "healthcare": 45,
+    "nature": 40
   },
   "shimomaruko": {
     "commute": 41,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 36,
+    "healthcare": 49,
+    "nature": 43
   },
   "kugahara": {
     "commute": 40,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 36,
+    "healthcare": 59,
+    "nature": 76
   },
   "keikyu-kamata": {
     "commute": 43,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 86,
+    "healthcare": 74,
+    "nature": 26
   },
   "rokugodote": {
     "commute": 37,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 29,
+    "healthcare": 27,
+    "nature": 8
   },
   "kita-senzoku": {
     "commute": 50,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 50,
+    "healthcare": 90,
+    "nature": 43
   },
   "chidoricho": {
     "commute": 40,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 36,
+    "healthcare": 48,
+    "nature": 55
   },
   "tamagawa": {
     "commute": 54,
-    "transitConvenience": 68
+    "transitConvenience": 68,
+    "shopping": 20,
+    "healthcare": 47,
+    "nature": 22
   },
   "ookayama": {
     "commute": 53,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 50,
+    "healthcare": 84,
+    "nature": 11
   },
   "omorikaigan": {
     "commute": 53,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 67,
+    "healthcare": 56,
+    "nature": 35
   },
   "omorimachi": {
     "commute": 48,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 65,
+    "healthcare": 48,
+    "nature": 48
   },
   "otorii": {
     "commute": 33,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 35,
+    "healthcare": 69,
+    "nature": 64
   },
   "tenkubashi": {
     "commute": 39,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 11,
+    "healthcare": 37,
+    "nature": 16
   },
   "heiwajima": {
     "commute": 50,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 44,
+    "healthcare": 33,
+    "nature": 43
   },
   "ontakesan": {
     "commute": 42,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 44,
+    "healthcare": 75,
+    "nature": 64
   },
   "seibijo": {
     "commute": 40,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 0,
+    "healthcare": 29,
+    "nature": 26
   },
   "shin-seibijo": {
     "commute": 32,
@@ -841,51 +1468,87 @@
   },
   "showajima": {
     "commute": 45,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 9,
+    "healthcare": 28,
+    "nature": 52
   },
   "umeyashiki": {
     "commute": 45,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 69,
+    "healthcare": 55,
+    "nature": 43
   },
   "musashi-nitta": {
     "commute": 41,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 59,
+    "healthcare": 52,
+    "nature": 19
   },
   "ikegami": {
     "commute": 40,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 51,
+    "healthcare": 64,
+    "nature": 11
   },
   "numabe": {
     "commute": 44,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 14,
+    "healthcare": 55,
+    "nature": 35
   },
   "senzoku-ike": {
     "commute": 49,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 56,
+    "healthcare": 72,
+    "nature": 30
   },
   "ryutsu-center": {
     "commute": 48,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 0,
+    "healthcare": 16,
+    "nature": 16
   },
   "den-en-chofu": {
     "commute": 55,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 20,
+    "healthcare": 36,
+    "nature": 6
   },
   "yaguchi-no-watashi": {
     "commute": 42,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 51,
+    "healthcare": 52,
+    "nature": 6
   },
   "ishikawadai": {
     "commute": 46,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 59,
+    "healthcare": 70,
+    "nature": 40
   },
   "anamori-inari": {
     "commute": 33,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 28,
+    "healthcare": 71,
+    "nature": 35
   },
   "kojiya": {
     "commute": 35,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 51,
+    "healthcare": 64,
+    "nature": 48
   },
   "haneda-airport-domestic-terminal": {
     "commute": 31,
@@ -893,902 +1556,1577 @@
   },
   "haneda-airport-international-terminal": {
     "commute": 36,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 0,
+    "healthcare": 4,
+    "nature": 0
   },
   "kamata": {
     "commute": 51,
-    "transitConvenience": 73
+    "transitConvenience": 73,
+    "shopping": 87,
+    "healthcare": 84,
+    "nature": 13
   },
   "hasunuma": {
     "commute": 42,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 66,
+    "healthcare": 75,
+    "nature": 3
   },
   "nishimagome": {
     "commute": 52,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 36,
+    "healthcare": 44,
+    "nature": 69
   },
   "nagahara": {
     "commute": 51,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 74,
+    "healthcare": 79,
+    "nature": 62
   },
   "zoshiki": {
     "commute": 40,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 59,
+    "healthcare": 56,
+    "nature": 35
   },
   "yukigaya-otsuka": {
     "commute": 44,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 59,
+    "healthcare": 69,
+    "nature": 62
   },
   "magome": {
     "commute": 57,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 35,
+    "healthcare": 59,
+    "nature": 86
   },
   "unoki": {
     "commute": 42,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 36,
+    "healthcare": 59,
+    "nature": 52
   },
   "sangen-jaya": {
     "commute": 62,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 79,
+    "healthcare": 95,
+    "nature": 64
   },
   "kami-kitazawa": {
     "commute": 48,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 20,
+    "healthcare": 69,
+    "nature": 64
   },
   "kamimachi": {
     "commute": 40,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 29,
+    "healthcare": 66,
+    "nature": 26
   },
   "kaminoge": {
     "commute": 41,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 11,
+    "healthcare": 40,
+    "nature": 11
   },
   "shimo-kitazawa": {
     "commute": 64,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 36,
+    "healthcare": 79,
+    "nature": 73
   },
   "shimo-takaido": {
     "commute": 54,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 44,
+    "healthcare": 79,
+    "nature": 48
   },
   "setagaya": {
     "commute": 41,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 29,
+    "healthcare": 69,
+    "nature": 19
   },
   "setagaya-daita": {
     "commute": 58,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 52,
+    "healthcare": 94,
+    "nature": 35
   },
   "kuhombutsu": {
     "commute": 48,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 44,
+    "healthcare": 35,
+    "nature": 1
   },
   "futako-tamagawa": {
     "commute": 45,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 43,
+    "healthcare": 61,
+    "nature": 8
   },
   "daitabashi": {
     "commute": 60,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 36,
+    "healthcare": 53,
+    "nature": 66
   },
   "hachiman-yama": {
     "commute": 46,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 44,
+    "healthcare": 59,
+    "nature": 69
   },
   "chitose-karasuyama": {
     "commute": 42,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 73,
+    "healthcare": 93,
+    "nature": 30
   },
   "chitose-funabashi": {
     "commute": 46,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 51,
+    "healthcare": 69,
+    "nature": 30
   },
   "okusawa": {
     "commute": 49,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 74,
+    "healthcare": 80,
+    "nature": 8
   },
   "miyanosaka": {
     "commute": 41,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 29,
+    "healthcare": 82,
+    "nature": 19
   },
   "oyamadai": {
     "commute": 46,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 29,
+    "healthcare": 33,
+    "nature": 2
   },
   "seijogakuen-mae": {
     "commute": 39,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 37,
+    "healthcare": 69,
+    "nature": 59
   },
   "shindaita": {
     "commute": 58,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 29,
+    "healthcare": 86,
+    "nature": 62
   },
   "meidaimae": {
     "commute": 59,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 59,
+    "healthcare": 67,
+    "nature": 43
   },
   "higashi-kitazawa": {
     "commute": 62,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 36,
+    "healthcare": 73,
+    "nature": 59
   },
   "higashi-matsubara": {
     "commute": 57,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 43,
+    "healthcare": 73,
+    "nature": 22
   },
   "matsubara": {
     "commute": 42,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 29,
+    "healthcare": 78,
+    "nature": 26
   },
   "shoin-jinja-mae": {
     "commute": 43,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 43,
+    "healthcare": 71,
+    "nature": 26
   },
   "sakurajosui": {
     "commute": 51,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 20,
+    "healthcare": 78,
+    "nature": 62
   },
   "sakura-shimmachi": {
     "commute": 52,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 65,
+    "healthcare": 50,
+    "nature": 16
   },
   "umegaoka": {
     "commute": 55,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 35,
+    "healthcare": 93,
+    "nature": 22
   },
   "ikenoue": {
     "commute": 63,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 36,
+    "healthcare": 77,
+    "nature": 66
   },
   "yoga": {
     "commute": 49,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 36,
+    "healthcare": 38,
+    "nature": 2
   },
   "soshigaya-okura": {
     "commute": 42,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 59,
+    "healthcare": 86,
+    "nature": 59
   },
   "todoroki": {
     "commute": 44,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 20,
+    "healthcare": 43,
+    "nature": 6
   },
   "kyodo": {
     "commute": 49,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 79,
+    "healthcare": 84,
+    "nature": 16
   },
   "roka-koen": {
     "commute": 44,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 83,
+    "healthcare": 84,
+    "nature": 59
   },
   "wakabayashi": {
     "commute": 46,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 50,
+    "healthcare": 54,
+    "nature": 52
   },
   "nishi-taishido": {
     "commute": 51,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 87,
+    "healthcare": 95,
+    "nature": 59
   },
   "gotokuji": {
     "commute": 52,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 44,
+    "healthcare": 89,
+    "nature": 26
   },
   "komazawa-daigaku": {
     "commute": 57,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 60,
+    "healthcare": 55,
+    "nature": 26
   },
   "yoyogi": {
     "commute": 80,
-    "transitConvenience": 73
+    "transitConvenience": 73,
+    "shopping": 44,
+    "healthcare": 57,
+    "nature": 8
   },
   "yoyogi-uehara": {
     "commute": 69,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 44,
+    "healthcare": 63,
+    "nature": 79
   },
   "yoyogi-hachiman": {
     "commute": 72,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 51,
+    "healthcare": 62,
+    "nature": 35
   },
   "daikanyama": {
     "commute": 72,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 82,
+    "healthcare": 76,
+    "nature": 59
   },
   "hatsudai": {
     "commute": 55,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 60,
+    "healthcare": 57,
+    "nature": 75
   },
   "kita-sando": {
     "commute": 70,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 29,
+    "healthcare": 47,
+    "nature": 26
   },
   "sendagaya": {
     "commute": 73,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 23,
+    "healthcare": 52,
+    "nature": 48
   },
   "minami-shinjuku": {
     "commute": 72,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 20,
+    "healthcare": 64,
+    "nature": 11
   },
   "sangubashi": {
     "commute": 70,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 36,
+    "healthcare": 44,
+    "nature": 22
   },
   "hatagaya": {
     "commute": 51,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 60,
+    "healthcare": 69,
+    "nature": 81
   },
   "ebisu": {
     "commute": 87,
-    "transitConvenience": 85
+    "transitConvenience": 85,
+    "shopping": 69,
+    "healthcare": 70,
+    "nature": 59
   },
   "meiji-jingumae": {
     "commute": 81,
-    "transitConvenience": 73
+    "transitConvenience": 73,
+    "shopping": 9,
+    "healthcare": 48,
+    "nature": 35
   },
   "shibuya": {
     "commute": 85,
-    "transitConvenience": 100
+    "transitConvenience": 100,
+    "shopping": 61,
+    "healthcare": 97,
+    "nature": 66
   },
   "shinsen": {
     "commute": 72,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 74,
+    "healthcare": 80,
+    "nature": 59
   },
   "sasazuka": {
     "commute": 63,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 52,
+    "healthcare": 53,
+    "nature": 86
   },
   "nishi-shinjuku-gochome": {
     "commute": 72,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 50,
+    "healthcare": 66,
+    "nature": 82
   },
   "nakano": {
     "commute": 68,
-    "transitConvenience": 73
+    "transitConvenience": 73,
+    "shopping": 79,
+    "healthcare": 98,
+    "nature": 93
   },
   "nakano-sakaue": {
     "commute": 71,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 35,
+    "healthcare": 84,
+    "nature": 82
   },
   "nakano-fujimicho": {
     "commute": 34,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 36,
+    "healthcare": 67,
+    "nature": 78
   },
   "nakano-shimbashi": {
     "commute": 36,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 51,
+    "healthcare": 79,
+    "nature": 91
   },
   "fujimidai": {
     "commute": 39,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 74,
+    "healthcare": 60,
+    "nature": 76
   },
   "shin-nakano": {
     "commute": 64,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 59,
+    "healthcare": 89,
+    "nature": 81
   },
   "araiyakushi-mae": {
     "commute": 52,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 71,
+    "healthcare": 79,
+    "nature": 78
   },
   "higashi-nakano": {
     "commute": 64,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 79,
+    "healthcare": 89,
+    "nature": 90
   },
   "numabukuro": {
     "commute": 49,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 20,
+    "healthcare": 50,
+    "nature": 64
   },
   "ochiai": {
     "commute": 59,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 79,
+    "healthcare": 90,
+    "nature": 90
   },
   "toritsu-kasei": {
     "commute": 44,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 74,
+    "healthcare": 88,
+    "nature": 79
   },
   "nogata": {
     "commute": 46,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 43,
+    "healthcare": 71,
+    "nature": 71
   },
   "saginomiya": {
     "commute": 42,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 65,
+    "healthcare": 87,
+    "nature": 91
   },
   "shimo-igusa": {
     "commute": 39,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 29,
+    "healthcare": 27,
+    "nature": 88
   },
   "kugayama": {
     "commute": 39,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 20,
+    "healthcare": 68,
+    "nature": 73
   },
   "iogi": {
     "commute": 37,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 50,
+    "healthcare": 34,
+    "nature": 76
   },
   "minami-asagaya": {
     "commute": 53,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 84,
+    "healthcare": 91,
+    "nature": 84
   },
   "fujimigaoka": {
     "commute": 41,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 51,
+    "healthcare": 80,
+    "nature": 89
   },
   "shin-koenji": {
     "commute": 56,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 73,
+    "healthcare": 91,
+    "nature": 86
   },
   "honancho": {
     "commute": 31,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 20,
+    "healthcare": 66,
+    "nature": 88
   },
   "higashi-koenji": {
     "commute": 60,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 36,
+    "healthcare": 61,
+    "nature": 82
   },
   "eifukucho": {
     "commute": 51,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 14,
+    "healthcare": 74,
+    "nature": 88
   },
   "hamadayama": {
     "commute": 46,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 44,
+    "healthcare": 80,
+    "nature": 93
   },
   "ogikubo": {
     "commute": 55,
-    "transitConvenience": 73
+    "transitConvenience": 73,
+    "shopping": 59,
+    "healthcare": 97,
+    "nature": 73
   },
   "nishi-eifuku": {
     "commute": 49,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 14,
+    "healthcare": 84,
+    "nature": 86
   },
   "nishi-ogikubo": {
     "commute": 49,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 51,
+    "healthcare": 84,
+    "nature": 71
   },
   "asagaya": {
     "commute": 58,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 82,
+    "healthcare": 96,
+    "nature": 66
   },
   "takaido": {
     "commute": 43,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 29,
+    "healthcare": 85,
+    "nature": 95
   },
   "koenji": {
     "commute": 63,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 86,
+    "healthcare": 96,
+    "nature": 84
   },
   "shimo-itabashi": {
     "commute": 55,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 78,
+    "healthcare": 53,
+    "nature": 95
   },
   "kita-ikebukuro": {
     "commute": 57,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 84,
+    "healthcare": 61,
+    "nature": 96
   },
   "senkawa": {
     "commute": 55,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 23,
+    "healthcare": 36,
+    "nature": 62
   },
   "mukohara": {
     "commute": 49,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 89,
+    "healthcare": 84,
+    "nature": 79
   },
   "otsuka": {
     "commute": 59,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 90,
+    "healthcare": 89,
+    "nature": 79
   },
   "gakushuinshita": {
     "commute": 47,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 87,
+    "healthcare": 69,
+    "nature": 30
   },
   "sugamo": {
     "commute": 64,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 78,
+    "healthcare": 86,
+    "nature": 84
   },
   "sugamoshinden": {
     "commute": 47,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 91,
+    "healthcare": 86,
+    "nature": 94
   },
   "koshinzuka": {
     "commute": 43,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 87,
+    "healthcare": 66,
+    "nature": 93
   },
   "shin-koshinzuka": {
     "commute": 42,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 82,
+    "healthcare": 52,
+    "nature": 91
   },
   "higashi-ikebukuro": {
     "commute": 63,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 69,
+    "healthcare": 78,
+    "nature": 55
   },
   "higashi-nagasaki": {
     "commute": 53,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 23,
+    "healthcare": 48,
+    "nature": 76
   },
   "shiinamachi": {
     "commute": 57,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 59,
+    "healthcare": 71,
+    "nature": 71
   },
   "ikebukuro": {
     "commute": 72,
-    "transitConvenience": 100
+    "transitConvenience": 100,
+    "shopping": 90,
+    "healthcare": 83,
+    "nature": 78
   },
   "mejiro": {
     "commute": 62,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 67,
+    "healthcare": 73,
+    "nature": 43
   },
   "ochiai-minami-nagasaki": {
     "commute": 57,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 51,
+    "healthcare": 64,
+    "nature": 84
   },
   "nishi-sugamo": {
     "commute": 56,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 74,
+    "healthcare": 52,
+    "nature": 95
   },
   "kanamecho": {
     "commute": 58,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 20,
+    "healthcare": 60,
+    "nature": 64
   },
   "toden-zoshigaya": {
     "commute": 52,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 59,
+    "healthcare": 73,
+    "nature": 59
   },
   "zoshigaya": {
     "commute": 59,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 83,
+    "healthcare": 50,
+    "nature": 35
   },
   "komagome": {
     "commute": 59,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 92,
+    "healthcare": 86,
+    "nature": 86
   },
   "kita-akabane": {
     "commute": 46,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 20,
+    "healthcare": 38,
+    "nature": 6
   },
   "jujo": {
     "commute": 55,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 56,
+    "healthcare": 89,
+    "nature": 73
   },
   "shimo": {
     "commute": 41,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 35,
+    "healthcare": 36,
+    "nature": 4
   },
   "sakaecho": {
     "commute": 42,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 82,
+    "healthcare": 82,
+    "nature": 84
   },
   "kajiwara": {
     "commute": 39,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 65,
+    "healthcare": 64,
+    "nature": 79
   },
   "takinogawa-itchome": {
     "commute": 41,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 59,
+    "healthcare": 59,
+    "nature": 91
   },
   "oji": {
     "commute": 53,
-    "transitConvenience": 78
+    "transitConvenience": 78,
+    "shopping": 79,
+    "healthcare": 77,
+    "nature": 78
   },
   "oji-kamiya": {
     "commute": 45,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 69,
+    "healthcare": 82,
+    "nature": 35
   },
   "tabata": {
     "commute": 61,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 87,
+    "healthcare": 78,
+    "nature": 95
   },
   "nishigahara": {
     "commute": 53,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 65,
+    "healthcare": 67,
+    "nature": 86
   },
   "nishigahara-yonchome": {
     "commute": 41,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 59,
+    "healthcare": 49,
+    "nature": 93
   },
   "akabane": {
     "commute": 55,
-    "transitConvenience": 88
+    "transitConvenience": 88,
+    "shopping": 84,
+    "healthcare": 82,
+    "nature": 8
   },
   "akabane-iwabuchi": {
     "commute": 38,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 74,
+    "healthcare": 73,
+    "nature": 3
   },
   "asukayama": {
     "commute": 43,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 74,
+    "healthcare": 77,
+    "nature": 86
   },
   "minowabashi": {
     "commute": 34,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 86,
+    "healthcare": 91,
+    "nature": 96
   },
   "minami-senju": {
     "commute": 55,
-    "transitConvenience": 78
+    "transitConvenience": 78,
+    "shopping": 74,
+    "healthcare": 78,
+    "nature": 81
   },
   "miyanomae": {
     "commute": 37,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 59,
+    "healthcare": 43,
+    "nature": 93
   },
   "odai": {
     "commute": 35,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 51,
+    "healthcare": 35,
+    "nature": 91
   },
   "shim-mikawashima": {
     "commute": 52,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 89,
+    "healthcare": 81,
+    "nature": 98
   },
   "nippori": {
     "commute": 63,
-    "transitConvenience": 100
+    "transitConvenience": 100,
+    "shopping": 78,
+    "healthcare": 89,
+    "nature": 86
   },
   "higashi-ogu-sanchome": {
     "commute": 42,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 79,
+    "healthcare": 68,
+    "nature": 99
   },
   "kumanomae": {
     "commute": 47,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 59,
+    "healthcare": 51,
+    "nature": 97
   },
   "machiya": {
     "commute": 54,
-    "transitConvenience": 78
+    "transitConvenience": 78,
+    "shopping": 69,
+    "healthcare": 80,
+    "nature": 100
   },
   "machiya-nichome": {
     "commute": 44,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 79,
+    "healthcare": 75,
+    "nature": 100
   },
   "arakawa-itchumae": {
     "commute": 37,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 89,
+    "healthcare": 83,
+    "nature": 97
   },
   "arakawa-nanachome": {
     "commute": 45,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 69,
+    "healthcare": 75,
+    "nature": 99
   },
   "arakawa-nichome": {
     "commute": 42,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 69,
+    "healthcare": 72,
+    "nature": 99
   },
   "arakawakuyakushomae": {
     "commute": 38,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 89,
+    "healthcare": 84,
+    "nature": 98
   },
   "arakawa-shakomae": {
     "commute": 36,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 43,
+    "healthcare": 52,
+    "nature": 89
   },
   "arakawa-yuenchimae": {
     "commute": 34,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 43,
+    "healthcare": 40,
+    "nature": 88
   },
   "nishi-nippori": {
     "commute": 64,
-    "transitConvenience": 90
+    "transitConvenience": 90,
+    "shopping": 89,
+    "healthcare": 80,
+    "nature": 93
   },
   "akado-shogakkomae": {
     "commute": 50,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 79,
+    "healthcare": 62,
+    "nature": 98
   },
   "tokiwadai": {
     "commute": 46,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 28,
+    "healthcare": 44,
+    "nature": 22
   },
   "kami-itabashi": {
     "commute": 43,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 28,
+    "healthcare": 44,
+    "nature": 26
   },
   "naka-itabashi": {
     "commute": 48,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 44,
+    "healthcare": 40,
+    "nature": 26
   },
   "chikatetsu-akatsuka": {
     "commute": 38,
-    "transitConvenience": 73
+    "transitConvenience": 73,
+    "shopping": 86,
+    "healthcare": 78,
+    "nature": 73
   },
   "oyama": {
     "commute": 51,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 65,
+    "healthcare": 52,
+    "nature": 22
   },
   "shimura-sanchome": {
     "commute": 37,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 59,
+    "healthcare": 42,
+    "nature": 30
   },
   "shimura-sakaue": {
     "commute": 40,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 65,
+    "healthcare": 45,
+    "nature": 40
   },
   "narimasu": {
     "commute": 35,
-    "transitConvenience": 73
+    "transitConvenience": 73,
+    "shopping": 83,
+    "healthcare": 55,
+    "nature": 48
   },
   "shin-itabashi": {
     "commute": 53,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 61,
+    "healthcare": 56,
+    "nature": 94
   },
   "shin-takashimadaira": {
     "commute": 30,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 14,
+    "healthcare": 30,
+    "nature": 55
   },
   "motohasunuma": {
     "commute": 42,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 59,
+    "healthcare": 41,
+    "nature": 40
   },
   "itabashi": {
     "commute": 60,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 79,
+    "healthcare": 54,
+    "nature": 96
   },
   "itabashi-kuyakushomae": {
     "commute": 49,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 74,
+    "healthcare": 54,
+    "nature": 69
   },
   "itabashihoncho": {
     "commute": 45,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 44,
+    "healthcare": 50,
+    "nature": 64
   },
   "ukimafunado": {
     "commute": 43,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 20,
+    "healthcare": 17,
+    "nature": 16
   },
   "hasune": {
     "commute": 35,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 65,
+    "healthcare": 32,
+    "nature": 22
   },
   "nishidai": {
     "commute": 34,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 59,
+    "healthcare": 31,
+    "nature": 35
   },
   "nishi-takashimadaira": {
     "commute": 28,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 9,
+    "healthcare": 39,
+    "nature": 40
   },
   "takashimadaira": {
     "commute": 31,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 36,
+    "healthcare": 24,
+    "nature": 52
   },
   "kami-igusa": {
     "commute": 34,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 44,
+    "healthcare": 31,
+    "nature": 84
   },
   "kami-shakujii": {
     "commute": 32,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 59,
+    "healthcare": 37,
+    "nature": 69
   },
   "nakamurabashi": {
     "commute": 41,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 86,
+    "healthcare": 84,
+    "nature": 79
   },
   "hikarigaoka": {
     "commute": 37,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 36,
+    "healthcare": 55,
+    "nature": 86
   },
   "oizumi-gakuen": {
     "commute": 30,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 59,
+    "healthcare": 49,
+    "nature": 91
   },
   "kotake-mukaihara": {
     "commute": 51,
-    "transitConvenience": 73
+    "transitConvenience": 73,
+    "shopping": 44,
+    "healthcare": 42,
+    "nature": 16
   },
   "heiwadai": {
     "commute": 42,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 36,
+    "healthcare": 28,
+    "nature": 66
   },
   "shin-sakuradai": {
     "commute": 42,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 59,
+    "healthcare": 51,
+    "nature": 2
   },
   "shin-egota": {
     "commute": 51,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 51,
+    "healthcare": 56,
+    "nature": 13
   },
   "tobu-nerima": {
     "commute": 39,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 50,
+    "healthcare": 31,
+    "nature": 69
   },
   "sakuradai": {
     "commute": 46,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 59,
+    "healthcare": 55,
+    "nature": 8
   },
   "musashi-seki": {
     "commute": 29,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 59,
+    "healthcare": 74,
+    "nature": 89
   },
   "hikawadai": {
     "commute": 46,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 51,
+    "healthcare": 34,
+    "nature": 11
   },
   "ekoda": {
     "commute": 49,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 51,
+    "healthcare": 56,
+    "nature": 16
   },
   "shakujii-koen": {
     "commute": 34,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 44,
+    "healthcare": 64,
+    "nature": 59
   },
   "nerima": {
     "commute": 48,
-    "transitConvenience": 85
+    "transitConvenience": 85,
+    "shopping": 84,
+    "healthcare": 73,
+    "nature": 43
   },
   "nerima-kasugacho": {
     "commute": 40,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 29,
+    "healthcare": 41,
+    "nature": 94
   },
   "nerima-takanodai": {
     "commute": 36,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 44,
+    "healthcare": 52,
+    "nature": 55
   },
   "toshimaen": {
     "commute": 44,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 74,
+    "healthcare": 70,
+    "nature": 78
   },
   "gotanno": {
     "commute": 39,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 44,
+    "healthcare": 41,
+    "nature": 66
   },
   "rokucho": {
     "commute": 43,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 11,
+    "healthcare": 45,
+    "nature": 59
   },
   "kita-senju": {
     "commute": 52,
-    "transitConvenience": 98
+    "transitConvenience": 98,
+    "shopping": 59,
+    "healthcare": 97,
+    "nature": 69
   },
   "kita-ayase": {
     "commute": 37,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 29,
+    "healthcare": 47,
+    "nature": 55
   },
   "senjuohashi": {
     "commute": 45,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 20,
+    "healthcare": 52,
+    "nature": 90
   },
   "horikiri": {
     "commute": 41,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 9,
+    "healthcare": 50,
+    "nature": 22
   },
   "daishimae": {
     "commute": 28,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 36,
+    "healthcare": 48,
+    "nature": 48
   },
   "kosuge": {
     "commute": 42,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 9,
+    "healthcare": 48,
+    "nature": 71
   },
   "ogi-ohashi": {
     "commute": 40,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 23,
+    "healthcare": 48,
+    "nature": 11
   },
   "umejima": {
     "commute": 36,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 35,
+    "healthcare": 28,
+    "nature": 11
   },
   "kohoku": {
     "commute": 36,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 36,
+    "healthcare": 50,
+    "nature": 22
   },
   "ushida": {
     "commute": 43,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 11,
+    "healthcare": 68,
+    "nature": 26
   },
   "takenotsuka": {
     "commute": 31,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 74,
+    "healthcare": 58,
+    "nature": 22
   },
   "ayase": {
     "commute": 43,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 84,
+    "healthcare": 82,
+    "nature": 48
   },
   "toneri": {
     "commute": 26,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 29,
+    "healthcare": 5,
+    "nature": 11
   },
   "toneri-koen": {
     "commute": 28,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 0,
+    "healthcare": 6,
+    "nature": 4
   },
   "nishiarai": {
     "commute": 34,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 59,
+    "healthcare": 28,
+    "nature": 19
   },
   "nishiaraidaishi-nishi": {
     "commute": 33,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 44,
+    "healthcare": 51,
+    "nature": 22
   },
   "minumadai-shinsuikoen": {
     "commute": 23,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 29,
+    "healthcare": 5,
+    "nature": 8
   },
   "yazaike": {
     "commute": 30,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 11,
+    "healthcare": 26,
+    "nature": 6
   },
   "adachi-odai": {
     "commute": 44,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 29,
+    "healthcare": 21,
+    "nature": 84
   },
   "aoi": {
     "commute": 46,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 29,
+    "healthcare": 27,
+    "nature": 35
   },
   "koya": {
     "commute": 38,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 36,
+    "healthcare": 53,
+    "nature": 19
   },
   "ohanajaya": {
     "commute": 35,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 65,
+    "healthcare": 31,
+    "nature": 22
   },
   "keisei-tateishi": {
     "commute": 36,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 29,
+    "healthcare": 60,
+    "nature": 4
   },
   "keisei-takasago": {
     "commute": 31,
-    "transitConvenience": 88
+    "transitConvenience": 88,
+    "shopping": 35,
+    "healthcare": 19,
+    "nature": 35
   },
   "yotsugi": {
     "commute": 40,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 29,
+    "healthcare": 36,
+    "nature": 11
   },
   "horikirishobuen": {
     "commute": 38,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 36,
+    "healthcare": 68,
+    "nature": 11
   },
   "shin-koiwa": {
     "commute": 53,
-    "transitConvenience": 52
+    "transitConvenience": 52,
+    "shopping": 36,
+    "healthcare": 44,
+    "nature": 8
   },
   "shin-shibamata": {
     "commute": 25,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 51,
+    "healthcare": 24,
+    "nature": 2
   },
   "shibamata": {
     "commute": 26,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 43,
+    "healthcare": 38,
+    "nature": 11
   },
   "kanamachi": {
     "commute": 32,
-    "transitConvenience": 57
+    "transitConvenience": 57,
+    "shopping": 43,
+    "healthcare": 85,
+    "nature": 59
   },
   "aoto": {
     "commute": 34,
-    "transitConvenience": 68
+    "transitConvenience": 68,
+    "shopping": 56,
+    "healthcare": 50,
+    "nature": 22
   },
   "ichinoe": {
     "commute": 39,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 36,
+    "healthcare": 51,
+    "nature": 16
   },
   "keisei-koiwa": {
     "commute": 26,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 79,
+    "healthcare": 34,
+    "nature": 22
   },
   "koiwa": {
     "commute": 39,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 87,
+    "healthcare": 61,
+    "nature": 71
   },
   "hirai": {
     "commute": 48,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 29,
+    "healthcare": 47,
+    "nature": 30
   },
   "edogawa": {
     "commute": 25,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 11,
+    "healthcare": 35,
+    "nature": 16
   },
   "mizue": {
     "commute": 35,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 69,
+    "healthcare": 74,
+    "nature": 79
   },
   "shinozaki": {
     "commute": 32,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 14,
+    "healthcare": 61,
+    "nature": 96
   },
   "funabori": {
     "commute": 43,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 36,
+    "healthcare": 47,
+    "nature": 62
   },
   "kasai": {
     "commute": 43,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 76,
+    "healthcare": 86,
+    "nature": 48
   },
   "nishi-kasai": {
     "commute": 47,
-    "transitConvenience": 32
+    "transitConvenience": 32,
+    "shopping": 84,
+    "healthcare": 62,
+    "nature": 73
   }
 }

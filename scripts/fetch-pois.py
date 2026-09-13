@@ -28,7 +28,7 @@ import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ROSTER = os.path.join(ROOT, "data", "roster", "stations.json")
-RAW_DIR = os.path.join(ROOT, "data", "poi", "raw")
+RAW_DIR = os.path.join(ROOT, "data", "poi", "raw")  # 束ごとに枝分かれする
 OUT_FILE = os.path.join(ROOT, "data", "computed", "pois.json")
 
 # 公開ミラー。上から順に試し、落ちていれば次へ回す。
@@ -42,13 +42,24 @@ ENDPOINTS = [
 ]
 
 # 取得する施設。キーが分類名、値が Overpass のタグ条件。
-CATEGORIES = {
-    "supermarket": ['["shop"="supermarket"]'],
-    "hospital": ['["amenity"="hospital"]'],
-    "clinic": ['["amenity"="clinic"]', '["amenity"="doctors"]'],
-    "pharmacy": ['["amenity"="pharmacy"]'],
-    "park": ['["leisure"="park"]'],
+# 一度に全部を問い合わせると Overpass が時間切れになるため、2つの束に分ける。
+# 束ごとにキャッシュの置き場を分け、あとで重ねて使う。
+GROUPS = {
+    "life": {
+        "supermarket": ['["shop"="supermarket"]'],
+        "hospital": ['["amenity"="hospital"]'],
+        "clinic": ['["amenity"="clinic"]', '["amenity"="doctors"]'],
+        "pharmacy": ['["amenity"="pharmacy"]'],
+        "park": ['["leisure"="park"]'],
+    },
+    "food": {
+        "restaurant": ['["amenity"="restaurant"]'],
+        "cafe": ['["amenity"="cafe"]'],
+        "bar": ['["amenity"="bar"]', '["amenity"="pub"]'],
+        "gym": ['["leisure"="fitness_centre"]'],
+    },
 }
+CATEGORIES = {k: v for g in GROUPS.values() for k, v in g.items()}
 
 # 施設の種類で「周辺」と呼べる距離が違う。スーパーは歩いて通う距離、
 # 総合病院は自転車や電車で行く距離で見る。
@@ -56,6 +67,10 @@ RADIUS_BY_CATEGORY = {
     "supermarket": 800,
     "clinic": 800,
     "pharmacy": 800,
+    "restaurant": 800,
+    "cafe": 800,
+    "bar": 800,
+    "gym": 1000,
     "park": 1200,
     "hospital": 2500,
 }
@@ -100,11 +115,11 @@ def tiles(stations):
     return out
 
 
-def build_query(bbox):
+def build_query(bbox, group):
     s, w, n, e = bbox
     box = f"({s},{w},{n},{e})"
     parts = []
-    for filters in CATEGORIES.values():
+    for filters in GROUPS[group].values():
         for f in filters:
             parts.append(f"node{f}{box};")
             parts.append(f"way{f}{box};")
@@ -131,12 +146,12 @@ def fetch(query):
     return None
 
 
-def fetch_box(box, depth=0):
+def fetch_box(box, group, depth=0):
     """
     1つの範囲を取る。施設が多い範囲は Overpass が時間切れになるので、
     落ちたら4つに割って取り直す。分割して取った結果はつなげて返す。
     """
-    data = fetch(build_query(box))
+    data = fetch(build_query(box, group))
     if data is not None:
         return data
     if depth >= 2:
@@ -147,7 +162,7 @@ def fetch_box(box, depth=0):
     merged = []
     for sub in ((s, w, mlat, mlon), (s, mlon, mlat, e),
                 (mlat, w, n, mlon), (mlat, mlon, n, e)):
-        merged.extend(fetch_box(tuple(round(v, 4) for v in sub), depth + 1)["elements"])
+        merged.extend(fetch_box(tuple(round(v, 4) for v in sub), group, depth + 1)["elements"])
         time.sleep(PAUSE_SEC)
     return {"elements": merged}
 
@@ -162,8 +177,12 @@ def category_of(tags):
         return "clinic"
     if a == "pharmacy":
         return "pharmacy"
+    if a in ("restaurant", "cafe", "bar", "pub"):
+        return "bar" if a in ("bar", "pub") else a
     if tags.get("leisure") == "park":
         return "park"
+    if tags.get("leisure") == "fitness_centre":
+        return "gym"
     return None
 
 
@@ -179,15 +198,17 @@ def main():
     print(f"{len(stations)}駅を {len(boxes)} タイルで覆う")
 
     elements = []
-    for i, box in enumerate(boxes, 1):
+    for group in GROUPS:
+      for i, box in enumerate(boxes, 1):
         name = "_".join(str(v).replace("-", "m") for v in box) + ".json"
-        path = os.path.join(RAW_DIR, name)
+        path = os.path.join(RAW_DIR, group, name) if group != "life" else os.path.join(RAW_DIR, name)
+        os.makedirs(os.path.dirname(path), exist_ok=True)
         if os.path.exists(path) and not args.refresh:
             data = json.load(open(path, encoding="utf-8"))
-            print(f"  [{i}/{len(boxes)}] キャッシュ {len(data['elements'])}件")
+            print(f"  [{group} {i}/{len(boxes)}] キャッシュ {len(data['elements'])}件")
         else:
-            print(f"  [{i}/{len(boxes)}] 取得中 {box}")
-            data = fetch_box(box)
+            print(f"  [{group} {i}/{len(boxes)}] 取得中 {box}")
+            data = fetch_box(box, group)
             json.dump(data, open(path, "w", encoding="utf-8"), ensure_ascii=False)
             print(f"    {len(data['elements'])}件")
             time.sleep(PAUSE_SEC)

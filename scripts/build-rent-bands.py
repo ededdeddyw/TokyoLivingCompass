@@ -8,6 +8,7 @@
 入力: data/rent-survey/<slug>.json
       サイトごとに、いつ・どのページで見た数字なのかを記録した観測値。
 出力: data/computed/rent-bands.json
+      data/rent-survey/history.json（取得のたびに平均値を積む。推移の材料）
 
 相場を1点の数字で示すと、実際には出典ごとに数万円ちがう値を1つに見せてしまう。
 帯で示したうえで、出典ごとの最小と最大も持たせ、開きが大きいときは駅ページで注記する。
@@ -20,6 +21,7 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SURVEY_DIR = os.path.join(ROOT, "data", "rent-survey")
 OUT_FILE = os.path.join(ROOT, "data", "computed", "rent-bands.json")
+HIST_FILE = os.path.join(ROOT, "data", "rent-survey", "history.json")
 
 RENT_TYPES = ["oneRoom", "oneK", "oneLDK", "twoLDK"]
 STEP = 10000            # 帯の刻み（1万円）
@@ -82,6 +84,21 @@ def main():
             # 1つでも人の目で確認していない観測値があれば暫定値として扱う。
             "verified": all(o.get("verified") is True for o in obs),
         }
+
+    # 取得した平均値を履歴に積む。過去の値はどのサイトも公開していないので、
+    # 推移は今日から先に貯めていく。同じ日に何度実行しても1件にまとまる。
+    hist = json.load(open(HIST_FILE, encoding="utf-8")) if os.path.exists(HIST_FILE) else {}
+    today = max((v["retrievedAt"] for v in out.values()), default=None)
+    if today:
+        for slug, v in out.items():
+            hist.setdefault(slug, {})[today] = {
+                t: b["mean"] for t, b in v["bands"].items()
+            }
+        with open(HIST_FILE, "w", encoding="utf-8") as f:
+            json.dump(hist, f, ensure_ascii=False, indent=2, sort_keys=True)
+            f.write("\n")
+        dates = sorted({d for v in hist.values() for d in v})
+        print(f"履歴に {today} を記録した（{len(dates)}時点ぶん）")
 
     os.makedirs(os.path.dirname(OUT_FILE), exist_ok=True)
     with open(OUT_FILE, "w", encoding="utf-8") as f:

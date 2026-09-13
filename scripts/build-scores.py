@@ -5,11 +5,20 @@
 
 出力: data/computed/scores.json
 
-いま計算しているのは2軸だけ。
+計算しているのは次の軸。
   commute            主要オフィス街への到達しやすさ
   transitConvenience 路線数と事業者の多様性
+  shopping           徒歩圏のスーパーの数と価格帯の幅
+  healthcare         徒歩圏のクリニック・薬局と、総合病院までの距離
+  nature             徒歩圏の公園の数
+  food / cafe / nightlife / fitness  徒歩圏の飲食店・カフェ・酒場・ジムの数
 
-残る14軸は施設数・犯罪統計・公園面積といった一次データか、人の判断が要る。
+施設の数は OpenStreetMap（scripts/fetch-pois.py）から数える。
+OSM は地域によって登録の密度が違うため、数そのものではなく、
+23区内の駅どうしの相対的な位置（何割の駅より多いか）で点をつける。
+
+残る軸（rentValue・safety・quietness・family・singleLife・
+internationalFriendliness・style）は、家賃・犯罪統計・人の判断が要る。
 どの軸を何で埋めるかは docs/03-scoring.md §4、進め方は docs/11-all-stations-plan.md。
 
   python3 scripts/build-scores.py
@@ -48,6 +57,34 @@ def transit_score(line_count, operator_count):
     return clamp(base + min(10, max(0, operator_count - 1) * 5))
 
 
+def percentile_scores(values_by_slug, floor=0):
+    """
+    施設の数を、駅どうしの相対的な位置で点にする。
+    OSM の登録密度は地域差が大きく、数の絶対値をそのまま点にはできない。
+    「23区内の駅の中で何割の駅より多いか」なら、その偏りの影響を受けにくい。
+    施設が1つもない駅は floor 点にする。
+    """
+    ranked = sorted(v for v in values_by_slug.values() if v > 0)
+    out = {}
+    for slug, v in values_by_slug.items():
+        if v <= 0:
+            out[slug] = floor
+            continue
+        # 自分以下の駅が何割あるか
+        below = sum(1 for r in ranked if r < v)
+        same = sum(1 for r in ranked if r == v)
+        pct = (below + same / 2) / len(ranked)
+        out[slug] = clamp(pct * 100)
+    return out
+
+
+def hospital_nearness(nearest_hospital_m):
+    """総合病院までの近さ。500mを満点、2.5kmで0になる直線。"""
+    if nearest_hospital_m is None:
+        return 0.0
+    return max(0.0, min(1.0, (2500 - nearest_hospital_m) / 2000))
+
+
 def main():
     roster = json.load(
         open(os.path.join(ROOT, "data", "roster", "stations.json"), encoding="utf-8")
@@ -62,6 +99,50 @@ def main():
         )
     }
 
+    # 施設データ。まだ取れていなければ、その軸は飛ばす。
+    poi_path = os.path.join(ROOT, "data", "computed", "pois.json")
+    pois = (json.load(open(poi_path, encoding="utf-8"))["stations"]
+            if os.path.exists(poi_path) else {})
+
+    TIER_OF = {"オオゼキ": "d", "業務スーパー": "d", "西友": "d", "オーケー": "d",
+               "赤札堂": "d", "ロピア": "d", "Big-A": "d", "ビッグ・エー": "d",
+               "肉のハナマサ": "d", "食品館あおば": "d", "サンディ": "d", "アコレ": "d",
+               "成城石井": "p", "紀ノ国屋": "p", "明治屋": "p", "クイーンズ伊勢丹": "p",
+               "福島屋": "p", "北野エース": "p", "プレッセ": "p", "三浦屋": "p",
+               "信濃屋": "p", "ピカール": "p"}
+
+    def tier(name):
+        for k, v in TIER_OF.items():
+            if k in name:
+                return v
+        return "s"
+
+    counts = {c: {} for c in ("restaurant", "cafe", "bar", "gym", "park")}
+    extras = {}
+    for station in roster:
+        lst = pois.get(station["slug"], [])
+        by_cat = {}
+        for p in lst:
+            by_cat.setdefault(p["category"], []).append(p)
+        for c in counts:
+            counts[c][station["slug"]] = len(by_cat.get(c, []))
+        hospitals = by_cat.get("hospital", [])
+        extras[station["slug"]] = {
+            "shops": [tier(p["name"]) for p in by_cat.get("supermarket", [])],
+            "clinics": len(by_cat.get("clinic", [])),
+            "pharmacies": len(by_cat.get("pharmacy", [])),
+            "nearestHospitalM": min((h["distanceM"] for h in hospitals), default=None),
+            "hasPoi": bool(lst),
+        }
+
+    # 数の絶対値で点をつけると、東京では上位に固まって差がつかない。
+    # 実際、スーパーを6軒で頭打ちにしたところ446駅中236駅が90点台になった。
+    # どの軸も駅どうしの相対的な位置で点にする。
+    counts["supermarket"] = {s["slug"]: len(extras[s["slug"]]["shops"]) for s in roster}
+    counts["dailyCare"] = {s["slug"]: extras[s["slug"]]["clinics"]
+                                      + extras[s["slug"]]["pharmacies"] for s in roster}
+    pct = {c: percentile_scores(counts[c]) for c in counts}
+
     out = {}
     for station in roster:
         scores = {}
@@ -73,6 +154,23 @@ def main():
         ids = station["lineIds"]
         operators = {lines[i]["operator"] for i in ids if i in lines}
         scores["transitConvenience"] = transit_score(len(ids), len(operators))
+
+        e = extras.get(station["slug"])
+        if e and e["hasPoi"]:
+            slug = station["slug"]
+            # 買い物は店の数だけでなく価格帯の幅も見る。
+            # 安い店と高い店を選べるほうが、日々の出費を調整しやすい。
+            variety = min(1.0, len(set(e["shops"])) / 3.0)
+            scores["shopping"] = clamp(pct["supermarket"][slug] * 0.75 + variety * 25)
+            # 医療は、日常のかかりつけと、いざというときの総合病院の両方を見る。
+            scores["healthcare"] = clamp(
+                pct["dailyCare"][slug] * 0.6
+                + hospital_nearness(e["nearestHospitalM"]) * 40)
+            scores["nature"] = pct["park"][slug]
+            for axis, cat in (("food", "restaurant"), ("cafe", "cafe"),
+                              ("nightlife", "bar"), ("fitness", "gym")):
+                if any(counts[cat].values()):
+                    scores[axis] = pct[cat][slug]
 
         if scores:
             out[station["slug"]] = scores
