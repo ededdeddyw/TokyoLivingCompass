@@ -155,7 +155,37 @@ SLUG_OVERRIDE = {"西馬込": "nishimagome", "中目黒": "nakameguro",
                  "葛西臨海公園": "kasai-rinkai-koen"}
 
 # 同名の別駅。ekidata の駅グループコードで区別する。
-SLUG_BY_GROUP = {"9930530": "waseda-toden", "9930903": "asakusa-tx"}
+# 改称した駅（RENAMED）の slug もここで決める。
+SLUG_BY_GROUP = {
+    "9930530": "waseda-toden", "9930903": "asakusa-tx",
+    "9931108": "tokyo-international-cruise-terminal",
+    "9931111": "tokyo-big-sight",
+    "2700206": "haneda-airport-terminal-1-2",
+    "2700207": "haneda-airport-terminal-3",
+}
+
+# ekidata と ODPT が古い駅名のままになっている駅。
+# 事業者の発表と OpenStreetMap の現地データで現行名を確かめたうえで置き換える。
+# 実在しない駅名を出さないための対応である（CLAUDE.md ルール35）。
+#
+#   ゆりかもめ 2019年3月16日改称
+#     船の科学館 → 東京国際クルーズターミナル
+#     国際展示場正門 → 東京ビッグサイト
+#     https://www.kouwan.metro.tokyo.lg.jp/news/190115_yurikamome-ekimeikaisyou.pdf
+#   京急・東京モノレール 2020年3月14日改称
+#     羽田空港国内線ターミナル → 羽田空港第1・第2ターミナル（京急）
+#     羽田空港国際線ターミナル → 羽田空港第3ターミナル
+#     https://www.tetsudo.com/news/2057/
+#
+# 東京モノレールは第1と第2を別の駅として持つが、ekidata は京急に合わせて
+# 1つの駅グループにまとめている。「どの街に住むか」を決める用途では
+# 同じ場所として扱ってよいので、京急の駅名に寄せる。
+RENAMED = {
+    "9931108": ("東京国際クルーズターミナル", "Tokyo-International-Cruise-Terminal"),
+    "9931111": ("東京ビッグサイト", "Tokyo-Big-Sight"),
+    "2700206": ("羽田空港第1・第2ターミナル", "Haneda-Airport-Terminal-1-2"),
+    "2700207": ("羽田空港第3ターミナル", "Haneda-Airport-Terminal-3"),
+}
 
 # 区境に建つ駅。最近傍の町丁だけでは決まらないので、駅の所在地表記に合わせる。
 WARD_OVERRIDE = {
@@ -275,6 +305,9 @@ def main():
         name = NAME_OVERRIDE.get(gcd) or (group["name_kanji"] if group else entry["name"])
         if gcd in NAME_OVERRIDE:
             used_name_override.add(gcd)
+        renamed = RENAMED.get(gcd)
+        if renamed:
+            name = renamed[0]
         pts = entry["points"]
         lat = round(sum(p[0] for p in pts) / len(pts), 6)
         lon = round(sum(p[1] for p in pts) / len(pts), 6)
@@ -306,6 +339,8 @@ def main():
                 if romaji_by_id.get(s["ekidata_id"]):
                     raw = romaji_by_id[s["ekidata_id"]]
                     break
+        if renamed:
+            raw = renamed[1]
         if not raw and name in ROMAJI_FIX:
             raw = ROMAJI_FIX[name]
             used_romaji_fix.add(name)

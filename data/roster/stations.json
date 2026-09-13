@@ -2135,20 +2135,6 @@
     ]
   },
   {
-    "slug": "kokusai-tenjijo-seimon",
-    "groupCode": "9931111",
-    "nameJa": "国際展示場正門",
-    "nameRomaji": "Kokusai-Tenjijo-Seimon",
-    "ward": "koto",
-    "wardCode": "13108",
-    "wardNameJa": "江東区",
-    "lat": 35.630158,
-    "lon": 139.791228,
-    "lineIds": [
-      "99311"
-    ]
-  },
-  {
     "slug": "ojima",
     "groupCode": "9930415",
     "nameJa": "大島",
@@ -2246,6 +2232,20 @@
     "lon": 139.807042,
     "lineIds": [
       "28004"
+    ]
+  },
+  {
+    "slug": "tokyo-big-sight",
+    "groupCode": "9931111",
+    "nameJa": "東京ビッグサイト",
+    "nameRomaji": "Tokyo-Big-Sight",
+    "ward": "koto",
+    "wardCode": "13108",
+    "wardNameJa": "江東区",
+    "lat": 35.630158,
+    "lon": 139.791228,
+    "lineIds": [
+      "99311"
     ]
   },
   {
@@ -2656,6 +2656,20 @@
     ]
   },
   {
+    "slug": "tokyo-international-cruise-terminal",
+    "groupCode": "9931108",
+    "nameJa": "東京国際クルーズターミナル",
+    "nameRomaji": "Tokyo-International-Cruise-Terminal",
+    "ward": "shinagawa",
+    "wardCode": "13109",
+    "wardNameJa": "品川区",
+    "lat": 35.621462,
+    "lon": 139.773157,
+    "lineIds": [
+      "99311"
+    ]
+  },
+  {
     "slug": "musashi-koyama",
     "groupCode": "2600203",
     "nameJa": "武蔵小山",
@@ -2698,20 +2712,6 @@
     "lon": 139.738886,
     "lineIds": [
       "27001"
-    ]
-  },
-  {
-    "slug": "fune-no-kagakukan",
-    "groupCode": "9931108",
-    "nameJa": "船の科学館",
-    "nameRomaji": "Fune-No-Kagakukan",
-    "ward": "shinagawa",
-    "wardCode": "13109",
-    "wardNameJa": "品川区",
-    "lat": 35.621462,
-    "lon": 139.773157,
-    "lineIds": [
-      "99311"
     ]
   },
   {
@@ -3340,10 +3340,10 @@
     ]
   },
   {
-    "slug": "haneda-airport-domestic-terminal",
+    "slug": "haneda-airport-terminal-1-2",
     "groupCode": "2700206",
-    "nameJa": "羽田空港国内線ターミナル",
-    "nameRomaji": "Haneda-Airport-Domestic-Terminal",
+    "nameJa": "羽田空港第1・第2ターミナル",
+    "nameRomaji": "Haneda-Airport-Terminal-1-2",
     "ward": "ota",
     "wardCode": "13111",
     "wardNameJa": "大田区",
@@ -3355,10 +3355,10 @@
     ]
   },
   {
-    "slug": "haneda-airport-international-terminal",
+    "slug": "haneda-airport-terminal-3",
     "groupCode": "2700207",
-    "nameJa": "羽田空港国際線ターミナル",
-    "nameRomaji": "Haneda-Airport-International-Terminal",
+    "nameJa": "羽田空港第3ターミナル",
+    "nameRomaji": "Haneda-Airport-Terminal-3",
     "ward": "ota",
     "wardCode": "13111",
     "wardNameJa": "大田区",

@@ -1561,17 +1561,6 @@
     "nightlife": 3,
     "fitness": 14
   },
-  "kokusai-tenjijo-seimon": {
-    "commute": 42,
-    "transitConvenience": 32,
-    "shopping": 0,
-    "healthcare": 39,
-    "nature": 4,
-    "food": 19,
-    "cafe": 42,
-    "nightlife": 3,
-    "fitness": 14
-  },
   "ojima": {
     "commute": 51,
     "transitConvenience": 32,
@@ -1648,6 +1637,17 @@
     "cafe": 35,
     "nightlife": 24,
     "fitness": 70
+  },
+  "tokyo-big-sight": {
+    "commute": 42,
+    "transitConvenience": 32,
+    "shopping": 0,
+    "healthcare": 39,
+    "nature": 4,
+    "food": 19,
+    "cafe": 42,
+    "nightlife": 3,
+    "fitness": 14
   },
   "higashi-ojima": {
     "commute": 48,
@@ -1957,6 +1957,17 @@
     "nightlife": 20,
     "fitness": 14
   },
+  "tokyo-international-cruise-terminal": {
+    "commute": 47,
+    "transitConvenience": 32,
+    "shopping": 9,
+    "healthcare": 42,
+    "nature": 0,
+    "food": 16,
+    "cafe": 47,
+    "nightlife": 3,
+    "fitness": 0
+  },
   "musashi-koyama": {
     "commute": 59,
     "transitConvenience": 32,
@@ -1988,17 +1999,6 @@
     "food": 23,
     "cafe": 12,
     "nightlife": 9,
-    "fitness": 0
-  },
-  "fune-no-kagakukan": {
-    "commute": 47,
-    "transitConvenience": 32,
-    "shopping": 9,
-    "healthcare": 42,
-    "nature": 0,
-    "food": 16,
-    "cafe": 47,
-    "nightlife": 3,
     "fitness": 0
   },
   "ebara-nakanobu": {
@@ -2485,7 +2485,7 @@
     "nightlife": 30,
     "fitness": 14
   },
-  "haneda-airport-domestic-terminal": {
+  "haneda-airport-terminal-1-2": {
     "commute": 31,
     "transitConvenience": 52,
     "shopping": 0,
@@ -2496,7 +2496,7 @@
     "nightlife": 3,
     "fitness": 0
   },
-  "haneda-airport-international-terminal": {
+  "haneda-airport-terminal-3": {
     "commute": 36,
     "transitConvenience": 52,
     "shopping": 0,

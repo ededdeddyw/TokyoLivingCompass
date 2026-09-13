@@ -1092,26 +1092,6 @@
         "deepest": null
       }
     },
-    "fune-no-kagakukan": {
-      "flood": {
-        "aroundCount": 2,
-        "aroundTotal": 9,
-        "atStation": null,
-        "deepest": "0.5m未満"
-      },
-      "hightide": {
-        "aroundCount": 2,
-        "aroundTotal": 9,
-        "atStation": null,
-        "deepest": "3〜5m"
-      },
-      "tsunami": {
-        "aroundCount": 0,
-        "aroundTotal": 9,
-        "atStation": null,
-        "deepest": null
-      }
-    },
     "futako-tamagawa": {
       "flood": {
         "aroundCount": 5,
@@ -1392,7 +1372,7 @@
         "deepest": null
       }
     },
-    "haneda-airport-domestic-terminal": {
+    "haneda-airport-terminal-1-2": {
       "flood": {
         "aroundCount": 0,
         "aroundTotal": 9,
@@ -1412,7 +1392,7 @@
         "deepest": null
       }
     },
-    "haneda-airport-international-terminal": {
+    "haneda-airport-terminal-3": {
       "flood": {
         "aroundCount": 4,
         "aroundTotal": 9,
@@ -3458,26 +3438,6 @@
         "aroundTotal": 9,
         "atStation": null,
         "deepest": "0.5m未満"
-      },
-      "hightide": {
-        "aroundCount": 0,
-        "aroundTotal": 9,
-        "atStation": null,
-        "deepest": null
-      },
-      "tsunami": {
-        "aroundCount": 0,
-        "aroundTotal": 9,
-        "atStation": null,
-        "deepest": null
-      }
-    },
-    "kokusai-tenjijo-seimon": {
-      "flood": {
-        "aroundCount": 0,
-        "aroundTotal": 9,
-        "atStation": null,
-        "deepest": null
       },
       "hightide": {
         "aroundCount": 0,
@@ -8284,6 +8244,46 @@
         "aroundTotal": 9,
         "atStation": null,
         "deepest": "0.5〜3m"
+      },
+      "tsunami": {
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "atStation": null,
+        "deepest": null
+      }
+    },
+    "tokyo-big-sight": {
+      "flood": {
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "atStation": null,
+        "deepest": null
+      },
+      "hightide": {
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "atStation": null,
+        "deepest": null
+      },
+      "tsunami": {
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "atStation": null,
+        "deepest": null
+      }
+    },
+    "tokyo-international-cruise-terminal": {
+      "flood": {
+        "aroundCount": 2,
+        "aroundTotal": 9,
+        "atStation": null,
+        "deepest": "0.5m未満"
+      },
+      "hightide": {
+        "aroundCount": 2,
+        "aroundTotal": 9,
+        "atStation": null,
+        "deepest": "3〜5m"
       },
       "tsunami": {
         "aroundCount": 0,

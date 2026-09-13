@@ -443,14 +443,6 @@
       "stationElevationM": -1,
       "stationIsLow": false
     },
-    "fune-no-kagakukan": {
-      "maxM": 7.8,
-      "minM": -2.4,
-      "slope": "some",
-      "spreadM": 10.2,
-      "stationElevationM": 6.7,
-      "stationIsLow": false
-    },
     "futako-tamagawa": {
       "maxM": 19,
       "minM": 7.8,
@@ -563,7 +555,7 @@
       "stationElevationM": 4.4,
       "stationIsLow": false
     },
-    "haneda-airport-domestic-terminal": {
+    "haneda-airport-terminal-1-2": {
       "maxM": 5.6,
       "minM": 3.1,
       "slope": "flat",
@@ -571,7 +563,7 @@
       "stationElevationM": 3.1,
       "stationIsLow": true
     },
-    "haneda-airport-international-terminal": {
+    "haneda-airport-terminal-3": {
       "maxM": 4.8,
       "minM": 2,
       "slope": "flat",
@@ -1394,14 +1386,6 @@
       "spreadM": 4.2,
       "stationElevationM": 7.5,
       "stationIsLow": false
-    },
-    "kokusai-tenjijo-seimon": {
-      "maxM": 8.4,
-      "minM": 5.8,
-      "slope": "flat",
-      "spreadM": 2.6,
-      "stationElevationM": 5.8,
-      "stationIsLow": true
     },
     "komaba-todaimae": {
       "maxM": 38.4,
@@ -3321,6 +3305,22 @@
       "slope": "flat",
       "spreadM": 3.2,
       "stationElevationM": 3.9,
+      "stationIsLow": false
+    },
+    "tokyo-big-sight": {
+      "maxM": 8.4,
+      "minM": 5.8,
+      "slope": "flat",
+      "spreadM": 2.6,
+      "stationElevationM": 5.8,
+      "stationIsLow": true
+    },
+    "tokyo-international-cruise-terminal": {
+      "maxM": 7.8,
+      "minM": -2.4,
+      "slope": "some",
+      "spreadM": 10.2,
+      "stationElevationM": 6.7,
       "stationIsLow": false
     },
     "tokyo-skytree": {
