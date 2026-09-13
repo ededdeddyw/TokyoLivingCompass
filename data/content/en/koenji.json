@@ -2,16 +2,27 @@
   "slug": "koenji",
   "locale": "en",
   "name": "Koenji",
-  "tagline": "Shinjuku in 8 minutes and Shibuya in 18 minutes. Served by 2 lines. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Suginami City, served by JR Chuo Rapid Line and JR Chuo-Sobu Line (Local). Journey times to the main business districts are 28 minutes to Otemachi, 8 minutes to Shinjuku, 18 minutes to Shibuya and 38 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000.The station stands 41.6 m above sea level, and the ground within 800 m varies in height by 7.3 m. The land around the station is close to level.",
+  "tagline": "Eight minutes to Shinjuku and cheap with it — because the housing is dense timber-built stock and because the Chuo Line is packed in the morning.",
+  "summary": "The JR Chuo Line Rapid reaches Shinjuku in eight minutes and Tokyo in twenty-two. Vintage clothing shops, live music venues and owner-run restaurants cluster here, and the neighbourhood has more character of its own than almost any residential area in Tokyo. Rent is clearly lower than elsewhere along the Chuo Line, and the reasons are the high proportion of timber-built flats and the Chuo Line's crowding and frequent delays in the morning. On weekends and holidays the Rapid does not stop here at all, leaving only the local trains — something a fair number of people discover only after moving in.",
+  "faces": {
+    "morning": "The Chuo Line in the morning is one of the most crowded stretches in Tokyo, and by Koenji the inbound trains already have no room. Delays happen chronically, so if your workplace is strict about start times, allow extra every morning. Outside the station from seven onwards, people come through the gates and keep moving without stopping.",
+    "daytime": "The vintage shops and cafes open around midday, so the shopping streets are quieter in the morning than you might expect. On weekday afternoons the residential streets and the shopping streets blend, and the roads feel lived-in.",
+    "night": "Many bars stay open until late, and there are still people about after the last train. For a residential part of Tokyo, restaurants close unusually late here, which does not suit anyone looking for quiet.",
+    "weekend": "Visitors come for the vintage clothing and the shopping streets get busy. During the Awa Odori dance festival at the end of August, the whole neighbourhood fills with dancers and spectators for several days, and residents find it hard to get out to the shops. The Rapid passes through and only local trains stop, so getting anywhere takes longer than on a weekday."
+  },
   "terrain": {
     "slope": "flat",
-    "note": "The station sits on the higher side of the ground around it, at 41.6 m above sea level. Within 800 m the ground ranges from 35.1 m to 42.4 m, a difference of 7.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the Musashino terrace at 42 m above sea level, with only about 7 m of variation within 800 m. Getting around by bicycle is easy, and cycling is a realistic way to reach Nakano and Asagaya. The ground does slope gently down to the south, towards the Kanda River."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "noiseSources": [
+    "Along the Chuo Line viaduct, trains can be heard until the last service",
+    "Kanpachi-dori to the south and Ome-kaido to the north carry traffic continuously",
+    "Around the arches south of the station, where the bars cluster, voices carry until late",
+    "During the Awa Odori festival the whole neighbourhood is loud for several days"
+  ],
   "groceries": [
     {
-      "name": "東急ストア 高円寺店",
+      "name": "高円寺東急ストア",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/1880783182",
@@ -37,40 +48,68 @@
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/1013448138",
       "verifiedAt": "2026-09-13"
-    }
-  ],
-  "medical": "Within an 800 m walk of the station there are 25 clinics and 23 pharmacies. Facilities recorded as hospitals lie at 松本整形外科, about 352 m away and 北條病院, about 366 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "2 lines serve the station: JR Chuo Rapid Line and JR Chuo-Sobu Line (Local). All 2 lines are run by JR East, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
-  "rentRange": {
-    "note": "One room ¥80,000 to ¥90,000, 1K ¥100,000 to ¥110,000, 1LDK ¥180,000 to ¥190,000 and 2LDK ¥260,000 to ¥270,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
-    "drivers": [
-      "Age and construction of the building",
-      "Walking distance from the station",
-      "Whether it faces a main road or the railway",
-      "Whether it sits at the top or the bottom of a slope",
-      "Floor area for the layout"
-    ]
-  },
-  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000.",
-  "neighbours": [
-    {
-      "slug": "shin-koenji",
-      "note": "828 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Koenji."
     },
     {
-      "slug": "higashi-koenji",
-      "note": "1114 m away in a straight line. It reaches Otemachi in about the same time as Koenji."
+      "name": "オーケーストア 高円寺店",
+      "tier": "discount",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1880783078",
+      "verifiedAt": "2026-09-13"
     }
   ],
+  "exits": [
+    {
+      "name": "North exit (北口)",
+      "line": "JR Chuo Rapid Line / JR Chuo-Sobu Line",
+      "character": "The way to the Junjo and Koshin-dori shopping streets. Shops selling fresh food and everyday goods line the way, and this is where daily life happens. There are plenty of bars too."
+    },
+    {
+      "name": "South exit (南口)",
+      "line": "JR Chuo Rapid Line / JR Chuo-Sobu Line",
+      "character": "The Pal and Look shopping streets run south, and the vintage clothing shops are concentrated on this side. Many of the visitors are young, and at weekends the pavements stay busy from midday into the evening."
+    }
+  ],
+  "residents": "Mostly students and people in their twenties and thirties living alone; the average age is low for a residential part of the 23 wards. Many run their own vintage shops or restaurants, and the shopkeepers still know one another. The share of families is low, so for anyone planning life around raising children, the late-night foot traffic and the number of places aimed at single people can feel like a poor fit.",
+  "housingStock": "A high proportion of timber-built flats, and plenty of older, low-rent stock still on the market. Flats without a bath, or with the washing machine space outdoors, are still let here. Search for newer reinforced-concrete buildings and the choice narrows sharply, with rents no different from other Chuo Line stations. \"Koenji is cheap\" is a statement about old timber-built flats, and worth remembering as such.",
+  "hazards": "On the national hazard map, for the flood scenario based on the largest rainfall the government models, the station itself falls outside the projected inundation area. Four of the nine points within 400 m of the station fall inside it, to a projected depth of 0.5 to 3 m. All of them lie on the southern side, where the ground falls towards the Kanda and Zenpukuji rivers. For the blocks of densely packed timber housing, the Tokyo Metropolitan Government publishes a fire-risk rating by neighbourhood in its regional hazard assessment, so look up the figure for the block you would live in. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "stationNote": "The Chuo Rapid stops here on weekdays only and passes through at weekends and on holidays. On those days you are on the Sobu local line, which takes longer to reach Shinjuku. The north and south exits are reached after leaving the gates, and getting to the other side means the underpass or the level crossing.",
+  "nightWalk": "The shopping streets are lit and busy until late, so walking home is not a worry. One street back, though, the timber-built residential blocks have narrow roads and few lamps. If you would rather not pass drinkers on the way home, choose a flat by whether the route takes you through the bar streets.",
+  "rentReason": "Rent is low for somewhere eight minutes from Shinjuku. The reasons are the high share of older timber-built flats, the chronic morning crowding and delays on the Chuo Line, the spread of densely packed timber housing around the station, and the absence of any large shopping complex. Plenty of people choose the neighbourhood for its character, so compared on conditions alone it looks like a bargain.",
+  "rentRange": {
+    "note": "Within the same ten-minute walk, a timber-built flat with no bath and a newer reinforced-concrete flat differ by nearly double. Koenji's average looks low because there is so much of the former on the market; ask for ordinary fittings and the picture changes at once.",
+    "drivers": [
+      "Older timber-built, or newer reinforced concrete",
+      "Fittings such as a bath and a separate washbasin",
+      "Proximity to the bar streets by the south exit",
+      "Whether it faces Kanpachi-dori or Ome-kaido",
+      "Whether it sits along the viaduct"
+    ]
+  },
+  "family": "The share of households with children is not high, and both the shops and the housing lean towards people living alone. The ground is flat, on the terrace, so a pushchair is easy to manage, but there are few large parks near the station and Wadabori Park and the Zenpukuji riverside are some distance away. Check school catchment and nursery availability by address against Suginami City's own current information. Whether you read the late-night foot traffic as reassuring company or as noise that never lets up is what divides opinion here.",
+  "medical": "Within walking distance of the station there are 25 clinics and 23 pharmacies, the most of any of the seventeen stations written up in this depth. Hojo Hospital is about 370 m away and Seizankai Kiyokawa Hospital about 550 m, so hospitals that admit inpatients are within walking distance too. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "neighbours": [
+    {
+      "slug": "higashi-nakano",
+      "note": "If you want quiet rather than bustle, choose Higashi-Nakano. Shinjuku is one stop away, but only local trains stop there. Rents are at a similar level."
+    },
+    {
+      "slug": "sasazuka",
+      "note": "If you want a train you can sit on in the morning, choose Sasazuka. Trains on the Keio New Line start there, and Shinjuku is five minutes away. The neighbourhood has nothing like Koenji's character, though."
+    }
+  ],
+  "outlook": "No large redevelopment is on the horizon, and the make-up of the neighbourhood — vintage shops and restaurants at its centre — looks set to continue for the time being. On the other hand, disaster preparedness in densely packed timber housing is an acknowledged problem for the authorities, so over the long run rebuilding may reduce the stock of cheap timber-built flats.",
   "goodFor": [
-    "People commuting towards Shinjuku",
-    "People who get around by bicycle or with a pushchair",
-    "People who want to finish their shopping on foot",
-    "People who want a park close by",
-    "People living alone who want to hold the rent down"
+    "People living alone who want to be close to Shinjuku on a low rent",
+    "People who want many places to eat out, open late",
+    "People who value a neighbourhood with a culture of its own",
+    "People who want a hospital with emergency care close by"
   ],
   "notFor": [
-    "The data does not show a drawback particular to this station"
+    "People who want a quiet environment",
+    "People looking for a newer, fully fitted flat",
+    "People who want to avoid the Chuo Line's morning crowding and delays",
+    "People who want a settled environment centred on raising children"
   ],
-  "authoredBy": "data-generated"
+  "residentComment": "It is not a neighbourhood to recommend to everyone, but nowhere else in Tokyo packs this many vintage shops, live music venues and owner-run bars into one place, and anyone who wants that will struggle to find the same thing elsewhere. There are so many cheap places to eat that you can keep food costs down without cooking. The rent people call cheap, though, is a figure based on old timber-built flats; ask for ordinary fittings and it matches any other Chuo Line station. The morning crowding, and the Rapid passing through at weekends, are things you feel as an inconvenience most weeks once you live here. That this is a densely packed timber-housing area is worth facing squarely as the reason the rent is low.",
+  "authoredBy": "ai-localized"
 }

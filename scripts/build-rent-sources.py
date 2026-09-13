@@ -180,6 +180,9 @@ def main():
     # アットホームで実在するスラッグの一覧。路線ページから集めたときだけ埋まる。
     athome_valid = set(collected.get("アットホーム", {}).values())
     athome_by_name = collected.get("アットホーム", {})
+    # 同じ駅名が2つある駅（早稲田・浅草）。駅名で引くとどちらの駅か決まらない。
+    duplicated = {n for n in (st["nameJa"] for st in roster)
+                  if sum(1 for x in roster if x["nameJa"] == n) > 1}
 
     added = 0
     for st in roster:
@@ -190,14 +193,27 @@ def main():
         # 淡路町を新御茶ノ水に、大門を浜松町に寄せてしまうことがあり、
         # 別の駅の相場を取りにいってしまうためである。
         athome = st["nameRomaji"].lower().replace("-", "")
+        entry = stations.setdefault(st["slug"], {})
         if athome_valid and athome not in athome_valid:
             found = athome_by_name.get(st["nameJa"])
+            if found and st["nameJa"] in duplicated:
+                # 早稲田と浅草は同じ駅名の駅が2つあり、駅名で引くとどちらか決まらない。
+                # 別の駅の相場を載せるより、この出典を持たないほうがよい。
+                print(f"  {st['nameJa']}（{st['slug']}）: 同じ駅名が2つあるため、"
+                      f"アットホームは使わない")
+                entry.pop("アットホーム", None)
+                continue
             if found:
+                # アットホームの路線ページが、この駅名に対して出しているスラッグ。
+                # 淡路町と新御茶ノ水、大門と浜松町のように、つながっている駅を
+                # 1ページにまとめている場合がある。いずれも400m以内で、
+                # 同じ歩行圏の相場とみなせる。
                 print(f"  {st['nameJa']}: {athome} は無いので {found} を使う")
                 athome = found
             else:
-                print(f"  {st['nameJa']}: {athome} が見つからない。あとで手当てが要る")
-        entry = stations.setdefault(st["slug"], {})
+                print(f"  {st['nameJa']}: {athome} が見つからない。この出典は持たない")
+                entry.pop("アットホーム", None)
+                continue
         if entry.get("アットホーム") != athome:
             entry["アットホーム"] = athome
             added += 1
