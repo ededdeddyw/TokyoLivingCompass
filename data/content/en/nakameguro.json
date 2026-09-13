@@ -1,14 +1,25 @@
 {
   "slug": "nakameguro",
   "locale": "en",
-  "name": "Naka-Meguro",
-  "tagline": "Shibuya in 4 minutes and Roppongi in 9 minutes. Served by 2 lines. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
-  "summary": "The station is in Meguro City, served by Tokyu Toyoko Line and Tokyo Metro Hibiya Line. Journey times to the main business districts are 25 minutes to Otemachi, 14 minutes to Shinjuku, 4 minutes to Shibuya and 26 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000.The station stands 9.3 m above sea level, and the ground within 800 m varies in height by 18.6 m. The land around the station has gentle slopes.",
+  "name": "Nakameguro",
+  "tagline": "Three minutes to Shibuya, eight to Roppongi, and the Hibiya Line starts here, so queue on the platform and you will usually get a seat. The drawbacks are the rent and the cherry blossom weekends, when crowds along the river make even a trip to the supermarket slow.",
+  "summary": "The Tokyu Toyoko Line reaches Shibuya in three minutes; the Hibiya Line reaches Roppongi in eight and Toranomon in fifteen. The Hibiya Line starts at this station, so if you queue on the platform you can usually sit down even in the morning. Independent restaurants and shops line the Meguro River, and the calm of the streets ranks among the best in Tokyo. In exchange, rent is the highest of any station on this site, and on cherry blossom weekends the riverside pavements fill with visitors, so even walking to the local supermarket takes time. The station sits in the valley the Meguro River cut, so slopes are constant, and some people find that a daily burden once they have moved in.",
+  "faces": {
+    "morning": "Because the Hibiya Line starts here, you can sit down on the way to Roppongi and Toranomon. At peak times, though, a queue forms on the platform and you may let one train go. The Toyoko Line is one stop from Shibuya, but crowded in that direction. Outside the station, commuters and cafe customers mix, and between 7 and 9 the pavements feel narrow.",
+    "daytime": "Weekday afternoons are quiet, with only a scattering of people walking along the river. The restaurants and shops are open, but foot traffic is light.",
+    "night": "Of the 26 restaurants whose opening hours are recorded, 9 stay open past 23:00, so you can eat on the way home. It is a settled dining street rather than a noisy entertainment district. Foot traffic at night has risen since the shops under the viaduct opened.",
+    "weekend": "On cherry blossom weekends the riverside is too crowded to walk along, and the station gates are put under crowd control. Shopping becomes awkward too, so for a resident this means a few weeks a year when the crowds are a real nuisance. Other weekends bring visitors as well, but not enough to get in the way of shopping or moving around."
+  },
   "terrain": {
     "slope": "some",
-    "note": "The station sits lower than the ground around it, at 9.3 m above sea level. Within 800 m the ground ranges from 8.8 m to 27.4 m, a difference of 18.6 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits at the bottom of the valley cut by the Meguro River, 9 m above sea level. The ground rises to 27 m towards Daikanyama and towards Yutenji, a difference of 19 m within 800 m. That is the largest spread among the seventeen stations written up in this depth. Whether you live at the bottom of the slope, by the river, or at the top, in the residential streets, makes a considerable difference to getting around by bicycle or with a pushchair."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "noiseSources": [
+    "Yamate-dori carries heavy traffic, and blocks near the Metropolitan Expressway ramp hear it all day",
+    "Trains on the Toyoko and Hibiya Line viaducts carry along the track",
+    "During cherry blossom season the riverside is noisy with voices from daytime until night",
+    "The blocks where the restaurants cluster see people coming and going until late"
+  ],
   "groceries": [
     {
       "name": "プレッセ",
@@ -37,36 +48,73 @@
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/6753153462",
       "verifiedAt": "2026-09-13"
-    }
-  ],
-  "medical": "Within an 800 m walk of the station there are 15 clinics and 7 pharmacies. Facilities recorded as hospitals lie at 東京共済病院, about 558 m away and 総合病院三宿病院, about 1236 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "2 lines serve the station: Tokyu Toyoko Line and Tokyo Metro Hibiya Line. The lines are split between operators (Tokyu runs 1 line and Tokyo Metro runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
-  "rentRange": {
-    "note": "One room ¥130,000 to ¥140,000, 1K ¥140,000 to ¥150,000, 1LDK ¥270,000 to ¥280,000 and 2LDK ¥360,000 to ¥370,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
-    "drivers": [
-      "Age and construction of the building",
-      "Walking distance from the station",
-      "Whether it faces a main road or the railway",
-      "Whether it sits at the top or the bottom of a slope",
-      "Floor area for the layout"
-    ]
-  },
-  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000.",
-  "neighbours": [
-    {
-      "slug": "daikanyama",
-      "note": "640 m away in a straight line. It reaches Otemachi in about the same time as Naka-Meguro."
     },
     {
-      "slug": "yutenji",
-      "note": "1028 m away in a straight line. It takes 5 minutes longer to reach Otemachi than Naka-Meguro."
+      "name": "ピーコックストア 代官山店",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/3122257226",
+      "verifiedAt": "2026-09-13"
     }
   ],
+  "exits": [
+    {
+      "name": "Main gate (正面改札)",
+      "line": "Tokyu Toyoko Line / Tokyo Metro Hibiya Line",
+      "character": "Both lines use the same platform and share one set of gates. The exit leads straight into the shops built under the viaduct, where restaurants and a bookshop sit side by side. This is also the way out to the cherry trees along the Meguro River."
+    },
+    {
+      "name": "South gate (南改札)",
+      "line": "Tokyu Toyoko Line / Tokyo Metro Hibiya Line",
+      "character": "Comes out towards Yutenji. Mostly housing, and far enough from the crowd outside the main gate. If you want to avoid the cherry blossom crowds, living in this direction makes the walk home easier."
+    },
+    {
+      "name": "Main gate, towards Daikanyama",
+      "line": "Tokyu Toyoko Line / Tokyo Metro Hibiya Line",
+      "character": "About ten minutes' walk from Daikanyama, and rents are highest in this stretch. It is also the uphill direction."
+    }
+  ],
+  "residents": "Mostly people in their twenties to forties living alone, and dual-income couples, on higher-than-average incomes. The share of foreign residents is high for a residential part of the 23 wards, so shops and letting agents where English is spoken are comparatively easy to find. Older households who have lived here a long time are concentrated in the residential streets up the slope, so the population by the station and the population above it are clearly different.",
+  "housingStock": "Close to the station the stock is mainly newer mid- and high-rise blocks, and rents cluster in the upper bands. Up the slope, older low-rise blocks and houses remain, so the same station covers a wide range of building ages and rents. One-room flats for people living alone are few in number, and the ones on good terms are taken quickly once they are listed.",
+  "hazards": "On the national hazard map, for the flood scenario based on the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Two of the nine points within 400 m of the station fall inside the area. The station sits at 9 m above sea level, at the bottom of the valley cut by the Meguro River, and the ground leaves the area as you climb. The choice is between the convenience of the riverside and the smaller projection up the slope. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "stationNote": "The Toyoko and Hibiya Lines share a platform, so you can switch between the Shibuya direction and the Roppongi direction without leaving it. The Hibiya Line starts at this station, so queue and you can sit all the way into central Tokyo in the morning. Toyoko Line expresses towards Shibuya are crowded, though; it is one stop, but the morning ride is not comfortable.",
+  "nightWalk": "The area around the station and along the Meguro River is lit and busy at night. Up the slope, the residential streets have fewer lamps and fewer people. The distance is short but the gradient is real, so walk the route up the hill once before you decide how you feel about it.",
+  "rentReason": "Three minutes to Shibuya, eight to Roppongi, a seat on the Hibiya Line, and on top of that strong demand for the calm of the streets. Rent is high not only because the station is convenient: many people value living in this particular neighbourhood, and that demand pushes rents up. On the same budget you could have a larger flat one station away, so opinions divide on whether the difference is worth paying for the neighbourhood itself.",
+  "rentRange": {
+    "note": "Newer blocks along the river and older buildings up the slope differ sharply in rent. Even within the same ten-minute walk of Nakameguro, the market towards Daikanyama sits a step above the market towards Yutenji. Treating the whole neighbourhood as one figure will mislead you about what you can actually rent.",
+    "drivers": [
+      "Towards Daikanyama or towards Yutenji",
+      "Along the Meguro River, on low ground, or up the slope",
+      "Age and construction of the building",
+      "Proximity to Yamate-dori and the expressway ramp",
+      "Height difference from the station"
+    ]
+  },
+  "family": "Meguro City is well regarded for its schools, and families choose it for childcare and education. The slopes are hard work with a pushchair, though. There are few large parks near the station, so the riverside walkway is the main place to take a walk. Because rents are high, finding family-sized space raises the budget sharply. Check nursery availability and school catchment by address against Meguro City's own current information.",
+  "medical": "Within walking distance of the station there are 15 clinics and 7 pharmacies. Tokyo Kyosai Hospital is about 560 m away, and Mishuku Hospital and the Japan Self-Defense Forces Central Hospital are both about 1.2 km. Clinics that work in foreign languages are comparatively easy to find here. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "neighbours": [
+    {
+      "slug": "musashi-koyama",
+      "note": "If you want the same Meguro Line and Toyoko Line reach at a lower rent, choose Musashi-Koyama. Its covered shopping street is long, and buying everyday goods and food is easier there. It also runs direct to Otemachi on the Meguro Line. The choice is between the calm of the streets here and the convenience of the shopping there."
+    },
+    {
+      "slug": "kiyosumi-shirakawa",
+      "note": "If you want to cut the budget substantially while keeping a neighbourhood with character of its own, choose Kiyosumi-Shirakawa. Shibuya becomes 25 minutes direct on the Hanzomon Line, but rent for a 1LDK falls by roughly ¥70,000."
+    }
+  ],
+  "outlook": "Since the shops under the viaduct opened, the commercial cluster around the station has grown further. No large housing redevelopment is on the horizon, but demand is steady and little suggests rents will fall. The cherry blossom crowds grow year on year, so expect that pressure on daily life to continue.",
   "goodFor": [
-    "People commuting towards Shinjuku"
+    "People commuting towards Shibuya and Roppongi",
+    "People who want a seat on the morning train",
+    "People who can spend on the character of the neighbourhood and the quality of eating out",
+    "People who need an environment where foreign languages are spoken"
   ],
   "notFor": [
-    "People avoiding projected flood inundation areas"
+    "People who judge rent on value for money",
+    "People who would rather not walk up and down slopes",
+    "People who cannot put up with the cherry blossom crowds",
+    "People who want a larger flat for the same budget"
   ],
-  "authoredBy": "data-generated"
+  "residentComment": "People say the commute and the calm are both here and the only weakness is the rent, but once you live here it is the slopes and the cherry blossom crowds that weigh on you day to day. The Hibiya Line starting here means I usually get a seat, and commuting to Roppongi and Toranomon became clearly easier. It is true, though, that the same budget would buy a larger flat at another station, and the decision comes down to whether you personally have a reason to pay that difference for this neighbourhood. The riverside is lovely, but I would keep that separate from the fact that it is inside the projected flood area.",
+  "authoredBy": "ai-localized"
 }

@@ -158,10 +158,17 @@ for (const locale of listContentLocales()) {
     const rosterEntry = rosterBySlug.get(slug);
     if (content.exits && content.exits.length > 0 && rosterEntry && rosterEntry.lineIds.length > 1) {
       const written = content.exits.map((e) => e.line ?? "").join(" ");
+      // 出口の説明は、その言語の路線名で書かれる。日本語名と英語名のどちらかが
+      // 出ていれば、その路線について書かれているとみなす。
       const missing = rosterEntry.lineIds
-        .map((id) => lines.get(id)?.nameJa)
-        .filter((name): name is string => Boolean(name))
-        .filter((name) => !written.includes(shortLineName(name)));
+        .map((id) => lines.get(id))
+        .filter((line): line is NonNullable<typeof line> => Boolean(line))
+        .filter(
+          (line) =>
+            !written.includes(shortLineName(line.nameJa)) &&
+            !written.includes(shortLineName(line.nameEn)),
+        )
+        .map((line) => line.nameJa);
       if (missing.length > 0) {
         warnings.push(
           `${locale}/${slug}: 出口の説明に ${missing.join("・")} が出てきません。` +
@@ -173,8 +180,8 @@ for (const locale of listContentLocales()) {
 }
 
 /** 「JR中央線(快速)」と「JR中央線（快速）」のような表記ゆれを避けて突き合わせる。 */
-function shortLineName(nameJa: string): string {
-  return nameJa.replace(/[(（].*$/, "");
+function shortLineName(name: string): string {
+  return name.replace(/[(（].*$/, "").trim();
 }
 
 // 店名は、実在を確認していないものを載せてはいけない。
