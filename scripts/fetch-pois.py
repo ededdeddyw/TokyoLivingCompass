@@ -112,7 +112,7 @@ def build_query(bbox):
 
 
 def fetch(query):
-    """ミラーを順に試す。すべて落ちていれば例外を投げる。"""
+    """ミラーを順に試す。すべて落ちていれば None を返す。"""
     last = None
     for ep in ENDPOINTS:
         try:
@@ -127,7 +127,29 @@ def fetch(query):
             last = f"{ep}: {err}"
             print(f"    × {last}")
             time.sleep(PAUSE_SEC)
-    raise SystemExit(f"すべてのミラーが応答しませんでした。最後の失敗: {last}")
+    print(f"    どのミラーも応答しなかった: {last}")
+    return None
+
+
+def fetch_box(box, depth=0):
+    """
+    1つの範囲を取る。施設が多い範囲は Overpass が時間切れになるので、
+    落ちたら4つに割って取り直す。分割して取った結果はつなげて返す。
+    """
+    data = fetch(build_query(box))
+    if data is not None:
+        return data
+    if depth >= 2:
+        raise SystemExit(f"分割しても取得できなかった: {box}")
+    s, w, n, e = box
+    mlat, mlon = (s + n) / 2, (w + e) / 2
+    print(f"    範囲を4分割して取り直す（{depth + 1}回目）")
+    merged = []
+    for sub in ((s, w, mlat, mlon), (s, mlon, mlat, e),
+                (mlat, w, n, mlon), (mlat, mlon, n, e)):
+        merged.extend(fetch_box(tuple(round(v, 4) for v in sub), depth + 1)["elements"])
+        time.sleep(PAUSE_SEC)
+    return {"elements": merged}
 
 
 def category_of(tags):
@@ -165,7 +187,7 @@ def main():
             print(f"  [{i}/{len(boxes)}] キャッシュ {len(data['elements'])}件")
         else:
             print(f"  [{i}/{len(boxes)}] 取得中 {box}")
-            data = fetch(build_query(box))
+            data = fetch_box(box)
             json.dump(data, open(path, "w", encoding="utf-8"), ensure_ascii=False)
             print(f"    {len(data['elements'])}件")
             time.sleep(PAUSE_SEC)

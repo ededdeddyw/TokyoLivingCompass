@@ -1,0 +1,516 @@
+{
+  "meta": {
+    "source": "重ねるハザードマップ（国土交通省・国土地理院）",
+    "sourceUrl": "https://disaportal.gsi.go.jp/",
+    "layers": {
+      "flood": "洪水浸水想定区域（想定最大規模）",
+      "hightide": "高潮浸水想定区域（想定最大規模）",
+      "tsunami": "津波浸水想定"
+    },
+    "method": "ズーム15のタイルから、駅と周囲8方位200mの計9点を読み取る",
+    "caveat": "地図に描かれている想定を読み取ったものであり、危険・安全の判断ではない。住所ごとの確認は区のハザードマップで行う。",
+    "retrievedAt": "2026-09-13"
+  },
+  "stations": {
+    "kudanshita": {
+      "flood": {
+        "atStation": "0.5〜3m",
+        "aroundCount": 5,
+        "aroundTotal": 9,
+        "deepest": "0.5〜3m"
+      },
+      "hightide": {
+        "atStation": "0.5m未満",
+        "aroundCount": 5,
+        "aroundTotal": 9,
+        "deepest": "0.5〜3m"
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    },
+    "nijubashimae": {
+      "flood": {
+        "atStation": "0.5〜3m",
+        "aroundCount": 7,
+        "aroundTotal": 9,
+        "deepest": "0.5〜3m"
+      },
+      "hightide": {
+        "atStation": "0.5m未満",
+        "aroundCount": 6,
+        "aroundTotal": 9,
+        "deepest": "0.5〜3m"
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    },
+    "uchisaiwaicho": {
+      "flood": {
+        "atStation": "0.5m未満",
+        "aroundCount": 5,
+        "aroundTotal": 9,
+        "deepest": "0.5〜3m"
+      },
+      "hightide": {
+        "atStation": "0.5m未満",
+        "aroundCount": 4,
+        "aroundTotal": 9,
+        "deepest": "0.5m未満"
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    },
+    "hanzomon": {
+      "flood": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      },
+      "hightide": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    },
+    "kokkai-gijidomae": {
+      "flood": {
+        "atStation": null,
+        "aroundCount": 2,
+        "aroundTotal": 9,
+        "deepest": "0.5m未満"
+      },
+      "hightide": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    },
+    "otemachi": {
+      "flood": {
+        "atStation": "0.5m未満",
+        "aroundCount": 9,
+        "aroundTotal": 9,
+        "deepest": "0.5m未満"
+      },
+      "hightide": {
+        "atStation": "0.5m未満",
+        "aroundCount": 6,
+        "aroundTotal": 9,
+        "deepest": "0.5m未満"
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    },
+    "iwamotocho": {
+      "flood": {
+        "atStation": "0.5〜3m",
+        "aroundCount": 9,
+        "aroundTotal": 9,
+        "deepest": "0.5〜3m"
+      },
+      "hightide": {
+        "atStation": "0.5m未満",
+        "aroundCount": 5,
+        "aroundTotal": 9,
+        "deepest": "0.5m未満"
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    },
+    "ichigaya": {
+      "flood": {
+        "atStation": "0.5〜3m",
+        "aroundCount": 2,
+        "aroundTotal": 9,
+        "deepest": "0.5〜3m"
+      },
+      "hightide": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    },
+    "ochanomizu": {
+      "flood": {
+        "atStation": null,
+        "aroundCount": 1,
+        "aroundTotal": 9,
+        "deepest": "0.5〜3m"
+      },
+      "hightide": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    },
+    "yurakucho": {
+      "flood": {
+        "atStation": "0.5m未満",
+        "aroundCount": 9,
+        "aroundTotal": 9,
+        "deepest": "0.5〜3m"
+      },
+      "hightide": {
+        "atStation": "0.5m未満",
+        "aroundCount": 9,
+        "aroundTotal": 9,
+        "deepest": "0.5〜3m"
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    },
+    "suehirocho": {
+      "flood": {
+        "atStation": "0.5〜3m",
+        "aroundCount": 9,
+        "aroundTotal": 9,
+        "deepest": "0.5〜3m"
+      },
+      "hightide": {
+        "atStation": "0.5m未満",
+        "aroundCount": 5,
+        "aroundTotal": 9,
+        "deepest": "0.5m未満"
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    },
+    "tokyo": {
+      "flood": {
+        "atStation": "0.5m未満",
+        "aroundCount": 9,
+        "aroundTotal": 9,
+        "deepest": "0.5m未満"
+      },
+      "hightide": {
+        "atStation": "0.5m未満",
+        "aroundCount": 9,
+        "aroundTotal": 9,
+        "deepest": "0.5〜3m"
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    },
+    "sakuradamon": {
+      "flood": {
+        "atStation": "0.5m未満",
+        "aroundCount": 2,
+        "aroundTotal": 9,
+        "deepest": "0.5m未満"
+      },
+      "hightide": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    },
+    "suidobashi": {
+      "flood": {
+        "atStation": "0.5〜3m",
+        "aroundCount": 6,
+        "aroundTotal": 9,
+        "deepest": "0.5〜3m"
+      },
+      "hightide": {
+        "atStation": null,
+        "aroundCount": 3,
+        "aroundTotal": 9,
+        "deepest": "0.5〜3m"
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    },
+    "nagatacho": {
+      "flood": {
+        "atStation": null,
+        "aroundCount": 3,
+        "aroundTotal": 9,
+        "deepest": "0.5m未満"
+      },
+      "hightide": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    },
+    "awajicho": {
+      "flood": {
+        "atStation": "0.5m未満",
+        "aroundCount": 4,
+        "aroundTotal": 9,
+        "deepest": "0.5〜3m"
+      },
+      "hightide": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    },
+    "tameike-sanno": {
+      "flood": {
+        "atStation": null,
+        "aroundCount": 5,
+        "aroundTotal": 9,
+        "deepest": "0.5m未満"
+      },
+      "hightide": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    },
+    "jimbocho": {
+      "flood": {
+        "atStation": "0.5〜3m",
+        "aroundCount": 8,
+        "aroundTotal": 9,
+        "deepest": "0.5〜3m"
+      },
+      "hightide": {
+        "atStation": "0.5〜3m",
+        "aroundCount": 7,
+        "aroundTotal": 9,
+        "deepest": "0.5〜3m"
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    },
+    "kanda": {
+      "flood": {
+        "atStation": "0.5m未満",
+        "aroundCount": 8,
+        "aroundTotal": 9,
+        "deepest": "0.5〜3m"
+      },
+      "hightide": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    },
+    "akihabara": {
+      "flood": {
+        "atStation": "0.5〜3m",
+        "aroundCount": 9,
+        "aroundTotal": 9,
+        "deepest": "0.5〜3m"
+      },
+      "hightide": {
+        "atStation": "0.5m未満",
+        "aroundCount": 8,
+        "aroundTotal": 9,
+        "deepest": "0.5m未満"
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    },
+    "takebashi": {
+      "flood": {
+        "atStation": null,
+        "aroundCount": 3,
+        "aroundTotal": 9,
+        "deepest": "0.5〜3m"
+      },
+      "hightide": {
+        "atStation": null,
+        "aroundCount": 2,
+        "aroundTotal": 9,
+        "deepest": "0.5〜3m"
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    },
+    "kasumigaseki": {
+      "flood": {
+        "atStation": "0.5m未満",
+        "aroundCount": 2,
+        "aroundTotal": 9,
+        "deepest": "0.5m未満"
+      },
+      "hightide": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    },
+    "iidabashi": {
+      "flood": {
+        "atStation": "0.5〜3m",
+        "aroundCount": 6,
+        "aroundTotal": 9,
+        "deepest": "0.5〜3m"
+      },
+      "hightide": {
+        "atStation": "0.5m未満",
+        "aroundCount": 4,
+        "aroundTotal": 9,
+        "deepest": "0.5〜3m"
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    },
+    "kojimachi": {
+      "flood": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      },
+      "hightide": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    },
+    "mitsukoshimae": {
+      "flood": {
+        "atStation": null,
+        "aroundCount": 4,
+        "aroundTotal": 9,
+        "deepest": "0.5〜3m"
+      },
+      "hightide": {
+        "atStation": null,
+        "aroundCount": 2,
+        "aroundTotal": 9,
+        "deepest": "0.5m未満"
+      },
+      "tsunami": {
+        "atStation": null,
+        "aroundCount": 0,
+        "aroundTotal": 9,
+        "deepest": null
+      }
+    }
+  }
+}
