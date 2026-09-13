@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-出典のあるデータだけを使って、全448駅ぶんの日本語コンテンツを組み立てる。
+出典のあるデータだけを使って、全458駅ぶんの日本語コンテンツを組み立てる。
 
   python3 scripts/build-station-content.py --dry-run
   python3 scripts/build-station-content.py

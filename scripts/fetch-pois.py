@@ -6,7 +6,7 @@ OpenStreetMap から、駅の周辺施設（スーパー・病院・クリニッ
   python3 scripts/fetch-pois.py            # 未取得のタイルだけ取る
   python3 scripts/fetch-pois.py --refresh  # 取得済みも取り直す
 
-駅ごとに問い合わせると448回になり、Overpass のサーバーに負担をかける。
+駅ごとに問い合わせると458回になり、Overpass のサーバーに負担をかける。
 そこで対象範囲をタイルに分けて一度だけ取得し、駅への割り当ては手元で計算する。
 
 出力:

@@ -300,7 +300,7 @@ def main():
   </section>
 
   <footer>
-    Tokyo Living Compass ／ 掲載候補448駅のうち、16層すべてを書き終えたのは17駅。
+    Tokyo Living Compass ／ 掲載候補458駅のうち、16層すべてを書き終えたのは17駅。
   </footer>
 </div>
 """
