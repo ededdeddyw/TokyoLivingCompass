@@ -1,0 +1,63 @@
+{
+  "slug": "toritsu-kasei",
+  "locale": "en",
+  "name": "Toritsu-Kasei",
+  "tagline": "Shinjuku in 23 minutes and Shibuya in 33 minutes. Served by 1 line.",
+  "summary": "The station is in Nakano City, served by Seibu Shinjuku Line. Journey times to the main business districts are 33 minutes to Otemachi, 23 minutes to Shinjuku, 33 minutes to Shibuya and 53 minutes to Shinagawa. The station stands 42.7 m above sea level, and the ground within 800 m varies in height by 4.4 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 42.7 m above sea level. Within 800 m the ground ranges from 38.3 m to 42.7 m, a difference of 4.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "ピーコックストア",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/6172547856",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツ",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/6172547835",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/6300911589",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "サミット",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/5042307483",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 20 clinics and 24 pharmacies. Facilities recorded as hospitals lie at つるた鷺ノ宮クリニック, about 847 m away and 薄病院, about 989 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Seibu Shinjuku Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "saginomiya",
+      "note": "535 m away in a straight line. It reaches Otemachi in about the same time as Toritsu-Kasei."
+    },
+    {
+      "slug": "nogata",
+      "note": "771 m away in a straight line. It reaches Otemachi in about the same time as Toritsu-Kasei."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair",
+    "People who want to finish their shopping on foot",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

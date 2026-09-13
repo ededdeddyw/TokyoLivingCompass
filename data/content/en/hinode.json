@@ -1,0 +1,48 @@
+{
+  "slug": "hinode",
+  "locale": "en",
+  "name": "Hinode",
+  "tagline": "Tokyo in 14 minutes and Toranomon in 14 minutes. Served by 1 line.",
+  "summary": "The station is in Minato City, served by Yurikamome. Journey times to the main business districts are 21 minutes to Otemachi, 29 minutes to Shinjuku, 27 minutes to Shibuya and 18 minutes to Shinagawa. The station stands 2.7 m above sea level, and the ground within 800 m varies in height by 4.6 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 2.7 m above sea level. Within 800 m the ground ranges from 1.3 m to 5.9 m, a difference of 4.6 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. For storm surge, 3 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/11404897147",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/11404897145",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 2 clinics and 3 pharmacies. Facilities recorded as hospitals lie at 芝公園かみやまクリニック, about 685 m away and 愛育病院, about 687 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Yurikamome. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "takeshiba",
+      "note": "613 m away in a straight line. It reaches Otemachi in about the same time as Hinode."
+    },
+    {
+      "slug": "hamamatsucho",
+      "note": "729 m away in a straight line. It reaches Otemachi 9 minutes sooner than Hinode."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair",
+    "People avoiding projected flood inundation areas"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "higashi-ikebukuro",
+  "locale": "en",
+  "name": "Higashi-Ikebukuro",
+  "tagline": "Shinjuku in 14 minutes and Shibuya in 19 minutes. Served by 2 lines.",
+  "summary": "The station is in Toshima City, served by Tokyo Metro Yurakucho Line and Tokyo Sakura Tram (Toden Arakawa Line). Journey times to the main business districts are 19 minutes to Otemachi, 14 minutes to Shinjuku, 19 minutes to Shibuya and 37 minutes to Shinagawa. The station stands 27.7 m above sea level, and the ground within 800 m varies in height by 4.0 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits lower than the ground around it, at 27.7 m above sea level. Within 800 m the ground ranges from 27.7 m to 31.7 m, a difference of 4.0 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/11109158232",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "西友 サンシャイン60前店",
+      "tier": "discount",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/4209282891",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/13666265903",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オークラ",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/13897787860",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 7 clinics and 17 pharmacies. Facilities recorded as hospitals lie at 木村整形外科, about 489 m away and 池袋病院, about 650 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Tokyo Metro Yurakucho Line and Tokyo Sakura Tram (Toden Arakawa Line). The lines are split between operators (Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "neighbours": [
+    {
+      "slug": "toden-zoshigaya",
+      "note": "211 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Higashi-Ikebukuro."
+    },
+    {
+      "slug": "mukohara",
+      "note": "599 m away in a straight line. It takes 9 minutes longer to reach Otemachi than Higashi-Ikebukuro."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "The data does not show a drawback particular to this station"
+  ],
+  "authoredBy": "data-generated"
+}

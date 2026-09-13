@@ -1,0 +1,63 @@
+{
+  "slug": "miyanosaka",
+  "locale": "en",
+  "name": "Miyanosaka",
+  "tagline": "Shinjuku in 24 minutes and Shibuya in 26 minutes. Served by 1 line.",
+  "summary": "The station is in Setagaya City, served by Tokyu Setagaya Line. Journey times to the main business districts are 43 minutes to Otemachi, 24 minutes to Shinjuku, 26 minutes to Shibuya and 52 minutes to Shinagawa. The station stands 34.3 m above sea level, and the ground within 800 m varies in height by 6.9 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits lower than the ground around it, at 34.3 m above sea level. Within 800 m the ground ranges from 33.1 m to 40 m, a difference of 6.9 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 5 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "スーパーオオゼキ",
+      "tier": "discount",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/1805591835",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Parque",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/5436853551",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ピーコックストア 経堂店",
+      "tier": "standard",
+      "walkMinutes": 13,
+      "sourceUrl": "https://www.openstreetmap.org/node/1823133649",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "スパイスワラ",
+      "tier": "standard",
+      "walkMinutes": 13,
+      "sourceUrl": "https://www.openstreetmap.org/node/2501405132",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 15 clinics and 16 pharmacies. Facilities recorded as hospitals lie at 菊池外科病院, about 730 m away and さくら会世田谷中央病院, about 860 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyu Setagaya Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "kamimachi",
+      "note": "445 m away in a straight line. It reaches Otemachi in about the same time as Miyanosaka."
+    },
+    {
+      "slug": "setagaya",
+      "note": "697 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Miyanosaka."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended",
+    "People who want to finish their shopping on foot"
+  ],
+  "authoredBy": "data-generated"
+}

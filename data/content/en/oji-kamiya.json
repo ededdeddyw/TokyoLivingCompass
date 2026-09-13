@@ -1,0 +1,62 @@
+{
+  "slug": "oji-kamiya",
+  "locale": "en",
+  "name": "Oji-Kamiya",
+  "tagline": "Otemachi in 29 minutes and Tokyo in 30 minutes. Served by 1 line.",
+  "summary": "The station is in Kita City, served by Tokyo Metro Namboku Line. Journey times to the main business districts are 29 minutes to Otemachi, 32 minutes to Shinjuku, 38 minutes to Shibuya and 44 minutes to Shinagawa. The station stands 1.7 m above sea level, and the ground within 800 m varies in height by 2.8 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits lower than the ground around it, at 1.7 m above sea level. Within 800 m the ground ranges from 1.7 m to 4.5 m, a difference of 2.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 5 to 10 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 5 to 10 m. For storm surge, 6 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "ジャパンミート卸売市場 王子店",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1330413928",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/10589114208",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "サミット",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/10916280970",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "コモディイイダ",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/2125951756",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 19 clinics and 19 pharmacies. Facilities recorded as hospitals lie at 桑原病院, about 1034 m away and 愛誠病院, about 1893 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Metro Namboku Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "higashi-jujo",
+      "note": "832 m away in a straight line. It reaches Otemachi in about the same time as Oji-Kamiya."
+    },
+    {
+      "slug": "oji",
+      "note": "1337 m away in a straight line. It reaches Otemachi 3 minutes sooner than Oji-Kamiya."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

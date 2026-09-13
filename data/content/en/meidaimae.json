@@ -1,0 +1,61 @@
+{
+  "slug": "meidaimae",
+  "locale": "en",
+  "name": "Meidaimae",
+  "tagline": "Shinjuku in 10 minutes and Shibuya in 13 minutes. Served by 2 lines.",
+  "summary": "The station is in Setagaya City, served by Keio Line and Keio Inokashira Line. Journey times to the main business districts are 35 minutes to Otemachi, 10 minutes to Shinjuku, 13 minutes to Shibuya and 39 minutes to Shinagawa. The station stands 41.2 m above sea level, and the ground within 800 m varies in height by 11.4 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 41.2 m above sea level. Within 800 m the ground ranges from 36.9 m to 48.3 m, a difference of 11.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "京王ストアエクスプレス 明大前店",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/6579722370",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "AZUMA",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/1658529408",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Rico’s",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/12097973769",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 松原2丁目店",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/8751520233",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 13 clinics and 7 pharmacies. Facilities recorded as hospitals lie at 吉川内科小児科病院, about 802 m away and うめとぴあ, about 1257 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Keio Line and Keio Inokashira Line. All 2 lines are run by Keio, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "neighbours": [
+    {
+      "slug": "higashi-matsubara",
+      "note": "826 m away in a straight line. It reaches Otemachi in about the same time as Meidaimae."
+    },
+    {
+      "slug": "daitabashi",
+      "note": "858 m away in a straight line. It reaches Otemachi in about the same time as Meidaimae."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku"
+  ],
+  "notFor": [
+    "The data does not show a drawback particular to this station"
+  ],
+  "authoredBy": "data-generated"
+}

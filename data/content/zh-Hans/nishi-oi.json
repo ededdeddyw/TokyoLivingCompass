@@ -1,0 +1,62 @@
+{
+  "slug": "nishi-oi",
+  "locale": "zh-Hans",
+  "name": "西大井",
+  "tagline": "到品川5分钟、到涩谷11分钟。有2条线路经过。",
+  "summary": "车站位于品川区，有JR横須賀線、JR湘南新宿ライン经过。到主要商务区的所需时间为：到大手町21分钟、到新宿16分钟、到涩谷11分钟、到品川5分钟。车站海拔15.4米，周边800米范围内的高低差为8.2米。车站周围的地形有缓坡。",
+  "terrain": {
+    "slope": "some",
+    "note": "车站所在的位置低于周围，海拔15.4米。周边800米范围内，海拔从14米到22.2米，相差8.2米。以上数值取自日本国土地理院的海拔API，读取了车站本身和半径400米的八个方位，共九个点。"
+  },
+  "hazards": "在按可能出现的最大降雨量推算的洪水浸水想定区域中，车站所在的地点在区域之外。在车站400米以内查看的九个点中，有1个点被划入区域，其中推算最深的水深为不足0.5米。同一个车站周边，推算的水深也会因街区而异，所以请按具体地址查看所在区发布的灾害地图。内涝没有全国统一的地图，由各区分别发布，也一并看一看为好。",
+  "groceries": [
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1985076824",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "文化堂 西大井店",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/2441192701",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "丸正 二葉店",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/5981327725",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Big-A 品川豊町店",
+      "tier": "discount",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/5744822119",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "从车站步行800米以内，有诊所1家。登记为医院的设施，距离为仁生堂大村病院约758米、佐花会大井中央病院约1067米。能否住院、设有哪些科室，OpenStreetMap 上没有记载，请到各设施的网站上确认。夜间和休息日能就诊的医疗机构，可以向所住区的急救咨询窗口查询。",
+  "stationNote": "可以使用JR横須賀線、JR湘南新宿ライン这2条线路。2条线路都由JR东日本运营，遇到波及整个运营公司的故障时，可能会一起停运。按线路数量和运营方的分散程度计算，换乘便利度为52分（满分100分）。",
+  "neighbours": [
+    {
+      "slug": "togoshi-koen",
+      "note": "直线距离867米。到大手町比西大井多花13分钟。"
+    },
+    {
+      "slug": "shimo-shimmei",
+      "note": "直线距离888米。到大手町比西大井多花11分钟。"
+    }
+  ],
+  "goodFor": [
+    "到新宿方向通勤的人",
+    "看重公园就在附近的人"
+  ],
+  "notFor": [
+    "看重外出就餐的店铺数量的人"
+  ],
+  "authoredBy": "data-generated"
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "shin-sakuradai",
+  "locale": "en",
+  "name": "Shin-Sakuradai",
+  "tagline": "Shinjuku in 27 minutes and Shibuya in 32 minutes. Served by 1 line.",
+  "summary": "The station is in Nerima City, served by Seibu Yurakucho Line. Journey times to the main business districts are 37 minutes to Otemachi, 27 minutes to Shinjuku, 32 minutes to Shibuya and 53 minutes to Shinagawa. The station stands 37.1 m above sea level, and the ground within 800 m varies in height by 1.6 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 37.1 m above sea level. Within 800 m the ground ranges from 36.6 m to 38.2 m, a difference of 1.6 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "ライフ 新桜台店",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/4160653093",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Big-A 練馬栄町店",
+      "tier": "discount",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/12477157918",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/5601377727",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "西友",
+      "tier": "discount",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/1678025753",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 8 pharmacies. Facilities recorded as hospitals lie at 東京武蔵野病院, about 896 m away and 練馬総合病院, about 1128 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Seibu Yurakucho Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "ekoda",
+      "note": "541 m away in a straight line. It reaches Otemachi 6 minutes sooner than Shin-Sakuradai."
+    },
+    {
+      "slug": "sakuradai",
+      "note": "559 m away in a straight line. It reaches Otemachi 4 minutes sooner than Shin-Sakuradai."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair",
+    "People avoiding projected flood inundation areas"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

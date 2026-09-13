@@ -1,0 +1,62 @@
+{
+  "slug": "setagaya",
+  "locale": "en",
+  "name": "Setagaya",
+  "tagline": "Shibuya in 22 minutes and Shinjuku in 29 minutes. Served by 1 line.",
+  "summary": "The station is in Setagaya City, served by Tokyu Setagaya Line. Journey times to the main business districts are 46 minutes to Otemachi, 29 minutes to Shinjuku, 22 minutes to Shibuya and 48 minutes to Shinagawa. The station stands 37.5 m above sea level, and the ground within 800 m varies in height by 7.3 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 37.5 m above sea level. Within 800 m the ground ranges from 31.5 m to 38.8 m, a difference of 7.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "Cusina Felice",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/5438780492",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "サミット 松陰神社前店",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/1798142276",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "スーパーオオゼキ",
+      "tier": "discount",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/1805591835",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/5408651179",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 7 clinics and 11 pharmacies. Facilities recorded as hospitals lie at さくら会世田谷中央病院, about 258 m away and 菊池外科病院, about 1338 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyu Setagaya Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "shoin-jinja-mae",
+      "note": "387 m away in a straight line. It reaches Otemachi 3 minutes sooner than Setagaya."
+    },
+    {
+      "slug": "kamimachi",
+      "note": "422 m away in a straight line. It reaches Otemachi in about the same time as Setagaya."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended",
+    "People who want to finish their shopping on foot"
+  ],
+  "authoredBy": "data-generated"
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "hamamatsucho",
+  "locale": "en",
+  "name": "Hamamatsucho",
+  "tagline": "Tokyo in 7 minutes and Shinagawa in 7 minutes. Served by 3 lines.",
+  "summary": "The station is in Minato City, served by JR Yamanote Line, JR Keihin-Tohoku Line and Tokyo Monorail. Journey times to the main business districts are 12 minutes to Otemachi, 27 minutes to Shinjuku, 23 minutes to Shibuya and 7 minutes to Shinagawa. The station stands 4.4 m above sea level, and the ground within 800 m varies in height by 2.8 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 4.4 m above sea level. Within 800 m the ground ranges from 1.6 m to 4.4 m, a difference of 2.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 8 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 9 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "マルエツ",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/4543737290",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/11448468935",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 3 clinics and 7 pharmacies. Facilities recorded as hospitals lie at 芝公園かみやまクリニック, about 599 m away and 港勤労者医療協会芝病院, about 701 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "3 lines serve the station: JR Yamanote Line, JR Keihin-Tohoku Line and Tokyo Monorail. The lines are split between operators (JR East runs 2 lines and Tokyo Monorail runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 73.",
+  "neighbours": [
+    {
+      "slug": "daimon",
+      "note": "256 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Hamamatsucho."
+    },
+    {
+      "slug": "takeshiba",
+      "note": "479 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Hamamatsucho."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People who want another route when a line stops",
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

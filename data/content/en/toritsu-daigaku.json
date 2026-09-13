@@ -1,0 +1,63 @@
+{
+  "slug": "toritsu-daigaku",
+  "locale": "en",
+  "name": "Toritsu-Daigaku",
+  "tagline": "Shibuya in 12 minutes and Roppongi in 21 minutes. Served by 1 line.",
+  "summary": "The station is in Meguro City, served by Tokyu Toyoko Line. Journey times to the main business districts are 36 minutes to Otemachi, 22 minutes to Shinjuku, 12 minutes to Shibuya and 30 minutes to Shinagawa. The station stands 25.9 m above sea level, and the ground within 800 m varies in height by 14.8 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 25.9 m above sea level. Within 800 m the ground ranges from 23.7 m to 38.5 m, a difference of 14.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "東急ストア",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/way/701464303",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "なんでも酒や カクヤス 都立大学店",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/10274573965",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "肉のハナマサ 都立大店",
+      "tier": "discount",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/10731876131",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/6585809388",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 2 clinics and 2 pharmacies. Facilities recorded as hospitals lie at 目黒厚生会本田病院, about 111 m away and 日扇会第一病院, about 347 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyu Toyoko Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "midorigaoka",
+      "note": "1303 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Toritsu-Daigaku."
+    },
+    {
+      "slug": "jiyugaoka",
+      "note": "1371 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Toritsu-Daigaku."
+    }
+  ],
+  "goodFor": [
+    "The data does not show a clear group this station suits"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended",
+    "People who want plenty of places to eat out"
+  ],
+  "authoredBy": "data-generated"
+}

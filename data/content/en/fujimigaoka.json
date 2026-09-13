@@ -1,0 +1,63 @@
+{
+  "slug": "fujimigaoka",
+  "locale": "en",
+  "name": "Fujimigaoka",
+  "tagline": "Shibuya in 23 minutes and Shinjuku in 26 minutes. Served by 1 line.",
+  "summary": "The station is in Suginami City, served by Keio Inokashira Line. Journey times to the main business districts are 47 minutes to Otemachi, 26 minutes to Shinjuku, 23 minutes to Shibuya and 50 minutes to Shinagawa. The station stands 43.8 m above sea level, and the ground within 800 m varies in height by 7.5 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits lower than the ground around it, at 43.8 m above sea level. Within 800 m the ground ranges from 42.6 m to 50.1 m, a difference of 7.5 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "西友 富士見ヶ丘店",
+      "tier": "discount",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/799911958",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "井口精米店",
+      "tier": "standard",
+      "walkMinutes": 13,
+      "sourceUrl": "https://www.openstreetmap.org/node/3286765724",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オオゼキ 高井戸店",
+      "tier": "discount",
+      "walkMinutes": 13,
+      "sourceUrl": "https://www.openstreetmap.org/node/1195347712",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "京王ストア",
+      "tier": "standard",
+      "walkMinutes": 13,
+      "sourceUrl": "https://www.openstreetmap.org/node/4119703622",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 13 clinics and 14 pharmacies. Facilities recorded as hospitals lie at 浴風会病院, about 521 m away and 浴風会, about 527 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Keio Inokashira Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "takaido",
+      "note": "746 m away in a straight line. It reaches Otemachi in about the same time as Fujimigaoka."
+    },
+    {
+      "slug": "kugayama",
+      "note": "800 m away in a straight line. It reaches Otemachi in about the same time as Fujimigaoka."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

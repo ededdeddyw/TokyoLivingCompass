@@ -1,0 +1,62 @@
+{
+  "slug": "takinogawa-itchome",
+  "locale": "en",
+  "name": "Takinogawa-Itchome",
+  "tagline": "Tokyo in 31 minutes and Shinjuku in 33 minutes. Served by 1 line.",
+  "summary": "The station is in Kita City, served by Tokyo Sakura Tram (Toden Arakawa Line). Journey times to the main business districts are 35 minutes to Otemachi, 33 minutes to Shinjuku, 38 minutes to Shibuya and 46 minutes to Shinagawa. The station stands 16.4 m above sea level, and the ground within 800 m varies in height by 8.4 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 16.4 m above sea level. Within 800 m the ground ranges from 16 m to 24.4 m, a difference of 8.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "肉のハナマサ",
+      "tier": "discount",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/5452386871",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "シーズンマート",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/6435906537",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "コープ",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/10285649537",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/4127352689",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 11 clinics and 11 pharmacies. Facilities recorded as hospitals lie at 桑原病院, about 1311 m away and 愛誠病院, about 1459 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Sakura Tram (Toden Arakawa Line). Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "asukayama",
+      "note": "367 m away in a straight line. It reaches Otemachi in about the same time as Takinogawa-Itchome."
+    },
+    {
+      "slug": "nishigahara-yonchome",
+      "note": "396 m away in a straight line. It reaches Otemachi in about the same time as Takinogawa-Itchome."
+    }
+  ],
+  "goodFor": [
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

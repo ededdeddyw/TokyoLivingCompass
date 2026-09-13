@@ -1,0 +1,62 @@
+{
+  "slug": "shimo-shimmei",
+  "locale": "en",
+  "name": "Shimo-Shimmei",
+  "tagline": "Shinagawa in 12 minutes and Shibuya in 23 minutes. Served by 1 line.",
+  "summary": "The station is in Shinagawa City, served by Tokyu Oimachi Line. Journey times to the main business districts are 32 minutes to Otemachi, 28 minutes to Shinjuku, 23 minutes to Shibuya and 12 minutes to Shinagawa. The station stands 16 m above sea level, and the ground within 800 m varies in height by 13.5 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 16 m above sea level. Within 800 m the ground ranges from 7.5 m to 21 m, a difference of 13.5 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "丸正　大井町店",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/691085295",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/2391059973",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "スーパーおおぜき",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/2001633280",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ライフ",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/13722006963",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 3 pharmacies. Facilities recorded as hospitals lie at 仁生堂大村病院, about 1001 m away and 佐花会大井中央病院, about 1048 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyu Oimachi Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "togoshi-koen",
+      "note": "732 m away in a straight line. It reaches Otemachi in about the same time as Shimo-Shimmei."
+    },
+    {
+      "slug": "oimachi",
+      "note": "807 m away in a straight line. It reaches Otemachi 7 minutes sooner than Shimo-Shimmei."
+    }
+  ],
+  "goodFor": [
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended",
+    "People who want plenty of places to eat out"
+  ],
+  "authoredBy": "data-generated"
+}

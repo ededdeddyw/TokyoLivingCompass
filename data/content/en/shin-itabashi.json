@@ -1,0 +1,63 @@
+{
+  "slug": "shin-itabashi",
+  "locale": "en",
+  "name": "Shin-Itabashi",
+  "tagline": "Otemachi in 20 minutes and Tokyo in 26 minutes. Served by 1 line.",
+  "summary": "The station is in Itabashi City, served by Toei Mita Line. Journey times to the main business districts are 20 minutes to Otemachi, 28 minutes to Shinjuku, 33 minutes to Shibuya and 40 minutes to Shinagawa. The station stands 28.8 m above sea level, and the ground within 800 m varies in height by 11.4 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 28.8 m above sea level. Within 800 m the ground ranges from 17.4 m to 28.8 m, a difference of 11.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "ライフ 板橋店",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/5999785085",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "コープ",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/1669568182",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/5467231332",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツ",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/1669568490",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 6 pharmacies. Facilities recorded as hospitals lie at 愛誠病院, about 504 m away and 帝京大学医学部附属病院, about 1242 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Toei Mita Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "itabashi",
+      "note": "376 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Shin-Itabashi."
+    },
+    {
+      "slug": "shimo-itabashi",
+      "note": "588 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Shin-Itabashi."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended",
+    "People who want plenty of places to eat out"
+  ],
+  "authoredBy": "data-generated"
+}

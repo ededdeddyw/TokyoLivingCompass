@@ -1,0 +1,62 @@
+{
+  "slug": "osaki-hirokoji",
+  "locale": "en",
+  "name": "Osaki-Hirokoji",
+  "tagline": "Shibuya in 16 minutes and Shinagawa in 18 minutes. Served by 1 line.",
+  "summary": "The station is in Shinagawa City, served by Tokyu Ikegami Line. Journey times to the main business districts are 30 minutes to Otemachi, 25 minutes to Shinjuku, 16 minutes to Shibuya and 18 minutes to Shinagawa. The station stands 6.6 m above sea level, and the ground within 800 m varies in height by 19.1 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 6.6 m above sea level. Within 800 m the ground ranges from 2.7 m to 21.8 m, a difference of 19.1 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 4 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "東急ストア",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/13822861588",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "成城石井",
+      "tier": "premium",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/13822934821",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "foodium 東五反田",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/2105665133",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 西五反田2丁目店",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/2183410349",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 15 pharmacies. Facilities recorded as hospitals lie at サザンガーデンクリニック, about 491 m away and 有仁会阿部病院, about 628 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyu Ikegami Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "gotanda",
+      "note": "457 m away in a straight line. It reaches Otemachi 7 minutes sooner than Osaki-Hirokoji."
+    },
+    {
+      "slug": "osaki",
+      "note": "616 m away in a straight line. It reaches Otemachi in about the same time as Osaki-Hirokoji."
+    }
+  ],
+  "goodFor": [
+    "People who want to finish their shopping on foot",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

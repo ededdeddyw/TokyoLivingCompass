@@ -1,0 +1,64 @@
+{
+  "slug": "arakawakuyakushomae",
+  "locale": "en",
+  "name": "Arakawakuyakushomae",
+  "tagline": "Otemachi in 29 minutes and Tokyo in 34 minutes. Served by 1 line.",
+  "summary": "The station is in Arakawa City, served by Tokyo Sakura Tram (Toden Arakawa Line). Journey times to the main business districts are 29 minutes to Otemachi, 41 minutes to Shinjuku, 51 minutes to Shibuya and 49 minutes to Shinagawa. The station stands 1.5 m above sea level, and the ground within 800 m varies in height by 5.2 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits lower than the ground around it, at 1.5 m above sea level. Within 800 m the ground ranges from 1.3 m to 6.5 m, a difference of 5.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 6 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "オリンピック 荒川一丁目店",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/way/252404277",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/10158318776",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "セブンイレブン東日暮里3丁目東店",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/7966487084",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ヨークフーズ 三ノ輪店",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/way/190432712",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 17 clinics and 12 pharmacies. Facilities recorded as hospitals lie at 木村病院, about 272 m away and 上宮会日暮里上宮病院, about 744 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Sakura Tram (Toden Arakawa Line). Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "arakawa-itchumae",
+      "note": "268 m away in a straight line. It reaches Otemachi in about the same time as Arakawakuyakushomae."
+    },
+    {
+      "slug": "arakawa-nichome",
+      "note": "440 m away in a straight line. It reaches Otemachi 3 minutes sooner than Arakawakuyakushomae."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair",
+    "People who want to finish their shopping on foot",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

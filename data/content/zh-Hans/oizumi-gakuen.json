@@ -1,0 +1,62 @@
+{
+  "slug": "oizumi-gakuen",
+  "locale": "zh-Hans",
+  "name": "大泉学園",
+  "tagline": "到新宿38分钟、到涩谷43分钟。有1条线路经过。",
+  "summary": "车站位于練馬区，有西武池袋線经过。到主要商务区的所需时间为：到大手町49分钟、到新宿38分钟、到涩谷43分钟、到品川64分钟。车站海拔48.6米，周边800米范围内的高低差为2.7米。车站周围的地形基本平坦。",
+  "terrain": {
+    "slope": "flat",
+    "note": "车站所在的位置在周围属于较高的一侧，海拔48.6米。周边800米范围内，海拔从46.5米到49.2米，相差2.7米。以上数值取自日本国土地理院的海拔API，读取了车站本身和半径400米的八个方位，共九个点。"
+  },
+  "hazards": "在按可能出现的最大降雨量推算的洪水浸水想定区域中，车站所在的地点在区域之外。在车站400米以内查看的九个点中，有1个点被划入区域，其中推算最深的水深为不足0.5米。同一个车站周边，推算的水深也会因街区而异，所以请按具体地址查看所在区发布的灾害地图。内涝没有全国统一的地图，由各区分别发布，也一并看一看为好。",
+  "groceries": [
+    {
+      "name": "ライフ ライフエクストラ大泉学園駅前店",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/2029294693",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "カズン",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/6579845316",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "OAK plaza",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/6417566748",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "アコレ",
+      "tier": "discount",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/6418818622",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "从车站步行800米以内，有诊所16家、药店16家。登记为医院的设施，距离为慈誠会練馬高野台病院约2404米。能否住院、设有哪些科室，OpenStreetMap 上没有记载，请到各设施的网站上确认。夜间和休息日能就诊的医疗机构，可以向所住区的急救咨询窗口查询。",
+  "stationNote": "可以使用西武池袋線这1条线路。只有一条线路经过，这条线路停运时，就要步行到有其他线路经过的车站。按线路数量和运营方的分散程度计算，换乘便利度为32分（满分100分）。",
+  "neighbours": [
+    {
+      "slug": "shakujii-koen",
+      "note": "直线距离1939米。到大手町比大泉学園早到4分钟。"
+    },
+    {
+      "slug": "musashi-seki",
+      "note": "直线距离2597米。到大手町比大泉学園早到3分钟。"
+    }
+  ],
+  "goodFor": [
+    "经常骑自行车或推婴儿车出行的人",
+    "看重公园就在附近的人"
+  ],
+  "notFor": [
+    "希望停运时还有其他路线可走的人"
+  ],
+  "authoredBy": "data-generated"
+}

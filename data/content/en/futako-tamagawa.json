@@ -1,0 +1,61 @@
+{
+  "slug": "futako-tamagawa",
+  "locale": "en",
+  "name": "Futako-Tamagawa",
+  "tagline": "Shibuya in 19 minutes and Shinjuku in 29 minutes. Served by 2 lines.",
+  "summary": "The station is in Setagaya City, served by Tokyu Den-en-toshi Line and Tokyu Oimachi Line. Journey times to the main business districts are 43 minutes to Otemachi, 29 minutes to Shinjuku, 19 minutes to Shibuya and 36 minutes to Shinagawa. The station stands 13.2 m above sea level, and the ground within 800 m varies in height by 11.2 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 13.2 m above sea level. Within 800 m the ground ranges from 7.8 m to 19 m, a difference of 11.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. Of the nine points within 400 m of the station, 5 fall inside the area, and the deepest projection among them is 5 to 10 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "東急ストア 二子玉川ライズ",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/4902054922",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 二子玉川店",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/11245253459",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "セブン-イレブン 世田谷玉川2丁目",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/1059766666",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "富士ガーデン 二子新地駅前店",
+      "tier": "standard",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/9197425052",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 10 clinics and 9 pharmacies. Facilities recorded as hospitals lie at 日産厚生会 玉川病院, about 986 m away and グランダ岡本里安邸, about 1142 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Tokyu Den-en-toshi Line and Tokyu Oimachi Line. All 2 lines are run by Tokyu, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "neighbours": [
+    {
+      "slug": "kaminoge",
+      "note": "1105 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Futako-Tamagawa."
+    },
+    {
+      "slug": "yoga",
+      "note": "1755 m away in a straight line. It reaches Otemachi 4 minutes sooner than Futako-Tamagawa."
+    }
+  ],
+  "goodFor": [
+    "The data does not show a clear group this station suits"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

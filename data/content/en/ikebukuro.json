@@ -1,0 +1,65 @@
+{
+  "slug": "ikebukuro",
+  "locale": "en",
+  "name": "Ikebukuro",
+  "tagline": "Shinjuku in 7 minutes and Shibuya in 12 minutes. Served by 9 lines.",
+  "summary": "The station is in Toshima City, served by JR Yamanote Line, JR Saikyo Line, Narita Express, JR Shonan-Shinjuku Line, Tobu Tojo Line, Seibu Ikebukuro Line, Tokyo Metro Marunouchi Line, Tokyo Metro Yurakucho Line and Tokyo Metro Fukutoshin Line. Journey times to the main business districts are 18 minutes to Otemachi, 7 minutes to Shinjuku, 12 minutes to Shibuya and 33 minutes to Shinagawa. The station stands 32.5 m above sea level, and the ground within 800 m varies in height by 2.0 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 32.5 m above sea level. Within 800 m the ground ranges from 31.6 m to 33.6 m, a difference of 2.0 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "池袋東武百貨店",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/1955937785",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "友誼商店",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/13800381490",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "池袋西武百貨店",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1955937706",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "成城石井",
+      "tier": "premium",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/13762344521",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 9 clinics and 19 pharmacies. Facilities recorded as hospitals lie at 宏明会池袋大久保病院, about 297 m away and 榎本クリニック, about 312 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "9 lines serve the station: JR Yamanote Line, JR Saikyo Line, Narita Express, JR Shonan-Shinjuku Line, Tobu Tojo Line, Seibu Ikebukuro Line, Tokyo Metro Marunouchi Line, Tokyo Metro Yurakucho Line and Tokyo Metro Fukutoshin Line. The lines are split between operators (JR East runs 4 lines, Tobu runs 1 line, Seibu runs 1 line and Tokyo Metro runs 3 lines), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 100.",
+  "neighbours": [
+    {
+      "slug": "toden-zoshigaya",
+      "note": "944 m away in a straight line. It takes 8 minutes longer to reach Otemachi than Ikebukuro."
+    },
+    {
+      "slug": "higashi-ikebukuro",
+      "note": "982 m away in a straight line. It reaches Otemachi in about the same time as Ikebukuro."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who want another route when a line stops",
+    "People who get around by bicycle or with a pushchair",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "The data does not show a drawback particular to this station"
+  ],
+  "authoredBy": "data-generated"
+}

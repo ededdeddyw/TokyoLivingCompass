@@ -1,0 +1,62 @@
+{
+  "slug": "nishiarai",
+  "locale": "en",
+  "name": "Nishiarai",
+  "tagline": "Tokyo in 34 minutes and Otemachi in 36 minutes. Served by 2 lines.",
+  "summary": "The station is in Adachi City, served by Tobu Skytree Line and Tobu Daishi Line. Journey times to the main business districts are 36 minutes to Otemachi, 47 minutes to Shinjuku, 57 minutes to Shibuya and 48 minutes to Shinagawa. The station stands 1.2 m above sea level, and the ground within 800 m varies in height by 1.5 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 1.2 m above sea level. Within 800 m the ground ranges from 0.5 m to 2 m, a difference of 1.5 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 4 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "AEON",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1993656823",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/10083180206",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "イトーヨーカドー アリオ西新井店",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/1990491493",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マミーマート",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/9678635415",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 7 clinics and 5 pharmacies. Facilities recorded as hospitals lie at 米倉脊椎・関節病院, about 1979 m away and 東京女子医科大学附属足立医療センター, about 2177 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Tobu Skytree Line and Tobu Daishi Line. All 2 lines are run by Tobu, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "neighbours": [
+    {
+      "slug": "daishimae",
+      "note": "808 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Nishiarai."
+    },
+    {
+      "slug": "umejima",
+      "note": "870 m away in a straight line. It reaches Otemachi in about the same time as Nishiarai."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want plenty of places to eat out"
+  ],
+  "authoredBy": "data-generated"
+}

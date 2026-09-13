@@ -1,0 +1,63 @@
+{
+  "slug": "hatchobori",
+  "locale": "en",
+  "name": "Hatchobori",
+  "tagline": "Tokyo in 2 minutes and Otemachi in 9 minutes. Served by 2 lines.",
+  "summary": "The station is in Chuo City, served by JR Keiyo Line and Tokyo Metro Hibiya Line. Journey times to the main business districts are 9 minutes to Otemachi, 23 minutes to Shinjuku, 27 minutes to Shibuya and 17 minutes to Shinagawa. The station stands 2.6 m above sea level, and the ground within 800 m varies in height by 3.8 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 2.6 m above sea level. Within 800 m the ground ranges from -0.6 m to 3.2 m, a difference of 3.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 5 to 10 m. For storm surge, 2 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/5237380335",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/5433556924",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ピアゴ",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/6487836405",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "デリド湊店",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/6929377313",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 9 clinics and 9 pharmacies. Facilities recorded as hospitals lie at いしせ脳神経外科クリニック, about 320 m away and 聖路加国際病院, about 822 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: JR Keiyo Line and Tokyo Metro Hibiya Line. The lines are split between operators (JR East runs 1 line and Tokyo Metro runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "neighbours": [
+    {
+      "slug": "kyobashi",
+      "note": "599 m away in a straight line. It reaches Otemachi in about the same time as Hatchobori."
+    },
+    {
+      "slug": "kayabacho",
+      "note": "607 m away in a straight line. It reaches Otemachi 5 minutes sooner than Hatchobori."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People who get around by bicycle or with a pushchair",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

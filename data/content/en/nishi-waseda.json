@@ -1,0 +1,62 @@
+{
+  "slug": "nishi-waseda",
+  "locale": "en",
+  "name": "Nishi-Waseda",
+  "tagline": "Shinjuku in 11 minutes and Shibuya in 13 minutes. Served by 1 line.",
+  "summary": "The station is in Shinjuku City, served by Tokyo Metro Fukutoshin Line. Journey times to the main business districts are 27 minutes to Otemachi, 11 minutes to Shinjuku, 13 minutes to Shibuya and 39 minutes to Shinagawa. The station stands 27.1 m above sea level, and the ground within 800 m varies in height by 9.8 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 27.1 m above sea level. Within 800 m the ground ranges from 19.9 m to 29.7 m, a difference of 9.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "マルエツオレンジコート店",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/1934904091",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/4444904189",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "成城石井",
+      "tier": "premium",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/5034257433",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "三徳",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/3376950687",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 8 clinics and 10 pharmacies. Facilities recorded as hospitals lie at 大同病院, about 681 m away and 国立国際医療センター, about 877 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Metro Fukutoshin Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "takadanobaba",
+      "note": "689 m away in a straight line. It reaches Otemachi 12 minutes sooner than Nishi-Waseda."
+    },
+    {
+      "slug": "omokagebashi",
+      "note": "714 m away in a straight line. It takes 8 minutes longer to reach Otemachi than Nishi-Waseda."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

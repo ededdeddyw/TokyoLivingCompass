@@ -1,0 +1,63 @@
+{
+  "slug": "arakawa-shakomae",
+  "locale": "en",
+  "name": "Arakawa-Shakomae",
+  "tagline": "Tokyo in 36 minutes and Otemachi in 39 minutes. Served by 1 line.",
+  "summary": "The station is in Arakawa City, served by Tokyo Sakura Tram (Toden Arakawa Line). Journey times to the main business districts are 39 minutes to Otemachi, 40 minutes to Shinjuku, 45 minutes to Shibuya and 50 minutes to Shinagawa. The station stands 2.6 m above sea level, and the ground within 800 m varies in height by 2.8 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits lower than the ground around it, at 2.6 m above sea level. Within 800 m the ground ranges from 1.8 m to 4.6 m, a difference of 2.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 7 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "コモディイイダ",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/way/185395826",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "東武ストア",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/5434974407",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 梶原銀座通り店",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/5617484462",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "デイリーマート イマヤ",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/6038801769",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 10 clinics and 6 pharmacies. Facilities recorded as hospitals lie at 桑原病院, about 1172 m away and 都立駒込病院, about 2363 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Sakura Tram (Toden Arakawa Line). Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "arakawa-yuenchimae",
+      "note": "465 m away in a straight line. It reaches Otemachi 3 minutes sooner than Arakawa-Shakomae."
+    },
+    {
+      "slug": "oku",
+      "note": "466 m away in a straight line. It reaches Otemachi 13 minutes sooner than Arakawa-Shakomae."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

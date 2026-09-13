@@ -1,0 +1,63 @@
+{
+  "slug": "asakusabashi",
+  "locale": "en",
+  "name": "Asakusabashi",
+  "tagline": "Tokyo in 11 minutes and Otemachi in 13 minutes. Served by 2 lines.",
+  "summary": "The station is in Taito City, served by JR Chuo-Sobu Line (Local) and Toei Asakusa Line. Journey times to the main business districts are 13 minutes to Otemachi, 21 minutes to Shinjuku, 31 minutes to Shibuya and 23 minutes to Shinagawa. The station stands 3.3 m above sea level, and the ground within 800 m varies in height by 2.8 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 3.3 m above sea level. Within 800 m the ground ranges from 1.1 m to 3.9 m, a difference of 2.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 6 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "肉のハナマサ",
+      "tier": "discount",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/2265854373",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/9684185916",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/11866620637",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ライフ 神田和泉町店",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/way/160439006",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 22 clinics and 29 pharmacies. Facilities recorded as hospitals lie at 東京自動車連合健康保険組合柳橋病院, about 423 m away and 三井記念病院, about 627 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: JR Chuo-Sobu Line (Local) and Toei Asakusa Line. The lines are split between operators (JR East runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "neighbours": [
+    {
+      "slug": "bakurocho",
+      "note": "574 m away in a straight line. It reaches Otemachi 3 minutes sooner than Asakusabashi."
+    },
+    {
+      "slug": "kuramae",
+      "note": "818 m away in a straight line. It reaches Otemachi in about the same time as Asakusabashi."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People who get around by bicycle or with a pushchair",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

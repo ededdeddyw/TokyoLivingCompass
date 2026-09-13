@@ -1,0 +1,63 @@
+{
+  "slug": "komagome",
+  "locale": "en",
+  "name": "Komagome",
+  "tagline": "Shinjuku in 20 minutes and Tokyo in 21 minutes. Served by 2 lines.",
+  "summary": "The station is in Toshima City, served by JR Yamanote Line and Tokyo Metro Namboku Line. Journey times to the main business districts are 21 minutes to Otemachi, 20 minutes to Shinjuku, 25 minutes to Shibuya and 36 minutes to Shinagawa. The station stands 22.8 m above sea level, and the ground within 800 m varies in height by 13.4 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 22.8 m above sea level. Within 800 m the ground ranges from 11.2 m to 24.6 m, a difference of 13.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 5 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "エムエム-マート",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/6437840458",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/way/214091225",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "MAHA YANGON THU",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/13788759278",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/12378449496",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 32 clinics and 27 pharmacies. Facilities recorded as hospitals lie at 都立駒込病院, about 1105 m away and 東京健生病院, about 1709 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: JR Yamanote Line and Tokyo Metro Namboku Line. The lines are split between operators (JR East runs 1 line and Tokyo Metro runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "neighbours": [
+    {
+      "slug": "sugamo",
+      "note": "843 m away in a straight line. It reaches Otemachi 7 minutes sooner than Komagome."
+    },
+    {
+      "slug": "sengoku",
+      "note": "1017 m away in a straight line. It reaches Otemachi 9 minutes sooner than Komagome."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who want to finish their shopping on foot",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "The data does not show a drawback particular to this station"
+  ],
+  "authoredBy": "data-generated"
+}

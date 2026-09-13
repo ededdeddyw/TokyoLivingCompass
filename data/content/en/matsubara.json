@@ -1,0 +1,63 @@
+{
+  "slug": "matsubara",
+  "locale": "en",
+  "name": "Matsubara",
+  "tagline": "Shinjuku in 21 minutes and Shibuya in 27 minutes. Served by 1 line.",
+  "summary": "The station is in Setagaya City, served by Tokyu Setagaya Line. Journey times to the main business districts are 43 minutes to Otemachi, 21 minutes to Shinjuku, 27 minutes to Shibuya and 52 minutes to Shinagawa. The station stands 37.7 m above sea level, and the ground within 800 m varies in height by 10.8 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 37.7 m above sea level. Within 800 m the ground ranges from 35.1 m to 45.9 m, a difference of 10.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/5433317859",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "スーパーオオゼキ",
+      "tier": "discount",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1927910778",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "つるかめストア",
+      "tier": "standard",
+      "walkMinutes": 13,
+      "sourceUrl": "https://www.openstreetmap.org/node/1230778035",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "西友 下高井戸店",
+      "tier": "discount",
+      "walkMinutes": 13,
+      "sourceUrl": "https://www.openstreetmap.org/node/1801147957",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 13 clinics and 14 pharmacies. Facilities recorded as hospitals lie at 吉川内科小児科病院, about 640 m away and うめとぴあ, about 794 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyu Setagaya Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "shimo-takaido",
+      "note": "680 m away in a straight line. It reaches Otemachi 6 minutes sooner than Matsubara."
+    },
+    {
+      "slug": "gotokuji",
+      "note": "823 m away in a straight line. It reaches Otemachi 9 minutes sooner than Matsubara."
+    }
+  ],
+  "goodFor": [
+    "The data does not show a clear group this station suits"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended",
+    "People who want to finish their shopping on foot"
+  ],
+  "authoredBy": "data-generated"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "hatagaya",
+  "locale": "en",
+  "name": "Hatagaya",
+  "tagline": "Shinjuku in 13 minutes and Shibuya in 23 minutes. Served by 2 lines.",
+  "summary": "The station is in Shibuya City, served by Keio Line and Keio New Line. Journey times to the main business districts are 38 minutes to Otemachi, 13 minutes to Shinjuku, 23 minutes to Shibuya and 45 minutes to Shinagawa. The station stands 39 m above sea level, and the ground within 800 m varies in height by 7.5 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 39 m above sea level. Within 800 m the ground ranges from 34.7 m to 42.2 m, a difference of 7.5 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "成城石井",
+      "tier": "premium",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/1762090744",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ダイエー",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/6875282185",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "グルメシティ",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/861245239",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ライフ 幡ヶ谷店",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1762090732",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 11 clinics and 8 pharmacies. Facilities recorded as hospitals lie at 東洋病院, about 612 m away and 温光会内藤病院, about 937 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Keio Line and Keio New Line. All 2 lines are run by Keio, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "neighbours": [
+    {
+      "slug": "sasazuka",
+      "note": "886 m away in a straight line. It reaches Otemachi 7 minutes sooner than Hatagaya."
+    },
+    {
+      "slug": "yoyogi-uehara",
+      "note": "949 m away in a straight line. It reaches Otemachi 17 minutes sooner than Hatagaya."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who get around by bicycle or with a pushchair",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

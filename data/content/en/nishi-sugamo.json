@@ -1,0 +1,66 @@
+{
+  "slug": "nishi-sugamo",
+  "locale": "en",
+  "name": "Nishi-Sugamo",
+  "tagline": "Otemachi in 17 minutes and Tokyo in 24 minutes. Served by 1 line.",
+  "summary": "The station is in Toshima City, served by Toei Mita Line. Journey times to the main business districts are 17 minutes to Otemachi, 26 minutes to Shinjuku, 31 minutes to Shibuya and 37 minutes to Shinagawa. The station stands 26.1 m above sea level, and the ground within 800 m varies in height by 6.2 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 26.1 m above sea level. Within 800 m the ground ranges from 21.3 m to 27.5 m, a difference of 6.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "スーパーみらべる 西巣鴨店",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/way/566236083",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "コモディイイダ 西巣鴨店",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/way/176446601",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "肉のハナマサ",
+      "tier": "discount",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/5452386871",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/5453762674",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 8 clinics and 9 pharmacies. Facilities recorded as hospitals lie at 愛誠病院, about 1293 m away and 大成会長汐病院, about 1684 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Toei Mita Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "shin-koshinzuka",
+      "note": "286 m away in a straight line. It takes 16 minutes longer to reach Otemachi than Nishi-Sugamo."
+    },
+    {
+      "slug": "nishigahara-yonchome",
+      "note": "383 m away in a straight line. It takes 19 minutes longer to reach Otemachi than Nishi-Sugamo."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People who get around by bicycle or with a pushchair",
+    "People who want to finish their shopping on foot",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended",
+    "People who want plenty of places to eat out"
+  ],
+  "authoredBy": "data-generated"
+}

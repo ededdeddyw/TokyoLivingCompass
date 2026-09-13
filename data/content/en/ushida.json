@@ -1,0 +1,48 @@
+{
+  "slug": "ushida",
+  "locale": "en",
+  "name": "Ushida",
+  "tagline": "Tokyo in 26 minutes and Otemachi in 28 minutes. Served by 2 lines.",
+  "summary": "The station is in Adachi City, served by Tobu Skytree Line and Keisei Main Line. Journey times to the main business districts are 28 minutes to Otemachi, 40 minutes to Shinjuku, 48 minutes to Shibuya and 40 minutes to Shinagawa. The station stands 0.9 m above sea level, and the ground within 800 m varies in height by 3.8 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 0.9 m above sea level. Within 800 m the ground ranges from -0.8 m to 3 m, a difference of 3.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. Of the nine points within 400 m of the station, 8 fall inside the area, and the deepest projection among them is 5 to 10 m. For storm surge, 2 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "大東ストアー",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/11092780363",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Tanaka",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/9211396189",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 10 clinics and 7 pharmacies. Facilities recorded as hospitals lie at 健和会柳原病院, about 493 m away and 愛里病院, about 668 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Tobu Skytree Line and Keisei Main Line. The lines are split between operators (Tobu runs 1 line and Keisei runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "neighbours": [
+    {
+      "slug": "horikiri",
+      "note": "552 m away in a straight line. It reaches Otemachi in about the same time as Ushida."
+    },
+    {
+      "slug": "kita-senju",
+      "note": "849 m away in a straight line. It reaches Otemachi 6 minutes sooner than Ushida."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want to finish their shopping on foot"
+  ],
+  "authoredBy": "data-generated"
+}

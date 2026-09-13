@@ -1,0 +1,63 @@
+{
+  "slug": "kita-senju",
+  "locale": "en",
+  "name": "Kita-Senju",
+  "tagline": "Tokyo in 19 minutes and Otemachi in 22 minutes. Served by 5 lines.",
+  "summary": "The station is in Adachi City, served by JR Joban Line, Tobu Skytree Line, Tokyo Metro Hibiya Line, Tokyo Metro Chiyoda Line and Tsukuba Express. Journey times to the main business districts are 22 minutes to Otemachi, 33 minutes to Shinjuku, 43 minutes to Shibuya and 33 minutes to Shinagawa. The station stands 0.7 m above sea level, and the ground within 800 m varies in height by 2.4 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 0.7 m above sea level. Within 800 m the ground ranges from -0.7 m to 1.7 m, a difference of 2.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 5 to 10 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 5 to 10 m. For storm surge, 1 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "成城石井",
+      "tier": "premium",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/2388240115",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "さわみつ青果",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/2388241686",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "スーパーたなか 駅前店",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/10687480771",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "イトーヨーカドー 千住店",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/1921443828",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 28 clinics and 22 pharmacies. Facilities recorded as hospitals lie at 愛里病院, about 433 m away and すずき病院, about 590 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "5 lines serve the station: JR Joban Line, Tobu Skytree Line, Tokyo Metro Hibiya Line, Tokyo Metro Chiyoda Line and Tsukuba Express. The lines are split between operators (JR East runs 1 line, Tobu runs 1 line, Tokyo Metro runs 2 lines and Tsukuba Express runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 98.",
+  "neighbours": [
+    {
+      "slug": "ushida",
+      "note": "849 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Kita-Senju."
+    },
+    {
+      "slug": "senjuohashi",
+      "note": "1050 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Kita-Senju."
+    }
+  ],
+  "goodFor": [
+    "People who want another route when a line stops",
+    "People who get around by bicycle or with a pushchair",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

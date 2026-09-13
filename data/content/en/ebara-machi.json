@@ -1,0 +1,62 @@
+{
+  "slug": "ebara-machi",
+  "locale": "en",
+  "name": "Ebara-Machi",
+  "tagline": "Shinagawa in 17 minutes and Shibuya in 27 minutes. Served by 1 line.",
+  "summary": "The station is in Shinagawa City, served by Tokyu Oimachi Line. Journey times to the main business districts are 35 minutes to Otemachi, 33 minutes to Shinjuku, 27 minutes to Shibuya and 17 minutes to Shinagawa. The station stands 19.3 m above sea level, and the ground within 800 m varies in height by 12.9 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 19.3 m above sea level. Within 800 m the ground ranges from 18.2 m to 31.1 m, a difference of 12.9 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "オオゼキ 旗の台店",
+      "tier": "discount",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/2355595011",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 旗の台店",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/13726514402",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "文化堂 荏原店",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/2168329661",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Bio C' Bon",
+      "tier": "premium",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/13859955775",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 20 clinics and 16 pharmacies. Facilities recorded as hospitals lie at 昭和医科大学病院, about 570 m away and 昭和医科大学病院附属東病院, about 669 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyu Oimachi Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "hatanodai",
+      "note": "493 m away in a straight line. It reaches Otemachi in about the same time as Ebara-Machi."
+    },
+    {
+      "slug": "nakanobu",
+      "note": "546 m away in a straight line. It reaches Otemachi 6 minutes sooner than Ebara-Machi."
+    }
+  ],
+  "goodFor": [
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

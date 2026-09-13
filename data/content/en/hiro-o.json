@@ -1,0 +1,64 @@
+{
+  "slug": "hiro-o",
+  "locale": "en",
+  "name": "Hiro-O",
+  "tagline": "Roppongi in 3 minutes and Toranomon in 8 minutes. Served by 1 line.",
+  "summary": "The station is in Minato City, served by Tokyo Metro Hibiya Line. Journey times to the main business districts are 19 minutes to Otemachi, 15 minutes to Shinjuku, 10 minutes to Shibuya and 27 minutes to Shinagawa. The station stands 10.9 m above sea level, and the ground within 800 m varies in height by 23.4 m. The land around the station rises and falls sharply.",
+  "terrain": {
+    "slope": "hilly",
+    "note": "The station sits lower than the ground around it, at 10.9 m above sea level. Within 800 m the ground ranges from 8.5 m to 31.9 m, a difference of 23.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "National Azabu",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/way/393677282",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "明治屋",
+      "tier": "premium",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/3340941867",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "椿宗善 広尾",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/6796241885",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 西麻布店",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/13398284065",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 13 pharmacies. Facilities recorded as hospitals lie at 愛育病院, about 416 m away and 東京都立広尾病院, about 597 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Metro Hibiya Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "ebisu",
+      "note": "1273 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Hiro-O."
+    },
+    {
+      "slug": "azabu-juban",
+      "note": "1350 m away in a straight line. It reaches Otemachi in about the same time as Hiro-O."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who would rather not walk up and down slopes",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

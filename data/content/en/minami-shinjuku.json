@@ -1,0 +1,63 @@
+{
+  "slug": "minami-shinjuku",
+  "locale": "en",
+  "name": "Minami-Shinjuku",
+  "tagline": "Shinjuku in 1 minute and Shibuya in 11 minutes. Served by 1 line.",
+  "summary": "The station is in Shibuya City, served by Odakyu Odawara Line. Journey times to the main business districts are 26 minutes to Otemachi, 1 minute to Shinjuku, 11 minutes to Shibuya and 33 minutes to Shinagawa. The station stands 30.9 m above sea level, and the ground within 800 m varies in height by 11.9 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 30.9 m above sea level. Within 800 m the ground ranges from 26.7 m to 38.6 m, a difference of 11.9 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "マルマンストア",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/4104461590",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 代々木1丁目店",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/2504465816",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "MEGAドン・キホーテ",
+      "tier": "standard",
+      "walkMinutes": 13,
+      "sourceUrl": "https://www.openstreetmap.org/node/6011377090",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ドン・キホーテUNY",
+      "tier": "standard",
+      "walkMinutes": 13,
+      "sourceUrl": "https://www.openstreetmap.org/node/10992424505",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 10 pharmacies. Facilities recorded as hospitals lie at JR東京総合病院, about 270 m away and 参宮橋脊椎外科病院, about 342 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Odakyu Odawara Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "yoyogi",
+      "note": "296 m away in a straight line. It reaches Otemachi 3 minutes sooner than Minami-Shinjuku."
+    },
+    {
+      "slug": "sangubashi",
+      "note": "713 m away in a straight line. It reaches Otemachi in about the same time as Minami-Shinjuku."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended",
+    "People who want to finish their shopping on foot"
+  ],
+  "authoredBy": "data-generated"
+}

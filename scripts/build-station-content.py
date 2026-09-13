@@ -75,15 +75,30 @@ def haversine_m(a, b):
     return 2 * r * math.asin(math.sqrt(x))
 
 
+def join(p, items):
+    """語を並べる。英語だけ最後のつなぎが and になる。"""
+    items = list(items)
+    if len(items) <= 1:
+        return "".join(items)
+    return p["listSep"].join(items[:-1]) + p["lastSep"] + items[-1]
+
+
+def word(p, key, n):
+    """数に応じた語形を返す。英語だけ単数と複数で変わる。"""
+    forms = p["words"][key]
+    return forms[0] if n == 1 else forms[1]
+
+
 def build(st, ctx):
     """1駅ぶんのコンテンツを組み立てる。データの無い層は入れない。"""
     p = ctx["p"]
     money, unit, sep = p["money"], p["moneyUnit"], p["listSep"]
+    depth_label = p["depth"]
     slug = st["slug"]
     name = p["stationName"](st)
     line_objs = [ctx["lines"][i] for i in st["lineIds"] if i in ctx["lines"]]
     lines = [line_name(p["lineName"](l)) for l in line_objs]
-    ops = {l["operator"] for l in line_objs}
+    companies = [l["company"] for l in line_objs]
     com = {e["to"]: e["minutes"] for e in ctx["com"].get(slug, [])}
     ter = ctx["ter"].get(slug, {})
     haz = ctx["haz"].get(slug, {}).get("flood", {})
@@ -97,24 +112,30 @@ def build(st, ctx):
 
     # ── 見出しと要約 ───────────────────────────────
     fastest = sorted(com.items(), key=lambda kv: kv[1])[:2]
-    reach = sep.join(p["reachItem"].format(hub=p["hubs"][h], minutes=m) for h, m in fastest)
+    reach = join(p, (p["reachItem"].format(hub=p["hubs"][h], minutes=m,
+                                           minuteWord=word(p, "minute", m))
+                     for h, m in fastest))
     rent_txt = ""
     if band and "oneRoom" in band["bands"]:
         b = band["bands"]["oneRoom"]
         rent_txt = p["taglineRent"].format(low=money(b["low"]), high=money(b["high"]), unit=unit)
-    c["tagline"] = p["tagline"].format(reach=reach, lineCount=len(lines), rent=rent_txt)
+    c["tagline"] = p["tagline"].format(
+        reach=reach, lineCount=len(lines), lineWord=word(p, "line", len(lines)),
+        rent=rent_txt).strip()
 
-    parts = [p["summaryWhere"].format(ward=p["ward"](st), lines=sep.join(lines))]
+    parts = [p["summaryWhere"].format(ward=p["ward"](st), lines=join(p, lines))]
     hub_order = ["otemachi", "shinjuku", "shibuya", "shinagawa"]
-    parts.append(p["summaryCommute"].format(items=sep.join(
-        p["reachItem"].format(hub=p["hubs"][h], minutes=com[h]) for h in hub_order if h in com)))
+    parts.append(p["summaryCommute"].format(items=join(p, (
+        p["commuteItem"].format(hub=p["hubs"][h], minutes=com[h],
+                                minuteWord=word(p, "minute", com[h]))
+        for h in hub_order if h in com))))
     if rent_txt:
         parts.append(rent_txt)
     if ter.get("slope"):
         parts.append(p["summaryTerrain"].format(
             elevation=ter["stationElevationM"], spread=ter["spreadM"],
             slope=p["slope"][ter["slope"]]))
-    c["summary"] = "".join(parts)
+    c["summary"] = "".join(parts).strip()
 
     # ── 坂（国土地理院） ───────────────────────────
     if ter.get("slope"):
@@ -129,16 +150,17 @@ def build(st, ctx):
     # ── 浸水想定（重ねるハザードマップ） ─────────────
     if haz:
         if haz.get("atStation"):
-            head = p["floodAtStation"].format(depth=haz["atStation"])
+            head = p["floodAtStation"].format(depth=depth_label[haz["atStation"]])
         elif haz.get("aroundCount"):
             head = p["floodNearOnly"]
         else:
             head = p["floodNone"]
-        detail = (p["floodAround"].format(count=haz["aroundCount"], deepest=haz["deepest"])
+        detail = (p["floodAround"].format(count=haz["aroundCount"],
+                                          deepest=depth_label[haz["deepest"]])
                   if haz.get("aroundCount") else "")
         tide_txt = (p["hightide"].format(count=tide["aroundCount"])
                     if tide.get("aroundCount") else "")
-        c["hazards"] = head + detail + tide_txt + p["hazardTrailer"]
+        c["hazards"] = (head + detail + tide_txt + p["hazardTrailer"]).strip()
 
     # ── 買い物（OpenStreetMap） ────────────────────
     sup = by_cat.get("supermarket", [])
@@ -162,50 +184,57 @@ def build(st, ctx):
     cl, ph, hp = by_cat.get("clinic", []), by_cat.get("pharmacy", []), by_cat.get("hospital", [])
     if cl or ph or hp:
         if cl or ph:
-            counts = [x for x in (p["medicalClinics"].format(count=len(cl)) if cl else "",
-                                  p["medicalPharmacies"].format(count=len(ph)) if ph else "") if x]
-            bits = [p["medicalCounts"].format(items=sep.join(counts))]
+            counts = [x for x in (
+                p["medicalClinics"].format(
+                    count=len(cl), clinicWord=word(p, "clinic", len(cl))) if cl else "",
+                p["medicalPharmacies"].format(
+                    count=len(ph), pharmacyWord=word(p, "pharmacy", len(ph))) if ph else "") if x]
+            bits = [p["medicalCounts"].format(items=join(p, counts))]
         else:
             bits = [p["medicalNone"]]
         if hp:
             near = sorted(hp, key=lambda x: x["distanceM"])[:2]
-            bits.append(p["medicalHospitals"].format(items=sep.join(
+            bits.append(p["medicalHospitals"].format(items=join(p, (
                 p["medicalHospitalItem"].format(name=h["name"], distance=h["distanceM"])
-                for h in near)))
+                for h in near))))
         else:
             bits.append(p["medicalNoHospital"])
         bits.append(p["medicalTrailer"])
-        c["medical"] = "".join(bits)
+        c["medical"] = "".join(bits).strip()
 
     # ── 駅の使い勝手 ───────────────────────────────
-    note = [p["stationLines"].format(lines=sep.join(lines), count=len(lines))]
+    note = [p["stationLines"].format(lines=join(p, lines), count=len(lines),
+                                     lineWord=word(p, "line", len(lines)))]
+    # 乗換の余地は「路線がいくつあるか」ではなく「運営会社が分かれているか」で決まる。
+    # 京王と小田急はどちらも私鉄だが別の会社なので、片方が止まっても他方は動く。
+    unique = sorted(set(companies), key=companies.index)
     if len(lines) == 1:
         note.append(p["stationSingleLine"])
-    elif len(ops) > 1:
-        order = list(p["operator"])
-        breakdown = sep.join(
+    elif len(unique) > 1:
+        breakdown = join(p, (
             p["stationOperatorItem"].format(
-                operator=p["operator"][o],
-                count=sum(1 for l in line_objs if l["operator"] == o))
-            for o in sorted(ops, key=order.index))
+                operator=p["company"][co], count=companies.count(co),
+                lineWord=word(p, "line", companies.count(co)))
+            for co in unique))
         note.append(p["stationMixedOperators"].format(breakdown=breakdown))
     else:
         note.append(p["stationSameOperator"].format(
-            count=len(lines), operator=p["operator"][next(iter(ops))]))
+            count=len(lines), lineWord=word(p, "line", len(lines)),
+            operator=p["company"][unique[0]]))
     sc = ctx["sc"].get(slug, {})
     if "transitConvenience" in sc:
         note.append(p["stationTransitScore"].format(score=sc["transitConvenience"]))
-    c["stationNote"] = "".join(note)
+    c["stationNote"] = "".join(note).strip()
 
     # ── 家賃（当社調べ） ───────────────────────────
     if band:
         b = band["bands"]
         rows = [(k, l) for k, l in p["rentLabels"].items() if k in b]
         c["rentRange"] = {
-            "note": p["rentNote"].format(items=sep.join(
+            "note": p["rentNote"].format(items=join(p, (
                 p["rentItem"].format(label=l, low=money(b[k]["low"]),
                                      high=money(b[k]["high"]), unit=unit)
-                for k, l in rows)),
+                for k, l in rows))),
             "drivers": list(p["rentDrivers"]),
         }
         reason = []
@@ -216,7 +245,7 @@ def build(st, ctx):
         if wide:
             reason.append(p["rentWideSpread"].format(layouts=p["rentWideSep"].join(wide)))
         if reason:
-            c["rentReason"] = "".join(reason)
+            c["rentReason"] = "".join(reason).strip()
 
     # ── 隣の駅との使い分け ─────────────────────────
     near = sorted(((haversine_m(st, o), o) for o in ctx["roster"] if o["slug"] != slug),
@@ -232,13 +261,14 @@ def build(st, ctx):
                 bits.append(p["neighbourSame"].format(station=name))
             else:
                 key = "neighbourSlower" if d > 0 else "neighbourFaster"
-                bits.append(p[key].format(station=name, minutes=abs(d)))
+                bits.append(p[key].format(station=name, minutes=abs(d),
+                                          minuteWord=word(p, "minute", abs(d))))
         if band and ob and "oneRoom" in band["bands"] and "oneRoom" in ob["bands"]:
             dm = ob["bands"]["oneRoom"]["mean"] - band["bands"]["oneRoom"]["mean"]
             if abs(dm) >= 5000:
                 key = "neighbourRentHigher" if dm > 0 else "neighbourRentLower"
                 bits.append(p[key].format(amount=money(abs(dm)), unit=unit))
-        nb.append({"slug": o["slug"], "note": "".join(bits)})
+        nb.append({"slug": o["slug"], "note": "".join(bits).strip()})
     if nb:
         c["neighbours"] = nb
 

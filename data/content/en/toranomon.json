@@ -1,0 +1,57 @@
+{
+  "slug": "toranomon",
+  "locale": "en",
+  "name": "Toranomon",
+  "tagline": "Toranomon in 1 minute and Roppongi in 5 minutes. Served by 2 lines.",
+  "summary": "The station is in Minato City, served by Tokyo Metro Ginza Line and Tokyo Metro Hibiya Line. Journey times to the main business districts are 11 minutes to Otemachi, 18 minutes to Shinjuku, 13 minutes to Shibuya and 14 minutes to Shinagawa. The station stands 5.5 m above sea level, and the ground within 800 m varies in height by 20.5 m. The land around the station rises and falls sharply.",
+  "terrain": {
+    "slope": "hilly",
+    "note": "The station sits lower than the ground around it, at 5.5 m above sea level. Within 800 m the ground ranges from 4.2 m to 24.7 m, a difference of 20.5 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "肉のハナマサ",
+      "tier": "discount",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/4736515321",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツ",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/3952711113",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 13,
+      "sourceUrl": "https://www.openstreetmap.org/node/11145437236",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 25 clinics and 19 pharmacies. Facilities recorded as hospitals lie at 虎の門病院, about 341 m away and 東京慈恵会医科大学附属病院, about 621 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Tokyo Metro Ginza Line and Tokyo Metro Hibiya Line. All 2 lines are run by Tokyo Metro, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "neighbours": [
+    {
+      "slug": "kasumigaseki",
+      "note": "587 m away in a straight line. It reaches Otemachi 6 minutes sooner than Toranomon."
+    },
+    {
+      "slug": "uchisaiwaicho",
+      "note": "622 m away in a straight line. It reaches Otemachi 7 minutes sooner than Toranomon."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who would rather not walk up and down slopes",
+    "People who want to finish their shopping on foot"
+  ],
+  "authoredBy": "data-generated"
+}

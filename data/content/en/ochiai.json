@@ -1,0 +1,64 @@
+{
+  "slug": "ochiai",
+  "locale": "en",
+  "name": "Ochiai",
+  "tagline": "Shinjuku in 15 minutes and Otemachi in 19 minutes. Served by 1 line.",
+  "summary": "The station is in Nakano City, served by Tokyo Metro Tozai Line. Journey times to the main business districts are 19 minutes to Otemachi, 15 minutes to Shinjuku, 23 minutes to Shibuya and 39 minutes to Shinagawa. The station stands 30.9 m above sea level, and the ground within 800 m varies in height by 16.2 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 30.9 m above sea level. Within 800 m the ground ranges from 18.2 m to 34.4 m, a difference of 16.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 5 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "イオン",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/2546447138",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "みらべる",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/1390753539",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Kitchen Court",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/2524844693",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "サミット",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/3560195962",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 19 clinics and 16 pharmacies. Facilities recorded as hospitals lie at 近藤泌尿器科内科クリニック, about 549 m away and 菖医院, about 828 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Metro Tozai Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "nakai",
+      "note": "403 m away in a straight line. It takes 5 minutes longer to reach Otemachi than Ochiai."
+    },
+    {
+      "slug": "higashi-nakano",
+      "note": "573 m away in a straight line. It takes 12 minutes longer to reach Otemachi than Ochiai."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who want to finish their shopping on foot",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

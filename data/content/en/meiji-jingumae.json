@@ -1,0 +1,42 @@
+{
+  "slug": "meiji-jingumae",
+  "locale": "en",
+  "name": "Meiji-Jingumae",
+  "tagline": "Shibuya in 3 minutes and Shinjuku in 5 minutes. Served by 3 lines.",
+  "summary": "The station is in Shibuya City, served by JR Yamanote Line, Tokyo Metro Chiyoda Line and Tokyo Metro Fukutoshin Line. Journey times to the main business districts are 16 minutes to Otemachi, 5 minutes to Shinjuku, 3 minutes to Shibuya and 29 minutes to Shinagawa. The station stands 28.3 m above sea level, and the ground within 800 m varies in height by 16.8 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 28.3 m above sea level. Within 800 m the ground ranges from 17 m to 33.8 m, a difference of 16.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "東急ストア",
+      "tier": "standard",
+      "walkMinutes": 13,
+      "sourceUrl": "https://www.openstreetmap.org/node/10113431670",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 2 clinics and 5 pharmacies. Facilities recorded as hospitals lie at オリンピア会オリンピア眼科病院, about 595 m away and 伊藤病院, about 694 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "3 lines serve the station: JR Yamanote Line, Tokyo Metro Chiyoda Line and Tokyo Metro Fukutoshin Line. The lines are split between operators (JR East runs 1 line and Tokyo Metro runs 2 lines), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 73.",
+  "neighbours": [
+    {
+      "slug": "omote-sando",
+      "note": "883 m away in a straight line. It reaches Otemachi in about the same time as Meiji-Jingumae."
+    },
+    {
+      "slug": "kita-sando",
+      "note": "1015 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Meiji-Jingumae."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who want another route when a line stops"
+  ],
+  "notFor": [
+    "People who want to finish their shopping on foot"
+  ],
+  "authoredBy": "data-generated"
+}

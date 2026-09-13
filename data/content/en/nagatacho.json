@@ -1,0 +1,64 @@
+{
+  "slug": "nagatacho",
+  "locale": "en",
+  "name": "Nagatacho",
+  "tagline": "Toranomon in 4 minutes and Shibuya in 9 minutes. Served by 5 lines.",
+  "summary": "The station is in Chiyoda City, served by Tokyo Metro Ginza Line, Tokyo Metro Marunouchi Line, Tokyo Metro Yurakucho Line, Tokyo Metro Hanzomon Line and Tokyo Metro Namboku Line. Journey times to the main business districts are 10 minutes to Otemachi, 10 minutes to Shinjuku, 9 minutes to Shibuya and 18 minutes to Shinagawa. The station stands 27.1 m above sea level, and the ground within 800 m varies in height by 19.6 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 27.1 m above sea level. Within 800 m the ground ranges from 9.8 m to 29.4 m, a difference of 19.6 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "成城石井",
+      "tier": "premium",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/4258031801",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/9342367290",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "イオン",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/11353664230",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/way/207324106",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 20 clinics and 20 pharmacies. Facilities recorded as hospitals lie at 友仁会赤坂見附前田病院, about 433 m away and 茂恵会半蔵門病院, about 892 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "5 lines serve the station: Tokyo Metro Ginza Line, Tokyo Metro Marunouchi Line, Tokyo Metro Yurakucho Line, Tokyo Metro Hanzomon Line and Tokyo Metro Namboku Line. All 5 lines are run by Tokyo Metro, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 88.",
+  "neighbours": [
+    {
+      "slug": "akasaka",
+      "note": "540 m away in a straight line. It reaches Otemachi in about the same time as Nagatacho."
+    },
+    {
+      "slug": "tameike-sanno",
+      "note": "541 m away in a straight line. It takes 5 minutes longer to reach Otemachi than Nagatacho."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who want another route when a line stops",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "The data does not show a drawback particular to this station"
+  ],
+  "authoredBy": "data-generated"
+}

@@ -2,18 +2,75 @@
   "slug": "koenji",
   "locale": "en",
   "name": "Koenji",
-  "tagline": "Vintage clothing, live music and small bars — one of Tokyo's most distinctive residential areas.",
-  "summary": "The JR Chuo Line reaches Shinjuku in eight minutes and Tokyo Station in 22. Koenji has an unusually dense concentration of vintage shops, live music venues and owner-run restaurants, and a stronger identity than almost any other residential area in Tokyo. Rent is moderate for the Chuo Line. The flip side is foot traffic late into the night.",
+  "tagline": "Shinjuku in 8 minutes and Shibuya in 18 minutes. Served by 2 lines. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
+  "summary": "The station is in Suginami City, served by JR Chuo Rapid Line and JR Chuo-Sobu Line (Local). Journey times to the main business districts are 28 minutes to Otemachi, 8 minutes to Shinjuku, 18 minutes to Shibuya and 38 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000.The station stands 41.6 m above sea level, and the ground within 800 m varies in height by 7.3 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 41.6 m above sea level. Within 800 m the ground ranges from 35.1 m to 42.4 m, a difference of 7.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "東急ストア 高円寺店",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1880783182",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "アキダイ",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/11526467904",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "International Halal Foods",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/7162386621",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ユータカラヤ",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1013448138",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 25 clinics and 23 pharmacies. Facilities recorded as hospitals lie at 松本整形外科, about 352 m away and 北條病院, about 366 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: JR Chuo Rapid Line and JR Chuo-Sobu Line (Local). All 2 lines are run by JR East, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "rentRange": {
+    "note": "One room ¥80,000 to ¥90,000, 1K ¥100,000 to ¥110,000, 1LDK ¥180,000 to ¥190,000 and 2LDK ¥260,000 to ¥270,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000.",
+  "neighbours": [
+    {
+      "slug": "shin-koenji",
+      "note": "828 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Koenji."
+    },
+    {
+      "slug": "higashi-koenji",
+      "note": "1114 m away in a straight line. It reaches Otemachi in about the same time as Koenji."
+    }
+  ],
   "goodFor": [
-    "People who eat and go out often",
-    "People drawn to a neighborhood with real character",
-    "Single people who want cheap rent close to Shinjuku"
+    "People commuting towards Shinjuku",
+    "People who get around by bicycle or with a pushchair",
+    "People who want to finish their shopping on foot",
+    "People who want a park close by",
+    "People living alone who want to hold the rent down"
   ],
   "notFor": [
-    "People who want quiet",
-    "People prioritising a settled family environment",
-    "People who want to avoid the Chuo Line at rush hour"
+    "The data does not show a drawback particular to this station"
   ],
-  "residentComment": "Koenji is not for everyone, but for the people it suits there is no substitute. The density and price range of the food is among the best in Tokyo. Be aware that the Chuo Line is heavily crowded in the morning and delays are frequent.",
-  "authoredBy": "seed-placeholder"
+  "authoredBy": "data-generated"
 }

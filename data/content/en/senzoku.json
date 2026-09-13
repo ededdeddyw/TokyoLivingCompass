@@ -1,0 +1,62 @@
+{
+  "slug": "senzoku",
+  "locale": "en",
+  "name": "Senzoku",
+  "tagline": "Shibuya in 21 minutes and Roppongi in 28 minutes. Served by 1 line.",
+  "summary": "The station is in Meguro City, served by Tokyu Meguro Line. Journey times to the main business districts are 32 minutes to Otemachi, 29 minutes to Shinjuku, 21 minutes to Shibuya and 29 minutes to Shinagawa. The station stands 35.1 m above sea level, and the ground within 800 m varies in height by 9.9 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 35.1 m above sea level. Within 800 m the ground ranges from 27.9 m to 37.8 m, a difference of 9.9 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "東急ストア",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/1881917240",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 北千束駅前店",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/way/699350722",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "業務スーパー 西小山店",
+      "tier": "discount",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/4688890022",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "第一食品",
+      "tier": "standard",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/7103179136",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 9 clinics and 5 pharmacies. Facilities recorded as hospitals lie at 昭和医科大学歯科病院, about 160 m away and 東急病院, about 841 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyu Meguro Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "kita-senzoku",
+      "note": "468 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Senzoku."
+    },
+    {
+      "slug": "nishi-koyama",
+      "note": "682 m away in a straight line. It reaches Otemachi in about the same time as Senzoku."
+    }
+  ],
+  "goodFor": [
+    "People who want to finish their shopping on foot",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

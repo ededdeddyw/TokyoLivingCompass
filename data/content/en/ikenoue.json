@@ -1,0 +1,54 @@
+{
+  "slug": "ikenoue",
+  "locale": "en",
+  "name": "Ikenoue",
+  "tagline": "Shibuya in 6 minutes and Shinjuku in 16 minutes. Served by 1 line.",
+  "summary": "The station is in Setagaya City, served by Keio Inokashira Line. Journey times to the main business districts are 30 minutes to Otemachi, 16 minutes to Shinjuku, 6 minutes to Shibuya and 32 minutes to Shinagawa. The station stands 41.4 m above sea level, and the ground within 800 m varies in height by 11.6 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 41.4 m above sea level. Within 800 m the ground ranges from 29.9 m to 41.5 m, a difference of 11.6 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/way/134545923",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オオゼキ 下北沢店",
+      "tier": "discount",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/648668430",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Natural House",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/2266962270",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 13 clinics and 10 pharmacies. Facilities recorded as hospitals lie at あべ池ノ上接骨院, about 103 m away and 文寿会福原病院, about 383 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Keio Inokashira Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "higashi-kitazawa",
+      "note": "554 m away in a straight line. It reaches Otemachi in about the same time as Ikenoue."
+    },
+    {
+      "slug": "shimo-kitazawa",
+      "note": "578 m away in a straight line. It reaches Otemachi in about the same time as Ikenoue."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

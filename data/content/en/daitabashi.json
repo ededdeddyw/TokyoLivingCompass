@@ -1,0 +1,62 @@
+{
+  "slug": "daitabashi",
+  "locale": "en",
+  "name": "Daitabashi",
+  "tagline": "Shinjuku in 8 minutes and Shibuya in 18 minutes. Served by 1 line.",
+  "summary": "The station is in Setagaya City, served by Keio Line. Journey times to the main business districts are 33 minutes to Otemachi, 8 minutes to Shinjuku, 18 minutes to Shibuya and 39 minutes to Shinagawa. The station stands 47.6 m above sea level, and the ground within 800 m varies in height by 6.6 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 47.6 m above sea level. Within 800 m the ground ranges from 41.3 m to 47.9 m, a difference of 6.6 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "京王ストア",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1763029964",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "業務スーパー 笹塚店",
+      "tier": "discount",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/4952116883",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 杉並和泉2丁目店",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/way/575482083",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ライフ 笹塚店",
+      "tier": "standard",
+      "walkMinutes": 13,
+      "sourceUrl": "https://www.openstreetmap.org/node/861244806",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 9 clinics and 6 pharmacies. Facilities recorded as hospitals lie at 彰誠会伊藤脳神経外科病院, about 1036 m away and 加藤医院, about 1254 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Keio Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "sasazuka",
+      "note": "767 m away in a straight line. It reaches Otemachi in about the same time as Daitabashi."
+    },
+    {
+      "slug": "meidaimae",
+      "note": "858 m away in a straight line. It reaches Otemachi in about the same time as Daitabashi."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

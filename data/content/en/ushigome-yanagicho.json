@@ -1,0 +1,63 @@
+{
+  "slug": "ushigome-yanagicho",
+  "locale": "en",
+  "name": "Ushigome-Yanagicho",
+  "tagline": "Otemachi in 16 minutes and Shinjuku in 18 minutes. Served by 1 line.",
+  "summary": "The station is in Shinjuku City, served by Toei Oedo Line. Journey times to the main business districts are 16 minutes to Otemachi, 18 minutes to Shinjuku, 19 minutes to Shibuya and 35 minutes to Shinagawa. The station stands 26.6 m above sea level, and the ground within 800 m varies in height by 13.3 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 26.6 m above sea level. Within 800 m the ground ranges from 21.4 m to 34.7 m, a difference of 13.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 5 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "YOSHIYA SainE",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/4963643916",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/4963643896",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Santoku",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/5899162767",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ライフ",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/3157863208",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 11 clinics and 23 pharmacies. Facilities recorded as hospitals lie at 鉄友会柳町病院, about 180 m away and 神経研究所附属晴和病院, about 359 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Toei Oedo Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "wakamatsu-kawada",
+      "note": "618 m away in a straight line. It reaches Otemachi in about the same time as Ushigome-Yanagicho."
+    },
+    {
+      "slug": "waseda",
+      "note": "766 m away in a straight line. It reaches Otemachi 5 minutes sooner than Ushigome-Yanagicho."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

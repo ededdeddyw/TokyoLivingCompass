@@ -1,0 +1,62 @@
+{
+  "slug": "hachiman-yama",
+  "locale": "en",
+  "name": "Hachiman-Yama",
+  "tagline": "Shinjuku in 18 minutes and Shibuya in 25 minutes. Served by 1 line.",
+  "summary": "The station is in Setagaya City, served by Keio Line. Journey times to the main business districts are 42 minutes to Otemachi, 18 minutes to Shinjuku, 25 minutes to Shibuya and 49 minutes to Shinagawa. The station stands 44.5 m above sea level, and the ground within 800 m varies in height by 3.2 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 44.5 m above sea level. Within 800 m the ground ranges from 43.2 m to 46.4 m, a difference of 3.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 5 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "オオゼキ 八幡山店",
+      "tier": "discount",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1212522722",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/1923680722",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "サミットストア",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/656141863",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "成城石井 芦花公園店",
+      "tier": "premium",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/2708174467",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 8 pharmacies. Facilities recorded as hospitals lie at 都立中部総合精神保健福祉センター, about 286 m away and 東京都立 松沢病院, about 596 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Keio Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "roka-koen",
+      "note": "605 m away in a straight line. It reaches Otemachi in about the same time as Hachiman-Yama."
+    },
+    {
+      "slug": "kami-kitazawa",
+      "note": "765 m away in a straight line. It reaches Otemachi in about the same time as Hachiman-Yama."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

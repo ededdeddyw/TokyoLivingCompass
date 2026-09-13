@@ -1,0 +1,63 @@
+{
+  "slug": "gotanda",
+  "locale": "en",
+  "name": "Gotanda",
+  "tagline": "Shibuya in 10 minutes and Shinagawa in 12 minutes. Served by 3 lines.",
+  "summary": "The station is in Shinagawa City, served by JR Yamanote Line, Tokyu Ikegami Line and Toei Asakusa Line. Journey times to the main business districts are 23 minutes to Otemachi, 18 minutes to Shinjuku, 10 minutes to Shibuya and 12 minutes to Shinagawa. The station stands 3.2 m above sea level, and the ground within 800 m varies in height by 17.6 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 3.2 m above sea level. Within 800 m the ground ranges from 3.2 m to 20.8 m, a difference of 17.6 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. Of the nine points within 400 m of the station, 5 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 2 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "東急ストア",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/13822861588",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "成城石井",
+      "tier": "premium",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/13822934821",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Kyodai Market 五反田実店舗",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/6565258028",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 東五反田５丁目店",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/12963712832",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 3 clinics and 11 pharmacies. Facilities recorded as hospitals lie at 有仁会阿部病院, about 212 m away and サザンガーデンクリニック, about 345 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "3 lines serve the station: JR Yamanote Line, Tokyu Ikegami Line and Toei Asakusa Line. The lines are split between operators (JR East runs 1 line, Tokyu runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 78.",
+  "neighbours": [
+    {
+      "slug": "osaki-hirokoji",
+      "note": "457 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Gotanda."
+    },
+    {
+      "slug": "osaki",
+      "note": "808 m away in a straight line. It takes 5 minutes longer to reach Otemachi than Gotanda."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who want another route when a line stops",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

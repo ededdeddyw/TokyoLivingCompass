@@ -1,0 +1,64 @@
+{
+  "slug": "kodemmacho",
+  "locale": "en",
+  "name": "Kodemmacho",
+  "tagline": "Otemachi in 11 minutes and Tokyo in 12 minutes. Served by 1 line.",
+  "summary": "The station is in Chuo City, served by Tokyo Metro Hibiya Line. Journey times to the main business districts are 11 minutes to Otemachi, 25 minutes to Shinjuku, 30 minutes to Shibuya and 26 minutes to Shinagawa. The station stands 4.9 m above sea level, and the ground within 800 m varies in height by 1.6 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 4.9 m above sea level. Within 800 m the ground ranges from 3.3 m to 4.9 m, a difference of 1.6 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 1 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/2264347180",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "成城石井",
+      "tier": "premium",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/6165063120",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "肉のハナマサ",
+      "tier": "discount",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/2258202681",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルマンストア",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/2283944054",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 24 clinics and 22 pharmacies. Facilities recorded as hospitals lie at 同仁記念会明和病院, about 811 m away and 秋葉原メディカルクリニック, about 899 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Metro Hibiya Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "bakurocho",
+      "note": "484 m away in a straight line. It reaches Otemachi in about the same time as Kodemmacho."
+    },
+    {
+      "slug": "iwamotocho",
+      "note": "581 m away in a straight line. It reaches Otemachi in about the same time as Kodemmacho."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People who get around by bicycle or with a pushchair",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

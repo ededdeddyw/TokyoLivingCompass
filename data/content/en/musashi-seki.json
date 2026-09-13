@@ -1,0 +1,62 @@
+{
+  "slug": "musashi-seki",
+  "locale": "en",
+  "name": "Musashi-Seki",
+  "tagline": "Shinjuku in 37 minutes and Shibuya in 46 minutes. Served by 1 line.",
+  "summary": "The station is in Nerima City, served by Seibu Shinjuku Line. Journey times to the main business districts are 46 minutes to Otemachi, 37 minutes to Shinjuku, 46 minutes to Shibuya and 67 minutes to Shinagawa. The station stands 48.6 m above sea level, and the ground within 800 m varies in height by 8.7 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 48.6 m above sea level. Within 800 m the ground ranges from 47 m to 55.7 m, a difference of 8.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まいばすけっと 武蔵関駅南口",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/13811260408",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Santoku",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/6130647762",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "リコス 関町北1丁目",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/way/1480154994",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "河内屋ショッピングセンター 関町店",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/1161704094",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 11 clinics and 10 pharmacies. Facilities recorded as hospitals lie at 関町病院, about 452 m away and 島村記念病院, about 528 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Seibu Shinjuku Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "kami-shakujii",
+      "note": "1439 m away in a straight line. It reaches Otemachi 3 minutes sooner than Musashi-Seki."
+    },
+    {
+      "slug": "kami-igusa",
+      "note": "2407 m away in a straight line. It reaches Otemachi 5 minutes sooner than Musashi-Seki."
+    }
+  ],
+  "goodFor": [
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

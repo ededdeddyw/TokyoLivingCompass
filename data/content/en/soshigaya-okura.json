@@ -1,0 +1,61 @@
+{
+  "slug": "soshigaya-okura",
+  "locale": "en",
+  "name": "Soshigaya-Okura",
+  "tagline": "Shinjuku in 23 minutes and Shibuya in 25 minutes. Served by 1 line.",
+  "summary": "The station is in Setagaya City, served by Odakyu Odawara Line. Journey times to the main business districts are 42 minutes to Otemachi, 23 minutes to Shinjuku, 25 minutes to Shibuya and 51 minutes to Shinagawa. The station stands 42.3 m above sea level, and the ground within 800 m varies in height by 4.5 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 42.3 m above sea level. Within 800 m the ground ranges from 38.8 m to 43.3 m, a difference of 4.5 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "コープみらい",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/1869069297",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Odakyu OX 祖師谷店",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/580957833",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オオゼキ",
+      "tier": "discount",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/961344359",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 祖師谷3丁目店",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/5195788021",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 16 clinics and 15 pharmacies. Facilities recorded as hospitals lie at 幸野メディカルクリニック (Kono Medical Clinic), about 187 m away and 九折会成城木下病院, about 885 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Odakyu Odawara Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "seijogakuen-mae",
+      "note": "1027 m away in a straight line. It reaches Otemachi in about the same time as Soshigaya-Okura."
+    },
+    {
+      "slug": "chitose-funabashi",
+      "note": "1430 m away in a straight line. It reaches Otemachi 3 minutes sooner than Soshigaya-Okura."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

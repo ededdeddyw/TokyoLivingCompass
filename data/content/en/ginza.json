@@ -1,0 +1,50 @@
+{
+  "slug": "ginza",
+  "locale": "en",
+  "name": "Ginza",
+  "tagline": "Tokyo in 3 minutes and Otemachi in 4 minutes. Served by 4 lines.",
+  "summary": "The station is in Chuo City, served by Tokyo Metro Ginza Line, Tokyo Metro Marunouchi Line, Tokyo Metro Hibiya Line and Tokyo Metro Yurakucho Line. Journey times to the main business districts are 4 minutes to Otemachi, 16 minutes to Shinjuku, 17 minutes to Shibuya and 14 minutes to Shinagawa. The station stands 3.8 m above sea level, and the ground within 800 m varies in height by 1.3 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 3.8 m above sea level. Within 800 m the ground ranges from 2.5 m to 3.8 m, a difference of 1.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 5 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 2 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "オーケーストア",
+      "tier": "discount",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/11524805662",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "明治屋",
+      "tier": "premium",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/7196596448",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 15 clinics and 9 pharmacies. Facilities recorded as hospitals lie at 十仁病院, about 761 m away and 浩邦会日比谷病院, about 782 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "4 lines serve the station: Tokyo Metro Ginza Line, Tokyo Metro Marunouchi Line, Tokyo Metro Hibiya Line and Tokyo Metro Yurakucho Line. All 4 lines are run by Tokyo Metro, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 80.",
+  "neighbours": [
+    {
+      "slug": "yurakucho",
+      "note": "408 m away in a straight line. It reaches Otemachi in about the same time as Ginza."
+    },
+    {
+      "slug": "higashi-ginza",
+      "note": "414 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Ginza."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who want another route when a line stops",
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "People who want to finish their shopping on foot"
+  ],
+  "authoredBy": "data-generated"
+}

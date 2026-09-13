@@ -1,0 +1,61 @@
+{
+  "slug": "shirokanedai",
+  "locale": "en",
+  "name": "Shirokanedai",
+  "tagline": "Roppongi in 13 minutes and Shibuya in 15 minutes. Served by 2 lines.",
+  "summary": "The station is in Minato City, served by Tokyo Metro Namboku Line and Toei Mita Line. Journey times to the main business districts are 16 minutes to Otemachi, 23 minutes to Shinjuku, 15 minutes to Shibuya and 21 minutes to Shinagawa. The station stands 30.3 m above sea level, and the ground within 800 m varies in height by 16.5 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 30.3 m above sea level. Within 800 m the ground ranges from 14.3 m to 30.8 m, a difference of 16.5 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "マルエツ",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/1891003109",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "プラチナ ドン･キホーテ 白金台店",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/way/182486554",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "＆ＭＡＲＫＥＴ",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/1928481643",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "いなげや",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/1927499586",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 2 clinics and 1 pharmacy. Facilities recorded as hospitals lie at 東京大学医科学研究所附属病院, about 243 m away and NTT東日本関東病院, about 742 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Tokyo Metro Namboku Line and Toei Mita Line. The lines are split between operators (Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "neighbours": [
+    {
+      "slug": "takanawadai",
+      "note": "789 m away in a straight line. It takes 5 minutes longer to reach Otemachi than Shirokanedai."
+    },
+    {
+      "slug": "shirokane-takanawa",
+      "note": "908 m away in a straight line. It reaches Otemachi in about the same time as Shirokanedai."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi"
+  ],
+  "notFor": [
+    "The data does not show a drawback particular to this station"
+  ],
+  "authoredBy": "data-generated"
+}

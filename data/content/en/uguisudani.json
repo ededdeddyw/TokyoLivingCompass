@@ -1,0 +1,62 @@
+{
+  "slug": "uguisudani",
+  "locale": "en",
+  "name": "Uguisudani",
+  "tagline": "Tokyo in 11 minutes and Otemachi in 17 minutes. Served by 2 lines.",
+  "summary": "The station is in Taito City, served by JR Yamanote Line and JR Keihin-Tohoku Line. Journey times to the main business districts are 17 minutes to Otemachi, 25 minutes to Shinjuku, 34 minutes to Shibuya and 25 minutes to Shinagawa. The station stands 8.8 m above sea level, and the ground within 800 m varies in height by 16.9 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 8.8 m above sea level. Within 800 m the ground ranges from 2.8 m to 19.7 m, a difference of 16.9 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 5 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "ドン・キホーテ鶯谷店",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/11897856469",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "業務スーパー",
+      "tier": "discount",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/5718105176",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/5718105161",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ライフ 東日暮里店",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/way/232228587",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 13 clinics and 11 pharmacies. Facilities recorded as hospitals lie at 神経科土田病院, about 487 m away and はせがわ病院, about 815 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: JR Yamanote Line and JR Keihin-Tohoku Line. All 2 lines are run by JR East, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "neighbours": [
+    {
+      "slug": "iriya",
+      "note": "563 m away in a straight line. It reaches Otemachi in about the same time as Uguisudani."
+    },
+    {
+      "slug": "ueno",
+      "note": "923 m away in a straight line. It reaches Otemachi 6 minutes sooner than Uguisudani."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "The data does not show a drawback particular to this station"
+  ],
+  "authoredBy": "data-generated"
+}

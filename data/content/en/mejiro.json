@@ -1,0 +1,62 @@
+{
+  "slug": "mejiro",
+  "locale": "en",
+  "name": "Mejiro",
+  "tagline": "Shinjuku in 9 minutes and Shibuya in 17 minutes. Served by 1 line.",
+  "summary": "The station is in Toshima City, served by JR Yamanote Line. Journey times to the main business districts are 22 minutes to Otemachi, 9 minutes to Shinjuku, 17 minutes to Shibuya and 40 minutes to Shinagawa. The station stands 24.9 m above sea level, and the ground within 800 m varies in height by 18.3 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 24.9 m above sea level. Within 800 m the ground ranges from 14.9 m to 33.2 m, a difference of 18.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "KINOKUNIYA Sutto目白駅店",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/12408793070",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "クイーンズ伊勢丹 目白店",
+      "tier": "premium",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/way/609054270",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "QUEEN'S ISETAN",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/5056464003",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オーケーストア",
+      "tier": "discount",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/way/1000515380",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 9 clinics and 14 pharmacies. Facilities recorded as hospitals lie at 悦伝会目白病院, about 691 m away and 大同病院, about 754 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: JR Yamanote Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "gakushuinshita",
+      "note": "733 m away in a straight line. It takes 10 minutes longer to reach Otemachi than Mejiro."
+    },
+    {
+      "slug": "zoshigaya",
+      "note": "779 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Mejiro."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

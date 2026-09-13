@@ -1,0 +1,61 @@
+{
+  "slug": "aomono-yokocho",
+  "locale": "en",
+  "name": "Aomono-Yokocho",
+  "tagline": "Shinagawa in 5 minutes and Tokyo in 20 minutes. Served by 1 line.",
+  "summary": "The station is in Shinagawa City, served by Keikyu Main Line. Journey times to the main business districts are 26 minutes to Otemachi, 36 minutes to Shinjuku, 31 minutes to Shibuya and 5 minutes to Shinagawa. The station stands 3.4 m above sea level, and the ground within 800 m varies in height by 13.2 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 3.4 m above sea level. Within 800 m the ground ranges from 2 m to 15.2 m, a difference of 13.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 5 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "オーケーストア",
+      "tier": "discount",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/4464931089",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/2390628279",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "miniピアゴ (mini PIAGO)",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/2391098425",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "イオン 品川シーサイド店",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/way/204395549",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 5 pharmacies. Facilities recorded as hospitals lie at 柴田内科消化器科クリニック, about 132 m away and 東京品川病院, about 1121 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Keikyu Main Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "samezu",
+      "note": "490 m away in a straight line. It reaches Otemachi in about the same time as Aomono-Yokocho."
+    },
+    {
+      "slug": "shinagawa-seaside",
+      "note": "602 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Aomono-Yokocho."
+    }
+  ],
+  "goodFor": [
+    "The data does not show a clear group this station suits"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

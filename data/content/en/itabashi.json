@@ -1,0 +1,77 @@
+{
+  "slug": "itabashi",
+  "locale": "en",
+  "name": "Itabashi",
+  "tagline": "Shinjuku in 11 minutes and Shibuya in 16 minutes. Served by 1 line. A one-room flat rents for roughly ¥100,000 to ¥110,000.",
+  "summary": "The station is in Itabashi City, served by JR Saikyo Line. Journey times to the main business districts are 26 minutes to Otemachi, 11 minutes to Shinjuku, 16 minutes to Shibuya and 41 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000.The station stands 26.5 m above sea level, and the ground within 800 m varies in height by 6.5 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 26.5 m above sea level. Within 800 m the ground ranges from 22.3 m to 28.8 m, a difference of 6.5 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "マルエツ",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1669568490",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "コープ",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1669568182",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/5442927844",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "コモディイイダ",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/5442927843",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 9 pharmacies. Facilities recorded as hospitals lie at 愛誠病院, about 881 m away and 小川医院, about 1149 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: JR Saikyo Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "rentRange": {
+    "note": "One room ¥100,000 to ¥110,000, 1K ¥100,000 to ¥110,000, 1LDK ¥180,000 to ¥190,000 and 2LDK ¥230,000 to ¥240,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥100,000 to ¥110,000.",
+  "neighbours": [
+    {
+      "slug": "shin-itabashi",
+      "note": "376 m away in a straight line. It reaches Otemachi 6 minutes sooner than Itabashi."
+    },
+    {
+      "slug": "shimo-itabashi",
+      "note": "427 m away in a straight line. It reaches Otemachi in about the same time as Itabashi."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who get around by bicycle or with a pushchair",
+    "People who want to finish their shopping on foot",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended",
+    "People who want plenty of places to eat out"
+  ],
+  "authoredBy": "data-generated"
+}

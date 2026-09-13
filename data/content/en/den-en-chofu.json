@@ -1,0 +1,62 @@
+{
+  "slug": "den-en-chofu",
+  "locale": "en",
+  "name": "Den-En-Chofu",
+  "tagline": "Shibuya in 17 minutes and Shinagawa in 25 minutes. Served by 2 lines.",
+  "summary": "The station is in Ota City, served by Tokyu Toyoko Line and Tokyu Meguro Line. Journey times to the main business districts are 39 minutes to Otemachi, 27 minutes to Shinjuku, 17 minutes to Shibuya and 25 minutes to Shinagawa. The station stands 30.3 m above sea level, and the ground within 800 m varies in height by 18.3 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 30.3 m above sea level. Within 800 m the ground ranges from 21.9 m to 40.2 m, a difference of 18.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "東急ストア 田園調布店",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/4237793197",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "青い鳥",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/4237747303",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/10970142428",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ナショナル田園",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/way/236356880",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 3 clinics. Facilities recorded as hospitals lie at おくさわ脳卒中リハビリテーション病院, about 865 m away and 奥沢病院, about 1011 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Tokyu Toyoko Line and Tokyu Meguro Line. All 2 lines are run by Tokyu, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "neighbours": [
+    {
+      "slug": "tamagawa",
+      "note": "812 m away in a straight line. It reaches Otemachi in about the same time as Den-En-Chofu."
+    },
+    {
+      "slug": "okusawa",
+      "note": "912 m away in a straight line. It reaches Otemachi in about the same time as Den-En-Chofu."
+    }
+  ],
+  "goodFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "notFor": [
+    "People who want to finish their shopping on foot",
+    "People who want plenty of places to eat out"
+  ],
+  "authoredBy": "data-generated"
+}

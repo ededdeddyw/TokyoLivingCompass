@@ -2,18 +2,74 @@
   "slug": "higashi-nakano",
   "locale": "en",
   "name": "Higashi-Nakano",
-  "tagline": "One stop from Shinjuku, without becoming an entertainment district.",
-  "summary": "The JR Chuo-Sobu Line puts Shinjuku one stop and five minutes away, and the Oedo Line runs direct to Roppongi. Despite being this close to Shinjuku, the area around the station never turned into a nightlife district, so it stays residential in character. The cherry trees along the Kanda River are nearby.",
+  "tagline": "Shinjuku in 7 minutes and Shibuya in 17 minutes. Served by 2 lines. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
+  "summary": "The station is in Nakano City, served by JR Chuo-Sobu Line (Local) and Toei Oedo Line. Journey times to the main business districts are 31 minutes to Otemachi, 7 minutes to Shinjuku, 17 minutes to Shibuya and 38 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000.The station stands 34.2 m above sea level, and the ground within 800 m varies in height by 15.9 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 34.2 m above sea level. Within 800 m the ground ranges from 20.6 m to 36.5 m, a difference of 15.9 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "サミット",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/3560195962",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ライフ 東中野店",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1789906322",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Be-set plaza",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/2215713480",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "超自然",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/11108994441",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 19 clinics and 14 pharmacies. Facilities recorded as hospitals lie at 近藤泌尿器科内科クリニック, about 235 m away and 菖医院, about 369 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: JR Chuo-Sobu Line (Local) and Toei Oedo Line. The lines are split between operators (JR East runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "rentRange": {
+    "note": "One room ¥90,000 to ¥100,000, 1K ¥110,000 to ¥120,000, 1LDK ¥190,000 to ¥200,000 and 2LDK ¥260,000 to ¥270,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000.",
+  "neighbours": [
+    {
+      "slug": "ochiai",
+      "note": "573 m away in a straight line. It reaches Otemachi 12 minutes sooner than Higashi-Nakano."
+    },
+    {
+      "slug": "nakai",
+      "note": "913 m away in a straight line. It reaches Otemachi 7 minutes sooner than Higashi-Nakano."
+    }
+  ],
   "goodFor": [
-    "People who want to be practically walking distance from Shinjuku",
-    "People who do not want to live in an entertainment district",
-    "Single people balancing rent against access"
+    "People commuting towards Shinjuku",
+    "People who want to finish their shopping on foot",
+    "People who want a park close by",
+    "People living alone who want to hold the rent down"
   ],
   "notFor": [
-    "People who want a lot of shopping options",
-    "People prioritising a family environment",
-    "People who want to board at a terminus"
+    "The data does not show a drawback particular to this station"
   ],
-  "residentComment": "The value here is that a station one stop from Shinjuku is this calm. It lacks the character of Koenji or Nakano, which is exactly why it is easy to live in. The Oedo Line access is routinely overlooked.",
-  "authoredBy": "seed-placeholder"
+  "authoredBy": "data-generated"
 }

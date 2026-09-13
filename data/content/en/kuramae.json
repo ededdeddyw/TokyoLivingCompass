@@ -1,0 +1,62 @@
+{
+  "slug": "kuramae",
+  "locale": "en",
+  "name": "Kuramae",
+  "tagline": "Tokyo in 13 minutes and Otemachi in 15 minutes. Served by 2 lines.",
+  "summary": "The station is in Taito City, served by Toei Oedo Line and Toei Asakusa Line. Journey times to the main business districts are 15 minutes to Otemachi, 27 minutes to Shinjuku, 33 minutes to Shibuya and 25 minutes to Shinagawa. The station stands 3 m above sea level, and the ground within 800 m varies in height by 4.0 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 3 m above sea level. Within 800 m the ground ranges from 1.3 m to 5.3 m, a difference of 4.0 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 8 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 7 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/7658515087",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/10819746448",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ライフ",
+      "tier": "standard",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/5583468436",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "サミット",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/4971604622",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 14 clinics and 19 pharmacies. Facilities recorded as hospitals lie at 同愛記念病院, about 492 m away and 東京自動車連合健康保険組合柳橋病院, about 492 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Toei Oedo Line and Toei Asakusa Line. All 2 lines are run by the Tokyo Metropolitan Bureau of Transportation, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "neighbours": [
+    {
+      "slug": "tawaramachi",
+      "note": "740 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Kuramae."
+    },
+    {
+      "slug": "asakusabashi",
+      "note": "818 m away in a straight line. It reaches Otemachi in about the same time as Kuramae."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

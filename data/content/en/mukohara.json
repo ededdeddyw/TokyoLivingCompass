@@ -1,0 +1,62 @@
+{
+  "slug": "mukohara",
+  "locale": "en",
+  "name": "Mukohara",
+  "tagline": "Shinjuku in 23 minutes and Shibuya in 28 minutes. Served by 1 line.",
+  "summary": "The station is in Toshima City, served by Tokyo Sakura Tram (Toden Arakawa Line). Journey times to the main business districts are 28 minutes to Otemachi, 23 minutes to Shinjuku, 28 minutes to Shibuya and 46 minutes to Shinagawa. The station stands 30.3 m above sea level, and the ground within 800 m varies in height by 12.6 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 30.3 m above sea level. Within 800 m the ground ranges from 18.2 m to 30.8 m, a difference of 12.6 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/5584960977",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "A MYANMAR ASIA STORE",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/13347276709",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ラマニア ハラルスーパーマーケット",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/13347178675",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "シマダヤ",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/5586738029",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 15 clinics and 15 pharmacies. Facilities recorded as hospitals lie at 東弘会山川病院, about 407 m away and 池袋病院, about 727 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Sakura Tram (Toden Arakawa Line). Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "otsuka",
+      "note": "490 m away in a straight line. It reaches Otemachi 7 minutes sooner than Mukohara."
+    },
+    {
+      "slug": "shin-otsuka",
+      "note": "583 m away in a straight line. It reaches Otemachi 14 minutes sooner than Mukohara."
+    }
+  ],
+  "goodFor": [
+    "People who want to finish their shopping on foot",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

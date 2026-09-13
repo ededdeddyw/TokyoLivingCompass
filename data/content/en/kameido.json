@@ -1,0 +1,62 @@
+{
+  "slug": "kameido",
+  "locale": "en",
+  "name": "Kameido",
+  "tagline": "Tokyo in 16 minutes and Otemachi in 21 minutes. Served by 2 lines.",
+  "summary": "The station is in Koto City, served by JR Chuo-Sobu Line (Local) and Tobu Kameido Line. Journey times to the main business districts are 21 minutes to Otemachi, 30 minutes to Shinjuku, 40 minutes to Shibuya and 31 minutes to Shinagawa. The station stands 0.1 m above sea level, and the ground within 800 m varies in height by 4.8 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 0.1 m above sea level. Within 800 m the ground ranges from -1.5 m to 3.3 m, a difference of 4.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 9 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "Eataly",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/5174668322",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "肉のハナマサ 亀戸店",
+      "tier": "discount",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/12470930194",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "MaxValu Express",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/way/617161260",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/way/619704641",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 4 clinics and 5 pharmacies. Facilities recorded as hospitals lie at 恵信会友仁病院, about 470 m away and 都立墨東病院, about 771 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: JR Chuo-Sobu Line (Local) and Tobu Kameido Line. The lines are split between operators (JR East runs 1 line and Tobu runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "neighbours": [
+    {
+      "slug": "kameidosuijin",
+      "note": "679 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Kameido."
+    },
+    {
+      "slug": "nishi-ojima",
+      "note": "909 m away in a straight line. It reaches Otemachi in about the same time as Kameido."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

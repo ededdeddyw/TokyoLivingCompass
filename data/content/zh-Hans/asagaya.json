@@ -1,0 +1,63 @@
+{
+  "slug": "asagaya",
+  "locale": "zh-Hans",
+  "name": "阿佐ケ谷",
+  "tagline": "到新宿11分钟、到涩谷21分钟。有2条线路经过。",
+  "summary": "车站位于杉並区，有JR中央線(快速)、JR中央・総武線经过。到主要商务区的所需时间为：到大手町30分钟、到新宿11分钟、到涩谷21分钟、到品川40分钟。车站海拔41米，周边800米范围内的高低差为6.7米。车站周围的地形基本平坦。",
+  "terrain": {
+    "slope": "flat",
+    "note": "车站所在的位置在周围属于较高的一侧，海拔41米。周边800米范围内，海拔从38.6米到45.3米，相差6.7米。以上数值取自日本国土地理院的海拔API，读取了车站本身和半径400米的八个方位，共九个点。"
+  },
+  "hazards": "在按可能出现的最大降雨量推算的洪水浸水想定区域中，车站所在的地点在区域之外。在车站400米以内查看的九个点中，有2个点被划入区域，其中推算最深的水深为0.5至3米。同一个车站周边，推算的水深也会因街区而异，所以请按具体地址查看所在区发布的灾害地图。内涝没有全国统一的地图，由各区分别发布，也一并看一看为好。",
+  "groceries": [
+    {
+      "name": "新鮮館",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/5004544827",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "イトーヨーカドー",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/2498631681",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "西友 阿佐ヶ谷店",
+      "tier": "discount",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1789111521",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "EVEREST SPICE & HALAL FOOD",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/4889738278",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "从车站步行800米以内，有诊所21家、药店27家。登记为医院的设施，距离为河北総合病院约235米、清川病院约715米。能否住院、设有哪些科室，OpenStreetMap 上没有记载，请到各设施的网站上确认。夜间和休息日能就诊的医疗机构，可以向所住区的急救咨询窗口查询。",
+  "stationNote": "可以使用JR中央線(快速)、JR中央・総武線这2条线路。2条线路都由JR东日本运营，遇到波及整个运营公司的故障时，可能会一起停运。按线路数量和运营方的分散程度计算，换乘便利度为52分（满分100分）。",
+  "neighbours": [
+    {
+      "slug": "minami-asagaya",
+      "note": "直线距离577米。到大手町比阿佐ケ谷多花4分钟。"
+    },
+    {
+      "slug": "koenji",
+      "note": "直线距离1246米。到大手町的时间与阿佐ケ谷差不多。"
+    }
+  ],
+  "goodFor": [
+    "到新宿方向通勤的人",
+    "经常骑自行车或推婴儿车出行的人",
+    "希望步行范围内就能买齐东西的人"
+  ],
+  "notFor": [
+    "从数据中看不出这个车站特有的短处"
+  ],
+  "authoredBy": "data-generated"
+}

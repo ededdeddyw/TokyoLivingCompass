@@ -1,0 +1,62 @@
+{
+  "slug": "daishimae",
+  "locale": "en",
+  "name": "Daishimae",
+  "tagline": "Tokyo in 41 minutes and Otemachi in 43 minutes. Served by 1 line.",
+  "summary": "The station is in Adachi City, served by Tobu Daishi Line. Journey times to the main business districts are 43 minutes to Otemachi, 54 minutes to Shinjuku, 64 minutes to Shibuya and 55 minutes to Shinagawa. The station stands 2 m above sea level, and the ground within 800 m varies in height by 1.5 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 2 m above sea level. Within 800 m the ground ranges from 0.8 m to 2.3 m, a difference of 1.5 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 1 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "アコレ",
+      "tier": "discount",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/5463737547",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "TOBU STORE",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/5534031694",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "イトーヨーカドー アリオ西新井店",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/1990491493",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/10083180206",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 10 clinics and 7 pharmacies. Facilities recorded as hospitals lie at 米倉脊椎・関節病院, about 1462 m away and 東京女子医科大学附属足立医療センター, about 1470 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tobu Daishi Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "nishiarai",
+      "note": "808 m away in a straight line. It reaches Otemachi 7 minutes sooner than Daishimae."
+    },
+    {
+      "slug": "nishiaraidaishi-nishi",
+      "note": "1079 m away in a straight line. It reaches Otemachi 7 minutes sooner than Daishimae."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

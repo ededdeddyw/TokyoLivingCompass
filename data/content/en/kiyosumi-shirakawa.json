@@ -2,18 +2,73 @@
   "slug": "kiyosumi-shirakawa",
   "locale": "en",
   "name": "Kiyosumi-Shirakawa",
-  "tagline": "Tokyo's coffee neighborhood, with no-transfer rides to Shibuya and Otemachi.",
-  "summary": "The Hanzomon Line reaches Otemachi in 10 minutes and Shibuya in 25, while the Oedo Line runs direct to Roppongi and Shinjuku. After Blue Bottle opened its first Japanese location here, independent roasters clustered in, and the café density is now among the highest in Tokyo. The Museum of Contemporary Art Tokyo and Kiyosumi Garden are both nearby.",
+  "tagline": "Otemachi in 8 minutes and Tokyo in 12 minutes. Served by 2 lines. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
+  "summary": "The station is in Koto City, served by Tokyo Metro Hanzomon Line and Toei Oedo Line. Journey times to the main business districts are 8 minutes to Otemachi, 28 minutes to Shinjuku, 27 minutes to Shibuya and 27 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000.The station stands 0.6 m above sea level, and the ground within 800 m varies in height by 2.1 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits lower than the ground around it, at 0.6 m above sea level. Within 800 m the ground ranges from 0.4 m to 2.5 m, a difference of 2.1 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 8 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 9 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "赤札堂",
+      "tier": "discount",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/way/650844330",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "野菜のちから",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/9712857387",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Discount Market A･Colle",
+      "tier": "discount",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/2268159542",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/13040886950",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 10 clinics and 9 pharmacies. Facilities recorded as hospitals lie at 山村病院, about 877 m away and 深川立川病院, about 1429 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Tokyo Metro Hanzomon Line and Toei Oedo Line. The lines are split between operators (Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "rentRange": {
+    "note": "One room ¥130,000 to ¥140,000, 1K ¥120,000 to ¥130,000, 1LDK ¥190,000 to ¥200,000 and 2LDK ¥270,000 to ¥280,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000.",
+  "neighbours": [
+    {
+      "slug": "morishita",
+      "note": "671 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Kiyosumi-Shirakawa. One-room rents run about ¥9,850 lower."
+    },
+    {
+      "slug": "kikukawa",
+      "note": "951 m away in a straight line. It takes 11 minutes longer to reach Otemachi than Kiyosumi-Shirakawa."
+    }
+  ],
   "goodFor": [
-    "People who spend a lot of time in cafés",
-    "People who may commute toward either Shibuya or Otemachi",
-    "People who want old Tokyo plus cultural venues"
+    "People commuting to Otemachi and Marunouchi",
+    "People who get around by bicycle or with a pushchair",
+    "People who want a park close by"
   ],
   "notFor": [
-    "People who want a lot of shopping options",
-    "People who want nightlife",
-    "People for whom quiet is the top priority"
+    "People avoiding projected flood inundation areas"
   ],
-  "residentComment": "It is famous for coffee, but what you notice living here is how well the two lines work together. The mix of converted warehouses and galleries makes the streetscape unlike most of Tokyo.",
-  "authoredBy": "seed-placeholder"
+  "authoredBy": "data-generated"
 }

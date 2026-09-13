@@ -1,0 +1,63 @@
+{
+  "slug": "daikanyama",
+  "locale": "en",
+  "name": "Daikanyama",
+  "tagline": "Shibuya in 3 minutes and Shinjuku in 13 minutes. Served by 1 line.",
+  "summary": "The station is in Shibuya City, served by Tokyu Toyoko Line. Journey times to the main business districts are 26 minutes to Otemachi, 13 minutes to Shinjuku, 3 minutes to Shibuya and 29 minutes to Shinagawa. The station stands 24.7 m above sea level, and the ground within 800 m varies in height by 23.5 m. The land around the station rises and falls sharply.",
+  "terrain": {
+    "slope": "hilly",
+    "note": "The station sits on the higher side of the ground around it, at 24.7 m above sea level. Within 800 m the ground ranges from 9.7 m to 33.2 m, a difference of 23.5 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "ピーコックストア 代官山店",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/3122257226",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "peacock",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/340381533",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "東急ストア 中目黒本店",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/1881932441",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ザ・ガーデン自由が丘 恵比寿店",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/8463614770",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 18 clinics and 9 pharmacies. Facilities recorded as hospitals lie at 東京共済病院, about 754 m away and アイシークリニック渋谷院, about 913 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyu Toyoko Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "ebisu",
+      "note": "607 m away in a straight line. It reaches Otemachi 4 minutes sooner than Daikanyama."
+    },
+    {
+      "slug": "nakameguro",
+      "note": "640 m away in a straight line. It reaches Otemachi in about the same time as Daikanyama."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "People who would rather not walk up and down slopes",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

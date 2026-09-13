@@ -1,0 +1,57 @@
+{
+  "slug": "aoyama-itchome",
+  "locale": "en",
+  "name": "Aoyama-Itchome",
+  "tagline": "Roppongi in 3 minutes and Shibuya in 6 minutes. Served by 3 lines.",
+  "summary": "The station is in Minato City, served by Tokyo Metro Ginza Line, Tokyo Metro Hanzomon Line and Toei Oedo Line. Journey times to the main business districts are 13 minutes to Otemachi, 7 minutes to Shinjuku, 6 minutes to Shibuya and 20 minutes to Shinagawa. The station stands 32.1 m above sea level, and the ground within 800 m varies in height by 14.6 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 32.1 m above sea level. Within 800 m the ground ranges from 20.1 m to 34.7 m, a difference of 14.6 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/13423201289",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "成城石井 南青山店",
+      "tier": "premium",
+      "walkMinutes": 13,
+      "sourceUrl": "https://www.openstreetmap.org/node/2924671086",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ヴィルマルシェ 青山店",
+      "tier": "standard",
+      "walkMinutes": 13,
+      "sourceUrl": "https://www.openstreetmap.org/node/5375437098",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 10 clinics and 6 pharmacies. Facilities recorded as hospitals lie at Sanno Medical Center, about 210 m away and 順和会山王病院, about 445 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "3 lines serve the station: Tokyo Metro Ginza Line, Tokyo Metro Hanzomon Line and Toei Oedo Line. The lines are split between operators (Tokyo Metro runs 2 lines and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 73.",
+  "neighbours": [
+    {
+      "slug": "gaiemmae",
+      "note": "618 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Aoyama-Itchome."
+    },
+    {
+      "slug": "nogizaka",
+      "note": "720 m away in a straight line. It reaches Otemachi in about the same time as Aoyama-Itchome."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who want another route when a line stops",
+    "People avoiding projected flood inundation areas"
+  ],
+  "notFor": [
+    "People who want to finish their shopping on foot"
+  ],
+  "authoredBy": "data-generated"
+}

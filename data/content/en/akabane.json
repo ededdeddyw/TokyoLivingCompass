@@ -1,0 +1,63 @@
+{
+  "slug": "akabane",
+  "locale": "en",
+  "name": "Akabane",
+  "tagline": "Shinjuku in 15 minutes and Shibuya in 20 minutes. Served by 5 lines.",
+  "summary": "The station is in Kita City, served by JR Utsunomiya Line, JR Saikyo Line, JR Takasaki Line, JR Keihin-Tohoku Line and JR Shonan-Shinjuku Line. Journey times to the main business districts are 31 minutes to Otemachi, 15 minutes to Shinjuku, 20 minutes to Shibuya and 41 minutes to Shinagawa. The station stands 5.5 m above sea level, and the ground within 800 m varies in height by 17.7 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 5.5 m above sea level. Within 800 m the ground ranges from 3.1 m to 20.8 m, a difference of 17.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 6 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 3 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "アピレ",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1783452087",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ビビオ",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1783452083",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "イトーヨーカドー",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1405245954",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "フジ",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/2558170380",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 19 clinics and 19 pharmacies. Facilities recorded as hospitals lie at 東京北医療センター, about 1057 m away and 板橋中央総合病院, about 2189 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "5 lines serve the station: JR Utsunomiya Line, JR Saikyo Line, JR Takasaki Line, JR Keihin-Tohoku Line and JR Shonan-Shinjuku Line. All 5 lines are run by JR East, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 88.",
+  "neighbours": [
+    {
+      "slug": "akabane-iwabuchi",
+      "note": "608 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Akabane."
+    },
+    {
+      "slug": "shimo",
+      "note": "1052 m away in a straight line. It reaches Otemachi in about the same time as Akabane."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who want another route when a line stops",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

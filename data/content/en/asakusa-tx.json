@@ -1,0 +1,64 @@
+{
+  "slug": "asakusa-tx",
+  "locale": "en",
+  "name": "Asakusa",
+  "tagline": "Tokyo in 13 minutes and Otemachi in 19 minutes. Served by 1 line.",
+  "summary": "The station is in Taito City, served by Tsukuba Express. Journey times to the main business districts are 19 minutes to Otemachi, 27 minutes to Shinjuku, 37 minutes to Shibuya and 28 minutes to Shinagawa. The station stands 1.9 m above sea level, and the ground within 800 m varies in height by 2.2 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits lower than the ground around it, at 1.9 m above sea level. Within 800 m the ground ranges from 1.6 m to 3.8 m, a difference of 2.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 7 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "Sanpei Store",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1931813558",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "西友 浅草ROX店",
+      "tier": "discount",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1148820976",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オーケーストア 浅草店",
+      "tier": "discount",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/13476958977",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ライフ",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/1931798073",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 10 clinics and 28 pharmacies. Facilities recorded as hospitals lie at 浅草寺病院, about 445 m away and 台東病院, about 995 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tsukuba Express. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "tawaramachi",
+      "note": "456 m away in a straight line. It reaches Otemachi in about the same time as Asakusa."
+    },
+    {
+      "slug": "asakusa",
+      "note": "584 m away in a straight line. It reaches Otemachi in about the same time as Asakusa."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People who get around by bicycle or with a pushchair",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

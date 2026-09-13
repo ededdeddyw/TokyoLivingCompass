@@ -1,0 +1,63 @@
+{
+  "slug": "ichigaya",
+  "locale": "en",
+  "name": "Ichigaya",
+  "tagline": "Shinjuku in 8 minutes and Otemachi in 12 minutes. Served by 4 lines.",
+  "summary": "The station is in Chiyoda City, served by JR Chuo-Sobu Line (Local), Tokyo Metro Yurakucho Line, Tokyo Metro Namboku Line and Toei Shinjuku Line. Journey times to the main business districts are 12 minutes to Otemachi, 8 minutes to Shinjuku, 18 minutes to Shibuya and 26 minutes to Shinagawa. The station stands 11.6 m above sea level, and the ground within 800 m varies in height by 18.7 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 11.6 m above sea level. Within 800 m the ground ranges from 11.6 m to 30.3 m, a difference of 18.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "マルエツ",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/4987355247",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ピアゴ",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/5815113550",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "LINCOS",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/5206030667",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/5815113551",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 8 clinics and 9 pharmacies. Facilities recorded as hospitals lie at 茂恵会半蔵門病院, about 899 m away and 日本歯科大学附属病院, about 1183 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "4 lines serve the station: JR Chuo-Sobu Line (Local), Tokyo Metro Yurakucho Line, Tokyo Metro Namboku Line and Toei Shinjuku Line. The lines are split between operators (JR East runs 1 line, Tokyo Metro runs 2 lines and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 90.",
+  "neighbours": [
+    {
+      "slug": "hanzomon",
+      "note": "816 m away in a straight line. It reaches Otemachi 4 minutes sooner than Ichigaya."
+    },
+    {
+      "slug": "kojimachi",
+      "note": "864 m away in a straight line. It reaches Otemachi in about the same time as Ichigaya."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who want another route when a line stops"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

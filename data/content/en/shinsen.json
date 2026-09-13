@@ -1,0 +1,63 @@
+{
+  "slug": "shinsen",
+  "locale": "en",
+  "name": "Shinsen",
+  "tagline": "Shibuya in 2 minutes and Shinjuku in 12 minutes. Served by 1 line.",
+  "summary": "The station is in Shibuya City, served by Keio Inokashira Line. Journey times to the main business districts are 26 minutes to Otemachi, 12 minutes to Shinjuku, 2 minutes to Shibuya and 28 minutes to Shinagawa. The station stands 26.9 m above sea level, and the ground within 800 m varies in height by 7.8 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits lower than the ground around it, at 26.9 m above sea level. Within 800 m the ground ranges from 26.9 m to 34.7 m, a difference of 7.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/2892522124",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/way/180210633",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ファミリーショップ もりおかや",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/3162490561",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Don Quijote 渋谷本店",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/way/136691387",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 9 clinics and 17 pharmacies. Facilities recorded as hospitals lie at 明生会セントラル病院分院, about 265 m away and 明生会セントラル病院, about 402 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Keio Inokashira Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "shibuya",
+      "note": "741 m away in a straight line. It reaches Otemachi 7 minutes sooner than Shinsen."
+    },
+    {
+      "slug": "komaba-todaimae",
+      "note": "852 m away in a straight line. It reaches Otemachi in about the same time as Shinsen."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who get around by bicycle or with a pushchair",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

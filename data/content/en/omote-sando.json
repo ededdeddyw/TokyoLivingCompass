@@ -1,0 +1,64 @@
+{
+  "slug": "omote-sando",
+  "locale": "en",
+  "name": "Omote-Sando",
+  "tagline": "Shibuya in 3 minutes and Toranomon in 10 minutes. Served by 3 lines.",
+  "summary": "The station is in Minato City, served by Tokyo Metro Ginza Line, Tokyo Metro Chiyoda Line and Tokyo Metro Hanzomon Line. Journey times to the main business districts are 14 minutes to Otemachi, 13 minutes to Shinjuku, 3 minutes to Shibuya and 24 minutes to Shinagawa. The station stands 33.6 m above sea level, and the ground within 800 m varies in height by 10.7 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 33.6 m above sea level. Within 800 m the ground ranges from 23.6 m to 34.3 m, a difference of 10.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "Family Mart",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/3002725537",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "紀伊国屋",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/1966261611",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Smail Seeds Market",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/2987623139",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Bio C' Bon",
+      "tier": "premium",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/1964113580",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 22 clinics and 17 pharmacies. Facilities recorded as hospitals lie at 伊藤病院, about 190 m away and 北青山病院, about 210 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "3 lines serve the station: Tokyo Metro Ginza Line, Tokyo Metro Chiyoda Line and Tokyo Metro Hanzomon Line. All 3 lines are run by Tokyo Metro, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 68.",
+  "neighbours": [
+    {
+      "slug": "gaiemmae",
+      "note": "771 m away in a straight line. It takes 5 minutes longer to reach Otemachi than Omote-Sando."
+    },
+    {
+      "slug": "meiji-jingumae",
+      "note": "883 m away in a straight line. It reaches Otemachi in about the same time as Omote-Sando."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who want another route when a line stops",
+    "People avoiding projected flood inundation areas"
+  ],
+  "notFor": [
+    "The data does not show a drawback particular to this station"
+  ],
+  "authoredBy": "data-generated"
+}

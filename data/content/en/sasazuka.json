@@ -2,18 +2,73 @@
   "slug": "sasazuka",
   "locale": "en",
   "name": "Sasazuka",
-  "tagline": "Five minutes to Shinjuku, with originating trains and rent that hasn't caught up.",
-  "summary": "The Keio Line reaches Shinjuku in five minutes. Trains on the Keio New Line — which runs through onto the Toei Shinjuku Line — originate here, so you can sit down on the way in. Despite being in Shibuya Ward, rent stays moderate, and a shopping street plus several supermarkets cover daily needs.",
+  "tagline": "Shinjuku in 6 minutes and Shibuya in 16 minutes. Served by 2 lines. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
+  "summary": "The station is in Shibuya City, served by Keio Line and Keio New Line. Journey times to the main business districts are 31 minutes to Otemachi, 6 minutes to Shinjuku, 16 minutes to Shibuya and 37 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000.The station stands 42.2 m above sea level, and the ground within 800 m varies in height by 9.2 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 42.2 m above sea level. Within 800 m the ground ranges from 35.8 m to 45 m, a difference of 9.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "ライフ 笹塚店",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/861244806",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "クイーンズ伊勢丹　笹塚店",
+      "tier": "premium",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/13830056694",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "サミット笹塚店",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/13829915647",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "業務スーパー 笹塚店",
+      "tier": "discount",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/4952116883",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 7 clinics and 3 pharmacies. Facilities recorded as hospitals lie at 彰誠会伊藤脳神経外科病院, about 610 m away and 文寿会福原病院, about 1289 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Keio Line and Keio New Line. All 2 lines are run by Keio, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "rentRange": {
+    "note": "One room ¥90,000 to ¥100,000, 1K ¥110,000 to ¥120,000, 1LDK ¥190,000 to ¥200,000 and 2LDK ¥270,000 to ¥280,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "neighbours": [
+    {
+      "slug": "daitabashi",
+      "note": "767 m away in a straight line. It reaches Otemachi in about the same time as Sasazuka."
+    },
+    {
+      "slug": "hatagaya",
+      "note": "886 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Sasazuka."
+    }
+  ],
   "goodFor": [
-    "People commuting toward Shinjuku",
-    "People who want a Shibuya Ward address at a lower rent",
-    "People who want a seat in the morning"
+    "People commuting towards Shinjuku",
+    "People who want a park close by",
+    "People living alone who want to hold the rent down"
   ],
   "notFor": [
-    "People who want a quiet residential street",
-    "People who want a large park nearby",
-    "People who care about neighborhood style"
+    "The data does not show a drawback particular to this station"
   ],
-  "residentComment": "Five minutes from Shinjuku at this rent is reason enough to look. The originating trains matter too. The streets themselves are unremarkable, but as a practical place to live it performs very well.",
-  "authoredBy": "seed-placeholder"
+  "authoredBy": "data-generated"
 }

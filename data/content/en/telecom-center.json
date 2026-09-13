@@ -1,0 +1,34 @@
+{
+  "slug": "telecom-center",
+  "locale": "en",
+  "name": "Telecom-Center",
+  "tagline": "Toranomon in 30 minutes and Tokyo in 31 minutes. Served by 1 line.",
+  "summary": "The station is in Koto City, served by Yurikamome. Journey times to the main business districts are 37 minutes to Otemachi, 45 minutes to Shinjuku, 43 minutes to Shibuya and 34 minutes to Shinagawa. The station stands 8.6 m above sea level, and the ground within 800 m varies in height by 4.3 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 8.6 m above sea level. Within 800 m the ground ranges from 4.3 m to 8.6 m, a difference of 4.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "medical": "Within an 800 m walk of the station, OpenStreetMap records neither a clinic nor a pharmacy. Facilities recorded as hospitals lie at フジテレビ湾岸スタジオビル診療所, about 363 m away and 癌研有明病院, about 2336 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Yurikamome. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "tokyo-international-cruise-terminal",
+      "note": "704 m away in a straight line. It reaches Otemachi 3 minutes sooner than Telecom-Center."
+    },
+    {
+      "slug": "aomi",
+      "note": "803 m away in a straight line. It reaches Otemachi in about the same time as Telecom-Center."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair",
+    "People avoiding projected flood inundation areas"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended",
+    "People who want to finish their shopping on foot",
+    "People who want plenty of places to eat out"
+  ],
+  "authoredBy": "data-generated"
+}

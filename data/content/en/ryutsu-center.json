@@ -1,0 +1,33 @@
+{
+  "slug": "ryutsu-center",
+  "locale": "en",
+  "name": "Ryutsu-Center",
+  "tagline": "Tokyo in 27 minutes and Shinagawa in 28 minutes. Served by 1 line.",
+  "summary": "The station is in Ota City, served by Tokyo Monorail. Journey times to the main business districts are 33 minutes to Otemachi, 42 minutes to Shinjuku, 37 minutes to Shibuya and 28 minutes to Shinagawa. The station stands 3.5 m above sea level, and the ground within 800 m varies in height by 3.5 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 3.5 m above sea level. Within 800 m the ground ranges from 2 m to 5.5 m, a difference of 3.5 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is less than 0.5 m. For storm surge, 1 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "medical": "Within an 800 m walk of the station, OpenStreetMap records neither a clinic nor a pharmacy. Facilities recorded as hospitals lie at いすゞ病院, about 1702 m away and 城南福祉医療協会大田病院, about 1735 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Monorail. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "showajima",
+      "note": "1248 m away in a straight line. It reaches Otemachi in about the same time as Ryutsu-Center."
+    },
+    {
+      "slug": "heiwajima",
+      "note": "1319 m away in a straight line. It reaches Otemachi in about the same time as Ryutsu-Center."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended",
+    "People who want to finish their shopping on foot",
+    "People who want plenty of places to eat out"
+  ],
+  "authoredBy": "data-generated"
+}

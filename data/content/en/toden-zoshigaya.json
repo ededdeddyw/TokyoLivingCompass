@@ -1,0 +1,62 @@
+{
+  "slug": "toden-zoshigaya",
+  "locale": "en",
+  "name": "Toden-Zoshigaya",
+  "tagline": "Shinjuku in 21 minutes and Shibuya in 24 minutes. Served by 1 line.",
+  "summary": "The station is in Toshima City, served by Tokyo Sakura Tram (Toden Arakawa Line). Journey times to the main business districts are 26 minutes to Otemachi, 21 minutes to Shinjuku, 24 minutes to Shibuya and 44 minutes to Shinagawa. The station stands 31.5 m above sea level, and the ground within 800 m varies in height by 4.6 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 31.5 m above sea level. Within 800 m the ground ranges from 27.2 m to 31.8 m, a difference of 4.6 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/11109158232",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/13666265903",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "西友 サンシャイン60前店",
+      "tier": "discount",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/4209282891",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オークラ",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/13897787860",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 4 clinics and 16 pharmacies. Facilities recorded as hospitals lie at 木村整形外科, about 471 m away and 芳精会ぬかりや病院, about 636 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Sakura Tram (Toden Arakawa Line). Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "higashi-ikebukuro",
+      "note": "211 m away in a straight line. It reaches Otemachi 7 minutes sooner than Toden-Zoshigaya."
+    },
+    {
+      "slug": "zoshigaya",
+      "note": "522 m away in a straight line. It reaches Otemachi in about the same time as Toden-Zoshigaya."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair",
+    "People avoiding projected flood inundation areas"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

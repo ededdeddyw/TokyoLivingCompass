@@ -1,0 +1,62 @@
+{
+  "slug": "umegaoka",
+  "locale": "en",
+  "name": "Umegaoka",
+  "tagline": "Shinjuku in 14 minutes and Shibuya in 16 minutes. Served by 1 line.",
+  "summary": "The station is in Setagaya City, served by Odakyu Odawara Line. Journey times to the main business districts are 33 minutes to Otemachi, 14 minutes to Shinjuku, 16 minutes to Shibuya and 42 minutes to Shinagawa. The station stands 32.1 m above sea level, and the ground within 800 m varies in height by 15.4 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 32.1 m above sea level. Within 800 m the ground ranges from 29.7 m to 45.1 m, a difference of 15.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "ワイズマート 梅ヶ丘店",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/1230778027",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Odakyu OX 梅ヶ丘店",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/1221313459",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "つるかめストア",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/1230778035",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 世田谷代田駅前店",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/2519783352",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 21 clinics and 17 pharmacies. Facilities recorded as hospitals lie at うめとぴあ, about 349 m away and 島津メディカルクリニック, about 1168 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Odakyu Odawara Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "gotokuji",
+      "note": "651 m away in a straight line. It reaches Otemachi in about the same time as Umegaoka."
+    },
+    {
+      "slug": "higashi-matsubara",
+      "note": "754 m away in a straight line. It reaches Otemachi in about the same time as Umegaoka."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "hakusan",
+  "locale": "en",
+  "name": "Hakusan",
+  "tagline": "Otemachi in 10 minutes and Tokyo in 16 minutes. Served by 1 line.",
+  "summary": "The station is in Bunkyo City, served by Toei Mita Line. Journey times to the main business districts are 10 minutes to Otemachi, 25 minutes to Shinjuku, 28 minutes to Shibuya and 30 minutes to Shinagawa. The station stands 13.3 m above sea level, and the ground within 800 m varies in height by 16.7 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 13.3 m above sea level. Within 800 m the ground ranges from 8.1 m to 24.8 m, a difference of 16.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まいばすけっと 白山駅前店",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/12126133164",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "コープみらい 白山店",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/5909738839",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Santoku 白山店",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/5909738841",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "大銀ストアー",
+      "tier": "standard",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/5479188584",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 12 clinics and 15 pharmacies. Facilities recorded as hospitals lie at 日本医科大学附属病院, about 672 m away and 都立駒込病院, about 993 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Toei Mita Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "hon-komagome",
+      "note": "341 m away in a straight line. It takes 8 minutes longer to reach Otemachi than Hakusan."
+    },
+    {
+      "slug": "todaimae",
+      "note": "677 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Hakusan."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

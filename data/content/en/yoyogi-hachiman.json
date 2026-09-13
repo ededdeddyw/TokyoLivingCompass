@@ -1,0 +1,62 @@
+{
+  "slug": "yoyogi-hachiman",
+  "locale": "en",
+  "name": "Yoyogi-Hachiman",
+  "tagline": "Shinjuku in 6 minutes and Shibuya in 11 minutes. Served by 2 lines.",
+  "summary": "The station is in Shibuya City, served by Odakyu Odawara Line and Tokyo Metro Chiyoda Line. Journey times to the main business districts are 19 minutes to Otemachi, 6 minutes to Shinjuku, 11 minutes to Shibuya and 34 minutes to Shinagawa. The station stands 20.8 m above sea level, and the ground within 800 m varies in height by 15.3 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 20.8 m above sea level. Within 800 m the ground ranges from 20.6 m to 35.9 m, a difference of 15.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "マルマンストア",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/2242419606",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Bio C' Bon",
+      "tier": "premium",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/6644448085",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/10068347910",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "肉のハナマサ",
+      "tier": "discount",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/3162474869",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 9 pharmacies. Facilities recorded as hospitals lie at 荘敬会井上病院, about 92 m away and 予定, about 296 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Odakyu Odawara Line and Tokyo Metro Chiyoda Line. The lines are split between operators (Odakyu runs 1 line and Tokyo Metro runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "neighbours": [
+    {
+      "slug": "yoyogi-uehara",
+      "note": "800 m away in a straight line. It reaches Otemachi in about the same time as Yoyogi-Hachiman."
+    },
+    {
+      "slug": "sangubashi",
+      "note": "1096 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Yoyogi-Hachiman."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

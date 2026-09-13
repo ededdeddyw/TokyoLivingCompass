@@ -1,0 +1,62 @@
+{
+  "slug": "sangen-jaya",
+  "locale": "en",
+  "name": "Sangen-Jaya",
+  "tagline": "Shibuya in 7 minutes and Shinjuku in 17 minutes. Served by 2 lines.",
+  "summary": "The station is in Setagaya City, served by Tokyu Den-en-toshi Line and Tokyu Setagaya Line. Journey times to the main business districts are 31 minutes to Otemachi, 17 minutes to Shinjuku, 7 minutes to Shibuya and 33 minutes to Shinagawa. The station stands 32.2 m above sea level, and the ground within 800 m varies in height by 8.3 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 32.2 m above sea level. Within 800 m the ground ranges from 25 m to 33.3 m, a difference of 8.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 5 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "東急ストア",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/3828659957",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "西友 三軒茶屋店",
+      "tier": "discount",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/349099906",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/4121333343",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "biople 三軒茶屋店",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/13973791503",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 20 clinics and 22 pharmacies. Facilities recorded as hospitals lie at 青葉会青葉病院, about 117 m away and 歯科, about 151 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Tokyu Den-en-toshi Line and Tokyu Setagaya Line. All 2 lines are run by Tokyu, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "neighbours": [
+    {
+      "slug": "nishi-taishido",
+      "note": "353 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Sangen-Jaya."
+    },
+    {
+      "slug": "wakabayashi",
+      "note": "958 m away in a straight line. It takes 10 minutes longer to reach Otemachi than Sangen-Jaya."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "The data does not show a drawback particular to this station"
+  ],
+  "authoredBy": "data-generated"
+}

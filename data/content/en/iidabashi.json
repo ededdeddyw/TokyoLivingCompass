@@ -1,0 +1,64 @@
+{
+  "slug": "iidabashi",
+  "locale": "en",
+  "name": "Iidabashi",
+  "tagline": "Otemachi in 6 minutes and Tokyo in 12 minutes. Served by 5 lines.",
+  "summary": "The station is in Chiyoda City, served by JR Chuo-Sobu Line (Local), Tokyo Metro Tozai Line, Tokyo Metro Yurakucho Line, Tokyo Metro Namboku Line and Toei Oedo Line. Journey times to the main business districts are 6 minutes to Otemachi, 15 minutes to Shinjuku, 21 minutes to Shibuya and 27 minutes to Shinagawa. The station stands 5.2 m above sea level, and the ground within 800 m varies in height by 11.6 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 5.2 m above sea level. Within 800 m the ground ranges from 4.3 m to 15.9 m, a difference of 11.6 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 3 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "Miuraya",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/4972066853",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Santoku",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/4968224047",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/6126581827",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Picard",
+      "tier": "premium",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/11106933905",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 16 clinics and 15 pharmacies. Facilities recorded as hospitals lie at 日本歯科大学附属病院, about 232 m away and JCHO東京新宿メディカルセンター, about 278 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "5 lines serve the station: JR Chuo-Sobu Line (Local), Tokyo Metro Tozai Line, Tokyo Metro Yurakucho Line, Tokyo Metro Namboku Line and Toei Oedo Line. The lines are split between operators (JR East runs 1 line, Tokyo Metro runs 3 lines and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 98.",
+  "neighbours": [
+    {
+      "slug": "ushigome-kagurazaka",
+      "note": "814 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Iidabashi."
+    },
+    {
+      "slug": "suidobashi",
+      "note": "909 m away in a straight line. It reaches Otemachi in about the same time as Iidabashi."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who want another route when a line stops",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

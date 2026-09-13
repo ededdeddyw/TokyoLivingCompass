@@ -1,0 +1,63 @@
+{
+  "slug": "yotsuya-sanchome",
+  "locale": "zh-Hans",
+  "name": "四谷三丁目",
+  "tagline": "到新宿5分钟、到东京13分钟。有1条线路经过。",
+  "summary": "车站位于新宿区，有東京メトロ丸ノ内線经过。到主要商务区的所需时间为：到大手町15分钟、到新宿5分钟、到涩谷15分钟、到品川27分钟。车站海拔35米，周边800米范围内的高低差为12.2米。车站周围的地形有缓坡。",
+  "terrain": {
+    "slope": "some",
+    "note": "车站所在的位置在周围属于较高的一侧，海拔35米。周边800米范围内，海拔从22.8米到35米，相差12.2米。以上数值取自日本国土地理院的海拔API，读取了车站本身和半径400米的八个方位，共九个点。"
+  },
+  "hazards": "在按可能出现的最大降雨量推算的洪水浸水想定区域中，车站所在的地点，以及车站400米以内的九个点，都在区域之外。同一个车站周边，推算的水深也会因街区而异，所以请按具体地址查看所在区发布的灾害地图。内涝没有全国统一的地图，由各区分别发布，也一并看一看为好。",
+  "groceries": [
+    {
+      "name": "丸正食品本店",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/4382942136",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/11061144001",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/11060934108",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "コープ",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/5038407423",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "从车站步行800米以内，有诊所11家、药店15家。登记为医院的设施，距离为仁圭会林外科病院约647米、慶應義塾大学病院约676米。能否住院、设有哪些科室，OpenStreetMap 上没有记载，请到各设施的网站上确认。夜间和休息日能就诊的医疗机构，可以向所住区的急救咨询窗口查询。",
+  "stationNote": "可以使用東京メトロ丸ノ内線这1条线路。只有一条线路经过，这条线路停运时，就要步行到有其他线路经过的车站。按线路数量和运营方的分散程度计算，换乘便利度为32分（满分100分）。",
+  "neighbours": [
+    {
+      "slug": "akebonobashi",
+      "note": "直线距离554米。到大手町的时间与四谷三丁目差不多。"
+    },
+    {
+      "slug": "shinjuku-gyoemmae",
+      "note": "直线距离852米。到大手町的时间与四谷三丁目差不多。"
+    }
+  ],
+  "goodFor": [
+    "到大手町、丸之内一带通勤的人",
+    "到新宿方向通勤的人",
+    "希望避开洪水浸水想定区域的人"
+  ],
+  "notFor": [
+    "希望停运时还有其他路线可走的人"
+  ],
+  "authoredBy": "data-generated"
+}

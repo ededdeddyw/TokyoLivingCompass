@@ -1,0 +1,62 @@
+{
+  "slug": "nogata",
+  "locale": "en",
+  "name": "Nogata",
+  "tagline": "Shinjuku in 22 minutes and Shibuya in 31 minutes. Served by 1 line.",
+  "summary": "The station is in Nakano City, served by Seibu Shinjuku Line. Journey times to the main business districts are 31 minutes to Otemachi, 22 minutes to Shinjuku, 31 minutes to Shibuya and 52 minutes to Shinagawa. The station stands 40 m above sea level, and the ground within 800 m varies in height by 7.5 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 40 m above sea level. Within 800 m the ground ranges from 34.2 m to 41.7 m, a difference of 7.5 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "サカガミ",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1679960309",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/6399636186",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "丸正",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1679959941",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "サミット",
+      "tier": "standard",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/5042307483",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 12 clinics and 16 pharmacies. Facilities recorded as hospitals lie at 愛誠会中野病院, about 1096 m away and 中野江古田病院, about 1244 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Seibu Shinjuku Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "toritsu-kasei",
+      "note": "771 m away in a straight line. It reaches Otemachi in about the same time as Nogata."
+    },
+    {
+      "slug": "numabukuro",
+      "note": "1003 m away in a straight line. It reaches Otemachi in about the same time as Nogata."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

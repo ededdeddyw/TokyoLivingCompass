@@ -1,0 +1,61 @@
+{
+  "slug": "oku",
+  "locale": "en",
+  "name": "Oku",
+  "tagline": "Tokyo in 19 minutes and Otemachi in 26 minutes. Served by 2 lines.",
+  "summary": "The station is in Kita City, served by JR Utsunomiya Line and JR Takasaki Line. Journey times to the main business districts are 26 minutes to Otemachi, 29 minutes to Shinjuku, 34 minutes to Shibuya and 34 minutes to Shinagawa. The station stands 4.7 m above sea level, and the ground within 800 m varies in height by 17.4 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 4.7 m above sea level. Within 800 m the ground ranges from 2.1 m to 19.5 m, a difference of 17.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 8 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 3 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "東武ストア",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/5434974407",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "スーパーバリュー 西尾久店",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/way/235601390",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オリンピック 西尾久店",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/6653918692",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/5393022967",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 11 clinics and 11 pharmacies. Facilities recorded as hospitals lie at 桑原病院, about 1571 m away and 都立駒込病院, about 1900 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: JR Utsunomiya Line and JR Takasaki Line. All 2 lines are run by JR East, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "neighbours": [
+    {
+      "slug": "arakawa-shakomae",
+      "note": "466 m away in a straight line. It takes 13 minutes longer to reach Otemachi than Oku."
+    },
+    {
+      "slug": "arakawa-yuenchimae",
+      "note": "560 m away in a straight line. It takes 10 minutes longer to reach Otemachi than Oku."
+    }
+  ],
+  "goodFor": [
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

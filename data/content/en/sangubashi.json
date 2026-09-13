@@ -1,0 +1,62 @@
+{
+  "slug": "sangubashi",
+  "locale": "en",
+  "name": "Sangubashi",
+  "tagline": "Shinjuku in 3 minutes and Shibuya in 13 minutes. Served by 1 line.",
+  "summary": "The station is in Shibuya City, served by Odakyu Odawara Line. Journey times to the main business districts are 26 minutes to Otemachi, 3 minutes to Shinjuku, 13 minutes to Shibuya and 34 minutes to Shinagawa. The station stands 28.2 m above sea level, and the ground within 800 m varies in height by 10.9 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 28.2 m above sea level. Within 800 m the ground ranges from 28.2 m to 39.1 m, a difference of 10.9 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "マルマンストア 参宮橋店",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1730467331",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Freshfoodsアカマツ",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/2146107975",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/12962155376",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "成城石井 オペラシティ店",
+      "tier": "premium",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/13304669910",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 1 clinic and 2 pharmacies. Facilities recorded as hospitals lie at 参宮橋脊椎外科病院, about 383 m away and 温光会内藤病院, about 689 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Odakyu Odawara Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "minami-shinjuku",
+      "note": "713 m away in a straight line. It reaches Otemachi in about the same time as Sangubashi."
+    },
+    {
+      "slug": "hatsudai",
+      "note": "714 m away in a straight line. It takes 10 minutes longer to reach Otemachi than Sangubashi."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People avoiding projected flood inundation areas"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "shimo-ochiai",
+  "locale": "en",
+  "name": "Shimo-Ochiai",
+  "tagline": "Shinjuku in 14 minutes and Shibuya in 22 minutes. Served by 1 line.",
+  "summary": "The station is in Shinjuku City, served by Seibu Shinjuku Line. Journey times to the main business districts are 22 minutes to Otemachi, 14 minutes to Shinjuku, 22 minutes to Shibuya and 43 minutes to Shinagawa. The station stands 15.9 m above sea level, and the ground within 800 m varies in height by 20.7 m. The land around the station rises and falls sharply.",
+  "terrain": {
+    "slope": "hilly",
+    "note": "The station sits lower than the ground around it, at 15.9 m above sea level. Within 800 m the ground ranges from 14.3 m to 35 m, a difference of 20.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 5 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/way/258718337",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "スズタツ",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/way/470875735",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オオゼキ",
+      "tier": "discount",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/5020328018",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "西友",
+      "tier": "discount",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/12305437899",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 8 clinics and 18 pharmacies. Facilities recorded as hospitals lie at 聖母会聖母病院, about 503 m away and 悦伝会目白病院, about 783 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Seibu Shinjuku Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "nakai",
+      "note": "800 m away in a straight line. It reaches Otemachi in about the same time as Shimo-Ochiai."
+    },
+    {
+      "slug": "takadanobaba",
+      "note": "848 m away in a straight line. It reaches Otemachi 7 minutes sooner than Shimo-Ochiai."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who would rather not walk up and down slopes",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

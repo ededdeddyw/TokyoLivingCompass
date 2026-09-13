@@ -1,0 +1,61 @@
+{
+  "slug": "keisei-ueno",
+  "locale": "en",
+  "name": "Keisei-Ueno",
+  "tagline": "Tokyo in 22 minutes and Otemachi in 28 minutes. Served by 2 lines.",
+  "summary": "The station is in Taito City, served by Keisei Main Line and Narita Sky Access Line. Journey times to the main business districts are 28 minutes to Otemachi, 36 minutes to Shinjuku, 41 minutes to Shibuya and 36 minutes to Shinagawa. The station stands 9.9 m above sea level, and the ground within 800 m varies in height by 14.2 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 9.9 m above sea level. Within 800 m the ground ranges from 2.4 m to 16.6 m, a difference of 14.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 2 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "野澤屋",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/6028951985",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "THE GARDEN JIYUGAOKA",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/4697613903",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "再来物産",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/5371521837",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "業務スーパー",
+      "tier": "discount",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/12780217501",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 64 clinics and 49 pharmacies. Facilities recorded as hospitals lie at アイシークリニック上野院, about 374 m away and 全仁会上野病院, about 506 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Keisei Main Line and Narita Sky Access Line. All 2 lines are run by Keisei, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "neighbours": [
+    {
+      "slug": "ueno",
+      "note": "384 m away in a straight line. It reaches Otemachi 17 minutes sooner than Keisei-Ueno."
+    },
+    {
+      "slug": "okachimachi",
+      "note": "440 m away in a straight line. It reaches Otemachi 15 minutes sooner than Keisei-Ueno."
+    }
+  ],
+  "goodFor": [
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "The data does not show a drawback particular to this station"
+  ],
+  "authoredBy": "data-generated"
+}

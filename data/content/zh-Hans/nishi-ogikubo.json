@@ -1,0 +1,63 @@
+{
+  "slug": "nishi-ogikubo",
+  "locale": "zh-Hans",
+  "name": "西荻窪",
+  "tagline": "到新宿17分钟、到涩谷27分钟。有2条线路经过。",
+  "summary": "车站位于杉並区，有JR中央線(快速)、JR中央・総武線经过。到主要商务区的所需时间为：到大手町36分钟、到新宿17分钟、到涩谷27分钟、到品川46分钟。车站海拔51米，周边800米范围内的高低差为7.3米。车站周围的地形基本平坦。",
+  "terrain": {
+    "slope": "flat",
+    "note": "车站所在的位置在周围属于较高的一侧，海拔51米。周边800米范围内，海拔从44.6米到51.9米，相差7.3米。以上数值取自日本国土地理院的海拔API，读取了车站本身和半径400米的八个方位，共九个点。"
+  },
+  "hazards": "在按可能出现的最大降雨量推算的洪水浸水想定区域中，车站所在的地点在区域之外。在车站400米以内查看的九个点中，有2个点被划入区域，其中推算最深的水深为0.5至3米。同一个车站周边，推算的水深也会因街区而异，所以请按具体地址查看所在区发布的灾害地图。内涝没有全国统一的地图，由各区分别发布，也一并看一看为好。",
+  "groceries": [
+    {
+      "name": "西友 西荻窪店",
+      "tier": "discount",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/599920272",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Daily Table KINOKUNIYA",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/9001014926",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "サミット",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/10230353653",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/610194765",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "从车站步行800米以内，有诊所18家、药店12家。登记为医院的设施，距离为越川病院訪問看護ステーション约175米、杉並リハビリテーション病院约259米。能否住院、设有哪些科室，OpenStreetMap 上没有记载，请到各设施的网站上确认。夜间和休息日能就诊的医疗机构，可以向所住区的急救咨询窗口查询。",
+  "stationNote": "可以使用JR中央線(快速)、JR中央・総武線这2条线路。2条线路都由JR东日本运营，遇到波及整个运营公司的故障时，可能会一起停运。按线路数量和运营方的分散程度计算，换乘便利度为52分（满分100分）。",
+  "neighbours": [
+    {
+      "slug": "kugayama",
+      "note": "直线距离1746米。到大手町比西荻窪多花13分钟。"
+    },
+    {
+      "slug": "ogikubo",
+      "note": "直线距离1874米。到大手町比西荻窪早到3分钟。"
+    }
+  ],
+  "goodFor": [
+    "到新宿方向通勤的人",
+    "经常骑自行车或推婴儿车出行的人",
+    "看重公园就在附近的人"
+  ],
+  "notFor": [
+    "从数据中看不出这个车站特有的短处"
+  ],
+  "authoredBy": "data-generated"
+}

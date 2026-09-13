@@ -1,0 +1,61 @@
+{
+  "slug": "higashi-matsubara",
+  "locale": "en",
+  "name": "Higashi-Matsubara",
+  "tagline": "Shibuya in 11 minutes and Shinjuku in 17 minutes. Served by 1 line.",
+  "summary": "The station is in Setagaya City, served by Keio Inokashira Line. Journey times to the main business districts are 35 minutes to Otemachi, 17 minutes to Shinjuku, 11 minutes to Shibuya and 37 minutes to Shinagawa. The station stands 39.6 m above sea level, and the ground within 800 m varies in height by 10.7 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 39.6 m above sea level. Within 800 m the ground ranges from 36.5 m to 47.2 m, a difference of 10.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "ハルケ",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1657345812",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 世田谷代田駅前店",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/2519783352",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ワイズマート 梅ヶ丘店",
+      "tier": "standard",
+      "walkMinutes": 13,
+      "sourceUrl": "https://www.openstreetmap.org/node/1230778027",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Odakyu OX 梅ヶ丘店",
+      "tier": "standard",
+      "walkMinutes": 13,
+      "sourceUrl": "https://www.openstreetmap.org/node/1221313459",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 15 clinics and 9 pharmacies. Facilities recorded as hospitals lie at うめとぴあ, about 752 m away and 島津メディカルクリニック, about 917 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Keio Inokashira Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "shindaita",
+      "note": "450 m away in a straight line. It reaches Otemachi in about the same time as Higashi-Matsubara."
+    },
+    {
+      "slug": "setagaya-daita",
+      "note": "723 m away in a straight line. It reaches Otemachi 4 minutes sooner than Higashi-Matsubara."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

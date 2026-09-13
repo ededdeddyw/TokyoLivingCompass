@@ -1,0 +1,63 @@
+{
+  "slug": "kojimachi",
+  "locale": "en",
+  "name": "Kojimachi",
+  "tagline": "Toranomon in 10 minutes and Tokyo in 14 minutes. Served by 1 line.",
+  "summary": "The station is in Chiyoda City, served by Tokyo Metro Yurakucho Line. Journey times to the main business districts are 14 minutes to Otemachi, 15 minutes to Shinjuku, 16 minutes to Shibuya and 24 minutes to Shinagawa. The station stands 30.5 m above sea level, and the ground within 800 m varies in height by 11.0 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 30.5 m above sea level. Within 800 m the ground ranges from 20.8 m to 31.8 m, a difference of 11.0 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "自然食品F&F",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/10696809814",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "成城石井",
+      "tier": "premium",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/2795660471",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "生鮮食品館",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/7161544250",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "COCOS NAKAMURA",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/10696643147",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 13 clinics and 17 pharmacies. Facilities recorded as hospitals lie at 茂恵会半蔵門病院, about 493 m away and 友仁会赤坂見附前田病院, about 718 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Metro Yurakucho Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "hanzomon",
+      "note": "408 m away in a straight line. It reaches Otemachi 6 minutes sooner than Kojimachi."
+    },
+    {
+      "slug": "nagatacho",
+      "note": "672 m away in a straight line. It reaches Otemachi 4 minutes sooner than Kojimachi."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

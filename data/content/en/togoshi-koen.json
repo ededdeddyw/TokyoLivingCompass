@@ -1,0 +1,62 @@
+{
+  "slug": "togoshi-koen",
+  "locale": "en",
+  "name": "Togoshi-Koen",
+  "tagline": "Shinagawa in 14 minutes and Shibuya in 25 minutes. Served by 1 line.",
+  "summary": "The station is in Shinagawa City, served by Tokyu Oimachi Line. Journey times to the main business districts are 34 minutes to Otemachi, 30 minutes to Shinjuku, 25 minutes to Shibuya and 14 minutes to Shinagawa. The station stands 22.4 m above sea level, and the ground within 800 m varies in height by 6.0 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 22.4 m above sea level. Within 800 m the ground ranges from 17.9 m to 23.9 m, a difference of 6.0 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "スーパーおおぜき",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/2001633280",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オーケーストア 戸越店",
+      "tier": "discount",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/3274189056",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Big-A 品川豊町店",
+      "tier": "discount",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/5744822119",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "東急ストア フードステーション中延店",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/3347738972",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 8 clinics and 8 pharmacies. Facilities recorded as hospitals lie at 昭和医科大学病院附属東病院, about 1140 m away and 昭和医科大学病院, about 1323 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyu Oimachi Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "ebara-nakanobu",
+      "note": "555 m away in a straight line. It reaches Otemachi in about the same time as Togoshi-Koen."
+    },
+    {
+      "slug": "nakanobu",
+      "note": "571 m away in a straight line. It reaches Otemachi 5 minutes sooner than Togoshi-Koen."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

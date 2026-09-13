@@ -1,0 +1,54 @@
+{
+  "slug": "higashi-kitazawa",
+  "locale": "en",
+  "name": "Higashi-Kitazawa",
+  "tagline": "Shinjuku in 9 minutes and Shibuya in 14 minutes. Served by 1 line.",
+  "summary": "The station is in Setagaya City, served by Odakyu Odawara Line. Journey times to the main business districts are 28 minutes to Otemachi, 9 minutes to Shinjuku, 14 minutes to Shibuya and 40 minutes to Shinagawa. The station stands 41.6 m above sea level, and the ground within 800 m varies in height by 10.1 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 41.6 m above sea level. Within 800 m the ground ranges from 31.7 m to 41.8 m, a difference of 10.1 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まいばすけっと 北沢4丁目店",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/2495189270",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オオゼキ 下北沢店",
+      "tier": "discount",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/648668430",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Natural House",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/2266962270",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 13 clinics and 7 pharmacies. Facilities recorded as hospitals lie at 文寿会福原病院, about 433 m away and 彰誠会伊藤脳神経外科病院, about 457 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Odakyu Odawara Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "ikenoue",
+      "note": "554 m away in a straight line. It reaches Otemachi in about the same time as Higashi-Kitazawa."
+    },
+    {
+      "slug": "shimo-kitazawa",
+      "note": "671 m away in a straight line. It reaches Otemachi in about the same time as Higashi-Kitazawa."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

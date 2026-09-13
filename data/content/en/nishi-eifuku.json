@@ -1,0 +1,58 @@
+{
+  "slug": "nishi-eifuku",
+  "locale": "en",
+  "name": "Nishi-Eifuku",
+  "tagline": "Shibuya in 17 minutes and Shinjuku in 20 minutes. Served by 1 line.",
+  "summary": "The station is in Suginami City, served by Keio Inokashira Line. Journey times to the main business districts are 41 minutes to Otemachi, 20 minutes to Shinjuku, 17 minutes to Shibuya and 43 minutes to Shinagawa. The station stands 42.5 m above sea level, and the ground within 800 m varies in height by 5.8 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 42.5 m above sea level. Within 800 m the ground ranges from 38.4 m to 44.2 m, a difference of 5.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "サミットストア",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/811256251",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 浜田山駅東店",
+      "tier": "standard",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/4704522075",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "コモディイイダ 浜田山店",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/410543406",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 17 clinics and 13 pharmacies. Facilities recorded as hospitals lie at 樺島病院, about 284 m away and 樺島会樺島病院, about 286 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Keio Inokashira Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "hamadayama",
+      "note": "732 m away in a straight line. It reaches Otemachi in about the same time as Nishi-Eifuku."
+    },
+    {
+      "slug": "eifukucho",
+      "note": "762 m away in a straight line. It reaches Otemachi in about the same time as Nishi-Eifuku."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who get around by bicycle or with a pushchair",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended",
+    "People who want to finish their shopping on foot"
+  ],
+  "authoredBy": "data-generated"
+}

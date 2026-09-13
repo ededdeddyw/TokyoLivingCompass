@@ -1,0 +1,56 @@
+{
+  "slug": "oi-keibajo-mae",
+  "locale": "en",
+  "name": "Oi-Keibajo-Mae",
+  "tagline": "Tokyo in 24 minutes and Shinagawa in 25 minutes. Served by 1 line.",
+  "summary": "The station is in Shinagawa City, served by Tokyo Monorail. Journey times to the main business districts are 30 minutes to Otemachi, 39 minutes to Shinjuku, 34 minutes to Shibuya and 25 minutes to Shinagawa. The station stands 1.4 m above sea level, and the ground within 800 m varies in height by 10.3 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 1.4 m above sea level. Within 800 m the ground ranges from 1.4 m to 11.7 m, a difference of 10.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. For storm surge, 5 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "文化堂",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/7927556969",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "スーパーバリュー 品川八潮店",
+      "tier": "standard",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/1678926176",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/9794100631",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 1 clinic and 1 pharmacy. Facilities recorded as hospitals lie at 東京品川病院, about 1334 m away and 佐花会大井中央病院, about 1415 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Monorail. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "tachiaigawa",
+      "note": "835 m away in a straight line. It reaches Otemachi in about the same time as Oi-Keibajo-Mae."
+    },
+    {
+      "slug": "samezu",
+      "note": "1192 m away in a straight line. It reaches Otemachi 3 minutes sooner than Oi-Keibajo-Mae."
+    }
+  ],
+  "goodFor": [
+    "The data does not show a clear group this station suits"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended",
+    "People who want to finish their shopping on foot",
+    "People who want plenty of places to eat out"
+  ],
+  "authoredBy": "data-generated"
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "gotokuji",
+  "locale": "en",
+  "name": "Gotokuji",
+  "tagline": "Shinjuku in 16 minutes and Shibuya in 18 minutes. Served by 2 lines.",
+  "summary": "The station is in Setagaya City, served by Odakyu Odawara Line and Tokyu Setagaya Line. Journey times to the main business districts are 34 minutes to Otemachi, 16 minutes to Shinjuku, 18 minutes to Shibuya and 44 minutes to Shinagawa. The station stands 35.2 m above sea level, and the ground within 800 m varies in height by 7.5 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 35.2 m above sea level. Within 800 m the ground ranges from 32.9 m to 40.4 m, a difference of 7.5 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "つるかめストア",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1230778035",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Parque",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/5436853551",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Odakyu OX 梅ヶ丘店",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/1221313459",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ワイズマート 梅ヶ丘店",
+      "tier": "standard",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/1230778027",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 17 clinics and 16 pharmacies. Facilities recorded as hospitals lie at うめとぴあ, about 498 m away and 児玉新生会児玉経堂病院, about 1062 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Odakyu Odawara Line and Tokyu Setagaya Line. The lines are split between operators (Odakyu runs 1 line and Tokyu runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "neighbours": [
+    {
+      "slug": "umegaoka",
+      "note": "651 m away in a straight line. It reaches Otemachi in about the same time as Gotokuji."
+    },
+    {
+      "slug": "miyanosaka",
+      "note": "725 m away in a straight line. It takes 9 minutes longer to reach Otemachi than Gotokuji."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

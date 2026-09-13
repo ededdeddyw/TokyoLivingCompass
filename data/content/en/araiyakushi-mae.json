@@ -1,0 +1,64 @@
+{
+  "slug": "araiyakushi-mae",
+  "locale": "en",
+  "name": "Araiyakushi-Mae",
+  "tagline": "Shinjuku in 17 minutes and Shibuya in 27 minutes. Served by 1 line.",
+  "summary": "The station is in Nakano City, served by Seibu Shinjuku Line. Journey times to the main business districts are 27 minutes to Otemachi, 17 minutes to Shinjuku, 27 minutes to Shibuya and 47 minutes to Shinagawa. The station stands 37.2 m above sea level, and the ground within 800 m varies in height by 9.4 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 37.2 m above sea level. Within 800 m the ground ranges from 29.1 m to 38.5 m, a difference of 9.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "マルエツ",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/3731315047",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "CORNO",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/5605861249",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Lawson Store 100",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/3199596761",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 新井薬師駅前北店",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/5603283242",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 16 clinics and 12 pharmacies. Facilities recorded as hospitals lie at 徳静会横畠外科胃腸科病院, about 668 m away and 健友会中野共立病院, about 907 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Seibu Shinjuku Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "numabukuro",
+      "note": "888 m away in a straight line. It reaches Otemachi in about the same time as Araiyakushi-Mae."
+    },
+    {
+      "slug": "nakano",
+      "note": "1269 m away in a straight line. It reaches Otemachi 4 minutes sooner than Araiyakushi-Mae."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who want to finish their shopping on foot",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

@@ -124,6 +124,32 @@ LINE_EN = {
     "99342": ("Nippori-Toneri Liner", "toei"),
 }
 
+# 運営会社。operator（JR・東京メトロ・都営・私鉄の4区分）だけでは、
+# 京王と小田急のように別の会社が同じ「私鉄」にまとまってしまう。
+# 「1つの路線が止まっても別の会社の路線に乗り換えられる」と書くには、
+# 会社まで分かれている必要があるので、路線コードの頭2桁から会社を引く。
+COMPANY_BY_PREFIX = {
+    "11": "jr-east", "21": "tobu", "22": "seibu", "23": "keisei",
+    "24": "keio", "25": "odakyu", "26": "tokyu", "27": "keikyu", "28": "tokyo-metro",
+}
+COMPANY_BY_LINE = {
+    "99301": "toei", "99302": "toei", "99303": "toei", "99304": "toei",
+    "99305": "toei", "99342": "toei",
+    "99307": "saitama-railway", "99309": "tsukuba-express", "99311": "yurikamome",
+    "99336": "tokyo-monorail", "99337": "rinkai", "99340": "hokuso",
+}
+
+
+def company_of(line_id):
+    if line_id in COMPANY_BY_LINE:
+        return COMPANY_BY_LINE[line_id]
+    company = COMPANY_BY_PREFIX.get(line_id[:2])
+    if not company:
+        raise SystemExit(f"路線 {line_id} の運営会社が引けません。"
+                         f"COMPANY_BY_LINE に追加してください。")
+    return company
+
+
 # ODPT の駅コードが無くローマ字が引けない駅。東急各線と一部の新駅・支線。
 ROMAJI_FIX = {
     "高輪ゲートウェイ": "Takanawa-Gateway", "代官山": "Daikanyama", "祐天寺": "Yutenji",
@@ -388,7 +414,8 @@ def main():
 
     used = sorted({i for r in rows for i in r["lineIds"]})
     lines_out = [
-        {"id": i, "nameJa": line_names[i], "nameEn": LINE_EN[i][0], "operator": LINE_EN[i][1]}
+        {"id": i, "nameJa": line_names[i], "nameEn": LINE_EN[i][0],
+         "operator": LINE_EN[i][1], "company": company_of(i)}
         for i in used
     ]
 

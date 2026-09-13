@@ -1,0 +1,62 @@
+{
+  "slug": "takanawa-gateway",
+  "locale": "zh-Hans",
+  "name": "高輪ゲートウェイ",
+  "tagline": "到品川2分钟、到东京12分钟。有2条线路经过。",
+  "summary": "车站位于港区，有JR山手線、JR京浜東北線经过。到主要商务区的所需时间为：到大手町18分钟、到新宿33分钟、到涩谷28分钟、到品川2分钟。车站海拔3.3米，周边800米范围内的高低差为22.3米。车站周围的地形起伏较大。",
+  "terrain": {
+    "slope": "hilly",
+    "note": "车站所在的位置低于周围，海拔3.3米。周边800米范围内，海拔从2.6米到24.9米，相差22.3米。以上数值取自日本国土地理院的海拔API，读取了车站本身和半径400米的八个方位，共九个点。"
+  },
+  "hazards": "在按可能出现的最大降雨量推算的洪水浸水想定区域中，车站所在的地点被划入区域，推算的水深为0.5至3米。在车站400米以内查看的九个点中，有4个点被划入区域，其中推算最深的水深为0.5至3米。风暴潮方面，九个点中也有3个点被划入想定区域。同一个车站周边，推算的水深也会因街区而异，所以请按具体地址查看所在区发布的灾害地图。内涝没有全国统一的地图，由各区分别发布，也一并看一看为好。",
+  "groceries": [
+    {
+      "name": "明治屋",
+      "tier": "premium",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/14122805105",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ZEROCORNER",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/14122805109",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "成城石井 ニュウマン高輪店",
+      "tier": "premium",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/14122805116",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Lincos 高輪",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/10711369687",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "从车站步行800米以内，有诊所7家、药店6家。登记为医院的设施，距离为地域医療機能推進機構東京高輪病院约929米、桜十字白金リハビリテーション病院约1362米。能否住院、设有哪些科室，OpenStreetMap 上没有记载，请到各设施的网站上确认。夜间和休息日能就诊的医疗机构，可以向所住区的急救咨询窗口查询。",
+  "stationNote": "可以使用JR山手線、JR京浜東北線这2条线路。2条线路都由JR东日本运营，遇到波及整个运营公司的故障时，可能会一起停运。按线路数量和运营方的分散程度计算，换乘便利度为52分（满分100分）。",
+  "neighbours": [
+    {
+      "slug": "sengakuji",
+      "note": "直线距离360米。到大手町的时间与高輪ゲートウェイ差不多。"
+    },
+    {
+      "slug": "shinagawa",
+      "note": "直线距离778米。到大手町的时间与高輪ゲートウェイ差不多。"
+    }
+  ],
+  "goodFor": [
+    "到大手町、丸之内一带通勤的人"
+  ],
+  "notFor": [
+    "希望避开洪水浸水想定区域的人",
+    "不想上下坡的人"
+  ],
+  "authoredBy": "data-generated"
+}

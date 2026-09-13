@@ -1,0 +1,65 @@
+{
+  "slug": "akihabara",
+  "locale": "en",
+  "name": "Akihabara",
+  "tagline": "Tokyo in 5 minutes and Otemachi in 11 minutes. Served by 5 lines.",
+  "summary": "The station is in Chiyoda City, served by JR Yamanote Line, JR Chuo-Sobu Line (Local), JR Keihin-Tohoku Line, Tokyo Metro Hibiya Line and Tsukuba Express. Journey times to the main business districts are 11 minutes to Otemachi, 18 minutes to Shinjuku, 28 minutes to Shibuya and 19 minutes to Shinagawa. The station stands 3.5 m above sea level, and the ground within 800 m varies in height by 2.8 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 3.5 m above sea level. Within 800 m the ground ranges from 2 m to 4.8 m, a difference of 2.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 5 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "成城石井 アトレ秋葉原1店",
+      "tier": "premium",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/9418883312",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "日本百貨店しょくひんかん",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/2724694059",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "福島屋 秋葉原店",
+      "tier": "premium",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/2263941712",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "TOKiS 秋葉原店",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/8986264202",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 56 clinics and 44 pharmacies. Facilities recorded as hospitals lie at 秋葉原メディカルクリニック, about 200 m away and 同仁記念会明和病院, about 441 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "5 lines serve the station: JR Yamanote Line, JR Chuo-Sobu Line (Local), JR Keihin-Tohoku Line, Tokyo Metro Hibiya Line and Tsukuba Express. The lines are split between operators (JR East runs 3 lines, Tokyo Metro runs 1 line and Tsukuba Express runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 98.",
+  "neighbours": [
+    {
+      "slug": "iwamotocho",
+      "note": "381 m away in a straight line. It reaches Otemachi in about the same time as Akihabara."
+    },
+    {
+      "slug": "suehirocho",
+      "note": "527 m away in a straight line. It reaches Otemachi in about the same time as Akihabara."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who want another route when a line stops",
+    "People who get around by bicycle or with a pushchair",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

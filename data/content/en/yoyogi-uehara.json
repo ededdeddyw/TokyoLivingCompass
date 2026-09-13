@@ -1,0 +1,62 @@
+{
+  "slug": "yoyogi-uehara",
+  "locale": "en",
+  "name": "Yoyogi-Uehara",
+  "tagline": "Shinjuku in 7 minutes and Shibuya in 13 minutes. Served by 2 lines.",
+  "summary": "The station is in Shibuya City, served by Odakyu Odawara Line and Tokyo Metro Chiyoda Line. Journey times to the main business districts are 21 minutes to Otemachi, 7 minutes to Shinjuku, 13 minutes to Shibuya and 36 minutes to Shinagawa. The station stands 29.2 m above sea level, and the ground within 800 m varies in height by 17.4 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 29.2 m above sea level. Within 800 m the ground ranges from 24.7 m to 42.1 m, a difference of 17.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "マルエツ 代々木上原店",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/3106299729",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/12944020084",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Bio C' Bon",
+      "tier": "premium",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/6644448085",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "肉のハナマサ",
+      "tier": "discount",
+      "walkMinutes": 13,
+      "sourceUrl": "https://www.openstreetmap.org/node/3162474869",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 7 clinics and 10 pharmacies. Facilities recorded as hospitals lie at BOWOW, about 725 m away and 荘敬会井上病院, about 729 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Odakyu Odawara Line and Tokyo Metro Chiyoda Line. The lines are split between operators (Odakyu runs 1 line and Tokyo Metro runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "neighbours": [
+    {
+      "slug": "higashi-kitazawa",
+      "note": "769 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Yoyogi-Uehara."
+    },
+    {
+      "slug": "yoyogi-hachiman",
+      "note": "800 m away in a straight line. It reaches Otemachi in about the same time as Yoyogi-Uehara."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "The data does not show a drawback particular to this station"
+  ],
+  "authoredBy": "data-generated"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "seibu-shinjuku",
+  "locale": "en",
+  "name": "Seibu-Shinjuku",
+  "tagline": "Shinjuku in 16 minutes and Shibuya in 24 minutes. Served by 1 line.",
+  "summary": "The station is in Shinjuku City, served by Seibu Shinjuku Line. Journey times to the main business districts are 24 minutes to Otemachi, 16 minutes to Shinjuku, 24 minutes to Shibuya and 45 minutes to Shinagawa. The station stands 36.9 m above sea level, and the ground within 800 m varies in height by 5.7 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 36.9 m above sea level. Within 800 m the ground ranges from 32 m to 37.7 m, a difference of 5.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "オリンピック 北新宿店",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/7659701731",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ドン・キホーテUNY",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/10992481205",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "韓国広場",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/13106046548",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/12732085865",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 25 clinics and 38 pharmacies. Facilities recorded as hospitals lie at 都立大久保病院, about 162 m away and 広恵会春山外科病院, about 316 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Seibu Shinjuku Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "shinjuku-nishiguchi",
+      "note": "335 m away in a straight line. It reaches Otemachi in about the same time as Seibu-Shinjuku."
+    },
+    {
+      "slug": "shin-okubo",
+      "note": "514 m away in a straight line. It reaches Otemachi in about the same time as Seibu-Shinjuku."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who get around by bicycle or with a pushchair",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

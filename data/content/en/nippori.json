@@ -1,0 +1,64 @@
+{
+  "slug": "nippori",
+  "locale": "en",
+  "name": "Nippori",
+  "tagline": "Tokyo in 13 minutes and Otemachi in 19 minutes. Served by 6 lines.",
+  "summary": "The station is in Arakawa City, served by JR Yamanote Line, JR Joban Line, JR Keihin-Tohoku Line, Keisei Main Line, Narita Sky Access Line and Nippori-Toneri Liner. Journey times to the main business districts are 19 minutes to Otemachi, 27 minutes to Shinjuku, 32 minutes to Shibuya and 27 minutes to Shinagawa. The station stands 6.3 m above sea level, and the ground within 800 m varies in height by 15.6 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 6.3 m above sea level. Within 800 m the ground ranges from 3.7 m to 19.3 m, a difference of 15.6 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "マルマンストア",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/9380618824",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/5599853613",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "food select みらべる 東日暮里店",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/way/239264851",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "いなげや",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/5593490381",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 14 clinics and 19 pharmacies. Facilities recorded as hospitals lie at はせがわ病院, about 284 m away and 神経科土田病院, about 722 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "6 lines serve the station: JR Yamanote Line, JR Joban Line, JR Keihin-Tohoku Line, Keisei Main Line, Narita Sky Access Line and Nippori-Toneri Liner. The lines are split between operators (JR East runs 3 lines, Keisei runs 2 lines and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 100.",
+  "neighbours": [
+    {
+      "slug": "nishi-nippori",
+      "note": "613 m away in a straight line. It reaches Otemachi 6 minutes sooner than Nippori."
+    },
+    {
+      "slug": "sendagi",
+      "note": "772 m away in a straight line. It reaches Otemachi 8 minutes sooner than Nippori."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People who want another route when a line stops",
+    "People who want to finish their shopping on foot",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "The data does not show a drawback particular to this station"
+  ],
+  "authoredBy": "data-generated"
+}

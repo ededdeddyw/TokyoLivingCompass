@@ -1,0 +1,36 @@
+{
+  "slug": "sakuradamon",
+  "locale": "en",
+  "name": "Sakuradamon",
+  "tagline": "Tokyo in 9 minutes and Otemachi in 9 minutes. Served by 1 line.",
+  "summary": "The station is in Chiyoda City, served by Tokyo Metro Yurakucho Line. Journey times to the main business districts are 9 minutes to Otemachi, 18 minutes to Shinjuku, 17 minutes to Shibuya and 19 minutes to Shinagawa. The station stands 8 m above sea level, and the ground within 800 m varies in height by 21.4 m. The land around the station rises and falls sharply.",
+  "terrain": {
+    "slope": "hilly",
+    "note": "The station sits lower than the ground around it, at 8 m above sea level. Within 800 m the ground ranges from 4.6 m to 26 m, a difference of 21.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "medical": "Within an 800 m walk of the station there are 3 clinics and 1 pharmacy. Facilities recorded as hospitals lie at 浩邦会日比谷病院, about 992 m away and 虎の門病院, about 1126 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Metro Yurakucho Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "kasumigaseki",
+      "note": "400 m away in a straight line. It reaches Otemachi 4 minutes sooner than Sakuradamon."
+    },
+    {
+      "slug": "kokkai-gijidomae",
+      "note": "685 m away in a straight line. It reaches Otemachi 3 minutes sooner than Sakuradamon."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who would rather not walk up and down slopes",
+    "People who want another route when service is suspended",
+    "People who want to finish their shopping on foot",
+    "People who want plenty of places to eat out"
+  ],
+  "authoredBy": "data-generated"
+}

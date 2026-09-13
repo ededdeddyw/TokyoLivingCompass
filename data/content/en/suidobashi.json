@@ -1,0 +1,64 @@
+{
+  "slug": "suidobashi",
+  "locale": "en",
+  "name": "Suidobashi",
+  "tagline": "Otemachi in 5 minutes and Tokyo in 11 minutes. Served by 2 lines.",
+  "summary": "The station is in Chiyoda City, served by JR Chuo-Sobu Line (Local) and Toei Mita Line. Journey times to the main business districts are 5 minutes to Otemachi, 17 minutes to Shinjuku, 23 minutes to Shibuya and 25 minutes to Shinagawa. The station stands 4.9 m above sea level, and the ground within 800 m varies in height by 21.3 m. The land around the station rises and falls sharply.",
+  "terrain": {
+    "slope": "hilly",
+    "note": "The station sits lower than the ground around it, at 4.9 m above sea level. Within 800 m the ground ranges from 1.4 m to 22.7 m, a difference of 21.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 1 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "森下自然医食品店グルージア",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/5542969138",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/4964137902",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/3777876587",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ゆうきや",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/4961068246",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 21 clinics and 18 pharmacies. Facilities recorded as hospitals lie at 東京歯科大学水道橋病院, about 153 m away and 飯田医院, about 420 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: JR Chuo-Sobu Line (Local) and Toei Mita Line. The lines are split between operators (JR East runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "neighbours": [
+    {
+      "slug": "korakuen",
+      "note": "631 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Suidobashi."
+    },
+    {
+      "slug": "hongo-sanchome",
+      "note": "678 m away in a straight line. It reaches Otemachi in about the same time as Suidobashi."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who would rather not walk up and down slopes"
+  ],
+  "authoredBy": "data-generated"
+}

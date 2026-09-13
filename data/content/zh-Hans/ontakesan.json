@@ -1,0 +1,62 @@
+{
+  "slug": "ontakesan",
+  "locale": "zh-Hans",
+  "name": "御嶽山",
+  "tagline": "到涩谷31分钟、到品川31分钟。有1条线路经过。",
+  "summary": "车站位于大田区，有東急池上線经过。到主要商务区的所需时间为：到大手町44分钟、到新宿40分钟、到涩谷31分钟、到品川31分钟。车站海拔20.2米，周边800米范围内的高低差为9.4米。车站周围的地形有缓坡。",
+  "terrain": {
+    "slope": "some",
+    "note": "车站所在的位置在周围属于较高的一侧，海拔20.2米。周边800米范围内，海拔从13.3米到22.7米，相差9.4米。以上数值取自日本国土地理院的海拔API，读取了车站本身和半径400米的八个方位，共九个点。"
+  },
+  "hazards": "在按可能出现的最大降雨量推算的洪水浸水想定区域中，车站所在的地点，以及车站400米以内的九个点，都在区域之外。同一个车站周边，推算的水深也会因街区而异，所以请按具体地址查看所在区发布的灾害地图。内涝没有全国统一的地图，由各区分别发布，也一并看一看为好。",
+  "groceries": [
+    {
+      "name": "オオゼキ (Ozeki) 御嶽山店",
+      "tier": "discount",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/2345405166",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "イオン",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1905674300",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "サミットストア",
+      "tier": "standard",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/way/257592806",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "スーパーオオゼキ",
+      "tier": "discount",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/1602015473",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "从车站步行800米以内，有诊所21家、药店12家。登记为医院的设施，距离为田園調布中央病院约1170米、荏原病院约1340米。能否住院、设有哪些科室，OpenStreetMap 上没有记载，请到各设施的网站上确认。夜间和休息日能就诊的医疗机构，可以向所住区的急救咨询窗口查询。",
+  "stationNote": "可以使用東急池上線这1条线路。只有一条线路经过，这条线路停运时，就要步行到有其他线路经过的车站。按线路数量和运营方的分散程度计算，换乘便利度为32分（满分100分）。",
+  "neighbours": [
+    {
+      "slug": "kugahara",
+      "note": "直线距离700米。到大手町的时间与御嶽山差不多。"
+    },
+    {
+      "slug": "yukigaya-otsuka",
+      "note": "直线距离766米。到大手町的时间与御嶽山差不多。"
+    }
+  ],
+  "goodFor": [
+    "希望避开洪水浸水想定区域的人"
+  ],
+  "notFor": [
+    "希望停运时还有其他路线可走的人",
+    "看重外出就餐的店铺数量的人"
+  ],
+  "authoredBy": "data-generated"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "higashi-shinjuku",
+  "locale": "en",
+  "name": "Higashi-Shinjuku",
+  "tagline": "Shinjuku in 9 minutes and Shibuya in 10 minutes. Served by 2 lines.",
+  "summary": "The station is in Shinjuku City, served by Tokyo Metro Fukutoshin Line and Toei Oedo Line. Journey times to the main business districts are 20 minutes to Otemachi, 9 minutes to Shinjuku, 10 minutes to Shibuya and 36 minutes to Shinagawa. The station stands 30 m above sea level, and the ground within 800 m varies in height by 10.0 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 30 m above sea level. Within 800 m the ground ranges from 22.2 m to 32.2 m, a difference of 10.0 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "免税店",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/2704703878",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Asia Superstore",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/2838965909",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "三徳 新宿本店",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/1936147471",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツ 新宿六丁目店",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/2705533200",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 15 clinics and 20 pharmacies. Facilities recorded as hospitals lie at 都立大久保病院, about 563 m away and 広恵会春山外科病院, about 895 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Tokyo Metro Fukutoshin Line and Toei Oedo Line. The lines are split between operators (Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "neighbours": [
+    {
+      "slug": "shin-okubo",
+      "note": "714 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Higashi-Shinjuku."
+    },
+    {
+      "slug": "seibu-shinjuku",
+      "note": "724 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Higashi-Shinjuku."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "The data does not show a drawback particular to this station"
+  ],
+  "authoredBy": "data-generated"
+}

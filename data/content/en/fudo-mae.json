@@ -1,0 +1,63 @@
+{
+  "slug": "fudo-mae",
+  "locale": "en",
+  "name": "Fudo-Mae",
+  "tagline": "Shibuya in 14 minutes and Roppongi in 22 minutes. Served by 1 line.",
+  "summary": "The station is in Shinagawa City, served by Tokyu Meguro Line. Journey times to the main business districts are 25 minutes to Otemachi, 23 minutes to Shinjuku, 14 minutes to Shibuya and 26 minutes to Shinagawa. The station stands 5.4 m above sea level, and the ground within 800 m varies in height by 18.3 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 5.4 m above sea level. Within 800 m the ground ranges from 4 m to 22.3 m, a difference of 18.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 1 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "東急ストア",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/5271317980",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツ",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1985209206",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オオゼキ 目黒不動前店",
+      "tier": "discount",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/6185648710",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 品川西五反田2丁目店",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/8440731931",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 4 clinics and 6 pharmacies. Facilities recorded as hospitals lie at 青葉会五反田神経内科病院, about 109 m away and 有仁会阿部病院, about 1038 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyu Meguro Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "meguro",
+      "note": "772 m away in a straight line. It reaches Otemachi 7 minutes sooner than Fudo-Mae."
+    },
+    {
+      "slug": "osaki-hirokoji",
+      "note": "839 m away in a straight line. It takes 5 minutes longer to reach Otemachi than Fudo-Mae."
+    }
+  ],
+  "goodFor": [
+    "People who want to finish their shopping on foot",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

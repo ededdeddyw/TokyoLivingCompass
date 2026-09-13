@@ -1,0 +1,62 @@
+{
+  "slug": "akabane-iwabuchi",
+  "locale": "en",
+  "name": "Akabane-Iwabuchi",
+  "tagline": "Otemachi in 35 minutes and Tokyo in 36 minutes. Served by 2 lines.",
+  "summary": "The station is in Kita City, served by Tokyo Metro Namboku Line and Saitama Railway Line. Journey times to the main business districts are 35 minutes to Otemachi, 38 minutes to Shinjuku, 44 minutes to Shibuya and 50 minutes to Shinagawa. The station stands 2.6 m above sea level, and the ground within 800 m varies in height by 3.5 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits lower than the ground around it, at 2.6 m above sea level. Within 800 m the ground ranges from 2.4 m to 5.9 m, a difference of 3.5 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 5 to 10 m. For storm surge, 5 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/5690522338",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "赤羽越後屋",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/2558151881",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "フジ",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/2558170380",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "いまどや",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/6927641653",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 13 clinics and 15 pharmacies. Facilities recorded as hospitals lie at 東京北医療センター, about 957 m away and 川口工業総合病院, about 2395 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Tokyo Metro Namboku Line and Saitama Railway Line. The lines are split between operators (Tokyo Metro runs 1 line and Saitama Railway runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "neighbours": [
+    {
+      "slug": "akabane",
+      "note": "608 m away in a straight line. It reaches Otemachi 4 minutes sooner than Akabane-Iwabuchi."
+    },
+    {
+      "slug": "shimo",
+      "note": "1125 m away in a straight line. It reaches Otemachi 3 minutes sooner than Akabane-Iwabuchi."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

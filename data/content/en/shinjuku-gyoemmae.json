@@ -1,0 +1,58 @@
+{
+  "slug": "shinjuku-gyoemmae",
+  "locale": "en",
+  "name": "Shinjuku-Gyoemmae",
+  "tagline": "Shinjuku in 3 minutes and Shibuya in 13 minutes. Served by 1 line.",
+  "summary": "The station is in Shinjuku City, served by Tokyo Metro Marunouchi Line. Journey times to the main business districts are 17 minutes to Otemachi, 3 minutes to Shinjuku, 13 minutes to Shibuya and 29 minutes to Shinagawa. The station stands 34.1 m above sea level, and the ground within 800 m varies in height by 4.1 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 34.1 m above sea level. Within 800 m the ground ranges from 32.2 m to 36.3 m, a difference of 4.1 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "YORK FOODS",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/3894695606",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/11061191815",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "コープ",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/5038407423",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 9 pharmacies. Facilities recorded as hospitals lie at 仁圭会林外科病院, about 791 m away and 東京勤労者医療会代々木病院, about 865 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Metro Marunouchi Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "shinjuku-sanchome",
+      "note": "541 m away in a straight line. It reaches Otemachi in about the same time as Shinjuku-Gyoemmae."
+    },
+    {
+      "slug": "sendagaya",
+      "note": "822 m away in a straight line. It takes 5 minutes longer to reach Otemachi than Shinjuku-Gyoemmae."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who get around by bicycle or with a pushchair",
+    "People avoiding projected flood inundation areas"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended",
+    "People who want to finish their shopping on foot"
+  ],
+  "authoredBy": "data-generated"
+}

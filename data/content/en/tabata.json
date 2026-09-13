@@ -1,0 +1,63 @@
+{
+  "slug": "tabata",
+  "locale": "en",
+  "name": "Tabata",
+  "tagline": "Tokyo in 16 minutes and Otemachi in 20 minutes. Served by 2 lines.",
+  "summary": "The station is in Kita City, served by JR Yamanote Line and JR Keihin-Tohoku Line. Journey times to the main business districts are 20 minutes to Otemachi, 23 minutes to Shinjuku, 28 minutes to Shibuya and 30 minutes to Shinagawa. The station stands 6 m above sea level, and the ground within 800 m varies in height by 19.1 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 6 m above sea level. Within 800 m the ground ranges from 3.8 m to 22.9 m, a difference of 19.1 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 6 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "成城石井",
+      "tier": "premium",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/4908541215",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツ",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/way/148292372",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 田端駅北店",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/4449096992",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "業務スーパー 田端店",
+      "tier": "discount",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/4449043291",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 17 clinics and 16 pharmacies. Facilities recorded as hospitals lie at 都立駒込病院, about 1010 m away and はせがわ病院, about 1597 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: JR Yamanote Line and JR Keihin-Tohoku Line. All 2 lines are run by JR East, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "neighbours": [
+    {
+      "slug": "nishi-nippori",
+      "note": "811 m away in a straight line. It reaches Otemachi 7 minutes sooner than Tabata."
+    },
+    {
+      "slug": "akado-shogakkomae",
+      "note": "872 m away in a straight line. It reaches Otemachi in about the same time as Tabata."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People who want to finish their shopping on foot",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "The data does not show a drawback particular to this station"
+  ],
+  "authoredBy": "data-generated"
+}

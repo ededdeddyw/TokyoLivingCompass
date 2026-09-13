@@ -2,18 +2,73 @@
   "slug": "morishita",
   "locale": "en",
   "name": "Morishita",
-  "tagline": "Two lines, a wide set of no-transfer destinations, and modest rent.",
-  "summary": "Morishita is where the Toei Shinjuku and Oedo lines cross, giving direct rides to both Shinjuku and Roppongi, with Otemachi 15 minutes away. It is an old-Tokyo part of Koto Ward, and rent is well below stations inside the Yamanote loop with the same commute time.",
+  "tagline": "Tokyo in 12 minutes and Otemachi in 15 minutes. Served by 2 lines. A one-room flat rents for roughly ¥120,000 to ¥130,000.",
+  "summary": "The station is in Koto City, served by Toei Oedo Line and Toei Shinjuku Line. Journey times to the main business districts are 15 minutes to Otemachi, 22 minutes to Shinjuku, 30 minutes to Shibuya and 27 minutes to Shinagawa. A one-room flat rents for roughly ¥120,000 to ¥130,000.The station stands 1.4 m above sea level, and the ground within 800 m varies in height by 2.7 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 1.4 m above sea level. Within 800 m the ground ranges from 0.2 m to 2.9 m, a difference of 2.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 8 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/13040886950",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Discount Market A･Colle",
+      "tier": "discount",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/2268159542",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ライフ 菊川店",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/2376674513",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "赤札堂",
+      "tier": "discount",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/way/650844330",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 16 clinics and 14 pharmacies. Facilities recorded as hospitals lie at 山村病院, about 612 m away and 湘南メディカル記念病院, about 943 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Toei Oedo Line and Toei Shinjuku Line. All 2 lines are run by the Tokyo Metropolitan Bureau of Transportation, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "rentRange": {
+    "note": "One room ¥120,000 to ¥130,000, 1K ¥120,000 to ¥130,000, 1LDK ¥190,000 to ¥200,000 and 2LDK ¥250,000 to ¥260,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥120,000 to ¥130,000.",
+  "neighbours": [
+    {
+      "slug": "kiyosumi-shirakawa",
+      "note": "671 m away in a straight line. It reaches Otemachi 7 minutes sooner than Morishita. One-room rents run about ¥9,850 higher."
+    },
+    {
+      "slug": "hamacho",
+      "note": "805 m away in a straight line. It reaches Otemachi in about the same time as Morishita."
+    }
+  ],
   "goodFor": [
-    "People whose commute might change direction",
-    "People balancing central access against rent",
-    "People who like a low-key, traditional neighborhood"
+    "People commuting to Otemachi and Marunouchi",
+    "People who get around by bicycle or with a pushchair",
+    "People who want a park close by"
   ],
   "notFor": [
-    "People who want a wide choice of shops and restaurants",
-    "People who care about neighborhood style",
-    "People who want to board at a terminus"
+    "People avoiding projected flood inundation areas"
   ],
-  "residentComment": "Having two lines here counts for a lot. Nothing flashy, but the rent is clearly low for the access you get — and Kiyosumi-Shirakawa and Monzen-Nakacho are both walkable when you want more going on.",
-  "authoredBy": "seed-placeholder"
+  "authoredBy": "data-generated"
 }

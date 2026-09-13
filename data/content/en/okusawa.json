@@ -1,0 +1,61 @@
+{
+  "slug": "okusawa",
+  "locale": "en",
+  "name": "Okusawa",
+  "tagline": "Shibuya in 24 minutes and Shinagawa in 27 minutes. Served by 1 line.",
+  "summary": "The station is in Setagaya City, served by Tokyu Meguro Line. Journey times to the main business districts are 37 minutes to Otemachi, 34 minutes to Shinjuku, 24 minutes to Shibuya and 27 minutes to Shinagawa. The station stands 29.1 m above sea level, and the ground within 800 m varies in height by 10.2 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 29.1 m above sea level. Within 800 m the ground ranges from 22.6 m to 32.8 m, a difference of 10.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "コープ 奥沢店",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/6361920311",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "トップ　奥沢店",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/way/679402167",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Cuoca",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/4204989396",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "東急ストア",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/10113431442",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 13 clinics and 13 pharmacies. Facilities recorded as hospitals lie at おくさわ脳卒中リハビリテーション病院, about 70 m away and 奥沢病院, about 124 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyu Meguro Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "jiyugaoka",
+      "note": "494 m away in a straight line. It reaches Otemachi in about the same time as Okusawa."
+    },
+    {
+      "slug": "midorigaoka",
+      "note": "698 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Okusawa."
+    }
+  ],
+  "goodFor": [
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

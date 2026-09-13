@@ -1,0 +1,62 @@
+{
+  "slug": "wakamatsu-kawada",
+  "locale": "en",
+  "name": "Wakamatsu-Kawada",
+  "tagline": "Shinjuku in 16 minutes and Otemachi in 17 minutes. Served by 1 line.",
+  "summary": "The station is in Shinjuku City, served by Toei Oedo Line. Journey times to the main business districts are 17 minutes to Otemachi, 16 minutes to Shinjuku, 18 minutes to Shibuya and 37 minutes to Shinagawa. The station stands 33.3 m above sea level, and the ground within 800 m varies in height by 13.4 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 33.3 m above sea level. Within 800 m the ground ranges from 24.5 m to 37.9 m, a difference of 13.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "ライフ",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/3157863208",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/4963643896",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ASIA市場",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/7276388920",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Santoku",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/5899162767",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 7 clinics and 21 pharmacies. Facilities recorded as hospitals lie at 東京女子医科大学病院, about 264 m away and 国立国際医療センター, about 447 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Toei Oedo Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "ushigome-yanagicho",
+      "note": "618 m away in a straight line. It reaches Otemachi in about the same time as Wakamatsu-Kawada."
+    },
+    {
+      "slug": "waseda",
+      "note": "776 m away in a straight line. It reaches Otemachi 6 minutes sooner than Wakamatsu-Kawada."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

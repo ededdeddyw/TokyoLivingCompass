@@ -1,0 +1,62 @@
+{
+  "slug": "nishigahara",
+  "locale": "en",
+  "name": "Nishigahara",
+  "tagline": "Otemachi in 24 minutes and Tokyo in 25 minutes. Served by 1 line.",
+  "summary": "The station is in Kita City, served by Tokyo Metro Namboku Line. Journey times to the main business districts are 24 minutes to Otemachi, 27 minutes to Shinjuku, 33 minutes to Shibuya and 39 minutes to Shinagawa. The station stands 23.5 m above sea level, and the ground within 800 m varies in height by 18.7 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 23.5 m above sea level. Within 800 m the ground ranges from 5.1 m to 23.8 m, a difference of 18.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/way/1348454808",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/5393022967",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "シーズンマート",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/6435906537",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Sakagami",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/6433442297",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 17 clinics and 11 pharmacies. Facilities recorded as hospitals lie at 桑原病院, about 1290 m away and 愛誠病院, about 2092 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Metro Namboku Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "kami-nakazato",
+      "note": "341 m away in a straight line. It reaches Otemachi in about the same time as Nishigahara."
+    },
+    {
+      "slug": "sakaecho",
+      "note": "545 m away in a straight line. It takes 10 minutes longer to reach Otemachi than Nishigahara."
+    }
+  ],
+  "goodFor": [
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

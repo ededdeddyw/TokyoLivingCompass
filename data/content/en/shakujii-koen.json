@@ -1,0 +1,61 @@
+{
+  "slug": "shakujii-koen",
+  "locale": "en",
+  "name": "Shakujii-Koen",
+  "tagline": "Shinjuku in 34 minutes and Shibuya in 39 minutes. Served by 1 line.",
+  "summary": "The station is in Nerima City, served by Seibu Ikebukuro Line. Journey times to the main business districts are 45 minutes to Otemachi, 34 minutes to Shinjuku, 39 minutes to Shibuya and 60 minutes to Shinagawa. The station stands 45.7 m above sea level, and the ground within 800 m varies in height by 6.4 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 45.7 m above sea level. Within 800 m the ground ranges from 40.5 m to 46.9 m, a difference of 6.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "クイーンズ伊勢丹",
+      "tier": "premium",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/11523773233",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ヨークフーズ",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/11523773234",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ライフ 石神井公園店",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/2029390607",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "サミット",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/6401794685",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 8 clinics and 7 pharmacies. Facilities recorded as hospitals lie at 慈誠会練馬高野台病院, about 496 m away and 順天堂大学医学部附属 練馬病院, about 740 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Seibu Ikebukuro Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "nerima-takanodai",
+      "note": "940 m away in a straight line. It reaches Otemachi in about the same time as Shakujii-Koen."
+    },
+    {
+      "slug": "oizumi-gakuen",
+      "note": "1939 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Shakujii-Koen."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

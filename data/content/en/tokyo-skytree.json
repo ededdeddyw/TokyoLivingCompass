@@ -1,0 +1,62 @@
+{
+  "slug": "tokyo-skytree",
+  "locale": "en",
+  "name": "Tokyo-Skytree",
+  "tagline": "Tokyo in 22 minutes and Otemachi in 23 minutes. Served by 1 line.",
+  "summary": "The station is in Sumida City, served by Tobu Skytree Line. Journey times to the main business districts are 23 minutes to Otemachi, 35 minutes to Shinjuku, 42 minutes to Shibuya and 34 minutes to Shinagawa. The station stands 0.6 m above sea level, and the ground within 800 m varies in height by 2 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 0.6 m above sea level. Within 800 m the ground ranges from 0 m to 2 m, a difference of 2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 8 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/4861513584",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ライフ",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/4879950127",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Poisson Okuda ポワソンオクダ",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/13937699701",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツ プチ",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/5832218684",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 10 clinics and 10 pharmacies. Facilities recorded as hospitals lie at 健生堂病院, about 515 m away and 賛育会病院, about 971 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tobu Skytree Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "oshiage",
+      "note": "326 m away in a straight line. It reaches Otemachi 6 minutes sooner than Tokyo-Skytree."
+    },
+    {
+      "slug": "honjo-azumabashi",
+      "note": "472 m away in a straight line. It reaches Otemachi 5 minutes sooner than Tokyo-Skytree."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

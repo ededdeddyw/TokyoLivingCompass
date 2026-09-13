@@ -1,0 +1,63 @@
+{
+  "slug": "shinjuku-sanchome",
+  "locale": "en",
+  "name": "Shinjuku-Sanchome",
+  "tagline": "Shinjuku in 2 minutes and Shibuya in 8 minutes. Served by 3 lines.",
+  "summary": "The station is in Shinjuku City, served by Tokyo Metro Marunouchi Line, Tokyo Metro Fukutoshin Line and Toei Shinjuku Line. Journey times to the main business districts are 18 minutes to Otemachi, 2 minutes to Shinjuku, 8 minutes to Shibuya and 31 minutes to Shinagawa. The station stands 36.5 m above sea level, and the ground within 800 m varies in height by 9.3 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 36.5 m above sea level. Within 800 m the ground ranges from 28.3 m to 37.6 m, a difference of 9.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "ドン・キホーテUNY",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/10992424505",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "MEGAドン・キホーテ",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/6011377090",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/7057649785",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "TOMIZ",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/4919935621",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 19 clinics and 33 pharmacies. Facilities recorded as hospitals lie at JR東京総合病院, about 747 m away and 都立大久保病院, about 749 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "3 lines serve the station: Tokyo Metro Marunouchi Line, Tokyo Metro Fukutoshin Line and Toei Shinjuku Line. The lines are split between operators (Tokyo Metro runs 2 lines and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 73.",
+  "neighbours": [
+    {
+      "slug": "shinjuku",
+      "note": "501 m away in a straight line. It reaches Otemachi in about the same time as Shinjuku-Sanchome."
+    },
+    {
+      "slug": "shinjuku-gyoemmae",
+      "note": "541 m away in a straight line. It reaches Otemachi in about the same time as Shinjuku-Sanchome."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who want another route when a line stops"
+  ],
+  "notFor": [
+    "The data does not show a drawback particular to this station"
+  ],
+  "authoredBy": "data-generated"
+}

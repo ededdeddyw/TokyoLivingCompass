@@ -1,0 +1,65 @@
+{
+  "slug": "chikatetsu-akatsuka",
+  "locale": "en",
+  "name": "Chikatetsu-Akatsuka",
+  "tagline": "Shinjuku in 29 minutes and Shibuya in 34 minutes. Served by 3 lines.",
+  "summary": "The station is in Itabashi City, served by Tobu Tojo Line, Tokyo Metro Yurakucho Line and Tokyo Metro Fukutoshin Line. Journey times to the main business districts are 39 minutes to Otemachi, 29 minutes to Shinjuku, 34 minutes to Shibuya and 56 minutes to Shinagawa. The station stands 34.8 m above sea level, and the ground within 800 m varies in height by 4.0 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 34.8 m above sea level. Within 800 m the ground ranges from 31.7 m to 35.7 m, a difference of 4.0 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まいばすけっと 下赤塚駅南口店",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/7266496619",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "スーパーみらべる",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/2705655862",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オーガニックSHOP穀's",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/8547300783",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "東武ストア",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/way/157360150",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 23 clinics and 18 pharmacies. Facilities recorded as hospitals lie at 練馬光が丘病院, about 1351 m away and 成増厚生病院, about 2093 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "3 lines serve the station: Tobu Tojo Line, Tokyo Metro Yurakucho Line and Tokyo Metro Fukutoshin Line. The lines are split between operators (Tobu runs 1 line and Tokyo Metro runs 2 lines), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 73.",
+  "neighbours": [
+    {
+      "slug": "narimasu",
+      "note": "1340 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Chikatetsu-Akatsuka."
+    },
+    {
+      "slug": "tobu-nerima",
+      "note": "1612 m away in a straight line. It reaches Otemachi in about the same time as Chikatetsu-Akatsuka."
+    }
+  ],
+  "goodFor": [
+    "People who want another route when a line stops",
+    "People who get around by bicycle or with a pushchair",
+    "People who want to finish their shopping on foot",
+    "People who want a park close by",
+    "People avoiding projected flood inundation areas"
+  ],
+  "notFor": [
+    "The data does not show a drawback particular to this station"
+  ],
+  "authoredBy": "data-generated"
+}

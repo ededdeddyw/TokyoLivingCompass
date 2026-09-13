@@ -1,0 +1,63 @@
+{
+  "slug": "asakusa",
+  "locale": "en",
+  "name": "Asakusa",
+  "tagline": "Tokyo in 15 minutes and Otemachi in 17 minutes. Served by 3 lines.",
+  "summary": "The station is in Taito City, served by Tobu Skytree Line, Tokyo Metro Ginza Line and Toei Asakusa Line. Journey times to the main business districts are 17 minutes to Otemachi, 28 minutes to Shinjuku, 35 minutes to Shibuya and 27 minutes to Shinagawa. The station stands 3.8 m above sea level, and the ground within 800 m varies in height by 3.4 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 3.8 m above sea level. Within 800 m the ground ranges from 1.4 m to 4.8 m, a difference of 3.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 5 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "Ozeki",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/1922951583",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/9810160338",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マイカイマート　ロヂャース",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/10805942376",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "西友 浅草ROX店",
+      "tier": "discount",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/1148820976",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 9 clinics and 28 pharmacies. Facilities recorded as hospitals lie at 浅草寺病院, about 577 m away and 墨田病院, about 730 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "3 lines serve the station: Tobu Skytree Line, Tokyo Metro Ginza Line and Toei Asakusa Line. The lines are split between operators (Tobu runs 1 line, Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 78.",
+  "neighbours": [
+    {
+      "slug": "asakusa-tx",
+      "note": "584 m away in a straight line. It reaches Otemachi in about the same time as Asakusa."
+    },
+    {
+      "slug": "tawaramachi",
+      "note": "610 m away in a straight line. It reaches Otemachi in about the same time as Asakusa."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People who want another route when a line stops",
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

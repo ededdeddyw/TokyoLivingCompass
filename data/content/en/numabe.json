@@ -1,0 +1,51 @@
+{
+  "slug": "numabe",
+  "locale": "en",
+  "name": "Numabe",
+  "tagline": "Shibuya in 26 minutes and Shinagawa in 30 minutes. Served by 1 line.",
+  "summary": "The station is in Ota City, served by Tokyu Tamagawa Line. Journey times to the main business districts are 45 minutes to Otemachi, 36 minutes to Shinjuku, 26 minutes to Shibuya and 30 minutes to Shinagawa. The station stands 7.3 m above sea level, and the ground within 800 m varies in height by 21.8 m. The land around the station rises and falls sharply.",
+  "terrain": {
+    "slope": "hilly",
+    "note": "The station sits lower than the ground around it, at 7.3 m above sea level. Within 800 m the ground ranges from 1.8 m to 23.6 m, a difference of 21.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まいばすけっと 沼部駅前店",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/2684634174",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ライフ 鵜の木店",
+      "tier": "standard",
+      "walkMinutes": 13,
+      "sourceUrl": "https://www.openstreetmap.org/node/4756815922",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 8 clinics and 3 pharmacies. Facilities recorded as hospitals lie at 田園調布中央病院, about 547 m away and 池田動物病院, about 881 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyu Tamagawa Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "ontakesan",
+      "note": "885 m away in a straight line. It reaches Otemachi in about the same time as Numabe."
+    },
+    {
+      "slug": "tamagawa",
+      "note": "886 m away in a straight line. It reaches Otemachi 7 minutes sooner than Numabe."
+    }
+  ],
+  "goodFor": [
+    "The data does not show a clear group this station suits"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who would rather not walk up and down slopes",
+    "People who want another route when service is suspended",
+    "People who want to finish their shopping on foot",
+    "People who want plenty of places to eat out"
+  ],
+  "authoredBy": "data-generated"
+}

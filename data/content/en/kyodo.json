@@ -1,0 +1,63 @@
+{
+  "slug": "kyodo",
+  "locale": "en",
+  "name": "Kyodo",
+  "tagline": "Shinjuku in 18 minutes and Shibuya in 20 minutes. Served by 1 line.",
+  "summary": "The station is in Setagaya City, served by Odakyu Odawara Line. Journey times to the main business districts are 36 minutes to Otemachi, 18 minutes to Shinjuku, 20 minutes to Shibuya and 46 minutes to Shinagawa. The station stands 38.5 m above sea level, and the ground within 800 m varies in height by 5.4 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 38.5 m above sea level. Within 800 m the ground ranges from 35.2 m to 40.6 m, a difference of 5.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "Odakyu OX 経堂店",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1919626726",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 経堂駅前店",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1696438301",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オオゼキ",
+      "tier": "discount",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/11015022709",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ピーコックストア 経堂店",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1823133649",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 17 clinics and 13 pharmacies. Facilities recorded as hospitals lie at 児玉新生会児玉経堂病院, about 172 m away and 菊池外科病院, about 419 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Odakyu Odawara Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "miyanosaka",
+      "note": "896 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Kyodo."
+    },
+    {
+      "slug": "gotokuji",
+      "note": "1038 m away in a straight line. It reaches Otemachi in about the same time as Kyodo."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who get around by bicycle or with a pushchair",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

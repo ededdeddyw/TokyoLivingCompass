@@ -1,0 +1,63 @@
+{
+  "slug": "asagaya",
+  "locale": "en",
+  "name": "Asagaya",
+  "tagline": "Shinjuku in 11 minutes and Shibuya in 21 minutes. Served by 2 lines.",
+  "summary": "The station is in Suginami City, served by JR Chuo Rapid Line and JR Chuo-Sobu Line (Local). Journey times to the main business districts are 30 minutes to Otemachi, 11 minutes to Shinjuku, 21 minutes to Shibuya and 40 minutes to Shinagawa. The station stands 41 m above sea level, and the ground within 800 m varies in height by 6.7 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 41 m above sea level. Within 800 m the ground ranges from 38.6 m to 45.3 m, a difference of 6.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "新鮮館",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/5004544827",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "イトーヨーカドー",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/2498631681",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "西友 阿佐ヶ谷店",
+      "tier": "discount",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1789111521",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "EVEREST SPICE & HALAL FOOD",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/4889738278",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 21 clinics and 27 pharmacies. Facilities recorded as hospitals lie at 河北総合病院, about 235 m away and 清川病院, about 715 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: JR Chuo Rapid Line and JR Chuo-Sobu Line (Local). All 2 lines are run by JR East, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "neighbours": [
+    {
+      "slug": "minami-asagaya",
+      "note": "577 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Asagaya."
+    },
+    {
+      "slug": "koenji",
+      "note": "1246 m away in a straight line. It reaches Otemachi in about the same time as Asagaya."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who get around by bicycle or with a pushchair",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "The data does not show a drawback particular to this station"
+  ],
+  "authoredBy": "data-generated"
+}

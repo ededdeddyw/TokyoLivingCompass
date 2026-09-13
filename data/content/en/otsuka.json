@@ -1,0 +1,63 @@
+{
+  "slug": "otsuka",
+  "locale": "en",
+  "name": "Otsuka",
+  "tagline": "Shinjuku in 15 minutes and Shibuya in 21 minutes. Served by 2 lines.",
+  "summary": "The station is in Toshima City, served by JR Yamanote Line and Tokyo Sakura Tram (Toden Arakawa Line). Journey times to the main business districts are 21 minutes to Otemachi, 15 minutes to Shinjuku, 21 minutes to Shibuya and 40 minutes to Shinagawa. The station stands 17.5 m above sea level, and the ground within 800 m varies in height by 13.2 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 17.5 m above sea level. Within 800 m the ground ranges from 17.5 m to 30.7 m, a difference of 13.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "デリドアトレヴィ大塚店",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/6929377314",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 大塚駅北口店",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/6002629088",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "エムエム-マート 南大塚",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/12997006040",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "シマダヤ",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/5586738029",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 19 clinics and 14 pharmacies. Facilities recorded as hospitals lie at 東弘会山川病院, about 459 m away and 都立大塚病院, about 784 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: JR Yamanote Line and Tokyo Sakura Tram (Toden Arakawa Line). The lines are split between operators (JR East runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "neighbours": [
+    {
+      "slug": "sugamoshinden",
+      "note": "432 m away in a straight line. It takes 8 minutes longer to reach Otemachi than Otsuka."
+    },
+    {
+      "slug": "mukohara",
+      "note": "490 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Otsuka."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who want to finish their shopping on foot",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

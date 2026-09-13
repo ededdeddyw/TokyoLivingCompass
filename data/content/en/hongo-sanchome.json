@@ -1,0 +1,62 @@
+{
+  "slug": "hongo-sanchome",
+  "locale": "en",
+  "name": "Hongo-Sanchome",
+  "tagline": "Otemachi in 6 minutes and Tokyo in 7 minutes. Served by 2 lines.",
+  "summary": "The station is in Bunkyo City, served by Tokyo Metro Marunouchi Line and Toei Oedo Line. Journey times to the main business districts are 6 minutes to Otemachi, 18 minutes to Shinjuku, 28 minutes to Shibuya and 22 minutes to Shinagawa. The station stands 21.9 m above sea level, and the ground within 800 m varies in height by 13.9 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 21.9 m above sea level. Within 800 m the ground ranges from 13.9 m to 27.8 m, a difference of 13.9 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "ゆうきや",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/4961068246",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ライフ 本郷三丁目駅前店",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/9742201386",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/5886575034",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 本郷２丁目店",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/4449843854",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 27 clinics and 25 pharmacies. Facilities recorded as hospitals lie at 飯田医院, about 261 m away and 東京大学医学部附属病院, about 734 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Tokyo Metro Marunouchi Line and Toei Oedo Line. The lines are split between operators (Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "neighbours": [
+    {
+      "slug": "kasuga",
+      "note": "671 m away in a straight line. It reaches Otemachi in about the same time as Hongo-Sanchome."
+    },
+    {
+      "slug": "suidobashi",
+      "note": "678 m away in a straight line. It reaches Otemachi in about the same time as Hongo-Sanchome."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku"
+  ],
+  "notFor": [
+    "The data does not show a drawback particular to this station"
+  ],
+  "authoredBy": "data-generated"
+}

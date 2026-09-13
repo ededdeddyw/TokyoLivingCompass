@@ -1,0 +1,61 @@
+{
+  "slug": "shimo-takaido",
+  "locale": "zh-Hans",
+  "name": "下高井戸",
+  "tagline": "到新宿12分钟、到涩谷20分钟。有2条线路经过。",
+  "summary": "车站位于世田谷区，有京王線、東急世田谷線经过。到主要商务区的所需时间为：到大手町37分钟、到新宿12分钟、到涩谷20分钟、到品川43分钟。车站海拔45.4米，周边800米范围内的高低差为9.4米。车站周围的地形有缓坡。",
+  "terrain": {
+    "slope": "some",
+    "note": "车站所在的位置在周围属于较高的一侧，海拔45.4米。周边800米范围内，海拔从38.2米到47.6米，相差9.4米。以上数值取自日本国土地理院的海拔API，读取了车站本身和半径400米的八个方位，共九个点。"
+  },
+  "hazards": "在按可能出现的最大降雨量推算的洪水浸水想定区域中，车站所在的地点在区域之外。在车站400米以内查看的九个点中，有3个点被划入区域，其中推算最深的水深为0.5至3米。同一个车站周边，推算的水深也会因街区而异，所以请按具体地址查看所在区发布的灾害地图。内涝没有全国统一的地图，由各区分别发布，也一并看一看为好。",
+  "groceries": [
+    {
+      "name": "西友 下高井戸店",
+      "tier": "discount",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1801147957",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ロピア",
+      "tier": "discount",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/12898335194",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "スーパーオオゼキ",
+      "tier": "discount",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/1927910778",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "いなげや",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/428797889",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "从车站步行800米以内，有诊所16家、药店9家。登记为医院的设施，距离为吉川内科小児科病院约89米、うめとぴあ约1253米。能否住院、设有哪些科室，OpenStreetMap 上没有记载，请到各设施的网站上确认。夜间和休息日能就诊的医疗机构，可以向所住区的急救咨询窗口查询。",
+  "stationNote": "可以使用京王線、東急世田谷線这2条线路。运营方分为京王1条线路、东急1条线路，所以一条线路停运时，可以换乘另一家公司的线路。按线路数量和运营方的分散程度计算，换乘便利度为52分（满分100分）。",
+  "neighbours": [
+    {
+      "slug": "matsubara",
+      "note": "直线距离680米。到大手町比下高井戸多花6分钟。"
+    },
+    {
+      "slug": "meidaimae",
+      "note": "直线距离861米。到大手町的时间与下高井戸差不多。"
+    }
+  ],
+  "goodFor": [
+    "到新宿方向通勤的人"
+  ],
+  "notFor": [
+    "从数据中看不出这个车站特有的短处"
+  ],
+  "authoredBy": "data-generated"
+}

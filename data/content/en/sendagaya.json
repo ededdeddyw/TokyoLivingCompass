@@ -1,0 +1,55 @@
+{
+  "slug": "sendagaya",
+  "locale": "en",
+  "name": "Sendagaya",
+  "tagline": "Shinjuku in 4 minutes and Shibuya in 14 minutes. Served by 1 line.",
+  "summary": "The station is in Shibuya City, served by JR Chuo-Sobu Line (Local). Journey times to the main business districts are 22 minutes to Otemachi, 4 minutes to Shinjuku, 14 minutes to Shibuya and 35 minutes to Shinagawa. The station stands 32.7 m above sea level, and the ground within 800 m varies in height by 11.4 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 32.7 m above sea level. Within 800 m the ground ranges from 22.9 m to 34.3 m, a difference of 11.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "ピアゴ",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/3899237666",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "コープ",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/2933652016",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オーケーストア 千駄ヶ谷店",
+      "tier": "discount",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/2933652015",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 2 clinics and 6 pharmacies. Facilities recorded as hospitals lie at 東京勤労者医療会代々木病院, about 201 m away and 仁圭会林外科病院, about 461 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: JR Chuo-Sobu Line (Local). Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "kokuritsu-kyogijo",
+      "note": "335 m away in a straight line. It reaches Otemachi in about the same time as Sendagaya."
+    },
+    {
+      "slug": "kita-sando",
+      "note": "638 m away in a straight line. It reaches Otemachi in about the same time as Sendagaya."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended",
+    "People who want to finish their shopping on foot"
+  ],
+  "authoredBy": "data-generated"
+}

@@ -2,18 +2,75 @@
   "slug": "myogadani",
   "locale": "en",
   "name": "Myogadani",
-  "tagline": "Bunkyo Ward's academic quarter — 12 minutes to Otemachi, and very quiet at night.",
-  "summary": "The Marunouchi Line gives no-transfer rides to Otemachi in 12 minutes, Tokyo Station in 15 and Shinjuku in 18. This is an academic district with several national university-affiliated schools, and safety and quiet rank near the top among areas this close to the centre. Kyoiku-no-Mori Park is a short walk. The only line is the Marunouchi.",
+  "tagline": "Otemachi in 11 minutes and Tokyo in 13 minutes. Served by 1 line. A one-room flat rents for roughly ¥110,000 to ¥120,000.",
+  "summary": "The station is in Bunkyo City, served by Tokyo Metro Marunouchi Line. Journey times to the main business districts are 11 minutes to Otemachi, 19 minutes to Shinjuku, 23 minutes to Shibuya and 27 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000.The station stands 26.7 m above sea level, and the ground within 800 m varies in height by 9.4 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 26.7 m above sea level. Within 800 m the ground ranges from 18.2 m to 27.6 m, a difference of 9.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/5937692686",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "三徳 茗荷谷店",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/5907739353",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "コープ",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/9351546808",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/11074541974",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 6 clinics and 2 pharmacies. Facilities recorded as hospitals lie at 小石川東京病院, about 755 m away and 東京健生病院, about 844 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Metro Marunouchi Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "rentRange": {
+    "note": "One room ¥110,000 to ¥120,000, 1K ¥120,000 to ¥130,000, 1LDK ¥210,000 to ¥220,000 and 2LDK ¥270,000 to ¥280,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥110,000 to ¥120,000.",
+  "neighbours": [
+    {
+      "slug": "edogawabashi",
+      "note": "895 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Myogadani."
+    },
+    {
+      "slug": "gokokuji",
+      "note": "900 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Myogadani."
+    }
+  ],
   "goodFor": [
-    "Families with children",
-    "People who put safety and quiet first",
-    "People commuting to Otemachi or Marunouchi"
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who want a park close by"
   ],
   "notFor": [
-    "People who want restaurants and nightlife",
-    "Single people trying to keep rent low",
-    "People who want more than one line"
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended",
+    "People who want to finish their shopping on foot"
   ],
-  "residentComment": "One of the calmest stations in an already calm ward. It is hard to believe how quiet the streets are five kilometres from the centre. It may be dull if you live alone, but the family appeal is well earned.",
-  "authoredBy": "seed-placeholder"
+  "authoredBy": "data-generated"
 }

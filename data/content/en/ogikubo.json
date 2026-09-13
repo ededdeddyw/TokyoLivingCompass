@@ -1,0 +1,63 @@
+{
+  "slug": "ogikubo",
+  "locale": "en",
+  "name": "Ogikubo",
+  "tagline": "Shinjuku in 13 minutes and Shibuya in 23 minutes. Served by 3 lines.",
+  "summary": "The station is in Suginami City, served by JR Chuo Rapid Line, JR Chuo-Sobu Line (Local) and Tokyo Metro Marunouchi Line. Journey times to the main business districts are 33 minutes to Otemachi, 13 minutes to Shinjuku, 23 minutes to Shibuya and 43 minutes to Shinagawa. The station stands 46.7 m above sea level, and the ground within 800 m varies in height by 10.7 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 46.7 m above sea level. Within 800 m the ground ranges from 41.6 m to 52.3 m, a difference of 10.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "西友 荻窪店",
+      "tier": "discount",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1300187810",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "グルッペ",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1573439677",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "コープとうきょう",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/1078253467",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "アキダイ 荻窪店",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/1377185162",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 26 clinics and 24 pharmacies. Facilities recorded as hospitals lie at にれの木クリニック, about 243 m away and 保険医療センター, about 247 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "3 lines serve the station: JR Chuo Rapid Line, JR Chuo-Sobu Line (Local) and Tokyo Metro Marunouchi Line. The lines are split between operators (JR East runs 2 lines and Tokyo Metro runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 73.",
+  "neighbours": [
+    {
+      "slug": "asagaya",
+      "note": "1423 m away in a straight line. It reaches Otemachi 3 minutes sooner than Ogikubo."
+    },
+    {
+      "slug": "minami-asagaya",
+      "note": "1511 m away in a straight line. It reaches Otemachi in about the same time as Ogikubo."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who want another route when a line stops",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

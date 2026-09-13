@@ -1,0 +1,61 @@
+{
+  "slug": "komazawa-daigaku",
+  "locale": "en",
+  "name": "Komazawa-Daigaku",
+  "tagline": "Shibuya in 10 minutes and Shinjuku in 20 minutes. Served by 1 line.",
+  "summary": "The station is in Setagaya City, served by Tokyu Den-en-toshi Line. Journey times to the main business districts are 33 minutes to Otemachi, 20 minutes to Shinjuku, 10 minutes to Shibuya and 36 minutes to Shinagawa. The station stands 41 m above sea level, and the ground within 800 m varies in height by 8.1 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 41 m above sea level. Within 800 m the ground ranges from 34.9 m to 43 m, a difference of 8.1 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "成城石井 駒沢大学駅前店",
+      "tier": "premium",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/13607328325",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツ 真中店",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1385924542",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オオゼキ 野沢店",
+      "tier": "discount",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/4345258290",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 野沢二丁目店",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/4345173799",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 5 pharmacies. Facilities recorded as hospitals lie at 平和協会駒沢病院, about 147 m away and 国立病院機構 東京医療センター, about 937 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyu Den-en-toshi Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "nishi-taishido",
+      "note": "1301 m away in a straight line. It takes 5 minutes longer to reach Otemachi than Komazawa-Daigaku."
+    },
+    {
+      "slug": "shoin-jinja-mae",
+      "note": "1304 m away in a straight line. It takes 10 minutes longer to reach Otemachi than Komazawa-Daigaku."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

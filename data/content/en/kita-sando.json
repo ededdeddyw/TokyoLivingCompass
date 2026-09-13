@@ -1,0 +1,63 @@
+{
+  "slug": "kita-sando",
+  "locale": "en",
+  "name": "Kita-Sando",
+  "tagline": "Shibuya in 5 minutes and Shinjuku in 10 minutes. Served by 1 line.",
+  "summary": "The station is in Shibuya City, served by Tokyo Metro Fukutoshin Line. Journey times to the main business districts are 23 minutes to Otemachi, 10 minutes to Shinjuku, 5 minutes to Shibuya and 31 minutes to Shinagawa. The station stands 25.5 m above sea level, and the ground within 800 m varies in height by 10.0 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 25.5 m above sea level. Within 800 m the ground ranges from 25.5 m to 35.5 m, a difference of 10.0 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "オーケーストア 千駄ヶ谷店",
+      "tier": "discount",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/2933652015",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "コープ",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/2933652016",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ピアゴ",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/3899237666",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルマンストア",
+      "tier": "standard",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/4104461590",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 2 clinics and 3 pharmacies. Facilities recorded as hospitals lie at 東海大学医学部付属東京病院, about 436 m away and 東京勤労者医療会代々木病院, about 451 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Metro Fukutoshin Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "yoyogi",
+      "note": "608 m away in a straight line. It reaches Otemachi in about the same time as Kita-Sando."
+    },
+    {
+      "slug": "sendagaya",
+      "note": "638 m away in a straight line. It reaches Otemachi in about the same time as Kita-Sando."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended",
+    "People who want to finish their shopping on foot"
+  ],
+  "authoredBy": "data-generated"
+}

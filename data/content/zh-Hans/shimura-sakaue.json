@@ -1,0 +1,62 @@
+{
+  "slug": "shimura-sakaue",
+  "locale": "zh-Hans",
+  "name": "志村坂上",
+  "tagline": "到大手町29分钟、到东京35分钟。有1条线路经过。",
+  "summary": "车站位于板橋区，有都営三田線经过。到主要商务区的所需时间为：到大手町29分钟、到新宿38分钟、到涩谷43分钟、到品川49分钟。车站海拔23.2米，周边800米范围内的高低差为15.9米。车站周围的地形有缓坡。",
+  "terrain": {
+    "slope": "some",
+    "note": "车站所在的位置在周围属于较高的一侧，海拔23.2米。周边800米范围内，海拔从8.3米到24.2米，相差15.9米。以上数值取自日本国土地理院的海拔API，读取了车站本身和半径400米的八个方位，共九个点。"
+  },
+  "hazards": "在按可能出现的最大降雨量推算的洪水浸水想定区域中，车站所在的地点，以及车站400米以内的九个点，都在区域之外。同一个车站周边，推算的水深也会因街区而异，所以请按具体地址查看所在区发布的灾害地图。内涝没有全国统一的地图，由各区分别发布，也一并看一看为好。",
+  "groceries": [
+    {
+      "name": "三徳",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/1745492632",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ヨークマート",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/1741663010",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "肉のハナマサ",
+      "tier": "discount",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/1903244756",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "TOBU STORE",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/1996978340",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "从车站步行800米以内，有诊所2家、药店2家。登记为医院的设施，距离为板橋中央総合病院约137米、飯沼病院约1577米。能否住院、设有哪些科室，OpenStreetMap 上没有记载，请到各设施的网站上确认。夜间和休息日能就诊的医疗机构，可以向所住区的急救咨询窗口查询。",
+  "stationNote": "可以使用都営三田線这1条线路。只有一条线路经过，这条线路停运时，就要步行到有其他线路经过的车站。按线路数量和运营方的分散程度计算，换乘便利度为32分（满分100分）。",
+  "neighbours": [
+    {
+      "slug": "shimura-sanchome",
+      "note": "直线距离871米。到大手町的时间与志村坂上差不多。"
+    },
+    {
+      "slug": "motohasunuma",
+      "note": "直线距离994米。到大手町的时间与志村坂上差不多。"
+    }
+  ],
+  "goodFor": [
+    "希望避开洪水浸水想定区域的人"
+  ],
+  "notFor": [
+    "希望停运时还有其他路线可走的人",
+    "看重外出就餐的店铺数量的人"
+  ],
+  "authoredBy": "data-generated"
+}

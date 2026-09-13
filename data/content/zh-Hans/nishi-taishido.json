@@ -1,0 +1,61 @@
+{
+  "slug": "nishi-taishido",
+  "locale": "zh-Hans",
+  "name": "西太子堂",
+  "tagline": "到涩谷14分钟、到新宿24分钟。有1条线路经过。",
+  "summary": "车站位于世田谷区，有東急世田谷線经过。到主要商务区的所需时间为：到大手町38分钟、到新宿24分钟、到涩谷14分钟、到品川40分钟。车站海拔30.6米，周边800米范围内的高低差为9.1米。车站周围的地形有缓坡。",
+  "terrain": {
+    "slope": "some",
+    "note": "车站所在的位置在周围属于较高的一侧，海拔30.6米。周边800米范围内，海拔从25.8米到34.9米，相差9.1米。以上数值取自日本国土地理院的海拔API，读取了车站本身和半径400米的八个方位，共九个点。"
+  },
+  "hazards": "在按可能出现的最大降雨量推算的洪水浸水想定区域中，车站所在的地点在区域之外。在车站400米以内查看的九个点中，有3个点被划入区域，其中推算最深的水深为0.5至3米。同一个车站周边，推算的水深也会因街区而异，所以请按具体地址查看所在区发布的灾害地图。内涝没有全国统一的地图，由各区分别发布，也一并看一看为好。",
+  "groceries": [
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/5398170629",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "東急ストア",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/3828659957",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "西友 三軒茶屋店",
+      "tier": "discount",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/349099906",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Obscura Coffee Roasters",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/2892850901",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "从车站步行800米以内，有诊所21家、药店22家。登记为医院的设施，距离为樹のはなクリニック约387米、歯科约450米。能否住院、设有哪些科室，OpenStreetMap 上没有记载，请到各设施的网站上确认。夜间和休息日能就诊的医疗机构，可以向所住区的急救咨询窗口查询。",
+  "stationNote": "可以使用東急世田谷線这1条线路。只有一条线路经过，这条线路停运时，就要步行到有其他线路经过的车站。按线路数量和运营方的分散程度计算，换乘便利度为32分（满分100分）。",
+  "neighbours": [
+    {
+      "slug": "sangen-jaya",
+      "note": "直线距离353米。到大手町比西太子堂早到7分钟。"
+    },
+    {
+      "slug": "wakabayashi",
+      "note": "直线距离604米。到大手町比西太子堂多花3分钟。"
+    }
+  ],
+  "goodFor": [
+    "希望步行范围内就能买齐东西的人"
+  ],
+  "notFor": [
+    "希望停运时还有其他路线可走的人"
+  ],
+  "authoredBy": "data-generated"
+}

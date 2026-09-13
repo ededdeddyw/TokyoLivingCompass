@@ -1,0 +1,64 @@
+{
+  "slug": "kamiyacho",
+  "locale": "en",
+  "name": "Kamiyacho",
+  "tagline": "Toranomon in 2 minutes and Roppongi in 3 minutes. Served by 1 line.",
+  "summary": "The station is in Minato City, served by Tokyo Metro Hibiya Line. Journey times to the main business districts are 13 minutes to Otemachi, 18 minutes to Shinjuku, 17 minutes to Shibuya and 21 minutes to Shinagawa. The station stands 8.9 m above sea level, and the ground within 800 m varies in height by 25.0 m. The land around the station rises and falls sharply.",
+  "terrain": {
+    "slope": "hilly",
+    "note": "The station sits lower than the ground around it, at 8.9 m above sea level. Within 800 m the ground ranges from 4.3 m to 29.3 m, a difference of 25.0 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/11145437236",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツ",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/3952711113",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "麻布台ヒルズマーケット",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/14047630601",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "福島屋 六本木店",
+      "tier": "premium",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/3666723662",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 9 clinics and 11 pharmacies. Facilities recorded as hospitals lie at 東京慈恵会医科大学附属病院, about 578 m away and 虎の門病院, about 641 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Metro Hibiya Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "onarimon",
+      "note": "616 m away in a straight line. It reaches Otemachi 6 minutes sooner than Kamiyacho."
+    },
+    {
+      "slug": "roppongi-itchome",
+      "note": "620 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Kamiyacho."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "People who would rather not walk up and down slopes",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

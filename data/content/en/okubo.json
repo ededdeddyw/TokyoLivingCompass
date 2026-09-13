@@ -1,0 +1,65 @@
+{
+  "slug": "okubo",
+  "locale": "en",
+  "name": "Okubo",
+  "tagline": "Shinjuku in 3 minutes and Shibuya in 13 minutes. Served by 1 line.",
+  "summary": "The station is in Shinjuku City, served by JR Chuo-Sobu Line (Local). Journey times to the main business districts are 28 minutes to Otemachi, 3 minutes to Shinjuku, 13 minutes to Shibuya and 34 minutes to Shinagawa. The station stands 38.2 m above sea level, and the ground within 800 m varies in height by 7.9 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 38.2 m above sea level. Within 800 m the ground ranges from 30.3 m to 38.2 m, a difference of 7.9 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "業務スーパー",
+      "tier": "discount",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/4963228357",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 新大久保駅南店",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/10297160169",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Barahi",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/11508150180",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オリンピック 北新宿店",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/7659701731",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 13 clinics and 18 pharmacies. Facilities recorded as hospitals lie at 広恵会春山外科病院, about 270 m away and JCHO 東京山手メディカルセンター, about 466 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: JR Chuo-Sobu Line (Local). Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "shin-okubo",
+      "note": "265 m away in a straight line. It reaches Otemachi 4 minutes sooner than Okubo."
+    },
+    {
+      "slug": "seibu-shinjuku",
+      "note": "558 m away in a straight line. It reaches Otemachi 4 minutes sooner than Okubo."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who get around by bicycle or with a pushchair",
+    "People who want to finish their shopping on foot",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

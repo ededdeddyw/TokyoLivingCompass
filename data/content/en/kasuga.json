@@ -1,0 +1,62 @@
+{
+  "slug": "kasuga",
+  "locale": "en",
+  "name": "Kasuga",
+  "tagline": "Otemachi in 7 minutes and Tokyo in 13 minutes. Served by 2 lines.",
+  "summary": "The station is in Bunkyo City, served by Toei Oedo Line and Toei Mita Line. Journey times to the main business districts are 7 minutes to Otemachi, 22 minutes to Shinjuku, 25 minutes to Shibuya and 27 minutes to Shinagawa. The station stands 5.8 m above sea level, and the ground within 800 m varies in height by 16.9 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 5.8 m above sea level. Within 800 m the ground ranges from 5.8 m to 22.7 m, a difference of 16.9 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "ピアゴ",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/5487530987",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "くらや",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/5587219401",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/5487734270",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ダイエー",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/5487650366",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 21 clinics and 17 pharmacies. Facilities recorded as hospitals lie at 慈愛病院, about 512 m away and 飯田医院, about 663 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Toei Oedo Line and Toei Mita Line. All 2 lines are run by the Tokyo Metropolitan Bureau of Transportation, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "neighbours": [
+    {
+      "slug": "korakuen",
+      "note": "226 m away in a straight line. It reaches Otemachi in about the same time as Kasuga."
+    },
+    {
+      "slug": "hongo-sanchome",
+      "note": "671 m away in a straight line. It reaches Otemachi in about the same time as Kasuga."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

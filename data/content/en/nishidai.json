@@ -1,0 +1,63 @@
+{
+  "slug": "nishidai",
+  "locale": "en",
+  "name": "Nishidai",
+  "tagline": "Otemachi in 35 minutes and Tokyo in 41 minutes. Served by 1 line.",
+  "summary": "The station is in Itabashi City, served by Toei Mita Line. Journey times to the main business districts are 35 minutes to Otemachi, 44 minutes to Shinjuku, 49 minutes to Shibuya and 55 minutes to Shinagawa. The station stands 3.8 m above sea level, and the ground within 800 m varies in height by 2.3 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 3.8 m above sea level. Within 800 m the ground ranges from 2.2 m to 4.5 m, a difference of 2.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 5 to 10 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 5 to 10 m. For storm surge, 9 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/5782515313",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ダイエー 西台店",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1741662953",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "業務スーパー",
+      "tier": "discount",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/1749476201",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "アコレ",
+      "tier": "discount",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/5777720785",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 4 clinics and 9 pharmacies. Facilities recorded as hospitals lie at 高仁会戸田病院, about 1926 m away and 戸田病院, about 2020 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Toei Mita Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "hasune",
+      "note": "540 m away in a straight line. It reaches Otemachi in about the same time as Nishidai."
+    },
+    {
+      "slug": "takashimadaira",
+      "note": "1173 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Nishidai."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended",
+    "People who want plenty of places to eat out"
+  ],
+  "authoredBy": "data-generated"
+}

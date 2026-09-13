@@ -1,0 +1,63 @@
+{
+  "slug": "shinjuku",
+  "locale": "en",
+  "name": "Shinjuku",
+  "tagline": "Shinjuku in 1 minute and Shibuya in 5 minutes. Served by 13 lines.",
+  "summary": "The station is in Shinjuku City, served by JR Yamanote Line, JR Chuo Main Line, JR Chuo Rapid Line, JR Chuo-Sobu Line (Local), JR Saikyo Line, Narita Express, JR Shonan-Shinjuku Line, Keio Line, Keio New Line, Odakyu Odawara Line, Tokyo Metro Marunouchi Line, Toei Oedo Line and Toei Shinjuku Line. Journey times to the main business districts are 19 minutes to Otemachi, 1 minute to Shinjuku, 5 minutes to Shibuya and 26 minutes to Shinagawa. The station stands 37.5 m above sea level, and the ground within 800 m varies in height by 9.0 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 37.5 m above sea level. Within 800 m the ground ranges from 31.3 m to 40.3 m, a difference of 9.0 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "TOMIZ",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/4919935621",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "MEGAドン・キホーテ",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/6011377090",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ドン・キホーテUNY",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/10992424505",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 代々木1丁目店",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/2504465816",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 17 clinics and 34 pharmacies. Facilities recorded as hospitals lie at myhospital, about 333 m away and アイシークリニック新宿院, about 354 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "13 lines serve the station: JR Yamanote Line, JR Chuo Main Line, JR Chuo Rapid Line, JR Chuo-Sobu Line (Local), JR Saikyo Line, Narita Express, JR Shonan-Shinjuku Line, Keio Line, Keio New Line, Odakyu Odawara Line, Tokyo Metro Marunouchi Line, Toei Oedo Line and Toei Shinjuku Line. The lines are split between operators (JR East runs 7 lines, Keio runs 2 lines, Odakyu runs 1 line, Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 2 lines), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 100.",
+  "neighbours": [
+    {
+      "slug": "shinjuku-nishiguchi",
+      "note": "389 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Shinjuku."
+    },
+    {
+      "slug": "shinjuku-sanchome",
+      "note": "501 m away in a straight line. It reaches Otemachi in about the same time as Shinjuku."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who want another route when a line stops"
+  ],
+  "notFor": [
+    "People who want to finish their shopping on foot"
+  ],
+  "authoredBy": "data-generated"
+}

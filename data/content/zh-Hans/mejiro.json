@@ -1,0 +1,62 @@
+{
+  "slug": "mejiro",
+  "locale": "zh-Hans",
+  "name": "目白",
+  "tagline": "到新宿9分钟、到涩谷17分钟。有1条线路经过。",
+  "summary": "车站位于豊島区，有JR山手線经过。到主要商务区的所需时间为：到大手町22分钟、到新宿9分钟、到涩谷17分钟、到品川40分钟。车站海拔24.9米，周边800米范围内的高低差为18.3米。车站周围的地形有缓坡。",
+  "terrain": {
+    "slope": "some",
+    "note": "车站所在的位置在周围属于较高的一侧，海拔24.9米。周边800米范围内，海拔从14.9米到33.2米，相差18.3米。以上数值取自日本国土地理院的海拔API，读取了车站本身和半径400米的八个方位，共九个点。"
+  },
+  "hazards": "在按可能出现的最大降雨量推算的洪水浸水想定区域中，车站所在的地点被划入区域，推算的水深为0.5至3米。在车站400米以内查看的九个点中，有4个点被划入区域，其中推算最深的水深为0.5至3米。同一个车站周边，推算的水深也会因街区而异，所以请按具体地址查看所在区发布的灾害地图。内涝没有全国统一的地图，由各区分别发布，也一并看一看为好。",
+  "groceries": [
+    {
+      "name": "KINOKUNIYA Sutto目白駅店",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/12408793070",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "クイーンズ伊勢丹 目白店",
+      "tier": "premium",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/way/609054270",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "QUEEN'S ISETAN",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/5056464003",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オーケーストア",
+      "tier": "discount",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/way/1000515380",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "从车站步行800米以内，有诊所9家、药店14家。登记为医院的设施，距离为悦伝会目白病院约691米、大同病院约754米。能否住院、设有哪些科室，OpenStreetMap 上没有记载，请到各设施的网站上确认。夜间和休息日能就诊的医疗机构，可以向所住区的急救咨询窗口查询。",
+  "stationNote": "可以使用JR山手線这1条线路。只有一条线路经过，这条线路停运时，就要步行到有其他线路经过的车站。按线路数量和运营方的分散程度计算，换乘便利度为32分（满分100分）。",
+  "neighbours": [
+    {
+      "slug": "gakushuinshita",
+      "note": "直线距离733米。到大手町比目白多花10分钟。"
+    },
+    {
+      "slug": "zoshigaya",
+      "note": "直线距离779米。到大手町比目白多花4分钟。"
+    }
+  ],
+  "goodFor": [
+    "到新宿方向通勤的人"
+  ],
+  "notFor": [
+    "希望避开洪水浸水想定区域的人",
+    "希望停运时还有其他路线可走的人"
+  ],
+  "authoredBy": "data-generated"
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "motohasunuma",
+  "locale": "en",
+  "name": "Motohasunuma",
+  "tagline": "Otemachi in 27 minutes and Tokyo in 33 minutes. Served by 1 line.",
+  "summary": "The station is in Itabashi City, served by Toei Mita Line. Journey times to the main business districts are 27 minutes to Otemachi, 35 minutes to Shinjuku, 41 minutes to Shibuya and 47 minutes to Shinagawa. The station stands 22.2 m above sea level, and the ground within 800 m varies in height by 7.4 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 22.2 m above sea level. Within 800 m the ground ranges from 17.3 m to 24.7 m, a difference of 7.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まごぎん",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/3292589728",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/3291975061",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "いづみや",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/3864355223",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "LAWSON STORE 100",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/3297960067",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 4 clinics and 2 pharmacies. Facilities recorded as hospitals lie at 明理会東京大和病院, about 859 m away and 板橋中央総合病院, about 968 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Toei Mita Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "itabashihoncho",
+      "note": "876 m away in a straight line. It reaches Otemachi in about the same time as Motohasunuma."
+    },
+    {
+      "slug": "shimura-sakaue",
+      "note": "994 m away in a straight line. It reaches Otemachi in about the same time as Motohasunuma."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended",
+    "People who want plenty of places to eat out"
+  ],
+  "authoredBy": "data-generated"
+}

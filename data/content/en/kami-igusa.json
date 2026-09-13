@@ -1,0 +1,63 @@
+{
+  "slug": "kami-igusa",
+  "locale": "en",
+  "name": "Kami-Igusa",
+  "tagline": "Shinjuku in 32 minutes and Shibuya in 41 minutes. Served by 1 line.",
+  "summary": "The station is in Nerima City, served by Seibu Shinjuku Line. Journey times to the main business districts are 41 minutes to Otemachi, 32 minutes to Shinjuku, 41 minutes to Shibuya and 62 minutes to Shinagawa. The station stands 49.8 m above sea level, and the ground within 800 m varies in height by 5.7 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 49.8 m above sea level. Within 800 m the ground ranges from 44.9 m to 50.6 m, a difference of 5.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "マルエツ",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/way/1442503185",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "miniピアゴ 上井草3丁目店1号館",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1077713053",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オーケーストア",
+      "tier": "discount",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/14063956837",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "いなげや",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/5116751596",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 2 pharmacies. Facilities recorded as hospitals lie at 医療法人社団 杏順会 越川病院, about 1047 m away and 荻窪病院, about 1180 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Seibu Shinjuku Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "kami-shakujii",
+      "note": "968 m away in a straight line. It reaches Otemachi in about the same time as Kami-Igusa."
+    },
+    {
+      "slug": "iogi",
+      "note": "1118 m away in a straight line. It reaches Otemachi in about the same time as Kami-Igusa."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended",
+    "People who want plenty of places to eat out"
+  ],
+  "authoredBy": "data-generated"
+}

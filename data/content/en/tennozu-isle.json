@@ -1,0 +1,33 @@
+{
+  "slug": "tennozu-isle",
+  "locale": "en",
+  "name": "Tennozu-Isle",
+  "tagline": "Shinagawa in 17 minutes and Tokyo in 18 minutes. Served by 2 lines.",
+  "summary": "The station is in Shinagawa City, served by Tokyo Monorail and Rinkai Line. Journey times to the main business districts are 24 minutes to Otemachi, 28 minutes to Shinjuku, 23 minutes to Shibuya and 17 minutes to Shinagawa. The station stands 2.5 m above sea level, and the ground within 800 m varies in height by 2.7 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 2.5 m above sea level. Within 800 m the ground ranges from 1.2 m to 3.9 m, a difference of 2.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 5 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "medical": "Within an 800 m walk of the station there are 1 pharmacy. Facilities recorded as hospitals lie at 河野臨牀医学研究所附属北品川病院, about 845 m away and 河野臨牀医学研究所附属第三北品川病院, about 1071 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Tokyo Monorail and Rinkai Line. The lines are split between operators (Tokyo Monorail runs 1 line and Tokyo Waterfront Area Rapid Transit runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "neighbours": [
+    {
+      "slug": "shimbamba",
+      "note": "962 m away in a straight line. It reaches Otemachi in about the same time as Tennozu-Isle."
+    },
+    {
+      "slug": "kitashinagawa",
+      "note": "1046 m away in a straight line. It reaches Otemachi in about the same time as Tennozu-Isle."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want to finish their shopping on foot",
+    "People who want plenty of places to eat out"
+  ],
+  "authoredBy": "data-generated"
+}

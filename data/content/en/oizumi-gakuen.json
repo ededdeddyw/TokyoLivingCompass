@@ -1,0 +1,62 @@
+{
+  "slug": "oizumi-gakuen",
+  "locale": "en",
+  "name": "Oizumi-Gakuen",
+  "tagline": "Shinjuku in 38 minutes and Shibuya in 43 minutes. Served by 1 line.",
+  "summary": "The station is in Nerima City, served by Seibu Ikebukuro Line. Journey times to the main business districts are 49 minutes to Otemachi, 38 minutes to Shinjuku, 43 minutes to Shibuya and 64 minutes to Shinagawa. The station stands 48.6 m above sea level, and the ground within 800 m varies in height by 2.7 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 48.6 m above sea level. Within 800 m the ground ranges from 46.5 m to 49.2 m, a difference of 2.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "ライフ ライフエクストラ大泉学園駅前店",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/2029294693",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "カズン",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/6579845316",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "OAK plaza",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/6417566748",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "アコレ",
+      "tier": "discount",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/6418818622",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 16 clinics and 16 pharmacies. Facilities recorded as hospitals lie at 慈誠会練馬高野台病院, about 2404 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Seibu Ikebukuro Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "shakujii-koen",
+      "note": "1939 m away in a straight line. It reaches Otemachi 4 minutes sooner than Oizumi-Gakuen."
+    },
+    {
+      "slug": "musashi-seki",
+      "note": "2597 m away in a straight line. It reaches Otemachi 3 minutes sooner than Oizumi-Gakuen."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

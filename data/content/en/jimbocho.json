@@ -1,0 +1,63 @@
+{
+  "slug": "jimbocho",
+  "locale": "en",
+  "name": "Jimbocho",
+  "tagline": "Otemachi in 3 minutes and Tokyo in 9 minutes. Served by 3 lines.",
+  "summary": "The station is in Chiyoda City, served by Tokyo Metro Hanzomon Line, Toei Mita Line and Toei Shinjuku Line. Journey times to the main business districts are 3 minutes to Otemachi, 13 minutes to Shinjuku, 16 minutes to Shibuya and 23 minutes to Shinagawa. The station stands 3.6 m above sea level, and the ground within 800 m varies in height by 13.1 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 3.6 m above sea level. Within 800 m the ground ranges from 2.9 m to 16 m, a difference of 13.1 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 7 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 7 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/11337843163",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "成城石井",
+      "tier": "premium",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/way/231778775",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/4964137902",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "サミット",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/11342776829",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 28 clinics and 31 pharmacies. Facilities recorded as hospitals lie at 日本大学病院, about 474 m away and 小畑会浜田病院, about 541 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "3 lines serve the station: Tokyo Metro Hanzomon Line, Toei Mita Line and Toei Shinjuku Line. The lines are split between operators (Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 2 lines), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 73.",
+  "neighbours": [
+    {
+      "slug": "kudanshita",
+      "note": "526 m away in a straight line. It reaches Otemachi in about the same time as Jimbocho."
+    },
+    {
+      "slug": "takebashi",
+      "note": "578 m away in a straight line. It reaches Otemachi in about the same time as Jimbocho."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who want another route when a line stops"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

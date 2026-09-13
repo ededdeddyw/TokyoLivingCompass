@@ -1,0 +1,63 @@
+{
+  "slug": "gakushuinshita",
+  "locale": "en",
+  "name": "Gakushuinshita",
+  "tagline": "Shinjuku in 23 minutes and Shibuya in 24 minutes. Served by 1 line.",
+  "summary": "The station is in Toshima City, served by Tokyo Sakura Tram (Toden Arakawa Line). Journey times to the main business districts are 32 minutes to Otemachi, 23 minutes to Shinjuku, 24 minutes to Shibuya and 49 minutes to Shinagawa. The station stands 12.2 m above sea level, and the ground within 800 m varies in height by 22.9 m. The land around the station rises and falls sharply.",
+  "terrain": {
+    "slope": "hilly",
+    "note": "The station sits lower than the ground around it, at 12.2 m above sea level. Within 800 m the ground ranges from 9.8 m to 32.7 m, a difference of 22.9 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "よしや",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/2712425617",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "リコス",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/13310445977",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/5056503188",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ワイズマート 高田馬場店",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/9235435917",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 8 clinics and 10 pharmacies. Facilities recorded as hospitals lie at 大同病院, about 321 m away and 芳精会ぬかりや病院, about 1133 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Sakura Tram (Toden Arakawa Line). Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "omokagebashi",
+      "note": "404 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Gakushuinshita."
+    },
+    {
+      "slug": "zoshigaya",
+      "note": "501 m away in a straight line. It reaches Otemachi 6 minutes sooner than Gakushuinshita."
+    }
+  ],
+  "goodFor": [
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who would rather not walk up and down slopes",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

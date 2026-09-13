@@ -1,0 +1,63 @@
+{
+  "slug": "ueno",
+  "locale": "en",
+  "name": "Ueno",
+  "tagline": "Tokyo in 5 minutes and Otemachi in 11 minutes. Served by 8 lines.",
+  "summary": "The station is in Taito City, served by JR Yamanote Line, JR Utsunomiya Line, JR Joban Line, JR Takasaki Line, JR Keihin-Tohoku Line, JR Ueno-Tokyo Line, Tokyo Metro Ginza Line and Tokyo Metro Hibiya Line. Journey times to the main business districts are 11 minutes to Otemachi, 23 minutes to Shinjuku, 30 minutes to Shibuya and 20 minutes to Shinagawa. The station stands 4.1 m above sea level, and the ground within 800 m varies in height by 15.4 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 4.1 m above sea level. Within 800 m the ground ranges from 2 m to 17.4 m, a difference of 15.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 5 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 4 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "THE GARDEN JIYUGAOKA",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/4697613903",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/12882923777",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "上野物産",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/12873243477",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まるきん",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/6906140073",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 51 clinics and 45 pharmacies. Facilities recorded as hospitals lie at アイシークリニック上野院, about 281 m away and 全仁会上野病院, about 283 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "8 lines serve the station: JR Yamanote Line, JR Utsunomiya Line, JR Joban Line, JR Takasaki Line, JR Keihin-Tohoku Line, JR Ueno-Tokyo Line, Tokyo Metro Ginza Line and Tokyo Metro Hibiya Line. The lines are split between operators (JR East runs 6 lines and Tokyo Metro runs 2 lines), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 98.",
+  "neighbours": [
+    {
+      "slug": "keisei-ueno",
+      "note": "384 m away in a straight line. It takes 17 minutes longer to reach Otemachi than Ueno."
+    },
+    {
+      "slug": "inaricho",
+      "note": "543 m away in a straight line. It takes 5 minutes longer to reach Otemachi than Ueno."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People who want another route when a line stops",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "The data does not show a drawback particular to this station"
+  ],
+  "authoredBy": "data-generated"
+}

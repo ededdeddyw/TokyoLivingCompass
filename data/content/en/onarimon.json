@@ -1,0 +1,56 @@
+{
+  "slug": "onarimon",
+  "locale": "en",
+  "name": "Onarimon",
+  "tagline": "Otemachi in 7 minutes and Tokyo in 11 minutes. Served by 1 line.",
+  "summary": "The station is in Minato City, served by Toei Mita Line. Journey times to the main business districts are 7 minutes to Otemachi, 27 minutes to Shinjuku, 24 minutes to Shibuya and 19 minutes to Shinagawa. The station stands 3.3 m above sea level, and the ground within 800 m varies in height by 26.1 m. The land around the station rises and falls sharply.",
+  "terrain": {
+    "slope": "hilly",
+    "note": "The station sits lower than the ground around it, at 3.3 m above sea level. Within 800 m the ground ranges from 2.1 m to 28.2 m, a difference of 26.1 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 5 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 5 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/3293716261",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "肉のハナマサ",
+      "tier": "discount",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/4736515321",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/8250986681",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 12 clinics and 10 pharmacies. Facilities recorded as hospitals lie at 港勤労者医療協会芝病院, about 161 m away and 東京慈恵会医科大学附属病院, about 274 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Toei Mita Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "daimon",
+      "note": "567 m away in a straight line. It takes 9 minutes longer to reach Otemachi than Onarimon."
+    },
+    {
+      "slug": "kamiyacho",
+      "note": "616 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Onarimon."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who would rather not walk up and down slopes",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

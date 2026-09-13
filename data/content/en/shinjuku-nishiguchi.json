@@ -1,0 +1,62 @@
+{
+  "slug": "shinjuku-nishiguchi",
+  "locale": "en",
+  "name": "Shinjuku-Nishiguchi",
+  "tagline": "Shinjuku in 16 minutes and Shibuya in 17 minutes. Served by 1 line.",
+  "summary": "The station is in Shinjuku City, served by Toei Oedo Line. Journey times to the main business districts are 22 minutes to Otemachi, 16 minutes to Shinjuku, 17 minutes to Shibuya and 41 minutes to Shinagawa. The station stands 33.6 m above sea level, and the ground within 800 m varies in height by 10.9 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 33.6 m above sea level. Within 800 m the ground ranges from 30 m to 40.9 m, a difference of 10.9 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "TOMIZ",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/4919935621",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ドン・キホーテUNY",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/10992424505",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "MEGAドン・キホーテ",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/6011377090",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オリンピック 北新宿店",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/7659701731",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 20 clinics and 36 pharmacies. Facilities recorded as hospitals lie at myhospital, about 298 m away and 都立大久保病院, about 450 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Toei Oedo Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "seibu-shinjuku",
+      "note": "335 m away in a straight line. It reaches Otemachi in about the same time as Shinjuku-Nishiguchi."
+    },
+    {
+      "slug": "shinjuku",
+      "note": "389 m away in a straight line. It reaches Otemachi 3 minutes sooner than Shinjuku-Nishiguchi."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

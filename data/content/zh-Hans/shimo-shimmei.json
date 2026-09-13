@@ -1,0 +1,62 @@
+{
+  "slug": "shimo-shimmei",
+  "locale": "zh-Hans",
+  "name": "下神明",
+  "tagline": "到品川12分钟、到涩谷23分钟。有1条线路经过。",
+  "summary": "车站位于品川区，有東急大井町線经过。到主要商务区的所需时间为：到大手町32分钟、到新宿28分钟、到涩谷23分钟、到品川12分钟。车站海拔16米，周边800米范围内的高低差为13.5米。车站周围的地形有缓坡。",
+  "terrain": {
+    "slope": "some",
+    "note": "车站所在的位置在周围属于较高的一侧，海拔16米。周边800米范围内，海拔从7.5米到21米，相差13.5米。以上数值取自日本国土地理院的海拔API，读取了车站本身和半径400米的八个方位，共九个点。"
+  },
+  "hazards": "在按可能出现的最大降雨量推算的洪水浸水想定区域中，车站所在的地点在区域之外。在车站400米以内查看的九个点中，有1个点被划入区域，其中推算最深的水深为不足0.5米。同一个车站周边，推算的水深也会因街区而异，所以请按具体地址查看所在区发布的灾害地图。内涝没有全国统一的地图，由各区分别发布，也一并看一看为好。",
+  "groceries": [
+    {
+      "name": "丸正　大井町店",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/691085295",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/2391059973",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "スーパーおおぜき",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/2001633280",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ライフ",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/13722006963",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "从车站步行800米以内，有诊所5家、药店3家。登记为医院的设施，距离为仁生堂大村病院约1001米、佐花会大井中央病院约1048米。能否住院、设有哪些科室，OpenStreetMap 上没有记载，请到各设施的网站上确认。夜间和休息日能就诊的医疗机构，可以向所住区的急救咨询窗口查询。",
+  "stationNote": "可以使用東急大井町線这1条线路。只有一条线路经过，这条线路停运时，就要步行到有其他线路经过的车站。按线路数量和运营方的分散程度计算，换乘便利度为32分（满分100分）。",
+  "neighbours": [
+    {
+      "slug": "togoshi-koen",
+      "note": "直线距离732米。到大手町的时间与下神明差不多。"
+    },
+    {
+      "slug": "oimachi",
+      "note": "直线距离807米。到大手町比下神明早到7分钟。"
+    }
+  ],
+  "goodFor": [
+    "看重公园就在附近的人"
+  ],
+  "notFor": [
+    "希望停运时还有其他路线可走的人",
+    "看重外出就餐的店铺数量的人"
+  ],
+  "authoredBy": "data-generated"
+}

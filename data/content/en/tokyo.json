@@ -1,0 +1,64 @@
+{
+  "slug": "tokyo",
+  "locale": "en",
+  "name": "Tokyo",
+  "tagline": "Tokyo in 1 minute and Otemachi in 1 minute. Served by 11 lines.",
+  "summary": "The station is in Chiyoda City, served by JR Tokaido Line, JR Yamanote Line, JR Yokosuka Line, JR Chuo Main Line, JR Chuo Rapid Line, JR Sobu Main Line, JR Keiyo Line, Narita Express, JR Keihin-Tohoku Line, JR Ueno-Tokyo Line and Tokyo Metro Marunouchi Line. Journey times to the main business districts are 1 minute to Otemachi, 15 minutes to Shinjuku, 22 minutes to Shibuya and 10 minutes to Shinagawa. The station stands 3.9 m above sea level, and the ground within 800 m varies in height by 3.2 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 3.9 m above sea level. Within 800 m the ground ranges from 2.8 m to 6 m, a difference of 3.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 8 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 6 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "Eataly 丸の内店",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/13027480843",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "成城石井 東京駅一番街店",
+      "tier": "premium",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/11370968865",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "EPICERIE BONHEUR 成城石井 大手町店",
+      "tier": "premium",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/12995244481",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "明治屋",
+      "tier": "premium",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/7196596448",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 16 clinics and 9 pharmacies. Facilities recorded as hospitals lie at 宮内庁病院, about 810 m away and 浩邦会日比谷病院, about 1548 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "11 lines serve the station: JR Tokaido Line, JR Yamanote Line, JR Yokosuka Line, JR Chuo Main Line, JR Chuo Rapid Line, JR Sobu Main Line, JR Keiyo Line, Narita Express, JR Keihin-Tohoku Line, JR Ueno-Tokyo Line and Tokyo Metro Marunouchi Line. The lines are split between operators (JR East runs 10 lines and Tokyo Metro runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 98.",
+  "neighbours": [
+    {
+      "slug": "nijubashimae",
+      "note": "364 m away in a straight line. It reaches Otemachi in about the same time as Tokyo."
+    },
+    {
+      "slug": "otemachi",
+      "note": "507 m away in a straight line. It reaches Otemachi in about the same time as Tokyo."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who want another route when a line stops",
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

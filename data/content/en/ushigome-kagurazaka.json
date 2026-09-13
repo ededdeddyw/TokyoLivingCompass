@@ -1,0 +1,64 @@
+{
+  "slug": "ushigome-kagurazaka",
+  "locale": "en",
+  "name": "Ushigome-Kagurazaka",
+  "tagline": "Otemachi in 13 minutes and Tokyo in 18 minutes. Served by 1 line.",
+  "summary": "The station is in Shinjuku City, served by Toei Oedo Line. Journey times to the main business districts are 13 minutes to Otemachi, 20 minutes to Shinjuku, 21 minutes to Shibuya and 33 minutes to Shinagawa. The station stands 19 m above sea level, and the ground within 800 m varies in height by 18.1 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 19 m above sea level. Within 800 m the ground ranges from 10.8 m to 28.9 m, a difference of 18.1 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "キッチンコート",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/2700805954",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Kimuraya",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/4408539254",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "SainE SainE 神楽坂店",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/4408539255",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/3773449874",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 26 clinics and 20 pharmacies. Facilities recorded as hospitals lie at JCHO東京新宿メディカルセンター, about 655 m away and 神経研究所附属晴和病院, about 793 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Toei Oedo Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "kagurazaka",
+      "note": "345 m away in a straight line. It reaches Otemachi 4 minutes sooner than Ushigome-Kagurazaka."
+    },
+    {
+      "slug": "iidabashi",
+      "note": "814 m away in a straight line. It reaches Otemachi 7 minutes sooner than Ushigome-Kagurazaka."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

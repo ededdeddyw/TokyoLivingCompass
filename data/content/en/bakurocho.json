@@ -1,0 +1,65 @@
+{
+  "slug": "bakurocho",
+  "locale": "en",
+  "name": "Bakurocho",
+  "tagline": "Tokyo in 4 minutes and Otemachi in 10 minutes. Served by 3 lines.",
+  "summary": "The station is in Chuo City, served by JR Sobu Main Line, Toei Asakusa Line and Toei Shinjuku Line. Journey times to the main business districts are 10 minutes to Otemachi, 19 minutes to Shinjuku, 27 minutes to Shibuya and 19 minutes to Shinagawa. The station stands 4.3 m above sea level, and the ground within 800 m varies in height by 2.3 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 4.3 m above sea level. Within 800 m the ground ranges from 2 m to 4.3 m, a difference of 2.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 5 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "マルマンストア",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/2283944054",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/11388921084",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オーケーストア 日本橋久松町店",
+      "tier": "discount",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/12495706702",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/2264347180",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 16 clinics and 14 pharmacies. Facilities recorded as hospitals lie at 湘南メディカル記念病院, about 890 m away and 三井記念病院, about 902 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "3 lines serve the station: JR Sobu Main Line, Toei Asakusa Line and Toei Shinjuku Line. The lines are split between operators (JR East runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 2 lines), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 73.",
+  "neighbours": [
+    {
+      "slug": "kodemmacho",
+      "note": "484 m away in a straight line. It reaches Otemachi in about the same time as Bakurocho."
+    },
+    {
+      "slug": "asakusabashi",
+      "note": "574 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Bakurocho."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who want another route when a line stops",
+    "People who get around by bicycle or with a pushchair",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "yushima",
+  "locale": "en",
+  "name": "Yushima",
+  "tagline": "Otemachi in 6 minutes and Tokyo in 12 minutes. Served by 1 line.",
+  "summary": "The station is in Taito City, served by Tokyo Metro Chiyoda Line. Journey times to the main business districts are 6 minutes to Otemachi, 18 minutes to Shinjuku, 28 minutes to Shibuya and 26 minutes to Shinagawa. The station stands 5.7 m above sea level, and the ground within 800 m varies in height by 17.6 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 5.7 m above sea level. Within 800 m the ground ranges from 3.5 m to 21.1 m, a difference of 17.6 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "業務スーパー",
+      "tier": "discount",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/12780217501",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "再来物産",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/5371521837",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ナチュレバザール",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/4893237137",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "久世福商店",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/10773576926",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 54 clinics and 45 pharmacies. Facilities recorded as hospitals lie at 東都文京病院, about 486 m away and 萩原医院, about 495 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Metro Chiyoda Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "okachimachi",
+      "note": "430 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Yushima."
+    },
+    {
+      "slug": "keisei-ueno",
+      "note": "468 m away in a straight line. It takes 22 minutes longer to reach Otemachi than Yushima."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

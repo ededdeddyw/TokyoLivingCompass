@@ -1,0 +1,62 @@
+{
+  "slug": "ryogoku",
+  "locale": "en",
+  "name": "Ryogoku",
+  "tagline": "Tokyo in 15 minutes and Otemachi in 17 minutes. Served by 2 lines.",
+  "summary": "The station is in Sumida City, served by JR Chuo-Sobu Line (Local) and Toei Oedo Line. Journey times to the main business districts are 17 minutes to Otemachi, 23 minutes to Shinjuku, 33 minutes to Shibuya and 29 minutes to Shinagawa. The station stands 1.9 m above sea level, and the ground within 800 m varies in height by 1 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 1.9 m above sea level. Within 800 m the ground ranges from 1 m to 2 m, a difference of 1 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 8 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/12338097350",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ヤオケン",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/4991803691",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/4879950126",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "サミット",
+      "tier": "standard",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/4971604622",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 9 clinics and 11 pharmacies. Facilities recorded as hospitals lie at 湘南メディカル記念病院, about 279 m away and 同愛記念病院, about 400 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: JR Chuo-Sobu Line (Local) and Toei Oedo Line. The lines are split between operators (JR East runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "neighbours": [
+    {
+      "slug": "kuramae",
+      "note": "865 m away in a straight line. It reaches Otemachi in about the same time as Ryogoku."
+    },
+    {
+      "slug": "asakusabashi",
+      "note": "912 m away in a straight line. It reaches Otemachi 4 minutes sooner than Ryogoku."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

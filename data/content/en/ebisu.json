@@ -1,0 +1,62 @@
+{
+  "slug": "ebisu",
+  "locale": "en",
+  "name": "Ebisu",
+  "tagline": "Shibuya in 2 minutes and Roppongi in 6 minutes. Served by 4 lines.",
+  "summary": "The station is in Shibuya City, served by JR Yamanote Line, JR Saikyo Line, JR Shonan-Shinjuku Line and Tokyo Metro Hibiya Line. Journey times to the main business districts are 22 minutes to Otemachi, 7 minutes to Shinjuku, 2 minutes to Shibuya and 19 minutes to Shinagawa. The station stands 15.5 m above sea level, and the ground within 800 m varies in height by 17.2 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 15.5 m above sea level. Within 800 m the ground ranges from 13.5 m to 30.7 m, a difference of 17.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "成城石井",
+      "tier": "premium",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/8463614771",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ザ・ガーデン自由が丘 恵比寿店",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/8463614770",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Natural Terra",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/3307031122",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "peacock",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/340381533",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 14 clinics and 6 pharmacies. Facilities recorded as hospitals lie at 厚生中央病院, about 639 m away and 東京共済病院, about 795 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "4 lines serve the station: JR Yamanote Line, JR Saikyo Line, JR Shonan-Shinjuku Line and Tokyo Metro Hibiya Line. The lines are split between operators (JR East runs 3 lines and Tokyo Metro runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 85.",
+  "neighbours": [
+    {
+      "slug": "daikanyama",
+      "note": "607 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Ebisu."
+    },
+    {
+      "slug": "nakameguro",
+      "note": "1063 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Ebisu."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who want another route when a line stops"
+  ],
+  "notFor": [
+    "The data does not show a drawback particular to this station"
+  ],
+  "authoredBy": "data-generated"
+}

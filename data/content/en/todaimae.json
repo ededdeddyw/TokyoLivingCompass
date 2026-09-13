@@ -1,0 +1,64 @@
+{
+  "slug": "todaimae",
+  "locale": "en",
+  "name": "Todaimae",
+  "tagline": "Otemachi in 16 minutes and Tokyo in 17 minutes. Served by 1 line.",
+  "summary": "The station is in Bunkyo City, served by Tokyo Metro Namboku Line. Journey times to the main business districts are 16 minutes to Otemachi, 20 minutes to Shinjuku, 27 minutes to Shibuya and 31 minutes to Shinagawa. The station stands 21.6 m above sea level, and the ground within 800 m varies in height by 14.0 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 21.6 m above sea level. Within 800 m the ground ranges from 7.8 m to 21.8 m, a difference of 14.0 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/4558014289",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オリンピック",
+      "tier": "standard",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/5604395777",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ROSA 雑貨や",
+      "tier": "standard",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/506214929",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "赤札堂 根津店",
+      "tier": "discount",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/2890875401",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 22 clinics and 20 pharmacies. Facilities recorded as hospitals lie at 日本医科大学附属病院, about 415 m away and 慈愛病院, about 507 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Metro Namboku Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "hakusan",
+      "note": "677 m away in a straight line. It reaches Otemachi 6 minutes sooner than Todaimae."
+    },
+    {
+      "slug": "nezu",
+      "note": "689 m away in a straight line. It reaches Otemachi 7 minutes sooner than Todaimae."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

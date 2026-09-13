@@ -2,18 +2,72 @@
   "slug": "monzen-nakacho",
   "locale": "en",
   "name": "Monzen-Nakacho",
-  "tagline": "Eight minutes to Otemachi, packed with independent restaurants — but the Tozai Line is brutal.",
-  "summary": "The Tokyo Metro Tozai Line reaches Otemachi in eight minutes, and the Oedo Line runs direct to Roppongi. Having grown up as a temple town around Tomioka Hachiman Shrine, the area has an unusually high density of independent, owner-run restaurants. The drawback is the Tozai Line at rush hour — one of the most crowded stretches in Tokyo.",
+  "tagline": "Otemachi in 8 minutes and Tokyo in 14 minutes. Served by 2 lines. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
+  "summary": "The station is in Koto City, served by Tokyo Metro Tozai Line and Toei Oedo Line. Journey times to the main business districts are 8 minutes to Otemachi, 28 minutes to Shinjuku, 31 minutes to Shibuya and 27 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000.The station stands 0.8 m above sea level, and the ground within 800 m varies in height by 2.7 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 0.8 m above sea level. Within 800 m the ground ranges from -0.5 m to 2.2 m, a difference of 2.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 9 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "オオゼキ",
+      "tier": "discount",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/4266120889",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "赤札堂",
+      "tier": "discount",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/2279256379",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/4447013602",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "食品館あおば",
+      "tier": "discount",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/9055938728",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 2 pharmacies. Facilities recorded as hospitals lie at 修世会木場病院, about 1058 m away and 石川島記念病院, about 1083 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Tokyo Metro Tozai Line and Toei Oedo Line. The lines are split between operators (Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "rentRange": {
+    "note": "One room ¥130,000 to ¥140,000, 1K ¥130,000 to ¥140,000, 1LDK ¥200,000 to ¥210,000 and 2LDK ¥280,000 to ¥290,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "drivers": [
+      "Age and construction of the building",
+      "Walking distance from the station",
+      "Whether it faces a main road or the railway",
+      "Whether it sits at the top or the bottom of a slope",
+      "Floor area for the layout"
+    ]
+  },
+  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000.",
+  "neighbours": [
+    {
+      "slug": "etchujima",
+      "note": "536 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Monzen-Nakacho."
+    },
+    {
+      "slug": "kiba",
+      "note": "1017 m away in a straight line. It reaches Otemachi in about the same time as Monzen-Nakacho."
+    }
+  ],
   "goodFor": [
-    "People commuting to Otemachi or Nihonbashi",
-    "People who eat out often",
-    "People who want a neighborhood with real local life"
+    "People commuting to Otemachi and Marunouchi",
+    "People who get around by bicycle or with a pushchair"
   ],
   "notFor": [
-    "People who cannot tolerate packed trains",
-    "People who want a quiet residential street",
-    "People who prefer newer developments"
+    "People avoiding projected flood inundation areas"
   ],
-  "residentComment": "People choose this station for the short commute and the food, and both deliver. But the Tozai Line in the morning is genuinely hard, and opinions split entirely on whether that is acceptable. The Oedo Line is a slower way out.",
-  "authoredBy": "seed-placeholder"
+  "authoredBy": "data-generated"
 }

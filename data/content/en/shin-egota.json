@@ -1,0 +1,61 @@
+{
+  "slug": "shin-egota",
+  "locale": "en",
+  "name": "Shin-Egota",
+  "tagline": "Shinjuku in 16 minutes and Shibuya in 26 minutes. Served by 1 line.",
+  "summary": "The station is in Nerima City, served by Toei Oedo Line. Journey times to the main business districts are 35 minutes to Otemachi, 16 minutes to Shinjuku, 26 minutes to Shibuya and 47 minutes to Shinagawa. The station stands 38.3 m above sea level, and the ground within 800 m varies in height by 9.7 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 38.3 m above sea level. Within 800 m the ground ranges from 28.6 m to 38.3 m, a difference of 9.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 3 to 5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "マルエツ",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/4264145690",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "いなげや",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/1685980791",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "escamare",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/5602438120",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/5601377727",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 6 clinics and 6 pharmacies. Facilities recorded as hospitals lie at 練馬総合病院, about 591 m away and 総合東京病院, about 781 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Toei Oedo Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "ekoda",
+      "note": "591 m away in a straight line. It reaches Otemachi 4 minutes sooner than Shin-Egota."
+    },
+    {
+      "slug": "shin-sakuradai",
+      "note": "939 m away in a straight line. It reaches Otemachi in about the same time as Shin-Egota."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

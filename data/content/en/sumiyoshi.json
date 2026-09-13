@@ -1,0 +1,63 @@
+{
+  "slug": "sumiyoshi",
+  "locale": "en",
+  "name": "Sumiyoshi",
+  "tagline": "Otemachi in 12 minutes and Tokyo in 16 minutes. Served by 2 lines.",
+  "summary": "The station is in Koto City, served by Tokyo Metro Hanzomon Line and Toei Shinjuku Line. Journey times to the main business districts are 12 minutes to Otemachi, 26 minutes to Shinjuku, 30 minutes to Shibuya and 31 minutes to Shinagawa. The station stands 0.1 m above sea level, and the ground within 800 m varies in height by 1.4 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits lower than the ground around it, at 0.1 m above sea level. Within 800 m the ground ranges from 0 m to 1.4 m, a difference of 1.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 8 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/10775359213",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ライフ 深川猿江店",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/2430670094",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オーケーストア 住吉店",
+      "tier": "discount",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/7179108011",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "肉のハナマサ 住吉店",
+      "tier": "discount",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/3007838267",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 15 clinics and 8 pharmacies. Facilities recorded as hospitals lie at あそか病院, about 341 m away and 都立墨東病院, about 692 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Tokyo Metro Hanzomon Line and Toei Shinjuku Line. The lines are split between operators (Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "neighbours": [
+    {
+      "slug": "kikukawa",
+      "note": "876 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Sumiyoshi."
+    },
+    {
+      "slug": "kinshicho",
+      "note": "895 m away in a straight line. It reaches Otemachi in about the same time as Sumiyoshi."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People who get around by bicycle or with a pushchair",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas"
+  ],
+  "authoredBy": "data-generated"
+}

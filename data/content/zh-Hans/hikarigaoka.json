@@ -1,0 +1,64 @@
+{
+  "slug": "hikarigaoka",
+  "locale": "zh-Hans",
+  "name": "光が丘",
+  "tagline": "到新宿27分钟、到涩谷37分钟。有1条线路经过。",
+  "summary": "车站位于練馬区，有都営大江戸線经过。到主要商务区的所需时间为：到大手町46分钟、到新宿27分钟、到涩谷37分钟、到品川58分钟。车站海拔36.7米，周边800米范围内的高低差为4.3米。车站周围的地形基本平坦。",
+  "terrain": {
+    "slope": "flat",
+    "note": "车站所在的位置低于周围，海拔36.7米。周边800米范围内，海拔从36.3米到40.6米，相差4.3米。以上数值取自日本国土地理院的海拔API，读取了车站本身和半径400米的八个方位，共九个点。"
+  },
+  "hazards": "在按可能出现的最大降雨量推算的洪水浸水想定区域中，车站所在的地点被划入区域，推算的水深为0.5至3米。在车站400米以内查看的九个点中，有4个点被划入区域，其中推算最深的水深为0.5至3米。同一个车站周边，推算的水深也会因街区而异，所以请按具体地址查看所在区发布的灾害地图。内涝没有全国统一的地图，由各区分别发布，也一并看一看为好。",
+  "groceries": [
+    {
+      "name": "アコレ",
+      "tier": "discount",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/2729144802",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "LIVIN",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/2251428725",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "イオン 練馬店",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/2251428700",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツ",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/5289046738",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "从车站步行800米以内，有诊所7家、药店4家。登记为医院的设施，距离为練馬光が丘病院约564米、忠医会病院约1179米。能否住院、设有哪些科室，OpenStreetMap 上没有记载，请到各设施的网站上确认。夜间和休息日能就诊的医疗机构，可以向所住区的急救咨询窗口查询。",
+  "stationNote": "可以使用都営大江戸線这1条线路。只有一条线路经过，这条线路停运时，就要步行到有其他线路经过的车站。按线路数量和运营方的分散程度计算，换乘便利度为32分（满分100分）。",
+  "neighbours": [
+    {
+      "slug": "nerima-kasugacho",
+      "note": "直线距离1311米。到大手町比光が丘早到3分钟。"
+    },
+    {
+      "slug": "chikatetsu-akatsuka",
+      "note": "直线距离1908米。到大手町比光が丘早到7分钟。"
+    }
+  ],
+  "goodFor": [
+    "经常骑自行车或推婴儿车出行的人",
+    "看重公园就在附近的人"
+  ],
+  "notFor": [
+    "希望避开洪水浸水想定区域的人",
+    "希望停运时还有其他路线可走的人",
+    "看重外出就餐的店铺数量的人"
+  ],
+  "authoredBy": "data-generated"
+}

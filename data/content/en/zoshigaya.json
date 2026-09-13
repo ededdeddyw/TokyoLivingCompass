@@ -1,0 +1,64 @@
+{
+  "slug": "zoshigaya",
+  "locale": "en",
+  "name": "Zoshigaya",
+  "tagline": "Shinjuku in 15 minutes and Shibuya in 16 minutes. Served by 2 lines.",
+  "summary": "The station is in Toshima City, served by Tokyo Metro Fukutoshin Line and Tokyo Sakura Tram (Toden Arakawa Line). Journey times to the main business districts are 26 minutes to Otemachi, 15 minutes to Shinjuku, 16 minutes to Shibuya and 41 minutes to Shinagawa. The station stands 28.5 m above sea level, and the ground within 800 m varies in height by 7.4 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 28.5 m above sea level. Within 800 m the ground ranges from 24.3 m to 31.7 m, a difference of 7.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "リコス",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/13310445977",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/5056503188",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オークラ",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/13897787860",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "肉のハナマサ 池袋店",
+      "tier": "discount",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/5939918285",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 3 clinics and 7 pharmacies. Facilities recorded as hospitals lie at 芳精会ぬかりや病院, about 742 m away and 大同病院, about 806 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Tokyo Metro Fukutoshin Line and Tokyo Sakura Tram (Toden Arakawa Line). The lines are split between operators (Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "neighbours": [
+    {
+      "slug": "gakushuinshita",
+      "note": "501 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Zoshigaya."
+    },
+    {
+      "slug": "toden-zoshigaya",
+      "note": "522 m away in a straight line. It reaches Otemachi in about the same time as Zoshigaya."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who get around by bicycle or with a pushchair",
+    "People who want to finish their shopping on foot",
+    "People avoiding projected flood inundation areas"
+  ],
+  "notFor": [
+    "The data does not show a drawback particular to this station"
+  ],
+  "authoredBy": "data-generated"
+}

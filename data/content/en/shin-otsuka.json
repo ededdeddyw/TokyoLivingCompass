@@ -1,0 +1,63 @@
+{
+  "slug": "shin-otsuka",
+  "locale": "en",
+  "name": "Shin-Otsuka",
+  "tagline": "Otemachi in 14 minutes and Tokyo in 15 minutes. Served by 1 line.",
+  "summary": "The station is in Bunkyo City, served by Tokyo Metro Marunouchi Line. Journey times to the main business districts are 14 minutes to Otemachi, 16 minutes to Shinjuku, 21 minutes to Shibuya and 30 minutes to Shinagawa. The station stands 25 m above sea level, and the ground within 800 m varies in height by 17.2 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits on the higher side of the ground around it, at 25 m above sea level. Within 800 m the ground ranges from 14 m to 31.2 m, a difference of 17.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/13083926195",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "シマダヤ",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/5586738029",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "A MYANMAR ASIA STORE",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/13347276709",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ラマニア ハラルスーパーマーケット",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/13347178675",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 9 clinics and 5 pharmacies. Facilities recorded as hospitals lie at 東弘会山川病院, about 229 m away and 都立大塚病院, about 231 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Metro Marunouchi Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "mukohara",
+      "note": "583 m away in a straight line. It takes 14 minutes longer to reach Otemachi than Shin-Otsuka."
+    },
+    {
+      "slug": "otsuka",
+      "note": "678 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Shin-Otsuka."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
+    "People who want to finish their shopping on foot"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

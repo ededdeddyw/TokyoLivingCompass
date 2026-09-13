@@ -1,0 +1,63 @@
+{
+  "slug": "shinagawa",
+  "locale": "en",
+  "name": "Shinagawa",
+  "tagline": "Shinagawa in 1 minute and Tokyo in 10 minutes. Served by 6 lines.",
+  "summary": "The station is in Minato City, served by JR Tokaido Line, JR Yamanote Line, JR Yokosuka Line, Narita Express, JR Keihin-Tohoku Line and Keikyu Main Line. Journey times to the main business districts are 16 minutes to Otemachi, 26 minutes to Shinjuku, 21 minutes to Shibuya and 1 minute to Shinagawa. The station stands 3.1 m above sea level, and the ground within 800 m varies in height by 14.3 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 3.1 m above sea level. Within 800 m the ground ranges from 2.6 m to 16.9 m, a difference of 14.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 5 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "京急ストア 高輪店",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/8946391500",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 北品川駅東店",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/9894289430",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "成城石井 ニュウマン高輪店",
+      "tier": "premium",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/14122805116",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ZEROCORNER",
+      "tier": "standard",
+      "walkMinutes": 13,
+      "sourceUrl": "https://www.openstreetmap.org/node/14122805109",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 7 clinics and 8 pharmacies. Facilities recorded as hospitals lie at 地域医療機能推進機構東京高輪病院, about 701 m away and 河野臨牀医学研究所附属第三北品川病院, about 817 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "6 lines serve the station: JR Tokaido Line, JR Yamanote Line, JR Yokosuka Line, Narita Express, JR Keihin-Tohoku Line and Keikyu Main Line. The lines are split between operators (JR East runs 5 lines and Keikyu runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 98.",
+  "neighbours": [
+    {
+      "slug": "kitashinagawa",
+      "note": "691 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Shinagawa."
+    },
+    {
+      "slug": "takanawa-gateway",
+      "note": "778 m away in a straight line. It reaches Otemachi in about the same time as Shinagawa."
+    }
+  ],
+  "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
+    "People who want another route when a line stops"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want to finish their shopping on foot"
+  ],
+  "authoredBy": "data-generated"
+}

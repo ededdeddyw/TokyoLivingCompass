@@ -1,0 +1,64 @@
+{
+  "slug": "shimo-itabashi",
+  "locale": "en",
+  "name": "Shimo-Itabashi",
+  "tagline": "Shinjuku in 16 minutes and Shibuya in 21 minutes. Served by 1 line.",
+  "summary": "The station is in Toshima City, served by Tobu Tojo Line. Journey times to the main business districts are 27 minutes to Otemachi, 16 minutes to Shinjuku, 21 minutes to Shibuya and 42 minutes to Shinagawa. The station stands 25 m above sea level, and the ground within 800 m varies in height by 8.1 m. The land around the station has gentle slopes.",
+  "terrain": {
+    "slope": "some",
+    "note": "The station sits lower than the ground around it, at 25 m above sea level. Within 800 m the ground ranges from 23.3 m to 31.4 m, a difference of 8.1 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "ヨークマート 下板橋店",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1669563603",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツ",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/1669568490",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/5467231332",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "コープ",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/1669568182",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 3 clinics and 9 pharmacies. Facilities recorded as hospitals lie at 小川医院, about 729 m away and 高見産婦人科, about 967 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tobu Tojo Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "itabashi",
+      "note": "427 m away in a straight line. It reaches Otemachi in about the same time as Shimo-Itabashi."
+    },
+    {
+      "slug": "kita-ikebukuro",
+      "note": "524 m away in a straight line. It reaches Otemachi in about the same time as Shimo-Itabashi."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who want to finish their shopping on foot",
+    "People who want a park close by"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want another route when service is suspended"
+  ],
+  "authoredBy": "data-generated"
+}

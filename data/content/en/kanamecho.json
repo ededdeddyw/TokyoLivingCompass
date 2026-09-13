@@ -1,0 +1,56 @@
+{
+  "slug": "kanamecho",
+  "locale": "en",
+  "name": "Kanamecho",
+  "tagline": "Shinjuku in 15 minutes and Shibuya in 20 minutes. Served by 2 lines.",
+  "summary": "The station is in Toshima City, served by Tokyo Metro Yurakucho Line and Tokyo Metro Fukutoshin Line. Journey times to the main business districts are 24 minutes to Otemachi, 15 minutes to Shinjuku, 20 minutes to Shibuya and 41 minutes to Shinagawa. The station stands 28.8 m above sea level, and the ground within 800 m varies in height by 6.7 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits lower than the ground around it, at 28.8 m above sea level. Within 800 m the ground ranges from 27.9 m to 34.6 m, a difference of 6.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/6071824418",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "大黒屋",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/6138423374",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "東武ストア",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/1666798532",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 8 clinics and 6 pharmacies. Facilities recorded as hospitals lie at 恭和会恭和記念病院, about 564 m away and 敬愛病院, about 734 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Tokyo Metro Yurakucho Line and Tokyo Metro Fukutoshin Line. All 2 lines are run by Tokyo Metro, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "neighbours": [
+    {
+      "slug": "shiinamachi",
+      "note": "838 m away in a straight line. It reaches Otemachi in about the same time as Kanamecho."
+    },
+    {
+      "slug": "senkawa",
+      "note": "1017 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Kanamecho."
+    }
+  ],
+  "goodFor": [
+    "People commuting towards Shinjuku",
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "People avoiding projected flood inundation areas",
+    "People who want to finish their shopping on foot"
+  ],
+  "authoredBy": "data-generated"
+}

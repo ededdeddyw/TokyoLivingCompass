@@ -1,0 +1,62 @@
+{
+  "slug": "naka-itabashi",
+  "locale": "en",
+  "name": "Naka-Itabashi",
+  "tagline": "Shinjuku in 21 minutes and Shibuya in 26 minutes. Served by 1 line.",
+  "summary": "The station is in Itabashi City, served by Tobu Tojo Line. Journey times to the main business districts are 32 minutes to Otemachi, 21 minutes to Shinjuku, 26 minutes to Shibuya and 47 minutes to Shinagawa. The station stands 22.9 m above sea level, and the ground within 800 m varies in height by 6.8 m. The land around the station is close to level.",
+  "terrain": {
+    "slope": "flat",
+    "note": "The station sits on the higher side of the ground around it, at 22.9 m above sea level. Within 800 m the ground ranges from 20 m to 26.8 m, a difference of 6.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  },
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "groceries": [
+    {
+      "name": "まいばすけっと 板橋仲町店",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/2577031115",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "よしや",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/1702302482",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "サミット 板橋弥生町店",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/3727155925",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Yoshiya",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/1670611610",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "Within an 800 m walk of the station there are 1 clinic and 2 pharmacies. Facilities recorded as hospitals lie at 豊島病院, about 688 m away and 日本大学医学部付属板橋病院, about 785 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tobu Tojo Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "neighbours": [
+    {
+      "slug": "tokiwadai",
+      "note": "580 m away in a straight line. It reaches Otemachi in about the same time as Naka-Itabashi."
+    },
+    {
+      "slug": "oyama",
+      "note": "1127 m away in a straight line. It reaches Otemachi in about the same time as Naka-Itabashi."
+    }
+  ],
+  "goodFor": [
+    "People who get around by bicycle or with a pushchair"
+  ],
+  "notFor": [
+    "People who want another route when service is suspended",
+    "People who want plenty of places to eat out"
+  ],
+  "authoredBy": "data-generated"
+}

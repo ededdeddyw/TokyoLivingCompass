@@ -1,0 +1,64 @@
+{
+  "slug": "omote-sando",
+  "locale": "zh-Hans",
+  "name": "表参道",
+  "tagline": "到涩谷3分钟、到虎之门10分钟。有3条线路经过。",
+  "summary": "车站位于港区，有東京メトロ銀座線、東京メトロ千代田線、東京メトロ半蔵門線经过。到主要商务区的所需时间为：到大手町14分钟、到新宿13分钟、到涩谷3分钟、到品川24分钟。车站海拔33.6米，周边800米范围内的高低差为10.7米。车站周围的地形有缓坡。",
+  "terrain": {
+    "slope": "some",
+    "note": "车站所在的位置在周围属于较高的一侧，海拔33.6米。周边800米范围内，海拔从23.6米到34.3米，相差10.7米。以上数值取自日本国土地理院的海拔API，读取了车站本身和半径400米的八个方位，共九个点。"
+  },
+  "hazards": "在按可能出现的最大降雨量推算的洪水浸水想定区域中，车站所在的地点，以及车站400米以内的九个点，都在区域之外。同一个车站周边，推算的水深也会因街区而异，所以请按具体地址查看所在区发布的灾害地图。内涝没有全国统一的地图，由各区分别发布，也一并看一看为好。",
+  "groceries": [
+    {
+      "name": "Family Mart",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/3002725537",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "紀伊国屋",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/1966261611",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Smail Seeds Market",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/2987623139",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Bio C' Bon",
+      "tier": "premium",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/1964113580",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "从车站步行800米以内，有诊所22家、药店17家。登记为医院的设施，距离为伊藤病院约190米、北青山病院约210米。能否住院、设有哪些科室，OpenStreetMap 上没有记载，请到各设施的网站上确认。夜间和休息日能就诊的医疗机构，可以向所住区的急救咨询窗口查询。",
+  "stationNote": "可以使用東京メトロ銀座線、東京メトロ千代田線、東京メトロ半蔵門線这3条线路。3条线路都由东京地铁运营，遇到波及整个运营公司的故障时，可能会一起停运。按线路数量和运营方的分散程度计算，换乘便利度为68分（满分100分）。",
+  "neighbours": [
+    {
+      "slug": "gaiemmae",
+      "note": "直线距离771米。到大手町比表参道多花5分钟。"
+    },
+    {
+      "slug": "meiji-jingumae",
+      "note": "直线距离883米。到大手町的时间与表参道差不多。"
+    }
+  ],
+  "goodFor": [
+    "到大手町、丸之内一带通勤的人",
+    "到新宿方向通勤的人",
+    "希望线路停运时还有其他路线可走的人",
+    "希望避开洪水浸水想定区域的人"
+  ],
+  "notFor": [
+    "从数据中看不出这个车站特有的短处"
+  ],
+  "authoredBy": "data-generated"
+}
