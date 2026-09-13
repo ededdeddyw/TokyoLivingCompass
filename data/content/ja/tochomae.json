@@ -1,0 +1,63 @@
+{
+  "slug": "tochomae",
+  "locale": "ja",
+  "name": "都庁前",
+  "tagline": "新宿へ18分、渋谷へ19分で着く。1路線が乗り入れる。",
+  "summary": "新宿区にあり、都営大江戸線が乗り入れる。主なオフィス街までの所要時間は、大手町へ24分、新宿へ18分、渋谷へ19分、品川へ43分である。駅の標高は33.4mで、周囲800mの標高差は11.7mある。駅の周りの土地はゆるやかな坂がある。",
+  "terrain": {
+    "slope": "some",
+    "note": "駅は周囲より低い場所にあり、標高は33.4mである。周囲800mの標高は30.1mから41.8mまで分かれ、その差は11.7mある。国土地理院の標高APIから、駅と半径400mの8方位、計9点を読み取った値である。"
+  },
+  "hazards": "洪水浸水想定区域（想定最大規模）では、駅の地点も、駅から400m以内の9地点も、いずれも区域の外にある。想定される深さは同じ駅でも区画ごとに違うので、住所ごとに区のハザードマップで確認したい。内水氾濫は全国共通の地図が公開されておらず区が個別に出しているため、あわせて見ておきたい。",
+  "groceries": [
+    {
+      "name": "Maruetsu petit",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/1933369878",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "はんこ屋さん21 西新宿店",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/7943618751",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/7003764942",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "TOMIZ",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/4919935621",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "駅から歩いて800m以内に、クリニックが10件、薬局が22件ある。病院として登録されている施設は、東京医科大学病院が372mほど、myhospitalが393mほどの距離にある。入院できるかどうか、何科があるかまでは OpenStreetMap には書かれていないので、各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
+  "stationNote": "都営大江戸線の1路線が使える。乗り入れは1路線だけなので、その路線が止まったときは、ほかの路線が通る駅まで歩くことになる。路線数と事業者の広がりから計算した乗換の利便性は、100点満点で32点である。",
+  "neighbours": [
+    {
+      "slug": "nishi-shinjuku",
+      "note": "直線で417mの距離にある。大手町へは都庁前と同じくらいの時間で着く。"
+    },
+    {
+      "slug": "shinjuku",
+      "note": "直線で654mの距離にある。大手町へは都庁前より5分早く着く。"
+    }
+  ],
+  "goodFor": [
+    "新宿方面へ通勤する人",
+    "公園が近いことを重視する人",
+    "洪水の浸水想定区域を避けたい人"
+  ],
+  "notFor": [
+    "運転見合わせのときに別の経路が欲しい人"
+  ],
+  "authoredBy": "data-generated"
+}

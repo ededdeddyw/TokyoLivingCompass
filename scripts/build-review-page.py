@@ -218,9 +218,10 @@ def render(d):
         f'<section class="layer"><h3 class="layer-title">向かない人</h3>'
         f'<ul class="bare bad">{unfit}</ul></section></div>')
 
-    parts.append(block(
-        "東京在住者コメント",
-        f'<blockquote class="quote">{e(d["residentComment"])}</blockquote>'))
+    if d.get("residentComment"):
+        parts.append(block(
+            "東京在住者コメント",
+            f'<blockquote class="quote">{e(d["residentComment"])}</blockquote>'))
     parts.append("</article>")
     return "\n".join(parts)
 

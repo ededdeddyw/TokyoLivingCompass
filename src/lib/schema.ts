@@ -403,15 +403,19 @@ export const stationContentSchema = z.object({
   /** 家賃の幅と、その幅を生んでいる要因 */
   rentRange: rentRangeSchema.optional(),
 
-  /** 東京在住者コメント。公開版は人間が書く（docs/02-data-model.md §4） */
-  residentComment: z.string().min(1),
+  /**
+   * 東京在住者コメント。公開版は人間が書く（docs/02-data-model.md §4）。
+   * データから組み立てた駅にはこれが無い。無い駅では、その節ごと表示しない。
+   */
+  residentComment: z.string().min(1).optional(),
   /**
    * human            = 人間が書いた（公開できる）
+   * data-generated   = 出典のあるデータだけから組み立てた。書き手の記憶による記述を含まない
    * ai-localized     = 日本語マスターから AI がローカライズし、人間がレビュー済み
    * seed-placeholder = 開発用の仮テキスト。公開してはならない
    * draft            = 構成は書けているが、事実確認が済んでいない
    */
-  authoredBy: z.enum(["human", "ai-localized", "seed-placeholder", "draft"]),
+  authoredBy: z.enum(["human", "data-generated", "ai-localized", "seed-placeholder", "draft"]),
 });
 
 /** 深さを作る層のキー。充足率の計測と品質判定に使う。 */

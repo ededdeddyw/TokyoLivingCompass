@@ -231,11 +231,13 @@ export default async function StationPage({
         neighbourNames={neighbourNames}
       />
 
-      <Section title={dict.station.residentComment}>
-        <blockquote className="rounded-md border-l-4 border-accent bg-accent-soft px-5 py-4 leading-relaxed text-ink">
-          {station.content.residentComment}
-        </blockquote>
-      </Section>
+      {station.content.residentComment && (
+        <Section title={dict.station.residentComment}>
+          <blockquote className="rounded-md border-l-4 border-accent bg-accent-soft px-5 py-4 leading-relaxed text-ink">
+            {station.content.residentComment}
+          </blockquote>
+        </Section>
+      )}
 
       {station.facilities && (
         <Section title={dict.station.facilities}>

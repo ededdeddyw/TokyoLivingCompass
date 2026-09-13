@@ -1,0 +1,62 @@
+{
+  "slug": "nishi-shinjuku",
+  "locale": "ja",
+  "name": "西新宿",
+  "tagline": "新宿へ2分、渋谷へ12分で着く。1路線が乗り入れる。",
+  "summary": "新宿区にあり、東京メトロ丸ノ内線が乗り入れる。主なオフィス街までの所要時間は、大手町へ22分、新宿へ2分、渋谷へ12分、品川へ33分である。駅の標高は37.5mで、周囲800mの標高差は13.6mある。駅の周りの土地はゆるやかな坂がある。",
+  "terrain": {
+    "slope": "some",
+    "note": "駅は周囲の中では高いほうにあり、標高は37.5mである。周囲800mの標高は25.8mから39.4mまで分かれ、その差は13.6mある。国土地理院の標高APIから、駅と半径400mの8方位、計9点を読み取った値である。"
+  },
+  "hazards": "洪水浸水想定区域（想定最大規模）では、駅の地点は区域の外にある。駅から400m以内で見た9地点のうち2地点が区域に含まれ、その中で最も深い想定は0.5〜3mである。想定される深さは同じ駅でも区画ごとに違うので、住所ごとに区のハザードマップで確認したい。内水氾濫は全国共通の地図が公開されておらず区が個別に出しているため、あわせて見ておきたい。",
+  "groceries": [
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/7003764942",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "もとまちUNION",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/1933369881",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オリンピック 北新宿店",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/7659701731",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Maruetsu petit",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/1933369878",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "medical": "駅から歩いて800m以内に、クリニックが10件、薬局が23件ある。病院として登録されている施設は、東京医科大学病院が72mほど、myhospitalが479mほどの距離にある。入院できるかどうか、何科があるかまでは OpenStreetMap には書かれていないので、各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
+  "stationNote": "東京メトロ丸ノ内線の1路線が使える。乗り入れは1路線だけなので、その路線が止まったときは、ほかの路線が通る駅まで歩くことになる。路線数と事業者の広がりから計算した乗換の利便性は、100点満点で32点である。",
+  "neighbours": [
+    {
+      "slug": "tochomae",
+      "note": "直線で417mの距離にある。大手町へは西新宿と同じくらいの時間で着く。"
+    },
+    {
+      "slug": "shinjuku-nishiguchi",
+      "note": "直線で586mの距離にある。大手町へは西新宿と同じくらいの時間で着く。"
+    }
+  ],
+  "goodFor": [
+    "新宿方面へ通勤する人",
+    "公園が近いことを重視する人"
+  ],
+  "notFor": [
+    "運転見合わせのときに別の経路が欲しい人"
+  ],
+  "authoredBy": "data-generated"
+}
