@@ -1,0 +1,20 @@
+{
+  "slug": "sendagi",
+  "observations": [
+    {
+      "source": "Yahoo!不動産",
+      "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2346/2346060/",
+      "retrievedAt": "2026-09-13",
+      "basis": "asking",
+      "statistic": "mean",
+      "verified": true,
+      "coverage": "掲載されている賃貸物件の平均賃料",
+      "rent": {
+        "oneRoom": 92000,
+        "oneK": 111000,
+        "oneLDK": 195000,
+        "twoLDK": 260000
+      }
+    }
+  ]
+}

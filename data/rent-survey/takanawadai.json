@@ -1,0 +1,20 @@
+{
+  "slug": "takanawadai",
+  "observations": [
+    {
+      "source": "Yahoo!不動産",
+      "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2351/2351150/",
+      "retrievedAt": "2026-09-13",
+      "basis": "asking",
+      "statistic": "mean",
+      "verified": true,
+      "coverage": "掲載されている賃貸物件の平均賃料",
+      "rent": {
+        "oneRoom": 129000,
+        "oneK": 140000,
+        "oneLDK": 260000,
+        "twoLDK": 490000
+      }
+    }
+  ]
+}

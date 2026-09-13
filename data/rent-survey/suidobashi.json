@@ -1,0 +1,20 @@
+{
+  "slug": "suidobashi",
+  "observations": [
+    {
+      "source": "Yahoo!不動産",
+      "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2199/2244/",
+      "retrievedAt": "2026-09-13",
+      "basis": "asking",
+      "statistic": "mean",
+      "verified": true,
+      "coverage": "掲載されている賃貸物件の平均賃料",
+      "rent": {
+        "oneRoom": 138000,
+        "oneK": 146000,
+        "oneLDK": 241000,
+        "twoLDK": 366000
+      }
+    }
+  ]
+}

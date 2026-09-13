@@ -1,0 +1,20 @@
+{
+  "slug": "yaguchi-no-watashi",
+  "observations": [
+    {
+      "source": "Yahoo!不動産",
+      "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2322/2322140/",
+      "retrievedAt": "2026-09-13",
+      "basis": "asking",
+      "statistic": "mean",
+      "verified": true,
+      "coverage": "掲載されている賃貸物件の平均賃料",
+      "rent": {
+        "oneRoom": 87000,
+        "oneK": 103000,
+        "oneLDK": 160000,
+        "twoLDK": 216000
+      }
+    }
+  ]
+}

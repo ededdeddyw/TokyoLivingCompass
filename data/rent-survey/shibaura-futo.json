@@ -1,0 +1,20 @@
+{
+  "slug": "shibaura-futo",
+  "observations": [
+    {
+      "source": "Yahoo!不動産",
+      "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2357/2357130/",
+      "retrievedAt": "2026-09-13",
+      "basis": "asking",
+      "statistic": "mean",
+      "verified": true,
+      "coverage": "掲載されている賃貸物件の平均賃料",
+      "rent": {
+        "oneRoom": 160000,
+        "oneK": 138000,
+        "oneLDK": 260000,
+        "twoLDK": 363000
+      }
+    }
+  ]
+}

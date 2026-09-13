@@ -1,0 +1,20 @@
+{
+  "slug": "shinagawa",
+  "observations": [
+    {
+      "source": "Yahoo!不動産",
+      "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2102/2149/",
+      "retrievedAt": "2026-09-13",
+      "basis": "asking",
+      "statistic": "mean",
+      "verified": true,
+      "coverage": "掲載されている賃貸物件の平均賃料",
+      "rent": {
+        "oneRoom": 172000,
+        "oneK": 138000,
+        "oneLDK": 267000,
+        "twoLDK": 413000
+      }
+    }
+  ]
+}
