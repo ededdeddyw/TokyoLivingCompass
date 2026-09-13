@@ -12,7 +12,7 @@
   },
   "terrain": {
     "slope": "flat",
-    "note": "隅田川の河口に近い低地で、起伏がほとんどない。自転車で日本橋・銀座方面まで無理なく出られ、清澄白河・森下と同じくベビーカーでも移動しやすい。深川エリアに共通する利点といえる。"
+    "note": "隅田川の河口に近い低地で、標高は1m前後、周囲800mの標高差も3mしかない。自転車で日本橋・銀座方面まで無理なく出られ、清澄白河・森下と同じくベビーカーでも移動しやすい。深川エリアに共通する利点といえる。"
   },
   "noiseSources": [
     "永代通りと清澄通りが交差する立地で、幹線道路の車の通りが絶えない",
@@ -22,12 +22,32 @@
   ],
   "groceries": [
     {
-      "name": "赤札堂 深川店",
+      "name": "オオゼキ",
       "tier": "discount",
-      "walkMinutes": 1,
-      "note": "江東区門前仲町2-10-1にあり、6番出口から徒歩1分で着く。1階が食料品と生鮮品の売り場で、生鮮品が安い",
-      "sourceUrl": "https://www.ababakafudado.co.jp/afd/shop/fukagawa/",
-      "verifiedAt": "2026-09-12"
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/4266120889",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "赤札堂",
+      "tier": "discount",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/2279256379",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/4447013602",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "食品館あおば",
+      "tier": "discount",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/9055938728",
+      "verifiedAt": "2026-09-13"
     }
   ],
   "residents": "古くから深川に住む世帯の比率が高く、町会が活発に運営され、祭りにも多くの住民が参加している。近年は都心アクセスの良さから流入した単身者・共働き夫婦も増えているが、町会の役員や祭りの運営は、昔からの住民が担っている。祭りや町会の行事にどこまで関わるかを自分の都合だけでは決めにくく、そこが合うかどうかで住み心地の評価が変わる。",

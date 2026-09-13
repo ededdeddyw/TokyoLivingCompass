@@ -11,8 +11,8 @@
     "weekend": "美術館と商業施設を目当てに来る人で、ヒルズとミッドタウン周辺が混む。金曜と土曜の深夜は、路上に人が残る時間が長い。静けさを求めるなら、この街の週末は人通りが途切れず、気が休まらないと感じる可能性が高い。"
   },
   "terrain": {
-    "slope": "hilly",
-    "note": "麻布台地の上にあり、六本木ヒルズ方向にも麻布十番方向にも急な坂がある。勾配がきついため、自転車は電動でないと日常の移動が厳しい。ベビーカーでの移動も坂の方向によって負担が大きく変わるので、住む区画は坂を歩いてから決めたい。"
+    "slope": "some",
+    "note": "駅は標高31mで、周囲800mの中では最も高い場所にあたる。麻布十番方向は標高15mまで下り、標高差は17mある。どの方向へ出ても帰りは上りになるため、自転車での移動は電動でないと負担が大きい。ベビーカーでの移動も坂の方向によって変わるので、住む区画は歩いてから決めたい。"
   },
   "noiseSources": [
     "六本木通りと外苑東通りは終日車の通りが絶えず、首都高速3号渋谷線も近い",
@@ -22,11 +22,39 @@
   ],
   "groceries": [
     {
-      "name": "成城石井 六本木ヒルズ店",
+      "name": "明治屋 六本木ストアー",
       "tier": "premium",
-      "note": "港区六本木6-2-31の六本木ヒルズノースタワーB1Fにある。品ぞろえは良いが、ここだけで買い物を済ませると、平均的な収入の世帯には食費の負担がかなり大きくなる",
-      "sourceUrl": "https://shop.seijoishii.com/seijoishii/spot/detail?code=0103",
-      "verifiedAt": "2026-09-12"
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/2401062239",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "プレッセプレミアム",
+      "tier": "premium",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/11559401262",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Union",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/5174015225",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Shinanoya",
+      "tier": "premium",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/2197819596",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "KOJIMA",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/3558402073",
+      "verifiedAt": "2026-09-13"
     }
   ],
   "exits": [

@@ -12,7 +12,7 @@
   },
   "terrain": {
     "slope": "flat",
-    "note": "隅田川と小名木川に囲まれた低地で、起伏がほとんどない。自転車があれば日本橋・銀座方面まで無理なく出られる。坂を理由に住む場所を選ぶ必要がない。"
+    "note": "隅田川と小名木川に囲まれた低地で、標高は1m前後、周囲800mの標高差も3mしかない。自転車があれば日本橋・銀座方面まで無理なく出られる。坂を理由に住む場所を選ぶ必要がない。"
   },
   "noiseSources": [
     "新大橋通りと清澄通りは交通量が多く、沿道は窓を開けると車の音が入る",
@@ -78,5 +78,42 @@
     ]
   },
   "residentComment": "清澄白河の家賃が上がってきたぶん、いま割安感が残っているのは森下のほうである。2路線あって乗換なしで届く範囲が広く、通勤先が変わっても対応できる。カフェの街のような分かりやすい魅力はないが、山利喜のような店が普通に近所にある。物件は築古が目立つので、家賃の安さに飛びつかず、内見してから決めたい。低地であることは、清澄白河と同じく雰囲気とは切り離して判断すべきだろう。",
-  "authoredBy": "draft"
+  "authoredBy": "draft",
+  "groceries": [
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/13040886950",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Discount Market A･Colle",
+      "tier": "discount",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/2268159542",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ライフ 菊川店",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/2376674513",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "赤札堂",
+      "tier": "discount",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/way/650844330",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "野菜のちから",
+      "tier": "standard",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/9712857387",
+      "verifiedAt": "2026-09-13"
+    }
+  ]
 }

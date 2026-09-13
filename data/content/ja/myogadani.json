@@ -11,8 +11,8 @@
     "weekend": "来街者が集まる街ではないため、週末も落ち着いている。小石川植物園と播磨坂の桜の時期だけは人が増えるが、住宅街まで混雑が及ぶことはない。"
   },
   "terrain": {
-    "slope": "hilly",
-    "note": "文京区の台地と谷が交わる場所にあり、駅の周囲には小石川方向へ下る坂と、大塚方向へ上る坂がある。播磨坂をはじめ勾配のある道が多く、自転車での移動は電動でないと負担が大きい。ベビーカーでの移動も坂の方向によって変わるため、住む区画は歩いて確かめたい。"
+    "slope": "some",
+    "note": "駅は標高27mの台地上にあり、小石川方向へは標高18mまで下る。周囲800mの標高差は9mある。播磨坂をはじめ勾配のある道があり、坂を下った先に住むと帰りが上りになる。ベビーカーや自転車での移動は、坂のどちら側に住むかで変わる。"
   },
   "noiseSources": [
     "春日通りは車の通りが多く、沿道では終日走行音が続く",
@@ -21,11 +21,33 @@
   ],
   "groceries": [
     {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/5937692686",
+      "verifiedAt": "2026-09-13"
+    },
+    {
       "name": "三徳 茗荷谷店",
       "tier": "standard",
-      "note": "文京区にあり、日常の買い物はここで足りる",
-      "sourceUrl": "https://santoku.co.jp/shop/2064",
-      "verifiedAt": "2026-09-12"
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/5907739353",
+      "verifiedAt": "2026-09-13",
+      "note": "文京区にあり、日常の買い物はここで足りる"
+    },
+    {
+      "name": "コープ",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/9351546808",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/11074541974",
+      "verifiedAt": "2026-09-13"
     }
   ],
   "exits": [

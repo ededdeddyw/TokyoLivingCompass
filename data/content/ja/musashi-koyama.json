@@ -11,8 +11,8 @@
     "weekend": "買い物客で商店街が混み、アーケードの中は人とすれ違うのに気を使うほどになる。観光地ではないため来街者は近隣住民が中心で、中目黒や高円寺のように遠方から人が集まることはない。"
   },
   "terrain": {
-    "slope": "some",
-    "note": "駅は谷筋にあり、目黒方面と戸越方面へはどちらも上り坂になる。勾配はきつくないが距離があるため、自転車は電動でないと買い物帰りがつらい区画がある。商店街の中は平坦なので、日常の買い物だけなら坂を意識せずに済む。"
+    "slope": "flat",
+    "note": "駅は標高28mの台地上にあり、周囲800mの標高差は5mほどにとどまる。立会川の暗渠にあたる谷筋へ向かう方向がわずかに下るが、勾配は緩い。商店街の中は平坦で、日常の買い物で坂を意識する場面は少ない。"
   },
   "noiseSources": [
     "目黒線は地下化されているため、線路沿いでも走行音はほとんど聞こえない",
@@ -22,18 +22,40 @@
   ],
   "groceries": [
     {
-      "name": "オオゼキ 武蔵小山店",
-      "tier": "discount",
-      "note": "品川区小山3-22-3にあり、生鮮品が安い。ここを使うかどうかで月々の食費がはっきり変わる",
-      "sourceUrl": "https://www.ozeki-net.co.jp/shop/tokyo/shinagawa/musashikoyama/",
-      "verifiedAt": "2026-09-12"
+      "name": "東急ストア 武蔵小山駅ビル店",
+      "tier": "standard",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/5763108771",
+      "verifiedAt": "2026-09-13"
     },
     {
-      "name": "ライフ 武蔵小山店",
+      "name": "Bio C' Bon 武蔵小山店",
+      "tier": "premium",
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/9065678025",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ピカール",
+      "tier": "premium",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/10732702869",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オオゼキ 武蔵小山店",
+      "tier": "discount",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1897801869",
+      "verifiedAt": "2026-09-13",
+      "note": "品川区小山3-22-3にあり、生鮮品が安い。ここを使うかどうかで月々の食費がはっきり変わる"
+    },
+    {
+      "name": "自然食品の店 F&F 武蔵小山店",
       "tier": "standard",
-      "note": "品川区小山2-7-14にある",
-      "sourceUrl": "https://store.lifecorp.jp/detail/east836/",
-      "verifiedAt": "2026-09-12"
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/8218520928",
+      "verifiedAt": "2026-09-13"
     }
   ],
   "exits": [

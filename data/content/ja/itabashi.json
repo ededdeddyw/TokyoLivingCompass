@@ -11,8 +11,8 @@
     "weekend": "来街者が集まる街ではないため、週末も落ち着いている。買い物では池袋まで出る住民が多く、駅前は平日と大きく変わらない。"
   },
   "terrain": {
-    "slope": "some",
-    "note": "駅は石神井川に近い低地にあり、板橋区役所方向と豊島区側へは上り坂になる。勾配はきつくないが、自転車で坂を上る場面がある。駅前と旧中山道沿いは平坦なので、日常の買い物だけなら坂を意識せずに済む。"
+    "slope": "flat",
+    "note": "駅は標高27mにあり、周囲800mの標高差は6mほどにとどまる。石神井川へ向かう方向がわずかに下るが、勾配は緩く、自転車での移動に困る場面は少ない。駅前と旧中山道沿いは平坦である。"
   },
   "noiseSources": [
     "埼京線と湘南新宿ラインの線路沿いは列車の本数が多く、走行音が終電まで続く",
@@ -21,11 +21,46 @@
   ],
   "groceries": [
     {
-      "name": "ライフ 板橋店",
+      "name": "マルエツ",
       "tier": "standard",
-      "note": "板橋区板橋4-6-1にあり、都営三田線の新板橋駅寄りに立っている",
-      "sourceUrl": "https://store.lifecorp.jp/detail/east610/",
-      "verifiedAt": "2026-09-12"
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1669568490",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "コープ",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1669568182",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/5442927844",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "コモディイイダ",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/5442927843",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ヨークマート 下板橋店",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/1669563603",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Big-A",
+      "tier": "discount",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/way/566291765",
+      "verifiedAt": "2026-09-13"
     }
   ],
   "exits": [

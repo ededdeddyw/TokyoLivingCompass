@@ -1,0 +1,3599 @@
+{
+  "meta": {
+    "method": "駅と、半径400mの8方位、計9点の標高差で判定",
+    "retrievedAt": "2026-09-13",
+    "source": "国土地理院 標高API",
+    "sourceUrl": "https://maps.gsi.go.jp/development/elevation_s.html",
+    "thresholds": {
+      "flat": "< 8.0m",
+      "hilly": "≧ 20.0m",
+      "some": "8.0〜20.0m"
+    }
+  },
+  "stations": {
+    "adachi-odai": {
+      "maxM": 6.2,
+      "minM": 1.5,
+      "slope": "flat",
+      "spreadM": 4.7,
+      "stationElevationM": 1.6,
+      "stationIsLow": true
+    },
+    "akabane": {
+      "maxM": 20.8,
+      "minM": 3.1,
+      "slope": "some",
+      "spreadM": 17.7,
+      "stationElevationM": 5.5,
+      "stationIsLow": true
+    },
+    "akabane-iwabuchi": {
+      "maxM": 5.9,
+      "minM": 2.4,
+      "slope": "flat",
+      "spreadM": 3.5,
+      "stationElevationM": 2.6,
+      "stationIsLow": true
+    },
+    "akabanebashi": {
+      "maxM": 21.6,
+      "minM": 4.2,
+      "slope": "some",
+      "spreadM": 17.4,
+      "stationElevationM": 4.2,
+      "stationIsLow": true
+    },
+    "akado-shogakkomae": {
+      "maxM": 3.8,
+      "minM": 1.5,
+      "slope": "flat",
+      "spreadM": 2.3,
+      "stationElevationM": 3.4,
+      "stationIsLow": false
+    },
+    "akasaka": {
+      "maxM": 21.9,
+      "minM": 8.5,
+      "slope": "some",
+      "spreadM": 13.4,
+      "stationElevationM": 8.5,
+      "stationIsLow": true
+    },
+    "akebonobashi": {
+      "maxM": 33.5,
+      "minM": 19.7,
+      "slope": "some",
+      "spreadM": 13.8,
+      "stationElevationM": 19.7,
+      "stationIsLow": true
+    },
+    "akihabara": {
+      "maxM": 4.9,
+      "minM": 2.4,
+      "slope": "flat",
+      "spreadM": 2.5,
+      "stationElevationM": 3.4,
+      "stationIsLow": false
+    },
+    "anamori-inari": {
+      "maxM": 3.2,
+      "minM": 0.7,
+      "slope": "flat",
+      "spreadM": 2.5,
+      "stationElevationM": 1.4,
+      "stationIsLow": true
+    },
+    "aoi": {
+      "maxM": 1.6,
+      "minM": -0.8,
+      "slope": "flat",
+      "spreadM": 2.4,
+      "stationElevationM": -0.3,
+      "stationIsLow": true
+    },
+    "aomi": {
+      "maxM": 11.5,
+      "minM": 0.5,
+      "slope": "some",
+      "spreadM": 11.0,
+      "stationElevationM": 1.3,
+      "stationIsLow": true
+    },
+    "aomono-yokocho": {
+      "maxM": 15.2,
+      "minM": 2,
+      "slope": "some",
+      "spreadM": 13.2,
+      "stationElevationM": 3.4,
+      "stationIsLow": true
+    },
+    "aoto": {
+      "maxM": 1.8,
+      "minM": -0.1,
+      "slope": "flat",
+      "spreadM": 1.9,
+      "stationElevationM": 0.5,
+      "stationIsLow": false
+    },
+    "aoyama-itchome": {
+      "maxM": 34.7,
+      "minM": 20.1,
+      "slope": "some",
+      "spreadM": 14.6,
+      "stationElevationM": 32.1,
+      "stationIsLow": false
+    },
+    "araiyakushi-mae": {
+      "maxM": 38.5,
+      "minM": 29.1,
+      "slope": "some",
+      "spreadM": 9.4,
+      "stationElevationM": 37.2,
+      "stationIsLow": false
+    },
+    "arakawa-itchumae": {
+      "maxM": 3.1,
+      "minM": 1.1,
+      "slope": "flat",
+      "spreadM": 2.0,
+      "stationElevationM": 1.7,
+      "stationIsLow": true
+    },
+    "arakawa-nanachome": {
+      "maxM": 2.4,
+      "minM": 1.2,
+      "slope": "flat",
+      "spreadM": 1.2,
+      "stationElevationM": 1.5,
+      "stationIsLow": true
+    },
+    "arakawa-nichome": {
+      "maxM": 2.1,
+      "minM": 0.8,
+      "slope": "flat",
+      "spreadM": 1.3,
+      "stationElevationM": 1.7,
+      "stationIsLow": false
+    },
+    "arakawa-shakomae": {
+      "maxM": 4.6,
+      "minM": 1.8,
+      "slope": "flat",
+      "spreadM": 2.8,
+      "stationElevationM": 2.6,
+      "stationIsLow": true
+    },
+    "arakawa-yuenchimae": {
+      "maxM": 5.2,
+      "minM": 1.9,
+      "slope": "flat",
+      "spreadM": 3.3,
+      "stationElevationM": 2.1,
+      "stationIsLow": true
+    },
+    "arakawakuyakushomae": {
+      "maxM": 6.5,
+      "minM": 1.3,
+      "slope": "flat",
+      "spreadM": 5.2,
+      "stationElevationM": 1.5,
+      "stationIsLow": true
+    },
+    "ariake": {
+      "maxM": 9.3,
+      "minM": 4.9,
+      "slope": "flat",
+      "spreadM": 4.4,
+      "stationElevationM": 9.3,
+      "stationIsLow": false
+    },
+    "ariake-tennis-no-mori": {
+      "maxM": 5.3,
+      "minM": -0.6,
+      "slope": "flat",
+      "spreadM": 5.9,
+      "stationElevationM": 4.9,
+      "stationIsLow": false
+    },
+    "asagaya": {
+      "maxM": 45.3,
+      "minM": 38.6,
+      "slope": "flat",
+      "spreadM": 6.7,
+      "stationElevationM": 41,
+      "stationIsLow": false
+    },
+    "asakusa": {
+      "maxM": 4.8,
+      "minM": 1.4,
+      "slope": "flat",
+      "spreadM": 3.4,
+      "stationElevationM": 3.8,
+      "stationIsLow": false
+    },
+    "asakusa-tx": {
+      "maxM": 3.8,
+      "minM": 1.6,
+      "slope": "flat",
+      "spreadM": 2.2,
+      "stationElevationM": 1.9,
+      "stationIsLow": true
+    },
+    "asakusabashi": {
+      "maxM": 3.9,
+      "minM": 1.1,
+      "slope": "flat",
+      "spreadM": 2.8,
+      "stationElevationM": 3.3,
+      "stationIsLow": false
+    },
+    "asukayama": {
+      "maxM": 23.4,
+      "minM": 4.7,
+      "slope": "some",
+      "spreadM": 18.7,
+      "stationElevationM": 16,
+      "stationIsLow": false
+    },
+    "awajicho": {
+      "maxM": 13.7,
+      "minM": 3,
+      "slope": "some",
+      "spreadM": 10.7,
+      "stationElevationM": 4.7,
+      "stationIsLow": true
+    },
+    "ayase": {
+      "maxM": 0.1,
+      "minM": -0.7,
+      "slope": "flat",
+      "spreadM": 0.8,
+      "stationElevationM": 0,
+      "stationIsLow": false
+    },
+    "azabu-juban": {
+      "maxM": 29.6,
+      "minM": 4.3,
+      "slope": "hilly",
+      "spreadM": 25.3,
+      "stationElevationM": 5.1,
+      "stationIsLow": true
+    },
+    "bakurocho": {
+      "maxM": 4.3,
+      "minM": 1.8,
+      "slope": "flat",
+      "spreadM": 2.5,
+      "stationElevationM": 3.6,
+      "stationIsLow": false
+    },
+    "chidoricho": {
+      "maxM": 18.6,
+      "minM": 4.8,
+      "slope": "some",
+      "spreadM": 13.8,
+      "stationElevationM": 6.6,
+      "stationIsLow": true
+    },
+    "chikatetsu-akatsuka": {
+      "maxM": 35.7,
+      "minM": 31.7,
+      "slope": "flat",
+      "spreadM": 4.0,
+      "stationElevationM": 34.8,
+      "stationIsLow": false
+    },
+    "chitose-funabashi": {
+      "maxM": 51.3,
+      "minM": 39.4,
+      "slope": "some",
+      "spreadM": 11.9,
+      "stationElevationM": 41.9,
+      "stationIsLow": true
+    },
+    "chitose-karasuyama": {
+      "maxM": 48.4,
+      "minM": 45.6,
+      "slope": "flat",
+      "spreadM": 2.8,
+      "stationElevationM": 47.8,
+      "stationIsLow": false
+    },
+    "daiba": {
+      "maxM": 8.7,
+      "minM": 3.7,
+      "slope": "flat",
+      "spreadM": 5.0,
+      "stationElevationM": 5.8,
+      "stationIsLow": false
+    },
+    "daikanyama": {
+      "maxM": 33.2,
+      "minM": 9.7,
+      "slope": "hilly",
+      "spreadM": 23.5,
+      "stationElevationM": 24.7,
+      "stationIsLow": false
+    },
+    "daimon": {
+      "maxM": 3.2,
+      "minM": 1.1,
+      "slope": "flat",
+      "spreadM": 2.1,
+      "stationElevationM": 3.2,
+      "stationIsLow": false
+    },
+    "daishimae": {
+      "maxM": 2.3,
+      "minM": 0.8,
+      "slope": "flat",
+      "spreadM": 1.5,
+      "stationElevationM": 2,
+      "stationIsLow": false
+    },
+    "daitabashi": {
+      "maxM": 47.9,
+      "minM": 41.3,
+      "slope": "flat",
+      "spreadM": 6.6,
+      "stationElevationM": 47.6,
+      "stationIsLow": false
+    },
+    "den-en-chofu": {
+      "maxM": 40.2,
+      "minM": 21.9,
+      "slope": "some",
+      "spreadM": 18.3,
+      "stationElevationM": 30.3,
+      "stationIsLow": false
+    },
+    "ebara-machi": {
+      "maxM": 31.1,
+      "minM": 18.2,
+      "slope": "some",
+      "spreadM": 12.9,
+      "stationElevationM": 19.3,
+      "stationIsLow": true
+    },
+    "ebara-nakanobu": {
+      "maxM": 25.2,
+      "minM": 22.2,
+      "slope": "flat",
+      "spreadM": 3.0,
+      "stationElevationM": 23.4,
+      "stationIsLow": false
+    },
+    "ebisu": {
+      "maxM": 30.2,
+      "minM": 13.3,
+      "slope": "some",
+      "spreadM": 16.9,
+      "stationElevationM": 15.5,
+      "stationIsLow": true
+    },
+    "edogawa": {
+      "maxM": 8,
+      "minM": 1.5,
+      "slope": "flat",
+      "spreadM": 6.5,
+      "stationElevationM": 2.9,
+      "stationIsLow": true
+    },
+    "edogawabashi": {
+      "maxM": 27.7,
+      "minM": 4.8,
+      "slope": "hilly",
+      "spreadM": 22.9,
+      "stationElevationM": 4.8,
+      "stationIsLow": true
+    },
+    "eifukucho": {
+      "maxM": 44.1,
+      "minM": 35.6,
+      "slope": "some",
+      "spreadM": 8.5,
+      "stationElevationM": 44.1,
+      "stationIsLow": false
+    },
+    "ekoda": {
+      "maxM": 37.9,
+      "minM": 34.4,
+      "slope": "flat",
+      "spreadM": 3.5,
+      "stationElevationM": 36.8,
+      "stationIsLow": false
+    },
+    "fudo-mae": {
+      "maxM": 22.3,
+      "minM": 4,
+      "slope": "some",
+      "spreadM": 18.3,
+      "stationElevationM": 5.4,
+      "stationIsLow": true
+    },
+    "fujimidai": {
+      "maxM": 44.8,
+      "minM": 35.9,
+      "slope": "some",
+      "spreadM": 8.9,
+      "stationElevationM": 43.6,
+      "stationIsLow": false
+    },
+    "fujimigaoka": {
+      "maxM": 50.1,
+      "minM": 42.6,
+      "slope": "flat",
+      "spreadM": 7.5,
+      "stationElevationM": 43.8,
+      "stationIsLow": true
+    },
+    "funabori": {
+      "maxM": -0.6,
+      "minM": -1.8,
+      "slope": "flat",
+      "spreadM": 1.2,
+      "stationElevationM": -1,
+      "stationIsLow": false
+    },
+    "fune-no-kagakukan": {
+      "maxM": 7.8,
+      "minM": -2.4,
+      "slope": "some",
+      "spreadM": 10.2,
+      "stationElevationM": 6.7,
+      "stationIsLow": false
+    },
+    "futako-tamagawa": {
+      "maxM": 19,
+      "minM": 7.8,
+      "slope": "some",
+      "spreadM": 11.2,
+      "stationElevationM": 13.2,
+      "stationIsLow": false
+    },
+    "gaiemmae": {
+      "maxM": 34.4,
+      "minM": 32.1,
+      "slope": "flat",
+      "spreadM": 2.3,
+      "stationElevationM": 32.1,
+      "stationIsLow": true
+    },
+    "gakugei-daigaku": {
+      "maxM": 32.2,
+      "minM": 29.7,
+      "slope": "flat",
+      "spreadM": 2.5,
+      "stationElevationM": 31.9,
+      "stationIsLow": false
+    },
+    "gakushuinshita": {
+      "maxM": 32.7,
+      "minM": 9.8,
+      "slope": "hilly",
+      "spreadM": 22.9,
+      "stationElevationM": 12.2,
+      "stationIsLow": true
+    },
+    "ginza": {
+      "maxM": 3.8,
+      "minM": 2.5,
+      "slope": "flat",
+      "spreadM": 1.3,
+      "stationElevationM": 3.8,
+      "stationIsLow": false
+    },
+    "gokokuji": {
+      "maxM": 32.7,
+      "minM": 13,
+      "slope": "some",
+      "spreadM": 19.7,
+      "stationElevationM": 13,
+      "stationIsLow": true
+    },
+    "gotanda": {
+      "maxM": 20.8,
+      "minM": 3.2,
+      "slope": "some",
+      "spreadM": 17.6,
+      "stationElevationM": 3.2,
+      "stationIsLow": true
+    },
+    "gotanno": {
+      "maxM": 0.3,
+      "minM": -0.4,
+      "slope": "flat",
+      "spreadM": 0.7,
+      "stationElevationM": 0,
+      "stationIsLow": false
+    },
+    "gotokuji": {
+      "maxM": 40.4,
+      "minM": 32.9,
+      "slope": "flat",
+      "spreadM": 7.5,
+      "stationElevationM": 35.2,
+      "stationIsLow": false
+    },
+    "hachiman-yama": {
+      "maxM": 46.4,
+      "minM": 43.2,
+      "slope": "flat",
+      "spreadM": 3.2,
+      "stationElevationM": 44.5,
+      "stationIsLow": false
+    },
+    "hakusan": {
+      "maxM": 24.8,
+      "minM": 8.1,
+      "slope": "some",
+      "spreadM": 16.7,
+      "stationElevationM": 13.3,
+      "stationIsLow": false
+    },
+    "hamacho": {
+      "maxM": 3.1,
+      "minM": 0.7,
+      "slope": "flat",
+      "spreadM": 2.4,
+      "stationElevationM": 1.8,
+      "stationIsLow": false
+    },
+    "hamadayama": {
+      "maxM": 46.1,
+      "minM": 43.5,
+      "slope": "flat",
+      "spreadM": 2.6,
+      "stationElevationM": 44.2,
+      "stationIsLow": true
+    },
+    "hamamatsucho": {
+      "maxM": 3.1,
+      "minM": 1.6,
+      "slope": "flat",
+      "spreadM": 1.5,
+      "stationElevationM": 2.9,
+      "stationIsLow": false
+    },
+    "haneda-airport-domestic-terminal": {
+      "maxM": 5.6,
+      "minM": 3.1,
+      "slope": "flat",
+      "spreadM": 2.5,
+      "stationElevationM": 3.1,
+      "stationIsLow": true
+    },
+    "haneda-airport-international-terminal": {
+      "maxM": 4.8,
+      "minM": 2,
+      "slope": "flat",
+      "spreadM": 2.8,
+      "stationElevationM": 4.8,
+      "stationIsLow": false
+    },
+    "hanzomon": {
+      "maxM": 30.8,
+      "minM": 10,
+      "slope": "hilly",
+      "spreadM": 20.8,
+      "stationElevationM": 29.4,
+      "stationIsLow": false
+    },
+    "hasune": {
+      "maxM": 4.3,
+      "minM": 2,
+      "slope": "flat",
+      "spreadM": 2.3,
+      "stationElevationM": 2.7,
+      "stationIsLow": false
+    },
+    "hasunuma": {
+      "maxM": 4.7,
+      "minM": 3.4,
+      "slope": "flat",
+      "spreadM": 1.3,
+      "stationElevationM": 3.9,
+      "stationIsLow": false
+    },
+    "hatagaya": {
+      "maxM": 42.2,
+      "minM": 34.7,
+      "slope": "flat",
+      "spreadM": 7.5,
+      "stationElevationM": 39,
+      "stationIsLow": false
+    },
+    "hatanodai": {
+      "maxM": 35.2,
+      "minM": 19.4,
+      "slope": "some",
+      "spreadM": 15.8,
+      "stationElevationM": 23.5,
+      "stationIsLow": true
+    },
+    "hatchobori": {
+      "maxM": 4,
+      "minM": 2.1,
+      "slope": "flat",
+      "spreadM": 1.9,
+      "stationElevationM": 2.7,
+      "stationIsLow": false
+    },
+    "hatsudai": {
+      "maxM": 41.5,
+      "minM": 30.3,
+      "slope": "some",
+      "spreadM": 11.2,
+      "stationElevationM": 41.3,
+      "stationIsLow": false
+    },
+    "heiwadai": {
+      "maxM": 35.6,
+      "minM": 34.4,
+      "slope": "flat",
+      "spreadM": 1.2,
+      "stationElevationM": 35,
+      "stationIsLow": false
+    },
+    "heiwajima": {
+      "maxM": 2.4,
+      "minM": 1.5,
+      "slope": "flat",
+      "spreadM": 0.9,
+      "stationElevationM": 2,
+      "stationIsLow": false
+    },
+    "higashi-azuma": {
+      "maxM": 2.4,
+      "minM": -2.1,
+      "slope": "flat",
+      "spreadM": 4.5,
+      "stationElevationM": -1.5,
+      "stationIsLow": true
+    },
+    "higashi-ginza": {
+      "maxM": 4,
+      "minM": 2.1,
+      "slope": "flat",
+      "spreadM": 1.9,
+      "stationElevationM": 2.9,
+      "stationIsLow": false
+    },
+    "higashi-ikebukuro": {
+      "maxM": 31.7,
+      "minM": 27.7,
+      "slope": "flat",
+      "spreadM": 4.0,
+      "stationElevationM": 27.7,
+      "stationIsLow": true
+    },
+    "higashi-kitazawa": {
+      "maxM": 41.8,
+      "minM": 31.7,
+      "slope": "some",
+      "spreadM": 10.1,
+      "stationElevationM": 41.6,
+      "stationIsLow": false
+    },
+    "higashi-koenji": {
+      "maxM": 42.2,
+      "minM": 33,
+      "slope": "some",
+      "spreadM": 9.2,
+      "stationElevationM": 39.8,
+      "stationIsLow": false
+    },
+    "higashi-matsubara": {
+      "maxM": 47.2,
+      "minM": 36.5,
+      "slope": "some",
+      "spreadM": 10.7,
+      "stationElevationM": 39.6,
+      "stationIsLow": true
+    },
+    "higashi-mukojima": {
+      "maxM": -0.1,
+      "minM": -0.4,
+      "slope": "flat",
+      "spreadM": 0.3,
+      "stationElevationM": -0.3,
+      "stationIsLow": false
+    },
+    "higashi-nagasaki": {
+      "maxM": 36.7,
+      "minM": 34.5,
+      "slope": "flat",
+      "spreadM": 2.2,
+      "stationElevationM": 36.1,
+      "stationIsLow": false
+    },
+    "higashi-nakano": {
+      "maxM": 36.5,
+      "minM": 20.6,
+      "slope": "some",
+      "spreadM": 15.9,
+      "stationElevationM": 34.2,
+      "stationIsLow": false
+    },
+    "higashi-ogu-sanchome": {
+      "maxM": 2.7,
+      "minM": 1.4,
+      "slope": "flat",
+      "spreadM": 1.3,
+      "stationElevationM": 2,
+      "stationIsLow": false
+    },
+    "higashi-ojima": {
+      "maxM": 2.8,
+      "minM": -2.8,
+      "slope": "flat",
+      "spreadM": 5.6,
+      "stationElevationM": -1.7,
+      "stationIsLow": true
+    },
+    "higashi-shinjuku": {
+      "maxM": 32.2,
+      "minM": 22.2,
+      "slope": "some",
+      "spreadM": 10.0,
+      "stationElevationM": 30,
+      "stationIsLow": false
+    },
+    "hikarigaoka": {
+      "maxM": 40.6,
+      "minM": 36.3,
+      "slope": "flat",
+      "spreadM": 4.3,
+      "stationElevationM": 36.7,
+      "stationIsLow": true
+    },
+    "hikawadai": {
+      "maxM": 35.7,
+      "minM": 26.3,
+      "slope": "some",
+      "spreadM": 9.4,
+      "stationElevationM": 27.6,
+      "stationIsLow": true
+    },
+    "hikifune": {
+      "maxM": 0.2,
+      "minM": -0.8,
+      "slope": "flat",
+      "spreadM": 1.0,
+      "stationElevationM": 0.2,
+      "stationIsLow": false
+    },
+    "hinode": {
+      "maxM": 5.9,
+      "minM": 1.3,
+      "slope": "flat",
+      "spreadM": 4.6,
+      "stationElevationM": 2.7,
+      "stationIsLow": false
+    },
+    "hirai": {
+      "maxM": 2.5,
+      "minM": -2.6,
+      "slope": "flat",
+      "spreadM": 5.1,
+      "stationElevationM": 2.5,
+      "stationIsLow": false
+    },
+    "hiro-o": {
+      "maxM": 31.9,
+      "minM": 8.5,
+      "slope": "hilly",
+      "spreadM": 23.4,
+      "stationElevationM": 10.9,
+      "stationIsLow": true
+    },
+    "hon-komagome": {
+      "maxM": 24.7,
+      "minM": 19.9,
+      "slope": "flat",
+      "spreadM": 4.8,
+      "stationElevationM": 24.3,
+      "stationIsLow": false
+    },
+    "honancho": {
+      "maxM": 40,
+      "minM": 31.5,
+      "slope": "some",
+      "spreadM": 8.5,
+      "stationElevationM": 40,
+      "stationIsLow": false
+    },
+    "hongo-sanchome": {
+      "maxM": 27.8,
+      "minM": 13.9,
+      "slope": "some",
+      "spreadM": 13.9,
+      "stationElevationM": 21.9,
+      "stationIsLow": false
+    },
+    "honjo-azumabashi": {
+      "maxM": 4.1,
+      "minM": 0.7,
+      "slope": "flat",
+      "spreadM": 3.4,
+      "stationElevationM": 1.2,
+      "stationIsLow": true
+    },
+    "horikiri": {
+      "maxM": 3.9,
+      "minM": -0.5,
+      "slope": "flat",
+      "spreadM": 4.4,
+      "stationElevationM": 3.9,
+      "stationIsLow": false
+    },
+    "horikirishobuen": {
+      "maxM": 3.2,
+      "minM": -1.4,
+      "slope": "flat",
+      "spreadM": 4.6,
+      "stationElevationM": 3.2,
+      "stationIsLow": false
+    },
+    "ichigaya": {
+      "maxM": 30.3,
+      "minM": 11.6,
+      "slope": "some",
+      "spreadM": 18.7,
+      "stationElevationM": 11.6,
+      "stationIsLow": true
+    },
+    "ichinoe": {
+      "maxM": 2,
+      "minM": -0.5,
+      "slope": "flat",
+      "spreadM": 2.5,
+      "stationElevationM": 1.1,
+      "stationIsLow": false
+    },
+    "iidabashi": {
+      "maxM": 15.9,
+      "minM": 4.3,
+      "slope": "some",
+      "spreadM": 11.6,
+      "stationElevationM": 5.2,
+      "stationIsLow": true
+    },
+    "ikebukuro": {
+      "maxM": 33.6,
+      "minM": 31.5,
+      "slope": "flat",
+      "spreadM": 2.1,
+      "stationElevationM": 32.6,
+      "stationIsLow": false
+    },
+    "ikegami": {
+      "maxM": 5.4,
+      "minM": 3.9,
+      "slope": "flat",
+      "spreadM": 1.5,
+      "stationElevationM": 4.3,
+      "stationIsLow": true
+    },
+    "ikejiri-ohashi": {
+      "maxM": 33.4,
+      "minM": 13.4,
+      "slope": "hilly",
+      "spreadM": 20.0,
+      "stationElevationM": 17,
+      "stationIsLow": true
+    },
+    "ikenoue": {
+      "maxM": 41.5,
+      "minM": 29.9,
+      "slope": "some",
+      "spreadM": 11.6,
+      "stationElevationM": 41.4,
+      "stationIsLow": false
+    },
+    "inaricho": {
+      "maxM": 3.2,
+      "minM": 1.7,
+      "slope": "flat",
+      "spreadM": 1.5,
+      "stationElevationM": 1.9,
+      "stationIsLow": true
+    },
+    "iogi": {
+      "maxM": 48.9,
+      "minM": 42.4,
+      "slope": "flat",
+      "spreadM": 6.5,
+      "stationElevationM": 42.4,
+      "stationIsLow": true
+    },
+    "iriya": {
+      "maxM": 9.4,
+      "minM": 1.6,
+      "slope": "flat",
+      "spreadM": 7.8,
+      "stationElevationM": 2.3,
+      "stationIsLow": true
+    },
+    "ishikawadai": {
+      "maxM": 30.2,
+      "minM": 14.1,
+      "slope": "some",
+      "spreadM": 16.1,
+      "stationElevationM": 19,
+      "stationIsLow": false
+    },
+    "itabashi": {
+      "maxM": 28.8,
+      "minM": 22.3,
+      "slope": "flat",
+      "spreadM": 6.5,
+      "stationElevationM": 26.5,
+      "stationIsLow": false
+    },
+    "itabashi-kuyakushomae": {
+      "maxM": 30.9,
+      "minM": 19.4,
+      "slope": "some",
+      "spreadM": 11.5,
+      "stationElevationM": 28.5,
+      "stationIsLow": false
+    },
+    "itabashihoncho": {
+      "maxM": 27,
+      "minM": 18.9,
+      "slope": "some",
+      "spreadM": 8.1,
+      "stationElevationM": 26.4,
+      "stationIsLow": false
+    },
+    "iwamotocho": {
+      "maxM": 4.7,
+      "minM": 2.6,
+      "slope": "flat",
+      "spreadM": 2.1,
+      "stationElevationM": 3.4,
+      "stationIsLow": false
+    },
+    "jimbocho": {
+      "maxM": 16,
+      "minM": 2.9,
+      "slope": "some",
+      "spreadM": 13.1,
+      "stationElevationM": 3.6,
+      "stationIsLow": true
+    },
+    "jiyugaoka": {
+      "maxM": 37.3,
+      "minM": 23.7,
+      "slope": "some",
+      "spreadM": 13.6,
+      "stationElevationM": 23.7,
+      "stationIsLow": true
+    },
+    "jujo": {
+      "maxM": 23,
+      "minM": 19.9,
+      "slope": "flat",
+      "spreadM": 3.1,
+      "stationElevationM": 21.3,
+      "stationIsLow": false
+    },
+    "kachidoki": {
+      "maxM": 3.2,
+      "minM": 1.6,
+      "slope": "flat",
+      "spreadM": 1.6,
+      "stationElevationM": 1.6,
+      "stationIsLow": true
+    },
+    "kagurazaka": {
+      "maxM": 28.6,
+      "minM": 4.9,
+      "slope": "hilly",
+      "spreadM": 23.7,
+      "stationElevationM": 24.8,
+      "stationIsLow": false
+    },
+    "kajiwara": {
+      "maxM": 5.8,
+      "minM": 1.9,
+      "slope": "flat",
+      "spreadM": 3.9,
+      "stationElevationM": 3.1,
+      "stationIsLow": false
+    },
+    "kamata": {
+      "maxM": 3.9,
+      "minM": 2.8,
+      "slope": "flat",
+      "spreadM": 1.1,
+      "stationElevationM": 3.2,
+      "stationIsLow": false
+    },
+    "kameido": {
+      "maxM": 3.3,
+      "minM": -1.5,
+      "slope": "flat",
+      "spreadM": 4.8,
+      "stationElevationM": 0.1,
+      "stationIsLow": false
+    },
+    "kameidosuijin": {
+      "maxM": 3.3,
+      "minM": -2.5,
+      "slope": "flat",
+      "spreadM": 5.8,
+      "stationElevationM": -2.5,
+      "stationIsLow": true
+    },
+    "kami-igusa": {
+      "maxM": 50.6,
+      "minM": 44.9,
+      "slope": "flat",
+      "spreadM": 5.7,
+      "stationElevationM": 49.8,
+      "stationIsLow": false
+    },
+    "kami-itabashi": {
+      "maxM": 31.8,
+      "minM": 23.8,
+      "slope": "some",
+      "spreadM": 8.0,
+      "stationElevationM": 31.2,
+      "stationIsLow": false
+    },
+    "kami-kitazawa": {
+      "maxM": 47.8,
+      "minM": 42.9,
+      "slope": "flat",
+      "spreadM": 4.9,
+      "stationElevationM": 44.3,
+      "stationIsLow": true
+    },
+    "kami-shakujii": {
+      "maxM": 52.3,
+      "minM": 49.7,
+      "slope": "flat",
+      "spreadM": 2.6,
+      "stationElevationM": 50.6,
+      "stationIsLow": false
+    },
+    "kamimachi": {
+      "maxM": 39.2,
+      "minM": 32.2,
+      "slope": "flat",
+      "spreadM": 7.0,
+      "stationElevationM": 34.3,
+      "stationIsLow": true
+    },
+    "kaminoge": {
+      "maxM": 33.1,
+      "minM": 11.6,
+      "slope": "hilly",
+      "spreadM": 21.5,
+      "stationElevationM": 29.6,
+      "stationIsLow": false
+    },
+    "kamiyacho": {
+      "maxM": 29.3,
+      "minM": 4.3,
+      "slope": "hilly",
+      "spreadM": 25.0,
+      "stationElevationM": 8.9,
+      "stationIsLow": true
+    },
+    "kanamachi": {
+      "maxM": 2.4,
+      "minM": 0.8,
+      "slope": "flat",
+      "spreadM": 1.6,
+      "stationElevationM": 2.2,
+      "stationIsLow": false
+    },
+    "kanamecho": {
+      "maxM": 34.6,
+      "minM": 27.9,
+      "slope": "flat",
+      "spreadM": 6.7,
+      "stationElevationM": 28.8,
+      "stationIsLow": true
+    },
+    "kanda": {
+      "maxM": 5.8,
+      "minM": 3.8,
+      "slope": "flat",
+      "spreadM": 2.0,
+      "stationElevationM": 4.9,
+      "stationIsLow": false
+    },
+    "kanegafuchi": {
+      "maxM": 3.6,
+      "minM": -0.8,
+      "slope": "flat",
+      "spreadM": 4.4,
+      "stationElevationM": -0.5,
+      "stationIsLow": true
+    },
+    "kasai": {
+      "maxM": 0.6,
+      "minM": -0.8,
+      "slope": "flat",
+      "spreadM": 1.4,
+      "stationElevationM": 0,
+      "stationIsLow": false
+    },
+    "kasuga": {
+      "maxM": 22.7,
+      "minM": 5.8,
+      "slope": "some",
+      "spreadM": 16.9,
+      "stationElevationM": 5.8,
+      "stationIsLow": true
+    },
+    "kasumigaseki": {
+      "maxM": 20.7,
+      "minM": 4.4,
+      "slope": "some",
+      "spreadM": 16.3,
+      "stationElevationM": 7.4,
+      "stationIsLow": true
+    },
+    "kayabacho": {
+      "maxM": 3.4,
+      "minM": 2,
+      "slope": "flat",
+      "spreadM": 1.4,
+      "stationElevationM": 2.6,
+      "stationIsLow": false
+    },
+    "keikyu-kamata": {
+      "maxM": 2.9,
+      "minM": 1.5,
+      "slope": "flat",
+      "spreadM": 1.4,
+      "stationElevationM": 2,
+      "stationIsLow": false
+    },
+    "keisei-hikifune": {
+      "maxM": -0.2,
+      "minM": -1.2,
+      "slope": "flat",
+      "spreadM": 1.0,
+      "stationElevationM": -0.2,
+      "stationIsLow": false
+    },
+    "keisei-koiwa": {
+      "maxM": 2.5,
+      "minM": 1.7,
+      "slope": "flat",
+      "spreadM": 0.8,
+      "stationElevationM": 2.2,
+      "stationIsLow": false
+    },
+    "keisei-takasago": {
+      "maxM": 1.6,
+      "minM": 0.8,
+      "slope": "flat",
+      "spreadM": 0.8,
+      "stationElevationM": 1,
+      "stationIsLow": true
+    },
+    "keisei-tateishi": {
+      "maxM": 2,
+      "minM": -1.4,
+      "slope": "flat",
+      "spreadM": 3.4,
+      "stationElevationM": -0.2,
+      "stationIsLow": false
+    },
+    "keisei-ueno": {
+      "maxM": 16.6,
+      "minM": 2.4,
+      "slope": "some",
+      "spreadM": 14.2,
+      "stationElevationM": 9.9,
+      "stationIsLow": false
+    },
+    "kiba": {
+      "maxM": 2.4,
+      "minM": -0.3,
+      "slope": "flat",
+      "spreadM": 2.7,
+      "stationElevationM": -0.3,
+      "stationIsLow": true
+    },
+    "kikukawa": {
+      "maxM": 2.3,
+      "minM": 0.3,
+      "slope": "flat",
+      "spreadM": 2.0,
+      "stationElevationM": 0.5,
+      "stationIsLow": true
+    },
+    "kinshicho": {
+      "maxM": 5.4,
+      "minM": -0.3,
+      "slope": "flat",
+      "spreadM": 5.7,
+      "stationElevationM": 5.4,
+      "stationIsLow": false
+    },
+    "kita-akabane": {
+      "maxM": 11.8,
+      "minM": 2.1,
+      "slope": "some",
+      "spreadM": 9.7,
+      "stationElevationM": 4,
+      "stationIsLow": true
+    },
+    "kita-ayase": {
+      "maxM": 2.4,
+      "minM": -0.2,
+      "slope": "flat",
+      "spreadM": 2.6,
+      "stationElevationM": 0.6,
+      "stationIsLow": false
+    },
+    "kita-ikebukuro": {
+      "maxM": 31.5,
+      "minM": 20.7,
+      "slope": "some",
+      "spreadM": 10.8,
+      "stationElevationM": 27.5,
+      "stationIsLow": false
+    },
+    "kita-sando": {
+      "maxM": 35.5,
+      "minM": 25.5,
+      "slope": "some",
+      "spreadM": 10.0,
+      "stationElevationM": 25.5,
+      "stationIsLow": true
+    },
+    "kita-senju": {
+      "maxM": 1.7,
+      "minM": -0.7,
+      "slope": "flat",
+      "spreadM": 2.4,
+      "stationElevationM": 0.7,
+      "stationIsLow": false
+    },
+    "kita-senzoku": {
+      "maxM": 36.9,
+      "minM": 24.4,
+      "slope": "some",
+      "spreadM": 12.5,
+      "stationElevationM": 36.3,
+      "stationIsLow": false
+    },
+    "kitashinagawa": {
+      "maxM": 18.8,
+      "minM": 1.9,
+      "slope": "some",
+      "spreadM": 16.9,
+      "stationElevationM": 9,
+      "stationIsLow": false
+    },
+    "kiyosumi-shirakawa": {
+      "maxM": 2.5,
+      "minM": 0.4,
+      "slope": "flat",
+      "spreadM": 2.1,
+      "stationElevationM": 0.6,
+      "stationIsLow": true
+    },
+    "kodemmacho": {
+      "maxM": 4.9,
+      "minM": 3.3,
+      "slope": "flat",
+      "spreadM": 1.6,
+      "stationElevationM": 4.9,
+      "stationIsLow": false
+    },
+    "koenji": {
+      "maxM": 42.4,
+      "minM": 35.1,
+      "slope": "flat",
+      "spreadM": 7.3,
+      "stationElevationM": 41.6,
+      "stationIsLow": false
+    },
+    "kohoku": {
+      "maxM": 3.4,
+      "minM": 1.8,
+      "slope": "flat",
+      "spreadM": 1.6,
+      "stationElevationM": 2.3,
+      "stationIsLow": false
+    },
+    "koiwa": {
+      "maxM": 3.6,
+      "minM": 0.8,
+      "slope": "flat",
+      "spreadM": 2.8,
+      "stationElevationM": 2,
+      "stationIsLow": false
+    },
+    "kojimachi": {
+      "maxM": 31.8,
+      "minM": 20.8,
+      "slope": "some",
+      "spreadM": 11.0,
+      "stationElevationM": 30.5,
+      "stationIsLow": false
+    },
+    "kojiya": {
+      "maxM": 2.6,
+      "minM": 1.7,
+      "slope": "flat",
+      "spreadM": 0.9,
+      "stationElevationM": 2.2,
+      "stationIsLow": false
+    },
+    "kokkai-gijidomae": {
+      "maxM": 25,
+      "minM": 7.3,
+      "slope": "some",
+      "spreadM": 17.7,
+      "stationElevationM": 25,
+      "stationIsLow": false
+    },
+    "kokuritsu-kyogijo": {
+      "maxM": 34.6,
+      "minM": 27.7,
+      "slope": "flat",
+      "spreadM": 6.9,
+      "stationElevationM": 29,
+      "stationIsLow": true
+    },
+    "kokusai-tenjijo": {
+      "maxM": 7.8,
+      "minM": 3.6,
+      "slope": "flat",
+      "spreadM": 4.2,
+      "stationElevationM": 7.5,
+      "stationIsLow": false
+    },
+    "kokusai-tenjijo-seimon": {
+      "maxM": 8.4,
+      "minM": 5.8,
+      "slope": "flat",
+      "spreadM": 2.6,
+      "stationElevationM": 5.8,
+      "stationIsLow": true
+    },
+    "komaba-todaimae": {
+      "maxM": 38.4,
+      "minM": 30,
+      "slope": "some",
+      "spreadM": 8.4,
+      "stationElevationM": 33.4,
+      "stationIsLow": false
+    },
+    "komagome": {
+      "maxM": 24.6,
+      "minM": 11.2,
+      "slope": "some",
+      "spreadM": 13.4,
+      "stationElevationM": 22.8,
+      "stationIsLow": false
+    },
+    "komazawa-daigaku": {
+      "maxM": 43,
+      "minM": 34.9,
+      "slope": "some",
+      "spreadM": 8.1,
+      "stationElevationM": 41,
+      "stationIsLow": false
+    },
+    "korakuen": {
+      "maxM": 24,
+      "minM": 5.8,
+      "slope": "some",
+      "spreadM": 18.2,
+      "stationElevationM": 7,
+      "stationIsLow": true
+    },
+    "koshinzuka": {
+      "maxM": 26.5,
+      "minM": 20.7,
+      "slope": "flat",
+      "spreadM": 5.8,
+      "stationElevationM": 25.1,
+      "stationIsLow": false
+    },
+    "kosuge": {
+      "maxM": 3.2,
+      "minM": -0.9,
+      "slope": "flat",
+      "spreadM": 4.1,
+      "stationElevationM": 1.8,
+      "stationIsLow": false
+    },
+    "kotake-mukaihara": {
+      "maxM": 37,
+      "minM": 29.2,
+      "slope": "flat",
+      "spreadM": 7.8,
+      "stationElevationM": 34.4,
+      "stationIsLow": false
+    },
+    "koya": {
+      "maxM": 2.6,
+      "minM": 1.4,
+      "slope": "flat",
+      "spreadM": 1.2,
+      "stationElevationM": 2,
+      "stationIsLow": false
+    },
+    "kudanshita": {
+      "maxM": 25.3,
+      "minM": 3.2,
+      "slope": "hilly",
+      "spreadM": 22.1,
+      "stationElevationM": 4.6,
+      "stationIsLow": true
+    },
+    "kugahara": {
+      "maxM": 19.3,
+      "minM": 8.3,
+      "slope": "some",
+      "spreadM": 11.0,
+      "stationElevationM": 16,
+      "stationIsLow": false
+    },
+    "kugayama": {
+      "maxM": 51.6,
+      "minM": 44.2,
+      "slope": "flat",
+      "spreadM": 7.4,
+      "stationElevationM": 44.2,
+      "stationIsLow": true
+    },
+    "kuhombutsu": {
+      "maxM": 38.7,
+      "minM": 24,
+      "slope": "some",
+      "spreadM": 14.7,
+      "stationElevationM": 30.3,
+      "stationIsLow": false
+    },
+    "kumanomae": {
+      "maxM": 2.7,
+      "minM": 1.6,
+      "slope": "flat",
+      "spreadM": 1.1,
+      "stationElevationM": 1.7,
+      "stationIsLow": true
+    },
+    "kuramae": {
+      "maxM": 5.3,
+      "minM": 1.3,
+      "slope": "flat",
+      "spreadM": 4.0,
+      "stationElevationM": 3,
+      "stationIsLow": false
+    },
+    "kyobashi": {
+      "maxM": 4.4,
+      "minM": 2.5,
+      "slope": "flat",
+      "spreadM": 1.9,
+      "stationElevationM": 4.4,
+      "stationIsLow": false
+    },
+    "kyodo": {
+      "maxM": 40.6,
+      "minM": 35.2,
+      "slope": "flat",
+      "spreadM": 5.4,
+      "stationElevationM": 38.5,
+      "stationIsLow": false
+    },
+    "machiya": {
+      "maxM": 2.3,
+      "minM": 1.1,
+      "slope": "flat",
+      "spreadM": 1.2,
+      "stationElevationM": 2.3,
+      "stationIsLow": false
+    },
+    "machiya-nichome": {
+      "maxM": 2.5,
+      "minM": 1.5,
+      "slope": "flat",
+      "spreadM": 1.0,
+      "stationElevationM": 2,
+      "stationIsLow": false
+    },
+    "magome": {
+      "maxM": 26.7,
+      "minM": 10.4,
+      "slope": "some",
+      "spreadM": 16.3,
+      "stationElevationM": 19.9,
+      "stationIsLow": false
+    },
+    "matsubara": {
+      "maxM": 45.9,
+      "minM": 35.1,
+      "slope": "some",
+      "spreadM": 10.8,
+      "stationElevationM": 37.7,
+      "stationIsLow": true
+    },
+    "meguro": {
+      "maxM": 30.5,
+      "minM": 4.1,
+      "slope": "hilly",
+      "spreadM": 26.4,
+      "stationElevationM": 30.5,
+      "stationIsLow": false
+    },
+    "meidaimae": {
+      "maxM": 48.3,
+      "minM": 36.9,
+      "slope": "some",
+      "spreadM": 11.4,
+      "stationElevationM": 41.2,
+      "stationIsLow": false
+    },
+    "meiji-jingumae": {
+      "maxM": 33.8,
+      "minM": 17,
+      "slope": "some",
+      "spreadM": 16.8,
+      "stationElevationM": 28.3,
+      "stationIsLow": false
+    },
+    "mejiro": {
+      "maxM": 33.2,
+      "minM": 14.9,
+      "slope": "some",
+      "spreadM": 18.3,
+      "stationElevationM": 24.9,
+      "stationIsLow": false
+    },
+    "midorigaoka": {
+      "maxM": 34,
+      "minM": 19.1,
+      "slope": "some",
+      "spreadM": 14.9,
+      "stationElevationM": 20.8,
+      "stationIsLow": true
+    },
+    "minami-asagaya": {
+      "maxM": 45.3,
+      "minM": 39.7,
+      "slope": "flat",
+      "spreadM": 5.6,
+      "stationElevationM": 44.4,
+      "stationIsLow": false
+    },
+    "minami-senju": {
+      "maxM": 1.8,
+      "minM": 0.7,
+      "slope": "flat",
+      "spreadM": 1.1,
+      "stationElevationM": 1.1,
+      "stationIsLow": false
+    },
+    "minami-shinjuku": {
+      "maxM": 38.6,
+      "minM": 26.7,
+      "slope": "some",
+      "spreadM": 11.9,
+      "stationElevationM": 30.9,
+      "stationIsLow": false
+    },
+    "minami-sunamachi": {
+      "maxM": 3.5,
+      "minM": -2.6,
+      "slope": "flat",
+      "spreadM": 6.1,
+      "stationElevationM": 0.7,
+      "stationIsLow": false
+    },
+    "minowa": {
+      "maxM": 3.5,
+      "minM": 0.9,
+      "slope": "flat",
+      "spreadM": 2.6,
+      "stationElevationM": 3.5,
+      "stationIsLow": false
+    },
+    "minowabashi": {
+      "maxM": 2.9,
+      "minM": 1.2,
+      "slope": "flat",
+      "spreadM": 1.7,
+      "stationElevationM": 1.5,
+      "stationIsLow": true
+    },
+    "minumadai-shinsuikoen": {
+      "maxM": 4.9,
+      "minM": 2.2,
+      "slope": "flat",
+      "spreadM": 2.7,
+      "stationElevationM": 4.9,
+      "stationIsLow": false
+    },
+    "mita": {
+      "maxM": 7.3,
+      "minM": 2.6,
+      "slope": "flat",
+      "spreadM": 4.7,
+      "stationElevationM": 3.4,
+      "stationIsLow": true
+    },
+    "mitsukoshimae": {
+      "maxM": 5.2,
+      "minM": 3.3,
+      "slope": "flat",
+      "spreadM": 1.9,
+      "stationElevationM": 5,
+      "stationIsLow": false
+    },
+    "miyanomae": {
+      "maxM": 5,
+      "minM": 1.2,
+      "slope": "flat",
+      "spreadM": 3.8,
+      "stationElevationM": 1.2,
+      "stationIsLow": true
+    },
+    "miyanosaka": {
+      "maxM": 40,
+      "minM": 33.1,
+      "slope": "flat",
+      "spreadM": 6.9,
+      "stationElevationM": 34.3,
+      "stationIsLow": true
+    },
+    "mizue": {
+      "maxM": 1.3,
+      "minM": 0.4,
+      "slope": "flat",
+      "spreadM": 0.9,
+      "stationElevationM": 1,
+      "stationIsLow": false
+    },
+    "monzen-nakacho": {
+      "maxM": 2.2,
+      "minM": -0.5,
+      "slope": "flat",
+      "spreadM": 2.7,
+      "stationElevationM": 0.8,
+      "stationIsLow": false
+    },
+    "morishita": {
+      "maxM": 2.9,
+      "minM": 0.2,
+      "slope": "flat",
+      "spreadM": 2.7,
+      "stationElevationM": 1.4,
+      "stationIsLow": false
+    },
+    "motohasunuma": {
+      "maxM": 24.7,
+      "minM": 17.3,
+      "slope": "flat",
+      "spreadM": 7.4,
+      "stationElevationM": 22.2,
+      "stationIsLow": false
+    },
+    "mukohara": {
+      "maxM": 30.8,
+      "minM": 18.2,
+      "slope": "some",
+      "spreadM": 12.6,
+      "stationElevationM": 30.3,
+      "stationIsLow": false
+    },
+    "musashi-koyama": {
+      "maxM": 28.6,
+      "minM": 23.2,
+      "slope": "flat",
+      "spreadM": 5.4,
+      "stationElevationM": 28,
+      "stationIsLow": false
+    },
+    "musashi-nitta": {
+      "maxM": 5.4,
+      "minM": 4.3,
+      "slope": "flat",
+      "spreadM": 1.1,
+      "stationElevationM": 5.1,
+      "stationIsLow": false
+    },
+    "musashi-seki": {
+      "maxM": 55.7,
+      "minM": 47,
+      "slope": "some",
+      "spreadM": 8.7,
+      "stationElevationM": 48.6,
+      "stationIsLow": true
+    },
+    "myogadani": {
+      "maxM": 27.6,
+      "minM": 18.2,
+      "slope": "some",
+      "spreadM": 9.4,
+      "stationElevationM": 26.7,
+      "stationIsLow": false
+    },
+    "nagahara": {
+      "maxM": 36.3,
+      "minM": 21.6,
+      "slope": "some",
+      "spreadM": 14.7,
+      "stationElevationM": 33.7,
+      "stationIsLow": false
+    },
+    "nagatacho": {
+      "maxM": 29.4,
+      "minM": 9.8,
+      "slope": "some",
+      "spreadM": 19.6,
+      "stationElevationM": 27.1,
+      "stationIsLow": false
+    },
+    "naka-itabashi": {
+      "maxM": 26.8,
+      "minM": 20,
+      "slope": "flat",
+      "spreadM": 6.8,
+      "stationElevationM": 22.9,
+      "stationIsLow": false
+    },
+    "nakai": {
+      "maxM": 36,
+      "minM": 18.7,
+      "slope": "some",
+      "spreadM": 17.3,
+      "stationElevationM": 18.7,
+      "stationIsLow": true
+    },
+    "nakameguro": {
+      "maxM": 27.4,
+      "minM": 8.8,
+      "slope": "some",
+      "spreadM": 18.6,
+      "stationElevationM": 9.3,
+      "stationIsLow": true
+    },
+    "nakamurabashi": {
+      "maxM": 43.6,
+      "minM": 35.3,
+      "slope": "some",
+      "spreadM": 8.3,
+      "stationElevationM": 42.4,
+      "stationIsLow": false
+    },
+    "nakano": {
+      "maxM": 40.5,
+      "minM": 30.4,
+      "slope": "some",
+      "spreadM": 10.1,
+      "stationElevationM": 39.6,
+      "stationIsLow": false
+    },
+    "nakano-fujimicho": {
+      "maxM": 38.2,
+      "minM": 29.5,
+      "slope": "some",
+      "spreadM": 8.7,
+      "stationElevationM": 29.6,
+      "stationIsLow": true
+    },
+    "nakano-sakaue": {
+      "maxM": 34.8,
+      "minM": 23.9,
+      "slope": "some",
+      "spreadM": 10.9,
+      "stationElevationM": 33.8,
+      "stationIsLow": false
+    },
+    "nakano-shimbashi": {
+      "maxM": 36.9,
+      "minM": 26.6,
+      "slope": "some",
+      "spreadM": 10.3,
+      "stationElevationM": 28.3,
+      "stationIsLow": true
+    },
+    "nakanobu": {
+      "maxM": 23.2,
+      "minM": 18.1,
+      "slope": "flat",
+      "spreadM": 5.1,
+      "stationElevationM": 22.9,
+      "stationIsLow": false
+    },
+    "narimasu": {
+      "maxM": 34.9,
+      "minM": 16.6,
+      "slope": "some",
+      "spreadM": 18.3,
+      "stationElevationM": 32.1,
+      "stationIsLow": false
+    },
+    "nerima": {
+      "maxM": 40.4,
+      "minM": 35.2,
+      "slope": "flat",
+      "spreadM": 5.2,
+      "stationElevationM": 40,
+      "stationIsLow": false
+    },
+    "nerima-kasugacho": {
+      "maxM": 39.9,
+      "minM": 37.1,
+      "slope": "flat",
+      "spreadM": 2.8,
+      "stationElevationM": 38.8,
+      "stationIsLow": false
+    },
+    "nerima-takanodai": {
+      "maxM": 45.5,
+      "minM": 38.1,
+      "slope": "flat",
+      "spreadM": 7.4,
+      "stationElevationM": 39.2,
+      "stationIsLow": true
+    },
+    "nezu": {
+      "maxM": 20.3,
+      "minM": 5.6,
+      "slope": "some",
+      "spreadM": 14.7,
+      "stationElevationM": 5.6,
+      "stationIsLow": true
+    },
+    "nihombashi": {
+      "maxM": 5,
+      "minM": 2.1,
+      "slope": "flat",
+      "spreadM": 2.9,
+      "stationElevationM": 4,
+      "stationIsLow": false
+    },
+    "nijubashimae": {
+      "maxM": 8,
+      "minM": 2.6,
+      "slope": "flat",
+      "spreadM": 5.4,
+      "stationElevationM": 2.6,
+      "stationIsLow": true
+    },
+    "ningyocho": {
+      "maxM": 3.9,
+      "minM": 1.6,
+      "slope": "flat",
+      "spreadM": 2.3,
+      "stationElevationM": 2.1,
+      "stationIsLow": true
+    },
+    "nippori": {
+      "maxM": 19.3,
+      "minM": 3.7,
+      "slope": "some",
+      "spreadM": 15.6,
+      "stationElevationM": 6.3,
+      "stationIsLow": true
+    },
+    "nishi-eifuku": {
+      "maxM": 44.2,
+      "minM": 38.4,
+      "slope": "flat",
+      "spreadM": 5.8,
+      "stationElevationM": 42.5,
+      "stationIsLow": false
+    },
+    "nishi-kasai": {
+      "maxM": 4.5,
+      "minM": -1.4,
+      "slope": "flat",
+      "spreadM": 5.9,
+      "stationElevationM": -0.4,
+      "stationIsLow": true
+    },
+    "nishi-koyama": {
+      "maxM": 36.5,
+      "minM": 22.5,
+      "slope": "some",
+      "spreadM": 14.0,
+      "stationElevationM": 24.1,
+      "stationIsLow": true
+    },
+    "nishi-nippori": {
+      "maxM": 23.1,
+      "minM": 3.8,
+      "slope": "some",
+      "spreadM": 19.3,
+      "stationElevationM": 12.4,
+      "stationIsLow": false
+    },
+    "nishi-ogikubo": {
+      "maxM": 51.9,
+      "minM": 44.6,
+      "slope": "flat",
+      "spreadM": 7.3,
+      "stationElevationM": 51,
+      "stationIsLow": false
+    },
+    "nishi-ojima": {
+      "maxM": 1.1,
+      "minM": -2.2,
+      "slope": "flat",
+      "spreadM": 3.3,
+      "stationElevationM": -1,
+      "stationIsLow": false
+    },
+    "nishi-shinjuku": {
+      "maxM": 39.4,
+      "minM": 25.8,
+      "slope": "some",
+      "spreadM": 13.6,
+      "stationElevationM": 37.5,
+      "stationIsLow": false
+    },
+    "nishi-shinjuku-gochome": {
+      "maxM": 40.6,
+      "minM": 25.4,
+      "slope": "some",
+      "spreadM": 15.2,
+      "stationElevationM": 28,
+      "stationIsLow": true
+    },
+    "nishi-sugamo": {
+      "maxM": 27.5,
+      "minM": 21.3,
+      "slope": "flat",
+      "spreadM": 6.2,
+      "stationElevationM": 26.1,
+      "stationIsLow": false
+    },
+    "nishi-taishido": {
+      "maxM": 34.9,
+      "minM": 25.8,
+      "slope": "some",
+      "spreadM": 9.1,
+      "stationElevationM": 30.6,
+      "stationIsLow": false
+    },
+    "nishi-takashimadaira": {
+      "maxM": 7,
+      "minM": 4,
+      "slope": "flat",
+      "spreadM": 3,
+      "stationElevationM": 5.1,
+      "stationIsLow": false
+    },
+    "nishi-waseda": {
+      "maxM": 29.7,
+      "minM": 19.9,
+      "slope": "some",
+      "spreadM": 9.8,
+      "stationElevationM": 27.1,
+      "stationIsLow": false
+    },
+    "nishiarai": {
+      "maxM": 2,
+      "minM": 0.5,
+      "slope": "flat",
+      "spreadM": 1.5,
+      "stationElevationM": 1.2,
+      "stationIsLow": false
+    },
+    "nishiaraidaishi-nishi": {
+      "maxM": 3.4,
+      "minM": 2.1,
+      "slope": "flat",
+      "spreadM": 1.3,
+      "stationElevationM": 2.4,
+      "stationIsLow": true
+    },
+    "nishidai": {
+      "maxM": 4.5,
+      "minM": 2.2,
+      "slope": "flat",
+      "spreadM": 2.3,
+      "stationElevationM": 3.8,
+      "stationIsLow": false
+    },
+    "nishigahara": {
+      "maxM": 23.8,
+      "minM": 5.1,
+      "slope": "some",
+      "spreadM": 18.7,
+      "stationElevationM": 23.5,
+      "stationIsLow": false
+    },
+    "nishigahara-yonchome": {
+      "maxM": 26.5,
+      "minM": 15.4,
+      "slope": "some",
+      "spreadM": 11.1,
+      "stationElevationM": 24.7,
+      "stationIsLow": false
+    },
+    "nishimagome": {
+      "maxM": 24.2,
+      "minM": 8.4,
+      "slope": "some",
+      "spreadM": 15.8,
+      "stationElevationM": 11.8,
+      "stationIsLow": true
+    },
+    "nogata": {
+      "maxM": 41.7,
+      "minM": 34.2,
+      "slope": "flat",
+      "spreadM": 7.5,
+      "stationElevationM": 40,
+      "stationIsLow": false
+    },
+    "nogizaka": {
+      "maxM": 32.8,
+      "minM": 22.8,
+      "slope": "some",
+      "spreadM": 10.0,
+      "stationElevationM": 31.3,
+      "stationIsLow": false
+    },
+    "numabe": {
+      "maxM": 23.6,
+      "minM": 1.8,
+      "slope": "hilly",
+      "spreadM": 21.8,
+      "stationElevationM": 7.3,
+      "stationIsLow": true
+    },
+    "numabukuro": {
+      "maxM": 39.6,
+      "minM": 32.1,
+      "slope": "flat",
+      "spreadM": 7.5,
+      "stationElevationM": 33.5,
+      "stationIsLow": true
+    },
+    "ochanomizu": {
+      "maxM": 20.8,
+      "minM": 3.3,
+      "slope": "some",
+      "spreadM": 17.5,
+      "stationElevationM": 20.8,
+      "stationIsLow": false
+    },
+    "ochiai": {
+      "maxM": 34.4,
+      "minM": 18.2,
+      "slope": "some",
+      "spreadM": 16.2,
+      "stationElevationM": 30.9,
+      "stationIsLow": false
+    },
+    "ochiai-minami-nagasaki": {
+      "maxM": 37.4,
+      "minM": 28.7,
+      "slope": "some",
+      "spreadM": 8.7,
+      "stationElevationM": 33,
+      "stationIsLow": false
+    },
+    "odai": {
+      "maxM": 5,
+      "minM": 1.6,
+      "slope": "flat",
+      "spreadM": 3.4,
+      "stationElevationM": 2,
+      "stationIsLow": true
+    },
+    "odaiba-kaihinkoen": {
+      "maxM": 9.5,
+      "minM": -0.2,
+      "slope": "some",
+      "spreadM": 9.7,
+      "stationElevationM": 5.3,
+      "stationIsLow": false
+    },
+    "ogi-ohashi": {
+      "maxM": 2.1,
+      "minM": 1.3,
+      "slope": "flat",
+      "spreadM": 0.8,
+      "stationElevationM": 2.1,
+      "stationIsLow": false
+    },
+    "ogikubo": {
+      "maxM": 52.3,
+      "minM": 41.6,
+      "slope": "some",
+      "spreadM": 10.7,
+      "stationElevationM": 46.7,
+      "stationIsLow": false
+    },
+    "ohanajaya": {
+      "maxM": 0.4,
+      "minM": -0.9,
+      "slope": "flat",
+      "spreadM": 1.3,
+      "stationElevationM": -0.9,
+      "stationIsLow": true
+    },
+    "oi-keibajo-mae": {
+      "maxM": 11.7,
+      "minM": 1.4,
+      "slope": "some",
+      "spreadM": 10.3,
+      "stationElevationM": 1.4,
+      "stationIsLow": true
+    },
+    "oimachi": {
+      "maxM": 13.8,
+      "minM": 7.3,
+      "slope": "flat",
+      "spreadM": 6.5,
+      "stationElevationM": 10.1,
+      "stationIsLow": false
+    },
+    "oizumi-gakuen": {
+      "maxM": 49.2,
+      "minM": 46.5,
+      "slope": "flat",
+      "spreadM": 2.7,
+      "stationElevationM": 48.6,
+      "stationIsLow": false
+    },
+    "oji": {
+      "maxM": 17.4,
+      "minM": 3.1,
+      "slope": "some",
+      "spreadM": 14.3,
+      "stationElevationM": 5.7,
+      "stationIsLow": true
+    },
+    "oji-kamiya": {
+      "maxM": 4.5,
+      "minM": 1.7,
+      "slope": "flat",
+      "spreadM": 2.8,
+      "stationElevationM": 1.7,
+      "stationIsLow": true
+    },
+    "ojima": {
+      "maxM": -0.7,
+      "minM": -2.4,
+      "slope": "flat",
+      "spreadM": 1.7,
+      "stationElevationM": -2.4,
+      "stationIsLow": true
+    },
+    "okachimachi": {
+      "maxM": 5.2,
+      "minM": 2.3,
+      "slope": "flat",
+      "spreadM": 2.9,
+      "stationElevationM": 3.2,
+      "stationIsLow": false
+    },
+    "okubo": {
+      "maxM": 38.2,
+      "minM": 30.3,
+      "slope": "flat",
+      "spreadM": 7.9,
+      "stationElevationM": 38.2,
+      "stationIsLow": false
+    },
+    "okusawa": {
+      "maxM": 32.8,
+      "minM": 22.6,
+      "slope": "some",
+      "spreadM": 10.2,
+      "stationElevationM": 29.1,
+      "stationIsLow": false
+    },
+    "omokagebashi": {
+      "maxM": 28.3,
+      "minM": 8.3,
+      "slope": "hilly",
+      "spreadM": 20.0,
+      "stationElevationM": 9.2,
+      "stationIsLow": true
+    },
+    "omorikaigan": {
+      "maxM": 3,
+      "minM": 1.6,
+      "slope": "flat",
+      "spreadM": 1.4,
+      "stationElevationM": 2.2,
+      "stationIsLow": false
+    },
+    "omorimachi": {
+      "maxM": 2.5,
+      "minM": 1.8,
+      "slope": "flat",
+      "spreadM": 0.7,
+      "stationElevationM": 2.1,
+      "stationIsLow": false
+    },
+    "omote-sando": {
+      "maxM": 34.3,
+      "minM": 23.6,
+      "slope": "some",
+      "spreadM": 10.7,
+      "stationElevationM": 33.6,
+      "stationIsLow": false
+    },
+    "omurai": {
+      "maxM": 0.3,
+      "minM": -1.3,
+      "slope": "flat",
+      "spreadM": 1.6,
+      "stationElevationM": -0.9,
+      "stationIsLow": true
+    },
+    "onarimon": {
+      "maxM": 28.2,
+      "minM": 2.1,
+      "slope": "hilly",
+      "spreadM": 26.1,
+      "stationElevationM": 3.3,
+      "stationIsLow": true
+    },
+    "ontakesan": {
+      "maxM": 22.7,
+      "minM": 13.3,
+      "slope": "some",
+      "spreadM": 9.4,
+      "stationElevationM": 20.2,
+      "stationIsLow": false
+    },
+    "ookayama": {
+      "maxM": 36.4,
+      "minM": 21.8,
+      "slope": "some",
+      "spreadM": 14.6,
+      "stationElevationM": 31.2,
+      "stationIsLow": false
+    },
+    "osaki": {
+      "maxM": 20.6,
+      "minM": 3.7,
+      "slope": "some",
+      "spreadM": 16.9,
+      "stationElevationM": 3.7,
+      "stationIsLow": true
+    },
+    "osaki-hirokoji": {
+      "maxM": 21.8,
+      "minM": 2.7,
+      "slope": "some",
+      "spreadM": 19.1,
+      "stationElevationM": 6.6,
+      "stationIsLow": true
+    },
+    "oshiage": {
+      "maxM": 2,
+      "minM": -0.6,
+      "slope": "flat",
+      "spreadM": 2.6,
+      "stationElevationM": 2,
+      "stationIsLow": false
+    },
+    "otemachi": {
+      "maxM": 4.4,
+      "minM": 0.5,
+      "slope": "flat",
+      "spreadM": 3.9,
+      "stationElevationM": 3,
+      "stationIsLow": false
+    },
+    "otorii": {
+      "maxM": 2.2,
+      "minM": 0.8,
+      "slope": "flat",
+      "spreadM": 1.4,
+      "stationElevationM": 1.3,
+      "stationIsLow": false
+    },
+    "otsuka": {
+      "maxM": 30.7,
+      "minM": 17.5,
+      "slope": "some",
+      "spreadM": 13.2,
+      "stationElevationM": 17.5,
+      "stationIsLow": true
+    },
+    "oyama": {
+      "maxM": 33.4,
+      "minM": 24.6,
+      "slope": "some",
+      "spreadM": 8.8,
+      "stationElevationM": 29.6,
+      "stationIsLow": false
+    },
+    "oyamadai": {
+      "maxM": 33.5,
+      "minM": 27.4,
+      "slope": "flat",
+      "spreadM": 6.1,
+      "stationElevationM": 27.4,
+      "stationIsLow": true
+    },
+    "roka-koen": {
+      "maxM": 47.8,
+      "minM": 43.7,
+      "slope": "flat",
+      "spreadM": 4.1,
+      "stationElevationM": 45.7,
+      "stationIsLow": false
+    },
+    "rokucho": {
+      "maxM": 2.2,
+      "minM": 0,
+      "slope": "flat",
+      "spreadM": 2.2,
+      "stationElevationM": 1.4,
+      "stationIsLow": false
+    },
+    "rokugodote": {
+      "maxM": 3.7,
+      "minM": 1.5,
+      "slope": "flat",
+      "spreadM": 2.2,
+      "stationElevationM": 3.7,
+      "stationIsLow": false
+    },
+    "roppongi": {
+      "maxM": 31.4,
+      "minM": 14.9,
+      "slope": "some",
+      "spreadM": 16.5,
+      "stationElevationM": 31.4,
+      "stationIsLow": false
+    },
+    "roppongi-itchome": {
+      "maxM": 28.4,
+      "minM": 14.7,
+      "slope": "some",
+      "spreadM": 13.7,
+      "stationElevationM": 16.2,
+      "stationIsLow": true
+    },
+    "ryogoku": {
+      "maxM": 2,
+      "minM": 1,
+      "slope": "flat",
+      "spreadM": 1,
+      "stationElevationM": 1.9,
+      "stationIsLow": false
+    },
+    "ryutsu-center": {
+      "maxM": 5.5,
+      "minM": 2,
+      "slope": "flat",
+      "spreadM": 3.5,
+      "stationElevationM": 3.5,
+      "stationIsLow": false
+    },
+    "saginomiya": {
+      "maxM": 43.1,
+      "minM": 38,
+      "slope": "flat",
+      "spreadM": 5.1,
+      "stationElevationM": 38,
+      "stationIsLow": true
+    },
+    "sakaecho": {
+      "maxM": 24.4,
+      "minM": 3.1,
+      "slope": "hilly",
+      "spreadM": 21.3,
+      "stationElevationM": 4.7,
+      "stationIsLow": true
+    },
+    "sakura-shimmachi": {
+      "maxM": 45.6,
+      "minM": 38.6,
+      "slope": "flat",
+      "spreadM": 7.0,
+      "stationElevationM": 41.6,
+      "stationIsLow": false
+    },
+    "sakuradai": {
+      "maxM": 40,
+      "minM": 35.8,
+      "slope": "flat",
+      "spreadM": 4.2,
+      "stationElevationM": 38.9,
+      "stationIsLow": false
+    },
+    "sakuradamon": {
+      "maxM": 26,
+      "minM": 4.6,
+      "slope": "hilly",
+      "spreadM": 21.4,
+      "stationElevationM": 8,
+      "stationIsLow": true
+    },
+    "sakurajosui": {
+      "maxM": 46.8,
+      "minM": 40.4,
+      "slope": "flat",
+      "spreadM": 6.4,
+      "stationElevationM": 45.5,
+      "stationIsLow": false
+    },
+    "samezu": {
+      "maxM": 14.7,
+      "minM": 1,
+      "slope": "some",
+      "spreadM": 13.7,
+      "stationElevationM": 3.1,
+      "stationIsLow": true
+    },
+    "sangen-jaya": {
+      "maxM": 33.3,
+      "minM": 25,
+      "slope": "some",
+      "spreadM": 8.3,
+      "stationElevationM": 32.2,
+      "stationIsLow": false
+    },
+    "sangubashi": {
+      "maxM": 39.1,
+      "minM": 28.2,
+      "slope": "some",
+      "spreadM": 10.9,
+      "stationElevationM": 28.2,
+      "stationIsLow": true
+    },
+    "sasazuka": {
+      "maxM": 45,
+      "minM": 35.8,
+      "slope": "some",
+      "spreadM": 9.2,
+      "stationElevationM": 42.2,
+      "stationIsLow": false
+    },
+    "seibijo": {
+      "maxM": 4.4,
+      "minM": 1.4,
+      "slope": "flat",
+      "spreadM": 3.0,
+      "stationElevationM": 2,
+      "stationIsLow": true
+    },
+    "seibu-shinjuku": {
+      "maxM": 37.7,
+      "minM": 32,
+      "slope": "flat",
+      "spreadM": 5.7,
+      "stationElevationM": 36.9,
+      "stationIsLow": false
+    },
+    "seijogakuen-mae": {
+      "maxM": 44.4,
+      "minM": 31.2,
+      "slope": "some",
+      "spreadM": 13.2,
+      "stationElevationM": 43.6,
+      "stationIsLow": false
+    },
+    "sendagaya": {
+      "maxM": 34.3,
+      "minM": 22.9,
+      "slope": "some",
+      "spreadM": 11.4,
+      "stationElevationM": 32.7,
+      "stationIsLow": false
+    },
+    "sendagi": {
+      "maxM": 20.8,
+      "minM": 5.7,
+      "slope": "some",
+      "spreadM": 15.1,
+      "stationElevationM": 6.3,
+      "stationIsLow": true
+    },
+    "sengakuji": {
+      "maxM": 26.5,
+      "minM": 1.9,
+      "slope": "hilly",
+      "spreadM": 24.6,
+      "stationElevationM": 4,
+      "stationIsLow": true
+    },
+    "sengoku": {
+      "maxM": 25.1,
+      "minM": 23.3,
+      "slope": "flat",
+      "spreadM": 1.8,
+      "stationElevationM": 23.3,
+      "stationIsLow": true
+    },
+    "senjuohashi": {
+      "maxM": 3.2,
+      "minM": 0.2,
+      "slope": "flat",
+      "spreadM": 3.0,
+      "stationElevationM": 0.7,
+      "stationIsLow": true
+    },
+    "senkawa": {
+      "maxM": 35.5,
+      "minM": 32.5,
+      "slope": "flat",
+      "spreadM": 3.0,
+      "stationElevationM": 32.5,
+      "stationIsLow": true
+    },
+    "senzoku": {
+      "maxM": 37.8,
+      "minM": 27.9,
+      "slope": "some",
+      "spreadM": 9.9,
+      "stationElevationM": 35.1,
+      "stationIsLow": false
+    },
+    "senzoku-ike": {
+      "maxM": 32.3,
+      "minM": 13.7,
+      "slope": "some",
+      "spreadM": 18.6,
+      "stationElevationM": 22.8,
+      "stationIsLow": false
+    },
+    "setagaya": {
+      "maxM": 38.8,
+      "minM": 31.5,
+      "slope": "flat",
+      "spreadM": 7.3,
+      "stationElevationM": 37.5,
+      "stationIsLow": false
+    },
+    "setagaya-daita": {
+      "maxM": 45.2,
+      "minM": 29.8,
+      "slope": "some",
+      "spreadM": 15.4,
+      "stationElevationM": 42.8,
+      "stationIsLow": false
+    },
+    "shakujii-koen": {
+      "maxM": 46.9,
+      "minM": 40.5,
+      "slope": "flat",
+      "spreadM": 6.4,
+      "stationElevationM": 45.7,
+      "stationIsLow": false
+    },
+    "shibakoen": {
+      "maxM": 6,
+      "minM": 2.8,
+      "slope": "flat",
+      "spreadM": 3.2,
+      "stationElevationM": 3.4,
+      "stationIsLow": true
+    },
+    "shibamata": {
+      "maxM": 2.7,
+      "minM": 1.5,
+      "slope": "flat",
+      "spreadM": 1.2,
+      "stationElevationM": 2.1,
+      "stationIsLow": false
+    },
+    "shibaura-futo": {
+      "maxM": 4.3,
+      "minM": 1,
+      "slope": "flat",
+      "spreadM": 3.3,
+      "stationElevationM": 3.2,
+      "stationIsLow": false
+    },
+    "shibuya": {
+      "maxM": 31.3,
+      "minM": 14.1,
+      "slope": "some",
+      "spreadM": 17.2,
+      "stationElevationM": 15,
+      "stationIsLow": true
+    },
+    "shiinamachi": {
+      "maxM": 35.1,
+      "minM": 29.6,
+      "slope": "flat",
+      "spreadM": 5.5,
+      "stationElevationM": 30.6,
+      "stationIsLow": true
+    },
+    "shijo-mae": {
+      "maxM": 7.4,
+      "minM": 4.1,
+      "slope": "flat",
+      "spreadM": 3.3,
+      "stationElevationM": 6.9,
+      "stationIsLow": false
+    },
+    "shim-mikawashima": {
+      "maxM": 4.3,
+      "minM": 2,
+      "slope": "flat",
+      "spreadM": 2.3,
+      "stationElevationM": 3.2,
+      "stationIsLow": false
+    },
+    "shimbamba": {
+      "maxM": 14.2,
+      "minM": 2.1,
+      "slope": "some",
+      "spreadM": 12.1,
+      "stationElevationM": 3.7,
+      "stationIsLow": true
+    },
+    "shimbashi": {
+      "maxM": 4.1,
+      "minM": 2.4,
+      "slope": "flat",
+      "spreadM": 1.7,
+      "stationElevationM": 4,
+      "stationIsLow": false
+    },
+    "shimo": {
+      "maxM": 3,
+      "minM": 1,
+      "slope": "flat",
+      "spreadM": 2,
+      "stationElevationM": 2,
+      "stationIsLow": false
+    },
+    "shimo-igusa": {
+      "maxM": 46,
+      "minM": 42.3,
+      "slope": "flat",
+      "spreadM": 3.7,
+      "stationElevationM": 45.1,
+      "stationIsLow": false
+    },
+    "shimo-itabashi": {
+      "maxM": 31.4,
+      "minM": 23.3,
+      "slope": "some",
+      "spreadM": 8.1,
+      "stationElevationM": 25,
+      "stationIsLow": true
+    },
+    "shimo-kitazawa": {
+      "maxM": 42.1,
+      "minM": 29.5,
+      "slope": "some",
+      "spreadM": 12.6,
+      "stationElevationM": 36.5,
+      "stationIsLow": false
+    },
+    "shimo-ochiai": {
+      "maxM": 35,
+      "minM": 14.3,
+      "slope": "hilly",
+      "spreadM": 20.7,
+      "stationElevationM": 15.9,
+      "stationIsLow": true
+    },
+    "shimo-shimmei": {
+      "maxM": 21,
+      "minM": 7.5,
+      "slope": "some",
+      "spreadM": 13.5,
+      "stationElevationM": 16,
+      "stationIsLow": false
+    },
+    "shimo-takaido": {
+      "maxM": 47.6,
+      "minM": 38.2,
+      "slope": "some",
+      "spreadM": 9.4,
+      "stationElevationM": 45.4,
+      "stationIsLow": false
+    },
+    "shimomaruko": {
+      "maxM": 14.2,
+      "minM": 4.2,
+      "slope": "some",
+      "spreadM": 10.0,
+      "stationElevationM": 5.7,
+      "stationIsLow": true
+    },
+    "shimura-sakaue": {
+      "maxM": 24.2,
+      "minM": 8.3,
+      "slope": "some",
+      "spreadM": 15.9,
+      "stationElevationM": 23.2,
+      "stationIsLow": false
+    },
+    "shimura-sanchome": {
+      "maxM": 19.3,
+      "minM": 3.2,
+      "slope": "some",
+      "spreadM": 16.1,
+      "stationElevationM": 4.4,
+      "stationIsLow": true
+    },
+    "shin-egota": {
+      "maxM": 38.3,
+      "minM": 28.6,
+      "slope": "some",
+      "spreadM": 9.7,
+      "stationElevationM": 38.3,
+      "stationIsLow": false
+    },
+    "shin-itabashi": {
+      "maxM": 28.8,
+      "minM": 17.4,
+      "slope": "some",
+      "spreadM": 11.4,
+      "stationElevationM": 28.8,
+      "stationIsLow": false
+    },
+    "shin-kiba": {
+      "maxM": 10.7,
+      "minM": 2.5,
+      "slope": "some",
+      "spreadM": 8.2,
+      "stationElevationM": 5.1,
+      "stationIsLow": false
+    },
+    "shin-koenji": {
+      "maxM": 44.7,
+      "minM": 38,
+      "slope": "flat",
+      "spreadM": 6.7,
+      "stationElevationM": 43,
+      "stationIsLow": false
+    },
+    "shin-koiwa": {
+      "maxM": 2.5,
+      "minM": -1.3,
+      "slope": "flat",
+      "spreadM": 3.8,
+      "stationElevationM": 2.5,
+      "stationIsLow": false
+    },
+    "shin-koshinzuka": {
+      "maxM": 26.7,
+      "minM": 24,
+      "slope": "flat",
+      "spreadM": 2.7,
+      "stationElevationM": 26.5,
+      "stationIsLow": false
+    },
+    "shin-nakano": {
+      "maxM": 37.8,
+      "minM": 33.8,
+      "slope": "flat",
+      "spreadM": 4.0,
+      "stationElevationM": 37.4,
+      "stationIsLow": false
+    },
+    "shin-okachimachi": {
+      "maxM": 2.5,
+      "minM": 1.9,
+      "slope": "flat",
+      "spreadM": 0.6,
+      "stationElevationM": 2.5,
+      "stationIsLow": false
+    },
+    "shin-okubo": {
+      "maxM": 34.9,
+      "minM": 29.9,
+      "slope": "flat",
+      "spreadM": 5.0,
+      "stationElevationM": 34.9,
+      "stationIsLow": false
+    },
+    "shin-otsuka": {
+      "maxM": 31.2,
+      "minM": 14,
+      "slope": "some",
+      "spreadM": 17.2,
+      "stationElevationM": 25,
+      "stationIsLow": false
+    },
+    "shin-sakuradai": {
+      "maxM": 38.2,
+      "minM": 36.6,
+      "slope": "flat",
+      "spreadM": 1.6,
+      "stationElevationM": 37.1,
+      "stationIsLow": false
+    },
+    "shin-seibijo": {
+      "maxM": 9.1,
+      "minM": 0.9,
+      "slope": "some",
+      "spreadM": 8.2,
+      "stationElevationM": 5.6,
+      "stationIsLow": false
+    },
+    "shin-shibamata": {
+      "maxM": 2.2,
+      "minM": 1.7,
+      "slope": "flat",
+      "spreadM": 0.5,
+      "stationElevationM": 2.1,
+      "stationIsLow": false
+    },
+    "shin-takashimadaira": {
+      "maxM": 5.3,
+      "minM": 3.1,
+      "slope": "flat",
+      "spreadM": 2.2,
+      "stationElevationM": 3.6,
+      "stationIsLow": true
+    },
+    "shin-toyosu": {
+      "maxM": 6.9,
+      "minM": 2,
+      "slope": "flat",
+      "spreadM": 4.9,
+      "stationElevationM": 6.9,
+      "stationIsLow": false
+    },
+    "shinagawa": {
+      "maxM": 20.6,
+      "minM": 2.6,
+      "slope": "some",
+      "spreadM": 18.0,
+      "stationElevationM": 3.1,
+      "stationIsLow": true
+    },
+    "shinagawa-seaside": {
+      "maxM": 9.2,
+      "minM": 1.3,
+      "slope": "flat",
+      "spreadM": 7.9,
+      "stationElevationM": 2.3,
+      "stationIsLow": true
+    },
+    "shinanomachi": {
+      "maxM": 34,
+      "minM": 18.1,
+      "slope": "some",
+      "spreadM": 15.9,
+      "stationElevationM": 27.2,
+      "stationIsLow": false
+    },
+    "shindaita": {
+      "maxM": 44.3,
+      "minM": 34.1,
+      "slope": "some",
+      "spreadM": 10.2,
+      "stationElevationM": 36.6,
+      "stationIsLow": true
+    },
+    "shinjuku": {
+      "maxM": 40,
+      "minM": 31.6,
+      "slope": "some",
+      "spreadM": 8.4,
+      "stationElevationM": 37.5,
+      "stationIsLow": false
+    },
+    "shinjuku-gyoemmae": {
+      "maxM": 36.3,
+      "minM": 32.2,
+      "slope": "flat",
+      "spreadM": 4.1,
+      "stationElevationM": 34.1,
+      "stationIsLow": false
+    },
+    "shinjuku-nishiguchi": {
+      "maxM": 40.9,
+      "minM": 30,
+      "slope": "some",
+      "spreadM": 10.9,
+      "stationElevationM": 33.6,
+      "stationIsLow": false
+    },
+    "shinjuku-sanchome": {
+      "maxM": 37.6,
+      "minM": 28.3,
+      "slope": "some",
+      "spreadM": 9.3,
+      "stationElevationM": 36.5,
+      "stationIsLow": false
+    },
+    "shinonome": {
+      "maxM": 4.9,
+      "minM": 3,
+      "slope": "flat",
+      "spreadM": 1.9,
+      "stationElevationM": 3.4,
+      "stationIsLow": true
+    },
+    "shinozaki": {
+      "maxM": 1.4,
+      "minM": 0.7,
+      "slope": "flat",
+      "spreadM": 0.7,
+      "stationElevationM": 1.3,
+      "stationIsLow": false
+    },
+    "shinsen": {
+      "maxM": 34.7,
+      "minM": 26.9,
+      "slope": "flat",
+      "spreadM": 7.8,
+      "stationElevationM": 26.9,
+      "stationIsLow": true
+    },
+    "shiodome": {
+      "maxM": 3.6,
+      "minM": 1.5,
+      "slope": "flat",
+      "spreadM": 2.1,
+      "stationElevationM": 3.5,
+      "stationIsLow": false
+    },
+    "shirokane-takanawa": {
+      "maxM": 26.2,
+      "minM": 4.2,
+      "slope": "hilly",
+      "spreadM": 22.0,
+      "stationElevationM": 10.5,
+      "stationIsLow": true
+    },
+    "shirokanedai": {
+      "maxM": 30.8,
+      "minM": 14.3,
+      "slope": "some",
+      "spreadM": 16.5,
+      "stationElevationM": 30.3,
+      "stationIsLow": false
+    },
+    "shoin-jinja-mae": {
+      "maxM": 38.2,
+      "minM": 29.4,
+      "slope": "some",
+      "spreadM": 8.8,
+      "stationElevationM": 37.8,
+      "stationIsLow": false
+    },
+    "showajima": {
+      "maxM": 5.2,
+      "minM": 0,
+      "slope": "flat",
+      "spreadM": 5.2,
+      "stationElevationM": 4.1,
+      "stationIsLow": false
+    },
+    "soshigaya-okura": {
+      "maxM": 43.3,
+      "minM": 38.8,
+      "slope": "flat",
+      "spreadM": 4.5,
+      "stationElevationM": 42.3,
+      "stationIsLow": false
+    },
+    "suehirocho": {
+      "maxM": 10.3,
+      "minM": 2.6,
+      "slope": "flat",
+      "spreadM": 7.7,
+      "stationElevationM": 3.6,
+      "stationIsLow": true
+    },
+    "sugamo": {
+      "maxM": 26.4,
+      "minM": 24.6,
+      "slope": "flat",
+      "spreadM": 1.8,
+      "stationElevationM": 25.6,
+      "stationIsLow": false
+    },
+    "sugamoshinden": {
+      "maxM": 27.8,
+      "minM": 19.1,
+      "slope": "some",
+      "spreadM": 8.7,
+      "stationElevationM": 19.1,
+      "stationIsLow": true
+    },
+    "suidobashi": {
+      "maxM": 22.7,
+      "minM": 1.4,
+      "slope": "hilly",
+      "spreadM": 21.3,
+      "stationElevationM": 4.9,
+      "stationIsLow": true
+    },
+    "sumiyoshi": {
+      "maxM": 1.4,
+      "minM": 0,
+      "slope": "flat",
+      "spreadM": 1.4,
+      "stationElevationM": 0.1,
+      "stationIsLow": true
+    },
+    "tabata": {
+      "maxM": 22.9,
+      "minM": 3.8,
+      "slope": "some",
+      "spreadM": 19.1,
+      "stationElevationM": 6,
+      "stationIsLow": true
+    },
+    "tachiaigawa": {
+      "maxM": 7.7,
+      "minM": 2,
+      "slope": "flat",
+      "spreadM": 5.7,
+      "stationElevationM": 2.6,
+      "stationIsLow": true
+    },
+    "takadanobaba": {
+      "maxM": 30.6,
+      "minM": 11.7,
+      "slope": "some",
+      "spreadM": 18.9,
+      "stationElevationM": 21.9,
+      "stationIsLow": false
+    },
+    "takaido": {
+      "maxM": 48,
+      "minM": 41.2,
+      "slope": "flat",
+      "spreadM": 6.8,
+      "stationElevationM": 41.2,
+      "stationIsLow": true
+    },
+    "takanawa-gateway": {
+      "maxM": 24.9,
+      "minM": 2.6,
+      "slope": "hilly",
+      "spreadM": 22.3,
+      "stationElevationM": 3.3,
+      "stationIsLow": true
+    },
+    "takanawadai": {
+      "maxM": 28.1,
+      "minM": 9.9,
+      "slope": "some",
+      "spreadM": 18.2,
+      "stationElevationM": 28.1,
+      "stationIsLow": false
+    },
+    "takashimadaira": {
+      "maxM": 5,
+      "minM": 2.6,
+      "slope": "flat",
+      "spreadM": 2.4,
+      "stationElevationM": 3.2,
+      "stationIsLow": true
+    },
+    "takebashi": {
+      "maxM": 20.3,
+      "minM": 3.6,
+      "slope": "some",
+      "spreadM": 16.7,
+      "stationElevationM": 4.6,
+      "stationIsLow": true
+    },
+    "takenotsuka": {
+      "maxM": 3.5,
+      "minM": 2.5,
+      "slope": "flat",
+      "spreadM": 1.0,
+      "stationElevationM": 2.5,
+      "stationIsLow": true
+    },
+    "takeshiba": {
+      "maxM": 4,
+      "minM": 0,
+      "slope": "flat",
+      "spreadM": 4,
+      "stationElevationM": 2.1,
+      "stationIsLow": false
+    },
+    "takinogawa-itchome": {
+      "maxM": 24.4,
+      "minM": 16,
+      "slope": "some",
+      "spreadM": 8.4,
+      "stationElevationM": 16.4,
+      "stationIsLow": true
+    },
+    "tamachi": {
+      "maxM": 6.9,
+      "minM": 2.7,
+      "slope": "flat",
+      "spreadM": 4.2,
+      "stationElevationM": 3.3,
+      "stationIsLow": true
+    },
+    "tamagawa": {
+      "maxM": 27,
+      "minM": 5.6,
+      "slope": "hilly",
+      "spreadM": 21.4,
+      "stationElevationM": 11.3,
+      "stationIsLow": true
+    },
+    "tameike-sanno": {
+      "maxM": 25.8,
+      "minM": 6.7,
+      "slope": "some",
+      "spreadM": 19.1,
+      "stationElevationM": 9.4,
+      "stationIsLow": true
+    },
+    "tatsumi": {
+      "maxM": 7.5,
+      "minM": 2.6,
+      "slope": "flat",
+      "spreadM": 4.9,
+      "stationElevationM": 7,
+      "stationIsLow": false
+    },
+    "tawaramachi": {
+      "maxM": 4.8,
+      "minM": 1.6,
+      "slope": "flat",
+      "spreadM": 3.2,
+      "stationElevationM": 2,
+      "stationIsLow": true
+    },
+    "telecom-center": {
+      "maxM": 8.6,
+      "minM": 4.3,
+      "slope": "flat",
+      "spreadM": 4.3,
+      "stationElevationM": 8.6,
+      "stationIsLow": false
+    },
+    "tenkubashi": {
+      "maxM": 3.4,
+      "minM": 1,
+      "slope": "flat",
+      "spreadM": 2.4,
+      "stationElevationM": 3.1,
+      "stationIsLow": false
+    },
+    "tennozu-isle": {
+      "maxM": 3.9,
+      "minM": 1.2,
+      "slope": "flat",
+      "spreadM": 2.7,
+      "stationElevationM": 2.5,
+      "stationIsLow": false
+    },
+    "tobu-nerima": {
+      "maxM": 34.5,
+      "minM": 25.1,
+      "slope": "some",
+      "spreadM": 9.4,
+      "stationElevationM": 33.7,
+      "stationIsLow": false
+    },
+    "tochomae": {
+      "maxM": 41.8,
+      "minM": 30.1,
+      "slope": "some",
+      "spreadM": 11.7,
+      "stationElevationM": 33.4,
+      "stationIsLow": true
+    },
+    "todaimae": {
+      "maxM": 21.8,
+      "minM": 7.8,
+      "slope": "some",
+      "spreadM": 14.0,
+      "stationElevationM": 21.6,
+      "stationIsLow": false
+    },
+    "toden-zoshigaya": {
+      "maxM": 31.8,
+      "minM": 27.2,
+      "slope": "flat",
+      "spreadM": 4.6,
+      "stationElevationM": 31.5,
+      "stationIsLow": false
+    },
+    "todoroki": {
+      "maxM": 39.2,
+      "minM": 27.2,
+      "slope": "some",
+      "spreadM": 12.0,
+      "stationElevationM": 27.2,
+      "stationIsLow": true
+    },
+    "togoshi": {
+      "maxM": 24.9,
+      "minM": 17.9,
+      "slope": "flat",
+      "spreadM": 7.0,
+      "stationElevationM": 19.2,
+      "stationIsLow": true
+    },
+    "togoshi-koen": {
+      "maxM": 23.9,
+      "minM": 17.9,
+      "slope": "flat",
+      "spreadM": 6.0,
+      "stationElevationM": 22.4,
+      "stationIsLow": false
+    },
+    "tokiwadai": {
+      "maxM": 31.2,
+      "minM": 21,
+      "slope": "some",
+      "spreadM": 10.2,
+      "stationElevationM": 27.9,
+      "stationIsLow": false
+    },
+    "tokyo": {
+      "maxM": 6,
+      "minM": 2.9,
+      "slope": "flat",
+      "spreadM": 3.1,
+      "stationElevationM": 3.1,
+      "stationIsLow": true
+    },
+    "tokyo-skytree": {
+      "maxM": 2,
+      "minM": 0,
+      "slope": "flat",
+      "spreadM": 2,
+      "stationElevationM": 0.6,
+      "stationIsLow": false
+    },
+    "tokyo-teleport": {
+      "maxM": 6.8,
+      "minM": 4,
+      "slope": "flat",
+      "spreadM": 2.8,
+      "stationElevationM": 6,
+      "stationIsLow": false
+    },
+    "toneri": {
+      "maxM": 4.5,
+      "minM": 3.2,
+      "slope": "flat",
+      "spreadM": 1.3,
+      "stationElevationM": 3.8,
+      "stationIsLow": false
+    },
+    "toneri-koen": {
+      "maxM": 4.9,
+      "minM": 2.9,
+      "slope": "flat",
+      "spreadM": 2.0,
+      "stationElevationM": 3,
+      "stationIsLow": true
+    },
+    "toranomon": {
+      "maxM": 24.7,
+      "minM": 4.2,
+      "slope": "hilly",
+      "spreadM": 20.5,
+      "stationElevationM": 5.5,
+      "stationIsLow": true
+    },
+    "toritsu-daigaku": {
+      "maxM": 38.5,
+      "minM": 23.7,
+      "slope": "some",
+      "spreadM": 14.8,
+      "stationElevationM": 25.9,
+      "stationIsLow": true
+    },
+    "toritsu-kasei": {
+      "maxM": 42.7,
+      "minM": 38.3,
+      "slope": "flat",
+      "spreadM": 4.4,
+      "stationElevationM": 42.7,
+      "stationIsLow": false
+    },
+    "toshimaen": {
+      "maxM": 41.4,
+      "minM": 30.5,
+      "slope": "some",
+      "spreadM": 10.9,
+      "stationElevationM": 40.9,
+      "stationIsLow": false
+    },
+    "toyocho": {
+      "maxM": 3.6,
+      "minM": -1.7,
+      "slope": "flat",
+      "spreadM": 5.3,
+      "stationElevationM": -0.8,
+      "stationIsLow": true
+    },
+    "toyosu": {
+      "maxM": 5.9,
+      "minM": 1.4,
+      "slope": "flat",
+      "spreadM": 4.5,
+      "stationElevationM": 2.2,
+      "stationIsLow": true
+    },
+    "tsukiji": {
+      "maxM": 3,
+      "minM": 2.1,
+      "slope": "flat",
+      "spreadM": 0.9,
+      "stationElevationM": 2.1,
+      "stationIsLow": true
+    },
+    "tsukijishijo": {
+      "maxM": 3.7,
+      "minM": 2.2,
+      "slope": "flat",
+      "spreadM": 1.5,
+      "stationElevationM": 2.9,
+      "stationIsLow": false
+    },
+    "tsukishima": {
+      "maxM": 2.6,
+      "minM": 1.4,
+      "slope": "flat",
+      "spreadM": 1.2,
+      "stationElevationM": 2.1,
+      "stationIsLow": false
+    },
+    "uchisaiwaicho": {
+      "maxM": 5.4,
+      "minM": 2.2,
+      "slope": "flat",
+      "spreadM": 3.2,
+      "stationElevationM": 2.9,
+      "stationIsLow": true
+    },
+    "ueno": {
+      "maxM": 18.2,
+      "minM": 2,
+      "slope": "some",
+      "spreadM": 16.2,
+      "stationElevationM": 2.9,
+      "stationIsLow": true
+    },
+    "uguisudani": {
+      "maxM": 19.7,
+      "minM": 2.8,
+      "slope": "some",
+      "spreadM": 16.9,
+      "stationElevationM": 8.8,
+      "stationIsLow": false
+    },
+    "ukimafunado": {
+      "maxM": 3,
+      "minM": 1.4,
+      "slope": "flat",
+      "spreadM": 1.6,
+      "stationElevationM": 1.4,
+      "stationIsLow": true
+    },
+    "umegaoka": {
+      "maxM": 45.1,
+      "minM": 29.7,
+      "slope": "some",
+      "spreadM": 15.4,
+      "stationElevationM": 32.1,
+      "stationIsLow": true
+    },
+    "umejima": {
+      "maxM": 1.3,
+      "minM": -0.8,
+      "slope": "flat",
+      "spreadM": 2.1,
+      "stationElevationM": 0.3,
+      "stationIsLow": false
+    },
+    "umeyashiki": {
+      "maxM": 2.8,
+      "minM": 1.9,
+      "slope": "flat",
+      "spreadM": 0.9,
+      "stationElevationM": 2.6,
+      "stationIsLow": false
+    },
+    "unoki": {
+      "maxM": 14.9,
+      "minM": 4.3,
+      "slope": "some",
+      "spreadM": 10.6,
+      "stationElevationM": 5.7,
+      "stationIsLow": true
+    },
+    "ushida": {
+      "maxM": 3,
+      "minM": -0.8,
+      "slope": "flat",
+      "spreadM": 3.8,
+      "stationElevationM": 0.9,
+      "stationIsLow": false
+    },
+    "ushigome-kagurazaka": {
+      "maxM": 28.9,
+      "minM": 10.8,
+      "slope": "some",
+      "spreadM": 18.1,
+      "stationElevationM": 19,
+      "stationIsLow": false
+    },
+    "ushigome-yanagicho": {
+      "maxM": 34.7,
+      "minM": 21.4,
+      "slope": "some",
+      "spreadM": 13.3,
+      "stationElevationM": 26.6,
+      "stationIsLow": false
+    },
+    "wakabayashi": {
+      "maxM": 37.6,
+      "minM": 27.5,
+      "slope": "some",
+      "spreadM": 10.1,
+      "stationElevationM": 29.7,
+      "stationIsLow": true
+    },
+    "wakamatsu-kawada": {
+      "maxM": 37.9,
+      "minM": 24.5,
+      "slope": "some",
+      "spreadM": 13.4,
+      "stationElevationM": 33.3,
+      "stationIsLow": false
+    },
+    "waseda": {
+      "maxM": 25.1,
+      "minM": 5.9,
+      "slope": "some",
+      "spreadM": 19.2,
+      "stationElevationM": 14.8,
+      "stationIsLow": false
+    },
+    "waseda-toden": {
+      "maxM": 26.5,
+      "minM": 7.5,
+      "slope": "some",
+      "spreadM": 19.0,
+      "stationElevationM": 7.7,
+      "stationIsLow": true
+    },
+    "yaguchi-no-watashi": {
+      "maxM": 4.9,
+      "minM": 3.8,
+      "slope": "flat",
+      "spreadM": 1.1,
+      "stationElevationM": 4.9,
+      "stationIsLow": false
+    },
+    "yahiro": {
+      "maxM": 0.1,
+      "minM": -1,
+      "slope": "flat",
+      "spreadM": 1.1,
+      "stationElevationM": -0.3,
+      "stationIsLow": false
+    },
+    "yazaike": {
+      "maxM": 3.2,
+      "minM": 2.9,
+      "slope": "flat",
+      "spreadM": 0.3,
+      "stationElevationM": 2.9,
+      "stationIsLow": true
+    },
+    "yoga": {
+      "maxM": 44.3,
+      "minM": 32.8,
+      "slope": "some",
+      "spreadM": 11.5,
+      "stationElevationM": 34.4,
+      "stationIsLow": true
+    },
+    "yotsugi": {
+      "maxM": 2.4,
+      "minM": -0.3,
+      "slope": "flat",
+      "spreadM": 2.7,
+      "stationElevationM": -0.1,
+      "stationIsLow": true
+    },
+    "yotsuya": {
+      "maxM": 33.2,
+      "minM": 19.5,
+      "slope": "some",
+      "spreadM": 13.7,
+      "stationElevationM": 30.6,
+      "stationIsLow": false
+    },
+    "yotsuya-sanchome": {
+      "maxM": 35,
+      "minM": 22.8,
+      "slope": "some",
+      "spreadM": 12.2,
+      "stationElevationM": 35,
+      "stationIsLow": false
+    },
+    "yoyogi": {
+      "maxM": 36.7,
+      "minM": 32,
+      "slope": "flat",
+      "spreadM": 4.7,
+      "stationElevationM": 35,
+      "stationIsLow": false
+    },
+    "yoyogi-hachiman": {
+      "maxM": 35.9,
+      "minM": 20.6,
+      "slope": "some",
+      "spreadM": 15.3,
+      "stationElevationM": 20.8,
+      "stationIsLow": true
+    },
+    "yoyogi-uehara": {
+      "maxM": 42.1,
+      "minM": 24.7,
+      "slope": "some",
+      "spreadM": 17.4,
+      "stationElevationM": 29.2,
+      "stationIsLow": true
+    },
+    "yukigaya-otsuka": {
+      "maxM": 25.2,
+      "minM": 12,
+      "slope": "some",
+      "spreadM": 13.2,
+      "stationElevationM": 24.3,
+      "stationIsLow": false
+    },
+    "yurakucho": {
+      "maxM": 4,
+      "minM": 2.5,
+      "slope": "flat",
+      "spreadM": 1.5,
+      "stationElevationM": 2.9,
+      "stationIsLow": true
+    },
+    "yushima": {
+      "maxM": 21.1,
+      "minM": 3.5,
+      "slope": "some",
+      "spreadM": 17.6,
+      "stationElevationM": 5.7,
+      "stationIsLow": true
+    },
+    "yutenji": {
+      "maxM": 31.8,
+      "minM": 22.4,
+      "slope": "some",
+      "spreadM": 9.4,
+      "stationElevationM": 29.8,
+      "stationIsLow": false
+    },
+    "zoshigaya": {
+      "maxM": 31.7,
+      "minM": 24.3,
+      "slope": "flat",
+      "spreadM": 7.4,
+      "stationElevationM": 28.5,
+      "stationIsLow": false
+    },
+    "zoshiki": {
+      "maxM": 3.5,
+      "minM": 2.4,
+      "slope": "flat",
+      "spreadM": 1.1,
+      "stationElevationM": 3.1,
+      "stationIsLow": false
+    }
+  }
+}

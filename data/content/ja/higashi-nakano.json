@@ -12,7 +12,7 @@
   },
   "terrain": {
     "slope": "some",
-    "note": "駅が神田川に向かう谷地形の底にあり、東口・西口とも住宅地へ出るには上り坂になる。距離は短いが勾配があり、自転車だと押して歩く場面が出る。ベビーカーや重い買い物での帰宅を考えるなら、坂のどちら側に住むかは事前に歩いて確かめたい。"
+    "note": "駅は標高34mの台地の縁にあり、神田川へ向かう方向は標高21mまで下る。周囲800mの標高差は16mある。川へ下る方向に住むと帰りが上り坂になり、自転車では押して歩く場面が出る。台地側は起伏が小さいので、坂のどちら側に住むかで毎日の移動が変わる。"
   },
   "noiseSources": [
     "山手通りは交通量が多く、沿道は終日車の音が続く",
@@ -21,18 +21,47 @@
   ],
   "groceries": [
     {
-      "name": "ライフ 東中野店",
+      "name": "サミット",
       "tier": "standard",
-      "note": "中野区東中野3-9-7にあり、日常の買い物はここで足りる",
-      "sourceUrl": "https://store.lifecorp.jp/detail/east842/",
-      "verifiedAt": "2026-09-12"
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/3560195962",
+      "verifiedAt": "2026-09-13"
     },
     {
-      "name": "サミットストア 東中野店",
+      "name": "ライフ 東中野店",
       "tier": "standard",
-      "note": "中野区東中野4-5-10にある",
-      "sourceUrl": "https://www.summitstore.co.jp/store/",
-      "verifiedAt": "2026-09-12"
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1789906322",
+      "verifiedAt": "2026-09-13",
+      "note": "中野区東中野3-9-7にあり、日常の買い物はここで足りる"
+    },
+    {
+      "name": "超自然",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/11108994441",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オーガニックファーム",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/5109987945",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Kitchen Court",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/2524844693",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "業務スーパー",
+      "tier": "discount",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/2534668208",
+      "verifiedAt": "2026-09-13"
     }
   ],
   "exits": [

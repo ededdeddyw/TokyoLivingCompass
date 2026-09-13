@@ -12,7 +12,7 @@
   },
   "terrain": {
     "slope": "some",
-    "note": "目黒川が流れる谷筋に駅があり、五反田方向と西大井方向へは上り坂になる。駅前のオフィス街とデッキは平坦だが、住宅地は坂の上にあることが多い。自転車で生活するなら、坂のどちら側に住むかで負担が変わる。"
+    "note": "目黒川が流れる谷の底に駅があり、標高は4mである。五反田方向と西大井方向は標高21mまで上がり、周囲800mの標高差は17mある。駅前のオフィス街とデッキは平坦だが、住宅地は坂を上がった先にあることが多い。自転車で生活するなら、坂のどちら側に住むかで負担が変わる。"
   },
   "noiseSources": [
     "山手線・埼京線・湘南新宿ラインの線路沿いは列車の本数が多く、走行音が終電まで続く",
@@ -21,11 +21,39 @@
   ],
   "groceries": [
     {
-      "name": "ライフ 大崎ニューシティ店",
+      "name": "ライフ",
       "tier": "standard",
-      "note": "品川区大崎1-6-4の大崎ニューシティ5号館に入っており、駅から歩行者デッキでつながっている",
-      "sourceUrl": "https://store.lifecorp.jp/detail/east878/",
-      "verifiedAt": "2026-09-12"
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/12648108001",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "成城石井",
+      "tier": "premium",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/8440700940",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 大崎駅前店",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/5570393896",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "あわや商店",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/7657773300",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "foodium 東五反田",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/2105665133",
+      "verifiedAt": "2026-09-13"
     }
   ],
   "exits": [

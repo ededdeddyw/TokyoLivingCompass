@@ -11,8 +11,8 @@
     "weekend": "買い物客で駅ビル周辺が混む。観光で訪れる街ではないため、来街者は品川区と大田区の近隣住民が中心である。"
   },
   "terrain": {
-    "slope": "some",
-    "note": "駅は台地の縁にあり、西側のゼームス坂方向へは上り坂、東側の海方向へは平坦である。どちら側に住むかで自転車の使いやすさが変わる。駅前と東側だけで生活するなら、坂を意識する場面は少ない。"
+    "slope": "flat",
+    "note": "駅は標高10mにあり、周囲800mの標高差は7mほどにとどまる。西側のゼームス坂方向は標高14mまで上がり、東側の海方向は平坦である。どちら側に住むかで自転車の使いやすさが変わるが、勾配そのものは緩い。"
   },
   "noiseSources": [
     "京浜東北線と東急大井町線の線路沿いは、終電まで走行音が続く",
@@ -22,18 +22,41 @@
   ],
   "groceries": [
     {
+      "name": "肉のハナマサ",
+      "tier": "discount",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/4464865893",
+      "verifiedAt": "2026-09-13"
+    },
+    {
       "name": "イトーヨーカドー 大井町店",
       "tier": "standard",
-      "note": "品川区大井1-3-6にある",
-      "sourceUrl": "https://en.stores.itoyokado.co.jp/detail/538/",
-      "verifiedAt": "2026-09-12"
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1786344352",
+      "verifiedAt": "2026-09-13",
+      "note": "品川区大井1-3-6にある"
+    },
+    {
+      "name": "ライフ",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/13722006963",
+      "verifiedAt": "2026-09-13"
     },
     {
       "name": "西友 大井町店",
       "tier": "discount",
-      "note": "品川区東大井5-18-1にある",
-      "sourceUrl": "https://www.seiyu.co.jp/shop/%E8%A5%BF%E5%8F%8B%E5%A4%A7%E4%BA%95%E7%94%BA%E5%BA%97/",
-      "verifiedAt": "2026-09-12"
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1786344351",
+      "verifiedAt": "2026-09-13",
+      "note": "品川区東大井5-18-1にある"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/2390628276",
+      "verifiedAt": "2026-09-13"
     }
   ],
   "exits": [

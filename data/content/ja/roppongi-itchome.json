@@ -11,8 +11,8 @@
     "weekend": "オフィス街なので週末は人が少ない。アークヒルズの商業区画とサントリーホールに用がある人が訪れる程度で、街として静かに過ごせる。"
   },
   "terrain": {
-    "slope": "hilly",
-    "note": "麻布台地の斜面に駅があり、アークヒルズ方向へは上り、六本木通り方向へは下りになる。エスカレーターとエレベーターが整備された区画もあるが、住宅街へ入ると急な坂と階段が残っている。自転車での移動は電動でないと厳しい。"
+    "slope": "some",
+    "note": "駅は麻布台地の斜面の低いところ、標高16mにあり、アークヒルズ方向は標高28mまで上がる。周囲800mの標高差は14mある。駅からアークヒルズへはエスカレーターとエレベーターが整備されているが、住宅街へ入ると坂と階段が残る。自転車での移動は電動でないと負担が大きい。"
   },
   "noiseSources": [
     "六本木通りと首都高速3号渋谷線が近く、沿道は終日車の音が続く",
@@ -21,11 +21,39 @@
   ],
   "groceries": [
     {
-      "name": "成城石井 赤坂アークヒルズ店",
+      "name": "福島屋 六本木店",
       "tier": "premium",
-      "note": "アークヒルズの中にある。価格帯は高く、ここだけで買い物を済ませると、平均的な収入の世帯には食費の負担が大きくなる",
-      "sourceUrl": "https://www.arkhills.com/gourmet_shops/0042.html",
-      "verifiedAt": "2026-09-12"
+      "walkMinutes": 1,
+      "sourceUrl": "https://www.openstreetmap.org/node/3666723662",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "三浦屋",
+      "tier": "premium",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1126262342",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 六本木1丁目店",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/2408510858",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Union",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/5174015225",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "マルエツプチ",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/5037841168",
+      "verifiedAt": "2026-09-13"
     }
   ],
   "exits": [

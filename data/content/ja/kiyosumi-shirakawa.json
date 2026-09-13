@@ -12,7 +12,7 @@
   },
   "terrain": {
     "slope": "flat",
-    "note": "隅田川と小名木川に囲まれた低地で、街全体に起伏がほとんどない。自転車での移動が非常に楽で、日本橋や銀座方面まで自転車で出る住民も多い。ベビーカーでの移動も苦にならない。"
+    "note": "隅田川と小名木川に囲まれた低地で、標高は1m前後、周囲800mの標高差も2mしかない。自転車での移動がしやすく、日本橋や銀座方面まで自転車で出る住民も多い。ベビーカーでの移動も苦にならない。"
   },
   "noiseSources": [
     "清洲橋通りと三ツ目通りは交通量が多く、沿道の物件は窓を開けると車の音が入る",
@@ -21,12 +21,39 @@
   ],
   "groceries": [
     {
-      "name": "マルエツ 清澄白河店",
+      "name": "赤札堂",
+      "tier": "discount",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/way/650844330",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "野菜のちから",
       "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/9712857387",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "Discount Market A･Colle",
+      "tier": "discount",
       "walkMinutes": 6,
-      "note": "江東区白河4-3-1にあり、B2出口から徒歩6分で着く。日常の買い物はここで足りる",
-      "sourceUrl": "https://www.maruetsu.co.jp/store/9320/",
-      "verifiedAt": "2026-09-12"
+      "sourceUrl": "https://www.openstreetmap.org/node/2268159542",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/13040886950",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "食品館あおば",
+      "tier": "discount",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/9055938728",
+      "verifiedAt": "2026-09-13"
     }
   ],
   "residents": "昔から深川に住む世帯と、2015年前後から流入した単身者・共働き夫婦が混在している。学生は少ない。カフェや美術館に惹かれて移ってきた層が一定数いるため、街の雰囲気に対する住民の許容度が高く、新しい店が受け入れられやすい。",

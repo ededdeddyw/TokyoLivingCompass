@@ -27,10 +27,38 @@ MAX_STORES = 5      # 1駅に載せる上限。多すぎると読み手が選べ
 DISCOUNT = ["オオゼキ", "業務スーパー", "ロピア", "西友", "ドン・キホーテ", "アコレ",
             "ビッグ・エー", "Big-A", "赤札堂", "オーケー", "ラ・ムー", "セイフー",
             "ヨークフーズ", "スーパーバリュー", "サンディ", "肉のハナマサ",
-            "食品館あおば", "まいばすけっと"]
+            "食品館あおば", "A･Colle", "Acolle", "アコレ"]
 PREMIUM = ["成城石井", "紀ノ国屋", "明治屋", "クイーンズ伊勢丹", "福島屋", "北野エース",
            "DEAN", "プレッセ", "リンコス", "ザ・ガーデン", "三浦屋", "信濃屋",
            "Shinanoya", "Bio c", "Bio C", "ピカール", "Picard", "紀ノ國屋"]
+
+
+# OSM で shop=supermarket が付いているが、食料品の買い物先として挙げるのが
+# 適切でないもの。見つけ次第ここに足す。
+NOT_GROCERY = ["Seria", "セリア", "ダイソー", "DAISO", "キャンドゥ", "キタムラ",
+               "Be-set", "plaza", "PLAZA"]
+
+# 同じチェーンの別店舗を並べても読み手の判断材料にならないので、
+# 最寄りの1店だけ載せる。店名から所属チェーンを割り出すための一覧。
+CHAINS = ["まいばすけっと", "ライフ", "サミット", "マルエツ", "東急ストア", "西友",
+          "オオゼキ", "赤札堂", "文化堂", "オーケー", "業務スーパー", "成城石井",
+          "ピーコックストア", "イトーヨーカドー", "コープ", "コモディイイダ",
+          "ヨークマート", "ヨークフーズ", "食品館あおば", "肉のハナマサ",
+          "プレッセ", "明治屋", "三徳", "Big-A", "ビッグ・エー", "アコレ",
+          "クイーンズ伊勢丹", "京王ストア", "いなげや", "アキダイ", "サンディ"]
+
+
+def clean_name(name):
+    """OSM の店名から、併記された英語表記を落とす。"""
+    import re as _re
+    return _re.sub(r"\s*[（(][A-Za-z0-9 .,'&-]+[)）]\s*$", "", name).strip()
+
+
+def chain_of(name):
+    for c in CHAINS:
+        if c in name:
+            return c
+    return name  # 一覧にないものは店名そのものをチェーン名とみなす
 
 
 def tier_of(name):
@@ -68,13 +96,18 @@ def main():
             print(f"  {content['name']}: 半径内にスーパーが見つからない")
             continue
 
-        # 同じ店が node と way で重複することがあるので、名前と距離が近いものはまとめる
-        picked, seen = [], []
+        # 買い物先として挙げるのが適切でないものを外し、店名を整える
+        pois = [{**p, "name": clean_name(p["name"])} for p in pois]
+        pois = [p for p in pois
+                if not any(w.lower() in p["name"].lower() for w in NOT_GROCERY)]
+
+        # 同じチェーンは最寄りの1店だけにする。同じ名前が3つ並んでも判断材料にならない。
+        picked, chains_taken = [], set()
         for p in pois:
-            if any(p["name"] == q["name"] and abs(p["distanceM"] - q["distanceM"]) < 120
-                   for q in seen):
+            c = chain_of(p["name"])
+            if c in chains_taken:
                 continue
-            seen.append(p)
+            chains_taken.add(c)
             picked.append(p)
             if len(picked) >= MAX_STORES:
                 break
@@ -87,7 +120,7 @@ def main():
                 continue
             extra = next((p for p in pois
                           if tier_of(p["name"]) == want
-                          and p["name"] not in [q["name"] for q in picked]), None)
+                          and chain_of(p["name"]) not in chains_taken), None)
             if extra:
                 picked.append(extra)
         picked.sort(key=lambda p: p["distanceM"])

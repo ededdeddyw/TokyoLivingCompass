@@ -11,8 +11,8 @@
     "weekend": "桜の時期の週末は目黒川沿いが歩けないほど混み、駅の改札も規制がかかる。買い物にも出づらくなるため、住む側にとっては、年に数週間この混雑を負担に感じる場面が出てくる。それ以外の週末も来街者はいるが、買い物や移動に不便を感じるほどではない。"
   },
   "terrain": {
-    "slope": "hilly",
-    "note": "目黒川が刻んだ谷の底に駅があり、代官山方向にも祐天寺方向にも上り坂になる。坂の勾配はきつく、自転車は電動でないと日常使いが厳しい区画が目立つ。ベビーカーや大きな買い物を考えるなら、坂の下（川沿い）か上（住宅地）かで生活がかなり変わる。"
+    "slope": "some",
+    "note": "目黒川が刻んだ谷の底に駅があり、標高は9mである。代官山方向と祐天寺方向は標高27mまで上がり、周囲800mの標高差は19mある。この17駅の中では標高差が最も大きい。坂の下（川沿い）に住むか上（住宅地）に住むかで、自転車やベビーカーでの移動のしやすさがかなり変わる。"
   },
   "noiseSources": [
     "山手通りは交通量が多く、首都高中央環状線の出入口が近い区画は終日音が続く",
@@ -22,11 +22,39 @@
   ],
   "groceries": [
     {
-      "name": "ライフ 中目黒店",
+      "name": "プレッセ",
+      "tier": "premium",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/9326882806",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ライフ",
       "tier": "standard",
-      "note": "目黒区上目黒3-8-7にある",
-      "sourceUrl": "https://store.lifecorp.jp/detail/east670/",
-      "verifiedAt": "2026-09-12"
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1881932443",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "東急ストア 中目黒本店",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1881932441",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "まいばすけっと 目黒青葉台１丁目店",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/6753153462",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ピーコックストア 代官山店",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/3122257226",
+      "verifiedAt": "2026-09-13"
     }
   ],
   "exits": [

@@ -48,12 +48,17 @@ def main():
         measured, written = m["slope"], c["terrain"]["slope"]
         note = c["terrain"].get("note", "")
 
-        # note が別の傾斜を主張していないか
+        # note が別の傾斜を主張していないか。
+        # ただし「沿いは平坦だが、一本入ると上り坂になる」のように逆接を伴う文は、
+        # 場所による違いを書いたものなので矛盾ではない。
         for slope, words in CLAIMS.items():
             if slope == measured:
                 continue
             for w in words:
-                if w in note:
+                if w in note and not any(
+                    c in next((s for s in re.split(r"(?<=。)", note) if w in s), "")
+                    for c in ("だが", "が、", "ものの", "一方", "ただし")
+                ):
                     mismatches.append(
                         (c["name"], measured, m["spreadM"], w,
                          next(s for s in re.split(r"(?<=。)", note) if w in s).strip()))

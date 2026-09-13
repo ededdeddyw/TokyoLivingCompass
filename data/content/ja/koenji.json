@@ -12,7 +12,7 @@
   },
   "terrain": {
     "slope": "flat",
-    "note": "武蔵野台地の上にあり、駅周辺に大きな起伏はない。自転車での移動が楽で、中野・阿佐ヶ谷方面へは自転車が現実的な移動手段になる。ただし南側の神田川方向へは緩やかに下る。"
+    "note": "武蔵野台地の上にあり、駅の標高は42m、周囲800mの標高差は7mほどである。自転車での移動が楽で、中野・阿佐ヶ谷方面へは自転車が現実的な移動手段になる。ただし南側の神田川方向へは緩やかに下る。"
   },
   "noiseSources": [
     "中央線の高架沿いは電車の走行音が終電まで続く",
@@ -74,5 +74,42 @@
     "子育て中心の落ち着いた環境を求める人"
   ],
   "residentComment": "誰にでも勧められる街ではないが、古着店とライブハウスと個人経営の飲み屋がこれだけ密集した街は東京に他になく、この環境を求める人が他の街で同じものを見つけるのは難しい。安く食べられる店が多いため、自炊をしなくても食費を抑えられる。ただし「安い」と言われる家賃は木造築古を前提にした数字で、普通の設備を求めると他の中央線の駅と変わらなくなる。中央線の朝の混雑と、休日に快速が通過することは、住み始めてから毎週のように不便を感じる点である。木造密集地域であることは、家賃の安さの理由として正面から見ておいたほうがいい。",
-  "authoredBy": "draft"
+  "authoredBy": "draft",
+  "groceries": [
+    {
+      "name": "高円寺東急ストア",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1880783182",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "アキダイ",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/11526467904",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "International Halal Foods",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/7162386621",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "ユータカラヤ",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1013448138",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "オーケーストア 高円寺店",
+      "tier": "discount",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/1880783078",
+      "verifiedAt": "2026-09-13"
+    }
+  ]
 }
