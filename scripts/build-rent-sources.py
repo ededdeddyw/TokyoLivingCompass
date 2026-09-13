@@ -9,6 +9,10 @@ LIFULL HOME'S と Yahoo!不動産は、どちらも路線ごとの相場一覧�
 そこに駅名と駅コードの組が載っている。458駅ぶんの駅コードを人が1つずつ調べる
 代わりに、この一覧ページから読み取る。
 
+アットホームは駅コードを使わず、駅名のローマ字をそのまま URL に置いている
+（中目黒なら nakameguro-st）。ロースターが持つローマ字から組み立てられるので、
+このサイトについてはページを取りに行かない。
+
 読むのは路線の一覧ページだけで、物件一覧は巡回しない
 （docs/08-data-sources-rent.md §E）。取得したコードは sources.json に残すので、
 このスクリプトを毎回動かす必要はない。
@@ -123,7 +127,8 @@ def collect_yahoo():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--refresh", action="store_true", help="取得済みのページも取り直す")
-    ap.add_argument("--site", choices=["homes", "yahoo", "both"], default="both")
+    ap.add_argument("--site", choices=["homes", "yahoo", "both"], default="both",
+                    help="駅コードを取りに行くサイト。アットホームは常に組み立てる")
     args = ap.parse_args()
     if args.refresh and os.path.isdir(CACHE):
         for f in os.listdir(CACHE):
@@ -141,6 +146,12 @@ def main():
 
     added = 0
     for st in roster:
+        # アットホームはローマ字から URL を組み立てられる
+        athome = st["nameRomaji"].lower().replace("-", "")
+        entry = stations.setdefault(st["slug"], {})
+        if entry.get("アットホーム") != athome:
+            entry["アットホーム"] = athome
+            added += 1
         for site, codes in collected.items():
             if not codes:
                 continue

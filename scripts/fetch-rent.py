@@ -3,8 +3,9 @@
 """
 各サイトが公開している駅ごとの家賃相場ページから、間取り別の相場を取得する。
 
-  python3 scripts/fetch-rent.py            # 未取得の駅だけ
-  python3 scripts/fetch-rent.py --refresh  # 取得済みも取り直す
+  python3 scripts/fetch-rent.py                      # 未取得の駅だけ
+  python3 scripts/fetch-rent.py --refresh            # 取得済みも取り直す
+  python3 scripts/fetch-rent.py --site Yahoo!不動産   # 1社だけ取る
 
 取りに行くのは、物件一覧ではなく各社が自社の掲載物件を集計して公開している
 統計ページである（docs/08-data-sources-rent.md §E-2）。robots.txt で
@@ -119,6 +120,8 @@ def parse(page):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--refresh", action="store_true")
+    ap.add_argument("--site", action="append", default=[],
+                    help="このサイトだけ取る。何度でも指定できる")
     args = ap.parse_args()
 
     cfg = json.load(open(SOURCES, encoding="utf-8"))
@@ -127,14 +130,23 @@ def main():
 
     for slug, ids in stations.items():
         path = os.path.join(SURVEY, f"{slug}.json")
-        if os.path.exists(path) and not args.refresh:
-            old = json.load(open(path, encoding="utf-8"))
-            if all(o.get("verified") for o in old.get("observations", [])):
+        old = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
+        if old and not args.refresh:
+            done = {o["source"] for o in old.get("observations", []) if o.get("verified")}
+            want = set(args.site) & set(ids) if args.site else set(ids)
+            if want <= done:
                 print(f"  {slug}: 取得済み")
                 continue
 
-        observations = []
+        observations = list(old.get("observations", [])) if os.path.exists(path) else []
+        if args.site:
+            # 指定のないサイトは、すでに取れている分をそのまま残す
+            observations = [o for o in observations if o["source"] not in args.site]
+        else:
+            observations = []
         for site, ident in ids.items():
+            if args.site and site not in args.site:
+                continue
             url = sites[site]["urlTemplate"].format(id=ident)
             try:
                 rent = parse(fetch(url, site))

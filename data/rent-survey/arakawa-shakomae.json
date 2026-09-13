@@ -1,0 +1,20 @@
+{
+  "slug": "arakawa-shakomae",
+  "observations": [
+    {
+      "source": "Yahoo!不動産",
+      "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2354/2354120/",
+      "retrievedAt": "2026-09-13",
+      "basis": "asking",
+      "statistic": "mean",
+      "verified": true,
+      "coverage": "掲載されている賃貸物件の平均賃料",
+      "rent": {
+        "oneRoom": 86000,
+        "oneK": 98000,
+        "oneLDK": 149000,
+        "twoLDK": 198000
+      }
+    }
+  ]
+}
