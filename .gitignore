@@ -18,3 +18,8 @@ coverage/
 *.log
 npm-debug.log*
 .cache/
+
+# Overpass から落としたタイルの生データ。data/computed/pois.json を作るための
+# 一時キャッシュで、消しても scripts/fetch-pois.py で取り直せる。
+data/poi/raw/
+__pycache__/
