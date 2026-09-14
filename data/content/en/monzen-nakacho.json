@@ -2,13 +2,24 @@
   "slug": "monzen-nakacho",
   "locale": "en",
   "name": "Monzen-Nakacho",
-  "tagline": "Otemachi in 8 minutes and Tokyo in 14 minutes. Served by 2 lines. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
-  "summary": "The station is in Koto City, served by Tokyo Metro Tozai Line and Toei Oedo Line. Journey times to the main business districts are 8 minutes to Otemachi, 28 minutes to Shinjuku, 31 minutes to Shibuya and 27 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 0.8 m above sea level, and the ground within 800 m varies in height by 2.7 m. The land around the station is close to level.",
-  "terrain": {
-    "slope": "flat",
-    "note": "The station sits on the higher side of the ground around it, at 0.8 m above sea level. Within 800 m the ground ranges from -0.5 m to 2.2 m, a difference of 2.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  "tagline": "Eight minutes to Otemachi, and the highest density of owner-run restaurants in the Fukagawa area. The catch is the Tozai Line in the morning.",
+  "summary": "The Tokyo Metro Tozai Line reaches Otemachi in 8 minutes and Nihonbashi in 5. The Oedo Line reaches Roppongi and Shinjuku without a change. The neighbourhood grew up as the approach to the Tomioka Hachimangu shrine and the Fukagawa Fudodo temple, and it has the highest density of owner-run restaurants in the Fukagawa area; for eating out at night, Kiyosumi-Shirakawa and Morishita are not in the same league. In exchange, the Tozai Line in the morning ranks among the most crowded stretches in the government's own published figures, and whether you can accept riding it every day is the biggest question here.",
+  "faces": {
+    "morning": "Whether you can face this Tozai Line every morning largely decides whether you live here. Trains arrive full from the Nishi-Funabashi direction, and getting a seat at Monzen-Nakacho essentially does not happen. Switching to the Oedo Line eases the crowding considerably, but it is a detour towards Otemachi. Outside the station from seven onwards, people come out of the gates and head for the platforms without stopping.",
+    "daytime": "The temple approach and the shopping street are open, and there are people about in the afternoon. It does not fall silent the way Kiyosumi-Shirakawa does; voices and bicycles are constant. Older residents and visitors mix.",
+    "night": "Restaurants stay open later here than anywhere else in the Fukagawa area. Izakaya and owner-run places are open past 23:00, so you can eat on the way home. It is lively without the noise of an entertainment district, closer to a settled street of bars.",
+    "weekend": "The monthly temple market and events at Tomioka Hachimangu bring far more people. During the Fukagawa Hachiman festival the whole neighbourhood turns to the festival for days, which does not suit anyone after quiet. Ordinary weekends are calm."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 9 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "terrain": {
+    "note": "Low ground near the mouth of the Sumida River, about 1 m above sea level, with only 3 m of variation within 800 m. You can cycle to Nihonbashi and Ginza without effort, and as at Kiyosumi-Shirakawa and Morishita a pushchair is easy. This is an advantage the whole Fukagawa area shares.",
+    "slope": "flat"
+  },
+  "noiseSources": [
+    "The station sits where Eitai-dori meets Kiyosumi-dori, and traffic on both main roads never stops",
+    "The Metropolitan Expressway Route 9 runs nearby, and traffic carries along the elevated section",
+    "Above the blocks where the bars cluster, voices can reach the upper floors until late",
+    "During the festival the whole neighbourhood is lively for several days"
+  ],
   "groceries": [
     {
       "name": "オオゼキ",
@@ -39,35 +50,64 @@
       "verifiedAt": "2026-09-13"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 5 clinics and 2 pharmacies. Facilities recorded as hospitals lie at 修世会木場病院, about 1058 m away and 石川島記念病院, about 1083 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "2 lines serve the station: Tokyo Metro Tozai Line and Toei Oedo Line. The lines are split between operators (Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
-  "rentRange": {
-    "note": "One room ¥130,000 to ¥140,000, 1K ¥130,000 to ¥140,000, 1LDK ¥200,000 to ¥210,000 and 2LDK ¥260,000 to ¥270,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
-    "drivers": [
-      "Age and construction of the building",
-      "Walking distance from the station",
-      "Whether it faces a main road or the railway",
-      "Whether it sits at the top or the bottom of a slope",
-      "Floor area for the layout"
-    ]
-  },
-  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
-  "neighbours": [
+  "exits": [
     {
-      "slug": "etchujima",
-      "note": "536 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Monzen-Nakacho."
+      "name": "Exit 1",
+      "line": "Tokyo Metro Tozai Line",
+      "character": "Towards the temple approach and the shopping street. Restaurants and everyday shops gather here; this is the centre of daily life, and it is lit at night."
     },
     {
-      "slug": "kiba",
-      "note": "1017 m away in a straight line. It reaches Otemachi in about the same time as Monzen-Nakacho."
+      "name": "Exits 2 and 3",
+      "line": "Tokyo Metro Tozai Line",
+      "character": "Blocks of flats line the main roads. Convenient, but rooms facing the road let the traffic in."
+    },
+    {
+      "name": "Exits 5 and 6",
+      "line": "Toei Oedo Line",
+      "character": "Housing along the canal, quiet even during the day. Further from the bustle by the station, so fewer people are about at night."
     }
   ],
+  "residents": "A high share of households who have lived in Fukagawa for generations; the neighbourhood association is run actively and many residents take part in the festival. In recent years more people living alone and dual-income couples have moved in for the access to central Tokyo, but the association's officers and the running of the festival are still in the hands of long-standing residents. How far you get involved in the festival and the association is not entirely yours to decide, and whether that suits you changes how the place feels to live in.",
+  "housingStock": "Mid- and high-rise blocks near the station; a little further out, timber houses and low-rise flats mixed together. There are few converted warehouses of the kind found at Kiyosumi-Shirakawa, and ordinary blocks make up most of the stock. Within the Fukagawa area, the choice of newer buildings here is comparatively good.",
+  "hazards": "On the national hazard map, for the flood scenario based on the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. All nine points within 400 m of the station fall inside it. For storm surge, all nine points fall in the 0.5 to 3 m projection too. Even within the Fukagawa area, the projected areas for both flood and storm surge spread right around this station. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "stationNote": "The Tozai Line platform is comparatively shallow, but the Oedo Line is deep, and changing between them means a long walk underground. The two sets of gates are far apart despite the shared station name, so decide which line you will use according to which direction you live in. Morning delays on the Tozai Line are chronic, which is worth allowing for if you use it daily.",
+  "nightWalk": "Because the restaurants stay open late, the way from the station towards the shopping street is lit and busy at night. Of the Fukagawa area, this is where walking home at night is least of a worry. One street back from Eitai-dori, though, and along the canal, the foot traffic stops.",
+  "rentReason": "Rent is low given that Otemachi is 8 minutes away. The reasons are that this is low ground with flood and storm surge risk, that there is no large shopping complex, and that the Tozai Line's morning crowding is a clear negative. Put the other way round, for anyone who can accept that crowding, this is a place where the rent is good value for the location.",
+  "rentRange": {
+    "note": "Mid- and high-rise blocks near the station and timber or low-rise buildings a little further out differ a great deal in rent. Along Eitai-dori the convenience pushes the market up, but it is traded against traffic noise. Within the Fukagawa area, Monzen-Nakacho is the most expensive, then Kiyosumi-Shirakawa, then Morishita.",
+    "drivers": [
+      "Distance from the station (near it, mostly blocks of flats)",
+      "Whether it faces Eitai-dori or Kiyosumi-dori",
+      "Age and construction of the building",
+      "Proximity to the blocks where the bars cluster",
+      "The Tozai Line side or the Oedo Line side"
+    ]
+  },
+  "family": "The grounds of Tomioka Hachimangu and Fukagawa Park are within walking distance, and Kiba Park is reachable by bicycle. The ground is flat, so a pushchair is easy. Because the festival and the neighbourhood association are active, adults nearby still know the local children by sight. Nursery vacancies and school catchments change by year and by address, so check Koto City's current information for each flat. Allow for the fact that the Tozai Line's morning crowding is considerably harder once you are boarding it after a nursery drop-off.",
+  "medical": "Within walking distance of the station there are 5 clinics and 2 pharmacies, which is on the low side for the Fukagawa area. Hospitals that admit inpatients include Shuseikai Kiba Hospital and Ishikawajima Memorial Hospital, both about 1.1 km away. A bicycle widens the range considerably. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "neighbours": [
+    {
+      "slug": "kiyosumi-shirakawa",
+      "note": "If you want to avoid the Tozai Line's crowding, choose Kiyosumi-Shirakawa. The Hanzomon and Oedo Lines make for a comfortable commute and run direct towards Shibuya. After 20:00, though, almost all the restaurants are shut and the choice for eating out shrinks sharply."
+    },
+    {
+      "slug": "morishita",
+      "note": "If you want to hold the rent down, choose Morishita. Some places there stay open late, and Shinjuku is direct. Otemachi needs one change, so the commute is shorter from Monzen-Nakacho."
+    }
+  ],
+  "outlook": "No large redevelopment is on the horizon, and the character of a temple-gate town looks set to remain. Development towards Toyosu and Toyocho may make the Tozai Line's crowding worse, so expect the commute to stay as it is or deteriorate rather than improve.",
   "goodFor": [
-    "People commuting to Otemachi and Marunouchi",
-    "People who get around by bicycle or with a pushchair"
+    "People commuting towards Otemachi and Nihonbashi",
+    "People who value the choice of places to eat and a settled evening liveliness",
+    "People who enjoy being close to the local festival and neighbourhood association",
+    "People who want well-lit streets at night within the Fukagawa area"
   ],
   "notFor": [
-    "People avoiding projected flood inundation areas"
+    "People who cannot accept the Tozai Line's morning crowding every day",
+    "People avoiding low ground with flood and storm surge risk",
+    "People who want a quiet residential street",
+    "People who want to do all their shopping in one large complex"
   ],
-  "authoredBy": "data-generated"
+  "residentComment": "Of the three stations in the Fukagawa area, only Monzen-Nakacho has the restaurants to go out and eat at night. Being able to eat somewhere on the way home is worth more once you live here than you would guess. The Tozai Line in the morning really is hard, though, and underestimating it means the tiredness of a packed train every morning piles up. Switching to the Oedo Line is possible but a detour, so unless you commute towards Otemachi or Nihonbashi, Kiyosumi-Shirakawa is easier on balance. That this is low ground, and inside the storm surge projection, is best looked at separately from how pleasant the place feels.",
+  "authoredBy": "ai-localized"
 }
