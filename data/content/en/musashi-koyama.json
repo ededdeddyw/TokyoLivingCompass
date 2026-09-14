@@ -2,13 +2,24 @@
   "slug": "musashi-koyama",
   "locale": "en",
   "name": "Musashi-Koyama",
-  "tagline": "Shibuya in 17 minutes and Shinjuku in 25 minutes. Served by 1 line. A one-room flat rents for roughly ¥100,000 to ¥110,000.",
-  "summary": "The station is in Shinagawa City, served by Tokyu Meguro Line. Journey times to the main business districts are 28 minutes to Otemachi, 25 minutes to Shinjuku, 17 minutes to Shibuya and 29 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 28 m above sea level, and the ground within 800 m varies in height by 5.4 m. The land around the station is close to level.",
-  "terrain": {
-    "slope": "flat",
-    "note": "The station sits on the higher side of the ground around it, at 28 m above sea level. Within 800 m the ground ranges from 23.2 m to 28.6 m, a difference of 5.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  "tagline": "A covered shopping arcade roughly 800 m long, so the shopping gets done without an umbrella on a wet day. Otemachi is 28 minutes, direct from the Meguro Line onto the Mita Line.",
+  "summary": "The Tokyu Meguro Line runs through onto the Toei Mita Line and the Tokyo Metro Namboku Line, so Otemachi is 28 minutes without a change, and Shibuya 17 minutes changing at Meguro. The Musashi-Koyama shopping street, Palm, runs about 800 m from the station under a roof, and fresh food, everyday goods and restaurants are all inside it. A shopping street where you can finish the shopping without putting up an umbrella is not common even among the residential areas of the 23 wards. On the other hand, redevelopment has put two residential towers by the station, and both the rents and who lives here have been shifting.",
+  "faces": {
+    "morning": "The Meguro Line is busy in the morning, though not packed the way the Toyoko or Chuo Lines are. Trains arrive from the Hiyoshi direction, so a seat at Musashi-Koyama essentially does not happen. Commuters stream past the station from seven, but the shopping street is not open yet and it is quiet.",
+    "daytime": "Once the arcade opens, the foot traffic jumps. Shoppers are mainly older people and parents with children, and on weekday afternoons it is only inside the arcade that is busy. One street out into the residential blocks, there are few people about.",
+    "night": "The shops selling goods close early, but the restaurants and izakaya stay open after that. Of the 10 whose opening hours are recorded, 3 stay open past 23:00. Owner-run places remain in the small bar street by the station, so you can eat on the way home. Places open into the small hours are few.",
+    "weekend": "Shoppers fill the arcade, enough that passing people takes some care. It is not a destination, so the visitors are mainly people from nearby; crowds do not travel in from across the city the way they do to Nakameguro or Koenji."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "terrain": {
+    "note": "The station sits on a terrace 28 m above sea level, with only about 5 m of variation within 800 m. The ground falls slightly towards the valley that the culverted Tachiai River follows, but the gradient is gentle. Inside the arcade it is level, and everyday shopping rarely makes you think about slopes.",
+    "slope": "flat"
+  },
+  "noiseSources": [
+    "The Meguro Line runs underground, so even beside the tracks the trains are barely audible",
+    "Blocks near the small bar street by the station hear voices until around 23:00",
+    "Nakahara-kaido and Route 26 carry a lot of traffic",
+    "Around the towers built in the redevelopment, there are periods when construction continues"
+  ],
   "groceries": [
     {
       "name": "東急ストア 武蔵小山駅ビル店",
@@ -36,39 +47,68 @@
       "tier": "discount",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/1897801869",
+      "verifiedAt": "2026-09-13",
+      "note": "品川区小山3-22-3にあり、生鮮品が安い。ここを使うかどうかで月々の食費がはっきり変わる"
+    },
+    {
+      "name": "自然食品の店 F&F 武蔵小山店",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/8218520928",
       "verifiedAt": "2026-09-13"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 11 clinics and 6 pharmacies. Facilities recorded as hospitals lie at 康済会病院, about 35 m away and 鳴海耳鼻咽喉科, about 553 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Tokyu Meguro Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
-  "rentRange": {
-    "note": "One room ¥100,000 to ¥110,000, 1K ¥110,000 to ¥120,000, 1LDK ¥200,000 to ¥210,000 and 2LDK ¥270,000 to ¥280,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
-    "drivers": [
-      "Age and construction of the building",
-      "Walking distance from the station",
-      "Whether it faces a main road or the railway",
-      "Whether it sits at the top or the bottom of a slope",
-      "Floor area for the layout"
-    ]
-  },
-  "rentReason": "A one-room flat here goes for ¥100,000 to ¥110,000. For 1K, 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
-  "neighbours": [
+  "exits": [
     {
-      "slug": "nishi-koyama",
-      "note": "772 m away in a straight line. It reaches Otemachi in about the same time as Musashi-Koyama. One-room rents run about ¥5,000 lower."
+      "name": "East exit (towards Palm)",
+      "character": "Towards the covered shopping street and the redevelopment towers; the centre of shopping and eating. Busy, and lit at night as a result."
     },
     {
-      "slug": "fudo-mae",
-      "note": "1134 m away in a straight line. It reaches Otemachi 3 minutes sooner than Musashi-Koyama. One-room rents run about ¥14,000 higher."
+      "name": "West exit",
+      "character": "Mainly housing, and calmer than the east side. It is the way through towards Togoshi and Ebara, and rents are a little lower than on the east side."
     }
   ],
+  "residents": "Older households who use the shopping street daily, mixed with dual-income couples who moved into the redevelopment towers. Few students. The share of long-standing households used to be high, but since the towers filled the proportion of people in their thirties and forties has risen.",
+  "housingStock": "Two towers by the station, mid- and low-rise blocks around them, and timber-built flats up the slope: the rents fall into three clear bands. A fair number of older timber buildings remain, so fittings differ a great deal within the same ten-minute walk. Outside the towers, newer buildings are not plentiful.",
+  "hazards": "On the national hazard map, for the flood scenario based on the largest rainfall the government models, the station itself falls outside the projected inundation area. Only one of the nine points within 400 m falls inside it, and the projected depth there is under 0.5 m. This is a terrace 28 m above sea level, and the projection from river flooding is small. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "stationNote": "The Meguro Line runs underground here, and it takes several minutes from the platform to street level. There is a single set of gates, so you choose between the east and west exits after coming up. The Meguro Line runs through onto both the Mita and Namboku Lines, and which train you want depends on where you are going, so get into the habit of checking the destination board in the morning.",
+  "nightWalk": "The shopping street and the area by the station are lit until around 22:00 and the foot traffic does not stop. Up the slope, the residential streets have fewer lamps and fewer people. Whether your way home takes you through the bar street changes the feel of the evening considerably.",
+  "rentReason": "For somewhere 28 minutes direct from Otemachi, rent is not as high as at Nakameguro or Ebisu. The reasons are that the Meguro Line does not enter the Yamanote loop, that there is no large shopping complex by the station, and that the name is not known nationally. Since the redevelopment, though, rents have kept rising and the discount is not what it was.",
+  "rentRange": {
+    "note": "A tower by the station and an old timber-built flat up the slope differ by nearly double, even within the same ten-minute walk of Musashi-Koyama. The average looks mid-range, but what is actually on the market clusters at the two ends.",
+    "drivers": [
+      "A tower, an ordinary block, or a timber-built flat",
+      "The east exit (the shopping street side) or the west exit",
+      "Up the slope or down",
+      "Proximity to the bar street",
+      "Age and construction of the building"
+    ]
+  },
+  "family": "Everyday goods and food are all in the shopping street, so shopping with a child in tow is less of a chore. Rinshi-no-Mori Park is within cycling distance, and there are small parks near the station. There are slopes around the station, though, so a pushchair is harder in some directions than others. Check nursery availability and school catchment by address against Shinagawa City's own current information.",
+  "medical": "Kosaikai Hospital is right by the station, about 35 m away. Within walking distance there are 11 clinics and 6 pharmacies. Larger hospitals include Showa Medical University East Hospital about 1.2 km away and Showa Medical University Hospital about 1.4 km. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "neighbours": [
+    {
+      "slug": "nakameguro",
+      "note": "If you want calmer streets and to be nearer Shibuya, choose Nakameguro. Rent for a 1LDK is about ¥50,000 higher, though, and Musashi-Koyama is the better of the two for shopping."
+    },
+    {
+      "slug": "oimachi",
+      "note": "For commuting towards Shinagawa and Tokyo, Oimachi is quicker. It has three lines and copes better when one stops, but Musashi-Koyama wins on how usable its shopping street is."
+    }
+  ],
+  "outlook": "The redevelopment by the station has settled, but rebuilding plans continue nearby. Nothing suggests the shopping street itself will change quickly, yet rents have kept rising as the towers filled, and that looks set to continue for now.",
   "goodFor": [
-    "People who get around by bicycle or with a pushchair",
-    "People who want to finish their shopping on foot",
-    "People who want a park close by"
+    "People who want to do their shopping on foot",
+    "People commuting towards Otemachi and Nihonbashi without changing",
+    "People who want to hold the rent down within the Jonan area",
+    "People who want shopping to be easy on a wet day"
   ],
   "notFor": [
-    "People who want another route when service is suspended"
+    "People who would rather not walk up and down slopes",
+    "People who want places open into the small hours",
+    "People looking for a newer building at an affordable rent",
+    "People who want nothing but quiet residential streets"
   ],
-  "authoredBy": "data-generated"
+  "residentComment": "The shopping street is what stands out. Roughly 800 m of covered arcade holds fresh food, prepared dishes and restaurants, so a wet day is no obstacle to shopping. Being this close to Meguro and Shirokanedai while keeping food costs down is down to that arcade. The drawback is the slope: going home from the station into the residential streets means climbing it every time. Since the towers went up in the redevelopment, rents have clearly risen. Search on the figures from a few years ago and nothing comes up.",
+  "authoredBy": "ai-localized"
 }
