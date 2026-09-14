@@ -2,13 +2,23 @@
   "slug": "kiyosumi-shirakawa",
   "locale": "en",
   "name": "Kiyosumi-Shirakawa",
-  "tagline": "Otemachi in 8 minutes and Tokyo in 12 minutes. Served by 2 lines. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
-  "summary": "The station is in Koto City, served by Tokyo Metro Hanzomon Line and Toei Oedo Line. Journey times to the main business districts are 8 minutes to Otemachi, 28 minutes to Shinjuku, 27 minutes to Shibuya and 27 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 0.6 m above sea level, and the ground within 800 m varies in height by 2.1 m. The land around the station is close to level.",
-  "terrain": {
-    "slope": "flat",
-    "note": "The station sits lower than the ground around it, at 0.6 m above sea level. Within 800 m the ground ranges from 0.4 m to 2.5 m, a difference of 2.1 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  "tagline": "Known as a coffee neighbourhood, but for a resident the real strength is that the Hanzomon and Oedo Lines together reach every direction of central Tokyo without a change.",
+  "summary": "The Hanzomon Line reaches Otemachi in 8 minutes with no change and Shibuya in 25. The Oedo Line reaches Roppongi and Shinjuku, again without changing. Between them, the two lines cover wherever in central Tokyo you might end up commuting. Roasters gathered here after Blue Bottle Coffee opened its first Japanese shop, and the density of cafes is among the highest in the city. In exchange, things close early and there is almost nothing of an entertainment district. The mix of surviving warehouses and galleries is unusual even for Tokyo, and people either take to it or do not.",
+  "faces": {
+    "morning": "People head steadily for the station during the commute, but it never gets as crowded as a terminal. Hanzomon Line trains come from Oshiage, so a seat is unlikely; the Oedo Line has more room.",
+    "daytime": "Weekday afternoons go quite still. The cafes are open, but there are few people about and the area is quiet to live in. Parents with young children and older residents stand out.",
+    "night": "After 20:00 it falls quiet suddenly. This is a cafe neighbourhood, so restaurants close early and few places are open past 22:00. For somewhere open late, you will be walking to Monzen-Nakacho or Morishita.",
+    "weekend": "Saturdays and Sundays bring cafe visitors, and the streets by the station and along Shiryokan-dori get busy. A major exhibition at the Museum of Contemporary Art Tokyo brings more still. Anyone who wants a quiet weekend will be walking through crowds on those days, and may find that a burden."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 8 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 9 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "terrain": {
+    "note": "Low ground enclosed by the Sumida and Onagi rivers, about 1 m above sea level, with only 2 m of variation within 800 m. Getting around by bicycle is easy, and many residents cycle as far as Nihonbashi and Ginza. A pushchair is no trouble either.",
+    "slope": "flat"
+  },
+  "noiseSources": [
+    "Kiyosubashi-dori and Mitsume-dori carry heavy traffic, and flats along them let the cars in with a window open",
+    "The Metropolitan Expressway Route 9 runs nearby, and traffic carries along the elevated section",
+    "At weekends there is a lot of coming and going around the cafes, and the floors above street-level shops are not quiet"
+  ],
   "groceries": [
     {
       "name": "赤札堂",
@@ -37,38 +47,72 @@
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/13040886950",
       "verifiedAt": "2026-09-13"
+    },
+    {
+      "name": "食品館あおば",
+      "tier": "discount",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/9055938728",
+      "verifiedAt": "2026-09-13"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 10 clinics and 9 pharmacies. Facilities recorded as hospitals lie at 山村病院, about 877 m away and 深川立川病院, about 1429 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "2 lines serve the station: Tokyo Metro Hanzomon Line and Toei Oedo Line. The lines are split between operators (Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "exits": [
+    {
+      "name": "A1 and A2",
+      "line": "Tokyo Metro Hanzomon Line",
+      "character": "Towards Kiyosumi Garden and the Museum of Contemporary Art Tokyo. Mainly settled housing and low-rise blocks; more people walk on this side at weekends."
+    },
+    {
+      "name": "A3",
+      "line": "Tokyo Metro Hanzomon Line",
+      "character": "The shopping street and the owner-run restaurants, and the centre of daily life. The cafes are concentrated in this direction too, and most everyday errands are done here."
+    },
+    {
+      "name": "B1 and B2",
+      "line": "Toei Oedo Line",
+      "character": "Traffic on Kiyosubashi-dori never stops. There are plenty of flats, but in rooms facing the road the cars are audible indoors. This is also the way towards Morishita."
+    }
+  ],
+  "residents": "A mix of households who have lived in the Fukagawa area for generations and people living alone or in dual-income couples who arrived from around 2015. Few students. A good number moved here drawn by the cafes and the museum, so residents are tolerant of how the neighbourhood is changing and new shops are taken well.",
+  "housingStock": "Mostly warehouses and small factories converted into flats, plus low- and mid-rise blocks. It is not a district of high-rise towers like Toyosu. Timber-built flats remain as well, so within the same ten-minute walk rent and comfort vary a great deal from building to building. Deciding without viewing tends to go wrong.",
+  "hazards": "On the national hazard map, for the flood scenario based on the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Eight of the nine points within 400 m of the station fall inside it. It is also inside the storm surge projection, with all nine points in the 0.5 to 3 m band. This is low ground around 1 m above sea level with almost no variation, so there is little to separate inside the area from outside. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "stationNote": "The Hanzomon Line platform is comparatively shallow and close to the gates, but the Oedo Line platform is deep and takes several minutes to reach street level. Changing between the two means a walk, so allow more than the journey planner shows. There are lifts.",
+  "nightWalk": "The roads from the station into the residential streets have lamps, and nothing feels unusually dark. After 20:00, though, there are fewer people about, so what divides opinion is not the light but how you feel about no one being there. Along Kiyosumi Garden it goes very quiet at night.",
+  "rentReason": "Rent is clearly good value for somewhere 8 minutes from Otemachi and 25 from Shibuya. The reasons are that this part of Koto City was not well known, that it is low ground with disaster risk, and that there are few shops of any size. Since it became known as a coffee neighbourhood, though, rents have been rising and the discount is not what it was.",
   "rentRange": {
-    "note": "One room ¥130,000 to ¥140,000, 1K ¥120,000 to ¥130,000, 1LDK ¥190,000 to ¥200,000 and 2LDK ¥250,000 to ¥260,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Within the same ten-minute walk of Kiyosumi-Shirakawa you will find converted warehouses, newer mid-rise blocks and old timber-built flats side by side, and rent and comfort differ sharply between them. Decide on the average alone and the gap when you actually view a flat tends to be large.",
     "drivers": [
-      "Age and construction of the building",
-      "Walking distance from the station",
-      "Whether it faces a main road or the railway",
-      "Whether it sits at the top or the bottom of a slope",
-      "Floor area for the layout"
+      "A converted warehouse or an ordinary block",
+      "Age of the building (a fair number of timber-built flats remain)",
+      "Whether it faces Kiyosubashi-dori or Mitsume-dori",
+      "The Hanzomon Line side or the Oedo Line side"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "family": "The Fukagawa area has many parks and waterways: Kiyosumi Garden is here and Kiba Park is within cycling range. The ground has almost no slope, so a pushchair is very easy, and in this respect the area is clearly better than the hillier Jonan and Josei areas. Koto City is known for putting effort into support for families, but how easy it is to get a nursery place varies by year and by area, so check the ward's current vacancies when you are deciding. Primary and junior high school catchments follow the address, so check each one individually.",
+  "medical": "Within walking distance of the station there are 10 clinics and 9 pharmacies. Hospitals that admit inpatients include Yamamura Hospital about 880 m away, and Shuseikai Kiba Hospital and Fukagawa Tachikawa Hospital about 1.4 km away. With a bicycle, the number of hospitals you can reach is larger than the map suggests. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "neighbours": [
     {
       "slug": "morishita",
-      "note": "671 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Kiyosumi-Shirakawa. One-room rents run about ¥8,000 lower."
+      "note": "If you want to hold the rent down further, choose Morishita. The Toei Shinjuku and Oedo Lines run direct to Shinjuku, but only Kiyosumi-Shirakawa reaches Shibuya without a change."
     },
     {
-      "slug": "kikukawa",
-      "note": "951 m away in a straight line. It takes 11 minutes longer to reach Otemachi than Kiyosumi-Shirakawa. One-room rents run about ¥8,000 lower."
+      "slug": "monzen-nakacho",
+      "note": "If you want more places to eat and busier evenings, choose Monzen-Nakacho. The Tozai Line is known as one of the most crowded stretches in the morning, though, so the morning commute is easier from Kiyosumi-Shirakawa."
     }
   ],
+  "outlook": "No large redevelopment is on the horizon, and the streets are unlikely to change quickly. On the other hand, its reputation as a place for cafes and the museum has stuck, and rents look set to keep rising gently. Its position as a cheap find close to the centre may fade within a few years.",
   "goodFor": [
-    "People commuting to Otemachi and Marunouchi",
-    "People who get around by bicycle or with a pushchair",
-    "People who want a park close by"
+    "People who might end up commuting either towards Otemachi and Nihonbashi or towards Shibuya",
+    "People whose life revolves around time spent in cafes",
+    "People who want to cycle into central Tokyo",
+    "People who would rather have quiet evenings than a lively night out"
   ],
   "notFor": [
-    "People avoiding projected flood inundation areas"
+    "People who want restaurants open late into the night",
+    "People who want to do all their shopping in one large complex",
+    "People avoiding low ground with flood risk",
+    "People who want quiet at weekends as well"
   ],
-  "authoredBy": "data-generated"
+  "residentComment": "People talk about it as a coffee neighbourhood, but what makes the biggest difference day to day is having both the Hanzomon and the Oedo Line. Otemachi, Shibuya and Roppongi are all reachable without changing, so a new job or a transfer does not mean moving house. The neighbourhood turns in early, and going out for a drink means walking to Monzen-Nakacho or Morishita. Whether you read that as inconvenient or as pleasantly quiet is what divides opinion here. The one thing to judge coolly, separately from how nice the place feels, is that this is low ground.",
+  "authoredBy": "ai-localized"
 }
