@@ -166,7 +166,7 @@ const ja: Dictionary = {
     goodFor: "向いている人",
     notFor: "向かない人",
     residentComment: "東京在住者コメント",
-    compiledComment: "公開されている情報から見た、この街の言われかた",
+    compiledComment: "この街の特色のまとめ",
     compiledCommentNote:
       "この節は、公開されている情報を集めてまとめたものです。実際に住んだ人が書いたものではありません。",
     compiledCommentSources: "もとにした情報",
@@ -369,7 +369,7 @@ const en: Dictionary = {
     goodFor: "Good for",
     notFor: "Not for",
     residentComment: "From someone who lives in Tokyo",
-    compiledComment: "What is said about this neighbourhood",
+    compiledComment: "What this neighbourhood is like",
     compiledCommentNote:
       "This section is compiled from published sources. It is not written by someone who has lived here.",
     compiledCommentSources: "Compiled from",
@@ -577,7 +577,7 @@ const zhHans: Dictionary = {
     goodFor: "适合的人",
     notFor: "不适合的人",
     residentComment: "住在东京的人怎么说",
-    compiledComment: "从公开信息看，这个街区被怎么说",
+    compiledComment: "这个街区的特色小结",
     compiledCommentNote:
       "本节是汇总公开信息整理而成，并非实际住过的人所写。",
     compiledCommentSources: "参考的信息",
@@ -777,7 +777,7 @@ const ko: Dictionary = {
     goodFor: "맞는 사람",
     notFor: "맞지 않는 사람",
     residentComment: "도쿄에 사는 사람의 이야기",
-    compiledComment: "공개된 정보에서 본 이 동네의 평판",
+    compiledComment: "이 동네의 특색 정리",
     compiledCommentNote:
       "이 절은 공개된 정보를 모아 정리한 것입니다. 실제로 살아 본 사람이 쓴 글이 아닙니다.",
     compiledCommentSources: "참고한 정보",
