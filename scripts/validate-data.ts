@@ -153,6 +153,23 @@ for (const locale of listContentLocales()) {
       placeholderContent.push(`${locale}/${slug}`);
     }
 
+    // 公開情報からまとめた在住者コメントは、何をもとにしたかを必ず持たせる。
+    // 出典が無いと、読み手も書き手も、あとから裏を取れない。
+    if (content.residentCommentBy === "compiled") {
+      if (!content.residentCommentSources || content.residentCommentSources.length === 0) {
+        errors.push(
+          `${locale}/${slug}: residentCommentBy が "compiled" ですが、` +
+            `residentCommentSources がありません。もとにした情報を書いてください。`,
+        );
+      }
+    }
+    if (content.residentCommentSources && content.residentCommentBy !== "compiled") {
+      warnings.push(
+        `${locale}/${slug}: residentCommentSources がありますが、` +
+          `residentCommentBy が "compiled" ではありません。`,
+      );
+    }
+
     // 複数路線が乗り入れる駅では、路線ごとに改札の位置も出口の先の街並みも変わる。
     // 片方の路線の出口しか書いていないと、もう片方を使う人には情報にならない。
     const rosterEntry = rosterBySlug.get(slug);

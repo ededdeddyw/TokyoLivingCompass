@@ -29,6 +29,9 @@ export type Dictionary = {
     goodFor: string;
     notFor: string;
     residentComment: string;
+    compiledComment: string;
+    compiledCommentNote: string;
+    compiledCommentSources: string;
     similar: string;
     compareWith: string;
     perMonth: string;
@@ -163,6 +166,10 @@ const ja: Dictionary = {
     goodFor: "向いている人",
     notFor: "向かない人",
     residentComment: "東京在住者コメント",
+    compiledComment: "公開されている情報から見た、この街の言われかた",
+    compiledCommentNote:
+      "この節は、公開されている情報を集めてまとめたものです。実際に住んだ人が書いたものではありません。",
+    compiledCommentSources: "もとにした情報",
     similar: "似ている駅",
     compareWith: "この駅と比べる",
     perMonth: "／月",
@@ -362,6 +369,10 @@ const en: Dictionary = {
     goodFor: "Good for",
     notFor: "Not for",
     residentComment: "From someone who lives in Tokyo",
+    compiledComment: "What is said about this neighbourhood",
+    compiledCommentNote:
+      "This section is compiled from published sources. It is not written by someone who has lived here.",
+    compiledCommentSources: "Compiled from",
     similar: "Similar stations",
     compareWith: "Compare with this station",
     perMonth: "/month",
@@ -566,6 +577,10 @@ const zhHans: Dictionary = {
     goodFor: "适合的人",
     notFor: "不适合的人",
     residentComment: "住在东京的人怎么说",
+    compiledComment: "从公开信息看，这个街区被怎么说",
+    compiledCommentNote:
+      "本节是汇总公开信息整理而成，并非实际住过的人所写。",
+    compiledCommentSources: "参考的信息",
     similar: "条件相近的车站",
     compareWith: "与这个车站比较",
     perMonth: "／月",
@@ -762,6 +777,10 @@ const ko: Dictionary = {
     goodFor: "맞는 사람",
     notFor: "맞지 않는 사람",
     residentComment: "도쿄에 사는 사람의 이야기",
+    compiledComment: "공개된 정보에서 본 이 동네의 평판",
+    compiledCommentNote:
+      "이 절은 공개된 정보를 모아 정리한 것입니다. 실제로 살아 본 사람이 쓴 글이 아닙니다.",
+    compiledCommentSources: "참고한 정보",
     similar: "조건이 비슷한 역",
     compareWith: "이 역과 비교",
     perMonth: "／월",

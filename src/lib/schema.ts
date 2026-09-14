@@ -409,6 +409,24 @@ export const stationContentSchema = z.object({
    */
   residentComment: z.string().min(1).optional(),
   /**
+   * 在住者コメントを誰が書いたか。省略時は "resident" として扱う。
+   *
+   * resident = 実際に住んだ人、または通っていた人が、自分の体験として書いた
+   * compiled = 公開されている情報を集めてまとめた。住んだ人の一次体験ではない
+   *
+   * 「在住者コメント」という見出しのまま、住んだことのない街の文章を出すと、
+   * 読み手は書き手が住んでいたと受け取る。内容が正しくても、それが分かった
+   * 時点で記事全体の信頼を失う。そこで書き手を区別し、見出しを出し分ける。
+   */
+  residentCommentBy: z.enum(["resident", "compiled"]).optional(),
+  /**
+   * compiled のときに、何をもとにまとめたか。読み手が裏を取れるようにする。
+   * scripts/validate-data.ts が、compiled なのに出典が無いものを弾く。
+   */
+  residentCommentSources: z
+    .array(z.object({ name: z.string().min(1), url: z.string().url() }))
+    .optional(),
+  /**
    * human            = 人間が書いた（公開できる）
    * data-generated   = 出典のあるデータだけから組み立てた。書き手の記憶による記述を含まない
    * ai-localized     = 日本語マスターから AI がローカライズし、人間がレビュー済み

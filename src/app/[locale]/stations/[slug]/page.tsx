@@ -232,10 +232,41 @@ export default async function StationPage({
       />
 
       {station.content.residentComment && (
-        <Section title={dict.station.residentComment}>
+        <Section
+          title={
+            station.content.residentCommentBy === "compiled"
+              ? dict.station.compiledComment
+              : dict.station.residentComment
+          }
+        >
           <blockquote className="rounded-md border-l-4 border-accent bg-accent-soft px-5 py-4 leading-relaxed text-ink">
             {station.content.residentComment}
           </blockquote>
+          {station.content.residentCommentBy === "compiled" && (
+            <p className="mt-2 text-sm leading-relaxed text-ink-soft">
+              {dict.station.compiledCommentNote}
+              {station.content.residentCommentSources &&
+                station.content.residentCommentSources.length > 0 && (
+                  <>
+                    {" "}
+                    {dict.station.compiledCommentSources}:{" "}
+                    {station.content.residentCommentSources.map((src, i) => (
+                      <span key={src.url}>
+                        {i > 0 && "、"}
+                        <a
+                          href={src.url}
+                          rel="nofollow noopener"
+                          target="_blank"
+                          className="underline underline-offset-2"
+                        >
+                          {src.name}
+                        </a>
+                      </span>
+                    ))}
+                  </>
+                )}
+            </p>
+          )}
         </Section>
       )}
 
