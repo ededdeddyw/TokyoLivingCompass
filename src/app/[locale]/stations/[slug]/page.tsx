@@ -11,6 +11,14 @@ import { SeedNotice } from "@/components/SeedNotice";
 import { getDictionary } from "@/lib/dictionaries";
 import { formatYen } from "@/lib/format";
 import { ACTIVE_LOCALES, isActiveLocale, type ActiveLocale } from "@/lib/i18n";
+import {
+  absoluteUrl,
+  jsonLdScript,
+  languageAlternates,
+  openGraph,
+  pageDescription,
+  pageTitle,
+} from "@/lib/seo";
 import { OFFICE_HUBS, RENT_TYPES } from "@/lib/schema";
 import { overallScoreForPreset } from "@/lib/scoring";
 import {
@@ -37,19 +45,92 @@ export async function generateMetadata({
   const station = getLocalizedStation(slug, locale);
   if (!station) return {};
 
+  const dict = getDictionary(locale);
   // 存在するロケールのみ hreflang に出す（docs/04-i18n.md §4）。
-  const languages: Record<string, string> = {};
-  for (const l of ACTIVE_LOCALES) {
-    if (getStationContent(slug, l)) languages[l] = `/${l}/stations/${slug}`;
-  }
+  const languages = languageAlternates(
+    (l) => `/${l}/stations/${slug}`,
+    (l) => Boolean(getStationContent(slug, l)),
+  );
+  const path = `/${locale}/stations/${slug}`;
+  // 見出しは駅名から始める。検索結果で先頭が切られると、どの駅の話か分からなくなる。
+  // tagline をそのまま載せると長すぎて途中で切られるので、短い定型に置き換える。
+  const title = pageTitle(dict.seoStationTitle.replace("{name}", station.content.name));
+  const description = pageDescription(station.content.summary);
 
   return {
-    title: `${station.content.name} — ${station.content.tagline}`,
-    description: station.content.summary,
-    alternates: { canonical: `/${locale}/stations/${slug}`, languages },
+    title,
+    description,
+    alternates: { canonical: path, languages },
+    openGraph: openGraph({ locale, title, description, path, siteName: dict.siteName }),
+    twitter: { card: "summary", title, description },
     // seed データは検索結果に出さない（docs/05-seo.md §3）。
     robots: station.dataQuality === "seed" ? { index: false, follow: true } : undefined,
   };
+}
+
+/**
+ * 構造化データ（docs/05-seo.md §4）。
+ *
+ * 検索エンジンと生成AIに、このページが「どの場所の、何についての記述か」を
+ * 機械可読な形で渡す。本文に書いてあることだけを出し、ここだけの主張は作らない。
+ */
+function stationJsonLd(
+  station: NonNullable<ReturnType<typeof getLocalizedStation>>,
+  locale: ActiveLocale,
+  dict: ReturnType<typeof getDictionary>,
+  lineNames: string[],
+) {
+  const path = `/${locale}/stations/${station.slug}`;
+  const place = {
+    "@type": "TrainStation",
+    "@id": `${absoluteUrl(path)}#station`,
+    name: station.content.name,
+    alternateName: station.nameRomaji,
+    url: absoluteUrl(path),
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: station.lat,
+      longitude: station.lon,
+    },
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "JP",
+      addressRegion: "Tokyo",
+      addressLocality: station.wardNameJa,
+    },
+    ...(lineNames.length > 0 ? { containedInPlace: lineNames.join(", ") } : {}),
+  };
+
+  const breadcrumb = {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: dict.siteName,
+        item: absoluteUrl(`/${locale}`),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: dict.list.heading,
+        item: absoluteUrl(`/${locale}/stations`),
+      },
+      { "@type": "ListItem", position: 3, name: station.content.name },
+    ],
+  };
+
+  const article = {
+    "@type": "Article",
+    headline: pageTitle(dict.seoStationTitle.replace("{name}", station.content.name)),
+    description: pageDescription(station.content.summary),
+    inLanguage: locale,
+    about: { "@id": `${absoluteUrl(path)}#station` },
+    isAccessibleForFree: true,
+    ...(station.lastReviewedAt ? { dateModified: station.lastReviewedAt } : {}),
+  };
+
+  return { "@context": "https://schema.org", "@graph": [place, breadcrumb, article] };
 }
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
@@ -90,13 +171,21 @@ export default async function StationPage({
     .map((s) => getLocalizedStation(s, locale as ActiveLocale))
     .filter((s): s is NonNullable<typeof s> => s !== null);
 
+  const lineNames = resolveLines(station.lineIds).map((l) =>
+    locale === "ja" ? l.nameJa : l.nameEn,
+  );
+
   return (
     <article className="space-y-10">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={jsonLdScript(
+          stationJsonLd(station, locale, dict, lineNames),
+        )}
+      />
       <header className="space-y-3">
         <p className="text-sm text-ink-soft">
-          {station.wardNameJa} · {resolveLines(station.lineIds)
-            .map((l) => (locale === "ja" ? l.nameJa : l.nameEn))
-            .join(" / ")}
+          {station.wardNameJa} · {lineNames.join(" / ")}
         </p>
         <h1 className="text-3xl font-bold text-ink">
           {station.content.name}

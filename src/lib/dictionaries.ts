@@ -7,6 +7,11 @@ import type { WeightPreset } from "./weights";
 
 export type Dictionary = {
   siteName: string;
+  /**
+   * 検索結果に出す見出し。本文の tagline をそのまま使うと長すぎて途中で切られ、
+   * どの駅の何の話か分からなくなる。何が読めるページなのかを短く書く。
+   */
+  seoStationTitle: string;
   tagline: string;
   nav: { stations: string; find: string; compare: string };
   home: {
@@ -144,6 +149,7 @@ export type Dictionary = {
 
 const ja: Dictionary = {
   siteName: "Tokyo Living Compass",
+  seoStationTitle: "{name}の住みやすさ｜家賃・通勤・坂・浸水想定",
   tagline: "東京で、あなたに一番合う街を見つける。",
   nav: { stations: "駅を見る", find: "駅を探す", compare: "駅を比べる" },
   home: {
@@ -347,6 +353,7 @@ const ja: Dictionary = {
 
 const en: Dictionary = {
   siteName: "Tokyo Living Compass",
+  seoStationTitle: "Living in {name}: rent, commute, slopes, flood risk",
   tagline: "Find the Tokyo neighborhood that fits you.",
   nav: { stations: "Stations", find: "Find your area", compare: "Compare" },
   home: {
@@ -555,6 +562,7 @@ const en: Dictionary = {
 
 const zhHans: Dictionary = {
   siteName: "Tokyo Living Compass",
+  seoStationTitle: "{name}的居住条件｜租金·通勤·坡道·浸水想定",
   tagline: "找到适合你的东京街区。",
   nav: { stations: "车站一览", find: "找住处", compare: "比较" },
   home: {
@@ -755,6 +763,7 @@ const zhHans: Dictionary = {
 
 const ko: Dictionary = {
   siteName: "Tokyo Living Compass",
+  seoStationTitle: "{name} 거주 여건｜임대료·출퇴근·언덕·침수 상정",
   tagline: "나에게 맞는 도쿄의 동네를 찾는다.",
   nav: { stations: "역 목록", find: "살 곳 찾기", compare: "비교" },
   home: {

@@ -30,8 +30,12 @@ export type ActiveLocale = (typeof ACTIVE_LOCALES)[number];
 
 export const DEFAULT_LOCALE: ActiveLocale = "ja";
 
-/** hreflang の x-default が指すロケール。多言語展開時に en へ戻す。 */
-export const X_DEFAULT_LOCALE: ActiveLocale = "ja";
+/**
+ * hreflang の x-default が指すロケール。
+ * どの言語にも一致しなかった読み手が最初に見るページで、英語を指す。
+ * 日本語だけだったあいだは ja を指していた（docs/04-i18n.md §4）。
+ */
+export const X_DEFAULT_LOCALE: ActiveLocale = "en";
 
 export const LOCALE_LABELS: Record<Locale, string> = {
   ja: "日本語",
