@@ -2,21 +2,25 @@
   "slug": "oimachi",
   "locale": "en",
   "name": "Oimachi",
-  "tagline": "Shinagawa in 5 minutes and Shibuya in 16 minutes. Served by 3 lines. A one-room flat rents for roughly ¥100,000 to ¥110,000.",
-  "summary": "The station is in Shinagawa City, served by JR Keihin-Tohoku Line, Tokyu Oimachi Line and Rinkai Line. Journey times to the main business districts are 25 minutes to Otemachi, 21 minutes to Shinjuku, 16 minutes to Shibuya and 5 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 10.4 m above sea level, and the ground within 800 m varies in height by 7.8 m. The land around the station is close to level.",
-  "terrain": {
-    "slope": "flat",
-    "note": "The station sits on the higher side of the ground around it, at 10.4 m above sea level. Within 800 m the ground ranges from 7.5 m to 15.3 m, a difference of 7.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+  "tagline": "Three lines, six minutes to Shinagawa and nineteen to Tokyo, and the shopping is done in the station buildings and the large supermarket. In exchange, the streets by the station stay busy late.",
+  "summary": "The JR Keihin-Tohoku Line, the Tokyu Oimachi Line and the Rinkai Line all serve the station: Shinagawa is 6 minutes, Tokyo 19, and Shibuya 16 changing at Osaki. Atre Oimachi and Hankyu Oimachi Garden connect directly to the station and there is an Ito-Yokado as well, so shopping and eating are finished right there. With three lines, one stopping still leaves a way round. In exchange, the old drinking streets by the station remain, and people are about until late.",
+  "faces": {
+    "morning": "The Keihin-Tohoku Line arrives from the Omiya direction, so a seat at Oimachi essentially does not happen. Shinagawa being only 6 minutes away, the flow towards the station does not break between seven and nine. The Rinkai and Oimachi Lines are less crowded than that.",
+    "daytime": "Shoppers gather at the station buildings and the shopping centres, and there are people about on weekday afternoons. One street out into the residential blocks it goes quiet, and the contrast with the station front is sharp.",
+    "night": "The drinking streets, Higashi-Koji among them, trade past 23:00, and the seats fill with people stopping for a drink on the way home. The station front is lit into the small hours, though the scale is not that of a real entertainment district.",
+    "weekend": "Shoppers make the area around the station buildings busy. It is not a place people visit as tourists, so the visitors are mainly residents of Shinagawa and Ota Cities."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "terrain": {
+    "note": "The station stands 10 m above sea level, with only about 7 m of variation within 800 m. The ground rises to 14 m towards Zaimusu-zaka on the west side, and is flat towards the sea on the east. Which side you live on changes how easy the bicycle is, but the gradients themselves are gentle.",
+    "slope": "flat"
+  },
+  "noiseSources": [
+    "Along the Keihin-Tohoku and Tokyu Oimachi Line tracks, trains can be heard until the last service",
+    "Ikegami-dori and Route 26 carry traffic without a break",
+    "Blocks near the drinking streets by the station hear voices until late",
+    "Since the Haneda Airport flight paths changed, aircraft can be heard overhead at certain hours"
+  ],
   "groceries": [
-    {
-      "name": "イトーヨーカドー 大井町店",
-      "tier": "standard",
-      "walkMinutes": 2,
-      "sourceUrl": "https://www.openstreetmap.org/node/1786344352",
-      "verifiedAt": "2026-09-13"
-    },
     {
       "name": "肉のハナマサ",
       "tier": "discount",
@@ -25,9 +29,17 @@
       "verifiedAt": "2026-09-13"
     },
     {
+      "name": "イトーヨーカドー 大井町店",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/1786344352",
+      "verifiedAt": "2026-09-13",
+      "note": "品川区大井1-3-6にある"
+    },
+    {
       "name": "ライフ",
       "tier": "standard",
-      "walkMinutes": 3,
+      "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/13722006963",
       "verifiedAt": "2026-09-13"
     },
@@ -36,39 +48,89 @@
       "tier": "discount",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/1786344351",
+      "verifiedAt": "2026-09-13",
+      "note": "品川区東大井5-18-1にある"
+    },
+    {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/2390628276",
       "verifiedAt": "2026-09-13"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 5 clinics and 5 pharmacies. Facilities recorded as hospitals lie at 東京品川病院, about 600 m away and 佐花会大井中央病院, about 652 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "3 lines serve the station: JR Keihin-Tohoku Line, Tokyu Oimachi Line and Rinkai Line. The lines are split between operators (JR East runs 1 line, Tokyu runs 1 line and Tokyo Waterfront Area Rapid Transit runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 73.",
-  "rentRange": {
-    "note": "One room ¥100,000 to ¥110,000, 1K ¥110,000 to ¥120,000, 1LDK ¥190,000 to ¥200,000 and 2LDK ¥260,000 to ¥270,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
-    "drivers": [
-      "Age and construction of the building",
-      "Walking distance from the station",
-      "Whether it faces a main road or the railway",
-      "Whether it sits at the top or the bottom of a slope",
-      "Floor area for the layout"
-    ]
-  },
-  "rentReason": "A one-room flat here goes for ¥100,000 to ¥110,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
-  "neighbours": [
+  "exits": [
     {
-      "slug": "samezu",
-      "note": "697 m away in a straight line. It reaches Otemachi in about the same time as Oimachi."
+      "name": "Central gate",
+      "line": "JR Keihin-Tohoku Line",
+      "character": "Connects directly into the Atre Oimachi station building, and stairs down lead to the Rinkai Line gates. Shopping is finished within what this gate opens onto."
     },
     {
-      "slug": "aomono-yokocho",
-      "note": "764 m away in a straight line. It reaches Otemachi in about the same time as Oimachi. One-room rents run about ¥8,000 higher."
+      "name": "East exit",
+      "line": "JR Keihin-Tohoku Line",
+      "character": "The side with Hankyu Oimachi Garden and the drinking streets, busy at night. It is the smallest of the three gates and does not stay open into the small hours, so it is no use on a last-train night. Check the opening hours on JR East's station information."
+    },
+    {
+      "name": "West exit",
+      "line": "JR Keihin-Tohoku Line",
+      "character": "Faces the Tokyu Oimachi Line gates, so the change between them is done on this side. It is also the way into the residential streets that climb towards Zaimusu-zaka."
+    },
+    {
+      "name": "Tokyu gate",
+      "line": "Tokyu Oimachi Line",
+      "character": "At the end of the terminating platform, connected to JR's west exit. The gate used by people travelling towards Futako-Tamagawa and Jiyugaoka, and the way out to the local shopping street."
+    },
+    {
+      "name": "Rinkai Line gate",
+      "line": "Rinkai Line",
+      "character": "The platform is underground, so the gates are too. Used for travelling towards Kokusai-Tenjijo and Odaiba, but reaching street level means a run of stairs and escalators."
     }
   ],
+  "residents": "Mainly people living alone and dual-income couples, with a high share of office workers commuting towards Shinagawa and Tokyo. Long-standing households remain too, and they are the regulars in the drinking streets. There are few large residential towers, so the turnover of residents is gradual.",
+  "housingStock": "Mid- and high-rise blocks around the station; a little further out, timber houses and low-rise flats mixed together. The choice of newer buildings is comparatively good for Shinagawa City. Rents fall along the tracks and near the drinking streets, but that is traded against noise.",
+  "hazards": "On the national hazard map, for the flood scenario based on the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of under 0.5 m. Two of the nine points within 400 m also fall inside it, all with projections under 0.5 m. Neither the station nor any of the nine points falls inside the storm surge or tsunami projections. The ground rises towards Zaimusu-zaka on the west side and is flat towards the sea on the east. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "stationNote": "The JR, Tokyu and Rinkai Line gates are all some way apart, and changing between them means several minutes' walk. The Rinkai Line in particular is deep underground and takes time to reach street level. Three lines is a real advantage, but allow for the distance between them.",
+  "nightWalk": "The station front and the area around the shopping centres are lit into the small hours and the foot traffic does not stop. If your way home goes through the drinking streets, there are hours when you will pass people who have been drinking. One street back, the residential blocks have lamps and nothing feels unusually dark.",
+  "rentReason": "For somewhere 6 minutes from Shinagawa and 19 from Tokyo, rent is clearly lower than at Shinagawa or Osaki. The reasons are that the drinking streets by the station make it hard to call this a settled residential area, that the east side is low ground inside the projected flood area, and that the name is not widely known. Rent held down against this level of convenience is the reason to choose the place.",
+  "rentRange": {
+    "note": "Newer blocks near the station and older buildings along the tracks or near the drinking streets differ a great deal in rent. Even within the same ten-minute walk of Oimachi, the residential streets up Zaimusu-zaka and the commercial blocks by the station are completely different to live in.",
+    "drivers": [
+      "Up the slope on the west side, or the flat east side",
+      "Whether it sits along the tracks",
+      "Proximity to the drinking streets",
+      "Age and construction of the building",
+      "Distance to the station buildings"
+    ]
+  },
+  "family": "Shopping is finished by the station, which makes life with children easier. Shinagawa Kumin Park is within cycling distance. The station front is busy until late and the drinking streets are close, though, so if a settled environment matters, choose a block away from the station. Check nursery availability and school catchment by address against Shinagawa City's own current information.",
+  "medical": "Tokyo Shinagawa Hospital is about 650 m away and Sakakai Oi Central Hospital about 700 m, so hospitals that admit inpatients are within walking distance. There are 5 clinics and 5 pharmacies within walking distance; rather than clustering by the station, they are spread through the residential streets. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "neighbours": [
+    {
+      "slug": "osaki",
+      "note": "For commuting towards Shibuya and Shinjuku, Osaki is quicker. It is an office district with tidier streets, but Oimachi has more choice for eating and shopping."
+    },
+    {
+      "slug": "musashi-koyama",
+      "note": "If you want to shop in a covered shopping street, or to run direct towards Otemachi, choose Musashi-Koyama. Rents are at a similar level, but Oimachi copes better when a line stops."
+    },
+    {
+      "slug": "nakanobu",
+      "note": "If you want to hold the rent down further and want quiet residential streets, choose Nakanobu. It is two stops away on the Oimachi Line, and Oimachi's station buildings are still there to shop in."
+    }
+  ],
+  "outlook": "Redevelopment of the Hiromachi district is under way, and both shops and housing around the station look set to increase. Convenience rising tends to take rents with it, so the present discount may fade within a few years. How much of the drinking streets survives depends on how the redevelopment proceeds.",
   "goodFor": [
-    "People who want another route when a line stops",
-    "People who get around by bicycle or with a pushchair",
-    "People who want a park close by"
+    "People commuting towards Shinagawa and Tokyo",
+    "People who want to finish shopping and eating by the station",
+    "People who value having a way round when a line stops",
+    "People who often eat out on the way home"
   ],
   "notFor": [
-    "People avoiding projected flood inundation areas"
+    "People who want a quiet residential street",
+    "People avoiding projected flood inundation areas",
+    "People who care about settled, tidy streets",
+    "People who want to avoid foot traffic and voices continuing late"
   ],
-  "authoredBy": "data-generated"
+  "residentComment": "Three lines and the shopping finished by the station make this, I think, one of the easier places to live in the Jonan area. With three lines a stoppage is not a problem, and the station buildings and the large supermarket cover the shopping. Six minutes to Shinagawa makes both commuting and business trips easier. The drawback is that the station front is not a settled place: the drinking streets remain, so people are about at night too. If you want quiet, better to go up Zaimusu-zaka on the west side, or shift one stop along the Oimachi Line. The station does fall inside the projected flood area, but the projected depth is under 0.5 m; this is a different situation from low-lying areas like Fukagawa, and worth keeping separate.",
+  "authoredBy": "ai-localized"
 }
