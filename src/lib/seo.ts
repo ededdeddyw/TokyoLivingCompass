@@ -96,3 +96,40 @@ export function jsonLdScript(data: unknown) {
 export function absoluteUrl(path: string): string {
   return `${SITE_URL}${path}`;
 }
+
+/**
+ * ページ種別によらず共通の metadata。
+ * canonical・hreflang・OGP を書き忘れるページが出ないよう、1か所にまとめる。
+ */
+export function standardMetadata(args: {
+  locale: ActiveLocale;
+  siteName: string;
+  title: string;
+  description: string;
+  /** ロケールを受け取ってパスを返す。canonical と hreflang の両方に使う。 */
+  path: (locale: ActiveLocale) => string;
+  /** その言語にページがあるか。既定はすべての言語にあるものとする。 */
+  exists?: (locale: ActiveLocale) => boolean;
+  noindex?: boolean;
+}) {
+  const title = pageTitle(args.title);
+  const description = pageDescription(args.description);
+  const path = args.path(args.locale);
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: path,
+      languages: languageAlternates(args.path, args.exists),
+    },
+    openGraph: openGraph({
+      locale: args.locale,
+      title,
+      description,
+      path,
+      siteName: args.siteName,
+    }),
+    twitter: { card: "summary" as const, title, description },
+    ...(args.noindex ? { robots: { index: false, follow: true } } : {}),
+  };
+}

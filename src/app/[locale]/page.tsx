@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -6,10 +7,28 @@ import { StationCard } from "@/components/StationCard";
 import { getDictionary } from "@/lib/dictionaries";
 import { ACTIVE_LOCALES, isActiveLocale } from "@/lib/i18n";
 import { overallScoreForPreset } from "@/lib/scoring";
+import { absoluteUrl, jsonLdScript, standardMetadata } from "@/lib/seo";
 import { getLocalizedStations } from "@/lib/stations";
 
 export function generateStaticParams() {
   return ACTIVE_LOCALES.map((locale) => ({ locale }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  if (!isActiveLocale(locale)) return {};
+  const dict = getDictionary(locale);
+  return standardMetadata({
+    locale,
+    siteName: dict.siteName,
+    title: dict.seoHomeTitle,
+    description: dict.home.lead,
+    path: (l) => `/${l}`,
+  });
 }
 
 export default async function HomePage({
@@ -24,8 +43,36 @@ export default async function HomePage({
   const stations = getLocalizedStations(locale);
   const hasSeedData = stations.some((s) => s.dataQuality === "seed");
 
+  // サイトそのものの構造化データ（docs/05-seo.md §4）。
+  // 何を提供しているサイトなのかを、検索エンジンと生成AIに機械可読な形で渡す。
+  const siteJsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": `${absoluteUrl("/")}#website`,
+        name: dict.siteName,
+        url: absoluteUrl(`/${locale}`),
+        description: dict.home.lead,
+        inLanguage: locale,
+      },
+      {
+        "@type": "CollectionPage",
+        name: dict.siteName,
+        url: absoluteUrl(`/${locale}`),
+        inLanguage: locale,
+        isPartOf: { "@id": `${absoluteUrl("/")}#website` },
+        about: {
+          "@type": "Place",
+          name: locale === "ja" ? "東京23区" : "Tokyo 23 wards",
+        },
+      },
+    ],
+  };
+
   return (
     <div className="space-y-10">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(siteJsonLd)} />
       <section className="space-y-4">
         <h1 className="text-3xl font-bold leading-tight text-ink sm:text-4xl">
           {dict.tagline}

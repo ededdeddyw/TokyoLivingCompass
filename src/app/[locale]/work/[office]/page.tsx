@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 
 import { SeedNotice } from "@/components/SeedNotice";
 import { getDictionary } from "@/lib/dictionaries";
+import { standardMetadata } from "@/lib/seo";
 import { formatYen } from "@/lib/format";
 import { ACTIVE_LOCALES, isActiveLocale } from "@/lib/i18n";
 import { OFFICE_HUBS, RENT_TYPES, type OfficeHub, type RentType } from "@/lib/schema";
@@ -49,14 +50,13 @@ export async function generateMetadata({
   const dict = getDictionary(locale);
   const officeName = dict.offices[office];
 
-  return {
-    title:
-      locale === "ja"
-        ? `${officeName}勤務なら、どこに住むべきか`
-        : `Best places to live if you work in ${officeName}`,
+  return standardMetadata({
+    locale,
+    siteName: dict.siteName,
+    title: dict.seoWorkTitle.replace("{office}", officeName),
     description: dict.find.lead,
-    alternates: { canonical: `/${locale}/work/${office}` },
-  };
+    path: (l) => `/${l}/work/${office}`,
+  });
 }
 
 type SearchParams = {

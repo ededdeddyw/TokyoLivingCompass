@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 
 import { SeedNotice } from "@/components/SeedNotice";
 import { getDictionary } from "@/lib/dictionaries";
+import { standardMetadata } from "@/lib/seo";
 import { formatYen } from "@/lib/format";
 import { ACTIVE_LOCALES, isActiveLocale, type ActiveLocale } from "@/lib/i18n";
 import {
@@ -56,16 +57,18 @@ export async function generateMetadata({
   const [a, b] = slugs.map((s) => getLocalizedStation(s, locale));
   if (!a || !b) return {};
 
-  return {
-    title: `${a.content.name} vs ${b.content.name}`,
+  const dict = getDictionary(locale);
+  return standardMetadata({
+    locale,
+    siteName: dict.siteName,
+    title: dict.seoCompareTitle
+      .replace("{a}", a.content.name)
+      .replace("{b}", b.content.name),
     description: `${a.content.tagline} / ${b.content.tagline}`,
-    alternates: { canonical: `/${locale}/compare/${pair}` },
+    path: (l) => `/${l}/compare/${pair}`,
     // 両駅とも reviewed 以上でなければ index させない（docs/05-seo.md §3）。
-    robots:
-      a.dataQuality === "seed" || b.dataQuality === "seed"
-        ? { index: false, follow: true }
-        : undefined,
-  };
+    noindex: a.dataQuality === "seed" || b.dataQuality === "seed",
+  });
 }
 
 function Row({

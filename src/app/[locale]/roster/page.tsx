@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { getDictionary } from "@/lib/dictionaries";
+import { standardMetadata } from "@/lib/seo";
 import { ACTIVE_LOCALES, isActiveLocale, type ActiveLocale } from "@/lib/i18n";
 import type { Line, RosterStation } from "@/lib/schema";
 import { getAllStations, getLines, getRoster } from "@/lib/stations";
@@ -19,7 +20,13 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!isActiveLocale(locale)) return {};
   const dict = getDictionary(locale);
-  return { title: dict.roster.heading, description: dict.roster.lead };
+  return standardMetadata({
+    locale,
+    siteName: dict.siteName,
+    title: dict.roster.heading,
+    description: dict.roster.lead,
+    path: (l) => `/${l}/roster`,
+  });
 }
 
 const OPERATOR_ORDER: Line["operator"][] = ["jr", "tokyo-metro", "toei", "private"];

@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { SeedNotice } from "@/components/SeedNotice";
 import { StationCard } from "@/components/StationCard";
 import { getDictionary } from "@/lib/dictionaries";
+import { standardMetadata } from "@/lib/seo";
 import { ACTIVE_LOCALES, isActiveLocale } from "@/lib/i18n";
 import { overallScoreForPreset } from "@/lib/scoring";
 import { getLocalizedStations } from "@/lib/stations";
@@ -21,7 +22,14 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   if (!isActiveLocale(locale)) return {};
-  return { title: getDictionary(locale).list.heading };
+  const dict = getDictionary(locale);
+  return standardMetadata({
+    locale,
+    siteName: dict.siteName,
+    title: dict.list.heading,
+    description: dict.home.lead,
+    path: (l) => `/${l}/stations`,
+  });
 }
 
 export default async function StationsPage({
