@@ -23,6 +23,19 @@ export type Dictionary = {
   seoCompareTitle: string;
   tagline: string;
   nav: { stations: string; find: string; compare: string };
+  /** 運営者情報ページ（docs/05-seo.md §5）。 */
+  about: {
+    heading: string;
+    operatorLabel: string;
+    operatorName: string;
+    contactLabel: string;
+    whatThisIs: string;
+    sourcesHeading: string;
+    sources: string[];
+    disclaimerHeading: string;
+    disclaimers: string[];
+    updatedLabel: string;
+  };
   home: {
     lead: string;
     findCta: string;
@@ -164,6 +177,39 @@ const ja: Dictionary = {
   seoCompareTitle: "{a}と{b}、どちらに住むか｜家賃・通勤・環境の比較",
   tagline: "東京で、あなたに一番合う街を見つける。",
   nav: { stations: "駅を見る", find: "駅を探す", compare: "駅を比べる" },
+  about: {
+    heading: "このサイトについて",
+    operatorLabel: "運営者",
+    operatorName: "日本で最高の場所に住もう",
+    contactLabel: "連絡先",
+    whatThisIs:
+      "東京23区の458駅について、家賃・通勤時間・土地の高低・浸水想定・周辺施設を集め、" +
+      "住む街を決めるために比べられる形にしたサイトです。物件を探す前に、" +
+      "どの街に住むかを決めるために使ってください。",
+    sourcesHeading: "数字の出どころ",
+    sources: [
+      "家賃: LIFULL HOME'S・Yahoo!不動産・アットホームが公開する駅ごとの相場を平均し、1万円刻みに丸めた値（当社調べ）",
+      "所要時間: 駅間の距離と路線の種別から計算した推定値。乗車時間を基準にし、乗り換え1回につき5分を加えている",
+      "土地の高低: 国土地理院の標高API。駅と半径400mの8方位、計9地点を読み取った値",
+      "浸水想定: 重ねるハザードマップ（国土交通省・国土地理院）の想定最大規模の区域",
+      "周辺施設: OpenStreetMap contributors（ODbL）",
+      "駅・路線: 駅データ.jp ほか公開データ",
+    ],
+    disclaimerHeading: "読むときに知っておいてほしいこと",
+    disclaimers: [
+      "家賃は募集賃料の平均です。実際に契約する金額はこれより下がることがあります。" +
+        "同じ駅でも、築年数・駅からの距離・通りに面しているかで大きく変わります。",
+      "浸水想定区域は、想定しうる最大規模の雨や台風を前提にした試算です。" +
+        "ふだん浸水する場所という意味でも、区域の外なら浸水しないという意味でもありません。" +
+        "住む場所を決める前に、住所ごとに区のハザードマップで確認してください。",
+      "所要時間は計算した推定値で、実際の時刻表に基づくものではありません。" +
+        "快速や特急などの優等列車は考慮していません。",
+      "店名や施設名は OpenStreetMap に登録されている情報です。" +
+        "閉店や移転が反映されていない場合があります。",
+      "このサイトは不動産の取引を行いません。物件の紹介・仲介もしていません。",
+    ],
+    updatedLabel: "最終更新",
+  },
   home: {
     lead: "勤務先・予算・暮らし方から、東京のどこに住むべきかを決めるためのサービスです。物件を探す前に、街を決める。",
     findCta: "勤務先から駅を探す",
@@ -371,6 +417,35 @@ const en: Dictionary = {
   seoCompareTitle: "{a} or {b}: comparing rent, commute and surroundings",
   tagline: "Find the Tokyo neighborhood that fits you.",
   nav: { stations: "Stations", find: "Find your area", compare: "Compare" },
+  about: {
+    heading: "About this site",
+    operatorLabel: "Operated by",
+    operatorName: "日本で最高の場所に住もう (Nihon de saikou no basho ni sumou)",
+    contactLabel: "Contact",
+    whatThisIs:
+      "For all 458 stations in Tokyo's 23 wards, this site gathers rent, journey times, " +
+      "the lie of the land, projected flood depths and nearby facilities, and puts them in a " +
+      "form you can compare. It is for deciding which neighbourhood to live in, before you " +
+      "start looking at flats.",
+    sourcesHeading: "Where the figures come from",
+    sources: [
+      "Rent: the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey)",
+      "Journey times: estimates computed from inter-station distance and line type, based on in-vehicle time, with 5 minutes allowed per change",
+      "Elevation: the elevation API of the Geospatial Information Authority of Japan, read at nine points (the station and eight compass directions 400 m out)",
+      "Flood projections: the national hazard map (MLIT and the Geospatial Information Authority of Japan), for the largest scenario modelled",
+      "Nearby facilities: OpenStreetMap contributors (ODbL)",
+      "Stations and lines: ekidata.jp and other published data",
+    ],
+    disclaimerHeading: "What to know before you read",
+    disclaimers: [
+      "Rents are averages of asking rents. What tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+      "A projected inundation area is an estimate based on the largest rainfall or typhoon the authorities plan for. It does not mean the area floods routinely, nor that areas outside it never flood. Before deciding where to live, check your specific address on the ward's own hazard map.",
+      "Journey times are computed estimates, not taken from timetables. Express and rapid services are not modelled.",
+      "Shop and facility names come from OpenStreetMap. Closures and relocations may not be reflected.",
+      "This site does not deal in property. It neither lists nor brokers flats.",
+    ],
+    updatedLabel: "Last updated",
+  },
   home: {
     lead: "Decide where to live in Tokyo based on your office, budget and lifestyle. Choose the neighborhood before you start looking at apartments.",
     findCta: "Find areas near your office",
@@ -583,6 +658,33 @@ const zhHans: Dictionary = {
   seoCompareTitle: "{a}还是{b}｜租金·通勤·环境的比较",
   tagline: "找到适合你的东京街区。",
   nav: { stations: "车站一览", find: "找住处", compare: "比较" },
+  about: {
+    heading: "关于本站",
+    operatorLabel: "运营者",
+    operatorName: "日本で最高の場所に住もう",
+    contactLabel: "联系方式",
+    whatThisIs:
+      "本站收集东京23区458个车站的租金、通勤时间、地势高低、浸水想定和周边设施，" +
+      "整理成可以互相比较的形式。请在找房子之前，用它来决定住在哪个街区。",
+    sourcesHeading: "数字的来源",
+    sources: [
+      "租金：取 LIFULL HOME'S、Yahoo!不动产、at home 三家公布的分车站行情的平均值，并向下取整到1万日元（本公司调查）",
+      "通勤时间：按站间距离和线路种类计算的估算值。以乘车时间为准，每次换乘计入5分钟",
+      "地势高低：日本国土地理院的海拔API。读取了车站和半径400米的八个方位，共九个点",
+      "浸水想定：重叠灾害地图（国土交通省·国土地理院）按可能出现的最大规模推算的区域",
+      "周边设施：OpenStreetMap contributors（ODbL）",
+      "车站·线路：车站数据.jp 等公开数据",
+    ],
+    disclaimerHeading: "阅读前请知悉",
+    disclaimers: [
+      "租金是招租价格的平均值。实际签约的金额可能低于此。即使是同一个车站，房龄、离车站的距离、是否临街，都会让金额差出很多。",
+      "浸水想定区域，是按所设想的最大降雨或台风推算出的范围。它既不表示这里平时就会淹水，也不表示区域之外就不会淹。在决定住处之前，请按具体地址查看所在区发布的灾害地图。",
+      "通勤时间是计算出的估算值，不是依据实际时刻表。未考虑快速、特急等优等列车。",
+      "店名和设施名来自 OpenStreetMap，可能没有反映歇业或搬迁。",
+      "本站不从事不动产交易，也不介绍或中介房源。",
+    ],
+    updatedLabel: "最后更新",
+  },
   home: {
     lead: "按公司位置、预算和生活方式，决定在东京住哪里。先定下住的街区，再去看房子。",
     findCta: "从公司位置找街区",
@@ -787,6 +889,34 @@ const ko: Dictionary = {
   seoCompareTitle: "{a}와 {b}, 어디에 살까｜임대료·출퇴근·환경 비교",
   tagline: "나에게 맞는 도쿄의 동네를 찾는다.",
   nav: { stations: "역 목록", find: "살 곳 찾기", compare: "비교" },
+  about: {
+    heading: "이 사이트에 대하여",
+    operatorLabel: "운영자",
+    operatorName: "日本で最高の場所に住もう",
+    contactLabel: "연락처",
+    whatThisIs:
+      "도쿄 23구의 458개 역에 대해 임대료, 출퇴근 시간, 땅의 높낮이, 침수 상정, 주변 시설을 모아 " +
+      "서로 비교할 수 있는 형태로 정리한 사이트입니다. 집을 찾기 전에, 어느 동네에 살지를 " +
+      "정하는 데 써 주세요.",
+    sourcesHeading: "숫자의 출처",
+    sources: [
+      "임대료: LIFULL HOME'S, Yahoo!부동산, at home이 공개하는 역별 시세를 평균 내어 1만 엔 단위로 내림한 값(당사 조사)",
+      "출퇴근 시간: 역 사이의 거리와 노선 종류로 계산한 추정값. 승차 시간을 기준으로 하고, 환승 1회당 5분을 더했다",
+      "땅의 높낮이: 일본 국토지리원의 표고 API. 역과 반경 400m의 여덟 방위, 모두 아홉 지점을 읽은 값",
+      "침수 상정: 가사네루 해저드맵(국토교통성·국토지리원)의 상정 최대 규모 구역",
+      "주변 시설: OpenStreetMap contributors(ODbL)",
+      "역·노선: 에키데이터.jp 등 공개 데이터",
+    ],
+    disclaimerHeading: "읽기 전에 알아 두었으면 하는 것",
+    disclaimers: [
+      "임대료는 모집 임대료의 평균입니다. 실제로 계약하는 금액은 이보다 낮아질 수 있습니다. 같은 역이라도 건축 연수, 역에서의 거리, 큰길에 면해 있는지에 따라 크게 달라집니다.",
+      "침수 상정 구역은 상정할 수 있는 최대 규모의 비나 태풍을 전제로 한 추산입니다. 평소에 물에 잠기는 곳이라는 뜻도, 구역 밖이면 잠기지 않는다는 뜻도 아닙니다. 살 곳을 정하기 전에 주소별로 구청이 내놓은 재해 지도에서 확인해 주세요.",
+      "출퇴근 시간은 계산한 추정값이며, 실제 시각표에 따른 것이 아닙니다. 쾌속이나 특급 같은 우등 열차는 반영하지 않았습니다.",
+      "가게 이름과 시설 이름은 OpenStreetMap에 등록된 정보입니다. 폐업이나 이전이 반영되지 않았을 수 있습니다.",
+      "이 사이트는 부동산 거래를 하지 않습니다. 매물 소개나 중개도 하지 않습니다.",
+    ],
+    updatedLabel: "최종 수정",
+  },
   home: {
     lead: "회사 위치와 예산, 생활 방식에 맞춰 도쿄에서 살 곳을 정한다. 집을 보러 다니기 전에, 살 동네부터 정한다.",
     findCta: "회사 위치에서 동네 찾기",

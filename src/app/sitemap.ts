@@ -44,6 +44,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       alternates: alternates((l) => `/${l}/stations`, ACTIVE_LOCALES),
     });
     entries.push({
+      url: `${SITE_URL}/${locale}/about`,
+      priority: 0.4,
+      changeFrequency: "yearly",
+      alternates: alternates((l) => `/${l}/about`, ACTIVE_LOCALES),
+    });
+    entries.push({
       url: `${SITE_URL}/${locale}/roster`,
       priority: 0.5,
       changeFrequency: "monthly",
