@@ -1,7 +1,7 @@
 {
   "note": "本文に出てくる施設名のうち、OpenStreetMap に名前で問い合わせて実在を確認したもの。scripts/check-place-names.py が参照する。駅ごとの取得範囲（総合病院2.5km、公園1.2kmなど）の外にあるか、取得対象の種類（美術館・神社は対象外）に入っていないため、駅別のデータには現れない。",
   "source": "OpenStreetMap contributors (ODbL)",
-  "verifiedAt": "2026-09-13",
+  "verifiedAt": "2026-09-20",
   "places": {
     "東京都現代美術館": "museum",
     "和田堀公園": "park（OSM の名称は「都立 和田堀公園」）",
@@ -18,7 +18,8 @@
     "深川公園": "park",
     "檜町公園": "park",
     "青山公園": "park（OSM の名称は「都立青山公園 南地区」）",
-    "お茶の水女子大学": "university"
+    "お茶の水女子大学": "university",
+    "東京電機大学": "university（神田の Overpass 取得結果に amenity=university として登録）"
   },
   "corrected": {
     "昭和大学病院": "昭和医科大学病院（2025年に改称）",
