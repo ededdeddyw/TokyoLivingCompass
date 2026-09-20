@@ -61,6 +61,11 @@ export const lineSchema = z.object({
 export const rosterStationSchema = z.object({
   slug: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/),
   nameJa: z.string().min(1),
+  /**
+   * 同じ乗換駅の、表示名に選ばなかった駅名（虎ノ門に対する虎ノ門ヒルズなど）。
+   * この名前で探した人が、どこにもたどり着けなくならないようにする。
+   */
+  alsoKnownAs: z.array(z.string().min(1)).optional(),
   nameRomaji: z.string().min(1),
   ward: z.string().min(1),
   wardCode: z.string().regex(/^\d{5}$/),

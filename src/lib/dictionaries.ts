@@ -44,6 +44,8 @@ export type Dictionary = {
   };
   station: {
     overall: string;
+    /** 同じ乗換駅の、表示名に選ばなかった駅名を出すときの文言。 */
+    alsoKnownAs: string;
     rent: string;
     commute: string;
     lines: string;
@@ -221,6 +223,7 @@ const ja: Dictionary = {
   },
   station: {
     overall: "総合評価",
+    alsoKnownAs: "{names}も同じ乗換駅として扱っています",
     rent: "家賃相場",
     commute: "都心アクセス",
     lines: "路線",
@@ -499,6 +502,7 @@ const en: Dictionary = {
   },
   station: {
     overall: "Overall",
+    alsoKnownAs: "{names} is treated as the same interchange",
     rent: "Typical rent",
     commute: "Commute",
     lines: "Lines",
@@ -780,6 +784,7 @@ const zhHans: Dictionary = {
   },
   station: {
     overall: "综合",
+    alsoKnownAs: "{names}也作为同一换乘站处理",
     rent: "租金行情",
     commute: "通勤",
     lines: "线路",
@@ -1054,6 +1059,7 @@ const ko: Dictionary = {
   },
   station: {
     overall: "종합",
+    alsoKnownAs: "{names}도 같은 환승역으로 다룹니다",
     rent: "임대료 시세",
     commute: "출퇴근",
     lines: "노선",

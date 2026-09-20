@@ -136,6 +136,12 @@ export default async function RosterPage({
                       {locale !== "ja" && (
                         <span className="text-sm text-ink-soft">{station.nameJa}</span>
                       )}
+                      {/* 別名で探した人が、この一覧で見つけられるようにする。 */}
+                      {station.alsoKnownAs && (
+                        <span className="text-sm text-ink-soft">
+                          （{station.alsoKnownAs.join("・")}）
+                        </span>
+                      )}
                       <span className="ml-auto text-right text-sm text-ink-soft">
                         {station.lineIds
                           .map((id) => lines.get(id))

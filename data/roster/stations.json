@@ -108,6 +108,9 @@
     "slug": "ichigaya",
     "groupCode": "1131315",
     "nameJa": "市ケ谷",
+    "alsoKnownAs": [
+      "市ヶ谷"
+    ],
     "nameRomaji": "Ichigaya",
     "ward": "chiyoda",
     "wardCode": "13101",
@@ -125,6 +128,9 @@
     "slug": "ochanomizu",
     "groupCode": "1131203",
     "nameJa": "御茶ノ水",
+    "alsoKnownAs": [
+      "新御茶ノ水"
+    ],
     "nameRomaji": "Ochanomizu",
     "ward": "chiyoda",
     "wardCode": "13101",
@@ -142,6 +148,9 @@
     "slug": "yurakucho",
     "groupCode": "1130225",
     "nameJa": "有楽町",
+    "alsoKnownAs": [
+      "日比谷"
+    ],
     "nameRomaji": "Yurakucho",
     "ward": "chiyoda",
     "wardCode": "13101",
@@ -228,6 +237,9 @@
     "slug": "nagatacho",
     "groupCode": "2800115",
     "nameJa": "永田町",
+    "alsoKnownAs": [
+      "赤坂見附"
+    ],
     "nameRomaji": "Nagatacho",
     "ward": "chiyoda",
     "wardCode": "13101",
@@ -246,6 +258,9 @@
     "slug": "awajicho",
     "groupCode": "2800207",
     "nameJa": "淡路町",
+    "alsoKnownAs": [
+      "小川町"
+    ],
     "nameRomaji": "Awajicho",
     "ward": "chiyoda",
     "wardCode": "13101",
@@ -389,6 +404,9 @@
     "slug": "mitsukoshimae",
     "groupCode": "1131402",
     "nameJa": "三越前",
+    "alsoKnownAs": [
+      "新日本橋"
+    ],
     "nameRomaji": "Mitsukoshimae",
     "ward": "chuo",
     "wardCode": "13102",
@@ -405,6 +423,9 @@
     "slug": "kyobashi",
     "groupCode": "2800110",
     "nameJa": "京橋",
+    "alsoKnownAs": [
+      "宝町"
+    ],
     "nameRomaji": "Kyobashi",
     "ward": "chuo",
     "wardCode": "13102",
@@ -420,6 +441,9 @@
     "slug": "ningyocho",
     "groupCode": "2800309",
     "nameJa": "人形町",
+    "alsoKnownAs": [
+      "水天宮前"
+    ],
     "nameRomaji": "Ningyocho",
     "ward": "chuo",
     "wardCode": "13102",
@@ -539,6 +563,9 @@
     "slug": "tsukiji",
     "groupCode": "2800312",
     "nameJa": "築地",
+    "alsoKnownAs": [
+      "新富町"
+    ],
     "nameRomaji": "Tsukiji",
     "ward": "chuo",
     "wardCode": "13102",
@@ -583,6 +610,9 @@
     "slug": "ginza",
     "groupCode": "2800111",
     "nameJa": "銀座",
+    "alsoKnownAs": [
+      "銀座一丁目"
+    ],
     "nameRomaji": "Ginza",
     "ward": "chuo",
     "wardCode": "13102",
@@ -600,6 +630,10 @@
     "slug": "bakurocho",
     "groupCode": "1131403",
     "nameJa": "馬喰町",
+    "alsoKnownAs": [
+      "東日本橋",
+      "馬喰横山"
+    ],
     "nameRomaji": "Bakurocho",
     "ward": "chuo",
     "wardCode": "13102",
@@ -959,6 +993,9 @@
     "slug": "toranomon",
     "groupCode": "2800113",
     "nameJa": "虎ノ門",
+    "alsoKnownAs": [
+      "虎ノ門ヒルズ"
+    ],
     "nameRomaji": "Toranomon",
     "ward": "minato",
     "wardCode": "13103",
@@ -1195,6 +1232,9 @@
     "slug": "shinjuku",
     "groupCode": "1130208",
     "nameJa": "新宿",
+    "alsoKnownAs": [
+      "新線新宿"
+    ],
     "nameRomaji": "Shinjuku",
     "ward": "shinjuku",
     "wardCode": "13104",
@@ -1713,6 +1753,11 @@
     "slug": "okachimachi",
     "groupCode": "1130221",
     "nameJa": "御徒町",
+    "alsoKnownAs": [
+      "上野広小路",
+      "上野御徒町",
+      "仲御徒町"
+    ],
     "nameRomaji": "Okachimachi",
     "ward": "taito",
     "wardCode": "13106",
@@ -1934,6 +1979,9 @@
     "slug": "oshiage",
     "groupCode": "2100203",
     "nameJa": "押上〈スカイツリー前〉",
+    "alsoKnownAs": [
+      "押上（スカイツリー前）"
+    ],
     "nameRomaji": "Oshiage",
     "ward": "sumida",
     "wardCode": "13107",
@@ -2615,6 +2663,9 @@
     "slug": "togoshi",
     "groupCode": "2600503",
     "nameJa": "戸越銀座",
+    "alsoKnownAs": [
+      "戸越"
+    ],
     "nameRomaji": "Togoshi",
     "ward": "shinagawa",
     "wardCode": "13109",
@@ -3343,6 +3394,10 @@
     "slug": "haneda-airport-terminal-1-2",
     "groupCode": "2700206",
     "nameJa": "羽田空港第1・第2ターミナル",
+    "alsoKnownAs": [
+      "羽田空港第1ターミナル",
+      "羽田空港第2ターミナル"
+    ],
     "nameRomaji": "Haneda-Airport-Terminal-1-2",
     "ward": "ota",
     "wardCode": "13111",
@@ -3982,6 +4037,9 @@
     "slug": "gotokuji",
     "groupCode": "2500110",
     "nameJa": "豪徳寺",
+    "alsoKnownAs": [
+      "山下"
+    ],
     "nameRomaji": "Gotokuji",
     "ward": "setagaya",
     "wardCode": "13112",
@@ -4042,6 +4100,9 @@
     "slug": "yoyogi-hachiman",
     "groupCode": "2500104",
     "nameJa": "代々木八幡",
+    "alsoKnownAs": [
+      "代々木公園"
+    ],
     "nameRomaji": "Yoyogi-Hachiman",
     "ward": "shibuya",
     "wardCode": "13113",
@@ -4174,6 +4235,9 @@
     "slug": "meiji-jingumae",
     "groupCode": "1130206",
     "nameJa": "明治神宮前〈原宿〉",
+    "alsoKnownAs": [
+      "原宿"
+    ],
     "nameRomaji": "Meiji-Jingumae",
     "ward": "shibuya",
     "wardCode": "13113",
@@ -4728,6 +4792,9 @@
     "slug": "otsuka",
     "groupCode": "1130213",
     "nameJa": "大塚",
+    "alsoKnownAs": [
+      "大塚駅前"
+    ],
     "nameRomaji": "Otsuka",
     "ward": "toshima",
     "wardCode": "13116",
@@ -4814,6 +4881,9 @@
     "slug": "higashi-ikebukuro",
     "groupCode": "2800610",
     "nameJa": "東池袋",
+    "alsoKnownAs": [
+      "東池袋四丁目"
+    ],
     "nameRomaji": "Higashi-Ikebukuro",
     "ward": "toshima",
     "wardCode": "13116",
@@ -4950,6 +5020,9 @@
     "slug": "zoshigaya",
     "groupCode": "2801010",
     "nameJa": "雑司が谷",
+    "alsoKnownAs": [
+      "鬼子母神前"
+    ],
     "nameRomaji": "Zoshigaya",
     "ward": "toshima",
     "wardCode": "13116",
@@ -5107,6 +5180,9 @@
     "slug": "oji",
     "groupCode": "1133212",
     "nameJa": "王子",
+    "alsoKnownAs": [
+      "王子駅前"
+    ],
     "nameRomaji": "Oji",
     "ward": "kita",
     "wardCode": "13117",
@@ -5361,6 +5437,9 @@
     "slug": "machiya",
     "groupCode": "2300104",
     "nameJa": "町屋",
+    "alsoKnownAs": [
+      "町屋駅前"
+    ],
     "nameRomaji": "Machiya",
     "ward": "arakawa",
     "wardCode": "13118",
@@ -5548,6 +5627,9 @@
     "slug": "chikatetsu-akatsuka",
     "groupCode": "2100109",
     "nameJa": "地下鉄赤塚",
+    "alsoKnownAs": [
+      "下赤塚"
+    ],
     "nameRomaji": "Chikatetsu-Akatsuka",
     "ward": "itabashi",
     "wardCode": "13119",
@@ -5606,6 +5688,9 @@
     "slug": "narimasu",
     "groupCode": "2100110",
     "nameJa": "成増",
+    "alsoKnownAs": [
+      "地下鉄成増"
+    ],
     "nameRomaji": "Narimasu",
     "ward": "itabashi",
     "wardCode": "13119",
@@ -6208,6 +6293,9 @@
     "slug": "ushida",
     "groupCode": "2100208",
     "nameJa": "牛田",
+    "alsoKnownAs": [
+      "京成関屋"
+    ],
     "nameRomaji": "Ushida",
     "ward": "adachi",
     "wardCode": "13121",
@@ -6510,6 +6598,9 @@
     "slug": "kanamachi",
     "groupCode": "1132008",
     "nameJa": "金町",
+    "alsoKnownAs": [
+      "京成金町"
+    ],
     "nameRomaji": "Kanamachi",
     "ward": "katsushika",
     "wardCode": "13122",

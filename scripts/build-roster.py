@@ -306,6 +306,10 @@ def main():
             romaji_by_name.setdefault(s["name_kanji"], tail)
 
     stations, membership = {}, collections.defaultdict(set)
+    # 同じ駅グループでも、路線ごとに駅名が違うことがある（虎ノ門と虎ノ門ヒルズ、
+    # 馬喰町と東日本橋など）。表示名に選ばなかった名前も残しておかないと、
+    # その名前で探した人がどこにもたどり着けない。
+    group_names = collections.defaultdict(set)
     for line_cd in TARGET_LINES:
         data = json.load(
             open(fetch(f"{EKIDATA_API}/l/{line_cd}.json", f"line_{line_cd}.json"),
@@ -318,6 +322,7 @@ def main():
             stations.setdefault(gcd, {"name": s["station_name"], "points": []})
             stations[gcd]["points"].append((s["lat"], s["lon"]))
             membership[gcd].add(line_cd)
+            group_names[gcd].add(s["station_name"])
 
     buckets = build_ward_index()
 
@@ -383,10 +388,12 @@ def main():
             raise SystemExit(f"slug が重複しました: {slug} ({name} / {gcd})。"
                              " SLUG_BY_GROUP で区別してください。")
 
+        also = sorted(n for n in group_names[gcd] if n != name)
         rows.append({
             "slug": slug,
             "groupCode": gcd,
             "nameJa": name,
+            **({"alsoKnownAs": also} if also else {}),
             "nameRomaji": "-".join(w[:1].upper() + w[1:].lower() for w in words),
             "ward": ward_roma,
             "wardCode": code,
@@ -413,6 +420,17 @@ def main():
     rows.sort(key=lambda r: (r["wardCode"], r["nameJa"]))
 
     used = sorted({i for r in rows for i in r["lineIds"]})
+    # 別名が、ほかの駅の表示名と重なることがある（御茶ノ水の別名に淡路町が入る）。
+    # 重なった駅には自分のページがあるので、別名としては出さない。
+    display = {r["nameJa"] for r in rows}
+    for r in rows:
+        if "alsoKnownAs" in r:
+            kept = [n for n in r["alsoKnownAs"] if n not in display]
+            if kept:
+                r["alsoKnownAs"] = kept
+            else:
+                del r["alsoKnownAs"]
+
     lines_out = [
         {"id": i, "nameJa": line_names[i], "nameEn": LINE_EN[i][0],
          "operator": LINE_EN[i][1], "company": company_of(i)}

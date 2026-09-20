@@ -197,6 +197,15 @@ export default async function StationPage({
             <span className="ml-3 text-xl font-normal text-ink-soft">{station.nameJa}</span>
           )}
         </h1>
+        {/* 別名で探した人に、ここが同じ駅だと分かるようにする。 */}
+        {station.alsoKnownAs && station.alsoKnownAs.length > 0 && (
+          <p className="text-sm text-ink-soft">
+            {dict.station.alsoKnownAs.replace(
+              "{names}",
+              station.alsoKnownAs.map((n) => `${n}駅`).join("・"),
+            )}
+          </p>
+        )}
         {station.content.tags && station.content.tags.length > 0 && (
           // 街の性格タグ。本文を読む前に、どんな街かを掴めるようにする。
           <ul className="flex flex-wrap gap-1.5">
