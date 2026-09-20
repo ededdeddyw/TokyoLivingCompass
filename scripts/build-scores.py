@@ -12,13 +12,17 @@
   healthcare         徒歩圏のクリニック・薬局と、総合病院までの距離
   nature             徒歩圏の公園の数
   food / cafe / nightlife / fitness  徒歩圏の飲食店・カフェ・酒場・ジムの数
+  rentValue          通勤の速さに対する家賃の安さ
+  quietness          飲み屋・飲食店の少なさから見た静かさ
+  family             公園・日常の医療・スーパーの多さと、坂の少なさ
+  singleLife         外食とカフェで生活を完結させやすいか
+  disaster           浸水想定区域に入る地点の少なさ
 
 施設の数は OpenStreetMap（scripts/fetch-pois.py）から数える。
 OSM は地域によって登録の密度が違うため、数そのものではなく、
 23区内の駅どうしの相対的な位置（何割の駅より多いか）で点をつける。
 
-残る軸（rentValue・safety・quietness・family・singleLife・
-internationalFriendliness・style）は、家賃・犯罪統計・人の判断が要る。
+残る3軸（safety・internationalFriendliness・style）は、犯罪統計や人の判断が要る。
 どの軸を何で埋めるかは docs/03-scoring.md §4、進め方は docs/11-all-stations-plan.md。
 
   python3 scripts/build-scores.py
@@ -85,6 +89,66 @@ def hospital_nearness(nearest_hospital_m):
     return max(0.0, min(1.0, (2500 - nearest_hospital_m) / 2000))
 
 
+def flood_score(hz):
+    """
+    浸水想定区域に入る地点の少なさ。駅と半径400mの8方位、計9地点を見る。
+    区域に入る地点が少ないほど高い。深さの想定が大きいときはさらに引く。
+
+    ここで点にしているのは「想定最大規模の雨が降ったときの試算」であり、
+    ふだん浸水する場所かどうかではない（docs/13 ルール32）。
+    """
+    if not hz:
+        return None
+    DEPTH_PENALTY = {None: 0, "0.5m未満": 4, "0.5〜3m": 12, "3〜5m": 22,
+                     "5〜10m": 32, "10〜20m": 40, "20m以上": 45}
+    worst = 0
+    covered = 0
+    total = 0
+    for kind in ("flood", "hightide", "tsunami"):
+        k = hz.get(kind)
+        if not k:
+            continue
+        total = max(total, k.get("aroundTotal") or 0)
+        covered = max(covered, k.get("aroundCount") or 0)
+        worst = max(worst, DEPTH_PENALTY.get(k.get("deepest"), 20))
+    if total == 0:
+        return None
+    # 区域に入る地点の割合に、想定される深さの重みを掛けて引く。
+    # 「9地点すべてが区域内」を一律に0点にすると、0.5〜3mの駅と5〜10mの駅が
+    # 同じ点になり、どちらが深いのかを読み取れなくなる。
+    return clamp(100 - covered / total * (50 + worst))
+
+
+def rent_value_scores(one_room_by_slug, commute_by_slug):
+    """
+    通勤の速さに対する家賃の安さ。
+
+    家賃の絶対額をそのまま点にすると、郊外の駅が並んで上位を占め、
+    「都心に近いのに安い駅」という、読み手がいちばん知りたい駅が沈む。
+    通勤スコアから予想される家賃と、実際の家賃の差（残差）を点にする。
+    """
+    pairs = [(commute_by_slug[s], v) for s, v in one_room_by_slug.items()
+             if s in commute_by_slug]
+    if len(pairs) < 20:
+        return {}
+    n = len(pairs)
+    mx = sum(c for c, _ in pairs) / n
+    my = sum(r for _, r in pairs) / n
+    var = sum((c - mx) ** 2 for c, _ in pairs)
+    if var == 0:
+        return {}
+    slope = sum((c - mx) * (r - my) for c, r in pairs) / var
+    residual = {}
+    for s, rent in one_room_by_slug.items():
+        if s not in commute_by_slug:
+            continue
+        expected = my + slope * (commute_by_slug[s] - mx)
+        # 予想より安いほど割安。符号を反転して「安さ」にする。
+        residual[s] = expected - rent
+    lo = min(residual.values())
+    return percentile_scores({s: v - lo + 1 for s, v in residual.items()})
+
+
 def main():
     roster = json.load(
         open(os.path.join(ROOT, "data", "roster", "stations.json"), encoding="utf-8")
@@ -103,6 +167,17 @@ def main():
     poi_path = os.path.join(ROOT, "data", "computed", "pois.json")
     pois = (json.load(open(poi_path, encoding="utf-8"))["stations"]
             if os.path.exists(poi_path) else {})
+
+    def computed(name, key=None):
+        path = os.path.join(ROOT, "data", "computed", name)
+        if not os.path.exists(path):
+            return {}
+        doc = json.load(open(path, encoding="utf-8"))
+        return doc[key] if key else doc
+
+    terrain = computed("terrain.json", "stations")
+    hazard = computed("hazard.json", "stations")
+    bands = computed("rent-bands.json")
 
     TIER_OF = {"オオゼキ": "d", "業務スーパー": "d", "西友": "d", "オーケー": "d",
                "赤札堂": "d", "ロピア": "d", "Big-A": "d", "ビッグ・エー": "d",
@@ -144,6 +219,9 @@ def main():
     pct = {c: percentile_scores(counts[c]) for c in counts}
 
     out = {}
+    # ファミリー適性は5つの材料の重みつき平均なので、そのままだと真ん中に寄り、
+    # 駅どうしの差が読み取れない。ほかの軸と同じく相対的な位置に直す。
+    family_raw = {}
     for station in roster:
         scores = {}
 
@@ -172,8 +250,48 @@ def main():
                 if any(counts[cat].values()):
                     scores[axis] = pct[cat][slug]
 
+            # 静かさは、夜に人が集まる店の少なさで見る。
+            # 幹線道路と線路の騒音はデータが無いため、ここには入っていない。
+            scores["quietness"] = clamp(
+                100 - (pct["bar"][slug] * 0.65 + pct["restaurant"][slug] * 0.35))
+
+            # ファミリー適性は、公園・日常の医療・スーパーの多さと、
+            # ベビーカーで歩ける平坦さ、それに夜の店の少なさを合わせる。
+            flat = {"flat": 1.0, "some": 0.55, "hilly": 0.2}.get(
+                (terrain.get(slug) or {}).get("slope"), 0.55)
+            family_raw[slug] = (
+                pct["park"][slug] * 0.3
+                + pct["dailyCare"][slug] * 0.2
+                + pct["supermarket"][slug] * 0.2
+                + flat * 15
+                + (100 - pct["bar"][slug]) * 0.15)
+
+            # 一人暮らし適性は、自炊しなくても生活が回るかで見る。
+            scores["singleLife"] = clamp(
+                pct["restaurant"][slug] * 0.35
+                + pct["cafe"][slug] * 0.2
+                + pct["supermarket"][slug] * 0.2
+                + scores.get("commute", 50) * 0.25)
+
+        fs = flood_score(hazard.get(station["slug"]))
+        if fs is not None:
+            scores["disaster"] = fs
+
         if scores:
             out[station["slug"]] = scores
+
+    for slug, v in percentile_scores(family_raw).items():
+        if slug in out:
+            out[slug]["family"] = v
+
+    # 家賃コスパは、全駅の家賃と通勤スコアの関係から出すため、ここでまとめて入れる。
+    one_room = {slug: v["bands"]["oneRoom"]["mean"]
+                for slug, v in bands.items()
+                if isinstance(v, dict) and "oneRoom" in v.get("bands", {})}
+    commute_by_slug = {slug: sc["commute"] for slug, sc in out.items() if "commute" in sc}
+    for slug, v in rent_value_scores(one_room, commute_by_slug).items():
+        if slug in out:
+            out[slug]["rentValue"] = v
 
     path = os.path.join(ROOT, "data", "computed", "scores.json")
     with open(path, "w", encoding="utf-8") as f:

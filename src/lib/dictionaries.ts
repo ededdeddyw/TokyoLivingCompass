@@ -372,6 +372,7 @@ const ja: Dictionary = {
     nature: "公園・自然",
     healthcare: "病院",
     fitness: "ジム",
+    disaster: "浸水想定の小ささ",
   },
   grades: {
     excellent: "とても良い",
@@ -613,6 +614,7 @@ const en: Dictionary = {
     nature: "Parks & nature",
     healthcare: "Healthcare",
     fitness: "Gyms",
+    disaster: "Low flood projection",
   },
   grades: {
     excellent: "Excellent",
@@ -846,6 +848,7 @@ const zhHans: Dictionary = {
     nature: "公园和绿地",
     healthcare: "医疗",
     fitness: "健身房",
+    disaster: "浸水预估较小",
   },
   grades: {
     excellent: "很好",
@@ -1079,6 +1082,7 @@ const ko: Dictionary = {
     nature: "공원과 녹지",
     healthcare: "의료",
     fitness: "헬스장",
+    disaster: "침수 예상이 작음",
   },
   grades: {
     excellent: "매우 좋음",

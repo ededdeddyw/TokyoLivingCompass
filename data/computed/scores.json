@@ -8,7 +8,12 @@
     "food": 92,
     "cafe": 92,
     "nightlife": 91,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 9,
+    "singleLife": 77,
+    "disaster": 66,
+    "family": 1,
+    "rentValue": 57
   },
   "nijubashimae": {
     "commute": 86,
@@ -19,7 +24,11 @@
     "food": 77,
     "cafe": 87,
     "nightlife": 68,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 29,
+    "singleLife": 67,
+    "disaster": 52,
+    "family": 4
   },
   "uchisaiwaicho": {
     "commute": 81,
@@ -30,7 +39,12 @@
     "food": 95,
     "cafe": 95,
     "nightlife": 95,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 5,
+    "singleLife": 73,
+    "disaster": 52,
+    "family": 19,
+    "rentValue": 2
   },
   "hanzomon": {
     "commute": 84,
@@ -41,7 +55,12 @@
     "food": 79,
     "cafe": 82,
     "nightlife": 78,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 22,
+    "singleLife": 80,
+    "disaster": 100,
+    "family": 13,
+    "rentValue": 9
   },
   "kokkai-gijidomae": {
     "commute": 90,
@@ -52,7 +71,12 @@
     "food": 92,
     "cafe": 86,
     "nightlife": 93,
-    "fitness": 96
+    "fitness": 96,
+    "quietness": 7,
+    "singleLife": 77,
+    "disaster": 88,
+    "family": 9,
+    "rentValue": 14
   },
   "otemachi": {
     "commute": 89,
@@ -63,7 +87,12 @@
     "food": 85,
     "cafe": 89,
     "nightlife": 85,
-    "fitness": 77
+    "fitness": 77,
+    "quietness": 15,
+    "singleLife": 75,
+    "disaster": 52,
+    "family": 10,
+    "rentValue": 22
   },
   "iwamotocho": {
     "commute": 70,
@@ -74,7 +103,12 @@
     "food": 97,
     "cafe": 98,
     "nightlife": 98,
-    "fitness": 97
+    "fitness": 97,
+    "quietness": 2,
+    "singleLife": 90,
+    "disaster": 38,
+    "family": 69,
+    "rentValue": 18
   },
   "ichigaya": {
     "commute": 80,
@@ -85,7 +119,12 @@
     "food": 66,
     "cafe": 70,
     "nightlife": 64,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 35,
+    "singleLife": 66,
+    "disaster": 79,
+    "family": 15,
+    "rentValue": 60
   },
   "ochanomizu": {
     "commute": 85,
@@ -96,7 +135,12 @@
     "food": 99,
     "cafe": 100,
     "nightlife": 97,
-    "fitness": 97
+    "fitness": 97,
+    "quietness": 2,
+    "singleLife": 94,
+    "disaster": 76,
+    "family": 70,
+    "rentValue": 73
   },
   "yurakucho": {
     "commute": 96,
@@ -107,7 +151,12 @@
     "food": 94,
     "cafe": 93,
     "nightlife": 87,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 11,
+    "singleLife": 76,
+    "disaster": 52,
+    "family": 15,
+    "rentValue": 35
   },
   "suehirocho": {
     "commute": 73,
@@ -118,7 +167,12 @@
     "food": 100,
     "cafe": 100,
     "nightlife": 100,
-    "fitness": 99
+    "fitness": 99,
+    "quietness": 0,
+    "singleLife": 93,
+    "disaster": 59,
+    "family": 84,
+    "rentValue": 20
   },
   "tokyo": {
     "commute": 93,
@@ -129,7 +183,12 @@
     "food": 89,
     "cafe": 93,
     "nightlife": 83,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 15,
+    "singleLife": 78,
+    "disaster": 45,
+    "family": 32,
+    "rentValue": 60
   },
   "sakuradamon": {
     "commute": 84,
@@ -140,7 +199,11 @@
     "food": 27,
     "cafe": 56,
     "nightlife": 20,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 78,
+    "singleLife": 42,
+    "disaster": 88,
+    "family": 0
   },
   "suidobashi": {
     "commute": 77,
@@ -151,7 +214,12 @@
     "food": 90,
     "cafe": 90,
     "nightlife": 92,
-    "fitness": 86
+    "fitness": 86,
+    "quietness": 9,
+    "singleLife": 84,
+    "disaster": 72,
+    "family": 40,
+    "rentValue": 35
   },
   "nagatacho": {
     "commute": 94,
@@ -162,7 +230,12 @@
     "food": 95,
     "cafe": 85,
     "nightlife": 95,
-    "fitness": 96
+    "fitness": 96,
+    "quietness": 5,
+    "singleLife": 89,
+    "disaster": 94,
+    "family": 35,
+    "rentValue": 22
   },
   "awajicho": {
     "commute": 72,
@@ -173,7 +246,12 @@
     "food": 99,
     "cafe": 99,
     "nightlife": 98,
-    "fitness": 97
+    "fitness": 97,
+    "quietness": 2,
+    "singleLife": 90,
+    "disaster": 66,
+    "family": 70,
+    "rentValue": 6
   },
   "tameike-sanno": {
     "commute": 90,
@@ -184,7 +262,12 @@
     "food": 96,
     "cafe": 88,
     "nightlife": 96,
-    "fitness": 94
+    "fitness": 94,
+    "quietness": 4,
+    "singleLife": 86,
+    "disaster": 72,
+    "family": 27,
+    "rentValue": 14
   },
   "jimbocho": {
     "commute": 85,
@@ -195,7 +278,12 @@
     "food": 96,
     "cafe": 95,
     "nightlife": 92,
-    "fitness": 77
+    "fitness": 77,
+    "quietness": 7,
+    "singleLife": 81,
+    "disaster": 52,
+    "family": 25,
+    "rentValue": 68
   },
   "kanda": {
     "commute": 85,
@@ -206,7 +294,12 @@
     "food": 97,
     "cafe": 96,
     "nightlife": 96,
-    "fitness": 95
+    "fitness": 95,
+    "quietness": 4,
+    "singleLife": 92,
+    "disaster": 59,
+    "family": 74,
+    "rentValue": 49
   },
   "akihabara": {
     "commute": 78,
@@ -217,7 +310,12 @@
     "food": 99,
     "cafe": 99,
     "nightlife": 98,
-    "fitness": 98
+    "fitness": 98,
+    "quietness": 2,
+    "singleLife": 94,
+    "disaster": 28,
+    "family": 78,
+    "rentValue": 51
   },
   "takebashi": {
     "commute": 79,
@@ -228,7 +326,12 @@
     "food": 90,
     "cafe": 92,
     "nightlife": 83,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 15,
+    "singleLife": 71,
+    "disaster": 79,
+    "family": 4,
+    "rentValue": 41
   },
   "kasumigaseki": {
     "commute": 96,
@@ -239,7 +342,11 @@
     "food": 84,
     "cafe": 84,
     "nightlife": 84,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 16,
+    "singleLife": 70,
+    "disaster": 82,
+    "family": 3
   },
   "iidabashi": {
     "commute": 77,
@@ -250,7 +357,12 @@
     "food": 92,
     "cafe": 87,
     "nightlife": 93,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 7,
+    "singleLife": 84,
+    "disaster": 79,
+    "family": 29,
+    "rentValue": 38
   },
   "kojimachi": {
     "commute": 80,
@@ -261,7 +373,12 @@
     "food": 78,
     "cafe": 82,
     "nightlife": 84,
-    "fitness": 82
+    "fitness": 82,
+    "quietness": 18,
+    "singleLife": 76,
+    "disaster": 82,
+    "family": 18,
+    "rentValue": 2
   },
   "mitsukoshimae": {
     "commute": 87,
@@ -272,7 +389,12 @@
     "food": 93,
     "cafe": 96,
     "nightlife": 94,
-    "fitness": 86
+    "fitness": 86,
+    "quietness": 6,
+    "singleLife": 88,
+    "disaster": 59,
+    "family": 55,
+    "rentValue": 58
   },
   "kyobashi": {
     "commute": 83,
@@ -283,7 +405,12 @@
     "food": 95,
     "cafe": 95,
     "nightlife": 86,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 11,
+    "singleLife": 82,
+    "disaster": 52,
+    "family": 72,
+    "rentValue": 8
   },
   "ningyocho": {
     "commute": 80,
@@ -294,7 +421,12 @@
     "food": 85,
     "cafe": 89,
     "nightlife": 73,
-    "fitness": 82
+    "fitness": 82,
+    "quietness": 23,
+    "singleLife": 85,
+    "disaster": 28,
+    "family": 64,
+    "rentValue": 60
   },
   "hatchobori": {
     "commute": 83,
@@ -305,7 +437,12 @@
     "food": 85,
     "cafe": 84,
     "nightlife": 77,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 20,
+    "singleLife": 78,
+    "disaster": 18,
+    "family": 68,
+    "rentValue": 52
   },
   "kachidoki": {
     "commute": 71,
@@ -316,7 +453,12 @@
     "food": 57,
     "cafe": 47,
     "nightlife": 42,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 53,
+    "singleLife": 56,
+    "disaster": 82,
+    "family": 58,
+    "rentValue": 5
   },
   "kodemmacho": {
     "commute": 71,
@@ -327,7 +469,12 @@
     "food": 90,
     "cafe": 92,
     "nightlife": 91,
-    "fitness": 90
+    "fitness": 90,
+    "quietness": 9,
+    "singleLife": 86,
+    "disaster": 38,
+    "family": 66,
+    "rentValue": 12
   },
   "nihombashi": {
     "commute": 84,
@@ -338,7 +485,12 @@
     "food": 88,
     "cafe": 94,
     "nightlife": 86,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 13,
+    "singleLife": 83,
+    "disaster": 38,
+    "family": 76,
+    "rentValue": 11
   },
   "tsukishima": {
     "commute": 75,
@@ -349,7 +501,12 @@
     "food": 48,
     "cafe": 31,
     "nightlife": 36,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 60,
+    "singleLife": 49,
+    "disaster": 72,
+    "family": 70,
+    "rentValue": 25
   },
   "higashi-ginza": {
     "commute": 85,
@@ -360,7 +517,12 @@
     "food": 96,
     "cafe": 96,
     "nightlife": 89,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 9,
+    "singleLife": 74,
+    "disaster": 52,
+    "family": 25,
+    "rentValue": 14
   },
   "hamacho": {
     "commute": 68,
@@ -371,7 +533,12 @@
     "food": 80,
     "cafe": 81,
     "nightlife": 57,
-    "fitness": 86
+    "fitness": 86,
+    "quietness": 35,
+    "singleLife": 77,
+    "disaster": 28,
+    "family": 71,
+    "rentValue": 20
   },
   "tsukiji": {
     "commute": 82,
@@ -382,7 +549,12 @@
     "food": 89,
     "cafe": 91,
     "nightlife": 62,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 29,
+    "singleLife": 71,
+    "disaster": 38,
+    "family": 39,
+    "rentValue": 37
   },
   "tsukijishijo": {
     "commute": 75,
@@ -393,7 +565,12 @@
     "food": 89,
     "cafe": 92,
     "nightlife": 72,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 22,
+    "singleLife": 68,
+    "disaster": 52,
+    "family": 18,
+    "rentValue": 12
   },
   "kayabacho": {
     "commute": 78,
@@ -404,7 +581,12 @@
     "food": 86,
     "cafe": 88,
     "nightlife": 82,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 17,
+    "singleLife": 76,
+    "disaster": 38,
+    "family": 67,
+    "rentValue": 31
   },
   "ginza": {
     "commute": 95,
@@ -415,7 +597,12 @@
     "food": 96,
     "cafe": 97,
     "nightlife": 89,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 9,
+    "singleLife": 78,
+    "disaster": 66,
+    "family": 20,
+    "rentValue": 21
   },
   "bakurocho": {
     "commute": 77,
@@ -426,7 +613,12 @@
     "food": 87,
     "cafe": 87,
     "nightlife": 87,
-    "fitness": 93
+    "fitness": 93,
+    "quietness": 13,
+    "singleLife": 85,
+    "disaster": 38,
+    "family": 58,
+    "rentValue": 45
   },
   "odaiba-kaihinkoen": {
     "commute": 54,
@@ -437,7 +629,11 @@
     "food": 25,
     "cafe": 47,
     "nightlife": 9,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 85,
+    "singleLife": 35,
+    "disaster": 88,
+    "family": 2
   },
   "mita": {
     "commute": 82,
@@ -448,7 +644,12 @@
     "food": 87,
     "cafe": 76,
     "nightlife": 93,
-    "fitness": 82
+    "fitness": 82,
+    "quietness": 9,
+    "singleLife": 84,
+    "disaster": 72,
+    "family": 70,
+    "rentValue": 62
   },
   "nogizaka": {
     "commute": 81,
@@ -459,7 +660,12 @@
     "food": 87,
     "cafe": 80,
     "nightlife": 82,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 16,
+    "singleLife": 70,
+    "disaster": 100,
+    "family": 20,
+    "rentValue": 11
   },
   "roppongi": {
     "commute": 89,
@@ -470,7 +676,12 @@
     "food": 88,
     "cafe": 81,
     "nightlife": 85,
-    "fitness": 90
+    "fitness": 90,
+    "quietness": 14,
+    "singleLife": 82,
+    "disaster": 94,
+    "family": 32,
+    "rentValue": 7
   },
   "roppongi-itchome": {
     "commute": 80,
@@ -481,7 +692,12 @@
     "food": 91,
     "cafe": 87,
     "nightlife": 92,
-    "fitness": 96
+    "fitness": 96,
+    "quietness": 8,
+    "singleLife": 85,
+    "disaster": 100,
+    "family": 52,
+    "rentValue": 1
   },
   "shinagawa": {
     "commute": 79,
@@ -492,7 +708,12 @@
     "food": 58,
     "cafe": 69,
     "nightlife": 75,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 31,
+    "singleLife": 57,
+    "disaster": 54,
+    "family": 17,
+    "rentValue": 16
   },
   "gaiemmae": {
     "commute": 85,
@@ -503,7 +724,12 @@
     "food": 85,
     "cafe": 88,
     "nightlife": 73,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 23,
+    "singleLife": 76,
+    "disaster": 94,
+    "family": 54,
+    "rentValue": 1
   },
   "daimon": {
     "commute": 87,
@@ -514,7 +740,12 @@
     "food": 76,
     "cafe": 76,
     "nightlife": 61,
-    "fitness": 77
+    "fitness": 77,
+    "quietness": 34,
+    "singleLife": 73,
+    "disaster": 38,
+    "family": 39,
+    "rentValue": 49
   },
   "hiro-o": {
     "commute": 83,
@@ -525,7 +756,12 @@
     "food": 71,
     "cafe": 72,
     "nightlife": 33,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 54,
+    "singleLife": 71,
+    "disaster": 79,
+    "family": 17,
+    "rentValue": 23
   },
   "onarimon": {
     "commute": 77,
@@ -536,7 +772,12 @@
     "food": 86,
     "cafe": 88,
     "nightlife": 86,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 14,
+    "singleLife": 76,
+    "disaster": 66,
+    "family": 22,
+    "rentValue": 4
   },
   "shimbashi": {
     "commute": 95,
@@ -547,7 +788,12 @@
     "food": 94,
     "cafe": 94,
     "nightlife": 93,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 7,
+    "singleLife": 81,
+    "disaster": 70,
+    "family": 28,
+    "rentValue": 62
   },
   "hinode": {
     "commute": 70,
@@ -558,7 +804,12 @@
     "food": 66,
     "cafe": 39,
     "nightlife": 44,
-    "fitness": 82
+    "fitness": 82,
+    "quietness": 48,
+    "singleLife": 56,
+    "disaster": 79,
+    "family": 20,
+    "rentValue": 6
   },
   "tokyo-teleport": {
     "commute": 52,
@@ -569,7 +820,11 @@
     "food": 25,
     "cafe": 47,
     "nightlife": 9,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 85,
+    "singleLife": 34,
+    "disaster": 94,
+    "family": 9
   },
   "shiodome": {
     "commute": 85,
@@ -580,7 +835,12 @@
     "food": 88,
     "cafe": 90,
     "nightlife": 86,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 13,
+    "singleLife": 77,
+    "disaster": 52,
+    "family": 19,
+    "rentValue": 19
   },
   "sengakuji": {
     "commute": 78,
@@ -591,7 +851,12 @@
     "food": 43,
     "cafe": 42,
     "nightlife": 33,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 64,
+    "singleLife": 52,
+    "disaster": 79,
+    "family": 16,
+    "rentValue": 12
   },
   "hamamatsucho": {
     "commute": 82,
@@ -602,7 +867,12 @@
     "food": 77,
     "cafe": 75,
     "nightlife": 59,
-    "fitness": 77
+    "fitness": 77,
+    "quietness": 35,
+    "singleLife": 71,
+    "disaster": 38,
+    "family": 35,
+    "rentValue": 26
   },
   "tamachi": {
     "commute": 77,
@@ -613,7 +883,12 @@
     "food": 86,
     "cafe": 74,
     "nightlife": 92,
-    "fitness": 90
+    "fitness": 90,
+    "quietness": 10,
+    "singleLife": 82,
+    "disaster": 64,
+    "family": 72,
+    "rentValue": 37
   },
   "shirokanedai": {
     "commute": 75,
@@ -624,7 +899,12 @@
     "food": 34,
     "cafe": 31,
     "nightlife": 3,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 86,
+    "singleLife": 46,
+    "disaster": 93,
+    "family": 14,
+    "rentValue": 9
   },
   "shirokane-takanawa": {
     "commute": 78,
@@ -635,7 +915,12 @@
     "food": 50,
     "cafe": 47,
     "nightlife": 30,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 63,
+    "singleLife": 55,
+    "disaster": 84,
+    "family": 3,
+    "rentValue": 20
   },
   "kamiyacho": {
     "commute": 88,
@@ -646,7 +931,12 @@
     "food": 84,
     "cafe": 85,
     "nightlife": 78,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 20,
+    "singleLife": 84,
+    "disaster": 94,
+    "family": 34,
+    "rentValue": 3
   },
   "takeshiba": {
     "commute": 74,
@@ -657,7 +947,12 @@
     "food": 61,
     "cafe": 64,
     "nightlife": 47,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 48,
+    "singleLife": 54,
+    "disaster": 72,
+    "family": 14,
+    "rentValue": 1
   },
   "shibakoen": {
     "commute": 75,
@@ -668,7 +963,12 @@
     "food": 86,
     "cafe": 78,
     "nightlife": 91,
-    "fitness": 86
+    "fitness": 86,
+    "quietness": 11,
+    "singleLife": 78,
+    "disaster": 59,
+    "family": 68,
+    "rentValue": 12
   },
   "shibaura-futo": {
     "commute": 65,
@@ -679,7 +979,12 @@
     "food": 12,
     "cafe": 7,
     "nightlife": 9,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 90,
+    "singleLife": 25,
+    "disaster": 79,
+    "family": 21,
+    "rentValue": 4
   },
   "toranomon": {
     "commute": 94,
@@ -690,7 +995,12 @@
     "food": 90,
     "cafe": 91,
     "nightlife": 92,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 9,
+    "singleLife": 76,
+    "disaster": 94,
+    "family": 6,
+    "rentValue": 49
   },
   "omote-sando": {
     "commute": 86,
@@ -701,7 +1011,12 @@
     "food": 91,
     "cafe": 98,
     "nightlife": 79,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 17,
+    "singleLife": 82,
+    "disaster": 100,
+    "family": 51,
+    "rentValue": 3
   },
   "akasaka": {
     "commute": 84,
@@ -712,7 +1027,12 @@
     "food": 96,
     "cafe": 86,
     "nightlife": 96,
-    "fitness": 94
+    "fitness": 94,
+    "quietness": 4,
+    "singleLife": 85,
+    "disaster": 82,
+    "family": 31,
+    "rentValue": 16
   },
   "akabanebashi": {
     "commute": 79,
@@ -723,7 +1043,12 @@
     "food": 78,
     "cafe": 79,
     "nightlife": 81,
-    "fitness": 94
+    "fitness": 94,
+    "quietness": 20,
+    "singleLife": 70,
+    "disaster": 79,
+    "family": 22,
+    "rentValue": 1
   },
   "aoyama-itchome": {
     "commute": 94,
@@ -734,7 +1059,12 @@
     "food": 69,
     "cafe": 71,
     "nightlife": 33,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 54,
+    "singleLife": 63,
+    "disaster": 100,
+    "family": 32,
+    "rentValue": 85
   },
   "takanawa-gateway": {
     "commute": 73,
@@ -745,7 +1075,12 @@
     "food": 52,
     "cafe": 65,
     "nightlife": 73,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 34,
+    "singleLife": 55,
+    "disaster": 72,
+    "family": 2,
+    "rentValue": 2
   },
   "takanawadai": {
     "commute": 74,
@@ -756,7 +1091,12 @@
     "food": 46,
     "cafe": 58,
     "nightlife": 33,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 62,
+    "singleLife": 49,
+    "disaster": 100,
+    "family": 24,
+    "rentValue": 56
   },
   "azabu-juban": {
     "commute": 82,
@@ -767,7 +1107,12 @@
     "food": 79,
     "cafe": 78,
     "nightlife": 69,
-    "fitness": 92
+    "fitness": 92,
+    "quietness": 28,
+    "singleLife": 79,
+    "disaster": 72,
+    "family": 23,
+    "rentValue": 6
   },
   "shimo-ochiai": {
     "commute": 57,
@@ -778,7 +1123,12 @@
     "food": 68,
     "cafe": 50,
     "nightlife": 53,
-    "fitness": 82
+    "fitness": 82,
+    "quietness": 42,
+    "singleLife": 62,
+    "disaster": 66,
+    "family": 73,
+    "rentValue": 75
   },
   "nakai": {
     "commute": 62,
@@ -789,7 +1139,12 @@
     "food": 59,
     "cafe": 42,
     "nightlife": 48,
-    "fitness": 77
+    "fitness": 77,
+    "quietness": 48,
+    "singleLife": 52,
+    "disaster": 86,
+    "family": 66,
+    "rentValue": 95
   },
   "shinanomachi": {
     "commute": 74,
@@ -800,7 +1155,12 @@
     "food": 27,
     "cafe": 20,
     "nightlife": 20,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 78,
+    "singleLife": 32,
+    "disaster": 88,
+    "family": 12,
+    "rentValue": 83
   },
   "yotsuya": {
     "commute": 85,
@@ -811,7 +1171,12 @@
     "food": 68,
     "cafe": 74,
     "nightlife": 77,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 26,
+    "singleLife": 69,
+    "disaster": 88,
+    "family": 7,
+    "rentValue": 89
   },
   "yotsuya-sanchome": {
     "commute": 81,
@@ -822,7 +1187,12 @@
     "food": 80,
     "cafe": 63,
     "nightlife": 81,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 19,
+    "singleLife": 74,
+    "disaster": 100,
+    "family": 44,
+    "rentValue": 84
   },
   "kokuritsu-kyogijo": {
     "commute": 80,
@@ -833,7 +1203,12 @@
     "food": 34,
     "cafe": 60,
     "nightlife": 33,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 67,
+    "singleLife": 45,
+    "disaster": 94,
+    "family": 26,
+    "rentValue": 59
   },
   "okubo": {
     "commute": 69,
@@ -844,7 +1219,12 @@
     "food": 91,
     "cafe": 77,
     "nightlife": 84,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 14,
+    "singleLife": 84,
+    "disaster": 79,
+    "family": 93,
+    "rentValue": 98
   },
   "shin-okubo": {
     "commute": 70,
@@ -855,7 +1235,12 @@
     "food": 94,
     "cafe": 77,
     "nightlife": 89,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 9,
+    "singleLife": 85,
+    "disaster": 88,
+    "family": 92,
+    "rentValue": 97
   },
   "shinjuku": {
     "commute": 85,
@@ -866,7 +1251,12 @@
     "food": 98,
     "cafe": 98,
     "nightlife": 97,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 3,
+    "singleLife": 78,
+    "disaster": 79,
+    "family": 9,
+    "rentValue": 93
   },
   "shinjuku-sanchome": {
     "commute": 80,
@@ -877,7 +1267,12 @@
     "food": 97,
     "cafe": 97,
     "nightlife": 97,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 3,
+    "singleLife": 82,
+    "disaster": 79,
+    "family": 24,
+    "rentValue": 33
   },
   "shinjuku-gyoemmae": {
     "commute": 80,
@@ -888,7 +1283,12 @@
     "food": 81,
     "cafe": 88,
     "nightlife": 83,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 18,
+    "singleLife": 69,
+    "disaster": 100,
+    "family": 16,
+    "rentValue": 24
   },
   "shinjuku-nishiguchi": {
     "commute": 59,
@@ -899,7 +1299,12 @@
     "food": 98,
     "cafe": 97,
     "nightlife": 98,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 2,
+    "singleLife": 84,
+    "disaster": 94,
+    "family": 42,
+    "rentValue": 11
   },
   "waseda": {
     "commute": 67,
@@ -910,7 +1315,11 @@
     "food": 55,
     "cafe": 68,
     "nightlife": 13,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 72,
+    "singleLife": 64,
+    "disaster": 79,
+    "family": 81
   },
   "waseda-toden": {
     "commute": 41,
@@ -921,7 +1330,11 @@
     "food": 66,
     "cafe": 69,
     "nightlife": 17,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 66,
+    "singleLife": 61,
+    "disaster": 60,
+    "family": 61
   },
   "akebonobashi": {
     "commute": 73,
@@ -932,7 +1345,12 @@
     "food": 76,
     "cafe": 60,
     "nightlife": 78,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 23,
+    "singleLife": 72,
+    "disaster": 93,
+    "family": 46,
+    "rentValue": 43
   },
   "higashi-shinjuku": {
     "commute": 69,
@@ -943,7 +1361,12 @@
     "food": 87,
     "cafe": 83,
     "nightlife": 94,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 8,
+    "singleLife": 81,
+    "disaster": 88,
+    "family": 47,
+    "rentValue": 46
   },
   "edogawabashi": {
     "commute": 67,
@@ -954,7 +1377,12 @@
     "food": 78,
     "cafe": 72,
     "nightlife": 67,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 29,
+    "singleLife": 75,
+    "disaster": 59,
+    "family": 62,
+    "rentValue": 60
   },
   "ushigome-yanagicho": {
     "commute": 64,
@@ -965,7 +1393,12 @@
     "food": 57,
     "cafe": 58,
     "nightlife": 24,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 64,
+    "singleLife": 62,
+    "disaster": 70,
+    "family": 66,
+    "rentValue": 53
   },
   "ushigome-kagurazaka": {
     "commute": 66,
@@ -976,7 +1409,12 @@
     "food": 91,
     "cafe": 88,
     "nightlife": 89,
-    "fitness": 77
+    "fitness": 77,
+    "quietness": 10,
+    "singleLife": 84,
+    "disaster": 94,
+    "family": 63,
+    "rentValue": 38
   },
   "kagurazaka": {
     "commute": 70,
@@ -987,7 +1425,12 @@
     "food": 92,
     "cafe": 85,
     "nightlife": 88,
-    "fitness": 77
+    "fitness": 77,
+    "quietness": 11,
+    "singleLife": 85,
+    "disaster": 72,
+    "family": 69,
+    "rentValue": 65
   },
   "wakamatsu-kawada": {
     "commute": 63,
@@ -998,7 +1441,12 @@
     "food": 50,
     "cafe": 42,
     "nightlife": 20,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 70,
+    "singleLife": 54,
+    "disaster": 76,
+    "family": 63,
+    "rentValue": 57
   },
   "nishi-shinjuku": {
     "commute": 74,
@@ -1009,7 +1457,12 @@
     "food": 94,
     "cafe": 90,
     "nightlife": 89,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 9,
+    "singleLife": 82,
+    "disaster": 86,
+    "family": 66,
+    "rentValue": 94
   },
   "nishi-waseda": {
     "commute": 63,
@@ -1020,7 +1473,12 @@
     "food": 77,
     "cafe": 74,
     "nightlife": 62,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 33,
+    "singleLife": 65,
+    "disaster": 94,
+    "family": 43,
+    "rentValue": 86
   },
   "seibu-shinjuku": {
     "commute": 53,
@@ -1031,7 +1489,12 @@
     "food": 98,
     "cafe": 96,
     "nightlife": 96,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 3,
+    "singleLife": 86,
+    "disaster": 94,
+    "family": 72,
+    "rentValue": 2
   },
   "tochomae": {
     "commute": 56,
@@ -1042,7 +1505,12 @@
     "food": 93,
     "cafe": 91,
     "nightlife": 88,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 10,
+    "singleLife": 76,
+    "disaster": 100,
+    "family": 61,
+    "rentValue": 8
   },
   "omokagebashi": {
     "commute": 44,
@@ -1053,7 +1521,12 @@
     "food": 74,
     "cafe": 66,
     "nightlife": 44,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 46,
+    "singleLife": 59,
+    "disaster": 79,
+    "family": 11,
+    "rentValue": 10
   },
   "takadanobaba": {
     "commute": 69,
@@ -1064,7 +1537,12 @@
     "food": 80,
     "cafe": 72,
     "nightlife": 76,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 23,
+    "singleLife": 72,
+    "disaster": 72,
+    "family": 64,
+    "rentValue": 98
   },
   "sengoku": {
     "commute": 63,
@@ -1075,7 +1553,12 @@
     "food": 50,
     "cafe": 50,
     "nightlife": 13,
-    "fitness": 90
+    "fitness": 90,
+    "quietness": 74,
+    "singleLife": 56,
+    "disaster": 94,
+    "family": 93,
+    "rentValue": 63
   },
   "korakuen": {
     "commute": 76,
@@ -1086,7 +1569,12 @@
     "food": 82,
     "cafe": 82,
     "nightlife": 83,
-    "fitness": 77
+    "fitness": 77,
+    "quietness": 17,
+    "singleLife": 81,
+    "disaster": 79,
+    "family": 59,
+    "rentValue": 92
   },
   "shin-otsuka": {
     "commute": 67,
@@ -1097,7 +1585,12 @@
     "food": 60,
     "cafe": 59,
     "nightlife": 64,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 37,
+    "singleLife": 67,
+    "disaster": 86,
+    "family": 60,
+    "rentValue": 88
   },
   "kasuga": {
     "commute": 72,
@@ -1108,7 +1601,12 @@
     "food": 82,
     "cafe": 80,
     "nightlife": 81,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 19,
+    "singleLife": 79,
+    "disaster": 86,
+    "family": 57,
+    "rentValue": 80
   },
   "hongo-sanchome": {
     "commute": 76,
@@ -1119,7 +1617,12 @@
     "food": 89,
     "cafe": 89,
     "nightlife": 84,
-    "fitness": 77
+    "fitness": 77,
+    "quietness": 14,
+    "singleLife": 81,
+    "disaster": 94,
+    "family": 53,
+    "rentValue": 56
   },
   "hon-komagome": {
     "commute": 62,
@@ -1130,7 +1633,12 @@
     "food": 46,
     "cafe": 64,
     "nightlife": 36,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 60,
+    "singleLife": 58,
+    "disaster": 88,
+    "family": 97,
+    "rentValue": 83
   },
   "todaimae": {
     "commute": 65,
@@ -1141,7 +1649,12 @@
     "food": 79,
     "cafe": 80,
     "nightlife": 62,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 32,
+    "singleLife": 76,
+    "disaster": 94,
+    "family": 75,
+    "rentValue": 96
   },
   "nezu": {
     "commute": 68,
@@ -1152,7 +1665,12 @@
     "food": 75,
     "cafe": 83,
     "nightlife": 47,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 43,
+    "singleLife": 61,
+    "disaster": 94,
+    "family": 28,
+    "rentValue": 100
   },
   "hakusan": {
     "commute": 66,
@@ -1163,7 +1681,12 @@
     "food": 43,
     "cafe": 63,
     "nightlife": 39,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 60,
+    "singleLife": 60,
+    "disaster": 94,
+    "family": 81,
+    "rentValue": 91
   },
   "myogadani": {
     "commute": 69,
@@ -1174,7 +1697,12 @@
     "food": 31,
     "cafe": 39,
     "nightlife": 24,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 74,
+    "singleLife": 39,
+    "disaster": 82,
+    "family": 37,
+    "rentValue": 74
   },
   "gokokuji": {
     "commute": 64,
@@ -1185,7 +1713,12 @@
     "food": 21,
     "cafe": 39,
     "nightlife": 13,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 84,
+    "singleLife": 32,
+    "disaster": 94,
+    "family": 26,
+    "rentValue": 87
   },
   "minowa": {
     "commute": 55,
@@ -1196,7 +1729,12 @@
     "food": 68,
     "cafe": 64,
     "nightlife": 78,
-    "fitness": 82
+    "fitness": 82,
+    "quietness": 26,
+    "singleLife": 70,
+    "disaster": 28,
+    "family": 99,
+    "rentValue": 41
   },
   "ueno": {
     "commute": 74,
@@ -1207,7 +1745,12 @@
     "food": 98,
     "cafe": 94,
     "nightlife": 99,
-    "fitness": 99
+    "fitness": 99,
+    "quietness": 1,
+    "singleLife": 91,
+    "disaster": 60,
+    "family": 52,
+    "rentValue": 90
   },
   "keisei-ueno": {
     "commute": 48,
@@ -1218,7 +1761,12 @@
     "food": 99,
     "cafe": 98,
     "nightlife": 99,
-    "fitness": 98
+    "fitness": 98,
+    "quietness": 1,
+    "singleLife": 86,
+    "disaster": 79,
+    "family": 56,
+    "rentValue": 9
   },
   "iriya": {
     "commute": 60,
@@ -1229,7 +1777,12 @@
     "food": 76,
     "cafe": 77,
     "nightlife": 80,
-    "fitness": 94
+    "fitness": 94,
+    "quietness": 21,
+    "singleLife": 76,
+    "disaster": 44,
+    "family": 75,
+    "rentValue": 40
   },
   "sendagi": {
     "commute": 64,
@@ -1240,7 +1793,12 @@
     "food": 61,
     "cafe": 82,
     "nightlife": 42,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 51,
+    "singleLife": 67,
+    "disaster": 94,
+    "family": 84,
+    "rentValue": 97
   },
   "okachimachi": {
     "commute": 74,
@@ -1251,7 +1809,12 @@
     "food": 100,
     "cafe": 99,
     "nightlife": 100,
-    "fitness": 100
+    "fitness": 100,
+    "quietness": 0,
+    "singleLife": 93,
+    "disaster": 45,
+    "family": 79,
+    "rentValue": 43
   },
   "shin-okachimachi": {
     "commute": 65,
@@ -1262,7 +1825,12 @@
     "food": 97,
     "cafe": 95,
     "nightlife": 99,
-    "fitness": 99
+    "fitness": 99,
+    "quietness": 2,
+    "singleLife": 89,
+    "disaster": 28,
+    "family": 86,
+    "rentValue": 16
   },
   "asakusa": {
     "commute": 62,
@@ -1273,7 +1841,12 @@
     "food": 93,
     "cafe": 93,
     "nightlife": 90,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 9,
+    "singleLife": 81,
+    "disaster": 28,
+    "family": 60,
+    "rentValue": 43
   },
   "asakusa-tx": {
     "commute": 61,
@@ -1284,7 +1857,12 @@
     "food": 92,
     "cafe": 93,
     "nightlife": 90,
-    "fitness": 92
+    "fitness": 92,
+    "quietness": 9,
+    "singleLife": 85,
+    "disaster": 28,
+    "family": 82,
+    "rentValue": 38
   },
   "asakusabashi": {
     "commute": 70,
@@ -1295,7 +1873,12 @@
     "food": 89,
     "cafe": 88,
     "nightlife": 91,
-    "fitness": 90
+    "fitness": 90,
+    "quietness": 10,
+    "singleLife": 84,
+    "disaster": 28,
+    "family": 80,
+    "rentValue": 28
   },
   "yushima": {
     "commute": 74,
@@ -1306,7 +1889,12 @@
     "food": 99,
     "cafe": 99,
     "nightlife": 99,
-    "fitness": 99
+    "fitness": 99,
+    "quietness": 1,
+    "singleLife": 93,
+    "disaster": 79,
+    "family": 56,
+    "rentValue": 4
   },
   "tawaramachi": {
     "commute": 62,
@@ -1317,7 +1905,12 @@
     "food": 93,
     "cafe": 94,
     "nightlife": 90,
-    "fitness": 92
+    "fitness": 92,
+    "quietness": 9,
+    "singleLife": 85,
+    "disaster": 28,
+    "family": 77,
+    "rentValue": 18
   },
   "inaricho": {
     "commute": 66,
@@ -1328,7 +1921,12 @@
     "food": 93,
     "cafe": 92,
     "nightlife": 98,
-    "fitness": 99
+    "fitness": 99,
+    "quietness": 4,
+    "singleLife": 87,
+    "disaster": 28,
+    "family": 74,
+    "rentValue": 52
   },
   "kuramae": {
     "commute": 65,
@@ -1339,7 +1937,12 @@
     "food": 82,
     "cafe": 84,
     "nightlife": 80,
-    "fitness": 82
+    "fitness": 82,
+    "quietness": 19,
+    "singleLife": 76,
+    "disaster": 36,
+    "family": 69,
+    "rentValue": 18
   },
   "uguisudani": {
     "commute": 65,
@@ -1350,7 +1953,12 @@
     "food": 71,
     "cafe": 76,
     "nightlife": 79,
-    "fitness": 86
+    "fitness": 86,
+    "quietness": 24,
+    "singleLife": 72,
+    "disaster": 66,
+    "family": 54,
+    "rentValue": 56
   },
   "tokyo-skytree": {
     "commute": 50,
@@ -1361,7 +1969,12 @@
     "food": 56,
     "cafe": 71,
     "nightlife": 70,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 35,
+    "singleLife": 55,
+    "disaster": 28,
+    "family": 51,
+    "rentValue": 15
   },
   "ryogoku": {
     "commute": 63,
@@ -1372,7 +1985,12 @@
     "food": 72,
     "cafe": 68,
     "nightlife": 72,
-    "fitness": 77
+    "fitness": 77,
+    "quietness": 28,
+    "singleLife": 62,
+    "disaster": 38,
+    "family": 46,
+    "rentValue": 24
   },
   "keisei-hikifune": {
     "commute": 46,
@@ -1383,7 +2001,12 @@
     "food": 19,
     "cafe": 35,
     "nightlife": 44,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 65,
+    "singleLife": 34,
+    "disaster": 28,
+    "family": 57,
+    "rentValue": 31
   },
   "yahiro": {
     "commute": 42,
@@ -1394,7 +2017,12 @@
     "food": 16,
     "cafe": 20,
     "nightlife": 58,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 57,
+    "singleLife": 23,
+    "disaster": 45,
+    "family": 9,
+    "rentValue": 57
   },
   "omurai": {
     "commute": 40,
@@ -1405,7 +2033,12 @@
     "food": 2,
     "cafe": 7,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 99,
+    "singleLife": 17,
+    "disaster": 28,
+    "family": 38,
+    "rentValue": 19
   },
   "oshiage": {
     "commute": 57,
@@ -1416,7 +2049,11 @@
     "food": 53,
     "cafe": 71,
     "nightlife": 72,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 35,
+    "singleLife": 56,
+    "disaster": 28,
+    "family": 58
   },
   "hikifune": {
     "commute": 47,
@@ -1427,7 +2064,12 @@
     "food": 21,
     "cafe": 42,
     "nightlife": 48,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 61,
+    "singleLife": 38,
+    "disaster": 28,
+    "family": 64,
+    "rentValue": 23
   },
   "honjo-azumabashi": {
     "commute": 58,
@@ -1438,7 +2080,12 @@
     "food": 74,
     "cafe": 81,
     "nightlife": 70,
-    "fitness": 77
+    "fitness": 77,
+    "quietness": 29,
+    "singleLife": 64,
+    "disaster": 45,
+    "family": 35,
+    "rentValue": 27
   },
   "higashi-azuma": {
     "commute": 42,
@@ -1449,7 +2096,12 @@
     "food": 2,
     "cafe": 0,
     "nightlife": 9,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 93,
+    "singleLife": 14,
+    "disaster": 18,
+    "family": 33,
+    "rentValue": 40
   },
   "higashi-mukojima": {
     "commute": 45,
@@ -1460,7 +2112,12 @@
     "food": 27,
     "cafe": 42,
     "nightlife": 55,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 55,
+    "singleLife": 40,
+    "disaster": 28,
+    "family": 62,
+    "rentValue": 47
   },
   "kikukawa": {
     "commute": 61,
@@ -1471,7 +2128,12 @@
     "food": 77,
     "cafe": 56,
     "nightlife": 75,
-    "fitness": 98
+    "fitness": 98,
+    "quietness": 24,
+    "singleLife": 66,
+    "disaster": 28,
+    "family": 86,
+    "rentValue": 17
   },
   "kinshicho": {
     "commute": 66,
@@ -1482,7 +2144,12 @@
     "food": 88,
     "cafe": 79,
     "nightlife": 95,
-    "fitness": 97
+    "fitness": 97,
+    "quietness": 7,
+    "singleLife": 82,
+    "disaster": 36,
+    "family": 83,
+    "rentValue": 46
   },
   "kanegafuchi": {
     "commute": 42,
@@ -1493,7 +2160,12 @@
     "food": 15,
     "cafe": 2,
     "nightlife": 47,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 64,
+    "singleLife": 18,
+    "disaster": 36,
+    "family": 18,
+    "rentValue": 47
   },
   "telecom-center": {
     "commute": 44,
@@ -1504,7 +2176,11 @@
     "food": 3,
     "cafe": 12,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 99,
+    "singleLife": 14,
+    "disaster": 100,
+    "family": 4
   },
   "kameido": {
     "commute": 55,
@@ -1515,7 +2191,12 @@
     "food": 33,
     "cafe": 31,
     "nightlife": 33,
-    "fitness": 82
+    "fitness": 82,
+    "quietness": 67,
+    "singleLife": 47,
+    "disaster": 28,
+    "family": 52,
+    "rentValue": 31
   },
   "kameidosuijin": {
     "commute": 45,
@@ -1526,7 +2207,12 @@
     "food": 12,
     "cafe": 26,
     "nightlife": 17,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 85,
+    "singleLife": 32,
+    "disaster": 18,
+    "family": 41,
+    "rentValue": 24
   },
   "sumiyoshi": {
     "commute": 63,
@@ -1537,7 +2223,12 @@
     "food": 81,
     "cafe": 56,
     "nightlife": 94,
-    "fitness": 98
+    "fitness": 98,
+    "quietness": 11,
+    "singleLife": 69,
+    "disaster": 28,
+    "family": 72,
+    "rentValue": 32
   },
   "minami-sunamachi": {
     "commute": 55,
@@ -1548,7 +2239,12 @@
     "food": 25,
     "cafe": 12,
     "nightlife": 24,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 76,
+    "singleLife": 26,
+    "disaster": 27,
+    "family": 31,
+    "rentValue": 40
   },
   "kokusai-tenjijo": {
     "commute": 50,
@@ -1559,7 +2255,11 @@
     "food": 21,
     "cafe": 50,
     "nightlife": 3,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 91,
+    "singleLife": 31,
+    "disaster": 94,
+    "family": 8
   },
   "ojima": {
     "commute": 51,
@@ -1570,7 +2270,12 @@
     "food": 5,
     "cafe": 12,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 98,
+    "singleLife": 24,
+    "disaster": 18,
+    "family": 56,
+    "rentValue": 27
   },
   "shijo-mae": {
     "commute": 50,
@@ -1581,7 +2286,12 @@
     "food": 17,
     "cafe": 2,
     "nightlife": 0,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 94,
+    "singleLife": 19,
+    "disaster": 100,
+    "family": 10,
+    "rentValue": 0
   },
   "shin-kiba": {
     "commute": 60,
@@ -1592,7 +2302,11 @@
     "food": 0,
     "cafe": 12,
     "nightlife": 13,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 92,
+    "singleLife": 17,
+    "disaster": 88,
+    "family": 7
   },
   "shin-toyosu": {
     "commute": 52,
@@ -1603,7 +2317,12 @@
     "food": 15,
     "cafe": 35,
     "nightlife": 0,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 95,
+    "singleLife": 25,
+    "disaster": 100,
+    "family": 20,
+    "rentValue": 0
   },
   "ariake": {
     "commute": 43,
@@ -1614,7 +2333,11 @@
     "food": 21,
     "cafe": 50,
     "nightlife": 3,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 91,
+    "singleLife": 30,
+    "disaster": 100,
+    "family": 8
   },
   "ariake-tennis-no-mori": {
     "commute": 46,
@@ -1625,7 +2348,11 @@
     "food": 7,
     "cafe": 12,
     "nightlife": 3,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 96,
+    "singleLife": 18,
+    "disaster": 100,
+    "family": 8
   },
   "kiba": {
     "commute": 63,
@@ -1636,7 +2363,12 @@
     "food": 23,
     "cafe": 35,
     "nightlife": 24,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 76,
+    "singleLife": 36,
+    "disaster": 28,
+    "family": 46,
+    "rentValue": 12
   },
   "tokyo-big-sight": {
     "commute": 42,
@@ -1647,7 +2379,11 @@
     "food": 19,
     "cafe": 42,
     "nightlife": 3,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 91,
+    "singleLife": 26,
+    "disaster": 100,
+    "family": 6
   },
   "higashi-ojima": {
     "commute": 48,
@@ -1658,7 +2394,12 @@
     "food": 0,
     "cafe": 0,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 100,
+    "singleLife": 17,
+    "disaster": 18,
+    "family": 39,
+    "rentValue": 65
   },
   "toyocho": {
     "commute": 59,
@@ -1669,7 +2410,12 @@
     "food": 44,
     "cafe": 50,
     "nightlife": 36,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 61,
+    "singleLife": 47,
+    "disaster": 27,
+    "family": 74,
+    "rentValue": 15
   },
   "shinonome": {
     "commute": 50,
@@ -1680,7 +2426,11 @@
     "food": 2,
     "cafe": 7,
     "nightlife": 0,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 99,
+    "singleLife": 15,
+    "disaster": 59,
+    "family": 6
   },
   "morishita": {
     "commute": 67,
@@ -1691,7 +2441,12 @@
     "food": 72,
     "cafe": 59,
     "nightlife": 66,
-    "fitness": 96
+    "fitness": 96,
+    "quietness": 32,
+    "singleLife": 68,
+    "disaster": 38,
+    "family": 90,
+    "rentValue": 36
   },
   "kiyosumi-shirakawa": {
     "commute": 70,
@@ -1702,7 +2457,12 @@
     "food": 62,
     "cafe": 62,
     "nightlife": 57,
-    "fitness": 93
+    "fitness": 93,
+    "quietness": 41,
+    "singleLife": 63,
+    "disaster": 28,
+    "family": 84,
+    "rentValue": 28
   },
   "shiomi": {
     "commute": 64,
@@ -1713,7 +2473,12 @@
     "food": 12,
     "cafe": 0,
     "nightlife": 0,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 96,
+    "singleLife": 21,
+    "disaster": 88,
+    "family": 19,
+    "rentValue": 31
   },
   "nishi-ojima": {
     "commute": 55,
@@ -1724,7 +2489,12 @@
     "food": 5,
     "cafe": 26,
     "nightlife": 24,
-    "fitness": 82
+    "fitness": 82,
+    "quietness": 83,
+    "singleLife": 28,
+    "disaster": 18,
+    "family": 57,
+    "rentValue": 21
   },
   "toyosu": {
     "commute": 66,
@@ -1735,7 +2505,12 @@
     "food": 57,
     "cafe": 66,
     "nightlife": 55,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 44,
+    "singleLife": 55,
+    "disaster": 66,
+    "family": 36,
+    "rentValue": 13
   },
   "etchujima": {
     "commute": 73,
@@ -1746,7 +2521,12 @@
     "food": 53,
     "cafe": 47,
     "nightlife": 59,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 43,
+    "singleLife": 53,
+    "disaster": 52,
+    "family": 57,
+    "rentValue": 30
   },
   "tatsumi": {
     "commute": 59,
@@ -1757,7 +2537,12 @@
     "food": 0,
     "cafe": 2,
     "nightlife": 0,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 100,
+    "singleLife": 15,
+    "disaster": 72,
+    "family": 10,
+    "rentValue": 17
   },
   "monzen-nakacho": {
     "commute": 70,
@@ -1768,7 +2553,12 @@
     "food": 52,
     "cafe": 54,
     "nightlife": 58,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 44,
+    "singleLife": 52,
+    "disaster": 38,
+    "family": 36,
+    "rentValue": 19
   },
   "aomi": {
     "commute": 41,
@@ -1779,7 +2569,11 @@
     "food": 19,
     "cafe": 47,
     "nightlife": 3,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 91,
+    "singleLife": 28,
+    "disaster": 94,
+    "family": 1
   },
   "shimo-shimmei": {
     "commute": 59,
@@ -1790,7 +2584,12 @@
     "food": 9,
     "cafe": 50,
     "nightlife": 0,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 97,
+    "singleLife": 35,
+    "disaster": 94,
+    "family": 71,
+    "rentValue": 58
   },
   "fudo-mae": {
     "commute": 63,
@@ -1801,7 +2600,12 @@
     "food": 63,
     "cafe": 42,
     "nightlife": 55,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 42,
+    "singleLife": 62,
+    "disaster": 72,
+    "family": 69,
+    "rentValue": 30
   },
   "nakanobu": {
     "commute": 62,
@@ -1812,7 +2616,12 @@
     "food": 41,
     "cafe": 12,
     "nightlife": 42,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 58,
+    "singleLife": 48,
+    "disaster": 94,
+    "family": 100,
+    "rentValue": 78
   },
   "gotanda": {
     "commute": 76,
@@ -1823,7 +2632,12 @@
     "food": 68,
     "cafe": 65,
     "nightlife": 65,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 34,
+    "singleLife": 67,
+    "disaster": 60,
+    "family": 55,
+    "rentValue": 73
   },
   "kitashinagawa": {
     "commute": 68,
@@ -1834,7 +2648,12 @@
     "food": 57,
     "cafe": 60,
     "nightlife": 64,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 38,
+    "singleLife": 52,
+    "disaster": 72,
+    "family": 18,
+    "rentValue": 10
   },
   "daiba": {
     "commute": 50,
@@ -1845,7 +2664,11 @@
     "food": 21,
     "cafe": 47,
     "nightlife": 3,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 91,
+    "singleLife": 30,
+    "disaster": 94,
+    "family": 6
   },
   "shinagawa-seaside": {
     "commute": 61,
@@ -1856,7 +2679,12 @@
     "food": 42,
     "cafe": 26,
     "nightlife": 24,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 70,
+    "singleLife": 38,
+    "disaster": 59,
+    "family": 38,
+    "rentValue": 18
   },
   "oimachi": {
     "commute": 73,
@@ -1867,7 +2695,12 @@
     "food": 40,
     "cafe": 54,
     "nightlife": 28,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 68,
+    "singleLife": 57,
+    "disaster": 88,
+    "family": 82,
+    "rentValue": 94
   },
   "oi-keibajo-mae": {
     "commute": 52,
@@ -1878,7 +2711,12 @@
     "food": 5,
     "cafe": 0,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 98,
+    "singleLife": 18,
+    "disaster": 66,
+    "family": 13,
+    "rentValue": 10
   },
   "osaki": {
     "commute": 76,
@@ -1889,7 +2727,12 @@
     "food": 64,
     "cafe": 68,
     "nightlife": 59,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 39,
+    "singleLife": 64,
+    "disaster": 59,
+    "family": 51,
+    "rentValue": 94
   },
   "osaki-hirokoji": {
     "commute": 63,
@@ -1900,7 +2743,12 @@
     "food": 72,
     "cafe": 68,
     "nightlife": 72,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 28,
+    "singleLife": 71,
+    "disaster": 72,
+    "family": 76,
+    "rentValue": 26
   },
   "tennozu-isle": {
     "commute": 65,
@@ -1911,7 +2759,12 @@
     "food": 9,
     "cafe": 20,
     "nightlife": 17,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 86,
+    "singleLife": 23,
+    "disaster": 66,
+    "family": 16,
+    "rentValue": 1
   },
   "togoshi-koen": {
     "commute": 56,
@@ -1922,7 +2775,12 @@
     "food": 43,
     "cafe": 31,
     "nightlife": 36,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 62,
+    "singleLife": 48,
+    "disaster": 93,
+    "family": 92,
+    "rentValue": 50
   },
   "togoshi": {
     "commute": 65,
@@ -1933,7 +2791,12 @@
     "food": 60,
     "cafe": 35,
     "nightlife": 44,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 50,
+    "singleLife": 58,
+    "disaster": 72,
+    "family": 91,
+    "rentValue": 80
   },
   "shimbamba": {
     "commute": 66,
@@ -1944,7 +2807,12 @@
     "food": 35,
     "cafe": 20,
     "nightlife": 30,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 68,
+    "singleLife": 36,
+    "disaster": 59,
+    "family": 29,
+    "rentValue": 65
   },
   "hatanodai": {
     "commute": 54,
@@ -1955,7 +2823,12 @@
     "food": 31,
     "cafe": 20,
     "nightlife": 20,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 76,
+    "singleLife": 41,
+    "disaster": 86,
+    "family": 90,
+    "rentValue": 75
   },
   "tokyo-international-cruise-terminal": {
     "commute": 47,
@@ -1966,7 +2839,11 @@
     "food": 16,
     "cafe": 47,
     "nightlife": 3,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 92,
+    "singleLife": 27,
+    "disaster": 84,
+    "family": 1
   },
   "musashi-koyama": {
     "commute": 59,
@@ -1977,7 +2854,12 @@
     "food": 39,
     "cafe": 56,
     "nightlife": 17,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 75,
+    "singleLife": 58,
+    "disaster": 94,
+    "family": 99,
+    "rentValue": 58
   },
   "meguro": {
     "commute": 77,
@@ -1988,7 +2870,12 @@
     "food": 68,
     "cafe": 60,
     "nightlife": 48,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 45,
+    "singleLife": 69,
+    "disaster": 76,
+    "family": 28,
+    "rentValue": 36
   },
   "tachiaigawa": {
     "commute": 57,
@@ -1999,7 +2886,12 @@
     "food": 23,
     "cafe": 12,
     "nightlife": 9,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 86,
+    "singleLife": 28,
+    "disaster": 59,
+    "family": 44,
+    "rentValue": 51
   },
   "ebara-nakanobu": {
     "commute": 57,
@@ -2010,7 +2902,12 @@
     "food": 61,
     "cafe": 35,
     "nightlife": 44,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 50,
+    "singleLife": 55,
+    "disaster": 94,
+    "family": 92,
+    "rentValue": 59
   },
   "ebara-machi": {
     "commute": 53,
@@ -2021,7 +2918,12 @@
     "food": 42,
     "cafe": 20,
     "nightlife": 39,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 60,
+    "singleLife": 46,
+    "disaster": 79,
+    "family": 94,
+    "rentValue": 63
   },
   "nishi-oi": {
     "commute": 81,
@@ -2032,7 +2934,12 @@
     "food": 0,
     "cafe": 0,
     "nightlife": 9,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 94,
+    "singleLife": 25,
+    "disaster": 94,
+    "family": 54,
+    "rentValue": 100
   },
   "nishi-koyama": {
     "commute": 55,
@@ -2043,7 +2950,12 @@
     "food": 49,
     "cafe": 60,
     "nightlife": 17,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 72,
+    "singleLife": 62,
+    "disaster": 72,
+    "family": 91,
+    "rentValue": 55
   },
   "aomono-yokocho": {
     "commute": 62,
@@ -2054,7 +2966,12 @@
     "food": 60,
     "cafe": 42,
     "nightlife": 36,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 56,
+    "singleLife": 54,
+    "disaster": 66,
+    "family": 45,
+    "rentValue": 41
   },
   "samezu": {
     "commute": 60,
@@ -2065,7 +2982,12 @@
     "food": 55,
     "cafe": 47,
     "nightlife": 39,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 55,
+    "singleLife": 53,
+    "disaster": 66,
+    "family": 40,
+    "rentValue": 44
   },
   "nakameguro": {
     "commute": 78,
@@ -2076,7 +2998,12 @@
     "food": 70,
     "cafe": 78,
     "nightlife": 58,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 38,
+    "singleLife": 67,
+    "disaster": 86,
+    "family": 38,
+    "rentValue": 74
   },
   "gakugei-daigaku": {
     "commute": 63,
@@ -2087,7 +3014,12 @@
     "food": 19,
     "cafe": 39,
     "nightlife": 3,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 91,
+    "singleLife": 39,
+    "disaster": 100,
+    "family": 47,
+    "rentValue": 85
   },
   "ikejiri-ohashi": {
     "commute": 68,
@@ -2098,7 +3030,12 @@
     "food": 29,
     "cafe": 47,
     "nightlife": 13,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 81,
+    "singleLife": 42,
+    "disaster": 79,
+    "family": 31,
+    "rentValue": 74
   },
   "senzoku": {
     "commute": 53,
@@ -2109,7 +3046,12 @@
     "food": 55,
     "cafe": 58,
     "nightlife": 13,
-    "fitness": 90
+    "fitness": 90,
+    "quietness": 72,
+    "singleLife": 61,
+    "disaster": 94,
+    "family": 78,
+    "rentValue": 67
   },
   "yutenji": {
     "commute": 67,
@@ -2120,7 +3062,12 @@
     "food": 13,
     "cafe": 20,
     "nightlife": 20,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 82,
+    "singleLife": 38,
+    "disaster": 94,
+    "family": 40,
+    "rentValue": 92
   },
   "midorigaoka": {
     "commute": 50,
@@ -2131,7 +3078,12 @@
     "food": 74,
     "cafe": 64,
     "nightlife": 55,
-    "fitness": 90
+    "fitness": 90,
+    "quietness": 38,
+    "singleLife": 65,
+    "disaster": 79,
+    "family": 43,
+    "rentValue": 30
   },
   "jiyugaoka": {
     "commute": 56,
@@ -2142,7 +3094,12 @@
     "food": 46,
     "cafe": 78,
     "nightlife": 33,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 62,
+    "singleLife": 63,
+    "disaster": 86,
+    "family": 40,
+    "rentValue": 43
   },
   "toritsu-daigaku": {
     "commute": 59,
@@ -2153,7 +3110,12 @@
     "food": 17,
     "cafe": 39,
     "nightlife": 3,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 92,
+    "singleLife": 36,
+    "disaster": 72,
+    "family": 23,
+    "rentValue": 53
   },
   "komaba-todaimae": {
     "commute": 67,
@@ -2164,7 +3126,12 @@
     "food": 37,
     "cafe": 31,
     "nightlife": 9,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 81,
+    "singleLife": 38,
+    "disaster": 100,
+    "family": 15,
+    "rentValue": 53
   },
   "shimomaruko": {
     "commute": 41,
@@ -2175,7 +3142,12 @@
     "food": 12,
     "cafe": 20,
     "nightlife": 9,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 90,
+    "singleLife": 24,
+    "disaster": 44,
+    "family": 33,
+    "rentValue": 39
   },
   "kugahara": {
     "commute": 40,
@@ -2186,7 +3158,12 @@
     "food": 7,
     "cafe": 20,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 98,
+    "singleLife": 22,
+    "disaster": 82,
+    "family": 73,
+    "rentValue": 58
   },
   "keikyu-kamata": {
     "commute": 43,
@@ -2197,7 +3174,12 @@
     "food": 78,
     "cafe": 59,
     "nightlife": 87,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 16,
+    "singleLife": 68,
+    "disaster": 38,
+    "family": 51,
+    "rentValue": 24
   },
   "rokugodote": {
     "commute": 37,
@@ -2208,7 +3190,12 @@
     "food": 12,
     "cafe": 0,
     "nightlife": 13,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 87,
+    "singleLife": 17,
+    "disaster": 60,
+    "family": 14,
+    "rentValue": 47
   },
   "kita-senzoku": {
     "commute": 50,
@@ -2219,7 +3206,12 @@
     "food": 61,
     "cafe": 47,
     "nightlife": 24,
-    "fitness": 90
+    "fitness": 90,
+    "quietness": 63,
+    "singleLife": 54,
+    "disaster": 94,
+    "family": 65,
+    "rentValue": 54
   },
   "chidoricho": {
     "commute": 40,
@@ -2230,7 +3222,12 @@
     "food": 7,
     "cafe": 12,
     "nightlife": 13,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 89,
+    "singleLife": 20,
+    "disaster": 66,
+    "family": 34,
+    "rentValue": 21
   },
   "tamagawa": {
     "commute": 54,
@@ -2241,7 +3238,12 @@
     "food": 10,
     "cafe": 0,
     "nightlife": 3,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 95,
+    "singleLife": 20,
+    "disaster": 94,
+    "family": 3,
+    "rentValue": 85
   },
   "ookayama": {
     "commute": 53,
@@ -2252,7 +3254,12 @@
     "food": 73,
     "cafe": 50,
     "nightlife": 49,
-    "fitness": 86
+    "fitness": 86,
+    "quietness": 43,
+    "singleLife": 60,
+    "disaster": 94,
+    "family": 28,
+    "rentValue": 64
   },
   "omori": {
     "commute": 61,
@@ -2263,7 +3270,12 @@
     "food": 62,
     "cafe": 68,
     "nightlife": 74,
-    "fitness": 77
+    "fitness": 77,
+    "quietness": 30,
+    "singleLife": 65,
+    "disaster": 79,
+    "family": 45,
+    "rentValue": 83
   },
   "omorikaigan": {
     "commute": 53,
@@ -2274,7 +3286,12 @@
     "food": 50,
     "cafe": 63,
     "nightlife": 72,
-    "fitness": 77
+    "fitness": 77,
+    "quietness": 36,
+    "singleLife": 54,
+    "disaster": 52,
+    "family": 33,
+    "rentValue": 36
   },
   "omorimachi": {
     "commute": 48,
@@ -2285,7 +3302,12 @@
     "food": 12,
     "cafe": 12,
     "nightlife": 13,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 87,
+    "singleLife": 31,
+    "disaster": 38,
+    "family": 60,
+    "rentValue": 72
   },
   "otorii": {
     "commute": 33,
@@ -2296,7 +3318,12 @@
     "food": 37,
     "cafe": 26,
     "nightlife": 36,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 64,
+    "singleLife": 34,
+    "disaster": 38,
+    "family": 65,
+    "rentValue": 7
   },
   "tenkubashi": {
     "commute": 39,
@@ -2307,7 +3334,12 @@
     "food": 17,
     "cafe": 31,
     "nightlife": 36,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 71,
+    "singleLife": 23,
+    "disaster": 45,
+    "family": 9,
+    "rentValue": 28
   },
   "heiwajima": {
     "commute": 50,
@@ -2318,7 +3350,12 @@
     "food": 5,
     "cafe": 12,
     "nightlife": 9,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 92,
+    "singleLife": 24,
+    "disaster": 38,
+    "family": 42,
+    "rentValue": 60
   },
   "ontakesan": {
     "commute": 42,
@@ -2329,7 +3366,12 @@
     "food": 23,
     "cafe": 12,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 92,
+    "singleLife": 28,
+    "disaster": 100,
+    "family": 75,
+    "rentValue": 55
   },
   "seibijo": {
     "commute": 40,
@@ -2340,7 +3382,12 @@
     "food": 9,
     "cafe": 26,
     "nightlife": 20,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 84,
+    "singleLife": 18,
+    "disaster": 52,
+    "family": 12,
+    "rentValue": 20
   },
   "shin-seibijo": {
     "commute": 32,
@@ -2351,7 +3398,11 @@
     "food": 19,
     "cafe": 54,
     "nightlife": 9,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 88,
+    "singleLife": 25,
+    "disaster": 100,
+    "family": 0
   },
   "showajima": {
     "commute": 45,
@@ -2362,7 +3413,12 @@
     "food": 0,
     "cafe": 0,
     "nightlife": 3,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 98,
+    "singleLife": 11,
+    "disaster": 66,
+    "family": 31,
+    "rentValue": 86
   },
   "umeyashiki": {
     "commute": 45,
@@ -2373,7 +3429,12 @@
     "food": 31,
     "cafe": 12,
     "nightlife": 53,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 55,
+    "singleLife": 38,
+    "disaster": 38,
+    "family": 49,
+    "rentValue": 35
   },
   "musashi-nitta": {
     "commute": 41,
@@ -2384,7 +3445,12 @@
     "food": 15,
     "cafe": 12,
     "nightlife": 28,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 77,
+    "singleLife": 29,
+    "disaster": 38,
+    "family": 34,
+    "rentValue": 27
   },
   "ikegami": {
     "commute": 40,
@@ -2395,7 +3461,12 @@
     "food": 42,
     "cafe": 47,
     "nightlife": 36,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 62,
+    "singleLife": 43,
+    "disaster": 38,
+    "family": 29,
+    "rentValue": 33
   },
   "numabe": {
     "commute": 44,
@@ -2406,7 +3477,12 @@
     "food": 10,
     "cafe": 0,
     "nightlife": 3,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 95,
+    "singleLife": 16,
+    "disaster": 86,
+    "family": 11,
+    "rentValue": 54
   },
   "senzoku-ike": {
     "commute": 49,
@@ -2417,7 +3493,12 @@
     "food": 23,
     "cafe": 12,
     "nightlife": 9,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 86,
+    "singleLife": 36,
+    "disaster": 100,
+    "family": 53,
+    "rentValue": 57
   },
   "ryutsu-center": {
     "commute": 48,
@@ -2428,7 +3509,12 @@
     "food": 2,
     "cafe": 2,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 99,
+    "singleLife": 13,
+    "disaster": 79,
+    "family": 10,
+    "rentValue": 16
   },
   "den-en-chofu": {
     "commute": 55,
@@ -2439,7 +3525,12 @@
     "food": 5,
     "cafe": 35,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 98,
+    "singleLife": 26,
+    "disaster": 100,
+    "family": 3,
+    "rentValue": 78
   },
   "yaguchi-no-watashi": {
     "commute": 42,
@@ -2450,7 +3541,12 @@
     "food": 16,
     "cafe": 26,
     "nightlife": 24,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 79,
+    "singleLife": 30,
+    "disaster": 38,
+    "family": 21,
+    "rentValue": 33
   },
   "ishikawadai": {
     "commute": 46,
@@ -2461,7 +3557,12 @@
     "food": 29,
     "cafe": 20,
     "nightlife": 3,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 88,
+    "singleLife": 37,
+    "disaster": 93,
+    "family": 58,
+    "rentValue": 49
   },
   "anamori-inari": {
     "commute": 33,
@@ -2472,7 +3573,12 @@
     "food": 35,
     "cafe": 42,
     "nightlife": 47,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 57,
+    "singleLife": 34,
+    "disaster": 38,
+    "family": 37,
+    "rentValue": 8
   },
   "kojiya": {
     "commute": 35,
@@ -2483,7 +3589,12 @@
     "food": 37,
     "cafe": 7,
     "nightlife": 30,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 68,
+    "singleLife": 32,
+    "disaster": 38,
+    "family": 56,
+    "rentValue": 6
   },
   "haneda-airport-terminal-1-2": {
     "commute": 31,
@@ -2494,7 +3605,11 @@
     "food": 30,
     "cafe": 69,
     "nightlife": 3,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 88,
+    "singleLife": 32,
+    "disaster": 100,
+    "family": 3
   },
   "haneda-airport-terminal-3": {
     "commute": 36,
@@ -2505,7 +3620,11 @@
     "food": 12,
     "cafe": 31,
     "nightlife": 3,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 94,
+    "singleLife": 19,
+    "disaster": 72,
+    "family": 4
   },
   "kamata": {
     "commute": 51,
@@ -2516,7 +3635,12 @@
     "food": 81,
     "cafe": 73,
     "nightlife": 90,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 13,
+    "singleLife": 75,
+    "disaster": 38,
+    "family": 53,
+    "rentValue": 66
   },
   "hasunuma": {
     "commute": 42,
@@ -2527,7 +3651,12 @@
     "food": 63,
     "cafe": 71,
     "nightlife": 80,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 26,
+    "singleLife": 62,
+    "disaster": 38,
+    "family": 33,
+    "rentValue": 25
   },
   "nishimagome": {
     "commute": 52,
@@ -2538,7 +3667,12 @@
     "food": 10,
     "cafe": 7,
     "nightlife": 9,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 91,
+    "singleLife": 23,
+    "disaster": 100,
+    "family": 50,
+    "rentValue": 76
   },
   "nagahara": {
     "commute": 51,
@@ -2549,7 +3683,12 @@
     "food": 27,
     "cafe": 20,
     "nightlife": 3,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 89,
+    "singleLife": 42,
+    "disaster": 100,
+    "family": 83,
+    "rentValue": 72
   },
   "zoshiki": {
     "commute": 40,
@@ -2560,7 +3699,12 @@
     "food": 36,
     "cafe": 31,
     "nightlife": 70,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 42,
+    "singleLife": 40,
+    "disaster": 28,
+    "family": 38,
+    "rentValue": 29
   },
   "yukigaya-otsuka": {
     "commute": 44,
@@ -2571,7 +3715,12 @@
     "food": 28,
     "cafe": 26,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 90,
+    "singleLife": 37,
+    "disaster": 94,
+    "family": 76,
+    "rentValue": 44
   },
   "magome": {
     "commute": 57,
@@ -2582,7 +3731,12 @@
     "food": 21,
     "cafe": 7,
     "nightlife": 20,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 80,
+    "singleLife": 30,
+    "disaster": 94,
+    "family": 76,
+    "rentValue": 78
   },
   "unoki": {
     "commute": 42,
@@ -2593,7 +3747,12 @@
     "food": 5,
     "cafe": 12,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 98,
+    "singleLife": 20,
+    "disaster": 52,
+    "family": 49,
+    "rentValue": 61
   },
   "sangen-jaya": {
     "commute": 62,
@@ -2604,7 +3763,12 @@
     "food": 84,
     "cafe": 75,
     "nightlife": 73,
-    "fitness": 86
+    "fitness": 86,
+    "quietness": 23,
+    "singleLife": 76,
+    "disaster": 66,
+    "family": 77,
+    "rentValue": 84
   },
   "kami-kitazawa": {
     "commute": 48,
@@ -2615,7 +3779,12 @@
     "food": 36,
     "cafe": 7,
     "nightlife": 17,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 76,
+    "singleLife": 27,
+    "disaster": 88,
+    "family": 56,
+    "rentValue": 80
   },
   "kamimachi": {
     "commute": 40,
@@ -2626,7 +3795,12 @@
     "food": 42,
     "cafe": 26,
     "nightlife": 30,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 66,
+    "singleLife": 33,
+    "disaster": 86,
+    "family": 29,
+    "rentValue": 54
   },
   "kaminoge": {
     "commute": 41,
@@ -2637,7 +3811,12 @@
     "food": 13,
     "cafe": 26,
     "nightlife": 3,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 94,
+    "singleLife": 21,
+    "disaster": 59,
+    "family": 1,
+    "rentValue": 48
   },
   "shimo-kitazawa": {
     "commute": 64,
@@ -2648,7 +3827,12 @@
     "food": 73,
     "cafe": 83,
     "nightlife": 75,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 26,
+    "singleLife": 63,
+    "disaster": 72,
+    "family": 44,
+    "rentValue": 90
   },
   "shimo-takaido": {
     "commute": 54,
@@ -2659,7 +3843,12 @@
     "food": 46,
     "cafe": 47,
     "nightlife": 39,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 59,
+    "singleLife": 46,
+    "disaster": 79,
+    "family": 44,
+    "rentValue": 96
   },
   "setagaya": {
     "commute": 41,
@@ -2670,7 +3859,12 @@
     "food": 55,
     "cafe": 39,
     "nightlife": 42,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 53,
+    "singleLife": 40,
+    "disaster": 86,
+    "family": 23,
+    "rentValue": 35
   },
   "setagaya-daita": {
     "commute": 58,
@@ -2681,7 +3875,12 @@
     "food": 69,
     "cafe": 83,
     "nightlife": 61,
-    "fitness": 86
+    "fitness": 86,
+    "quietness": 36,
+    "singleLife": 62,
+    "disaster": 79,
+    "family": 40,
+    "rentValue": 75
   },
   "kuhombutsu": {
     "commute": 48,
@@ -2692,7 +3891,12 @@
     "food": 21,
     "cafe": 60,
     "nightlife": 3,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 91,
+    "singleLife": 39,
+    "disaster": 79,
+    "family": 7,
+    "rentValue": 17
   },
   "futako-tamagawa": {
     "commute": 45,
@@ -2703,7 +3907,12 @@
     "food": 57,
     "cafe": 68,
     "nightlife": 50,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 48,
+    "singleLife": 54,
+    "disaster": 54,
+    "family": 15,
+    "rentValue": 66
   },
   "daitabashi": {
     "commute": 60,
@@ -2714,7 +3923,12 @@
     "food": 40,
     "cafe": 31,
     "nightlife": 36,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 63,
+    "singleLife": 40,
+    "disaster": 94,
+    "family": 59,
+    "rentValue": 92
   },
   "hachiman-yama": {
     "commute": 46,
@@ -2725,7 +3939,12 @@
     "food": 45,
     "cafe": 12,
     "nightlife": 36,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 61,
+    "singleLife": 35,
+    "disaster": 66,
+    "family": 55,
+    "rentValue": 74
   },
   "chitose-karasuyama": {
     "commute": 42,
@@ -2736,7 +3955,12 @@
     "food": 67,
     "cafe": 47,
     "nightlife": 62,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 36,
+    "singleLife": 56,
+    "disaster": 94,
+    "family": 67,
+    "rentValue": 74
   },
   "chitose-funabashi": {
     "commute": 46,
@@ -2747,7 +3971,12 @@
     "food": 33,
     "cafe": 26,
     "nightlife": 33,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 67,
+    "singleLife": 37,
+    "disaster": 100,
+    "family": 34,
+    "rentValue": 68
   },
   "okusawa": {
     "commute": 49,
@@ -2758,7 +3987,12 @@
     "food": 55,
     "cafe": 77,
     "nightlife": 47,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 50,
+    "singleLife": 62,
+    "disaster": 79,
+    "family": 35,
+    "rentValue": 22
   },
   "miyanosaka": {
     "commute": 41,
@@ -2769,7 +4003,12 @@
     "food": 61,
     "cafe": 60,
     "nightlife": 47,
-    "fitness": 77
+    "fitness": 77,
+    "quietness": 48,
+    "singleLife": 47,
+    "disaster": 66,
+    "family": 35,
+    "rentValue": 52
   },
   "oyamadai": {
     "commute": 46,
@@ -2780,7 +4019,12 @@
     "food": 5,
     "cafe": 26,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 98,
+    "singleLife": 22,
+    "disaster": 94,
+    "family": 15,
+    "rentValue": 30
   },
   "seijogakuen-mae": {
     "commute": 39,
@@ -2791,7 +4035,12 @@
     "food": 5,
     "cafe": 26,
     "nightlife": 3,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 96,
+    "singleLife": 20,
+    "disaster": 79,
+    "family": 46,
+    "rentValue": 56
   },
   "shindaita": {
     "commute": 58,
@@ -2802,7 +4051,12 @@
     "food": 71,
     "cafe": 81,
     "nightlife": 64,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 34,
+    "singleLife": 59,
+    "disaster": 82,
+    "family": 42,
+    "rentValue": 77
   },
   "meidaimae": {
     "commute": 59,
@@ -2813,7 +4067,12 @@
     "food": 48,
     "cafe": 47,
     "nightlife": 57,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 46,
+    "singleLife": 52,
+    "disaster": 93,
+    "family": 39,
+    "rentValue": 98
   },
   "higashi-kitazawa": {
     "commute": 62,
@@ -2824,7 +4083,12 @@
     "food": 67,
     "cafe": 79,
     "nightlife": 72,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 30,
+    "singleLife": 60,
+    "disaster": 93,
+    "family": 31,
+    "rentValue": 45
   },
   "higashi-matsubara": {
     "commute": 57,
@@ -2835,7 +4099,12 @@
     "food": 39,
     "cafe": 64,
     "nightlife": 42,
-    "fitness": 82
+    "fitness": 82,
+    "quietness": 59,
+    "singleLife": 50,
+    "disaster": 79,
+    "family": 29,
+    "rentValue": 90
   },
   "matsubara": {
     "commute": 42,
@@ -2846,7 +4115,12 @@
     "food": 46,
     "cafe": 35,
     "nightlife": 33,
-    "fitness": 86
+    "fitness": 86,
+    "quietness": 62,
+    "singleLife": 37,
+    "disaster": 72,
+    "family": 25,
+    "rentValue": 66
   },
   "shoin-jinja-mae": {
     "commute": 43,
@@ -2857,7 +4131,12 @@
     "food": 61,
     "cafe": 54,
     "nightlife": 42,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 51,
+    "singleLife": 52,
+    "disaster": 72,
+    "family": 27,
+    "rentValue": 19
   },
   "sakurajosui": {
     "commute": 51,
@@ -2868,7 +4147,12 @@
     "food": 41,
     "cafe": 12,
     "nightlife": 24,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 70,
+    "singleLife": 33,
+    "disaster": 82,
+    "family": 65,
+    "rentValue": 93
   },
   "sakura-shimmachi": {
     "commute": 52,
@@ -2879,7 +4163,12 @@
     "food": 19,
     "cafe": 20,
     "nightlife": 3,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 91,
+    "singleLife": 36,
+    "disaster": 100,
+    "family": 41,
+    "rentValue": 57
   },
   "umegaoka": {
     "commute": 55,
@@ -2890,7 +4179,12 @@
     "food": 49,
     "cafe": 66,
     "nightlife": 50,
-    "fitness": 90
+    "fitness": 90,
+    "quietness": 50,
+    "singleLife": 51,
+    "disaster": 79,
+    "family": 34,
+    "rentValue": 93
   },
   "ikenoue": {
     "commute": 63,
@@ -2901,7 +4195,12 @@
     "food": 72,
     "cafe": 80,
     "nightlife": 70,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 29,
+    "singleLife": 62,
+    "disaster": 79,
+    "family": 41,
+    "rentValue": 47
   },
   "yoga": {
     "commute": 49,
@@ -2912,7 +4211,12 @@
     "food": 23,
     "cafe": 26,
     "nightlife": 3,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 90,
+    "singleLife": 31,
+    "disaster": 72,
+    "family": 6,
+    "rentValue": 65
   },
   "soshigaya-okura": {
     "commute": 42,
@@ -2923,7 +4227,12 @@
     "food": 37,
     "cafe": 39,
     "nightlife": 33,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 66,
+    "singleLife": 42,
+    "disaster": 88,
+    "family": 82,
+    "rentValue": 49
   },
   "todoroki": {
     "commute": 44,
@@ -2934,7 +4243,12 @@
     "food": 2,
     "cafe": 31,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 99,
+    "singleLife": 19,
+    "disaster": 79,
+    "family": 4,
+    "rentValue": 51
   },
   "kyodo": {
     "commute": 49,
@@ -2945,7 +4259,12 @@
     "food": 70,
     "cafe": 54,
     "nightlife": 50,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 43,
+    "singleLife": 64,
+    "disaster": 79,
+    "family": 61,
+    "rentValue": 81
   },
   "roka-koen": {
     "commute": 44,
@@ -2956,7 +4275,12 @@
     "food": 65,
     "cafe": 56,
     "nightlife": 57,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 40,
+    "singleLife": 60,
+    "disaster": 93,
+    "family": 86,
+    "rentValue": 71
   },
   "wakabayashi": {
     "commute": 46,
@@ -2967,7 +4291,12 @@
     "food": 57,
     "cafe": 54,
     "nightlife": 44,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 51,
+    "singleLife": 53,
+    "disaster": 72,
+    "family": 41,
+    "rentValue": 30
   },
   "nishi-taishido": {
     "commute": 51,
@@ -2978,7 +4307,12 @@
     "food": 83,
     "cafe": 73,
     "nightlife": 73,
-    "fitness": 90
+    "fitness": 90,
+    "quietness": 24,
+    "singleLife": 75,
+    "disaster": 79,
+    "family": 78,
+    "rentValue": 34
   },
   "gotokuji": {
     "commute": 52,
@@ -2989,7 +4323,12 @@
     "food": 45,
     "cafe": 60,
     "nightlife": 47,
-    "fitness": 86
+    "fitness": 86,
+    "quietness": 54,
+    "singleLife": 48,
+    "disaster": 72,
+    "family": 49,
+    "rentValue": 91
   },
   "komazawa-daigaku": {
     "commute": 57,
@@ -3000,7 +4339,12 @@
     "food": 44,
     "cafe": 50,
     "nightlife": 24,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 69,
+    "singleLife": 49,
+    "disaster": 94,
+    "family": 21,
+    "rentValue": 71
   },
   "yoyogi": {
     "commute": 80,
@@ -3011,7 +4355,12 @@
     "food": 76,
     "cafe": 83,
     "nightlife": 79,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 22,
+    "singleLife": 70,
+    "disaster": 88,
+    "family": 8,
+    "rentValue": 51
   },
   "yoyogi-uehara": {
     "commute": 69,
@@ -3022,7 +4371,12 @@
     "food": 50,
     "cafe": 64,
     "nightlife": 64,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 41,
+    "singleLife": 55,
+    "disaster": 76,
+    "family": 47,
+    "rentValue": 77
   },
   "yoyogi-hachiman": {
     "commute": 72,
@@ -3033,7 +4387,12 @@
     "food": 53,
     "cafe": 70,
     "nightlife": 64,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 40,
+    "singleLife": 60,
+    "disaster": 86,
+    "family": 19,
+    "rentValue": 23
   },
   "daikanyama": {
     "commute": 72,
@@ -3044,7 +4403,12 @@
     "food": 83,
     "cafe": 89,
     "nightlife": 76,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 22,
+    "singleLife": 82,
+    "disaster": 94,
+    "family": 51,
+    "rentValue": 5
   },
   "hatsudai": {
     "commute": 55,
@@ -3055,7 +4419,12 @@
     "food": 63,
     "cafe": 62,
     "nightlife": 59,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 40,
+    "singleLife": 57,
+    "disaster": 79,
+    "family": 44,
+    "rentValue": 36
   },
   "kita-sando": {
     "commute": 70,
@@ -3066,7 +4435,12 @@
     "food": 56,
     "cafe": 78,
     "nightlife": 39,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 55,
+    "singleLife": 56,
+    "disaster": 86,
+    "family": 5,
+    "rentValue": 3
   },
   "sendagaya": {
     "commute": 73,
@@ -3077,7 +4451,12 @@
     "food": 47,
     "cafe": 69,
     "nightlife": 39,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 58,
+    "singleLife": 50,
+    "disaster": 86,
+    "family": 16,
+    "rentValue": 25
   },
   "minami-shinjuku": {
     "commute": 72,
@@ -3088,7 +4467,12 @@
     "food": 82,
     "cafe": 84,
     "nightlife": 83,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 17,
+    "singleLife": 67,
+    "disaster": 79,
+    "family": 1,
+    "rentValue": 34
   },
   "sangubashi": {
     "commute": 70,
@@ -3099,7 +4483,12 @@
     "food": 45,
     "cafe": 60,
     "nightlife": 52,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 50,
+    "singleLife": 50,
+    "disaster": 100,
+    "family": 2,
+    "rentValue": 67
   },
   "hatagaya": {
     "commute": 51,
@@ -3110,7 +4499,12 @@
     "food": 57,
     "cafe": 54,
     "nightlife": 53,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 46,
+    "singleLife": 52,
+    "disaster": 86,
+    "family": 75,
+    "rentValue": 44
   },
   "ebisu": {
     "commute": 87,
@@ -3121,7 +4515,12 @@
     "food": 79,
     "cafe": 85,
     "nightlife": 70,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 27,
+    "singleLife": 80,
+    "disaster": 88,
+    "family": 48,
+    "rentValue": 48
   },
   "meiji-jingumae": {
     "commute": 81,
@@ -3132,7 +4531,11 @@
     "food": 80,
     "cafe": 97,
     "nightlife": 44,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 43,
+    "singleLife": 68,
+    "disaster": 79,
+    "family": 5
   },
   "shibuya": {
     "commute": 85,
@@ -3143,7 +4546,12 @@
     "food": 97,
     "cafe": 98,
     "nightlife": 97,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 3,
+    "singleLife": 89,
+    "disaster": 86,
+    "family": 53,
+    "rentValue": 32
   },
   "shinsen": {
     "commute": 72,
@@ -3154,7 +4562,12 @@
     "food": 95,
     "cafe": 91,
     "nightlife": 95,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 5,
+    "singleLife": 87,
+    "disaster": 94,
+    "family": 71,
+    "rentValue": 5
   },
   "sasazuka": {
     "commute": 63,
@@ -3165,7 +4578,12 @@
     "food": 43,
     "cafe": 39,
     "nightlife": 49,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 53,
+    "singleLife": 46,
+    "disaster": 79,
+    "family": 48,
+    "rentValue": 87
   },
   "nishi-shinjuku-gochome": {
     "commute": 72,
@@ -3176,7 +4594,12 @@
     "food": 65,
     "cafe": 64,
     "nightlife": 55,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 42,
+    "singleLife": 65,
+    "disaster": 72,
+    "family": 63,
+    "rentValue": 95
   },
   "nakano": {
     "commute": 68,
@@ -3187,7 +4610,12 @@
     "food": 84,
     "cafe": 73,
     "nightlife": 80,
-    "fitness": 86
+    "fitness": 86,
+    "quietness": 19,
+    "singleLife": 78,
+    "disaster": 86,
+    "family": 91,
+    "rentValue": 99
   },
   "nakano-sakaue": {
     "commute": 71,
@@ -3198,7 +4626,12 @@
     "food": 65,
     "cafe": 59,
     "nightlife": 62,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 37,
+    "singleLife": 60,
+    "disaster": 66,
+    "family": 65,
+    "rentValue": 99
   },
   "nakano-fujimicho": {
     "commute": 34,
@@ -3209,7 +4642,12 @@
     "food": 42,
     "cafe": 35,
     "nightlife": 44,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 57,
+    "singleLife": 35,
+    "disaster": 79,
+    "family": 50,
+    "rentValue": 7
   },
   "nakano-shimbashi": {
     "commute": 36,
@@ -3220,7 +4658,12 @@
     "food": 64,
     "cafe": 54,
     "nightlife": 57,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 41,
+    "singleLife": 51,
+    "disaster": 79,
+    "family": 74,
+    "rentValue": 7
   },
   "fujimidai": {
     "commute": 39,
@@ -3231,7 +4674,12 @@
     "food": 39,
     "cafe": 20,
     "nightlife": 39,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 61,
+    "singleLife": 43,
+    "disaster": 72,
+    "family": 79,
+    "rentValue": 50
   },
   "shin-nakano": {
     "commute": 64,
@@ -3242,7 +4690,12 @@
     "food": 73,
     "cafe": 56,
     "nightlife": 66,
-    "fitness": 86
+    "fitness": 86,
+    "quietness": 32,
+    "singleLife": 64,
+    "disaster": 88,
+    "family": 87,
+    "rentValue": 95
   },
   "araiyakushi-mae": {
     "commute": 52,
@@ -3253,7 +4706,12 @@
     "food": 68,
     "cafe": 35,
     "nightlife": 57,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 39,
+    "singleLife": 60,
+    "disaster": 72,
+    "family": 82,
+    "rentValue": 79
   },
   "higashi-nakano": {
     "commute": 64,
@@ -3264,7 +4722,12 @@
     "food": 75,
     "cafe": 56,
     "nightlife": 68,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 30,
+    "singleLife": 70,
+    "disaster": 86,
+    "family": 88,
+    "rentValue": 95
   },
   "numabukuro": {
     "commute": 49,
@@ -3275,7 +4738,12 @@
     "food": 43,
     "cafe": 20,
     "nightlife": 36,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 62,
+    "singleLife": 34,
+    "disaster": 66,
+    "family": 45,
+    "rentValue": 79
   },
   "ochiai": {
     "commute": 59,
@@ -3286,7 +4754,12 @@
     "food": 76,
     "cafe": 62,
     "nightlife": 70,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 28,
+    "singleLife": 70,
+    "disaster": 66,
+    "family": 90,
+    "rentValue": 88
   },
   "toritsu-kasei": {
     "commute": 44,
@@ -3297,7 +4770,12 @@
     "food": 71,
     "cafe": 26,
     "nightlife": 74,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 27,
+    "singleLife": 56,
+    "disaster": 88,
+    "family": 94,
+    "rentValue": 68
   },
   "nogata": {
     "commute": 46,
@@ -3308,7 +4786,12 @@
     "food": 59,
     "cafe": 20,
     "nightlife": 64,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 38,
+    "singleLife": 45,
+    "disaster": 86,
+    "family": 73,
+    "rentValue": 82
   },
   "saginomiya": {
     "commute": 42,
@@ -3319,7 +4802,12 @@
     "food": 53,
     "cafe": 26,
     "nightlife": 52,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 48,
+    "singleLife": 47,
+    "disaster": 76,
+    "family": 95,
+    "rentValue": 51
   },
   "shimo-igusa": {
     "commute": 39,
@@ -3330,7 +4818,12 @@
     "food": 7,
     "cafe": 2,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 98,
+    "singleLife": 16,
+    "disaster": 72,
+    "family": 63,
+    "rentValue": 42
   },
   "kugayama": {
     "commute": 39,
@@ -3341,7 +4834,12 @@
     "food": 23,
     "cafe": 7,
     "nightlife": 39,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 67,
+    "singleLife": 22,
+    "disaster": 86,
+    "family": 64,
+    "rentValue": 70
   },
   "iogi": {
     "commute": 37,
@@ -3352,7 +4850,12 @@
     "food": 5,
     "cafe": 2,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 98,
+    "singleLife": 22,
+    "disaster": 82,
+    "family": 77,
+    "rentValue": 46
   },
   "minami-asagaya": {
     "commute": 53,
@@ -3363,7 +4866,12 @@
     "food": 84,
     "cafe": 75,
     "nightlife": 88,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 13,
+    "singleLife": 76,
+    "disaster": 88,
+    "family": 95,
+    "rentValue": 84
   },
   "fujimigaoka": {
     "commute": 41,
@@ -3374,7 +4882,12 @@
     "food": 31,
     "cafe": 20,
     "nightlife": 42,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 62,
+    "singleLife": 34,
+    "disaster": 82,
+    "family": 89,
+    "rentValue": 69
   },
   "shin-koenji": {
     "commute": 56,
@@ -3385,7 +4898,12 @@
     "food": 79,
     "cafe": 73,
     "nightlife": 77,
-    "fitness": 90
+    "fitness": 90,
+    "quietness": 22,
+    "singleLife": 69,
+    "disaster": 86,
+    "family": 92,
+    "rentValue": 90
   },
   "honancho": {
     "commute": 31,
@@ -3396,7 +4914,12 @@
     "food": 25,
     "cafe": 20,
     "nightlife": 3,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 89,
+    "singleLife": 24,
+    "disaster": 52,
+    "family": 66,
+    "rentValue": 9
   },
   "higashi-koenji": {
     "commute": 60,
@@ -3407,7 +4930,12 @@
     "food": 69,
     "cafe": 47,
     "nightlife": 50,
-    "fitness": 92
+    "fitness": 92,
+    "quietness": 43,
+    "singleLife": 54,
+    "disaster": 79,
+    "family": 50,
+    "rentValue": 90
   },
   "eifukucho": {
     "commute": 51,
@@ -3418,7 +4946,12 @@
     "food": 45,
     "cafe": 42,
     "nightlife": 44,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 56,
+    "singleLife": 38,
+    "disaster": 86,
+    "family": 62,
+    "rentValue": 86
   },
   "hamadayama": {
     "commute": 46,
@@ -3429,7 +4962,12 @@
     "food": 46,
     "cafe": 50,
     "nightlife": 53,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 49,
+    "singleLife": 43,
+    "disaster": 94,
+    "family": 83,
+    "rentValue": 76
   },
   "ogikubo": {
     "commute": 55,
@@ -3440,7 +4978,12 @@
     "food": 81,
     "cafe": 73,
     "nightlife": 75,
-    "fitness": 86
+    "fitness": 86,
+    "quietness": 23,
+    "singleLife": 68,
+    "disaster": 72,
+    "family": 72,
+    "rentValue": 97
   },
   "nishi-eifuku": {
     "commute": 49,
@@ -3451,7 +4994,12 @@
     "food": 55,
     "cafe": 47,
     "nightlife": 52,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 47,
+    "singleLife": 42,
+    "disaster": 79,
+    "family": 73,
+    "rentValue": 88
   },
   "nishi-ogikubo": {
     "commute": 49,
@@ -3462,7 +5010,12 @@
     "food": 58,
     "cafe": 54,
     "nightlife": 64,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 38,
+    "singleLife": 52,
+    "disaster": 86,
+    "family": 74,
+    "rentValue": 82
   },
   "asagaya": {
     "commute": 58,
@@ -3473,7 +5026,12 @@
     "food": 85,
     "cafe": 75,
     "nightlife": 88,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 13,
+    "singleLife": 76,
+    "disaster": 86,
+    "family": 88,
+    "rentValue": 98
   },
   "takaido": {
     "commute": 43,
@@ -3484,7 +5042,12 @@
     "food": 41,
     "cafe": 20,
     "nightlife": 28,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 67,
+    "singleLife": 32,
+    "disaster": 86,
+    "family": 89,
+    "rentValue": 67
   },
   "koenji": {
     "commute": 63,
@@ -3495,7 +5058,12 @@
     "food": 86,
     "cafe": 79,
     "nightlife": 87,
-    "fitness": 82
+    "fitness": 82,
+    "quietness": 13,
+    "singleLife": 80,
+    "disaster": 72,
+    "family": 96,
+    "rentValue": 99
   },
   "shimo-itabashi": {
     "commute": 55,
@@ -3506,7 +5074,12 @@
     "food": 37,
     "cafe": 35,
     "nightlife": 30,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 68,
+    "singleLife": 52,
+    "disaster": 72,
+    "family": 85,
+    "rentValue": 61
   },
   "kita-ikebukuro": {
     "commute": 57,
@@ -3517,7 +5090,12 @@
     "food": 9,
     "cafe": 7,
     "nightlife": 20,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 84,
+    "singleLife": 37,
+    "disaster": 79,
+    "family": 92,
+    "rentValue": 80
   },
   "senkawa": {
     "commute": 55,
@@ -3528,7 +5106,12 @@
     "food": 10,
     "cafe": 0,
     "nightlife": 13,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 88,
+    "singleLife": 19,
+    "disaster": 76,
+    "family": 42,
+    "rentValue": 96
   },
   "mukohara": {
     "commute": 49,
@@ -3539,7 +5122,12 @@
     "food": 74,
     "cafe": 77,
     "nightlife": 67,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 31,
+    "singleLife": 73,
+    "disaster": 93,
+    "family": 85,
+    "rentValue": 18
   },
   "otsuka": {
     "commute": 59,
@@ -3550,7 +5138,12 @@
     "food": 73,
     "cafe": 69,
     "nightlife": 68,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 30,
+    "singleLife": 74,
+    "disaster": 94,
+    "family": 88,
+    "rentValue": 69
   },
   "gakushuinshita": {
     "commute": 47,
@@ -3561,7 +5154,12 @@
     "food": 75,
     "cafe": 68,
     "nightlife": 53,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 39,
+    "singleLife": 68,
+    "disaster": 79,
+    "family": 30,
+    "rentValue": 10
   },
   "sugamo": {
     "commute": 64,
@@ -3572,7 +5170,12 @@
     "food": 74,
     "cafe": 69,
     "nightlife": 64,
-    "fitness": 92
+    "fitness": 92,
+    "quietness": 32,
+    "singleLife": 70,
+    "disaster": 100,
+    "family": 94,
+    "rentValue": 70
   },
   "sugamoshinden": {
     "commute": 47,
@@ -3583,7 +5186,12 @@
     "food": 71,
     "cafe": 65,
     "nightlife": 68,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 31,
+    "singleLife": 69,
+    "disaster": 88,
+    "family": 96,
+    "rentValue": 14
   },
   "koshinzuka": {
     "commute": 43,
@@ -3594,7 +5202,12 @@
     "food": 45,
     "cafe": 42,
     "nightlife": 36,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 61,
+    "singleLife": 54,
+    "disaster": 94,
+    "family": 99,
+    "rentValue": 5
   },
   "shin-koshinzuka": {
     "commute": 42,
@@ -3605,7 +5218,12 @@
     "food": 28,
     "cafe": 31,
     "nightlife": 28,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 72,
+    "singleLife": 44,
+    "disaster": 94,
+    "family": 98,
+    "rentValue": 8
   },
   "higashi-ikebukuro": {
     "commute": 63,
@@ -3616,7 +5234,12 @@
     "food": 83,
     "cafe": 86,
     "nightlife": 69,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 26,
+    "singleLife": 76,
+    "disaster": 94,
+    "family": 70,
+    "rentValue": 82
   },
   "higashi-nagasaki": {
     "commute": 53,
@@ -3627,7 +5250,12 @@
     "food": 13,
     "cafe": 7,
     "nightlife": 20,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 82,
+    "singleLife": 21,
+    "disaster": 100,
+    "family": 49,
+    "rentValue": 88
   },
   "shiinamachi": {
     "commute": 57,
@@ -3638,7 +5266,12 @@
     "food": 29,
     "cafe": 31,
     "nightlife": 9,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 84,
+    "singleLife": 42,
+    "disaster": 88,
+    "family": 85,
+    "rentValue": 92
   },
   "ikebukuro": {
     "commute": 72,
@@ -3649,7 +5282,12 @@
     "food": 90,
     "cafe": 95,
     "nightlife": 80,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 16,
+    "singleLife": 86,
+    "disaster": 100,
+    "family": 87,
+    "rentValue": 99
   },
   "mejiro": {
     "commute": 62,
@@ -3660,7 +5298,12 @@
     "food": 67,
     "cafe": 70,
     "nightlife": 55,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 41,
+    "singleLife": 64,
+    "disaster": 72,
+    "family": 43,
+    "rentValue": 77
   },
   "ochiai-minami-nagasaki": {
     "commute": 57,
@@ -3671,7 +5314,12 @@
     "food": 32,
     "cafe": 26,
     "nightlife": 24,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 73,
+    "singleLife": 40,
+    "disaster": 82,
+    "family": 68,
+    "rentValue": 97
   },
   "nishi-sugamo": {
     "commute": 56,
@@ -3682,7 +5330,12 @@
     "food": 15,
     "cafe": 20,
     "nightlife": 17,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 84,
+    "singleLife": 39,
+    "disaster": 94,
+    "family": 97,
+    "rentValue": 79
   },
   "kanamecho": {
     "commute": 58,
@@ -3693,7 +5346,12 @@
     "food": 41,
     "cafe": 39,
     "nightlife": 13,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 77,
+    "singleLife": 40,
+    "disaster": 72,
+    "family": 58,
+    "rentValue": 94
   },
   "toden-zoshigaya": {
     "commute": 52,
@@ -3704,7 +5362,12 @@
     "food": 82,
     "cafe": 86,
     "nightlife": 67,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 28,
+    "singleLife": 70,
+    "disaster": 100,
+    "family": 62,
+    "rentValue": 46
   },
   "zoshigaya": {
     "commute": 59,
@@ -3715,7 +5378,12 @@
     "food": 52,
     "cafe": 66,
     "nightlife": 20,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 69,
+    "singleLife": 62,
+    "disaster": 100,
+    "family": 59,
+    "rentValue": 76
   },
   "komagome": {
     "commute": 59,
@@ -3726,7 +5394,12 @@
     "food": 81,
     "cafe": 71,
     "nightlife": 69,
-    "fitness": 94
+    "fitness": 94,
+    "quietness": 27,
+    "singleLife": 75,
+    "disaster": 66,
+    "family": 93,
+    "rentValue": 67
   },
   "kami-nakazato": {
     "commute": 54,
@@ -3737,7 +5410,12 @@
     "food": 52,
     "cafe": 47,
     "nightlife": 20,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 69,
+    "singleLife": 54,
+    "disaster": 68,
+    "family": 80,
+    "rentValue": 87
   },
   "kita-akabane": {
     "commute": 46,
@@ -3748,7 +5426,12 @@
     "food": 5,
     "cafe": 0,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 98,
+    "singleLife": 16,
+    "disaster": 27,
+    "family": 2,
+    "rentValue": 71
   },
   "jujo": {
     "commute": 55,
@@ -3759,7 +5442,12 @@
     "food": 68,
     "cafe": 58,
     "nightlife": 82,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 23,
+    "singleLife": 62,
+    "disaster": 72,
+    "family": 84,
+    "rentValue": 96
   },
   "oku": {
     "commute": 53,
@@ -3770,7 +5458,12 @@
     "food": 44,
     "cafe": 31,
     "nightlife": 24,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 69,
+    "singleLife": 46,
+    "disaster": 36,
+    "family": 84,
+    "rentValue": 91
   },
   "shimo": {
     "commute": 41,
@@ -3781,7 +5474,12 @@
     "food": 19,
     "cafe": 20,
     "nightlife": 28,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 75,
+    "singleLife": 28,
+    "disaster": 18,
+    "family": 21,
+    "rentValue": 45
   },
   "higashi-jujo": {
     "commute": 51,
@@ -3792,7 +5490,12 @@
     "food": 75,
     "cafe": 63,
     "nightlife": 85,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 18,
+    "singleLife": 70,
+    "disaster": 60,
+    "family": 54,
+    "rentValue": 84
   },
   "sakaecho": {
     "commute": 42,
@@ -3803,7 +5506,12 @@
     "food": 69,
     "cafe": 58,
     "nightlife": 59,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 38,
+    "singleLife": 63,
+    "disaster": 52,
+    "family": 79,
+    "rentValue": 4
   },
   "kajiwara": {
     "commute": 39,
@@ -3814,7 +5522,12 @@
     "food": 37,
     "cafe": 12,
     "nightlife": 13,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 79,
+    "singleLife": 38,
+    "disaster": 28,
+    "family": 91,
+    "rentValue": 23
   },
   "takinogawa-itchome": {
     "commute": 41,
@@ -3825,7 +5538,12 @@
     "food": 31,
     "cafe": 54,
     "nightlife": 44,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 61,
+    "singleLife": 43,
+    "disaster": 82,
+    "family": 78,
+    "rentValue": 59
   },
   "oji": {
     "commute": 53,
@@ -3836,7 +5554,12 @@
     "food": 64,
     "cafe": 58,
     "nightlife": 62,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 37,
+    "singleLife": 64,
+    "disaster": 44,
+    "family": 80,
+    "rentValue": 73
   },
   "oji-kamiya": {
     "commute": 45,
@@ -3847,7 +5570,12 @@
     "food": 49,
     "cafe": 31,
     "nightlife": 57,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 46,
+    "singleLife": 49,
+    "disaster": 18,
+    "family": 71,
+    "rentValue": 29
   },
   "tabata": {
     "commute": 61,
@@ -3858,7 +5586,12 @@
     "food": 54,
     "cafe": 35,
     "nightlife": 30,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 62,
+    "singleLife": 58,
+    "disaster": 59,
+    "family": 97,
+    "rentValue": 93
   },
   "nishigahara": {
     "commute": 53,
@@ -3869,7 +5602,12 @@
     "food": 49,
     "cafe": 47,
     "nightlife": 30,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 63,
+    "singleLife": 53,
+    "disaster": 72,
+    "family": 86,
+    "rentValue": 81
   },
   "nishigahara-yonchome": {
     "commute": 41,
@@ -3880,7 +5618,12 @@
     "food": 17,
     "cafe": 26,
     "nightlife": 17,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 83,
+    "singleLife": 32,
+    "disaster": 94,
+    "family": 81,
+    "rentValue": 43
   },
   "akabane": {
     "commute": 55,
@@ -3891,7 +5634,12 @@
     "food": 66,
     "cafe": 66,
     "nightlife": 82,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 24,
+    "singleLife": 68,
+    "disaster": 52,
+    "family": 37,
+    "rentValue": 93
   },
   "akabane-iwabuchi": {
     "commute": 38,
@@ -3902,7 +5650,12 @@
     "food": 64,
     "cafe": 64,
     "nightlife": 81,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 25,
+    "singleLife": 60,
+    "disaster": 18,
+    "family": 36,
+    "rentValue": 26
   },
   "asukayama": {
     "commute": 43,
@@ -3913,7 +5666,12 @@
     "food": 50,
     "cafe": 54,
     "nightlife": 49,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 51,
+    "singleLife": 54,
+    "disaster": 72,
+    "family": 87,
+    "rentValue": 59
   },
   "minowabashi": {
     "commute": 34,
@@ -3924,7 +5682,12 @@
     "food": 62,
     "cafe": 47,
     "nightlife": 73,
-    "fitness": 82
+    "fitness": 82,
+    "quietness": 31,
+    "singleLife": 58,
+    "disaster": 28,
+    "family": 98,
+    "rentValue": 4
   },
   "mikawashima": {
     "commute": 55,
@@ -3935,7 +5698,12 @@
     "food": 67,
     "cafe": 56,
     "nightlife": 62,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 36,
+    "singleLife": 68,
+    "disaster": 28,
+    "family": 100,
+    "rentValue": 68
   },
   "minami-senju": {
     "commute": 55,
@@ -3946,7 +5714,12 @@
     "food": 60,
     "cafe": 50,
     "nightlife": 76,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 30,
+    "singleLife": 59,
+    "disaster": 28,
+    "family": 87,
+    "rentValue": 65
   },
   "miyanomae": {
     "commute": 37,
@@ -3957,7 +5730,12 @@
     "food": 37,
     "cafe": 39,
     "nightlife": 24,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 71,
+    "singleLife": 41,
+    "disaster": 28,
+    "family": 89,
+    "rentValue": 42
   },
   "odai": {
     "commute": 35,
@@ -3968,7 +5746,12 @@
     "food": 35,
     "cafe": 31,
     "nightlife": 24,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 72,
+    "singleLife": 36,
+    "disaster": 28,
+    "family": 84,
+    "rentValue": 45
   },
   "shim-mikawashima": {
     "commute": 52,
@@ -3979,7 +5762,12 @@
     "food": 60,
     "cafe": 50,
     "nightlife": 61,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 39,
+    "singleLife": 63,
+    "disaster": 28,
+    "family": 99,
+    "rentValue": 41
   },
   "nippori": {
     "commute": 63,
@@ -3990,7 +5778,12 @@
     "food": 72,
     "cafe": 78,
     "nightlife": 68,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 31,
+    "singleLife": 75,
+    "disaster": 72,
+    "family": 89,
+    "rentValue": 89
   },
   "higashi-ogu-sanchome": {
     "commute": 42,
@@ -4001,7 +5794,12 @@
     "food": 49,
     "cafe": 39,
     "nightlife": 50,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 50,
+    "singleLife": 52,
+    "disaster": 28,
+    "family": 95,
+    "rentValue": 55
   },
   "kumanomae": {
     "commute": 47,
@@ -4012,7 +5810,12 @@
     "food": 39,
     "cafe": 26,
     "nightlife": 30,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 67,
+    "singleLife": 42,
+    "disaster": 18,
+    "family": 90,
+    "rentValue": 75
   },
   "machiya": {
     "commute": 54,
@@ -4023,7 +5826,12 @@
     "food": 53,
     "cafe": 39,
     "nightlife": 50,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 49,
+    "singleLife": 54,
+    "disaster": 36,
+    "family": 97,
+    "rentValue": 89
   },
   "machiya-nichome": {
     "commute": 44,
@@ -4034,7 +5842,12 @@
     "food": 54,
     "cafe": 42,
     "nightlife": 52,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 47,
+    "singleLife": 54,
+    "disaster": 28,
+    "family": 97,
+    "rentValue": 54
   },
   "arakawa-itchumae": {
     "commute": 37,
@@ -4045,7 +5858,12 @@
     "food": 63,
     "cafe": 31,
     "nightlife": 58,
-    "fitness": 82
+    "fitness": 82,
+    "quietness": 40,
+    "singleLife": 57,
+    "disaster": 28,
+    "family": 98,
+    "rentValue": 10
   },
   "arakawa-nanachome": {
     "commute": 45,
@@ -4056,7 +5874,12 @@
     "food": 50,
     "cafe": 35,
     "nightlife": 47,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 52,
+    "singleLife": 50,
+    "disaster": 28,
+    "family": 95,
+    "rentValue": 53
   },
   "arakawa-nichome": {
     "commute": 42,
@@ -4067,7 +5890,12 @@
     "food": 50,
     "cafe": 42,
     "nightlife": 44,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 54,
+    "singleLife": 50,
+    "disaster": 28,
+    "family": 96,
+    "rentValue": 62
   },
   "arakawakuyakushomae": {
     "commute": 38,
@@ -4078,7 +5906,12 @@
     "food": 52,
     "cafe": 39,
     "nightlife": 53,
-    "fitness": 82
+    "fitness": 82,
+    "quietness": 47,
+    "singleLife": 55,
+    "disaster": 28,
+    "family": 99,
+    "rentValue": 35
   },
   "arakawa-shakomae": {
     "commute": 36,
@@ -4089,7 +5922,12 @@
     "food": 39,
     "cafe": 20,
     "nightlife": 9,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 80,
+    "singleLife": 36,
+    "disaster": 28,
+    "family": 88,
+    "rentValue": 17
   },
   "arakawa-yuenchimae": {
     "commute": 34,
@@ -4100,7 +5938,12 @@
     "food": 34,
     "cafe": 26,
     "nightlife": 20,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 75,
+    "singleLife": 35,
+    "disaster": 28,
+    "family": 83,
+    "rentValue": 26
   },
   "nishi-nippori": {
     "commute": 64,
@@ -4111,7 +5954,12 @@
     "food": 70,
     "cafe": 73,
     "nightlife": 61,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 36,
+    "singleLife": 74,
+    "disaster": 72,
+    "family": 93,
+    "rentValue": 89
   },
   "akado-shogakkomae": {
     "commute": 50,
@@ -4122,7 +5970,12 @@
     "food": 49,
     "cafe": 35,
     "nightlife": 52,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 49,
+    "singleLife": 52,
+    "disaster": 28,
+    "family": 94,
+    "rentValue": 42
   },
   "tokiwadai": {
     "commute": 46,
@@ -4133,7 +5986,12 @@
     "food": 23,
     "cafe": 20,
     "nightlife": 13,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 84,
+    "singleLife": 29,
+    "disaster": 52,
+    "family": 11,
+    "rentValue": 70
   },
   "kami-itabashi": {
     "commute": 43,
@@ -4144,7 +6002,12 @@
     "food": 23,
     "cafe": 2,
     "nightlife": 13,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 84,
+    "singleLife": 24,
+    "disaster": 88,
+    "family": 17,
+    "rentValue": 64
   },
   "naka-itabashi": {
     "commute": 48,
@@ -4155,7 +6018,12 @@
     "food": 27,
     "cafe": 20,
     "nightlife": 24,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 75,
+    "singleLife": 33,
+    "disaster": 79,
+    "family": 24,
+    "rentValue": 72
   },
   "chikatetsu-akatsuka": {
     "commute": 38,
@@ -4166,7 +6034,12 @@
     "food": 63,
     "cafe": 50,
     "nightlife": 77,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 28,
+    "singleLife": 60,
+    "disaster": 100,
+    "family": 94,
+    "rentValue": 42
   },
   "oyama": {
     "commute": 51,
@@ -4177,7 +6050,12 @@
     "food": 23,
     "cafe": 26,
     "nightlife": 20,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 79,
+    "singleLife": 39,
+    "disaster": 93,
+    "family": 27,
+    "rentValue": 81
   },
   "shimura-sanchome": {
     "commute": 37,
@@ -4188,7 +6066,12 @@
     "food": 17,
     "cafe": 0,
     "nightlife": 24,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 78,
+    "singleLife": 26,
+    "disaster": 45,
+    "family": 27,
+    "rentValue": 38
   },
   "shimura-sakaue": {
     "commute": 40,
@@ -4199,7 +6082,12 @@
     "food": 7,
     "cafe": 7,
     "nightlife": 13,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 89,
+    "singleLife": 25,
+    "disaster": 100,
+    "family": 32,
+    "rentValue": 48
   },
   "narimasu": {
     "commute": 35,
@@ -4210,7 +6098,12 @@
     "food": 28,
     "cafe": 31,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 90,
+    "singleLife": 40,
+    "disaster": 100,
+    "family": 69,
+    "rentValue": 39
   },
   "shin-itabashi": {
     "commute": 53,
@@ -4221,7 +6114,12 @@
     "food": 27,
     "cafe": 12,
     "nightlife": 30,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 71,
+    "singleLife": 39,
+    "disaster": 86,
+    "family": 77,
+    "rentValue": 76
   },
   "shin-takashimadaira": {
     "commute": 30,
@@ -4232,7 +6130,12 @@
     "food": 7,
     "cafe": 0,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 98,
+    "singleLife": 12,
+    "disaster": 18,
+    "family": 41,
+    "rentValue": 33
   },
   "motohasunuma": {
     "commute": 42,
@@ -4243,7 +6146,12 @@
     "food": 3,
     "cafe": 2,
     "nightlife": 3,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 97,
+    "singleLife": 23,
+    "disaster": 82,
+    "family": 52,
+    "rentValue": 50
   },
   "itabashi": {
     "commute": 60,
@@ -4254,7 +6162,12 @@
     "food": 15,
     "cafe": 7,
     "nightlife": 24,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 79,
+    "singleLife": 38,
+    "disaster": 79,
+    "family": 96,
+    "rentValue": 77
   },
   "itabashi-kuyakushomae": {
     "commute": 49,
@@ -4265,7 +6178,12 @@
     "food": 57,
     "cafe": 54,
     "nightlife": 39,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 55,
+    "singleLife": 58,
+    "disaster": 94,
+    "family": 63,
+    "rentValue": 68
   },
   "itabashihoncho": {
     "commute": 45,
@@ -4276,7 +6194,12 @@
     "food": 19,
     "cafe": 20,
     "nightlife": 13,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 85,
+    "singleLife": 29,
+    "disaster": 94,
+    "family": 43,
+    "rentValue": 69
   },
   "ukimafunado": {
     "commute": 43,
@@ -4287,7 +6210,12 @@
     "food": 0,
     "cafe": 2,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 100,
+    "singleLife": 14,
+    "disaster": 18,
+    "family": 17,
+    "rentValue": 72
   },
   "hasune": {
     "commute": 35,
@@ -4298,7 +6226,12 @@
     "food": 21,
     "cafe": 12,
     "nightlife": 24,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 77,
+    "singleLife": 31,
+    "disaster": 18,
+    "family": 45,
+    "rentValue": 34
   },
   "nishidai": {
     "commute": 34,
@@ -4309,7 +6242,12 @@
     "food": 21,
     "cafe": 12,
     "nightlife": 28,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 74,
+    "singleLife": 29,
+    "disaster": 18,
+    "family": 47,
+    "rentValue": 26
   },
   "nishi-takashimadaira": {
     "commute": 28,
@@ -4320,7 +6258,12 @@
     "food": 2,
     "cafe": 0,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 99,
+    "singleLife": 8,
+    "disaster": 18,
+    "family": 25,
+    "rentValue": 14
   },
   "takashimadaira": {
     "commute": 31,
@@ -4331,7 +6274,12 @@
     "food": 12,
     "cafe": 2,
     "nightlife": 3,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 94,
+    "singleLife": 18,
+    "disaster": 18,
+    "family": 48,
+    "rentValue": 21
   },
   "kami-igusa": {
     "commute": 34,
@@ -4342,7 +6290,12 @@
     "food": 19,
     "cafe": 2,
     "nightlife": 9,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 88,
+    "singleLife": 23,
+    "disaster": 79,
+    "family": 67,
+    "rentValue": 39
   },
   "kami-shakujii": {
     "commute": 32,
@@ -4353,7 +6306,12 @@
     "food": 27,
     "cafe": 2,
     "nightlife": 28,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 72,
+    "singleLife": 29,
+    "disaster": 93,
+    "family": 64,
+    "rentValue": 28
   },
   "nakamurabashi": {
     "commute": 41,
@@ -4364,7 +6322,12 @@
     "food": 47,
     "cafe": 20,
     "nightlife": 42,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 56,
+    "singleLife": 49,
+    "disaster": 59,
+    "family": 91,
+    "rentValue": 71
   },
   "hikarigaoka": {
     "commute": 37,
@@ -4375,7 +6338,12 @@
     "food": 17,
     "cafe": 26,
     "nightlife": 9,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 88,
+    "singleLife": 26,
+    "disaster": 72,
+    "family": 74,
+    "rentValue": 25
   },
   "oizumi-gakuen": {
     "commute": 30,
@@ -4386,7 +6354,12 @@
     "food": 32,
     "cafe": 42,
     "nightlife": 17,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 78,
+    "singleLife": 38,
+    "disaster": 94,
+    "family": 98,
+    "rentValue": 32
   },
   "kotake-mukaihara": {
     "commute": 51,
@@ -4397,7 +6370,12 @@
     "food": 13,
     "cafe": 2,
     "nightlife": 0,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 95,
+    "singleLife": 25,
+    "disaster": 79,
+    "family": 24,
+    "rentValue": 91
   },
   "heiwadai": {
     "commute": 42,
@@ -4408,7 +6386,12 @@
     "food": 13,
     "cafe": 0,
     "nightlife": 13,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 87,
+    "singleLife": 20,
+    "disaster": 79,
+    "family": 60,
+    "rentValue": 64
   },
   "shin-sakuradai": {
     "commute": 42,
@@ -4419,7 +6402,12 @@
     "food": 35,
     "cafe": 7,
     "nightlife": 42,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 60,
+    "singleLife": 35,
+    "disaster": 100,
+    "family": 22,
+    "rentValue": 62
   },
   "shin-egota": {
     "commute": 51,
@@ -4430,7 +6418,12 @@
     "food": 36,
     "cafe": 7,
     "nightlife": 39,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 62,
+    "singleLife": 36,
+    "disaster": 76,
+    "family": 13,
+    "rentValue": 82
   },
   "tobu-nerima": {
     "commute": 39,
@@ -4441,7 +6434,12 @@
     "food": 28,
     "cafe": 20,
     "nightlife": 61,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 51,
+    "singleLife": 35,
+    "disaster": 79,
+    "family": 50,
+    "rentValue": 61
   },
   "sakuradai": {
     "commute": 46,
@@ -4452,7 +6450,12 @@
     "food": 52,
     "cafe": 31,
     "nightlife": 53,
-    "fitness": 77
+    "fitness": 77,
+    "quietness": 47,
+    "singleLife": 47,
+    "disaster": 88,
+    "family": 29,
+    "rentValue": 70
   },
   "musashi-seki": {
     "commute": 29,
@@ -4463,7 +6466,12 @@
     "food": 35,
     "cafe": 20,
     "nightlife": 28,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 70,
+    "singleLife": 34,
+    "disaster": 86,
+    "family": 81,
+    "rentValue": 22
   },
   "hikawadai": {
     "commute": 46,
@@ -4474,7 +6482,12 @@
     "food": 5,
     "cafe": 7,
     "nightlife": 0,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 98,
+    "singleLife": 24,
+    "disaster": 72,
+    "family": 13,
+    "rentValue": 85
   },
   "ekoda": {
     "commute": 49,
@@ -4485,7 +6498,12 @@
     "food": 41,
     "cafe": 12,
     "nightlife": 39,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 60,
+    "singleLife": 38,
+    "disaster": 88,
+    "family": 27,
+    "rentValue": 88
   },
   "shakujii-koen": {
     "commute": 34,
@@ -4496,7 +6514,12 @@
     "food": 33,
     "cafe": 42,
     "nightlife": 33,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 67,
+    "singleLife": 34,
+    "disaster": 86,
+    "family": 53,
+    "rentValue": 37
   },
   "nerima": {
     "commute": 48,
@@ -4507,7 +6530,12 @@
     "food": 62,
     "cafe": 42,
     "nightlife": 53,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 44,
+    "singleLife": 60,
+    "disaster": 79,
+    "family": 80,
+    "rentValue": 81
   },
   "nerima-kasugacho": {
     "commute": 40,
@@ -4518,7 +6546,12 @@
     "food": 13,
     "cafe": 7,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 95,
+    "singleLife": 19,
+    "disaster": 76,
+    "family": 78,
+    "rentValue": 54
   },
   "nerima-takanodai": {
     "commute": 36,
@@ -4529,7 +6562,12 @@
     "food": 5,
     "cafe": 20,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 98,
+    "singleLife": 22,
+    "disaster": 88,
+    "family": 59,
+    "rentValue": 40
   },
   "toshimaen": {
     "commute": 44,
@@ -4540,7 +6578,12 @@
     "food": 34,
     "cafe": 35,
     "nightlife": 13,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 80,
+    "singleLife": 45,
+    "disaster": 82,
+    "family": 87,
+    "rentValue": 78
   },
   "gotanno": {
     "commute": 39,
@@ -4551,7 +6594,12 @@
     "food": 43,
     "cafe": 7,
     "nightlife": 39,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 60,
+    "singleLife": 33,
+    "disaster": 18,
+    "family": 50,
+    "rentValue": 61
   },
   "rokucho": {
     "commute": 43,
@@ -4562,7 +6610,12 @@
     "food": 7,
     "cafe": 0,
     "nightlife": 9,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 92,
+    "singleLife": 14,
+    "disaster": 28,
+    "family": 37,
+    "rentValue": 87
   },
   "kita-senju": {
     "commute": 52,
@@ -4573,7 +6626,12 @@
     "food": 77,
     "cafe": 69,
     "nightlife": 94,
-    "fitness": 86
+    "fitness": 86,
+    "quietness": 12,
+    "singleLife": 65,
+    "disaster": 18,
+    "family": 79,
+    "rentValue": 85
   },
   "kita-ayase": {
     "commute": 37,
@@ -4584,7 +6642,12 @@
     "food": 15,
     "cafe": 2,
     "nightlife": 30,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 75,
+    "singleLife": 18,
+    "disaster": 28,
+    "family": 47,
+    "rentValue": 50
   },
   "senjuohashi": {
     "commute": 45,
@@ -4595,7 +6658,12 @@
     "food": 17,
     "cafe": 12,
     "nightlife": 33,
-    "fitness": 77
+    "fitness": 77,
+    "quietness": 73,
+    "singleLife": 23,
+    "disaster": 18,
+    "family": 67,
+    "rentValue": 62
   },
   "horikiri": {
     "commute": 41,
@@ -4606,7 +6674,12 @@
     "food": 16,
     "cafe": 0,
     "nightlife": 30,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 75,
+    "singleLife": 16,
+    "disaster": 54,
+    "family": 12,
+    "rentValue": 76
   },
   "daishimae": {
     "commute": 28,
@@ -4617,7 +6690,12 @@
     "food": 36,
     "cafe": 50,
     "nightlife": 67,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 44,
+    "singleLife": 35,
+    "disaster": 28,
+    "family": 37,
+    "rentValue": 15
   },
   "kosuge": {
     "commute": 42,
@@ -4628,7 +6706,12 @@
     "food": 21,
     "cafe": 12,
     "nightlife": 20,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 80,
+    "singleLife": 20,
+    "disaster": 45,
+    "family": 43,
+    "rentValue": 52
   },
   "ogi-ohashi": {
     "commute": 40,
@@ -4639,7 +6722,12 @@
     "food": 7,
     "cafe": 0,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 98,
+    "singleLife": 14,
+    "disaster": 18,
+    "family": 16,
+    "rentValue": 71
   },
   "umejima": {
     "commute": 36,
@@ -4650,7 +6738,12 @@
     "food": 40,
     "cafe": 0,
     "nightlife": 48,
-    "fitness": 77
+    "fitness": 77,
+    "quietness": 55,
+    "singleLife": 30,
+    "disaster": 18,
+    "family": 20,
+    "rentValue": 44
   },
   "kohoku": {
     "commute": 36,
@@ -4661,7 +6754,12 @@
     "food": 12,
     "cafe": 0,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 96,
+    "singleLife": 18,
+    "disaster": 28,
+    "family": 30,
+    "rentValue": 39
   },
   "ushida": {
     "commute": 43,
@@ -4672,7 +6770,12 @@
     "food": 39,
     "cafe": 31,
     "nightlife": 78,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 36,
+    "singleLife": 31,
+    "disaster": 27,
+    "family": 13,
+    "rentValue": 64
   },
   "takenotsuka": {
     "commute": 31,
@@ -4683,7 +6786,12 @@
     "food": 36,
     "cafe": 12,
     "nightlife": 49,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 56,
+    "singleLife": 38,
+    "disaster": 38,
+    "family": 61,
+    "rentValue": 27
   },
   "ayase": {
     "commute": 43,
@@ -4694,7 +6802,12 @@
     "food": 56,
     "cafe": 54,
     "nightlife": 85,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 25,
+    "singleLife": 59,
+    "disaster": 18,
+    "family": 80,
+    "rentValue": 63
   },
   "toneri": {
     "commute": 26,
@@ -4705,7 +6818,12 @@
     "food": 10,
     "cafe": 2,
     "nightlife": 24,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 81,
+    "singleLife": 14,
+    "disaster": 38,
+    "family": 10,
+    "rentValue": 7
   },
   "toneri-koen": {
     "commute": 28,
@@ -4716,7 +6834,12 @@
     "food": 2,
     "cafe": 0,
     "nightlife": 3,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 97,
+    "singleLife": 8,
+    "disaster": 28,
+    "family": 5,
+    "rentValue": 15
   },
   "nishiarai": {
     "commute": 34,
@@ -4727,7 +6850,12 @@
     "food": 29,
     "cafe": 47,
     "nightlife": 64,
-    "fitness": 77
+    "fitness": 77,
+    "quietness": 48,
+    "singleLife": 39,
+    "disaster": 28,
+    "family": 25,
+    "rentValue": 37
   },
   "nishiaraidaishi-nishi": {
     "commute": 33,
@@ -4738,7 +6866,12 @@
     "food": 25,
     "cafe": 2,
     "nightlife": 13,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 83,
+    "singleLife": 25,
+    "disaster": 28,
+    "family": 36,
+    "rentValue": 32
   },
   "minumadai-shinsuikoen": {
     "commute": 23,
@@ -4749,7 +6882,12 @@
     "food": 9,
     "cafe": 2,
     "nightlife": 24,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 81,
+    "singleLife": 12,
+    "disaster": 45,
+    "family": 8,
+    "rentValue": 3
   },
   "yazaike": {
     "commute": 30,
@@ -4760,7 +6898,12 @@
     "food": 7,
     "cafe": 0,
     "nightlife": 17,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 86,
+    "singleLife": 11,
+    "disaster": 38,
+    "family": 7,
+    "rentValue": 24
   },
   "adachi-odai": {
     "commute": 44,
@@ -4771,7 +6914,12 @@
     "food": 3,
     "cafe": 2,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 99,
+    "singleLife": 16,
+    "disaster": 54,
+    "family": 61,
+    "rentValue": 86
   },
   "aoi": {
     "commute": 46,
@@ -4782,7 +6930,12 @@
     "food": 10,
     "cafe": 0,
     "nightlife": 3,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 95,
+    "singleLife": 18,
+    "disaster": 18,
+    "family": 32,
+    "rentValue": 83
   },
   "koya": {
     "commute": 38,
@@ -4793,7 +6946,12 @@
     "food": 9,
     "cafe": 0,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 97,
+    "singleLife": 18,
+    "disaster": 28,
+    "family": 30,
+    "rentValue": 63
   },
   "ohanajaya": {
     "commute": 35,
@@ -4804,7 +6962,12 @@
     "food": 32,
     "cafe": 7,
     "nightlife": 24,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 73,
+    "singleLife": 34,
+    "disaster": 18,
+    "family": 48,
+    "rentValue": 29
   },
   "kameari": {
     "commute": 36,
@@ -4815,7 +6978,12 @@
     "food": 71,
     "cafe": 54,
     "nightlife": 76,
-    "fitness": 86
+    "fitness": 86,
+    "quietness": 26,
+    "singleLife": 59,
+    "disaster": 18,
+    "family": 60,
+    "rentValue": 40
   },
   "keisei-tateishi": {
     "commute": 36,
@@ -4826,7 +6994,12 @@
     "food": 30,
     "cafe": 20,
     "nightlife": 66,
-    "fitness": 70
+    "fitness": 70,
+    "quietness": 47,
+    "singleLife": 27,
+    "disaster": 18,
+    "family": 22,
+    "rentValue": 38
   },
   "keisei-takasago": {
     "commute": 31,
@@ -4837,7 +7010,12 @@
     "food": 28,
     "cafe": 39,
     "nightlife": 70,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 45,
+    "singleLife": 33,
+    "disaster": 28,
+    "family": 26,
+    "rentValue": 21
   },
   "yotsugi": {
     "commute": 40,
@@ -4848,7 +7026,12 @@
     "food": 13,
     "cafe": 7,
     "nightlife": 36,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 72,
+    "singleLife": 19,
+    "disaster": 45,
+    "family": 11,
+    "rentValue": 66
   },
   "horikirishobuen": {
     "commute": 38,
@@ -4859,7 +7042,12 @@
     "food": 53,
     "cafe": 12,
     "nightlife": 58,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 44,
+    "singleLife": 36,
+    "disaster": 18,
+    "family": 26,
+    "rentValue": 55
   },
   "shin-koiwa": {
     "commute": 53,
@@ -4870,7 +7058,12 @@
     "food": 29,
     "cafe": 2,
     "nightlife": 17,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 79,
+    "singleLife": 29,
+    "disaster": 28,
+    "family": 14,
+    "rentValue": 96
   },
   "shin-shibamata": {
     "commute": 25,
@@ -4881,7 +7074,12 @@
     "food": 23,
     "cafe": 20,
     "nightlife": 24,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 76,
+    "singleLife": 27,
+    "disaster": 28,
+    "family": 22,
+    "rentValue": 11
   },
   "shibamata": {
     "commute": 26,
@@ -4892,7 +7090,12 @@
     "food": 29,
     "cafe": 20,
     "nightlife": 52,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 56,
+    "singleLife": 30,
+    "disaster": 38,
+    "family": 24,
+    "rentValue": 13
   },
   "kanamachi": {
     "commute": 32,
@@ -4903,7 +7106,12 @@
     "food": 60,
     "cafe": 35,
     "nightlife": 72,
-    "fitness": 77
+    "fitness": 77,
+    "quietness": 32,
+    "singleLife": 45,
+    "disaster": 28,
+    "family": 68,
+    "rentValue": 29
   },
   "aoto": {
     "commute": 34,
@@ -4914,7 +7122,12 @@
     "food": 35,
     "cafe": 20,
     "nightlife": 69,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 43,
+    "singleLife": 38,
+    "disaster": 36,
+    "family": 54,
+    "rentValue": 34
   },
   "ichinoe": {
     "commute": 39,
@@ -4925,7 +7138,12 @@
     "food": 35,
     "cafe": 12,
     "nightlife": 44,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 59,
+    "singleLife": 30,
+    "disaster": 28,
+    "family": 23,
+    "rentValue": 48
   },
   "keisei-koiwa": {
     "commute": 26,
@@ -4936,7 +7154,12 @@
     "food": 39,
     "cafe": 31,
     "nightlife": 49,
-    "fitness": 82
+    "fitness": 82,
+    "quietness": 54,
+    "singleLife": 43,
+    "disaster": 28,
+    "family": 45,
+    "rentValue": 15
   },
   "koiwa": {
     "commute": 39,
@@ -4947,7 +7170,12 @@
     "food": 41,
     "cafe": 31,
     "nightlife": 57,
-    "fitness": 77
+    "fitness": 77,
+    "quietness": 49,
+    "singleLife": 47,
+    "disaster": 28,
+    "family": 85,
+    "rentValue": 69
   },
   "hirai": {
     "commute": 48,
@@ -4958,7 +7186,12 @@
     "food": 28,
     "cafe": 26,
     "nightlife": 36,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 67,
+    "singleLife": 30,
+    "disaster": 18,
+    "family": 18,
+    "rentValue": 79
   },
   "edogawa": {
     "commute": 25,
@@ -4969,7 +7202,12 @@
     "food": 9,
     "cafe": 2,
     "nightlife": 13,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 88,
+    "singleLife": 11,
+    "disaster": 60,
+    "family": 12,
+    "rentValue": 13
   },
   "mizue": {
     "commute": 35,
@@ -4980,7 +7218,12 @@
     "food": 16,
     "cafe": 26,
     "nightlife": 9,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 89,
+    "singleLife": 34,
+    "disaster": 28,
+    "family": 96,
+    "rentValue": 46
   },
   "shinozaki": {
     "commute": 32,
@@ -4991,7 +7234,12 @@
     "food": 27,
     "cafe": 12,
     "nightlife": 13,
-    "fitness": 14
+    "fitness": 14,
+    "quietness": 82,
+    "singleLife": 21,
+    "disaster": 28,
+    "family": 82,
+    "rentValue": 32
   },
   "funabori": {
     "commute": 43,
@@ -5002,7 +7250,12 @@
     "food": 31,
     "cafe": 7,
     "nightlife": 13,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 81,
+    "singleLife": 28,
+    "disaster": 18,
+    "family": 55,
+    "rentValue": 73
   },
   "kasai": {
     "commute": 43,
@@ -5013,7 +7266,12 @@
     "food": 64,
     "cafe": 35,
     "nightlife": 74,
-    "fitness": 57
+    "fitness": 57,
+    "quietness": 30,
+    "singleLife": 58,
+    "disaster": 28,
+    "family": 78,
+    "rentValue": 79
   },
   "kasai-rinkai-koen": {
     "commute": 50,
@@ -5024,7 +7282,12 @@
     "food": 2,
     "cafe": 0,
     "nightlife": 0,
-    "fitness": 0
+    "fitness": 0,
+    "quietness": 99,
+    "singleLife": 13,
+    "disaster": 100,
+    "family": 5,
+    "rentValue": 99
   },
   "nishi-kasai": {
     "commute": 47,
@@ -5035,6 +7298,11 @@
     "food": 50,
     "cafe": 20,
     "nightlife": 24,
-    "fitness": 39
+    "fitness": 39,
+    "quietness": 67,
+    "singleLife": 51,
+    "disaster": 36,
+    "family": 89,
+    "rentValue": 82
   }
 }

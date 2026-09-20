@@ -23,6 +23,7 @@ export const SCORE_AXES = [
   "nature",
   "healthcare",
   "fitness",
+  "disaster",
 ] as const;
 
 export type ScoreAxis = (typeof SCORE_AXES)[number];

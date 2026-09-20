@@ -29,6 +29,18 @@ export function gradeSymbol(grade: Grade): string {
   return GRADE_SYMBOLS[grade];
 }
 
+/**
+ * 0–100 のスコアを5点満点に直す。0.5刻み。
+ *
+ * スコアは23区内の駅どうしの相対的な位置なので、50点が平均である。
+ * 単純に20で割ると平均の駅が2.5点になり、読み手は平均を下と受け取る。
+ * 平均を3.0に置き、0点を1.0、100点を5.0にする。
+ */
+export function toFivePoint(score: number): number {
+  const raw = 1 + score / 25;
+  return Math.round(Math.min(5, Math.max(1, raw)) * 2) / 2;
+}
+
 /** スコアが入っている軸だけを返す。458駅ぶんが一度に揃うことはない。 */
 export function ratedAxes(station: Station): ScoreAxis[] {
   return SCORE_AXES.filter((axis) => station.scores[axis] !== undefined);
