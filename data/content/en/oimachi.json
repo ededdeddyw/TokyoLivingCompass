@@ -63,21 +63,35 @@
     {
       "name": "Central gate",
       "line": "JR Keihin-Tohoku Line",
+      "tags": [
+        "departmentStore"
+      ],
       "character": "Connects directly into the Atre Oimachi station building, and stairs down lead to the Rinkai Line gates. Shopping is finished within what this gate opens onto."
     },
     {
       "name": "East exit",
       "line": "JR Keihin-Tohoku Line",
+      "tags": [
+        "barStreet",
+        "departmentStore"
+      ],
       "character": "The side with Hankyu Oimachi Garden and the drinking streets, busy at night. It is the smallest of the three gates and does not stay open into the small hours, so it is no use on a last-train night. Check the opening hours on JR East's station information."
     },
     {
       "name": "West exit",
       "line": "JR Keihin-Tohoku Line",
+      "tags": [
+        "residential",
+        "uphill"
+      ],
       "character": "Faces the Tokyu Oimachi Line gates, so the change between them is done on this side. It is also the way into the residential streets that climb towards Zaimusu-zaka."
     },
     {
       "name": "Tokyu gate",
       "line": "Tokyu Oimachi Line",
+      "tags": [
+        "shoppingStreet"
+      ],
       "character": "At the end of the terminating platform, connected to JR's west exit. The gate used by people travelling towards Futako-Tamagawa and Jiyugaoka, and the way out to the local shopping street."
     },
     {
@@ -142,5 +156,18 @@
       "slug": "aomono-yokocho",
       "note": "764 m away in a straight line. It reaches Otemachi in about the same time as Oimachi. One-room rents run about ¥8,000 higher."
     }
-  ]
+  ],
+  "tags": [
+    "goodValue",
+    "flat"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 10 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
+    "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "exits": "Leave by the central gate and your shopping is done; the east exit is the bar street, and the west exit is the way into the residential streets. There are five sets of gates, so which one you use depends on which way you travel."
+  }
 }

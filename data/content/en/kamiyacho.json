@@ -72,5 +72,21 @@
     "People who want another route when service is suspended",
     "People who want to hold the rent down"
   ],
+  "tags": [
+    "pricey",
+    "fastToCenter",
+    "singleLine",
+    "lowFlood",
+    "shoppingEasy",
+    "cafeRich"
+  ],
+  "leads": {
+    "terrain": "The ground around the station rises and falls sharply, and living above or below the slope changes how much effort getting about takes.",
+    "groceries": "There are 11 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
+    "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "stationNote": "Only the Tokyo Metro Hibiya Line serves this station, so when it stops you walk to another station.",
+    "rentRange": "Set against how long the commute takes, rents here are among the highest in the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards."
+  },
   "authoredBy": "data-generated"
 }

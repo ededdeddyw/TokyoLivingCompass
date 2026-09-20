@@ -58,5 +58,19 @@
     "People who want to finish their shopping on foot",
     "People who want plenty of places to eat out"
   ],
+  "tags": [
+    "quiet",
+    "pricey",
+    "singleLine",
+    "hilly"
+  ],
+  "leads": {
+    "terrain": "The ground around the station rises and falls sharply, and living above or below the slope changes how much effort getting about takes.",
+    "groceries": "There are 2 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
+    "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "stationNote": "Only the Tokyu Oimachi Line serves this station, so when it stops you walk to another station.",
+    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards."
+  },
   "authoredBy": "data-generated"
 }

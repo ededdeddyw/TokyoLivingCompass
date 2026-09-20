@@ -61,10 +61,17 @@
   "exits": [
     {
       "name": "East exit (towards Palm)",
+      "tags": [
+        "shoppingStreet",
+        "diningCluster"
+      ],
       "character": "Towards the covered shopping street and the redevelopment towers; the centre of shopping and eating. Busy, and lit at night as a result."
     },
     {
       "name": "West exit",
+      "tags": [
+        "residential"
+      ],
       "character": "Mainly housing, and calmer than the east side. It is the way through towards Togoshi and Ebara, and rents are a little lower than on the east side."
     }
   ],
@@ -120,5 +127,22 @@
       "slug": "fudo-mae",
       "note": "1134 m away in a straight line. It reaches Otemachi 3 minutes sooner than Musashi-Koyama. One-room rents run about ¥14,000 higher."
     }
-  ]
+  ],
+  "tags": [
+    "singleLine",
+    "lowFlood",
+    "shoppingEasy",
+    "parkNear",
+    "familyFriendly",
+    "flat"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 16 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
+    "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "stationNote": "Only the Tokyu Meguro Line serves this station, so when it stops you walk to another station.",
+    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "exits": "The covered shopping street at the east exit is the centre of shopping and eating; the west exit is mainly housing, and rents there are a little lower."
+  }
 }

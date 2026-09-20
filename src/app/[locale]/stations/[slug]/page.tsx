@@ -197,6 +197,19 @@ export default async function StationPage({
             <span className="ml-3 text-xl font-normal text-ink-soft">{station.nameJa}</span>
           )}
         </h1>
+        {station.content.tags && station.content.tags.length > 0 && (
+          // 街の性格タグ。本文を読む前に、どんな街かを掴めるようにする。
+          <ul className="flex flex-wrap gap-1.5">
+            {station.content.tags.map((tag) => (
+              <li
+                key={tag}
+                className="rounded-full border border-line px-2.5 py-0.5 text-xs text-ink-soft"
+              >
+                {dict.tags[tag]}
+              </li>
+            ))}
+          </ul>
+        )}
         <p className="text-lg text-ink-soft">{station.content.tagline}</p>
         <p className="text-sm text-ink-soft">
           {dict.station.overall}{" "}

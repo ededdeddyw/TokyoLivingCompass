@@ -61,16 +61,27 @@
     {
       "name": "Main gate (正面改札)",
       "line": "Tokyu Toyoko Line / Tokyo Metro Hibiya Line",
+      "tags": [
+        "diningCluster",
+        "waterfront"
+      ],
       "character": "Both lines use the same platform and share one set of gates. The exit leads straight into the shops built under the viaduct, where restaurants and a bookshop sit side by side. This is also the way out to the cherry trees along the Meguro River."
     },
     {
       "name": "South gate (南改札)",
       "line": "Tokyu Toyoko Line / Tokyo Metro Hibiya Line",
+      "tags": [
+        "quietResidential"
+      ],
       "character": "Comes out towards Yutenji. Mostly housing, and far enough from the crowd outside the main gate. If you want to avoid the cherry blossom crowds, living in this direction makes the walk home easier."
     },
     {
       "name": "Main gate, towards Daikanyama",
       "line": "Tokyu Toyoko Line / Tokyo Metro Hibiya Line",
+      "tags": [
+        "residential",
+        "uphill"
+      ],
       "character": "About ten minutes' walk from Daikanyama, and rents are highest in this stretch. It is also the uphill direction."
     }
   ],
@@ -126,5 +137,14 @@
       "slug": "yutenji",
       "note": "1028 m away in a straight line. It takes 5 minutes longer to reach Otemachi than Naka-Meguro. One-room rents run about ¥28,000 lower."
     }
-  ]
+  ],
+  "leads": {
+    "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
+    "groceries": "There are 6 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
+    "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "exits": "The main gate leads to the restaurants and the cherry trees along the Meguro River; the south gate is mainly housing. To avoid the cherry blossom crowds, living on the south-gate side makes the walk home easier."
+  }
 }

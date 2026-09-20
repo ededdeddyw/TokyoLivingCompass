@@ -54,16 +54,27 @@
     {
       "name": "Exit 1",
       "line": "Tokyo Metro Tozai Line",
+      "tags": [
+        "shoppingStreet",
+        "diningCluster"
+      ],
       "character": "Towards the temple approach and the shopping street. Restaurants and everyday shops gather here; this is the centre of daily life, and it is lit at night."
     },
     {
       "name": "Exits 2 and 3",
       "line": "Tokyo Metro Tozai Line",
+      "tags": [
+        "residential"
+      ],
       "character": "Blocks of flats line the main roads. Convenient, but rooms facing the road let the traffic in."
     },
     {
       "name": "Exits 5 and 6",
       "line": "Toei Oedo Line",
+      "tags": [
+        "waterfront",
+        "quietResidential"
+      ],
       "character": "Housing along the canal, quiet even during the day. Further from the bustle by the station, so fewer people are about at night."
     }
   ],
@@ -119,5 +130,17 @@
       "slug": "kiba",
       "note": "1017 m away in a straight line. It reaches Otemachi in about the same time as Monzen-Nakacho."
     }
-  ]
+  ],
+  "tags": [
+    "flat"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 5 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
+    "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
+    "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "exits": "The shopping street and the restaurants sit by exit 1; exits 5 and 6, on the Oedo Line side, come out into housing along the canal. Foot traffic at night is heaviest by exit 1."
+  }
 }

@@ -70,5 +70,16 @@
     "People who want another route when service is suspended",
     "People who want plenty of places to eat out"
   ],
+  "tags": [
+    "singleLine"
+  ],
+  "leads": {
+    "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
+    "groceries": "There are 8 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
+    "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
+    "stationNote": "Only the Toei Mita Line serves this station, so when it stops you walk to another station.",
+    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards."
+  },
   "authoredBy": "data-generated"
 }

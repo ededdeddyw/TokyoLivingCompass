@@ -60,16 +60,28 @@
     {
       "name": "A1 and A2",
       "line": "Tokyo Metro Hanzomon Line",
+      "tags": [
+        "park",
+        "culture",
+        "quietResidential"
+      ],
       "character": "Towards Kiyosumi Garden and the Museum of Contemporary Art Tokyo. Mainly settled housing and low-rise blocks; more people walk on this side at weekends."
     },
     {
       "name": "A3",
       "line": "Tokyo Metro Hanzomon Line",
+      "tags": [
+        "shoppingStreet",
+        "diningCluster"
+      ],
       "character": "The shopping street and the owner-run restaurants, and the centre of daily life. The cafes are concentrated in this direction too, and most everyday errands are done here."
     },
     {
       "name": "B1 and B2",
       "line": "Toei Oedo Line",
+      "tags": [
+        "residential"
+      ],
       "character": "Traffic on Kiyosubashi-dori never stops. There are plenty of flats, but in rooms facing the road the cars are audible indoors. This is also the way towards Morishita."
     }
   ],
@@ -124,5 +136,19 @@
       "slug": "kikukawa",
       "note": "951 m away in a straight line. It takes 11 minutes longer to reach Otemachi than Kiyosumi-Shirakawa. One-room rents run about ¥8,000 lower."
     }
-  ]
+  ],
+  "tags": [
+    "floodArea",
+    "parkNear",
+    "flat"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 8 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
+    "hazards": "Among the 23 wards' stations, comparatively many of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "exits": "The shopping street and the independent restaurants sit on the A3 side; the A1 and A2 side is housing, with Kiyosumi Garden and the museum. Everyday shopping is done on the A3 side."
+  }
 }

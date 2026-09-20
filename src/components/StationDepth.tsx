@@ -7,10 +7,23 @@ import type { StationContent } from "@/lib/schema";
  * 未記入の項目は表示しない。空欄を並べても価値がないため。
  */
 
-function Block({ title, children }: { title: string; children: React.ReactNode }) {
+/**
+ * 節ひとつ。lead は「一言でいうと」で、本文を読む前に結論だけを受け取れるようにする
+ * （docs/12-quality-standard.md）。入っていない節では出さない。
+ */
+function Block({
+  title,
+  lead,
+  children,
+}: {
+  title: string;
+  lead?: string;
+  children: React.ReactNode;
+}) {
   return (
     <section className="space-y-1.5">
       <h3 className="text-sm font-semibold text-ink">{title}</h3>
+      {lead && <p className="text-sm font-medium leading-relaxed text-ink">{lead}</p>}
       <div className="text-sm leading-relaxed text-ink-soft">{children}</div>
     </section>
   );
@@ -32,7 +45,7 @@ export function StationDepth({
 
   if (content.faces) {
     blocks.push(
-      <Block key="faces" title={d.faces}>
+      <Block key="faces" title={d.faces} lead={content.leads?.faces}>
         <dl className="space-y-2">
           {(
             [
@@ -54,7 +67,7 @@ export function StationDepth({
 
   if (content.terrain) {
     blocks.push(
-      <Block key="terrain" title={d.terrain}>
+      <Block key="terrain" title={d.terrain} lead={content.leads?.terrain}>
         <p>
           <span className="font-medium text-ink">{d.slope[content.terrain.slope]}</span>
           {" — "}
@@ -66,7 +79,7 @@ export function StationDepth({
 
   if (content.groceries && content.groceries.length > 0) {
     blocks.push(
-      <Block key="groceries" title={d.groceries}>
+      <Block key="groceries" title={d.groceries} lead={content.leads?.groceries}>
         <ul className="space-y-1.5">
           {content.groceries.map((store) => (
             <li key={store.name} className="flex flex-wrap items-baseline gap-x-2">
@@ -89,7 +102,7 @@ export function StationDepth({
 
   if (content.exits && content.exits.length > 0) {
     blocks.push(
-      <Block key="exits" title={d.exits}>
+      <Block key="exits" title={d.exits} lead={content.leads?.exits}>
         <dl className="space-y-2">
           {content.exits.map((exit) => (
             <div key={exit.name} className="flex gap-3">
@@ -101,7 +114,21 @@ export function StationDepth({
                 )}
                 {exit.name}
               </dt>
-              <dd>{exit.character}</dd>
+              <dd>
+                {exit.tags && exit.tags.length > 0 && (
+                  <span className="mb-1 flex flex-wrap gap-1">
+                    {exit.tags.map((t) => (
+                      <span
+                        key={t}
+                        className="rounded bg-[#f3f4f6] px-1.5 py-0.5 text-xs text-[#5b6472]"
+                      >
+                        {dict.exitTags[t]}
+                      </span>
+                    ))}
+                  </span>
+                )}
+                {exit.character}
+              </dd>
             </div>
           ))}
         </dl>
@@ -111,7 +138,7 @@ export function StationDepth({
 
   if (content.rentRange) {
     blocks.push(
-      <Block key="rentRange" title={d.rentRange}>
+      <Block key="rentRange" title={d.rentRange} lead={content.leads?.rentRange}>
         <p>{content.rentRange.note}</p>
         <p className="mt-1.5">
           <span className="font-medium text-ink">{d.rentDrivers}: </span>
@@ -123,7 +150,7 @@ export function StationDepth({
 
   if (content.noiseSources && content.noiseSources.length > 0) {
     blocks.push(
-      <Block key="noise" title={d.noiseSources}>
+      <Block key="noise" title={d.noiseSources} lead={content.leads?.noiseSources}>
         <ul className="list-disc space-y-1 pl-5">
           {content.noiseSources.map((n) => (
             <li key={n}>{n}</li>
@@ -133,24 +160,24 @@ export function StationDepth({
     );
   }
 
-  const simple: [string, string | undefined][] = [
-    [d.family, content.family],
-    [d.medical, content.medical],
-    [d.stationNote, content.stationNote],
-    [d.nightWalk, content.nightWalk],
-    [d.residents, content.residents],
-    [d.housingStock, content.housingStock],
-    [d.rentReason, content.rentReason],
-    [d.outlook, content.outlook],
-  ];
-  for (const [title, text] of simple) {
-    if (text) {
-      blocks.push(
-        <Block key={title} title={title}>
-          <p>{text}</p>
-        </Block>,
-      );
-    }
+  const simple = [
+    "family",
+    "medical",
+    "stationNote",
+    "nightWalk",
+    "residents",
+    "housingStock",
+    "rentReason",
+    "outlook",
+  ] as const;
+  for (const field of simple) {
+    const text = content[field];
+    if (!text) continue;
+    blocks.push(
+      <Block key={field} title={d[field]} lead={content.leads?.[field]}>
+        <p>{text}</p>
+      </Block>,
+    );
   }
 
   // 災害は、書き方ひとつで読み手の受け取り方が大きく変わる。
@@ -158,7 +185,7 @@ export function StationDepth({
   // 強く読まれないようにする。
   if (content.hazards) {
     blocks.push(
-      <Block key="hazards" title={d.hazards}>
+      <Block key="hazards" title={d.hazards} lead={content.leads?.hazards}>
         <p>{content.hazards}</p>
         <p className="mt-2 text-xs leading-relaxed text-ink-soft">
           {dict.hazardNote}

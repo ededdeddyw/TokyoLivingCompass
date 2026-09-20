@@ -93,6 +93,57 @@ def word(p, key, n):
     return forms[0] if n == 1 else forms[1]
 
 
+def five(score):
+    """0〜100のスコアを5点満点に直す。src/lib/scoring.ts の toFivePoint と同じ式。"""
+    return round(min(5.0, max(1.0, 1 + score / 25)) * 2) / 2
+
+
+def band_key(prefix, score):
+    """スコアを5段階の文型キーにする（leadHazard5 〜 leadHazard1）。"""
+    v = five(score)
+    step = 5 if v >= 4.5 else 4 if v >= 3.5 else 3 if v >= 2.5 else 2 if v >= 1.5 else 1
+    return f"{prefix}{step}"
+
+
+# 街の性格タグ。スコアと路線数と地形から決まる。
+# 条件は「23区の駅の中で上位／下位2割」を目安に置いている。
+# 並び順がそのまま表示順になるので、街を言い当てる力が強いものを先に置く。
+TAG_RULES = [
+    ("majorHub", lambda sc, st, ter: sc.get("food", 0) >= 95 and sc.get("nightlife", 0) >= 95),
+    ("lively", lambda sc, st, ter: sc.get("nightlife", 0) >= 80 and sc.get("food", 0) >= 75),
+    ("quiet", lambda sc, st, ter: sc.get("quietness", 0) >= 80),
+    ("goodValue", lambda sc, st, ter: sc.get("rentValue", -1) >= 80),
+    ("pricey", lambda sc, st, ter: 0 <= sc.get("rentValue", -1) <= 20),
+    ("fastToCenter", lambda sc, st, ter: sc.get("commute", 0) >= 80),
+    ("manyLines", lambda sc, st, ter: len(st["lineIds"]) >= 4),
+    ("singleLine", lambda sc, st, ter: len(st["lineIds"]) == 1),
+    ("floodArea", lambda sc, st, ter: sc.get("disaster", 100) <= 35),
+    ("lowFlood", lambda sc, st, ter: sc.get("disaster", 0) >= 90),
+    ("shoppingEasy", lambda sc, st, ter: sc.get("shopping", 0) >= 80),
+    ("diningRich", lambda sc, st, ter: sc.get("food", 0) >= 85),
+    ("cafeRich", lambda sc, st, ter: sc.get("cafe", 0) >= 85),
+    ("lateNight", lambda sc, st, ter: sc.get("nightlife", 0) >= 85),
+    ("parkNear", lambda sc, st, ter: sc.get("nature", 0) >= 85),
+    ("medicalRich", lambda sc, st, ter: sc.get("healthcare", 0) >= 90),
+    ("familyFriendly", lambda sc, st, ter: sc.get("family", 0) >= 85),
+    ("singleFriendly", lambda sc, st, ter: sc.get("singleLife", 0) >= 85),
+    ("flat", lambda sc, st, ter: ter.get("slope") == "flat"),
+    ("hilly", lambda sc, st, ter: ter.get("slope") == "hilly"),
+]
+# 同時に立つと読み手が混乱する組み合わせ。先に出たほうを残す。
+TAG_CONFLICTS = [("lively", "quiet"), ("majorHub", "quiet"), ("goodValue", "pricey"),
+                 ("floodArea", "lowFlood"), ("flat", "hilly"), ("manyLines", "singleLine")]
+MAX_TAGS = 6
+
+
+def station_tags(sc, st, ter):
+    picked = [t for t, ok in TAG_RULES if ok(sc, st, ter)]
+    for a, b in TAG_CONFLICTS:
+        if a in picked and b in picked:
+            picked.remove(b if picked.index(a) < picked.index(b) else a)
+    return picked[:MAX_TAGS]
+
+
 def build(st, ctx):
     """1駅ぶんのコンテンツを組み立てる。データの無い層は入れない。"""
     p = ctx["p"]
@@ -314,6 +365,36 @@ def build(st, ctx):
     c["goodFor"] = good[:5] or [p["goodUnknown"]]
     c["notFor"] = bad[:5] or [p["badUnknown"]]
 
+    # ── 街の性格タグと、節ごとの一言 ───────────────
+    tags = station_tags(sc, st, ter)
+    if tags:
+        c["tags"] = tags
+
+    leads = {}
+    slope = ter.get("slope")
+    if slope in ("flat", "some", "hilly"):
+        leads["terrain"] = p["leadTerrain" + slope.capitalize()]
+    shops = by_cat.get("supermarket", [])
+    if shops:
+        nearest = min(x["walkMinutes"] for x in shops)
+        key = "leadGroceriesMany" if len(shops) >= 3 else "leadGroceriesFew"
+        leads["groceries"] = p[key].format(count=len(shops), minutes=nearest)
+    else:
+        leads["groceries"] = p["leadGroceriesNone"]
+    if "disaster" in sc:
+        leads["hazards"] = p[band_key("leadHazard", sc["disaster"])]
+    if len(lines) == 1:
+        leads["stationNote"] = p["leadStationOne"].format(line=lines[0])
+    elif "transitConvenience" in sc:
+        key = "leadStationMany" if five(sc["transitConvenience"]) >= 3.5 else "leadStationMid"
+        leads["stationNote"] = p[key].format(count=len(lines))
+    if "rentValue" in sc:
+        leads["rentRange"] = p[band_key("leadRent", sc["rentValue"])]
+    if "healthcare" in sc:
+        leads["medical"] = p[band_key("leadMedical", sc["healthcare"])]
+    if leads:
+        c["leads"] = leads
+
     c["authoredBy"] = "data-generated"
     return c
 
@@ -362,11 +443,25 @@ def main():
             # 人が書いた駅と、文章としてローカライズした駅は上書きしない
             if existing.get("authoredBy") in ("human", "draft", "ai-localized"):
                 skipped += 1
-                # ただし neighbours だけは、距離・所要時間・家賃の差だけで組み立てる層なので、
-                # ここで作り直す。人が選んだ駅は alternatives に入っており、手を触れない。
-                fresh = build(st, ctx).get("neighbours")
-                if fresh and fresh != existing.get("neighbours") and not args.dry_run:
-                    existing["neighbours"] = fresh
+                # ただし近くの駅・性格タグ・節ごとの一言は、スコアと距離だけで決まる層
+                # なので、人が書いた駅でもここで作り直す。人が選んだ駅は alternatives に
+                # 入っており、人が書いた一言は上書きしない。
+                fresh = build(st, ctx)
+                touched = False
+                for field in ("neighbours", "tags"):
+                    if fresh.get(field) and fresh[field] != existing.get(field):
+                        existing[field] = fresh[field]
+                        touched = True
+                # データで決まる節の一言は作り直す。人が書いた節（街のようす・住民層など）の
+                # 一言は、この処理では作らないので残る。
+                merged = dict(existing.get("leads") or {})
+                for k, v in (fresh.get("leads") or {}).items():
+                    if merged.get(k) != v:
+                        merged[k] = v
+                        touched = True
+                if merged:
+                    existing["leads"] = merged
+                if touched and not args.dry_run:
                     json.dump(existing, open(path, "w", encoding="utf-8"),
                               ensure_ascii=False, indent=2)
                     open(path, "a", encoding="utf-8").write("\n")
@@ -380,7 +475,7 @@ def main():
             written += 1
 
     print(f"組み立てた駅: {made} / 人が書いた駅・訳した駅は残した: {skipped}"
-          f"（うち近くの駅の節だけ作り直した: {refreshed}）")
+          f"（うちデータで決まる層だけ作り直した: {refreshed}）")
     if args.dry_run:
         print("（--dry-run のため書き込んでいない）")
     else:

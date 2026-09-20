@@ -60,16 +60,26 @@
     {
       "name": "A1–A3",
       "line": "Toei Shinjuku Line",
+      "tags": [
+        "shoppingStreet"
+      ],
       "character": "Towards the Morishita shopping street and the independent shops, and the centre of daily life. Everyday shopping is done in this direction."
     },
     {
       "name": "A4 and A5",
       "line": "Toei Shinjuku Line / Toei Oedo Line",
+      "tags": [
+        "residential"
+      ],
       "character": "Kiyosumi-Shirakawa is within walking distance from here. If you want to use the cafes and the museum, living on this side widens what you can reach on foot."
     },
     {
       "name": "A6 and A7",
       "line": "Toei Oedo Line",
+      "tags": [
+        "factory",
+        "residential"
+      ],
       "character": "Small factories and housing mixed together, and rents fall further in this direction. In exchange, fewer people are about at night."
     }
   ],
@@ -125,5 +135,18 @@
       "slug": "hamacho",
       "note": "805 m away in a straight line. It reaches Otemachi in about the same time as Morishita. One-room rents run about ¥8,000 higher."
     }
-  ]
+  ],
+  "tags": [
+    "familyFriendly",
+    "flat"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 10 supermarkets within walking distance, and the nearest is 4 minutes on foot.",
+    "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
+    "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "exits": "The Morishita shopping street is on the A1–A3 side; the A6 and A7 side mixes small factories with housing, and rents fall further in that direction."
+  }
 }

@@ -42,5 +42,20 @@
     "People who want to finish their shopping on foot",
     "People who want plenty of places to eat out"
   ],
+  "tags": [
+    "quiet",
+    "goodValue",
+    "singleLine",
+    "lowFlood",
+    "flat"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "OpenStreetMap records no supermarket within walking distance of the station.",
+    "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "stationNote": "Only the JR Keiyo Line serves this station, so when it stops you walk to another station.",
+    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards."
+  },
   "authoredBy": "data-generated"
 }

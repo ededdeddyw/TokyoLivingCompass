@@ -61,11 +61,18 @@
     {
       "name": "North exit (北口)",
       "line": "JR Chuo Rapid Line / JR Chuo-Sobu Line",
+      "tags": [
+        "shoppingStreet",
+        "barStreet"
+      ],
       "character": "The way to the Junjo and Koshin-dori shopping streets. Shops selling fresh food and everyday goods line the way, and this is where daily life happens. There are plenty of bars too."
     },
     {
       "name": "South exit (南口)",
       "line": "JR Chuo Rapid Line / JR Chuo-Sobu Line",
+      "tags": [
+        "shoppingStreet"
+      ],
       "character": "The Pal and Look shopping streets run south, and the vintage clothing shops are concentrated on this side. Many of the visitors are young, and at weekends the pavements stay busy from midday into the evening."
     }
   ],
@@ -121,5 +128,22 @@
       "slug": "higashi-koenji",
       "note": "1114 m away in a straight line. It reaches Otemachi in about the same time as Koenji. One-room rents run about ¥7,000 higher."
     }
-  ]
+  ],
+  "tags": [
+    "lively",
+    "goodValue",
+    "shoppingEasy",
+    "diningRich",
+    "lateNight",
+    "medicalRich"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 15 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
+    "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "exits": "The north exit is the centre of everyday shopping, with fresh food and household goods; the second-hand clothes shops cluster on the south side."
+  }
 }

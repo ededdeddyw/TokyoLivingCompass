@@ -72,5 +72,17 @@
     "People who want to finish their shopping on foot",
     "People who want plenty of places to eat out"
   ],
+  "tags": [
+    "singleLine",
+    "flat"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 4 supermarkets within walking distance, and the nearest is 11 minutes on foot.",
+    "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
+    "stationNote": "Only the Keisei Oshiage Line serves this station, so when it stops you walk to another station.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards."
+  },
   "authoredBy": "data-generated"
 }

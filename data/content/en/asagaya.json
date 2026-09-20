@@ -71,5 +71,21 @@
   "notFor": [
     "The data does not show a drawback particular to this station"
   ],
+  "tags": [
+    "lively",
+    "goodValue",
+    "shoppingEasy",
+    "diningRich",
+    "lateNight",
+    "medicalRich"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 13 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
+    "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards."
+  },
   "authoredBy": "data-generated"
 }

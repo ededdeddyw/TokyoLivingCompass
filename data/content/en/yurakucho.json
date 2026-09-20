@@ -52,5 +52,21 @@
     "People who want to finish their shopping on foot",
     "People who want to hold the rent down"
   ],
+  "tags": [
+    "lively",
+    "goodValue",
+    "fastToCenter",
+    "manyLines",
+    "diningRich",
+    "cafeRich"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 1 supermarkets within walking distance, and the nearest is 7 minutes on foot.",
+    "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
+    "stationNote": "6 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards."
+  },
   "authoredBy": "data-generated"
 }

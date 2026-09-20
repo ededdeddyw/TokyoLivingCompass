@@ -73,5 +73,21 @@
     "希望停运时还有其他路线可走的人",
     "希望压低租金的人"
   ],
+  "tags": [
+    "pricey",
+    "fastToCenter",
+    "singleLine",
+    "lowFlood",
+    "shoppingEasy",
+    "hilly"
+  ],
+  "leads": {
+    "terrain": "车站周边起伏较大，住在坡上还是坡下，会改变每天出行的费力程度。",
+    "groceries": "步行可达的超市有11家，最近的一家步行3分钟。",
+    "hazards": "按可能出现的最大降雨量推算，进入浸水想定区域的地点，在23区的车站中非常少。",
+    "stationNote": "可用的线路只有東京メトロ半蔵門線一条，这条线停运时就要走到别的车站。",
+    "rentRange": "相对于通勤所需的时间，这里的租金行情在23区的车站中相当高。",
+    "medical": "步行可达的诊所和药店数量，在23区的车站中偏多。"
+  },
   "authoredBy": "data-generated"
 }

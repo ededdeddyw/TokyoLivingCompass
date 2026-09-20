@@ -119,15 +119,41 @@ def flood_score(hz):
     return clamp(100 - covered / total * (50 + worst))
 
 
-def rent_value_scores(one_room_by_slug, commute_by_slug):
+def rent_index(bands):
+    """
+    駅ごとの家賃水準を、間取りの違いを均した1つの指数にする。
+
+    ワンルームの相場だけを見ると、駅によって集計の対象がそろっておらず、
+    中目黒のワンルームが清澄白河より安く出るような逆転が起きる。
+    間取りごとに全駅の中央値を出し、その中央値の何倍かを平均する。
+    """
+    layouts = ("oneRoom", "oneK", "oneLDK", "twoLDK")
+    median = {}
+    for layout in layouts:
+        vals = sorted(v["bands"][layout]["mean"] for v in bands.values()
+                      if isinstance(v, dict) and layout in v.get("bands", {}))
+        if vals:
+            median[layout] = vals[len(vals) // 2]
+    out = {}
+    for slug, v in bands.items():
+        if not isinstance(v, dict):
+            continue
+        ratios = [v["bands"][l]["mean"] / median[l]
+                  for l in layouts if l in median and l in v.get("bands", {})]
+        if ratios:
+            out[slug] = sum(ratios) / len(ratios)
+    return out
+
+
+def rent_value_scores(index_by_slug, commute_by_slug):
     """
     通勤の速さに対する家賃の安さ。
 
     家賃の絶対額をそのまま点にすると、郊外の駅が並んで上位を占め、
     「都心に近いのに安い駅」という、読み手がいちばん知りたい駅が沈む。
-    通勤スコアから予想される家賃と、実際の家賃の差（残差）を点にする。
+    通勤スコアから予想される家賃水準と、実際の家賃水準の差（残差）を点にする。
     """
-    pairs = [(commute_by_slug[s], v) for s, v in one_room_by_slug.items()
+    pairs = [(commute_by_slug[s], v) for s, v in index_by_slug.items()
              if s in commute_by_slug]
     if len(pairs) < 20:
         return {}
@@ -139,7 +165,7 @@ def rent_value_scores(one_room_by_slug, commute_by_slug):
         return {}
     slope = sum((c - mx) * (r - my) for c, r in pairs) / var
     residual = {}
-    for s, rent in one_room_by_slug.items():
+    for s, rent in index_by_slug.items():
         if s not in commute_by_slug:
             continue
         expected = my + slope * (commute_by_slug[s] - mx)
@@ -285,11 +311,8 @@ def main():
             out[slug]["family"] = v
 
     # 家賃コスパは、全駅の家賃と通勤スコアの関係から出すため、ここでまとめて入れる。
-    one_room = {slug: v["bands"]["oneRoom"]["mean"]
-                for slug, v in bands.items()
-                if isinstance(v, dict) and "oneRoom" in v.get("bands", {})}
     commute_by_slug = {slug: sc["commute"] for slug, sc in out.items() if "commute" in sc}
-    for slug, v in rent_value_scores(one_room, commute_by_slug).items():
+    for slug, v in rent_value_scores(rent_index(bands), commute_by_slug).items():
         if slug in out:
             out[slug]["rentValue"] = v
 

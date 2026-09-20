@@ -335,6 +335,59 @@ export const groceryStoreSchema = z.object({
  * 同じ駅でも北口と南口で別の街であることが多く、住む方角の選択に直結する。
  * 既存のまとめ記事が駅を一枚岩として扱うせいで、最も抜け落ちている観点。
  */
+/**
+ * 街の性格を表すタグ。自由記述にすると言語ごとに訳せなくなり、
+ * 絞り込みにも使えないため、決まった語彙から選ぶ。表示ラベルは src/lib/dictionaries.ts。
+ *
+ * 駅につけるタグ（STATION_TAGS）は、スコアと路線数と地形から機械的に決まる
+ * （scripts/build-station-content.py）。出口につけるタグ（EXIT_TAGS）は、
+ * 出口の先に何があるかを人が見て選ぶ。
+ */
+export const STATION_TAGS = [
+  "majorHub",
+  "lively",
+  "quiet",
+  "shoppingEasy",
+  "diningRich",
+  "cafeRich",
+  "lateNight",
+  "parkNear",
+  "flat",
+  "hilly",
+  "goodValue",
+  "pricey",
+  "fastToCenter",
+  "manyLines",
+  "singleLine",
+  "floodArea",
+  "lowFlood",
+  "familyFriendly",
+  "singleFriendly",
+  "medicalRich",
+] as const;
+export type StationTag = (typeof STATION_TAGS)[number];
+
+/** 出口の先がどんな場所かを表すタグ。人が選ぶ。 */
+export const EXIT_TAGS = [
+  "shoppingStreet",
+  "departmentStore",
+  "diningCluster",
+  "barStreet",
+  "residential",
+  "quietResidential",
+  "office",
+  "entertainment",
+  "culture",
+  "school",
+  "park",
+  "waterfront",
+  "factory",
+  "hospital",
+  "uphill",
+  "downhill",
+] as const;
+export type ExitTag = (typeof EXIT_TAGS)[number];
+
 export const exitSchema = z.object({
   name: z.string().min(1),
   /**
@@ -343,6 +396,8 @@ export const exitSchema = z.object({
    * 1路線しか通っていない駅では省略してよい。
    */
   line: z.string().min(1).optional(),
+  /** 出口の先がどんな場所かを、決まった語彙から選ぶ。本文を読む前に方角を選べるようにする。 */
+  tags: z.array(z.enum(EXIT_TAGS)).optional(),
   character: z.string().min(1),
 });
 
@@ -359,6 +414,41 @@ export const neighbourNoteSchema = z.object({
   note: z.string().min(1),
 });
 
+/**
+ * 節ごとの「一言でいうと」。本文を読む前に、その節の結論だけを受け取れるようにする。
+ * 「災害リスクは、23区の中では浸水の想定が小さいほうです」のように、
+ * 23区内での位置づけを1文で書く。
+ *
+ * 機械で出せる節（地形・買い物・災害・駅の使い勝手・家賃・医療・子育て）は
+ * scripts/build-station-content.py が全駅ぶんを作り、
+ * 残りは人が書く。
+ */
+export const LEAD_FIELDS = [
+  "faces",
+  "terrain",
+  "noiseSources",
+  "groceries",
+  "residents",
+  "housingStock",
+  "hazards",
+  "stationNote",
+  "nightWalk",
+  "rentReason",
+  "rentRange",
+  "exits",
+  "family",
+  "medical",
+  "outlook",
+] as const;
+export type LeadField = (typeof LEAD_FIELDS)[number];
+
+export const leadsSchema = z.object(
+  Object.fromEntries(LEAD_FIELDS.map((f) => [f, z.string().min(1).optional()])) as Record<
+    LeadField,
+    z.ZodOptional<z.ZodString>
+  >,
+);
+
 export const stationContentSchema = z.object({
   slug: z.string().min(1),
   locale: z.string().min(1),
@@ -369,6 +459,14 @@ export const stationContentSchema = z.object({
   summary: z.string().min(1),
   goodFor: z.array(z.string()).min(1),
   notFor: z.array(z.string()).min(1),
+
+  /**
+   * 街の性格タグ。スコアと路線数と地形から決まるので、全駅ぶんが自動で入る。
+   * 駅名のすぐ下に出し、本文を読む前にどんな街かを掴めるようにする。
+   */
+  tags: z.array(z.enum(STATION_TAGS)).optional(),
+  /** 節ごとの「一言でいうと」。 */
+  leads: leadsSchema.optional(),
 
   // --- 深さを作る層。分かったものから足す ---
   /** 時間帯別の街の顔 */
@@ -474,6 +572,7 @@ export type Terrain = z.infer<typeof terrainSchema>;
 export type GroceryStore = z.infer<typeof groceryStoreSchema>;
 export type NeighbourNote = z.infer<typeof neighbourNoteSchema>;
 export type StationExit = z.infer<typeof exitSchema>;
+export type Leads = z.infer<typeof leadsSchema>;
 export type RentRange = z.infer<typeof rentRangeSchema>;
 
 /** その駅の日本語コンテンツが、深さの層をいくつ満たしているか。 */
