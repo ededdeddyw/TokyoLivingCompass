@@ -126,6 +126,7 @@ export type Dictionary = {
     nightWalk: string;
     rentReason: string;
     neighbours: string;
+    alternatives: string;
     outlook: string;
     exits: string;
     family: string;
@@ -302,7 +303,8 @@ const ja: Dictionary = {
     stationNote: "駅の使い勝手",
     nightWalk: "夜の帰り道",
     rentReason: "家賃がこの水準である理由",
-    neighbours: "隣の駅との使い分け",
+    neighbours: "近くの駅との違い",
+    alternatives: "この駅と迷いやすい駅",
     outlook: "これからどう変わるか",
     exits: "出口で変わる街の顔",
     family: "子育て",
@@ -538,7 +540,8 @@ const en: Dictionary = {
     stationNote: "Using the station",
     nightWalk: "Walking home at night",
     rentReason: "Why rent sits where it does",
-    neighbours: "When a neighbouring station is better",
+    neighbours: "How the nearest stations differ",
+    alternatives: "Stations you may be weighing this one against",
     outlook: "How it is changing",
     exits: "How the area differs by exit",
     family: "Raising children",
@@ -776,7 +779,8 @@ const zhHans: Dictionary = {
     stationNote: "车站用起来如何",
     nightWalk: "夜里回家的路",
     rentReason: "租金为何是这个水平",
-    neighbours: "什么时候邻站更合适",
+    neighbours: "与邻近车站的差别",
+    alternatives: "会与这里放在一起比较的车站",
     outlook: "今后会怎么变",
     exits: "不同出口的差别",
     family: "养育孩子",
@@ -1008,7 +1012,8 @@ const ko: Dictionary = {
     stationNote: "역을 쓸 때",
     nightWalk: "밤에 집으로 가는 길",
     rentReason: "임대료가 이 수준인 이유",
-    neighbours: "옆 역이 나을 때",
+    neighbours: "가까운 역과의 차이",
+    alternatives: "이 역과 함께 놓고 고민하게 되는 역",
     outlook: "앞으로 어떻게 바뀌는가",
     exits: "출구에 따른 차이",
     family: "아이를 키우기",

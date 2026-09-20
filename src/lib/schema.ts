@@ -390,8 +390,16 @@ export const stationContentSchema = z.object({
   nightWalk: z.string().optional(),
   /** 家賃が相場より高い／安い理由 */
   rentReason: z.string().optional(),
-  /** 隣接駅との使い分け */
+  /**
+   * 近くの駅との違い。距離・所要時間・家賃の差から組み立てる層で、
+   * scripts/build-station-content.py が全駅ぶんを作る。
+   */
   neighbours: z.array(neighbourNoteSchema).optional(),
+  /**
+   * この駅と迷いやすい駅。近さではなく、条件が似ていて比較検討の対象になる駅を人が選ぶ。
+   * 近くの駅（neighbours）と混ぜると、7km離れた駅を隣の駅として読ませることになる。
+   */
+  alternatives: z.array(neighbourNoteSchema).optional(),
   /** 5年後の見通し。再開発、路線延伸など */
   outlook: z.string().optional(),
   /** 出口ごとの街の違い */
@@ -449,6 +457,7 @@ export const DEPTH_FIELDS = [
   "nightWalk",
   "rentReason",
   "neighbours",
+  "alternatives",
   "outlook",
   "exits",
   "family",

@@ -86,7 +86,7 @@
   },
   "family": "Everyday goods and food are all in the shopping street, so shopping with a child in tow is less of a chore. Rinshi-no-Mori Park is within cycling distance, and there are small parks near the station. There are slopes around the station, though, so a pushchair is harder in some directions than others. Check nursery availability and school catchment by address against Shinagawa City's own current information.",
   "medical": "Kosaikai Hospital is right by the station, about 35 m away. Within walking distance there are 11 clinics and 6 pharmacies. Larger hospitals include Showa Medical University East Hospital about 1.2 km away and Showa Medical University Hospital about 1.4 km. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "neighbours": [
+  "alternatives": [
     {
       "slug": "nakameguro",
       "note": "If you want calmer streets and to be nearer Shibuya, choose Nakameguro. Rent for a 1LDK is about ¥50,000 higher, though, and Musashi-Koyama is the better of the two for shopping."
@@ -110,5 +110,15 @@
     "People who want nothing but quiet residential streets"
   ],
   "residentComment": "The shopping street is what stands out. Roughly 800 m of covered arcade holds fresh food, prepared dishes and restaurants, so a wet day is no obstacle to shopping. Being this close to Meguro and Shirokanedai while keeping food costs down is down to that arcade. The drawback is the slope: going home from the station into the residential streets means climbing it every time. Since the towers went up in the redevelopment, rents have clearly risen. Search on the figures from a few years ago and nothing comes up.",
-  "authoredBy": "ai-localized"
+  "authoredBy": "ai-localized",
+  "neighbours": [
+    {
+      "slug": "nishi-koyama",
+      "note": "772 m away in a straight line. It reaches Otemachi in about the same time as Musashi-Koyama. One-room rents run about ¥5,000 lower."
+    },
+    {
+      "slug": "fudo-mae",
+      "note": "1134 m away in a straight line. It reaches Otemachi 3 minutes sooner than Musashi-Koyama. One-room rents run about ¥14,000 higher."
+    }
+  ]
 }

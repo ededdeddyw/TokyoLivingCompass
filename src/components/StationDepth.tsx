@@ -167,11 +167,15 @@ export function StationDepth({
     );
   }
 
-  if (content.neighbours && content.neighbours.length > 0) {
+  // 近くの駅（距離から選ぶ）と、迷いやすい駅（条件が似ていて人が選ぶ）は、
+  // 読み手にとって意味が違うため、同じ節にまとめない。
+  for (const field of ["neighbours", "alternatives"] as const) {
+    const list = content[field];
+    if (!list || list.length === 0) continue;
     blocks.push(
-      <Block key="neighbours" title={d.neighbours}>
+      <Block key={field} title={d[field]}>
         <ul className="space-y-1.5">
-          {content.neighbours.map((n) => (
+          {list.map((n) => (
             <li key={n.slug}>
               <span className="font-medium text-ink">
                 {neighbourNames[n.slug] ?? n.slug}

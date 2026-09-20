@@ -160,9 +160,13 @@ export default async function StationPage({
       ? dict.dataQuality.notAvailable
       : dict.crowdingLevels[station.morningCrowding as 1 | 2 | 3 | 4 | 5];
 
-  // 隣接駅の表示名を先に解決しておく（コンポーネント側でデータを取りに行かせない）。
+  // 近くの駅と迷いやすい駅の表示名を先に解決しておく
+  // （コンポーネント側でデータを取りに行かせない）。
   const neighbourNames: Record<string, string> = {};
-  for (const n of station.content.neighbours ?? []) {
+  for (const n of [
+    ...(station.content.neighbours ?? []),
+    ...(station.content.alternatives ?? []),
+  ]) {
     const other = getLocalizedStation(n.slug, locale);
     if (other) neighbourNames[n.slug] = other.content.name;
   }

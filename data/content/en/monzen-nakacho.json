@@ -85,7 +85,7 @@
   },
   "family": "The grounds of Tomioka Hachimangu and Fukagawa Park are within walking distance, and Kiba Park is reachable by bicycle. The ground is flat, so a pushchair is easy. Because the festival and the neighbourhood association are active, adults nearby still know the local children by sight. Nursery vacancies and school catchments change by year and by address, so check Koto City's current information for each flat. Allow for the fact that the Tozai Line's morning crowding is considerably harder once you are boarding it after a nursery drop-off.",
   "medical": "Within walking distance of the station there are 5 clinics and 2 pharmacies, which is on the low side for the Fukagawa area. Hospitals that admit inpatients include Shuseikai Kiba Hospital and Ishikawajima Memorial Hospital, both about 1.1 km away. A bicycle widens the range considerably. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "neighbours": [
+  "alternatives": [
     {
       "slug": "kiyosumi-shirakawa",
       "note": "If you want to avoid the Tozai Line's crowding, choose Kiyosumi-Shirakawa. The Hanzomon and Oedo Lines make for a comfortable commute and run direct towards Shibuya. After 20:00, though, almost all the restaurants are shut and the choice for eating out shrinks sharply."
@@ -109,5 +109,15 @@
     "People who want to do all their shopping in one large complex"
   ],
   "residentComment": "Of the three stations in the Fukagawa area, only Monzen-Nakacho has the restaurants to go out and eat at night. Being able to eat somewhere on the way home is worth more once you live here than you would guess. The Tozai Line in the morning really is hard, though, and underestimating it means the tiredness of a packed train every morning piles up. Switching to the Oedo Line is possible but a detour, so unless you commute towards Otemachi or Nihonbashi, Kiyosumi-Shirakawa is easier on balance. That this is low ground, and inside the storm surge projection, is best looked at separately from how pleasant the place feels.",
-  "authoredBy": "ai-localized"
+  "authoredBy": "ai-localized",
+  "neighbours": [
+    {
+      "slug": "etchujima",
+      "note": "536 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Monzen-Nakacho."
+    },
+    {
+      "slug": "kiba",
+      "note": "1017 m away in a straight line. It reaches Otemachi in about the same time as Monzen-Nakacho."
+    }
+  ]
 }

@@ -104,7 +104,7 @@
   },
   "family": "Shopping is finished by the station, which makes life with children easier. Shinagawa Kumin Park is within cycling distance. The station front is busy until late and the drinking streets are close, though, so if a settled environment matters, choose a block away from the station. Check nursery availability and school catchment by address against Shinagawa City's own current information.",
   "medical": "Tokyo Shinagawa Hospital is about 650 m away and Sakakai Oi Central Hospital about 700 m, so hospitals that admit inpatients are within walking distance. There are 5 clinics and 5 pharmacies within walking distance; rather than clustering by the station, they are spread through the residential streets. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "neighbours": [
+  "alternatives": [
     {
       "slug": "osaki",
       "note": "For commuting towards Shibuya and Shinjuku, Osaki is quicker. It is an office district with tidier streets, but Oimachi has more choice for eating and shopping."
@@ -132,5 +132,15 @@
     "People who want to avoid foot traffic and voices continuing late"
   ],
   "residentComment": "Three lines and the shopping finished by the station make this, I think, one of the easier places to live in the Jonan area. With three lines a stoppage is not a problem, and the station buildings and the large supermarket cover the shopping. Six minutes to Shinagawa makes both commuting and business trips easier. The drawback is that the station front is not a settled place: the drinking streets remain, so people are about at night too. If you want quiet, better to go up Zaimusu-zaka on the west side, or shift one stop along the Oimachi Line. The station does fall inside the projected flood area, but the projected depth is under 0.5 m; this is a different situation from low-lying areas like Fukagawa, and worth keeping separate.",
-  "authoredBy": "ai-localized"
+  "authoredBy": "ai-localized",
+  "neighbours": [
+    {
+      "slug": "samezu",
+      "note": "697 m away in a straight line. It reaches Otemachi in about the same time as Oimachi."
+    },
+    {
+      "slug": "aomono-yokocho",
+      "note": "764 m away in a straight line. It reaches Otemachi in about the same time as Oimachi. One-room rents run about ¥8,000 higher."
+    }
+  ]
 }

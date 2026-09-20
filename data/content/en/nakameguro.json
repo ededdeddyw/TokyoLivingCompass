@@ -92,7 +92,7 @@
   },
   "family": "Meguro City is well regarded for its schools, and families choose it for childcare and education. The slopes are hard work with a pushchair, though. There are few large parks near the station, so the riverside walkway is the main place to take a walk. Because rents are high, finding family-sized space raises the budget sharply. Check nursery availability and school catchment by address against Meguro City's own current information.",
   "medical": "Within walking distance of the station there are 15 clinics and 7 pharmacies. Tokyo Kyosai Hospital is about 560 m away, and Mishuku Hospital and the Japan Self-Defense Forces Central Hospital are both about 1.2 km. Clinics that work in foreign languages are comparatively easy to find here. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "neighbours": [
+  "alternatives": [
     {
       "slug": "musashi-koyama",
       "note": "If you want the same Meguro Line and Toyoko Line reach at a lower rent, choose Musashi-Koyama. Its covered shopping street is long, and buying everyday goods and food is easier there. It also runs direct to Otemachi on the Meguro Line. The choice is between the calm of the streets here and the convenience of the shopping there."
@@ -116,5 +116,15 @@
     "People who want a larger flat for the same budget"
   ],
   "residentComment": "People say the commute and the calm are both here and the only weakness is the rent, but once you live here it is the slopes and the cherry blossom crowds that weigh on you day to day. The Hibiya Line starting here means I usually get a seat, and commuting to Roppongi and Toranomon became clearly easier. It is true, though, that the same budget would buy a larger flat at another station, and the decision comes down to whether you personally have a reason to pay that difference for this neighbourhood. The riverside is lovely, but I would keep that separate from the fact that it is inside the projected flood area.",
-  "authoredBy": "ai-localized"
+  "authoredBy": "ai-localized",
+  "neighbours": [
+    {
+      "slug": "daikanyama",
+      "note": "640 m away in a straight line. It reaches Otemachi in about the same time as Naka-Meguro. One-room rents run about ¥26,000 higher."
+    },
+    {
+      "slug": "yutenji",
+      "note": "1028 m away in a straight line. It takes 5 minutes longer to reach Otemachi than Naka-Meguro. One-room rents run about ¥28,000 lower."
+    }
+  ]
 }

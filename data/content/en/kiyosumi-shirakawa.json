@@ -90,7 +90,7 @@
   },
   "family": "The Fukagawa area has many parks and waterways: Kiyosumi Garden is here and Kiba Park is within cycling range. The ground has almost no slope, so a pushchair is very easy, and in this respect the area is clearly better than the hillier Jonan and Josei areas. Koto City is known for putting effort into support for families, but how easy it is to get a nursery place varies by year and by area, so check the ward's current vacancies when you are deciding. Primary and junior high school catchments follow the address, so check each one individually.",
   "medical": "Within walking distance of the station there are 10 clinics and 9 pharmacies. Hospitals that admit inpatients include Yamamura Hospital about 880 m away, and Shuseikai Kiba Hospital and Fukagawa Tachikawa Hospital about 1.4 km away. With a bicycle, the number of hospitals you can reach is larger than the map suggests. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "neighbours": [
+  "alternatives": [
     {
       "slug": "morishita",
       "note": "If you want to hold the rent down further, choose Morishita. The Toei Shinjuku and Oedo Lines run direct to Shinjuku, but only Kiyosumi-Shirakawa reaches Shibuya without a change."
@@ -114,5 +114,15 @@
     "People who want quiet at weekends as well"
   ],
   "residentComment": "People talk about it as a coffee neighbourhood, but what makes the biggest difference day to day is having both the Hanzomon and the Oedo Line. Otemachi, Shibuya and Roppongi are all reachable without changing, so a new job or a transfer does not mean moving house. The neighbourhood turns in early, and going out for a drink means walking to Monzen-Nakacho or Morishita. Whether you read that as inconvenient or as pleasantly quiet is what divides opinion here. The one thing to judge coolly, separately from how nice the place feels, is that this is low ground.",
-  "authoredBy": "ai-localized"
+  "authoredBy": "ai-localized",
+  "neighbours": [
+    {
+      "slug": "morishita",
+      "note": "671 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Kiyosumi-Shirakawa. One-room rents run about ¥8,000 lower."
+    },
+    {
+      "slug": "kikukawa",
+      "note": "951 m away in a straight line. It takes 11 minutes longer to reach Otemachi than Kiyosumi-Shirakawa. One-room rents run about ¥8,000 lower."
+    }
+  ]
 }

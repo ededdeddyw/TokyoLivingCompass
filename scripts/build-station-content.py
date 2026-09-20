@@ -23,6 +23,9 @@
 
 すでに人が書いた駅（authoredBy が draft か human）と、
 文章としてローカライズした駅（ai-localized）は上書きしない。
+ただし近くの駅の節（neighbours）だけは、距離・所要時間・家賃の差から組み立てる
+データだけの層なので、人が書いた駅でも作り直す。人が「比べたい駅」として選んだ駅は
+alternatives に入っており、この処理では触らない。
 
 言語ごとに違うのは文型だけで、組み立ての手順は変わらない。
 文型は scripts/station_phrases.py にまとめてある。
@@ -249,7 +252,7 @@ def build(st, ctx):
         if reason:
             c["rentReason"] = "".join(reason).strip()
 
-    # ── 隣の駅との使い分け ─────────────────────────
+    # ── 近くの駅との違い ───────────────────────────
     near = sorted(((haversine_m(st, o), o) for o in ctx["roster"] if o["slug"] != slug),
                   key=lambda t: t[0])[:2]
     nb = []
@@ -350,7 +353,7 @@ def main():
         "poiDate": pois_doc["meta"]["retrievedAt"],
     }
 
-    written = made = skipped = 0
+    written = made = skipped = refreshed = 0
     targets = roster[:args.limit] if args.limit else roster
     for st in targets:
         path = os.path.join(out_dir, f"{st['slug']}.json")
@@ -359,6 +362,15 @@ def main():
             # 人が書いた駅と、文章としてローカライズした駅は上書きしない
             if existing.get("authoredBy") in ("human", "draft", "ai-localized"):
                 skipped += 1
+                # ただし neighbours だけは、距離・所要時間・家賃の差だけで組み立てる層なので、
+                # ここで作り直す。人が選んだ駅は alternatives に入っており、手を触れない。
+                fresh = build(st, ctx).get("neighbours")
+                if fresh and fresh != existing.get("neighbours") and not args.dry_run:
+                    existing["neighbours"] = fresh
+                    json.dump(existing, open(path, "w", encoding="utf-8"),
+                              ensure_ascii=False, indent=2)
+                    open(path, "a", encoding="utf-8").write("\n")
+                    refreshed += 1
                 continue
         c = build(st, ctx)
         made += 1
@@ -367,7 +379,8 @@ def main():
             open(path, "a", encoding="utf-8").write("\n")
             written += 1
 
-    print(f"組み立てた駅: {made} / 人が書いた駅・訳した駅は残した: {skipped}")
+    print(f"組み立てた駅: {made} / 人が書いた駅・訳した駅は残した: {skipped}"
+          f"（うち近くの駅の節だけ作り直した: {refreshed}）")
     if args.dry_run:
         print("（--dry-run のため書き込んでいない）")
     else:

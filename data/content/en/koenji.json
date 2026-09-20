@@ -87,7 +87,7 @@
   },
   "family": "The share of households with children is not high, and both the shops and the housing lean towards people living alone. The ground is flat, on the terrace, so a pushchair is easy to manage, but there are few large parks near the station and Wadabori Park and the Zenpukuji riverside are some distance away. Check school catchment and nursery availability by address against Suginami City's own current information. Whether you read the late-night foot traffic as reassuring company or as noise that never lets up is what divides opinion here.",
   "medical": "Within walking distance of the station there are 25 clinics and 23 pharmacies, the most of any of the seventeen stations written up in this depth. Hojo Hospital is about 370 m away and Seizankai Kiyokawa Hospital about 550 m, so hospitals that admit inpatients are within walking distance too. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "neighbours": [
+  "alternatives": [
     {
       "slug": "higashi-nakano",
       "note": "If you want quiet rather than bustle, choose Higashi-Nakano. Shinjuku is one stop away, but only local trains stop there. Rents are at a similar level."
@@ -111,5 +111,15 @@
     "People who want a settled environment centred on raising children"
   ],
   "residentComment": "It is not a neighbourhood to recommend to everyone, but nowhere else in Tokyo packs this many vintage shops, live music venues and owner-run bars into one place, and anyone who wants that will struggle to find the same thing elsewhere. There are so many cheap places to eat that you can keep food costs down without cooking. The rent people call cheap, though, is a figure based on old timber-built flats; ask for ordinary fittings and it matches any other Chuo Line station. The morning crowding, and the Rapid passing through at weekends, are things you feel as an inconvenience most weeks once you live here. That this is a densely packed timber-housing area is worth facing squarely as the reason the rent is low.",
-  "authoredBy": "ai-localized"
+  "authoredBy": "ai-localized",
+  "neighbours": [
+    {
+      "slug": "shin-koenji",
+      "note": "828 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Koenji."
+    },
+    {
+      "slug": "higashi-koenji",
+      "note": "1114 m away in a straight line. It reaches Otemachi in about the same time as Koenji. One-room rents run about ¥7,000 higher."
+    }
+  ]
 }
