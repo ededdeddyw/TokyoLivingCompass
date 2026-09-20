@@ -204,32 +204,32 @@ function shortLineName(name: string): string {
 // 店名は、実在を確認していないものを載せてはいけない。
 // スキーマが sourceUrl と verifiedAt を必須にしているので、ここでは鮮度と件数を見る。
 const STORE_STALE_DAYS = 365;
-const staleStores: string[] = [];
-const noGroceries: string[] = [];
+const staleStores = new Set<string>();
+const noGroceries = new Set<string>();
 for (const locale of listContentLocales()) {
   if (!isActiveLocale(locale)) continue;
   for (const slug of listContentSlugs(locale)) {
     const content = getStationContent(slug, locale);
     if (!content) continue;
     if (!content.groceries || content.groceries.length === 0) {
-      noGroceries.push(slug);
+      noGroceries.add(slug);
       continue;
     }
     for (const store of content.groceries) {
       const age = (Date.now() - Date.parse(store.verifiedAt)) / 86_400_000;
-      if (age > STORE_STALE_DAYS) staleStores.push(`${slug}/${store.name}`);
+      if (age > STORE_STALE_DAYS) staleStores.add(`${slug}/${store.name}`);
     }
   }
 }
-if (noGroceries.length > 0) {
+if (noGroceries.size > 0) {
   warnings.push(
-    `${noGroceries.length}駅に、実在を確認できた店が1つもありません: ${noGroceries.join("、")}`,
+    `${noGroceries.size}駅に、実在を確認できた店が1つもありません: ${[...noGroceries].join("、")}`,
   );
 }
-if (staleStores.length > 0) {
+if (staleStores.size > 0) {
   warnings.push(
-    `${staleStores.length}件の店が、確認から1年以上たっています。閉店していないか見直してください: ` +
-      staleStores.join("、"),
+    `${staleStores.size}件の店が、確認から1年以上たっています。閉店していないか見直してください: ` +
+      [...staleStores].join("、"),
   );
 }
 
