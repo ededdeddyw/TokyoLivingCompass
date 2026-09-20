@@ -50,8 +50,8 @@ export default async function AboutPage({
     publisher: {
       "@type": "Organization",
       name: about.operatorName,
-      email: CONTACT_EMAIL,
       url: absoluteUrl(`/${locale}`),
+      ...(CONTACT_EMAIL ? { email: CONTACT_EMAIL } : {}),
     },
   };
 
@@ -68,12 +68,16 @@ export default async function AboutPage({
         <dl className="grid gap-x-8 gap-y-2 text-sm sm:grid-cols-[auto_1fr]">
           <dt className="text-ink-soft">{about.operatorLabel}</dt>
           <dd className="text-ink">{about.operatorName}</dd>
-          <dt className="text-ink-soft">{about.contactLabel}</dt>
-          <dd className="text-ink">
-            <a className="underline underline-offset-2" href={`mailto:${CONTACT_EMAIL}`}>
-              {CONTACT_EMAIL}
-            </a>
-          </dd>
+          {CONTACT_EMAIL && (
+            <>
+              <dt className="text-ink-soft">{about.contactLabel}</dt>
+              <dd className="text-ink">
+                <a className="underline underline-offset-2" href={`mailto:${CONTACT_EMAIL}`}>
+                  {CONTACT_EMAIL}
+                </a>
+              </dd>
+            </>
+          )}
         </dl>
       </section>
 
