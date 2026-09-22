@@ -13,7 +13,7 @@
   nature             徒歩圏の公園の数
   food / cafe / nightlife / fitness  徒歩圏の飲食店・カフェ・酒場・ジムの数
   rentValue          通勤の速さに対する家賃の安さ
-  quietness          飲み屋・飲食店の少なさから見た静かさ
+  quietness          駅から300m以内の飲み屋・飲食店の少なさ
   family             公園・日常の医療・スーパーの多さと、坂の少なさ
   singleLife         外食とカフェで生活を完結させやすいか
   disaster           浸水想定区域に入る地点の少なさ
@@ -218,7 +218,15 @@ def main():
                 return v
         return "s"
 
+    # 静かさだけは半径300mで数える。
+    # ほかの軸は「歩いて行ける選択肢の多さ」なので800m圏でよいが、静かさは
+    # 「駅を出たところがどうか」である。800m圏だと、都心では隣の駅と圏が重なって
+    # 差が消える。淡路町と神田は800m圏のPOIの54%が同じもので、酒場の数は
+    # 淡路町298軒・神田211軒と、実際とは逆に出ていた。250m圏で数え直すと
+    # 淡路町26軒・神田69軒になり、街を歩いた感覚と向きがそろう。
+    NEAR_M = 300
     counts = {c: {} for c in ("restaurant", "cafe", "bar", "gym", "park")}
+    near = {"bar": {}, "restaurant": {}}
     extras = {}
     for station in roster:
         lst = pois.get(station["slug"], [])
@@ -227,6 +235,9 @@ def main():
             by_cat.setdefault(p["category"], []).append(p)
         for c in counts:
             counts[c][station["slug"]] = len(by_cat.get(c, []))
+        for c in near:
+            near[c][station["slug"]] = sum(
+                1 for p in by_cat.get(c, []) if p["distanceM"] <= NEAR_M)
         hospitals = by_cat.get("hospital", [])
         extras[station["slug"]] = {
             "shops": [tier(p["name"]) for p in by_cat.get("supermarket", [])],
@@ -243,6 +254,7 @@ def main():
     counts["dailyCare"] = {s["slug"]: extras[s["slug"]]["clinics"]
                                       + extras[s["slug"]]["pharmacies"] for s in roster}
     pct = {c: percentile_scores(counts[c]) for c in counts}
+    pct_near = {c: percentile_scores(near[c]) for c in near}
 
     out = {}
     # ファミリー適性は5つの材料の重みつき平均なので、そのままだと真ん中に寄り、
@@ -276,10 +288,10 @@ def main():
                 if any(counts[cat].values()):
                     scores[axis] = pct[cat][slug]
 
-            # 静かさは、夜に人が集まる店の少なさで見る。
+            # 静かさは、駅から300m以内で夜に人が集まる店の少なさで見る。
             # 幹線道路と線路の騒音はデータが無いため、ここには入っていない。
             scores["quietness"] = clamp(
-                100 - (pct["bar"][slug] * 0.65 + pct["restaurant"][slug] * 0.35))
+                100 - (pct_near["bar"][slug] * 0.65 + pct_near["restaurant"][slug] * 0.35))
 
             # ファミリー適性は、公園・日常の医療・スーパーの多さと、
             # ベビーカーで歩ける平坦さ、それに夜の店の少なさを合わせる。
@@ -290,7 +302,7 @@ def main():
                 + pct["dailyCare"][slug] * 0.2
                 + pct["supermarket"][slug] * 0.2
                 + flat * 15
-                + (100 - pct["bar"][slug]) * 0.15)
+                + (100 - pct_near["bar"][slug]) * 0.15)
 
             # 一人暮らし適性は、自炊しなくても生活が回るかで見る。
             scores["singleLife"] = clamp(
