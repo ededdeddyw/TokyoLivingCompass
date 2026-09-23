@@ -350,6 +350,7 @@ export const groceryStoreSchema = z.object({
  */
 export const STATION_TAGS = [
   "majorHub",
+  "someBustle",
   "lively",
   "quiet",
   "shoppingEasy",

@@ -109,7 +109,7 @@ def band_key(prefix, score):
 # 条件は「23区の駅の中で上位／下位2割」を目安に置いている。
 # 並び順がそのまま表示順になるので、街を言い当てる力が強いものを先に置く。
 TAG_RULES = [
-    ("majorHub", lambda sc, st, ter: sc.get("food", 0) >= 95 and sc.get("nightlife", 0) >= 95),
+    # 繁華街の2段階は station_tags() が先に決める。ここでは扱わない。
     ("lively", lambda sc, st, ter: sc.get("nightlife", 0) >= 80 and sc.get("food", 0) >= 75),
     ("quiet", lambda sc, st, ter: sc.get("quietness", 0) >= 80),
     ("goodValue", lambda sc, st, ter: sc.get("rentValue", -1) >= 80),
@@ -131,17 +131,71 @@ TAG_RULES = [
     ("hilly", lambda sc, st, ter: ter.get("slope") == "hilly"),
 ]
 # 同時に立つと読み手が混乱する組み合わせ。先に出たほうを残す。
-TAG_CONFLICTS = [("lively", "quiet"), ("majorHub", "quiet"), ("goodValue", "pricey"),
-                 ("floodArea", "lowFlood"), ("flat", "hilly"), ("manyLines", "singleLine")]
+TAG_CONFLICTS = [("lively", "quiet"), ("majorHub", "quiet"), ("someBustle", "quiet"),
+                 ("majorHub", "lively"), ("someBustle", "lively"),
+                 ("goodValue", "pricey"), ("floodArea", "lowFlood"),
+                 ("flat", "hilly"), ("manyLines", "singleLine")]
 MAX_TAGS = 6
 
 
-def station_tags(sc, st, ter):
+def station_tags(sc, st, ter, ctx=None):
     picked = [t for t, ok in TAG_RULES if ok(sc, st, ter)]
+    if ctx is not None:
+        bustle = bustle_tag(st["slug"], ctx)
+        if bustle:
+            picked.insert(0, bustle)
     for a, b in TAG_CONFLICTS:
         if a in picked and b in picked:
             picked.remove(b if picked.index(a) < picked.index(b) else a)
     return picked[:MAX_TAGS]
+
+
+# 「大きな繁華街」は、よそから食事・買い物・飲みのためにわざわざ来る駅だけに付ける。
+#
+# 機械で決められない。半径300mの飲食店の数で並べると、上位は御徒町578・湯島544・
+# 京成上野345・赤坂305・渋谷305 の順になり、新宿は173、池袋は101で上位に出てこない。
+# 理由は2つある。
+#   1. 隣の繁華街からあふれた店を数えてしまう（湯島と末広町は上野・御徒町の一部、
+#      淡路町は神田と秋葉原の続き）
+#   2. 新宿・池袋・上野は駅の範囲が広く、代表の座標が繁華街の中心から離れる。
+#      商業の中身が百貨店や駅ビルで、OpenStreetMap では点1つにしかならない駅もある
+#
+# そこで、一覧は人が決め、データで裏を取る（ロースターの WARD_OVERRIDE と同じ扱い）。
+# 根拠は docs/12-quality-standard.md に書く。
+MAJOR_HUBS = {
+    # 山手線沿い
+    "shinjuku", "ikebukuro", "shibuya", "ebisu", "gotanda", "shimbashi", "ginza",
+    "kanda", "akihabara", "ueno", "okachimachi",
+    # 山手線の外側・内側で、よそから飲みに来る駅
+    "roppongi", "koenji", "akabane", "kinshicho", "nakano", "kita-senju",
+    "shimo-kitazawa", "kamata", "asakusa", "asakusa-tx", "sangen-jaya",
+    # 買い物でよそから来る駅。飲食店の数では測れない
+    "jiyugaoka",
+}
+
+# 「やや繁華街」は、駅前に店は多いが、よそから来る駅ではないところ。
+# 半径300mの飲食店・酒場・カフェの数が上位に入り、MAJOR_HUBS に入っていない駅に付ける。
+SOME_BUSTLE_RANK = 0.90   # 上位1割
+
+
+def bustle_tag(slug, ctx):
+    """繁華街のタグを決める。大きな繁華街・やや繁華街・なし の3段階。"""
+    if slug in MAJOR_HUBS:
+        return "majorHub"
+    d = ctx["bustle"]
+    if slug not in d:
+        return None
+    ranked = sorted(d.values())
+    pos = sum(1 for v in ranked if v < d[slug]) / len(ranked)
+    if pos < SOME_BUSTLE_RANK:
+        return None
+    # 800m以内に自分よりはっきり多い駅があれば、その駅の繁華街の続きにあたる。
+    # 淡路町は170軒だが、501m先の神田が210軒、669m先の秋葉原が226軒ある。
+    for other, ov in d.items():
+        if other != slug and ov >= d[slug] * 1.2 and haversine_m(
+                ctx["rosterBySlug"][slug], ctx["rosterBySlug"][other]) <= 800:
+            return "someBustle"
+    return "someBustle"
 
 
 def compare_lead(p, a, b, ctx):
@@ -499,7 +553,7 @@ def build(st, ctx):
         c["noiseSources"] = lines
 
     # ── 街の性格タグと、節ごとの一言 ───────────────
-    tags = station_tags(sc, st, ter)
+    tags = station_tags(sc, st, ter, ctx)
     if tags:
         c["tags"] = tags
 
@@ -568,6 +622,13 @@ def main():
         "ter": load("computed/terrain.json")["stations"],
         "roads": load("computed/roads.json")["stations"],
         "rosterBySlug": {r["slug"]: r for r in roster},
+        # 駅を出てすぐの繁華性。半径300mの飲食店・酒場・カフェの数
+        "bustle": {
+            r["slug"]: sum(1 for x in pois_doc["stations"].get(r["slug"], [])
+                           if x["category"] in ("restaurant", "bar", "cafe")
+                           and x["distanceM"] <= 300)
+            for r in roster
+        },
         "haz": load("computed/hazard.json")["stations"],
         "bands": load("computed/rent-bands.json"),
         "pois": pois_doc["stations"],

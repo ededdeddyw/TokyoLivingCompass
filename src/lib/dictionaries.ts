@@ -362,6 +362,7 @@ const ja: Dictionary = {
   },
   tags: {
       majorHub: "大きな繁華街",
+    someBustle: "やや繁華街",
       lively: "にぎやか",
       quiet: "静か",
       shoppingEasy: "買い物が近い",
@@ -645,6 +646,7 @@ const en: Dictionary = {
   },
   tags: {
       majorHub: "Major entertainment district",
+    someBustle: "Somewhat busy",
       lively: "Lively",
       quiet: "Quiet",
       shoppingEasy: "Shops close by",
@@ -920,6 +922,7 @@ const zhHans: Dictionary = {
   },
   tags: {
       majorHub: "大型繁华街",
+    someBustle: "略显繁华",
       lively: "热闹",
       quiet: "安静",
       shoppingEasy: "买东西方便",
@@ -1195,6 +1198,7 @@ const ko: Dictionary = {
   },
   tags: {
       majorHub: "큰 번화가",
+    someBustle: "다소 번화함",
       lively: "북적임",
       quiet: "조용함",
       shoppingEasy: "장 보기 가까움",
