@@ -161,9 +161,9 @@ TAG_ORDER = [
     "floodArea", "lowFlood",
     "fastToCenter", "manyLines", "singleLine",
     "familyFriendly", "singleFriendly",
-    "shoppingEasy", "diningRich",
+    "shoppingEasy", "diningRich", "lateNight",
     "flat", "hilly",
-    "lateNight", "cafeRich", "parkNear", "medicalRich",
+    "cafeRich", "parkNear", "medicalRich",
 ]
 
 
