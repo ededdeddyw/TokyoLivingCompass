@@ -140,7 +140,9 @@ TAG_RULES = [
     ("lateNight", lambda sc, st, ter: sc.get("nightlife", 0) >= 85),
     ("parkNear", lambda sc, st, ter: sc.get("nature", 0) >= 85),
     ("medicalRich", lambda sc, st, ter: sc.get("healthcare", 0) >= 90),
-    ("familyFriendly", lambda sc, st, ter: sc.get("family", 0) >= 85),
+    # familyFriendly は外してある。いまの family スコアには子どもに関する数字が
+    # 1つも入っておらず、駅から300m以内に酒場が63軒ある高円寺が94点で出ていた。
+    # 学校と保育園を取ってから付け直す（docs/14-audience-segments.md §4）。
     ("singleFriendly", lambda sc, st, ter: sc.get("singleLife", 0) >= 85),
     ("flat", lambda sc, st, ter: ter.get("slope") == "flat"),
     ("hilly", lambda sc, st, ter: ter.get("slope") == "hilly"),
