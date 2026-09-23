@@ -61,23 +61,28 @@ def fetch(query, tmp, tries=10):
 
 
 def reduce_tile(doc):
-    """Overpass の応答から、緯度・経度・階数・商業かどうかだけを残す。"""
+    """Overpass の応答から、緯度・経度・階数・商業かどうかだけを残す。
+
+    階数の登録がある建物は、用途にかかわらず残す。飲食店が入っているビルが
+    何階建てなのかを後から引くために使う。新宿や池袋では、路面に登録された1軒の裏に、
+    同じビルの2階から8階の店がまるごと抜け落ちているため。
+    """
     levels = []
     rows = []
     for e in doc.get("elements", []):
         t = e.get("tags", {})
         raw = str(t.get("building:levels", ""))
-        lv = int(raw) if raw.isdigit() else None
+        lv = min(int(raw), 60) if raw.isdigit() else None
         if lv is not None:
-            levels.append(min(lv, 60))
+            levels.append(lv)
         c = e.get("center") or {}
         la, lo = c.get("lat"), c.get("lon")
         if la is None:
             continue
         biz = t.get("building") in COMMERCIAL or any(k in t for k in ("shop", "amenity", "office"))
-        if not biz:
+        if lv is None and not biz:
             continue
-        rows.append([round(la, 5), round(lo, 5), lv])
+        rows.append([round(la, 5), round(lo, 5), lv, 1 if biz else 0])
     return {"median": statistics.median(levels) if levels else 3,
             "withLevels": len(levels), "rows": rows}
 
@@ -126,7 +131,9 @@ def main():
                 if box[0] - 0.006 <= s["lat"] <= box[2] + 0.006
                 and box[1] - 0.007 <= s["lon"] <= box[3] + 0.007]
         med = tile["median"]
-        for la, lo, lv in tile["rows"]:
+        for la, lo, lv, biz in tile["rows"]:
+            if not biz:
+                continue
             level = med if lv is None else lv
             for s in near:
                 d = math.hypot((la - s["lat"]) * 111_000,
