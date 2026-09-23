@@ -35,6 +35,7 @@ import json
 import math
 import os
 import re
+import statistics
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -203,28 +204,58 @@ MAJOR_HUBS = {
 }
 
 # 「やや繁華街」は、駅前に店は多いが、よそから来る駅ではないところ。
-# 半径300mの飲食店・酒場・カフェの数が上位に入り、MAJOR_HUBS に入っていない駅に付ける。
-SOME_BUSTLE_RANK = 0.90   # 上位1割
+#
+# 店の数をそのまま全458駅で並べることはできない。OpenStreetMap の登録の細かさが
+# 区によって大きく違うためである。駅から500m以内にある商業の建物の棟数は、
+# 中央値で台東区205棟に対して板橋区9棟で、20倍以上の開きがある。
+# この差は街の実態ではなく、地図を作る人の多さの差である。
+#
+# そこで、全体で並べるのをやめ、まわりの駅と比べてどれだけ突き出ているかで測る。
+# 半径4km以内にある駅の中央値に対する倍率をとれば、区ごとの登録の細かさの差は
+# 分子と分母の両方に効くので打ち消し合う。
+BUSTLE_NEIGHBOUR_KM = 4.0
+SOME_BUSTLE_RATIO = 3.0
+# まわりの駅がどこも店の登録が少ない地域では、22軒の駅でも7倍に見えてしまう。
+# 倍率だけでなく、実数でも下限を置く。300m以内60軒は、全458駅の上位2割にあたる。
+SOME_BUSTLE_MIN_SHOPS = 60
+# 分母が小さいと倍率が跳ねる。中央値がこれを下回る地域では、この値を分母に使う。
+BUSTLE_FLOOR_SHOPS = 15.0
+BUSTLE_FLOOR_LEVELS = 150.0
+
+
+def bustle_ratio(slug, ctx):
+    """まわりの駅と比べて、店と商業の建物がどれだけ多いか。倍率で返す。"""
+    cache = ctx.setdefault("_bustleRatio", {})
+    if slug in cache:
+        return cache[slug]
+    roster, shops, floors = ctx["rosterBySlug"], ctx["bustle"], ctx["floors"]
+    here = roster.get(slug)
+    if here is None:
+        return 0.0
+    near = [o for o in shops
+            if haversine_m(here, roster[o]) <= BUSTLE_NEIGHBOUR_KM * 1000]
+    mid_shop = max(statistics.median(shops[o] for o in near), BUSTLE_FLOOR_SHOPS)
+    mid_floor = max(statistics.median(floors.get(o, 0) for o in near), BUSTLE_FLOOR_LEVELS)
+    r = math.sqrt(max(shops[slug] / mid_shop, 0.01)
+                  * max(floors.get(slug, 0) / mid_floor, 0.01))
+    cache[slug] = r
+    return r
 
 
 def bustle_tag(slug, ctx):
-    """繁華街のタグを決める。大きな繁華街・やや繁華街・なし の3段階。"""
+    """繁華街のタグを決める。大きな繁華街・やや繁華街・なし の3段階。
+
+    隣の大きな駅の続きにあたる駅にも「やや繁華街」は付ける。
+    淡路町は神田と秋葉原の続きだが、駅前に店が多いこと自体は住む人に効くため。
+    付けないのは「大きな繁華街」のほうである。
+    """
     if slug in MAJOR_HUBS:
         return "majorHub"
-    d = ctx["bustle"]
-    if slug not in d:
+    if slug not in ctx["bustle"]:
         return None
-    ranked = sorted(d.values())
-    pos = sum(1 for v in ranked if v < d[slug]) / len(ranked)
-    if pos < SOME_BUSTLE_RANK:
+    if ctx["bustle"][slug] < SOME_BUSTLE_MIN_SHOPS:
         return None
-    # 800m以内に自分よりはっきり多い駅があれば、その駅の繁華街の続きにあたる。
-    # 淡路町は170軒だが、501m先の神田が210軒、669m先の秋葉原が226軒ある。
-    for other, ov in d.items():
-        if other != slug and ov >= d[slug] * 1.2 and haversine_m(
-                ctx["rosterBySlug"][slug], ctx["rosterBySlug"][other]) <= 800:
-            return "someBustle"
-    return "someBustle"
+    return "someBustle" if bustle_ratio(slug, ctx) >= SOME_BUSTLE_RATIO else None
 
 
 def compare_lead(p, a, b, ctx):
@@ -660,6 +691,7 @@ def main():
 
     roster = load("roster/stations.json")
     pois_doc = load("computed/pois.json")
+    buildings = load("computed/buildings.json")["stations"]
     ctx = {
         "locale": args.locale,
         "p": PHRASES[args.locale],
@@ -677,6 +709,11 @@ def main():
                            and x["distanceM"] <= 300)
             for r in roster
         },
+        # 駅から500m以内にある商業の建物の、階数の合計。
+        # 雑居ビルのテナントが OpenStreetMap に入っていないため、
+        # 路面の店の数だけでは、縦に積まれた街の厚みを測れない
+        "floors": {r["slug"]: buildings.get(r["slug"], {}).get("floors", 0)
+                   for r in roster},
         "haz": load("computed/hazard.json")["stations"],
         "bands": load("computed/rent-bands.json"),
         "pois": pois_doc["stations"],
