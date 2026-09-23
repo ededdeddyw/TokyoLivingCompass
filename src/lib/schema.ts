@@ -416,6 +416,12 @@ export const rentRangeSchema = z.object({
 /** 隣接駅との使い分け。「この用途なら隣の駅のほうがいい」を正直に書く。 */
 export const neighbourNoteSchema = z.object({
   slug: z.string().min(1),
+  /**
+   * 比較の「一言でいうと」。本文を読む前に、どちらが何で上回るのかを受け取れるようにする。
+   * 誰にとっても向きが同じ軸（家賃・浸水の想定・路線の数）から書く
+   * （docs/13-japanese-style-rules.md ルール40）。
+   */
+  lead: z.string().min(1).optional(),
   note: z.string().min(1),
 });
 

@@ -144,6 +144,91 @@ def station_tags(sc, st, ter):
     return picked[:MAX_TAGS]
 
 
+def compare_lead(p, a, b, ctx):
+    """
+    2駅を比べた「一言でいうと」を組み立てる。
+
+    誰にとっても向きが同じ軸から先に書く（ルール40）。
+    家賃 → 浸水の想定 → 路線の数 → 都心への近さ → 医療 → 買い物 → 静かさ の順に見て、
+    差がはっきりしている軸だけを採る。店の多さのように好みが分かれる軸は入れない。
+    """
+    sc, bands, roster = ctx["sc"], ctx["bands"], ctx["rosterBySlug"]
+    if a not in roster or b not in roster:
+        return None
+    name_a, name_b = p["stationName"](roster[a]), p["stationName"](roster[b])
+
+    def band(slug):
+        v = bands.get(slug, {}).get("bands", {}).get("oneRoom")
+        return v["mean"] if v else None
+
+    # 差がこれ以上あるときだけ書く。小さな差を並べても判断の助けにならない。
+    AXES = [("disaster", "cmpAxisDisaster", 12), ("commute", "cmpAxisCommute", 8),
+            ("healthcare", "cmpAxisHealthcare", 15), ("shopping", "cmpAxisShopping", 15),
+            ("quietness", "cmpAxisQuiet", 15)]
+    wins_a, wins_b = [], []
+    # 路線の数は、スコアではなく本数そのもので比べる
+    la, lb = len(roster[a]["lineIds"]), len(roster[b]["lineIds"])
+    if la - lb >= 1:
+        wins_a.append(p["cmpAxisTransit"])
+    elif lb - la >= 1:
+        wins_b.append(p["cmpAxisTransit"])
+    for axis, label, gap in AXES:
+        va, vb = sc.get(a, {}).get(axis), sc.get(b, {}).get(axis)
+        if va is None or vb is None:
+            continue
+        if va - vb >= gap:
+            wins_a.append(p[label])
+        elif vb - va >= gap:
+            wins_b.append(p[label])
+
+    # 片方が1つも上回らないと、「もう一方へ行け」としか読めない一言になる。
+    # その場合だけしきい値を半分にして、この駅が上回る軸を探す。
+    def relax(target, other, target_name_wins):
+        found = []
+        for axis, label, gap in AXES:
+            va, vb = sc.get(a, {}).get(axis), sc.get(b, {}).get(axis)
+            if va is None or vb is None:
+                continue
+            diff = (va - vb) if target_name_wins else (vb - va)
+            if gap / 2 <= diff < gap:
+                found.append(p[label])
+        return found[:1]
+
+    if not wins_a and wins_b:
+        wins_a = relax(wins_a, wins_b, True)
+    elif not wins_b and wins_a:
+        wins_b = relax(wins_b, wins_a, False)
+
+    ra, rb = band(a), band(b)
+    rent = None
+    if ra is not None and rb is not None and abs(ra - rb) >= 10000:
+        rent = p["cmpRentCheaper"].format(station=name_b if rb < ra else name_a)
+        cheaper_is_b = rb < ra
+
+    sep = p["cmpSep"]
+    def clause(wins, name):
+        return p["cmpAxisWin"].format(axes=sep.join(wins[:2]), station=name)
+
+    if rent:
+        # 家賃で負けている側が、ほかの軸で上回るなら「ただし」でつなぐ
+        other = wins_a if cheaper_is_b else wins_b
+        other_name = name_a if cheaper_is_b else name_b
+        if other:
+            return p["cmpButJoin"].format(a=rent, b=clause(other, other_name))
+        same = wins_b if cheaper_is_b else wins_a
+        same_name = name_b if cheaper_is_b else name_a
+        if same:
+            return p["cmpAndJoin"].format(a=rent, b=clause(same, same_name))
+        return p["cmpOnly"].format(a=rent)
+    if wins_a and wins_b:
+        return p["cmpButJoin"].format(a=clause(wins_b, name_b), b=clause(wins_a, name_a))
+    if wins_a:
+        return p["cmpOnly"].format(a=clause(wins_a, name_a))
+    if wins_b:
+        return p["cmpOnly"].format(a=clause(wins_b, name_b))
+    return p["cmpOnly"].format(a=p["cmpNothing"])
+
+
 def build(st, ctx):
     """1駅ぶんのコンテンツを組み立てる。データの無い層は入れない。"""
     p = ctx["p"]
@@ -328,7 +413,12 @@ def build(st, ctx):
                 rounded = int(round(abs(dm) / 1000)) * 1000
                 key = "neighbourRentHigher" if dm > 0 else "neighbourRentLower"
                 bits.append(p[key].format(amount=money(rounded), unit=unit))
-        nb.append({"slug": o["slug"], "note": "".join(bits).strip()})
+        lead = compare_lead(p, slug, o["slug"], ctx)
+        entry = {"slug": o["slug"]}
+        if lead:
+            entry["lead"] = lead
+        entry["note"] = "".join(bits).strip()
+        nb.append(entry)
     if nb:
         c["neighbours"] = nb
 
@@ -477,6 +567,7 @@ def main():
         "sc": load("computed/scores.json"),
         "ter": load("computed/terrain.json")["stations"],
         "roads": load("computed/roads.json")["stations"],
+        "rosterBySlug": {r["slug"]: r for r in roster},
         "haz": load("computed/hazard.json")["stations"],
         "bands": load("computed/rent-bands.json"),
         "pois": pois_doc["stations"],
@@ -505,6 +596,16 @@ def main():
                 # 本文に合わせて一言も人が書くので、既にあるものは上書きしない。
                 # 淡路町では、本文が「坂を上るのは御茶ノ水へ出るときだけ」と書いている
                 # 横で、組み立てた一言が「どの区画に住むかで負担が変わる」と出ていた。
+                # 迷いやすい駅の比較にも、一言を入れる。note は人が書いたものを残す。
+                for field in ("neighbours", "alternatives"):
+                    for item in existing.get(field) or []:
+                        if "lead" in item:
+                            continue
+                        lead = compare_lead(ctx["p"], st["slug"], item["slug"], ctx)
+                        if lead:
+                            item["lead"] = lead
+                            touched = True
+
                 merged = dict(existing.get("leads") or {})
                 for k, v in (fresh.get("leads") or {}).items():
                     if k not in merged:

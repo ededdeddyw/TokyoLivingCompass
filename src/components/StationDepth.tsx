@@ -207,7 +207,11 @@ export function StationDepth({
               <span className="font-medium text-ink">
                 {neighbourNames[n.slug] ?? n.slug}
               </span>
-              {" — "}
+              {/* 比較の一言。本文を読む前に、どちらが何で上回るのかを渡す。 */}
+              {n.lead && (
+                <span className="block font-medium text-ink">{n.lead}</span>
+              )}
+              {n.lead ? "" : " — "}
               {n.note}
             </li>
           ))}

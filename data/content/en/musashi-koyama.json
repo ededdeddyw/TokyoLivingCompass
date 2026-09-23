@@ -96,11 +96,13 @@
   "alternatives": [
     {
       "slug": "nakameguro",
-      "note": "If you want calmer streets and to be nearer Shibuya, choose Nakameguro. Rent for a 1LDK is about ¥50,000 higher, though, and Musashi-Koyama is the better of the two for shopping."
+      "note": "If you want calmer streets and to be nearer Shibuya, choose Nakameguro. Rent for a 1LDK is about ¥50,000 higher, though, and Musashi-Koyama is the better of the two for shopping.",
+      "lead": "rents are lower at Musashi-Koyama, but Naka-Meguro is ahead on the number of lines and how close the centre is."
     },
     {
       "slug": "oimachi",
-      "note": "For commuting towards Shinagawa and Tokyo, Oimachi is quicker. It has three lines and copes better when one stops, but Musashi-Koyama wins on how usable its shopping street is."
+      "note": "For commuting towards Shinagawa and Tokyo, Oimachi is quicker. It has three lines and copes better when one stops, but Musashi-Koyama wins on how usable its shopping street is.",
+      "lead": "Oimachi is ahead on the number of lines and how close the centre is, but Musashi-Koyama is ahead on how easy the shopping is and quiet."
     }
   ],
   "outlook": "The redevelopment by the station has settled, but rebuilding plans continue nearby. Nothing suggests the shopping street itself will change quickly, yet rents have kept rising as the towers filled, and that looks set to continue for now.",
@@ -121,10 +123,12 @@
   "neighbours": [
     {
       "slug": "nishi-koyama",
+      "lead": "Musashi-Koyama is ahead on how little of the area is in the flood projection.",
       "note": "772 m away in a straight line. It reaches Otemachi in about the same time as Musashi-Koyama. One-room rents run about ¥5,000 lower."
     },
     {
       "slug": "fudo-mae",
+      "lead": "rents are lower at Musashi-Koyama, but Fudo-Mae is ahead on how close the centre is.",
       "note": "1134 m away in a straight line. It reaches Otemachi 3 minutes sooner than Musashi-Koyama. One-room rents run about ¥14,000 higher."
     }
   ],

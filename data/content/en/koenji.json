@@ -97,11 +97,13 @@
   "alternatives": [
     {
       "slug": "higashi-nakano",
-      "note": "If you want quiet rather than bustle, choose Higashi-Nakano. Shinjuku is one stop away, but only local trains stop there. Rents are at a similar level."
+      "note": "If you want quiet rather than bustle, choose Higashi-Nakano. Shinjuku is one stop away, but only local trains stop there. Rents are at a similar level.",
+      "lead": "Higashi-Nakano is ahead on how little of the area is in the flood projection, but Koenji is ahead on quiet."
     },
     {
       "slug": "sasazuka",
-      "note": "If you want a train you can sit on in the morning, choose Sasazuka. Trains on the Keio New Line start there, and Shinjuku is five minutes away. The neighbourhood has nothing like Koenji's character, though."
+      "note": "If you want a train you can sit on in the morning, choose Sasazuka. Trains on the Keio New Line start there, and Shinjuku is five minutes away. The neighbourhood has nothing like Koenji's character, though.",
+      "lead": "rents are lower at Koenji, but Sasazuka is ahead on how little of the area is in the flood projection."
     }
   ],
   "outlook": "No large redevelopment is on the horizon, and the make-up of the neighbourhood — vintage shops and restaurants at its centre — looks set to continue for the time being. On the other hand, disaster preparedness in densely packed timber housing is an acknowledged problem for the authorities, so over the long run rebuilding may reduce the stock of cheap timber-built flats.",
@@ -122,10 +124,12 @@
   "neighbours": [
     {
       "slug": "shin-koenji",
+      "lead": "Shin-Koenji is ahead on how little of the area is in the flood projection, but Koenji is ahead on the number of lines.",
       "note": "828 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Koenji."
     },
     {
       "slug": "higashi-koenji",
+      "lead": "Higashi-Koenji is ahead on how little of the area is in the flood projection, but Koenji is ahead on the number of lines and the number of medical facilities.",
       "note": "1114 m away in a straight line. It reaches Otemachi in about the same time as Koenji. One-room rents run about ¥7,000 higher."
     }
   ],
