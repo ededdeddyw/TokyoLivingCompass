@@ -73,6 +73,10 @@ def elevation(lat, lon, cache):
     return None
 
 
+# offset() に渡す方位角の順（0度=北、45度刻み）と、その日本語表記。
+DIRECTIONS = ["北", "北東", "東", "南東", "南", "南西", "西", "北西"]
+
+
 def classify(spread):
     if spread is None:
         return None
@@ -99,12 +103,21 @@ def main():
             continue
         station_elev = values[0]
         spread = max(got) - min(got)
+        # 「周囲800mの高低差は10.7m」だけでは、どちらへ住めば坂を上らずに済むのかが
+        # 分からない。方位ごとの標高差も残し、本文で「駅から南へ400m行くと9m上がる」
+        # と書けるようにする。
+        by_dir = {}
+        for label, v in zip(DIRECTIONS, values[1:]):
+            if v is not None and station_elev is not None:
+                by_dir[label] = round(v - station_elev, 1)
         out[st["slug"]] = {
             "slope": classify(spread),
             "stationElevationM": station_elev,
             "minM": round(min(got), 1),
             "maxM": round(max(got), 1),
             "spreadM": round(spread, 1),
+            # 駅を0としたときの、8方位400m地点の標高差
+            "byDirection": by_dir,
             # 駅が周囲より低ければ谷、高ければ台地の上
             "stationIsLow": (station_elev is not None
                              and station_elev - min(got) < spread * 0.3),
@@ -120,7 +133,7 @@ def main():
             "meta": {
                 "source": "国土地理院 標高API",
                 "sourceUrl": "https://maps.gsi.go.jp/development/elevation_s.html",
-                "method": f"駅と、半径{RING_M}mの8方位、計9点の標高差で判定",
+                "method": f"駅と、半径{RING_M}mの8方位、計9点の標高差で判定。byDirection は駅を0としたときの各方位の標高差",
                 "thresholds": {"flat": f"< {FLAT_MAX}m",
                                "some": f"{FLAT_MAX}〜{SOME_MAX}m",
                                "hilly": f"≧ {SOME_MAX}m"},

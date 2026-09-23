@@ -96,6 +96,10 @@ def depth_of(rgba):
     return best if dist <= 3000 else None
 
 
+# 方位角の順（0度=北、45度刻み）と、その日本語表記。
+DIRECTIONS = ["北", "北東", "東", "南東", "南", "南西", "西", "北西"]
+
+
 def sample(layer, lat, lon):
     """駅の地点と、その周囲8方位を見る。駅前だけで判断しないため。"""
     points = [(lat, lon)]
@@ -111,11 +115,16 @@ def sample(layer, lat, lon):
         im = get_tile(layer, x, y)
         found.append(depth_of(im.getpixel((px, py))) if im else None)
     inside = [f for f in found if f]
+    # 「9地点のうち5地点」だけでは、どちらに住めば区域の外なのかが分からない。
+    # 方位ごとの判定も残し、本文で「区域に入るのは駅の東側である」と書けるようにする。
+    by_dir = {d: v for d, v in zip(DIRECTIONS, found[1:]) if v}
     return {
         "atStation": found[0],
         "aroundCount": len(inside),
         "aroundTotal": len(found),
         "deepest": max(inside, key=lambda d: LEGEND_ORDER.index(d)) if inside else None,
+        # 区域に入った方位だけを、駅から400m地点の想定される深さとともに残す
+        "byDirection": by_dir,
     }
 
 
