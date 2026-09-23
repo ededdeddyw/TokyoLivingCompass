@@ -452,11 +452,13 @@ def main():
                     if fresh.get(field) and fresh[field] != existing.get(field):
                         existing[field] = fresh[field]
                         touched = True
-                # データで決まる節の一言は作り直す。人が書いた節（街のようす・住民層など）の
-                # 一言は、この処理では作らないので残る。
+                # 一言は、本文と食い違うと読み手を迷わせる。人が本文を書いた駅では、
+                # 本文に合わせて一言も人が書くので、既にあるものは上書きしない。
+                # 淡路町では、本文が「坂を上るのは御茶ノ水へ出るときだけ」と書いている
+                # 横で、組み立てた一言が「どの区画に住むかで負担が変わる」と出ていた。
                 merged = dict(existing.get("leads") or {})
                 for k, v in (fresh.get("leads") or {}).items():
-                    if merged.get(k) != v:
+                    if k not in merged:
                         merged[k] = v
                         touched = True
                 if merged:

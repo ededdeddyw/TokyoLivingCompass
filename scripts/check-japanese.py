@@ -65,6 +65,10 @@ COINED = [
 # 読み手が目で見て確かめられる形にする。
 FILLED = re.compile(r"[人客]で[^。]{0,20}(?:埋ま|あふれ|満ち)")
 
+# ルール39: 「評価が分かれる」で終わると、読み手は自分がどちらなのか分からない。
+# どちらの人がどちらを選ぶのかまで書く。
+SPLIT_VERDICT = re.compile(r"(?:評価|判断|意見|好み)が分かれる")
+
 # ルール27: 不都合を抽象的な動詞で圧縮した表現。
 # 「生活が滞る」と書かれても、通勤が遅れるのか買い物に行けないのかが読み手に伝わらない。
 # 誰の・どの行動が・どう妨げられるのかを直接書く。
@@ -202,6 +206,10 @@ def check_text(label, path, text, findings, taigen=True, claims=True):
                 continue
             add("18", f"比喩・独自ワード: 「{word}」。何がどうなるのかを書く")
             break
+
+    for m in SPLIT_VERDICT.finditer(text):
+        add("39", f"どちらの人がどちらを選ぶのかが書かれていない: 「{m.group()}」", "要確認")
+        break
 
     for m in FILLED.finditer(text):
         add("36", f"人の増減を物の量のように書いている: 「{m.group()}」。"
