@@ -58,6 +58,9 @@
     "People who want to finish their shopping on foot",
     "People who want to hold the rent down"
   ],
+  "noiseSources": [
+    "日比谷通り runs 5 m away, and along it the cars are audible with a window open"
+  ],
   "tags": [
     "majorHub",
     "lively",
@@ -72,7 +75,8 @@
     "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
     "stationNote": "Only the Toei Mita Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the highest in the 23 wards.",
-    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "noiseSources": "At this station, check the traffic noise before the noise people make: 日比谷通り runs 5 m away."
   },
   "authoredBy": "data-generated"
 }

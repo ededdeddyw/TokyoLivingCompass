@@ -71,6 +71,9 @@
   "notFor": [
     "People avoiding projected flood inundation areas"
   ],
+  "noiseSources": [
+    "The nearest main road is 日光街道, 455 m away, so little traffic noise reaches the station area"
+  ],
   "tags": [
     "lively",
     "goodValue",
@@ -85,7 +88,8 @@
     "hazards": "Among the 23 wards' stations, comparatively many of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
     "stationNote": "5 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
-    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "noiseSources": "The nearest main road is 日光街道, 455 m away, so traffic noise is unlikely to bother you."
   },
   "authoredBy": "data-generated"
 }

@@ -71,7 +71,11 @@
     "People who want to finish their shopping on foot",
     "People who want plenty of places to eat out"
   ],
+  "noiseSources": [
+    "The nearest main road is 環七通り, 259 m away, so little traffic noise reaches the station area"
+  ],
   "tags": [
+    "quiet",
     "singleLine"
   ],
   "leads": {
@@ -80,7 +84,8 @@
     "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
     "stationNote": "Only the Tobu Tojo Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
-    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "noiseSources": "The nearest main road is 環七通り, 259 m away, so traffic noise is unlikely to bother you."
   },
   "authoredBy": "data-generated"
 }

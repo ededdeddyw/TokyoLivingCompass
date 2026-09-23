@@ -70,6 +70,9 @@
   "notFor": [
     "People avoiding projected flood inundation areas"
   ],
+  "noiseSources": [
+    "The nearest main road is 環七通り, 246 m away, so little traffic noise reaches the station area"
+  ],
   "tags": [
     "flat"
   ],
@@ -79,7 +82,8 @@
     "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
     "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
-    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "noiseSources": "環七通り runs 246 m away, so whether a flat faces it changes what you hear indoors."
   },
   "authoredBy": "data-generated"
 }

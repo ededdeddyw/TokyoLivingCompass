@@ -175,6 +175,13 @@ PHRASES = {
         "leadMedical2": "歩いて行けるクリニックと薬局の数は、23区の駅の中では少ないほうである。",
         "leadMedical1": "歩いて行けるクリニックと薬局の数は、23区の駅の中では少ない。",
 
+        "noiseRoadMotorway": "{name}の高架が{m}m先を通り、沿道の物件では車の音が一日中続く",
+        "noiseRoadMajor": "{name}が{m}m先を通り、沿道の物件では窓を開けると車の音が入る",
+        "noiseRoadFar": "いちばん近い幹線道路は{name}で{m}m先にあり、駅の周りまで車の音は届きにくい",
+        "leadNoiseLoud": "人の音より先に、車の音を確かめたい駅である。{name}が{m}m先を通る。",
+        "leadNoiseMid": "{name}が{m}m先を通る。沿道かどうかで、部屋の中の音がはっきり変わる。",
+        "leadNoiseQuiet": "いちばん近い幹線道路は{name}で{m}m先にあり、車の音は気になりにくい。",
+
         "neighbourDistance": "直線で{meters}mの距離にある。",
         "neighbourSame": "大手町へは{station}と同じくらいの時間で着く。",
         "neighbourSlower": "大手町へは{station}より{minutes}{minuteWord}多くかかる。",
@@ -340,6 +347,13 @@ PHRASES = {
         "leadMedical2": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
         "leadMedical1": "The number of clinics and pharmacies within walking distance is low for the 23 wards.",
 
+        "noiseRoadMotorway": "The {name} viaduct runs {m} m away, and traffic is audible all day in the blocks along it",
+        "noiseRoadMajor": "{name} runs {m} m away, and along it the cars are audible with a window open",
+        "noiseRoadFar": "The nearest main road is {name}, {m} m away, so little traffic noise reaches the station area",
+        "leadNoiseLoud": "At this station, check the traffic noise before the noise people make: {name} runs {m} m away.",
+        "leadNoiseMid": "{name} runs {m} m away, so whether a flat faces it changes what you hear indoors.",
+        "leadNoiseQuiet": "The nearest main road is {name}, {m} m away, so traffic noise is unlikely to bother you.",
+
         "neighbourDistance": "{meters} m away in a straight line. ",
         "neighbourSame": "It reaches Otemachi in about the same time as {station}. ",
         "neighbourSlower": "It takes {minutes} {minuteWord} longer to reach Otemachi than "
@@ -483,6 +497,13 @@ PHRASES = {
         "leadMedical3": "步行可达的诊所和药店数量，与23区车站的平均水平相当。",
         "leadMedical2": "步行可达的诊所和药店数量，在23区的车站中偏少。",
         "leadMedical1": "步行可达的诊所和药店数量，在23区的车站中较少。",
+
+        "noiseRoadMotorway": "{name}的高架从{m}米外经过，沿线的房子整天都能听到车声",
+        "noiseRoadMajor": "{name}从{m}米外经过，沿线的房子开窗就有车声进来",
+        "noiseRoadFar": "最近的干线道路是{name}，在{m}米外，车声不太传到车站周边",
+        "leadNoiseLoud": "这个车站要先确认车声，而不是人声。{name}从{m}米外经过。",
+        "leadNoiseMid": "{name}从{m}米外经过，是否临街会明显改变室内听到的声音。",
+        "leadNoiseQuiet": "最近的干线道路是{name}，在{m}米外，车声不太会造成困扰。",
 
         "neighbourDistance": "直线距离{meters}米。",
         "neighbourSame": "到大手町的时间与{station}差不多。",
@@ -630,6 +651,13 @@ PHRASES = {
         "leadMedical3": "걸어갈 수 있는 의원과 약국의 수는, 23구 역의 평균 정도다.",
         "leadMedical2": "걸어갈 수 있는 의원과 약국의 수는, 23구의 역 중에서 적은 편이다.",
         "leadMedical1": "걸어갈 수 있는 의원과 약국의 수는, 23구의 역 중에서 적다.",
+
+        "noiseRoadMotorway": "{name} 고가가 {m}m 앞을 지나, 도로변 물건에서는 차 소리가 하루 종일 들린다",
+        "noiseRoadMajor": "{name}가 {m}m 앞을 지나, 도로변 물건에서는 창을 열면 차 소리가 들어온다",
+        "noiseRoadFar": "가장 가까운 간선도로는 {name}로 {m}m 앞에 있어, 역 주변까지 차 소리는 잘 닿지 않는다",
+        "leadNoiseLoud": "이 역은 사람 소리보다 차 소리를 먼저 확인하고 싶다. {name}가 {m}m 앞을 지난다.",
+        "leadNoiseMid": "{name}가 {m}m 앞을 지난다. 도로변인지 아닌지에 따라 실내에서 들리는 소리가 확연히 달라진다.",
+        "leadNoiseQuiet": "가장 가까운 간선도로는 {name}로 {m}m 앞에 있어, 차 소리는 신경 쓰이기 어렵다.",
 
         "neighbourDistance": "직선거리로 {meters}m 떨어져 있다. ",
         "neighbourSame": "오테마치까지 걸리는 시간은 {station}에서 갈 때와 비슷하다. ",

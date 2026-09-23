@@ -71,6 +71,9 @@
   "notFor": [
     "People who want another route when service is suspended"
   ],
+  "noiseSources": [
+    "調布経堂停車場線 runs 135 m away, and along it the cars are audible with a window open"
+  ],
   "tags": [
     "singleLine",
     "flat"
@@ -81,7 +84,8 @@
     "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
     "stationNote": "Only the Odakyu Odawara Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
-    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "noiseSources": "調布経堂停車場線 runs 135 m away, so whether a flat faces it changes what you hear indoors."
   },
   "authoredBy": "data-generated"
 }

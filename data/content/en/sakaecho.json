@@ -71,6 +71,9 @@
     "People who would rather not walk up and down slopes",
     "People who want another route when service is suspended"
   ],
+  "noiseSources": [
+    "The 首都高速中央環状線 viaduct runs 223 m away, and traffic is audible all day in the blocks along it"
+  ],
   "tags": [
     "quiet",
     "pricey",
@@ -85,7 +88,8 @@
     "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
     "stationNote": "Only the Tokyo Sakura Tram (Toden Arakawa Line) serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
-    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "noiseSources": "首都高速中央環状線 runs 223 m away, so whether a flat faces it changes what you hear indoors."
   },
   "authoredBy": "data-generated"
 }

@@ -13,7 +13,8 @@
   nature             徒歩圏の公園の数
   food / cafe / nightlife / fitness  徒歩圏の飲食店・カフェ・酒場・ジムの数
   rentValue          通勤の速さに対する家賃の安さ
-  quietness          駅から300m以内の飲み屋・飲食店の少なさ
+  quietness          人の音（駅から300m以内の飲み屋・飲食店）と、
+                     車の音（幹線道路・高速道路までの距離と種別）の両方から出す
   family             公園・日常の医療・スーパーの多さと、坂の少なさ
   singleLife         外食とカフェで生活を完結させやすいか
   disaster           浸水想定区域に入る地点の少なさ
@@ -175,6 +176,33 @@ def rent_value_scores(index_by_slug, commute_by_slug):
     return percentile_scores({s: v - lo + 1 for s, v in residual.items()})
 
 
+def road_noise(rec):
+    """
+    車の音の大きさ。0〜100で、大きいほどうるさい。
+
+    道路の格（高速＞幹線＞主要＞準主要）と、駅からの距離で決める。
+    音は距離とともに急に小さくなるので、直線ではなく、
+    50mで7割、100mで5割、200mで3割、300mでほぼ0になる曲線を使う。
+
+    繁華街から離れていても幹線道路に面している駅がある。岩本町は靖国通りまで5m、
+    昭和通りまで39m、首都高速1号上野線まで46mで、酒場は神田の半分以下だが、
+    車の音は一日中続く（docs/13-japanese-style-rules.md ルール41）。
+    """
+    if not rec:
+        return None
+    WEIGHT = {"motorway": 100, "trunk": 82, "primary": 62, "secondary": 34}
+    worst = 0.0
+    for cls, w in WEIGHT.items():
+        v = rec.get(cls)
+        if not v:
+            continue
+        near = max(0.0, 1 - (min(v["m"], 300) / 300) ** 0.6)
+        # 車線が多いほど交通量も多い。4車線以上を1割増しにする。
+        lanes = v.get("lanes") or 2
+        worst = max(worst, w * near * (1.1 if lanes >= 4 else 1.0))
+    return clamp(worst)
+
+
 def main():
     roster = json.load(
         open(os.path.join(ROOT, "data", "roster", "stations.json"), encoding="utf-8")
@@ -202,6 +230,7 @@ def main():
         return doc[key] if key else doc
 
     terrain = computed("terrain.json", "stations")
+    roads = computed("roads.json", "stations")
     hazard = computed("hazard.json", "stations")
     bands = computed("rent-bands.json")
 
@@ -288,10 +317,13 @@ def main():
                 if any(counts[cat].values()):
                     scores[axis] = pct[cat][slug]
 
-            # 静かさは、駅から300m以内で夜に人が集まる店の少なさで見る。
-            # 幹線道路と線路の騒音はデータが無いため、ここには入っていない。
+            # 静かさは、人の音と車の音の両方から出す。
+            # 人の音は駅から300m以内の酒場と飲食店の数、車の音は幹線道路・高速道路
+            # までの距離と種別で見る。鉄道の音は、地上か地下かのデータが無いので入らない。
+            people = pct_near["bar"][slug] * 0.65 + pct_near["restaurant"][slug] * 0.35
+            car = road_noise(roads.get(slug))
             scores["quietness"] = clamp(
-                100 - (pct_near["bar"][slug] * 0.65 + pct_near["restaurant"][slug] * 0.35))
+                100 - (people * 0.55 + car * 0.45) if car is not None else 100 - people)
 
             # ファミリー適性は、公園・日常の医療・スーパーの多さと、
             # ベビーカーで歩ける平坦さ、それに夜の店の少なさを合わせる。

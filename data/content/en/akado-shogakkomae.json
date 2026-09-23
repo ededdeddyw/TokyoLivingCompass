@@ -72,8 +72,10 @@
     "People avoiding projected flood inundation areas",
     "People who want another route when service is suspended"
   ],
+  "noiseSources": [
+    "尾久橋通り runs 5 m away, and along it the cars are audible with a window open"
+  ],
   "tags": [
-    "quiet",
     "singleLine",
     "floodArea",
     "parkNear",
@@ -86,7 +88,8 @@
     "hazards": "Among the 23 wards' stations, comparatively many of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
     "stationNote": "Only the Nippori-Toneri Liner serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
-    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "noiseSources": "At this station, check the traffic noise before the noise people make: 尾久橋通り runs 5 m away."
   },
   "authoredBy": "data-generated"
 }

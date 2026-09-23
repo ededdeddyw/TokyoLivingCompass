@@ -50,6 +50,9 @@
     "People who want another route when service is suspended",
     "People who want to finish their shopping on foot"
   ],
+  "noiseSources": [
+    "The 首都高速都心環状線 viaduct runs 101 m away, and traffic is audible all day in the blocks along it"
+  ],
   "tags": [
     "singleLine",
     "diningRich",
@@ -62,7 +65,8 @@
     "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
     "stationNote": "Only the Toei Oedo Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
-    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "noiseSources": "At this station, check the traffic noise before the noise people make: 首都高速都心環状線 runs 101 m away."
   },
   "authoredBy": "data-generated"
 }

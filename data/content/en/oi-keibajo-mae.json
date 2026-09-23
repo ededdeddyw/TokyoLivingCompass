@@ -63,6 +63,9 @@
     "People who want to finish their shopping on foot",
     "People who want plenty of places to eat out"
   ],
+  "noiseSources": [
+    "The nearest main road is 海岸通り, 449 m away, so little traffic noise reaches the station area"
+  ],
   "tags": [
     "quiet",
     "pricey",
@@ -74,7 +77,8 @@
     "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
     "stationNote": "Only the Tokyo Monorail serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
-    "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
+    "noiseSources": "The nearest main road is 海岸通り, 449 m away, so traffic noise is unlikely to bother you."
   },
   "authoredBy": "data-generated"
 }

@@ -72,6 +72,9 @@
     "People avoiding projected flood inundation areas",
     "People who want another route when service is suspended"
   ],
+  "noiseSources": [
+    "明治通り runs 37 m away, and along it the cars are audible with a window open"
+  ],
   "tags": [
     "singleLine",
     "floodArea",
@@ -86,7 +89,8 @@
     "hazards": "Among the 23 wards' stations, comparatively many of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
     "stationNote": "Only the Keisei Main Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
-    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "noiseSources": "At this station, check the traffic noise before the noise people make: 明治通り runs 37 m away."
   },
   "authoredBy": "data-generated"
 }

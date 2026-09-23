@@ -71,6 +71,9 @@
   "notFor": [
     "People avoiding projected flood inundation areas"
   ],
+  "noiseSources": [
+    "春日通り runs 52 m away, and along it the cars are audible with a window open"
+  ],
   "tags": [
     "majorHub",
     "lively",
@@ -85,7 +88,8 @@
     "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
     "stationNote": "5 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
-    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "noiseSources": "At this station, check the traffic noise before the noise people make: 春日通り runs 52 m away."
   },
   "authoredBy": "data-generated"
 }

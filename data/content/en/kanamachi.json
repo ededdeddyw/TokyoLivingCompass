@@ -69,6 +69,9 @@
   "notFor": [
     "People avoiding projected flood inundation areas"
   ],
+  "noiseSources": [
+    "The nearest main road is 水戸街道, 218 m away, so little traffic noise reaches the station area"
+  ],
   "tags": [
     "floodArea",
     "flat"
@@ -79,7 +82,8 @@
     "hazards": "Among the 23 wards' stations, comparatively many of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
-    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "noiseSources": "水戸街道 runs 218 m away, so whether a flat faces it changes what you hear indoors."
   },
   "authoredBy": "data-generated"
 }

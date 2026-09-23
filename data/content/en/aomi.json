@@ -51,6 +51,9 @@
     "People who want another route when service is suspended",
     "People who want plenty of places to eat out"
   ],
+  "noiseSources": [
+    "The nearest main road is 東京湾岸道路, 404 m away, so little traffic noise reaches the station area"
+  ],
   "tags": [
     "quiet",
     "singleLine",
@@ -61,7 +64,8 @@
     "groceries": "There are 3 supermarkets within walking distance, and the nearest is 9 minutes on foot.",
     "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
     "stationNote": "Only the Yurikamome serves this station, so when it stops you walk to another station.",
-    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "noiseSources": "The nearest main road is 東京湾岸道路, 404 m away, so traffic noise is unlikely to bother you."
   },
   "authoredBy": "data-generated"
 }

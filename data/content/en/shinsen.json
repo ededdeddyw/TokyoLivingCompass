@@ -71,6 +71,9 @@
     "People who want another route when service is suspended",
     "People who want to hold the rent down"
   ],
+  "noiseSources": [
+    "The nearest main road is 旧山手通り, 201 m away, so little traffic noise reaches the station area"
+  ],
   "tags": [
     "majorHub",
     "lively",
@@ -85,7 +88,8 @@
     "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
     "stationNote": "Only the Keio Inokashira Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
-    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "noiseSources": "旧山手通り runs 201 m away, so whether a flat faces it changes what you hear indoors."
   },
   "authoredBy": "data-generated"
 }

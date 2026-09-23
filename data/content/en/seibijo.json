@@ -42,6 +42,9 @@
     "People who want to finish their shopping on foot",
     "People who want plenty of places to eat out"
   ],
+  "noiseSources": [
+    "The 首都高速1号羽田線 viaduct runs 202 m away, and traffic is audible all day in the blocks along it"
+  ],
   "tags": [
     "quiet",
     "singleLine",
@@ -53,7 +56,8 @@
     "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
     "stationNote": "Only the Tokyo Monorail serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
-    "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
+    "noiseSources": "首都高速1号羽田線 runs 202 m away, so whether a flat faces it changes what you hear indoors."
   },
   "authoredBy": "data-generated"
 }

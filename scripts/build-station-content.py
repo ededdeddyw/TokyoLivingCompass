@@ -156,6 +156,7 @@ def build(st, ctx):
     companies = [l["company"] for l in line_objs]
     com = {e["to"]: e["minutes"] for e in ctx["com"].get(slug, [])}
     ter = ctx["ter"].get(slug, {})
+    road = ctx["roads"].get(slug, {})
     haz = ctx["haz"].get(slug, {}).get("flood", {})
     tide = ctx["haz"].get(slug, {}).get("hightide", {})
     band = ctx["bands"].get(slug)
@@ -365,6 +366,20 @@ def build(st, ctx):
     c["goodFor"] = good[:5] or [p["goodUnknown"]]
     c["notFor"] = bad[:5] or [p["badUnknown"]]
 
+    # ── 音が気になりうる場所 ───────────────────────
+    # 静けさは、人の音と車の音を分けて確かめる（ルール41）。
+    # 繁華街から離れていても、幹線道路に面していれば車の音は一日中続く。
+    near_road = None
+    for cls in ("motorway", "trunk", "primary", "secondary"):
+        v = road.get(cls)
+        if v and (near_road is None or v["m"] < near_road[1]["m"]):
+            near_road = (cls, v)
+    if near_road and near_road[1].get("name"):
+        cls, v = near_road
+        key = ("noiseRoadMotorway" if cls == "motorway"
+               else "noiseRoadMajor" if v["m"] <= 200 else "noiseRoadFar")
+        c["noiseSources"] = [p[key].format(name=v["name"], m=v["m"])]
+
     # ── 街の性格タグと、節ごとの一言 ───────────────
     tags = station_tags(sc, st, ter)
     if tags:
@@ -392,6 +407,11 @@ def build(st, ctx):
         leads["rentRange"] = p[band_key("leadRent", sc["rentValue"])]
     if "healthcare" in sc:
         leads["medical"] = p[band_key("leadMedical", sc["healthcare"])]
+    if near_road and near_road[1].get("name"):
+        cls, v = near_road
+        key = ("leadNoiseLoud" if (cls == "motorway" and v["m"] <= 200) or v["m"] <= 60
+               else "leadNoiseMid" if v["m"] <= 250 else "leadNoiseQuiet")
+        leads["noiseSources"] = p[key].format(name=v["name"], m=v["m"])
     if leads:
         c["leads"] = leads
 
@@ -428,6 +448,7 @@ def main():
         "com": load("computed/commutes.json"),
         "sc": load("computed/scores.json"),
         "ter": load("computed/terrain.json")["stations"],
+        "roads": load("computed/roads.json")["stations"],
         "haz": load("computed/hazard.json")["stations"],
         "bands": load("computed/rent-bands.json"),
         "pois": pois_doc["stations"],

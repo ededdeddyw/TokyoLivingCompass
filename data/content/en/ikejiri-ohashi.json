@@ -71,8 +71,10 @@
     "People who want another route when service is suspended",
     "People who want plenty of places to eat out"
   ],
+  "noiseSources": [
+    "The 首都高速3号渋谷線 viaduct runs 2 m away, and traffic is audible all day in the blocks along it"
+  ],
   "tags": [
-    "quiet",
     "singleLine",
     "hilly"
   ],
@@ -82,7 +84,8 @@
     "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
     "stationNote": "Only the Tokyu Den-en-toshi Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
-    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "noiseSources": "At this station, check the traffic noise before the noise people make: 首都高速3号渋谷線 runs 2 m away."
   },
   "authoredBy": "data-generated"
 }

@@ -71,6 +71,9 @@
     "People avoiding projected flood inundation areas",
     "People who want another route when service is suspended"
   ],
+  "noiseSources": [
+    "The nearest main road is 明治通り, 241 m away, so little traffic noise reaches the station area"
+  ],
   "tags": [
     "quiet",
     "pricey",
@@ -85,7 +88,8 @@
     "hazards": "Among the 23 wards' stations, comparatively many of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
     "stationNote": "Only the Tokyo Sakura Tram (Toden Arakawa Line) serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
-    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "noiseSources": "明治通り runs 241 m away, so whether a flat faces it changes what you hear indoors."
   },
   "authoredBy": "data-generated"
 }

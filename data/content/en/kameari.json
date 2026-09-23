@@ -70,6 +70,9 @@
     "People avoiding projected flood inundation areas",
     "People who want another route when service is suspended"
   ],
+  "noiseSources": [
+    "The nearest main road is 環七通り, 207 m away, so little traffic noise reaches the station area"
+  ],
   "tags": [
     "singleLine",
     "floodArea",
@@ -81,7 +84,8 @@
     "hazards": "Among the 23 wards' stations, comparatively many of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
     "stationNote": "Only the JR Joban Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
-    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "noiseSources": "環七通り runs 207 m away, so whether a flat faces it changes what you hear indoors."
   },
   "authoredBy": "data-generated"
 }

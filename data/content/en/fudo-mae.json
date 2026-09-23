@@ -70,6 +70,9 @@
     "People avoiding projected flood inundation areas",
     "People who want another route when service is suspended"
   ],
+  "noiseSources": [
+    "The 首都高速中央環状線 viaduct runs 39 m away, and traffic is audible all day in the blocks along it"
+  ],
   "tags": [
     "singleLine",
     "shoppingEasy",
@@ -81,7 +84,8 @@
     "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
     "stationNote": "Only the Tokyu Meguro Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
-    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "noiseSources": "At this station, check the traffic noise before the noise people make: 首都高速中央環状線 runs 39 m away."
   },
   "authoredBy": "data-generated"
 }

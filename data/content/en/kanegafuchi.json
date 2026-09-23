@@ -58,6 +58,9 @@
     "People who want to finish their shopping on foot",
     "People who want plenty of places to eat out"
   ],
+  "noiseSources": [
+    "鐘ヶ淵通り runs 79 m away, and along it the cars are audible with a window open"
+  ],
   "tags": [
     "singleLine",
     "flat"
@@ -68,7 +71,8 @@
     "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
     "stationNote": "Only the Tobu Skytree Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
-    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "noiseSources": "鐘ヶ淵通り runs 79 m away, so whether a flat faces it changes what you hear indoors."
   },
   "authoredBy": "data-generated"
 }

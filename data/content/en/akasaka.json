@@ -71,6 +71,9 @@
     "People who want another route when service is suspended",
     "People who want to hold the rent down"
   ],
+  "noiseSources": [
+    "赤坂通り runs 5 m away, and along it the cars are audible with a window open"
+  ],
   "tags": [
     "majorHub",
     "lively",
@@ -85,7 +88,8 @@
     "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
     "stationNote": "Only the Tokyo Metro Chiyoda Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
-    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "noiseSources": "At this station, check the traffic noise before the noise people make: 赤坂通り runs 5 m away."
   },
   "authoredBy": "data-generated"
 }

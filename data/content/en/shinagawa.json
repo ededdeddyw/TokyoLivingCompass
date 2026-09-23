@@ -71,6 +71,9 @@
     "People who want to finish their shopping on foot",
     "People who want to hold the rent down"
   ],
+  "noiseSources": [
+    "第一京浜 runs 109 m away, and along it the cars are audible with a window open"
+  ],
   "tags": [
     "manyLines"
   ],
@@ -80,7 +83,8 @@
     "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
     "stationNote": "6 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
-    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "noiseSources": "第一京浜 runs 109 m away, so whether a flat faces it changes what you hear indoors."
   },
   "authoredBy": "data-generated"
 }

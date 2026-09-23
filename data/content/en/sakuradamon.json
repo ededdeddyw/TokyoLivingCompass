@@ -32,8 +32,10 @@
     "People who want to finish their shopping on foot",
     "People who want plenty of places to eat out"
   ],
+  "noiseSources": [
+    "内堀通り runs 6 m away, and along it the cars are audible with a window open"
+  ],
   "tags": [
-    "quiet",
     "fastToCenter",
     "singleLine",
     "hilly"
@@ -43,7 +45,8 @@
     "groceries": "OpenStreetMap records no supermarket within walking distance of the station.",
     "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
     "stationNote": "Only the Tokyo Metro Yurakucho Line serves this station, so when it stops you walk to another station.",
-    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "noiseSources": "At this station, check the traffic noise before the noise people make: 内堀通り runs 6 m away."
   },
   "authoredBy": "data-generated"
 }

@@ -72,6 +72,9 @@
   "notFor": [
     "The data does not show a drawback particular to this station"
   ],
+  "noiseSources": [
+    "道灌山通り runs 26 m away, and along it the cars are audible with a window open"
+  ],
   "tags": [
     "goodValue",
     "manyLines",
@@ -85,7 +88,8 @@
     "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
     "stationNote": "4 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
-    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "noiseSources": "At this station, check the traffic noise before the noise people make: 道灌山通り runs 26 m away."
   },
   "authoredBy": "data-generated"
 }

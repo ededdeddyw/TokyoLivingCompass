@@ -1,0 +1,9106 @@
+{
+  "meta": {
+    "method": "highway が motorway/trunk/primary/secondary の道路について、駅から中心線までの最短距離を計算。150m以内を沿道とみなす",
+    "retrievedAt": "2026-09-23",
+    "source": "OpenStreetMap contributors (ODbL)"
+  },
+  "stations": {
+    "adachi-odai": {
+      "motorway": {
+        "lanes": 2,
+        "m": 585,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 14,
+      "nearMajorM": 14,
+      "primary": {
+        "lanes": 3,
+        "m": 14,
+        "name": "尾久橋通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 73,
+        "name": "新荒川堤防線"
+      }
+    },
+    "akabane": {
+      "nearAnyM": 93,
+      "nearMajorM": 604,
+      "primary": {
+        "lanes": 2,
+        "m": 631,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": 1,
+        "m": 93,
+        "name": "中十条赤羽線"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 604,
+        "name": "北本通り"
+      }
+    },
+    "akabane-iwabuchi": {
+      "nearAnyM": 1,
+      "nearMajorM": 1,
+      "primary": {
+        "lanes": 2,
+        "m": 144,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 144,
+        "name": "常盤台赤羽線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 1,
+        "name": "北本通り"
+      }
+    },
+    "akabanebashi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 13,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 3,
+      "nearMajorM": 3,
+      "primary": {
+        "lanes": 2,
+        "m": 3,
+        "name": "環状三号線"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 563,
+        "name": "日比谷通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 134,
+        "name": "桜田通り"
+      }
+    },
+    "akado-shogakkomae": {
+      "nearAnyM": 5,
+      "nearMajorM": 5,
+      "primary": {
+        "lanes": 2,
+        "m": 5,
+        "name": "尾久橋通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 359,
+        "name": "白山小台線（田端新町一丁目）"
+      }
+    },
+    "akasaka": {
+      "motorway": {
+        "lanes": 2,
+        "m": 470,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 5,
+      "nearMajorM": 470,
+      "primary": {
+        "lanes": 2,
+        "m": 1094,
+        "name": "外苑東通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 5,
+        "name": "赤坂通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 525,
+        "name": "青山通り"
+      }
+    },
+    "akebonobashi": {
+      "nearAnyM": 2,
+      "nearMajorM": 2,
+      "primary": {
+        "lanes": 2,
+        "m": 2,
+        "name": "靖国通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 719,
+        "name": "外苑西通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 476,
+        "name": "新宿通り"
+      }
+    },
+    "akihabara": {
+      "motorway": {
+        "lanes": 2,
+        "m": 140,
+        "name": "首都高速1号上野線"
+      },
+      "nearAnyM": 133,
+      "nearMajorM": 133,
+      "primary": {
+        "lanes": 3,
+        "m": 320,
+        "name": "靖国通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 230,
+        "name": "中央通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 133,
+        "name": "昭和通り"
+      }
+    },
+    "anamori-inari": {
+      "motorway": {
+        "lanes": 2,
+        "m": 139,
+        "name": "首都高速1号羽田線"
+      },
+      "nearAnyM": 137,
+      "nearMajorM": 137,
+      "primary": {
+        "lanes": 4,
+        "m": 520,
+        "name": "産業道路"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 137,
+        "name": "環八通り"
+      }
+    },
+    "aoi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 224,
+        "name": "首都高速6号三郷線"
+      },
+      "nearAnyM": 4,
+      "nearMajorM": 224,
+      "primary": {
+        "lanes": 2,
+        "m": 695,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 4,
+        "name": "平方東京線"
+      }
+    },
+    "aomi": {
+      "motorway": {
+        "lanes": 3,
+        "m": 437,
+        "name": "首都高速湾岸線"
+      },
+      "nearAnyM": 404,
+      "nearMajorM": 404,
+      "secondary": {
+        "lanes": 3,
+        "m": 525,
+        "name": "台場青海線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 404,
+        "name": "東京湾岸道路"
+      }
+    },
+    "aomono-yokocho": {
+      "motorway": {
+        "lanes": 2,
+        "m": 693,
+        "name": "首都高速1号羽田線"
+      },
+      "nearAnyM": 33,
+      "nearMajorM": 33,
+      "primary": {
+        "lanes": 2,
+        "m": 451,
+        "name": "海岸通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 56,
+        "name": "池上通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 33,
+        "name": "第一京浜"
+      }
+    },
+    "aoto": {
+      "nearAnyM": 246,
+      "nearMajorM": 246,
+      "primary": {
+        "lanes": null,
+        "m": 246,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 321,
+        "name": "王子金町市川線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 853,
+        "name": "水戸街道"
+      }
+    },
+    "aoyama-itchome": {
+      "motorway": {
+        "lanes": 2,
+        "m": 774,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 1,
+      "nearMajorM": 1,
+      "primary": {
+        "lanes": 3,
+        "m": 1,
+        "name": "外苑東通り"
+      },
+      "secondary": {
+        "lanes": 4,
+        "m": 299,
+        "name": null
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 4,
+        "name": "青山通り"
+      }
+    },
+    "araiyakushi-mae": {
+      "nearAnyM": 354,
+      "nearMajorM": 708,
+      "primary": {
+        "lanes": 2,
+        "m": 708,
+        "name": "早稲田通り"
+      },
+      "secondary": {
+        "lanes": 4,
+        "m": 354,
+        "name": "中野通り"
+      }
+    },
+    "arakawa-itchumae": {
+      "nearAnyM": 161,
+      "nearMajorM": 161,
+      "primary": {
+        "lanes": 2,
+        "m": 161,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 548,
+        "name": "国際通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 361,
+        "name": "日光街道"
+      }
+    },
+    "arakawa-nanachome": {
+      "nearAnyM": 330,
+      "nearMajorM": 330,
+      "primary": {
+        "lanes": 2,
+        "m": 330,
+        "name": "尾竹橋通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 884,
+        "name": "道灌山通り"
+      }
+    },
+    "arakawa-nichome": {
+      "nearAnyM": 405,
+      "nearMajorM": 405,
+      "primary": {
+        "lanes": 2,
+        "m": 405,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 757,
+        "name": "道灌山通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 973,
+        "name": "日光街道"
+      }
+    },
+    "arakawa-shakomae": {
+      "motorway": {
+        "lanes": 2,
+        "m": 910,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 241,
+      "nearMajorM": 241,
+      "primary": {
+        "lanes": 2,
+        "m": 241,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 844,
+        "name": "白山小台線"
+      }
+    },
+    "arakawa-yuenchimae": {
+      "nearAnyM": 12,
+      "nearMajorM": 12,
+      "primary": {
+        "lanes": null,
+        "m": 12,
+        "name": "都電通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 382,
+        "name": "白山小台線"
+      }
+    },
+    "arakawakuyakushomae": {
+      "nearAnyM": 69,
+      "nearMajorM": 69,
+      "primary": {
+        "lanes": 2,
+        "m": 69,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 768,
+        "name": "国際通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 627,
+        "name": "日光街道"
+      }
+    },
+    "ariake": {
+      "motorway": {
+        "lanes": 3,
+        "m": 127,
+        "name": "首都高速湾岸線"
+      },
+      "nearAnyM": 8,
+      "nearMajorM": 103,
+      "primary": {
+        "lanes": 3,
+        "m": 496,
+        "name": "有明通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 8,
+        "name": "豊洲有明線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 103,
+        "name": "東京湾岸道路"
+      }
+    },
+    "ariake-tennis-no-mori": {
+      "motorway": {
+        "lanes": 1,
+        "m": 495,
+        "name": "首都高速10号晴海線"
+      },
+      "nearAnyM": 8,
+      "nearMajorM": 495,
+      "primary": {
+        "lanes": 3,
+        "m": 498,
+        "name": "有明通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 8,
+        "name": "環二通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 538,
+        "name": "東京湾岸道路"
+      }
+    },
+    "asagaya": {
+      "nearAnyM": 72,
+      "nearMajorM": 542,
+      "primary": {
+        "lanes": 2,
+        "m": 542,
+        "name": "青梅街道"
+      },
+      "secondary": {
+        "lanes": 4,
+        "m": 72,
+        "name": "中杉通り"
+      }
+    },
+    "asakusa": {
+      "motorway": {
+        "lanes": 2,
+        "m": 206,
+        "name": "首都高速6号向島線"
+      },
+      "nearAnyM": 3,
+      "nearMajorM": 3,
+      "primary": {
+        "lanes": 2,
+        "m": 571,
+        "name": "言問通り"
+      },
+      "secondary": {
+        "lanes": 4,
+        "m": 14,
+        "name": "浅草通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 3,
+        "name": "江戸通り"
+      }
+    },
+    "asakusa-tx": {
+      "motorway": {
+        "lanes": 2,
+        "m": 789,
+        "name": "首都高速6号向島線"
+      },
+      "nearAnyM": 1,
+      "nearMajorM": 373,
+      "primary": {
+        "lanes": 2,
+        "m": 373,
+        "name": "言問通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 1,
+        "name": "国際通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 585,
+        "name": "江戸通り"
+      }
+    },
+    "asakusabashi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 478,
+        "name": "首都高速6号向島線"
+      },
+      "nearAnyM": 74,
+      "nearMajorM": 74,
+      "primary": {
+        "lanes": 3,
+        "m": 285,
+        "name": "靖国通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 701,
+        "name": "国際通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 74,
+        "name": "江戸通り"
+      }
+    },
+    "asukayama": {
+      "motorway": {
+        "lanes": 2,
+        "m": 45,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 31,
+      "nearMajorM": 40,
+      "primary": {
+        "lanes": 2,
+        "m": 359,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 31,
+        "name": "本郷通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 40,
+        "name": "明治通り"
+      }
+    },
+    "awajicho": {
+      "motorway": {
+        "lanes": 2,
+        "m": 687,
+        "name": "首都高速1号上野線"
+      },
+      "nearAnyM": 2,
+      "nearMajorM": 2,
+      "primary": {
+        "lanes": 3,
+        "m": 2,
+        "name": "靖国通り"
+      },
+      "secondary": {
+        "lanes": 4,
+        "m": 6,
+        "name": "外堀通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 242,
+        "name": "中央通り"
+      }
+    },
+    "ayase": {
+      "motorway": {
+        "lanes": 2,
+        "m": 406,
+        "name": "首都高速6号三郷線"
+      },
+      "nearAnyM": 228,
+      "nearMajorM": 371,
+      "primary": {
+        "lanes": 2,
+        "m": 371,
+        "name": "川の手通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 228,
+        "name": "江北橋通り"
+      }
+    },
+    "azabu-juban": {
+      "motorway": {
+        "lanes": 1,
+        "m": 75,
+        "name": "首都高速2号目黒線"
+      },
+      "nearAnyM": 40,
+      "nearMajorM": 75,
+      "primary": {
+        "lanes": 2,
+        "m": 83,
+        "name": "環状三号線"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 40,
+        "name": "高輪麻布線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 690,
+        "name": "桜田通り"
+      }
+    },
+    "bakurocho": {
+      "motorway": {
+        "lanes": 2,
+        "m": 545,
+        "name": "首都高速6号向島線"
+      },
+      "nearAnyM": 116,
+      "nearMajorM": 116,
+      "primary": {
+        "lanes": 3,
+        "m": 272,
+        "name": "靖国通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 879,
+        "name": "清洲橋通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 116,
+        "name": "江戸通り"
+      }
+    },
+    "chidoricho": {
+      "nearAnyM": 97,
+      "nearMajorM": 292,
+      "primary": {
+        "lanes": 3,
+        "m": 292,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 97,
+        "name": "池上通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 510,
+        "name": "第二京浜"
+      }
+    },
+    "chikatetsu-akatsuka": {
+      "nearAnyM": 18,
+      "nearMajorM": 18,
+      "primary": {
+        "lanes": null,
+        "m": 860,
+        "name": "放射第35号線（環状八号線（支線））"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 160,
+        "name": "北町豊玉線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 18,
+        "name": "川越街道"
+      }
+    },
+    "chitose-funabashi": {
+      "nearAnyM": 573,
+      "nearMajorM": 617,
+      "primary": {
+        "lanes": 3,
+        "m": 617,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": 1,
+        "m": 573,
+        "name": "荒玉水道道路"
+      }
+    },
+    "chitose-karasuyama": {
+      "motorway": {
+        "lanes": 2,
+        "m": 952,
+        "name": "中央自動車道"
+      },
+      "nearAnyM": 448,
+      "nearMajorM": 448,
+      "primary": {
+        "lanes": 3,
+        "m": 1136,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 716,
+        "name": "吉祥寺通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 448,
+        "name": "甲州街道"
+      }
+    },
+    "daiba": {
+      "motorway": {
+        "lanes": 3,
+        "m": 165,
+        "name": "首都高速湾岸線"
+      },
+      "nearAnyM": 6,
+      "nearMajorM": 134,
+      "secondary": {
+        "lanes": 3,
+        "m": 6,
+        "name": "台場青海線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 134,
+        "name": "東京湾岸道路"
+      }
+    },
+    "daikanyama": {
+      "motorway": {
+        "lanes": 2,
+        "m": 561,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 152,
+      "nearMajorM": 152,
+      "primary": {
+        "lanes": 6,
+        "m": 152,
+        "name": "旧山手通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 174,
+        "name": "駒沢通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 1008,
+        "name": "玉川通り"
+      }
+    },
+    "daimon": {
+      "motorway": {
+        "lanes": 2,
+        "m": 402,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 6,
+      "nearMajorM": 6,
+      "primary": {
+        "lanes": null,
+        "m": 481,
+        "name": "海岸通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 336,
+        "name": "新橋日の出ふ頭線"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 6,
+        "name": "第一京浜"
+      }
+    },
+    "daishimae": {
+      "nearAnyM": 102,
+      "nearMajorM": 102,
+      "primary": {
+        "lanes": 2,
+        "m": 102,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 284,
+        "name": "尾竹橋通り"
+      }
+    },
+    "daitabashi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 117,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 103,
+      "nearMajorM": 114,
+      "primary": {
+        "lanes": 2,
+        "m": 156,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 103,
+        "name": "井ノ頭通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 114,
+        "name": "甲州街道"
+      }
+    },
+    "den-en-chofu": {
+      "nearAnyM": 336,
+      "nearMajorM": 336,
+      "primary": {
+        "lanes": 3,
+        "m": 336,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 599,
+        "name": "自由通り"
+      }
+    },
+    "ebara-machi": {
+      "nearAnyM": 494,
+      "nearMajorM": 494,
+      "primary": {
+        "lanes": null,
+        "m": 494,
+        "name": "中原街道"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 1092,
+        "name": "鮫洲大山線"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 509,
+        "name": "第二京浜"
+      }
+    },
+    "ebara-nakanobu": {
+      "motorway": {
+        "lanes": null,
+        "m": 903,
+        "name": "首都高速2号目黒線"
+      },
+      "nearAnyM": 214,
+      "nearMajorM": 214,
+      "primary": {
+        "lanes": null,
+        "m": 548,
+        "name": "中原街道"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 290,
+        "name": "鮫洲大山線"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 214,
+        "name": "第二京浜"
+      }
+    },
+    "ebisu": {
+      "motorway": {
+        "lanes": 2,
+        "m": 927,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 84,
+      "nearMajorM": 120,
+      "primary": {
+        "lanes": 2,
+        "m": 120,
+        "name": "恵比寿通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 84,
+        "name": "駒沢通り"
+      }
+    },
+    "edogawa": {
+      "nearAnyM": 244,
+      "nearMajorM": 244,
+      "primary": {
+        "lanes": null,
+        "m": 247,
+        "name": "蔵前橋通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 319,
+        "name": "江戸川堤防線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 244,
+        "name": "千葉街道"
+      }
+    },
+    "edogawabashi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 21,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 3,
+      "nearMajorM": 3,
+      "primary": {
+        "lanes": 2,
+        "m": 3,
+        "name": "目白通り"
+      },
+      "secondary": {
+        "lanes": 4,
+        "m": 388,
+        "name": "音羽通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 824,
+        "name": "春日通り"
+      }
+    },
+    "eifukucho": {
+      "motorway": {
+        "lanes": 2,
+        "m": 927,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 42,
+      "nearMajorM": 577,
+      "primary": {
+        "lanes": 4,
+        "m": 577,
+        "name": "方南通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 42,
+        "name": "井ノ頭通り"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 921,
+        "name": "甲州街道"
+      }
+    },
+    "ekoda": {
+      "nearAnyM": 144,
+      "nearMajorM": 529,
+      "primary": {
+        "lanes": 2,
+        "m": 529,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 144,
+        "name": "千川通り"
+      }
+    },
+    "etchujima": {
+      "motorway": {
+        "lanes": 2,
+        "m": 722,
+        "name": "首都高速9号深川線"
+      },
+      "nearAnyM": 191,
+      "nearMajorM": 522,
+      "primary": {
+        "lanes": 2,
+        "m": 522,
+        "name": "永代通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 191,
+        "name": "清澄通り"
+      }
+    },
+    "fudo-mae": {
+      "motorway": {
+        "lanes": 2,
+        "m": 39,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 39,
+      "nearMajorM": 39,
+      "primary": {
+        "lanes": 2,
+        "m": 43,
+        "name": "山手通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 355,
+        "name": "北品川四谷線"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 631,
+        "name": "桜田通り"
+      }
+    },
+    "fujimidai": {
+      "nearAnyM": 158,
+      "nearMajorM": 786,
+      "primary": {
+        "lanes": 2,
+        "m": 786,
+        "name": "目白通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 158,
+        "name": "千川通り"
+      }
+    },
+    "fujimigaoka": {
+      "motorway": {
+        "lanes": 2,
+        "m": 502,
+        "name": "中央自動車道"
+      },
+      "nearAnyM": 368,
+      "nearMajorM": 368,
+      "primary": {
+        "lanes": 2,
+        "m": 368,
+        "name": "人見街道"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 924,
+        "name": "井ノ頭通り"
+      }
+    },
+    "funabori": {
+      "motorway": {
+        "lanes": 2,
+        "m": 738,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 48,
+      "nearMajorM": 48,
+      "primary": {
+        "lanes": 2,
+        "m": 48,
+        "name": "船堀街道"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 578,
+        "name": "新荒川葛西堤防線"
+      }
+    },
+    "futako-tamagawa": {
+      "nearAnyM": 23,
+      "nearMajorM": 23,
+      "primary": {
+        "lanes": 2,
+        "m": 23,
+        "name": "多摩堤通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 976,
+        "name": "駒沢通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 29,
+        "name": "玉川通り"
+      }
+    },
+    "gaiemmae": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1047,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 0,
+      "nearMajorM": 0,
+      "primary": {
+        "lanes": 2,
+        "m": 520,
+        "name": "環状三号線"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 227,
+        "name": "外苑西通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 0,
+        "name": "青山通り"
+      }
+    },
+    "gakugei-daigaku": {
+      "nearAnyM": 198,
+      "nearMajorM": 495,
+      "primary": {
+        "lanes": 2,
+        "m": 495,
+        "name": "目黒通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 198,
+        "name": "鮫洲大山線"
+      }
+    },
+    "gakushuinshita": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1129,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 12,
+      "nearMajorM": 12,
+      "primary": {
+        "lanes": 2,
+        "m": 12,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 5,
+        "m": 508,
+        "name": "不忍通り"
+      }
+    },
+    "ginza": {
+      "motorway": {
+        "lanes": 2,
+        "m": 567,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 76,
+      "nearMajorM": 86,
+      "primary": {
+        "lanes": 3,
+        "m": 86,
+        "name": "晴海通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 76,
+        "name": "外堀通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 116,
+        "name": "中央通り"
+      }
+    },
+    "gokokuji": {
+      "motorway": {
+        "lanes": 2,
+        "m": 75,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 3,
+      "nearMajorM": 75,
+      "primary": {
+        "lanes": 4,
+        "m": 504,
+        "name": "目白通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 3,
+        "name": "音羽通り"
+      },
+      "trunk": {
+        "lanes": 4,
+        "m": 469,
+        "name": "春日通り"
+      }
+    },
+    "gotanda": {
+      "motorway": {
+        "lanes": 2,
+        "m": 342,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 14,
+      "nearMajorM": 14,
+      "primary": {
+        "lanes": null,
+        "m": 14,
+        "name": "環状六号線"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 436,
+        "name": "北品川四谷線"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 68,
+        "name": "桜田通り"
+      }
+    },
+    "gotanno": {
+      "motorway": {
+        "lanes": 2,
+        "m": 624,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 261,
+      "nearMajorM": 532,
+      "primary": {
+        "lanes": null,
+        "m": 611,
+        "name": "平和橋通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 261,
+        "name": "江北橋通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 532,
+        "name": "日光街道"
+      }
+    },
+    "gotokuji": {
+      "nearAnyM": 11,
+      "nearMajorM": 1183,
+      "primary": {
+        "lanes": 3,
+        "m": 1183,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 1,
+        "m": 11,
+        "name": "瀬田貫井線"
+      }
+    },
+    "hachiman-yama": {
+      "motorway": {
+        "lanes": 2,
+        "m": 674,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 137,
+      "nearMajorM": 137,
+      "primary": {
+        "lanes": 2,
+        "m": 137,
+        "name": "環八通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 193,
+        "name": "甲州街道"
+      }
+    },
+    "hakusan": {
+      "nearAnyM": 7,
+      "nearMajorM": 7,
+      "primary": {
+        "lanes": null,
+        "m": 7,
+        "name": "旧白山通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 142,
+        "name": "神田白山線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 99,
+        "name": "国道17号"
+      }
+    },
+    "hamacho": {
+      "motorway": {
+        "lanes": 2,
+        "m": 102,
+        "name": "首都高速6号向島線"
+      },
+      "nearAnyM": 102,
+      "nearMajorM": 102,
+      "primary": {
+        "lanes": 2,
+        "m": 276,
+        "name": "新大橋通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 314,
+        "name": "清洲橋通り"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 640,
+        "name": "京葉道路;両国橋"
+      }
+    },
+    "hamadayama": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1024,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 271,
+      "nearMajorM": 271,
+      "primary": {
+        "lanes": 2,
+        "m": 271,
+        "name": "井ノ頭通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 315,
+        "name": "井ノ頭通り"
+      }
+    },
+    "hamamatsucho": {
+      "motorway": {
+        "lanes": 2,
+        "m": 278,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 215,
+      "nearMajorM": 215,
+      "primary": {
+        "lanes": 3,
+        "m": 271,
+        "name": "海岸通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 271,
+        "name": "新橋日の出ふ頭線"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 215,
+        "name": "第一京浜"
+      }
+    },
+    "haneda-airport-terminal-1-2": {
+      "motorway": {
+        "lanes": null,
+        "m": 10,
+        "name": "首都高速湾岸線"
+      },
+      "nearAnyM": 10,
+      "nearMajorM": 10,
+      "trunk": {
+        "lanes": 3,
+        "m": 25,
+        "name": "東京湾岸道路"
+      }
+    },
+    "haneda-airport-terminal-3": {
+      "motorway": {
+        "lanes": null,
+        "m": 1118,
+        "name": "首都高速神奈川6号川崎線"
+      },
+      "nearAnyM": 248,
+      "nearMajorM": 248,
+      "primary": {
+        "lanes": 2,
+        "m": 248,
+        "name": "環八通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 1002,
+        "name": "国道357号"
+      }
+    },
+    "hanzomon": {
+      "motorway": {
+        "lanes": 2,
+        "m": 274,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 161,
+      "nearMajorM": 161,
+      "primary": {
+        "lanes": 2,
+        "m": 725,
+        "name": "靖国通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 253,
+        "name": "内堀通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 161,
+        "name": "新宿通り"
+      }
+    },
+    "hasune": {
+      "motorway": {
+        "lanes": 2,
+        "m": 687,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 103,
+      "nearMajorM": 629,
+      "primary": {
+        "lanes": 2,
+        "m": 770,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 103,
+        "name": "高島通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 629,
+        "name": "中山道"
+      }
+    },
+    "hasunuma": {
+      "nearAnyM": 33,
+      "nearMajorM": 33,
+      "primary": {
+        "lanes": 2,
+        "m": 33,
+        "name": "多摩堤通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 1035,
+        "name": "池上通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 1060,
+        "name": "第二京浜"
+      }
+    },
+    "hatagaya": {
+      "motorway": {
+        "lanes": 2,
+        "m": 9,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 9,
+      "nearMajorM": 9,
+      "primary": {
+        "lanes": null,
+        "m": 1045,
+        "name": "山手通り"
+      },
+      "secondary": {
+        "lanes": 1,
+        "m": 264,
+        "name": "角筈和泉町線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 14,
+        "name": "甲州街道"
+      }
+    },
+    "hatanodai": {
+      "nearAnyM": 172,
+      "nearMajorM": 172,
+      "primary": {
+        "lanes": null,
+        "m": 172,
+        "name": "中原街道"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 1000,
+        "name": "第二京浜"
+      }
+    },
+    "hatchobori": {
+      "motorway": {
+        "lanes": null,
+        "m": 352,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 28,
+      "nearMajorM": 28,
+      "primary": {
+        "lanes": 2,
+        "m": 28,
+        "name": "新大橋通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 380,
+        "name": "八重洲通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 680,
+        "name": "中央通り"
+      }
+    },
+    "hatsudai": {
+      "motorway": {
+        "lanes": 2,
+        "m": 4,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 4,
+      "nearMajorM": 4,
+      "primary": {
+        "lanes": null,
+        "m": 205,
+        "name": "山手通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 294,
+        "name": "角筈和泉町線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 8,
+        "name": "甲州街道"
+      }
+    },
+    "heiwadai": {
+      "nearAnyM": 18,
+      "nearMajorM": 60,
+      "primary": {
+        "lanes": 2,
+        "m": 60,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": 1,
+        "m": 18,
+        "name": "放射第35号線（池袋谷原線）"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 948,
+        "name": "川越街道"
+      }
+    },
+    "heiwajima": {
+      "motorway": {
+        "lanes": 2,
+        "m": 962,
+        "name": "首都高速1号羽田線"
+      },
+      "nearAnyM": 43,
+      "nearMajorM": 43,
+      "primary": {
+        "lanes": 2,
+        "m": 102,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 1134,
+        "name": "池上通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 43,
+        "name": "第一京浜"
+      }
+    },
+    "higashi-azuma": {
+      "nearAnyM": 22,
+      "nearMajorM": 420,
+      "primary": {
+        "lanes": 2,
+        "m": 420,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 22,
+        "name": "丸八通り"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 1112,
+        "name": "京葉道路"
+      }
+    },
+    "higashi-ginza": {
+      "motorway": {
+        "lanes": null,
+        "m": 162,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 3,
+      "nearMajorM": 3,
+      "primary": {
+        "lanes": 3,
+        "m": 3,
+        "name": "晴海通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 457,
+        "name": "佃大橋通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 274,
+        "name": "中央通り"
+      }
+    },
+    "higashi-ikebukuro": {
+      "motorway": {
+        "lanes": 2,
+        "m": 15,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 2,
+      "nearMajorM": 15,
+      "primary": {
+        "lanes": null,
+        "m": 730,
+        "name": "明治通"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 2,
+        "name": "音羽池袋線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 591,
+        "name": "春日通り"
+      }
+    },
+    "higashi-jujo": {
+      "nearAnyM": 145,
+      "nearMajorM": 378,
+      "primary": {
+        "lanes": 2,
+        "m": 378,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 145,
+        "name": "中十条赤羽線"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 809,
+        "name": "北本通り"
+      }
+    },
+    "higashi-kitazawa": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1114,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 82,
+      "nearMajorM": 1088,
+      "primary": {
+        "lanes": 2,
+        "m": 1088,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 82,
+        "name": "鮫洲大山線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 1107,
+        "name": "甲州街道"
+      }
+    },
+    "higashi-koenji": {
+      "nearAnyM": 19,
+      "nearMajorM": 19,
+      "primary": {
+        "lanes": 3,
+        "m": 19,
+        "name": "青梅街道"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 323,
+        "name": "大久保通り"
+      }
+    },
+    "higashi-matsubara": {
+      "motorway": {
+        "lanes": 2,
+        "m": 904,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 425,
+      "nearMajorM": 425,
+      "primary": {
+        "lanes": 2,
+        "m": 425,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 751,
+        "name": "井ノ頭通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 900,
+        "name": "甲州街道"
+      }
+    },
+    "higashi-mukojima": {
+      "motorway": {
+        "lanes": 2,
+        "m": 791,
+        "name": "首都高速6号向島線"
+      },
+      "nearAnyM": 72,
+      "nearMajorM": 72,
+      "primary": {
+        "lanes": 2,
+        "m": 196,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 591,
+        "name": "墨堤通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 72,
+        "name": "水戸街道"
+      }
+    },
+    "higashi-nagasaki": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1167,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 339,
+      "nearMajorM": 339,
+      "primary": {
+        "lanes": 2,
+        "m": 339,
+        "name": "目白通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 419,
+        "name": "鮫洲大山線"
+      }
+    },
+    "higashi-nakano": {
+      "motorway": {
+        "lanes": 2,
+        "m": 59,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 57,
+      "nearMajorM": 57,
+      "primary": {
+        "lanes": 2,
+        "m": 57,
+        "name": "山手通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 597,
+        "name": "大久保通り"
+      }
+    },
+    "higashi-ogu-sanchome": {
+      "nearAnyM": 4,
+      "nearMajorM": 4,
+      "primary": {
+        "lanes": null,
+        "m": 4,
+        "name": "都電通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 860,
+        "name": "白山小台線（田端新町一丁目）"
+      }
+    },
+    "higashi-ojima": {
+      "motorway": {
+        "lanes": 2,
+        "m": 458,
+        "name": "首都高速7号小松川線"
+      },
+      "nearAnyM": 41,
+      "nearMajorM": 41,
+      "primary": {
+        "lanes": null,
+        "m": 41,
+        "name": "新大橋通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 120,
+        "name": "亀戸葛西橋線"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 812,
+        "name": "京葉道路"
+      }
+    },
+    "higashi-shinjuku": {
+      "nearAnyM": 4,
+      "nearMajorM": 4,
+      "primary": {
+        "lanes": 2,
+        "m": 4,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 277,
+        "name": "大久保通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 975,
+        "name": "甲州街道"
+      }
+    },
+    "hikarigaoka": {
+      "nearAnyM": 11,
+      "nearMajorM": null,
+      "secondary": {
+        "lanes": 3,
+        "m": 11,
+        "name": "南田中町旭町線（支線2）（補助第230号線）"
+      }
+    },
+    "hikawadai": {
+      "nearAnyM": 13,
+      "nearMajorM": 882,
+      "primary": {
+        "lanes": 2,
+        "m": 882,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 13,
+        "name": "池袋谷原線"
+      }
+    },
+    "hikifune": {
+      "motorway": {
+        "lanes": 2,
+        "m": 679,
+        "name": "首都高速6号向島線"
+      },
+      "nearAnyM": 188,
+      "nearMajorM": 188,
+      "primary": {
+        "lanes": 2,
+        "m": 392,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 468,
+        "name": "深川吾嬬町線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 188,
+        "name": "水戸街道"
+      }
+    },
+    "hinode": {
+      "motorway": {
+        "lanes": null,
+        "m": 47,
+        "name": null
+      },
+      "nearAnyM": 4,
+      "nearMajorM": 45,
+      "primary": {
+        "lanes": 4,
+        "m": 45,
+        "name": "海岸通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 4,
+        "name": "新橋日の出ふ頭線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 216,
+        "name": "国道130号"
+      }
+    },
+    "hirai": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1153,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 162,
+      "nearMajorM": 162,
+      "primary": {
+        "lanes": 2,
+        "m": 162,
+        "name": "蔵前橋通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 241,
+        "name": "ゆりのき橋通り"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 973,
+        "name": "京葉道路"
+      }
+    },
+    "hiro-o": {
+      "motorway": {
+        "lanes": 2,
+        "m": 722,
+        "name": "首都高速2号目黒線"
+      },
+      "nearAnyM": 4,
+      "nearMajorM": 722,
+      "primary": {
+        "lanes": 2,
+        "m": 822,
+        "name": "恵比寿通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 4,
+        "name": "外苑西通り"
+      }
+    },
+    "hon-komagome": {
+      "nearAnyM": 3,
+      "nearMajorM": 163,
+      "primary": {
+        "lanes": null,
+        "m": 200,
+        "name": "旧白山通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 3,
+        "name": "本郷通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 163,
+        "name": "旧白山通り"
+      }
+    },
+    "honancho": {
+      "nearAnyM": 19,
+      "nearMajorM": 19,
+      "primary": {
+        "lanes": 4,
+        "m": 19,
+        "name": "方南通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 935,
+        "name": "荒玉水道道路"
+      }
+    },
+    "hongo-sanchome": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1018,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 38,
+      "nearMajorM": 38,
+      "primary": {
+        "lanes": 4,
+        "m": 515,
+        "name": "白山通り"
+      },
+      "secondary": {
+        "lanes": 4,
+        "m": 74,
+        "name": "春日通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 38,
+        "name": "春日通り"
+      }
+    },
+    "honjo-azumabashi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 419,
+        "name": "首都高速6号向島線"
+      },
+      "nearAnyM": 2,
+      "nearMajorM": 25,
+      "primary": {
+        "lanes": null,
+        "m": 25,
+        "name": "三ツ目通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 2,
+        "name": "浅草通り"
+      },
+      "trunk": {
+        "lanes": 5,
+        "m": 488,
+        "name": "水戸街道"
+      }
+    },
+    "horikiri": {
+      "motorway": {
+        "lanes": 2,
+        "m": 82,
+        "name": "首都高速6号向島線"
+      },
+      "nearAnyM": 25,
+      "nearMajorM": 82,
+      "primary": {
+        "lanes": null,
+        "m": 229,
+        "name": "川の手通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 25,
+        "name": "新荒川堤防線"
+      }
+    },
+    "horikirishobuen": {
+      "motorway": {
+        "lanes": 2,
+        "m": 453,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 63,
+      "nearMajorM": 63,
+      "primary": {
+        "lanes": null,
+        "m": 63,
+        "name": "川の手通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 449,
+        "name": "東京都道450号新荒川葛西堤防線"
+      }
+    },
+    "ichigaya": {
+      "motorway": {
+        "lanes": 2,
+        "m": 878,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 50,
+      "nearMajorM": 50,
+      "primary": {
+        "lanes": 2,
+        "m": 50,
+        "name": "靖国通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 105,
+        "name": "外堀通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 805,
+        "name": "新宿通り"
+      }
+    },
+    "ichinoe": {
+      "nearAnyM": 51,
+      "nearMajorM": 51,
+      "primary": {
+        "lanes": null,
+        "m": 51,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 688,
+        "name": "新荒川葛西堤防線"
+      }
+    },
+    "iidabashi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 117,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 40,
+      "nearMajorM": 41,
+      "primary": {
+        "lanes": 3,
+        "m": 41,
+        "name": "目白通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 40,
+        "name": "外堀通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 849,
+        "name": "春日通り"
+      }
+    },
+    "ikebukuro": {
+      "motorway": {
+        "lanes": 2,
+        "m": 558,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 159,
+      "nearMajorM": 159,
+      "primary": {
+        "lanes": null,
+        "m": 159,
+        "name": "明治通"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 410,
+        "name": "西池袋通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 653,
+        "name": "川越街道"
+      }
+    },
+    "ikegami": {
+      "nearAnyM": 92,
+      "nearMajorM": 471,
+      "primary": {
+        "lanes": 2,
+        "m": 889,
+        "name": "多摩堤通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 92,
+        "name": "池上通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 471,
+        "name": "第二京浜"
+      }
+    },
+    "ikejiri-ohashi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 2,
+        "name": "首都高速3号渋谷線"
+      },
+      "nearAnyM": 2,
+      "nearMajorM": 2,
+      "primary": {
+        "lanes": 4,
+        "m": 398,
+        "name": "山手通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 563,
+        "name": "淡島通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 9,
+        "name": "玉川通り"
+      }
+    },
+    "ikenoue": {
+      "nearAnyM": 53,
+      "nearMajorM": 1194,
+      "primary": {
+        "lanes": 3,
+        "m": 1194,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 1,
+        "m": 53,
+        "name": "鮫洲大山線"
+      }
+    },
+    "inaricho": {
+      "motorway": {
+        "lanes": 2,
+        "m": 395,
+        "name": "首都高速1号上野線"
+      },
+      "nearAnyM": 0,
+      "nearMajorM": 387,
+      "primary": {
+        "lanes": 2,
+        "m": 927,
+        "name": "言問通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 0,
+        "name": "浅草通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 387,
+        "name": "昭和通り"
+      }
+    },
+    "iogi": {
+      "nearAnyM": 85,
+      "nearMajorM": 85,
+      "primary": {
+        "lanes": 2,
+        "m": 85,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 343,
+        "name": "新青梅街道"
+      }
+    },
+    "iriya": {
+      "motorway": {
+        "lanes": 2,
+        "m": 116,
+        "name": "首都高速1号上野線"
+      },
+      "nearAnyM": 4,
+      "nearMajorM": 4,
+      "primary": {
+        "lanes": 2,
+        "m": 4,
+        "name": "言問通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 382,
+        "name": "神田白山線"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 4,
+        "name": "昭和通り"
+      }
+    },
+    "ishikawadai": {
+      "nearAnyM": 147,
+      "nearMajorM": 147,
+      "primary": {
+        "lanes": 2,
+        "m": 147,
+        "name": "中原街道"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 1114,
+        "name": "自由通り"
+      }
+    },
+    "itabashi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 373,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 368,
+      "nearMajorM": 368,
+      "primary": {
+        "lanes": null,
+        "m": 695,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 797,
+        "name": "宮仲公園通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 368,
+        "name": "中山道"
+      }
+    },
+    "itabashi-kuyakushomae": {
+      "motorway": {
+        "lanes": 2,
+        "m": 147,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 1,
+      "nearMajorM": 1,
+      "primary": {
+        "lanes": null,
+        "m": 132,
+        "name": "山手通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 183,
+        "name": "鮫洲大山線"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 1,
+        "name": "中山道"
+      }
+    },
+    "itabashihoncho": {
+      "motorway": {
+        "lanes": 2,
+        "m": 4,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 2,
+      "nearMajorM": 2,
+      "primary": {
+        "lanes": 2,
+        "m": 2,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 652,
+        "name": "ROUTE2020トレセン通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 8,
+        "name": "中山道"
+      }
+    },
+    "iwamotocho": {
+      "motorway": {
+        "lanes": 2,
+        "m": 46,
+        "name": "首都高速1号上野線"
+      },
+      "nearAnyM": 5,
+      "nearMajorM": 5,
+      "primary": {
+        "lanes": 3,
+        "m": 5,
+        "name": "靖国通り"
+      },
+      "secondary": {
+        "lanes": 4,
+        "m": 477,
+        "name": "中央通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 39,
+        "name": "昭和通り"
+      }
+    },
+    "jimbocho": {
+      "motorway": {
+        "lanes": 2,
+        "m": 297,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 10,
+      "nearMajorM": 10,
+      "primary": {
+        "lanes": 3,
+        "m": 10,
+        "name": "靖国通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 396,
+        "name": "内堀通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 952,
+        "name": "本郷通り"
+      }
+    },
+    "jiyugaoka": {
+      "nearAnyM": 204,
+      "nearMajorM": 762,
+      "primary": {
+        "lanes": 2,
+        "m": 762,
+        "name": "目黒通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 204,
+        "name": "自由通り"
+      }
+    },
+    "jujo": {
+      "nearAnyM": 77,
+      "nearMajorM": 603,
+      "primary": {
+        "lanes": 2,
+        "m": 603,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 77,
+        "name": "本郷赤羽線（支線）(補助第73号線)"
+      }
+    },
+    "kachidoki": {
+      "motorway": {
+        "lanes": 1,
+        "m": 779,
+        "name": "首都高速10号晴海線"
+      },
+      "nearAnyM": 136,
+      "nearMajorM": 136,
+      "primary": {
+        "lanes": 3,
+        "m": 136,
+        "name": "晴海通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 136,
+        "name": "清澄通り"
+      }
+    },
+    "kagurazaka": {
+      "motorway": {
+        "lanes": 2,
+        "m": 593,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 6,
+      "nearMajorM": 6,
+      "primary": {
+        "lanes": 1,
+        "m": 6,
+        "name": "早稲田通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 342,
+        "name": "大久保通り"
+      }
+    },
+    "kajiwara": {
+      "motorway": {
+        "lanes": 2,
+        "m": 560,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 18,
+      "nearMajorM": 18,
+      "primary": {
+        "lanes": 2,
+        "m": 18,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 711,
+        "name": "本郷通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 869,
+        "name": "北本通り"
+      }
+    },
+    "kamata": {
+      "nearAnyM": 235,
+      "nearMajorM": 235,
+      "primary": {
+        "lanes": 2,
+        "m": 235,
+        "name": "多摩堤通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 769,
+        "name": "第一京浜"
+      }
+    },
+    "kameari": {
+      "nearAnyM": 207,
+      "nearMajorM": 207,
+      "primary": {
+        "lanes": 2,
+        "m": 207,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 404,
+        "name": "江北橋通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 1179,
+        "name": "水戸街道"
+      }
+    },
+    "kameido": {
+      "motorway": {
+        "lanes": 2,
+        "m": 425,
+        "name": "首都高速7号小松川線"
+      },
+      "nearAnyM": 73,
+      "nearMajorM": 73,
+      "primary": {
+        "lanes": null,
+        "m": 73,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 664,
+        "name": "丸八通り"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 94,
+        "name": "京葉道路"
+      }
+    },
+    "kameidosuijin": {
+      "motorway": {
+        "lanes": 2,
+        "m": 657,
+        "name": "首都高速7号小松川線"
+      },
+      "nearAnyM": 52,
+      "nearMajorM": 179,
+      "primary": {
+        "lanes": 2,
+        "m": 179,
+        "name": "蔵前橋通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 52,
+        "name": "丸八通り"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 318,
+        "name": "京葉道路"
+      }
+    },
+    "kami-igusa": {
+      "nearAnyM": 86,
+      "nearMajorM": 1026,
+      "primary": {
+        "lanes": 2,
+        "m": 1026,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 86,
+        "name": "千川通り"
+      }
+    },
+    "kami-itabashi": {
+      "nearAnyM": 303,
+      "nearMajorM": 303,
+      "primary": {
+        "lanes": 2,
+        "m": 839,
+        "name": "北町若木トンネル"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 630,
+        "name": "常盤台赤羽線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 303,
+        "name": "川越街道"
+      }
+    },
+    "kami-kitazawa": {
+      "motorway": {
+        "lanes": 2,
+        "m": 227,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 191,
+      "nearMajorM": 191,
+      "primary": {
+        "lanes": 2,
+        "m": 221,
+        "name": "東八道路"
+      },
+      "secondary": {
+        "lanes": 1,
+        "m": 782,
+        "name": "荒玉水道道路"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 191,
+        "name": "甲州街道"
+      }
+    },
+    "kami-nakazato": {
+      "motorway": {
+        "lanes": 2,
+        "m": 741,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 325,
+      "nearMajorM": 432,
+      "primary": {
+        "lanes": 2,
+        "m": 432,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 325,
+        "name": "本郷通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 839,
+        "name": "明治通り"
+      }
+    },
+    "kami-shakujii": {
+      "nearAnyM": 263,
+      "nearMajorM": 616,
+      "primary": {
+        "lanes": 2,
+        "m": 616,
+        "name": "青梅街道"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 263,
+        "name": "千川通り"
+      }
+    },
+    "kamimachi": {
+      "nearAnyM": 28,
+      "nearMajorM": 55,
+      "primary": {
+        "lanes": null,
+        "m": 55,
+        "name": "世田谷町田線"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 28,
+        "name": "瀬田貫井線"
+      }
+    },
+    "kaminoge": {
+      "motorway": {
+        "lanes": 3,
+        "m": 742,
+        "name": "第三京浜道路"
+      },
+      "nearAnyM": 53,
+      "nearMajorM": 53,
+      "primary": {
+        "lanes": 3,
+        "m": 631,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 373,
+        "name": "駒沢通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 53,
+        "name": "環八通り"
+      }
+    },
+    "kamiyacho": {
+      "motorway": {
+        "lanes": null,
+        "m": 596,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 5,
+      "nearMajorM": 5,
+      "primary": {
+        "lanes": null,
+        "m": 391,
+        "name": "祝田通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 540,
+        "name": "築地虎ノ門トンネル"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 5,
+        "name": "桜田通り"
+      }
+    },
+    "kanamachi": {
+      "nearAnyM": 218,
+      "nearMajorM": 218,
+      "primary": {
+        "lanes": 2,
+        "m": 228,
+        "name": "柴又街道"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 247,
+        "name": "柴又街道"
+      },
+      "trunk": {
+        "lanes": 1,
+        "m": 218,
+        "name": "水戸街道"
+      }
+    },
+    "kanamecho": {
+      "motorway": {
+        "lanes": 2,
+        "m": 56,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 3,
+      "nearMajorM": 51,
+      "primary": {
+        "lanes": null,
+        "m": 51,
+        "name": "山手通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 3,
+        "name": "要町通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 1133,
+        "name": "川越街道"
+      }
+    },
+    "kanda": {
+      "motorway": {
+        "lanes": 2,
+        "m": 362,
+        "name": "首都高速1号上野線"
+      },
+      "nearAnyM": 79,
+      "nearMajorM": 79,
+      "primary": {
+        "lanes": 3,
+        "m": 436,
+        "name": "靖国通り"
+      },
+      "secondary": {
+        "lanes": 4,
+        "m": 297,
+        "name": "外堀通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 79,
+        "name": "中央通り"
+      }
+    },
+    "kanegafuchi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 522,
+        "name": "首都高速6号向島線"
+      },
+      "nearAnyM": 79,
+      "nearMajorM": 522,
+      "primary": {
+        "lanes": 2,
+        "m": 696,
+        "name": "言問大谷田線"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 79,
+        "name": "鐘ヶ淵通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 693,
+        "name": "水戸街道"
+      }
+    },
+    "kasai": {
+      "nearAnyM": 51,
+      "nearMajorM": 51,
+      "primary": {
+        "lanes": 2,
+        "m": 51,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 339,
+        "name": "清砂大橋通り"
+      }
+    },
+    "kasai-rinkai-koen": {
+      "motorway": {
+        "lanes": 3,
+        "m": 61,
+        "name": "首都高速湾岸線"
+      },
+      "nearAnyM": 38,
+      "nearMajorM": 38,
+      "primary": {
+        "lanes": 2,
+        "m": 449,
+        "name": "船堀街道"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 38,
+        "name": "東京湾岸道路"
+      }
+    },
+    "kasuga": {
+      "motorway": {
+        "lanes": 2,
+        "m": 811,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 5,
+      "nearMajorM": 5,
+      "primary": {
+        "lanes": 3,
+        "m": 5,
+        "name": "白山通り"
+      },
+      "secondary": {
+        "lanes": 4,
+        "m": 130,
+        "name": "千川通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 118,
+        "name": "春日通り"
+      }
+    },
+    "kasumigaseki": {
+      "motorway": {
+        "lanes": null,
+        "m": 237,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 2,
+      "nearMajorM": 2,
+      "primary": {
+        "lanes": null,
+        "m": 245,
+        "name": "祝田通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 88,
+        "name": "国会通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 2,
+        "name": "桜田通り"
+      }
+    },
+    "kayabacho": {
+      "motorway": {
+        "lanes": 3,
+        "m": 149,
+        "name": "首都高速6号向島線"
+      },
+      "nearAnyM": 4,
+      "nearMajorM": 4,
+      "primary": {
+        "lanes": 4,
+        "m": 4,
+        "name": "新大橋通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 544,
+        "name": "八重洲通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 643,
+        "name": "中央通り"
+      }
+    },
+    "keikyu-kamata": {
+      "nearAnyM": 47,
+      "nearMajorM": 47,
+      "primary": {
+        "lanes": 3,
+        "m": 209,
+        "name": "多摩堤通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 47,
+        "name": "第一京浜"
+      }
+    },
+    "keisei-hikifune": {
+      "motorway": {
+        "lanes": 2,
+        "m": 976,
+        "name": "首都高速6号向島線"
+      },
+      "nearAnyM": 150,
+      "nearMajorM": 150,
+      "primary": {
+        "lanes": 2,
+        "m": 150,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 275,
+        "name": "深川吾嬬町線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 411,
+        "name": "水戸街道"
+      }
+    },
+    "keisei-koiwa": {
+      "nearAnyM": 126,
+      "nearMajorM": 651,
+      "primary": {
+        "lanes": null,
+        "m": 651,
+        "name": "蔵前橋通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 126,
+        "name": "柴又街道"
+      }
+    },
+    "keisei-takasago": {
+      "nearAnyM": 67,
+      "nearMajorM": 311,
+      "primary": {
+        "lanes": 2,
+        "m": 311,
+        "name": "王子金町市川線"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 67,
+        "name": "王子金町市川線"
+      }
+    },
+    "keisei-tateishi": {
+      "nearAnyM": 140,
+      "nearMajorM": 140,
+      "primary": {
+        "lanes": 2,
+        "m": 140,
+        "name": "奥戸街道"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 751,
+        "name": "水戸街道"
+      }
+    },
+    "keisei-ueno": {
+      "motorway": {
+        "lanes": 2,
+        "m": 272,
+        "name": "首都高速1号上野線"
+      },
+      "nearAnyM": 47,
+      "nearMajorM": 268,
+      "primary": {
+        "lanes": 2,
+        "m": 968,
+        "name": "蔵前橋通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 47,
+        "name": "中央通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 268,
+        "name": "昭和通り"
+      }
+    },
+    "kiba": {
+      "motorway": {
+        "lanes": 2,
+        "m": 187,
+        "name": "首都高速9号深川線"
+      },
+      "nearAnyM": 2,
+      "nearMajorM": 2,
+      "primary": {
+        "lanes": 2,
+        "m": 2,
+        "name": "永代通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 670,
+        "name": "葛西橋通り"
+      }
+    },
+    "kikukawa": {
+      "motorway": {
+        "lanes": 2,
+        "m": 464,
+        "name": "首都高速7号小松川線"
+      },
+      "nearAnyM": 2,
+      "nearMajorM": 2,
+      "primary": {
+        "lanes": null,
+        "m": 2,
+        "name": "新大橋通り"
+      },
+      "secondary": {
+        "lanes": 4,
+        "m": 655,
+        "name": "清洲橋通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 731,
+        "name": "京葉道路"
+      }
+    },
+    "kinshicho": {
+      "motorway": {
+        "lanes": 2,
+        "m": 442,
+        "name": "首都高速7号小松川線"
+      },
+      "nearAnyM": 50,
+      "nearMajorM": 156,
+      "primary": {
+        "lanes": 2,
+        "m": 451,
+        "name": "蔵前橋通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 50,
+        "name": "四ツ目通り"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 156,
+        "name": "京葉道路;錦糸町駅前"
+      }
+    },
+    "kita-akabane": {
+      "nearAnyM": 19,
+      "nearMajorM": 204,
+      "primary": {
+        "lanes": 2,
+        "m": 204,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 19,
+        "name": "赤羽西台線"
+      }
+    },
+    "kita-ayase": {
+      "motorway": {
+        "lanes": 2,
+        "m": 655,
+        "name": "首都高速6号三郷線"
+      },
+      "nearAnyM": 30,
+      "nearMajorM": 30,
+      "primary": {
+        "lanes": null,
+        "m": 30,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 718,
+        "name": "平方東京線"
+      }
+    },
+    "kita-ikebukuro": {
+      "motorway": {
+        "lanes": 2,
+        "m": 515,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 508,
+      "nearMajorM": 508,
+      "primary": {
+        "lanes": null,
+        "m": 573,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 584,
+        "name": "宮仲公園通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 508,
+        "name": "川越街道"
+      }
+    },
+    "kita-sando": {
+      "motorway": {
+        "lanes": 2,
+        "m": 239,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 1,
+      "nearMajorM": 1,
+      "primary": {
+        "lanes": null,
+        "m": 1,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 226,
+        "name": "四谷角筈線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 1098,
+        "name": "甲州街道"
+      }
+    },
+    "kita-senju": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1150,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 455,
+      "nearMajorM": 455,
+      "primary": {
+        "lanes": null,
+        "m": 1049,
+        "name": "川の手通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 632,
+        "name": "新荒川堤防線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 455,
+        "name": "日光街道"
+      }
+    },
+    "kita-senzoku": {
+      "nearAnyM": 184,
+      "nearMajorM": 184,
+      "primary": {
+        "lanes": null,
+        "m": 184,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 922,
+        "name": "鮫洲大山線（支線）（補助第46号線）"
+      }
+    },
+    "kitashinagawa": {
+      "motorway": {
+        "lanes": 2,
+        "m": 646,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 36,
+      "nearMajorM": 36,
+      "primary": {
+        "lanes": 4,
+        "m": 295,
+        "name": "環状六号線"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 1162,
+        "name": "品川埠頭線"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 36,
+        "name": "第一京浜"
+      }
+    },
+    "kiyosumi-shirakawa": {
+      "motorway": {
+        "lanes": 2,
+        "m": 711,
+        "name": "首都高速9号深川線"
+      },
+      "nearAnyM": 3,
+      "nearMajorM": 656,
+      "primary": {
+        "lanes": null,
+        "m": 656,
+        "name": "新大橋通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 3,
+        "name": "清澄通り"
+      }
+    },
+    "kodemmacho": {
+      "motorway": {
+        "lanes": 2,
+        "m": 271,
+        "name": "首都高速1号上野線"
+      },
+      "nearAnyM": 1,
+      "nearMajorM": 1,
+      "primary": {
+        "lanes": 2,
+        "m": 270,
+        "name": "昭和通り"
+      },
+      "secondary": {
+        "lanes": 5,
+        "m": 545,
+        "name": "江戸通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 1,
+        "name": "江戸通り"
+      }
+    },
+    "koenji": {
+      "nearAnyM": 446,
+      "nearMajorM": 446,
+      "primary": {
+        "lanes": null,
+        "m": 446,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 632,
+        "name": "大久保通り"
+      }
+    },
+    "kohoku": {
+      "motorway": {
+        "lanes": 2,
+        "m": 945,
+        "name": "首都高速川口線"
+      },
+      "nearAnyM": 7,
+      "nearMajorM": 7,
+      "primary": {
+        "lanes": null,
+        "m": 7,
+        "name": "尾久橋通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 794,
+        "name": "鳩ヶ谷街道"
+      }
+    },
+    "koiwa": {
+      "nearAnyM": 215,
+      "nearMajorM": 215,
+      "primary": {
+        "lanes": null,
+        "m": 215,
+        "name": "蔵前橋通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 355,
+        "name": "柴又街道"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 716,
+        "name": "千葉街道"
+      }
+    },
+    "kojimachi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 489,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 2,
+      "nearMajorM": 2,
+      "primary": {
+        "lanes": 2,
+        "m": 797,
+        "name": "靖国通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 584,
+        "name": "内堀通り;半蔵門"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 2,
+        "name": "新宿通り"
+      }
+    },
+    "kojiya": {
+      "nearAnyM": 51,
+      "nearMajorM": 51,
+      "primary": {
+        "lanes": 2,
+        "m": 51,
+        "name": "環八通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 776,
+        "name": "第一京浜"
+      }
+    },
+    "kokkai-gijidomae": {
+      "motorway": {
+        "lanes": 2,
+        "m": 176,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 5,
+      "nearMajorM": 86,
+      "primary": {
+        "lanes": null,
+        "m": 709,
+        "name": "祝田通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 5,
+        "name": "東京都道二四七号線"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 86,
+        "name": "国道246号"
+      }
+    },
+    "kokuritsu-kyogijo": {
+      "motorway": {
+        "lanes": 2,
+        "m": 75,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 1,
+      "nearMajorM": 75,
+      "primary": {
+        "lanes": 3,
+        "m": 392,
+        "name": "外苑東通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 1,
+        "name": "四谷角筈線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 815,
+        "name": "甲州街道"
+      }
+    },
+    "kokusai-tenjijo": {
+      "motorway": {
+        "lanes": 3,
+        "m": 62,
+        "name": "首都高速湾岸線"
+      },
+      "nearAnyM": 37,
+      "nearMajorM": 37,
+      "primary": {
+        "lanes": 3,
+        "m": 624,
+        "name": "有明通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 128,
+        "name": "豊洲有明線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 37,
+        "name": "東京湾岸道路"
+      }
+    },
+    "komaba-todaimae": {
+      "motorway": {
+        "lanes": 2,
+        "m": 437,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 316,
+      "nearMajorM": 437,
+      "primary": {
+        "lanes": null,
+        "m": 439,
+        "name": "山手通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 316,
+        "name": "淡島通り"
+      },
+      "trunk": {
+        "lanes": 4,
+        "m": 775,
+        "name": "玉川通り"
+      }
+    },
+    "komagome": {
+      "nearAnyM": 62,
+      "nearMajorM": 813,
+      "primary": {
+        "lanes": 3,
+        "m": 1017,
+        "name": "白山通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 62,
+        "name": "本郷通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 813,
+        "name": "白山通り"
+      }
+    },
+    "komazawa-daigaku": {
+      "motorway": {
+        "lanes": 2,
+        "m": 2,
+        "name": "首都高速3号渋谷線"
+      },
+      "nearAnyM": 2,
+      "nearMajorM": 2,
+      "primary": {
+        "lanes": 2,
+        "m": 342,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 61,
+        "name": "自由通り (Jiyu dori)"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 8,
+        "name": "玉川通り"
+      }
+    },
+    "korakuen": {
+      "motorway": {
+        "lanes": 2,
+        "m": 589,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 61,
+      "nearMajorM": 61,
+      "primary": {
+        "lanes": 3,
+        "m": 162,
+        "name": "白山通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 61,
+        "name": "小石川西巣鴨線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 61,
+        "name": "春日通り"
+      }
+    },
+    "koshinzuka": {
+      "motorway": {
+        "lanes": 2,
+        "m": 617,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 188,
+      "nearMajorM": 188,
+      "primary": {
+        "lanes": null,
+        "m": 418,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 529,
+        "name": "宮仲公園通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 188,
+        "name": "白山通り"
+      }
+    },
+    "kosuge": {
+      "motorway": {
+        "lanes": 2,
+        "m": 128,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 124,
+      "nearMajorM": 124,
+      "primary": {
+        "lanes": null,
+        "m": 124,
+        "name": "平和橋通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 488,
+        "name": "江北橋通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 886,
+        "name": "日光街道"
+      }
+    },
+    "kotake-mukaihara": {
+      "nearAnyM": 2,
+      "nearMajorM": 365,
+      "primary": {
+        "lanes": 2,
+        "m": 365,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 2,
+        "name": "要町通り"
+      }
+    },
+    "koya": {
+      "motorway": {
+        "lanes": 2,
+        "m": 737,
+        "name": "首都高速川口線"
+      },
+      "nearAnyM": 5,
+      "nearMajorM": 5,
+      "primary": {
+        "lanes": null,
+        "m": 5,
+        "name": "尾久橋通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 385,
+        "name": "江北橋通り"
+      }
+    },
+    "kudanshita": {
+      "motorway": {
+        "lanes": 2,
+        "m": 69,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 1,
+      "nearMajorM": 1,
+      "primary": {
+        "lanes": 2,
+        "m": 1,
+        "name": "靖国通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 50,
+        "name": "内堀通り"
+      }
+    },
+    "kugahara": {
+      "nearAnyM": 242,
+      "nearMajorM": 242,
+      "primary": {
+        "lanes": 3,
+        "m": 242,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 886,
+        "name": "池上通り"
+      }
+    },
+    "kugayama": {
+      "motorway": {
+        "lanes": 2,
+        "m": 946,
+        "name": "中央自動車道"
+      },
+      "nearAnyM": 75,
+      "nearMajorM": 75,
+      "primary": {
+        "lanes": 2,
+        "m": 75,
+        "name": "人見街道"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 892,
+        "name": "人見街道"
+      }
+    },
+    "kuhombutsu": {
+      "nearAnyM": 412,
+      "nearMajorM": 412,
+      "primary": {
+        "lanes": 3,
+        "m": 412,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 925,
+        "name": "自由通り"
+      }
+    },
+    "kumanomae": {
+      "nearAnyM": 3,
+      "nearMajorM": 3,
+      "primary": {
+        "lanes": null,
+        "m": 3,
+        "name": "都電通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 638,
+        "name": "白山小台線"
+      }
+    },
+    "kuramae": {
+      "motorway": {
+        "lanes": 2,
+        "m": 371,
+        "name": "首都高速6号向島線"
+      },
+      "nearAnyM": 3,
+      "nearMajorM": 3,
+      "primary": {
+        "lanes": 2,
+        "m": 190,
+        "name": "蔵前橋通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 70,
+        "name": "国際通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 3,
+        "name": "江戸通り"
+      }
+    },
+    "kyobashi": {
+      "motorway": {
+        "lanes": null,
+        "m": 217,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 94,
+      "nearMajorM": 94,
+      "primary": {
+        "lanes": null,
+        "m": 101,
+        "name": "昭和通り"
+      },
+      "secondary": {
+        "lanes": 4,
+        "m": 330,
+        "name": "八重洲通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 94,
+        "name": "中央通り"
+      }
+    },
+    "kyodo": {
+      "nearAnyM": 135,
+      "nearMajorM": 1172,
+      "primary": {
+        "lanes": null,
+        "m": 1172,
+        "name": "世田谷町田線"
+      },
+      "secondary": {
+        "lanes": 1,
+        "m": 135,
+        "name": "調布経堂停車場線"
+      }
+    },
+    "machiya": {
+      "nearAnyM": 49,
+      "nearMajorM": 49,
+      "primary": {
+        "lanes": 2,
+        "m": 49,
+        "name": "尾竹橋通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 747,
+        "name": "道灌山通り"
+      }
+    },
+    "machiya-nichome": {
+      "nearAnyM": 5,
+      "nearMajorM": 5,
+      "primary": {
+        "lanes": null,
+        "m": 5,
+        "name": "都電通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 763,
+        "name": "道灌山通り"
+      }
+    },
+    "magome": {
+      "nearAnyM": 1,
+      "nearMajorM": 1,
+      "primary": {
+        "lanes": 2,
+        "m": 80,
+        "name": "環七通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 1,
+        "name": "第二京浜"
+      }
+    },
+    "matsubara": {
+      "motorway": {
+        "lanes": 2,
+        "m": 830,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 77,
+      "nearMajorM": 822,
+      "secondary": {
+        "lanes": null,
+        "m": 77,
+        "name": "瀬田貫井線"
+      },
+      "trunk": {
+        "lanes": 4,
+        "m": 822,
+        "name": "甲州街道"
+      }
+    },
+    "meguro": {
+      "motorway": {
+        "lanes": 2,
+        "m": 368,
+        "name": "首都高速2号目黒線"
+      },
+      "nearAnyM": 32,
+      "nearMajorM": 32,
+      "primary": {
+        "lanes": 3,
+        "m": 32,
+        "name": "目黒通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 362,
+        "name": "北品川四谷線"
+      },
+      "trunk": {
+        "lanes": 4,
+        "m": 1032,
+        "name": "桜田通り"
+      }
+    },
+    "meidaimae": {
+      "motorway": {
+        "lanes": 2,
+        "m": 143,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 136,
+      "nearMajorM": 136,
+      "primary": {
+        "lanes": 2,
+        "m": 980,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 306,
+        "name": "井ノ頭通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 136,
+        "name": "甲州街道"
+      }
+    },
+    "meiji-jingumae": {
+      "nearAnyM": 20,
+      "nearMajorM": 158,
+      "primary": {
+        "lanes": 2,
+        "m": 158,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 20,
+        "name": "表参道"
+      },
+      "trunk": {
+        "lanes": 4,
+        "m": 892,
+        "name": "青山通り"
+      }
+    },
+    "mejiro": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1133,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 135,
+      "nearMajorM": 135,
+      "primary": {
+        "lanes": 4,
+        "m": 135,
+        "name": "目白通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 870,
+        "name": "西池袋通り"
+      }
+    },
+    "midorigaoka": {
+      "nearAnyM": 729,
+      "nearMajorM": 958,
+      "primary": {
+        "lanes": null,
+        "m": 958,
+        "name": "補助126号線"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 729,
+        "name": "自由通り"
+      }
+    },
+    "mikawashima": {
+      "nearAnyM": 138,
+      "nearMajorM": 138,
+      "primary": {
+        "lanes": null,
+        "m": 138,
+        "name": "尾竹橋通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 333,
+        "name": "道灌山通り"
+      }
+    },
+    "minami-asagaya": {
+      "nearAnyM": 18,
+      "nearMajorM": 21,
+      "primary": {
+        "lanes": 2,
+        "m": 21,
+        "name": "青梅街道"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 18,
+        "name": "中杉通り"
+      }
+    },
+    "minami-senju": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1136,
+        "name": "首都高速6号向島線"
+      },
+      "nearAnyM": 116,
+      "nearMajorM": 407,
+      "primary": {
+        "lanes": 2,
+        "m": 472,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 116,
+        "name": "山谷通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 407,
+        "name": "日光街道"
+      }
+    },
+    "minami-shinjuku": {
+      "motorway": {
+        "lanes": 2,
+        "m": 273,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 260,
+      "nearMajorM": 273,
+      "primary": {
+        "lanes": null,
+        "m": 474,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 260,
+        "name": "四谷角筈線"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 491,
+        "name": "甲州街道"
+      }
+    },
+    "minami-sunamachi": {
+      "nearAnyM": 46,
+      "nearMajorM": 116,
+      "primary": {
+        "lanes": null,
+        "m": 116,
+        "name": "永代通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 46,
+        "name": "丸八通り"
+      }
+    },
+    "minowa": {
+      "nearAnyM": 2,
+      "nearMajorM": 2,
+      "primary": {
+        "lanes": 2,
+        "m": 47,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 104,
+        "name": "国際通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 2,
+        "name": "昭和通り"
+      }
+    },
+    "minowabashi": {
+      "nearAnyM": 103,
+      "nearMajorM": 103,
+      "primary": {
+        "lanes": 2,
+        "m": 170,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 376,
+        "name": "国際通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 103,
+        "name": "日光街道"
+      }
+    },
+    "minumadai-shinsuikoen": {
+      "motorway": {
+        "lanes": 2,
+        "m": 983,
+        "name": "首都高速川口線"
+      },
+      "nearAnyM": 4,
+      "nearMajorM": 4,
+      "primary": {
+        "lanes": null,
+        "m": 4,
+        "name": "尾久橋通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 374,
+        "name": "川口草加線"
+      }
+    },
+    "mita": {
+      "motorway": {
+        "lanes": 2,
+        "m": 538,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 4,
+      "nearMajorM": 51,
+      "primary": {
+        "lanes": 2,
+        "m": 375,
+        "name": "白山祝田田町線"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 4,
+        "name": "日比谷通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 51,
+        "name": "第一京浜"
+      }
+    },
+    "mitsukoshimae": {
+      "motorway": {
+        "lanes": 2,
+        "m": 270,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 32,
+      "nearMajorM": 32,
+      "primary": {
+        "lanes": 3,
+        "m": 283,
+        "name": "昭和通り"
+      },
+      "secondary": {
+        "lanes": 5,
+        "m": 189,
+        "name": "江戸通り"
+      },
+      "trunk": {
+        "lanes": 4,
+        "m": 32,
+        "name": "中央通り"
+      }
+    },
+    "miyanomae": {
+      "nearAnyM": 4,
+      "nearMajorM": 4,
+      "primary": {
+        "lanes": null,
+        "m": 4,
+        "name": "都電通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 252,
+        "name": "白山小台線"
+      }
+    },
+    "miyanosaka": {
+      "nearAnyM": 31,
+      "nearMajorM": 464,
+      "primary": {
+        "lanes": null,
+        "m": 464,
+        "name": "世田谷町田線"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 31,
+        "name": "瀬田貫井線"
+      }
+    },
+    "mizue": {
+      "motorway": {
+        "lanes": 2,
+        "m": 612,
+        "name": "首都高速7号小松川線"
+      },
+      "nearAnyM": 378,
+      "nearMajorM": 612,
+      "primary": {
+        "lanes": null,
+        "m": 911,
+        "name": "柴又街道"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 378,
+        "name": "柴又街道"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 911,
+        "name": "京葉道路"
+      }
+    },
+    "monzen-nakacho": {
+      "motorway": {
+        "lanes": 2,
+        "m": 203,
+        "name": "首都高速9号深川線"
+      },
+      "nearAnyM": 2,
+      "nearMajorM": 2,
+      "primary": {
+        "lanes": 2,
+        "m": 2,
+        "name": "永代通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 129,
+        "name": "清澄通り"
+      }
+    },
+    "morishita": {
+      "motorway": {
+        "lanes": 2,
+        "m": 458,
+        "name": "首都高速7号小松川線"
+      },
+      "nearAnyM": 3,
+      "nearMajorM": 3,
+      "primary": {
+        "lanes": null,
+        "m": 3,
+        "name": "新大橋通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 106,
+        "name": "清澄通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 723,
+        "name": "京葉道路"
+      }
+    },
+    "motohasunuma": {
+      "motorway": {
+        "lanes": 2,
+        "m": 203,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 1,
+      "nearMajorM": 1,
+      "primary": {
+        "lanes": 2,
+        "m": 873,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 586,
+        "name": "常盤台赤羽線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 1,
+        "name": "中山道"
+      }
+    },
+    "mukohara": {
+      "motorway": {
+        "lanes": 2,
+        "m": 599,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 16,
+      "nearMajorM": 16,
+      "primary": {
+        "lanes": null,
+        "m": 880,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 495,
+        "name": "プラタナス通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 16,
+        "name": "春日通り"
+      }
+    },
+    "musashi-koyama": {
+      "motorway": {
+        "lanes": 1,
+        "m": 1013,
+        "name": "首都高速2号目黒線"
+      },
+      "nearAnyM": 156,
+      "nearMajorM": 665,
+      "primary": {
+        "lanes": null,
+        "m": 665,
+        "name": "中原街道"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 156,
+        "name": "鮫洲大山線"
+      }
+    },
+    "musashi-nitta": {
+      "nearAnyM": 42,
+      "nearMajorM": 42,
+      "primary": {
+        "lanes": 2,
+        "m": 42,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 484,
+        "name": "池上通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 332,
+        "name": "第二京浜"
+      }
+    },
+    "musashi-seki": {
+      "nearAnyM": 424,
+      "nearMajorM": 496,
+      "primary": {
+        "lanes": null,
+        "m": 496,
+        "name": "青梅街道"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 424,
+        "name": "新青梅街道"
+      }
+    },
+    "myogadani": {
+      "motorway": {
+        "lanes": 2,
+        "m": 793,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 44,
+      "nearMajorM": 44,
+      "primary": {
+        "lanes": 3,
+        "m": 767,
+        "name": "目白通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 477,
+        "name": "千川通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 44,
+        "name": "春日通り"
+      }
+    },
+    "nagahara": {
+      "nearAnyM": 76,
+      "nearMajorM": 76,
+      "primary": {
+        "lanes": 2,
+        "m": 76,
+        "name": "環七通り"
+      }
+    },
+    "nagatacho": {
+      "motorway": {
+        "lanes": 2,
+        "m": 62,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 56,
+      "nearMajorM": 56,
+      "secondary": {
+        "lanes": 2,
+        "m": 180,
+        "name": "外堀通り"
+      },
+      "trunk": {
+        "lanes": 4,
+        "m": 56,
+        "name": "青山通り"
+      }
+    },
+    "naka-itabashi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1105,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 242,
+      "nearMajorM": 242,
+      "primary": {
+        "lanes": 2,
+        "m": 242,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 813,
+        "name": "ハッピーロード大山"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 465,
+        "name": "川越街道"
+      }
+    },
+    "nakai": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 1,
+      "nearMajorM": 1,
+      "primary": {
+        "lanes": null,
+        "m": 1,
+        "name": "山手通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 928,
+        "name": "新青梅街道"
+      }
+    },
+    "nakameguro": {
+      "motorway": {
+        "lanes": 2,
+        "m": 61,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 61,
+      "nearMajorM": 61,
+      "primary": {
+        "lanes": 2,
+        "m": 64,
+        "name": "山手通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 224,
+        "name": "駒沢通り"
+      }
+    },
+    "nakamurabashi": {
+      "nearAnyM": 59,
+      "nearMajorM": 134,
+      "primary": {
+        "lanes": null,
+        "m": 134,
+        "name": "千代田練馬田無線（補助第133号線）"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 59,
+        "name": "中杉通り"
+      }
+    },
+    "nakano": {
+      "nearAnyM": 39,
+      "nearMajorM": 468,
+      "primary": {
+        "lanes": 2,
+        "m": 468,
+        "name": "早稲田通り"
+      },
+      "secondary": {
+        "lanes": 4,
+        "m": 39,
+        "name": "中野通り"
+      }
+    },
+    "nakano-fujimicho": {
+      "nearAnyM": 200,
+      "nearMajorM": 489,
+      "primary": {
+        "lanes": 2,
+        "m": 489,
+        "name": "方南通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 200,
+        "name": "中野通り"
+      }
+    },
+    "nakano-sakaue": {
+      "motorway": {
+        "lanes": 2,
+        "m": 23,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 22,
+      "nearMajorM": 22,
+      "primary": {
+        "lanes": null,
+        "m": 22,
+        "name": "山手通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 382,
+        "name": "大久保通り"
+      }
+    },
+    "nakano-shimbashi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 695,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 451,
+      "nearMajorM": 600,
+      "primary": {
+        "lanes": 2,
+        "m": 600,
+        "name": "方南通り"
+      },
+      "secondary": {
+        "lanes": 4,
+        "m": 451,
+        "name": "中野通り"
+      }
+    },
+    "nakanobu": {
+      "nearAnyM": 49,
+      "nearMajorM": 49,
+      "primary": {
+        "lanes": null,
+        "m": 812,
+        "name": "中原街道"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 675,
+        "name": "鮫洲大山線"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 49,
+        "name": "第二京浜"
+      }
+    },
+    "narimasu": {
+      "nearAnyM": 52,
+      "nearMajorM": 52,
+      "primary": {
+        "lanes": 2,
+        "m": 1094,
+        "name": "笹目通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 487,
+        "name": "長後赤塚線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 52,
+        "name": "川越街道"
+      }
+    },
+    "nerima": {
+      "nearAnyM": 46,
+      "nearMajorM": 260,
+      "primary": {
+        "lanes": 2,
+        "m": 260,
+        "name": "目白通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 46,
+        "name": "千川通り"
+      }
+    },
+    "nerima-kasugacho": {
+      "nearAnyM": 1,
+      "nearMajorM": 7,
+      "primary": {
+        "lanes": 2,
+        "m": 7,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 1,
+        "name": "南田中町旭町線（支線1）（補助第172号線）"
+      }
+    },
+    "nerima-takanodai": {
+      "nearAnyM": 132,
+      "nearMajorM": 385,
+      "primary": {
+        "lanes": 2,
+        "m": 385,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 132,
+        "name": "笹目通り"
+      }
+    },
+    "nezu": {
+      "nearAnyM": 3,
+      "nearMajorM": 71,
+      "primary": {
+        "lanes": 2,
+        "m": 71,
+        "name": "言問通り"
+      },
+      "secondary": {
+        "lanes": 4,
+        "m": 3,
+        "name": "不忍通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 655,
+        "name": "国道17号"
+      }
+    },
+    "nihombashi": {
+      "motorway": {
+        "lanes": null,
+        "m": 224,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 31,
+      "nearMajorM": 31,
+      "primary": {
+        "lanes": 3,
+        "m": 31,
+        "name": "永代通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 335,
+        "name": "外堀通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 70,
+        "name": "中央通り"
+      }
+    },
+    "nijubashimae": {
+      "motorway": {
+        "lanes": 2,
+        "m": 917,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 3,
+      "nearMajorM": 3,
+      "primary": {
+        "lanes": 3,
+        "m": 256,
+        "name": "内堀通り"
+      },
+      "secondary": {
+        "lanes": 4,
+        "m": 106,
+        "name": "行幸通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 3,
+        "name": "日比谷通り"
+      }
+    },
+    "ningyocho": {
+      "motorway": {
+        "lanes": 2,
+        "m": 371,
+        "name": "首都高速6号向島線"
+      },
+      "nearAnyM": 170,
+      "nearMajorM": 170,
+      "primary": {
+        "lanes": 4,
+        "m": 170,
+        "name": "新大橋通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 447,
+        "name": "清洲橋通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 757,
+        "name": "江戸通り"
+      }
+    },
+    "nippori": {
+      "nearAnyM": 168,
+      "nearMajorM": 168,
+      "primary": {
+        "lanes": null,
+        "m": 168,
+        "name": "尾久橋通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 518,
+        "name": "三崎坂"
+      }
+    },
+    "nishi-eifuku": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1080,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 169,
+      "nearMajorM": 169,
+      "primary": {
+        "lanes": 2,
+        "m": 169,
+        "name": "井ノ頭通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 172,
+        "name": "井ノ頭通り"
+      },
+      "trunk": {
+        "lanes": 4,
+        "m": 1073,
+        "name": "甲州街道"
+      }
+    },
+    "nishi-kasai": {
+      "motorway": {
+        "lanes": 2,
+        "m": 893,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 243,
+      "nearMajorM": 300,
+      "primary": {
+        "lanes": null,
+        "m": 300,
+        "name": "清州大橋通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 243,
+        "name": "清砂大橋通り"
+      }
+    },
+    "nishi-koyama": {
+      "nearAnyM": 218,
+      "nearMajorM": 797,
+      "primary": {
+        "lanes": null,
+        "m": 797,
+        "name": "中原街道"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 218,
+        "name": "鮫洲大山線（支線）（補助第46号線）"
+      }
+    },
+    "nishi-nippori": {
+      "nearAnyM": 26,
+      "nearMajorM": 146,
+      "primary": {
+        "lanes": 2,
+        "m": 146,
+        "name": "尾久橋通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 26,
+        "name": "道灌山通り"
+      }
+    },
+    "nishi-ogikubo": {
+      "nearAnyM": 588,
+      "nearMajorM": 588,
+      "primary": {
+        "lanes": null,
+        "m": 588,
+        "name": "五日市街道"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 696,
+        "name": "女子大通り"
+      }
+    },
+    "nishi-oi": {
+      "nearAnyM": 780,
+      "nearMajorM": 780,
+      "primary": {
+        "lanes": 2,
+        "m": 1064,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 786,
+        "name": "鮫洲大山線"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 780,
+        "name": "第二京浜"
+      }
+    },
+    "nishi-ojima": {
+      "motorway": {
+        "lanes": 2,
+        "m": 470,
+        "name": "首都高速7号小松川線"
+      },
+      "nearAnyM": 2,
+      "nearMajorM": 2,
+      "primary": {
+        "lanes": null,
+        "m": 2,
+        "name": "新大橋通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 844,
+        "name": "丸八通り"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 798,
+        "name": "京葉道路"
+      }
+    },
+    "nishi-shinjuku": {
+      "motorway": {
+        "lanes": 2,
+        "m": 916,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 7,
+      "nearMajorM": 7,
+      "primary": {
+        "lanes": 2,
+        "m": 7,
+        "name": "青梅街道"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 204,
+        "name": "東通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 803,
+        "name": "甲州街道"
+      }
+    },
+    "nishi-shinjuku-gochome": {
+      "motorway": {
+        "lanes": 2,
+        "m": 196,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 1,
+      "nearMajorM": 196,
+      "primary": {
+        "lanes": null,
+        "m": 199,
+        "name": "山手通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 1,
+        "name": "淀橋渋谷本町線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 847,
+        "name": "甲州街道"
+      }
+    },
+    "nishi-sugamo": {
+      "motorway": {
+        "lanes": 2,
+        "m": 171,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 4,
+      "nearMajorM": 4,
+      "primary": {
+        "lanes": null,
+        "m": 91,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 787,
+        "name": "宮仲公園通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 4,
+        "name": "白山通り"
+      }
+    },
+    "nishi-taishido": {
+      "motorway": {
+        "lanes": 2,
+        "m": 404,
+        "name": "首都高速3号渋谷線"
+      },
+      "nearAnyM": 168,
+      "nearMajorM": 168,
+      "primary": {
+        "lanes": 2,
+        "m": 168,
+        "name": "世田谷通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 656,
+        "name": "淡島通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 398,
+        "name": "玉川通り"
+      }
+    },
+    "nishi-takashimadaira": {
+      "motorway": {
+        "lanes": 2,
+        "m": 190,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 21,
+      "nearMajorM": 181,
+      "primary": {
+        "lanes": 2,
+        "m": 256,
+        "name": "笹目通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 21,
+        "name": "高島通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 181,
+        "name": "新大宮バイパス"
+      }
+    },
+    "nishi-waseda": {
+      "nearAnyM": 4,
+      "nearMajorM": 4,
+      "primary": {
+        "lanes": 2,
+        "m": 4,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 801,
+        "name": "大久保通り"
+      }
+    },
+    "nishiarai": {
+      "nearAnyM": 110,
+      "nearMajorM": 110,
+      "primary": {
+        "lanes": 2,
+        "m": 110,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 504,
+        "name": "尾竹橋通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 1149,
+        "name": "日光街道"
+      }
+    },
+    "nishiaraidaishi-nishi": {
+      "nearAnyM": 8,
+      "nearMajorM": 8,
+      "primary": {
+        "lanes": null,
+        "m": 8,
+        "name": "尾久橋通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 830,
+        "name": "鳩ヶ谷街道"
+      }
+    },
+    "nishidai": {
+      "motorway": {
+        "lanes": 2,
+        "m": 688,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 34,
+      "nearMajorM": 688,
+      "primary": {
+        "lanes": 2,
+        "m": 1191,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 34,
+        "name": "赤羽西台線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 980,
+        "name": "中山道"
+      }
+    },
+    "nishigahara": {
+      "motorway": {
+        "lanes": 2,
+        "m": 687,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 3,
+      "nearMajorM": 686,
+      "primary": {
+        "lanes": 2,
+        "m": 748,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 3,
+        "name": "本郷通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 686,
+        "name": "明治通り"
+      }
+    },
+    "nishigahara-yonchome": {
+      "motorway": {
+        "lanes": 2,
+        "m": 261,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 253,
+      "nearMajorM": 253,
+      "primary": {
+        "lanes": null,
+        "m": 426,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 736,
+        "name": "本郷通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 253,
+        "name": "明治通り"
+      }
+    },
+    "nishimagome": {
+      "nearAnyM": 3,
+      "nearMajorM": 3,
+      "primary": {
+        "lanes": 2,
+        "m": 1084,
+        "name": "環七通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 3,
+        "name": "第二京浜"
+      }
+    },
+    "nogata": {
+      "nearAnyM": 91,
+      "nearMajorM": 91,
+      "primary": {
+        "lanes": 2,
+        "m": 91,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 365,
+        "name": "新青梅街道"
+      }
+    },
+    "nogizaka": {
+      "motorway": {
+        "lanes": 2,
+        "m": 588,
+        "name": "首都高速3号渋谷線"
+      },
+      "nearAnyM": 2,
+      "nearMajorM": 114,
+      "primary": {
+        "lanes": 2,
+        "m": 114,
+        "name": "外苑東通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 2,
+        "name": "乃木坂トンネル"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 702,
+        "name": "青山通り"
+      }
+    },
+    "numabe": {
+      "nearAnyM": 51,
+      "nearMajorM": 51,
+      "primary": {
+        "lanes": 2,
+        "m": 51,
+        "name": "多摩堤通り"
+      }
+    },
+    "numabukuro": {
+      "nearAnyM": 487,
+      "nearMajorM": 903,
+      "primary": {
+        "lanes": 2,
+        "m": 903,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 487,
+        "name": "新青梅街道"
+      }
+    },
+    "ochanomizu": {
+      "motorway": {
+        "lanes": 2,
+        "m": 900,
+        "name": "首都高速1号上野線"
+      },
+      "nearAnyM": 17,
+      "nearMajorM": 278,
+      "primary": {
+        "lanes": 3,
+        "m": 396,
+        "name": "靖国通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 17,
+        "name": "本郷通り"
+      },
+      "trunk": {
+        "lanes": 4,
+        "m": 278,
+        "name": "国道17号"
+      }
+    },
+    "ochiai": {
+      "motorway": {
+        "lanes": 2,
+        "m": 192,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 0,
+      "nearMajorM": 0,
+      "primary": {
+        "lanes": 2,
+        "m": 0,
+        "name": "早稲田通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 1038,
+        "name": "大久保通り"
+      }
+    },
+    "ochiai-minami-nagasaki": {
+      "motorway": {
+        "lanes": 2,
+        "m": 730,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 0,
+      "nearMajorM": 0,
+      "primary": {
+        "lanes": 2,
+        "m": 0,
+        "name": "目白通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 116,
+        "name": "新青梅街道"
+      }
+    },
+    "odai": {
+      "nearAnyM": 2,
+      "nearMajorM": 2,
+      "primary": {
+        "lanes": null,
+        "m": 2,
+        "name": "都電通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 24,
+        "name": "白山小台線"
+      }
+    },
+    "odaiba-kaihinkoen": {
+      "motorway": {
+        "lanes": 3,
+        "m": 147,
+        "name": "首都高速湾岸線"
+      },
+      "nearAnyM": 6,
+      "nearMajorM": 117,
+      "secondary": {
+        "lanes": 3,
+        "m": 6,
+        "name": "台場青海線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 117,
+        "name": "東京湾岸道路"
+      }
+    },
+    "ogi-ohashi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 393,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 8,
+      "nearMajorM": 8,
+      "primary": {
+        "lanes": null,
+        "m": 8,
+        "name": "尾久橋通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 111,
+        "name": "江北橋通り"
+      }
+    },
+    "ogikubo": {
+      "nearAnyM": 100,
+      "nearMajorM": 100,
+      "primary": {
+        "lanes": 2,
+        "m": 100,
+        "name": "青梅街道"
+      }
+    },
+    "ohanajaya": {
+      "nearAnyM": 487,
+      "nearMajorM": 487,
+      "primary": {
+        "lanes": null,
+        "m": 769,
+        "name": "平和橋通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 487,
+        "name": "水戸街道"
+      }
+    },
+    "oi-keibajo-mae": {
+      "motorway": {
+        "lanes": 2,
+        "m": 454,
+        "name": "首都高速1号羽田線"
+      },
+      "nearAnyM": 449,
+      "nearMajorM": 449,
+      "primary": {
+        "lanes": 2,
+        "m": 449,
+        "name": "海岸通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 700,
+        "name": "東京湾岸道路"
+      }
+    },
+    "oimachi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 972,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 32,
+      "nearMajorM": 647,
+      "primary": {
+        "lanes": 1,
+        "m": 1004,
+        "name": "山手通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 32,
+        "name": "鮫洲大山線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 647,
+        "name": "第一京浜"
+      }
+    },
+    "oizumi-gakuen": {
+      "nearAnyM": 178,
+      "nearMajorM": 178,
+      "primary": {
+        "lanes": 2,
+        "m": 178,
+        "name": "大泉街道"
+      },
+      "secondary": {
+        "lanes": 1,
+        "m": 270,
+        "name": "東大泉田無線"
+      }
+    },
+    "oji": {
+      "motorway": {
+        "lanes": 2,
+        "m": 190,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 5,
+      "nearMajorM": 5,
+      "primary": {
+        "lanes": 2,
+        "m": 40,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 170,
+        "name": "本郷赤羽線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 5,
+        "name": "明治通り"
+      }
+    },
+    "oji-kamiya": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1175,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 11,
+      "nearMajorM": 11,
+      "primary": {
+        "lanes": 2,
+        "m": 501,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 651,
+        "name": "本郷赤羽線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 11,
+        "name": "北本通り"
+      }
+    },
+    "ojima": {
+      "motorway": {
+        "lanes": 2,
+        "m": 462,
+        "name": "首都高速7号小松川線"
+      },
+      "nearAnyM": 2,
+      "nearMajorM": 2,
+      "primary": {
+        "lanes": null,
+        "m": 2,
+        "name": "新大橋通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 5,
+        "name": "丸八通り"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 794,
+        "name": "京葉道路"
+      }
+    },
+    "okachimachi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 147,
+        "name": "首都高速1号上野線"
+      },
+      "nearAnyM": 52,
+      "nearMajorM": 140,
+      "primary": {
+        "lanes": 2,
+        "m": 529,
+        "name": "蔵前橋通り"
+      },
+      "secondary": {
+        "lanes": 4,
+        "m": 52,
+        "name": "春日通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 140,
+        "name": "昭和通り"
+      }
+    },
+    "oku": {
+      "nearAnyM": 66,
+      "nearMajorM": 66,
+      "primary": {
+        "lanes": 2,
+        "m": 66,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 735,
+        "name": "本郷通り"
+      }
+    },
+    "okubo": {
+      "nearAnyM": 100,
+      "nearMajorM": 305,
+      "primary": {
+        "lanes": 2,
+        "m": 305,
+        "name": "職安通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 100,
+        "name": "大久保通り"
+      }
+    },
+    "okusawa": {
+      "nearAnyM": 49,
+      "nearMajorM": 491,
+      "primary": {
+        "lanes": null,
+        "m": 491,
+        "name": "補助126号線"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 49,
+        "name": "自由通り"
+      }
+    },
+    "omokagebashi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1170,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 3,
+      "nearMajorM": 3,
+      "primary": {
+        "lanes": 2,
+        "m": 3,
+        "name": "新目白通り"
+      },
+      "secondary": {
+        "lanes": 5,
+        "m": 543,
+        "name": "不忍通り"
+      }
+    },
+    "omori": {
+      "motorway": {
+        "lanes": 2,
+        "m": 954,
+        "name": "首都高速1号羽田線"
+      },
+      "nearAnyM": 42,
+      "nearMajorM": 693,
+      "primary": {
+        "lanes": 2,
+        "m": 762,
+        "name": "湾岸通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 42,
+        "name": "池上通り"
+      },
+      "trunk": {
+        "lanes": 4,
+        "m": 693,
+        "name": "第一京浜"
+      }
+    },
+    "omorikaigan": {
+      "motorway": {
+        "lanes": 2,
+        "m": 359,
+        "name": "首都高速1号羽田線"
+      },
+      "nearAnyM": 25,
+      "nearMajorM": 25,
+      "primary": {
+        "lanes": 2,
+        "m": 348,
+        "name": "海岸通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 717,
+        "name": "池上通り"
+      },
+      "trunk": {
+        "lanes": 4,
+        "m": 25,
+        "name": "第一京浜"
+      }
+    },
+    "omorimachi": {
+      "nearAnyM": 70,
+      "nearMajorM": 70,
+      "primary": {
+        "lanes": 2,
+        "m": 626,
+        "name": "東邦医大通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 70,
+        "name": "第一京浜"
+      }
+    },
+    "omote-sando": {
+      "motorway": {
+        "lanes": 2,
+        "m": 714,
+        "name": "首都高速3号渋谷線"
+      },
+      "nearAnyM": 2,
+      "nearMajorM": 14,
+      "primary": {
+        "lanes": 2,
+        "m": 717,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 2,
+        "name": "表参道"
+      },
+      "trunk": {
+        "lanes": 4,
+        "m": 14,
+        "name": "青山通り"
+      }
+    },
+    "omurai": {
+      "nearAnyM": 64,
+      "nearMajorM": 64,
+      "primary": {
+        "lanes": 2,
+        "m": 64,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 166,
+        "name": "丸八通り"
+      }
+    },
+    "onarimon": {
+      "motorway": {
+        "lanes": 2,
+        "m": 747,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 4,
+      "nearMajorM": 199,
+      "primary": {
+        "lanes": null,
+        "m": 199,
+        "name": "祝田通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 4,
+        "name": "日比谷通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 338,
+        "name": "第一京浜"
+      }
+    },
+    "ontakesan": {
+      "nearAnyM": 178,
+      "nearMajorM": 178,
+      "primary": {
+        "lanes": 3,
+        "m": 178,
+        "name": "環八通り"
+      }
+    },
+    "ookayama": {
+      "nearAnyM": 548,
+      "nearMajorM": 548,
+      "primary": {
+        "lanes": null,
+        "m": 548,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 1011,
+        "name": "鮫洲大山線（支線）（補助第46号線）"
+      }
+    },
+    "osaki": {
+      "motorway": {
+        "lanes": 2,
+        "m": 117,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 36,
+      "nearMajorM": 36,
+      "primary": {
+        "lanes": 2,
+        "m": 36,
+        "name": "山手通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 1075,
+        "name": "北品川四谷線"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 783,
+        "name": "第二京浜"
+      }
+    },
+    "osaki-hirokoji": {
+      "motorway": {
+        "lanes": 2,
+        "m": 77,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 77,
+      "nearMajorM": 77,
+      "primary": {
+        "lanes": 2,
+        "m": 81,
+        "name": "山手通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 470,
+        "name": "北品川四谷線"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 173,
+        "name": "第二京浜"
+      }
+    },
+    "oshiage": {
+      "motorway": {
+        "lanes": 2,
+        "m": 790,
+        "name": "首都高速6号向島線"
+      },
+      "nearAnyM": 145,
+      "nearMajorM": 600,
+      "primary": {
+        "lanes": 2,
+        "m": 691,
+        "name": "三ツ目通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 145,
+        "name": "ガーデン通り"
+      },
+      "trunk": {
+        "lanes": 4,
+        "m": 600,
+        "name": "水戸街道"
+      }
+    },
+    "otemachi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 364,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 83,
+      "nearMajorM": 83,
+      "primary": {
+        "lanes": 3,
+        "m": 282,
+        "name": "内堀通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 101,
+        "name": "日比谷通り"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 83,
+        "name": "永代通り"
+      }
+    },
+    "otorii": {
+      "motorway": {
+        "lanes": 2,
+        "m": 549,
+        "name": "首都高速1号羽田線"
+      },
+      "nearAnyM": 16,
+      "nearMajorM": 16,
+      "primary": {
+        "lanes": 4,
+        "m": 16,
+        "name": "環八通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 78,
+        "name": "国道131号"
+      }
+    },
+    "otsuka": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1078,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 79,
+      "nearMajorM": 458,
+      "primary": {
+        "lanes": null,
+        "m": 954,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 79,
+        "name": "小石川西巣鴨線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 458,
+        "name": "春日通り"
+      }
+    },
+    "oyama": {
+      "motorway": {
+        "lanes": 2,
+        "m": 511,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 161,
+      "nearMajorM": 306,
+      "primary": {
+        "lanes": null,
+        "m": 507,
+        "name": "山手通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 161,
+        "name": "鮫洲大山線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 306,
+        "name": "川越街道"
+      }
+    },
+    "oyamadai": {
+      "nearAnyM": 381,
+      "nearMajorM": 381,
+      "primary": {
+        "lanes": 3,
+        "m": 381,
+        "name": "環八通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 1102,
+        "name": "環八通り"
+      }
+    },
+    "roka-koen": {
+      "motorway": {
+        "lanes": 2,
+        "m": 916,
+        "name": "中央自動車道"
+      },
+      "nearAnyM": 267,
+      "nearMajorM": 267,
+      "primary": {
+        "lanes": 2,
+        "m": 460,
+        "name": "環八通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 267,
+        "name": "甲州街道"
+      }
+    },
+    "rokucho": {
+      "motorway": {
+        "lanes": 2,
+        "m": 415,
+        "name": "首都高速6号三郷線"
+      },
+      "nearAnyM": 3,
+      "nearMajorM": 415,
+      "primary": {
+        "lanes": 2,
+        "m": 765,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 3,
+        "name": "平方東京線"
+      }
+    },
+    "rokugodote": {
+      "nearAnyM": 124,
+      "nearMajorM": 124,
+      "primary": {
+        "lanes": 2,
+        "m": 801,
+        "name": "府中街道"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 124,
+        "name": "第一京浜"
+      }
+    },
+    "roppongi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 43,
+        "name": "首都高速3号渋谷線"
+      },
+      "nearAnyM": 37,
+      "nearMajorM": 37,
+      "primary": {
+        "lanes": 2,
+        "m": 37,
+        "name": "外苑東通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 38,
+        "name": "六本木通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 1087,
+        "name": "桜田通り"
+      }
+    },
+    "roppongi-itchome": {
+      "motorway": {
+        "lanes": 2,
+        "m": 6,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 4,
+      "nearMajorM": 6,
+      "primary": {
+        "lanes": 2,
+        "m": 487,
+        "name": "外苑東通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 4,
+        "name": "高輪麻布線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 606,
+        "name": "桜田通り"
+      }
+    },
+    "ryogoku": {
+      "motorway": {
+        "lanes": 2,
+        "m": 328,
+        "name": "首都高速6号向島線"
+      },
+      "nearAnyM": 185,
+      "nearMajorM": 206,
+      "primary": {
+        "lanes": 2,
+        "m": 434,
+        "name": "蔵前橋通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 185,
+        "name": "清澄通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 206,
+        "name": "京葉道路"
+      }
+    },
+    "ryutsu-center": {
+      "motorway": {
+        "lanes": 2,
+        "m": 334,
+        "name": "首都高速1号羽田線"
+      },
+      "nearAnyM": 61,
+      "nearMajorM": 61,
+      "primary": {
+        "lanes": 3,
+        "m": 61,
+        "name": "環七通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 596,
+        "name": "東京湾岸道路"
+      }
+    },
+    "saginomiya": {
+      "nearAnyM": 76,
+      "nearMajorM": 1010,
+      "primary": {
+        "lanes": 2,
+        "m": 1010,
+        "name": "早稲田通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 76,
+        "name": "中杉通り"
+      }
+    },
+    "sakaecho": {
+      "motorway": {
+        "lanes": 2,
+        "m": 223,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 223,
+      "nearMajorM": 223,
+      "primary": {
+        "lanes": 2,
+        "m": 367,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 358,
+        "name": "本郷通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 414,
+        "name": "明治通り"
+      }
+    },
+    "sakura-shimmachi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 439,
+        "name": "首都高速3号渋谷線"
+      },
+      "nearAnyM": 1,
+      "nearMajorM": 434,
+      "primary": {
+        "lanes": 2,
+        "m": 968,
+        "name": "駒留通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 1,
+        "name": "瀬田貫井線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 434,
+        "name": "玉川通り"
+      }
+    },
+    "sakuradai": {
+      "nearAnyM": 71,
+      "nearMajorM": 289,
+      "primary": {
+        "lanes": null,
+        "m": 289,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 71,
+        "name": "千川通り"
+      }
+    },
+    "sakuradamon": {
+      "motorway": {
+        "lanes": null,
+        "m": 214,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 6,
+      "nearMajorM": 6,
+      "primary": {
+        "lanes": null,
+        "m": 382,
+        "name": "祝田通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 30,
+        "name": "東京都道一七六号線"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 6,
+        "name": "内堀通り"
+      }
+    },
+    "sakurajosui": {
+      "motorway": {
+        "lanes": 2,
+        "m": 198,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 110,
+      "nearMajorM": 190,
+      "primary": {
+        "lanes": 2,
+        "m": 373,
+        "name": "東八道路"
+      },
+      "secondary": {
+        "lanes": 1,
+        "m": 110,
+        "name": "荒玉水道道路"
+      },
+      "trunk": {
+        "lanes": 4,
+        "m": 190,
+        "name": "甲州街道"
+      }
+    },
+    "samezu": {
+      "motorway": {
+        "lanes": 2,
+        "m": 543,
+        "name": "首都高速1号羽田線"
+      },
+      "nearAnyM": 18,
+      "nearMajorM": 18,
+      "primary": {
+        "lanes": 2,
+        "m": 357,
+        "name": "海岸通り"
+      },
+      "secondary": {
+        "lanes": 1,
+        "m": 201,
+        "name": "鮫洲大山線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 18,
+        "name": "第一京浜"
+      }
+    },
+    "sangen-jaya": {
+      "motorway": {
+        "lanes": 2,
+        "m": 75,
+        "name": "首都高速3号渋谷線"
+      },
+      "nearAnyM": 23,
+      "nearMajorM": 23,
+      "primary": {
+        "lanes": 2,
+        "m": 23,
+        "name": "世田谷通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 803,
+        "name": "鮫洲大山線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 69,
+        "name": "玉川通り"
+      }
+    },
+    "sangubashi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 132,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 132,
+      "nearMajorM": 132,
+      "primary": {
+        "lanes": null,
+        "m": 447,
+        "name": "山手通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 657,
+        "name": "十二社通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 626,
+        "name": "甲州街道"
+      }
+    },
+    "sasazuka": {
+      "motorway": {
+        "lanes": 2,
+        "m": 64,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 56,
+      "nearMajorM": 56,
+      "primary": {
+        "lanes": 2,
+        "m": 600,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 272,
+        "name": "角筈和泉町線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 56,
+        "name": "甲州街道"
+      }
+    },
+    "seibijo": {
+      "motorway": {
+        "lanes": 2,
+        "m": 202,
+        "name": "首都高速1号羽田線"
+      },
+      "nearAnyM": 202,
+      "nearMajorM": 202,
+      "primary": {
+        "lanes": 2,
+        "m": 508,
+        "name": "環八通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 498,
+        "name": "環八通り"
+      }
+    },
+    "seibu-shinjuku": {
+      "nearAnyM": 197,
+      "nearMajorM": 197,
+      "primary": {
+        "lanes": 2,
+        "m": 197,
+        "name": "職安通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 277,
+        "name": "新宿通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 775,
+        "name": "甲州街道"
+      }
+    },
+    "seijogakuen-mae": {
+      "nearAnyM": 669,
+      "nearMajorM": 669,
+      "primary": {
+        "lanes": 2,
+        "m": 669,
+        "name": "世田谷通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 952,
+        "name": "荒玉水道道路"
+      }
+    },
+    "sendagaya": {
+      "motorway": {
+        "lanes": 2,
+        "m": 19,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 19,
+      "nearMajorM": 19,
+      "primary": {
+        "lanes": null,
+        "m": 629,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 59,
+        "name": "四谷角筈線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 658,
+        "name": "甲州街道"
+      }
+    },
+    "sendagi": {
+      "nearAnyM": 3,
+      "nearMajorM": 772,
+      "primary": {
+        "lanes": 2,
+        "m": 772,
+        "name": "言問通り"
+      },
+      "secondary": {
+        "lanes": 4,
+        "m": 3,
+        "name": "不忍通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 1002,
+        "name": "国道17号"
+      }
+    },
+    "sengakuji": {
+      "motorway": {
+        "lanes": 2,
+        "m": 938,
+        "name": "首都高速2号目黒線"
+      },
+      "nearAnyM": 5,
+      "nearMajorM": 5,
+      "primary": {
+        "lanes": 2,
+        "m": 618,
+        "name": "旧海岸通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 134,
+        "name": "高輪麻布線"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 5,
+        "name": "第一京浜"
+      }
+    },
+    "sengoku": {
+      "nearAnyM": 8,
+      "nearMajorM": 8,
+      "primary": {
+        "lanes": 3,
+        "m": 23,
+        "name": "白山通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 106,
+        "name": "不忍通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 8,
+        "name": "白山通り"
+      }
+    },
+    "senjuohashi": {
+      "nearAnyM": 65,
+      "nearMajorM": 65,
+      "secondary": {
+        "lanes": 2,
+        "m": 223,
+        "name": "墨堤通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 65,
+        "name": "日光街道"
+      }
+    },
+    "senkawa": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1056,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 7,
+      "nearMajorM": 1047,
+      "primary": {
+        "lanes": 2,
+        "m": 1047,
+        "name": "山手通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 7,
+        "name": "要町通り"
+      }
+    },
+    "senzoku": {
+      "nearAnyM": 176,
+      "nearMajorM": 176,
+      "primary": {
+        "lanes": null,
+        "m": 176,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 484,
+        "name": "鮫洲大山線（支線）（補助第46号線）"
+      }
+    },
+    "senzoku-ike": {
+      "nearAnyM": 51,
+      "nearMajorM": 51,
+      "primary": {
+        "lanes": 2,
+        "m": 51,
+        "name": "中原街道"
+      }
+    },
+    "setagaya": {
+      "nearAnyM": 105,
+      "nearMajorM": 105,
+      "primary": {
+        "lanes": 2,
+        "m": 105,
+        "name": "世田谷通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 432,
+        "name": "瀬田貫井線"
+      }
+    },
+    "setagaya-daita": {
+      "nearAnyM": 136,
+      "nearMajorM": 136,
+      "primary": {
+        "lanes": 3,
+        "m": 136,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 908,
+        "name": "淡島通り"
+      }
+    },
+    "shakujii-koen": {
+      "nearAnyM": 155,
+      "nearMajorM": 155,
+      "primary": {
+        "lanes": 2,
+        "m": 155,
+        "name": "富士街道"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 787,
+        "name": "笹目通り"
+      }
+    },
+    "shibakoen": {
+      "motorway": {
+        "lanes": 2,
+        "m": 83,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 3,
+      "nearMajorM": 5,
+      "primary": {
+        "lanes": 4,
+        "m": 5,
+        "name": "環状三号線"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 3,
+        "name": "日比谷通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 394,
+        "name": "第一京浜"
+      }
+    },
+    "shibamata": {
+      "nearAnyM": 137,
+      "nearMajorM": 1167,
+      "secondary": {
+        "lanes": 2,
+        "m": 137,
+        "name": "王子金町市川線"
+      },
+      "trunk": {
+        "lanes": 1,
+        "m": 1167,
+        "name": "水戸街道"
+      }
+    },
+    "shibaura-futo": {
+      "motorway": {
+        "lanes": 2,
+        "m": 0,
+        "name": "首都高速11号台場線"
+      },
+      "nearAnyM": 0,
+      "nearMajorM": 0,
+      "primary": {
+        "lanes": null,
+        "m": 253,
+        "name": "海岸通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 610,
+        "name": "新橋日の出ふ頭線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 606,
+        "name": "国道130号"
+      }
+    },
+    "shibuya": {
+      "motorway": {
+        "lanes": 2,
+        "m": 140,
+        "name": "首都高速3号渋谷線"
+      },
+      "nearAnyM": 94,
+      "nearMajorM": 94,
+      "primary": {
+        "lanes": null,
+        "m": 94,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 222,
+        "name": "六本木通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 134,
+        "name": "玉川通り"
+      }
+    },
+    "shiinamachi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 111,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 107,
+      "nearMajorM": 107,
+      "primary": {
+        "lanes": null,
+        "m": 107,
+        "name": "山手通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 267,
+        "name": "西池袋通り"
+      }
+    },
+    "shijo-mae": {
+      "motorway": {
+        "lanes": 1,
+        "m": 398,
+        "name": "首都高速10号晴海線"
+      },
+      "nearAnyM": 6,
+      "nearMajorM": 391,
+      "primary": {
+        "lanes": 5,
+        "m": 391,
+        "name": "有明通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 6,
+        "name": "豊洲有明線"
+      }
+    },
+    "shim-mikawashima": {
+      "nearAnyM": 37,
+      "nearMajorM": 37,
+      "primary": {
+        "lanes": 2,
+        "m": 37,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 177,
+        "name": "道灌山通り"
+      }
+    },
+    "shimbamba": {
+      "motorway": {
+        "lanes": 2,
+        "m": 148,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 30,
+      "nearMajorM": 30,
+      "primary": {
+        "lanes": 3,
+        "m": 88,
+        "name": "山手通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 813,
+        "name": "東品川下丸子線（ジュネーヴ平和通り）"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 30,
+        "name": "第一京浜"
+      }
+    },
+    "shimbashi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 472,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 34,
+      "nearMajorM": 77,
+      "primary": {
+        "lanes": null,
+        "m": 147,
+        "name": "昭和通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 34,
+        "name": "外濠環状線（新橋駅汐留口交通広場）"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 77,
+        "name": "第一京浜"
+      }
+    },
+    "shimo": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1176,
+        "name": "首都高速川口線"
+      },
+      "nearAnyM": 2,
+      "nearMajorM": 2,
+      "primary": {
+        "lanes": 2,
+        "m": 813,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 890,
+        "name": "中十条赤羽線"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 2,
+        "name": "北本通り"
+      }
+    },
+    "shimo-igusa": {
+      "nearAnyM": 54,
+      "nearMajorM": 54,
+      "primary": {
+        "lanes": null,
+        "m": 54,
+        "name": "旧早稲田通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 388,
+        "name": "新青梅街道"
+      }
+    },
+    "shimo-itabashi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 399,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 390,
+      "nearMajorM": 390,
+      "primary": {
+        "lanes": null,
+        "m": 578,
+        "name": "山手通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 920,
+        "name": "鮫洲大山線"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 390,
+        "name": "中山道"
+      }
+    },
+    "shimo-kitazawa": {
+      "nearAnyM": 498,
+      "nearMajorM": 623,
+      "primary": {
+        "lanes": 2,
+        "m": 623,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 1,
+        "m": 498,
+        "name": "鮫洲大山線"
+      }
+    },
+    "shimo-ochiai": {
+      "motorway": {
+        "lanes": 2,
+        "m": 645,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 93,
+      "nearMajorM": 93,
+      "primary": {
+        "lanes": 2,
+        "m": 93,
+        "name": "新目白通り"
+      }
+    },
+    "shimo-shimmei": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1185,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 13,
+      "nearMajorM": 1033,
+      "primary": {
+        "lanes": 2,
+        "m": 1141,
+        "name": "山手通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 13,
+        "name": "鮫洲大山線（旧道）"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 1033,
+        "name": "第二京浜"
+      }
+    },
+    "shimo-takaido": {
+      "motorway": {
+        "lanes": 2,
+        "m": 150,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 28,
+      "nearMajorM": 143,
+      "secondary": {
+        "lanes": null,
+        "m": 28,
+        "name": "日大通り;瀬田貫井線"
+      },
+      "trunk": {
+        "lanes": 4,
+        "m": 143,
+        "name": "甲州街道"
+      }
+    },
+    "shimomaruko": {
+      "nearAnyM": 75,
+      "nearMajorM": 75,
+      "primary": {
+        "lanes": 2,
+        "m": 75,
+        "name": "多摩堤通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 247,
+        "name": "池上通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 967,
+        "name": "第二京浜"
+      }
+    },
+    "shimura-sakaue": {
+      "motorway": {
+        "lanes": 2,
+        "m": 433,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 1,
+      "nearMajorM": 1,
+      "primary": {
+        "lanes": 2,
+        "m": 546,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 391,
+        "name": "常盤台赤羽線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 1,
+        "name": "中山道"
+      }
+    },
+    "shimura-sanchome": {
+      "motorway": {
+        "lanes": 2,
+        "m": 332,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 145,
+      "nearMajorM": 145,
+      "primary": {
+        "lanes": 2,
+        "m": 145,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 758,
+        "name": "東京都道446号長後赤塚線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 533,
+        "name": "中山道"
+      }
+    },
+    "shin-egota": {
+      "nearAnyM": 3,
+      "nearMajorM": 3,
+      "primary": {
+        "lanes": 2,
+        "m": 3,
+        "name": "目白通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 424,
+        "name": "千川通り"
+      }
+    },
+    "shin-itabashi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 1,
+      "nearMajorM": 1,
+      "primary": {
+        "lanes": null,
+        "m": 866,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 1119,
+        "name": "鮫洲大山線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 8,
+        "name": "中山道"
+      }
+    },
+    "shin-kiba": {
+      "motorway": {
+        "lanes": 4,
+        "m": 54,
+        "name": "首都高速湾岸線"
+      },
+      "nearAnyM": 33,
+      "nearMajorM": 33,
+      "primary": {
+        "lanes": 3,
+        "m": 121,
+        "name": "明治通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 33,
+        "name": "東京湾岸道路"
+      }
+    },
+    "shin-koenji": {
+      "nearAnyM": 13,
+      "nearMajorM": 13,
+      "primary": {
+        "lanes": 2,
+        "m": 13,
+        "name": "青梅街道"
+      },
+      "secondary": {
+        "lanes": 1,
+        "m": 420,
+        "name": "荒玉水道道路"
+      }
+    },
+    "shin-koiwa": {
+      "motorway": {
+        "lanes": 2,
+        "m": 662,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 107,
+      "nearMajorM": 107,
+      "primary": {
+        "lanes": null,
+        "m": 107,
+        "name": "平和橋通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 512,
+        "name": "新荒川葛西堤防線"
+      }
+    },
+    "shin-koshinzuka": {
+      "motorway": {
+        "lanes": 2,
+        "m": 439,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 16,
+      "nearMajorM": 16,
+      "primary": {
+        "lanes": null,
+        "m": 365,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 730,
+        "name": "宮仲公園通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 16,
+        "name": "白山通り"
+      }
+    },
+    "shin-nakano": {
+      "nearAnyM": 1,
+      "nearMajorM": 1,
+      "primary": {
+        "lanes": 3,
+        "m": 1,
+        "name": "青梅街道"
+      },
+      "secondary": {
+        "lanes": 4,
+        "m": 145,
+        "name": "中野通り"
+      }
+    },
+    "shin-okachimachi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 508,
+        "name": "首都高速1号上野線"
+      },
+      "nearAnyM": 2,
+      "nearMajorM": 501,
+      "primary": {
+        "lanes": 2,
+        "m": 537,
+        "name": "蔵前橋通り"
+      },
+      "secondary": {
+        "lanes": 4,
+        "m": 2,
+        "name": "春日通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 501,
+        "name": "昭和通り"
+      }
+    },
+    "shin-okubo": {
+      "nearAnyM": 64,
+      "nearMajorM": 306,
+      "primary": {
+        "lanes": 2,
+        "m": 306,
+        "name": "職安通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 64,
+        "name": "大久保通り"
+      }
+    },
+    "shin-otsuka": {
+      "motorway": {
+        "lanes": 2,
+        "m": 705,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 4,
+      "nearMajorM": 4,
+      "secondary": {
+        "lanes": 2,
+        "m": 360,
+        "name": "プラタナス通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 4,
+        "name": "春日通り"
+      }
+    },
+    "shin-sakuradai": {
+      "nearAnyM": 3,
+      "nearMajorM": 3,
+      "primary": {
+        "lanes": 2,
+        "m": 3,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 304,
+        "name": "千川通り"
+      }
+    },
+    "shin-seibijo": {
+      "motorway": {
+        "lanes": null,
+        "m": 361,
+        "name": "首都高速湾岸線"
+      },
+      "nearAnyM": 292,
+      "nearMajorM": 292,
+      "primary": {
+        "lanes": 2,
+        "m": 1031,
+        "name": "環八通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 292,
+        "name": "国道357号"
+      }
+    },
+    "shin-shibamata": {
+      "nearAnyM": 47,
+      "nearMajorM": null,
+      "secondary": {
+        "lanes": 2,
+        "m": 47,
+        "name": "柴又街道"
+      }
+    },
+    "shin-takashimadaira": {
+      "motorway": {
+        "lanes": 2,
+        "m": 634,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 12,
+      "nearMajorM": 634,
+      "primary": {
+        "lanes": 2,
+        "m": 959,
+        "name": "笹目通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 12,
+        "name": "高島通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 951,
+        "name": "新大宮バイパス"
+      }
+    },
+    "shin-toyosu": {
+      "motorway": {
+        "lanes": 1,
+        "m": 111,
+        "name": "首都高速10号晴海線"
+      },
+      "nearAnyM": 1,
+      "nearMajorM": 100,
+      "primary": {
+        "lanes": 3,
+        "m": 100,
+        "name": "有明通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 1,
+        "name": "豊洲有明線"
+      }
+    },
+    "shinagawa": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1022,
+        "name": "首都高速1号羽田線"
+      },
+      "nearAnyM": 109,
+      "nearMajorM": 109,
+      "primary": {
+        "lanes": 2,
+        "m": 546,
+        "name": "旧海岸通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 668,
+        "name": "品川埠頭線"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 109,
+        "name": "第一京浜"
+      }
+    },
+    "shinagawa-seaside": {
+      "motorway": {
+        "lanes": 2,
+        "m": 92,
+        "name": "首都高速1号羽田線"
+      },
+      "nearAnyM": 92,
+      "nearMajorM": 92,
+      "primary": {
+        "lanes": null,
+        "m": 264,
+        "name": "日本橋芝浦大森線"
+      },
+      "secondary": {
+        "lanes": 1,
+        "m": 286,
+        "name": "鮫洲大山線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 122,
+        "name": "海岸通り"
+      }
+    },
+    "shinanomachi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 25,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 25,
+      "nearMajorM": 25,
+      "primary": {
+        "lanes": 3,
+        "m": 100,
+        "name": "外苑東通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 144,
+        "name": "四谷角筈線"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 852,
+        "name": "青山通り"
+      }
+    },
+    "shindaita": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1034,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 12,
+      "nearMajorM": 12,
+      "primary": {
+        "lanes": 2,
+        "m": 12,
+        "name": "環七通り(新代田駅)"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 716,
+        "name": "井ノ頭通り"
+      },
+      "trunk": {
+        "lanes": 4,
+        "m": 1029,
+        "name": "甲州街道"
+      }
+    },
+    "shinjuku": {
+      "motorway": {
+        "lanes": 2,
+        "m": 990,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 92,
+      "nearMajorM": 92,
+      "primary": {
+        "lanes": 2,
+        "m": 335,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 97,
+        "name": "四谷角筈線"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 92,
+        "name": "甲州街道"
+      }
+    },
+    "shinjuku-gyoemmae": {
+      "motorway": {
+        "lanes": 2,
+        "m": 803,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 105,
+      "nearMajorM": 105,
+      "primary": {
+        "lanes": 4,
+        "m": 317,
+        "name": "靖国通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 444,
+        "name": "外苑西通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 105,
+        "name": "甲州街道"
+      }
+    },
+    "shinjuku-nishiguchi": {
+      "nearAnyM": 1,
+      "nearMajorM": 29,
+      "primary": {
+        "lanes": null,
+        "m": 29,
+        "name": "青梅街道"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 1,
+        "name": "四谷角筈線"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 480,
+        "name": "甲州街道"
+      }
+    },
+    "shinjuku-sanchome": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1054,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 38,
+      "nearMajorM": 38,
+      "primary": {
+        "lanes": null,
+        "m": 38,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 1,
+        "m": 330,
+        "name": "新宿停車場前線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 103,
+        "name": "甲州街道"
+      }
+    },
+    "shinonome": {
+      "motorway": {
+        "lanes": 3,
+        "m": 52,
+        "name": "首都高速湾岸線"
+      },
+      "nearAnyM": 20,
+      "nearMajorM": 20,
+      "primary": {
+        "lanes": null,
+        "m": 156,
+        "name": "晴海通り"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 20,
+        "name": "東京湾岸道路"
+      }
+    },
+    "shinozaki": {
+      "motorway": {
+        "lanes": 2,
+        "m": 256,
+        "name": "京葉道路"
+      },
+      "nearAnyM": 249,
+      "nearMajorM": 249,
+      "primary": {
+        "lanes": null,
+        "m": 712,
+        "name": "柴又街道"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 501,
+        "name": "篠崎街道"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 249,
+        "name": "京葉道路"
+      }
+    },
+    "shinsen": {
+      "motorway": {
+        "lanes": 2,
+        "m": 219,
+        "name": "首都高速3号渋谷線"
+      },
+      "nearAnyM": 201,
+      "nearMajorM": 201,
+      "primary": {
+        "lanes": 2,
+        "m": 201,
+        "name": "旧山手通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 286,
+        "name": "淡島通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 211,
+        "name": "玉川通り"
+      }
+    },
+    "shiodome": {
+      "motorway": {
+        "lanes": null,
+        "m": 176,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 8,
+      "nearMajorM": 164,
+      "primary": {
+        "lanes": null,
+        "m": 164,
+        "name": "海岸通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 8,
+        "name": "新橋日の出ふ頭線"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 191,
+        "name": "第一京浜"
+      }
+    },
+    "shiomi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 656,
+        "name": "首都高速9号深川線"
+      },
+      "nearAnyM": 591,
+      "nearMajorM": 591,
+      "primary": {
+        "lanes": 3,
+        "m": 591,
+        "name": "明治通り"
+      }
+    },
+    "shirokane-takanawa": {
+      "motorway": {
+        "lanes": 2,
+        "m": 406,
+        "name": "首都高速2号目黒線"
+      },
+      "nearAnyM": 4,
+      "nearMajorM": 4,
+      "primary": {
+        "lanes": 2,
+        "m": 4,
+        "name": "北里通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 5,
+        "name": "高輪麻布線"
+      },
+      "trunk": {
+        "lanes": 4,
+        "m": 4,
+        "name": "桜田通り"
+      }
+    },
+    "shirokanedai": {
+      "motorway": {
+        "lanes": 2,
+        "m": 681,
+        "name": "首都高速2号目黒線"
+      },
+      "nearAnyM": 2,
+      "nearMajorM": 2,
+      "primary": {
+        "lanes": 3,
+        "m": 2,
+        "name": "目黒通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 212,
+        "name": "プラチナ通り"
+      },
+      "trunk": {
+        "lanes": 4,
+        "m": 492,
+        "name": "桜田通り"
+      }
+    },
+    "shoin-jinja-mae": {
+      "nearAnyM": 184,
+      "nearMajorM": 184,
+      "primary": {
+        "lanes": 2,
+        "m": 184,
+        "name": "世田谷通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 631,
+        "name": "渋谷経堂線"
+      }
+    },
+    "showajima": {
+      "motorway": {
+        "lanes": 2,
+        "m": 88,
+        "name": "首都高速1号羽田線"
+      },
+      "nearAnyM": 88,
+      "nearMajorM": 88,
+      "primary": {
+        "lanes": null,
+        "m": 312,
+        "name": "日本橋芝浦大森線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 811,
+        "name": "東京湾岸道路"
+      }
+    },
+    "soshigaya-okura": {
+      "nearAnyM": 312,
+      "nearMajorM": 789,
+      "primary": {
+        "lanes": 3,
+        "m": 789,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 312,
+        "name": "荒玉水道道路"
+      }
+    },
+    "suehirocho": {
+      "motorway": {
+        "lanes": 2,
+        "m": 363,
+        "name": "首都高速1号上野線"
+      },
+      "nearAnyM": 1,
+      "nearMajorM": 356,
+      "primary": {
+        "lanes": 2,
+        "m": 356,
+        "name": "蔵前橋通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 1,
+        "name": "中央通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 356,
+        "name": "昭和通り"
+      }
+    },
+    "sugamo": {
+      "nearAnyM": 16,
+      "nearMajorM": 16,
+      "primary": {
+        "lanes": 3,
+        "m": 829,
+        "name": "白山通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 687,
+        "name": "不忍通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 16,
+        "name": "白山通り"
+      }
+    },
+    "sugamoshinden": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1019,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 79,
+      "nearMajorM": 590,
+      "primary": {
+        "lanes": null,
+        "m": 590,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 79,
+        "name": "宮仲公園通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 604,
+        "name": "白山通り"
+      }
+    },
+    "suidobashi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 380,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 12,
+      "nearMajorM": 47,
+      "primary": {
+        "lanes": 3,
+        "m": 47,
+        "name": "白山通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 12,
+        "name": "外堀通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 526,
+        "name": "春日通り"
+      }
+    },
+    "sumiyoshi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 442,
+        "name": "首都高速7号小松川線"
+      },
+      "nearAnyM": 2,
+      "nearMajorM": 2,
+      "primary": {
+        "lanes": 2,
+        "m": 2,
+        "name": "新大橋通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 2,
+        "name": "四ツ目通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 722,
+        "name": "京葉道路"
+      }
+    },
+    "tabata": {
+      "nearAnyM": 105,
+      "nearMajorM": 521,
+      "primary": {
+        "lanes": 2,
+        "m": 521,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 105,
+        "name": "白山小台線"
+      }
+    },
+    "tachiaigawa": {
+      "motorway": {
+        "lanes": 2,
+        "m": 336,
+        "name": "首都高速1号羽田線"
+      },
+      "nearAnyM": 59,
+      "nearMajorM": 59,
+      "primary": {
+        "lanes": 3,
+        "m": 331,
+        "name": "海岸通り"
+      },
+      "secondary": {
+        "lanes": 1,
+        "m": 736,
+        "name": "池上通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 59,
+        "name": "第一京浜"
+      }
+    },
+    "takadanobaba": {
+      "nearAnyM": 91,
+      "nearMajorM": 91,
+      "primary": {
+        "lanes": 2,
+        "m": 91,
+        "name": "早稲田通り"
+      }
+    },
+    "takaido": {
+      "motorway": {
+        "lanes": 2,
+        "m": 598,
+        "name": "中央自動車道"
+      },
+      "nearAnyM": 40,
+      "nearMajorM": 40,
+      "primary": {
+        "lanes": 2,
+        "m": 40,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 594,
+        "name": "井ノ頭通り"
+      }
+    },
+    "takanawa-gateway": {
+      "motorway": {
+        "lanes": 2,
+        "m": 915,
+        "name": "首都高速1号羽田線"
+      },
+      "nearAnyM": 171,
+      "nearMajorM": 171,
+      "primary": {
+        "lanes": 2,
+        "m": 470,
+        "name": "旧海岸通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 249,
+        "name": "高輪麻布線"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 171,
+        "name": "第一京浜"
+      }
+    },
+    "takanawadai": {
+      "motorway": {
+        "lanes": 2,
+        "m": 846,
+        "name": "首都高速2号目黒線"
+      },
+      "nearAnyM": 7,
+      "nearMajorM": 7,
+      "primary": {
+        "lanes": 4,
+        "m": 699,
+        "name": "環状六号線"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 810,
+        "name": "プラチナ通り"
+      },
+      "trunk": {
+        "lanes": 4,
+        "m": 7,
+        "name": "桜田通り"
+      }
+    },
+    "takashimadaira": {
+      "motorway": {
+        "lanes": 2,
+        "m": 712,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 42,
+      "nearMajorM": 712,
+      "secondary": {
+        "lanes": null,
+        "m": 42,
+        "name": "高島通り"
+      }
+    },
+    "takebashi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 82,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 8,
+      "nearMajorM": 82,
+      "primary": {
+        "lanes": 6,
+        "m": 184,
+        "name": "白山通り"
+      },
+      "secondary": {
+        "lanes": 4,
+        "m": 8,
+        "name": "内堀通り"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 815,
+        "name": "永代通り"
+      }
+    },
+    "takenotsuka": {
+      "nearAnyM": 249,
+      "nearMajorM": 1031,
+      "secondary": {
+        "lanes": null,
+        "m": 249,
+        "name": "尾竹橋通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 1031,
+        "name": "日光街道"
+      }
+    },
+    "takeshiba": {
+      "motorway": {
+        "lanes": null,
+        "m": 160,
+        "name": "首都高速1号羽田線"
+      },
+      "nearAnyM": 4,
+      "nearMajorM": 154,
+      "primary": {
+        "lanes": 4,
+        "m": 154,
+        "name": "海岸通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 4,
+        "name": "新橋日の出ふ頭線"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 685,
+        "name": "第一京浜"
+      }
+    },
+    "takinogawa-itchome": {
+      "motorway": {
+        "lanes": 2,
+        "m": 179,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 172,
+      "nearMajorM": 172,
+      "primary": {
+        "lanes": 2,
+        "m": 717,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 356,
+        "name": "本郷通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 172,
+        "name": "明治通り"
+      }
+    },
+    "tamachi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 752,
+        "name": "首都高速1号羽田線"
+      },
+      "nearAnyM": 118,
+      "nearMajorM": 118,
+      "primary": {
+        "lanes": 3,
+        "m": 290,
+        "name": "白山祝田田町線"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 226,
+        "name": "日比谷通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 118,
+        "name": "第一京浜"
+      }
+    },
+    "tamagawa": {
+      "nearAnyM": 200,
+      "nearMajorM": 200,
+      "primary": {
+        "lanes": 2,
+        "m": 200,
+        "name": "多摩堤通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 1166,
+        "name": "自由通り"
+      }
+    },
+    "tameike-sanno": {
+      "motorway": {
+        "lanes": 2,
+        "m": 295,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 2,
+      "nearMajorM": 247,
+      "primary": {
+        "lanes": null,
+        "m": 1006,
+        "name": "祝田通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 2,
+        "name": null
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 247,
+        "name": "国道246号"
+      }
+    },
+    "tatsumi": {
+      "motorway": {
+        "lanes": 3,
+        "m": 200,
+        "name": "首都高速湾岸線"
+      },
+      "nearAnyM": 167,
+      "nearMajorM": 167,
+      "primary": {
+        "lanes": 2,
+        "m": 173,
+        "name": "三ツ目通り"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 167,
+        "name": "東京湾岸道路"
+      }
+    },
+    "tawaramachi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 680,
+        "name": "首都高速6号向島線"
+      },
+      "nearAnyM": 8,
+      "nearMajorM": 470,
+      "primary": {
+        "lanes": 2,
+        "m": 829,
+        "name": "言問通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 8,
+        "name": "浅草通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 470,
+        "name": "江戸通り"
+      }
+    },
+    "telecom-center": {
+      "motorway": {
+        "lanes": 3,
+        "m": 977,
+        "name": "首都高速湾岸線"
+      },
+      "nearAnyM": 1,
+      "nearMajorM": 944,
+      "secondary": {
+        "lanes": 3,
+        "m": 1,
+        "name": "台場青海線"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 944,
+        "name": "東京湾岸道路"
+      }
+    },
+    "tenkubashi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 836,
+        "name": "首都高速1号羽田線"
+      },
+      "nearAnyM": 132,
+      "nearMajorM": 132,
+      "primary": {
+        "lanes": 3,
+        "m": 132,
+        "name": "環八通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 191,
+        "name": "環八通り"
+      }
+    },
+    "tennozu-isle": {
+      "motorway": {
+        "lanes": 2,
+        "m": 30,
+        "name": "首都高速1号羽田線"
+      },
+      "nearAnyM": 8,
+      "nearMajorM": 8,
+      "primary": {
+        "lanes": 3,
+        "m": 8,
+        "name": "海岸通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 264,
+        "name": "品川埠頭線"
+      },
+      "trunk": {
+        "lanes": 4,
+        "m": 424,
+        "name": "海岸通り"
+      }
+    },
+    "tobu-nerima": {
+      "nearAnyM": 419,
+      "nearMajorM": 419,
+      "primary": {
+        "lanes": 2,
+        "m": 553,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": 1,
+        "m": 1139,
+        "name": "放射第35号線（池袋谷原線）"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 419,
+        "name": "川越街道"
+      }
+    },
+    "tochomae": {
+      "motorway": {
+        "lanes": 2,
+        "m": 777,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 3,
+      "nearMajorM": 403,
+      "primary": {
+        "lanes": 2,
+        "m": 403,
+        "name": "青梅街道"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 3,
+        "name": "中央通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 444,
+        "name": "甲州街道"
+      }
+    },
+    "todaimae": {
+      "nearAnyM": 1,
+      "nearMajorM": 146,
+      "primary": {
+        "lanes": 2,
+        "m": 263,
+        "name": "言問通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 1,
+        "name": "本郷通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 146,
+        "name": "国道17号"
+      }
+    },
+    "toden-zoshigaya": {
+      "motorway": {
+        "lanes": 2,
+        "m": 185,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 185,
+      "nearMajorM": 185,
+      "primary": {
+        "lanes": null,
+        "m": 558,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 206,
+        "name": "音羽池袋線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 795,
+        "name": "春日通り"
+      }
+    },
+    "todoroki": {
+      "motorway": {
+        "lanes": 3,
+        "m": 898,
+        "name": "第三京浜道路"
+      },
+      "nearAnyM": 81,
+      "nearMajorM": 81,
+      "primary": {
+        "lanes": 2,
+        "m": 81,
+        "name": "目黒通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 1198,
+        "name": "駒沢通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 595,
+        "name": "環八通り"
+      }
+    },
+    "togoshi": {
+      "motorway": {
+        "lanes": null,
+        "m": 247,
+        "name": "首都高速2号目黒線"
+      },
+      "nearAnyM": 81,
+      "nearMajorM": 81,
+      "primary": {
+        "lanes": null,
+        "m": 317,
+        "name": "中原街道"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 354,
+        "name": "鮫洲大山線"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 81,
+        "name": "第二京浜"
+      }
+    },
+    "togoshi-koen": {
+      "motorway": {
+        "lanes": null,
+        "m": 900,
+        "name": "首都高速2号目黒線"
+      },
+      "nearAnyM": 185,
+      "nearMajorM": 329,
+      "primary": {
+        "lanes": null,
+        "m": 1055,
+        "name": "中原街道"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 185,
+        "name": "鮫洲大山線"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 329,
+        "name": "第二京浜"
+      }
+    },
+    "tokiwadai": {
+      "nearAnyM": 259,
+      "nearMajorM": 259,
+      "primary": {
+        "lanes": 2,
+        "m": 259,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 624,
+        "name": "常盤台赤羽線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 367,
+        "name": "川越街道"
+      }
+    },
+    "tokyo": {
+      "motorway": {
+        "lanes": 2,
+        "m": 592,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 120,
+      "nearMajorM": 342,
+      "primary": {
+        "lanes": 3,
+        "m": 565,
+        "name": "内堀通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 120,
+        "name": "錦町有楽町線"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 342,
+        "name": "日比谷通り"
+      }
+    },
+    "tokyo-big-sight": {
+      "motorway": {
+        "lanes": 3,
+        "m": 436,
+        "name": "首都高速湾岸線"
+      },
+      "nearAnyM": 80,
+      "nearMajorM": 405,
+      "primary": {
+        "lanes": 3,
+        "m": 996,
+        "name": "有明通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 80,
+        "name": "豊洲有明線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 405,
+        "name": "東京湾岸道路"
+      }
+    },
+    "tokyo-international-cruise-terminal": {
+      "motorway": {
+        "lanes": 3,
+        "m": 282,
+        "name": "首都高速湾岸線"
+      },
+      "nearAnyM": 3,
+      "nearMajorM": 251,
+      "secondary": {
+        "lanes": 3,
+        "m": 3,
+        "name": "台場青海線"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 251,
+        "name": "東京湾岸道路"
+      }
+    },
+    "tokyo-skytree": {
+      "motorway": {
+        "lanes": 2,
+        "m": 562,
+        "name": "首都高速6号向島線"
+      },
+      "nearAnyM": 170,
+      "nearMajorM": 415,
+      "primary": {
+        "lanes": 2,
+        "m": 417,
+        "name": "三ツ目通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 170,
+        "name": "浅草通り"
+      },
+      "trunk": {
+        "lanes": 5,
+        "m": 415,
+        "name": "水戸街道"
+      }
+    },
+    "tokyo-teleport": {
+      "motorway": {
+        "lanes": 3,
+        "m": 61,
+        "name": "首都高速湾岸線"
+      },
+      "nearAnyM": 28,
+      "nearMajorM": 28,
+      "secondary": {
+        "lanes": 3,
+        "m": 215,
+        "name": "台場青海線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 28,
+        "name": "東京湾岸道路"
+      }
+    },
+    "toneri": {
+      "motorway": {
+        "lanes": 2,
+        "m": 944,
+        "name": "首都高速川口線"
+      },
+      "nearAnyM": 6,
+      "nearMajorM": 6,
+      "primary": {
+        "lanes": null,
+        "m": 6,
+        "name": "尾久橋通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 69,
+        "name": "川口草加線"
+      }
+    },
+    "toneri-koen": {
+      "motorway": {
+        "lanes": 2,
+        "m": 802,
+        "name": "首都高速川口線"
+      },
+      "nearAnyM": 8,
+      "nearMajorM": 8,
+      "primary": {
+        "lanes": null,
+        "m": 8,
+        "name": "尾久橋通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 764,
+        "name": "鳩ヶ谷街道"
+      }
+    },
+    "toranomon": {
+      "motorway": {
+        "lanes": null,
+        "m": 446,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 25,
+      "nearMajorM": 25,
+      "primary": {
+        "lanes": null,
+        "m": 197,
+        "name": "祝田通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 106,
+        "name": "環二通り"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 25,
+        "name": "桜田通り"
+      }
+    },
+    "toritsu-daigaku": {
+      "nearAnyM": 77,
+      "nearMajorM": 77,
+      "primary": {
+        "lanes": 2,
+        "m": 77,
+        "name": "目黒通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 675,
+        "name": "自由通り"
+      }
+    },
+    "toritsu-kasei": {
+      "nearAnyM": 263,
+      "nearMajorM": 802,
+      "primary": {
+        "lanes": null,
+        "m": 802,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 263,
+        "name": "新青梅街道"
+      }
+    },
+    "toshimaen": {
+      "nearAnyM": 519,
+      "nearMajorM": 519,
+      "primary": {
+        "lanes": 2,
+        "m": 519,
+        "name": "目白通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 586,
+        "name": "千川通り"
+      }
+    },
+    "toyocho": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1119,
+        "name": "首都高速9号深川線"
+      },
+      "nearAnyM": 3,
+      "nearMajorM": 3,
+      "primary": {
+        "lanes": 2,
+        "m": 3,
+        "name": "永代通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 100,
+        "name": "四ツ目通り"
+      }
+    },
+    "toyosu": {
+      "motorway": {
+        "lanes": 1,
+        "m": 909,
+        "name": "首都高速10号晴海線"
+      },
+      "nearAnyM": 18,
+      "nearMajorM": 55,
+      "primary": {
+        "lanes": 4,
+        "m": 55,
+        "name": "晴海通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 18,
+        "name": "豊洲有明線"
+      }
+    },
+    "tsukiji": {
+      "motorway": {
+        "lanes": 2,
+        "m": 223,
+        "name": "首都高速都心環状線(第2通行帯)"
+      },
+      "nearAnyM": 53,
+      "nearMajorM": 53,
+      "primary": {
+        "lanes": 2,
+        "m": 53,
+        "name": "新大橋通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 122,
+        "name": "佃大橋通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 692,
+        "name": "中央通り"
+      }
+    },
+    "tsukijishijo": {
+      "motorway": {
+        "lanes": null,
+        "m": 101,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 101,
+      "nearMajorM": 101,
+      "primary": {
+        "lanes": 2,
+        "m": 110,
+        "name": "新大橋通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 256,
+        "name": "築地虎ノ門トンネル"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 582,
+        "name": "中央通り"
+      }
+    },
+    "tsukishima": {
+      "nearAnyM": 4,
+      "nearMajorM": 721,
+      "primary": {
+        "lanes": null,
+        "m": 721,
+        "name": "晴海通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 4,
+        "name": "佃大橋通り"
+      }
+    },
+    "uchisaiwaicho": {
+      "motorway": {
+        "lanes": null,
+        "m": 827,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 5,
+      "nearMajorM": 327,
+      "primary": {
+        "lanes": null,
+        "m": 327,
+        "name": "祝田通り"
+      },
+      "secondary": {
+        "lanes": 3,
+        "m": 5,
+        "name": "日比谷通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 543,
+        "name": "第一京浜"
+      }
+    },
+    "ueno": {
+      "motorway": {
+        "lanes": 2,
+        "m": 133,
+        "name": "首都高速1号上野線"
+      },
+      "nearAnyM": 125,
+      "nearMajorM": 125,
+      "primary": {
+        "lanes": 2,
+        "m": 910,
+        "name": "言問通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 129,
+        "name": "浅草通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 125,
+        "name": "昭和通り"
+      }
+    },
+    "uguisudani": {
+      "motorway": {
+        "lanes": 2,
+        "m": 535,
+        "name": "首都高速1号上野線"
+      },
+      "nearAnyM": 169,
+      "nearMajorM": 169,
+      "primary": {
+        "lanes": 1,
+        "m": 169,
+        "name": "言問通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 495,
+        "name": "神田白山線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 529,
+        "name": "昭和通り"
+      }
+    },
+    "ukimafunado": {
+      "nearAnyM": 102,
+      "nearMajorM": 540,
+      "primary": {
+        "lanes": 2,
+        "m": 1199,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 102,
+        "name": "赤羽西台線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 540,
+        "name": "中山道"
+      }
+    },
+    "umegaoka": {
+      "nearAnyM": 453,
+      "nearMajorM": 565,
+      "primary": {
+        "lanes": 3,
+        "m": 565,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 1,
+        "m": 453,
+        "name": "瀬田貫井線"
+      }
+    },
+    "umejima": {
+      "nearAnyM": 488,
+      "nearMajorM": 488,
+      "primary": {
+        "lanes": 2,
+        "m": 674,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 674,
+        "name": "吉場安行東京線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 488,
+        "name": "日光街道"
+      }
+    },
+    "umeyashiki": {
+      "nearAnyM": 42,
+      "nearMajorM": 42,
+      "primary": {
+        "lanes": 2,
+        "m": 490,
+        "name": "東邦医大通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 42,
+        "name": "第一京浜"
+      }
+    },
+    "unoki": {
+      "nearAnyM": 49,
+      "nearMajorM": 49,
+      "primary": {
+        "lanes": 2,
+        "m": 49,
+        "name": "多摩堤通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 815,
+        "name": "池上通り"
+      }
+    },
+    "ushida": {
+      "motorway": {
+        "lanes": 2,
+        "m": 553,
+        "name": "首都高速6号向島線"
+      },
+      "nearAnyM": 63,
+      "nearMajorM": 206,
+      "primary": {
+        "lanes": null,
+        "m": 206,
+        "name": "川の手通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 63,
+        "name": "墨堤通り"
+      }
+    },
+    "ushigome-kagurazaka": {
+      "motorway": {
+        "lanes": 2,
+        "m": 850,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 1,
+      "nearMajorM": 248,
+      "primary": {
+        "lanes": 1,
+        "m": 248,
+        "name": "早稲田通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 1,
+        "name": "大久保通り"
+      }
+    },
+    "ushigome-yanagicho": {
+      "nearAnyM": 1,
+      "nearMajorM": 97,
+      "primary": {
+        "lanes": 1,
+        "m": 97,
+        "name": "外苑東通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 1,
+        "name": "大久保通り"
+      }
+    },
+    "wakabayashi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 980,
+        "name": "首都高速3号渋谷線"
+      },
+      "nearAnyM": 64,
+      "nearMajorM": 64,
+      "primary": {
+        "lanes": 2,
+        "m": 64,
+        "name": "環七通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 452,
+        "name": "淡島通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 976,
+        "name": "玉川通り"
+      }
+    },
+    "wakamatsu-kawada": {
+      "nearAnyM": 2,
+      "nearMajorM": 140,
+      "primary": {
+        "lanes": 1,
+        "m": 140,
+        "name": "環状4号線"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 2,
+        "name": "神楽坂高円寺線"
+      }
+    },
+    "waseda": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1038,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 3,
+      "nearMajorM": 3,
+      "primary": {
+        "lanes": 2,
+        "m": 3,
+        "name": "早稲田通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 577,
+        "name": "大久保通り"
+      }
+    },
+    "waseda-toden": {
+      "motorway": {
+        "lanes": 2,
+        "m": 938,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 5,
+      "nearMajorM": 5,
+      "primary": {
+        "lanes": 2,
+        "m": 5,
+        "name": "新目白通り"
+      },
+      "secondary": {
+        "lanes": 5,
+        "m": 567,
+        "name": "不忍通り"
+      }
+    },
+    "yaguchi-no-watashi": {
+      "nearAnyM": 50,
+      "nearMajorM": 50,
+      "primary": {
+        "lanes": 3,
+        "m": 50,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 1132,
+        "name": "池上通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 309,
+        "name": "第二京浜"
+      }
+    },
+    "yahiro": {
+      "motorway": {
+        "lanes": 2,
+        "m": 636,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 65,
+      "nearMajorM": 196,
+      "primary": {
+        "lanes": 2,
+        "m": 1094,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 65,
+        "name": "新荒川堤防線"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 196,
+        "name": "水戸街道"
+      }
+    },
+    "yazaike": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1119,
+        "name": "首都高速川口線"
+      },
+      "nearAnyM": 7,
+      "nearMajorM": 7,
+      "primary": {
+        "lanes": null,
+        "m": 7,
+        "name": "尾久橋通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 712,
+        "name": "鳩ヶ谷街道"
+      }
+    },
+    "yoga": {
+      "motorway": {
+        "lanes": 2,
+        "m": 133,
+        "name": "首都高速3号渋谷線"
+      },
+      "nearAnyM": 3,
+      "nearMajorM": 133,
+      "primary": {
+        "lanes": 3,
+        "m": 612,
+        "name": "環八通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 3,
+        "name": "瀬田貫井線"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 388,
+        "name": "玉川通り"
+      }
+    },
+    "yotsugi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 81,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 76,
+      "nearMajorM": 81,
+      "primary": {
+        "lanes": null,
+        "m": 707,
+        "name": "平和橋通り"
+      },
+      "secondary": {
+        "lanes": null,
+        "m": 76,
+        "name": "新荒川葛西堤防線"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 323,
+        "name": "水戸街道"
+      }
+    },
+    "yotsuya": {
+      "motorway": {
+        "lanes": 2,
+        "m": 452,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 7,
+      "nearMajorM": 7,
+      "primary": {
+        "lanes": 3,
+        "m": 585,
+        "name": "靖国通り"
+      },
+      "secondary": {
+        "lanes": 5,
+        "m": 66,
+        "name": "外堀通り"
+      },
+      "trunk": {
+        "lanes": 4,
+        "m": 7,
+        "name": "新宿通り"
+      }
+    },
+    "yotsuya-sanchome": {
+      "motorway": {
+        "lanes": 2,
+        "m": 889,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 4,
+      "nearMajorM": 4,
+      "primary": {
+        "lanes": 2,
+        "m": 17,
+        "name": "外苑東通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 377,
+        "name": "外苑西通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 4,
+        "name": "新宿通り"
+      }
+    },
+    "yoyogi": {
+      "motorway": {
+        "lanes": 2,
+        "m": 322,
+        "name": "首都高速4号新宿線"
+      },
+      "nearAnyM": 20,
+      "nearMajorM": 216,
+      "primary": {
+        "lanes": null,
+        "m": 216,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 20,
+        "name": "四谷角筈線"
+      },
+      "trunk": {
+        "lanes": null,
+        "m": 658,
+        "name": "甲州街道"
+      }
+    },
+    "yoyogi-hachiman": {
+      "motorway": {
+        "lanes": 2,
+        "m": 93,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 93,
+      "nearMajorM": 93,
+      "primary": {
+        "lanes": null,
+        "m": 96,
+        "name": "山手通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 182,
+        "name": "井ノ頭通り"
+      }
+    },
+    "yoyogi-uehara": {
+      "motorway": {
+        "lanes": 2,
+        "m": 685,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 102,
+      "nearMajorM": 685,
+      "primary": {
+        "lanes": null,
+        "m": 688,
+        "name": "山手通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 102,
+        "name": "井ノ頭通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 932,
+        "name": "甲州街道"
+      }
+    },
+    "yukigaya-otsuka": {
+      "nearAnyM": 28,
+      "nearMajorM": 28,
+      "primary": {
+        "lanes": 2,
+        "m": 28,
+        "name": "中原街道"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 1093,
+        "name": "自由通り"
+      }
+    },
+    "yurakucho": {
+      "motorway": {
+        "lanes": 2,
+        "m": 974,
+        "name": "首都高速都心環状線"
+      },
+      "nearAnyM": 79,
+      "nearMajorM": 139,
+      "primary": {
+        "lanes": 3,
+        "m": 139,
+        "name": "晴海通り"
+      },
+      "secondary": {
+        "lanes": 4,
+        "m": 79,
+        "name": "大名小路"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 147,
+        "name": "日比谷通り"
+      }
+    },
+    "yushima": {
+      "motorway": {
+        "lanes": 2,
+        "m": 572,
+        "name": "首都高速1号上野線"
+      },
+      "nearAnyM": 1,
+      "nearMajorM": 566,
+      "primary": {
+        "lanes": 2,
+        "m": 806,
+        "name": "蔵前橋通り"
+      },
+      "secondary": {
+        "lanes": 5,
+        "m": 1,
+        "name": "昌平橋通り"
+      },
+      "trunk": {
+        "lanes": 3,
+        "m": 566,
+        "name": "昭和通り"
+      }
+    },
+    "yutenji": {
+      "motorway": {
+        "lanes": 2,
+        "m": 1083,
+        "name": "首都高速中央環状線"
+      },
+      "nearAnyM": 258,
+      "nearMajorM": 1023,
+      "primary": {
+        "lanes": 2,
+        "m": 1023,
+        "name": "目黒通り"
+      },
+      "secondary": {
+        "lanes": 2,
+        "m": 258,
+        "name": "駒沢通り"
+      }
+    },
+    "zoshigaya": {
+      "motorway": {
+        "lanes": 2,
+        "m": 704,
+        "name": "首都高速5号池袋線"
+      },
+      "nearAnyM": 150,
+      "nearMajorM": 150,
+      "primary": {
+        "lanes": 2,
+        "m": 150,
+        "name": "明治通り"
+      },
+      "secondary": {
+        "lanes": 5,
+        "m": 476,
+        "name": "不忍通り"
+      }
+    },
+    "zoshiki": {
+      "nearAnyM": 68,
+      "nearMajorM": 68,
+      "primary": {
+        "lanes": 2,
+        "m": 1048,
+        "name": "環八通り"
+      },
+      "trunk": {
+        "lanes": 2,
+        "m": 68,
+        "name": "第一京浜"
+      }
+    }
+  }
+}

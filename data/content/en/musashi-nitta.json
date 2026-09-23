@@ -71,8 +71,10 @@
     "People who want another route when service is suspended",
     "People who want plenty of places to eat out"
   ],
+  "noiseSources": [
+    "環八通り runs 42 m away, and along it the cars are audible with a window open"
+  ],
   "tags": [
-    "quiet",
     "singleLine",
     "flat"
   ],
@@ -82,7 +84,8 @@
     "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
     "stationNote": "Only the Tokyu Tamagawa Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
-    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "noiseSources": "At this station, check the traffic noise before the noise people make: 環八通り runs 42 m away."
   },
   "authoredBy": "data-generated"
 }

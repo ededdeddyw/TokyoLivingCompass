@@ -28,6 +28,9 @@
     "People who want to finish their shopping on foot",
     "People who want plenty of places to eat out"
   ],
+  "noiseSources": [
+    "The 首都高速湾岸線 viaduct runs 10 m away, and traffic is audible all day in the blocks along it"
+  ],
   "tags": [
     "lowFlood",
     "flat"
@@ -37,7 +40,8 @@
     "groceries": "OpenStreetMap records no supermarket within walking distance of the station.",
     "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
-    "medical": "The number of clinics and pharmacies within walking distance is low for the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is low for the 23 wards.",
+    "noiseSources": "At this station, check the traffic noise before the noise people make: 首都高速湾岸線 runs 10 m away."
   },
   "authoredBy": "data-generated"
 }

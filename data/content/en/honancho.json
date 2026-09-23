@@ -57,6 +57,9 @@
     "People who want to finish their shopping on foot",
     "People who want plenty of places to eat out"
   ],
+  "noiseSources": [
+    "方南通り runs 19 m away, and along it the cars are audible with a window open"
+  ],
   "tags": [
     "pricey",
     "singleLine",
@@ -68,7 +71,8 @@
     "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
     "stationNote": "Only the Tokyo Metro Marunouchi Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the highest in the 23 wards.",
-    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "noiseSources": "At this station, check the traffic noise before the noise people make: 方南通り runs 19 m away."
   },
   "authoredBy": "data-generated"
 }

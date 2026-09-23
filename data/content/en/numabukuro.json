@@ -72,6 +72,9 @@
     "People who want another route when service is suspended",
     "People who want to finish their shopping on foot"
   ],
+  "noiseSources": [
+    "The nearest main road is 新青梅街道, 487 m away, so little traffic noise reaches the station area"
+  ],
   "tags": [
     "singleLine",
     "flat"
@@ -82,7 +85,8 @@
     "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
     "stationNote": "Only the Seibu Shinjuku Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
-    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards."
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "noiseSources": "The nearest main road is 新青梅街道, 487 m away, so traffic noise is unlikely to bother you."
   },
   "authoredBy": "data-generated"
 }
