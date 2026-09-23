@@ -197,7 +197,7 @@ MAJOR_HUBS = {
     "shinjuku", "ikebukuro", "shibuya", "ebisu", "gotanda", "shimbashi", "ginza",
     "kanda", "akihabara", "ueno", "okachimachi",
     # 山手線の外側・内側で、よそから飲みに来る駅
-    "roppongi", "koenji", "akabane", "kinshicho", "nakano", "kita-senju",
+    "roppongi", "koenji", "akabane", "kinshicho", "nakano", "kita-senju", "takadanobaba",
     "shimo-kitazawa", "kamata", "asakusa", "asakusa-tx", "sangen-jaya",
     # 買い物でよそから来る駅。飲食店の数では測れない
     "jiyugaoka",
