@@ -69,6 +69,11 @@ FILLED = re.compile(r"[人客]で[^。]{0,20}(?:埋ま|あふれ|満ち)")
 # どちらの人がどちらを選ぶのかまで書く。
 SPLIT_VERDICT = re.compile(r"(?:評価|判断|意見|好み)が分かれる")
 
+# ルール43: 1文の長さ。いまの本文は中央値28字、95%が52字以内なので、
+# 60字を超えたら詰め込みすぎを疑う。数字や固有名詞が並ぶ文は長くても読めるので、
+# 違反ではなく要確認として出す。
+LONG_SENTENCE = 60
+
 # ルール27: 不都合を抽象的な動詞で圧縮した表現。
 # 「生活が滞る」と書かれても、通勤が遅れるのか買い物に行けないのかが読み手に伝わらない。
 # 誰の・どの行動が・どう妨げられるのかを直接書く。
@@ -205,6 +210,16 @@ def check_text(label, path, text, findings, taigen=True, claims=True):
             if word == "力がある" and before in "魅実威財体学":
                 continue
             add("18", f"比喩・独自ワード: 「{word}」。何がどうなるのかを書く")
+            break
+
+    # ルール43: 1文が長すぎないか。
+    # 改行でも区切る。見出し・表・箇条書きは1文ではないので外す。
+    for sentence in re.split(r"(?<=。)|\n", text):
+        sentence = sentence.strip()
+        if not sentence.endswith("。") or sentence.startswith(("#", "|", "-", "*", ">")):
+            continue
+        if len(sentence) > LONG_SENTENCE:
+            add("43", f"1文が{len(sentence)}字ある: 「{sentence[:28]}…」。句点で区切れないか", "要確認")
             break
 
     for m in SPLIT_VERDICT.finditer(text):

@@ -119,6 +119,7 @@ def main():
         best = {c: None for c in CLASSES}
         names = {c: None for c in CLASSES}
         lanes = {c: None for c in CLASSES}
+        oneway = {c: False for c in CLASSES}
         for w in uniq.values():
             cls = w["tags"].get("highway")
             if cls not in CLASSES:
@@ -137,10 +138,12 @@ def main():
                     lanes[cls] = int(w["tags"].get("lanes", "")) if w["tags"].get("lanes") else None
                 except ValueError:
                     lanes[cls] = None
+                oneway[cls] = w["tags"].get("oneway") in ("yes", "-1", "1", "true")
         rec = {}
         for c in CLASSES:
             if best[c] is not None and best[c] <= 1200:
-                rec[c] = {"m": round(best[c]), "name": names[c], "lanes": lanes[c]}
+                rec[c] = {"m": round(best[c]), "name": names[c],
+                          "lanes": lanes[c], "oneway": oneway[c]}
         # 沿道かどうか。中心線から150m以内に幹線級の道路があるか
         rec["nearMajorM"] = min(
             [v["m"] for k, v in rec.items() if k in ("motorway", "trunk", "primary")],

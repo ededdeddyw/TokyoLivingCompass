@@ -54,7 +54,8 @@
     "People who want to finish their shopping on foot"
   ],
   "noiseSources": [
-    "日比谷通り runs 3 m away, and along it the cars are audible with a window open"
+    "日比谷通り (3 lanes each way) runs 3 m away, right beside the station. Traffic on it never stops",
+    "行幸通り (4 lanes each way) runs 106 m away. Traffic on it never stops"
   ],
   "tags": [
     "fastToCenter",
@@ -66,7 +67,7 @@
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "There are 3 supermarkets within walking distance, and the nearest is 7 minutes on foot.",
     "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
-    "stationNote": "Only the Tokyo Metro Chiyoda Line serves this station, so when it stops you walk to another station.",
+    "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
     "noiseSources": "At this station, check the traffic noise before the noise people make: 日比谷通り runs 3 m away."
   },

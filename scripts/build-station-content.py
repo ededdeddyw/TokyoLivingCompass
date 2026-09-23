@@ -369,16 +369,44 @@ def build(st, ctx):
     # ── 音が気になりうる場所 ───────────────────────
     # 静けさは、人の音と車の音を分けて確かめる（ルール41）。
     # 繁華街から離れていても、幹線道路に面していれば車の音は一日中続く。
-    near_road = None
-    for cls in ("motorway", "trunk", "primary", "secondary"):
-        v = road.get(cls)
-        if v and (near_road is None or v["m"] < near_road[1]["m"]):
-            near_road = (cls, v)
-    if near_road and near_road[1].get("name"):
-        cls, v = near_road
-        key = ("noiseRoadMotorway" if cls == "motorway"
-               else "noiseRoadMajor" if v["m"] <= 200 else "noiseRoadFar")
-        c["noiseSources"] = [p[key].format(name=v["name"], m=v["m"])]
+    def road_side(v):
+        """車線数を「片側n車線」に直す。分離帯のある大通りは片方ずつ登録されている。"""
+        lanes = v.get("lanes")
+        if not lanes:
+            return p["roadSideUnknown"]
+        key = "roadSideOneway" if v.get("oneway") else "roadSideBoth"
+        n = lanes if v.get("oneway") else max(1, round(lanes / 2))
+        return p[key].format(n=n)
+
+    def road_line(cls, v):
+        """道路名だけでは、どれくらいうるさいのかが読み手に伝わらない。
+        高速道路か一般道か、片側何車線か、駅から何m先かを添える（ルール42）。"""
+        side = road_side(v)
+        if cls == "motorway":
+            key = "noiseRoadMotorway"
+        elif v["m"] > 200:
+            key = "noiseRoadFar"
+        else:
+            wide = (v.get("lanes") or 0) >= (3 if v.get("oneway") else 6)
+            key = ("noiseRoadVeryNear" if wide and v["m"] <= 40
+                   else "noiseRoadBig" if wide else "noiseRoadMid")
+        return p[key].format(name=v["name"], m=v["m"], side=side)
+
+    # 音の出どころは2本まで書く。高速道路は音の質が違うので、
+    # 一般道より近くなくても先に出す。
+    ordered = sorted(
+        ((cls, v) for cls in ("motorway", "trunk", "primary", "secondary")
+         if (v := road.get(cls)) and v.get("name")),
+        key=lambda t: (t[0] != "motorway" or t[1]["m"] > 400, t[1]["m"]))
+    near_road = ordered[0] if ordered else None
+    lines = []
+    for cls, v in ordered:
+        if v["m"] <= 250 or (cls == "motorway" and v["m"] <= 400) or not lines:
+            lines.append(road_line(cls, v))
+        if len(lines) == 2:
+            break
+    if lines:
+        c["noiseSources"] = lines
 
     # ── 街の性格タグと、節ごとの一言 ───────────────
     tags = station_tags(sc, st, ter)

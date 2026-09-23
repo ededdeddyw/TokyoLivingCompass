@@ -120,26 +120,27 @@ PHRASES = {
         "medicalHospitals": "病院として登録されている施設は、{items}の距離にある。",
         "medicalHospitalItem": "{name}が{distance}mほど",
         "medicalNoHospital": "駅から2.5km以内には、病院として登録されている施設が見当たらない。",
-        "medicalTrailer": "入院できるかどうか、何科があるかまでは OpenStreetMap には"
-                          "書かれていないので、各施設のウェブサイトで確かめてほしい。"
+        "medicalTrailer": "入院できるかどうかと、何科があるかは OpenStreetMap に"
+                          "書かれていない。各施設のウェブサイトで確かめてほしい。"
                           "夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
 
         "stationLines": "{lines}の{count}{lineWord}が使える。",
         "stationSingleLine": "乗り入れは1路線だけなので、その路線が止まったときは、"
                              "ほかの路線が通る駅まで歩くことになる。",
         "stationOperatorItem": "{operator}が{count}{lineWord}",
-        "stationMixedOperators": "運営は{breakdown}に分かれているので、"
+        "stationMixedOperators": "運営は{breakdown}に分かれている。"
                                  "1つの路線が止まっても、別の運営会社の路線に乗り換えられる。",
-        "stationSameOperator": "{count}{lineWord}とも{operator}の路線なので、"
+        "stationSameOperator": "{count}{lineWord}とも{operator}の路線である。"
                                "運営会社全体に及ぶ障害のときは、まとめて止まることがある。",
-        "stationSameOperatorTwo": "2路線とも{operator}の路線なので、運営会社全体に及ぶ障害のときは、まとめて止まることがある。",
+        "stationSameOperatorTwo": "2路線とも{operator}の路線である。"
+                                  "運営会社全体に及ぶ障害のときは、まとめて止まることがある。",
         "stationTransitScore": "路線数と事業者の広がりから計算した乗換の利便性は、"
                                "100点満点で{score}点である。",
 
         "rentLabels": {"oneRoom": "ワンルーム", "oneK": "1K",
                        "oneLDK": "1LDK", "twoLDK": "2LDK"},
         "rentItem": "{label}が{low}〜{high}{unit}",
-        "rentNote": "{items}である。LIFULL HOME'S・Yahoo!不動産・アットホームが公開する"
+        "rentNote": "{items}である。LIFULL HOME'S・Yahoo!不動産・アットホームの"
                     "駅別の相場を平均し、1万円刻みに丸めた（当社調べ）。"
                     "いずれも募集賃料のため、実際の成約額はこれより下がることがある。"
                     "同じ駅でも築年数・駅からの距離・通り沿いかどうかで大きく変わる。",
@@ -175,12 +176,17 @@ PHRASES = {
         "leadMedical2": "歩いて行けるクリニックと薬局の数は、23区の駅の中では少ないほうである。",
         "leadMedical1": "歩いて行けるクリニックと薬局の数は、23区の駅の中では少ない。",
 
-        "noiseRoadMotorway": "{name}の高架が{m}m先を通り、沿道の物件では車の音が一日中続く",
-        "noiseRoadMajor": "{name}が{m}m先を通り、沿道の物件では窓を開けると車の音が入る",
-        "noiseRoadFar": "いちばん近い幹線道路は{name}で{m}m先にあり、駅の周りまで車の音は届きにくい",
-        "leadNoiseLoud": "人の音より先に、車の音を確かめたい駅である。{name}が{m}m先を通る。",
-        "leadNoiseMid": "{name}が{m}m先を通る。沿道かどうかで、部屋の中の音がはっきり変わる。",
-        "leadNoiseQuiet": "いちばん近い幹線道路は{name}で{m}m先にあり、車の音は気になりにくい。",
+        "roadSideOneway": "片側{n}車線",
+        "roadSideBoth": "片側{n}車線",
+        "roadSideUnknown": "大通り",
+        "noiseRoadVeryNear": "{name}（{side}の大通り）が{m}m先、目と鼻の先にある。一日中、車の通りが絶えない",
+        "noiseRoadMotorway": "{name}の高架が{m}m先を通る。高速道路なので、車の音は昼も夜も続く",
+        "noiseRoadBig": "{name}（{side}の大通り）が{m}m先にある。一日中、車の通りが絶えない",
+        "noiseRoadMid": "{name}（{side}）が{m}m先にある。朝夕は車の音が部屋まで入る",
+        "noiseRoadFar": "いちばん近い大きな通りは{name}で、{m}m先にある。駅の周りまで車の音は届きにくい",
+        "leadNoiseLoud": "人の声より先に、車の音を確かめたい駅である。{name}が{m}m先を通る。",
+        "leadNoiseMid": "{name}が{m}m先にある。沿道の部屋かどうかで、聞こえる音がはっきり変わる。",
+        "leadNoiseQuiet": "いちばん近い大きな通りは{name}で、{m}m先にある。車の音は気になりにくい。",
 
         "neighbourDistance": "直線で{meters}mの距離にある。",
         "neighbourSame": "大手町へは{station}と同じくらいの時間で着く。",
@@ -347,12 +353,17 @@ PHRASES = {
         "leadMedical2": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
         "leadMedical1": "The number of clinics and pharmacies within walking distance is low for the 23 wards.",
 
-        "noiseRoadMotorway": "The {name} viaduct runs {m} m away, and traffic is audible all day in the blocks along it",
-        "noiseRoadMajor": "{name} runs {m} m away, and along it the cars are audible with a window open",
-        "noiseRoadFar": "The nearest main road is {name}, {m} m away, so little traffic noise reaches the station area",
+        "roadSideOneway": "{n} lanes each way",
+        "roadSideBoth": "{n} lanes each way",
+        "roadSideUnknown": "a main road",
+        "noiseRoadVeryNear": "{name} ({side}) runs {m} m away, right beside the station. Traffic on it never stops",
+        "noiseRoadMotorway": "The {name} viaduct runs {m} m away. It is an expressway, so traffic is audible day and night",
+        "noiseRoadBig": "{name} ({side}) runs {m} m away. Traffic on it never stops",
+        "noiseRoadMid": "{name} ({side}) runs {m} m away. Morning and evening, the cars are audible indoors",
+        "noiseRoadFar": "The nearest big road is {name}, {m} m away, so little traffic noise reaches the station area",
         "leadNoiseLoud": "At this station, check the traffic noise before the noise people make: {name} runs {m} m away.",
         "leadNoiseMid": "{name} runs {m} m away, so whether a flat faces it changes what you hear indoors.",
-        "leadNoiseQuiet": "The nearest main road is {name}, {m} m away, so traffic noise is unlikely to bother you.",
+        "leadNoiseQuiet": "The nearest big road is {name}, {m} m away, so traffic noise is unlikely to bother you.",
 
         "neighbourDistance": "{meters} m away in a straight line. ",
         "neighbourSame": "It reaches Otemachi in about the same time as {station}. ",
@@ -498,12 +509,17 @@ PHRASES = {
         "leadMedical2": "步行可达的诊所和药店数量，在23区的车站中偏少。",
         "leadMedical1": "步行可达的诊所和药店数量，在23区的车站中较少。",
 
-        "noiseRoadMotorway": "{name}的高架从{m}米外经过，沿线的房子整天都能听到车声",
-        "noiseRoadMajor": "{name}从{m}米外经过，沿线的房子开窗就有车声进来",
-        "noiseRoadFar": "最近的干线道路是{name}，在{m}米外，车声不太传到车站周边",
+        "roadSideOneway": "单向{n}车道",
+        "roadSideBoth": "单向{n}车道",
+        "roadSideUnknown": "大马路",
+        "noiseRoadVeryNear": "{name}（{side}的大马路）就在{m}米外，近在眼前。一整天车流不断",
+        "noiseRoadMotorway": "{name}的高架从{m}米外经过。是高速公路，车声白天黑夜都不停",
+        "noiseRoadBig": "{name}（{side}的大马路）在{m}米外。一整天车流不断",
+        "noiseRoadMid": "{name}（{side}）在{m}米外。早晚车声会进到屋里",
+        "noiseRoadFar": "最近的大马路是{name}，在{m}米外，车声不太传到车站周边",
         "leadNoiseLoud": "这个车站要先确认车声，而不是人声。{name}从{m}米外经过。",
-        "leadNoiseMid": "{name}从{m}米外经过，是否临街会明显改变室内听到的声音。",
-        "leadNoiseQuiet": "最近的干线道路是{name}，在{m}米外，车声不太会造成困扰。",
+        "leadNoiseMid": "{name}在{m}米外。是否临街，屋里听到的声音会明显不同。",
+        "leadNoiseQuiet": "最近的大马路是{name}，在{m}米外，车声不太会造成困扰。",
 
         "neighbourDistance": "直线距离{meters}米。",
         "neighbourSame": "到大手町的时间与{station}差不多。",
@@ -652,12 +668,17 @@ PHRASES = {
         "leadMedical2": "걸어갈 수 있는 의원과 약국의 수는, 23구의 역 중에서 적은 편이다.",
         "leadMedical1": "걸어갈 수 있는 의원과 약국의 수는, 23구의 역 중에서 적다.",
 
-        "noiseRoadMotorway": "{name} 고가가 {m}m 앞을 지나, 도로변 물건에서는 차 소리가 하루 종일 들린다",
-        "noiseRoadMajor": "{name}가 {m}m 앞을 지나, 도로변 물건에서는 창을 열면 차 소리가 들어온다",
-        "noiseRoadFar": "가장 가까운 간선도로는 {name}로 {m}m 앞에 있어, 역 주변까지 차 소리는 잘 닿지 않는다",
+        "roadSideOneway": "편도 {n}차선",
+        "roadSideBoth": "편도 {n}차선",
+        "roadSideUnknown": "큰길",
+        "noiseRoadVeryNear": "{name}（{side}의 큰길）가 {m}m 앞, 바로 코앞에 있다. 하루 종일 차가 끊이지 않는다",
+        "noiseRoadMotorway": "{name} 고가가 {m}m 앞을 지난다. 고속도로라 차 소리가 낮에도 밤에도 이어진다",
+        "noiseRoadBig": "{name}（{side}의 큰길）가 {m}m 앞에 있다. 하루 종일 차가 끊이지 않는다",
+        "noiseRoadMid": "{name}（{side}）가 {m}m 앞에 있다. 아침저녁에는 차 소리가 방까지 들어온다",
+        "noiseRoadFar": "가장 가까운 큰길은 {name}로 {m}m 앞에 있어, 역 주변까지 차 소리는 잘 닿지 않는다",
         "leadNoiseLoud": "이 역은 사람 소리보다 차 소리를 먼저 확인하고 싶다. {name}가 {m}m 앞을 지난다.",
-        "leadNoiseMid": "{name}가 {m}m 앞을 지난다. 도로변인지 아닌지에 따라 실내에서 들리는 소리가 확연히 달라진다.",
-        "leadNoiseQuiet": "가장 가까운 간선도로는 {name}로 {m}m 앞에 있어, 차 소리는 신경 쓰이기 어렵다.",
+        "leadNoiseMid": "{name}가 {m}m 앞에 있다. 도로변 방인지 아닌지에 따라 들리는 소리가 확연히 달라진다.",
+        "leadNoiseQuiet": "가장 가까운 큰길은 {name}로 {m}m 앞에 있어, 차 소리는 신경 쓰이기 어렵다.",
 
         "neighbourDistance": "직선거리로 {meters}m 떨어져 있다. ",
         "neighbourSame": "오테마치까지 걸리는 시간은 {station}에서 갈 때와 비슷하다. ",
