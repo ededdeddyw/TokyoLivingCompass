@@ -37,6 +37,8 @@ OUT = os.path.join(ROOT, "data", "computed", "buildings.json")
 ENDPOINTS = [
     "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
     "https://overpass-api.de/api/interpreter",
+    "https://lz4.overpass-api.de/api/interpreter",
+    "https://z.overpass-api.de/api/interpreter",
     "https://overpass.private.coffee/api/interpreter",
     "https://overpass.kumi.systems/api/interpreter",
 ]
@@ -45,7 +47,7 @@ COMMERCIAL = {"commercial", "retail", "office", "mixed", "hotel", "supermarket",
               "department_store", "kiosk", "shop"}
 
 
-def fetch(query, tmp, tries=10):
+def fetch(query, tmp, tries=60):
     """Overpass から取得し、一時ファイルに落としてから読む。応答が大きいため。"""
     for i in range(tries):
         ep = ENDPOINTS[i % len(ENDPOINTS)]
@@ -56,7 +58,7 @@ def fetch(query, tmp, tries=10):
                 return json.load(fh)
         except Exception:  # noqa: BLE001
             print(f"    再試行 {i + 1} ({ep.split('/')[2]})", file=sys.stderr, flush=True)
-            time.sleep(min(90, 15 * (i + 1)))
+            time.sleep(min(120, 10 * (i + 1)))
     raise SystemExit("建物データを取得できなかった")
 
 

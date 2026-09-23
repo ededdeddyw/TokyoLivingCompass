@@ -151,6 +151,20 @@ TAG_CONFLICTS = [("lively", "quiet"), ("majorHub", "quiet"), ("someBustle", "qui
                  ("flat", "hilly"), ("manyLines", "singleLine")]
 MAX_TAGS = 6
 
+# 6つに絞るとき、どれを残すか。住む街を決める人が先に知りたい順に並べる。
+# TAG_RULES の並び順で切ると、街の性格を表すタグが後ろにあるせいで落ちる。
+# singleFriendly は条件を満たす駅が28あるのに、1駅にしか付いていなかった。
+TAG_ORDER = [
+    "majorHub", "someBustle", "lively", "quiet",
+    "goodValue", "pricey",
+    "floodArea", "lowFlood",
+    "fastToCenter", "manyLines", "singleLine",
+    "familyFriendly", "singleFriendly",
+    "shoppingEasy", "diningRich",
+    "flat", "hilly",
+    "lateNight", "cafeRich", "parkNear", "medicalRich",
+]
+
 
 def station_tags(sc, st, ter, ctx=None):
     picked = [t for t, ok in TAG_RULES if ok(sc, st, ter)]
@@ -161,6 +175,7 @@ def station_tags(sc, st, ter, ctx=None):
     for a, b in TAG_CONFLICTS:
         if a in picked and b in picked:
             picked.remove(b if picked.index(a) < picked.index(b) else a)
+    picked.sort(key=lambda t: TAG_ORDER.index(t) if t in TAG_ORDER else len(TAG_ORDER))
     return picked[:MAX_TAGS]
 
 
