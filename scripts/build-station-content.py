@@ -87,6 +87,20 @@ def join(p, items):
     return p["listSep"].join(items[:-1]) + p["lastSep"] + items[-1]
 
 
+def chunk(items, limit=40):
+    """並べると長くなる語を、文に収まる塊に切る。1文が長いと読みにくいため。"""
+    out, cur, n = [], [], 0
+    for it in items:
+        if cur and n + len(it) + 1 > limit:
+            out.append(cur)
+            cur, n = [], 0
+        cur.append(it)
+        n += len(it) + 1
+    if cur:
+        out.append(cur)
+    return out
+
+
 def word(p, key, n):
     """数に応じた語形を返す。英語だけ単数と複数で変わる。"""
     forms = p["words"][key]
@@ -318,7 +332,15 @@ def build(st, ctx):
         reach=reach, lineCount=len(lines), lineWord=word(p, "line", len(lines)),
         rent=rent_txt).strip()
 
-    parts = [p["summaryWhere"].format(ward=p["ward"](st), lines=join(p, lines))]
+    where = p["summaryWhere"].format(ward=p["ward"](st), lines=join(p, lines))
+    if len(where) > 60:
+        # 路線名を全部並べると1文が長くなりすぎる。概要では運営会社と本数だけ出し、
+        # 路線名は「駅の使い勝手」に回す。
+        firms = sorted(set(companies), key=companies.index)
+        where = p["summaryWhereMany"].format(
+            ward=p["ward"](st), operators=join(p, (p["company"][co] for co in firms)),
+            count=len(lines), lineWord=word(p, "line", len(lines)))
+    parts = [where]
     hub_order = ["otemachi", "shinjuku", "shibuya", "shinagawa"]
     parts.append(p["summaryCommute"].format(items=join(p, (
         p["commuteItem"].format(hub=p["hubs"][h], minutes=com[h],
@@ -389,17 +411,28 @@ def build(st, ctx):
             bits = [p["medicalNone"]]
         if hp:
             near = sorted(hp, key=lambda x: x["distanceM"])[:2]
-            bits.append(p["medicalHospitals"].format(items=join(p, (
-                p["medicalHospitalItem"].format(name=h["name"], distance=h["distanceM"])
-                for h in near))))
+            bits.append(p["medicalHospitalNearest"].format(
+                name=near[0]["name"], distance=near[0]["distanceM"]))
+            if len(near) > 1:
+                bits.append(p["medicalHospitalSecond"].format(
+                    name=near[1]["name"], distance=near[1]["distanceM"]))
         else:
             bits.append(p["medicalNoHospital"])
         bits.append(p["medicalTrailer"])
         c["medical"] = "".join(bits).strip()
 
     # ── 駅の使い勝手 ───────────────────────────────
-    note = [p["stationLines"].format(lines=join(p, lines), count=len(lines),
-                                     lineWord=word(p, "line", len(lines)))]
+    groups = chunk(lines)
+    if len(groups) == 1:
+        note = [p["stationLines"].format(lines=join(p, lines), count=len(lines),
+                                         lineWord=word(p, "line", len(lines)))]
+    else:
+        note = [p["stationLinesCount"].format(count=len(lines),
+                                              lineWord=word(p, "line", len(lines))),
+                p["stationLinesHead"].format(lines=join(p, groups[0]))]
+        more = ["stationLinesMore", "stationLinesMore2", "stationLinesMore3"]
+        for i, g in enumerate(groups[1:]):
+            note.append(p[more[min(i, len(more) - 1)]].format(lines=join(p, g)))
     # 乗換の余地は「路線がいくつあるか」ではなく「運営会社が分かれているか」で決まる。
     # 京王と小田急はどちらも私鉄だが別の会社なので、片方が止まっても他方は動く。
     unique = sorted(set(companies), key=companies.index)

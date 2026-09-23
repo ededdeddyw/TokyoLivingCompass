@@ -89,6 +89,7 @@ PHRASES = {
         "taglineRent": "ワンルームの家賃はおよそ{low}〜{high}{unit}である。",
 
         "summaryWhere": "{ward}にあり、{lines}が乗り入れる。",
+        "summaryWhereMany": "{ward}にあり、{operators}の{count}{lineWord}が乗り入れる。",
         "summaryCommute": "主なオフィス街までの所要時間は、{items}である。",
         "summaryTerrain": "駅の標高は{elevation}mで、周囲800mの標高差は{spread}mある。"
                           "駅の周りの土地は{slope}。",
@@ -117,14 +118,20 @@ PHRASES = {
         "medicalPharmacies": "薬局が{count}{pharmacyWord}",
         "medicalNone": "駅から歩いて800m以内には、OpenStreetMap に登録されている"
                        "クリニックも薬局も見当たらない。",
-        "medicalHospitals": "病院として登録されている施設は、{items}の距離にある。",
-        "medicalHospitalItem": "{name}が{distance}mほど",
+        "medicalHospitalNearest": "病院として登録されている施設で近いのは{name}である。"
+                                  "駅から{distance}mほどの距離にある。",
+        "medicalHospitalSecond": "次に近いのは{name}で、{distance}mほど離れている。",
         "medicalNoHospital": "駅から2.5km以内には、病院として登録されている施設が見当たらない。",
         "medicalTrailer": "入院できるかどうかと、何科があるかは OpenStreetMap に"
                           "書かれていない。各施設のウェブサイトで確かめてほしい。"
                           "夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
 
         "stationLines": "{lines}の{count}{lineWord}が使える。",
+        "stationLinesCount": "使えるのは{count}{lineWord}である。",
+        "stationLinesHead": "{lines}が通る。",
+        "stationLinesMore": "加えて{lines}も乗り入れる。",
+        "stationLinesMore2": "さらに{lines}も使える。",
+        "stationLinesMore3": "このほか{lines}も停まる。",
         "stationSingleLine": "乗り入れは1路線だけなので、その路線が止まったときは、"
                              "ほかの路線が通る駅まで歩くことになる。",
         "stationOperatorItem": "{operator}が{count}{lineWord}",
@@ -265,6 +272,7 @@ PHRASES = {
         "taglineRent": "A one-room flat rents for roughly {low} to {high}.",
 
         "summaryWhere": "The station is in {ward}, served by {lines}. ",
+        "summaryWhereMany": "The station is in {ward}, where {operators} run {count} {lineWord} between them. ",
         "summaryCommute": "Journey times to the main business districts are {items}. ",
         "summaryTerrain": "The station stands {elevation} m above sea level, and the ground "
                           "within 800 m varies in height by {spread} m. The land around the "
@@ -301,8 +309,9 @@ PHRASES = {
         "medicalPharmacies": "{count} {pharmacyWord}",
         "medicalNone": "Within an 800 m walk of the station, OpenStreetMap records neither a "
                        "clinic nor a pharmacy. ",
-        "medicalHospitals": "Facilities recorded as hospitals lie at {items}. ",
-        "medicalHospitalItem": "{name}, about {distance} m away",
+        "medicalHospitalNearest": "The nearest facility recorded as a hospital is {name}, "
+                                  "about {distance} m from the station. ",
+        "medicalHospitalSecond": "The next nearest is {name}, about {distance} m away. ",
         "medicalNoHospital": "No facility recorded as a hospital lies within 2.5 km of the "
                              "station. ",
         "medicalTrailer": "OpenStreetMap does not record whether a facility admits inpatients "
@@ -311,6 +320,11 @@ PHRASES = {
                           "advice line of the ward you live in.",
 
         "stationLines": "{count} {lineWord} serve the station: {lines}. ",
+        "stationLinesCount": "{count} {lineWord} serve the station. ",
+        "stationLinesHead": "{lines} run through it. ",
+        "stationLinesMore": "{lines} also call here. ",
+        "stationLinesMore2": "{lines} are available too. ",
+        "stationLinesMore3": "{lines} stop here as well. ",
         "stationSingleLine": "Only one line runs here, so when it stops you will be walking to "
                              "a station on another line. ",
         "stationOperatorItem": "{operator} runs {count} {lineWord}",
@@ -454,6 +468,7 @@ PHRASES = {
         "taglineRent": "一室户的租金大致为{low}至{high}{unit}。",
 
         "summaryWhere": "车站位于{ward}，有{lines}经过。",
+        "summaryWhereMany": "车站位于{ward}，{operators}共有{count}{lineWord}经过。",
         "summaryCommute": "到主要商务区的所需时间为：{items}。",
         "summaryTerrain": "车站海拔{elevation}米，周边800米范围内的高低差为{spread}米。"
                           "车站周围的地形{slope}。",
@@ -481,14 +496,19 @@ PHRASES = {
         "medicalClinics": "诊所{count}{clinicWord}",
         "medicalPharmacies": "药店{count}{pharmacyWord}",
         "medicalNone": "从车站步行800米以内，OpenStreetMap 上没有登记的诊所和药店。",
-        "medicalHospitals": "登记为医院的设施，距离为{items}。",
-        "medicalHospitalItem": "{name}约{distance}米",
+        "medicalHospitalNearest": "登记为医院的设施中最近的是{name}，距车站约{distance}米。",
+        "medicalHospitalSecond": "其次是{name}，约{distance}米。",
         "medicalNoHospital": "车站2.5公里以内，没有登记为医院的设施。",
         "medicalTrailer": "能否住院、设有哪些科室，OpenStreetMap 上没有记载，"
                           "请到各设施的网站上确认。夜间和休息日能就诊的医疗机构，"
                           "可以向所住区的急救咨询窗口查询。",
 
         "stationLines": "可以使用{lines}这{count}{lineWord}。",
+        "stationLinesCount": "可以使用的线路共{count}{lineWord}。",
+        "stationLinesHead": "{lines}经过。",
+        "stationLinesMore": "此外{lines}也在此停靠。",
+        "stationLinesMore2": "还可以使用{lines}。",
+        "stationLinesMore3": "另有{lines}停靠。",
         "stationSingleLine": "只有一条线路经过，这条线路停运时，"
                              "就要步行到有其他线路经过的车站。",
         "stationOperatorItem": "{operator}{count}{lineWord}",
@@ -626,6 +646,7 @@ PHRASES = {
         "taglineRent": "원룸 임대료는 대략 {low}~{high}{unit}이다.",
 
         "summaryWhere": "역은 {ward}에 있으며, {lines} 노선이 지난다. ",
+        "summaryWhereMany": "역은 {ward}에 있으며, {operators}의 {count}{lineWord}이 지난다. ",
         "summaryCommute": "주요 업무지구까지 걸리는 시간은 {items}이다. ",
         "summaryTerrain": "역의 표고는 {elevation}m이고, 주변 800m 안의 표고 차이는 "
                           "{spread}m이다. 역 주변의 땅은 {slope}. ",
@@ -654,8 +675,9 @@ PHRASES = {
         "medicalPharmacies": "약국이 {count}{pharmacyWord}",
         "medicalNone": "역에서 걸어서 800m 안에는 OpenStreetMap에 등록된 의원도 약국도 "
                        "보이지 않는다. ",
-        "medicalHospitals": "병원으로 등록된 시설은 {items} 거리에 있다. ",
-        "medicalHospitalItem": "{name}까지 약 {distance}m",
+        "medicalHospitalNearest": "병원으로 등록된 시설 중 가까운 곳은 {name}이며, "
+                                  "역에서 약 {distance}m 거리에 있다. ",
+        "medicalHospitalSecond": "그다음으로 가까운 곳은 {name}으로, 약 {distance}m 떨어져 있다. ",
         "medicalNoHospital": "역에서 2.5km 안에는 병원으로 등록된 시설이 보이지 않는다. ",
         "medicalTrailer": "입원할 수 있는지, 어떤 진료과가 있는지까지는 OpenStreetMap에 "
                           "적혀 있지 않으므로, 각 시설의 웹사이트에서 확인하기 바란다. "
@@ -663,6 +685,11 @@ PHRASES = {
                           "창구에서 확인할 수 있다.",
 
         "stationLines": "{lines}의 {count}{lineWord}을 이용할 수 있다. ",
+        "stationLinesCount": "이용할 수 있는 노선은 {count}{lineWord}이다. ",
+        "stationLinesHead": "{lines}이 지난다. ",
+        "stationLinesMore": "여기에 {lines}도 들어온다. ",
+        "stationLinesMore2": "{lines}도 이용할 수 있다. ",
+        "stationLinesMore3": "이 밖에 {lines}도 정차한다. ",
         "stationSingleLine": "지나는 노선이 하나뿐이므로, 그 노선이 멈추면 다른 노선이 "
                              "지나는 역까지 걸어가게 된다. ",
         "stationOperatorItem": "{operator} {count}{lineWord}",

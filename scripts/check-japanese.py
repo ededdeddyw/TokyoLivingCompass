@@ -73,6 +73,8 @@ SPLIT_VERDICT = re.compile(r"(?:評価|判断|意見|好み)が分かれる")
 # 60字を超えたら詰め込みすぎを疑う。数字や固有名詞が並ぶ文は長くても読めるので、
 # 違反ではなく要確認として出す。
 LONG_SENTENCE = 60
+MD_LINK = re.compile(r"\[([^\]]*)\]\([^)]*\)")
+INLINE_CODE = re.compile(r"`[^`]*`")
 
 # ルール27: 不都合を抽象的な動詞で圧縮した表現。
 # 「生活が滞る」と書かれても、通勤が遅れるのか買い物に行けないのかが読み手に伝わらない。
@@ -218,6 +220,10 @@ def check_text(label, path, text, findings, taigen=True, claims=True):
         sentence = sentence.strip()
         if not sentence.endswith("。") or sentence.startswith(("#", "|", "-", "*", ">")):
             continue
+        # リンク先のURL・ファイル名・コードは、読み手が文として読む部分ではない。
+        # 長さを測るときは外す。
+        sentence = MD_LINK.sub(r"\1", sentence)
+        sentence = INLINE_CODE.sub("", sentence)
         if len(sentence) > LONG_SENTENCE:
             add("43", f"1文が{len(sentence)}字ある: 「{sentence[:28]}…」。句点で区切れないか", "要確認")
             break

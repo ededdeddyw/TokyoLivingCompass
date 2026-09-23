@@ -154,7 +154,7 @@ data/
 | `residentComment` | string | 東京在住者コメント。**人間が書く。AI 生成禁止** |
 | `authoredBy` | `human` \| `ai-localized` \| `seed-placeholder` | 生成方法の記録。`seed-placeholder` は公開不可 |
 
-`residentComment` は本サービスの差別化の中核（構想 §4.2）なので、日本語は必ず人間が書き、他言語はその**翻訳ではなくローカライズ**とする。方針は [04-i18n.md](./04-i18n.md)。
+`residentComment` は本サービスの差別化の中核にあたる（構想 §4.2）。日本語は人間が書き、他言語はその**翻訳ではなくローカライズ**とする。方針は [04-i18n.md](./04-i18n.md)。
 
 ---
 
