@@ -15,28 +15,28 @@
       "tier": "discount",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/1300187810",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "グルッペ",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/1573439677",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "コープとうきょう",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/1078253467",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "アキダイ 荻窪店",
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/1377185162",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが26件、薬局が24件ある。病院として登録されている施設で近いのはにれの木クリニックである。駅から243mほどの距離にある。次に近いのは保険医療センターで、247mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -77,7 +77,9 @@
     "青梅街道（片側2車線）が100m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
+    "lively",
     "goodValue",
+    "diningRich",
     "medicalRich"
   ],
   "leads": {

@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/4104461590",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと 代々木1丁目店",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/2504465816",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "MEGAドン・キホーテ",
       "tier": "standard",
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/node/6011377090",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ドン・キホーテUNY",
       "tier": "standard",
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/node/10992424505",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが4件、薬局が8件ある。病院として登録されている施設で近いのは東海大学医学部付属東京病院である。駅から310mほどの距離にある。次に近いのはJR東京総合病院で、339mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -77,8 +77,10 @@
     "四谷角筈線（片側1車線）が20m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
+    "lowFlood",
     "fastToCenter",
-    "flat"
+    "flat",
+    "cafeRich"
   ],
   "leads": {
     "terrain": "駅の周りはほぼ平坦で、坂を気にせず住む場所を選べる。",

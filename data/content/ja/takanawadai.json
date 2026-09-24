@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/10711369687",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マルエツ",
       "tier": "standard",
       "walkMinutes": 12,
       "sourceUrl": "https://www.openstreetmap.org/node/2515090458",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Kyodai Market 五反田実店舗",
       "tier": "standard",
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/node/6565258028",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "プラチナ ドン･キホーテ 白金台店",
       "tier": "standard",
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/way/182486554",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが7件、薬局が10件ある。病院として登録されている施設で近いのは地域医療機能推進機構東京高輪病院である。駅から139mほどの距離にある。次に近いのはNTT東日本関東病院で、425mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -77,6 +77,7 @@
   "tags": [
     "pricey",
     "lowFlood",
+    "fastToCenter",
     "singleLine"
   ],
   "leads": {

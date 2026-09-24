@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/5536011904",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ベルクス",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/5534269158",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Big-A",
       "tier": "discount",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/5536012334",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "アコレ",
       "tier": "discount",
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/node/5534457052",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが1件、薬局が3件ある。駅から2.5km以内には、病院として登録されている施設が見当たらない。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -79,6 +79,7 @@
     "川口草加線（片側1車線）が69m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
+    "quiet",
     "singleLine",
     "flat"
   ],

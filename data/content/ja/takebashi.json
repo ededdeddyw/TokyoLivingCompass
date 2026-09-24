@@ -15,21 +15,21 @@
       "tier": "standard",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/11337843163",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "成城石井",
       "tier": "premium",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/way/231778775",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "サミット",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/11342776829",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが10件、薬局が12件ある。病院として登録されている施設で近いのは宮内庁病院である。駅から511mほどの距離にある。次に近いのは九段坂病院で、540mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -70,11 +70,10 @@
     "内堀通り（片側4車線の大通り）が8m先、目と鼻の先にある。一日中、車の通りが絶えない"
   ],
   "tags": [
-    "lively",
     "pricey",
-    "singleLine",
-    "diningRich",
-    "cafeRich"
+    "lowFlood",
+    "fastToCenter",
+    "singleLine"
   ],
   "leads": {
     "terrain": "駅の周りにはゆるやかな坂があり、どの区画に住むかで毎日の移動の負担が変わる。",

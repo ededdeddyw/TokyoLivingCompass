@@ -15,21 +15,21 @@
       "tier": "standard",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/6275450520",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "生活クラブ館 杉並",
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/539298581",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "サミットストア",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/811256251",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが13件、薬局が15件ある。病院として登録されている施設で近いのは樺島会樺島病院である。駅から920mほどの距離にある。次に近いのは樺島病院で、934mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -70,6 +70,8 @@
     "井ノ頭通り（片側1車線）が42m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
+    "goodValue",
+    "lowFlood",
     "singleLine",
     "parkNear"
   ],

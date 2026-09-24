@@ -15,14 +15,14 @@
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/7927841802",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "miniピアゴ (mini PIAGO)",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/2391098425",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが4件、薬局が3件ある。病院として登録されている施設で近いのは河野臨牀医学研究所附属北品川病院である。駅から394mほどの距離にある。次に近いのは河野臨牀医学研究所附属第三北品川病院で、467mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -63,7 +63,10 @@
     "第一京浜（片側3車線の大通り）が30m先、目と鼻の先にある。一日中、車の通りが絶えない"
   ],
   "tags": [
-    "singleLine"
+    "goodValue",
+    "fastToCenter",
+    "singleLine",
+    "parkNear"
   ],
   "leads": {
     "terrain": "駅の周りにはゆるやかな坂があり、どの区画に住むかで毎日の移動の負担が変わる。",

@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/6046124630",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "イトーヨーカドー",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/5731575205",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "My Basket",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/6961232357",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ヨークマート",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/4796050821",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが8件、薬局が5件ある。駅から2.5km以内には、病院として登録されている施設が見当たらない。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -70,8 +70,7 @@
     "家賃を抑えたい単身者"
   ],
   "notFor": [
-    "洪水の浸水想定区域を避けたい人",
-    "外食できる店の多さを求める人"
+    "洪水の浸水想定区域を避けたい人"
   ],
   "noiseSources": [
     "王子金町市川線（片側1車線）が67m先にある。朝夕は車の音が部屋まで入る"
@@ -79,6 +78,7 @@
   "tags": [
     "floodArea",
     "manyLines",
+    "lateNight",
     "flat"
   ],
   "leads": {

@@ -15,28 +15,28 @@
       "tier": "discount",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/1212522722",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/1923680722",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "サミットストア",
       "tier": "standard",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/656141863",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "成城石井 芦花公園店",
       "tier": "premium",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/2708174467",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが5件、薬局が8件ある。病院として登録されている施設で近いのは都立中部総合精神保健福祉センターである。駅から286mほどの距離にある。次に近いのは東京都立 松沢病院で、596mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -77,8 +77,10 @@
     "甲州街道（片側2車線）が193m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
+    "lowFlood",
     "singleLine",
-    "flat"
+    "flat",
+    "parkNear"
   ],
   "leads": {
     "terrain": "駅の周りはほぼ平坦で、坂を気にせず住む場所を選べる。",

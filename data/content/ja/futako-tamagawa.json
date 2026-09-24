@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/4902054922",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと 二子玉川店",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/11245253459",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "セブン-イレブン 世田谷玉川2丁目",
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/1059766666",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "富士ガーデン 二子新地駅前店",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/9197425052",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが10件、薬局が9件ある。病院として登録されている施設で近いのは日産厚生会 玉川病院である。駅から986mほどの距離にある。次に近いのはグランダ岡本里安邸で、1142mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -73,6 +73,9 @@
   "noiseSources": [
     "多摩堤通り（片側2車線）が23m先にある。朝夕は車の音が部屋まで入る",
     "玉川通り（片側2車線）が29m先にある。朝夕は車の音が部屋まで入る"
+  ],
+  "tags": [
+    "cafeRich"
   ],
   "leads": {
     "terrain": "駅の周りにはゆるやかな坂があり、どの区画に住むかで毎日の移動の負担が変わる。",

@@ -15,28 +15,28 @@
       "tier": "discount",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/13347482601",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "成城石井",
       "tier": "premium",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/1682838432",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと 成増2丁目店",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/13347438201",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マルエツ",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/1695788925",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが9件、薬局が9件ある。病院として登録されている施設で近いのは国立病院機構埼玉病院である。駅から1205mほどの距離にある。次に近いのは国立病院機構 埼玉病院で、1216mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -71,12 +71,13 @@
     "家賃を抑えたい単身者"
   ],
   "notFor": [
-    "外食できる店の多さを求める人"
+    "この駅ならではの弱点は、データからは読み取れていない"
   ],
   "noiseSources": [
     "川越街道（片側2車線）が52m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
+    "quiet",
     "lowFlood",
     "shoppingEasy"
   ],

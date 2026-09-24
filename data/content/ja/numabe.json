@@ -15,14 +15,14 @@
       "tier": "standard",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/2684634174",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ライフ 鵜の木店",
       "tier": "standard",
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/node/4756815922",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが8件、薬局が3件ある。病院として登録されている施設で近いのは田園調布中央病院である。駅から547mほどの距離にある。次に近いのは池田動物病院で、881mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -64,6 +64,8 @@
     "多摩堤通り（片側1車線）が51m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
+    "quiet",
+    "lowFlood",
     "singleLine",
     "hilly"
   ],

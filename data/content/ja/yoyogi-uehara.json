@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/3106299729",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/12944020084",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Bio C' Bon",
       "tier": "premium",
       "walkMinutes": 12,
       "sourceUrl": "https://www.openstreetmap.org/node/6644448085",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "肉のハナマサ",
       "tier": "discount",
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/node/3162474869",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが7件、薬局が10件ある。病院として登録されている施設で近いのはBOWOWである。駅から725mほどの距離にある。次に近いのは荘敬会井上病院で、729mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -73,6 +73,12 @@
   ],
   "noiseSources": [
     "井ノ頭通り（片側2車線）が102m先にある。朝夕は車の音が部屋まで入る"
+  ],
+  "tags": [
+    "lowFlood",
+    "lateNight",
+    "cafeRich",
+    "parkNear"
   ],
   "leads": {
     "terrain": "駅の周りにはゆるやかな坂があり、どの区画に住むかで毎日の移動の負担が変わる。",

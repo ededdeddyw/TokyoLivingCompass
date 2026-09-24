@@ -15,28 +15,28 @@
       "tier": "discount",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/1678025753",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "コープ ミニコープ桜台駅前店",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/5601078025",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/2388150590",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "スーパーあまいけ 練馬店",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/12484428492",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが7件、薬局が11件ある。病院として登録されている施設で近いのは総合東京病院である。駅から1196mほどの距離にある。次に近いのは中野江古田病院で、1287mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -76,6 +76,7 @@
   ],
   "tags": [
     "quiet",
+    "lowFlood",
     "singleLine",
     "flat"
   ],

@@ -15,28 +15,28 @@
       "tier": "discount",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/4464931089",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "西友 大井町店",
       "tier": "discount",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/1786344351",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/2390628276",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "肉のハナマサ",
       "tier": "discount",
       "walkMinutes": 12,
       "sourceUrl": "https://www.openstreetmap.org/node/4464865893",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが2件、薬局が5件ある。病院として登録されている施設で近いのは柴田内科消化器科クリニックである。駅から613mほどの距離にある。次に近いのは東京品川病院で、759mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -76,7 +76,9 @@
     "いちばん近い大きな通りは鮫洲大山線で、201m先にある。駅の周りまで車の音は届きにくい"
   ],
   "tags": [
-    "singleLine"
+    "lowFlood",
+    "singleLine",
+    "parkNear"
   ],
   "leads": {
     "terrain": "駅の周りにはゆるやかな坂があり、どの区画に住むかで毎日の移動の負担が変わる。",

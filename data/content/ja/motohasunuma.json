@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/3292589728",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/3291975061",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "いづみや",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/3864355223",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "LAWSON STORE 100",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/3297960067",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが4件、薬局が2件ある。病院として登録されている施設で近いのは明理会東京大和病院である。駅から859mほどの距離にある。次に近いのは板橋中央総合病院で、968mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -77,6 +77,7 @@
     "中山道（片側2車線）が1m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
+    "lowFlood",
     "singleLine",
     "flat"
   ],

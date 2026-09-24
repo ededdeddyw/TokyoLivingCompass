@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/12730582738",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ピーコックストア 高野台店",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/3882853639",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/2029417871",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "西友 高野台店",
       "tier": "discount",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/way/693930062",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが4件、薬局が4件ある。病院として登録されている施設で近いのは順天堂大学医学部附属 練馬病院である。駅から237mほどの距離にある。次に近いのは慈誠会練馬高野台病院で、525mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -78,6 +78,7 @@
   ],
   "tags": [
     "quiet",
+    "lowFlood",
     "singleLine",
     "flat"
   ],

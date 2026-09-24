@@ -15,28 +15,28 @@
       "tier": "discount",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/10203410752",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ライフ",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/6995640487",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと 練馬駅南店",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/12470843794",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "業務スーパー",
       "tier": "discount",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/5601064274",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが14件、薬局が15件ある。病院として登録されている施設で近いのは秀佑会東海病院である。駅から1059mほどの距離にある。次に近いのは総合東京病院で、1375mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -78,6 +78,7 @@
     "千川通り（片側1車線）が46m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
+    "lowFlood",
     "manyLines",
     "shoppingEasy",
     "flat"

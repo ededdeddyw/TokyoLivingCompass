@@ -169,15 +169,45 @@ TAG_ORDER = [
 ]
 
 
+# タグが足りない駅を埋めるとき、その駅で上のほうにある軸から順に見る。
+# しきい値を全体で下げるのではなく、タグが2つ以下の駅にだけ、この表を使う。
+FILL_TAGS = [
+    ("quietness", "quiet"), ("rentValue", "goodValue"), ("disaster", "lowFlood"),
+    ("commute", "fastToCenter"), ("singleLife", "singleFriendly"),
+    ("shopping", "shoppingEasy"), ("food", "diningRich"), ("nightlife", "lateNight"),
+    ("cafe", "cafeRich"), ("nature", "parkNear"), ("healthcare", "medicalRich"),
+]
+MIN_TAGS = 4        # ここを下回る駅だけ、下のしきい値で埋める
+FILL_FLOOR = 65     # 全458駅の上位3分の1にあたる
+
+
 def station_tags(sc, st, ter, ctx=None):
     picked = [t for t, ok in TAG_RULES if ok(sc, st, ter)]
     if ctx is not None:
         bustle = bustle_tag(st["slug"], ctx)
         if bustle:
             picked.insert(0, bustle)
-    for a, b in TAG_CONFLICTS:
-        if a in picked and b in picked:
-            picked.remove(b if picked.index(a) < picked.index(b) else a)
+
+    def drop_conflicts(tags):
+        for a, b in TAG_CONFLICTS:
+            if a in tags and b in tags:
+                tags.remove(b if tags.index(a) < tags.index(b) else a)
+        return tags
+
+    drop_conflicts(picked)
+    # タグが2つ以下だと、その駅が何も語らないページになる。門前仲町は
+    # 「平坦」1つだけだった。しきい値を全体で下げると、どの駅も同じ顔になるので、
+    # 足りない駅にだけ、その駅で上のほうにある軸から補う。
+    if len(picked) < MIN_TAGS:
+        for axis, tag in sorted(FILL_TAGS, key=lambda at: -sc.get(at[0], 0)):
+            if len(picked) >= MIN_TAGS:
+                break
+            if tag in picked or sc.get(axis, 0) < FILL_FLOOR:
+                continue
+            trial = picked + [tag]
+            if tag in drop_conflicts(list(trial)):
+                picked = trial
+
     picked.sort(key=lambda t: TAG_ORDER.index(t) if t in TAG_ORDER else len(TAG_ORDER))
     return picked[:MAX_TAGS]
 

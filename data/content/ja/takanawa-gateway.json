@@ -15,28 +15,28 @@
       "tier": "premium",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/14122805105",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ZEROCORNER",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/14122805109",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "成城石井 ニュウマン高輪店",
       "tier": "premium",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/14122805116",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Lincos 高輪",
       "tier": "standard",
       "walkMinutes": 12,
       "sourceUrl": "https://www.openstreetmap.org/node/10711369687",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが7件、薬局が6件ある。病院として登録されている施設で近いのは地域医療機能推進機構東京高輪病院である。駅から929mほどの距離にある。次に近いのは桜十字白金リハビリテーション病院で、1362mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -77,7 +77,9 @@
     "いちばん近い大きな通りは高輪麻布線で、249m先にある。駅の周りまで車の音は届きにくい"
   ],
   "tags": [
+    "quiet",
     "pricey",
+    "fastToCenter",
     "hilly"
   ],
   "leads": {

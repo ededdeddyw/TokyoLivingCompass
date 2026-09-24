@@ -15,21 +15,21 @@
       "tier": "standard",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/5845757486",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "サミット",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/5849655296",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/5853479888",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが8件、薬局が11件ある。病院として登録されている施設で近いのは二誠会村上病院である。駅から995mほどの距離にある。次に近いのは東京さくら病院で、1229mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -65,8 +65,7 @@
   "notFor": [
     "洪水の浸水想定区域を避けたい人",
     "運転見合わせのときに別の経路が欲しい人",
-    "徒歩圏で買い物を済ませたい人",
-    "外食できる店の多さを求める人"
+    "徒歩圏で買い物を済ませたい人"
   ],
   "noiseSources": [
     "京葉道路の高架が256m先を通る。高速道路なので、車の音は昼も夜も続く",

@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/13239967729",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "業務スーパー",
       "tier": "discount",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/13182508672",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マルエツ 糀谷駅南口店",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/1981783005",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/5007011591",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが9件、薬局が6件ある。病院として登録されている施設で近いのは有仁会糀谷病院である。駅から113mほどの距離にある。次に近いのは幸和病院で、583mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -76,6 +76,7 @@
     "環八通り（片側2車線）が51m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
+    "quiet",
     "pricey",
     "singleLine",
     "flat"

@@ -15,28 +15,28 @@
       "tier": "discount",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/2315877428",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/12366318101",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "大黒屋",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/6844021444",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "全日食チェーンFRESHマツオ",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/2291202359",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが20件、薬局が7件ある。病院として登録されている施設で近いのは健和会柳原病院である。駅から1125mほどの距離にある。次に近いのは東京拘置所医務部病院で、1673mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -78,6 +78,7 @@
   "tags": [
     "floodArea",
     "singleLine",
+    "lateNight",
     "flat"
   ],
   "leads": {

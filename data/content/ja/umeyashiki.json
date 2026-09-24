@@ -15,28 +15,28 @@
       "tier": "discount",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/5827133482",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと 大森中2丁目店",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/4439917025",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ライフ 大森中店",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/way/211451597",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ライフ",
       "tier": "standard",
       "walkMinutes": 12,
       "sourceUrl": "https://www.openstreetmap.org/node/4426093420",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが7件、薬局が4件ある。病院として登録されている施設で近いのは東邦大学医療センター 大森病院5号館である。駅から549mほどの距離にある。次に近いのは大田病院附属大森中診療所で、663mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -70,13 +70,16 @@
   ],
   "notFor": [
     "洪水の浸水想定区域を避けたい人",
-    "運転見合わせのときに別の経路が欲しい人"
+    "運転見合わせのときに別の経路が欲しい人",
+    "外食できる店の多さを求める人"
   ],
   "noiseSources": [
     "第一京浜（片側2車線）が42m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
+    "quiet",
     "singleLine",
+    "shoppingEasy",
     "flat"
   ],
   "leads": {

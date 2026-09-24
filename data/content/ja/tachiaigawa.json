@@ -15,14 +15,14 @@
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/7927681489",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "文化堂",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/7927556969",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが3件、薬局が2件ある。病院として登録されている施設で近いのは東京品川病院である。駅から511mほどの距離にある。次に近いのは佐花会大井中央病院で、581mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -64,6 +64,7 @@
     "第一京浜（片側2車線）が59m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
+    "quiet",
     "singleLine",
     "flat"
   ],

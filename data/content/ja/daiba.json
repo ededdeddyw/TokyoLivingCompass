@@ -15,14 +15,14 @@
       "tier": "premium",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/9275680709",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マルエツ",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/1784620223",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、薬局が2件ある。病院として登録されている施設で近いのはフジテレビ湾岸スタジオビル診療所である。駅から829mほどの距離にある。次に近いのは癌研有明病院で、2331mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -53,6 +53,7 @@
     "台場青海線（片側3車線の大通り）が6m先、目と鼻の先にある。一日中、車の通りが絶えない"
   ],
   "tags": [
+    "quiet",
     "lowFlood",
     "singleLine",
     "flat"

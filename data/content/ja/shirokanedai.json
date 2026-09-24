@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/1891003109",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "プラチナ ドン･キホーテ 白金台店",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/way/182486554",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "＆ＭＡＲＫＥＴ",
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/1928481643",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "いなげや",
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/1927499586",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが2件、薬局が1件ある。病院として登録されている施設で近いのは東京大学医科学研究所附属病院である。駅から243mほどの距離にある。次に近いのはNTT東日本関東病院で、742mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -68,6 +68,7 @@
     "大手町・丸の内方面へ通勤する人"
   ],
   "notFor": [
+    "外食できる店の多さを求める人",
     "家賃を抑えたい人"
   ],
   "noiseSources": [
@@ -75,8 +76,10 @@
     "いちばん近い大きな通りはプラチナ通りで、212m先にある。駅の周りまで車の音は届きにくい"
   ],
   "tags": [
+    "quiet",
     "pricey",
-    "lowFlood"
+    "lowFlood",
+    "fastToCenter"
   ],
   "leads": {
     "terrain": "駅の周りにはゆるやかな坂があり、どの区画に住むかで毎日の移動の負担が変わる。",

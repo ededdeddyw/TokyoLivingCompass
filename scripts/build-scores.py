@@ -255,7 +255,7 @@ def main():
     # 淡路町26軒・神田69軒になり、街を歩いた感覚と向きがそろう。
     NEAR_M = 300
     counts = {c: {} for c in ("restaurant", "cafe", "bar", "gym", "park")}
-    near = {"bar": {}, "restaurant": {}}
+    near = {"bar": {}, "restaurant": {}, "cafe": {}}
     extras = {}
     for station in roster:
         lst = pois.get(station["slug"], [])
@@ -312,10 +312,18 @@ def main():
                 pct["dailyCare"][slug] * 0.6
                 + hospital_nearness(e["nearestHospitalM"]) * 40)
             scores["nature"] = pct["park"][slug]
+            # 外食・カフェ・夜の店は、800m圏だけで測ると隣の駅と圏が重なって
+            # 駅ごとの差が消える。門前仲町は駅から300m以内に55軒あるのに対し、
+            # 清澄白河は14軒だが、800m圏では79軒と95軒で逆転していた。
+            # 駅を出てすぐの多さ（300m）と、歩いて行ける選択肢の多さ（800m）を
+            # 両方見る。ジムは目的地まで歩くものなので800m圏だけで測る。
             for axis, cat in (("food", "restaurant"), ("cafe", "cafe"),
-                              ("nightlife", "bar"), ("fitness", "gym")):
+                              ("nightlife", "bar")):
                 if any(counts[cat].values()):
-                    scores[axis] = pct[cat][slug]
+                    scores[axis] = clamp(pct_near[cat][slug] * 0.55
+                                         + pct[cat][slug] * 0.45)
+            if any(counts["gym"].values()):
+                scores["fitness"] = pct["gym"][slug]
 
             # 静かさは、人の音と車の音の両方から出す。
             # 人の音は駅から300m以内の酒場と飲食店の数、車の音は幹線道路・高速道路

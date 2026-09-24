@@ -15,14 +15,14 @@
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/10768683710",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ファミリーショップ もりおかや",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/3162490561",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが1件、薬局が3件ある。病院として登録されている施設で近いのは田中舘医院である。駅から159mほどの距離にある。次に近いのはKijima E.N.T. & Pediatric Clinicで、439mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -64,6 +64,7 @@
   "tags": [
     "quiet",
     "lowFlood",
+    "fastToCenter",
     "singleLine"
   ],
   "leads": {

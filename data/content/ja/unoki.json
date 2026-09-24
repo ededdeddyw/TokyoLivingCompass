@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/2686393320",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ライフ 鵜の木店",
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/4756815922",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "オリンピック 下丸子店",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/1710582725",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "西友 下丸子店",
       "tier": "discount",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/1786326681",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが11件、薬局が8件ある。病院として登録されている施設で近いのは池田動物病院である。駅から1118mほどの距離にある。次に近いのは田園調布中央病院で、1573mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -76,6 +76,7 @@
     "多摩堤通り（片側1車線）が49m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
+    "quiet",
     "singleLine"
   ],
   "leads": {

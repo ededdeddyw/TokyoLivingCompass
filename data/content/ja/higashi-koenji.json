@@ -15,21 +15,21 @@
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/1598161041",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "オオゼキ",
       "tier": "discount",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/800933630",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Santoku",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/4986606450",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが10件、薬局が7件ある。病院として登録されている施設で近いのは救世軍ブース記念病院である。駅から842mほどの距離にある。次に近いのは杏林大学医学部付属杉並病院で、890mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -70,7 +70,9 @@
   ],
   "tags": [
     "goodValue",
-    "singleLine"
+    "lowFlood",
+    "singleLine",
+    "parkNear"
   ],
   "leads": {
     "terrain": "駅の周りにはゆるやかな坂があり、どの区画に住むかで毎日の移動の負担が変わる。",

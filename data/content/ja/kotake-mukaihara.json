@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/3788466357",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "アコレ 小竹向原駅",
       "tier": "discount",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/4160671790",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "いさみ屋",
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/728602761",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "オーケーストア",
       "tier": "discount",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/728602757",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが1件、薬局が1件ある。病院として登録されている施設で近いのは東京武蔵野病院である。駅から462mほどの距離にある。次に近いのは練馬総合病院で、1149mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -79,6 +79,7 @@
   "tags": [
     "quiet",
     "goodValue",
+    "lowFlood",
     "flat"
   ],
   "leads": {

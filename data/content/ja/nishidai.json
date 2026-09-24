@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/5782515313",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ダイエー 西台店",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/1741662953",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "業務スーパー",
       "tier": "discount",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/1749476201",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "アコレ",
       "tier": "discount",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/5777720785",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが4件、薬局が9件ある。病院として登録されている施設で近いのは高仁会戸田病院である。駅から1926mほどの距離にある。次に近いのは戸田病院で、2020mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -70,13 +70,13 @@
   ],
   "notFor": [
     "洪水の浸水想定区域を避けたい人",
-    "運転見合わせのときに別の経路が欲しい人",
-    "外食できる店の多さを求める人"
+    "運転見合わせのときに別の経路が欲しい人"
   ],
   "noiseSources": [
     "赤羽西台線（大通り）が34m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
+    "quiet",
     "floodArea",
     "singleLine",
     "flat"

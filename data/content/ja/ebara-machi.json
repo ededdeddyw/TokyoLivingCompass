@@ -15,28 +15,28 @@
       "tier": "discount",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/2355595011",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと 旗の台店",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/13726514402",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "文化堂 荏原店",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/2168329661",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Bio C' Bon",
       "tier": "premium",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/13859955775",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが20件、薬局が16件ある。病院として登録されている施設で近いのは昭和医科大学病院である。駅から570mほどの距離にある。次に近いのは昭和医科大学病院附属東病院で、669mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -76,6 +76,7 @@
     "いちばん近い大きな通りは中原街道で、494m先にある。駅の周りまで車の音は届きにくい"
   ],
   "tags": [
+    "lowFlood",
     "singleLine",
     "parkNear",
     "medicalRich"

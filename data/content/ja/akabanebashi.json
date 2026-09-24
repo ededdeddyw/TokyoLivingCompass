@@ -15,28 +15,28 @@
       "tier": "premium",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/10650968288",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "イオン",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/5174014629",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マルエツプチ",
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/2045969892",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "スーパー fenix 三田店",
       "tier": "standard",
       "walkMinutes": 12,
       "sourceUrl": "https://www.openstreetmap.org/node/1194993555",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが15件、薬局が11件ある。病院として登録されている施設で近いのは国際医療福祉大学三田病院である。駅から33mほどの距離にある。次に近いのは東京都済生会中央病院で、110mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -77,9 +77,10 @@
     "環状三号線（片側2車線）が3m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
-    "lively",
     "pricey",
-    "singleLine"
+    "lowFlood",
+    "singleLine",
+    "medicalRich"
   ],
   "leads": {
     "terrain": "駅の周りにはゆるやかな坂があり、どの区画に住むかで毎日の移動の負担が変わる。",

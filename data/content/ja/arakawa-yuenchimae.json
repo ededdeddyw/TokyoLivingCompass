@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/way/235601390",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "東武ストア",
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/5434974407",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "みらべる 小台店",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/way/579792244",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "J・マート物産店",
       "tier": "standard",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/5628327770",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが7件、薬局が7件ある。病院として登録されている施設で近いのは桑原病院である。駅から1567mほどの距離にある。次に近いのは竹内病院で、2165mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -71,7 +71,8 @@
   ],
   "notFor": [
     "洪水の浸水想定区域を避けたい人",
-    "運転見合わせのときに別の経路が欲しい人"
+    "運転見合わせのときに別の経路が欲しい人",
+    "外食できる店の多さを求める人"
   ],
   "noiseSources": [
     "都電通り（大通り）が12m先にある。朝夕は車の音が部屋まで入る"

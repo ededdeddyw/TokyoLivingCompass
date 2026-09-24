@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/way/92831663",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/4930632665",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "西友 大森店",
       "tier": "discount",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/1732004118",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "東急ストア",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/9121626167",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが2件、薬局が9件ある。病院として登録されている施設で近いのはいすゞ病院である。駅から332mほどの距離にある。次に近いのは中島病院で、1322mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -69,7 +69,8 @@
   ],
   "notFor": [
     "洪水の浸水想定区域を避けたい人",
-    "運転見合わせのときに別の経路が欲しい人"
+    "運転見合わせのときに別の経路が欲しい人",
+    "外食できる店の多さを求める人"
   ],
   "noiseSources": [
     "首都高速1号羽田線の高架が359m先を通る。高速道路なので、車の音は昼も夜も続く",
@@ -77,6 +78,7 @@
   ],
   "tags": [
     "singleLine",
+    "shoppingEasy",
     "flat"
   ],
   "leads": {

@@ -15,28 +15,28 @@
       "tier": "discount",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/4464931089",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/2390628279",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "miniピアゴ (mini PIAGO)",
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/2391098425",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "イオン 品川シーサイド店",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/way/204395549",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが5件、薬局が5件ある。病院として登録されている施設で近いのは柴田内科消化器科クリニックである。駅から132mほどの距離にある。次に近いのは東京品川病院で、1121mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -75,7 +75,9 @@
     "池上通り（大通り）が56m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
-    "singleLine"
+    "lowFlood",
+    "singleLine",
+    "parkNear"
   ],
   "leads": {
     "terrain": "駅の周りにはゆるやかな坂があり、どの区画に住むかで毎日の移動の負担が変わる。",

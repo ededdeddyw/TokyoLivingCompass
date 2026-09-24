@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/2242419606",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Bio C' Bon",
       "tier": "premium",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/6644448085",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/10068347910",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "肉のハナマサ",
       "tier": "discount",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/3162474869",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが5件、薬局が9件ある。病院として登録されている施設で近いのは荘敬会井上病院である。駅から92mほどの距離にある。次に近いのは予定で、296mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -74,6 +74,11 @@
   "noiseSources": [
     "首都高速中央環状線の高架が93m先を通る。高速道路なので、車の音は昼も夜も続く",
     "山手通り（大通り）が96m先にある。朝夕は車の音が部屋まで入る"
+  ],
+  "tags": [
+    "quiet",
+    "lowFlood",
+    "fastToCenter"
   ],
   "leads": {
     "terrain": "駅の周りにはゆるやかな坂があり、どの区画に住むかで毎日の移動の負担が変わる。",

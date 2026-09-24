@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/6986989794",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/6972494831",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Olympic 柴又店",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/6979633158",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "アタック",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/6961232363",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが7件、薬局が8件ある。病院として登録されている施設で近いのは第一病院である。駅から1786mほどの距離にある。次に近いのは国際医療福祉大学市川メディカルセンターで、2401mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -70,13 +70,13 @@
   ],
   "notFor": [
     "洪水の浸水想定区域を避けたい人",
-    "運転見合わせのときに別の経路が欲しい人",
-    "外食できる店の多さを求める人"
+    "運転見合わせのときに別の経路が欲しい人"
   ],
   "noiseSources": [
     "王子金町市川線（片側1車線）が137m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
+    "quiet",
     "pricey",
     "singleLine",
     "flat"

@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/6536264232",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マルエツ",
       "tier": "standard",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/1738576081",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "オオゼキ",
       "tier": "discount",
       "walkMinutes": 12,
       "sourceUrl": "https://www.openstreetmap.org/node/8467236724",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "東武ストア 大森店",
       "tier": "standard",
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/node/5768393879",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが2件、薬局が2件ある。病院として登録されている施設で近いのは城南福祉医療協会大田病院である。駅から1094mほどの距離にある。次に近いのは大田病院附属大森中診療所で、1103mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -78,6 +78,7 @@
     "環七通り（片側2車線）が102m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
+    "quiet",
     "singleLine",
     "flat"
   ],

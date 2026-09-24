@@ -15,28 +15,28 @@
       "tier": "discount",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/599920272",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Daily Table KINOKUNIYA",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/9001014926",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "サミット",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/10230353653",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マルエツプチ",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/610194765",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが18件、薬局が12件ある。病院として登録されている施設で近いのは越川病院訪問看護ステーションである。駅から175mほどの距離にある。次に近いのは杉並リハビリテーション病院で、259mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -79,6 +79,7 @@
   "tags": [
     "someBustle",
     "goodValue",
+    "lowFlood",
     "flat"
   ],
   "leads": {

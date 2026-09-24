@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/1922951583",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/9810160338",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マイカイマート　ロヂャース",
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/10805942376",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "西友 浅草ROX店",
       "tier": "discount",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/1148820976",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが9件、薬局が28件ある。病院として登録されている施設で近いのは浅草寺病院である。駅から577mほどの距離にある。次に近いのは墨田病院で、730mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -80,9 +80,9 @@
     "majorHub",
     "floodArea",
     "diningRich",
-    "lateNight",
     "flat",
-    "cafeRich"
+    "cafeRich",
+    "medicalRich"
   ],
   "leads": {
     "terrain": "駅の周りはほぼ平坦で、坂を気にせず住む場所を選べる。",

@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/4736500222",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/3293716261",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マルエツプチ",
       "tier": "standard",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/8250986681",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "肉のハナマサ",
       "tier": "discount",
       "walkMinutes": 12,
       "sourceUrl": "https://www.openstreetmap.org/node/4736515321",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが9件、薬局が7件ある。病院として登録されている施設で近いのは十仁病院である。駅から503mほどの距離にある。次に近いのは港勤労者医療協会芝病院で、682mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -77,12 +77,10 @@
     "新橋日の出ふ頭線（片側2車線）が8m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
-    "lively",
     "pricey",
     "fastToCenter",
-    "diningRich",
-    "lateNight",
-    "flat"
+    "flat",
+    "cafeRich"
   ],
   "leads": {
     "terrain": "駅の周りはほぼ平坦で、坂を気にせず住む場所を選べる。",

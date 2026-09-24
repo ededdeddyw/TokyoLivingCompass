@@ -15,21 +15,21 @@
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/way/134545923",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "オオゼキ 下北沢店",
       "tier": "discount",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/648668430",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Natural House",
       "tier": "standard",
       "walkMinutes": 12,
       "sourceUrl": "https://www.openstreetmap.org/node/2266962270",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが13件、薬局が10件ある。病院として登録されている施設で近いのはあべ池ノ上接骨院である。駅から103mほどの距離にある。次に近いのは文寿会福原病院で、383mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -67,7 +67,10 @@
     "鮫洲大山線（片側1車線）が53m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
-    "singleLine"
+    "quiet",
+    "lowFlood",
+    "singleLine",
+    "medicalRich"
   ],
   "leads": {
     "terrain": "駅の周りにはゆるやかな坂があり、どの区画に住むかで毎日の移動の負担が変わる。",

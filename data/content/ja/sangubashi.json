@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/1730467331",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Freshfoodsアカマツ",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/2146107975",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/12962155376",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "成城石井 オペラシティ店",
       "tier": "premium",
       "walkMinutes": 12,
       "sourceUrl": "https://www.openstreetmap.org/node/13304669910",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが1件、薬局が2件ある。病院として登録されている施設で近いのは参宮橋脊椎外科病院である。駅から383mほどの距離にある。次に近いのは温光会内藤病院で、689mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -69,13 +69,16 @@
     "洪水の浸水想定区域を避けたい人"
   ],
   "notFor": [
-    "運転見合わせのときに別の経路が欲しい人"
+    "運転見合わせのときに別の経路が欲しい人",
+    "外食できる店の多さを求める人"
   ],
   "noiseSources": [
     "首都高速4号新宿線の高架が132m先を通る。高速道路なので、車の音は昼も夜も続く"
   ],
   "tags": [
+    "quiet",
     "lowFlood",
+    "fastToCenter",
     "singleLine"
   ],
   "leads": {

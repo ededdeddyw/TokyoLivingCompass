@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/6118751772",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マルエツ",
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/1738576081",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ライフ 大森中店",
       "tier": "standard",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/way/211451597",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "オーケーストア",
       "tier": "discount",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/5827133482",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが4件、薬局が2件ある。病院として登録されている施設で近いのは大田病院附属大森中診療所である。駅から500mほどの距離にある。次に近いのは城南福祉医療協会大田病院で、642mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -77,6 +77,8 @@
     "第一京浜（片側2車線）が70m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
+    "quiet",
+    "goodValue",
     "singleLine",
     "flat"
   ],

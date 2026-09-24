@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/11109158232",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/13666265903",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "西友 サンシャイン60前店",
       "tier": "discount",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/4209282891",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "オークラ",
       "tier": "standard",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/13897787860",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが4件、薬局が16件ある。病院として登録されている施設で近いのは木村整形外科である。駅から471mほどの距離にある。次に近いのは芳精会ぬかりや病院で、636mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -77,10 +77,10 @@
     "いちばん近い大きな通りは音羽池袋線で、206m先にある。駅の周りまで車の音は届きにくい"
   ],
   "tags": [
+    "quiet",
     "lowFlood",
     "singleLine",
-    "flat",
-    "cafeRich"
+    "flat"
   ],
   "leads": {
     "terrain": "駅の周りはほぼ平坦で、坂を気にせず住む場所を選べる。",

@@ -15,28 +15,28 @@
       "tier": "premium",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/13859955775",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと 旗の台店",
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/13726514402",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "オオゼキ 旗の台店",
       "tier": "discount",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/2355595011",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "オリンピック",
       "tier": "standard",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/1230787952",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが22件、薬局が16件ある。病院として登録されている施設で近いのは昭和医科大学病院である。駅から339mほどの距離にある。次に近いのはおきの会旗の台病院で、354mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -69,13 +69,15 @@
     "家賃を抑えたい単身者"
   ],
   "notFor": [
-    "この駅ならではの弱点は、データからは読み取れていない"
+    "外食できる店の多さを求める人"
   ],
   "noiseSources": [
     "中原街道（大通り）が172m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
     "quiet",
+    "lowFlood",
+    "parkNear",
     "medicalRich"
   ],
   "leads": {

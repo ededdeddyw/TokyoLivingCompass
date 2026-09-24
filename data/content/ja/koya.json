@@ -15,21 +15,21 @@
       "tier": "discount",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/6447517463",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "酒&業務スーパー",
       "tier": "discount",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/5758755733",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ライフ 扇大橋駅前店",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/1988853639",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが6件、薬局が3件ある。病院として登録されている施設で近いのは米倉脊椎・関節病院である。駅から91mほどの距離にある。次に近いのは東京女子医科大学附属足立医療センターで、714mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -70,6 +70,7 @@
     "尾久橋通り（大通り）が5m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
+    "goodValue",
     "floodArea",
     "singleLine",
     "flat"

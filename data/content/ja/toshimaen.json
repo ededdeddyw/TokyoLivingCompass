@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/3233002288",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ライフ",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/6995640487",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "SainEよしや 早宮店",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/12495344188",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "業務スーパー",
       "tier": "discount",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/5601064274",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが11件、薬局が12件ある。病院として登録されている施設で近いのは秀佑会東海病院である。駅から872mほどの距離にある。次に近いのは総合東京病院で、2085mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -70,13 +70,17 @@
     "家賃を抑えたい単身者"
   ],
   "notFor": [
-    "洪水の浸水想定区域を避けたい人"
+    "洪水の浸水想定区域を避けたい人",
+    "外食できる店の多さを求める人"
   ],
   "noiseSources": [
     "いちばん近い大きな通りは目白通りで、519m先にある。駅の周りまで車の音は届きにくい"
   ],
   "tags": [
-    "quiet"
+    "quiet",
+    "lowFlood",
+    "shoppingEasy",
+    "parkNear"
   ],
   "leads": {
     "terrain": "駅の周りにはゆるやかな坂があり、どの区画に住むかで毎日の移動の負担が変わる。",

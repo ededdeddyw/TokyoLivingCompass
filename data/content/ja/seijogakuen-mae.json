@@ -15,28 +15,28 @@
       "tier": "premium",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/way/46957799",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "カズン 成城店",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/961152315",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと 祖師谷3丁目店",
       "tier": "standard",
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/node/5195788021",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "オーケーストア",
       "tier": "discount",
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/node/2355594737",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが10件、薬局が8件ある。病院として登録されている施設で近いのは九折会成城木下病院である。駅から191mほどの距離にある。次に近いのは幸野メディカルクリニック (Kono Medical Clinic)で、881mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -76,7 +76,9 @@
   ],
   "tags": [
     "quiet",
-    "singleLine"
+    "lowFlood",
+    "singleLine",
+    "medicalRich"
   ],
   "leads": {
     "terrain": "駅の周りにはゆるやかな坂があり、どの区画に住むかで毎日の移動の負担が変わる。",

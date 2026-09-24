@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/2519783352",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "信濃屋 食品館",
       "tier": "premium",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/5397182346",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Natural House",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/2266962270",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "オオゼキ 下北沢店",
       "tier": "discount",
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/node/648668430",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが25件、薬局が14件ある。病院として登録されている施設で近いのは島津メディカルクリニックである。駅から416mほどの距離にある。次に近いのは加藤医院で、485mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -76,7 +76,9 @@
     "環七通り（片側3車線の大通り）が136m先にある。一日中、車の通りが絶えない"
   ],
   "tags": [
+    "lowFlood",
     "singleLine",
+    "cafeRich",
     "medicalRich"
   ],
   "leads": {

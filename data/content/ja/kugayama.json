@@ -15,21 +15,21 @@
       "tier": "standard",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/602885609",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ピーコックストア 久我山店",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/602885608",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/8280374879",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが8件、薬局が12件ある。病院として登録されている施設で近いのは久我山病院である。駅から735mほどの距離にある。次に近いのは寺田病院で、870mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -65,15 +65,16 @@
   "notFor": [
     "洪水の浸水想定区域を避けたい人",
     "運転見合わせのときに別の経路が欲しい人",
-    "徒歩圏で買い物を済ませたい人",
-    "外食できる店の多さを求める人"
+    "徒歩圏で買い物を済ませたい人"
   ],
   "noiseSources": [
     "人見街道（片側1車線）が75m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
+    "lowFlood",
     "singleLine",
-    "flat"
+    "flat",
+    "parkNear"
   ],
   "leads": {
     "terrain": "駅の周りはほぼ平坦で、坂を気にせず住む場所を選べる。",

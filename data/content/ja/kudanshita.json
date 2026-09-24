@@ -15,21 +15,21 @@
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/11338812057",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "成城石井",
       "tier": "premium",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/way/231778775",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マルエツプチ",
       "tier": "standard",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/4964137902",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが10件、薬局が13件ある。病院として登録されている施設で近いのは九段坂病院である。駅から197mほどの距離にある。次に近いのは東京歯科大学水道橋病院で、695mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -71,12 +71,10 @@
     "靖国通り（片側2車線）が1m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
-    "lively",
     "pricey",
     "fastToCenter",
-    "diningRich",
-    "lateNight",
-    "hilly"
+    "hilly",
+    "cafeRich"
   ],
   "leads": {
     "terrain": "駅の周りは起伏が大きく、坂の上に住むか下に住むかで毎日の移動の負担が変わる。",

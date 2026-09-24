@@ -15,28 +15,28 @@
       "tier": "discount",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/3596203151",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マルエツプチ",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/way/54229486",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "My Basket",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/5746471994",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "エネルギースーパーたじま",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/758963045",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが2件、薬局が1件ある。病院として登録されている施設で近いのは佐久間病院である。駅から266mほどの距離にある。次に近いのは道園会東京松永病院で、330mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -69,13 +69,13 @@
     "家賃を抑えたい単身者"
   ],
   "notFor": [
-    "洪水の浸水想定区域を避けたい人",
-    "外食できる店の多さを求める人"
+    "洪水の浸水想定区域を避けたい人"
   ],
   "noiseSources": [
     "平和橋通り（大通り）が107m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
+    "quiet",
     "goodValue",
     "floodArea",
     "flat"

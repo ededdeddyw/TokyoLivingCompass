@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/2069193968",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと 長原駅前店",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/3349841432",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "オリンピック",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/1230787952",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "トップ 洗足池店",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/3677168959",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが15件、薬局が10件ある。病院として登録されている施設で近いのはおきの会旗の台病院である。駅から175mほどの距離にある。次に近いのは昭和医科大学病院で、808mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -70,15 +70,16 @@
     "家賃を抑えたい単身者"
   ],
   "notFor": [
-    "運転見合わせのときに別の経路が欲しい人",
-    "外食できる店の多さを求める人"
+    "運転見合わせのときに別の経路が欲しい人"
   ],
   "noiseSources": [
     "環七通り（片側2車線）が76m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
+    "quiet",
     "lowFlood",
-    "singleLine"
+    "singleLine",
+    "medicalRich"
   ],
   "leads": {
     "terrain": "駅の周りにはゆるやかな坂があり、どの区画に住むかで毎日の移動の負担が変わる。",

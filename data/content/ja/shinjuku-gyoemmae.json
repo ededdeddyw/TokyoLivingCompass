@@ -15,21 +15,21 @@
       "tier": "standard",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/3894695606",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/11061191815",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "コープ",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/5038407423",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが5件、薬局が9件ある。病院として登録されている施設で近いのは仁圭会林外科病院である。駅から791mほどの距離にある。次に近いのは東京勤労者医療会代々木病院で、865mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -71,12 +71,10 @@
     "甲州街道（片側2車線）が105m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
-    "lively",
     "lowFlood",
     "fastToCenter",
     "singleLine",
-    "flat",
-    "cafeRich"
+    "flat"
   ],
   "leads": {
     "terrain": "駅の周りはほぼ平坦で、坂を気にせず住む場所を選べる。",

@@ -15,28 +15,28 @@
       "tier": "premium",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/4358349335",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マルエツプチ",
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/11060934108",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "肉のハナマサ",
       "tier": "discount",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/1463983621",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/3949450147",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが7件、薬局が8件ある。病院として登録されている施設で近いのは友仁会赤坂見附前田病院である。駅から912mほどの距離にある。次に近いのは茂恵会半蔵門病院で、1127mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -77,8 +77,10 @@
     "外堀通り（片側5車線の大通り）が66m先にある。一日中、車の通りが絶えない"
   ],
   "tags": [
+    "lowFlood",
     "fastToCenter",
-    "manyLines"
+    "manyLines",
+    "lateNight"
   ],
   "leads": {
     "terrain": "駅の周りにはゆるやかな坂があり、どの区画に住むかで毎日の移動の負担が変わる。",

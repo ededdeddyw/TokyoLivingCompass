@@ -15,28 +15,28 @@
       "tier": "premium",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/12995244481",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Eataly 丸の内店",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/13027480843",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/6569741888",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "成城石井 東京駅一番街店",
       "tier": "premium",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/11370968865",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが8件、薬局が7件ある。病院として登録されている施設で近いのは宮内庁病院である。駅から430mほどの距離にある。次に近いのは同仁記念会明和病院で、1209mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -79,12 +79,10 @@
     "永代通り（大通り）が83m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
-    "lively",
     "fastToCenter",
     "manyLines",
-    "diningRich",
-    "lateNight",
-    "flat"
+    "flat",
+    "cafeRich"
   ],
   "leads": {
     "terrain": "駅の周りはほぼ平坦で、坂を気にせず住む場所を選べる。",

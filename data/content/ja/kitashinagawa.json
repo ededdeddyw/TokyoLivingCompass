@@ -15,21 +15,21 @@
       "tier": "standard",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/9894289430",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "京急ストア 高輪店",
       "tier": "standard",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/8946391500",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "成城石井",
       "tier": "premium",
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/node/8440700940",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが7件、薬局が5件ある。病院として登録されている施設で近いのは河野臨牀医学研究所附属第三北品川病院である。駅から130mほどの距離にある。次に近いのは河野臨牀医学研究所附属北品川病院で、247mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -69,6 +69,8 @@
   ],
   "tags": [
     "pricey",
+    "lowFlood",
+    "fastToCenter",
     "singleLine"
   ],
   "leads": {

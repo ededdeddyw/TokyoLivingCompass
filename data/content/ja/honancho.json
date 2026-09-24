@@ -15,14 +15,14 @@
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/476572208",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "肉のハマナサ",
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/2425383325",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが9件、薬局が7件ある。病院として登録されている施設で近いのは河北リハビリテーション病院である。駅から505mほどの距離にある。次に近いのは杏林大学医学部付属杉並病院で、719mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -56,8 +56,7 @@
   ],
   "notFor": [
     "運転見合わせのときに別の経路が欲しい人",
-    "徒歩圏で買い物を済ませたい人",
-    "外食できる店の多さを求める人"
+    "徒歩圏で買い物を済ませたい人"
   ],
   "noiseSources": [
     "方南通り（片側2車線）が19m先にある。朝夕は車の音が部屋まで入る"
@@ -65,7 +64,8 @@
   "tags": [
     "pricey",
     "singleLine",
-    "parkNear"
+    "parkNear",
+    "medicalRich"
   ],
   "leads": {
     "terrain": "駅の周りにはゆるやかな坂があり、どの区画に住むかで毎日の移動の負担が変わる。",

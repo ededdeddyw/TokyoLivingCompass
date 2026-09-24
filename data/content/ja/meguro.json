@@ -15,28 +15,28 @@
       "tier": "premium",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/9494381895",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "東急ストア",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/1769951509",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと 目黒太鼓橋",
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/6534661786",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マルエツ",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/4994026522",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが4件、薬局が7件ある。病院として登録されている施設で近いのは青葉会五反田神経内科病院である。駅から754mほどの距離にある。次に近いのはNTT東日本関東病院で、941mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -77,6 +77,8 @@
     "目黒通り（片側3車線の大通り）が32m先、目と鼻の先にある。一日中、車の通りが絶えない"
   ],
   "tags": [
+    "lowFlood",
+    "fastToCenter",
     "manyLines",
     "hilly"
   ],

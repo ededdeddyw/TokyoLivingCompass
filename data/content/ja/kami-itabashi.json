@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/way/81511729",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと 上板橋駅西店",
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/3726031075",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ベルクス",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/5776803556",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "東武ストア",
       "tier": "standard",
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/node/6180940476",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが5件、薬局が4件ある。病院として登録されている施設で近いのは飯沼病院である。駅から961mほどの距離にある。次に近いのは東京武蔵野病院で、1878mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -69,14 +69,15 @@
   ],
   "notFor": [
     "運転見合わせのときに別の経路が欲しい人",
-    "徒歩圏で買い物を済ませたい人",
-    "外食できる店の多さを求める人"
+    "徒歩圏で買い物を済ませたい人"
   ],
   "noiseSources": [
     "いちばん近い大きな通りは川越街道で、303m先にある。駅の周りまで車の音は届きにくい"
   ],
   "tags": [
     "quiet",
+    "goodValue",
+    "lowFlood",
     "singleLine"
   ],
   "leads": {

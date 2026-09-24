@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/8739732839",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "イオン",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/11985549893",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "コモディイイダ",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/5777720879",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ローソンストア100 板橋徳丸二丁目店",
       "tier": "standard",
       "walkMinutes": 12,
       "sourceUrl": "https://www.openstreetmap.org/node/3428249092",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが11件、薬局が6件ある。病院として登録されている施設で近いのは飯沼病院である。駅から2343mほどの距離にある。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -68,14 +68,16 @@
     "家賃を抑えたい単身者"
   ],
   "notFor": [
-    "運転見合わせのときに別の経路が欲しい人",
-    "外食できる店の多さを求める人"
+    "運転見合わせのときに別の経路が欲しい人"
   ],
   "noiseSources": [
     "いちばん近い大きな通りは川越街道で、419m先にある。駅の周りまで車の音は届きにくい"
   ],
   "tags": [
-    "singleLine"
+    "lowFlood",
+    "singleLine",
+    "lateNight",
+    "parkNear"
   ],
   "leads": {
     "terrain": "駅の周りにはゆるやかな坂があり、どの区画に住むかで毎日の移動の負担が変わる。",

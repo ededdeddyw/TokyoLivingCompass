@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/2001633280",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "オーケーストア 戸越店",
       "tier": "discount",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/3274189056",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Big-A 品川豊町店",
       "tier": "discount",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/5744822119",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "東急ストア フードステーション中延店",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/3347738972",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが8件、薬局が8件ある。病院として登録されている施設で近いのは昭和医科大学病院附属東病院である。駅から1140mほどの距離にある。次に近いのは昭和医科大学病院で、1323mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -69,7 +69,8 @@
     "公園が近いことを重視する人"
   ],
   "notFor": [
-    "運転見合わせのときに別の経路が欲しい人"
+    "運転見合わせのときに別の経路が欲しい人",
+    "外食できる店の多さを求める人"
   ],
   "noiseSources": [
     "鮫洲大山線（大通り）が185m先にある。朝夕は車の音が部屋まで入る"

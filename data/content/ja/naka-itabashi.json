@@ -15,28 +15,28 @@
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/2577031115",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "よしや",
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/1702302482",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "サミット 板橋弥生町店",
       "tier": "standard",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/3727155925",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Yoshiya",
       "tier": "standard",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/1670611610",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが1件、薬局が2件ある。病院として登録されている施設で近いのは豊島病院である。駅から688mほどの距離にある。次に近いのは日本大学医学部付属板橋病院で、785mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -69,14 +69,14 @@
     "家賃を抑えたい単身者"
   ],
   "notFor": [
-    "運転見合わせのときに別の経路が欲しい人",
-    "外食できる店の多さを求める人"
+    "運転見合わせのときに別の経路が欲しい人"
   ],
   "noiseSources": [
     "いちばん近い大きな通りは環七通りで、242m先にある。駅の周りまで車の音は届きにくい"
   ],
   "tags": [
     "quiet",
+    "lowFlood",
     "singleLine",
     "flat"
   ],

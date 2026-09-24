@@ -15,14 +15,14 @@
       "tier": "standard",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/1894197567",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/4447013602",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが3件、薬局が3件ある。病院として登録されている施設で近いのは修世会木場病院である。駅から211mほどの距離にある。次に近いのは青藍会鈴木病院で、864mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -65,6 +65,7 @@
     "永代通り（片側2車線）が2m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
+    "quiet",
     "floodArea",
     "singleLine",
     "flat"

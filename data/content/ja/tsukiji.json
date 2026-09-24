@@ -15,14 +15,14 @@
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/6487836405",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "デリド湊店",
       "tier": "standard",
       "walkMinutes": 12,
       "sourceUrl": "https://www.openstreetmap.org/node/6929377313",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが9件、薬局が5件ある。病院として登録されている施設で近いのは聖路加国際病院である。駅から421mほどの距離にある。次に近いのは国立がん研究センター中央病院で、619mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -64,8 +64,8 @@
     "新大橋通り（片側2車線）が53m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
+    "quiet",
     "fastToCenter",
-    "diningRich",
     "flat",
     "cafeRich"
   ],

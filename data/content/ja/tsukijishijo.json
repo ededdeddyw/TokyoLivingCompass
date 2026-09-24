@@ -15,7 +15,7 @@
       "tier": "standard",
       "walkMinutes": 12,
       "sourceUrl": "https://www.openstreetmap.org/node/4736500222",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが7件、薬局が4件ある。病院として登録されている施設で近いのは国立がん研究センター中央病院である。駅から135mほどの距離にある。次に近いのは十仁病院で、788mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -57,10 +57,10 @@
     "新大橋通り（片側2車線）が110m先にある。朝夕は車の音が部屋まで入る"
   ],
   "tags": [
+    "fastToCenter",
     "singleLine",
     "diningRich",
-    "flat",
-    "cafeRich"
+    "flat"
   ],
   "leads": {
     "terrain": "駅の周りはほぼ平坦で、坂を気にせず住む場所を選べる。",

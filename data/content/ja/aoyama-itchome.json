@@ -15,21 +15,21 @@
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/13423201289",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "成城石井 南青山店",
       "tier": "premium",
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/node/2924671086",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ヴィルマルシェ 青山店",
       "tier": "standard",
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/node/5375437098",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが10件、薬局が6件ある。病院として登録されている施設で近いのはSanno Medical Centerである。駅から210mほどの距離にある。次に近いのは順和会山王病院で、445mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -73,7 +73,8 @@
   "tags": [
     "pricey",
     "lowFlood",
-    "fastToCenter"
+    "fastToCenter",
+    "cafeRich"
   ],
   "leads": {
     "terrain": "駅の周りにはゆるやかな坂があり、どの区画に住むかで毎日の移動の負担が変わる。",

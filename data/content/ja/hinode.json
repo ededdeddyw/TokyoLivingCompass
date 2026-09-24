@@ -15,14 +15,14 @@
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/11404897147",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/11404897145",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "駅から歩いて800m以内に、クリニックが2件、薬局が3件ある。病院として登録されている施設で近いのは芝公園かみやまクリニックである。駅から685mほどの距離にある。次に近いのは愛育病院で、687mほど離れている。入院できるかどうかと、何科があるかは OpenStreetMap に書かれていない。各施設のウェブサイトで確かめてほしい。夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
@@ -55,7 +55,8 @@
     "洪水の浸水想定区域を避けたい人"
   ],
   "notFor": [
-    "運転見合わせのときに別の経路が欲しい人"
+    "運転見合わせのときに別の経路が欲しい人",
+    "外食できる店の多さを求める人"
   ],
   "noiseSources": [
     "新橋日の出ふ頭線（大通り）が4m先にある。朝夕は車の音が部屋まで入る",
@@ -63,6 +64,7 @@
   ],
   "tags": [
     "pricey",
+    "lowFlood",
     "singleLine",
     "flat"
   ],
