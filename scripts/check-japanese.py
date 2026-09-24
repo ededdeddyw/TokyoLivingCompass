@@ -73,6 +73,10 @@ SPLIT_VERDICT = re.compile(r"(?:評価|判断|意見|好み)が分かれる")
 # 60字を超えたら詰め込みすぎを疑う。数字や固有名詞が並ぶ文は長くても読めるので、
 # 違反ではなく要確認として出す。
 LONG_SENTENCE = 60
+# ルール45: 何の浸水なのかが書かれていない形。
+BARE_FLOOD = re.compile(r"(?<!大雨のときの)浸水の想定(?!区域)")
+# ルール44: 上下どちらの列車の話なのかが書かれていない形。
+ONE_WAY = re.compile(r"[^。]*方[向面]から来る[^。]*。")
 MD_LINK = re.compile(r"\[([^\]]*)\]\([^)]*\)")
 INLINE_CODE = re.compile(r"`[^`]*`")
 
@@ -227,6 +231,15 @@ def check_text(label, path, text, findings, taigen=True, claims=True):
         if len(sentence) > LONG_SENTENCE:
             add("43", f"1文が{len(sentence)}字ある: 「{sentence[:28]}…」。句点で区切れないか", "要確認")
             break
+
+    for m in BARE_FLOOD.finditer(text):
+        add("45", "何の浸水か書かれていない: 「浸水の想定」。「大雨のときの浸水の想定」と書く")
+        break
+
+    for m in ONE_WAY.finditer(text):
+        add("44", f"どちらへ向かう列車の話か書かれていない: 「{m.group()[:30]}…」。"
+                  "上下どちらにも列車は走っている")
+        break
 
     for m in SPLIT_VERDICT.finditer(text):
         add("39", f"どちらの人がどちらを選ぶのかが書かれていない: 「{m.group()}」", "要確認")
