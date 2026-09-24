@@ -262,6 +262,7 @@
 npm run dev              # 開発サーバー
 npm run validate:data    # データ検証と充足率レポート
 npm run check:ja         # 日本語表現ルールの機械チェック
+npm run check:coverage   # 店の登録が、乗降客数から見て少ない駅を並べる
 npm run typecheck
 npm run build
 ```
@@ -273,6 +274,7 @@ python3 scripts/build-roster.py      # 全458駅と路線マスタ
 python3 scripts/build-commutes.py    # 所要時間（458駅 × 7オフィス街）
 python3 scripts/build-scores.py      # 計算で出せるスコア軸
 python3 scripts/build-rent-bands.py  # 家賃の帯（data/rent-survey/ の観測値から）
+python3 scripts/fetch-passengers.py  # 駅別乗降客数（国土数値情報 S12）
 ```
 
 家賃相場は、各サイトが公開している駅ごとの相場を人が見て記録し、平均して1万円刻みの

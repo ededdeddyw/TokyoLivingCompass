@@ -10,7 +10,8 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "validate:data": "tsx scripts/validate-data.ts",
-    "check:ja": "python3 scripts/check-japanese.py"
+    "check:ja": "python3 scripts/check-japanese.py",
+    "check:coverage": "python3 scripts/check-store-coverage.py"
   },
   "dependencies": {
     "next": "^15.5.25",
