@@ -254,7 +254,8 @@ def main():
     # 淡路町298軒・神田211軒と、実際とは逆に出ていた。250m圏で数え直すと
     # 淡路町26軒・神田69軒になり、街を歩いた感覚と向きがそろう。
     NEAR_M = 300
-    counts = {c: {} for c in ("restaurant", "cafe", "bar", "gym", "park")}
+    counts = {c: {} for c in ("restaurant", "cafe", "bar", "gym", "park",
+                              "school", "kindergarten", "childcare")}
     near = {"bar": {}, "restaurant": {}, "cafe": {}}
     extras = {}
     for station in roster:
@@ -282,6 +283,9 @@ def main():
     counts["supermarket"] = {s["slug"]: len(extras[s["slug"]]["shops"]) for s in roster}
     counts["dailyCare"] = {s["slug"]: extras[s["slug"]]["clinics"]
                                       + extras[s["slug"]]["pharmacies"] for s in roster}
+    # 幼稚園と保育園は、どちらも小さい子どもの預け先なのでまとめて数える
+    counts["nursery"] = {s["slug"]: counts["kindergarten"][s["slug"]]
+                                    + counts["childcare"][s["slug"]] for s in roster}
     pct = {c: percentile_scores(counts[c]) for c in counts}
     pct_near = {c: percentile_scores(near[c]) for c in near}
 
@@ -333,16 +337,26 @@ def main():
             scores["quietness"] = clamp(
                 100 - (people * 0.55 + car * 0.45) if car is not None else 100 - people)
 
-            # ファミリー適性は、公園・日常の医療・スーパーの多さと、
-            # ベビーカーで歩ける平坦さ、それに夜の店の少なさを合わせる。
+            # ファミリー適性は、子どもに関わる施設の数を主役に置く。
+            #
+            # 以前は公園・クリニック・スーパー・平坦さだけで出していたため、
+            # 駅から300m以内に酒場が63軒ある高円寺が、全458駅の94パーセンタイルに
+            # 出ていた。子どもに関する数字が1つも入っていなかったのが原因である
+            # （docs/14-audience-segments.md §1）。
+            #
+            # 学校は歩いて通う距離（1,500m）、幼稚園と保育園は送り迎えの距離
+            # （1,000m）で数える。夜の店の多さは重み0.15では効かなかったので、
+            # 0.28まで上げた。子どもと暮らす場所を選ぶうえで、
+            # 駅前が飲み屋街かどうかは学校の数と同じくらい大きい。
             flat = {"flat": 1.0, "some": 0.55, "hilly": 0.2}.get(
                 (terrain.get(slug) or {}).get("slope"), 0.55)
             family_raw[slug] = (
-                pct["park"][slug] * 0.3
-                + pct["dailyCare"][slug] * 0.2
-                + pct["supermarket"][slug] * 0.2
-                + flat * 15
-                + (100 - pct_near["bar"][slug]) * 0.15)
+                pct["school"][slug] * 0.22
+                + pct["nursery"][slug] * 0.22
+                + pct["park"][slug] * 0.18
+                + pct["supermarket"][slug] * 0.10
+                + flat * 10
+                + (100 - pct_near["bar"][slug]) * 0.28)
 
             # 一人暮らし適性は、自炊しなくても生活が回るかで見る。
             scores["singleLife"] = clamp(

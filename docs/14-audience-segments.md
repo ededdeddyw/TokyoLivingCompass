@@ -75,14 +75,18 @@
 
 | データ | 出典 | 状態 |
 |---|---|---|
-| 小学校・中学校の位置 | OpenStreetMap `amenity=school` | 取得中 |
-| 幼稚園・保育園の位置 | OpenStreetMap `amenity=kindergarten` / `childcare` | 取得中 |
+| 小学校・中学校の位置 | OpenStreetMap `amenity=school` | 11,709件を取得し、スコアに入れた |
+| 幼稚園・保育園の位置 | OpenStreetMap `amenity=kindergarten` / `childcare` | 幼稚園5,154件・保育園882件を取得し、スコアに入れた |
 | 保育園の定員 | 各区が公開している施設一覧 | 未着手。23区で様式が違う |
 | 待機児童数 | 東京都福祉局が区ごとに公表 | 未着手 |
 | 子育て世帯の比率 | 国勢調査 町丁・字等別集計（e-Stat） | 未着手 |
 
-**揃うまで「子育てしやすい」タグは付けない。**根拠のない評価語を出すほうが、
-タグが無いより悪い（[13-japanese-style-rules.md](./13-japanese-style-rules.md) ルール19）。
+学校と園を入れて組み直した結果、高円寺は94点から61点（181位）になり、
+「子育てしやすい」タグは外れた。タグが付くのは70駅で、上位は西巣鴨・中延・
+武蔵小山・西ケ原・板橋である。配分は [03-scoring.md](./03-scoring.md) §4.3 にある。
+
+**残りが揃うまで、定員や待機児童数には触れない。**根拠のない評価語を出すほうが、
+書かないより悪い（[13-japanese-style-rules.md](./13-japanese-style-rules.md) ルール19）。
 
 OpenStreetMap の登録の細かさが区によって20倍違う問題は、学校の数にも同じように表れる
 （[03-scoring.md](./03-scoring.md) §4.4）。学校は公共施設なので店ほど偏らないはずだが、
