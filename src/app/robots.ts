@@ -1,8 +1,13 @@
 import type { MetadataRoute } from "next";
 
-import { SITE_URL } from "@/lib/site";
+import { IS_CANONICAL_HOST, SITE_URL } from "@/lib/site";
 
 export default function robots(): MetadataRoute.Robots {
+  // 独自ドメインが決まるまでは、仮のアドレスを検索エンジンに登録させない
+  // （理由は src/lib/site.ts の IS_CANONICAL_HOST にある）。
+  if (!IS_CANONICAL_HOST) {
+    return { rules: { userAgent: "*", disallow: "/" } };
+  }
   return {
     rules: {
       userAgent: "*",
