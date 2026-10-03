@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { SegmentPicker } from "@/components/SegmentPicker";
 import { SeedNotice } from "@/components/SeedNotice";
 import { StationCard } from "@/components/StationCard";
 import { getDictionary } from "@/lib/dictionaries";
@@ -9,7 +10,7 @@ import { standardMetadata } from "@/lib/seo";
 import { ACTIVE_LOCALES, isActiveLocale } from "@/lib/i18n";
 import { overallScoreForPreset } from "@/lib/scoring";
 import { getLocalizedStations } from "@/lib/stations";
-import { isWeightPreset, WEIGHT_PRESETS, type WeightPreset } from "@/lib/weights";
+import { isWeightPreset, type WeightPreset } from "@/lib/weights";
 
 export function generateStaticParams() {
   return ACTIVE_LOCALES.map((locale) => ({ locale }));
@@ -64,26 +65,16 @@ export default async function StationsPage({
 
       {hasSeedData && <SeedNotice dict={dict} />}
 
-      {/* 重みプリセットを変えるとランキングが変わる（docs/03-scoring.md §5）。
+      {/* 区分を変えるとランキングが変わる（docs/14-audience-segments.md §3）。
           状態は URL に載せて共有可能にする。 */}
-      <nav className="space-y-2">
-        <p className="text-sm font-medium text-ink">{dict.list.perspective}</p>
-        <div className="flex flex-wrap gap-2">
-          {WEIGHT_PRESETS.map((p) => (
-            <Link
-              key={p}
-              href={p === "balanced" ? `/${locale}/stations` : `/${locale}/stations?view=${p}`}
-              className={
-                p === preset
-                  ? "rounded-full bg-accent px-3.5 py-1.5 text-sm font-medium text-white"
-                  : "rounded-full border border-line bg-surface px-3.5 py-1.5 text-sm text-ink-soft hover:border-accent hover:text-accent"
-              }
-            >
-              {dict.presets[p]}
-            </Link>
-          ))}
-        </div>
-      </nav>
+      <SegmentPicker
+        preset={preset}
+        dict={dict}
+        title={dict.list.perspective}
+        href={(key) =>
+          key === "balanced" ? `/${locale}/stations` : `/${locale}/stations?view=${key}`
+        }
+      />
 
       <ol className="grid gap-4 sm:grid-cols-2">
         {stations.map(({ station, overall }, index) => (

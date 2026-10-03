@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { SegmentPicker } from "@/components/SegmentPicker";
 import { SeedNotice } from "@/components/SeedNotice";
 import { getDictionary } from "@/lib/dictionaries";
 import { standardMetadata } from "@/lib/seo";
@@ -10,7 +11,7 @@ import { ACTIVE_LOCALES, isActiveLocale } from "@/lib/i18n";
 import { OFFICE_HUBS, RENT_TYPES, type OfficeHub, type RentType } from "@/lib/schema";
 import { rankStations } from "@/lib/scoring";
 import { getAllStations, getStationContent } from "@/lib/stations";
-import { isWeightPreset, PRESET_WEIGHTS, WEIGHT_PRESETS, type WeightPreset } from "@/lib/weights";
+import { isWeightPreset, PRESET_WEIGHTS, type WeightPreset } from "@/lib/weights";
 
 /** 既定の検索条件。指定がなければこれで結果を出す（空の入力フォームを見せない）。 */
 const DEFAULTS = {
@@ -216,16 +217,12 @@ export default async function WorkPage({
           </div>
         </fieldset>
 
-        <fieldset className="space-y-2">
-          <legend className="text-sm font-medium text-ink">{dict.find.priority}</legend>
-          <div className="flex flex-wrap gap-2">
-            {WEIGHT_PRESETS.map((p) => (
-              <Link key={p} href={link({ view: p })} className={chip(p === preset)}>
-                {dict.presets[p]}
-              </Link>
-            ))}
-          </div>
-        </fieldset>
+        <SegmentPicker
+          preset={preset}
+          dict={dict}
+          title={dict.find.priority}
+          href={(key) => link({ view: key })}
+        />
       </form>
 
       <section className="space-y-4">

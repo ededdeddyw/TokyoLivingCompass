@@ -233,6 +233,7 @@ def main():
     roads = computed("roads.json", "stations")
     hazard = computed("hazard.json", "stations")
     bands = computed("rent-bands.json")
+    passengers = computed("passengers.json", "stations")
 
     TIER_OF = {"オオゼキ": "d", "業務スーパー": "d", "西友": "d", "オーケー": "d",
                "赤札堂": "d", "ロピア": "d", "Big-A": "d", "ビッグ・エー": "d",
@@ -286,6 +287,10 @@ def main():
     # 幼稚園と保育園は、どちらも小さい子どもの預け先なのでまとめて数える
     counts["nursery"] = {s["slug"]: counts["kindergarten"][s["slug"]]
                                     + counts["childcare"][s["slug"]] for s in roster}
+    # 駅の大きさ。1日あたりの乗降客数（国土数値情報 S12）。
+    # 店の登録の偏りに引きずられない物差しとして使う
+    counts["passengers"] = {s["slug"]: passengers.get(s["slug"], {}).get("daily", 0)
+                            for s in roster}
     pct = {c: percentile_scores(counts[c]) for c in counts}
     pct_near = {c: percentile_scores(near[c]) for c in near}
 
@@ -348,15 +353,28 @@ def main():
             # （1,000m）で数える。夜の店の多さは重み0.15では効かなかったので、
             # 0.28まで上げた。子どもと暮らす場所を選ぶうえで、
             # 駅前が飲み屋街かどうかは学校の数と同じくらい大きい。
+            #
+            # ただし酒場の数だけでは、池袋のような大きな駅を拾えない。
+            # OpenStreetMap に登録されている池袋の酒場は、駅から800m以内で53軒である。
+            # 御徒町の728軒、淡路町の298軒と比べて桁が違い、実態と合わない
+            # （docs/03-scoring.md §4.4）。半径を変えても直らない。
+            # そこで乗降客数も見る。1日193万人が使う駅は、酒場の登録が少なくても
+            # 子どもと暮らす場所としては落ち着いた環境ではない。
+            # 酒場の多さと駅の大きさの、高いほうを減点に使う。
             flat = {"flat": 1.0, "some": 0.55, "hilly": 0.2}.get(
                 (terrain.get(slug) or {}).get("slope"), 0.55)
-            family_raw[slug] = (
-                pct["school"][slug] * 0.22
-                + pct["nursery"][slug] * 0.22
-                + pct["park"][slug] * 0.18
-                + pct["supermarket"][slug] * 0.10
-                + flat * 10
-                + (100 - pct_near["bar"][slug]) * 0.28)
+            # 施設の多さを出したうえで、繁華街・大きな駅であるぶんを割り引く。
+            # 引き算にすると、池袋のように施設が多い駅では引ききれない。
+            # 1日193万人が使う駅は、学校が34校あっても
+            # 子どもと暮らす場所としては落ち着いた環境ではない。
+            facilities = (
+                pct["school"][slug] * 0.26
+                + pct["nursery"][slug] * 0.26
+                + pct["park"][slug] * 0.22
+                + pct["supermarket"][slug] * 0.13
+                + flat * 13)
+            hub = max(pct_near["bar"][slug], pct["passengers"].get(slug, 0)) / 100
+            family_raw[slug] = facilities * (1 - 0.55 * hub)
 
             # 一人暮らし適性は、自炊しなくても生活が回るかで見る。
             scores["singleLife"] = clamp(

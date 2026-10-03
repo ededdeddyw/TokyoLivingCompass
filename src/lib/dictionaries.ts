@@ -1,7 +1,7 @@
 import type { ActiveLocale } from "./i18n";
 import type { ExitTag, RentMethod, RentType, ScoreAxis, StationTag } from "./schema";
 import type { Grade } from "./scoring";
-import type { WeightPreset } from "./weights";
+import type { SegmentAxis, SegmentOption } from "./weights";
 
 /** UI 文言。駅の散文（data/content）とは別管理（docs/04-i18n.md §6）。 */
 
@@ -170,7 +170,12 @@ export type Dictionary = {
   axes: Record<ScoreAxis, string>;
   grades: Record<Grade, string>;
   rentTypes: Record<RentType, string>;
-  presets: Record<WeightPreset, string>;
+  /** 区分の既定（すべての軸を均等に見る）の呼び名。 */
+  balancedLabel: string;
+  /** 区分を決める3つの軸の名前（docs/14-audience-segments.md §2）。 */
+  segmentAxes: Record<SegmentAxis, string>;
+  /** 軸ごとの選択肢の名前。 */
+  segmentOptions: Record<SegmentOption, string>;
   offices: Record<string, string>;
   crowdingLevels: Record<1 | 2 | 3 | 4 | 5, string>;
 };
@@ -434,13 +439,19 @@ const ja: Dictionary = {
     oneLDK: "1LDK",
     twoLDK: "2LDK",
   },
-  presets: {
-    balanced: "バランス",
-    single: "一人暮らし",
-    family: "ファミリー",
-    quiet: "静かさ重視",
-    value: "コスパ重視",
-    international: "外国人向け",
+  balancedLabel: "すべて均等",
+  segmentAxes: {
+    household: "世帯",
+    night: "夜の過ごし方",
+    money: "お金の置き方",
+  },
+  segmentOptions: {
+    kids: "子どもと住む",
+    solo: "子どもなし",
+    out: "夜は街で過ごす",
+    home: "夜は家で過ごす",
+    thrifty: "家賃を抑える",
+    location: "立地に出す",
   },
   offices: {
     shinjuku: "新宿",
@@ -719,13 +730,19 @@ const en: Dictionary = {
     oneLDK: "1LDK",
     twoLDK: "2LDK",
   },
-  presets: {
-    balanced: "Balanced",
-    single: "Living alone",
-    family: "Family",
-    quiet: "Quiet",
-    value: "Value",
-    international: "Foreign residents",
+  balancedLabel: "All axes equally",
+  segmentAxes: {
+    household: "Household",
+    night: "Evenings",
+    money: "Where the money goes",
+  },
+  segmentOptions: {
+    kids: "With children",
+    solo: "No children",
+    out: "Out in the neighbourhood",
+    home: "At home",
+    thrifty: "Keep the rent down",
+    location: "Pay for location",
   },
   offices: {
     shinjuku: "Shinjuku",
@@ -996,13 +1013,19 @@ const zhHans: Dictionary = {
     oneLDK: "1LDK",
     twoLDK: "2LDK",
   },
-  presets: {
-    balanced: "均衡",
-    single: "单身生活",
-    family: "家庭",
-    quiet: "安静",
-    value: "性价比",
-    international: "外国居民",
+  balancedLabel: "各项均衡",
+  segmentAxes: {
+    household: "家庭构成",
+    night: "夜间的过法",
+    money: "预算的取向",
+  },
+  segmentOptions: {
+    kids: "与孩子同住",
+    solo: "没有孩子",
+    out: "夜晚在街上度过",
+    home: "夜晚在家度过",
+    thrifty: "压低房租",
+    location: "为位置付费",
   },
   offices: {
     shinjuku: "新宿",
@@ -1273,13 +1296,19 @@ const ko: Dictionary = {
     oneLDK: "1LDK",
     twoLDK: "2LDK",
   },
-  presets: {
-    balanced: "균형",
-    single: "1인 생활",
-    family: "가족",
-    quiet: "조용함",
-    value: "가격 대비",
-    international: "외국인 거주자",
+  balancedLabel: "모든 축을 균등하게",
+  segmentAxes: {
+    household: "가구 구성",
+    night: "저녁 시간",
+    money: "돈을 쓰는 곳",
+  },
+  segmentOptions: {
+    kids: "아이와 함께 산다",
+    solo: "아이가 없다",
+    out: "저녁은 동네에서",
+    home: "저녁은 집에서",
+    thrifty: "월세를 낮춘다",
+    location: "입지에 쓴다",
   },
   offices: {
     shinjuku: "신주쿠",
