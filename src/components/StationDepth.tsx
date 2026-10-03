@@ -164,6 +164,9 @@ export function StationDepth({
     "family",
     "medical",
     "stationNote",
+    // 混雑率は「駅の使い勝手」のすぐ後ろに置く。毎朝どの電車に乗るかの話なので、
+    // 路線の説明を読んだ直後に見えたほうが読み手がつなげやすい。
+    "congestion",
     "nightWalk",
     "residents",
     "housingStock",

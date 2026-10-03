@@ -290,6 +290,52 @@ def bustle_tag(slug, ctx):
     return "someBustle" if bustle_ratio(slug, ctx) >= SOME_BUSTLE_RATIO else None
 
 
+def congestion_text(slug, lines, line_ids, ctx):
+    """朝の混雑率の節を組み立てる。路線ごとに、公表されている最混雑区間と値を書く。
+
+    値は路線の最混雑区間のものなので、その区間にこの駅が入っているかどうかで
+    読み手にとっての意味が変わる。門前仲町は東西線の最混雑区間（木場→門前仲町）に
+    入っており、毎朝その混み方の電車に乗ることになる。
+    """
+    p_, cong = ctx["p"], ctx["congestion"]
+    rows = []
+    for lid, name in zip(line_ids, lines):
+        v = cong.get(lid)
+        if v:
+            rows.append((v["rate"], lid, name, v))
+    if not rows:
+        # 都電荒川線や東京モノレールは調査の対象に入っていない。
+        # 黙って節を落とすと、調べていないのか混まないのかが読み手に分からない。
+        if not lines:
+            return None, None
+        return p_["congestionAllUnknown"].format(lines=join(p_, lines)), None
+    rows.sort(key=lambda r: -r[0])
+    bits = []
+    off_peak_seen = False
+    for rate, _, name, v in rows[:3]:
+        section = f"{v['fromStation']}→{v['toStation']}"
+        if slug in (v.get("fromSlug"), v.get("toSlug")):
+            key = "congestionOnPeak"
+        else:
+            # 2つめ以降は言い方を変える。同じ文末が続くと読みにくい（ルール22）
+            key = "congestionOffPeak2" if off_peak_seen else "congestionOffPeak"
+            off_peak_seen = True
+        bits.append(p_[key].format(line=name, rate=rate, section=section))
+    top = rows[0][0]
+    # 目安は、その駅の値が超えている段を書く。167%に「180%は…」と添えると、
+    # 実際より混むように読める
+    step = 4 if top >= 200 else 3 if top >= 180 else 2 if top >= 150 else 1
+    bits.append(p_[f"congestionScale{step}"])
+    bits.append(p_["congestionTrailer"])
+    # 公表されていない路線があることも書く。都電荒川線のように調査の対象外がある
+    known = {lid for _, lid, _, _ in rows}
+    unknown = [n for lid, n in zip(line_ids, lines) if lid not in known]
+    if unknown:
+        bits.insert(min(len(rows), 3),
+                    p_["congestionUnknown"].format(lines=join(p_, unknown)))
+    return "".join(bits).strip(), top
+
+
 def compare_lead(p, a, b, ctx):
     """
     2駅を比べた「一言でいうと」を組み立てる。
@@ -533,6 +579,13 @@ def build(st, ctx):
         note.append(p["stationTransitScore"].format(score=sc["transitConvenience"]))
     c["stationNote"] = "".join(note).strip()
 
+    # ── 朝の混雑率（国土交通省の調査） ─────────────
+    text, top = congestion_text(
+        slug, lines, [i for i in st["lineIds"] if i in ctx["lines"]], ctx)
+    if text:
+        c["congestion"] = text
+        ctx.setdefault("_congestionTop", {})[slug] = top
+
     # ── 家賃（当社調べ） ───────────────────────────
     if band:
         b = band["bands"]
@@ -690,6 +743,8 @@ def build(st, ctx):
         leads["rentRange"] = p[band_key("leadRent", sc["rentValue"])]
     if "healthcare" in sc:
         leads["medical"] = p[band_key("leadMedical", sc["healthcare"])]
+    if slug in ctx["congestionEase"]:
+        leads["congestion"] = p[band_key("leadCongestion", ctx["congestionEase"][slug])]
     if near_road and near_road[1].get("name"):
         cls, v = near_road
         key = ("leadNoiseLoud" if (cls == "motorway" and v["m"] <= 200) or v["m"] <= 60
@@ -724,6 +779,23 @@ def main():
     roster = load("roster/stations.json")
     pois_doc = load("computed/pois.json")
     buildings = load("computed/buildings.json")["stations"]
+    congestion = load("computed/congestion.json")["lines"]
+
+    # 混雑率の一言は「23区の駅の中で高いか低いか」で出す。
+    # 駅が使える路線のうち、いちばん混む路線の値をその駅の値とし、
+    # 低いほうが高い点になるように向きをそろえる。
+    peak = {}
+    for r in roster:
+        rates = [congestion[i]["rate"] for i in r["lineIds"] if i in congestion]
+        if rates:
+            peak[r["slug"]] = max(rates)
+    order = sorted(peak.values())
+    ease = {}
+    for slug, v in peak.items():
+        below = sum(1 for x in order if x < v)
+        same = sum(1 for x in order if x == v)
+        ease[slug] = 100 - round((below + same / 2) / len(order) * 100)
+
     ctx = {
         "locale": args.locale,
         "p": PHRASES[args.locale],
@@ -746,6 +818,11 @@ def main():
         # 路面の店の数だけでは、縦に積まれた街の厚みを測れない
         "floors": {r["slug"]: buildings.get(r["slug"], {}).get("floors", 0)
                    for r in roster},
+        # 路線ごとの朝の混雑率（国土交通省の調査）。路線IDで引く
+        "congestion": congestion,
+        # 使える路線のうち、いちばん混む路線の混雑率を、23区の駅の中での
+        # 位置に直した値。低いほうが高い点になる
+        "congestionEase": ease,
         "haz": load("computed/hazard.json")["stations"],
         "bands": load("computed/rent-bands.json"),
         "pois": pois_doc["stations"],
@@ -766,7 +843,9 @@ def main():
                 # 入っており、人が書いた一言は上書きしない。
                 fresh = build(st, ctx)
                 touched = False
-                for field in ("neighbours", "tags"):
+                # 混雑率は出典のある数字だけから組み立てるので、人が書いた駅でも
+                # ここで作り直す。調査結果が更新されたら全駅に反映される。
+                for field in ("neighbours", "tags", "congestion"):
                     if fresh.get(field) and fresh[field] != existing.get(field):
                         existing[field] = fresh[field]
                         touched = True

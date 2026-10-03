@@ -125,6 +125,7 @@ export type Dictionary = {
     housingStock: string;
     hazards: string;
     stationNote: string;
+    congestion: string;
     nightWalk: string;
     rentReason: string;
     neighbours: string;
@@ -306,6 +307,7 @@ const ja: Dictionary = {
     housingStock: "物件の傾向",
     hazards: "災害リスク",
     stationNote: "駅の使い勝手",
+    congestion: "朝の混雑率",
     nightWalk: "夜の帰り道",
     rentReason: "家賃がこの水準である理由",
     neighbours: "近くの駅との違い",
@@ -586,6 +588,7 @@ const en: Dictionary = {
     housingStock: "What the housing is like",
     hazards: "Disaster risk",
     stationNote: "Using the station",
+    congestion: "Morning crowding",
     nightWalk: "Walking home at night",
     rentReason: "Why rent sits where it does",
     neighbours: "How the nearest stations differ",
@@ -868,6 +871,7 @@ const zhHans: Dictionary = {
     housingStock: "房子的类型",
     hazards: "灾害风险",
     stationNote: "车站用起来如何",
+    congestion: "早高峰的拥挤率",
     nightWalk: "夜里回家的路",
     rentReason: "租金为何是这个水平",
     neighbours: "与邻近车站的差别",
@@ -1144,6 +1148,7 @@ const ko: Dictionary = {
     housingStock: "어떤 집이 많은가",
     hazards: "재해 위험",
     stationNote: "역을 쓸 때",
+    congestion: "아침 혼잡률",
     nightWalk: "밤에 집으로 가는 길",
     rentReason: "임대료가 이 수준인 이유",
     neighbours: "가까운 역과의 차이",

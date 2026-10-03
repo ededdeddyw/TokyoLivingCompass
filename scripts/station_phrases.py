@@ -126,6 +126,32 @@ PHRASES = {
                           "書かれていない。各施設のウェブサイトで確かめてほしい。"
                           "夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
 
+        "congestionOnPeak": "{line}の朝の混雑率は{rate}%である。"
+                            "この駅を含む{section}が、{line}でいちばん混む区間にあたる。",
+        "congestionOffPeak": "{line}の朝の混雑率は{rate}%である。"
+                             "いちばん混むのは{section}で、この駅はその区間に入らない。",
+        "congestionOffPeak2": "{line}は{rate}%である。"
+                              "こちらでいちばん混むのは{section}で、やはりこの駅は外にある。",
+        "congestionUnknown": "{lines}の混雑率は、国土交通省の調査では公表されていない。",
+        "congestionAllUnknown": "{lines}の朝の混雑率は、国土交通省の調査では公表されていない。"
+                                "この調査は主要な区間を対象にしており、"
+                                "この路線は対象に入っていない。",
+        "congestionScale4": "国土交通省の目安では、200%は体が触れ合って相当な圧迫感がある状態を指す。"
+                            "ドア付近の人は身動きがとれない。",
+        "congestionScale3": "国土交通省の目安では、180%は肩が触れ合ってやや圧迫感がある状態を指す。"
+                            "ドア付近の人は、体の向きを変えるのが難しくなる。",
+        "congestionScale2": "国土交通省の目安では、150%は肩が触れ合わない程度で、"
+                            "ドア付近の人が多くなる状態を指す。ここはそれを超えている。",
+        "congestionScale1": "国土交通省の目安では、150%で肩が触れ合わない程度になる。"
+                            "ここはそこまでは混まない。",
+        "congestionTrailer": "数字は最混雑時間帯1時間の平均で、令和7年度の調査による。"
+                             "路線の中でいちばん混む区間の値なので、"
+                             "この駅から乗る区間が同じ混み方とは限らない。",
+        "leadCongestion5": "使える路線の朝の混雑率は、23区の駅の中ではかなり低い。",
+        "leadCongestion4": "使える路線の朝の混雑率は、23区の駅の中では低いほうである。",
+        "leadCongestion3": "使える路線の朝の混雑率は、23区の駅の平均くらいである。",
+        "leadCongestion2": "使える路線の朝の混雑率は、23区の駅の中では高いほうである。",
+        "leadCongestion1": "使える路線の朝の混雑率は、23区の駅の中でもかなり高い。",
         "stationLines": "{lines}の{count}{lineWord}が使える。",
         "stationLinesCount": "使えるのは{count}{lineWord}である。",
         "stationLinesHead": "{lines}が通る。",
@@ -319,6 +345,38 @@ PHRASES = {
                           "For which clinics open at night and at weekends, ask the emergency "
                           "advice line of the ward you live in.",
 
+        "congestionOnPeak": "{line} runs at {rate}% of capacity in the morning peak. "
+                            "The busiest stretch of the line is {section}, "
+                            "which includes this station. ",
+        "congestionOffPeak": "{line} runs at {rate}% of capacity in the morning peak. "
+                             "The busiest stretch is {section}, which this station is not on. ",
+        "congestionOffPeak2": "{line} runs at {rate}%. Its busiest stretch is {section}, "
+                              "which this station is likewise not on. ",
+        "congestionUnknown": "{lines} is not covered by the ministry's congestion survey. ",
+        "congestionAllUnknown": "The ministry's congestion survey does not publish figures "
+                                "for {lines}. It covers the major commuter stretches, "
+                                "and this line is not among them. ",
+        "congestionScale4": "At 200%, the ministry's scale describes bodies pressed together "
+                            "and passengers near the doors unable to move. ",
+        "congestionScale3": "At 180%, the ministry's scale describes shoulders touching "
+                            "and difficulty turning around. ",
+        "congestionScale2": "At 150%, the ministry's scale describes shoulders not quite "
+                            "touching, with crowding near the doors. ",
+        "congestionScale1": "At 100%, the ministry's scale describes every passenger "
+                            "either seated or able to hold a strap or pillar. ",
+        "congestionTrailer": "The figures are hourly averages for the peak hour, "
+                             "from the fiscal 2025 survey. They describe each line's busiest "
+                             "stretch, so the stretch you ride may be easier. ",
+        "leadCongestion5": "Among the 23 wards' stations, the lines here are very lightly "
+                           "loaded in the morning. ",
+        "leadCongestion4": "Among the 23 wards' stations, the lines here are lightly loaded "
+                           "in the morning. ",
+        "leadCongestion3": "Morning loading on the lines here is about average for the "
+                           "23 wards' stations. ",
+        "leadCongestion2": "Among the 23 wards' stations, the lines here are heavily loaded "
+                           "in the morning. ",
+        "leadCongestion1": "Among the 23 wards' stations, the lines here are some of the most "
+                           "heavily loaded in the morning. ",
         "stationLines": "{count} {lineWord} serve the station: {lines}. ",
         "stationLinesCount": "{count} {lineWord} serve the station. ",
         "stationLinesHead": "{lines} run through it. ",
@@ -503,6 +561,23 @@ PHRASES = {
                           "请到各设施的网站上确认。夜间和休息日能就诊的医疗机构，"
                           "可以向所住区的急救咨询窗口查询。",
 
+        "congestionOnPeak": "{line}早高峰的拥挤率为{rate}%。全线最拥挤的区间是{section}，本站在该区间内。",
+        "congestionOffPeak": "{line}早高峰的拥挤率为{rate}%。最拥挤的区间是{section}，本站不在该区间内。",
+        "congestionOffPeak2": "{line}为{rate}%。该线最拥挤的区间是{section}，本站同样不在其中。",
+        "congestionUnknown": "{lines}的拥挤率未在国土交通省的调查中公布。",
+        "congestionAllUnknown": "{lines}的早高峰拥挤率未在国土交通省的调查中公布。"
+                                "该调查以主要区间为对象，不包含这条线路。",
+        "congestionScale4": "按国土交通省的标准，200%指身体相互接触、压迫感很强，车门附近的人无法移动。",
+        "congestionScale3": "按国土交通省的标准，180%指肩膀相互接触、略有压迫感，转身困难。",
+        "congestionScale2": "按国土交通省的标准，150%指肩膀不会相互接触，车门附近人较多。",
+        "congestionScale1": "按国土交通省的标准，100%指所有人都能就座或抓住吊环、立柱。",
+        "congestionTrailer": "数字是最拥挤时段1小时的平均值，来自令和7年度的调查。"
+                             "这是全线最拥挤区间的数值，本站乘车的区间未必相同。",
+        "leadCongestion5": "可使用线路的早高峰拥挤率，在23区的车站中非常低。",
+        "leadCongestion4": "可使用线路的早高峰拥挤率，在23区的车站中偏低。",
+        "leadCongestion3": "可使用线路的早高峰拥挤率，与23区车站的平均水平相当。",
+        "leadCongestion2": "可使用线路的早高峰拥挤率，在23区的车站中偏高。",
+        "leadCongestion1": "可使用线路的早高峰拥挤率，在23区的车站中非常高。",
         "stationLines": "可以使用{lines}这{count}{lineWord}。",
         "stationLinesCount": "可以使用的线路共{count}{lineWord}。",
         "stationLinesHead": "{lines}经过。",
@@ -684,6 +759,32 @@ PHRASES = {
                           "야간이나 휴일에 진료받을 수 있는 의료기관은 사는 구의 응급 상담 "
                           "창구에서 확인할 수 있다.",
 
+        "congestionOnPeak": "{line}의 아침 혼잡률은 {rate}%이다. "
+                            "노선에서 가장 혼잡한 구간은 {section}이며, 이 역이 그 구간에 들어간다. ",
+        "congestionOffPeak": "{line}의 아침 혼잡률은 {rate}%이다. "
+                             "가장 혼잡한 구간은 {section}이고, 이 역은 그 구간에 들어가지 않는다. ",
+        "congestionOffPeak2": "{line}은 {rate}%이다. 이 노선에서 가장 혼잡한 구간은 {section}이며, "
+                              "이 역도 그 구간에 들어가지 않는다. ",
+        "congestionUnknown": "{lines}의 혼잡률은 국토교통성 조사에서 공표되지 않았다. ",
+        "congestionAllUnknown": "{lines}의 아침 혼잡률은 국토교통성 조사에서 공표되지 않았다. "
+                                "이 조사는 주요 구간을 대상으로 하며, "
+                                "이 노선은 대상에 들어가지 않는다. ",
+        "congestionScale4": "국토교통성 기준으로 200%는 몸이 서로 닿아 상당한 압박감이 있고, "
+                            "문 근처의 사람은 움직일 수 없는 상태를 말한다. ",
+        "congestionScale3": "국토교통성 기준으로 180%는 어깨가 닿아 다소 압박감이 있고, "
+                            "몸의 방향을 바꾸기 어려운 상태를 말한다. ",
+        "congestionScale2": "국토교통성 기준으로 150%는 어깨가 닿지 않을 정도이며, "
+                            "문 근처에 사람이 많아지는 상태를 말한다. ",
+        "congestionScale1": "국토교통성 기준으로 100%는 좌석에 앉거나 손잡이나 기둥을 "
+                            "잡을 수 있는 상태를 말한다. ",
+        "congestionTrailer": "수치는 가장 혼잡한 시간대 1시간의 평균이며, 令和7년도 조사에 따른다. "
+                             "노선에서 가장 혼잡한 구간의 값이므로, "
+                             "이 역에서 타는 구간이 같은 정도라고는 할 수 없다. ",
+        "leadCongestion5": "이용할 수 있는 노선의 아침 혼잡률은 23구의 역 중에서 매우 낮은 편이다. ",
+        "leadCongestion4": "이용할 수 있는 노선의 아침 혼잡률은 23구의 역 중에서 낮은 편이다. ",
+        "leadCongestion3": "이용할 수 있는 노선의 아침 혼잡률은 23구 역의 평균 정도이다. ",
+        "leadCongestion2": "이용할 수 있는 노선의 아침 혼잡률은 23구의 역 중에서 높은 편이다. ",
+        "leadCongestion1": "이용할 수 있는 노선의 아침 혼잡률은 23구의 역 중에서도 매우 높다. ",
         "stationLines": "{lines}의 {count}{lineWord}을 이용할 수 있다. ",
         "stationLinesCount": "이용할 수 있는 노선은 {count}{lineWord}이다. ",
         "stationLinesHead": "{lines}이 지난다. ",

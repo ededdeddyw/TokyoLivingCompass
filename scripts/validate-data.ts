@@ -265,12 +265,18 @@ const bar = (n: number) => {
 const layers: [string, number][] = [
   ["所在区・路線", stations.length],
   ["所要時間（計算）", stations.filter((s) => s.commutes.length === OFFICE_HUBS.length).length],
-  ["朝の混雑・始発", stations.filter((s) => s.morningCrowding !== undefined).length],
+  ["朝の混雑・始発（人が書く層）", stations.filter((s) => s.morningCrowding !== undefined).length],
   ["家賃", stations.filter((s) => s.rent !== undefined).length],
   ["スコア（1軸以上）", stations.filter((s) => Object.keys(s.scores).length > 0).length],
   ["スコア（16軸すべて）", stations.filter((s) => Object.keys(s.scores).length === SCORE_AXES.length).length],
   ["周辺施設", stations.filter((s) => s.facilities !== undefined).length],
 ];
+layers.push([
+  "朝の混雑率（国土交通省の調査）",
+  listContentSlugs("ja").filter((slug) => {
+    return Boolean(getStationContent(slug, "ja")?.congestion);
+  }).length,
+]);
 for (const locale of ACTIVE_LOCALES) {
   layers.push([`コンテンツ（${locale}）`, listContentSlugs(locale).filter((x) => slugs.has(x)).length]);
 }

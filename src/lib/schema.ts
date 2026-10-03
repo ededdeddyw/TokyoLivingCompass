@@ -437,6 +437,7 @@ export const neighbourNoteSchema = z.object({
  */
 export const LEAD_FIELDS = [
   "faces",
+  "congestion",
   "terrain",
   "noiseSources",
   "groceries",
@@ -497,6 +498,13 @@ export const stationContentSchema = z.object({
   hazards: z.string().optional(),
   /** 駅そのものの使い勝手。ホームの深さ、改札の位置、乗換の実際 */
   stationNote: z.string().optional(),
+  /**
+   * 朝の混雑率。国土交通省の調査から、その駅で使える路線ごとに出す。
+   *
+   * DEPTH_FIELDS には入れない。出典のある数字だけから全458駅ぶんを組み立てる層で、
+   * 人が書く17層の充足率に混ぜると、書けている駅の数が実態より多く見える。
+   */
+  congestion: z.string().optional(),
   /** 夜の帰り道 */
   nightWalk: z.string().optional(),
   /** 家賃が相場より高い／安い理由 */
