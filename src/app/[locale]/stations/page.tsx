@@ -8,7 +8,7 @@ import { StationCard } from "@/components/StationCard";
 import { getDictionary } from "@/lib/dictionaries";
 import { standardMetadata } from "@/lib/seo";
 import { ACTIVE_LOCALES, isActiveLocale } from "@/lib/i18n";
-import { overallScoreForPreset } from "@/lib/scoring";
+import { rankBySegment } from "@/lib/scoring";
 import { getLocalizedStations } from "@/lib/stations";
 import { isWeightPreset, type WeightPreset } from "@/lib/weights";
 
@@ -47,10 +47,10 @@ export default async function StationsPage({
   const preset: WeightPreset = view && isWeightPreset(view) ? view : "balanced";
 
   const dict = getDictionary(locale);
-  // スコア未測定の駅は順位が付けられないので末尾にまとめる。
-  const stations = getLocalizedStations(locale)
-    .map((station) => ({ station, overall: overallScoreForPreset(station, preset) }))
-    .sort((a, b) => (b.overall ?? -1) - (a.overall ?? -1));
+  // 区分が重く見る軸が下位3割に入る駅は後ろへ回す（docs/14-audience-segments.md §3.1）。
+  // スコア未測定の駅は順位が付けられないので、さらに後ろにまとめる。
+  const stations = rankBySegment(getLocalizedStations(locale), preset);
+  const gatedCount = stations.filter(({ gatedBy }) => gatedBy.length > 0).length;
 
   const hasSeedData = stations.some(({ station }) => station.dataQuality === "seed");
 
@@ -75,6 +75,10 @@ export default async function StationsPage({
           key === "balanced" ? `/${locale}/stations` : `/${locale}/stations?view=${key}`
         }
       />
+
+      {gatedCount > 0 && (
+        <p className="text-xs text-ink-soft">{dict.list.gateNote}</p>
+      )}
 
       <ol className="grid gap-4 sm:grid-cols-2">
         {stations.map(({ station, overall }, index) => (

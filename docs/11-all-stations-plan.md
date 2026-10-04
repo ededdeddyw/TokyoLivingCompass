@@ -14,7 +14,7 @@
 |---|---|---|
 | 所在区・路線 | — | 458 ✅ 完了 |
 | 所要時間（7オフィス街） | 7 | 3,206 ✅ 完了 |
-| スコア | 16軸 | 7,088 |
+| スコア | 18軸 | 8,244 |
 | 家賃相場 | 4間取り | 1,772 |
 | 周辺施設 | 数件 | — |
 | 散文（日本語） | 5項目 | 2,215 |
@@ -32,23 +32,26 @@
 |---|---|---|---|
 | L1 事実 | 駅名・所在区・路線 | 公開データから機械生成 | ✅ 458/458 |
 | L2 計算 | 所要時間、commute、transitConvenience | 鉄道networkの最短経路と路線構成から計算 | ✅ 458/458 |
-| L3 購入 | 家賃4間取り、rentValue | 商用の賃料統計を購入 | ⬜ 12/458（推定値） |
-| L4 一次データ | 施設系6軸、safety、nature | POI・犯罪統計・公園データから機械生成 | ⬜ 12/458（推定値） |
-| L5 判断 | quietness、style、family、singleLife、internationalFriendliness | 人間の土地勘 | ⬜ 12/458（推定値） |
+| L3 家賃 | 家賃4間取り、rentValue、rentLow | 各サイトが公開している駅ごとの相場を人が記録して平均する | ⬜ 443/458 |
+| L4 一次データ | 施設系の軸、nature、quietness、family、singleLife、disaster | POI・標高・ハザードマップ・乗降客数から機械生成 | ✅ 458/458 |
+| L5 判断 | safety、style、internationalFriendliness | 犯罪統計の取得と、人間の土地勘 | ⬜ 0/458 |
 | L6 散文 | 各駅の説明と在住者コメント | 日本語は人間、他言語はAIローカライズ＋レビュー | ⬜ 12/458（仮テキスト） |
 
 現在の充足率は `npm run validate:data` が毎回表示する。
 
-### 16軸の内訳
+### 18軸の内訳
 
 | 層 | 軸 |
 |---|---|
 | L2 計算（完了） | `commute` `transitConvenience` |
-| L3 購入 | `rentValue`（家賃と通勤時間から算出） |
-| L4 一次データ | `shopping` `food` `cafe` `nightlife` `healthcare` `fitness` `safety` `nature` |
-| L5 人間の判断 | `quietness` `family` `singleLife` `internationalFriendliness` `style` |
+| L3 家賃から（443駅） | `rentValue` `rentLow` |
+| L4 一次データ（完了） | `shopping` `food` `cafe` `nightlife` `healthcare` `fitness` `nature` `quietness` `family` `singleLife` `disaster` |
+| L5 残り | `safety` `internationalFriendliness` `style` |
 
-**機械で8軸、購入で1軸、人間は5軸。** 人間が判断する軸を5つに絞れたことが、458駅を現実的にしている。
+**機械で15軸が埋まり、残りは3軸。** `safety` は警視庁の犯罪発生マップ、
+`internationalFriendliness` は区別の外国人人口比率から出せる見込みで、
+人間の土地勘が要るのは `style` だけになった。
+人間が判断する軸をここまで絞れたことが、458駅を現実的にしている。
 
 ---
 

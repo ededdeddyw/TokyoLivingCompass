@@ -268,7 +268,7 @@ const layers: [string, number][] = [
   ["朝の混雑・始発（人が書く層）", stations.filter((s) => s.morningCrowding !== undefined).length],
   ["家賃", stations.filter((s) => s.rent !== undefined).length],
   ["スコア（1軸以上）", stations.filter((s) => Object.keys(s.scores).length > 0).length],
-  ["スコア（16軸すべて）", stations.filter((s) => Object.keys(s.scores).length === SCORE_AXES.length).length],
+  [`スコア（${SCORE_AXES.length}軸すべて）`, stations.filter((s) => Object.keys(s.scores).length === SCORE_AXES.length).length],
   ["周辺施設", stations.filter((s) => s.facilities !== undefined).length],
 ];
 layers.push([

@@ -8,6 +8,7 @@ import { z } from "zod";
 /** 16 の評価軸。順序が表示順を兼ねる。軸を足す/消すとここだけで全体に波及する。 */
 export const SCORE_AXES = [
   "rentValue",
+  "rentLow",
   "commute",
   "transitConvenience",
   "shopping",

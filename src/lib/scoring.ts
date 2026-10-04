@@ -5,7 +5,13 @@ import {
   type ScoreAxis,
   type Station,
 } from "./schema";
-import { normalize, PRESET_WEIGHTS, type WeightPreset, type Weights } from "./weights";
+import {
+  normalize,
+  PRESET_WEIGHTS,
+  segmentGateAxes,
+  type WeightPreset,
+  type Weights,
+} from "./weights";
 
 /** スコア計算（docs/03-scoring.md）。派生値はここで毎回計算し、データには保存しない。 */
 
@@ -71,6 +77,76 @@ export function overallScoreForPreset(
   preset: WeightPreset,
 ): number | null {
   return overallScore(station, PRESET_WEIGHTS[preset]);
+}
+
+/**
+ * 足切りで落とす割合。区分が重く見る軸の下位3割を、その区分の上位から外す。
+ *
+ * 2割では足りなかった。静かさの下位2割は40点以下で、東京駅の41点が残っていた。
+ * 「夜は家で過ごす」の上位に東京駅を出す一覧は、読み手の役に立たない。
+ */
+const GATE_RATIO = 0.3;
+
+/**
+ * 軸ごとの足切りの境目を出す。スコアが入っている駅のうち、下から ratio の位置の値を返す。
+ *
+ * 絶対値で「40点未満」と決めない。軸によってスコアの散らばり方が違うため、
+ * 同じ40点が静かさでは下位1割、家賃の安さでは下位4割にあたることがある。
+ */
+export function axisFloors(
+  stations: readonly Station[],
+  ratio = GATE_RATIO,
+): Partial<Record<ScoreAxis, number>> {
+  const floors: Partial<Record<ScoreAxis, number>> = {};
+  for (const axis of SCORE_AXES) {
+    const values = stations
+      .map((s) => s.scores[axis])
+      .filter((v): v is number => v !== undefined)
+      .sort((a, b) => a - b);
+    if (values.length === 0) continue;
+    const i = Math.floor(values.length * ratio);
+    floors[axis] = values[Math.min(i, values.length - 1)];
+  }
+  return floors;
+}
+
+export type SegmentRank<T extends Station = Station> = {
+  station: T;
+  overall: number | null;
+  /** 足切りに引っかかった軸。空なら足切りを通っている。 */
+  gatedBy: ScoreAxis[];
+};
+
+/**
+ * 区分ごとに駅を並べる。
+ *
+ * 重みつき平均で並べたうえで、区分が重く見る軸（weights.ts の SEGMENT_GATES）が
+ * 下位3割に入る駅を後ろへ回す。スコアが1軸も無い駅はさらに後ろに置く。
+ */
+export function rankBySegment<T extends Station>(
+  stations: readonly T[],
+  preset: WeightPreset,
+  ratio = GATE_RATIO,
+): SegmentRank<T>[] {
+  const weights = PRESET_WEIGHTS[preset];
+  const gates = segmentGateAxes(preset);
+  const floors = gates.length > 0 ? axisFloors(stations, ratio) : {};
+
+  return stations
+    .map((station) => {
+      const gatedBy = gates.filter((axis) => {
+        const v = station.scores[axis];
+        const floor = floors[axis];
+        return v !== undefined && floor !== undefined && v <= floor;
+      });
+      return { station, overall: overallScore(station, weights), gatedBy };
+    })
+    .sort((a, b) => {
+      if (a.gatedBy.length !== b.gatedBy.length) {
+        return a.gatedBy.length - b.gatedBy.length;
+      }
+      return (b.overall ?? -1) - (a.overall ?? -1);
+    });
 }
 
 /** スコアの高い順に軸を返す。「なぜ推すのか」の説明に使う。 */

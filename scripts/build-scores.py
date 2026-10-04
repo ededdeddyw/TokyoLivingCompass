@@ -35,6 +35,17 @@ import os
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
+def hub_size(pct_passengers):
+    """乗降客数の相対的な位置を、「大きな駅である度合い」に直す。
+
+    パーセンタイルをそのまま使うと、1日2万人しか乗り降りしない駅にも
+    35前後の値が付く。駅から300m以内に酒場が1軒も無い西巣鴨の静かさが
+    65点から42点まで下がり、下げすぎになった。
+    上位3割に入る駅だけが効くように、70パーセンタイルを起点に引き直す。
+    """
+    return max(0.0, (pct_passengers - 70) / 0.30)
+
+
 def clamp(v):
     return max(0, min(100, int(round(v))))
 
@@ -337,7 +348,13 @@ def main():
             # 静かさは、人の音と車の音の両方から出す。
             # 人の音は駅から300m以内の酒場と飲食店の数、車の音は幹線道路・高速道路
             # までの距離と種別で見る。鉄道の音は、地上か地下かのデータが無いので入らない。
-            people = pct_near["bar"][slug] * 0.65 + pct_near["restaurant"][slug] * 0.35
+            # 店の数だけで人の音を測ると、大きな駅を拾えない。東京駅は300m以内の
+            # 酒場が1軒しか登録されておらず、静かさが76点に出ていた。
+            # 1日79万人が乗り降りする駅の駅前は、静かではない。
+            # 店の多さと駅の大きさの、高いほうを人の音として使う。
+            people = max(
+                pct_near["bar"][slug] * 0.65 + pct_near["restaurant"][slug] * 0.35,
+                hub_size(pct["passengers"].get(slug, 0)))
             car = road_noise(roads.get(slug))
             scores["quietness"] = clamp(
                 100 - (people * 0.55 + car * 0.45) if car is not None else 100 - people)
@@ -373,7 +390,8 @@ def main():
                 + pct["park"][slug] * 0.22
                 + pct["supermarket"][slug] * 0.13
                 + flat * 13)
-            hub = max(pct_near["bar"][slug], pct["passengers"].get(slug, 0)) / 100
+            hub = max(pct_near["bar"][slug],
+                      hub_size(pct["passengers"].get(slug, 0))) / 100
             family_raw[slug] = facilities * (1 - 0.55 * hub)
 
             # 一人暮らし適性は、自炊しなくても生活が回るかで見る。
@@ -396,9 +414,20 @@ def main():
 
     # 家賃コスパは、全駅の家賃と通勤スコアの関係から出すため、ここでまとめて入れる。
     commute_by_slug = {slug: sc["commute"] for slug, sc in out.items() if "commute" in sc}
-    for slug, v in rent_value_scores(rent_index(bands), commute_by_slug).items():
+    index = rent_index(bands)
+    for slug, v in rent_value_scores(index, commute_by_slug).items():
         if slug in out:
             out[slug]["rentValue"] = v
+
+    # 家賃コスパ（rentValue）は、同じ利便性の駅と比べた安さである。
+    # 池袋はワンルーム8万9千円に対して通勤の利便性がきわめて高いため、
+    # コスパでは100点になる。それは正しいが、「家賃を抑えたい」人が見たいのは
+    # 絶対額のほうである。そこで、利便性を見ない安さの軸も持つ。
+    # percentile_scores は「多いほど高い点」なので、家賃は向きが逆になる。
+    # 家賃水準の順位を出してから100から引く
+    for slug, v in percentile_scores(index).items():
+        if slug in out:
+            out[slug]["rentLow"] = 100 - v
 
     path = os.path.join(ROOT, "data", "computed", "scores.json")
     with open(path, "w", encoding="utf-8") as f:

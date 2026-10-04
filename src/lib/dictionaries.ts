@@ -76,6 +76,7 @@ export type Dictionary = {
     count: string;
     sortBy: string;
     perspective: string;
+    gateNote: string;
   };
   find: {
     heading: string;
@@ -261,6 +262,8 @@ const ja: Dictionary = {
     count: "駅",
     sortBy: "並び替え",
     perspective: "評価の視点",
+    gateNote:
+      "選んだ区分で重く見る軸が下位3割に入る駅は、一覧の後ろにまとめています。",
   },
   find: {
     heading: "勤務先から住む駅を探す",
@@ -410,6 +413,7 @@ const ja: Dictionary = {
     },
   axes: {
     rentValue: "家賃コスパ",
+    rentLow: "家賃の安さ",
     commute: "都心アクセス",
     transitConvenience: "乗換利便性",
     shopping: "買い物",
@@ -548,6 +552,8 @@ const en: Dictionary = {
     count: "stations",
     sortBy: "Sort by",
     perspective: "Ranked for",
+    gateNote:
+      "Stations in the bottom 30% on an axis this segment leans on are grouped at the end of the list.",
   },
   find: {
     heading: "Find where to live, starting from your office",
@@ -701,6 +707,7 @@ const en: Dictionary = {
     },
   axes: {
     rentValue: "Rent value",
+    rentLow: "Low rent",
     commute: "Commute",
     transitConvenience: "Transit options",
     shopping: "Groceries",
@@ -838,6 +845,7 @@ const zhHans: Dictionary = {
     count: "个车站",
     sortBy: "排序",
     perspective: "按什么排序",
+    gateNote: "在本区分重视的评价轴上处于后30%的车站，统一排在列表末尾。",
   },
   find: {
     heading: "从公司位置出发，找该住哪里",
@@ -984,6 +992,7 @@ const zhHans: Dictionary = {
     },
   axes: {
     rentValue: "租金性价比",
+    rentLow: "租金低廉",
     commute: "通勤",
     transitConvenience: "换乘便利",
     shopping: "日常采买",
@@ -1121,6 +1130,8 @@ const ko: Dictionary = {
     count: "개 역",
     sortBy: "정렬",
     perspective: "무엇을 기준으로",
+    gateNote:
+      "이 구분에서 중요하게 보는 축이 하위 30%에 해당하는 역은 목록 뒤쪽에 모았습니다.",
   },
   find: {
     heading: "회사 위치에서 시작해 살 곳을 찾는다",
@@ -1267,6 +1278,7 @@ const ko: Dictionary = {
     },
   axes: {
     rentValue: "임대료 대비 가치",
+    rentLow: "저렴한 임대료",
     commute: "출퇴근",
     transitConvenience: "환승 편의",
     shopping: "일상 장보기",

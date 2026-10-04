@@ -13,7 +13,7 @@ import { SCORE_AXES, type ScoreAxis } from "./schema";
  *   夜の過ごし方  街で過ごす / 家で過ごす
  *   お金の置き方  家賃を抑える / 立地に出す
  *
- * 17の評価軸そのものは動かさない。軸ごとの重みだけを変える。
+ * 18の評価軸そのものは動かさない。どの軸を見るかだけを変える。
  */
 
 export type Weights = Record<ScoreAxis, number>;
@@ -22,31 +22,28 @@ export type Weights = Record<ScoreAxis, number>;
 const BASE = 1;
 
 /**
- * 区分を選んだときの、何も足されなかった軸の重み。
+ * 区分を選んだときに、どの軸も足されなかった場合の重み。
  *
- * 17軸すべてを1から始めると、選んだ軸に足した分が埋もれる。
- * 実際、全軸を1から始めたときは「子どもと住む」を選んでも
- * 池袋・御茶ノ水・秋葉原が上位に出た。飲食店・カフェ・医療・買い物といった
- * 都心で高く出る軸が11本あり、家族向けの軸に足した分を上回っていた。
+ * 18軸すべてを1から始めると、選んだ軸に足した分が埋もれる。
+ * 実際、全軸を1から始めたときは「夜は家で過ごす」を選んでも
+ * 御茶ノ水が1位に出た。通勤・乗換・医療・買い物・飲食店がどれも高いため、
+ * 静かさ1軸の低さが他の軸の高さに埋もれていた。
  *
- * そこで、誰にとっても外せない軸は高いところから始め、
- * 好みで分かれる軸は低いところから始める。
+ * そこで区分は「全軸の重みづけ」ではなく「見る軸の選択」として扱う。
+ * 誰にとっても外せない軸だけを低い重みで残し、
+ * 残りは選んだ側が足したときだけ点数に入るようにする。
  */
 const SEGMENT_BASE: Partial<Record<ScoreAxis, number>> = {
   // 誰にとっても向きが同じ軸（docs/13-japanese-style-rules.md ルール40）
   commute: 2,
-  rentValue: 2,
-  disaster: 2,
-  safety: 2,
-  shopping: 1.5,
-  healthcare: 1.5,
-  quietness: 1.5,
-  transitConvenience: 1.5,
-  food: 1,
-  nature: 0.5,
+  disaster: 1.5,
+  safety: 1.5,
+  shopping: 1,
+  healthcare: 1,
+  transitConvenience: 1,
 };
-/** 上の表に無い軸（夜の店、カフェ、街のおしゃれさなど）の既定。 */
-const SEGMENT_BASE_OTHER = 0.3;
+/** 上の表に無い軸は、選んだ側が足さなければ見ない。 */
+const SEGMENT_BASE_OTHER = 0;
 
 function build(overrides: Partial<Weights>, base: (axis: ScoreAxis) => number): Weights {
   return Object.fromEntries(
@@ -74,18 +71,39 @@ export type SegmentOption = (typeof SEGMENT_AXES)[number]["options"][number];
  * もう片方を打ち消さないようにする。
  */
 const AXIS_WEIGHTS: Record<string, Partial<Weights>> = {
-  // 学区・公園・医療・静けさが効く。夜の店の多さは重くしない
-  kids: { family: 5, safety: 3, nature: 3, quietness: 2, shopping: 2, healthcare: 2 },
-  // 自炊しなくても生活が回るか、通勤が短いかが効く
-  solo: { singleLife: 4, food: 2, commute: 2, cafe: 2 },
-  // 夜に開いている店の多さが効く
-  out: { nightlife: 5, food: 3, cafe: 2 },
-  // 人の音と車の音の少なさが効く
-  home: { quietness: 5, safety: 2, nature: 2 },
-  // 同じ利便性でどれだけ安いかが効く
-  thrifty: { rentValue: 6, shopping: 2 },
-  // 通勤の速さと、乗り換えの余地、街並みが効く
-  location: { commute: 4, transitConvenience: 3, style: 2 },
+  // 学校・保育園・公園・医療・静けさを重く見る。夜の店の多さは見ない
+  kids: { family: 6, nature: 3, quietness: 3, shopping: 3, healthcare: 3, safety: 4 },
+  // 自炊しなくても生活が回るか、通勤が短いかを重く見る
+  solo: { singleLife: 4, food: 3, commute: 4, cafe: 2 },
+  // 夜に開いている店の多さを重く見る
+  out: { nightlife: 6, food: 4, cafe: 3 },
+  // 人の音と車の音の少なさを重く見る
+  home: { quietness: 6, nature: 3, safety: 3 },
+  // 絶対額の安さを重く見る。家賃コスパ（rentValue）は、同じ利便性の駅と比べた
+  // 安さなので、池袋のような大きな駅が上に出る。抑えたい人が見たいのは絶対額である
+  thrifty: { rentLow: 7, rentValue: 2, shopping: 2 },
+  // 通勤の速さと、乗り換えの余地、街並みを重く見る
+  location: { commute: 5, transitConvenience: 4, style: 3 },
+};
+
+/**
+ * 区分の各側が足切りに使う軸。
+ *
+ * 重みつき平均だけで並べると、多くの軸で平均より上の駅が上位を占める。
+ * 「夜は家で過ごす」を選んでも渋谷が1位に出ていた。静かさが29点しかなくても、
+ * 通勤・乗換・買い物・医療がどれも95点を超えるため、1軸の低さが埋もれる。
+ * 重みを上げるだけでは、この埋もれは直らなかった。
+ *
+ * そこで、区分が重く見る軸には足切りをかける。
+ * 静かさを選んだ読み手に、静かさが下位2割に入る駅を上位で見せない。
+ */
+export const SEGMENT_GATES: Record<SegmentOption, ScoreAxis> = {
+  kids: "family",
+  solo: "singleLife",
+  out: "nightlife",
+  home: "quietness",
+  thrifty: "rentLow",
+  location: "commute",
 };
 
 /** 区分のキー。household-night-money をつないだもの。 */
@@ -158,4 +176,11 @@ export function normalize(weights: Weights): Weights {
 
 export function isWeightPreset(value: string): value is WeightPreset {
   return (WEIGHT_PRESETS as readonly string[]).includes(value);
+}
+
+/** 区分が足切りに使う軸を返す。区分を選んでいないときは足切りをしない。 */
+export function segmentGateAxes(key: WeightPreset): ScoreAxis[] {
+  const sides = splitSegment(key);
+  if (!sides) return [];
+  return SEGMENT_AXES.map((a) => SEGMENT_GATES[sides[a.key]]);
 }

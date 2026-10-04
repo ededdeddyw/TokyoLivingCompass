@@ -9,11 +9,12 @@
     "cafe": 85,
     "nightlife": 73,
     "fitness": 39,
-    "quietness": 38,
+    "quietness": 31,
     "singleLife": 77,
     "disaster": 66,
-    "family": 14,
-    "rentValue": 20
+    "family": 15,
+    "rentValue": 20,
+    "rentLow": 6
   },
   "nijubashimae": {
     "commute": 86,
@@ -28,7 +29,7 @@
     "quietness": 55,
     "singleLife": 67,
     "disaster": 52,
-    "family": 6
+    "family": 8
   },
   "uchisaiwaicho": {
     "commute": 81,
@@ -44,7 +45,8 @@
     "singleLife": 73,
     "disaster": 52,
     "family": 2,
-    "rentValue": 5
+    "rentValue": 5,
+    "rentLow": 3
   },
   "hanzomon": {
     "commute": 84,
@@ -59,8 +61,9 @@
     "quietness": 46,
     "singleLife": 80,
     "disaster": 100,
-    "family": 17,
-    "rentValue": 5
+    "family": 14,
+    "rentValue": 5,
+    "rentLow": 3
   },
   "kokkai-gijidomae": {
     "commute": 90,
@@ -75,8 +78,9 @@
     "quietness": 81,
     "singleLife": 77,
     "disaster": 88,
-    "family": 5,
-    "rentValue": 12
+    "family": 8,
+    "rentValue": 12,
+    "rentLow": 4
   },
   "otemachi": {
     "commute": 89,
@@ -88,11 +92,12 @@
     "cafe": 88,
     "nightlife": 51,
     "fitness": 77,
-    "quietness": 60,
+    "quietness": 31,
     "singleLife": 75,
     "disaster": 52,
-    "family": 3,
-    "rentValue": 64
+    "family": 2,
+    "rentValue": 64,
+    "rentLow": 9
   },
   "iwamotocho": {
     "commute": 70,
@@ -107,8 +112,9 @@
     "quietness": 22,
     "singleLife": 90,
     "disaster": 38,
-    "family": 65,
-    "rentValue": 44
+    "family": 53,
+    "rentValue": 44,
+    "rentLow": 22
   },
   "ichigaya": {
     "commute": 80,
@@ -120,11 +126,12 @@
     "cafe": 73,
     "nightlife": 59,
     "fitness": 70,
-    "quietness": 51,
+    "quietness": 36,
     "singleLife": 66,
     "disaster": 79,
-    "family": 25,
-    "rentValue": 28
+    "family": 27,
+    "rentValue": 28,
+    "rentLow": 10
   },
   "ochanomizu": {
     "commute": 85,
@@ -139,8 +146,9 @@
     "quietness": 38,
     "singleLife": 94,
     "disaster": 76,
-    "family": 65,
-    "rentValue": 92
+    "family": 54,
+    "rentValue": 92,
+    "rentLow": 19
   },
   "yurakucho": {
     "commute": 96,
@@ -156,7 +164,8 @@
     "singleLife": 76,
     "disaster": 52,
     "family": 2,
-    "rentValue": 91
+    "rentValue": 91,
+    "rentLow": 8
   },
   "suehirocho": {
     "commute": 73,
@@ -171,8 +180,9 @@
     "quietness": 33,
     "singleLife": 93,
     "disaster": 59,
-    "family": 69,
-    "rentValue": 47
+    "family": 59,
+    "rentValue": 47,
+    "rentLow": 20
   },
   "tokyo": {
     "commute": 93,
@@ -184,11 +194,12 @@
     "cafe": 90,
     "nightlife": 42,
     "fitness": 14,
-    "quietness": 76,
+    "quietness": 41,
     "singleLife": 78,
     "disaster": 45,
-    "family": 5,
-    "rentValue": 89
+    "family": 4,
+    "rentValue": 89,
+    "rentLow": 10
   },
   "sakuradamon": {
     "commute": 84,
@@ -218,8 +229,9 @@
     "quietness": 37,
     "singleLife": 84,
     "disaster": 72,
-    "family": 56,
-    "rentValue": 46
+    "family": 51,
+    "rentValue": 46,
+    "rentLow": 17
   },
   "nagatacho": {
     "commute": 94,
@@ -234,8 +246,9 @@
     "quietness": 22,
     "singleLife": 89,
     "disaster": 94,
-    "family": 7,
-    "rentValue": 13
+    "family": 5,
+    "rentValue": 13,
+    "rentLow": 3
   },
   "awajicho": {
     "commute": 72,
@@ -250,8 +263,9 @@
     "quietness": 22,
     "singleLife": 90,
     "disaster": 66,
-    "family": 57,
-    "rentValue": 19
+    "family": 48,
+    "rentValue": 19,
+    "rentLow": 15
   },
   "tameike-sanno": {
     "commute": 90,
@@ -266,8 +280,9 @@
     "quietness": 38,
     "singleLife": 86,
     "disaster": 72,
-    "family": 4,
-    "rentValue": 12
+    "family": 3,
+    "rentValue": 12,
+    "rentLow": 4
   },
   "jimbocho": {
     "commute": 85,
@@ -282,8 +297,9 @@
     "quietness": 24,
     "singleLife": 81,
     "disaster": 52,
-    "family": 18,
-    "rentValue": 74
+    "family": 15,
+    "rentValue": 74,
+    "rentLow": 13
   },
   "kanda": {
     "commute": 85,
@@ -298,8 +314,9 @@
     "quietness": 26,
     "singleLife": 92,
     "disaster": 59,
-    "family": 29,
-    "rentValue": 84
+    "family": 23,
+    "rentValue": 84,
+    "rentLow": 17
   },
   "akihabara": {
     "commute": 78,
@@ -314,8 +331,9 @@
     "quietness": 30,
     "singleLife": 94,
     "disaster": 28,
-    "family": 62,
-    "rentValue": 82
+    "family": 52,
+    "rentValue": 82,
+    "rentLow": 22
   },
   "takebashi": {
     "commute": 79,
@@ -330,8 +348,9 @@
     "quietness": 59,
     "singleLife": 71,
     "disaster": 79,
-    "family": 26,
-    "rentValue": 4
+    "family": 35,
+    "rentValue": 4,
+    "rentLow": 3
   },
   "kasumigaseki": {
     "commute": 96,
@@ -343,10 +362,10 @@
     "cafe": 65,
     "nightlife": 38,
     "fitness": 39,
-    "quietness": 59,
+    "quietness": 37,
     "singleLife": 70,
     "disaster": 82,
-    "family": 0
+    "family": 1
   },
   "iidabashi": {
     "commute": 77,
@@ -361,8 +380,9 @@
     "quietness": 28,
     "singleLife": 84,
     "disaster": 79,
-    "family": 40,
-    "rentValue": 41
+    "family": 35,
+    "rentValue": 41,
+    "rentLow": 16
   },
   "kojimachi": {
     "commute": 80,
@@ -377,8 +397,9 @@
     "quietness": 20,
     "singleLife": 76,
     "disaster": 82,
-    "family": 16,
-    "rentValue": 3
+    "family": 12,
+    "rentValue": 3,
+    "rentLow": 2
   },
   "mitsukoshimae": {
     "commute": 87,
@@ -393,8 +414,9 @@
     "quietness": 30,
     "singleLife": 88,
     "disaster": 59,
-    "family": 18,
-    "rentValue": 81
+    "family": 21,
+    "rentValue": 81,
+    "rentLow": 13
   },
   "kyobashi": {
     "commute": 83,
@@ -409,8 +431,9 @@
     "quietness": 40,
     "singleLife": 82,
     "disaster": 52,
-    "family": 25,
-    "rentValue": 47
+    "family": 20,
+    "rentValue": 47,
+    "rentLow": 10
   },
   "ningyocho": {
     "commute": 80,
@@ -425,8 +448,9 @@
     "quietness": 51,
     "singleLife": 85,
     "disaster": 28,
-    "family": 26,
-    "rentValue": 88
+    "family": 32,
+    "rentValue": 88,
+    "rentLow": 22
   },
   "hatchobori": {
     "commute": 83,
@@ -441,8 +465,9 @@
     "quietness": 37,
     "singleLife": 78,
     "disaster": 18,
-    "family": 26,
-    "rentValue": 84
+    "family": 28,
+    "rentValue": 84,
+    "rentLow": 19
   },
   "kachidoki": {
     "commute": 71,
@@ -457,8 +482,9 @@
     "quietness": 70,
     "singleLife": 56,
     "disaster": 82,
-    "family": 35,
-    "rentValue": 14
+    "family": 53,
+    "rentValue": 14,
+    "rentLow": 12
   },
   "kodemmacho": {
     "commute": 71,
@@ -473,8 +499,9 @@
     "quietness": 23,
     "singleLife": 86,
     "disaster": 38,
-    "family": 42,
-    "rentValue": 38
+    "family": 35,
+    "rentValue": 38,
+    "rentLow": 20
   },
   "nihombashi": {
     "commute": 84,
@@ -489,8 +516,9 @@
     "quietness": 33,
     "singleLife": 83,
     "disaster": 38,
-    "family": 19,
-    "rentValue": 70
+    "family": 22,
+    "rentValue": 70,
+    "rentLow": 13
   },
   "tsukishima": {
     "commute": 75,
@@ -505,8 +533,9 @@
     "quietness": 59,
     "singleLife": 49,
     "disaster": 72,
-    "family": 42,
-    "rentValue": 45
+    "family": 60,
+    "rentValue": 45,
+    "rentLow": 18
   },
   "higashi-ginza": {
     "commute": 85,
@@ -521,8 +550,9 @@
     "quietness": 36,
     "singleLife": 74,
     "disaster": 52,
-    "family": 8,
-    "rentValue": 60
+    "family": 11,
+    "rentValue": 60,
+    "rentLow": 11
   },
   "hamacho": {
     "commute": 68,
@@ -537,8 +567,9 @@
     "quietness": 62,
     "singleLife": 77,
     "disaster": 28,
-    "family": 84,
-    "rentValue": 35
+    "family": 78,
+    "rentValue": 35,
+    "rentLow": 22
   },
   "tsukiji": {
     "commute": 82,
@@ -553,8 +584,9 @@
     "quietness": 72,
     "singleLife": 71,
     "disaster": 38,
-    "family": 21,
-    "rentValue": 69
+    "family": 44,
+    "rentValue": 69,
+    "rentLow": 16
   },
   "tsukijishijo": {
     "commute": 75,
@@ -569,8 +601,9 @@
     "quietness": 49,
     "singleLife": 68,
     "disaster": 52,
-    "family": 20,
-    "rentValue": 27
+    "family": 15,
+    "rentValue": 27,
+    "rentLow": 15
   },
   "kayabacho": {
     "commute": 78,
@@ -585,8 +618,9 @@
     "quietness": 37,
     "singleLife": 76,
     "disaster": 38,
-    "family": 24,
-    "rentValue": 74
+    "family": 29,
+    "rentValue": 74,
+    "rentLow": 20
   },
   "ginza": {
     "commute": 95,
@@ -602,7 +636,8 @@
     "singleLife": 78,
     "disaster": 66,
     "family": 4,
-    "rentValue": 80
+    "rentValue": 80,
+    "rentLow": 8
   },
   "bakurocho": {
     "commute": 77,
@@ -617,8 +652,9 @@
     "quietness": 58,
     "singleLife": 85,
     "disaster": 38,
-    "family": 60,
-    "rentValue": 78
+    "family": 66,
+    "rentValue": 78,
+    "rentLow": 22
   },
   "odaiba-kaihinkoen": {
     "commute": 54,
@@ -634,7 +670,8 @@
     "singleLife": 35,
     "disaster": 88,
     "family": 2,
-    "rentValue": 1
+    "rentValue": 1,
+    "rentLow": 7
   },
   "mita": {
     "commute": 82,
@@ -649,8 +686,9 @@
     "quietness": 23,
     "singleLife": 84,
     "disaster": 72,
-    "family": 22,
-    "rentValue": 49
+    "family": 16,
+    "rentValue": 49,
+    "rentLow": 11
   },
   "nogizaka": {
     "commute": 81,
@@ -665,8 +703,9 @@
     "quietness": 61,
     "singleLife": 70,
     "disaster": 100,
-    "family": 50,
-    "rentValue": 3
+    "family": 55,
+    "rentValue": 3,
+    "rentLow": 2
   },
   "roppongi": {
     "commute": 89,
@@ -681,8 +720,9 @@
     "quietness": 18,
     "singleLife": 82,
     "disaster": 94,
-    "family": 37,
-    "rentValue": 4
+    "family": 29,
+    "rentValue": 4,
+    "rentLow": 1
   },
   "roppongi-itchome": {
     "commute": 80,
@@ -697,8 +737,9 @@
     "quietness": 31,
     "singleLife": 85,
     "disaster": 100,
-    "family": 38,
-    "rentValue": 1
+    "family": 43,
+    "rentValue": 1,
+    "rentLow": 0
   },
   "shinagawa": {
     "commute": 79,
@@ -710,11 +751,12 @@
     "cafe": 74,
     "nightlife": 73,
     "fitness": 0,
-    "quietness": 44,
+    "quietness": 30,
     "singleLife": 57,
     "disaster": 54,
-    "family": 12,
-    "rentValue": 32
+    "family": 9,
+    "rentValue": 32,
+    "rentLow": 11
   },
   "gaiemmae": {
     "commute": 85,
@@ -729,8 +771,9 @@
     "quietness": 26,
     "singleLife": 76,
     "disaster": 94,
-    "family": 38,
-    "rentValue": 3
+    "family": 40,
+    "rentValue": 3,
+    "rentLow": 1
   },
   "daimon": {
     "commute": 87,
@@ -746,7 +789,8 @@
     "singleLife": 73,
     "disaster": 38,
     "family": 13,
-    "rentValue": 24
+    "rentValue": 24,
+    "rentLow": 6
   },
   "hiro-o": {
     "commute": 83,
@@ -761,8 +805,9 @@
     "quietness": 54,
     "singleLife": 71,
     "disaster": 79,
-    "family": 59,
-    "rentValue": 8
+    "family": 61,
+    "rentValue": 8,
+    "rentLow": 5
   },
   "onarimon": {
     "commute": 77,
@@ -777,8 +822,9 @@
     "quietness": 82,
     "singleLife": 76,
     "disaster": 66,
-    "family": 12,
-    "rentValue": 6
+    "family": 25,
+    "rentValue": 6,
+    "rentLow": 5
   },
   "shimbashi": {
     "commute": 95,
@@ -794,7 +840,8 @@
     "singleLife": 81,
     "disaster": 70,
     "family": 3,
-    "rentValue": 57
+    "rentValue": 57,
+    "rentLow": 6
   },
   "hinode": {
     "commute": 70,
@@ -809,8 +856,9 @@
     "quietness": 70,
     "singleLife": 56,
     "disaster": 79,
-    "family": 29,
-    "rentValue": 12
+    "family": 25,
+    "rentValue": 12,
+    "rentLow": 12
   },
   "tokyo-teleport": {
     "commute": 52,
@@ -825,8 +873,9 @@
     "quietness": 70,
     "singleLife": 34,
     "disaster": 94,
-    "family": 3,
-    "rentValue": 0
+    "family": 7,
+    "rentValue": 0,
+    "rentLow": 6
   },
   "shiodome": {
     "commute": 85,
@@ -841,8 +890,9 @@
     "quietness": 55,
     "singleLife": 77,
     "disaster": 52,
-    "family": 10,
-    "rentValue": 10
+    "family": 6,
+    "rentValue": 10,
+    "rentLow": 4
   },
   "sengakuji": {
     "commute": 78,
@@ -854,11 +904,12 @@
     "cafe": 24,
     "nightlife": 36,
     "fitness": 39,
-    "quietness": 44,
+    "quietness": 31,
     "singleLife": 52,
     "disaster": 79,
-    "family": 25,
-    "rentValue": 22
+    "family": 35,
+    "rentValue": 22,
+    "rentLow": 10
   },
   "hamamatsucho": {
     "commute": 82,
@@ -870,11 +921,12 @@
     "cafe": 75,
     "nightlife": 57,
     "fitness": 77,
-    "quietness": 58,
+    "quietness": 53,
     "singleLife": 71,
     "disaster": 38,
-    "family": 11,
-    "rentValue": 13
+    "family": 13,
+    "rentValue": 13,
+    "rentLow": 6
   },
   "tamachi": {
     "commute": 77,
@@ -889,8 +941,9 @@
     "quietness": 33,
     "singleLife": 82,
     "disaster": 64,
-    "family": 30,
-    "rentValue": 34
+    "family": 23,
+    "rentValue": 34,
+    "rentLow": 15
   },
   "shirokanedai": {
     "commute": 75,
@@ -905,8 +958,9 @@
     "quietness": 69,
     "singleLife": 46,
     "disaster": 93,
-    "family": 51,
-    "rentValue": 9
+    "family": 56,
+    "rentValue": 9,
+    "rentLow": 8
   },
   "shirokane-takanawa": {
     "commute": 78,
@@ -921,8 +975,9 @@
     "quietness": 42,
     "singleLife": 55,
     "disaster": 84,
-    "family": 51,
-    "rentValue": 16
+    "family": 55,
+    "rentValue": 16,
+    "rentLow": 9
   },
   "kamiyacho": {
     "commute": 88,
@@ -938,7 +993,8 @@
     "singleLife": 84,
     "disaster": 94,
     "family": 20,
-    "rentValue": 1
+    "rentValue": 1,
+    "rentLow": 0
   },
   "takeshiba": {
     "commute": 74,
@@ -953,8 +1009,9 @@
     "quietness": 75,
     "singleLife": 54,
     "disaster": 72,
-    "family": 22,
-    "rentValue": 2
+    "family": 16,
+    "rentValue": 2,
+    "rentLow": 2
   },
   "shibakoen": {
     "commute": 75,
@@ -969,8 +1026,9 @@
     "quietness": 64,
     "singleLife": 78,
     "disaster": 59,
-    "family": 68,
-    "rentValue": 2
+    "family": 74,
+    "rentValue": 2,
+    "rentLow": 3
   },
   "shibaura-futo": {
     "commute": 65,
@@ -985,8 +1043,9 @@
     "quietness": 55,
     "singleLife": 25,
     "disaster": 79,
-    "family": 15,
-    "rentValue": 8
+    "family": 13,
+    "rentValue": 8,
+    "rentLow": 14
   },
   "toranomon": {
     "commute": 94,
@@ -1001,8 +1060,9 @@
     "quietness": 21,
     "singleLife": 76,
     "disaster": 94,
-    "family": 1,
-    "rentValue": 4
+    "family": 0,
+    "rentValue": 4,
+    "rentLow": 1
   },
   "omote-sando": {
     "commute": 86,
@@ -1017,8 +1077,9 @@
     "quietness": 22,
     "singleLife": 82,
     "disaster": 100,
-    "family": 41,
-    "rentValue": 4
+    "family": 46,
+    "rentValue": 4,
+    "rentLow": 2
   },
   "akasaka": {
     "commute": 84,
@@ -1033,8 +1094,9 @@
     "quietness": 32,
     "singleLife": 85,
     "disaster": 82,
-    "family": 4,
-    "rentValue": 10
+    "family": 3,
+    "rentValue": 10,
+    "rentLow": 5
   },
   "akabanebashi": {
     "commute": 79,
@@ -1049,8 +1111,9 @@
     "quietness": 54,
     "singleLife": 70,
     "disaster": 79,
-    "family": 55,
-    "rentValue": 2
+    "family": 71,
+    "rentValue": 2,
+    "rentLow": 1
   },
   "aoyama-itchome": {
     "commute": 94,
@@ -1062,11 +1125,12 @@
     "cafe": 67,
     "nightlife": 36,
     "fitness": 39,
-    "quietness": 50,
+    "quietness": 36,
     "singleLife": 63,
     "disaster": 100,
-    "family": 9,
-    "rentValue": 15
+    "family": 15,
+    "rentValue": 15,
+    "rentLow": 4
   },
   "takanawa-gateway": {
     "commute": 73,
@@ -1081,8 +1145,9 @@
     "quietness": 78,
     "singleLife": 55,
     "disaster": 72,
-    "family": 41,
-    "rentValue": 10
+    "family": 45,
+    "rentValue": 10,
+    "rentLow": 9
   },
   "takanawadai": {
     "commute": 74,
@@ -1097,8 +1162,9 @@
     "quietness": 56,
     "singleLife": 49,
     "disaster": 100,
-    "family": 42,
-    "rentValue": 16
+    "family": 45,
+    "rentValue": 16,
+    "rentLow": 11
   },
   "azabu-juban": {
     "commute": 82,
@@ -1113,8 +1179,9 @@
     "quietness": 34,
     "singleLife": 79,
     "disaster": 72,
-    "family": 57,
-    "rentValue": 3
+    "family": 54,
+    "rentValue": 3,
+    "rentLow": 1
   },
   "shimo-ochiai": {
     "commute": 57,
@@ -1129,8 +1196,9 @@
     "quietness": 85,
     "singleLife": 62,
     "disaster": 66,
-    "family": 96,
-    "rentValue": 59
+    "family": 97,
+    "rentValue": 59,
+    "rentLow": 44
   },
   "nakai": {
     "commute": 62,
@@ -1145,8 +1213,9 @@
     "quietness": 29,
     "singleLife": 52,
     "disaster": 86,
-    "family": 75,
-    "rentValue": 93
+    "family": 79,
+    "rentValue": 93,
+    "rentLow": 51
   },
   "shinanomachi": {
     "commute": 74,
@@ -1161,8 +1230,9 @@
     "quietness": 57,
     "singleLife": 32,
     "disaster": 88,
-    "family": 13,
-    "rentValue": 57
+    "family": 23,
+    "rentValue": 57,
+    "rentLow": 20
   },
   "yotsuya": {
     "commute": 85,
@@ -1177,8 +1247,9 @@
     "quietness": 19,
     "singleLife": 69,
     "disaster": 88,
-    "family": 13,
-    "rentValue": 71
+    "family": 12,
+    "rentValue": 71,
+    "rentLow": 12
   },
   "yotsuya-sanchome": {
     "commute": 81,
@@ -1193,8 +1264,9 @@
     "quietness": 20,
     "singleLife": 74,
     "disaster": 100,
-    "family": 25,
-    "rentValue": 88
+    "family": 19,
+    "rentValue": 88,
+    "rentLow": 21
   },
   "kokuritsu-kyogijo": {
     "commute": 80,
@@ -1209,8 +1281,9 @@
     "quietness": 75,
     "singleLife": 45,
     "disaster": 94,
-    "family": 44,
-    "rentValue": 51
+    "family": 41,
+    "rentValue": 51,
+    "rentLow": 14
   },
   "okubo": {
     "commute": 69,
@@ -1225,8 +1298,9 @@
     "quietness": 50,
     "singleLife": 84,
     "disaster": 79,
-    "family": 79,
-    "rentValue": 87
+    "family": 69,
+    "rentValue": 87,
+    "rentLow": 33
   },
   "shin-okubo": {
     "commute": 70,
@@ -1241,8 +1315,9 @@
     "quietness": 50,
     "singleLife": 85,
     "disaster": 88,
-    "family": 76,
-    "rentValue": 85
+    "family": 75,
+    "rentValue": 85,
+    "rentLow": 31
   },
   "shinjuku": {
     "commute": 85,
@@ -1254,11 +1329,12 @@
     "cafe": 95,
     "nightlife": 95,
     "fitness": 0,
-    "quietness": 29,
+    "quietness": 26,
     "singleLife": 78,
     "disaster": 79,
-    "family": 5,
-    "rentValue": 88
+    "family": 4,
+    "rentValue": 88,
+    "rentLow": 18
   },
   "shinjuku-sanchome": {
     "commute": 80,
@@ -1273,8 +1349,9 @@
     "quietness": 30,
     "singleLife": 82,
     "disaster": 79,
-    "family": 15,
-    "rentValue": 24
+    "family": 10,
+    "rentValue": 24,
+    "rentLow": 9
   },
   "shinjuku-gyoemmae": {
     "commute": 80,
@@ -1289,8 +1366,9 @@
     "quietness": 43,
     "singleLife": 69,
     "disaster": 100,
-    "family": 19,
-    "rentValue": 45
+    "family": 15,
+    "rentValue": 45,
+    "rentLow": 12
   },
   "shinjuku-nishiguchi": {
     "commute": 59,
@@ -1305,8 +1383,9 @@
     "quietness": 27,
     "singleLife": 84,
     "disaster": 94,
-    "family": 21,
-    "rentValue": 7
+    "family": 16,
+    "rentValue": 7,
+    "rentLow": 18
   },
   "waseda": {
     "commute": 67,
@@ -1321,7 +1400,7 @@
     "quietness": 53,
     "singleLife": 64,
     "disaster": 79,
-    "family": 67
+    "family": 88
   },
   "waseda-toden": {
     "commute": 41,
@@ -1333,10 +1412,10 @@
     "cafe": 52,
     "nightlife": 8,
     "fitness": 70,
-    "quietness": 67,
+    "quietness": 63,
     "singleLife": 61,
     "disaster": 60,
-    "family": 63
+    "family": 86
   },
   "akebonobashi": {
     "commute": 73,
@@ -1351,8 +1430,9 @@
     "quietness": 47,
     "singleLife": 72,
     "disaster": 93,
-    "family": 51,
-    "rentValue": 57
+    "family": 56,
+    "rentValue": 57,
+    "rentLow": 21
   },
   "higashi-shinjuku": {
     "commute": 69,
@@ -1367,8 +1447,9 @@
     "quietness": 54,
     "singleLife": 81,
     "disaster": 88,
-    "family": 54,
-    "rentValue": 31
+    "family": 79,
+    "rentValue": 31,
+    "rentLow": 21
   },
   "edogawabashi": {
     "commute": 67,
@@ -1383,8 +1464,9 @@
     "quietness": 26,
     "singleLife": 75,
     "disaster": 59,
-    "family": 78,
-    "rentValue": 57
+    "family": 70,
+    "rentValue": 57,
+    "rentLow": 26
   },
   "ushigome-yanagicho": {
     "commute": 64,
@@ -1399,8 +1481,9 @@
     "quietness": 75,
     "singleLife": 62,
     "disaster": 70,
-    "family": 80,
-    "rentValue": 41
+    "family": 82,
+    "rentValue": 41,
+    "rentLow": 27
   },
   "ushigome-kagurazaka": {
     "commute": 66,
@@ -1415,8 +1498,9 @@
     "quietness": 52,
     "singleLife": 84,
     "disaster": 94,
-    "family": 84,
-    "rentValue": 16
+    "family": 76,
+    "rentValue": 16,
+    "rentLow": 19
   },
   "kagurazaka": {
     "commute": 70,
@@ -1431,8 +1515,9 @@
     "quietness": 33,
     "singleLife": 85,
     "disaster": 72,
-    "family": 73,
-    "rentValue": 54
+    "family": 62,
+    "rentValue": 54,
+    "rentLow": 24
   },
   "wakamatsu-kawada": {
     "commute": 63,
@@ -1447,8 +1532,9 @@
     "quietness": 81,
     "singleLife": 54,
     "disaster": 76,
-    "family": 76,
-    "rentValue": 38
+    "family": 89,
+    "rentValue": 38,
+    "rentLow": 28
   },
   "nishi-shinjuku": {
     "commute": 74,
@@ -1463,8 +1549,9 @@
     "quietness": 40,
     "singleLife": 82,
     "disaster": 86,
-    "family": 47,
-    "rentValue": 75
+    "family": 49,
+    "rentValue": 75,
+    "rentLow": 24
   },
   "nishi-waseda": {
     "commute": 63,
@@ -1479,8 +1566,9 @@
     "quietness": 54,
     "singleLife": 65,
     "disaster": 94,
-    "family": 82,
-    "rentValue": 69
+    "family": 83,
+    "rentValue": 69,
+    "rentLow": 36
   },
   "seibu-shinjuku": {
     "commute": 53,
@@ -1495,8 +1583,9 @@
     "quietness": 41,
     "singleLife": 86,
     "disaster": 94,
-    "family": 39,
-    "rentValue": 5
+    "family": 33,
+    "rentValue": 5,
+    "rentLow": 19
   },
   "tochomae": {
     "commute": 56,
@@ -1511,8 +1600,9 @@
     "quietness": 70,
     "singleLife": 76,
     "disaster": 100,
-    "family": 53,
-    "rentValue": 5
+    "family": 67,
+    "rentValue": 5,
+    "rentLow": 17
   },
   "omokagebashi": {
     "commute": 44,
@@ -1527,8 +1617,9 @@
     "quietness": 73,
     "singleLife": 59,
     "disaster": 79,
-    "family": 83,
-    "rentValue": 8
+    "family": 73,
+    "rentValue": 8,
+    "rentLow": 34
   },
   "takadanobaba": {
     "commute": 69,
@@ -1540,11 +1631,12 @@
     "cafe": 82,
     "nightlife": 83,
     "fitness": 39,
-    "quietness": 37,
+    "quietness": 32,
     "singleLife": 72,
     "disaster": 72,
-    "family": 49,
-    "rentValue": 94
+    "family": 42,
+    "rentValue": 94,
+    "rentLow": 37
   },
   "sengoku": {
     "commute": 63,
@@ -1559,8 +1651,9 @@
     "quietness": 61,
     "singleLife": 56,
     "disaster": 94,
-    "family": 95,
-    "rentValue": 69
+    "family": 99,
+    "rentValue": 69,
+    "rentLow": 37
   },
   "korakuen": {
     "commute": 76,
@@ -1575,8 +1668,9 @@
     "quietness": 50,
     "singleLife": 81,
     "disaster": 79,
-    "family": 64,
-    "rentValue": 95
+    "family": 74,
+    "rentValue": 95,
+    "rentLow": 29
   },
   "shin-otsuka": {
     "commute": 67,
@@ -1591,8 +1685,9 @@
     "quietness": 62,
     "singleLife": 67,
     "disaster": 86,
-    "family": 89,
-    "rentValue": 95
+    "family": 91,
+    "rentValue": 95,
+    "rentLow": 43
   },
   "kasuga": {
     "commute": 72,
@@ -1607,8 +1702,9 @@
     "quietness": 35,
     "singleLife": 79,
     "disaster": 86,
-    "family": 63,
-    "rentValue": 84
+    "family": 62,
+    "rentValue": 84,
+    "rentLow": 29
   },
   "hongo-sanchome": {
     "commute": 76,
@@ -1623,8 +1719,9 @@
     "quietness": 22,
     "singleLife": 81,
     "disaster": 94,
-    "family": 54,
-    "rentValue": 64
+    "family": 46,
+    "rentValue": 64,
+    "rentLow": 21
   },
   "hon-komagome": {
     "commute": 62,
@@ -1639,8 +1736,9 @@
     "quietness": 64,
     "singleLife": 58,
     "disaster": 88,
-    "family": 96,
-    "rentValue": 83
+    "family": 93,
+    "rentValue": 83,
+    "rentLow": 45
   },
   "todaimae": {
     "commute": 65,
@@ -1655,8 +1753,9 @@
     "quietness": 70,
     "singleLife": 76,
     "disaster": 94,
-    "family": 89,
-    "rentValue": 92
+    "family": 86,
+    "rentValue": 92,
+    "rentLow": 45
   },
   "nezu": {
     "commute": 68,
@@ -1671,8 +1770,9 @@
     "quietness": 43,
     "singleLife": 61,
     "disaster": 94,
-    "family": 61,
-    "rentValue": 99
+    "family": 51,
+    "rentValue": 99,
+    "rentLow": 49
   },
   "hakusan": {
     "commute": 66,
@@ -1687,8 +1787,9 @@
     "quietness": 41,
     "singleLife": 60,
     "disaster": 94,
-    "family": 85,
-    "rentValue": 90
+    "family": 77,
+    "rentValue": 90,
+    "rentLow": 40
   },
   "myogadani": {
     "commute": 69,
@@ -1703,8 +1804,9 @@
     "quietness": 49,
     "singleLife": 39,
     "disaster": 82,
-    "family": 62,
-    "rentValue": 84
+    "family": 70,
+    "rentValue": 84,
+    "rentLow": 32
   },
   "gokokuji": {
     "commute": 64,
@@ -1719,8 +1821,9 @@
     "quietness": 63,
     "singleLife": 32,
     "disaster": 94,
-    "family": 66,
-    "rentValue": 87
+    "family": 84,
+    "rentValue": 87,
+    "rentLow": 42
   },
   "minowa": {
     "commute": 55,
@@ -1735,8 +1838,9 @@
     "quietness": 28,
     "singleLife": 70,
     "disaster": 28,
-    "family": 86,
-    "rentValue": 58
+    "family": 77,
+    "rentValue": 58,
+    "rentLow": 47
   },
   "ueno": {
     "commute": 74,
@@ -1751,8 +1855,9 @@
     "quietness": 31,
     "singleLife": 91,
     "disaster": 60,
-    "family": 41,
-    "rentValue": 89
+    "family": 36,
+    "rentValue": 89,
+    "rentLow": 28
   },
   "keisei-ueno": {
     "commute": 48,
@@ -1767,8 +1872,9 @@
     "quietness": 35,
     "singleLife": 86,
     "disaster": 79,
-    "family": 45,
-    "rentValue": 7
+    "family": 37,
+    "rentValue": 7,
+    "rentLow": 28
   },
   "iriya": {
     "commute": 60,
@@ -1783,8 +1889,9 @@
     "quietness": 37,
     "singleLife": 76,
     "disaster": 44,
-    "family": 87,
-    "rentValue": 56
+    "family": 80,
+    "rentValue": 56,
+    "rentLow": 37
   },
   "sendagi": {
     "commute": 64,
@@ -1800,7 +1907,8 @@
     "singleLife": 67,
     "disaster": 94,
     "family": 91,
-    "rentValue": 97
+    "rentValue": 97,
+    "rentLow": 52
   },
   "okachimachi": {
     "commute": 74,
@@ -1815,8 +1923,9 @@
     "quietness": 29,
     "singleLife": 93,
     "disaster": 45,
-    "family": 60,
-    "rentValue": 75
+    "family": 50,
+    "rentValue": 75,
+    "rentLow": 24
   },
   "shin-okachimachi": {
     "commute": 65,
@@ -1831,8 +1940,9 @@
     "quietness": 44,
     "singleLife": 89,
     "disaster": 28,
-    "family": 81,
-    "rentValue": 35
+    "family": 78,
+    "rentValue": 35,
+    "rentLow": 25
   },
   "asakusa": {
     "commute": 62,
@@ -1847,8 +1957,9 @@
     "quietness": 21,
     "singleLife": 81,
     "disaster": 28,
-    "family": 52,
-    "rentValue": 61
+    "family": 57,
+    "rentValue": 61,
+    "rentLow": 35
   },
   "asakusa-tx": {
     "commute": 61,
@@ -1863,8 +1974,9 @@
     "quietness": 32,
     "singleLife": 85,
     "disaster": 28,
-    "family": 55,
-    "rentValue": 58
+    "family": 47,
+    "rentValue": 58,
+    "rentLow": 35
   },
   "asakusabashi": {
     "commute": 70,
@@ -1879,8 +1991,9 @@
     "quietness": 27,
     "singleLife": 84,
     "disaster": 28,
-    "family": 61,
-    "rentValue": 59
+    "family": 50,
+    "rentValue": 59,
+    "rentLow": 25
   },
   "yushima": {
     "commute": 74,
@@ -1895,8 +2008,9 @@
     "quietness": 29,
     "singleLife": 93,
     "disaster": 79,
-    "family": 50,
-    "rentValue": 27
+    "family": 41,
+    "rentValue": 27,
+    "rentLow": 16
   },
   "tawaramachi": {
     "commute": 62,
@@ -1911,8 +2025,9 @@
     "quietness": 44,
     "singleLife": 85,
     "disaster": 28,
-    "family": 78,
-    "rentValue": 32
+    "family": 68,
+    "rentValue": 32,
+    "rentLow": 28
   },
   "inaricho": {
     "commute": 66,
@@ -1927,8 +2042,9 @@
     "quietness": 43,
     "singleLife": 87,
     "disaster": 28,
-    "family": 82,
-    "rentValue": 53
+    "family": 73,
+    "rentValue": 53,
+    "rentLow": 27
   },
   "kuramae": {
     "commute": 65,
@@ -1943,8 +2059,9 @@
     "quietness": 35,
     "singleLife": 76,
     "disaster": 36,
-    "family": 80,
-    "rentValue": 44
+    "family": 83,
+    "rentValue": 44,
+    "rentLow": 27
   },
   "uguisudani": {
     "commute": 65,
@@ -1959,8 +2076,9 @@
     "quietness": 47,
     "singleLife": 72,
     "disaster": 66,
-    "family": 43,
-    "rentValue": 72
+    "family": 36,
+    "rentValue": 72,
+    "rentLow": 33
   },
   "tokyo-skytree": {
     "commute": 50,
@@ -1975,8 +2093,9 @@
     "quietness": 63,
     "singleLife": 55,
     "disaster": 28,
-    "family": 52,
-    "rentValue": 20
+    "family": 43,
+    "rentValue": 20,
+    "rentLow": 41
   },
   "ryogoku": {
     "commute": 63,
@@ -1991,8 +2110,9 @@
     "quietness": 45,
     "singleLife": 62,
     "disaster": 38,
-    "family": 46,
-    "rentValue": 52
+    "family": 37,
+    "rentValue": 52,
+    "rentLow": 30
   },
   "keisei-hikifune": {
     "commute": 46,
@@ -2007,8 +2127,9 @@
     "quietness": 88,
     "singleLife": 34,
     "disaster": 28,
-    "family": 86,
-    "rentValue": 33
+    "family": 89,
+    "rentValue": 33,
+    "rentLow": 58
   },
   "yahiro": {
     "commute": 42,
@@ -2023,8 +2144,9 @@
     "quietness": 75,
     "singleLife": 23,
     "disaster": 45,
-    "family": 38,
-    "rentValue": 50
+    "family": 30,
+    "rentValue": 50,
+    "rentLow": 80
   },
   "omurai": {
     "commute": 40,
@@ -2039,8 +2161,9 @@
     "quietness": 83,
     "singleLife": 17,
     "disaster": 28,
-    "family": 85,
-    "rentValue": 15
+    "family": 84,
+    "rentValue": 15,
+    "rentLow": 57
   },
   "oshiage": {
     "commute": 57,
@@ -2052,10 +2175,10 @@
     "cafe": 76,
     "nightlife": 70,
     "fitness": 57,
-    "quietness": 57,
+    "quietness": 43,
     "singleLife": 56,
     "disaster": 28,
-    "family": 36
+    "family": 33
   },
   "hikifune": {
     "commute": 47,
@@ -2070,8 +2193,9 @@
     "quietness": 79,
     "singleLife": 38,
     "disaster": 28,
-    "family": 80,
-    "rentValue": 29
+    "family": 81,
+    "rentValue": 29,
+    "rentLow": 53
   },
   "honjo-azumabashi": {
     "commute": 58,
@@ -2086,8 +2210,9 @@
     "quietness": 60,
     "singleLife": 64,
     "disaster": 45,
-    "family": 68,
-    "rentValue": 48
+    "family": 61,
+    "rentValue": 48,
+    "rentLow": 38
   },
   "higashi-azuma": {
     "commute": 42,
@@ -2102,8 +2227,9 @@
     "quietness": 87,
     "singleLife": 14,
     "disaster": 18,
-    "family": 90,
-    "rentValue": 34
+    "family": 87,
+    "rentValue": 34,
+    "rentLow": 70
   },
   "higashi-mukojima": {
     "commute": 45,
@@ -2118,8 +2244,9 @@
     "quietness": 62,
     "singleLife": 40,
     "disaster": 28,
-    "family": 89,
-    "rentValue": 43
+    "family": 81,
+    "rentValue": 43,
+    "rentLow": 65
   },
   "kikukawa": {
     "commute": 61,
@@ -2134,8 +2261,9 @@
     "quietness": 31,
     "singleLife": 66,
     "disaster": 28,
-    "family": 82,
-    "rentValue": 38
+    "family": 73,
+    "rentValue": 38,
+    "rentLow": 30
   },
   "kinshicho": {
     "commute": 66,
@@ -2150,8 +2278,9 @@
     "quietness": 34,
     "singleLife": 82,
     "disaster": 36,
-    "family": 59,
-    "rentValue": 72
+    "family": 49,
+    "rentValue": 72,
+    "rentLow": 32
   },
   "kanegafuchi": {
     "commute": 42,
@@ -2166,8 +2295,9 @@
     "quietness": 64,
     "singleLife": 18,
     "disaster": 36,
-    "family": 31,
-    "rentValue": 43
+    "family": 25,
+    "rentValue": 43,
+    "rentLow": 76
   },
   "telecom-center": {
     "commute": 44,
@@ -2194,11 +2324,12 @@
     "cafe": 41,
     "nightlife": 43,
     "fitness": 82,
-    "quietness": 57,
+    "quietness": 54,
     "singleLife": 47,
     "disaster": 28,
-    "family": 65,
-    "rentValue": 39
+    "family": 79,
+    "rentValue": 39,
+    "rentLow": 41
   },
   "kameidosuijin": {
     "commute": 45,
@@ -2213,8 +2344,9 @@
     "quietness": 90,
     "singleLife": 32,
     "disaster": 18,
-    "family": 91,
-    "rentValue": 22
+    "family": 86,
+    "rentValue": 22,
+    "rentLow": 53
   },
   "sumiyoshi": {
     "commute": 63,
@@ -2229,8 +2361,9 @@
     "quietness": 33,
     "singleLife": 69,
     "disaster": 28,
-    "family": 78,
-    "rentValue": 62
+    "family": 71,
+    "rentValue": 62,
+    "rentLow": 34
   },
   "minami-sunamachi": {
     "commute": 55,
@@ -2245,8 +2378,9 @@
     "quietness": 74,
     "singleLife": 26,
     "disaster": 27,
-    "family": 28,
-    "rentValue": 70
+    "family": 41,
+    "rentValue": 70,
+    "rentLow": 54
   },
   "kokusai-tenjijo": {
     "commute": 50,
@@ -2261,8 +2395,9 @@
     "quietness": 66,
     "singleLife": 31,
     "disaster": 94,
-    "family": 3,
-    "rentValue": 2
+    "family": 5,
+    "rentValue": 2,
+    "rentLow": 15
   },
   "ojima": {
     "commute": 51,
@@ -2277,8 +2412,9 @@
     "quietness": 71,
     "singleLife": 24,
     "disaster": 18,
-    "family": 87,
-    "rentValue": 46
+    "family": 96,
+    "rentValue": 46,
+    "rentLow": 52
   },
   "shijo-mae": {
     "commute": 50,
@@ -2293,8 +2429,9 @@
     "quietness": 81,
     "singleLife": 19,
     "disaster": 100,
-    "family": 10,
-    "rentValue": 0
+    "family": 8,
+    "rentValue": 0,
+    "rentLow": 7
   },
   "shin-kiba": {
     "commute": 60,
@@ -2306,11 +2443,12 @@
     "cafe": 27,
     "nightlife": 19,
     "fitness": 0,
-    "quietness": 59,
+    "quietness": 24,
     "singleLife": 17,
     "disaster": 88,
     "family": 1,
-    "rentValue": 80
+    "rentValue": 80,
+    "rentLow": 47
   },
   "shin-toyosu": {
     "commute": 52,
@@ -2325,8 +2463,9 @@
     "quietness": 74,
     "singleLife": 25,
     "disaster": 100,
-    "family": 24,
-    "rentValue": 1
+    "family": 22,
+    "rentValue": 1,
+    "rentLow": 8
   },
   "ariake": {
     "commute": 43,
@@ -2341,8 +2480,9 @@
     "quietness": 76,
     "singleLife": 30,
     "disaster": 100,
-    "family": 9,
-    "rentValue": 3
+    "family": 6,
+    "rentValue": 3,
+    "rentLow": 23
   },
   "ariake-tennis-no-mori": {
     "commute": 46,
@@ -2357,8 +2497,9 @@
     "quietness": 86,
     "singleLife": 18,
     "disaster": 100,
-    "family": 9,
-    "rentValue": 1
+    "family": 6,
+    "rentValue": 1,
+    "rentLow": 15
   },
   "kiba": {
     "commute": 63,
@@ -2370,11 +2511,12 @@
     "cafe": 30,
     "nightlife": 16,
     "fitness": 70,
-    "quietness": 68,
+    "quietness": 64,
     "singleLife": 36,
     "disaster": 28,
-    "family": 44,
-    "rentValue": 48
+    "family": 72,
+    "rentValue": 48,
+    "rentLow": 30
   },
   "tokyo-big-sight": {
     "commute": 42,
@@ -2389,7 +2531,7 @@
     "quietness": 85,
     "singleLife": 26,
     "disaster": 100,
-    "family": 6
+    "family": 5
   },
   "higashi-ojima": {
     "commute": 48,
@@ -2404,8 +2546,9 @@
     "quietness": 80,
     "singleLife": 17,
     "disaster": 18,
-    "family": 54,
-    "rentValue": 65
+    "family": 72,
+    "rentValue": 65,
+    "rentLow": 70
   },
   "toyocho": {
     "commute": 59,
@@ -2420,8 +2563,9 @@
     "quietness": 39,
     "singleLife": 47,
     "disaster": 27,
-    "family": 44,
-    "rentValue": 50
+    "family": 53,
+    "rentValue": 50,
+    "rentLow": 37
   },
   "shinonome": {
     "commute": 50,
@@ -2437,7 +2581,8 @@
     "singleLife": 15,
     "disaster": 59,
     "family": 8,
-    "rentValue": 8
+    "rentValue": 8,
+    "rentLow": 27
   },
   "morishita": {
     "commute": 67,
@@ -2452,8 +2597,9 @@
     "quietness": 37,
     "singleLife": 68,
     "disaster": 38,
-    "family": 65,
-    "rentValue": 66
+    "family": 68,
+    "rentValue": 66,
+    "rentLow": 29
   },
   "kiyosumi-shirakawa": {
     "commute": 70,
@@ -2468,8 +2614,9 @@
     "quietness": 64,
     "singleLife": 63,
     "disaster": 28,
-    "family": 59,
-    "rentValue": 70
+    "family": 78,
+    "rentValue": 70,
+    "rentLow": 26
   },
   "shiomi": {
     "commute": 64,
@@ -2484,8 +2631,9 @@
     "quietness": 94,
     "singleLife": 21,
     "disaster": 88,
-    "family": 12,
-    "rentValue": 66
+    "family": 17,
+    "rentValue": 66,
+    "rentLow": 34
   },
   "nishi-ojima": {
     "commute": 55,
@@ -2500,8 +2648,9 @@
     "quietness": 63,
     "singleLife": 28,
     "disaster": 18,
-    "family": 92,
-    "rentValue": 50
+    "family": 93,
+    "rentValue": 50,
+    "rentLow": 45
   },
   "toyosu": {
     "commute": 66,
@@ -2516,8 +2665,9 @@
     "quietness": 38,
     "singleLife": 55,
     "disaster": 66,
-    "family": 8,
-    "rentValue": 33
+    "family": 7,
+    "rentValue": 33,
+    "rentLow": 25
   },
   "etchujima": {
     "commute": 73,
@@ -2532,8 +2682,9 @@
     "quietness": 96,
     "singleLife": 53,
     "disaster": 52,
-    "family": 75,
-    "rentValue": 66
+    "family": 74,
+    "rentValue": 66,
+    "rentLow": 23
   },
   "tatsumi": {
     "commute": 59,
@@ -2548,8 +2699,9 @@
     "quietness": 89,
     "singleLife": 15,
     "disaster": 72,
-    "family": 7,
-    "rentValue": 23
+    "family": 9,
+    "rentValue": 23,
+    "rentLow": 29
   },
   "monzen-nakacho": {
     "commute": 70,
@@ -2564,8 +2716,9 @@
     "quietness": 31,
     "singleLife": 52,
     "disaster": 38,
-    "family": 16,
-    "rentValue": 57
+    "family": 17,
+    "rentValue": 57,
+    "rentLow": 25
   },
   "aomi": {
     "commute": 41,
@@ -2580,7 +2733,7 @@
     "quietness": 100,
     "singleLife": 28,
     "disaster": 94,
-    "family": 2
+    "family": 1
   },
   "shimo-shimmei": {
     "commute": 59,
@@ -2595,8 +2748,9 @@
     "quietness": 86,
     "singleLife": 35,
     "disaster": 94,
-    "family": 93,
-    "rentValue": 49
+    "family": 92,
+    "rentValue": 49,
+    "rentLow": 36
   },
   "fudo-mae": {
     "commute": 63,
@@ -2611,8 +2765,9 @@
     "quietness": 47,
     "singleLife": 62,
     "disaster": 72,
-    "family": 77,
-    "rentValue": 23
+    "family": 76,
+    "rentValue": 23,
+    "rentLow": 24
   },
   "nakanobu": {
     "commute": 62,
@@ -2627,8 +2782,9 @@
     "quietness": 62,
     "singleLife": 48,
     "disaster": 94,
-    "family": 87,
-    "rentValue": 85
+    "family": 96,
+    "rentValue": 85,
+    "rentLow": 46
   },
   "gotanda": {
     "commute": 76,
@@ -2640,11 +2796,12 @@
     "cafe": 70,
     "nightlife": 75,
     "fitness": 39,
-    "quietness": 33,
+    "quietness": 27,
     "singleLife": 67,
     "disaster": 60,
-    "family": 32,
-    "rentValue": 63
+    "family": 30,
+    "rentValue": 63,
+    "rentLow": 20
   },
   "kitashinagawa": {
     "commute": 68,
@@ -2659,8 +2816,9 @@
     "quietness": 54,
     "singleLife": 52,
     "disaster": 72,
-    "family": 31,
-    "rentValue": 11
+    "family": 24,
+    "rentValue": 11,
+    "rentLow": 14
   },
   "daiba": {
     "commute": 50,
@@ -2675,7 +2833,7 @@
     "quietness": 77,
     "singleLife": 30,
     "disaster": 94,
-    "family": 6
+    "family": 5
   },
   "shinagawa-seaside": {
     "commute": 61,
@@ -2690,8 +2848,9 @@
     "quietness": 72,
     "singleLife": 38,
     "disaster": 59,
-    "family": 30,
-    "rentValue": 36
+    "family": 44,
+    "rentValue": 36,
+    "rentLow": 30
   },
   "oimachi": {
     "commute": 73,
@@ -2703,11 +2862,12 @@
     "cafe": 64,
     "nightlife": 38,
     "fitness": 39,
-    "quietness": 60,
+    "quietness": 41,
     "singleLife": 57,
     "disaster": 88,
     "family": 45,
-    "rentValue": 98
+    "rentValue": 98,
+    "rentLow": 35
   },
   "oi-keibajo-mae": {
     "commute": 52,
@@ -2722,8 +2882,9 @@
     "quietness": 100,
     "singleLife": 18,
     "disaster": 66,
-    "family": 12,
-    "rentValue": 17
+    "family": 11,
+    "rentValue": 17,
+    "rentLow": 36
   },
   "osaki": {
     "commute": 76,
@@ -2735,11 +2896,12 @@
     "cafe": 71,
     "nightlife": 63,
     "fitness": 39,
-    "quietness": 45,
+    "quietness": 38,
     "singleLife": 64,
     "disaster": 59,
-    "family": 34,
-    "rentValue": 93
+    "family": 37,
+    "rentValue": 93,
+    "rentLow": 27
   },
   "osaki-hirokoji": {
     "commute": 63,
@@ -2754,8 +2916,9 @@
     "quietness": 36,
     "singleLife": 71,
     "disaster": 72,
-    "family": 66,
-    "rentValue": 19
+    "family": 55,
+    "rentValue": 19,
+    "rentLow": 23
   },
   "tennozu-isle": {
     "commute": 65,
@@ -2770,8 +2933,9 @@
     "quietness": 62,
     "singleLife": 23,
     "disaster": 66,
-    "family": 11,
-    "rentValue": 12
+    "family": 21,
+    "rentValue": 12,
+    "rentLow": 17
   },
   "togoshi-koen": {
     "commute": 56,
@@ -2786,8 +2950,9 @@
     "quietness": 96,
     "singleLife": 48,
     "disaster": 93,
-    "family": 98,
-    "rentValue": 48
+    "family": 99,
+    "rentValue": 48,
+    "rentLow": 42
   },
   "togoshi": {
     "commute": 65,
@@ -2802,8 +2967,9 @@
     "quietness": 48,
     "singleLife": 58,
     "disaster": 72,
-    "family": 93,
-    "rentValue": 72
+    "family": 88,
+    "rentValue": 72,
+    "rentLow": 33
   },
   "shimbamba": {
     "commute": 66,
@@ -2818,8 +2984,9 @@
     "quietness": 54,
     "singleLife": 36,
     "disaster": 59,
-    "family": 35,
-    "rentValue": 67
+    "family": 28,
+    "rentValue": 67,
+    "rentLow": 31
   },
   "hatanodai": {
     "commute": 54,
@@ -2834,8 +3001,9 @@
     "quietness": 91,
     "singleLife": 41,
     "disaster": 86,
-    "family": 80,
-    "rentValue": 70
+    "family": 94,
+    "rentValue": 70,
+    "rentLow": 55
   },
   "tokyo-international-cruise-terminal": {
     "commute": 47,
@@ -2865,8 +3033,9 @@
     "quietness": 78,
     "singleLife": 58,
     "disaster": 94,
-    "family": 85,
-    "rentValue": 30
+    "family": 95,
+    "rentValue": 30,
+    "rentLow": 31
   },
   "meguro": {
     "commute": 77,
@@ -2878,11 +3047,12 @@
     "cafe": 72,
     "nightlife": 56,
     "fitness": 14,
-    "quietness": 41,
+    "quietness": 30,
     "singleLife": 69,
     "disaster": 76,
-    "family": 21,
-    "rentValue": 31
+    "family": 19,
+    "rentValue": 31,
+    "rentLow": 13
   },
   "tachiaigawa": {
     "commute": 57,
@@ -2897,8 +3067,9 @@
     "quietness": 69,
     "singleLife": 28,
     "disaster": 59,
-    "family": 54,
-    "rentValue": 50
+    "family": 56,
+    "rentValue": 50,
+    "rentLow": 40
   },
   "ebara-nakanobu": {
     "commute": 57,
@@ -2913,8 +3084,9 @@
     "quietness": 66,
     "singleLife": 55,
     "disaster": 94,
-    "family": 94,
-    "rentValue": 56
+    "family": 89,
+    "rentValue": 56,
+    "rentLow": 43
   },
   "ebara-machi": {
     "commute": 53,
@@ -2929,8 +3101,9 @@
     "quietness": 74,
     "singleLife": 46,
     "disaster": 79,
-    "family": 91,
-    "rentValue": 61
+    "family": 84,
+    "rentValue": 61,
+    "rentLow": 54
   },
   "nishi-oi": {
     "commute": 81,
@@ -2945,8 +3118,9 @@
     "quietness": 97,
     "singleLife": 25,
     "disaster": 94,
-    "family": 79,
-    "rentValue": 100
+    "family": 89,
+    "rentValue": 100,
+    "rentLow": 46
   },
   "nishi-koyama": {
     "commute": 55,
@@ -2961,8 +3135,9 @@
     "quietness": 80,
     "singleLife": 62,
     "disaster": 72,
-    "family": 88,
-    "rentValue": 32
+    "family": 95,
+    "rentValue": 32,
+    "rentLow": 38
   },
   "aomono-yokocho": {
     "commute": 62,
@@ -2977,8 +3152,9 @@
     "quietness": 46,
     "singleLife": 54,
     "disaster": 66,
-    "family": 37,
-    "rentValue": 51
+    "family": 32,
+    "rentValue": 51,
+    "rentLow": 31
   },
   "samezu": {
     "commute": 60,
@@ -2993,8 +3169,9 @@
     "quietness": 57,
     "singleLife": 53,
     "disaster": 66,
-    "family": 71,
-    "rentValue": 52
+    "family": 64,
+    "rentValue": 52,
+    "rentLow": 36
   },
   "nakameguro": {
     "commute": 78,
@@ -3009,8 +3186,9 @@
     "quietness": 32,
     "singleLife": 67,
     "disaster": 86,
-    "family": 37,
-    "rentValue": 51
+    "family": 39,
+    "rentValue": 51,
+    "rentLow": 16
   },
   "gakugei-daigaku": {
     "commute": 63,
@@ -3025,8 +3203,9 @@
     "quietness": 84,
     "singleLife": 39,
     "disaster": 100,
-    "family": 28,
-    "rentValue": 78
+    "family": 51,
+    "rentValue": 78,
+    "rentLow": 39
   },
   "ikejiri-ohashi": {
     "commute": 68,
@@ -3041,8 +3220,9 @@
     "quietness": 48,
     "singleLife": 42,
     "disaster": 79,
-    "family": 83,
-    "rentValue": 59
+    "family": 74,
+    "rentValue": 59,
+    "rentLow": 26
   },
   "senzoku": {
     "commute": 53,
@@ -3057,8 +3237,9 @@
     "quietness": 90,
     "singleLife": 61,
     "disaster": 94,
-    "family": 84,
-    "rentValue": 50
+    "family": 85,
+    "rentValue": 50,
+    "rentLow": 49
   },
   "yutenji": {
     "commute": 67,
@@ -3073,8 +3254,9 @@
     "quietness": 90,
     "singleLife": 38,
     "disaster": 94,
-    "family": 60,
-    "rentValue": 81
+    "family": 71,
+    "rentValue": 81,
+    "rentLow": 34
   },
   "midorigaoka": {
     "commute": 50,
@@ -3089,8 +3271,9 @@
     "quietness": 72,
     "singleLife": 65,
     "disaster": 79,
-    "family": 40,
-    "rentValue": 21
+    "family": 34,
+    "rentValue": 21,
+    "rentLow": 41
   },
   "jiyugaoka": {
     "commute": 56,
@@ -3102,11 +3285,12 @@
     "cafe": 87,
     "nightlife": 20,
     "fitness": 14,
-    "quietness": 80,
+    "quietness": 69,
     "singleLife": 63,
     "disaster": 86,
-    "family": 22,
-    "rentValue": 28
+    "family": 34,
+    "rentValue": 28,
+    "rentLow": 34
   },
   "toritsu-daigaku": {
     "commute": 59,
@@ -3121,8 +3305,9 @@
     "quietness": 73,
     "singleLife": 36,
     "disaster": 72,
-    "family": 21,
-    "rentValue": 42
+    "family": 39,
+    "rentValue": 42,
+    "rentLow": 35
   },
   "komaba-todaimae": {
     "commute": 67,
@@ -3137,8 +3322,9 @@
     "quietness": 88,
     "singleLife": 38,
     "disaster": 100,
-    "family": 52,
-    "rentValue": 37
+    "family": 64,
+    "rentValue": 37,
+    "rentLow": 24
   },
   "shimomaruko": {
     "commute": 41,
@@ -3153,8 +3339,9 @@
     "quietness": 82,
     "singleLife": 24,
     "disaster": 44,
-    "family": 42,
-    "rentValue": 38
+    "family": 63,
+    "rentValue": 38,
+    "rentLow": 76
   },
   "kugahara": {
     "commute": 40,
@@ -3169,8 +3356,9 @@
     "quietness": 96,
     "singleLife": 22,
     "disaster": 82,
-    "family": 71,
-    "rentValue": 37
+    "family": 75,
+    "rentValue": 37,
+    "rentLow": 80
   },
   "keikyu-kamata": {
     "commute": 43,
@@ -3185,8 +3373,9 @@
     "quietness": 32,
     "singleLife": 68,
     "disaster": 38,
-    "family": 37,
-    "rentValue": 26
+    "family": 30,
+    "rentValue": 26,
+    "rentLow": 60
   },
   "rokugodote": {
     "commute": 37,
@@ -3201,8 +3390,9 @@
     "quietness": 77,
     "singleLife": 17,
     "disaster": 60,
-    "family": 22,
-    "rentValue": 26
+    "family": 23,
+    "rentValue": 26,
+    "rentLow": 81
   },
   "kita-senzoku": {
     "commute": 50,
@@ -3217,8 +3407,9 @@
     "quietness": 90,
     "singleLife": 54,
     "disaster": 94,
-    "family": 87,
-    "rentValue": 41
+    "family": 82,
+    "rentValue": 41,
+    "rentLow": 52
   },
   "chidoricho": {
     "commute": 40,
@@ -3234,7 +3425,8 @@
     "singleLife": 20,
     "disaster": 66,
     "family": 58,
-    "rentValue": 25
+    "rentValue": 25,
+    "rentLow": 69
   },
   "tamagawa": {
     "commute": 54,
@@ -3249,8 +3441,9 @@
     "quietness": 87,
     "singleLife": 20,
     "disaster": 94,
-    "family": 20,
-    "rentValue": 86
+    "family": 26,
+    "rentValue": 86,
+    "rentLow": 64
   },
   "ookayama": {
     "commute": 53,
@@ -3265,8 +3458,9 @@
     "quietness": 64,
     "singleLife": 60,
     "disaster": 94,
-    "family": 24,
-    "rentValue": 49
+    "family": 22,
+    "rentValue": 49,
+    "rentLow": 49
   },
   "omori": {
     "commute": 61,
@@ -3281,8 +3475,9 @@
     "quietness": 42,
     "singleLife": 65,
     "disaster": 79,
-    "family": 35,
-    "rentValue": 94
+    "family": 28,
+    "rentValue": 94,
+    "rentLow": 55
   },
   "omorikaigan": {
     "commute": 53,
@@ -3297,8 +3492,9 @@
     "quietness": 58,
     "singleLife": 54,
     "disaster": 52,
-    "family": 54,
-    "rentValue": 40
+    "family": 46,
+    "rentValue": 40,
+    "rentLow": 46
   },
   "omorimachi": {
     "commute": 48,
@@ -3313,8 +3509,9 @@
     "quietness": 76,
     "singleLife": 31,
     "disaster": 38,
-    "family": 70,
-    "rentValue": 69
+    "family": 78,
+    "rentValue": 69,
+    "rentLow": 72
   },
   "otorii": {
     "commute": 33,
@@ -3329,8 +3526,9 @@
     "quietness": 54,
     "singleLife": 34,
     "disaster": 38,
-    "family": 50,
-    "rentValue": 11
+    "family": 47,
+    "rentValue": 11,
+    "rentLow": 67
   },
   "tenkubashi": {
     "commute": 39,
@@ -3345,8 +3543,9 @@
     "quietness": 89,
     "singleLife": 23,
     "disaster": 45,
-    "family": 8,
-    "rentValue": 28
+    "family": 10,
+    "rentValue": 28,
+    "rentLow": 73
   },
   "heiwajima": {
     "commute": 50,
@@ -3361,8 +3560,9 @@
     "quietness": 65,
     "singleLife": 24,
     "disaster": 38,
-    "family": 36,
-    "rentValue": 61
+    "family": 48,
+    "rentValue": 61,
+    "rentLow": 60
   },
   "ontakesan": {
     "commute": 42,
@@ -3377,8 +3577,9 @@
     "quietness": 90,
     "singleLife": 28,
     "disaster": 100,
-    "family": 53,
-    "rentValue": 43
+    "family": 65,
+    "rentValue": 43,
+    "rentLow": 75
   },
   "seibijo": {
     "commute": 40,
@@ -3393,8 +3594,9 @@
     "quietness": 91,
     "singleLife": 18,
     "disaster": 52,
-    "family": 18,
-    "rentValue": 30
+    "family": 14,
+    "rentValue": 30,
+    "rentLow": 72
   },
   "shin-seibijo": {
     "commute": 32,
@@ -3424,8 +3626,9 @@
     "quietness": 77,
     "singleLife": 11,
     "disaster": 66,
-    "family": 27,
-    "rentValue": 82
+    "family": 25,
+    "rentValue": 82,
+    "rentLow": 88
   },
   "umeyashiki": {
     "commute": 45,
@@ -3440,8 +3643,9 @@
     "quietness": 72,
     "singleLife": 38,
     "disaster": 38,
-    "family": 85,
-    "rentValue": 46
+    "family": 86,
+    "rentValue": 46,
+    "rentLow": 66
   },
   "musashi-nitta": {
     "commute": 41,
@@ -3456,8 +3660,9 @@
     "quietness": 77,
     "singleLife": 29,
     "disaster": 38,
-    "family": 47,
-    "rentValue": 33
+    "family": 54,
+    "rentValue": 33,
+    "rentLow": 72
   },
   "ikegami": {
     "commute": 40,
@@ -3472,8 +3677,9 @@
     "quietness": 55,
     "singleLife": 43,
     "disaster": 38,
-    "family": 62,
-    "rentValue": 27
+    "family": 51,
+    "rentValue": 27,
+    "rentLow": 71
   },
   "numabe": {
     "commute": 44,
@@ -3488,8 +3694,9 @@
     "quietness": 78,
     "singleLife": 16,
     "disaster": 86,
-    "family": 11,
-    "rentValue": 58
+    "family": 9,
+    "rentValue": 58,
+    "rentLow": 78
   },
   "senzoku-ike": {
     "commute": 49,
@@ -3505,7 +3712,8 @@
     "singleLife": 36,
     "disaster": 100,
     "family": 70,
-    "rentValue": 64
+    "rentValue": 64,
+    "rentLow": 65
   },
   "ryutsu-center": {
     "commute": 48,
@@ -3521,7 +3729,8 @@
     "singleLife": 13,
     "disaster": 79,
     "family": 7,
-    "rentValue": 40
+    "rentValue": 40,
+    "rentLow": 56
   },
   "den-en-chofu": {
     "commute": 55,
@@ -3536,8 +3745,9 @@
     "quietness": 100,
     "singleLife": 26,
     "disaster": 100,
-    "family": 15,
-    "rentValue": 85
+    "family": 25,
+    "rentValue": 85,
+    "rentLow": 60
   },
   "yaguchi-no-watashi": {
     "commute": 42,
@@ -3552,8 +3762,9 @@
     "quietness": 68,
     "singleLife": 30,
     "disaster": 38,
-    "family": 60,
-    "rentValue": 34
+    "family": 58,
+    "rentValue": 34,
+    "rentLow": 70
   },
   "ishikawadai": {
     "commute": 46,
@@ -3569,7 +3780,8 @@
     "singleLife": 37,
     "disaster": 93,
     "family": 63,
-    "rentValue": 55
+    "rentValue": 55,
+    "rentLow": 68
   },
   "anamori-inari": {
     "commute": 33,
@@ -3584,8 +3796,9 @@
     "quietness": 51,
     "singleLife": 34,
     "disaster": 38,
-    "family": 16,
-    "rentValue": 11
+    "family": 11,
+    "rentValue": 11,
+    "rentLow": 68
   },
   "kojiya": {
     "commute": 35,
@@ -3601,7 +3814,8 @@
     "singleLife": 32,
     "disaster": 38,
     "family": 73,
-    "rentValue": 8
+    "rentValue": 8,
+    "rentLow": 58
   },
   "haneda-airport-terminal-1-2": {
     "commute": 31,
@@ -3616,7 +3830,7 @@
     "quietness": 46,
     "singleLife": 32,
     "disaster": 100,
-    "family": 1
+    "family": 3
   },
   "haneda-airport-terminal-3": {
     "commute": 36,
@@ -3631,7 +3845,7 @@
     "quietness": 87,
     "singleLife": 19,
     "disaster": 72,
-    "family": 4
+    "family": 3
   },
   "kamata": {
     "commute": 51,
@@ -3646,8 +3860,9 @@
     "quietness": 45,
     "singleLife": 75,
     "disaster": 38,
-    "family": 43,
-    "rentValue": 69
+    "family": 38,
+    "rentValue": 69,
+    "rentLow": 61
   },
   "hasunuma": {
     "commute": 42,
@@ -3662,8 +3877,9 @@
     "quietness": 64,
     "singleLife": 62,
     "disaster": 38,
-    "family": 86,
-    "rentValue": 23
+    "family": 78,
+    "rentValue": 23,
+    "rentLow": 59
   },
   "nishimagome": {
     "commute": 52,
@@ -3678,8 +3894,9 @@
     "quietness": 51,
     "singleLife": 23,
     "disaster": 100,
-    "family": 44,
-    "rentValue": 76
+    "family": 58,
+    "rentValue": 76,
+    "rentLow": 62
   },
   "nagahara": {
     "commute": 51,
@@ -3694,8 +3911,9 @@
     "quietness": 78,
     "singleLife": 42,
     "disaster": 100,
-    "family": 89,
-    "rentValue": 65
+    "family": 90,
+    "rentValue": 65,
+    "rentLow": 60
   },
   "zoshiki": {
     "commute": 40,
@@ -3710,8 +3928,9 @@
     "quietness": 41,
     "singleLife": 40,
     "disaster": 28,
-    "family": 39,
-    "rentValue": 33
+    "family": 33,
+    "rentValue": 33,
+    "rentLow": 76
   },
   "yukigaya-otsuka": {
     "commute": 44,
@@ -3726,8 +3945,9 @@
     "quietness": 69,
     "singleLife": 37,
     "disaster": 94,
-    "family": 71,
-    "rentValue": 39
+    "family": 80,
+    "rentValue": 39,
+    "rentLow": 65
   },
   "magome": {
     "commute": 57,
@@ -3742,8 +3962,9 @@
     "quietness": 46,
     "singleLife": 30,
     "disaster": 94,
-    "family": 88,
-    "rentValue": 87
+    "family": 80,
+    "rentValue": 87,
+    "rentLow": 57
   },
   "unoki": {
     "commute": 42,
@@ -3758,8 +3979,9 @@
     "quietness": 78,
     "singleLife": 20,
     "disaster": 52,
-    "family": 53,
-    "rentValue": 51
+    "family": 59,
+    "rentValue": 51,
+    "rentLow": 80
   },
   "sangen-jaya": {
     "commute": 62,
@@ -3774,8 +3996,9 @@
     "quietness": 28,
     "singleLife": 76,
     "disaster": 66,
-    "family": 45,
-    "rentValue": 73
+    "family": 44,
+    "rentValue": 73,
+    "rentLow": 40
   },
   "kami-kitazawa": {
     "commute": 48,
@@ -3790,8 +4013,9 @@
     "quietness": 85,
     "singleLife": 27,
     "disaster": 88,
-    "family": 58,
-    "rentValue": 74
+    "family": 61,
+    "rentValue": 74,
+    "rentLow": 75
   },
   "kamimachi": {
     "commute": 40,
@@ -3806,8 +4030,9 @@
     "quietness": 70,
     "singleLife": 33,
     "disaster": 86,
-    "family": 48,
-    "rentValue": 20
+    "family": 42,
+    "rentValue": 20,
+    "rentLow": 62
   },
   "kaminoge": {
     "commute": 41,
@@ -3822,8 +4047,9 @@
     "quietness": 71,
     "singleLife": 21,
     "disaster": 59,
-    "family": 3,
-    "rentValue": 18
+    "family": 4,
+    "rentValue": 18,
+    "rentLow": 59
   },
   "shimo-kitazawa": {
     "commute": 64,
@@ -3838,8 +4064,9 @@
     "quietness": 53,
     "singleLife": 63,
     "disaster": 72,
-    "family": 32,
-    "rentValue": 90
+    "family": 31,
+    "rentValue": 90,
+    "rentLow": 45
   },
   "shimo-takaido": {
     "commute": 54,
@@ -3854,8 +4081,9 @@
     "quietness": 52,
     "singleLife": 46,
     "disaster": 79,
-    "family": 28,
-    "rentValue": 90
+    "family": 30,
+    "rentValue": 90,
+    "rentLow": 69
   },
   "setagaya": {
     "commute": 41,
@@ -3870,8 +4098,9 @@
     "quietness": 63,
     "singleLife": 40,
     "disaster": 86,
-    "family": 31,
-    "rentValue": 13
+    "family": 24,
+    "rentValue": 13,
+    "rentLow": 51
   },
   "setagaya-daita": {
     "commute": 58,
@@ -3886,8 +4115,9 @@
     "quietness": 74,
     "singleLife": 62,
     "disaster": 79,
-    "family": 69,
-    "rentValue": 73
+    "family": 58,
+    "rentValue": 73,
+    "rentLow": 48
   },
   "kuhombutsu": {
     "commute": 48,
@@ -3902,8 +4132,9 @@
     "quietness": 98,
     "singleLife": 39,
     "disaster": 79,
-    "family": 33,
-    "rentValue": 10
+    "family": 34,
+    "rentValue": 10,
+    "rentLow": 33
   },
   "futako-tamagawa": {
     "commute": 45,
@@ -3918,8 +4149,9 @@
     "quietness": 43,
     "singleLife": 54,
     "disaster": 54,
-    "family": 6,
-    "rentValue": 41
+    "family": 9,
+    "rentValue": 41,
+    "rentLow": 64
   },
   "daitabashi": {
     "commute": 60,
@@ -3934,8 +4166,9 @@
     "quietness": 54,
     "singleLife": 40,
     "disaster": 94,
-    "family": 74,
-    "rentValue": 94
+    "family": 64,
+    "rentValue": 94,
+    "rentLow": 57
   },
   "hachiman-yama": {
     "commute": 46,
@@ -3950,8 +4183,9 @@
     "quietness": 62,
     "singleLife": 35,
     "disaster": 66,
-    "family": 43,
-    "rentValue": 65
+    "family": 47,
+    "rentValue": 65,
+    "rentLow": 78
   },
   "chitose-karasuyama": {
     "commute": 42,
@@ -3966,8 +4200,9 @@
     "quietness": 56,
     "singleLife": 56,
     "disaster": 94,
-    "family": 23,
-    "rentValue": 68
+    "family": 18,
+    "rentValue": 68,
+    "rentLow": 88
   },
   "chitose-funabashi": {
     "commute": 46,
@@ -3982,8 +4217,9 @@
     "quietness": 67,
     "singleLife": 37,
     "disaster": 100,
-    "family": 13,
-    "rentValue": 56
+    "family": 11,
+    "rentValue": 56,
+    "rentLow": 69
   },
   "okusawa": {
     "commute": 49,
@@ -3998,8 +4234,9 @@
     "quietness": 68,
     "singleLife": 62,
     "disaster": 79,
-    "family": 45,
-    "rentValue": 11
+    "family": 36,
+    "rentValue": 11,
+    "rentLow": 32
   },
   "miyanosaka": {
     "commute": 41,
@@ -4014,8 +4251,9 @@
     "quietness": 86,
     "singleLife": 47,
     "disaster": 66,
-    "family": 49,
-    "rentValue": 26
+    "family": 46,
+    "rentValue": 26,
+    "rentLow": 64
   },
   "oyamadai": {
     "commute": 46,
@@ -4030,8 +4268,9 @@
     "quietness": 100,
     "singleLife": 22,
     "disaster": 94,
-    "family": 30,
-    "rentValue": 31
+    "family": 39,
+    "rentValue": 31,
+    "rentLow": 56
   },
   "seijogakuen-mae": {
     "commute": 39,
@@ -4043,11 +4282,12 @@
     "cafe": 39,
     "nightlife": 6,
     "fitness": 14,
-    "quietness": 93,
+    "quietness": 87,
     "singleLife": 20,
     "disaster": 79,
-    "family": 16,
-    "rentValue": 36
+    "family": 34,
+    "rentValue": 36,
+    "rentLow": 82
   },
   "shindaita": {
     "commute": 58,
@@ -4062,8 +4302,9 @@
     "quietness": 66,
     "singleLife": 59,
     "disaster": 82,
-    "family": 81,
-    "rentValue": 73
+    "family": 75,
+    "rentValue": 73,
+    "rentLow": 48
   },
   "meidaimae": {
     "commute": 59,
@@ -4078,8 +4319,9 @@
     "quietness": 41,
     "singleLife": 52,
     "disaster": 93,
-    "family": 27,
-    "rentValue": 96
+    "family": 22,
+    "rentValue": 96,
+    "rentLow": 61
   },
   "higashi-kitazawa": {
     "commute": 62,
@@ -4094,8 +4336,9 @@
     "quietness": 77,
     "singleLife": 60,
     "disaster": 93,
-    "family": 81,
-    "rentValue": 34
+    "family": 70,
+    "rentValue": 34,
+    "rentLow": 29
   },
   "higashi-matsubara": {
     "commute": 57,
@@ -4110,8 +4353,9 @@
     "quietness": 91,
     "singleLife": 50,
     "disaster": 79,
-    "family": 73,
-    "rentValue": 88
+    "family": 72,
+    "rentValue": 88,
+    "rentLow": 59
   },
   "matsubara": {
     "commute": 42,
@@ -4126,8 +4370,9 @@
     "quietness": 86,
     "singleLife": 37,
     "disaster": 72,
-    "family": 69,
-    "rentValue": 30
+    "family": 61,
+    "rentValue": 30,
+    "rentLow": 66
   },
   "shoin-jinja-mae": {
     "commute": 43,
@@ -4142,8 +4387,9 @@
     "quietness": 57,
     "singleLife": 52,
     "disaster": 72,
-    "family": 24,
-    "rentValue": 13
+    "family": 19,
+    "rentValue": 13,
+    "rentLow": 47
   },
   "sakurajosui": {
     "commute": 51,
@@ -4158,8 +4404,9 @@
     "quietness": 64,
     "singleLife": 33,
     "disaster": 82,
-    "family": 41,
-    "rentValue": 87
+    "family": 40,
+    "rentValue": 87,
+    "rentLow": 75
   },
   "sakura-shimmachi": {
     "commute": 52,
@@ -4174,8 +4421,9 @@
     "quietness": 73,
     "singleLife": 36,
     "disaster": 100,
-    "family": 34,
-    "rentValue": 39
+    "family": 60,
+    "rentValue": 39,
+    "rentLow": 47
   },
   "umegaoka": {
     "commute": 55,
@@ -4190,8 +4438,9 @@
     "quietness": 71,
     "singleLife": 51,
     "disaster": 79,
-    "family": 52,
-    "rentValue": 92
+    "family": 44,
+    "rentValue": 92,
+    "rentLow": 67
   },
   "ikenoue": {
     "commute": 63,
@@ -4206,8 +4455,9 @@
     "quietness": 78,
     "singleLife": 62,
     "disaster": 79,
-    "family": 84,
-    "rentValue": 54
+    "family": 77,
+    "rentValue": 54,
+    "rentLow": 31
   },
   "yoga": {
     "commute": 49,
@@ -4222,8 +4472,9 @@
     "quietness": 69,
     "singleLife": 31,
     "disaster": 72,
-    "family": 7,
-    "rentValue": 40
+    "family": 16,
+    "rentValue": 40,
+    "rentLow": 54
   },
   "soshigaya-okura": {
     "commute": 42,
@@ -4238,8 +4489,9 @@
     "quietness": 73,
     "singleLife": 42,
     "disaster": 88,
-    "family": 47,
-    "rentValue": 36
+    "family": 52,
+    "rentValue": 36,
+    "rentLow": 71
   },
   "todoroki": {
     "commute": 44,
@@ -4254,8 +4506,9 @@
     "quietness": 84,
     "singleLife": 19,
     "disaster": 79,
-    "family": 11,
-    "rentValue": 35
+    "family": 16,
+    "rentValue": 35,
+    "rentLow": 63
   },
   "kyodo": {
     "commute": 49,
@@ -4270,8 +4523,9 @@
     "quietness": 52,
     "singleLife": 64,
     "disaster": 79,
-    "family": 28,
-    "rentValue": 71
+    "family": 27,
+    "rentValue": 71,
+    "rentLow": 69
   },
   "roka-koen": {
     "commute": 44,
@@ -4286,8 +4540,9 @@
     "quietness": 70,
     "singleLife": 60,
     "disaster": 93,
-    "family": 61,
-    "rentValue": 66
+    "family": 50,
+    "rentValue": 66,
+    "rentLow": 83
   },
   "wakabayashi": {
     "commute": 46,
@@ -4302,8 +4557,9 @@
     "quietness": 78,
     "singleLife": 53,
     "disaster": 72,
-    "family": 74,
-    "rentValue": 15
+    "family": 67,
+    "rentValue": 15,
+    "rentLow": 45
   },
   "nishi-taishido": {
     "commute": 51,
@@ -4318,8 +4574,9 @@
     "quietness": 62,
     "singleLife": 75,
     "disaster": 79,
-    "family": 76,
-    "rentValue": 18
+    "family": 66,
+    "rentValue": 18,
+    "rentLow": 38
   },
   "gotokuji": {
     "commute": 52,
@@ -4334,8 +4591,9 @@
     "quietness": 57,
     "singleLife": 48,
     "disaster": 72,
-    "family": 55,
-    "rentValue": 79
+    "family": 46,
+    "rentValue": 79,
+    "rentLow": 65
   },
   "komazawa-daigaku": {
     "commute": 57,
@@ -4350,8 +4608,9 @@
     "quietness": 32,
     "singleLife": 49,
     "disaster": 94,
-    "family": 9,
-    "rentValue": 53
+    "family": 13,
+    "rentValue": 53,
+    "rentLow": 41
   },
   "yoyogi": {
     "commute": 80,
@@ -4363,11 +4622,12 @@
     "cafe": 75,
     "nightlife": 57,
     "fitness": 0,
-    "quietness": 64,
+    "quietness": 60,
     "singleLife": 70,
     "disaster": 88,
-    "family": 6,
-    "rentValue": 53
+    "family": 10,
+    "rentValue": 53,
+    "rentLow": 14
   },
   "yoyogi-uehara": {
     "commute": 69,
@@ -4382,8 +4642,9 @@
     "quietness": 51,
     "singleLife": 55,
     "disaster": 76,
-    "family": 41,
-    "rentValue": 62
+    "family": 42,
+    "rentValue": 62,
+    "rentLow": 26
   },
   "yoyogi-hachiman": {
     "commute": 72,
@@ -4398,8 +4659,9 @@
     "quietness": 65,
     "singleLife": 60,
     "disaster": 86,
-    "family": 56,
-    "rentValue": 29
+    "family": 59,
+    "rentValue": 29,
+    "rentLow": 18
   },
   "daikanyama": {
     "commute": 72,
@@ -4414,8 +4676,9 @@
     "quietness": 61,
     "singleLife": 82,
     "disaster": 94,
-    "family": 78,
-    "rentValue": 6
+    "family": 68,
+    "rentValue": 6,
+    "rentLow": 7
   },
   "hatsudai": {
     "commute": 55,
@@ -4430,8 +4693,9 @@
     "quietness": 19,
     "singleLife": 57,
     "disaster": 79,
-    "family": 44,
-    "rentValue": 21
+    "family": 36,
+    "rentValue": 21,
+    "rentLow": 32
   },
   "kita-sando": {
     "commute": 70,
@@ -4446,8 +4710,9 @@
     "quietness": 62,
     "singleLife": 56,
     "disaster": 86,
-    "family": 15,
-    "rentValue": 7
+    "family": 18,
+    "rentValue": 7,
+    "rentLow": 8
   },
   "sendagaya": {
     "commute": 73,
@@ -4462,8 +4727,9 @@
     "quietness": 63,
     "singleLife": 50,
     "disaster": 86,
-    "family": 27,
-    "rentValue": 20
+    "family": 38,
+    "rentValue": 20,
+    "rentLow": 14
   },
   "minami-shinjuku": {
     "commute": 72,
@@ -4478,8 +4744,9 @@
     "quietness": 76,
     "singleLife": 67,
     "disaster": 79,
-    "family": 10,
-    "rentValue": 24
+    "family": 6,
+    "rentValue": 24,
+    "rentLow": 17
   },
   "sangubashi": {
     "commute": 70,
@@ -4494,8 +4761,9 @@
     "quietness": 72,
     "singleLife": 50,
     "disaster": 100,
-    "family": 27,
-    "rentValue": 54
+    "family": 21,
+    "rentValue": 54,
+    "rentLow": 23
   },
   "hatagaya": {
     "commute": 51,
@@ -4510,8 +4778,9 @@
     "quietness": 27,
     "singleLife": 52,
     "disaster": 86,
-    "family": 77,
-    "rentValue": 20
+    "family": 67,
+    "rentValue": 20,
+    "rentLow": 39
   },
   "ebisu": {
     "commute": 87,
@@ -4523,11 +4792,12 @@
     "cafe": 90,
     "nightlife": 77,
     "fitness": 39,
-    "quietness": 42,
+    "quietness": 41,
     "singleLife": 80,
     "disaster": 88,
     "family": 30,
-    "rentValue": 31
+    "rentValue": 31,
+    "rentLow": 7
   },
   "meiji-jingumae": {
     "commute": 81,
@@ -4539,10 +4809,10 @@
     "cafe": 98,
     "nightlife": 41,
     "fitness": 14,
-    "quietness": 57,
+    "quietness": 49,
     "singleLife": 68,
     "disaster": 79,
-    "family": 16
+    "family": 21
   },
   "shibuya": {
     "commute": 85,
@@ -4557,8 +4827,9 @@
     "quietness": 29,
     "singleLife": 89,
     "disaster": 86,
-    "family": 30,
-    "rentValue": 15
+    "family": 24,
+    "rentValue": 15,
+    "rentLow": 5
   },
   "shinsen": {
     "commute": 72,
@@ -4573,8 +4844,9 @@
     "quietness": 49,
     "singleLife": 87,
     "disaster": 94,
-    "family": 72,
-    "rentValue": 9
+    "family": 61,
+    "rentValue": 9,
+    "rentLow": 10
   },
   "sasazuka": {
     "commute": 63,
@@ -4589,8 +4861,9 @@
     "quietness": 43,
     "singleLife": 46,
     "disaster": 79,
-    "family": 51,
-    "rentValue": 85
+    "family": 54,
+    "rentValue": 85,
+    "rentLow": 44
   },
   "nishi-shinjuku-gochome": {
     "commute": 72,
@@ -4605,8 +4878,9 @@
     "quietness": 60,
     "singleLife": 65,
     "disaster": 72,
-    "family": 77,
-    "rentValue": 97
+    "family": 72,
+    "rentValue": 97,
+    "rentLow": 36
   },
   "nakano": {
     "commute": 68,
@@ -4621,8 +4895,9 @@
     "quietness": 39,
     "singleLife": 78,
     "disaster": 86,
-    "family": 61,
-    "rentValue": 99
+    "family": 57,
+    "rentValue": 99,
+    "rentLow": 55
   },
   "nakano-sakaue": {
     "commute": 71,
@@ -4637,8 +4912,9 @@
     "quietness": 27,
     "singleLife": 60,
     "disaster": 66,
-    "family": 66,
-    "rentValue": 99
+    "family": 62,
+    "rentValue": 99,
+    "rentLow": 42
   },
   "nakano-fujimicho": {
     "commute": 34,
@@ -4653,8 +4929,9 @@
     "quietness": 86,
     "singleLife": 35,
     "disaster": 79,
-    "family": 90,
-    "rentValue": 6
+    "family": 91,
+    "rentValue": 6,
+    "rentLow": 48
   },
   "nakano-shimbashi": {
     "commute": 36,
@@ -4669,8 +4946,9 @@
     "quietness": 69,
     "singleLife": 51,
     "disaster": 79,
-    "family": 79,
-    "rentValue": 6
+    "family": 69,
+    "rentValue": 6,
+    "rentLow": 44
   },
   "fujimidai": {
     "commute": 39,
@@ -4685,8 +4963,9 @@
     "quietness": 78,
     "singleLife": 43,
     "disaster": 72,
-    "family": 68,
-    "rentValue": 49
+    "family": 69,
+    "rentValue": 49,
+    "rentLow": 85
   },
   "shin-nakano": {
     "commute": 64,
@@ -4701,8 +4980,9 @@
     "quietness": 38,
     "singleLife": 64,
     "disaster": 88,
-    "family": 88,
-    "rentValue": 93
+    "family": 80,
+    "rentValue": 93,
+    "rentLow": 48
   },
   "araiyakushi-mae": {
     "commute": 52,
@@ -4717,8 +4997,9 @@
     "quietness": 67,
     "singleLife": 60,
     "disaster": 72,
-    "family": 75,
-    "rentValue": 77
+    "family": 65,
+    "rentValue": 77,
+    "rentLow": 63
   },
   "higashi-nakano": {
     "commute": 64,
@@ -4733,8 +5014,9 @@
     "quietness": 27,
     "singleLife": 70,
     "disaster": 86,
-    "family": 77,
-    "rentValue": 91
+    "family": 68,
+    "rentValue": 91,
+    "rentLow": 46
   },
   "numabukuro": {
     "commute": 49,
@@ -4749,8 +5031,9 @@
     "quietness": 76,
     "singleLife": 34,
     "disaster": 66,
-    "family": 66,
-    "rentValue": 76
+    "family": 57,
+    "rentValue": 76,
+    "rentLow": 73
   },
   "ochiai": {
     "commute": 59,
@@ -4765,8 +5048,9 @@
     "quietness": 47,
     "singleLife": 70,
     "disaster": 66,
-    "family": 96,
-    "rentValue": 82
+    "family": 94,
+    "rentValue": 82,
+    "rentLow": 50
   },
   "toritsu-kasei": {
     "commute": 44,
@@ -4781,8 +5065,9 @@
     "quietness": 73,
     "singleLife": 56,
     "disaster": 88,
-    "family": 91,
-    "rentValue": 71
+    "family": 85,
+    "rentValue": 71,
+    "rentLow": 84
   },
   "nogata": {
     "commute": 46,
@@ -4797,8 +5082,9 @@
     "quietness": 42,
     "singleLife": 45,
     "disaster": 86,
-    "family": 57,
-    "rentValue": 79
+    "family": 48,
+    "rentValue": 79,
+    "rentLow": 85
   },
   "saginomiya": {
     "commute": 42,
@@ -4813,8 +5099,9 @@
     "quietness": 53,
     "singleLife": 47,
     "disaster": 76,
-    "family": 77,
-    "rentValue": 56
+    "family": 67,
+    "rentValue": 56,
+    "rentLow": 83
   },
   "shimo-igusa": {
     "commute": 39,
@@ -4829,8 +5116,9 @@
     "quietness": 82,
     "singleLife": 16,
     "disaster": 72,
-    "family": 85,
-    "rentValue": 52
+    "family": 90,
+    "rentValue": 52,
+    "rentLow": 86
   },
   "kugayama": {
     "commute": 39,
@@ -4845,8 +5133,9 @@
     "quietness": 52,
     "singleLife": 22,
     "disaster": 86,
-    "family": 50,
-    "rentValue": 53
+    "family": 42,
+    "rentValue": 53,
+    "rentLow": 87
   },
   "iogi": {
     "commute": 37,
@@ -4861,8 +5150,9 @@
     "quietness": 84,
     "singleLife": 22,
     "disaster": 82,
-    "family": 75,
-    "rentValue": 42
+    "family": 81,
+    "rentValue": 42,
+    "rentLow": 89
   },
   "minami-asagaya": {
     "commute": 53,
@@ -4877,8 +5167,9 @@
     "quietness": 49,
     "singleLife": 76,
     "disaster": 88,
-    "family": 94,
-    "rentValue": 86
+    "family": 89,
+    "rentValue": 86,
+    "rentLow": 66
   },
   "fujimigaoka": {
     "commute": 41,
@@ -4893,8 +5184,9 @@
     "quietness": 89,
     "singleLife": 34,
     "disaster": 82,
-    "family": 92,
-    "rentValue": 46
+    "family": 85,
+    "rentValue": 46,
+    "rentLow": 81
   },
   "shin-koenji": {
     "commute": 56,
@@ -4909,8 +5201,9 @@
     "quietness": 44,
     "singleLife": 69,
     "disaster": 86,
-    "family": 91,
-    "rentValue": 91
+    "family": 87,
+    "rentValue": 91,
+    "rentLow": 64
   },
   "honancho": {
     "commute": 31,
@@ -4925,8 +5218,9 @@
     "quietness": 62,
     "singleLife": 24,
     "disaster": 52,
-    "family": 67,
-    "rentValue": 6
+    "family": 84,
+    "rentValue": 6,
+    "rentLow": 57
   },
   "higashi-koenji": {
     "commute": 60,
@@ -4941,8 +5235,9 @@
     "quietness": 49,
     "singleLife": 54,
     "disaster": 79,
-    "family": 82,
-    "rentValue": 89
+    "family": 79,
+    "rentValue": 89,
+    "rentLow": 53
   },
   "eifukucho": {
     "commute": 51,
@@ -4958,7 +5253,8 @@
     "singleLife": 38,
     "disaster": 86,
     "family": 68,
-    "rentValue": 78
+    "rentValue": 78,
+    "rentLow": 67
   },
   "hamadayama": {
     "commute": 46,
@@ -4973,8 +5269,9 @@
     "quietness": 56,
     "singleLife": 43,
     "disaster": 94,
-    "family": 48,
-    "rentValue": 63
+    "family": 40,
+    "rentValue": 63,
+    "rentLow": 76
   },
   "ogikubo": {
     "commute": 55,
@@ -4989,8 +5286,9 @@
     "quietness": 37,
     "singleLife": 68,
     "disaster": 72,
-    "family": 39,
-    "rentValue": 96
+    "family": 37,
+    "rentValue": 96,
+    "rentLow": 74
   },
   "nishi-eifuku": {
     "commute": 49,
@@ -5005,8 +5303,9 @@
     "quietness": 57,
     "singleLife": 42,
     "disaster": 79,
-    "family": 58,
-    "rentValue": 81
+    "family": 48,
+    "rentValue": 81,
+    "rentLow": 78
   },
   "nishi-ogikubo": {
     "commute": 49,
@@ -5021,8 +5320,9 @@
     "quietness": 53,
     "singleLife": 52,
     "disaster": 86,
-    "family": 42,
-    "rentValue": 81
+    "family": 35,
+    "rentValue": 81,
+    "rentLow": 78
   },
   "asagaya": {
     "commute": 58,
@@ -5037,8 +5337,9 @@
     "quietness": 37,
     "singleLife": 76,
     "disaster": 86,
-    "family": 48,
-    "rentValue": 97
+    "family": 40,
+    "rentValue": 97,
+    "rentLow": 68
   },
   "takaido": {
     "commute": 43,
@@ -5053,8 +5354,9 @@
     "quietness": 62,
     "singleLife": 32,
     "disaster": 86,
-    "family": 64,
-    "rentValue": 52
+    "family": 76,
+    "rentValue": 52,
+    "rentLow": 77
   },
   "koenji": {
     "commute": 63,
@@ -5069,8 +5371,9 @@
     "quietness": 47,
     "singleLife": 80,
     "disaster": 72,
-    "family": 56,
-    "rentValue": 98
+    "family": 47,
+    "rentValue": 98,
+    "rentLow": 56
   },
   "shimo-itabashi": {
     "commute": 55,
@@ -5085,8 +5388,9 @@
     "quietness": 99,
     "singleLife": 52,
     "disaster": 72,
-    "family": 94,
-    "rentValue": 63
+    "family": 97,
+    "rentValue": 63,
+    "rentLow": 50
   },
   "kita-ikebukuro": {
     "commute": 57,
@@ -5101,8 +5405,9 @@
     "quietness": 100,
     "singleLife": 37,
     "disaster": 79,
-    "family": 97,
-    "rentValue": 79
+    "family": 98,
+    "rentValue": 79,
+    "rentLow": 52
   },
   "senkawa": {
     "commute": 55,
@@ -5117,8 +5422,9 @@
     "quietness": 67,
     "singleLife": 19,
     "disaster": 76,
-    "family": 62,
-    "rentValue": 97
+    "family": 66,
+    "rentValue": 97,
+    "rentLow": 77
   },
   "mukohara": {
     "commute": 49,
@@ -5133,8 +5439,9 @@
     "quietness": 45,
     "singleLife": 73,
     "disaster": 93,
-    "family": 90,
-    "rentValue": 17
+    "family": 82,
+    "rentValue": 17,
+    "rentLow": 41
   },
   "otsuka": {
     "commute": 59,
@@ -5149,8 +5456,9 @@
     "quietness": 44,
     "singleLife": 74,
     "disaster": 94,
-    "family": 73,
-    "rentValue": 62
+    "family": 63,
+    "rentValue": 62,
+    "rentLow": 42
   },
   "gakushuinshita": {
     "commute": 47,
@@ -5165,8 +5473,9 @@
     "quietness": 72,
     "singleLife": 68,
     "disaster": 79,
-    "family": 94,
-    "rentValue": 13
+    "family": 91,
+    "rentValue": 13,
+    "rentLow": 39
   },
   "sugamo": {
     "commute": 64,
@@ -5181,8 +5490,9 @@
     "quietness": 25,
     "singleLife": 70,
     "disaster": 100,
-    "family": 71,
-    "rentValue": 80
+    "family": 70,
+    "rentValue": 80,
+    "rentLow": 39
   },
   "sugamoshinden": {
     "commute": 47,
@@ -5197,8 +5507,9 @@
     "quietness": 81,
     "singleLife": 69,
     "disaster": 88,
-    "family": 99,
-    "rentValue": 16
+    "family": 98,
+    "rentValue": 16,
+    "rentLow": 44
   },
   "koshinzuka": {
     "commute": 43,
@@ -5213,8 +5524,9 @@
     "quietness": 82,
     "singleLife": 54,
     "disaster": 94,
-    "family": 100,
-    "rentValue": 10
+    "family": 99,
+    "rentValue": 10,
+    "rentLow": 43
   },
   "shin-koshinzuka": {
     "commute": 42,
@@ -5230,7 +5542,8 @@
     "singleLife": 44,
     "disaster": 94,
     "family": 100,
-    "rentValue": 9
+    "rentValue": 9,
+    "rentLow": 43
   },
   "higashi-ikebukuro": {
     "commute": 63,
@@ -5245,8 +5558,9 @@
     "quietness": 43,
     "singleLife": 76,
     "disaster": 94,
-    "family": 80,
-    "rentValue": 75
+    "family": 87,
+    "rentValue": 75,
+    "rentLow": 38
   },
   "higashi-nagasaki": {
     "commute": 53,
@@ -5261,8 +5575,9 @@
     "quietness": 79,
     "singleLife": 21,
     "disaster": 100,
-    "family": 79,
-    "rentValue": 93
+    "family": 69,
+    "rentValue": 93,
+    "rentLow": 76
   },
   "shiinamachi": {
     "commute": 57,
@@ -5277,8 +5592,9 @@
     "quietness": 73,
     "singleLife": 42,
     "disaster": 88,
-    "family": 94,
-    "rentValue": 90
+    "family": 96,
+    "rentValue": 90,
+    "rentLow": 59
   },
   "ikebukuro": {
     "commute": 72,
@@ -5290,11 +5606,12 @@
     "cafe": 97,
     "nightlife": 74,
     "fitness": 39,
-    "quietness": 49,
+    "quietness": 36,
     "singleLife": 86,
     "disaster": 100,
-    "family": 53,
-    "rentValue": 100
+    "family": 45,
+    "rentValue": 100,
+    "rentLow": 50
   },
   "mejiro": {
     "commute": 62,
@@ -5309,8 +5626,9 @@
     "quietness": 67,
     "singleLife": 64,
     "disaster": 72,
-    "family": 66,
-    "rentValue": 75
+    "family": 83,
+    "rentValue": 75,
+    "rentLow": 40
   },
   "ochiai-minami-nagasaki": {
     "commute": 57,
@@ -5325,8 +5643,9 @@
     "quietness": 66,
     "singleLife": 40,
     "disaster": 82,
-    "family": 86,
-    "rentValue": 98
+    "family": 92,
+    "rentValue": 98,
+    "rentLow": 73
   },
   "nishi-sugamo": {
     "commute": 56,
@@ -5341,8 +5660,9 @@
     "quietness": 65,
     "singleLife": 39,
     "disaster": 94,
-    "family": 95,
-    "rentValue": 76
+    "family": 100,
+    "rentValue": 76,
+    "rentLow": 54
   },
   "kanamecho": {
     "commute": 58,
@@ -5357,8 +5677,9 @@
     "quietness": 64,
     "singleLife": 40,
     "disaster": 72,
-    "family": 63,
-    "rentValue": 91
+    "family": 84,
+    "rentValue": 91,
+    "rentLow": 58
   },
   "toden-zoshigaya": {
     "commute": 52,
@@ -5373,8 +5694,9 @@
     "quietness": 76,
     "singleLife": 70,
     "disaster": 100,
-    "family": 97,
-    "rentValue": 22
+    "family": 94,
+    "rentValue": 22,
+    "rentLow": 38
   },
   "zoshigaya": {
     "commute": 59,
@@ -5389,8 +5711,9 @@
     "quietness": 86,
     "singleLife": 62,
     "disaster": 100,
-    "family": 92,
-    "rentValue": 65
+    "family": 95,
+    "rentValue": 65,
+    "rentLow": 43
   },
   "komagome": {
     "commute": 59,
@@ -5405,8 +5728,9 @@
     "quietness": 42,
     "singleLife": 75,
     "disaster": 66,
-    "family": 75,
-    "rentValue": 78
+    "family": 66,
+    "rentValue": 78,
+    "rentLow": 49
   },
   "kami-nakazato": {
     "commute": 54,
@@ -5422,7 +5746,8 @@
     "singleLife": 54,
     "disaster": 68,
     "family": 93,
-    "rentValue": 86
+    "rentValue": 86,
+    "rentLow": 63
   },
   "kita-akabane": {
     "commute": 46,
@@ -5437,8 +5762,9 @@
     "quietness": 85,
     "singleLife": 16,
     "disaster": 27,
-    "family": 8,
-    "rentValue": 68
+    "family": 14,
+    "rentValue": 68,
+    "rentLow": 79
   },
   "jujo": {
     "commute": 55,
@@ -5453,8 +5779,9 @@
     "quietness": 45,
     "singleLife": 62,
     "disaster": 72,
-    "family": 47,
-    "rentValue": 96
+    "family": 38,
+    "rentValue": 96,
+    "rentLow": 74
   },
   "oku": {
     "commute": 53,
@@ -5469,8 +5796,9 @@
     "quietness": 79,
     "singleLife": 46,
     "disaster": 36,
-    "family": 89,
-    "rentValue": 96
+    "family": 93,
+    "rentValue": 96,
+    "rentLow": 83
   },
   "shimo": {
     "commute": 41,
@@ -5485,8 +5813,9 @@
     "quietness": 54,
     "singleLife": 28,
     "disaster": 18,
-    "family": 40,
-    "rentValue": 29
+    "family": 34,
+    "rentValue": 29,
+    "rentLow": 67
   },
   "higashi-jujo": {
     "commute": 51,
@@ -5501,8 +5830,9 @@
     "quietness": 49,
     "singleLife": 70,
     "disaster": 60,
-    "family": 49,
-    "rentValue": 83
+    "family": 41,
+    "rentValue": 83,
+    "rentLow": 72
   },
   "sakaecho": {
     "commute": 42,
@@ -5517,8 +5847,9 @@
     "quietness": 90,
     "singleLife": 63,
     "disaster": 52,
-    "family": 96,
-    "rentValue": 14
+    "family": 94,
+    "rentValue": 14,
+    "rentLow": 50
   },
   "kajiwara": {
     "commute": 39,
@@ -5533,8 +5864,9 @@
     "quietness": 64,
     "singleLife": 38,
     "disaster": 28,
-    "family": 99,
-    "rentValue": 22
+    "family": 98,
+    "rentValue": 22,
+    "rentLow": 66
   },
   "takinogawa-itchome": {
     "commute": 41,
@@ -5550,7 +5882,8 @@
     "singleLife": 43,
     "disaster": 82,
     "family": 97,
-    "rentValue": 17
+    "rentValue": 17,
+    "rentLow": 58
   },
   "oji": {
     "commute": 53,
@@ -5565,8 +5898,9 @@
     "quietness": 25,
     "singleLife": 64,
     "disaster": 44,
-    "family": 64,
-    "rentValue": 80
+    "family": 65,
+    "rentValue": 80,
+    "rentLow": 62
   },
   "oji-kamiya": {
     "commute": 45,
@@ -5581,8 +5915,9 @@
     "quietness": 63,
     "singleLife": 49,
     "disaster": 18,
-    "family": 83,
-    "rentValue": 36
+    "family": 94,
+    "rentValue": 36,
+    "rentLow": 61
   },
   "tabata": {
     "commute": 61,
@@ -5594,11 +5929,12 @@
     "cafe": 37,
     "nightlife": 18,
     "fitness": 39,
-    "quietness": 80,
+    "quietness": 78,
     "singleLife": 58,
     "disaster": 59,
-    "family": 74,
-    "rentValue": 98
+    "family": 92,
+    "rentValue": 98,
+    "rentLow": 63
   },
   "nishigahara": {
     "commute": 53,
@@ -5613,8 +5949,9 @@
     "quietness": 80,
     "singleLife": 53,
     "disaster": 72,
-    "family": 98,
-    "rentValue": 71
+    "family": 97,
+    "rentValue": 71,
+    "rentLow": 57
   },
   "nishigahara-yonchome": {
     "commute": 41,
@@ -5629,8 +5966,9 @@
     "quietness": 96,
     "singleLife": 32,
     "disaster": 94,
-    "family": 98,
-    "rentValue": 17
+    "family": 97,
+    "rentValue": 17,
+    "rentLow": 59
   },
   "akabane": {
     "commute": 55,
@@ -5645,8 +5983,9 @@
     "quietness": 43,
     "singleLife": 68,
     "disaster": 52,
-    "family": 34,
-    "rentValue": 94
+    "family": 27,
+    "rentValue": 94,
+    "rentLow": 71
   },
   "akabane-iwabuchi": {
     "commute": 38,
@@ -5661,8 +6000,9 @@
     "quietness": 46,
     "singleLife": 60,
     "disaster": 18,
-    "family": 31,
-    "rentValue": 22
+    "family": 50,
+    "rentValue": 22,
+    "rentLow": 71
   },
   "asukayama": {
     "commute": 43,
@@ -5678,7 +6018,8 @@
     "singleLife": 54,
     "disaster": 72,
     "family": 99,
-    "rentValue": 27
+    "rentValue": 27,
+    "rentLow": 61
   },
   "minowabashi": {
     "commute": 34,
@@ -5693,8 +6034,9 @@
     "quietness": 46,
     "singleLife": 58,
     "disaster": 28,
-    "family": 84,
-    "rentValue": 7
+    "family": 75,
+    "rentValue": 7,
+    "rentLow": 51
   },
   "mikawashima": {
     "commute": 55,
@@ -5709,8 +6051,9 @@
     "quietness": 65,
     "singleLife": 68,
     "disaster": 28,
-    "family": 93,
-    "rentValue": 66
+    "family": 88,
+    "rentValue": 66,
+    "rentLow": 52
   },
   "minami-senju": {
     "commute": 55,
@@ -5725,8 +6068,9 @@
     "quietness": 55,
     "singleLife": 59,
     "disaster": 28,
-    "family": 69,
-    "rentValue": 74
+    "family": 58,
+    "rentValue": 74,
+    "rentLow": 55
   },
   "miyanomae": {
     "commute": 37,
@@ -5741,8 +6085,9 @@
     "quietness": 69,
     "singleLife": 41,
     "disaster": 28,
-    "family": 92,
-    "rentValue": 25
+    "family": 88,
+    "rentValue": 25,
+    "rentLow": 80
   },
   "odai": {
     "commute": 35,
@@ -5757,8 +6102,9 @@
     "quietness": 61,
     "singleLife": 36,
     "disaster": 28,
-    "family": 92,
-    "rentValue": 36
+    "family": 85,
+    "rentValue": 36,
+    "rentLow": 90
   },
   "shim-mikawashima": {
     "commute": 52,
@@ -5773,8 +6119,9 @@
     "quietness": 62,
     "singleLife": 63,
     "disaster": 28,
-    "family": 96,
-    "rentValue": 52
+    "family": 92,
+    "rentValue": 52,
+    "rentLow": 51
   },
   "nippori": {
     "commute": 63,
@@ -5786,11 +6133,12 @@
     "cafe": 70,
     "nightlife": 67,
     "fitness": 14,
-    "quietness": 55,
+    "quietness": 44,
     "singleLife": 75,
     "disaster": 72,
-    "family": 56,
-    "rentValue": 92
+    "family": 57,
+    "rentValue": 92,
+    "rentLow": 48
   },
   "higashi-ogu-sanchome": {
     "commute": 42,
@@ -5805,8 +6153,9 @@
     "quietness": 46,
     "singleLife": 52,
     "disaster": 28,
-    "family": 76,
-    "rentValue": 43
+    "family": 66,
+    "rentValue": 43,
+    "rentLow": 75
   },
   "kumanomae": {
     "commute": 47,
@@ -5822,7 +6171,8 @@
     "singleLife": 42,
     "disaster": 18,
     "family": 87,
-    "rentValue": 76
+    "rentValue": 76,
+    "rentLow": 81
   },
   "machiya": {
     "commute": 54,
@@ -5837,8 +6187,9 @@
     "quietness": 51,
     "singleLife": 54,
     "disaster": 36,
-    "family": 73,
-    "rentValue": 95
+    "family": 82,
+    "rentValue": 95,
+    "rentLow": 79
   },
   "machiya-nichome": {
     "commute": 44,
@@ -5853,8 +6204,9 @@
     "quietness": 48,
     "singleLife": 54,
     "disaster": 28,
-    "family": 82,
-    "rentValue": 44
+    "family": 73,
+    "rentValue": 44,
+    "rentLow": 69
   },
   "arakawa-itchumae": {
     "commute": 37,
@@ -5870,7 +6222,8 @@
     "singleLife": 57,
     "disaster": 28,
     "family": 99,
-    "rentValue": 9
+    "rentValue": 9,
+    "rentLow": 55
   },
   "arakawa-nanachome": {
     "commute": 45,
@@ -5885,8 +6238,9 @@
     "quietness": 93,
     "singleLife": 50,
     "disaster": 28,
-    "family": 97,
-    "rentValue": 45
+    "family": 95,
+    "rentValue": 45,
+    "rentLow": 66
   },
   "arakawa-nichome": {
     "commute": 42,
@@ -5901,8 +6255,9 @@
     "quietness": 100,
     "singleLife": 50,
     "disaster": 28,
-    "family": 97,
-    "rentValue": 55
+    "family": 96,
+    "rentValue": 55,
+    "rentLow": 82
   },
   "arakawakuyakushomae": {
     "commute": 38,
@@ -5917,8 +6272,9 @@
     "quietness": 80,
     "singleLife": 55,
     "disaster": 28,
-    "family": 99,
-    "rentValue": 21
+    "family": 98,
+    "rentValue": 21,
+    "rentLow": 71
   },
   "arakawa-shakomae": {
     "commute": 36,
@@ -5933,8 +6289,9 @@
     "quietness": 88,
     "singleLife": 36,
     "disaster": 28,
-    "family": 95,
-    "rentValue": 18
+    "family": 90,
+    "rentValue": 18,
+    "rentLow": 73
   },
   "arakawa-yuenchimae": {
     "commute": 34,
@@ -5949,8 +6306,9 @@
     "quietness": 69,
     "singleLife": 35,
     "disaster": 28,
-    "family": 95,
-    "rentValue": 18
+    "family": 90,
+    "rentValue": 18,
+    "rentLow": 82
   },
   "nishi-nippori": {
     "commute": 64,
@@ -5962,11 +6320,12 @@
     "cafe": 65,
     "nightlife": 58,
     "fitness": 39,
-    "quietness": 57,
+    "quietness": 41,
     "singleLife": 74,
     "disaster": 72,
     "family": 56,
-    "rentValue": 97
+    "rentValue": 97,
+    "rentLow": 53
   },
   "akado-shogakkomae": {
     "commute": 50,
@@ -5981,8 +6340,9 @@
     "quietness": 69,
     "singleLife": 52,
     "disaster": 28,
-    "family": 98,
-    "rentValue": 64
+    "family": 96,
+    "rentValue": 64,
+    "rentLow": 62
   },
   "tokiwadai": {
     "commute": 46,
@@ -5997,8 +6357,9 @@
     "quietness": 86,
     "singleLife": 29,
     "disaster": 52,
-    "family": 46,
-    "rentValue": 73
+    "family": 60,
+    "rentValue": 73,
+    "rentLow": 82
   },
   "kami-itabashi": {
     "commute": 43,
@@ -6013,8 +6374,9 @@
     "quietness": 88,
     "singleLife": 24,
     "disaster": 88,
-    "family": 19,
-    "rentValue": 67
+    "family": 37,
+    "rentValue": 67,
+    "rentLow": 85
   },
   "naka-itabashi": {
     "commute": 48,
@@ -6030,7 +6392,8 @@
     "singleLife": 33,
     "disaster": 79,
     "family": 65,
-    "rentValue": 77
+    "rentValue": 77,
+    "rentLow": 78
   },
   "chikatetsu-akatsuka": {
     "commute": 38,
@@ -6045,8 +6408,9 @@
     "quietness": 21,
     "singleLife": 60,
     "disaster": 100,
-    "family": 59,
-    "rentValue": 47
+    "family": 49,
+    "rentValue": 47,
+    "rentLow": 88
   },
   "oyama": {
     "commute": 51,
@@ -6061,8 +6425,9 @@
     "quietness": 84,
     "singleLife": 39,
     "disaster": 93,
-    "family": 58,
-    "rentValue": 80
+    "family": 76,
+    "rentValue": 80,
+    "rentLow": 70
   },
   "shimura-sanchome": {
     "commute": 37,
@@ -6077,8 +6442,9 @@
     "quietness": 66,
     "singleLife": 26,
     "disaster": 45,
-    "family": 46,
-    "rentValue": 29
+    "family": 38,
+    "rentValue": 29,
+    "rentLow": 83
   },
   "shimura-sakaue": {
     "commute": 40,
@@ -6093,8 +6459,9 @@
     "quietness": 59,
     "singleLife": 25,
     "disaster": 100,
-    "family": 43,
-    "rentValue": 38
+    "family": 55,
+    "rentValue": 38,
+    "rentLow": 81
   },
   "narimasu": {
     "commute": 35,
@@ -6109,8 +6476,9 @@
     "quietness": 65,
     "singleLife": 40,
     "disaster": 100,
-    "family": 20,
-    "rentValue": 55
+    "family": 42,
+    "rentValue": 55,
+    "rentLow": 97
   },
   "shin-itabashi": {
     "commute": 53,
@@ -6125,8 +6493,9 @@
     "quietness": 40,
     "singleLife": 39,
     "disaster": 86,
-    "family": 88,
-    "rentValue": 67
+    "family": 83,
+    "rentValue": 67,
+    "rentLow": 56
   },
   "shin-takashimadaira": {
     "commute": 30,
@@ -6141,8 +6510,9 @@
     "quietness": 85,
     "singleLife": 12,
     "disaster": 18,
-    "family": 57,
-    "rentValue": 28
+    "family": 56,
+    "rentValue": 28,
+    "rentLow": 96
   },
   "motohasunuma": {
     "commute": 42,
@@ -6157,8 +6527,9 @@
     "quietness": 64,
     "singleLife": 23,
     "disaster": 82,
-    "family": 63,
-    "rentValue": 41
+    "family": 72,
+    "rentValue": 41,
+    "rentLow": 74
   },
   "itabashi": {
     "commute": 60,
@@ -6173,8 +6544,9 @@
     "quietness": 82,
     "singleLife": 38,
     "disaster": 79,
-    "family": 83,
-    "rentValue": 86
+    "family": 91,
+    "rentValue": 86,
+    "rentLow": 50
   },
   "itabashi-kuyakushomae": {
     "commute": 49,
@@ -6189,8 +6561,9 @@
     "quietness": 34,
     "singleLife": 58,
     "disaster": 94,
-    "family": 78,
-    "rentValue": 62
+    "family": 75,
+    "rentValue": 62,
+    "rentLow": 64
   },
   "itabashihoncho": {
     "commute": 45,
@@ -6205,8 +6578,9 @@
     "quietness": 53,
     "singleLife": 29,
     "disaster": 94,
-    "family": 72,
-    "rentValue": 61
+    "family": 85,
+    "rentValue": 61,
+    "rentLow": 77
   },
   "ukimafunado": {
     "commute": 43,
@@ -6221,8 +6595,9 @@
     "quietness": 93,
     "singleLife": 14,
     "disaster": 18,
-    "family": 9,
-    "rentValue": 62
+    "family": 17,
+    "rentValue": 62,
+    "rentLow": 84
   },
   "hasune": {
     "commute": 35,
@@ -6237,8 +6612,9 @@
     "quietness": 84,
     "singleLife": 31,
     "disaster": 18,
-    "family": 59,
-    "rentValue": 24
+    "family": 53,
+    "rentValue": 24,
+    "rentLow": 84
   },
   "nishidai": {
     "commute": 34,
@@ -6253,8 +6629,9 @@
     "quietness": 67,
     "singleLife": 29,
     "disaster": 18,
-    "family": 70,
-    "rentValue": 27
+    "family": 59,
+    "rentValue": 27,
+    "rentLow": 86
   },
   "nishi-takashimadaira": {
     "commute": 28,
@@ -6269,8 +6646,9 @@
     "quietness": 88,
     "singleLife": 8,
     "disaster": 18,
-    "family": 23,
-    "rentValue": 24
+    "family": 24,
+    "rentValue": 24,
+    "rentLow": 98
   },
   "takashimadaira": {
     "commute": 31,
@@ -6285,8 +6663,9 @@
     "quietness": 87,
     "singleLife": 18,
     "disaster": 18,
-    "family": 67,
-    "rentValue": 21
+    "family": 81,
+    "rentValue": 21,
+    "rentLow": 90
   },
   "kami-igusa": {
     "commute": 34,
@@ -6301,8 +6680,9 @@
     "quietness": 78,
     "singleLife": 23,
     "disaster": 79,
-    "family": 61,
-    "rentValue": 32
+    "family": 54,
+    "rentValue": 32,
+    "rentLow": 90
   },
   "kami-shakujii": {
     "commute": 32,
@@ -6317,8 +6697,9 @@
     "quietness": 72,
     "singleLife": 29,
     "disaster": 93,
-    "family": 46,
-    "rentValue": 31
+    "family": 43,
+    "rentValue": 31,
+    "rentLow": 93
   },
   "nakamurabashi": {
     "commute": 41,
@@ -6333,8 +6714,9 @@
     "quietness": 57,
     "singleLife": 49,
     "disaster": 59,
-    "family": 70,
-    "rentValue": 58
+    "family": 63,
+    "rentValue": 58,
+    "rentLow": 85
   },
   "hikarigaoka": {
     "commute": 37,
@@ -6349,8 +6731,9 @@
     "quietness": 74,
     "singleLife": 26,
     "disaster": 72,
-    "family": 72,
-    "rentValue": 42
+    "family": 87,
+    "rentValue": 42,
+    "rentLow": 88
   },
   "oizumi-gakuen": {
     "commute": 30,
@@ -6365,8 +6748,9 @@
     "quietness": 68,
     "singleLife": 38,
     "disaster": 94,
-    "family": 46,
-    "rentValue": 30
+    "family": 63,
+    "rentValue": 30,
+    "rentLow": 97
   },
   "kotake-mukaihara": {
     "commute": 51,
@@ -6378,11 +6762,12 @@
     "cafe": 1,
     "nightlife": 0,
     "fitness": 39,
-    "quietness": 82,
+    "quietness": 40,
     "singleLife": 25,
     "disaster": 79,
-    "family": 25,
-    "rentValue": 95
+    "family": 27,
+    "rentValue": 95,
+    "rentLow": 85
   },
   "heiwadai": {
     "commute": 42,
@@ -6397,8 +6782,9 @@
     "quietness": 69,
     "singleLife": 20,
     "disaster": 79,
-    "family": 32,
-    "rentValue": 67
+    "family": 43,
+    "rentValue": 67,
+    "rentLow": 87
   },
   "shin-sakuradai": {
     "commute": 42,
@@ -6413,8 +6799,9 @@
     "quietness": 68,
     "singleLife": 35,
     "disaster": 100,
-    "family": 58,
-    "rentValue": 47
+    "family": 51,
+    "rentValue": 47,
+    "rentLow": 79
   },
   "shin-egota": {
     "commute": 51,
@@ -6429,8 +6816,9 @@
     "quietness": 69,
     "singleLife": 36,
     "disaster": 76,
-    "family": 35,
-    "rentValue": 79
+    "family": 47,
+    "rentValue": 79,
+    "rentLow": 68
   },
   "tobu-nerima": {
     "commute": 39,
@@ -6445,8 +6833,9 @@
     "quietness": 59,
     "singleLife": 35,
     "disaster": 79,
-    "family": 18,
-    "rentValue": 55
+    "family": 14,
+    "rentValue": 55,
+    "rentLow": 89
   },
   "sakuradai": {
     "commute": 46,
@@ -6461,8 +6850,9 @@
     "quietness": 84,
     "singleLife": 47,
     "disaster": 88,
-    "family": 40,
-    "rentValue": 63
+    "family": 39,
+    "rentValue": 63,
+    "rentLow": 74
   },
   "musashi-seki": {
     "commute": 29,
@@ -6477,8 +6867,9 @@
     "quietness": 70,
     "singleLife": 34,
     "disaster": 86,
-    "family": 70,
-    "rentValue": 23
+    "family": 59,
+    "rentValue": 23,
+    "rentLow": 95
   },
   "hikawadai": {
     "commute": 46,
@@ -6493,8 +6884,9 @@
     "quietness": 82,
     "singleLife": 24,
     "disaster": 72,
-    "family": 17,
-    "rentValue": 85
+    "family": 32,
+    "rentValue": 85,
+    "rentLow": 87
   },
   "ekoda": {
     "commute": 49,
@@ -6509,8 +6901,9 @@
     "quietness": 59,
     "singleLife": 38,
     "disaster": 88,
-    "family": 32,
-    "rentValue": 83
+    "family": 26,
+    "rentValue": 83,
+    "rentLow": 80
   },
   "shakujii-koen": {
     "commute": 34,
@@ -6525,8 +6918,9 @@
     "quietness": 57,
     "singleLife": 34,
     "disaster": 86,
-    "family": 28,
-    "rentValue": 35
+    "family": 32,
+    "rentValue": 35,
+    "rentLow": 91
   },
   "nerima": {
     "commute": 48,
@@ -6541,8 +6935,9 @@
     "quietness": 47,
     "singleLife": 60,
     "disaster": 79,
-    "family": 36,
-    "rentValue": 77
+    "family": 39,
+    "rentValue": 77,
+    "rentLow": 79
   },
   "nerima-kasugacho": {
     "commute": 40,
@@ -6557,8 +6952,9 @@
     "quietness": 74,
     "singleLife": 19,
     "disaster": 76,
-    "family": 72,
-    "rentValue": 60
+    "family": 80,
+    "rentValue": 60,
+    "rentLow": 89
   },
   "nerima-takanodai": {
     "commute": 36,
@@ -6573,8 +6969,9 @@
     "quietness": 90,
     "singleLife": 22,
     "disaster": 88,
-    "family": 47,
-    "rentValue": 37
+    "family": 60,
+    "rentValue": 37,
+    "rentLow": 89
   },
   "toshimaen": {
     "commute": 44,
@@ -6589,8 +6986,9 @@
     "quietness": 99,
     "singleLife": 45,
     "disaster": 82,
-    "family": 74,
-    "rentValue": 68
+    "family": 82,
+    "rentValue": 68,
+    "rentLow": 84
   },
   "gotanno": {
     "commute": 39,
@@ -6605,8 +7003,9 @@
     "quietness": 68,
     "singleLife": 33,
     "disaster": 18,
-    "family": 68,
-    "rentValue": 64
+    "family": 62,
+    "rentValue": 64,
+    "rentLow": 93
   },
   "rokucho": {
     "commute": 43,
@@ -6621,8 +7020,9 @@
     "quietness": 76,
     "singleLife": 14,
     "disaster": 28,
-    "family": 26,
-    "rentValue": 92
+    "family": 31,
+    "rentValue": 92,
+    "rentLow": 99
   },
   "kita-senju": {
     "commute": 52,
@@ -6637,8 +7037,9 @@
     "quietness": 47,
     "singleLife": 65,
     "disaster": 18,
-    "family": 36,
-    "rentValue": 90
+    "family": 29,
+    "rentValue": 90,
+    "rentLow": 77
   },
   "kita-ayase": {
     "commute": 37,
@@ -6653,8 +7054,9 @@
     "quietness": 53,
     "singleLife": 18,
     "disaster": 28,
-    "family": 23,
-    "rentValue": 55
+    "family": 19,
+    "rentValue": 55,
+    "rentLow": 92
   },
   "senjuohashi": {
     "commute": 45,
@@ -6669,8 +7071,9 @@
     "quietness": 73,
     "singleLife": 23,
     "disaster": 18,
-    "family": 90,
-    "rentValue": 39
+    "family": 92,
+    "rentValue": 39,
+    "rentLow": 62
   },
   "horikiri": {
     "commute": 41,
@@ -6685,8 +7088,9 @@
     "quietness": 75,
     "singleLife": 16,
     "disaster": 54,
-    "family": 33,
-    "rentValue": 78
+    "family": 28,
+    "rentValue": 78,
+    "rentLow": 94
   },
   "daishimae": {
     "commute": 28,
@@ -6701,8 +7105,9 @@
     "quietness": 52,
     "singleLife": 35,
     "disaster": 28,
-    "family": 39,
-    "rentValue": 19
+    "family": 32,
+    "rentValue": 19,
+    "rentLow": 95
   },
   "kosuge": {
     "commute": 42,
@@ -6717,8 +7122,9 @@
     "quietness": 82,
     "singleLife": 20,
     "disaster": 45,
-    "family": 81,
-    "rentValue": 60
+    "family": 77,
+    "rentValue": 60,
+    "rentLow": 83
   },
   "ogi-ohashi": {
     "commute": 40,
@@ -6733,8 +7139,9 @@
     "quietness": 72,
     "singleLife": 14,
     "disaster": 18,
-    "family": 14,
-    "rentValue": 83
+    "family": 12,
+    "rentValue": 83,
+    "rentLow": 99
   },
   "umejima": {
     "commute": 36,
@@ -6749,8 +7156,9 @@
     "quietness": 71,
     "singleLife": 30,
     "disaster": 18,
-    "family": 39,
-    "rentValue": 54
+    "family": 33,
+    "rentValue": 54,
+    "rentLow": 94
   },
   "kohoku": {
     "commute": 36,
@@ -6765,8 +7173,9 @@
     "quietness": 74,
     "singleLife": 18,
     "disaster": 28,
-    "family": 48,
-    "rentValue": 60
+    "family": 49,
+    "rentValue": 60,
+    "rentLow": 96
   },
   "ushida": {
     "commute": 43,
@@ -6781,8 +7190,9 @@
     "quietness": 63,
     "singleLife": 31,
     "disaster": 27,
-    "family": 17,
-    "rentValue": 45
+    "family": 12,
+    "rentValue": 45,
+    "rentLow": 73
   },
   "takenotsuka": {
     "commute": 31,
@@ -6797,8 +7207,9 @@
     "quietness": 65,
     "singleLife": 38,
     "disaster": 38,
-    "family": 29,
-    "rentValue": 40
+    "family": 26,
+    "rentValue": 40,
+    "rentLow": 99
   },
   "ayase": {
     "commute": 43,
@@ -6813,8 +7224,9 @@
     "quietness": 47,
     "singleLife": 59,
     "disaster": 18,
-    "family": 35,
-    "rentValue": 72
+    "family": 28,
+    "rentValue": 72,
+    "rentLow": 87
   },
   "toneri": {
     "commute": 26,
@@ -6830,7 +7242,8 @@
     "singleLife": 14,
     "disaster": 38,
     "family": 20,
-    "rentValue": 25
+    "rentValue": 25,
+    "rentLow": 100
   },
   "toneri-koen": {
     "commute": 28,
@@ -6845,8 +7258,9 @@
     "quietness": 75,
     "singleLife": 8,
     "disaster": 28,
-    "family": 11,
-    "rentValue": 25
+    "family": 8,
+    "rentValue": 25,
+    "rentLow": 98
   },
   "nishiarai": {
     "commute": 34,
@@ -6861,8 +7275,9 @@
     "quietness": 57,
     "singleLife": 39,
     "disaster": 28,
-    "family": 22,
-    "rentValue": 44
+    "family": 20,
+    "rentValue": 44,
+    "rentLow": 95
   },
   "nishiaraidaishi-nishi": {
     "commute": 33,
@@ -6878,7 +7293,8 @@
     "singleLife": 25,
     "disaster": 28,
     "family": 53,
-    "rentValue": 42
+    "rentValue": 42,
+    "rentLow": 96
   },
   "minumadai-shinsuikoen": {
     "commute": 23,
@@ -6893,8 +7309,9 @@
     "quietness": 65,
     "singleLife": 12,
     "disaster": 45,
-    "family": 13,
-    "rentValue": 19
+    "family": 9,
+    "rentValue": 19,
+    "rentLow": 100
   },
   "yazaike": {
     "commute": 30,
@@ -6910,7 +7327,8 @@
     "singleLife": 11,
     "disaster": 38,
     "family": 18,
-    "rentValue": 29
+    "rentValue": 29,
+    "rentLow": 97
   },
   "adachi-odai": {
     "commute": 44,
@@ -6925,8 +7343,9 @@
     "quietness": 77,
     "singleLife": 16,
     "disaster": 54,
-    "family": 72,
-    "rentValue": 77
+    "family": 65,
+    "rentValue": 77,
+    "rentLow": 87
   },
   "aoi": {
     "commute": 46,
@@ -6941,8 +7360,9 @@
     "quietness": 86,
     "singleLife": 18,
     "disaster": 18,
-    "family": 51,
-    "rentValue": 94
+    "family": 52,
+    "rentValue": 94,
+    "rentLow": 93
   },
   "koya": {
     "commute": 38,
@@ -6957,8 +7377,9 @@
     "quietness": 72,
     "singleLife": 18,
     "disaster": 28,
-    "family": 33,
-    "rentValue": 73
+    "family": 29,
+    "rentValue": 73,
+    "rentLow": 98
   },
   "ohanajaya": {
     "commute": 35,
@@ -6973,8 +7394,9 @@
     "quietness": 76,
     "singleLife": 34,
     "disaster": 18,
-    "family": 67,
-    "rentValue": 34
+    "family": 64,
+    "rentValue": 34,
+    "rentLow": 90
   },
   "kameari": {
     "commute": 36,
@@ -6989,8 +7411,9 @@
     "quietness": 46,
     "singleLife": 59,
     "disaster": 18,
-    "family": 29,
-    "rentValue": 48
+    "family": 23,
+    "rentValue": 48,
+    "rentLow": 91
   },
   "keisei-tateishi": {
     "commute": 36,
@@ -7005,8 +7428,9 @@
     "quietness": 51,
     "singleLife": 27,
     "disaster": 18,
-    "family": 10,
-    "rentValue": 48
+    "family": 7,
+    "rentValue": 48,
+    "rentLow": 91
   },
   "keisei-takasago": {
     "commute": 31,
@@ -7021,8 +7445,9 @@
     "quietness": 47,
     "singleLife": 33,
     "disaster": 28,
-    "family": 17,
-    "rentValue": 26
+    "family": 13,
+    "rentValue": 26,
+    "rentLow": 92
   },
   "yotsugi": {
     "commute": 40,
@@ -7037,8 +7462,9 @@
     "quietness": 49,
     "singleLife": 19,
     "disaster": 45,
-    "family": 14,
-    "rentValue": 71
+    "family": 10,
+    "rentValue": 71,
+    "rentLow": 92
   },
   "horikirishobuen": {
     "commute": 38,
@@ -7053,8 +7479,9 @@
     "quietness": 39,
     "singleLife": 36,
     "disaster": 18,
-    "family": 15,
-    "rentValue": 59
+    "family": 11,
+    "rentValue": 59,
+    "rentLow": 90
   },
   "shin-koiwa": {
     "commute": 53,
@@ -7066,11 +7493,12 @@
     "cafe": 6,
     "nightlife": 21,
     "fitness": 39,
-    "quietness": 72,
+    "quietness": 56,
     "singleLife": 29,
     "disaster": 28,
-    "family": 14,
-    "rentValue": 99
+    "family": 20,
+    "rentValue": 99,
+    "rentLow": 96
   },
   "shin-shibamata": {
     "commute": 25,
@@ -7085,8 +7513,9 @@
     "quietness": 83,
     "singleLife": 27,
     "disaster": 28,
-    "family": 34,
-    "rentValue": 14
+    "family": 27,
+    "rentValue": 14,
+    "rentLow": 94
   },
   "shibamata": {
     "commute": 26,
@@ -7101,8 +7530,9 @@
     "quietness": 73,
     "singleLife": 30,
     "disaster": 38,
-    "family": 33,
-    "rentValue": 17
+    "family": 26,
+    "rentValue": 17,
+    "rentLow": 97
   },
   "kanamachi": {
     "commute": 32,
@@ -7117,8 +7547,9 @@
     "quietness": 46,
     "singleLife": 45,
     "disaster": 28,
-    "family": 38,
-    "rentValue": 45
+    "family": 31,
+    "rentValue": 45,
+    "rentLow": 99
   },
   "aoto": {
     "commute": 34,
@@ -7133,8 +7564,9 @@
     "quietness": 52,
     "singleLife": 38,
     "disaster": 36,
-    "family": 23,
-    "rentValue": 37
+    "family": 18,
+    "rentValue": 37,
+    "rentLow": 92
   },
   "ichinoe": {
     "commute": 39,
@@ -7149,8 +7581,9 @@
     "quietness": 51,
     "singleLife": 30,
     "disaster": 28,
-    "family": 19,
-    "rentValue": 68
+    "family": 18,
+    "rentValue": 68,
+    "rentLow": 94
   },
   "keisei-koiwa": {
     "commute": 26,
@@ -7165,8 +7598,9 @@
     "quietness": 71,
     "singleLife": 43,
     "disaster": 28,
-    "family": 64,
-    "rentValue": 15
+    "family": 52,
+    "rentValue": 15,
+    "rentLow": 95
   },
   "koiwa": {
     "commute": 39,
@@ -7181,8 +7615,9 @@
     "quietness": 54,
     "singleLife": 47,
     "disaster": 28,
-    "family": 49,
-    "rentValue": 76
+    "family": 44,
+    "rentValue": 76,
+    "rentLow": 97
   },
   "hirai": {
     "commute": 48,
@@ -7197,8 +7632,9 @@
     "quietness": 58,
     "singleLife": 30,
     "disaster": 18,
-    "family": 34,
-    "rentValue": 89
+    "family": 31,
+    "rentValue": 89,
+    "rentLow": 86
   },
   "edogawa": {
     "commute": 25,
@@ -7213,8 +7649,9 @@
     "quietness": 85,
     "singleLife": 11,
     "disaster": 60,
-    "family": 23,
-    "rentValue": 14
+    "family": 17,
+    "rentValue": 14,
+    "rentLow": 94
   },
   "mizue": {
     "commute": 35,
@@ -7229,8 +7666,9 @@
     "quietness": 90,
     "singleLife": 34,
     "disaster": 28,
-    "family": 49,
-    "rentValue": 59
+    "family": 77,
+    "rentValue": 59,
+    "rentLow": 98
   },
   "shinozaki": {
     "commute": 32,
@@ -7245,8 +7683,9 @@
     "quietness": 79,
     "singleLife": 21,
     "disaster": 28,
-    "family": 32,
-    "rentValue": 43
+    "family": 41,
+    "rentValue": 43,
+    "rentLow": 99
   },
   "funabori": {
     "commute": 43,
@@ -7261,8 +7700,9 @@
     "quietness": 59,
     "singleLife": 28,
     "disaster": 18,
-    "family": 37,
-    "rentValue": 83
+    "family": 49,
+    "rentValue": 83,
+    "rentLow": 92
   },
   "kasai": {
     "commute": 43,
@@ -7277,8 +7717,9 @@
     "quietness": 35,
     "singleLife": 58,
     "disaster": 28,
-    "family": 27,
-    "rentValue": 82
+    "family": 22,
+    "rentValue": 82,
+    "rentLow": 91
   },
   "kasai-rinkai-koen": {
     "commute": 50,
@@ -7293,8 +7734,9 @@
     "quietness": 71,
     "singleLife": 13,
     "disaster": 100,
-    "family": 5,
-    "rentValue": 99
+    "family": 6,
+    "rentValue": 99,
+    "rentLow": 93
   },
   "nishi-kasai": {
     "commute": 47,
@@ -7309,7 +7751,8 @@
     "quietness": 67,
     "singleLife": 51,
     "disaster": 36,
-    "family": 55,
-    "rentValue": 87
+    "family": 71,
+    "rentValue": 87,
+    "rentLow": 86
   }
 }
