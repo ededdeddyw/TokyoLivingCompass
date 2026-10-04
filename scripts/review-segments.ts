@@ -8,7 +8,7 @@
  * 足切りで後ろへ回した駅のうち、点数が高かったものも併せて出す。
  * 落としてはいけない駅を落としていないかを確かめるためである。
  *
- *   npm run review:segments > out.md
+ *   npm run --silent review:segments > out.md
  */
 import { rankBySegment, axisFloors } from "../src/lib/scoring";
 import { SEGMENT_GATES, SEGMENT_KEYS, splitSegment } from "../src/lib/weights";
@@ -38,6 +38,7 @@ const yen = (v?: number) => (v === undefined ? "—" : `${(v / 10000).toFixed(1)
 const COLUMNS: ScoreAxis[] = [
   "rentLow",
   "commute",
+  "safety",
   "quietness",
   "family",
   "nightlife",
@@ -48,7 +49,7 @@ const out: string[] = [];
 out.push("# 8区分の上位駅（目で確かめるための一覧）");
 out.push("");
 out.push(
-  "`npm run review:segments` が出力する。区分ごとの重みと足切りは " +
+  "`npm run --silent review:segments` が出力する。区分ごとの重みと足切りは " +
     "docs/14-audience-segments.md §3.1 にある。",
 );
 out.push("");
