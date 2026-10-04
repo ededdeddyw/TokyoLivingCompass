@@ -447,15 +447,15 @@ const ja: Dictionary = {
   segmentAxes: {
     household: "世帯",
     night: "夜の過ごし方",
-    money: "お金の置き方",
+    money: "家賃と立地",
   },
   segmentOptions: {
     kids: "子どもと住む",
     solo: "子どもなし",
     out: "夜は街で過ごす",
     home: "夜は家で過ごす",
-    thrifty: "家賃を抑える",
-    location: "立地に出す",
+    thrifty: "家賃の安さを優先",
+    location: "立地のよさを優先",
   },
   offices: {
     shinjuku: "新宿",
@@ -741,15 +741,15 @@ const en: Dictionary = {
   segmentAxes: {
     household: "Household",
     night: "Evenings",
-    money: "Where the money goes",
+    money: "Rent or location",
   },
   segmentOptions: {
     kids: "With children",
     solo: "No children",
     out: "Out in the neighbourhood",
     home: "At home",
-    thrifty: "Keep the rent down",
-    location: "Pay for location",
+    thrifty: "Cheaper rent first",
+    location: "Better location first",
   },
   offices: {
     shinjuku: "Shinjuku",
@@ -1026,15 +1026,15 @@ const zhHans: Dictionary = {
   segmentAxes: {
     household: "家庭构成",
     night: "夜间的过法",
-    money: "预算的取向",
+    money: "房租与位置",
   },
   segmentOptions: {
     kids: "与孩子同住",
     solo: "没有孩子",
     out: "夜晚在街上度过",
     home: "夜晚在家度过",
-    thrifty: "压低房租",
-    location: "为位置付费",
+    thrifty: "优先考虑房租便宜",
+    location: "优先考虑位置好",
   },
   offices: {
     shinjuku: "新宿",
@@ -1312,15 +1312,15 @@ const ko: Dictionary = {
   segmentAxes: {
     household: "가구 구성",
     night: "저녁 시간",
-    money: "돈을 쓰는 곳",
+    money: "임대료와 입지",
   },
   segmentOptions: {
     kids: "아이와 함께 산다",
     solo: "아이가 없다",
     out: "저녁은 동네에서",
     home: "저녁은 집에서",
-    thrifty: "월세를 낮춘다",
-    location: "입지에 쓴다",
+    thrifty: "저렴한 임대료 우선",
+    location: "좋은 입지 우선",
   },
   offices: {
     shinjuku: "신주쿠",
