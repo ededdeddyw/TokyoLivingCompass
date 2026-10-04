@@ -33,8 +33,8 @@
 | L1 事実 | 駅名・所在区・路線 | 公開データから機械生成 | ✅ 458/458 |
 | L2 計算 | 所要時間、commute、transitConvenience | 鉄道networkの最短経路と路線構成から計算 | ✅ 458/458 |
 | L3 家賃 | 家賃4間取り、rentValue、rentLow | 各サイトが公開している駅ごとの相場を人が記録して平均する | ⬜ 443/458 |
-| L4 一次データ | 施設系の軸、nature、quietness、family、singleLife、disaster | POI・標高・ハザードマップ・乗降客数から機械生成 | ✅ 458/458 |
-| L5 判断 | safety、style、internationalFriendliness | 犯罪統計の取得と、人間の土地勘 | ⬜ 0/458 |
+| L4 一次データ | 施設系の軸、nature、quietness、family、singleLife、disaster、safety | POI・標高・ハザードマップ・用途地域・犯罪統計から機械生成 | ✅ 458/458 |
+| L5 判断 | style、internationalFriendliness | 区別の外国人人口比率の取得と、人間の土地勘 | ⬜ 0/458 |
 | L6 散文 | 各駅の説明と在住者コメント | 日本語は人間、他言語はAIローカライズ＋レビュー | ⬜ 12/458（仮テキスト） |
 
 現在の充足率は `npm run validate:data` が毎回表示する。
@@ -45,12 +45,11 @@
 |---|---|
 | L2 計算（完了） | `commute` `transitConvenience` |
 | L3 家賃から（443駅） | `rentValue` `rentLow` |
-| L4 一次データ（完了） | `shopping` `food` `cafe` `nightlife` `healthcare` `fitness` `nature` `quietness` `family` `singleLife` `disaster` |
-| L5 残り | `safety` `internationalFriendliness` `style` |
+| L4 一次データ（完了） | `shopping` `food` `cafe` `nightlife` `healthcare` `fitness` `nature` `quietness` `family` `singleLife` `disaster` `safety` |
+| L5 残り | `internationalFriendliness` `style` |
 
-**機械で15軸が埋まり、残りは3軸。** `safety` は警視庁の犯罪発生マップ、
-`internationalFriendliness` は区別の外国人人口比率から出せる見込みで、
-人間の土地勘が要るのは `style` だけになった。
+**機械で16軸が埋まり、残りは2軸。** `internationalFriendliness` は
+区別の外国人人口比率から出せる見込みで、人間の土地勘が要るのは `style` だけになった。
 人間が判断する軸をここまで絞れたことが、458駅を現実的にしている。
 
 ---

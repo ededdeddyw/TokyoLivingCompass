@@ -12,18 +12,22 @@
   healthcare         徒歩圏のクリニック・薬局と、総合病院までの距離
   nature             徒歩圏の公園の数
   food / cafe / nightlife / fitness  徒歩圏の飲食店・カフェ・酒場・ジムの数
-  rentValue          通勤の速さに対する家賃の安さ
-  quietness          人の音（駅から300m以内の飲み屋・飲食店）と、
+  rentValue / rentLow  通勤の速さに対する家賃の安さと、絶対額の安さ
+  quietness          人の音（駅から300m以内の飲み屋・飲食店の数と、用途地域の容積率）と、
                      車の音（幹線道路・高速道路までの距離と種別）の両方から出す
-  family             公園・日常の医療・スーパーの多さと、坂の少なさ
+  family             学校・園・公園・スーパーが歩ける範囲に足りているかと、
+                     坂の少なさ、街の落ち着き（粗暴犯の認知件数）
   singleLife         外食とカフェで生活を完結させやすいか
   disaster           浸水想定区域に入る地点の少なさ
+  safety             警視庁の町丁別認知件数（scripts/fetch-crime.py）
 
 施設の数は OpenStreetMap（scripts/fetch-pois.py）から数える。
 OSM は地域によって登録の密度が違うため、数そのものではなく、
 23区内の駅どうしの相対的な位置（何割の駅より多いか）で点をつける。
+駅前が繁華街か住宅地かは OSM では測りきれないので、用途地域（scripts/fetch-zoning.py）と
+犯罪の認知件数（scripts/fetch-crime.py）も併せて使う。
 
-残る3軸（safety・internationalFriendliness・style）は、犯罪統計や人の判断が要る。
+残る2軸（internationalFriendliness・style）は、人の判断が要る。
 どの軸を何で埋めるかは docs/03-scoring.md §4、進め方は docs/11-all-stations-plan.md。
 
   python3 scripts/build-scores.py
@@ -35,15 +39,31 @@ import os
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-def hub_size(pct_passengers):
-    """乗降客数の相対的な位置を、「大きな駅である度合い」に直す。
+def built_density(pct_far):
+    """容積率の相対的な位置を、「高い建物が建ち並ぶ街である度合い」に直す。
 
-    パーセンタイルをそのまま使うと、1日2万人しか乗り降りしない駅にも
-    35前後の値が付く。駅から300m以内に酒場が1軒も無い西巣鴨の静かさが
-    65点から42点まで下がり、下げすぎになった。
+    以前は乗降客数を使っていたが、乗降客数は駅を通り抜ける人の数であって、
+    駅前がどういう街かを表さない。荻窪は1日21万人が乗り降りするが
+    駅のすぐ外は住宅地で、新大久保は7万人だが駅前は商業地域である。
+    この2駅を乗降客数では区別できず、荻窪のほうが繁華街だと判定していた。
+
+    容積率は都市計画法にもとづいて区が定めた値で、地図を作った人の多さにも
+    乗り換え客の数にも左右されない（data/computed/zoning.json）。
     上位3割に入る駅だけが効くように、70パーセンタイルを起点に引き直す。
     """
-    return max(0.0, (pct_passengers - 70) / 0.30)
+    return max(0.0, (pct_far - 70) / 0.30)
+
+
+def saturate(count, enough):
+    """「足りているかどうか」に直す。enough を超えたぶんは数えない。
+
+    学校や保育園は、数が多いほどよいものではない。歩ける範囲にいくつかあれば
+    足りる。数をそのまま相対評価にすると、人口密度の高い都心が上位に来る。
+    実際、新大久保は駅から1,500m以内に小中学校が40校あり、等々力の21校より
+    多い。これは新大久保のほうが子育てに向くという意味ではなく、
+    人口密度が高いという意味でしかない。
+    """
+    return min(1.0, count / enough)
 
 
 def clamp(v):
@@ -244,7 +264,8 @@ def main():
     roads = computed("roads.json", "stations")
     hazard = computed("hazard.json", "stations")
     bands = computed("rent-bands.json")
-    passengers = computed("passengers.json", "stations")
+    zoning = computed("zoning.json", "stations")
+    crime = computed("crime.json", "stations")
 
     TIER_OF = {"オオゼキ": "d", "業務スーパー": "d", "西友": "d", "オーケー": "d",
                "赤札堂": "d", "ロピア": "d", "Big-A": "d", "ビッグ・エー": "d",
@@ -298,12 +319,19 @@ def main():
     # 幼稚園と保育園は、どちらも小さい子どもの預け先なのでまとめて数える
     counts["nursery"] = {s["slug"]: counts["kindergarten"][s["slug"]]
                                     + counts["childcare"][s["slug"]] for s in roster}
-    # 駅の大きさ。1日あたりの乗降客数（国土数値情報 S12）。
-    # 店の登録の偏りに引きずられない物差しとして使う
-    counts["passengers"] = {s["slug"]: passengers.get(s["slug"], {}).get("daily", 0)
-                            for s in roster}
     pct = {c: percentile_scores(counts[c]) for c in counts}
     pct_near = {c: percentile_scores(near[c]) for c in near}
+
+    # 用途地域の容積率。駅前がどれだけ高い建物の建つ街として計画されているか。
+    pct_far = percentile_scores(
+        {s["slug"]: (zoning.get(s["slug"]) or {}).get("far") or 0 for s in roster})
+    # 警視庁の町丁別認知件数。1町丁あたりに直してから駅どうしで比べる。
+    def per_place(key):
+        return {s["slug"]: (crime.get(s["slug"]) or {}).get("perPlace", {}).get(key)
+                for s in roster
+                if (crime.get(s["slug"]) or {}).get("perPlace", {}).get(key) is not None}
+    pct_violent = percentile_scores(per_place("violent"))
+    pct_allCrime = percentile_scores(per_place("total"))
 
     out = {}
     # ファミリー適性は5つの材料の重みつき平均なので、そのままだと真ん中に寄り、
@@ -351,48 +379,42 @@ def main():
             # 店の数だけで人の音を測ると、大きな駅を拾えない。東京駅は300m以内の
             # 酒場が1軒しか登録されておらず、静かさが76点に出ていた。
             # 1日79万人が乗り降りする駅の駅前は、静かではない。
-            # 店の多さと駅の大きさの、高いほうを人の音として使う。
+            # 店の多さと、容積率から出した街の密度の、高いほうを人の音として使う。
             people = max(
                 pct_near["bar"][slug] * 0.65 + pct_near["restaurant"][slug] * 0.35,
-                hub_size(pct["passengers"].get(slug, 0)))
+                built_density(pct_far[slug]))
             car = road_noise(roads.get(slug))
             scores["quietness"] = clamp(
                 100 - (people * 0.55 + car * 0.45) if car is not None else 100 - people)
 
-            # ファミリー適性は、子どもに関わる施設の数を主役に置く。
+            # ファミリー適性は、「学校と園が歩ける範囲に足りているか」と
+            # 「街が落ち着いているか」の2つから出す。
             #
-            # 以前は公園・クリニック・スーパー・平坦さだけで出していたため、
-            # 駅から300m以内に酒場が63軒ある高円寺が、全458駅の94パーセンタイルに
-            # 出ていた。子どもに関する数字が1つも入っていなかったのが原因である
-            # （docs/14-audience-segments.md §1）。
+            # 施設の数をそのまま駅どうしで比べていたときは、新大久保が
+            # 全458駅の75パーセンタイルに出ていた。駅から1,500m以内に
+            # 小中学校が40校、保育園と幼稚園が16園あり、地形も平坦だからである。
+            # しかし40校あるのは人口密度が高いからで、子育てに向くという意味ではない。
+            # 等々力は21校だが、どちらが子どもと暮らしやすいかは言うまでもない。
+            # そこで、歩ける範囲にいくつかあれば足りるものとして数え、
+            # 足りたぶんから先は加点しない（saturate）。
             #
-            # 学校は歩いて通う距離（1,500m）、幼稚園と保育園は送り迎えの距離
-            # （1,000m）で数える。夜の店の多さは重み0.15では効かなかったので、
-            # 0.28まで上げた。子どもと暮らす場所を選ぶうえで、
-            # 駅前が飲み屋街かどうかは学校の数と同じくらい大きい。
-            #
-            # ただし酒場の数だけでは、池袋のような大きな駅を拾えない。
-            # OpenStreetMap に登録されている池袋の酒場は、駅から800m以内で53軒である。
-            # 御徒町の728軒、淡路町の298軒と比べて桁が違い、実態と合わない
-            # （docs/03-scoring.md §4.4）。半径を変えても直らない。
-            # そこで乗降客数も見る。1日193万人が使う駅は、酒場の登録が少なくても
-            # 子どもと暮らす場所としては落ち着いた環境ではない。
-            # 酒場の多さと駅の大きさの、高いほうを減点に使う。
-            flat = {"flat": 1.0, "some": 0.55, "hilly": 0.2}.get(
-                (terrain.get(slug) or {}).get("slope"), 0.55)
-            # 施設の多さを出したうえで、繁華街・大きな駅であるぶんを割り引く。
-            # 引き算にすると、池袋のように施設が多い駅では引ききれない。
-            # 1日193万人が使う駅は、学校が34校あっても
-            # 子どもと暮らす場所としては落ち着いた環境ではない。
+            # 落ち着きは、警視庁の町丁別の粗暴犯（暴行・傷害・脅迫・恐喝）の
+            # 認知件数で見る。駅から800m以内の1町丁あたりで、新大久保は36.2件、
+            # 荻窪は2.5件である（docs/03-scoring.md §4.5）。
+            # 店の数でも乗降客数でも、この2駅を区別できなかった。
+            flat = {"flat": 1.0, "some": 0.6, "hilly": 0.25}.get(
+                (terrain.get(slug) or {}).get("slope"), 0.6)
             facilities = (
-                pct["school"][slug] * 0.26
-                + pct["nursery"][slug] * 0.26
-                + pct["park"][slug] * 0.22
-                + pct["supermarket"][slug] * 0.13
-                + flat * 13)
-            hub = max(pct_near["bar"][slug],
-                      hub_size(pct["passengers"].get(slug, 0))) / 100
-            family_raw[slug] = facilities * (1 - 0.55 * hub)
+                saturate(counts["school"][slug], 12) * 28
+                + saturate(counts["nursery"][slug], 10) * 28
+                + saturate(counts["park"][slug], 15) * 18
+                + saturate(counts["supermarket"][slug], 5) * 12
+                + flat * 14)
+            # 施設が足りていても、繁華街であるぶんを割り引く。引き算にすると、
+            # 施設の多い駅では引ききれないので掛け算にする。
+            hub = max(pct_violent.get(slug, 50),
+                      built_density(pct_far[slug])) / 100
+            family_raw[slug] = facilities * (1 - 0.6 * hub)
 
             # 一人暮らし適性は、自炊しなくても生活が回るかで見る。
             scores["singleLife"] = clamp(
@@ -400,6 +422,13 @@ def main():
                 + pct["cafe"][slug] * 0.2
                 + pct["supermarket"][slug] * 0.2
                 + scores.get("commute", 50) * 0.25)
+
+            # 治安は、警視庁の町丁別認知件数から出す。
+            # 粗暴犯を主に見る。総合計には自転車盗が多く含まれ、
+            # 駅前に自転車が多い街ほど件数が増えるため、主役には置かない。
+            if station["slug"] in pct_violent:
+                scores["safety"] = clamp(
+                    100 - (pct_violent[slug] * 0.6 + pct_allCrime[slug] * 0.4))
 
         fs = flood_score(hazard.get(station["slug"]))
         if fs is not None:

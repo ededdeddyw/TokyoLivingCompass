@@ -270,6 +270,7 @@ const layers: [string, number][] = [
   ["スコア（1軸以上）", stations.filter((s) => Object.keys(s.scores).length > 0).length],
   [`スコア（${SCORE_AXES.length}軸すべて）`, stations.filter((s) => Object.keys(s.scores).length === SCORE_AXES.length).length],
   ["周辺施設", stations.filter((s) => s.facilities !== undefined).length],
+  ["治安（警視庁の認知件数）", stations.filter((s) => s.scores.safety !== undefined).length],
 ];
 layers.push([
   "朝の混雑率（国土交通省の調査）",
