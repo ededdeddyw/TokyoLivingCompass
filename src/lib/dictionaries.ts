@@ -140,6 +140,9 @@ export type Dictionary = {
     rentRange: string;
     rentDrivers: string;
     unwritten: string;
+    source: string;
+    terrainSource: string;
+    congestionSource: string;
   };
   dataQuality: {
     seedWarning: string;
@@ -331,6 +334,9 @@ const ja: Dictionary = {
     rentRange: "同じ駅でも家賃に幅がある",
     rentDrivers: "差を生む要因",
     unwritten: "未記入",
+    source: "出典",
+    terrainSource: "国土地理院 標高API",
+    congestionSource: "国土交通省 都市鉄道の混雑率調査（令和7年度）",
   },
   dataQuality: {
     seedWarning:
@@ -623,6 +629,9 @@ const en: Dictionary = {
     rentRange: "Rent varies within the same station",
     rentDrivers: "What drives the difference",
     unwritten: "Not written yet",
+    source: "Source",
+    terrainSource: "GSI elevation API",
+    congestionSource: "MLIT urban rail crowding survey (FY2025)",
   },
   dataQuality: {
     seedWarning:
@@ -916,6 +925,9 @@ const zhHans: Dictionary = {
     rentRange: "同一车站内的租金差别",
     rentDrivers: "差别来自哪里",
     unwritten: "尚未写",
+    source: "出处",
+    terrainSource: "日本国土地理院 海拔API",
+    congestionSource: "日本国土交通省 都市铁道拥挤率调查（令和7年度）",
   },
   dataQuality: {
     seedWarning: "本页的数据是开发用的占位值，不是有出处的数字。",
@@ -1204,6 +1216,9 @@ const ko: Dictionary = {
     rentRange: "같은 역 안에서의 임대료 차이",
     rentDrivers: "차이가 생기는 이유",
     unwritten: "아직 쓰지 않음",
+    source: "출처",
+    terrainSource: "일본 국토지리원 표고 API",
+    congestionSource: "일본 국토교통성 도시철도 혼잡률 조사(2025년도)",
   },
   dataQuality: {
     seedWarning: "이 페이지의 데이터는 개발용 임시값이며, 출처가 있는 숫자가 아니다.",

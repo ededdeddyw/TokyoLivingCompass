@@ -3,10 +3,10 @@
   "locale": "en",
   "name": "Kasuga",
   "tagline": "Otemachi in 7 minutes and Tokyo in 13 minutes. Served by 2 lines. A one-room flat rents for roughly ¥110,000 to ¥120,000.",
-  "summary": "The station is in Bunkyo City, served by Toei Oedo Line and Toei Mita Line. Journey times to the main business districts are 7 minutes to Otemachi, 22 minutes to Shinjuku, 25 minutes to Shibuya and 27 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 5.8 m above sea level, and the ground within 800 m varies in height by 16.9 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Bunkyo City, where the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 7 minutes to Otemachi, 22 minutes to Shinjuku, 25 minutes to Shibuya and 27 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 5.8 m above sea level, and the ground within 800 m varies in height by 16.9 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits lower than the ground around it, at 5.8 m above sea level. Within 800 m the ground ranges from 5.8 m to 22.7 m, a difference of 16.9 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 5.8 m above sea level. Within 800 m the ground ranges from 5.8 m to 22.7 m, a difference of 16.9 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
   "groceries": [
@@ -15,32 +15,33 @@
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/5487530987",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "くらや",
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/5587219401",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/5487734270",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ダイエー",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/5487650366",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 21 clinics and 17 pharmacies. Facilities recorded as hospitals lie at 慈愛病院, about 512 m away and 飯田医院, about 663 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "2 lines serve the station: Toei Oedo Line and Toei Mita Line. Both lines are run by the Tokyo Metropolitan Bureau of Transportation, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "medical": "Within an 800 m walk of the station there are 21 clinics and 17 pharmacies. The nearest facility recorded as a hospital is 慈愛病院, about 512 m from the station. The next nearest is 飯田医院, about 663 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Toei Oedo Line and Toei Mita Line. Both lines are run by the Tokyo Metropolitan Bureau of Transportation, so a fault affecting that company can stop them together.",
+  "congestion": "Toei Oedo Line runs at 147% of capacity in the morning peak. The busiest stretch is 中井→東中野, which this station is not on. Toei Mita Line runs at 146%. Its busiest stretch is 西巣鴨→巣鴨, which this station is likewise not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
     "note": "One room ¥110,000 to ¥120,000, 1K ¥120,000 to ¥130,000, 1LDK ¥200,000 to ¥210,000 and 2LDK ¥280,000 to ¥290,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
@@ -76,8 +77,9 @@
     "春日通り (2 lanes each way) runs 118 m away. Morning and evening, the cars are audible indoors"
   ],
   "tags": [
-    "lively",
     "goodValue",
+    "lowFlood",
+    "singleFriendly",
     "medicalRich"
   ],
   "leads": {
@@ -87,7 +89,8 @@
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "noiseSources": "At this station, check the traffic noise before the noise people make: 白山通り runs 5 m away."
+    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"
 }

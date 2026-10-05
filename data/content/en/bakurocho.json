@@ -3,10 +3,10 @@
   "locale": "en",
   "name": "Bakurocho",
   "tagline": "Tokyo in 4 minutes and Otemachi in 10 minutes. Served by 3 lines. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
-  "summary": "The station is in Chuo City, served by JR Sobu Main Line, Toei Asakusa Line and Toei Shinjuku Line. Journey times to the main business districts are 10 minutes to Otemachi, 19 minutes to Shinjuku, 27 minutes to Shibuya and 19 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 4.3 m above sea level, and the ground within 800 m varies in height by 2.3 m. The land around the station is close to level.",
+  "summary": "The station is in Chuo City, where JR East and the Tokyo Metropolitan Bureau of Transportation run 3 lines between them. Journey times to the main business districts are 10 minutes to Otemachi, 19 minutes to Shinjuku, 27 minutes to Shibuya and 19 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 4.3 m above sea level, and the ground within 800 m varies in height by 2.3 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits on the higher side of the ground around it, at 4.3 m above sea level. Within 800 m the ground ranges from 2 m to 4.3 m, a difference of 2.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 4.3 m above sea level. Within 800 m the ground ranges from 2 m to 4.3 m, a difference of 2.3 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 5 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
   "groceries": [
@@ -15,32 +15,33 @@
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/2283944054",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/11388921084",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "オーケーストア 日本橋久松町店",
       "tier": "discount",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/12495706702",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マルエツプチ",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/2264347180",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 16 clinics and 14 pharmacies. Facilities recorded as hospitals lie at 湘南メディカル記念病院, about 890 m away and 三井記念病院, about 902 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "3 lines serve the station: JR Sobu Main Line, Toei Asakusa Line and Toei Shinjuku Line. The lines are split between operators (JR East runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 2 lines), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 73.",
+  "medical": "Within an 800 m walk of the station there are 16 clinics and 14 pharmacies. The nearest facility recorded as a hospital is 湘南メディカル記念病院, about 890 m from the station. The next nearest is 三井記念病院, about 902 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "3 lines serve the station. JR Sobu Main Line and Toei Asakusa Line run through it. Toei Shinjuku Line also call here. The lines are split between operators (JR East runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 2 lines), so when one line stops you can change to a line run by a different company.",
+  "congestion": "JR Sobu Main Line runs at 160% of capacity in the morning peak. The busiest stretch is 新小岩→錦糸町, which this station is not on. Toei Shinjuku Line runs at 152%. Its busiest stretch is 西大島→住吉, which this station is likewise not on. Toei Asakusa Line runs at 123%. Its busiest stretch is 本所吾妻橋→浅草, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
     "note": "One room ¥130,000 to ¥140,000, 1K ¥130,000 to ¥140,000, 1LDK ¥210,000 to ¥220,000 and 2LDK ¥270,000 to ¥280,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
@@ -60,7 +61,7 @@
     },
     {
       "slug": "asakusabashi",
-      "lead": "Asakusabashi is ahead on the number of medical facilities, but Bakurocho is ahead on the number of lines and quiet.",
+      "lead": "Asakusabashi is ahead on the number of medical facilities, but Bakurocho is ahead on the number of lines.",
       "note": "574 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Bakurocho. One-room rents run about ¥6,000 lower."
     }
   ],
@@ -78,21 +79,20 @@
     "江戸通り (3 lanes each way) runs 116 m away. Traffic on it never stops"
   ],
   "tags": [
-    "lively",
+    "singleFriendly",
     "shoppingEasy",
-    "diningRich",
-    "cafeRich",
-    "lateNight",
-    "singleFriendly"
+    "flat",
+    "cafeRich"
   ],
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "There are 14 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
     "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
-    "stationNote": "Only the 江戸通り (3 lanes each way) runs 116 m away. Traffic on it never stops serves this station, so when it stops you walk to another station.",
+    "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "noiseSources": "江戸通り runs 116 m away, so whether a flat faces it changes what you hear indoors."
+    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"
 }

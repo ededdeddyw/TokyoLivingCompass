@@ -6,7 +6,7 @@
   "summary": "The station is in Arakawa City, served by JR Joban Line. Journey times to the main business districts are 22 minutes to Otemachi, 33 minutes to Shinjuku, 39 minutes to Shibuya and 30 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 3.3 m above sea level, and the ground within 800 m varies in height by 2.7 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits on the higher side of the ground around it, at 3.3 m above sea level. Within 800 m the ground ranges from 1.5 m to 4.2 m, a difference of 2.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 3.3 m above sea level. Within 800 m the ground ranges from 1.5 m to 4.2 m, a difference of 2.7 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 1 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
   "groceries": [
@@ -15,32 +15,33 @@
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/10118220969",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/7966435834",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マルエツ 西日暮里店",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/5593490369",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "いなげや",
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/5593490381",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 18 clinics and 15 pharmacies. Facilities recorded as hospitals lie at はせがわ病院, about 626 m away and 上宮会日暮里上宮病院, about 904 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: JR Joban Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 18 clinics and 15 pharmacies. The nearest facility recorded as a hospital is はせがわ病院, about 626 m from the station. The next nearest is 上宮会日暮里上宮病院, about 904 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: JR Joban Line.",
+  "congestion": "JR Joban Line runs at 142% of capacity in the morning peak. The busiest stretch of the line is 三河島→日暮里, which includes this station. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
     "note": "One room ¥90,000 to ¥100,000, 1K ¥110,000 to ¥120,000, 1LDK ¥160,000 to ¥170,000 and 2LDK ¥210,000 to ¥220,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
@@ -78,21 +79,21 @@
     "尾竹橋通り (a main road) runs 138 m away. Morning and evening, the cars are audible indoors"
   ],
   "tags": [
-    "singleLine",
     "floodArea",
+    "singleLine",
     "shoppingEasy",
-    "parkNear",
-    "familyFriendly",
-    "flat"
+    "flat",
+    "parkNear"
   ],
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "There are 19 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
     "hazards": "Among the 23 wards' stations, comparatively many of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
-    "stationNote": "Only the 尾竹橋通り (a main road) runs 138 m away. Morning and evening, the cars are audible indoors serves this station, so when it stops you walk to another station.",
+    "stationNote": "Only the JR Joban Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "noiseSources": "尾竹橋通り runs 138 m away, so whether a flat faces it changes what you hear indoors."
+    "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"
 }

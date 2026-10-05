@@ -82,6 +82,7 @@ PHRASES = {
         "ward": lambda st: st["wardNameJa"],
         "lineName": lambda line: line["nameJa"],
         "stationName": lambda st: st["nameJa"],
+        "stationNameWithLine": "{name}（{line}）",
 
         "commuteItem": "{hub}へ{minutes}{minuteWord}",
         "reachItem": "{hub}へ{minutes}{minuteWord}",
@@ -96,9 +97,10 @@ PHRASES = {
 
         "terrainLow": "駅は周囲より低い場所にあり",
         "terrainHigh": "駅は周囲の中では高いほうにあり",
+        # どう測ったかは本文に書かない。節の下に出典としてリンクを出す
+        # （src/components/StationDepth.tsx）。
         "terrainNote": "{where}、標高は{elevation}mである。"
-                       "周囲800mの標高は{min}mから{max}mまで分かれ、その差は{spread}mある。"
-                       "国土地理院の標高APIから、駅と半径400mの8方位、計9点を読み取った値である。",
+                       "周囲800mの標高は{min}mから{max}mまで分かれ、その差は{spread}mある。",
 
         "floodAtStation": "国土交通省のハザードマップでは、駅の地点が洪水浸水想定区域（想定最大規模）に入り、"
                           "想定される深さは{depth}である。",
@@ -118,12 +120,13 @@ PHRASES = {
         "medicalPharmacies": "薬局が{count}{pharmacyWord}",
         "medicalNone": "駅から歩いて800m以内には、OpenStreetMap に登録されている"
                        "クリニックも薬局も見当たらない。",
-        "medicalHospitalNearest": "病院として登録されている施設で近いのは{name}である。"
+        "medicalHospitalNearest": "OpenStreetMap に病院として登録されている施設のうち、"
+                                  "駅からいちばん近いのは{name}である。"
                                   "駅から{distance}mほどの距離にある。",
         "medicalHospitalSecond": "次に近いのは{name}で、{distance}mほど離れている。",
         "medicalNoHospital": "駅から2.5km以内には、病院として登録されている施設が見当たらない。",
-        "medicalTrailer": "入院できるかどうかと、何科があるかは OpenStreetMap に"
-                          "書かれていない。各施設のウェブサイトで確かめてほしい。"
+        "medicalTrailer": "入院できるかどうかと、何科があるかまでは分からない。"
+                          "各施設のウェブサイトで確かめてほしい。"
                           "夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
 
         "congestionOnPeak": "{line}の朝の混雑率は{rate}%である。"
@@ -141,11 +144,11 @@ PHRASES = {
         "congestionScale3": "国土交通省の目安では、180%は肩が触れ合ってやや圧迫感がある状態を指す。"
                             "ドア付近の人は、体の向きを変えるのが難しくなる。",
         "congestionScale2": "国土交通省の目安では、150%は肩が触れ合わない程度で、"
-                            "ドア付近の人が多くなる状態を指す。ここはそれを超えている。",
+                            "ドア付近の人が多くなる状態を指す。ここはおおむねその状態にあたる。",
         "congestionScale1": "国土交通省の目安では、150%で肩が触れ合わない程度になる。"
                             "ここはそこまでは混まない。",
-        "congestionTrailer": "数字は最混雑時間帯1時間の平均で、令和7年度の調査による。"
-                             "路線の中でいちばん混む区間の値なので、"
+        # 調査の方法は節の下に出典として出す（src/components/StationDepth.tsx）。
+        "congestionTrailer": "路線の中でいちばん混む区間の値なので、"
                              "この駅から乗る区間が同じ混み方とは限らない。",
         "leadCongestion5": "使える路線の朝の混雑率は、23区の駅の中ではかなり低い。",
         "leadCongestion4": "使える路線の朝の混雑率は、23区の駅の中では低いほうである。",
@@ -167,8 +170,6 @@ PHRASES = {
                                "運営会社全体に及ぶ障害のときは、まとめて止まることがある。",
         "stationSameOperatorTwo": "2路線とも{operator}の路線である。"
                                   "運営会社全体に及ぶ障害のときは、まとめて止まることがある。",
-        "stationTransitScore": "路線数と事業者の広がりから計算した乗換の利便性は、"
-                               "100点満点で{score}点である。",
 
         "rentLabels": {"oneRoom": "ワンルーム", "oneK": "1K",
                        "oneLDK": "1LDK", "twoLDK": "2LDK"},
@@ -217,9 +218,11 @@ PHRASES = {
         "noiseRoadBig": "{name}（{side}の大通り）が{m}m先にある。一日中、車の通りが絶えない",
         "noiseRoadMid": "{name}（{side}）が{m}m先にある。朝夕は車の音が部屋まで入る",
         "noiseRoadFar": "いちばん近い大きな通りは{name}で、{m}m先にある。駅の周りまで車の音は届きにくい",
-        "leadNoiseLoud": "人の声より先に、車の音を確かめたい駅である。{name}が{m}m先を通る。",
-        "leadNoiseMid": "{name}が{m}m先にある。沿道の部屋かどうかで、聞こえる音がはっきり変わる。",
-        "leadNoiseQuiet": "いちばん近い大きな通りは{name}で、{m}m先にある。車の音は気になりにくい。",
+        # 道路名と距離は本文に書くので、ここでは繰り返さない。
+        # 「一言でいうと」は、本文を読む前に結論だけを受け取るためのものである。
+        "leadNoiseLoud": "人の声より先に、車の音を確かめたい駅である。",
+        "leadNoiseMid": "沿道の部屋かどうかで、部屋の中で聞こえる車の音がはっきり変わる。",
+        "leadNoiseQuiet": "大きな通りから離れており、車の音は気になりにくい。",
 
         "cmpRentCheaper": "家賃相場は{station}のほうが安い",
         "cmpRentSame": "家賃相場はほぼ同じ",
@@ -291,6 +294,7 @@ PHRASES = {
         "ward": lambda st: st["ward"].capitalize() + " City",
         "lineName": lambda line: line["nameEn"],
         "stationName": lambda st: st["nameRomaji"],
+        "stationNameWithLine": "{name} ({line})",
 
         "commuteItem": "{minutes} {minuteWord} to {hub}",
         "reachItem": "{hub} in {minutes} {minuteWord}",
@@ -307,10 +311,7 @@ PHRASES = {
         "terrainLow": "The station sits lower than the ground around it",
         "terrainHigh": "The station sits on the higher side of the ground around it",
         "terrainNote": "{where}, at {elevation} m above sea level. Within 800 m the ground "
-                       "ranges from {min} m to {max} m, a difference of {spread} m. "
-                       "These figures were read from the elevation API of the Geospatial "
-                       "Information Authority of Japan at nine points: the station itself "
-                       "and eight compass directions 400 m out.",
+                       "ranges from {min} m to {max} m, a difference of {spread} m.",
 
         "floodAtStation": "On the flood hazard map for the largest rainfall the government "
                           "models, the station itself falls inside the projected inundation "
@@ -364,9 +365,8 @@ PHRASES = {
                             "touching, with crowding near the doors. ",
         "congestionScale1": "At 100%, the ministry's scale describes every passenger "
                             "either seated or able to hold a strap or pillar. ",
-        "congestionTrailer": "The figures are hourly averages for the peak hour, "
-                             "from the fiscal 2025 survey. They describe each line's busiest "
-                             "stretch, so the stretch you ride may be easier. ",
+        "congestionTrailer": "The figures describe each line's busiest stretch, "
+                             "so the stretch you ride may be easier. ",
         "leadCongestion5": "Among the 23 wards' stations, the lines here are very lightly "
                            "loaded in the morning. ",
         "leadCongestion4": "Among the 23 wards' stations, the lines here are lightly loaded "
@@ -392,8 +392,6 @@ PHRASES = {
         "stationSameOperator": "All {count} {lineWord} are run by {operator}, so a fault "
                                "affecting that company can stop them together. ",
         "stationSameOperatorTwo": "Both lines are run by {operator}, so a fault affecting that company can stop them together. ",
-        "stationTransitScore": "Scored out of 100 from the number of lines and the spread of "
-                               "operators, transfer convenience here comes to {score}.",
 
         "rentLabels": {"oneRoom": "One room", "oneK": "1K",
                        "oneLDK": "1LDK", "twoLDK": "2LDK"},
@@ -448,9 +446,9 @@ PHRASES = {
         "noiseRoadBig": "{name} ({side}) runs {m} m away. Traffic on it never stops",
         "noiseRoadMid": "{name} ({side}) runs {m} m away. Morning and evening, the cars are audible indoors",
         "noiseRoadFar": "The nearest big road is {name}, {m} m away, so little traffic noise reaches the station area",
-        "leadNoiseLoud": "At this station, check the traffic noise before the noise people make: {name} runs {m} m away.",
-        "leadNoiseMid": "{name} runs {m} m away, so whether a flat faces it changes what you hear indoors.",
-        "leadNoiseQuiet": "The nearest big road is {name}, {m} m away, so traffic noise is unlikely to bother you.",
+        "leadNoiseLoud": "At this station, check the traffic noise before the noise people make.",
+        "leadNoiseMid": "Whether a flat faces the road changes what you hear indoors.",
+        "leadNoiseQuiet": "The big roads are far enough that traffic noise is unlikely to bother you.",
 
         "cmpRentCheaper": "rents are lower at {station}",
         "cmpRentSame": "rents are about the same",
@@ -519,6 +517,7 @@ PHRASES = {
         "ward": lambda st: st["wardNameJa"],
         "lineName": lambda line: line["nameJa"],
         "stationName": lambda st: st["nameJa"],
+        "stationNameWithLine": "{name}（{line}）",
 
         "commuteItem": "到{hub}{minutes}{minuteWord}",
         "reachItem": "到{hub}{minutes}{minuteWord}",
@@ -533,9 +532,8 @@ PHRASES = {
 
         "terrainLow": "车站所在的位置低于周围",
         "terrainHigh": "车站所在的位置在周围属于较高的一侧",
-        "terrainNote": "{where}，海拔{elevation}米。周边800米范围内，海拔从{min}米到{max}米，"
-                       "相差{spread}米。以上数值取自日本国土地理院的海拔API，"
-                       "读取了车站本身和半径400米的八个方位，共九个点。",
+        "terrainNote": "{where}，海拔{elevation}米。周边800米范围内，"
+                       "海拔从{min}米到{max}米，相差{spread}米。",
 
         "floodAtStation": "在按可能出现的最大降雨量推算的洪水浸水想定区域中，"
                           "车站所在的地点被划入区域，推算的水深为{depth}。",
@@ -571,8 +569,7 @@ PHRASES = {
         "congestionScale3": "按国土交通省的标准，180%指肩膀相互接触、略有压迫感，转身困难。",
         "congestionScale2": "按国土交通省的标准，150%指肩膀不会相互接触，车门附近人较多。",
         "congestionScale1": "按国土交通省的标准，100%指所有人都能就座或抓住吊环、立柱。",
-        "congestionTrailer": "数字是最拥挤时段1小时的平均值，来自令和7年度的调查。"
-                             "这是全线最拥挤区间的数值，本站乘车的区间未必相同。",
+        "congestionTrailer": "这是全线最拥挤区间的数值，本站乘车的区间未必相同。",
         "leadCongestion5": "可使用线路的早高峰拥挤率，在23区的车站中非常低。",
         "leadCongestion4": "可使用线路的早高峰拥挤率，在23区的车站中偏低。",
         "leadCongestion3": "可使用线路的早高峰拥挤率，与23区车站的平均水平相当。",
@@ -592,8 +589,6 @@ PHRASES = {
         "stationSameOperator": "{count}{lineWord}都由{operator}运营，"
                                "遇到波及整个运营公司的故障时，可能会一起停运。",
         "stationSameOperatorTwo": "2条线路都由{operator}运营，遇到波及整个运营公司的故障时，可能会一起停运。",
-        "stationTransitScore": "按线路数量和运营方的分散程度计算，"
-                               "换乘便利度为{score}分（满分100分）。",
 
         "rentLabels": {"oneRoom": "一室户", "oneK": "1K",
                        "oneLDK": "1LDK", "twoLDK": "2LDK"},
@@ -642,9 +637,9 @@ PHRASES = {
         "noiseRoadBig": "{name}（{side}的大马路）在{m}米外。一整天车流不断",
         "noiseRoadMid": "{name}（{side}）在{m}米外。早晚车声会进到屋里",
         "noiseRoadFar": "最近的大马路是{name}，在{m}米外，车声不太传到车站周边",
-        "leadNoiseLoud": "这个车站要先确认车声，而不是人声。{name}从{m}米外经过。",
-        "leadNoiseMid": "{name}在{m}米外。是否临街，屋里听到的声音会明显不同。",
-        "leadNoiseQuiet": "最近的大马路是{name}，在{m}米外，车声不太会造成困扰。",
+        "leadNoiseLoud": "这个车站要先确认车声，而不是人声。",
+        "leadNoiseMid": "是否临街，屋里听到的车声会明显不同。",
+        "leadNoiseQuiet": "离大马路有一段距离，车声不太会造成困扰。",
 
         "cmpRentCheaper": "租金行情是{station}更便宜",
         "cmpRentSame": "租金行情差不多",
@@ -714,6 +709,7 @@ PHRASES = {
         "ward": lambda st: WARD_KO[st["ward"]],
         "lineName": lambda line: line["nameJa"],
         "stationName": lambda st: st["nameJa"],
+        "stationNameWithLine": "{name}（{line}）",
 
         "commuteItem": "{hub}까지 {minutes}{minuteWord}",
         "reachItem": "{hub}까지 {minutes}{minuteWord}",
@@ -729,8 +725,7 @@ PHRASES = {
         "terrainLow": "역은 주변보다 낮은 곳에 있고",
         "terrainHigh": "역은 주변 중에서는 높은 쪽에 있고",
         "terrainNote": "{where}, 표고는 {elevation}m이다. 주변 800m 안의 표고는 {min}m부터 "
-                       "{max}m까지 나뉘며, 그 차이는 {spread}m이다. 일본 국토지리원의 "
-                       "표고 API에서 역과 반경 400m의 여덟 방위, 모두 아홉 지점을 읽은 값이다.",
+                       "{max}m까지 나뉘며, 그 차이는 {spread}m이다.",
 
         "floodAtStation": "상정할 수 있는 최대 규모의 강우를 전제로 한 홍수 침수 상정 구역에서, "
                           "역이 있는 지점이 구역에 들어가며 상정되는 깊이는 {depth}이다. ",
@@ -777,8 +772,7 @@ PHRASES = {
                             "문 근처에 사람이 많아지는 상태를 말한다. ",
         "congestionScale1": "국토교통성 기준으로 100%는 좌석에 앉거나 손잡이나 기둥을 "
                             "잡을 수 있는 상태를 말한다. ",
-        "congestionTrailer": "수치는 가장 혼잡한 시간대 1시간의 평균이며, 令和7년도 조사에 따른다. "
-                             "노선에서 가장 혼잡한 구간의 값이므로, "
+        "congestionTrailer": "노선에서 가장 혼잡한 구간의 값이므로, "
                              "이 역에서 타는 구간이 같은 정도라고는 할 수 없다. ",
         "leadCongestion5": "이용할 수 있는 노선의 아침 혼잡률은 23구의 역 중에서 매우 낮은 편이다. ",
         "leadCongestion4": "이용할 수 있는 노선의 아침 혼잡률은 23구의 역 중에서 낮은 편이다. ",
@@ -799,8 +793,6 @@ PHRASES = {
         "stationSameOperator": "{count}{lineWord} 모두 {operator}이 운영하므로, 운영 회사 "
                                "전체에 미치는 장애가 나면 한꺼번에 멈출 수 있다. ",
         "stationSameOperatorTwo": "2개 노선 모두 {operator}이 운영하므로, 운영 회사 전체에 미치는 장애가 나면 한꺼번에 멈출 수 있다. ",
-        "stationTransitScore": "노선 수와 운영 회사가 나뉜 정도로 계산한 환승 편의성은 "
-                               "100점 만점에 {score}점이다.",
 
         "rentLabels": {"oneRoom": "원룸", "oneK": "1K",
                        "oneLDK": "1LDK", "twoLDK": "2LDK"},
@@ -849,9 +841,9 @@ PHRASES = {
         "noiseRoadBig": "{name}（{side}의 큰길）가 {m}m 앞에 있다. 하루 종일 차가 끊이지 않는다",
         "noiseRoadMid": "{name}（{side}）가 {m}m 앞에 있다. 아침저녁에는 차 소리가 방까지 들어온다",
         "noiseRoadFar": "가장 가까운 큰길은 {name}로 {m}m 앞에 있어, 역 주변까지 차 소리는 잘 닿지 않는다",
-        "leadNoiseLoud": "이 역은 사람 소리보다 차 소리를 먼저 확인하고 싶다. {name}가 {m}m 앞을 지난다.",
-        "leadNoiseMid": "{name}가 {m}m 앞에 있다. 도로변 방인지 아닌지에 따라 들리는 소리가 확연히 달라진다.",
-        "leadNoiseQuiet": "가장 가까운 큰길은 {name}로 {m}m 앞에 있어, 차 소리는 신경 쓰이기 어렵다.",
+        "leadNoiseLoud": "이 역은 사람 소리보다 차 소리를 먼저 확인하고 싶다.",
+        "leadNoiseMid": "도로변 방인지 아닌지에 따라 방 안에서 들리는 차 소리가 확연히 달라진다.",
+        "leadNoiseQuiet": "큰길에서 떨어져 있어, 차 소리는 신경 쓰이기 어렵다.",
 
         "cmpRentCheaper": "임대료 시세는 {station}가 더 싸다",
         "cmpRentSame": "임대료 시세는 비슷하다",

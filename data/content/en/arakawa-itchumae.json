@@ -3,10 +3,10 @@
   "locale": "en",
   "name": "Arakawa-Itchumae",
   "tagline": "Otemachi in 31 minutes and Tokyo in 36 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Arakawa City, served by Tokyo Sakura Tram (Toden Arakawa Line). Journey times to the main business districts are 31 minutes to Otemachi, 42 minutes to Shinjuku, 52 minutes to Shibuya and 50 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 1.7 m above sea level, and the ground within 800 m varies in height by 2.0 m. The land around the station is close to level.",
+  "summary": "The station is in Arakawa City, where the Tokyo Metropolitan Bureau of Transportation run 1 line between them. Journey times to the main business districts are 31 minutes to Otemachi, 42 minutes to Shinjuku, 52 minutes to Shibuya and 50 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 1.7 m above sea level, and the ground within 800 m varies in height by 2.0 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits lower than the ground around it, at 1.7 m above sea level. Within 800 m the ground ranges from 1.1 m to 3.1 m, a difference of 2.0 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 1.7 m above sea level. Within 800 m the ground ranges from 1.1 m to 3.1 m, a difference of 2.0 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 6 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
   "groceries": [
@@ -15,32 +15,33 @@
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/way/190432712",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "業務スーパー 三ノ輪店",
       "tier": "discount",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/way/276701501",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "亜一商店 中国物産",
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/7964743013",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "オリンピック 三ノ輪店",
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/way/234260961",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 17 clinics and 11 pharmacies. Facilities recorded as hospitals lie at 木村病院, about 32 m away and 上宮会日暮里上宮病院, about 693 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Tokyo Sakura Tram (Toden Arakawa Line). Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 17 clinics and 11 pharmacies. The nearest facility recorded as a hospital is 木村病院, about 32 m from the station. The next nearest is 上宮会日暮里上宮病院, about 693 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Sakura Tram (Toden Arakawa Line).",
+  "congestion": "The ministry's congestion survey does not publish figures for Tokyo Sakura Tram (Toden Arakawa Line). It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
     "note": "One room ¥90,000 to ¥100,000, 1K ¥100,000 to ¥110,000, 1LDK ¥160,000 to ¥170,000 and 2LDK ¥200,000 to ¥210,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
@@ -80,19 +81,19 @@
   "tags": [
     "quiet",
     "pricey",
-    "singleLine",
     "floodArea",
+    "singleLine",
     "shoppingEasy",
-    "parkNear"
+    "flat"
   ],
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "There are 17 supermarkets within walking distance, and the nearest is 4 minutes on foot.",
     "hazards": "Among the 23 wards' stations, comparatively many of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
-    "stationNote": "Only the 明治通り (2 lanes each way) runs 161 m away. Morning and evening, the cars are audible indoors serves this station, so when it stops you walk to another station.",
+    "stationNote": "Only the Tokyo Sakura Tram (Toden Arakawa Line) serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "noiseSources": "明治通り runs 161 m away, so whether a flat faces it changes what you hear indoors."
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"
 }

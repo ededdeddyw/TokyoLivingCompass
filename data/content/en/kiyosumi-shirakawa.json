@@ -143,9 +143,9 @@
   ],
   "tags": [
     "floodArea",
-    "parkNear",
     "familyFriendly",
-    "flat"
+    "flat",
+    "parkNear"
   ],
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
@@ -155,6 +155,8 @@
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
     "exits": "The shopping street and the independent restaurants sit on the A3 side; the A1 and A2 side is housing, with Kiyosumi Garden and the museum. Everyday shopping is done on the A3 side.",
-    "noiseSources": "At this station, check the traffic noise before the noise people make: 清澄通り runs 3 m away."
-  }
+    "noiseSources": "At this station, check the traffic noise before the noise people make: 清澄通り runs 3 m away.",
+    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. "
+  },
+  "congestion": "Toei Oedo Line runs at 147% of capacity in the morning peak. The busiest stretch is 中井→東中野, which this station is not on. Tokyo Metro Hanzomon Line runs at 111%. Its busiest stretch is 渋谷→表参道, which this station is likewise not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier."
 }

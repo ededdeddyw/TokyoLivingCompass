@@ -3,10 +3,10 @@
   "locale": "en",
   "name": "Gotanda",
   "tagline": "Shibuya in 10 minutes and Shinagawa in 12 minutes. Served by 3 lines. A one-room flat rents for roughly ¥120,000 to ¥130,000.",
-  "summary": "The station is in Shinagawa City, served by JR Yamanote Line, Tokyu Ikegami Line and Toei Asakusa Line. Journey times to the main business districts are 23 minutes to Otemachi, 18 minutes to Shinjuku, 10 minutes to Shibuya and 12 minutes to Shinagawa. A one-room flat rents for roughly ¥120,000 to ¥130,000. The station stands 3.2 m above sea level, and the ground within 800 m varies in height by 17.6 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shinagawa City, where JR East, Tokyu and the Tokyo Metropolitan Bureau of Transportation run 3 lines between them. Journey times to the main business districts are 23 minutes to Otemachi, 18 minutes to Shinjuku, 10 minutes to Shibuya and 12 minutes to Shinagawa. A one-room flat rents for roughly ¥120,000 to ¥130,000. The station stands 3.2 m above sea level, and the ground within 800 m varies in height by 17.6 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits lower than the ground around it, at 3.2 m above sea level. Within 800 m the ground ranges from 3.2 m to 20.8 m, a difference of 17.6 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 3.2 m above sea level. Within 800 m the ground ranges from 3.2 m to 20.8 m, a difference of 17.6 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. Of the nine points within 400 m of the station, 5 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 2 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
   "groceries": [
@@ -15,32 +15,33 @@
       "tier": "standard",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/13822861588",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "成城石井",
       "tier": "premium",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/13822934821",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Kyodai Market 五反田実店舗",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/6565258028",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと 東五反田５丁目店",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/12963712832",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 3 clinics and 11 pharmacies. Facilities recorded as hospitals lie at 有仁会阿部病院, about 212 m away and サザンガーデンクリニック, about 345 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "3 lines serve the station: JR Yamanote Line, Tokyu Ikegami Line and Toei Asakusa Line. The lines are split between operators (JR East runs 1 line, Tokyu runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 78.",
+  "medical": "Within an 800 m walk of the station there are 3 clinics and 11 pharmacies. The nearest facility recorded as a hospital is 有仁会阿部病院, about 212 m from the station. The next nearest is サザンガーデンクリニック, about 345 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "3 lines serve the station. JR Yamanote Line and Tokyu Ikegami Line run through it. Toei Asakusa Line also call here. The lines are split between operators (JR East runs 1 line, Tokyu runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company.",
+  "congestion": "JR Yamanote Line runs at 136% of capacity in the morning peak. The busiest stretch is 新大久保→新宿, which this station is not on. Tokyu Ikegami Line runs at 130% of capacity in the morning peak. The busiest stretch of the line is 大崎広小路→五反田, which includes this station. Toei Asakusa Line runs at 123%. Its busiest stretch is 本所吾妻橋→浅草, which this station is likewise not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
     "note": "One room ¥120,000 to ¥130,000, 1K ¥120,000 to ¥130,000, 1LDK ¥230,000 to ¥240,000 and 2LDK ¥340,000 to ¥350,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
@@ -77,16 +78,20 @@
     "環状六号線 (a main road) runs 14 m away. Morning and evening, the cars are audible indoors"
   ],
   "tags": [
-    "majorHub"
+    "majorHub",
+    "fastToCenter",
+    "lateNight",
+    "parkNear"
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 8 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
     "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
-    "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
+    "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "noiseSources": "The nearest big road is 首都高速中央環状線, 342 m away, so traffic noise is unlikely to bother you."
+    "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
+    "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
   },
   "authoredBy": "data-generated"
 }

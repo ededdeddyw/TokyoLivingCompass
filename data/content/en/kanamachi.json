@@ -3,10 +3,10 @@
   "locale": "en",
   "name": "Kanamachi",
   "tagline": "Tokyo in 35 minutes and Otemachi in 39 minutes. Served by 2 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Katsushika City, served by JR Joban Line and Keisei Kanamachi Line. Journey times to the main business districts are 39 minutes to Otemachi, 50 minutes to Shinjuku, 59 minutes to Shibuya and 50 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 2.6 m above sea level, and the ground within 800 m varies in height by 2.6 m. The land around the station is close to level.",
+  "summary": "The station is in Katsushika City, where JR East and Keisei run 2 lines between them. Journey times to the main business districts are 39 minutes to Otemachi, 50 minutes to Shinjuku, 59 minutes to Shibuya and 50 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 2.6 m above sea level, and the ground within 800 m varies in height by 2.6 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits on the higher side of the ground around it, at 2.6 m above sea level. Within 800 m the ground ranges from 1.3 m to 3.9 m, a difference of 2.6 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 2.6 m above sea level. Within 800 m the ground ranges from 1.3 m to 3.9 m, a difference of 2.6 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 9 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
   "groceries": [
@@ -15,32 +15,33 @@
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/2014328456",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "東急ストア",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/5702024560",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/12022828583",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ヨークフーズ",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/13130922633",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 18 clinics and 15 pharmacies. Facilities recorded as hospitals lie at 第一病院, about 641 m away and 一秀会葛飾橋病院, about 1731 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "2 lines serve the station: JR Joban Line and Keisei Kanamachi Line. The lines are split between operators (JR East runs 1 line and Keisei runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "medical": "Within an 800 m walk of the station there are 18 clinics and 15 pharmacies. The nearest facility recorded as a hospital is 第一病院, about 641 m from the station. The next nearest is 一秀会葛飾橋病院, about 1731 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: JR Joban Line and Keisei Kanamachi Line. The lines are split between operators (JR East runs 1 line and Keisei runs 1 line), so when one line stops you can change to a line run by a different company.",
+  "congestion": "JR Joban Line runs at 142% of capacity in the morning peak. The busiest stretch is 三河島→日暮里, which this station is not on. Keisei Kanamachi Line is not covered by the ministry's congestion survey. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
     "note": "One room ¥70,000 to ¥80,000, 1K ¥80,000 to ¥90,000, 1LDK ¥100,000 to ¥110,000 and 2LDK ¥140,000 to ¥150,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
@@ -77,7 +78,9 @@
   ],
   "tags": [
     "floodArea",
-    "flat"
+    "familyFriendly",
+    "flat",
+    "medicalRich"
   ],
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
@@ -86,7 +89,8 @@
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "noiseSources": "水戸街道 runs 218 m away, so whether a flat faces it changes what you hear indoors."
+    "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"
 }

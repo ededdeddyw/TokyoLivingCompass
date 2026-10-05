@@ -6,7 +6,7 @@
   "summary": "The station is in Itabashi City, served by Toei Mita Line. Journey times to the main business districts are 29 minutes to Otemachi, 38 minutes to Shinjuku, 43 minutes to Shibuya and 49 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 23.2 m above sea level, and the ground within 800 m varies in height by 15.9 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits on the higher side of the ground around it, at 23.2 m above sea level. Within 800 m the ground ranges from 8.3 m to 24.2 m, a difference of 15.9 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 23.2 m above sea level. Within 800 m the ground ranges from 8.3 m to 24.2 m, a difference of 15.9 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
   "groceries": [
@@ -15,32 +15,33 @@
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/1745492632",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ヨークマート",
       "tier": "standard",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/1741663010",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "肉のハナマサ",
       "tier": "discount",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/1903244756",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "TOBU STORE",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/1996978340",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 2 clinics and 2 pharmacies. Facilities recorded as hospitals lie at 板橋中央総合病院, about 137 m away and 飯沼病院, about 1577 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Toei Mita Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 2 clinics and 2 pharmacies. The nearest facility recorded as a hospital is 板橋中央総合病院, about 137 m from the station. The next nearest is 飯沼病院, about 1577 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Toei Mita Line.",
+  "congestion": "Toei Mita Line runs at 146% of capacity in the morning peak. The busiest stretch is 西巣鴨→巣鴨, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
     "note": "One room ¥70,000 to ¥80,000, 1K ¥90,000 to ¥100,000, 1LDK ¥140,000 to ¥150,000 and 2LDK ¥180,000 to ¥190,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
@@ -76,17 +77,18 @@
     "中山道 (2 lanes each way) runs 1 m away. Morning and evening, the cars are audible indoors"
   ],
   "tags": [
-    "singleLine",
-    "lowFlood"
+    "lowFlood",
+    "singleLine"
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 8 supermarkets within walking distance, and the nearest is 7 minutes on foot.",
     "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
-    "stationNote": "Only the 中山道 (2 lanes each way) runs 1 m away. Morning and evening, the cars are audible indoors serves this station, so when it stops you walk to another station.",
+    "stationNote": "Only the Toei Mita Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "noiseSources": "At this station, check the traffic noise before the noise people make: 中山道 runs 1 m away."
+    "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"
 }

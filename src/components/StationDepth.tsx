@@ -14,10 +14,13 @@ import type { StationContent } from "@/lib/schema";
 function Block({
   title,
   lead,
+  source,
   children,
 }: {
   title: string;
   lead?: string;
+  /** 出典。どう測ったかの説明は本文に書かず、ここにリンクだけ置く。 */
+  source?: { label: string; name: string; url: string };
   children: React.ReactNode;
 }) {
   return (
@@ -25,9 +28,27 @@ function Block({
       <h3 className="text-sm font-semibold text-ink">{title}</h3>
       {lead && <p className="text-sm font-medium leading-relaxed text-ink">{lead}</p>}
       <div className="text-sm leading-relaxed text-ink-soft">{children}</div>
+      {source && (
+        <p className="text-xs text-ink-soft">
+          {source.label}:{" "}
+          <a
+            href={source.url}
+            className="text-accent hover:underline"
+            rel="noreferrer"
+            target="_blank"
+          >
+            {source.name}
+          </a>
+        </p>
+      )}
     </section>
   );
 }
+
+/** 出典のアドレス。言語によって変わらないので定数で持つ。 */
+const GSI_ELEVATION_URL = "https://maps.gsi.go.jp/development/elevation_s.html";
+const MLIT_CONGESTION_URL =
+  "https://www.mlit.go.jp/report/press/tetsudo04_hh_000139.html";
 
 export function StationDepth({
   content,
@@ -67,7 +88,12 @@ export function StationDepth({
 
   if (content.terrain) {
     blocks.push(
-      <Block key="terrain" title={d.terrain} lead={content.leads?.terrain}>
+      <Block
+        key="terrain"
+        title={d.terrain}
+        lead={content.leads?.terrain}
+        source={{ label: d.source, name: d.terrainSource, url: GSI_ELEVATION_URL }}
+      >
         <p>
           <span className="font-medium text-ink">{d.slope[content.terrain.slope]}</span>
           {" — "}
@@ -177,7 +203,16 @@ export function StationDepth({
     const text = content[field];
     if (!text) continue;
     blocks.push(
-      <Block key={field} title={d[field]} lead={content.leads?.[field]}>
+      <Block
+        key={field}
+        title={d[field]}
+        lead={content.leads?.[field]}
+        source={
+          field === "congestion"
+            ? { label: d.source, name: d.congestionSource, url: MLIT_CONGESTION_URL }
+            : undefined
+        }
+      >
         <p>{text}</p>
       </Block>,
     );

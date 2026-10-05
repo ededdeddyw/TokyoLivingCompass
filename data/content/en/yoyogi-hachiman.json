@@ -3,10 +3,10 @@
   "locale": "en",
   "name": "Yoyogi-Hachiman",
   "tagline": "Shinjuku in 6 minutes and Shibuya in 11 minutes. Served by 2 lines. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
-  "summary": "The station is in Shibuya City, served by Odakyu Odawara Line and Tokyo Metro Chiyoda Line. Journey times to the main business districts are 19 minutes to Otemachi, 6 minutes to Shinjuku, 11 minutes to Shibuya and 34 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 20.8 m above sea level, and the ground within 800 m varies in height by 15.3 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shibuya City, where Odakyu and Tokyo Metro run 2 lines between them. Journey times to the main business districts are 19 minutes to Otemachi, 6 minutes to Shinjuku, 11 minutes to Shibuya and 34 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 20.8 m above sea level, and the ground within 800 m varies in height by 15.3 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits lower than the ground around it, at 20.8 m above sea level. Within 800 m the ground ranges from 20.6 m to 35.9 m, a difference of 15.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 20.8 m above sea level. Within 800 m the ground ranges from 20.6 m to 35.9 m, a difference of 15.3 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
   "groceries": [
@@ -15,32 +15,33 @@
       "tier": "standard",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/2242419606",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Bio C' Bon",
       "tier": "premium",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/6644448085",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/10068347910",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "肉のハナマサ",
       "tier": "discount",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/3162474869",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 5 clinics and 9 pharmacies. Facilities recorded as hospitals lie at 荘敬会井上病院, about 92 m away and 予定, about 296 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "2 lines serve the station: Odakyu Odawara Line and Tokyo Metro Chiyoda Line. The lines are split between operators (Odakyu runs 1 line and Tokyo Metro runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 9 pharmacies. The nearest facility recorded as a hospital is 荘敬会井上病院, about 92 m from the station. The next nearest is 予定, about 296 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station. Odakyu Odawara Line run through it. Tokyo Metro Chiyoda Line also call here. The lines are split between operators (Odakyu runs 1 line and Tokyo Metro runs 1 line), so when one line stops you can change to a line run by a different company.",
+  "congestion": "Odakyu Odawara Line runs at 150% of capacity in the morning peak. The busiest stretch is 世田谷代田→下北沢, which this station is not on. Tokyo Metro Chiyoda Line runs at 150%. Its busiest stretch is 町屋→西日暮里, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
     "note": "One room ¥130,000 to ¥140,000, 1K ¥120,000 to ¥130,000, 1LDK ¥220,000 to ¥230,000 and 2LDK ¥330,000 to ¥340,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
@@ -75,6 +76,11 @@
     "The 首都高速中央環状線 viaduct runs 93 m away. It is an expressway, so traffic is audible day and night",
     "山手通り (a main road) runs 96 m away. Morning and evening, the cars are audible indoors"
   ],
+  "tags": [
+    "quiet",
+    "lowFlood",
+    "fastToCenter"
+  ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 7 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
@@ -82,7 +88,8 @@
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "noiseSources": "At this station, check the traffic noise before the noise people make: 首都高速中央環状線 runs 93 m away."
+    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"
 }

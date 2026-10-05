@@ -6,11 +6,12 @@
   "summary": "The station is in Ota City, served by Tokyo Monorail. Journey times to the main business districts are 39 minutes to Otemachi, 48 minutes to Shinjuku, 43 minutes to Shibuya and 34 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 2 m above sea level, and the ground within 800 m varies in height by 3.0 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits lower than the ground around it, at 2 m above sea level. Within 800 m the ground ranges from 1.4 m to 4.4 m, a difference of 3.0 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 2 m above sea level. Within 800 m the ground ranges from 1.4 m to 4.4 m, a difference of 3.0 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 7 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 7 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
-  "medical": "Within an 800 m walk of the station there are 1 clinic and 1 pharmacy. Facilities recorded as hospitals lie at 高野病院, about 1132 m away and 渡辺病院, about 1182 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Tokyo Monorail. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 1 clinic and 1 pharmacy. The nearest facility recorded as a hospital is 高野病院, about 1132 m from the station. The next nearest is 渡辺病院, about 1182 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Monorail.",
+  "congestion": "The ministry's congestion survey does not publish figures for Tokyo Monorail. It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
     "note": "One room ¥80,000 to ¥90,000, 1K ¥100,000 to ¥110,000, 1LDK ¥140,000 to ¥150,000 and 2LDK ¥170,000 to ¥180,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
@@ -56,10 +57,10 @@
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "OpenStreetMap records no supermarket within walking distance of the station.",
     "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
-    "stationNote": "Only the The 首都高速1号羽田線 viaduct runs 202 m away. It is an expressway, so traffic is audible day and night serves this station, so when it stops you walk to another station.",
+    "stationNote": "Only the Tokyo Monorail serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
-    "noiseSources": "首都高速1号羽田線 runs 202 m away, so whether a flat faces it changes what you hear indoors."
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"
 }

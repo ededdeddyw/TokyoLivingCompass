@@ -62,6 +62,38 @@ def load(p):
     return json.load(open(os.path.join(D, p), encoding="utf-8"))
 
 
+def build_display_names(roster, lines, p):
+    """同じ駅名が2つあるときに、どちらの駅かが分かる表示名を作る。
+
+    早稲田は東京メトロ東西線と都電荒川線に、浅草は3路線とつくばエクスプレスに
+    それぞれ同じ名前の駅がある。名前だけで書くと
+    「静かさは早稲田が上回る。ただし都心への近さは早稲田が上回る」のように、
+    どちらの話をしているのか読み取れない文になる。
+
+    乗り入れる路線が多いほうを代表とし、そのまま「早稲田」と書く。
+    もう一方には路線名を添えて「早稲田（都電荒川線）」と書く。
+    """
+    by_name = {}
+    for st in roster:
+        by_name.setdefault(st["nameJa"], []).append(st)
+    names = {}
+    for group in by_name.values():
+        if len(group) == 1:
+            names[group[0]["slug"]] = p["stationName"](group[0])
+            continue
+        ordered = sorted(group, key=lambda st: (-len(st["lineIds"]), len(st["slug"])))
+        for i, st in enumerate(ordered):
+            plain = p["stationName"](st)
+            ids = [i for i in st["lineIds"] if i in lines]
+            if i == 0 or not ids:
+                names[st["slug"]] = plain
+            else:
+                label = line_name(p["lineName"](lines[ids[0]]))
+                names[st["slug"]] = p["stationNameWithLine"].format(
+                    name=plain, line=label)
+    return names
+
+
 def line_name(name):
     """
     路線名を文章に載る形にする。ekidata の名前は「JR常磐線(上野～取手)」のように
@@ -347,7 +379,8 @@ def compare_lead(p, a, b, ctx):
     sc, bands, roster = ctx["sc"], ctx["bands"], ctx["rosterBySlug"]
     if a not in roster or b not in roster:
         return None
-    name_a, name_b = p["stationName"](roster[a]), p["stationName"](roster[b])
+    names = ctx["displayName"]
+    name_a, name_b = names[a], names[b]
 
     def band(slug):
         v = bands.get(slug, {}).get("bands", {}).get("oneRoom")
@@ -427,7 +460,7 @@ def build(st, ctx):
     money, unit, sep = p["money"], p["moneyUnit"], p["listSep"]
     depth_label = p["depth"]
     slug = st["slug"]
-    name = p["stationName"](st)
+    name = ctx["displayName"][slug]
     line_objs = [ctx["lines"][i] for i in st["lineIds"] if i in ctx["lines"]]
     lines = [line_name(p["lineName"](l)) for l in line_objs]
     companies = [l["company"] for l in line_objs]
@@ -561,7 +594,9 @@ def build(st, ctx):
     # 京王と小田急はどちらも私鉄だが別の会社なので、片方が止まっても他方は動く。
     unique = sorted(set(companies), key=companies.index)
     if len(lines) == 1:
-        note.append(p["stationSingleLine"])
+        # 1路線だけの駅では、止まったときの話を「一言でいうと」に書く。
+        # 本文でも同じことを書くと、同じ内容を2回読ませることになる。
+        pass
     elif len(unique) > 1:
         breakdown = join(p, (
             p["stationOperatorItem"].format(
@@ -575,8 +610,8 @@ def build(st, ctx):
             count=len(lines), lineWord=word(p, "line", len(lines)),
             operator=p["company"][unique[0]]))
     sc = ctx["sc"].get(slug, {})
-    if "transitConvenience" in sc:
-        note.append(p["stationTransitScore"].format(score=sc["transitConvenience"]))
+    # 乗換の利便性の点数は、本文に書かない。「32点である」とだけ書いても、
+    # 高いのか低いのかが読み手に伝わらない。点数は評価軸の表に出している。
     c["stationNote"] = "".join(note).strip()
 
     # ── 朝の混雑率（国土交通省の調査） ─────────────
@@ -707,14 +742,17 @@ def build(st, ctx):
          if (v := road.get(cls)) and v.get("name")),
         key=lambda t: (t[0] != "motorway" or t[1]["m"] > 400, t[1]["m"]))
     near_road = ordered[0] if ordered else None
-    lines = []
+    # 変数名を lines にすると、上で組み立てた路線名の一覧を上書きしてしまう。
+    # 実際、菊川の「駅の使い勝手」の一言が
+    # 「使える路線は新大橋通り（大通り）が2m先にあるの1本だけである」になっていた。
+    noise = []
     for cls, v in ordered:
-        if v["m"] <= 250 or (cls == "motorway" and v["m"] <= 400) or not lines:
-            lines.append(road_line(cls, v))
-        if len(lines) == 2:
+        if v["m"] <= 250 or (cls == "motorway" and v["m"] <= 400) or not noise:
+            noise.append(road_line(cls, v))
+        if len(noise) == 2:
             break
-    if lines:
-        c["noiseSources"] = lines
+    if noise:
+        c["noiseSources"] = noise
 
     # ── 街の性格タグと、節ごとの一言 ───────────────
     tags = station_tags(sc, st, ter, ctx)
@@ -828,6 +866,8 @@ def main():
         "pois": pois_doc["stations"],
         "poiDate": pois_doc["meta"]["retrievedAt"],
     }
+    # 同じ駅名が2つある駅には、路線名を添えた表示名を使う
+    ctx["displayName"] = build_display_names(roster, ctx["lines"], ctx["p"])
 
     written = made = skipped = refreshed = 0
     targets = roster[:args.limit] if args.limit else roster

@@ -3,10 +3,10 @@
   "locale": "en",
   "name": "Kokkai-Gijidomae",
   "tagline": "Otemachi in 6 minutes and Tokyo in 7 minutes. Served by 2 lines. A one-room flat rents for roughly ¥160,000 to ¥170,000.",
-  "summary": "The station is in Chiyoda City, served by Tokyo Metro Marunouchi Line and Tokyo Metro Chiyoda Line. Journey times to the main business districts are 6 minutes to Otemachi, 12 minutes to Shinjuku, 15 minutes to Shibuya and 21 minutes to Shinagawa. A one-room flat rents for roughly ¥160,000 to ¥170,000. The station stands 25 m above sea level, and the ground within 800 m varies in height by 17.7 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Chiyoda City, where Tokyo Metro run 2 lines between them. Journey times to the main business districts are 6 minutes to Otemachi, 12 minutes to Shinjuku, 15 minutes to Shibuya and 21 minutes to Shinagawa. A one-room flat rents for roughly ¥160,000 to ¥170,000. The station stands 25 m above sea level, and the ground within 800 m varies in height by 17.7 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits on the higher side of the ground around it, at 25 m above sea level. Within 800 m the ground ranges from 7.3 m to 25 m, a difference of 17.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 25 m above sea level. Within 800 m the ground ranges from 7.3 m to 25 m, a difference of 17.7 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
   "groceries": [
@@ -15,32 +15,33 @@
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/9662187346",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "吉池 赤坂店",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/11350667209",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/node/9342367290",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マルエツプチ",
       "tier": "standard",
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/way/207324106",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 14 clinics and 19 pharmacies. Facilities recorded as hospitals lie at 虎の門病院, about 577 m away and 友仁会赤坂見附前田病院, about 1103 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "2 lines serve the station: Tokyo Metro Marunouchi Line and Tokyo Metro Chiyoda Line. Both lines are run by Tokyo Metro, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "medical": "Within an 800 m walk of the station there are 14 clinics and 19 pharmacies. The nearest facility recorded as a hospital is 虎の門病院, about 577 m from the station. The next nearest is 友仁会赤坂見附前田病院, about 1103 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station. Tokyo Metro Marunouchi Line run through it. Tokyo Metro Chiyoda Line also call here. Both lines are run by Tokyo Metro, so a fault affecting that company can stop them together.",
+  "congestion": "Tokyo Metro Marunouchi Line runs at 154% of capacity in the morning peak. The busiest stretch is 新大塚→茗荷谷, which this station is not on. Tokyo Metro Chiyoda Line runs at 150%. Its busiest stretch is 町屋→西日暮里, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
     "note": "One room ¥160,000 to ¥170,000, 1K ¥150,000 to ¥160,000, 1LDK ¥290,000 to ¥300,000 and 2LDK ¥470,000 to ¥480,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
@@ -55,12 +56,12 @@
   "neighbours": [
     {
       "slug": "tameike-sanno",
-      "lead": "Tameike-Sanno is ahead on how easy the shopping is, but Kokkai-Gijidomae is ahead on how little of the area is in the flood projection and quiet.",
+      "lead": "Tameike-Sanno is ahead on how easy the shopping is, but Kokkai-Gijidomae is ahead on how little of the area is in the flood projection.",
       "note": "344 m away in a straight line. It takes 9 minutes longer to reach Otemachi than Kokkai-Gijidomae."
     },
     {
       "slug": "kasumigaseki",
-      "lead": "Kasumigaseki is ahead on the number of lines, but Kokkai-Gijidomae is ahead on how easy the shopping is and quiet.",
+      "lead": "Kasumigaseki is ahead on the number of lines, but Kokkai-Gijidomae is ahead on how easy the shopping is.",
       "note": "513 m away in a straight line. It reaches Otemachi in about the same time as Kokkai-Gijidomae."
     }
   ],
@@ -77,12 +78,10 @@
     "東京都道二四七号線 (3 lanes each way) runs 5 m away, right beside the station. Traffic on it never stops"
   ],
   "tags": [
-    "lively",
     "pricey",
+    "lowFlood",
     "fastToCenter",
-    "diningRich",
-    "cafeRich",
-    "lateNight"
+    "medicalRich"
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
@@ -91,7 +90,8 @@
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "noiseSources": "At this station, check the traffic noise before the noise people make: 首都高速都心環状線 runs 176 m away."
+    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"
 }

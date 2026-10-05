@@ -3,10 +3,10 @@
   "locale": "en",
   "name": "Takebashi",
   "tagline": "Otemachi in 2 minutes and Tokyo in 8 minutes. Served by 1 line. A one-room flat rents for roughly ¥140,000 to ¥150,000.",
-  "summary": "The station is in Chiyoda City, served by Tokyo Metro Tozai Line. Journey times to the main business districts are 2 minutes to Otemachi, 18 minutes to Shinjuku, 21 minutes to Shibuya and 23 minutes to Shinagawa. A one-room flat rents for roughly ¥140,000 to ¥150,000. The station stands 4.6 m above sea level, and the ground within 800 m varies in height by 16.7 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Chiyoda City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 2 minutes to Otemachi, 18 minutes to Shinjuku, 21 minutes to Shibuya and 23 minutes to Shinagawa. A one-room flat rents for roughly ¥140,000 to ¥150,000. The station stands 4.6 m above sea level, and the ground within 800 m varies in height by 16.7 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits lower than the ground around it, at 4.6 m above sea level. Within 800 m the ground ranges from 3.6 m to 20.3 m, a difference of 16.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 4.6 m above sea level. Within 800 m the ground ranges from 3.6 m to 20.3 m, a difference of 16.7 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 2 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
   "groceries": [
@@ -15,25 +15,26 @@
       "tier": "standard",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/11337843163",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "成城石井",
       "tier": "premium",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/way/231778775",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "サミット",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/11342776829",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 10 clinics and 12 pharmacies. Facilities recorded as hospitals lie at 宮内庁病院, about 511 m away and 九段坂病院, about 540 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Tokyo Metro Tozai Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 10 clinics and 12 pharmacies. The nearest facility recorded as a hospital is 宮内庁病院, about 511 m from the station. The next nearest is 九段坂病院, about 540 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Metro Tozai Line.",
+  "congestion": "Tokyo Metro Tozai Line runs at 160% of capacity in the morning peak. The busiest stretch is 木場→門前仲町, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
     "note": "One room ¥140,000 to ¥150,000, 1K ¥140,000 to ¥150,000, 1LDK ¥210,000 to ¥220,000 and 2LDK ¥700,000 to ¥710,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
@@ -53,7 +54,7 @@
     },
     {
       "slug": "kudanshita",
-      "lead": "Kudanshita is ahead on the number of lines, but Takebashi is ahead on how little of the area is in the flood projection and quiet.",
+      "lead": "Kudanshita is ahead on the number of lines, but Takebashi is ahead on how little of the area is in the flood projection.",
       "note": "702 m away in a straight line. It reaches Otemachi in about the same time as Takebashi. One-room rents run about ¥5,000 higher."
     }
   ],
@@ -70,20 +71,20 @@
     "内堀通り (4 lanes each way) runs 8 m away, right beside the station. Traffic on it never stops"
   ],
   "tags": [
-    "lively",
     "pricey",
-    "singleLine",
-    "diningRich",
-    "cafeRich"
+    "lowFlood",
+    "fastToCenter",
+    "singleLine"
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 3 supermarkets within walking distance, and the nearest is 8 minutes on foot.",
     "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
-    "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
+    "stationNote": "Only the Tokyo Metro Tozai Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the highest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "noiseSources": "At this station, check the traffic noise before the noise people make: 首都高速都心環状線 runs 82 m away."
+    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"
 }

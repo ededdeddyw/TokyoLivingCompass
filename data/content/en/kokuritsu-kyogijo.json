@@ -6,7 +6,7 @@
   "summary": "The station is in Shinjuku City, served by Toei Oedo Line. Journey times to the main business districts are 21 minutes to Otemachi, 5 minutes to Shinjuku, 13 minutes to Shibuya and 28 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 29 m above sea level, and the ground within 800 m varies in height by 6.9 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits lower than the ground around it, at 29 m above sea level. Within 800 m the ground ranges from 27.7 m to 34.6 m, a difference of 6.9 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 29 m above sea level. Within 800 m the ground ranges from 27.7 m to 34.6 m, a difference of 6.9 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
   "groceries": [
@@ -15,18 +15,19 @@
       "tier": "standard",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/3899237666",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "コープ",
       "tier": "standard",
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/node/2933652016",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 4 clinics and 7 pharmacies. Facilities recorded as hospitals lie at 仁圭会林外科病院, about 378 m away and 慶應義塾大学病院, about 382 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Toei Oedo Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 4 clinics and 7 pharmacies. The nearest facility recorded as a hospital is 仁圭会林外科病院, about 378 m from the station. The next nearest is 慶應義塾大学病院, about 382 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Toei Oedo Line.",
+  "congestion": "Toei Oedo Line runs at 147% of capacity in the morning peak. The busiest stretch is 中井→東中野, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
     "note": "One room ¥130,000 to ¥140,000, 1K ¥140,000 to ¥150,000, 1LDK ¥240,000 to ¥250,000 and 2LDK ¥340,000 to ¥350,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
@@ -56,26 +57,28 @@
   ],
   "notFor": [
     "People who want another route when service is suspended",
-    "People who want to finish their shopping on foot"
+    "People who want to finish their shopping on foot",
+    "People who want plenty of places to eat out"
   ],
   "noiseSources": [
     "The 首都高速4号新宿線 viaduct runs 75 m away. It is an expressway, so traffic is audible day and night",
     "四谷角筈線 (1 lanes each way) runs 1 m away. Morning and evening, the cars are audible indoors"
   ],
   "tags": [
+    "lowFlood",
     "fastToCenter",
     "singleLine",
-    "lowFlood",
     "flat"
   ],
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "There are 2 supermarkets within walking distance, and the nearest is 9 minutes on foot.",
     "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
-    "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
+    "stationNote": "Only the Toei Oedo Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "noiseSources": "At this station, check the traffic noise before the noise people make: 首都高速4号新宿線 runs 75 m away."
+    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"
 }

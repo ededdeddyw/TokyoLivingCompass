@@ -1,12 +1,12 @@
 {
   "slug": "waseda-toden",
   "locale": "en",
-  "name": "Waseda",
+  "name": "Waseda (Tokyo Sakura Tram (Toden Arakawa Line))",
   "tagline": "Shinjuku in 28 minutes and Shibuya in 29 minutes. Served by 1 line.",
-  "summary": "The station is in Shinjuku City, served by Tokyo Sakura Tram (Toden Arakawa Line). Journey times to the main business districts are 37 minutes to Otemachi, 28 minutes to Shinjuku, 29 minutes to Shibuya and 54 minutes to Shinagawa. The station stands 7.7 m above sea level, and the ground within 800 m varies in height by 19.0 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shinjuku City, where the Tokyo Metropolitan Bureau of Transportation run 1 line between them. Journey times to the main business districts are 37 minutes to Otemachi, 28 minutes to Shinjuku, 29 minutes to Shibuya and 54 minutes to Shinagawa. The station stands 7.7 m above sea level, and the ground within 800 m varies in height by 19.0 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits lower than the ground around it, at 7.7 m above sea level. Within 800 m the ground ranges from 7.5 m to 26.5 m, a difference of 19.0 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 7.7 m above sea level. Within 800 m the ground ranges from 7.5 m to 26.5 m, a difference of 19.0 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 5 fall inside the area, and the deepest projection among them is 3 to 5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
   "groceries": [
@@ -15,42 +15,43 @@
       "tier": "standard",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/3376950687",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "スーパーマーケット　リコス　関口１丁目",
       "tier": "standard",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/way/222088126",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "コープとうきょう",
       "tier": "standard",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/1177105261",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/5056503208",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 7 clinics and 11 pharmacies. Facilities recorded as hospitals lie at 大同病院, about 870 m away and 国立国際医療センター, about 1020 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Tokyo Sakura Tram (Toden Arakawa Line). Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 7 clinics and 11 pharmacies. The nearest facility recorded as a hospital is 大同病院, about 870 m from the station. The next nearest is 国立国際医療センター, about 1020 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Sakura Tram (Toden Arakawa Line).",
+  "congestion": "The ministry's congestion survey does not publish figures for Tokyo Sakura Tram (Toden Arakawa Line). It covers the major commuter stretches, and this line is not among them. ",
   "neighbours": [
     {
       "slug": "omokagebashi",
-      "lead": "Omokagebashi is ahead on how little of the area is in the flood projection, but Waseda is ahead on how easy the shopping is.",
-      "note": "423 m away in a straight line. It reaches Otemachi in about the same time as Waseda."
+      "lead": "Omokagebashi is ahead on how little of the area is in the flood projection, but Waseda (Tokyo Sakura Tram (Toden Arakawa Line)) is ahead on how easy the shopping is.",
+      "note": "423 m away in a straight line. It reaches Otemachi in about the same time as Waseda (Tokyo Sakura Tram (Toden Arakawa Line))."
     },
     {
       "slug": "waseda",
-      "lead": "Waseda is ahead on how little of the area is in the flood projection and how close the centre is, but Waseda is ahead on quiet.",
-      "note": "714 m away in a straight line. It reaches Otemachi 26 minutes sooner than Waseda."
+      "lead": "Waseda is ahead on how little of the area is in the flood projection and how close the centre is, but Waseda (Tokyo Sakura Tram (Toden Arakawa Line)) is ahead on quiet.",
+      "note": "714 m away in a straight line. It reaches Otemachi 26 minutes sooner than Waseda (Tokyo Sakura Tram (Toden Arakawa Line))."
     }
   ],
   "goodFor": [
@@ -64,15 +65,16 @@
     "新目白通り (2 lanes each way) runs 5 m away. Morning and evening, the cars are audible indoors"
   ],
   "tags": [
+    "quiet",
     "singleLine"
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 10 supermarkets within walking distance, and the nearest is 8 minutes on foot.",
     "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
-    "stationNote": "Only the 新目白通り (2 lanes each way) runs 5 m away. Morning and evening, the cars are audible indoors serves this station, so when it stops you walk to another station.",
+    "stationNote": "Only the Tokyo Sakura Tram (Toden Arakawa Line) serves this station, so when it stops you walk to another station.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "noiseSources": "At this station, check the traffic noise before the noise people make: 新目白通り runs 5 m away."
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"
 }

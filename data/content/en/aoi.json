@@ -6,7 +6,7 @@
   "summary": "The station is in Adachi City, served by Tsukuba Express. Journey times to the main business districts are 29 minutes to Otemachi, 37 minutes to Shinjuku, 47 minutes to Shibuya and 37 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands -0.3 m above sea level, and the ground within 800 m varies in height by 2.4 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits lower than the ground around it, at -0.3 m above sea level. Within 800 m the ground ranges from -0.8 m to 1.6 m, a difference of 2.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at -0.3 m above sea level. Within 800 m the ground ranges from -0.8 m to 1.6 m, a difference of 2.4 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 5 to 10 m. For storm surge, 8 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
   "groceries": [
@@ -15,32 +15,33 @@
       "tier": "discount",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/1990419010",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Big-A",
       "tier": "discount",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/2878159443",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "アコレ",
       "tier": "discount",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/5502981228",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/way/1237203521",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 1 clinic and 5 pharmacies. Facilities recorded as hospitals lie at 六町駅クリニック, about 1534 m away and 東京拘置所医務部病院, about 1641 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Tsukuba Express. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 1 clinic and 5 pharmacies. The nearest facility recorded as a hospital is 六町駅クリニック, about 1534 m from the station. The next nearest is 東京拘置所医務部病院, about 1641 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tsukuba Express.",
+  "congestion": "Tsukuba Express runs at 151% of capacity in the morning peak. The busiest stretch of the line is 青井→北千住, which includes this station. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
     "note": "One room ¥70,000 to ¥80,000, 1K ¥80,000 to ¥90,000, 1LDK ¥120,000 to ¥130,000 and 2LDK ¥150,000 to ¥160,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
@@ -81,18 +82,19 @@
   "tags": [
     "quiet",
     "goodValue",
-    "singleLine",
     "floodArea",
+    "singleLine",
     "flat"
   ],
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "There are 4 supermarkets within walking distance, and the nearest is 6 minutes on foot.",
     "hazards": "Among the 23 wards' stations, comparatively many of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
-    "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
+    "stationNote": "Only the Tsukuba Express serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
-    "noiseSources": "首都高速6号三郷線 runs 224 m away, so whether a flat faces it changes what you hear indoors."
+    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"
 }

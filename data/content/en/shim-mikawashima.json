@@ -6,7 +6,7 @@
   "summary": "The station is in Arakawa City, served by Keisei Main Line. Journey times to the main business districts are 24 minutes to Otemachi, 34 minutes to Shinjuku, 39 minutes to Shibuya and 34 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 3.2 m above sea level, and the ground within 800 m varies in height by 2.3 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits on the higher side of the ground around it, at 3.2 m above sea level. Within 800 m the ground ranges from 2 m to 4.3 m, a difference of 2.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 3.2 m above sea level. Within 800 m the ground ranges from 2 m to 4.3 m, a difference of 2.3 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 1 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
   "groceries": [
@@ -15,32 +15,33 @@
       "tier": "standard",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/7090641293",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/5483264627",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "業務スーパー 町屋店",
       "tier": "discount",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/way/1272440953",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マルエツ 西日暮里店",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/5593490369",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 22 clinics and 10 pharmacies. Facilities recorded as hospitals lie at 竹内病院, about 819 m away and はせがわ病院, about 995 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Keisei Main Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 22 clinics and 10 pharmacies. The nearest facility recorded as a hospital is 竹内病院, about 819 m from the station. The next nearest is はせがわ病院, about 995 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Keisei Main Line.",
+  "congestion": "Keisei Main Line runs at 137% of capacity in the morning peak. The busiest stretch is 大神宮下→京成船橋, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
     "note": "One room ¥90,000 to ¥100,000, 1K ¥100,000 to ¥110,000, 1LDK ¥160,000 to ¥170,000 and 2LDK ¥210,000 to ¥220,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
@@ -79,21 +80,21 @@
     "道灌山通り (a main road) runs 177 m away. Morning and evening, the cars are audible indoors"
   ],
   "tags": [
-    "singleLine",
     "floodArea",
+    "singleLine",
     "shoppingEasy",
-    "parkNear",
-    "familyFriendly",
-    "flat"
+    "flat",
+    "parkNear"
   ],
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "There are 16 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
     "hazards": "Among the 23 wards' stations, comparatively many of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
-    "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
+    "stationNote": "Only the Keisei Main Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "noiseSources": "At this station, check the traffic noise before the noise people make: 明治通り runs 37 m away."
+    "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"
 }

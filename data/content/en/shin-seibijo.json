@@ -6,10 +6,11 @@
   "summary": "The station is in Ota City, served by Tokyo Monorail. Journey times to the main business districts are 46 minutes to Otemachi, 55 minutes to Shinjuku, 50 minutes to Shibuya and 41 minutes to Shinagawa. The station stands 5.6 m above sea level, and the ground within 800 m varies in height by 8.2 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits on the higher side of the ground around it, at 5.6 m above sea level. Within 800 m the ground ranges from 0.9 m to 9.1 m, a difference of 8.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 5.6 m above sea level. Within 800 m the ground ranges from 0.9 m to 9.1 m, a difference of 8.2 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
-  "stationNote": "1 line serve the station: Tokyo Monorail. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "stationNote": "1 line serve the station: Tokyo Monorail.",
+  "congestion": "The ministry's congestion survey does not publish figures for Tokyo Monorail. It covers the major commuter stretches, and this line is not among them. ",
   "neighbours": [
     {
       "slug": "haneda-airport-terminal-1-2",
@@ -35,16 +36,16 @@
   ],
   "tags": [
     "quiet",
-    "singleLine",
-    "lowFlood"
+    "lowFlood",
+    "singleLine"
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "OpenStreetMap records no supermarket within walking distance of the station.",
     "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
-    "stationNote": "Only the The 首都高速湾岸線 viaduct runs 361 m away. It is an expressway, so traffic is audible day and night serves this station, so when it stops you walk to another station.",
+    "stationNote": "Only the Tokyo Monorail serves this station, so when it stops you walk to another station.",
     "medical": "The number of clinics and pharmacies within walking distance is low for the 23 wards.",
-    "noiseSources": "The nearest big road is 首都高速湾岸線, 361 m away, so traffic noise is unlikely to bother you."
+    "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
   },
   "authoredBy": "data-generated"
 }

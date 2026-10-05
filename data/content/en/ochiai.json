@@ -3,10 +3,10 @@
   "locale": "en",
   "name": "Ochiai",
   "tagline": "Shinjuku in 15 minutes and Otemachi in 19 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Nakano City, served by Tokyo Metro Tozai Line. Journey times to the main business districts are 19 minutes to Otemachi, 15 minutes to Shinjuku, 23 minutes to Shibuya and 39 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 30.9 m above sea level, and the ground within 800 m varies in height by 16.2 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Nakano City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 19 minutes to Otemachi, 15 minutes to Shinjuku, 23 minutes to Shibuya and 39 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 30.9 m above sea level, and the ground within 800 m varies in height by 16.2 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits on the higher side of the ground around it, at 30.9 m above sea level. Within 800 m the ground ranges from 18.2 m to 34.4 m, a difference of 16.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 30.9 m above sea level. Within 800 m the ground ranges from 18.2 m to 34.4 m, a difference of 16.2 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 5 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
   "groceries": [
@@ -15,32 +15,33 @@
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/2546447138",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "みらべる",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/1390753539",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Kitchen Court",
       "tier": "standard",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/2524844693",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "サミット",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/3560195962",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 19 clinics and 16 pharmacies. Facilities recorded as hospitals lie at 近藤泌尿器科内科クリニック, about 549 m away and 菖医院, about 828 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Tokyo Metro Tozai Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 19 clinics and 16 pharmacies. The nearest facility recorded as a hospital is 近藤泌尿器科内科クリニック, about 549 m from the station. The next nearest is 菖医院, about 828 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Metro Tozai Line.",
+  "congestion": "Tokyo Metro Tozai Line runs at 160% of capacity in the morning peak. The busiest stretch is 木場→門前仲町, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
     "note": "One room ¥80,000 to ¥90,000, 1K ¥100,000 to ¥110,000, 1LDK ¥170,000 to ¥180,000 and 2LDK ¥240,000 to ¥250,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
@@ -82,17 +83,17 @@
     "goodValue",
     "singleLine",
     "parkNear",
-    "medicalRich",
-    "familyFriendly"
+    "medicalRich"
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 12 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
     "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
-    "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
+    "stationNote": "Only the Tokyo Metro Tozai Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "noiseSources": "At this station, check the traffic noise before the noise people make: 首都高速中央環状線 runs 192 m away."
+    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"
 }

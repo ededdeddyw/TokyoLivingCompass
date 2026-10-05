@@ -3,10 +3,10 @@
   "locale": "en",
   "name": "Shimbamba",
   "tagline": "Shinagawa in 3 minutes and Tokyo in 18 minutes. Served by 1 line. A one-room flat rents for roughly ¥110,000 to ¥120,000.",
-  "summary": "The station is in Shinagawa City, served by Keikyu Main Line. Journey times to the main business districts are 24 minutes to Otemachi, 34 minutes to Shinjuku, 29 minutes to Shibuya and 3 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 3.7 m above sea level, and the ground within 800 m varies in height by 12.1 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shinagawa City, where Keikyu run 1 line between them. Journey times to the main business districts are 24 minutes to Otemachi, 34 minutes to Shinjuku, 29 minutes to Shibuya and 3 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 3.7 m above sea level, and the ground within 800 m varies in height by 12.1 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits lower than the ground around it, at 3.7 m above sea level. Within 800 m the ground ranges from 2.1 m to 14.2 m, a difference of 12.1 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 3.7 m above sea level. Within 800 m the ground ranges from 2.1 m to 14.2 m, a difference of 12.1 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 6 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 5 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
   "groceries": [
@@ -15,18 +15,19 @@
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/7927841802",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "miniピアゴ (mini PIAGO)",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/2391098425",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 4 clinics and 3 pharmacies. Facilities recorded as hospitals lie at 河野臨牀医学研究所附属北品川病院, about 394 m away and 河野臨牀医学研究所附属第三北品川病院, about 467 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Keikyu Main Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 4 clinics and 3 pharmacies. The nearest facility recorded as a hospital is 河野臨牀医学研究所附属北品川病院, about 394 m from the station. The next nearest is 河野臨牀医学研究所附属第三北品川病院, about 467 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Keikyu Main Line.",
+  "congestion": "Keikyu Main Line runs at 120% of capacity in the morning peak. The busiest stretch is 戸部→横浜, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
     "note": "One room ¥110,000 to ¥120,000, 1K ¥120,000 to ¥130,000, 1LDK ¥190,000 to ¥200,000 and 2LDK ¥260,000 to ¥270,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
@@ -63,16 +64,20 @@
     "第一京浜 (3 lanes each way) runs 30 m away, right beside the station. Traffic on it never stops"
   ],
   "tags": [
-    "singleLine"
+    "goodValue",
+    "fastToCenter",
+    "singleLine",
+    "parkNear"
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 4 supermarkets within walking distance, and the nearest is 6 minutes on foot.",
     "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
-    "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
+    "stationNote": "Only the Keikyu Main Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "noiseSources": "At this station, check the traffic noise before the noise people make: 首都高速中央環状線 runs 148 m away."
+    "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"
 }

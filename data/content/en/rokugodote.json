@@ -6,7 +6,7 @@
   "summary": "The station is in Ota City, served by Keikyu Main Line. Journey times to the main business districts are 44 minutes to Otemachi, 54 minutes to Shinjuku, 49 minutes to Shibuya and 23 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 3.7 m above sea level, and the ground within 800 m varies in height by 2.2 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits on the higher side of the ground around it, at 3.7 m above sea level. Within 800 m the ground ranges from 1.5 m to 3.7 m, a difference of 2.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 3.7 m above sea level. Within 800 m the ground ranges from 1.5 m to 3.7 m, a difference of 2.2 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 5 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 5 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
   "groceries": [
@@ -15,25 +15,26 @@
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/2619405758",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マックスバリュエクスプレス 六郷土手駅前店",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/2131766452",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "オーケーストア 川崎本町店",
       "tier": "discount",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/way/832835331",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 3 clinics and 3 pharmacies. Facilities recorded as hospitals lie at 川崎市立川崎病院, about 1551 m away and 清恵会田村外科病院, about 1556 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Keikyu Main Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 3 clinics and 3 pharmacies. The nearest facility recorded as a hospital is 川崎市立川崎病院, about 1551 m from the station. The next nearest is 清恵会田村外科病院, about 1556 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Keikyu Main Line.",
+  "congestion": "Keikyu Main Line runs at 120% of capacity in the morning peak. The busiest stretch is 戸部→横浜, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
     "note": "One room ¥70,000 to ¥80,000, 1K ¥90,000 to ¥100,000, 1LDK ¥140,000 to ¥150,000 and 2LDK ¥180,000 to ¥190,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
@@ -71,6 +72,7 @@
     "第一京浜 (2 lanes each way) runs 124 m away. Morning and evening, the cars are audible indoors"
   ],
   "tags": [
+    "quiet",
     "singleLine",
     "flat"
   ],
@@ -78,10 +80,11 @@
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "There are 4 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
     "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
-    "stationNote": "Only the 第一京浜 (2 lanes each way) runs 124 m away. Morning and evening, the cars are audible indoors serves this station, so when it stops you walk to another station.",
+    "stationNote": "Only the Keikyu Main Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
-    "noiseSources": "第一京浜 runs 124 m away, so whether a flat faces it changes what you hear indoors."
+    "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"
 }

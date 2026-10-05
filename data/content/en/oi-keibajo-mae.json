@@ -6,7 +6,7 @@
   "summary": "The station is in Shinagawa City, served by Tokyo Monorail. Journey times to the main business districts are 30 minutes to Otemachi, 39 minutes to Shinjuku, 34 minutes to Shibuya and 25 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 1.4 m above sea level, and the ground within 800 m varies in height by 10.3 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits lower than the ground around it, at 1.4 m above sea level. Within 800 m the ground ranges from 1.4 m to 11.7 m, a difference of 10.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 1.4 m above sea level. Within 800 m the ground ranges from 1.4 m to 11.7 m, a difference of 10.3 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. For storm surge, 5 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
   "groceries": [
@@ -15,25 +15,26 @@
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/7927556969",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "スーパーバリュー 品川八潮店",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/1678926176",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 12,
       "sourceUrl": "https://www.openstreetmap.org/node/9794100631",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 1 clinic and 1 pharmacy. Facilities recorded as hospitals lie at 東京品川病院, about 1334 m away and 佐花会大井中央病院, about 1415 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Tokyo Monorail. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 1 clinic and 1 pharmacy. The nearest facility recorded as a hospital is 東京品川病院, about 1334 m from the station. The next nearest is 佐花会大井中央病院, about 1415 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Monorail.",
+  "congestion": "The ministry's congestion survey does not publish figures for Tokyo Monorail. It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
     "note": "One room ¥110,000 to ¥120,000, 1K ¥110,000 to ¥120,000, 1LDK ¥180,000 to ¥190,000 and 2LDK ¥230,000 to ¥240,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
@@ -71,16 +72,17 @@
   "tags": [
     "quiet",
     "pricey",
+    "lowFlood",
     "singleLine"
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 4 supermarkets within walking distance, and the nearest is 5 minutes on foot.",
     "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
-    "stationNote": "Only the The nearest big road is 海岸通り, 449 m away, so little traffic noise reaches the station area serves this station, so when it stops you walk to another station.",
+    "stationNote": "Only the Tokyo Monorail serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
-    "noiseSources": "The nearest big road is 海岸通り, 449 m away, so traffic noise is unlikely to bother you."
+    "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
   },
   "authoredBy": "data-generated"
 }

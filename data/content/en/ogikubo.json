@@ -3,10 +3,10 @@
   "locale": "en",
   "name": "Ogikubo",
   "tagline": "Shinjuku in 13 minutes and Shibuya in 23 minutes. Served by 3 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Suginami City, served by JR Chuo Rapid Line, JR Chuo-Sobu Line (Local) and Tokyo Metro Marunouchi Line. Journey times to the main business districts are 33 minutes to Otemachi, 13 minutes to Shinjuku, 23 minutes to Shibuya and 43 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 46.7 m above sea level, and the ground within 800 m varies in height by 10.7 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Suginami City, where JR East and Tokyo Metro run 3 lines between them. Journey times to the main business districts are 33 minutes to Otemachi, 13 minutes to Shinjuku, 23 minutes to Shibuya and 43 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 46.7 m above sea level, and the ground within 800 m varies in height by 10.7 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits on the higher side of the ground around it, at 46.7 m above sea level. Within 800 m the ground ranges from 41.6 m to 52.3 m, a difference of 10.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 46.7 m above sea level. Within 800 m the ground ranges from 41.6 m to 52.3 m, a difference of 10.7 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
   "groceries": [
@@ -15,32 +15,33 @@
       "tier": "discount",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/1300187810",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "グルッペ",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/1573439677",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "コープとうきょう",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/1078253467",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "アキダイ 荻窪店",
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/1377185162",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 26 clinics and 24 pharmacies. Facilities recorded as hospitals lie at にれの木クリニック, about 243 m away and 保険医療センター, about 247 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "3 lines serve the station: JR Chuo Rapid Line, JR Chuo-Sobu Line (Local) and Tokyo Metro Marunouchi Line. The lines are split between operators (JR East runs 2 lines and Tokyo Metro runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 73.",
+  "medical": "Within an 800 m walk of the station there are 26 clinics and 24 pharmacies. The nearest facility recorded as a hospital is にれの木クリニック, about 243 m from the station. The next nearest is 保険医療センター, about 247 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "3 lines serve the station. JR Chuo Rapid Line run through it. JR Chuo-Sobu Line (Local) also call here. Tokyo Metro Marunouchi Line are available too. The lines are split between operators (JR East runs 2 lines and Tokyo Metro runs 1 line), so when one line stops you can change to a line run by a different company.",
+  "congestion": "JR Chuo Rapid Line runs at 158% of capacity in the morning peak. The busiest stretch is 中野→新宿, which this station is not on. Tokyo Metro Marunouchi Line runs at 154%. Its busiest stretch is 新大塚→茗荷谷, which this station is likewise not on. JR Chuo-Sobu Line (Local) runs at 151%. Its busiest stretch is 錦糸町→両国, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
     "note": "One room ¥70,000 to ¥80,000, 1K ¥80,000 to ¥90,000, 1LDK ¥150,000 to ¥160,000 and 2LDK ¥200,000 to ¥210,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
@@ -77,18 +78,20 @@
     "青梅街道 (2 lanes each way) runs 100 m away. Morning and evening, the cars are audible indoors"
   ],
   "tags": [
-    "someBustle",
+    "lively",
     "goodValue",
+    "diningRich",
     "medicalRich"
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 8 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
     "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
-    "stationNote": "Only the 青梅街道 (2 lanes each way) runs 100 m away. Morning and evening, the cars are audible indoors serves this station, so when it stops you walk to another station.",
+    "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "noiseSources": "青梅街道 runs 100 m away, so whether a flat faces it changes what you hear indoors."
+    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"
 }

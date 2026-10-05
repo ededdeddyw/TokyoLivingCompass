@@ -3,13 +3,14 @@
   "locale": "en",
   "name": "Haneda-Airport-Terminal-1-2",
   "tagline": "Shinagawa in 37 minutes and Tokyo in 43 minutes. Served by 2 lines.",
-  "summary": "The station is in Ota City, served by Keikyu Airport Line and Tokyo Monorail. Journey times to the main business districts are 48 minutes to Otemachi, 57 minutes to Shinjuku, 52 minutes to Shibuya and 37 minutes to Shinagawa. The station stands 3.1 m above sea level, and the ground within 800 m varies in height by 2.5 m. The land around the station is close to level.",
+  "summary": "The station is in Ota City, where Keikyu and Tokyo Monorail run 2 lines between them. Journey times to the main business districts are 48 minutes to Otemachi, 57 minutes to Shinjuku, 52 minutes to Shibuya and 37 minutes to Shinagawa. The station stands 3.1 m above sea level, and the ground within 800 m varies in height by 2.5 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits lower than the ground around it, at 3.1 m above sea level. Within 800 m the ground ranges from 3.1 m to 5.6 m, a difference of 2.5 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 3.1 m above sea level. Within 800 m the ground ranges from 3.1 m to 5.6 m, a difference of 2.5 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
-  "stationNote": "2 lines serve the station: Keikyu Airport Line and Tokyo Monorail. The lines are split between operators (Keikyu runs 1 line and Tokyo Monorail runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "stationNote": "2 lines serve the station: Keikyu Airport Line and Tokyo Monorail. The lines are split between operators (Keikyu runs 1 line and Tokyo Monorail runs 1 line), so when one line stops you can change to a line run by a different company.",
+  "congestion": "The ministry's congestion survey does not publish figures for Keikyu Airport Line and Tokyo Monorail. It covers the major commuter stretches, and this line is not among them. ",
   "neighbours": [
     {
       "slug": "shin-seibijo",
@@ -27,8 +28,7 @@
     "People avoiding projected flood inundation areas"
   ],
   "notFor": [
-    "People who want to finish their shopping on foot",
-    "People who want plenty of places to eat out"
+    "People who want to finish their shopping on foot"
   ],
   "noiseSources": [
     "The 首都高速湾岸線 viaduct runs 10 m away. It is an expressway, so traffic is audible day and night",
@@ -36,7 +36,8 @@
   ],
   "tags": [
     "lowFlood",
-    "flat"
+    "flat",
+    "cafeRich"
   ],
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
@@ -44,7 +45,7 @@
     "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is low for the 23 wards.",
-    "noiseSources": "At this station, check the traffic noise before the noise people make: 首都高速湾岸線 runs 10 m away."
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"
 }
