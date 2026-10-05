@@ -88,6 +88,7 @@ export default async function StationsPage({
               locale={locale}
               dict={dict}
               overall={overall}
+              preset={preset}
               footnote={`#${index + 1}`}
             />
           </li>

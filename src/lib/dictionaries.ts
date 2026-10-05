@@ -44,6 +44,8 @@ export type Dictionary = {
   };
   station: {
     overall: string;
+    overallBalanced: string;
+    overallSegment: string;
     /** 同じ乗換駅の、表示名に選ばなかった駅名を出すときの文言。 */
     alsoKnownAs: string;
     rent: string;
@@ -230,6 +232,8 @@ const ja: Dictionary = {
   },
   station: {
     overall: "総合評価",
+    overallBalanced: "すべての軸を均等に見たときの点数です。",
+    overallSegment: "「{view}」を選んだときの点数です。",
     alsoKnownAs: "{names}も同じ乗換駅として扱っています",
     rent: "家賃相場",
     commute: "都心アクセス",
@@ -520,6 +524,8 @@ const en: Dictionary = {
   },
   station: {
     overall: "Overall",
+    overallBalanced: "Scored with every axis weighted equally.",
+    overallSegment: "Scored for: {view}.",
     alsoKnownAs: "{names} is treated as the same interchange",
     rent: "Typical rent",
     commute: "Commute",
@@ -813,6 +819,8 @@ const zhHans: Dictionary = {
   },
   station: {
     overall: "综合",
+    overallBalanced: "这是各评价轴同等看待时的分数。",
+    overallSegment: "这是选择「{view}」时的分数。",
     alsoKnownAs: "{names}也作为同一换乘站处理",
     rent: "租金行情",
     commute: "通勤",
@@ -1098,6 +1106,8 @@ const ko: Dictionary = {
   },
   station: {
     overall: "종합",
+    overallBalanced: "모든 축을 균등하게 보았을 때의 점수입니다.",
+    overallSegment: "「{view}」 기준의 점수입니다.",
     alsoKnownAs: "{names}도 같은 환승역으로 다룹니다",
     rent: "임대료 시세",
     commute: "출퇴근",

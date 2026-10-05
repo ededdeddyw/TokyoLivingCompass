@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { RentBands } from "@/components/RentBands";
 import { RentHistoryTable } from "@/components/RentHistoryTable";
 import { RentSourceNote } from "@/components/RentSourceNote";
+import { OverallScore } from "@/components/OverallScore";
 import { ScoreGrid } from "@/components/ScoreGrid";
 import { StationDepth } from "@/components/StationDepth";
 import { SeedNotice } from "@/components/SeedNotice";
@@ -21,6 +22,7 @@ import {
 } from "@/lib/seo";
 import { OFFICE_HUBS, RENT_TYPES } from "@/lib/schema";
 import { overallScoreForPreset } from "@/lib/scoring";
+import { WEIGHT_PRESETS, type WeightPreset } from "@/lib/weights";
 import {
   getLocalizedStation,
   getLocalizedStations,
@@ -154,7 +156,12 @@ export default async function StationPage({
   if (!station) notFound();
 
   const dict = getDictionary(locale);
-  const overall = overallScoreForPreset(station, "balanced");
+  // 総合評価は読み手の区分ごとに変わる。一覧から区分つきのリンクで来た読み手に
+  // 別の数字を見せないよう、区分ごとの点数をすべて渡しておく
+  // （src/components/OverallScore.tsx）。
+  const overallByPreset = Object.fromEntries(
+    WEIGHT_PRESETS.map((preset) => [preset, overallScoreForPreset(station, preset)]),
+  ) as Record<WeightPreset, number | null>;
   const crowding =
     station.morningCrowding === undefined
       ? dict.dataQuality.notAvailable
@@ -220,13 +227,16 @@ export default async function StationPage({
           </ul>
         )}
         <p className="text-lg text-ink-soft">{station.content.tagline}</p>
-        <p className="text-sm text-ink-soft">
-          {dict.station.overall}{" "}
-          <strong className="text-2xl tabular-nums text-ink">
-            {overall === null ? dict.dataQuality.notAvailable : overall.toFixed(1)}
-          </strong>
-          {overall !== null && <span className="text-ink-soft"> / 10</span>}
-        </p>
+        <OverallScore
+          scores={overallByPreset}
+          labels={{
+            overall: dict.station.overall,
+            notAvailable: dict.dataQuality.notAvailable,
+            balanced: dict.station.overallBalanced,
+            segment: dict.station.overallSegment,
+            options: dict.segmentOptions,
+          }}
+        />
       </header>
 
       {station.dataQuality === "seed" && <SeedNotice dict={dict} />}

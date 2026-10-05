@@ -4,12 +4,14 @@ import type { Dictionary } from "@/lib/dictionaries";
 import type { ActiveLocale } from "@/lib/i18n";
 import type { LocalizedStation, RentType } from "@/lib/schema";
 import { formatYen } from "@/lib/format";
+import { BALANCED, type WeightPreset } from "@/lib/weights";
 
 export function StationCard({
   station,
   locale,
   dict,
   overall,
+  preset = BALANCED,
   rentType = "oneK",
   footnote,
 }: {
@@ -17,12 +19,18 @@ export function StationCard({
   locale: ActiveLocale;
   dict: Dictionary;
   overall: number | null;
+  /** この点数を出した区分。駅ページでも同じ点数を出すためにリンクへ載せる。 */
+  preset?: WeightPreset;
   rentType?: RentType;
   footnote?: string;
 }) {
   return (
     <Link
-      href={`/${locale}/stations/${station.slug}`}
+      href={
+        preset === BALANCED
+          ? `/${locale}/stations/${station.slug}`
+          : `/${locale}/stations/${station.slug}?view=${preset}`
+      }
       className="block rounded-lg border border-line bg-surface p-5 transition hover:border-accent hover:shadow-sm"
     >
       <div className="flex items-baseline justify-between gap-3">
