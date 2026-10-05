@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 8 clinics and 7 pharmacies. The nearest facility recorded as a hospital is 六町駅クリニック, about 1328 m from the station. The next nearest is 江戸川病院高砂分院, about 2250 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 8 clinics and 7 pharmacies. The nearest hospital is 六町駅クリニック, about 22 minutes' walk from the station. The next nearest is 江戸川病院高砂分院, about 37 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Chiyoda Line.",
   "congestion": "Tokyo Metro Chiyoda Line runs at 150% of capacity in the morning peak. The busiest stretch is 町屋→西日暮里, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "aoi",
       "lead": "Aoi is ahead on how close the centre is and quiet, but Kita-Ayase is ahead on the number of medical facilities.",
-      "note": "1207 m away in a straight line. It reaches Otemachi in about the same time as Kita-Ayase."
+      "note": "About 1 km away in a straight line. It reaches Otemachi in about the same time as Kita-Ayase."
     },
     {
       "slug": "rokucho",
       "lead": "Rokucho is ahead on quiet, but Kita-Ayase is ahead on how easy the shopping is.",
-      "note": "1269 m away in a straight line. It reaches Otemachi in about the same time as Kita-Ayase. One-room rents run about ¥8,000 lower."
+      "note": "About 1.5 km away in a straight line. It reaches Otemachi in about the same time as Kita-Ayase. One-room rents run about ¥8,000 lower."
     }
   ],
   "goodFor": [
@@ -76,7 +76,7 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "環七通り (a main road) runs 30 m away. Morning and evening, the cars are audible indoors"
+    "環七通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "floodArea",

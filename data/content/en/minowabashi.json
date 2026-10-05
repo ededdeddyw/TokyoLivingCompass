@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 22 clinics and 13 pharmacies. The nearest facility recorded as a hospital is 木村病院, about 268 m from the station. The next nearest is 上宮会日暮里上宮病院, about 724 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 22 clinics and 13 pharmacies. The nearest hospital is 木村病院, about 5 minutes' walk from the station. The next nearest is 上宮会日暮里上宮病院, about 12 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Sakura Tram (Toden Arakawa Line).",
   "congestion": "The ministry's congestion survey does not publish figures for Tokyo Sakura Tram (Toden Arakawa Line). It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "arakawa-itchumae",
       "lead": "Arakawa-Itchumae is ahead on quiet, but Minowabashi is ahead on the number of medical facilities.",
-      "note": "269 m away in a straight line. It reaches Otemachi in about the same time as Minowabashi. One-room rents run about ¥6,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Minowabashi. One-room rents run about ¥6,000 lower."
     },
     {
       "slug": "minowa",
       "lead": "Minowa is ahead on how close the centre is, but Minowabashi is ahead on quiet.",
-      "note": "291 m away in a straight line. It reaches Otemachi 11 minutes sooner than Minowabashi. One-room rents run about ¥6,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi 11 minutes sooner than Minowabashi. One-room rents run about ¥6,000 higher."
     }
   ],
   "goodFor": [
@@ -76,8 +76,8 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "日光街道 (2 lanes each way) runs 103 m away. Morning and evening, the cars are audible indoors",
-    "明治通り (2 lanes each way) runs 170 m away. Morning and evening, the cars are audible indoors"
+    "日光街道 (2 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening",
+    "明治通り (2 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "pricey",

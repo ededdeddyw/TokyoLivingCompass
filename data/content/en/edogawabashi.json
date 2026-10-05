@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 13 clinics and 8 pharmacies. The nearest facility recorded as a hospital is 神経研究所附属晴和病院, about 990 m from the station. The next nearest is JCHO東京新宿メディカルセンター, about 1025 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 13 clinics and 8 pharmacies. The nearest hospital is 神経研究所附属晴和病院, about 17 minutes' walk from the station. The next nearest is JCHO東京新宿メディカルセンター, about 17 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Yurakucho Line.",
   "congestion": "Tokyo Metro Yurakucho Line runs at 153% of capacity in the morning peak. The busiest stretch is 東池袋→護国寺, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "kagurazaka",
       "lead": "Kagurazaka is ahead on how little of the area is in the flood projection and the number of medical facilities.",
-      "note": "640 m away in a straight line. It reaches Otemachi 5 minutes sooner than Edogawabashi."
+      "note": "Close enough to walk to. It reaches Otemachi 5 minutes sooner than Edogawabashi."
     },
     {
       "slug": "myogadani",
       "lead": "Myogadani is ahead on how little of the area is in the flood projection and quiet, but Edogawabashi is ahead on the number of medical facilities and how easy the shopping is.",
-      "note": "895 m away in a straight line. It reaches Otemachi 3 minutes sooner than Edogawabashi."
+      "note": "Close enough to walk to. It reaches Otemachi 3 minutes sooner than Edogawabashi."
     }
   ],
   "goodFor": [
@@ -77,8 +77,8 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "The 首都高速5号池袋線 viaduct runs 21 m away. It is an expressway, so traffic is audible day and night",
-    "目白通り (2 lanes each way) runs 3 m away. Morning and evening, the cars are audible indoors"
+    "The 首都高速5号池袋線 viaduct runs right beside the station. It is an expressway, so traffic is audible day and night",
+    "目白通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "singleLine",

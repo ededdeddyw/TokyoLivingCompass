@@ -32,7 +32,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 2 clinics and 4 pharmacies. The nearest facility recorded as a hospital is 敬愛病院, about 1072 m from the station. The next nearest is 練馬総合病院, about 1218 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 2 clinics and 4 pharmacies. The nearest hospital is 敬愛病院, about 18 minutes' walk from the station. The next nearest is 練馬総合病院, about 20 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station. Tokyo Metro Yurakucho Line run through it. Tokyo Metro Fukutoshin Line also call here. Both lines are run by Tokyo Metro, so a fault affecting that company can stop them together.",
   "congestion": "Tokyo Metro Yurakucho Line runs at 153% of capacity in the morning peak. The busiest stretch is 東池袋→護国寺, which this station is not on. Tokyo Metro Fukutoshin Line runs at 117%. Its busiest stretch is 要町→池袋, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -50,12 +50,12 @@
     {
       "slug": "kanamecho",
       "lead": "Kanamecho is ahead on the number of medical facilities.",
-      "note": "1017 m away in a straight line. It reaches Otemachi 3 minutes sooner than Senkawa. One-room rents run about ¥6,000 higher."
+      "note": "About 1 km away in a straight line. It reaches Otemachi 3 minutes sooner than Senkawa. One-room rents run about ¥6,000 higher."
     },
     {
       "slug": "higashi-nagasaki",
       "lead": "Higashi-Nagasaki is ahead on how little of the area is in the flood projection, but Senkawa is ahead on the number of lines.",
-      "note": "1059 m away in a straight line. It reaches Otemachi in about the same time as Senkawa."
+      "note": "About 1 km away in a straight line. It reaches Otemachi in about the same time as Senkawa."
     }
   ],
   "goodFor": [
@@ -69,7 +69,7 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "要町通り (a main road) runs 7 m away. Morning and evening, the cars are audible indoors"
+    "要町通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "quiet",

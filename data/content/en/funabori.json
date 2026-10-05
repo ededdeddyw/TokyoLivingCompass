@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 3 clinics and 7 pharmacies. The nearest facility recorded as a hospital is 葛西中央病院, about 891 m from the station. The next nearest is 森山記念病院, about 1310 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 3 clinics and 7 pharmacies. The nearest hospital is 葛西中央病院, about 15 minutes' walk from the station. The next nearest is 森山記念病院, about 22 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Toei Shinjuku Line.",
   "congestion": "Toei Shinjuku Line runs at 152% of capacity in the morning peak. The busiest stretch is 西大島→住吉, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "ichinoe",
       "lead": "rent, commuting and the flood projection are all much the same.",
-      "note": "1705 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Funabori."
+      "note": "About 1.5 km away in a straight line. It takes 4 minutes longer to reach Otemachi than Funabori."
     },
     {
       "slug": "higashi-ojima",
       "lead": "rents are lower at Funabori, but Higashi-Ojima is ahead on quiet.",
-      "note": "1806 m away in a straight line. It reaches Otemachi 4 minutes sooner than Funabori. One-room rents run about ¥12,000 higher."
+      "note": "About 2 km away in a straight line. It reaches Otemachi 4 minutes sooner than Funabori. One-room rents run about ¥12,000 higher."
     }
   ],
   "goodFor": [
@@ -74,7 +74,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "船堀街道 (1 lanes each way) runs 48 m away. Morning and evening, the cars are audible indoors"
+    "船堀街道 (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "goodValue",

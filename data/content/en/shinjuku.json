@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 17 clinics and 34 pharmacies. The nearest facility recorded as a hospital is myhospital, about 333 m from the station. The next nearest is アイシークリニック新宿院, about 354 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 17 clinics and 34 pharmacies. The nearest hospital is myhospital, about 6 minutes' walk from the station. The next nearest is アイシークリニック新宿院, about 6 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "13 lines serve the station. JR Yamanote Line and JR Chuo Main Line run through it. JR Chuo Rapid Line also call here. JR Chuo-Sobu Line (Local) are available too. JR Saikyo Line and Narita Express stop here as well. JR Shonan-Shinjuku Line and Keio Line stop here as well. Keio New Line and Odakyu Odawara Line stop here as well. Tokyo Metro Marunouchi Line stop here as well. Toei Oedo Line and Toei Shinjuku Line stop here as well. The lines are split between operators (JR East runs 7 lines, Keio runs 2 lines, Odakyu runs 1 line, Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 2 lines), so when one line stops you can change to a line run by a different company.",
   "congestion": "JR Saikyo Line runs at 167% of capacity in the morning peak. The busiest stretch is 板橋→池袋, which this station is not on. JR Chuo Rapid Line runs at 158% of capacity in the morning peak. The busiest stretch of the line is 中野→新宿, which includes this station. Tokyo Metro Marunouchi Line runs at 154%. Its busiest stretch is 新大塚→茗荷谷, which this station is likewise not on. JR Chuo Main Line, Narita Express, JR Shonan-Shinjuku Line and Keio New Line is not covered by the ministry's congestion survey. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "shinjuku-nishiguchi",
       "lead": "Shinjuku-Nishiguchi is ahead on how little of the area is in the flood projection and how easy the shopping is, but Shinjuku is ahead on the number of lines and how close the centre is.",
-      "note": "389 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Shinjuku."
+      "note": "Close enough to walk to. It takes 3 minutes longer to reach Otemachi than Shinjuku."
     },
     {
       "slug": "shinjuku-sanchome",
       "lead": "rents are lower at Shinjuku, but Shinjuku-Sanchome is ahead on how easy the shopping is.",
-      "note": "501 m away in a straight line. It reaches Otemachi in about the same time as Shinjuku. One-room rents run about ¥19,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Shinjuku. One-room rents run about ¥19,000 higher."
     }
   ],
   "goodFor": [
@@ -74,8 +74,8 @@
     "People who want to finish their shopping on foot"
   ],
   "noiseSources": [
-    "甲州街道 (3 lanes each way) runs 92 m away. Traffic on it never stops",
-    "四谷角筈線 (3 lanes each way) runs 97 m away. Traffic on it never stops"
+    "甲州街道 (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road",
+    "四谷角筈線 (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "majorHub",

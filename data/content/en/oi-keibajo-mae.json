@@ -32,7 +32,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 1 clinic and 1 pharmacy. The nearest facility recorded as a hospital is 東京品川病院, about 1334 m from the station. The next nearest is 佐花会大井中央病院, about 1415 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 1 clinic and 1 pharmacy. The nearest hospital is 東京品川病院, about 22 minutes' walk from the station. The next nearest is 佐花会大井中央病院, about 23 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Monorail.",
   "congestion": "The ministry's congestion survey does not publish figures for Tokyo Monorail. It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
@@ -50,12 +50,12 @@
     {
       "slug": "tachiaigawa",
       "lead": "rents are lower at Tachiaigawa, but Oi-Keibajo-Mae is ahead on quiet.",
-      "note": "835 m away in a straight line. It reaches Otemachi in about the same time as Oi-Keibajo-Mae. One-room rents run about ¥12,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Oi-Keibajo-Mae. One-room rents run about ¥12,000 lower."
     },
     {
       "slug": "samezu",
       "lead": "Samezu is ahead on how close the centre is and the number of medical facilities, but Oi-Keibajo-Mae is ahead on quiet.",
-      "note": "1192 m away in a straight line. It reaches Otemachi 3 minutes sooner than Oi-Keibajo-Mae. One-room rents run about ¥6,000 lower."
+      "note": "About 1 km away in a straight line. It reaches Otemachi 3 minutes sooner than Oi-Keibajo-Mae. One-room rents run about ¥6,000 lower."
     }
   ],
   "goodFor": [
@@ -67,7 +67,7 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "The nearest big road is 海岸通り, 449 m away, so little traffic noise reaches the station area"
+    "The nearest big road, 海岸通り, is far enough that little traffic noise reaches the station area"
   ],
   "tags": [
     "quiet",

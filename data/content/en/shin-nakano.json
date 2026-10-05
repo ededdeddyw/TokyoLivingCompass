@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 13 clinics and 21 pharmacies. The nearest facility recorded as a hospital is 新渡戸記念中野総合病院, about 584 m from the station. The next nearest is 圭友会小原病院, about 818 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 13 clinics and 21 pharmacies. The nearest hospital is 新渡戸記念中野総合病院, about 10 minutes' walk from the station. The next nearest is 圭友会小原病院, about 14 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Marunouchi Line.",
   "congestion": "Tokyo Metro Marunouchi Line runs at 154% of capacity in the morning peak. The busiest stretch is 新大塚→茗荷谷, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "nakano-shimbashi",
       "lead": "Nakano-Shimbashi is ahead on quiet, but Shin-Nakano is ahead on how close the centre is.",
-      "note": "746 m away in a straight line. It takes 21 minutes longer to reach Otemachi than Shin-Nakano."
+      "note": "Close enough to walk to. It takes 21 minutes longer to reach Otemachi than Shin-Nakano."
     },
     {
       "slug": "nakano-fujimicho",
       "lead": "Nakano-Fujimicho is ahead on quiet, but Shin-Nakano is ahead on how close the centre is and the number of medical facilities.",
-      "note": "798 m away in a straight line. It takes 23 minutes longer to reach Otemachi than Shin-Nakano."
+      "note": "Close enough to walk to. It takes 23 minutes longer to reach Otemachi than Shin-Nakano."
     }
   ],
   "goodFor": [
@@ -76,8 +76,8 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "青梅街道 (3 lanes each way) runs 1 m away, right beside the station. Traffic on it never stops",
-    "中野通り (2 lanes each way) runs 145 m away. Morning and evening, the cars are audible indoors"
+    "青梅街道 (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road",
+    "中野通り (2 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "goodValue",

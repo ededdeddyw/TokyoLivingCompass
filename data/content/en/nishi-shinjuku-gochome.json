@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 7 clinics and 9 pharmacies. The nearest facility recorded as a hospital is 雙立会雙立病院, about 311 m from the station. The next nearest is 輝生会初台リハビリテーション病院, about 382 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 7 clinics and 9 pharmacies. The nearest hospital is 雙立会雙立病院, about 6 minutes' walk from the station. The next nearest is 輝生会初台リハビリテーション病院, about 7 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Toei Oedo Line.",
   "congestion": "Toei Oedo Line runs at 147% of capacity in the morning peak. The busiest stretch is 中井→東中野, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "tochomae",
       "lead": "rents are lower at Nishi-Shinjuku-Gochome, but Tochomae is ahead on how little of the area is in the flood projection and the number of medical facilities.",
-      "note": "751 m away in a straight line. It reaches Otemachi 3 minutes sooner than Nishi-Shinjuku-Gochome. One-room rents run about ¥21,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi 3 minutes sooner than Nishi-Shinjuku-Gochome. One-room rents run about ¥21,000 higher."
     },
     {
       "slug": "nakano-sakaue",
       "lead": "Nakano-Sakaue is ahead on the number of lines and the number of medical facilities, but Nishi-Shinjuku-Gochome is ahead on how easy the shopping is and quiet.",
-      "note": "870 m away in a straight line. It reaches Otemachi 3 minutes sooner than Nishi-Shinjuku-Gochome. One-room rents run about ¥7,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi 3 minutes sooner than Nishi-Shinjuku-Gochome. One-room rents run about ¥7,000 lower."
     }
   ],
   "goodFor": [
@@ -74,8 +74,8 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "The 首都高速中央環状線 viaduct runs 196 m away. It is an expressway, so traffic is audible day and night",
-    "淀橋渋谷本町線 (1 lanes each way) runs 1 m away. Morning and evening, the cars are audible indoors"
+    "The 首都高速中央環状線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
+    "淀橋渋谷本町線 (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "goodValue",

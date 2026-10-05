@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 15 clinics and 15 pharmacies. The nearest facility recorded as a hospital is 東弘会山川病院, about 407 m from the station. The next nearest is 池袋病院, about 727 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 15 clinics and 15 pharmacies. The nearest hospital is 東弘会山川病院, about 7 minutes' walk from the station. The next nearest is 池袋病院, about 12 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Sakura Tram (Toden Arakawa Line).",
   "congestion": "The ministry's congestion survey does not publish figures for Tokyo Sakura Tram (Toden Arakawa Line). It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "otsuka",
       "lead": "Otsuka is ahead on the number of lines and how close the centre is.",
-      "note": "490 m away in a straight line. It reaches Otemachi 7 minutes sooner than Mukohara."
+      "note": "Close enough to walk to. It reaches Otemachi 7 minutes sooner than Mukohara."
     },
     {
       "slug": "shin-otsuka",
       "lead": "Shin-Otsuka is ahead on how close the centre is and quiet, but Mukohara is ahead on the number of medical facilities and how easy the shopping is.",
-      "note": "583 m away in a straight line. It reaches Otemachi 14 minutes sooner than Mukohara."
+      "note": "Close enough to walk to. It reaches Otemachi 14 minutes sooner than Mukohara."
     }
   ],
   "goodFor": [
@@ -73,7 +73,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "春日通り (2 lanes each way) runs 16 m away. Morning and evening, the cars are audible indoors"
+    "春日通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "pricey",

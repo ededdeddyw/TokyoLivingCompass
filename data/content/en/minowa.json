@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 25 clinics and 17 pharmacies. The nearest facility recorded as a hospital is 木村病院, about 485 m from the station. The next nearest is 上宮会日暮里上宮病院, about 604 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 25 clinics and 17 pharmacies. The nearest hospital is 木村病院, about 8 minutes' walk from the station. The next nearest is 上宮会日暮里上宮病院, about 10 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Hibiya Line.",
   "congestion": "Tokyo Metro Hibiya Line runs at 163% of capacity in the morning peak. The busiest stretch of the line is 三ノ輪→入谷, which includes this station. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "minowabashi",
       "lead": "Minowabashi is ahead on quiet, but Minowa is ahead on how close the centre is.",
-      "note": "291 m away in a straight line. It takes 11 minutes longer to reach Otemachi than Minowa. One-room rents run about ¥6,000 lower."
+      "note": "Close enough to walk to. It takes 11 minutes longer to reach Otemachi than Minowa. One-room rents run about ¥6,000 lower."
     },
     {
       "slug": "arakawa-itchumae",
       "lead": "rents are lower at Arakawa-Itchumae, but Minowa is ahead on how close the centre is.",
-      "note": "502 m away in a straight line. It takes 9 minutes longer to reach Otemachi than Minowa. One-room rents run about ¥11,000 lower."
+      "note": "Close enough to walk to. It takes 9 minutes longer to reach Otemachi than Minowa. One-room rents run about ¥11,000 lower."
     }
   ],
   "goodFor": [
@@ -75,8 +75,8 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "昭和通り (3 lanes each way) runs 2 m away, right beside the station. Traffic on it never stops",
-    "明治通り (2 lanes each way) runs 47 m away. Morning and evening, the cars are audible indoors"
+    "昭和通り (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road",
+    "明治通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "floodArea",

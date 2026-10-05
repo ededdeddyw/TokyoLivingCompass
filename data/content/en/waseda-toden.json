@@ -39,19 +39,19 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 7 clinics and 11 pharmacies. The nearest facility recorded as a hospital is 大同病院, about 870 m from the station. The next nearest is 国立国際医療センター, about 1020 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 7 clinics and 11 pharmacies. The nearest hospital is 大同病院, about 15 minutes' walk from the station. The next nearest is 国立国際医療センター, about 17 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Sakura Tram (Toden Arakawa Line).",
   "congestion": "The ministry's congestion survey does not publish figures for Tokyo Sakura Tram (Toden Arakawa Line). It covers the major commuter stretches, and this line is not among them. ",
   "neighbours": [
     {
       "slug": "omokagebashi",
       "lead": "Omokagebashi is ahead on how little of the area is in the flood projection, but Waseda (Tokyo Sakura Tram (Toden Arakawa Line)) is ahead on how easy the shopping is.",
-      "note": "423 m away in a straight line. It reaches Otemachi in about the same time as Waseda (Tokyo Sakura Tram (Toden Arakawa Line))."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Waseda (Tokyo Sakura Tram (Toden Arakawa Line))."
     },
     {
       "slug": "waseda",
       "lead": "Waseda is ahead on how little of the area is in the flood projection and how close the centre is, but Waseda (Tokyo Sakura Tram (Toden Arakawa Line)) is ahead on quiet.",
-      "note": "714 m away in a straight line. It reaches Otemachi 26 minutes sooner than Waseda (Tokyo Sakura Tram (Toden Arakawa Line))."
+      "note": "Close enough to walk to. It reaches Otemachi 26 minutes sooner than Waseda (Tokyo Sakura Tram (Toden Arakawa Line))."
     }
   ],
   "goodFor": [
@@ -62,7 +62,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "新目白通り (2 lanes each way) runs 5 m away. Morning and evening, the cars are audible indoors"
+    "新目白通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "quiet",

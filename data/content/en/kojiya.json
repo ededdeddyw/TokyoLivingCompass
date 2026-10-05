@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 9 clinics and 6 pharmacies. The nearest facility recorded as a hospital is 有仁会糀谷病院, about 113 m from the station. The next nearest is 幸和病院, about 583 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 9 clinics and 6 pharmacies. The nearest hospital is 有仁会糀谷病院, about 2 minutes' walk from the station. The next nearest is 幸和病院, about 10 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Keikyu Airport Line.",
   "congestion": "The ministry's congestion survey does not publish figures for Keikyu Airport Line. It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "keikyu-kamata",
       "lead": "Keikyu-Kamata is ahead on the number of lines and how close the centre is, but Kojiya is ahead on quiet.",
-      "note": "882 m away in a straight line. It reaches Otemachi 8 minutes sooner than Kojiya."
+      "note": "Close enough to walk to. It reaches Otemachi 8 minutes sooner than Kojiya."
     },
     {
       "slug": "otorii",
       "lead": "Kojiya is ahead on how easy the shopping is.",
-      "note": "907 m away in a straight line. It reaches Otemachi in about the same time as Kojiya."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Kojiya."
     }
   ],
   "goodFor": [
@@ -74,7 +74,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "環八通り (2 lanes each way) runs 51 m away. Morning and evening, the cars are audible indoors"
+    "環八通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "quiet",

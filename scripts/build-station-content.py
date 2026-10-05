@@ -94,6 +94,15 @@ def build_display_names(roster, lines, p):
     return names
 
 
+def walk_minutes(distance_m):
+    """直線距離から徒歩分数を見積もる。scripts/fetch-pois.py と同じ見込みを使う。
+
+    距離をメートルで書くと、どこから測った値なのかが読み手に伝わらない。
+    「駅から歩いて何分か」のほうが、住む場所を決めるときの判断に直結する。
+    """
+    return max(1, math.ceil(distance_m * 1.3 / 80.0))
+
+
 def line_name(name):
     """
     路線名を文章に載る形にする。ekidata の名前は「JR常磐線(上野～取手)」のように
@@ -569,10 +578,12 @@ def build(st, ctx):
         if hp:
             near = sorted(hp, key=lambda x: x["distanceM"])[:2]
             bits.append(p["medicalHospitalNearest"].format(
-                name=near[0]["name"], distance=near[0]["distanceM"]))
+                name=near[0]["name"], distance=near[0]["distanceM"],
+                minutes=walk_minutes(near[0]["distanceM"])))
             if len(near) > 1:
                 bits.append(p["medicalHospitalSecond"].format(
-                    name=near[1]["name"], distance=near[1]["distanceM"]))
+                    name=near[1]["name"], distance=near[1]["distanceM"],
+                    minutes=walk_minutes(near[1]["distanceM"])))
         else:
             bits.append(p["medicalNoHospital"])
         bits.append(p["medicalTrailer"])
@@ -649,7 +660,12 @@ def build(st, ctx):
     for dist, o in near:
         oc = {e["to"]: e["minutes"] for e in ctx["com"].get(o["slug"], [])}
         ob = ctx["bands"].get(o["slug"])
-        bits = [p["neighbourDistance"].format(meters=int(dist))]
+        # 隣の駅までの距離は、歩いて行けるかどうかが分かれば足りる。
+        if dist < 1000:
+            bits = [p["neighbourDistanceClose"]]
+        else:
+            bits = [p["neighbourDistanceFar"].format(
+                km=f"{round(dist / 500) / 2:.1f}".rstrip("0").rstrip("."))]
         if "otemachi" in com and "otemachi" in oc:
             d = oc["otemachi"] - com["otemachi"]
             if abs(d) <= 2:
@@ -731,9 +747,13 @@ def build(st, ctx):
             key = "noiseRoadFar"
         else:
             wide = (v.get("lanes") or 0) >= (3 if v.get("oneway") else 6)
-            key = ("noiseRoadVeryNear" if wide and v["m"] <= 40
+            key = ("noiseRoadVeryNear" if wide and v["m"] <= 100
+                   else "noiseRoadAtStation" if v["m"] <= 100
                    else "noiseRoadBig" if wide else "noiseRoadMid")
-        return p[key].format(name=v["name"], m=v["m"], side=side)
+        where = (p["roadWhereAtStation"] if v["m"] <= 100
+                 else p["roadWhereNear"] if v["m"] <= 300
+                 else p["roadWhereAway"])
+        return p[key].format(name=v["name"], m=v["m"], side=side, where=where)
 
     # 音の出どころは2本まで書く。高速道路は音の質が違うので、
     # 一般道より近くなくても先に出す。

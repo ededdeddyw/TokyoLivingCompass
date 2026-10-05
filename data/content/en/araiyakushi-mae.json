@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 16 clinics and 12 pharmacies. The nearest facility recorded as a hospital is 徳静会横畠外科胃腸科病院, about 668 m from the station. The next nearest is 健友会中野共立病院, about 907 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 16 clinics and 12 pharmacies. The nearest hospital is 徳静会横畠外科胃腸科病院, about 11 minutes' walk from the station. The next nearest is 健友会中野共立病院, about 15 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Seibu Shinjuku Line.",
   "congestion": "Seibu Shinjuku Line runs at 148% of capacity in the morning peak. The busiest stretch is 下落合→高田馬場, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "numabukuro",
       "lead": "Numabukuro is ahead on quiet, but Araiyakushi-Mae is ahead on the number of medical facilities and how easy the shopping is.",
-      "note": "888 m away in a straight line. It reaches Otemachi in about the same time as Araiyakushi-Mae."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Araiyakushi-Mae."
     },
     {
       "slug": "nakano",
       "lead": "Nakano is ahead on the number of lines and how little of the area is in the flood projection, but Araiyakushi-Mae is ahead on quiet.",
-      "note": "1269 m away in a straight line. It reaches Otemachi 4 minutes sooner than Araiyakushi-Mae."
+      "note": "About 1.5 km away in a straight line. It reaches Otemachi 4 minutes sooner than Araiyakushi-Mae."
     }
   ],
   "goodFor": [
@@ -76,7 +76,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "The nearest big road is 中野通り, 354 m away, so little traffic noise reaches the station area"
+    "The nearest big road, 中野通り, is far enough that little traffic noise reaches the station area"
   ],
   "tags": [
     "goodValue",

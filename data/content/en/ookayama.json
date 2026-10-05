@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 17 clinics and 12 pharmacies. The nearest facility recorded as a hospital is 東急病院, about 8 m from the station. The next nearest is 中原病院, about 229 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 17 clinics and 12 pharmacies. The nearest hospital is 東急病院, about 1 minutes' walk from the station. The next nearest is 中原病院, about 4 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station: Tokyu Meguro Line and Tokyu Oimachi Line. Both lines are run by Tokyu, so a fault affecting that company can stop them together.",
   "congestion": "Tokyu Meguro Line runs at 133% of capacity in the morning peak. The busiest stretch is 不動前→目黒, which this station is not on. Tokyu Oimachi Line runs at 118%. Its busiest stretch is 九品仏→自由が丘, which this station is likewise not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "midorigaoka",
       "lead": "Midorigaoka is ahead on how easy the shopping is, but Ookayama is ahead on the number of lines and how little of the area is in the flood projection.",
-      "note": "593 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Ookayama. One-room rents run about ¥6,000 higher."
+      "note": "Close enough to walk to. It takes 6 minutes longer to reach Otemachi than Ookayama. One-room rents run about ¥6,000 higher."
     },
     {
       "slug": "kita-senzoku",
       "lead": "Kita-Senzoku is ahead on quiet, but Ookayama is ahead on the number of lines.",
-      "note": "680 m away in a straight line. It takes 5 minutes longer to reach Otemachi than Ookayama."
+      "note": "Close enough to walk to. It takes 5 minutes longer to reach Otemachi than Ookayama."
     }
   ],
   "goodFor": [
@@ -72,7 +72,7 @@
     "The data does not show a drawback particular to this station"
   ],
   "noiseSources": [
-    "The nearest big road is 環七通り, 548 m away, so little traffic noise reaches the station area"
+    "The nearest big road, 環七通り, is far enough that little traffic noise reaches the station area"
   ],
   "tags": [
     "lowFlood",

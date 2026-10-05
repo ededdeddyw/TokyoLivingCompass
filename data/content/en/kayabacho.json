@@ -32,7 +32,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 14 clinics and 13 pharmacies. The nearest facility recorded as a hospital is いしせ脳神経外科クリニック, about 725 m from the station. The next nearest is 山村病院, about 1200 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 14 clinics and 13 pharmacies. The nearest hospital is いしせ脳神経外科クリニック, about 12 minutes' walk from the station. The next nearest is 山村病院, about 20 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station. Tokyo Metro Hibiya Line run through it. Tokyo Metro Tozai Line also call here. Both lines are run by Tokyo Metro, so a fault affecting that company can stop them together.",
   "congestion": "Tokyo Metro Hibiya Line runs at 163% of capacity in the morning peak. The busiest stretch is 三ノ輪→入谷, which this station is not on. Tokyo Metro Tozai Line runs at 160%. Its busiest stretch is 木場→門前仲町, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -50,12 +50,12 @@
     {
       "slug": "nihombashi",
       "lead": "rents are lower at Kayabacho, but Nihombashi is ahead on the number of lines and how easy the shopping is.",
-      "note": "574 m away in a straight line. It reaches Otemachi in about the same time as Kayabacho. One-room rents run about ¥21,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Kayabacho. One-room rents run about ¥21,000 higher."
     },
     {
       "slug": "hatchobori",
       "lead": "Hatchobori is ahead on how close the centre is, but Kayabacho is ahead on how little of the area is in the flood projection.",
-      "note": "607 m away in a straight line. It takes 5 minutes longer to reach Otemachi than Kayabacho."
+      "note": "Close enough to walk to. It takes 5 minutes longer to reach Otemachi than Kayabacho."
     }
   ],
   "goodFor": [
@@ -67,8 +67,8 @@
     "People avoiding projected flood inundation areas"
   ],
   "noiseSources": [
-    "The 首都高速6号向島線 viaduct runs 149 m away. It is an expressway, so traffic is audible day and night",
-    "新大橋通り (4 lanes each way) runs 4 m away, right beside the station. Traffic on it never stops"
+    "The 首都高速6号向島線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
+    "新大橋通り (4 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "fastToCenter",

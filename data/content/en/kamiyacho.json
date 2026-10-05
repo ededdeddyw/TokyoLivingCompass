@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 9 clinics and 11 pharmacies. The nearest facility recorded as a hospital is 東京慈恵会医科大学附属病院, about 578 m from the station. The next nearest is 虎の門病院, about 641 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 9 clinics and 11 pharmacies. The nearest hospital is 東京慈恵会医科大学附属病院, about 10 minutes' walk from the station. The next nearest is 虎の門病院, about 11 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Hibiya Line.",
   "congestion": "Tokyo Metro Hibiya Line runs at 163% of capacity in the morning peak. The busiest stretch is 三ノ輪→入谷, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "onarimon",
       "lead": "rents are lower at Onarimon, but Kamiyacho is ahead on how little of the area is in the flood projection and how close the centre is.",
-      "note": "616 m away in a straight line. It reaches Otemachi 6 minutes sooner than Kamiyacho. One-room rents run about ¥20,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi 6 minutes sooner than Kamiyacho. One-room rents run about ¥20,000 lower."
     },
     {
       "slug": "roppongi-itchome",
       "lead": "Roppongi-Itchome is ahead on how little of the area is in the flood projection, but Kamiyacho is ahead on how close the centre is.",
-      "note": "620 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Kamiyacho."
+      "note": "Close enough to walk to. It takes 6 minutes longer to reach Otemachi than Kamiyacho."
     }
   ],
   "goodFor": [
@@ -76,7 +76,7 @@
     "People who want to hold the rent down"
   ],
   "noiseSources": [
-    "桜田通り (a main road) runs 5 m away. Morning and evening, the cars are audible indoors"
+    "桜田通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "pricey",

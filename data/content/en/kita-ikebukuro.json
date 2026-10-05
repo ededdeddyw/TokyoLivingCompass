@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 7 clinics and 9 pharmacies. The nearest facility recorded as a hospital is 大成会長汐病院, about 753 m from the station. The next nearest is 小川医院, about 976 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 7 clinics and 9 pharmacies. The nearest hospital is 大成会長汐病院, about 13 minutes' walk from the station. The next nearest is 小川医院, about 16 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tobu Tojo Line.",
   "congestion": "Tobu Tojo Line runs at 131% of capacity in the morning peak. The busiest stretch of the line is 北池袋→池袋, which includes this station. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "shimo-itabashi",
       "lead": "rent, commuting and the flood projection are all much the same.",
-      "note": "524 m away in a straight line. It reaches Otemachi in about the same time as Kita-Ikebukuro. One-room rents run about ¥8,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Kita-Ikebukuro. One-room rents run about ¥8,000 higher."
     },
     {
       "slug": "itabashi",
       "lead": "Kita-Ikebukuro is ahead on quiet.",
-      "note": "524 m away in a straight line. It reaches Otemachi in about the same time as Kita-Ikebukuro. One-room rents run about ¥7,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Kita-Ikebukuro. One-room rents run about ¥7,000 higher."
     }
   ],
   "goodFor": [
@@ -76,7 +76,7 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "The nearest big road is 川越街道, 508 m away, so little traffic noise reaches the station area"
+    "The nearest big road, 川越街道, is far enough that little traffic noise reaches the station area"
   ],
   "tags": [
     "quiet",

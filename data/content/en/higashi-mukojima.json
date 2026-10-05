@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 5 clinics and 4 pharmacies. The nearest facility recorded as a hospital is 中林病院, about 406 m from the station. The next nearest is 東京都済生会向島病院, about 470 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 4 pharmacies. The nearest hospital is 中林病院, about 7 minutes' walk from the station. The next nearest is 東京都済生会向島病院, about 8 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tobu Skytree Line.",
   "congestion": "Tobu Skytree Line runs at 142% of capacity in the morning peak. The busiest stretch is 小菅→北千住, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "keisei-hikifune",
       "lead": "Keisei-Hikifune is ahead on quiet, but Higashi-Mukojima is ahead on how easy the shopping is.",
-      "note": "657 m away in a straight line. It reaches Otemachi in about the same time as Higashi-Mukojima. One-room rents run about ¥6,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Higashi-Mukojima. One-room rents run about ¥6,000 higher."
     },
     {
       "slug": "hikifune",
       "lead": "rents are lower at Higashi-Mukojima, but Hikifune is ahead on the number of lines and quiet.",
-      "note": "699 m away in a straight line. It reaches Otemachi in about the same time as Higashi-Mukojima. One-room rents run about ¥11,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Higashi-Mukojima. One-room rents run about ¥11,000 higher."
     }
   ],
   "goodFor": [
@@ -76,8 +76,8 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "水戸街道 (1 lanes each way) runs 72 m away. Morning and evening, the cars are audible indoors",
-    "明治通り (2 lanes each way) runs 196 m away. Morning and evening, the cars are audible indoors"
+    "水戸街道 (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road",
+    "明治通り (2 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "floodArea",

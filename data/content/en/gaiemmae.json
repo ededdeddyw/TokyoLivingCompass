@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 23 clinics and 11 pharmacies. The nearest facility recorded as a hospital is オリンピア会オリンピア眼科病院, about 793 m from the station. The next nearest is Sanno Medical Center, about 793 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 23 clinics and 11 pharmacies. The nearest hospital is オリンピア会オリンピア眼科病院, about 13 minutes' walk from the station. The next nearest is Sanno Medical Center, about 13 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Ginza Line.",
   "congestion": "Tokyo Metro Ginza Line runs at 153% of capacity in the morning peak. The busiest stretch is 赤坂見附→溜池山王, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "aoyama-itchome",
       "lead": "rents are lower at Aoyama-Itchome, but Gaiemmae is ahead on the number of medical facilities and how easy the shopping is.",
-      "note": "618 m away in a straight line. It reaches Otemachi 6 minutes sooner than Gaiemmae. One-room rents run about ¥46,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi 6 minutes sooner than Gaiemmae. One-room rents run about ¥46,000 lower."
     },
     {
       "slug": "omote-sando",
       "lead": "Omote-Sando is ahead on the number of lines.",
-      "note": "771 m away in a straight line. It reaches Otemachi 5 minutes sooner than Gaiemmae. One-room rents run about ¥9,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi 5 minutes sooner than Gaiemmae. One-room rents run about ¥9,000 lower."
     }
   ],
   "goodFor": [
@@ -75,8 +75,8 @@
     "People who want to hold the rent down"
   ],
   "noiseSources": [
-    "青山通り (3 lanes each way) runs 0 m away, right beside the station. Traffic on it never stops",
-    "The nearest big road is 外苑西通り, 227 m away, so little traffic noise reaches the station area"
+    "青山通り (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road",
+    "The nearest big road, 外苑西通り, is far enough that little traffic noise reaches the station area"
   ],
   "tags": [
     "pricey",

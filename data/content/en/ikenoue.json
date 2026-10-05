@@ -32,7 +32,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 13 clinics and 10 pharmacies. The nearest facility recorded as a hospital is あべ池ノ上接骨院, about 103 m from the station. The next nearest is 文寿会福原病院, about 383 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 13 clinics and 10 pharmacies. The nearest hospital is あべ池ノ上接骨院, about 2 minutes' walk from the station. The next nearest is 文寿会福原病院, about 7 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Keio Inokashira Line.",
   "congestion": "Keio Inokashira Line runs at 125% of capacity in the morning peak. The busiest stretch of the line is 池ノ上→駒場東大前, which includes this station. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -50,12 +50,12 @@
     {
       "slug": "higashi-kitazawa",
       "lead": "Higashi-Kitazawa is ahead on how little of the area is in the flood projection.",
-      "note": "554 m away in a straight line. It reaches Otemachi in about the same time as Ikenoue."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Ikenoue."
     },
     {
       "slug": "shimo-kitazawa",
       "lead": "rents are lower at Shimo-Kitazawa, but Ikenoue is ahead on quiet.",
-      "note": "578 m away in a straight line. It reaches Otemachi in about the same time as Ikenoue. One-room rents run about ¥19,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Ikenoue. One-room rents run about ¥19,000 lower."
     }
   ],
   "goodFor": [
@@ -65,7 +65,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "鮫洲大山線 (1 lanes each way) runs 53 m away. Morning and evening, the cars are audible indoors"
+    "鮫洲大山線 (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "quiet",

@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 51 clinics and 45 pharmacies. The nearest facility recorded as a hospital is アイシークリニック上野院, about 281 m from the station. The next nearest is 全仁会上野病院, about 283 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 51 clinics and 45 pharmacies. The nearest hospital is アイシークリニック上野院, about 5 minutes' walk from the station. The next nearest is 全仁会上野病院, about 5 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "8 lines serve the station. JR Yamanote Line and JR Utsunomiya Line run through it. JR Joban Line and JR Takasaki Line also call here. JR Keihin-Tohoku Line are available too. JR Ueno-Tokyo Line stop here as well. Tokyo Metro Ginza Line stop here as well. Tokyo Metro Hibiya Line stop here as well. The lines are split between operators (JR East runs 6 lines and Tokyo Metro runs 2 lines), so when one line stops you can change to a line run by a different company.",
   "congestion": "Tokyo Metro Hibiya Line runs at 163% of capacity in the morning peak. The busiest stretch is 三ノ輪→入谷, which this station is not on. JR Keihin-Tohoku Line runs at 159%. Its busiest stretch is 大井町→品川, which this station is likewise not on. Tokyo Metro Ginza Line runs at 153%. Its busiest stretch is 赤坂見附→溜池山王, which this station is likewise not on. JR Ueno-Tokyo Line is not covered by the ministry's congestion survey. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "keisei-ueno",
       "lead": "Keisei-Ueno is ahead on how little of the area is in the flood projection, but Ueno is ahead on the number of lines and how close the centre is.",
-      "note": "384 m away in a straight line. It takes 17 minutes longer to reach Otemachi than Ueno."
+      "note": "Close enough to walk to. It takes 17 minutes longer to reach Otemachi than Ueno."
     },
     {
       "slug": "inaricho",
       "lead": "Inaricho is ahead on quiet, but Ueno is ahead on the number of lines and how little of the area is in the flood projection.",
-      "note": "543 m away in a straight line. It takes 5 minutes longer to reach Otemachi than Ueno. One-room rents run about ¥7,000 higher."
+      "note": "Close enough to walk to. It takes 5 minutes longer to reach Otemachi than Ueno. One-room rents run about ¥7,000 higher."
     }
   ],
   "goodFor": [
@@ -74,8 +74,8 @@
     "The data does not show a drawback particular to this station"
   ],
   "noiseSources": [
-    "The 首都高速1号上野線 viaduct runs 133 m away. It is an expressway, so traffic is audible day and night",
-    "昭和通り (2 lanes each way) runs 125 m away. Morning and evening, the cars are audible indoors"
+    "The 首都高速1号上野線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
+    "昭和通り (2 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "majorHub",

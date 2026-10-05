@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 2 clinics and 2 pharmacies. The nearest facility recorded as a hospital is 目黒厚生会本田病院, about 111 m from the station. The next nearest is 日扇会第一病院, about 347 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 2 clinics and 2 pharmacies. The nearest hospital is 目黒厚生会本田病院, about 2 minutes' walk from the station. The next nearest is 日扇会第一病院, about 6 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyu Toyoko Line.",
   "congestion": "Tokyu Toyoko Line runs at 124% of capacity in the morning peak. The busiest stretch is 祐天寺→中目黒, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "midorigaoka",
       "lead": "Midorigaoka is ahead on the number of medical facilities and how easy the shopping is, but Toritsu-Daigaku is ahead on how close the centre is.",
-      "note": "1303 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Toritsu-Daigaku. One-room rents run about ¥7,000 lower."
+      "note": "About 1.5 km away in a straight line. It takes 4 minutes longer to reach Otemachi than Toritsu-Daigaku. One-room rents run about ¥7,000 lower."
     },
     {
       "slug": "jiyugaoka",
       "lead": "Jiyugaoka is ahead on the number of lines and how little of the area is in the flood projection.",
-      "note": "1371 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Toritsu-Daigaku."
+      "note": "About 1.5 km away in a straight line. It takes 3 minutes longer to reach Otemachi than Toritsu-Daigaku."
     }
   ],
   "goodFor": [
@@ -73,7 +73,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "目黒通り (2 lanes each way) runs 77 m away. Morning and evening, the cars are audible indoors"
+    "目黒通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "quiet",

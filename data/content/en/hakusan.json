@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 12 clinics and 15 pharmacies. The nearest facility recorded as a hospital is 日本医科大学附属病院, about 672 m from the station. The next nearest is 都立駒込病院, about 993 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 12 clinics and 15 pharmacies. The nearest hospital is 日本医科大学附属病院, about 11 minutes' walk from the station. The next nearest is 都立駒込病院, about 17 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Toei Mita Line.",
   "congestion": "Toei Mita Line runs at 146% of capacity in the morning peak. The busiest stretch is 西巣鴨→巣鴨, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "hon-komagome",
       "lead": "Hon-Komagome is ahead on quiet, but Hakusan is ahead on how little of the area is in the flood projection.",
-      "note": "341 m away in a straight line. It takes 8 minutes longer to reach Otemachi than Hakusan."
+      "note": "Close enough to walk to. It takes 8 minutes longer to reach Otemachi than Hakusan."
     },
     {
       "slug": "todaimae",
       "lead": "Todaimae is ahead on the number of medical facilities and quiet.",
-      "note": "677 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Hakusan. One-room rents run about ¥6,000 lower."
+      "note": "Close enough to walk to. It takes 6 minutes longer to reach Otemachi than Hakusan. One-room rents run about ¥6,000 lower."
     }
   ],
   "goodFor": [
@@ -74,8 +74,8 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "旧白山通り (a main road) runs 7 m away. Morning and evening, the cars are audible indoors",
-    "国道17号 (1 lanes each way) runs 99 m away. Morning and evening, the cars are audible indoors"
+    "旧白山通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road",
+    "国道17号 (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "goodValue",

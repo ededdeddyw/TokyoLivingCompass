@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 10 clinics and 9 pharmacies. The nearest facility recorded as a hospital is 日産厚生会 玉川病院, about 986 m from the station. The next nearest is グランダ岡本里安邸, about 1142 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 10 clinics and 9 pharmacies. The nearest hospital is 日産厚生会 玉川病院, about 17 minutes' walk from the station. The next nearest is グランダ岡本里安邸, about 19 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station. Tokyu Den-en-toshi Line run through it. Tokyu Oimachi Line also call here. Both lines are run by Tokyu, so a fault affecting that company can stop them together.",
   "congestion": "Tokyu Den-en-toshi Line runs at 138% of capacity in the morning peak. The busiest stretch is 池尻大橋→渋谷, which this station is not on. Tokyu Oimachi Line runs at 118%. Its busiest stretch is 九品仏→自由が丘, which this station is likewise not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "kaminoge",
       "lead": "Kaminoge is ahead on quiet, but Futako-Tamagawa is ahead on the number of lines and the number of medical facilities.",
-      "note": "1105 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Futako-Tamagawa."
+      "note": "About 1 km away in a straight line. It takes 7 minutes longer to reach Otemachi than Futako-Tamagawa."
     },
     {
       "slug": "yoga",
       "lead": "Yoga is ahead on how little of the area is in the flood projection and quiet, but Futako-Tamagawa is ahead on the number of lines and the number of medical facilities.",
-      "note": "1755 m away in a straight line. It reaches Otemachi 4 minutes sooner than Futako-Tamagawa. One-room rents run about ¥6,000 higher."
+      "note": "About 2 km away in a straight line. It reaches Otemachi 4 minutes sooner than Futako-Tamagawa. One-room rents run about ¥6,000 higher."
     }
   ],
   "goodFor": [
@@ -72,8 +72,8 @@
     "People avoiding projected flood inundation areas"
   ],
   "noiseSources": [
-    "多摩堤通り (2 lanes each way) runs 23 m away. Morning and evening, the cars are audible indoors",
-    "玉川通り (2 lanes each way) runs 29 m away. Morning and evening, the cars are audible indoors"
+    "多摩堤通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road",
+    "玉川通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "cafeRich"

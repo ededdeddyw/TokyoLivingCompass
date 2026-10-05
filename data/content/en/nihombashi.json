@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 19 clinics and 13 pharmacies. The nearest facility recorded as a hospital is いしせ脳神経外科クリニック, about 1115 m from the station. The next nearest is 宮内庁病院, about 1402 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 19 clinics and 13 pharmacies. The nearest hospital is いしせ脳神経外科クリニック, about 19 minutes' walk from the station. The next nearest is 宮内庁病院, about 23 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "3 lines serve the station. Tokyo Metro Ginza Line run through it. Tokyo Metro Tozai Line also call here. Toei Asakusa Line are available too. The lines are split between operators (Tokyo Metro runs 2 lines and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "Tokyo Metro Tozai Line runs at 160% of capacity in the morning peak. The busiest stretch is 木場→門前仲町, which this station is not on. Tokyo Metro Ginza Line runs at 153%. Its busiest stretch is 赤坂見附→溜池山王, which this station is likewise not on. Toei Asakusa Line runs at 123%. Its busiest stretch is 本所吾妻橋→浅草, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "mitsukoshimae",
       "lead": "rents are lower at Mitsukoshimae, but Nihombashi is ahead on quiet.",
-      "note": "556 m away in a straight line. It reaches Otemachi in about the same time as Nihombashi. One-room rents run about ¥15,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Nihombashi. One-room rents run about ¥15,000 lower."
     },
     {
       "slug": "kayabacho",
       "lead": "rents are lower at Kayabacho, but Nihombashi is ahead on the number of lines and how easy the shopping is.",
-      "note": "574 m away in a straight line. It reaches Otemachi in about the same time as Nihombashi. One-room rents run about ¥21,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Nihombashi. One-room rents run about ¥21,000 lower."
     }
   ],
   "goodFor": [
@@ -75,8 +75,8 @@
     "People who want to hold the rent down"
   ],
   "noiseSources": [
-    "The 首都高速都心環状線 viaduct runs 224 m away. It is an expressway, so traffic is audible day and night",
-    "永代通り (3 lanes each way) runs 31 m away, right beside the station. Traffic on it never stops"
+    "The 首都高速都心環状線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
+    "永代通り (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "lively",

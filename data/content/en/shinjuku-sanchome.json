@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 19 clinics and 33 pharmacies. The nearest facility recorded as a hospital is JR東京総合病院, about 747 m from the station. The next nearest is 都立大久保病院, about 749 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 19 clinics and 33 pharmacies. The nearest hospital is JR東京総合病院, about 13 minutes' walk from the station. The next nearest is 都立大久保病院, about 13 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "3 lines serve the station. Tokyo Metro Marunouchi Line run through it. Tokyo Metro Fukutoshin Line also call here. Toei Shinjuku Line are available too. The lines are split between operators (Tokyo Metro runs 2 lines and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "Tokyo Metro Marunouchi Line runs at 154% of capacity in the morning peak. The busiest stretch is 新大塚→茗荷谷, which this station is not on. Toei Shinjuku Line runs at 152%. Its busiest stretch is 西大島→住吉, which this station is likewise not on. Tokyo Metro Fukutoshin Line runs at 117%. Its busiest stretch is 要町→池袋, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "shinjuku",
       "lead": "rents are lower at Shinjuku, but Shinjuku-Sanchome is ahead on how easy the shopping is.",
-      "note": "501 m away in a straight line. It reaches Otemachi in about the same time as Shinjuku-Sanchome. One-room rents run about ¥19,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Shinjuku-Sanchome. One-room rents run about ¥19,000 lower."
     },
     {
       "slug": "shinjuku-gyoemmae",
       "lead": "Shinjuku-Gyoemmae is ahead on how little of the area is in the flood projection, but Shinjuku-Sanchome is ahead on the number of lines and the number of medical facilities.",
-      "note": "541 m away in a straight line. It reaches Otemachi in about the same time as Shinjuku-Sanchome."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Shinjuku-Sanchome."
     }
   ],
   "goodFor": [
@@ -74,8 +74,8 @@
     "The data does not show a drawback particular to this station"
   ],
   "noiseSources": [
-    "明治通り (a main road) runs 38 m away. Morning and evening, the cars are audible indoors",
-    "甲州街道 (2 lanes each way) runs 103 m away. Morning and evening, the cars are audible indoors"
+    "明治通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road",
+    "甲州街道 (2 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "someBustle",

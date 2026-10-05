@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 6 clinics and 8 pharmacies. The nearest facility recorded as a hospital is 東京脳神経センター病院, about 331 m from the station. The next nearest is 森山記念病院, about 869 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 6 clinics and 8 pharmacies. The nearest hospital is 東京脳神経センター病院, about 6 minutes' walk from the station. The next nearest is 森山記念病院, about 15 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Tozai Line.",
   "congestion": "Tokyo Metro Tozai Line runs at 160% of capacity in the morning peak. The busiest stretch is 木場→門前仲町, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "kasai",
       "lead": "Kasai is ahead on the number of medical facilities, but Nishi-Kasai is ahead on quiet.",
-      "note": "1198 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Nishi-Kasai."
+      "note": "About 1 km away in a straight line. It takes 3 minutes longer to reach Otemachi than Nishi-Kasai."
     },
     {
       "slug": "funabori",
       "lead": "Nishi-Kasai is ahead on how little of the area is in the flood projection and how easy the shopping is.",
-      "note": "2178 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Nishi-Kasai."
+      "note": "About 2 km away in a straight line. It takes 6 minutes longer to reach Otemachi than Nishi-Kasai."
     }
   ],
   "goodFor": [
@@ -76,7 +76,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "The nearest big road is 清砂大橋通り, 243 m away, so little traffic noise reaches the station area"
+    "The nearest big road, 清砂大橋通り, is far enough that little traffic noise reaches the station area"
   ],
   "tags": [
     "goodValue",

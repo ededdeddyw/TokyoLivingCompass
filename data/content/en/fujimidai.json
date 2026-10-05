@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 10 clinics and 11 pharmacies. The nearest facility recorded as a hospital is 秀佑会東海病院, about 1206 m from the station. The next nearest is 忠医会病院, about 1410 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 10 clinics and 11 pharmacies. The nearest hospital is 秀佑会東海病院, about 20 minutes' walk from the station. The next nearest is 忠医会病院, about 23 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Seibu Ikebukuro Line.",
   "congestion": "Seibu Ikebukuro Line runs at 130% of capacity in the morning peak. The busiest stretch is 椎名町→池袋, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "nakamurabashi",
       "lead": "Nakamurabashi is ahead on the number of medical facilities, but Fujimidai is ahead on how little of the area is in the flood projection and quiet.",
-      "note": "708 m away in a straight line. It reaches Otemachi in about the same time as Fujimidai. One-room rents run about ¥5,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Fujimidai. One-room rents run about ¥5,000 lower."
     },
     {
       "slug": "nerima-takanodai",
       "lead": "Nerima-Takanodai is ahead on how little of the area is in the flood projection, but Fujimidai is ahead on how easy the shopping is.",
-      "note": "1282 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Fujimidai."
+      "note": "About 1.5 km away in a straight line. It takes 3 minutes longer to reach Otemachi than Fujimidai."
     }
   ],
   "goodFor": [
@@ -74,7 +74,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "千川通り (1 lanes each way) runs 158 m away. Morning and evening, the cars are audible indoors"
+    "千川通り (1 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "quiet",

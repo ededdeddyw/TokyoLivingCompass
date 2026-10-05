@@ -25,7 +25,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station, OpenStreetMap records neither a clinic nor a pharmacy. The nearest facility recorded as a hospital is 小石川東京病院, about 520 m from the station. The next nearest is 都立大塚病院, about 822 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station, OpenStreetMap records neither a clinic nor a pharmacy. The nearest hospital is 小石川東京病院, about 9 minutes' walk from the station. The next nearest is 都立大塚病院, about 14 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Yurakucho Line.",
   "congestion": "Tokyo Metro Yurakucho Line runs at 153% of capacity in the morning peak. The busiest stretch of the line is 東池袋→護国寺, which includes this station. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -43,12 +43,12 @@
     {
       "slug": "shin-otsuka",
       "lead": "Shin-Otsuka is ahead on the number of medical facilities and how easy the shopping is, but Gokokuji is ahead on how little of the area is in the flood projection.",
-      "note": "770 m away in a straight line. It reaches Otemachi 3 minutes sooner than Gokokuji."
+      "note": "Close enough to walk to. It reaches Otemachi 3 minutes sooner than Gokokuji."
     },
     {
       "slug": "myogadani",
       "lead": "rents are lower at Gokokuji, but Myogadani is ahead on how close the centre is.",
-      "note": "900 m away in a straight line. It reaches Otemachi 6 minutes sooner than Gokokuji. One-room rents run about ¥15,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi 6 minutes sooner than Gokokuji. One-room rents run about ¥15,000 higher."
     }
   ],
   "goodFor": [
@@ -63,8 +63,8 @@
     "People who want to finish their shopping on foot"
   ],
   "noiseSources": [
-    "The 首都高速5号池袋線 viaduct runs 75 m away. It is an expressway, so traffic is audible day and night",
-    "音羽通り (2 lanes each way) runs 3 m away. Morning and evening, the cars are audible indoors"
+    "The 首都高速5号池袋線 viaduct runs right beside the station. It is an expressway, so traffic is audible day and night",
+    "音羽通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "goodValue",

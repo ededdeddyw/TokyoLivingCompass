@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 14 clinics and 19 pharmacies. The nearest facility recorded as a hospital is 虎の門病院, about 577 m from the station. The next nearest is 友仁会赤坂見附前田病院, about 1103 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 14 clinics and 19 pharmacies. The nearest hospital is 虎の門病院, about 10 minutes' walk from the station. The next nearest is 友仁会赤坂見附前田病院, about 18 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station. Tokyo Metro Marunouchi Line run through it. Tokyo Metro Chiyoda Line also call here. Both lines are run by Tokyo Metro, so a fault affecting that company can stop them together.",
   "congestion": "Tokyo Metro Marunouchi Line runs at 154% of capacity in the morning peak. The busiest stretch is 新大塚→茗荷谷, which this station is not on. Tokyo Metro Chiyoda Line runs at 150%. Its busiest stretch is 町屋→西日暮里, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "tameike-sanno",
       "lead": "Tameike-Sanno is ahead on how easy the shopping is, but Kokkai-Gijidomae is ahead on how little of the area is in the flood projection.",
-      "note": "344 m away in a straight line. It takes 9 minutes longer to reach Otemachi than Kokkai-Gijidomae."
+      "note": "Close enough to walk to. It takes 9 minutes longer to reach Otemachi than Kokkai-Gijidomae."
     },
     {
       "slug": "kasumigaseki",
       "lead": "Kasumigaseki is ahead on the number of lines, but Kokkai-Gijidomae is ahead on how easy the shopping is.",
-      "note": "513 m away in a straight line. It reaches Otemachi in about the same time as Kokkai-Gijidomae."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Kokkai-Gijidomae."
     }
   ],
   "goodFor": [
@@ -74,8 +74,8 @@
     "People who want to hold the rent down"
   ],
   "noiseSources": [
-    "The 首都高速都心環状線 viaduct runs 176 m away. It is an expressway, so traffic is audible day and night",
-    "東京都道二四七号線 (3 lanes each way) runs 5 m away, right beside the station. Traffic on it never stops"
+    "The 首都高速都心環状線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
+    "東京都道二四七号線 (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "pricey",

@@ -32,7 +32,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 2 clinics and 5 pharmacies. The nearest facility recorded as a hospital is 順天堂東京江東高齢者医療センター, about 453 m from the station. The next nearest is 東京都立東部療育センター, about 597 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 2 clinics and 5 pharmacies. The nearest hospital is 順天堂東京江東高齢者医療センター, about 8 minutes' walk from the station. The next nearest is 東京都立東部療育センター, about 10 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Tozai Line.",
   "congestion": "Tokyo Metro Tozai Line runs at 160% of capacity in the morning peak. The busiest stretch is 木場→門前仲町, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -50,12 +50,12 @@
     {
       "slug": "toyocho",
       "lead": "rents are lower at Minami-Sunamachi, but Toyocho is ahead on how easy the shopping is.",
-      "note": "1182 m away in a straight line. It reaches Otemachi 3 minutes sooner than Minami-Sunamachi. One-room rents run about ¥17,000 higher."
+      "note": "About 1 km away in a straight line. It reaches Otemachi 3 minutes sooner than Minami-Sunamachi. One-room rents run about ¥17,000 higher."
     },
     {
       "slug": "shiomi",
       "lead": "rents are lower at Minami-Sunamachi, but Shiomi is ahead on how little of the area is in the flood projection and how close the centre is.",
-      "note": "1644 m away in a straight line. It reaches Otemachi in about the same time as Minami-Sunamachi. One-room rents run about ¥17,000 higher."
+      "note": "About 1.5 km away in a straight line. It reaches Otemachi in about the same time as Minami-Sunamachi. One-room rents run about ¥17,000 higher."
     }
   ],
   "goodFor": [
@@ -69,8 +69,8 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "丸八通り (a main road) runs 46 m away. Morning and evening, the cars are audible indoors",
-    "永代通り (a main road) runs 116 m away. Morning and evening, the cars are audible indoors"
+    "丸八通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road",
+    "永代通り (a main road) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "quiet",

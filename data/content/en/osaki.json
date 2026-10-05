@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 6 clinics and 9 pharmacies. The nearest facility recorded as a hospital is サザンガーデンクリニック, about 516 m from the station. The next nearest is 有仁会阿部病院, about 826 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 6 clinics and 9 pharmacies. The nearest hospital is サザンガーデンクリニック, about 9 minutes' walk from the station. The next nearest is 有仁会阿部病院, about 14 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "4 lines serve the station. JR Yamanote Line and JR Saikyo Line run through it. JR Shonan-Shinjuku Line and Rinkai Line also call here. The lines are split between operators (JR East runs 3 lines and Tokyo Waterfront Area Rapid Transit runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "JR Saikyo Line runs at 167% of capacity in the morning peak. The busiest stretch is 板橋→池袋, which this station is not on. JR Yamanote Line runs at 136%. Its busiest stretch is 新大久保→新宿, which this station is likewise not on. Rinkai Line runs at 118%. Its busiest stretch is 大井町→品川シーサイド, which this station is likewise not on. JR Shonan-Shinjuku Line is not covered by the ministry's congestion survey. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "osaki-hirokoji",
       "lead": "rents are lower at Osaki, but Osaki-Hirokoji is ahead on how little of the area is in the flood projection and how easy the shopping is.",
-      "note": "616 m away in a straight line. It reaches Otemachi in about the same time as Osaki. One-room rents run about ¥10,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Osaki. One-room rents run about ¥10,000 higher."
     },
     {
       "slug": "gotanda",
       "lead": "rents are lower at Osaki, but Gotanda is ahead on how easy the shopping is.",
-      "note": "808 m away in a straight line. It reaches Otemachi 5 minutes sooner than Osaki. One-room rents run about ¥13,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi 5 minutes sooner than Osaki. One-room rents run about ¥13,000 higher."
     }
   ],
   "goodFor": [
@@ -74,8 +74,8 @@
     "People avoiding projected flood inundation areas"
   ],
   "noiseSources": [
-    "The 首都高速中央環状線 viaduct runs 117 m away. It is an expressway, so traffic is audible day and night",
-    "山手通り (2 lanes each way) runs 36 m away. Morning and evening, the cars are audible indoors"
+    "The 首都高速中央環状線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
+    "山手通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "goodValue",

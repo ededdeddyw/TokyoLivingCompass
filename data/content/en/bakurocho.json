@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 16 clinics and 14 pharmacies. The nearest facility recorded as a hospital is 湘南メディカル記念病院, about 890 m from the station. The next nearest is 三井記念病院, about 902 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 16 clinics and 14 pharmacies. The nearest hospital is 湘南メディカル記念病院, about 15 minutes' walk from the station. The next nearest is 三井記念病院, about 15 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "3 lines serve the station. JR Sobu Main Line and Toei Asakusa Line run through it. Toei Shinjuku Line also call here. The lines are split between operators (JR East runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 2 lines), so when one line stops you can change to a line run by a different company.",
   "congestion": "JR Sobu Main Line runs at 160% of capacity in the morning peak. The busiest stretch is 新小岩→錦糸町, which this station is not on. Toei Shinjuku Line runs at 152%. Its busiest stretch is 西大島→住吉, which this station is likewise not on. Toei Asakusa Line runs at 123%. Its busiest stretch is 本所吾妻橋→浅草, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "kodemmacho",
       "lead": "Kodemmacho is ahead on the number of medical facilities, but Bakurocho is ahead on the number of lines and quiet.",
-      "note": "484 m away in a straight line. It reaches Otemachi in about the same time as Bakurocho. One-room rents run about ¥6,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Bakurocho. One-room rents run about ¥6,000 higher."
     },
     {
       "slug": "asakusabashi",
       "lead": "Asakusabashi is ahead on the number of medical facilities, but Bakurocho is ahead on the number of lines.",
-      "note": "574 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Bakurocho. One-room rents run about ¥6,000 lower."
+      "note": "Close enough to walk to. It takes 3 minutes longer to reach Otemachi than Bakurocho. One-room rents run about ¥6,000 lower."
     }
   ],
   "goodFor": [
@@ -76,7 +76,7 @@
     "People avoiding projected flood inundation areas"
   ],
   "noiseSources": [
-    "江戸通り (3 lanes each way) runs 116 m away. Traffic on it never stops"
+    "江戸通り (3 lanes each way) runs just outside the station. Traffic on it never stops"
   ],
   "tags": [
     "singleFriendly",

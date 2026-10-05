@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 3 clinics and 9 pharmacies. The nearest facility recorded as a hospital is 古畑クリニック, about 55 m from the station. The next nearest is 東邦大学医療センター 大橋病院, about 205 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 3 clinics and 9 pharmacies. The nearest hospital is 古畑クリニック, about 1 minutes' walk from the station. The next nearest is 東邦大学医療センター 大橋病院, about 4 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyu Den-en-toshi Line.",
   "congestion": "Tokyu Den-en-toshi Line runs at 138% of capacity in the morning peak. The busiest stretch of the line is 池尻大橋→渋谷, which includes this station. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "komaba-todaimae",
       "lead": "Komaba-Todaimae is ahead on how little of the area is in the flood projection and quiet, but Ikejiri-Ohashi is ahead on how easy the shopping is.",
-      "note": "898 m away in a straight line. It reaches Otemachi in about the same time as Ikejiri-Ohashi. One-room rents run about ¥8,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Ikejiri-Ohashi. One-room rents run about ¥8,000 higher."
     },
     {
       "slug": "shinsen",
       "lead": "rents are lower at Ikejiri-Ohashi, but Shinsen is ahead on how little of the area is in the flood projection and the number of medical facilities.",
-      "note": "1115 m away in a straight line. It reaches Otemachi in about the same time as Ikejiri-Ohashi. One-room rents run about ¥42,000 higher."
+      "note": "About 1 km away in a straight line. It reaches Otemachi in about the same time as Ikejiri-Ohashi. One-room rents run about ¥42,000 higher."
     }
   ],
   "goodFor": [
@@ -75,8 +75,8 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "The 首都高速3号渋谷線 viaduct runs 2 m away. It is an expressway, so traffic is audible day and night",
-    "玉川通り (3 lanes each way) runs 9 m away, right beside the station. Traffic on it never stops"
+    "The 首都高速3号渋谷線 viaduct runs right beside the station. It is an expressway, so traffic is audible day and night",
+    "玉川通り (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "lowFlood",

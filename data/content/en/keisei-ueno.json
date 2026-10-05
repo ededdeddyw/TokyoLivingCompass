@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 64 clinics and 49 pharmacies. The nearest facility recorded as a hospital is アイシークリニック上野院, about 374 m from the station. The next nearest is 全仁会上野病院, about 506 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 64 clinics and 49 pharmacies. The nearest hospital is アイシークリニック上野院, about 7 minutes' walk from the station. The next nearest is 全仁会上野病院, about 9 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station: Keisei Main Line and Narita Sky Access Line. Both lines are run by Keisei, so a fault affecting that company can stop them together.",
   "congestion": "Keisei Main Line runs at 137% of capacity in the morning peak. The busiest stretch is 大神宮下→京成船橋, which this station is not on. Narita Sky Access Line is not covered by the ministry's congestion survey. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "ueno",
       "lead": "Ueno is ahead on the number of lines and how close the centre is, but Keisei-Ueno is ahead on how little of the area is in the flood projection.",
-      "note": "384 m away in a straight line. It reaches Otemachi 17 minutes sooner than Keisei-Ueno."
+      "note": "Close enough to walk to. It reaches Otemachi 17 minutes sooner than Keisei-Ueno."
     },
     {
       "slug": "okachimachi",
       "lead": "rents are lower at Keisei-Ueno, but Okachimachi is ahead on the number of lines and how close the centre is.",
-      "note": "440 m away in a straight line. It reaches Otemachi 15 minutes sooner than Keisei-Ueno. One-room rents run about ¥21,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi 15 minutes sooner than Keisei-Ueno. One-room rents run about ¥21,000 higher."
     }
   ],
   "goodFor": [
@@ -72,8 +72,8 @@
     "The data does not show a drawback particular to this station"
   ],
   "noiseSources": [
-    "The 首都高速1号上野線 viaduct runs 272 m away. It is an expressway, so traffic is audible day and night",
-    "中央通り (2 lanes each way) runs 47 m away. Morning and evening, the cars are audible indoors"
+    "The 首都高速1号上野線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
+    "中央通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "someBustle",

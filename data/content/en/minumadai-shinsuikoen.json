@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 1 clinic and 3 pharmacies. No facility recorded as a hospital lies within 2.5 km of the station. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 1 clinic and 3 pharmacies. No facility recorded as a hospital lies within 2.5 km of the station. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Nippori-Toneri Liner.",
   "congestion": "The ministry's congestion survey does not publish figures for Nippori-Toneri Liner. It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "toneri",
       "lead": "rent, commuting and the flood projection are all much the same.",
-      "note": "984 m away in a straight line. It reaches Otemachi 3 minutes sooner than Minumadai-Shinsuikoen."
+      "note": "Close enough to walk to. It reaches Otemachi 3 minutes sooner than Minumadai-Shinsuikoen."
     },
     {
       "slug": "toneri-koen",
       "lead": "Toneri-Koen is ahead on how close the centre is, but Minumadai-Shinsuikoen is ahead on how little of the area is in the flood projection and how easy the shopping is.",
-      "note": "2036 m away in a straight line. It reaches Otemachi 7 minutes sooner than Minumadai-Shinsuikoen. One-room rents run about ¥9,000 lower."
+      "note": "About 2 km away in a straight line. It reaches Otemachi 7 minutes sooner than Minumadai-Shinsuikoen. One-room rents run about ¥9,000 lower."
     }
   ],
   "goodFor": [
@@ -75,7 +75,7 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "尾久橋通り (a main road) runs 4 m away. Morning and evening, the cars are audible indoors"
+    "尾久橋通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "quiet",

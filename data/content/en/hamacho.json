@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 11 clinics and 8 pharmacies. The nearest facility recorded as a hospital is 山村病院, about 334 m from the station. The next nearest is 湘南メディカル記念病院, about 875 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 11 clinics and 8 pharmacies. The nearest hospital is 山村病院, about 6 minutes' walk from the station. The next nearest is 湘南メディカル記念病院, about 15 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Toei Shinjuku Line.",
   "congestion": "Toei Shinjuku Line runs at 152% of capacity in the morning peak. The busiest stretch is 西大島→住吉, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "ningyocho",
       "lead": "Ningyocho is ahead on the number of lines and how close the centre is.",
-      "note": "579 m away in a straight line. It reaches Otemachi 11 minutes sooner than Hamacho. One-room rents run about ¥5,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi 11 minutes sooner than Hamacho. One-room rents run about ¥5,000 higher."
     },
     {
       "slug": "bakurocho",
       "lead": "Bakurocho is ahead on the number of lines and how close the centre is.",
-      "note": "624 m away in a straight line. It reaches Otemachi 5 minutes sooner than Hamacho."
+      "note": "Close enough to walk to. It reaches Otemachi 5 minutes sooner than Hamacho."
     }
   ],
   "goodFor": [
@@ -76,7 +76,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "The 首都高速6号向島線 viaduct runs 102 m away. It is an expressway, so traffic is audible day and night"
+    "The 首都高速6号向島線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night"
   ],
   "tags": [
     "floodArea",

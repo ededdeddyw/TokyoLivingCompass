@@ -25,7 +25,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 4 clinics and 10 pharmacies. The nearest facility recorded as a hospital is 墨田病院, about 710 m from the station. The next nearest is 山田記念病院, about 907 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 4 clinics and 10 pharmacies. The nearest hospital is 墨田病院, about 12 minutes' walk from the station. The next nearest is 山田記念病院, about 15 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Toei Asakusa Line.",
   "congestion": "Toei Asakusa Line runs at 123% of capacity in the morning peak. The busiest stretch of the line is 本所吾妻橋→浅草, which includes this station. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -43,12 +43,12 @@
     {
       "slug": "tokyo-skytree",
       "lead": "Tokyo-Skytree is ahead on the number of medical facilities, but Honjo-Azumabashi is ahead on how little of the area is in the flood projection and how close the centre is.",
-      "note": "472 m away in a straight line. It takes 5 minutes longer to reach Otemachi than Honjo-Azumabashi. One-room rents run about ¥6,000 lower."
+      "note": "Close enough to walk to. It takes 5 minutes longer to reach Otemachi than Honjo-Azumabashi. One-room rents run about ¥6,000 lower."
     },
     {
       "slug": "asakusa",
       "lead": "Asakusa is ahead on the number of lines and the number of medical facilities, but Honjo-Azumabashi is ahead on how little of the area is in the flood projection and quiet.",
-      "note": "676 m away in a straight line. It reaches Otemachi in about the same time as Honjo-Azumabashi."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Honjo-Azumabashi."
     }
   ],
   "goodFor": [
@@ -60,8 +60,8 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "浅草通り (3 lanes each way) runs 2 m away, right beside the station. Traffic on it never stops",
-    "三ツ目通り (a main road) runs 25 m away. Morning and evening, the cars are audible indoors"
+    "浅草通り (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road",
+    "三ツ目通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "singleLine",

@@ -9,7 +9,7 @@
     "note": "The station sits on the higher side of the ground around it, at 6.9 m above sea level. Within 800 m the ground ranges from 4.1 m to 7.4 m, a difference of 3.3 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
-  "medical": "Within an 800 m walk of the station, OpenStreetMap records neither a clinic nor a pharmacy. The nearest facility recorded as a hospital is 昭和医科大学江東豊洲病院, about 1092 m from the station. The next nearest is 聖カタリナ病院, about 1190 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station, OpenStreetMap records neither a clinic nor a pharmacy. The nearest hospital is 昭和医科大学江東豊洲病院, about 18 minutes' walk from the station. The next nearest is 聖カタリナ病院, about 20 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Yurikamome.",
   "congestion": "Yurikamome runs at 92% of capacity in the morning peak. The busiest stretch is 汐留→竹芝, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -27,12 +27,12 @@
     {
       "slug": "shin-toyosu",
       "lead": "rent, commuting and the flood projection are all much the same.",
-      "note": "518 m away in a straight line. It reaches Otemachi in about the same time as Shijo-Mae. One-room rents run about ¥8,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Shijo-Mae. One-room rents run about ¥8,000 higher."
     },
     {
       "slug": "ariake-tennis-no-mori",
       "lead": "rent, commuting and the flood projection are all much the same.",
-      "note": "700 m away in a straight line. It reaches Otemachi in about the same time as Shijo-Mae."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Shijo-Mae."
     }
   ],
   "goodFor": [
@@ -46,8 +46,8 @@
     "People who want to hold the rent down"
   ],
   "noiseSources": [
-    "The 首都高速10号晴海線 viaduct runs 398 m away. It is an expressway, so traffic is audible day and night",
-    "豊洲有明線 (2 lanes each way) runs 6 m away. Morning and evening, the cars are audible indoors"
+    "The 首都高速10号晴海線 viaduct runs a short walk from the station. It is an expressway, so traffic is audible day and night",
+    "豊洲有明線 (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "quiet",

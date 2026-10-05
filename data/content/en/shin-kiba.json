@@ -9,7 +9,7 @@
     "note": "The station sits lower than the ground around it, at 5.1 m above sea level. Within 800 m the ground ranges from 3.9 m to 10.7 m, a difference of 6.8 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is less than 0.5 m. For storm surge, 1 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
-  "medical": "Within an 800 m walk of the station, OpenStreetMap records neither a clinic nor a pharmacy. The nearest facility recorded as a hospital is 鈴木リハビリテーション病院, about 1967 m from the station. The next nearest is 東京都立東部療育センター, about 2055 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station, OpenStreetMap records neither a clinic nor a pharmacy. The nearest hospital is 鈴木リハビリテーション病院, about 32 minutes' walk from the station. The next nearest is 東京都立東部療育センター, about 34 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "3 lines serve the station. JR Keiyo Line run through it. Tokyo Metro Yurakucho Line and Rinkai Line also call here. The lines are split between operators (JR East runs 1 line, Tokyo Metro runs 1 line and Tokyo Waterfront Area Rapid Transit runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "Tokyo Metro Yurakucho Line runs at 153% of capacity in the morning peak. The busiest stretch is 東池袋→護国寺, which this station is not on. JR Keiyo Line runs at 123% of capacity in the morning peak. The busiest stretch of the line is 葛西臨海公園→新木場, which includes this station. Rinkai Line runs at 118%. Its busiest stretch is 大井町→品川シーサイド, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -26,12 +26,12 @@
     {
       "slug": "tatsumi",
       "lead": "Tatsumi is ahead on the number of medical facilities and quiet, but Shin-Kiba is ahead on the number of lines and how little of the area is in the flood projection.",
-      "note": "1491 m away in a straight line. It reaches Otemachi in about the same time as Shin-Kiba."
+      "note": "About 1.5 km away in a straight line. It reaches Otemachi in about the same time as Shin-Kiba."
     },
     {
       "slug": "shiomi",
       "lead": "Shiomi is ahead on the number of medical facilities and quiet, but Shin-Kiba is ahead on the number of lines.",
-      "note": "1655 m away in a straight line. It reaches Otemachi 3 minutes sooner than Shin-Kiba."
+      "note": "About 1.5 km away in a straight line. It reaches Otemachi 3 minutes sooner than Shin-Kiba."
     }
   ],
   "goodFor": [
@@ -44,8 +44,8 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "The 首都高速湾岸線 viaduct runs 54 m away. It is an expressway, so traffic is audible day and night",
-    "東京湾岸道路 (2 lanes each way) runs 33 m away. Morning and evening, the cars are audible indoors"
+    "The 首都高速湾岸線 viaduct runs right beside the station. It is an expressway, so traffic is audible day and night",
+    "東京湾岸道路 (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "goodValue",

@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 19 clinics and 16 pharmacies. The nearest facility recorded as a hospital is 近藤泌尿器科内科クリニック, about 549 m from the station. The next nearest is 菖医院, about 828 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 19 clinics and 16 pharmacies. The nearest hospital is 近藤泌尿器科内科クリニック, about 9 minutes' walk from the station. The next nearest is 菖医院, about 14 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Tozai Line.",
   "congestion": "Tokyo Metro Tozai Line runs at 160% of capacity in the morning peak. The busiest stretch is 木場→門前仲町, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "nakai",
       "lead": "Nakai is ahead on the number of lines and how little of the area is in the flood projection, but Ochiai is ahead on the number of medical facilities and how easy the shopping is.",
-      "note": "403 m away in a straight line. It takes 5 minutes longer to reach Otemachi than Ochiai."
+      "note": "Close enough to walk to. It takes 5 minutes longer to reach Otemachi than Ochiai."
     },
     {
       "slug": "higashi-nakano",
       "lead": "Higashi-Nakano is ahead on the number of lines and how little of the area is in the flood projection, but Ochiai is ahead on quiet.",
-      "note": "573 m away in a straight line. It takes 12 minutes longer to reach Otemachi than Ochiai."
+      "note": "Close enough to walk to. It takes 12 minutes longer to reach Otemachi than Ochiai."
     }
   ],
   "goodFor": [
@@ -76,8 +76,8 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "The 首都高速中央環状線 viaduct runs 192 m away. It is an expressway, so traffic is audible day and night",
-    "早稲田通り (1 lanes each way) runs 0 m away. Morning and evening, the cars are audible indoors"
+    "The 首都高速中央環状線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
+    "早稲田通り (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "goodValue",

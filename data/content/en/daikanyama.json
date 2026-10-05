@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 18 clinics and 9 pharmacies. The nearest facility recorded as a hospital is 東京共済病院, about 754 m from the station. The next nearest is アイシークリニック渋谷院, about 913 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 18 clinics and 9 pharmacies. The nearest hospital is 東京共済病院, about 13 minutes' walk from the station. The next nearest is アイシークリニック渋谷院, about 15 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyu Toyoko Line.",
   "congestion": "Tokyu Toyoko Line runs at 124% of capacity in the morning peak. The busiest stretch is 祐天寺→中目黒, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "ebisu",
       "lead": "Ebisu is ahead on the number of lines and how close the centre is, but Daikanyama is ahead on quiet.",
-      "note": "607 m away in a straight line. It reaches Otemachi 4 minutes sooner than Daikanyama."
+      "note": "Close enough to walk to. It reaches Otemachi 4 minutes sooner than Daikanyama."
     },
     {
       "slug": "nakameguro",
       "lead": "rents are lower at Naka-Meguro, but Daikanyama is ahead on how easy the shopping is and quiet.",
-      "note": "640 m away in a straight line. It reaches Otemachi in about the same time as Daikanyama. One-room rents run about ¥26,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Daikanyama. One-room rents run about ¥26,000 lower."
     }
   ],
   "goodFor": [
@@ -75,8 +75,8 @@
     "People who want to hold the rent down"
   ],
   "noiseSources": [
-    "旧山手通り (3 lanes each way) runs 152 m away. Traffic on it never stops",
-    "駒沢通り (2 lanes each way) runs 174 m away. Morning and evening, the cars are audible indoors"
+    "旧山手通り (3 lanes each way) runs just outside the station. Traffic on it never stops",
+    "駒沢通り (2 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "pricey",

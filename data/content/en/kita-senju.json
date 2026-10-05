@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 28 clinics and 22 pharmacies. The nearest facility recorded as a hospital is 愛里病院, about 433 m from the station. The next nearest is すずき病院, about 590 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 28 clinics and 22 pharmacies. The nearest hospital is 愛里病院, about 8 minutes' walk from the station. The next nearest is すずき病院, about 10 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "5 lines serve the station. JR Joban Line and Tobu Skytree Line run through it. Tokyo Metro Hibiya Line also call here. Tokyo Metro Chiyoda Line are available too. Tsukuba Express stop here as well. The lines are split between operators (JR East runs 1 line, Tobu runs 1 line, Tokyo Metro runs 2 lines and Tsukuba Express runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "Tokyo Metro Hibiya Line runs at 163% of capacity in the morning peak. The busiest stretch is 三ノ輪→入谷, which this station is not on. Tsukuba Express runs at 151% of capacity in the morning peak. The busiest stretch of the line is 青井→北千住, which includes this station. Tokyo Metro Chiyoda Line runs at 150%. Its busiest stretch is 町屋→西日暮里, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "ushida",
       "lead": "Ushida is ahead on quiet, but Kita-Senju is ahead on the number of lines and how close the centre is.",
-      "note": "849 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Kita-Senju."
+      "note": "Close enough to walk to. It takes 6 minutes longer to reach Otemachi than Kita-Senju."
     },
     {
       "slug": "senjuohashi",
       "lead": "Senjuohashi is ahead on quiet, but Kita-Senju is ahead on the number of lines and the number of medical facilities.",
-      "note": "1050 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Kita-Senju."
+      "note": "About 1 km away in a straight line. It takes 3 minutes longer to reach Otemachi than Kita-Senju."
     }
   ],
   "goodFor": [
@@ -75,7 +75,7 @@
     "People avoiding projected flood inundation areas"
   ],
   "noiseSources": [
-    "The nearest big road is 日光街道, 455 m away, so little traffic noise reaches the station area"
+    "The nearest big road, 日光街道, is far enough that little traffic noise reaches the station area"
   ],
   "tags": [
     "majorHub",

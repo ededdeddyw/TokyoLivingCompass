@@ -32,7 +32,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 12 clinics and 10 pharmacies. The nearest facility recorded as a hospital is 港勤労者医療協会芝病院, about 161 m from the station. The next nearest is 東京慈恵会医科大学附属病院, about 274 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 12 clinics and 10 pharmacies. The nearest hospital is 港勤労者医療協会芝病院, about 3 minutes' walk from the station. The next nearest is 東京慈恵会医科大学附属病院, about 5 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Toei Mita Line.",
   "congestion": "Toei Mita Line runs at 146% of capacity in the morning peak. The busiest stretch is 西巣鴨→巣鴨, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -50,12 +50,12 @@
     {
       "slug": "daimon",
       "lead": "rents are lower at Daimon, but Onarimon is ahead on how little of the area is in the flood projection and the number of medical facilities.",
-      "note": "567 m away in a straight line. It takes 9 minutes longer to reach Otemachi than Onarimon. One-room rents run about ¥12,000 lower."
+      "note": "Close enough to walk to. It takes 9 minutes longer to reach Otemachi than Onarimon. One-room rents run about ¥12,000 lower."
     },
     {
       "slug": "kamiyacho",
       "lead": "rents are lower at Onarimon, but Kamiyacho is ahead on how little of the area is in the flood projection and how close the centre is.",
-      "note": "616 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Onarimon. One-room rents run about ¥20,000 higher."
+      "note": "Close enough to walk to. It takes 6 minutes longer to reach Otemachi than Onarimon. One-room rents run about ¥20,000 higher."
     }
   ],
   "goodFor": [
@@ -68,8 +68,8 @@
     "People who want to hold the rent down"
   ],
   "noiseSources": [
-    "日比谷通り (3 lanes each way) runs 4 m away, right beside the station. Traffic on it never stops",
-    "祝田通り (a main road) runs 199 m away. Morning and evening, the cars are audible indoors"
+    "日比谷通り (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road",
+    "祝田通り (a main road) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "pricey",

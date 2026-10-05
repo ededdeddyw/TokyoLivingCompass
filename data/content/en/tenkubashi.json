@@ -25,7 +25,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 5 clinics and 3 pharmacies. The nearest facility recorded as a hospital is 渡辺病院, about 1231 m from the station. The next nearest is 高野病院, about 1256 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 3 pharmacies. The nearest hospital is 渡辺病院, about 21 minutes' walk from the station. The next nearest is 高野病院, about 21 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station: Keikyu Airport Line and Tokyo Monorail. The lines are split between operators (Keikyu runs 1 line and Tokyo Monorail runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "The ministry's congestion survey does not publish figures for Keikyu Airport Line and Tokyo Monorail. It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
@@ -43,12 +43,12 @@
     {
       "slug": "seibijo",
       "lead": "Seibijo is ahead on how little of the area is in the flood projection, but Tenkubashi is ahead on the number of lines.",
-      "note": "695 m away in a straight line. It reaches Otemachi in about the same time as Tenkubashi."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Tenkubashi."
     },
     {
       "slug": "anamori-inari",
       "lead": "Anamori-Inari is ahead on the number of medical facilities and how easy the shopping is, but Tenkubashi is ahead on the number of lines and quiet.",
-      "note": "701 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Tenkubashi. One-room rents run about ¥6,000 higher."
+      "note": "Close enough to walk to. It takes 7 minutes longer to reach Otemachi than Tenkubashi. One-room rents run about ¥6,000 higher."
     }
   ],
   "goodFor": [
@@ -61,8 +61,8 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "環八通り (3 lanes each way) runs 132 m away. Traffic on it never stops",
-    "環八通り (2 lanes each way) runs 191 m away. Morning and evening, the cars are audible indoors"
+    "環八通り (3 lanes each way) runs just outside the station. Traffic on it never stops",
+    "環八通り (2 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "quiet",

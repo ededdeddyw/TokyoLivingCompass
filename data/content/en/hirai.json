@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 2 clinics and 3 pharmacies. The nearest facility recorded as a hospital is 西村記念病院, about 147 m from the station. The next nearest is 二本松眼科病院, about 195 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 2 clinics and 3 pharmacies. The nearest hospital is 西村記念病院, about 3 minutes' walk from the station. The next nearest is 二本松眼科病院, about 4 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: JR Chuo-Sobu Line (Local).",
   "congestion": "JR Chuo-Sobu Line (Local) runs at 151% of capacity in the morning peak. The busiest stretch is 錦糸町→両国, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "higashi-azuma",
       "lead": "Higashi-Azuma is ahead on quiet, but Hirai is ahead on how close the centre is.",
-      "note": "932 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Hirai. One-room rents run about ¥7,000 higher."
+      "note": "Close enough to walk to. It takes 4 minutes longer to reach Otemachi than Hirai. One-room rents run about ¥7,000 higher."
     },
     {
       "slug": "kameidosuijin",
       "lead": "rents are lower at Hirai, but Kameidosuijin is ahead on how easy the shopping is and quiet.",
-      "note": "1067 m away in a straight line. It reaches Otemachi in about the same time as Hirai. One-room rents run about ¥18,000 higher."
+      "note": "About 1 km away in a straight line. It reaches Otemachi in about the same time as Hirai. One-room rents run about ¥18,000 higher."
     }
   ],
   "goodFor": [
@@ -75,8 +75,8 @@
     "People who want to finish their shopping on foot"
   ],
   "noiseSources": [
-    "蔵前橋通り (2 lanes each way) runs 162 m away. Morning and evening, the cars are audible indoors",
-    "The nearest big road is ゆりのき橋通り, 241 m away, so little traffic noise reaches the station area"
+    "蔵前橋通り (2 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening",
+    "The nearest big road, ゆりのき橋通り, is far enough that little traffic noise reaches the station area"
   ],
   "tags": [
     "goodValue",

@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 8 clinics and 5 pharmacies. No facility recorded as a hospital lies within 2.5 km of the station. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 8 clinics and 5 pharmacies. No facility recorded as a hospital lies within 2.5 km of the station. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "5 lines serve the station. Keisei Main Line and Keisei Oshiage Line run through it. Keisei Kanamachi Line also call here. Narita Sky Access Line and Hokuso Line are available too. The lines are split between operators (Keisei runs 4 lines and Hokuso Railway runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "Keisei Oshiage Line runs at 157% of capacity in the morning peak. The busiest stretch is 京成曳舟→押上, which this station is not on. Keisei Main Line runs at 137%. Its busiest stretch is 大神宮下→京成船橋, which this station is likewise not on. Hokuso Line runs at 90% of capacity in the morning peak. The busiest stretch of the line is 新柴又→京成高砂, which includes this station. Keisei Kanamachi Line and Narita Sky Access Line is not covered by the ministry's congestion survey. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "shibamata",
       "lead": "Shibamata is ahead on the number of medical facilities and quiet, but Keisei-Takasago is ahead on the number of lines.",
-      "note": "960 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Keisei-Takasago."
+      "note": "Close enough to walk to. It takes 7 minutes longer to reach Otemachi than Keisei-Takasago."
     },
     {
       "slug": "aoto",
       "lead": "Aoto is ahead on the number of medical facilities and how easy the shopping is, but Keisei-Takasago is ahead on the number of lines.",
-      "note": "1107 m away in a straight line. It reaches Otemachi 3 minutes sooner than Keisei-Takasago."
+      "note": "About 1 km away in a straight line. It reaches Otemachi 3 minutes sooner than Keisei-Takasago."
     }
   ],
   "goodFor": [
@@ -74,7 +74,7 @@
     "People avoiding projected flood inundation areas"
   ],
   "noiseSources": [
-    "王子金町市川線 (1 lanes each way) runs 67 m away. Morning and evening, the cars are audible indoors"
+    "王子金町市川線 (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "floodArea",

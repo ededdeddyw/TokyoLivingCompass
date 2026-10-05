@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 16 clinics and 9 pharmacies. The nearest facility recorded as a hospital is 宮内庁病院, about 810 m from the station. The next nearest is 浩邦会日比谷病院, about 1548 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 16 clinics and 9 pharmacies. The nearest hospital is 宮内庁病院, about 14 minutes' walk from the station. The next nearest is 浩邦会日比谷病院, about 26 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "11 lines serve the station. JR Tokaido Line and JR Yamanote Line run through it. JR Yokosuka Line and JR Chuo Main Line also call here. JR Chuo Rapid Line and JR Sobu Main Line are available too. JR Keiyo Line and Narita Express stop here as well. JR Keihin-Tohoku Line stop here as well. JR Ueno-Tokyo Line stop here as well. Tokyo Metro Marunouchi Line stop here as well. The lines are split between operators (JR East runs 10 lines and Tokyo Metro runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "JR Sobu Main Line runs at 160% of capacity in the morning peak. The busiest stretch is 新小岩→錦糸町, which this station is not on. JR Tokaido Line runs at 159%. Its busiest stretch is 川崎→品川, which this station is likewise not on. JR Keihin-Tohoku Line runs at 159%. Its busiest stretch is 大井町→品川, which this station is likewise not on. JR Chuo Main Line, Narita Express and JR Ueno-Tokyo Line is not covered by the ministry's congestion survey. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "nijubashimae",
       "lead": "Nijubashimae is ahead on how little of the area is in the flood projection, but Tokyo is ahead on the number of lines and the number of medical facilities.",
-      "note": "364 m away in a straight line. It reaches Otemachi in about the same time as Tokyo."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Tokyo."
     },
     {
       "slug": "otemachi",
       "lead": "Otemachi is ahead on how little of the area is in the flood projection, but Tokyo is ahead on the number of lines.",
-      "note": "507 m away in a straight line. It reaches Otemachi in about the same time as Tokyo. One-room rents run about ¥7,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Tokyo. One-room rents run about ¥7,000 higher."
     }
   ],
   "goodFor": [
@@ -76,7 +76,7 @@
     "People who want to hold the rent down"
   ],
   "noiseSources": [
-    "錦町有楽町線 (a main road) runs 120 m away. Morning and evening, the cars are audible indoors"
+    "錦町有楽町線 (a main road) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "goodValue",

@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 8 clinics and 6 pharmacies. The nearest facility recorded as a hospital is 竹内病院, about 1831 m from the station. The next nearest is 桑原病院, about 1899 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 8 clinics and 6 pharmacies. The nearest hospital is 竹内病院, about 30 minutes' walk from the station. The next nearest is 桑原病院, about 31 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Sakura Tram (Toden Arakawa Line).",
   "congestion": "The ministry's congestion survey does not publish figures for Tokyo Sakura Tram (Toden Arakawa Line). It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "miyanomae",
       "lead": "rent, commuting and the flood projection are all much the same.",
-      "note": "290 m away in a straight line. It reaches Otemachi in about the same time as Odai."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Odai."
     },
     {
       "slug": "arakawa-yuenchimae",
       "lead": "rent, commuting and the flood projection are all much the same.",
-      "note": "362 m away in a straight line. It reaches Otemachi in about the same time as Odai. One-room rents run about ¥5,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Odai. One-room rents run about ¥5,000 higher."
     }
   ],
   "goodFor": [
@@ -75,8 +75,8 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "都電通り (a main road) runs 2 m away. Morning and evening, the cars are audible indoors",
-    "白山小台線 (1 lanes each way) runs 24 m away. Morning and evening, the cars are audible indoors"
+    "都電通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road",
+    "白山小台線 (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "floodArea",

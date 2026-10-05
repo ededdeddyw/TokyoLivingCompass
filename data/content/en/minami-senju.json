@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 20 clinics and 10 pharmacies. The nearest facility recorded as a hospital is 木村病院, about 933 m from the station. The next nearest is 台東病院, about 1308 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 20 clinics and 10 pharmacies. The nearest hospital is 木村病院, about 16 minutes' walk from the station. The next nearest is 台東病院, about 22 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "3 lines serve the station. JR Joban Line and Tokyo Metro Hibiya Line run through it. Tsukuba Express also call here. The lines are split between operators (JR East runs 1 line, Tokyo Metro runs 1 line and Tsukuba Express runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "Tokyo Metro Hibiya Line runs at 163% of capacity in the morning peak. The busiest stretch is 三ノ輪→入谷, which this station is not on. Tsukuba Express runs at 151%. Its busiest stretch is 青井→北千住, which this station is likewise not on. JR Joban Line runs at 142%. Its busiest stretch is 三河島→日暮里, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "minowabashi",
       "lead": "Minowabashi is ahead on the number of medical facilities and how easy the shopping is, but Minami-Senju is ahead on the number of lines and how close the centre is.",
-      "note": "708 m away in a straight line. It takes 10 minutes longer to reach Otemachi than Minami-Senju."
+      "note": "Close enough to walk to. It takes 10 minutes longer to reach Otemachi than Minami-Senju."
     },
     {
       "slug": "minowa",
       "lead": "Minowa is ahead on the number of medical facilities and how easy the shopping is, but Minami-Senju is ahead on the number of lines and quiet.",
-      "note": "802 m away in a straight line. It reaches Otemachi in about the same time as Minami-Senju. One-room rents run about ¥8,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Minami-Senju. One-room rents run about ¥8,000 higher."
     }
   ],
   "goodFor": [
@@ -75,7 +75,7 @@
     "People avoiding projected flood inundation areas"
   ],
   "noiseSources": [
-    "山谷通り (a main road) runs 116 m away. Morning and evening, the cars are audible indoors"
+    "山谷通り (a main road) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "floodArea",

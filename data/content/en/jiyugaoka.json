@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 13 clinics and 13 pharmacies. The nearest facility recorded as a hospital is 奥沢病院, about 395 m from the station. The next nearest is おくさわ脳卒中リハビリテーション病院, about 558 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 13 clinics and 13 pharmacies. The nearest hospital is 奥沢病院, about 7 minutes' walk from the station. The next nearest is おくさわ脳卒中リハビリテーション病院, about 10 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station: Tokyu Toyoko Line and Tokyu Oimachi Line. Both lines are run by Tokyu, so a fault affecting that company can stop them together.",
   "congestion": "Tokyu Toyoko Line runs at 124% of capacity in the morning peak. The busiest stretch is 祐天寺→中目黒, which this station is not on. Tokyu Oimachi Line runs at 118% of capacity in the morning peak. The busiest stretch of the line is 九品仏→自由が丘, which includes this station. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "okusawa",
       "lead": "Jiyugaoka is ahead on the number of lines.",
-      "note": "494 m away in a straight line. It reaches Otemachi in about the same time as Jiyugaoka."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Jiyugaoka."
     },
     {
       "slug": "kuhombutsu",
       "lead": "Kuhombutsu is ahead on quiet, but Jiyugaoka is ahead on the number of lines and how close the centre is.",
-      "note": "723 m away in a straight line. It takes 5 minutes longer to reach Otemachi than Jiyugaoka."
+      "note": "Close enough to walk to. It takes 5 minutes longer to reach Otemachi than Jiyugaoka."
     }
   ],
   "goodFor": [
@@ -72,7 +72,7 @@
     "People avoiding projected flood inundation areas"
   ],
   "noiseSources": [
-    "The nearest big road is 自由通り, 204 m away, so little traffic noise reaches the station area"
+    "The nearest big road, 自由通り, is far enough that little traffic noise reaches the station area"
   ],
   "tags": [
     "majorHub",

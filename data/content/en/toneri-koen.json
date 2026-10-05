@@ -9,7 +9,7 @@
     "note": "The station sits lower than the ground around it, at 3 m above sea level. Within 800 m the ground ranges from 2.9 m to 4.9 m, a difference of 2.0 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
-  "medical": "Within an 800 m walk of the station, OpenStreetMap records neither a clinic nor a pharmacy. The nearest facility recorded as a hospital is 博慈会記念総合病院, about 2193 m from the station. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station, OpenStreetMap records neither a clinic nor a pharmacy. The nearest hospital is 博慈会記念総合病院, about 36 minutes' walk from the station. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Nippori-Toneri Liner.",
   "congestion": "The ministry's congestion survey does not publish figures for Nippori-Toneri Liner. It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
@@ -27,12 +27,12 @@
     {
       "slug": "yazaike",
       "lead": "Yazaike is ahead on the number of medical facilities.",
-      "note": "829 m away in a straight line. It reaches Otemachi in about the same time as Toneri-Koen."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Toneri-Koen."
     },
     {
       "slug": "toneri",
       "lead": "Toneri is ahead on how easy the shopping is.",
-      "note": "1053 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Toneri-Koen. One-room rents run about ¥6,000 higher."
+      "note": "About 1 km away in a straight line. It takes 4 minutes longer to reach Otemachi than Toneri-Koen. One-room rents run about ¥6,000 higher."
     }
   ],
   "goodFor": [
@@ -46,7 +46,7 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "尾久橋通り (a main road) runs 8 m away. Morning and evening, the cars are audible indoors"
+    "尾久橋通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "quiet",

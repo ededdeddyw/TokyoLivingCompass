@@ -32,7 +32,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 5 clinics and 2 pharmacies. The nearest facility recorded as a hospital is 米倉脊椎・関節病院, about 586 m from the station. The next nearest is 東京女子医科大学附属足立医療センター, about 1171 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 2 pharmacies. The nearest hospital is 米倉脊椎・関節病院, about 10 minutes' walk from the station. The next nearest is 東京女子医科大学附属足立医療センター, about 20 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Nippori-Toneri Liner.",
   "congestion": "The ministry's congestion survey does not publish figures for Nippori-Toneri Liner. It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
@@ -50,12 +50,12 @@
     {
       "slug": "koya",
       "lead": "rent, commuting and the flood projection are all much the same.",
-      "note": "496 m away in a straight line. It reaches Otemachi in about the same time as Ogi-Ohashi."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Ogi-Ohashi."
     },
     {
       "slug": "adachi-odai",
       "lead": "Adachi-Odai is ahead on how little of the area is in the flood projection, but Ogi-Ohashi is ahead on the number of medical facilities.",
-      "note": "1028 m away in a straight line. It reaches Otemachi 3 minutes sooner than Ogi-Ohashi."
+      "note": "About 1 km away in a straight line. It reaches Otemachi 3 minutes sooner than Ogi-Ohashi."
     }
   ],
   "goodFor": [
@@ -69,8 +69,8 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "The 首都高速中央環状線 viaduct runs 393 m away. It is an expressway, so traffic is audible day and night",
-    "尾久橋通り (a main road) runs 8 m away. Morning and evening, the cars are audible indoors"
+    "The 首都高速中央環状線 viaduct runs a short walk from the station. It is an expressway, so traffic is audible day and night",
+    "尾久橋通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "goodValue",

@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 6 clinics and 5 pharmacies. The nearest facility recorded as a hospital is 練馬光が丘病院, about 1263 m from the station. The next nearest is 忠医会病院, about 1349 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 6 clinics and 5 pharmacies. The nearest hospital is 練馬光が丘病院, about 21 minutes' walk from the station. The next nearest is 忠医会病院, about 22 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Toei Oedo Line.",
   "congestion": "Toei Oedo Line runs at 147% of capacity in the morning peak. The busiest stretch is 中井→東中野, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "toshimaen",
       "lead": "Toshimaen is ahead on the number of lines and the number of medical facilities.",
-      "note": "1285 m away in a straight line. It reaches Otemachi 3 minutes sooner than Nerima-Kasugacho. One-room rents run about ¥5,000 lower."
+      "note": "About 1.5 km away in a straight line. It reaches Otemachi 3 minutes sooner than Nerima-Kasugacho. One-room rents run about ¥5,000 lower."
     },
     {
       "slug": "hikarigaoka",
       "lead": "rent, commuting and the flood projection are all much the same.",
-      "note": "1311 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Nerima-Kasugacho."
+      "note": "About 1.5 km away in a straight line. It takes 3 minutes longer to reach Otemachi than Nerima-Kasugacho."
     }
   ],
   "goodFor": [
@@ -77,8 +77,8 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "南田中町旭町線（支線1）（補助第172号線） (1 lanes each way) runs 1 m away. Morning and evening, the cars are audible indoors",
-    "環八通り (2 lanes each way) runs 7 m away. Morning and evening, the cars are audible indoors"
+    "南田中町旭町線（支線1）（補助第172号線） (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road",
+    "環八通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "lowFlood",

@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 16 clinics and 15 pharmacies. The nearest facility recorded as a hospital is 日本歯科大学附属病院, about 232 m from the station. The next nearest is JCHO東京新宿メディカルセンター, about 278 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 16 clinics and 15 pharmacies. The nearest hospital is 日本歯科大学附属病院, about 4 minutes' walk from the station. The next nearest is JCHO東京新宿メディカルセンター, about 5 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "5 lines serve the station. JR Chuo-Sobu Line (Local) run through it. Tokyo Metro Tozai Line also call here. Tokyo Metro Yurakucho Line are available too. Tokyo Metro Namboku Line and Toei Oedo Line stop here as well. The lines are split between operators (JR East runs 1 line, Tokyo Metro runs 3 lines and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "Tokyo Metro Tozai Line runs at 160% of capacity in the morning peak. The busiest stretch is 木場→門前仲町, which this station is not on. Tokyo Metro Namboku Line runs at 156%. Its busiest stretch is 駒込→本駒込, which this station is likewise not on. Tokyo Metro Yurakucho Line runs at 153%. Its busiest stretch is 東池袋→護国寺, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "ushigome-kagurazaka",
       "lead": "rents are lower at Ushigome-Kagurazaka, but Iidabashi is ahead on the number of lines and how close the centre is.",
-      "note": "814 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Iidabashi. One-room rents run about ¥17,000 lower."
+      "note": "Close enough to walk to. It takes 7 minutes longer to reach Otemachi than Iidabashi. One-room rents run about ¥17,000 lower."
     },
     {
       "slug": "suidobashi",
       "lead": "Suidobashi is ahead on the number of medical facilities, but Iidabashi is ahead on the number of lines.",
-      "note": "909 m away in a straight line. It reaches Otemachi in about the same time as Iidabashi."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Iidabashi."
     }
   ],
   "goodFor": [
@@ -75,8 +75,8 @@
     "People avoiding projected flood inundation areas"
   ],
   "noiseSources": [
-    "The 首都高速5号池袋線 viaduct runs 117 m away. It is an expressway, so traffic is audible day and night",
-    "外堀通り (3 lanes each way) runs 40 m away, right beside the station. Traffic on it never stops"
+    "The 首都高速5号池袋線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
+    "外堀通り (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "someBustle",

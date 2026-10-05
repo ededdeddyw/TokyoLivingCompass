@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 21 clinics and 17 pharmacies. The nearest facility recorded as a hospital is うめとぴあ, about 349 m from the station. The next nearest is 島津メディカルクリニック, about 1168 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 21 clinics and 17 pharmacies. The nearest hospital is うめとぴあ, about 6 minutes' walk from the station. The next nearest is 島津メディカルクリニック, about 19 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Odakyu Odawara Line.",
   "congestion": "Odakyu Odawara Line runs at 150% of capacity in the morning peak. The busiest stretch is 世田谷代田→下北沢, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "gotokuji",
       "lead": "Gotokuji is ahead on the number of lines, but Umegaoka is ahead on how little of the area is in the flood projection.",
-      "note": "651 m away in a straight line. It reaches Otemachi in about the same time as Umegaoka."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Umegaoka."
     },
     {
       "slug": "higashi-matsubara",
       "lead": "Higashi-Matsubara is ahead on quiet, but Umegaoka is ahead on the number of medical facilities.",
-      "note": "754 m away in a straight line. It reaches Otemachi in about the same time as Umegaoka. One-room rents run about ¥6,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Umegaoka. One-room rents run about ¥6,000 higher."
     }
   ],
   "goodFor": [
@@ -74,7 +74,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "The nearest big road is 瀬田貫井線, 453 m away, so little traffic noise reaches the station area"
+    "The nearest big road, 瀬田貫井線, is far enough that little traffic noise reaches the station area"
   ],
   "tags": [
     "goodValue",

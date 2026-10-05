@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 9 clinics and 14 pharmacies. The nearest facility recorded as a hospital is 悦伝会目白病院, about 691 m from the station. The next nearest is 大同病院, about 754 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 9 clinics and 14 pharmacies. The nearest hospital is 悦伝会目白病院, about 12 minutes' walk from the station. The next nearest is 大同病院, about 13 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: JR Yamanote Line.",
   "congestion": "JR Yamanote Line runs at 136% of capacity in the morning peak. The busiest stretch is 新大久保→新宿, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "gakushuinshita",
       "lead": "Gakushuinshita is ahead on how easy the shopping is, but Mejiro is ahead on how close the centre is.",
-      "note": "733 m away in a straight line. It takes 10 minutes longer to reach Otemachi than Mejiro. One-room rents run about ¥8,000 higher."
+      "note": "Close enough to walk to. It takes 10 minutes longer to reach Otemachi than Mejiro. One-room rents run about ¥8,000 higher."
     },
     {
       "slug": "zoshigaya",
       "lead": "Zoshigaya is ahead on the number of lines and how little of the area is in the flood projection, but Mejiro is ahead on the number of medical facilities.",
-      "note": "779 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Mejiro."
+      "note": "Close enough to walk to. It takes 4 minutes longer to reach Otemachi than Mejiro."
     }
   ],
   "goodFor": [
@@ -74,7 +74,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "目白通り (2 lanes each way) runs 135 m away. Morning and evening, the cars are audible indoors"
+    "目白通り (2 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "goodValue",

@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 15 clinics and 8 pharmacies. The nearest facility recorded as a hospital is あそか病院, about 341 m from the station. The next nearest is 都立墨東病院, about 692 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 15 clinics and 8 pharmacies. The nearest hospital is あそか病院, about 6 minutes' walk from the station. The next nearest is 都立墨東病院, about 12 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station. Tokyo Metro Hanzomon Line run through it. Toei Shinjuku Line also call here. The lines are split between operators (Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "Toei Shinjuku Line runs at 152% of capacity in the morning peak. The busiest stretch of the line is 西大島→住吉, which includes this station. Tokyo Metro Hanzomon Line runs at 111% of capacity in the morning peak. The busiest stretch is 渋谷→表参道, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "kikukawa",
       "lead": "Sumiyoshi is ahead on the number of lines.",
-      "note": "876 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Sumiyoshi."
+      "note": "Close enough to walk to. It takes 7 minutes longer to reach Otemachi than Sumiyoshi."
     },
     {
       "slug": "kinshicho",
       "lead": "Kinshicho is ahead on the number of lines and how easy the shopping is.",
-      "note": "895 m away in a straight line. It reaches Otemachi in about the same time as Sumiyoshi."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Sumiyoshi."
     }
   ],
   "goodFor": [
@@ -74,8 +74,8 @@
     "People avoiding projected flood inundation areas"
   ],
   "noiseSources": [
-    "新大橋通り (2 lanes each way) runs 2 m away. Morning and evening, the cars are audible indoors",
-    "四ツ目通り (2 lanes each way) runs 2 m away. Morning and evening, the cars are audible indoors"
+    "新大橋通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road",
+    "四ツ目通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "lively",

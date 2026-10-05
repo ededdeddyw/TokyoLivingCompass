@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 4 clinics and 4 pharmacies. The nearest facility recorded as a hospital is 板橋中央総合病院, about 985 m from the station. The next nearest is 飯沼病院, about 1575 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 4 clinics and 4 pharmacies. The nearest hospital is 板橋中央総合病院, about 17 minutes' walk from the station. The next nearest is 飯沼病院, about 26 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Toei Mita Line.",
   "congestion": "Toei Mita Line runs at 146% of capacity in the morning peak. The busiest stretch is 西巣鴨→巣鴨, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "shimura-sakaue",
       "lead": "Shimura-Sakaue is ahead on how little of the area is in the flood projection.",
-      "note": "871 m away in a straight line. It reaches Otemachi in about the same time as Shimura-Sanchome."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Shimura-Sanchome."
     },
     {
       "slug": "hasune",
       "lead": "Hasune is ahead on quiet, but Shimura-Sanchome is ahead on how little of the area is in the flood projection.",
-      "note": "994 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Shimura-Sanchome."
+      "note": "Close enough to walk to. It takes 3 minutes longer to reach Otemachi than Shimura-Sanchome."
     }
   ],
   "goodFor": [
@@ -74,8 +74,8 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "The 首都高速5号池袋線 viaduct runs 332 m away. It is an expressway, so traffic is audible day and night",
-    "環八通り (2 lanes each way) runs 145 m away. Morning and evening, the cars are audible indoors"
+    "The 首都高速5号池袋線 viaduct runs a short walk from the station. It is an expressway, so traffic is audible day and night",
+    "環八通り (2 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "quiet",

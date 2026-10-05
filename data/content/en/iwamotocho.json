@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 45 clinics and 41 pharmacies. The nearest facility recorded as a hospital is 秋葉原メディカルクリニック, about 359 m from the station. The next nearest is 同仁記念会明和病院, about 410 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 45 clinics and 41 pharmacies. The nearest hospital is 秋葉原メディカルクリニック, about 6 minutes' walk from the station. The next nearest is 同仁記念会明和病院, about 7 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Toei Shinjuku Line.",
   "congestion": "Toei Shinjuku Line runs at 152% of capacity in the morning peak. The busiest stretch is 西大島→住吉, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "akihabara",
       "lead": "Akihabara is ahead on the number of lines and how close the centre is, but Iwamotocho is ahead on how little of the area is in the flood projection.",
-      "note": "381 m away in a straight line. It reaches Otemachi in about the same time as Iwamotocho."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Iwamotocho."
     },
     {
       "slug": "kodemmacho",
       "lead": "rent, commuting and the flood projection are all much the same.",
-      "note": "581 m away in a straight line. It reaches Otemachi in about the same time as Iwamotocho. One-room rents run about ¥6,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Iwamotocho. One-room rents run about ¥6,000 higher."
     }
   ],
   "goodFor": [
@@ -76,8 +76,8 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "The 首都高速1号上野線 viaduct runs 46 m away. It is an expressway, so traffic is audible day and night",
-    "靖国通り (3 lanes each way) runs 5 m away, right beside the station. Traffic on it never stops"
+    "The 首都高速1号上野線 viaduct runs right beside the station. It is an expressway, so traffic is audible day and night",
+    "靖国通り (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "lively",

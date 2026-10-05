@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 7 clinics and 12 pharmacies. The nearest facility recorded as a hospital is 有隣病院, about 616 m from the station. The next nearest is 世田谷桜丘病院, about 1033 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 7 clinics and 12 pharmacies. The nearest hospital is 有隣病院, about 11 minutes' walk from the station. The next nearest is 世田谷桜丘病院, about 17 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Odakyu Odawara Line.",
   "congestion": "Odakyu Odawara Line runs at 150% of capacity in the morning peak. The busiest stretch is 世田谷代田→下北沢, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "kyodo",
       "lead": "Kyodo is ahead on the number of medical facilities and how easy the shopping is, but Chitose-Funabashi is ahead on how little of the area is in the flood projection and quiet.",
-      "note": "1100 m away in a straight line. It reaches Otemachi 3 minutes sooner than Chitose-Funabashi."
+      "note": "About 1 km away in a straight line. It reaches Otemachi 3 minutes sooner than Chitose-Funabashi."
     },
     {
       "slug": "soshigaya-okura",
       "lead": "Soshigaya-Okura is ahead on the number of medical facilities, but Chitose-Funabashi is ahead on how little of the area is in the flood projection.",
-      "note": "1430 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Chitose-Funabashi."
+      "note": "About 1.5 km away in a straight line. It takes 3 minutes longer to reach Otemachi than Chitose-Funabashi."
     }
   ],
   "goodFor": [
@@ -74,7 +74,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "The nearest big road is 荒玉水道道路, 573 m away, so little traffic noise reaches the station area"
+    "The nearest big road, 荒玉水道道路, is far enough that little traffic noise reaches the station area"
   ],
   "tags": [
     "lowFlood",

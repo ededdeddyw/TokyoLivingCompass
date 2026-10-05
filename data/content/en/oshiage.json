@@ -39,19 +39,19 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 10 clinics and 12 pharmacies. The nearest facility recorded as a hospital is 健生堂病院, about 221 m from the station. The next nearest is 高石胃腸病院, about 829 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 10 clinics and 12 pharmacies. The nearest hospital is 健生堂病院, about 4 minutes' walk from the station. The next nearest is 高石胃腸病院, about 14 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "4 lines serve the station. Tobu Skytree Line and Keisei Oshiage Line run through it. Tokyo Metro Hanzomon Line also call here. Toei Asakusa Line are available too. The lines are split between operators (Tobu runs 1 line, Keisei runs 1 line, Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "Keisei Oshiage Line runs at 157% of capacity in the morning peak. The busiest stretch of the line is 京成曳舟→押上, which includes this station. Tobu Skytree Line runs at 142% of capacity in the morning peak. The busiest stretch is 小菅→北千住, which this station is not on. Toei Asakusa Line runs at 123%. Its busiest stretch is 本所吾妻橋→浅草, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "neighbours": [
     {
       "slug": "tokyo-skytree",
       "lead": "Oshiage is ahead on the number of lines.",
-      "note": "326 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Oshiage."
+      "note": "Close enough to walk to. It takes 6 minutes longer to reach Otemachi than Oshiage."
     },
     {
       "slug": "honjo-azumabashi",
       "lead": "Honjo-Azumabashi is ahead on how little of the area is in the flood projection, but Oshiage is ahead on the number of lines and the number of medical facilities.",
-      "note": "786 m away in a straight line. It reaches Otemachi in about the same time as Oshiage."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Oshiage."
     }
   ],
   "goodFor": [
@@ -63,7 +63,7 @@
     "People avoiding projected flood inundation areas"
   ],
   "noiseSources": [
-    "ガーデン通り (a main road) runs 145 m away. Morning and evening, the cars are audible indoors"
+    "ガーデン通り (a main road) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "floodArea",

@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 13 clinics and 18 pharmacies. The nearest facility recorded as a hospital is 広恵会春山外科病院, about 270 m from the station. The next nearest is JCHO 東京山手メディカルセンター, about 466 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 13 clinics and 18 pharmacies. The nearest hospital is 広恵会春山外科病院, about 5 minutes' walk from the station. The next nearest is JCHO 東京山手メディカルセンター, about 8 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: JR Chuo-Sobu Line (Local).",
   "congestion": "JR Chuo-Sobu Line (Local) runs at 151% of capacity in the morning peak. The busiest stretch is 錦糸町→両国, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "shin-okubo",
       "lead": "rent, commuting and the flood projection are all much the same.",
-      "note": "265 m away in a straight line. It reaches Otemachi 4 minutes sooner than Okubo."
+      "note": "Close enough to walk to. It reaches Otemachi 4 minutes sooner than Okubo."
     },
     {
       "slug": "seibu-shinjuku",
       "lead": "rents are lower at Okubo, but Seibu-Shinjuku is ahead on how little of the area is in the flood projection.",
-      "note": "558 m away in a straight line. It reaches Otemachi 4 minutes sooner than Okubo. One-room rents run about ¥38,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi 4 minutes sooner than Okubo. One-room rents run about ¥38,000 higher."
     }
   ],
   "goodFor": [
@@ -77,7 +77,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "大久保通り (1 lanes each way) runs 100 m away. Morning and evening, the cars are audible indoors"
+    "大久保通り (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "goodValue",

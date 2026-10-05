@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 5 clinics and 9 pharmacies. The nearest facility recorded as a hospital is 荘敬会井上病院, about 92 m from the station. The next nearest is 予定, about 296 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 9 pharmacies. The nearest hospital is 荘敬会井上病院, about 2 minutes' walk from the station. The next nearest is 予定, about 5 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station. Odakyu Odawara Line run through it. Tokyo Metro Chiyoda Line also call here. The lines are split between operators (Odakyu runs 1 line and Tokyo Metro runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "Odakyu Odawara Line runs at 150% of capacity in the morning peak. The busiest stretch is 世田谷代田→下北沢, which this station is not on. Tokyo Metro Chiyoda Line runs at 150%. Its busiest stretch is 町屋→西日暮里, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "yoyogi-uehara",
       "lead": "rents are lower at Yoyogi-Uehara.",
-      "note": "800 m away in a straight line. It reaches Otemachi in about the same time as Yoyogi-Hachiman. One-room rents run about ¥26,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Yoyogi-Hachiman. One-room rents run about ¥26,000 lower."
     },
     {
       "slug": "sangubashi",
       "lead": "rents are lower at Sangubashi, but Yoyogi-Hachiman is ahead on the number of lines and the number of medical facilities.",
-      "note": "1096 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Yoyogi-Hachiman. One-room rents run about ¥18,000 lower."
+      "note": "About 1 km away in a straight line. It takes 7 minutes longer to reach Otemachi than Yoyogi-Hachiman. One-room rents run about ¥18,000 lower."
     }
   ],
   "goodFor": [
@@ -73,8 +73,8 @@
     "People avoiding projected flood inundation areas"
   ],
   "noiseSources": [
-    "The 首都高速中央環状線 viaduct runs 93 m away. It is an expressway, so traffic is audible day and night",
-    "山手通り (a main road) runs 96 m away. Morning and evening, the cars are audible indoors"
+    "The 首都高速中央環状線 viaduct runs right beside the station. It is an expressway, so traffic is audible day and night",
+    "山手通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "quiet",

@@ -25,7 +25,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 2 clinics and 3 pharmacies. The nearest facility recorded as a hospital is 芝公園かみやまクリニック, about 685 m from the station. The next nearest is 愛育病院, about 687 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 2 clinics and 3 pharmacies. The nearest hospital is 芝公園かみやまクリニック, about 12 minutes' walk from the station. The next nearest is 愛育病院, about 12 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Yurikamome.",
   "congestion": "Yurikamome runs at 92% of capacity in the morning peak. The busiest stretch is 汐留→竹芝, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -43,12 +43,12 @@
     {
       "slug": "takeshiba",
       "lead": "rents are lower at Hinode, but Takeshiba is ahead on quiet.",
-      "note": "613 m away in a straight line. It reaches Otemachi in about the same time as Hinode. One-room rents run about ¥30,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Hinode. One-room rents run about ¥30,000 higher."
     },
     {
       "slug": "hamamatsucho",
       "lead": "Hamamatsucho is ahead on the number of lines and how close the centre is, but Hinode is ahead on how little of the area is in the flood projection.",
-      "note": "729 m away in a straight line. It reaches Otemachi 9 minutes sooner than Hinode."
+      "note": "Close enough to walk to. It reaches Otemachi 9 minutes sooner than Hinode."
     }
   ],
   "goodFor": [
@@ -60,8 +60,8 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "新橋日の出ふ頭線 (a main road) runs 4 m away. Morning and evening, the cars are audible indoors",
-    "海岸通り (4 lanes each way) runs 45 m away. Traffic on it never stops"
+    "新橋日の出ふ頭線 (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road",
+    "海岸通り (4 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "pricey",

@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 7 clinics and 10 pharmacies. The nearest facility recorded as a hospital is BOWOW, about 725 m from the station. The next nearest is 荘敬会井上病院, about 729 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 7 clinics and 10 pharmacies. The nearest hospital is BOWOW, about 12 minutes' walk from the station. The next nearest is 荘敬会井上病院, about 12 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station. Odakyu Odawara Line run through it. Tokyo Metro Chiyoda Line also call here. The lines are split between operators (Odakyu runs 1 line and Tokyo Metro runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "Odakyu Odawara Line runs at 150% of capacity in the morning peak. The busiest stretch is 世田谷代田→下北沢, which this station is not on. Tokyo Metro Chiyoda Line runs at 150%. Its busiest stretch is 町屋→西日暮里, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "higashi-kitazawa",
       "lead": "Higashi-Kitazawa is ahead on how little of the area is in the flood projection and quiet, but Yoyogi-Uehara is ahead on the number of lines.",
-      "note": "769 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Yoyogi-Uehara."
+      "note": "Close enough to walk to. It takes 7 minutes longer to reach Otemachi than Yoyogi-Uehara."
     },
     {
       "slug": "yoyogi-hachiman",
       "lead": "rents are lower at Yoyogi-Uehara.",
-      "note": "800 m away in a straight line. It reaches Otemachi in about the same time as Yoyogi-Uehara. One-room rents run about ¥26,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Yoyogi-Uehara. One-room rents run about ¥26,000 higher."
     }
   ],
   "goodFor": [
@@ -73,7 +73,7 @@
     "The data does not show a drawback particular to this station"
   ],
   "noiseSources": [
-    "井ノ頭通り (2 lanes each way) runs 102 m away. Morning and evening, the cars are audible indoors"
+    "井ノ頭通り (2 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "lowFlood",

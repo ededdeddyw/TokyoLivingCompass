@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 16 clinics and 14 pharmacies. The nearest facility recorded as a hospital is 虎の門病院, about 647 m from the station. The next nearest is 東京慈恵会医科大学附属病院, about 1142 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 16 clinics and 14 pharmacies. The nearest hospital is 虎の門病院, about 11 minutes' walk from the station. The next nearest is 東京慈恵会医科大学附属病院, about 19 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Namboku Line.",
   "congestion": "Tokyo Metro Namboku Line runs at 156% of capacity in the morning peak. The busiest stretch is 駒込→本駒込, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "kamiyacho",
       "lead": "Kamiyacho is ahead on how close the centre is, but Roppongi-Itchome is ahead on how little of the area is in the flood projection.",
-      "note": "620 m away in a straight line. It reaches Otemachi 6 minutes sooner than Roppongi-Itchome."
+      "note": "Close enough to walk to. It reaches Otemachi 6 minutes sooner than Roppongi-Itchome."
     },
     {
       "slug": "roppongi",
       "lead": "Roppongi is ahead on the number of lines and how close the centre is, but Roppongi-Itchome is ahead on the number of medical facilities.",
-      "note": "720 m away in a straight line. It reaches Otemachi 3 minutes sooner than Roppongi-Itchome. One-room rents run about ¥9,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi 3 minutes sooner than Roppongi-Itchome. One-room rents run about ¥9,000 lower."
     }
   ],
   "goodFor": [
@@ -76,8 +76,8 @@
     "People who want to hold the rent down"
   ],
   "noiseSources": [
-    "The 首都高速都心環状線 viaduct runs 6 m away. It is an expressway, so traffic is audible day and night",
-    "高輪麻布線 (2 lanes each way) runs 4 m away. Morning and evening, the cars are audible indoors"
+    "The 首都高速都心環状線 viaduct runs right beside the station. It is an expressway, so traffic is audible day and night",
+    "高輪麻布線 (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "pricey",

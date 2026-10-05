@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 14 clinics and 24 pharmacies. The nearest facility recorded as a hospital is 日本医科大学附属病院, about 617 m from the station. The next nearest is 都立駒込病院, about 656 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 14 clinics and 24 pharmacies. The nearest hospital is 日本医科大学附属病院, about 11 minutes' walk from the station. The next nearest is 都立駒込病院, about 11 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Namboku Line.",
   "congestion": "Tokyo Metro Namboku Line runs at 156% of capacity in the morning peak. The busiest stretch of the line is 駒込→本駒込, which includes this station. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "hakusan",
       "lead": "Hakusan is ahead on how little of the area is in the flood projection, but Hon-Komagome is ahead on quiet.",
-      "note": "341 m away in a straight line. It reaches Otemachi 8 minutes sooner than Hon-Komagome."
+      "note": "Close enough to walk to. It reaches Otemachi 8 minutes sooner than Hon-Komagome."
     },
     {
       "slug": "todaimae",
       "lead": "Todaimae is ahead on how easy the shopping is.",
-      "note": "818 m away in a straight line. It reaches Otemachi in about the same time as Hon-Komagome. One-room rents run about ¥5,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Hon-Komagome. One-room rents run about ¥5,000 lower."
     }
   ],
   "goodFor": [
@@ -75,8 +75,8 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "本郷通り (2 lanes each way) runs 3 m away. Morning and evening, the cars are audible indoors",
-    "旧白山通り (1 lanes each way) runs 163 m away. Morning and evening, the cars are audible indoors"
+    "本郷通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road",
+    "旧白山通り (1 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "goodValue",

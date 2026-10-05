@@ -32,7 +32,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 7 clinics and 5 pharmacies. The nearest facility recorded as a hospital is 河野臨牀医学研究所附属第三北品川病院, about 130 m from the station. The next nearest is 河野臨牀医学研究所附属北品川病院, about 247 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 7 clinics and 5 pharmacies. The nearest hospital is 河野臨牀医学研究所附属第三北品川病院, about 3 minutes' walk from the station. The next nearest is 河野臨牀医学研究所附属北品川病院, about 5 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Keikyu Main Line.",
   "congestion": "Keikyu Main Line runs at 120% of capacity in the morning peak. The busiest stretch is 戸部→横浜, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -50,12 +50,12 @@
     {
       "slug": "shimbamba",
       "lead": "rents are lower at Shimbamba, but Kitashinagawa is ahead on how little of the area is in the flood projection.",
-      "note": "572 m away in a straight line. It reaches Otemachi in about the same time as Kitashinagawa. One-room rents run about ¥28,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Kitashinagawa. One-room rents run about ¥28,000 lower."
     },
     {
       "slug": "shinagawa",
       "lead": "rents are lower at Kitashinagawa, but Shinagawa is ahead on the number of lines and how close the centre is.",
-      "note": "691 m away in a straight line. It reaches Otemachi 6 minutes sooner than Kitashinagawa. One-room rents run about ¥10,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi 6 minutes sooner than Kitashinagawa. One-room rents run about ¥10,000 higher."
     }
   ],
   "goodFor": [
@@ -66,7 +66,7 @@
     "People who want to finish their shopping on foot"
   ],
   "noiseSources": [
-    "第一京浜 (3 lanes each way) runs 36 m away, right beside the station. Traffic on it never stops"
+    "第一京浜 (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "pricey",

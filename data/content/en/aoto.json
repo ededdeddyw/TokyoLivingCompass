@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 19 clinics and 15 pharmacies. No facility recorded as a hospital lies within 2.5 km of the station. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 19 clinics and 15 pharmacies. No facility recorded as a hospital lies within 2.5 km of the station. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "3 lines serve the station. Keisei Main Line and Keisei Oshiage Line run through it. Narita Sky Access Line also call here. All 3 lines are run by Keisei, so a fault affecting that company can stop them together.",
   "congestion": "Keisei Oshiage Line runs at 157% of capacity in the morning peak. The busiest stretch is 京成曳舟→押上, which this station is not on. Keisei Main Line runs at 137%. Its busiest stretch is 大神宮下→京成船橋, which this station is likewise not on. Narita Sky Access Line is not covered by the ministry's congestion survey. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "keisei-tateishi",
       "lead": "Keisei-Tateishi is ahead on the number of medical facilities, but Aoto is ahead on the number of lines and how little of the area is in the flood projection.",
-      "note": "1096 m away in a straight line. It reaches Otemachi in about the same time as Aoto."
+      "note": "About 1 km away in a straight line. It reaches Otemachi in about the same time as Aoto."
     },
     {
       "slug": "keisei-takasago",
       "lead": "Keisei-Takasago is ahead on the number of lines, but Aoto is ahead on the number of medical facilities and how easy the shopping is.",
-      "note": "1107 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Aoto."
+      "note": "About 1 km away in a straight line. It takes 3 minutes longer to reach Otemachi than Aoto."
     }
   ],
   "goodFor": [
@@ -74,7 +74,7 @@
     "People avoiding projected flood inundation areas"
   ],
   "noiseSources": [
-    "The nearest big road is 環七通り, 246 m away, so little traffic noise reaches the station area"
+    "The nearest big road, 環七通り, is far enough that little traffic noise reaches the station area"
   ],
   "tags": [
     "lateNight",

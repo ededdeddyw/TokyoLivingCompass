@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 10 clinics and 7 pharmacies. The nearest facility recorded as a hospital is 米倉脊椎・関節病院, about 1462 m from the station. The next nearest is 東京女子医科大学附属足立医療センター, about 1470 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 10 clinics and 7 pharmacies. The nearest hospital is 米倉脊椎・関節病院, about 24 minutes' walk from the station. The next nearest is 東京女子医科大学附属足立医療センター, about 24 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tobu Daishi Line.",
   "congestion": "The ministry's congestion survey does not publish figures for Tobu Daishi Line. It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "nishiarai",
       "lead": "Nishiarai is ahead on the number of lines and how easy the shopping is, but Daishimae is ahead on the number of medical facilities.",
-      "note": "808 m away in a straight line. It reaches Otemachi 7 minutes sooner than Daishimae."
+      "note": "Close enough to walk to. It reaches Otemachi 7 minutes sooner than Daishimae."
     },
     {
       "slug": "nishiaraidaishi-nishi",
       "lead": "Nishiaraidaishi-Nishi is ahead on quiet.",
-      "note": "1079 m away in a straight line. It reaches Otemachi 7 minutes sooner than Daishimae."
+      "note": "About 1 km away in a straight line. It reaches Otemachi 7 minutes sooner than Daishimae."
     }
   ],
   "goodFor": [
@@ -74,7 +74,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "環七通り (2 lanes each way) runs 102 m away. Morning and evening, the cars are audible indoors"
+    "環七通り (2 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "pricey",

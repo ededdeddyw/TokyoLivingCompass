@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 5 clinics and 8 pharmacies. The nearest facility recorded as a hospital is 東京武蔵野病院, about 896 m from the station. The next nearest is 練馬総合病院, about 1128 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 8 pharmacies. The nearest hospital is 東京武蔵野病院, about 15 minutes' walk from the station. The next nearest is 練馬総合病院, about 19 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Seibu Yurakucho Line.",
   "congestion": "Seibu Yurakucho Line runs at 102% of capacity in the morning peak. The busiest stretch of the line is 新桜台→小竹向原, which includes this station. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "ekoda",
       "lead": "Ekoda is ahead on how close the centre is, but Shin-Sakuradai is ahead on how little of the area is in the flood projection.",
-      "note": "541 m away in a straight line. It reaches Otemachi 6 minutes sooner than Shin-Sakuradai."
+      "note": "Close enough to walk to. It reaches Otemachi 6 minutes sooner than Shin-Sakuradai."
     },
     {
       "slug": "sakuradai",
       "lead": "Sakuradai is ahead on quiet, but Shin-Sakuradai is ahead on how little of the area is in the flood projection.",
-      "note": "559 m away in a straight line. It reaches Otemachi 4 minutes sooner than Shin-Sakuradai."
+      "note": "Close enough to walk to. It reaches Otemachi 4 minutes sooner than Shin-Sakuradai."
     }
   ],
   "goodFor": [
@@ -75,7 +75,7 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "環七通り (2 lanes each way) runs 3 m away. Morning and evening, the cars are audible indoors"
+    "環七通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "quiet",

@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 23 clinics and 16 pharmacies. The nearest facility recorded as a hospital is 帝京大学医学部附属病院, about 750 m from the station. The next nearest is 愛誠病院, about 793 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 23 clinics and 16 pharmacies. The nearest hospital is 帝京大学医学部附属病院, about 13 minutes' walk from the station. The next nearest is 愛誠病院, about 13 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: JR Saikyo Line.",
   "congestion": "JR Saikyo Line runs at 167% of capacity in the morning peak. The busiest stretch is 板橋→池袋, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "higashi-jujo",
       "lead": "Higashi-Jujo is ahead on how easy the shopping is, but Jujo is ahead on how little of the area is in the flood projection.",
-      "note": "569 m away in a straight line. It reaches Otemachi in about the same time as Jujo."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Jujo."
     },
     {
       "slug": "shin-itabashi",
       "lead": "Shin-Itabashi is ahead on how little of the area is in the flood projection, but Jujo is ahead on the number of medical facilities.",
-      "note": "1297 m away in a straight line. It reaches Otemachi 9 minutes sooner than Jujo. One-room rents run about ¥9,000 higher."
+      "note": "About 1.5 km away in a straight line. It reaches Otemachi 9 minutes sooner than Jujo. One-room rents run about ¥9,000 higher."
     }
   ],
   "goodFor": [
@@ -76,7 +76,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "本郷赤羽線（支線）(補助第73号線) (a main road) runs 77 m away. Morning and evening, the cars are audible indoors"
+    "本郷赤羽線（支線）(補助第73号線) (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "lively",

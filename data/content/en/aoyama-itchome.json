@@ -32,7 +32,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 10 clinics and 6 pharmacies. The nearest facility recorded as a hospital is Sanno Medical Center, about 210 m from the station. The next nearest is 順和会山王病院, about 445 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 10 clinics and 6 pharmacies. The nearest hospital is Sanno Medical Center, about 4 minutes' walk from the station. The next nearest is 順和会山王病院, about 8 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "3 lines serve the station. Tokyo Metro Ginza Line run through it. Tokyo Metro Hanzomon Line also call here. Toei Oedo Line are available too. The lines are split between operators (Tokyo Metro runs 2 lines and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "Tokyo Metro Ginza Line runs at 153% of capacity in the morning peak. The busiest stretch is 赤坂見附→溜池山王, which this station is not on. Toei Oedo Line runs at 147%. Its busiest stretch is 中井→東中野, which this station is likewise not on. Tokyo Metro Hanzomon Line runs at 111%. Its busiest stretch is 渋谷→表参道, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -50,12 +50,12 @@
     {
       "slug": "gaiemmae",
       "lead": "rents are lower at Aoyama-Itchome, but Gaiemmae is ahead on the number of medical facilities and how easy the shopping is.",
-      "note": "618 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Aoyama-Itchome. One-room rents run about ¥46,000 higher."
+      "note": "Close enough to walk to. It takes 6 minutes longer to reach Otemachi than Aoyama-Itchome. One-room rents run about ¥46,000 higher."
     },
     {
       "slug": "nogizaka",
       "lead": "rents are lower at Aoyama-Itchome, but Nogizaka is ahead on the number of medical facilities.",
-      "note": "720 m away in a straight line. It reaches Otemachi in about the same time as Aoyama-Itchome. One-room rents run about ¥15,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Aoyama-Itchome. One-room rents run about ¥15,000 higher."
     }
   ],
   "goodFor": [
@@ -68,8 +68,8 @@
     "People who want to finish their shopping on foot"
   ],
   "noiseSources": [
-    "外苑東通り (3 lanes each way) runs 1 m away, right beside the station. Traffic on it never stops",
-    "青山通り (3 lanes each way) runs 4 m away, right beside the station. Traffic on it never stops"
+    "外苑東通り (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road",
+    "青山通り (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "pricey",

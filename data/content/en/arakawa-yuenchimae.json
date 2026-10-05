@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 7 clinics and 7 pharmacies. The nearest facility recorded as a hospital is 桑原病院, about 1567 m from the station. The next nearest is 竹内病院, about 2165 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 7 clinics and 7 pharmacies. The nearest hospital is 桑原病院, about 26 minutes' walk from the station. The next nearest is 竹内病院, about 36 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Sakura Tram (Toden Arakawa Line).",
   "congestion": "The ministry's congestion survey does not publish figures for Tokyo Sakura Tram (Toden Arakawa Line). It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "odai",
       "lead": "rent, commuting and the flood projection are all much the same.",
-      "note": "362 m away in a straight line. It reaches Otemachi in about the same time as Arakawa-Yuenchimae. One-room rents run about ¥5,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Arakawa-Yuenchimae. One-room rents run about ¥5,000 lower."
     },
     {
       "slug": "arakawa-shakomae",
       "lead": "Arakawa-Shakomae is ahead on quiet.",
-      "note": "465 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Arakawa-Yuenchimae. One-room rents run about ¥7,000 higher."
+      "note": "Close enough to walk to. It takes 3 minutes longer to reach Otemachi than Arakawa-Yuenchimae. One-room rents run about ¥7,000 higher."
     }
   ],
   "goodFor": [
@@ -76,7 +76,7 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "都電通り (a main road) runs 12 m away. Morning and evening, the cars are audible indoors"
+    "都電通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "pricey",

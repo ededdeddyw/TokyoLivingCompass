@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 14 clinics and 8 pharmacies. The nearest facility recorded as a hospital is 順和会山王病院, about 359 m from the station. The next nearest is Sanno Medical Center, about 642 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 14 clinics and 8 pharmacies. The nearest hospital is 順和会山王病院, about 6 minutes' walk from the station. The next nearest is Sanno Medical Center, about 11 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Chiyoda Line.",
   "congestion": "Tokyo Metro Chiyoda Line runs at 150% of capacity in the morning peak. The busiest stretch is 町屋→西日暮里, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "roppongi",
       "lead": "rents are lower at Nogizaka, but Roppongi is ahead on the number of lines and how close the centre is.",
-      "note": "595 m away in a straight line. It takes 5 minutes longer to reach Otemachi than Nogizaka. One-room rents run about ¥17,000 higher."
+      "note": "Close enough to walk to. It takes 5 minutes longer to reach Otemachi than Nogizaka. One-room rents run about ¥17,000 higher."
     },
     {
       "slug": "aoyama-itchome",
       "lead": "rents are lower at Aoyama-Itchome, but Nogizaka is ahead on the number of medical facilities.",
-      "note": "720 m away in a straight line. It reaches Otemachi in about the same time as Nogizaka. One-room rents run about ¥15,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Nogizaka. One-room rents run about ¥15,000 lower."
     }
   ],
   "goodFor": [
@@ -76,8 +76,8 @@
     "People who want to hold the rent down"
   ],
   "noiseSources": [
-    "乃木坂トンネル (1 lanes each way) runs 2 m away. Morning and evening, the cars are audible indoors",
-    "外苑東通り (2 lanes each way) runs 114 m away. Morning and evening, the cars are audible indoors"
+    "乃木坂トンネル (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road",
+    "外苑東通り (2 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "pricey",

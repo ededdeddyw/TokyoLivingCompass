@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 10 clinics and 6 pharmacies. The nearest facility recorded as a hospital is 桑原病院, about 1172 m from the station. The next nearest is 都立駒込病院, about 2363 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 10 clinics and 6 pharmacies. The nearest hospital is 桑原病院, about 20 minutes' walk from the station. The next nearest is 都立駒込病院, about 39 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Sakura Tram (Toden Arakawa Line).",
   "congestion": "The ministry's congestion survey does not publish figures for Tokyo Sakura Tram (Toden Arakawa Line). It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "arakawa-yuenchimae",
       "lead": "Arakawa-Shakomae is ahead on quiet.",
-      "note": "465 m away in a straight line. It reaches Otemachi 3 minutes sooner than Arakawa-Shakomae. One-room rents run about ¥7,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi 3 minutes sooner than Arakawa-Shakomae. One-room rents run about ¥7,000 lower."
     },
     {
       "slug": "oku",
       "lead": "Oku is ahead on the number of lines and how close the centre is, but Arakawa-Shakomae is ahead on quiet.",
-      "note": "466 m away in a straight line. It reaches Otemachi 13 minutes sooner than Arakawa-Shakomae. One-room rents run about ¥6,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi 13 minutes sooner than Arakawa-Shakomae. One-room rents run about ¥6,000 lower."
     }
   ],
   "goodFor": [
@@ -75,7 +75,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "The nearest big road is 明治通り, 241 m away, so little traffic noise reaches the station area"
+    "The nearest big road, 明治通り, is far enough that little traffic noise reaches the station area"
   ],
   "tags": [
     "quiet",

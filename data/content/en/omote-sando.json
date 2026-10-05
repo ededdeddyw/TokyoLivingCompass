@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 22 clinics and 17 pharmacies. The nearest facility recorded as a hospital is 伊藤病院, about 190 m from the station. The next nearest is 北青山病院, about 210 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 22 clinics and 17 pharmacies. The nearest hospital is 伊藤病院, about 4 minutes' walk from the station. The next nearest is 北青山病院, about 4 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "3 lines serve the station. Tokyo Metro Ginza Line run through it. Tokyo Metro Chiyoda Line also call here. Tokyo Metro Hanzomon Line are available too. All 3 lines are run by Tokyo Metro, so a fault affecting that company can stop them together.",
   "congestion": "Tokyo Metro Ginza Line runs at 153% of capacity in the morning peak. The busiest stretch is 赤坂見附→溜池山王, which this station is not on. Tokyo Metro Chiyoda Line runs at 150%. Its busiest stretch is 町屋→西日暮里, which this station is likewise not on. Tokyo Metro Hanzomon Line runs at 111% of capacity in the morning peak. The busiest stretch of the line is 渋谷→表参道, which includes this station. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "gaiemmae",
       "lead": "Omote-Sando is ahead on the number of lines.",
-      "note": "771 m away in a straight line. It takes 5 minutes longer to reach Otemachi than Omote-Sando. One-room rents run about ¥9,000 higher."
+      "note": "Close enough to walk to. It takes 5 minutes longer to reach Otemachi than Omote-Sando. One-room rents run about ¥9,000 higher."
     },
     {
       "slug": "meiji-jingumae",
       "lead": "Meiji-Jingumae is ahead on quiet, but Omote-Sando is ahead on how little of the area is in the flood projection and the number of medical facilities.",
-      "note": "883 m away in a straight line. It reaches Otemachi in about the same time as Omote-Sando."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Omote-Sando."
     }
   ],
   "goodFor": [
@@ -75,8 +75,8 @@
     "People who want to hold the rent down"
   ],
   "noiseSources": [
-    "表参道 (3 lanes each way) runs 2 m away, right beside the station. Traffic on it never stops",
-    "青山通り (4 lanes each way) runs 14 m away, right beside the station. Traffic on it never stops"
+    "表参道 (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road",
+    "青山通り (4 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "pricey",

@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 1 clinic. The nearest facility recorded as a hospital is 仁生堂大村病院, about 758 m from the station. The next nearest is 佐花会大井中央病院, about 1067 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 1 clinic. The nearest hospital is 仁生堂大村病院, about 13 minutes' walk from the station. The next nearest is 佐花会大井中央病院, about 18 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station. JR Yokosuka Line run through it. JR Shonan-Shinjuku Line also call here. Both lines are run by JR East, so a fault affecting that company can stop them together.",
   "congestion": "JR Yokosuka Line runs at 138% of capacity in the morning peak. The busiest stretch of the line is 武蔵小杉→西大井, which includes this station. JR Shonan-Shinjuku Line is not covered by the ministry's congestion survey. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "togoshi-koen",
       "lead": "Togoshi-Koen is ahead on the number of medical facilities and how easy the shopping is, but Nishi-Oi is ahead on the number of lines and how close the centre is.",
-      "note": "867 m away in a straight line. It takes 13 minutes longer to reach Otemachi than Nishi-Oi."
+      "note": "Close enough to walk to. It takes 13 minutes longer to reach Otemachi than Nishi-Oi."
     },
     {
       "slug": "shimo-shimmei",
       "lead": "Nishi-Oi is ahead on the number of lines and how close the centre is.",
-      "note": "888 m away in a straight line. It takes 11 minutes longer to reach Otemachi than Nishi-Oi."
+      "note": "Close enough to walk to. It takes 11 minutes longer to reach Otemachi than Nishi-Oi."
     }
   ],
   "goodFor": [
@@ -74,7 +74,7 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "The nearest big road is 第二京浜, 780 m away, so little traffic noise reaches the station area"
+    "The nearest big road, 第二京浜, is far enough that little traffic noise reaches the station area"
   ],
   "tags": [
     "quiet",

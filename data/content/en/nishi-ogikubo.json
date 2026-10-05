@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 18 clinics and 12 pharmacies. The nearest facility recorded as a hospital is 越川病院訪問看護ステーション, about 175 m from the station. The next nearest is 杉並リハビリテーション病院, about 259 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 18 clinics and 12 pharmacies. The nearest hospital is 越川病院訪問看護ステーション, about 3 minutes' walk from the station. The next nearest is 杉並リハビリテーション病院, about 5 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station. JR Chuo Rapid Line run through it. JR Chuo-Sobu Line (Local) also call here. Both lines are run by JR East, so a fault affecting that company can stop them together.",
   "congestion": "JR Chuo Rapid Line runs at 158% of capacity in the morning peak. The busiest stretch is 中野→新宿, which this station is not on. JR Chuo-Sobu Line (Local) runs at 151%. Its busiest stretch is 錦糸町→両国, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "kugayama",
       "lead": "Nishi-Ogikubo is ahead on the number of lines and how close the centre is.",
-      "note": "1746 m away in a straight line. It takes 13 minutes longer to reach Otemachi than Nishi-Ogikubo. One-room rents run about ¥9,000 lower."
+      "note": "About 1.5 km away in a straight line. It takes 13 minutes longer to reach Otemachi than Nishi-Ogikubo. One-room rents run about ¥9,000 lower."
     },
     {
       "slug": "ogikubo",
       "lead": "Ogikubo is ahead on the number of lines, but Nishi-Ogikubo is ahead on how little of the area is in the flood projection and quiet.",
-      "note": "1874 m away in a straight line. It reaches Otemachi 3 minutes sooner than Nishi-Ogikubo."
+      "note": "About 2 km away in a straight line. It reaches Otemachi 3 minutes sooner than Nishi-Ogikubo."
     }
   ],
   "goodFor": [
@@ -75,7 +75,7 @@
     "The data does not show a drawback particular to this station"
   ],
   "noiseSources": [
-    "The nearest big road is 五日市街道, 588 m away, so little traffic noise reaches the station area"
+    "The nearest big road, 五日市街道, is far enough that little traffic noise reaches the station area"
   ],
   "tags": [
     "someBustle",

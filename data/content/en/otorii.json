@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 6 clinics and 12 pharmacies. The nearest facility recorded as a hospital is 高野病院, about 168 m from the station. The next nearest is 渡辺病院, about 183 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 6 clinics and 12 pharmacies. The nearest hospital is 高野病院, about 3 minutes' walk from the station. The next nearest is 渡辺病院, about 3 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Keikyu Airport Line.",
   "congestion": "The ministry's congestion survey does not publish figures for Keikyu Airport Line. It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "anamori-inari",
       "lead": "rent, commuting and the flood projection are all much the same.",
-      "note": "705 m away in a straight line. It reaches Otemachi in about the same time as Otorii."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Otorii."
     },
     {
       "slug": "kojiya",
       "lead": "Kojiya is ahead on how easy the shopping is.",
-      "note": "907 m away in a straight line. It reaches Otemachi in about the same time as Otorii."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Otorii."
     }
   ],
   "goodFor": [
@@ -74,8 +74,8 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "環八通り (4 lanes each way) runs 16 m away, right beside the station. Traffic on it never stops",
-    "国道131号 (3 lanes each way) runs 78 m away. Traffic on it never stops"
+    "環八通り (4 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road",
+    "国道131号 (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "pricey",

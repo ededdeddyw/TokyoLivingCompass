@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 5 clinics and 8 pharmacies. The nearest facility recorded as a hospital is 東京都健康長寿医療センター, about 746 m from the station. The next nearest is 小川医院, about 788 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 8 pharmacies. The nearest hospital is 東京都健康長寿医療センター, about 13 minutes' walk from the station. The next nearest is 小川医院, about 13 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Toei Mita Line.",
   "congestion": "Toei Mita Line runs at 146% of capacity in the morning peak. The busiest stretch is 西巣鴨→巣鴨, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "shimo-itabashi",
       "lead": "rents are lower at Itabashi-Kuyakushomae, but Shimo-Itabashi is ahead on quiet.",
-      "note": "749 m away in a straight line. It takes 5 minutes longer to reach Otemachi than Itabashi-Kuyakushomae. One-room rents run about ¥12,000 higher."
+      "note": "Close enough to walk to. It takes 5 minutes longer to reach Otemachi than Itabashi-Kuyakushomae. One-room rents run about ¥12,000 higher."
     },
     {
       "slug": "oyama",
       "lead": "Oyama is ahead on quiet, but Itabashi-Kuyakushomae is ahead on how easy the shopping is.",
-      "note": "750 m away in a straight line. It takes 8 minutes longer to reach Otemachi than Itabashi-Kuyakushomae."
+      "note": "Close enough to walk to. It takes 8 minutes longer to reach Otemachi than Itabashi-Kuyakushomae."
     }
   ],
   "goodFor": [
@@ -73,8 +73,8 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "The 首都高速5号池袋線 viaduct runs 147 m away. It is an expressway, so traffic is audible day and night",
-    "中山道 (a main road) runs 1 m away. Morning and evening, the cars are audible indoors"
+    "The 首都高速5号池袋線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
+    "中山道 (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "lowFlood",

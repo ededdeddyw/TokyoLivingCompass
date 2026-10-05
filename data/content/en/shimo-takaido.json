@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 16 clinics and 9 pharmacies. The nearest facility recorded as a hospital is 吉川内科小児科病院, about 89 m from the station. The next nearest is うめとぴあ, about 1253 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 16 clinics and 9 pharmacies. The nearest hospital is 吉川内科小児科病院, about 2 minutes' walk from the station. The next nearest is うめとぴあ, about 21 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station: Keio Line and Tokyu Setagaya Line. The lines are split between operators (Keio runs 1 line and Tokyu runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "Keio Line runs at 145% of capacity in the morning peak. The busiest stretch of the line is 下高井戸→明大前, which includes this station. Tokyu Setagaya Line is not covered by the ministry's congestion survey. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "matsubara",
       "lead": "Matsubara is ahead on quiet, but Shimo-Takaido is ahead on the number of lines and how close the centre is.",
-      "note": "680 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Shimo-Takaido."
+      "note": "Close enough to walk to. It takes 6 minutes longer to reach Otemachi than Shimo-Takaido."
     },
     {
       "slug": "meidaimae",
       "lead": "Meidaimae is ahead on how little of the area is in the flood projection, but Shimo-Takaido is ahead on the number of medical facilities.",
-      "note": "861 m away in a straight line. It reaches Otemachi in about the same time as Shimo-Takaido. One-room rents run about ¥5,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Shimo-Takaido. One-room rents run about ¥5,000 higher."
     }
   ],
   "goodFor": [
@@ -73,8 +73,8 @@
     "The data does not show a drawback particular to this station"
   ],
   "noiseSources": [
-    "The 首都高速4号新宿線 viaduct runs 150 m away. It is an expressway, so traffic is audible day and night",
-    "日大通り;瀬田貫井線 (a main road) runs 28 m away. Morning and evening, the cars are audible indoors"
+    "The 首都高速4号新宿線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
+    "日大通り;瀬田貫井線 (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "goodValue",

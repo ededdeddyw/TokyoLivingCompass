@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 13 clinics and 7 pharmacies. The nearest facility recorded as a hospital is 吉川内科小児科病院, about 802 m from the station. The next nearest is うめとぴあ, about 1257 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 13 clinics and 7 pharmacies. The nearest hospital is 吉川内科小児科病院, about 14 minutes' walk from the station. The next nearest is うめとぴあ, about 21 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station: Keio Line and Keio Inokashira Line. Both lines are run by Keio, so a fault affecting that company can stop them together.",
   "congestion": "Keio Line runs at 145% of capacity in the morning peak. The busiest stretch of the line is 下高井戸→明大前, which includes this station. Keio Inokashira Line runs at 125% of capacity in the morning peak. The busiest stretch is 池ノ上→駒場東大前, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "higashi-matsubara",
       "lead": "Higashi-Matsubara is ahead on quiet, but Meidaimae is ahead on the number of lines and how little of the area is in the flood projection.",
-      "note": "826 m away in a straight line. It reaches Otemachi in about the same time as Meidaimae."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Meidaimae."
     },
     {
       "slug": "daitabashi",
       "lead": "Daitabashi is ahead on quiet, but Meidaimae is ahead on the number of lines and how easy the shopping is.",
-      "note": "858 m away in a straight line. It reaches Otemachi in about the same time as Meidaimae. One-room rents run about ¥8,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Meidaimae. One-room rents run about ¥8,000 higher."
     }
   ],
   "goodFor": [
@@ -73,8 +73,8 @@
     "The data does not show a drawback particular to this station"
   ],
   "noiseSources": [
-    "The 首都高速4号新宿線 viaduct runs 143 m away. It is an expressway, so traffic is audible day and night",
-    "甲州街道 (2 lanes each way) runs 136 m away. Morning and evening, the cars are audible indoors"
+    "The 首都高速4号新宿線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
+    "甲州街道 (2 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "goodValue",

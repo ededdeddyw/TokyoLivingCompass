@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 4 clinics and 4 pharmacies. The nearest facility recorded as a hospital is 栄慈会岩崎内科病院, about 214 m from the station. The next nearest is 静恒会本多病院, about 594 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 4 clinics and 4 pharmacies. The nearest hospital is 栄慈会岩崎内科病院, about 4 minutes' walk from the station. The next nearest is 静恒会本多病院, about 10 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyu Tamagawa Line.",
   "congestion": "Tokyu Tamagawa Line runs at 112% of capacity in the morning peak. The busiest stretch of the line is 矢口渡→蒲田, which includes this station. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "hasunuma",
       "lead": "Hasunuma is ahead on the number of medical facilities and how easy the shopping is.",
-      "note": "761 m away in a straight line. It reaches Otemachi in about the same time as Yaguchi-No-Watashi."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Yaguchi-No-Watashi."
     },
     {
       "slug": "musashi-nitta",
       "lead": "rent, commuting and the flood projection are all much the same.",
-      "note": "928 m away in a straight line. It reaches Otemachi in about the same time as Yaguchi-No-Watashi."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Yaguchi-No-Watashi."
     }
   ],
   "goodFor": [
@@ -75,7 +75,7 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "環八通り (3 lanes each way) runs 50 m away. Traffic on it never stops"
+    "環八通り (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "quiet",

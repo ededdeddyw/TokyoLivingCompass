@@ -32,7 +32,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 5 clinics and 9 pharmacies. The nearest facility recorded as a hospital is 仁圭会林外科病院, about 791 m from the station. The next nearest is 東京勤労者医療会代々木病院, about 865 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 9 pharmacies. The nearest hospital is 仁圭会林外科病院, about 13 minutes' walk from the station. The next nearest is 東京勤労者医療会代々木病院, about 15 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Marunouchi Line.",
   "congestion": "Tokyo Metro Marunouchi Line runs at 154% of capacity in the morning peak. The busiest stretch is 新大塚→茗荷谷, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -50,12 +50,12 @@
     {
       "slug": "shinjuku-sanchome",
       "lead": "Shinjuku-Sanchome is ahead on the number of lines and the number of medical facilities, but Shinjuku-Gyoemmae is ahead on how little of the area is in the flood projection.",
-      "note": "541 m away in a straight line. It reaches Otemachi in about the same time as Shinjuku-Gyoemmae."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Shinjuku-Gyoemmae."
     },
     {
       "slug": "sendagaya",
       "lead": "rents are lower at Sendagaya, but Shinjuku-Gyoemmae is ahead on how little of the area is in the flood projection.",
-      "note": "822 m away in a straight line. It takes 5 minutes longer to reach Otemachi than Shinjuku-Gyoemmae. One-room rents run about ¥11,000 lower."
+      "note": "Close enough to walk to. It takes 5 minutes longer to reach Otemachi than Shinjuku-Gyoemmae. One-room rents run about ¥11,000 lower."
     }
   ],
   "goodFor": [
@@ -69,7 +69,7 @@
     "People who want to finish their shopping on foot"
   ],
   "noiseSources": [
-    "甲州街道 (2 lanes each way) runs 105 m away. Morning and evening, the cars are audible indoors"
+    "甲州街道 (2 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "lowFlood",

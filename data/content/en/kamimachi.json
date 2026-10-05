@@ -32,7 +32,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 7 clinics and 9 pharmacies. The nearest facility recorded as a hospital is さくら会世田谷中央病院, about 469 m from the station. The next nearest is 菊池外科病院, about 942 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 7 clinics and 9 pharmacies. The nearest hospital is さくら会世田谷中央病院, about 8 minutes' walk from the station. The next nearest is 菊池外科病院, about 16 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyu Setagaya Line.",
   "congestion": "The ministry's congestion survey does not publish figures for Tokyu Setagaya Line. It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
@@ -50,12 +50,12 @@
     {
       "slug": "setagaya",
       "lead": "rent, commuting and the flood projection are all much the same.",
-      "note": "422 m away in a straight line. It reaches Otemachi in about the same time as Kamimachi. One-room rents run about ¥7,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Kamimachi. One-room rents run about ¥7,000 higher."
     },
     {
       "slug": "miyanosaka",
       "lead": "Miyanosaka is ahead on the number of medical facilities and quiet, but Kamimachi is ahead on how little of the area is in the flood projection.",
-      "note": "445 m away in a straight line. It reaches Otemachi in about the same time as Kamimachi."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Kamimachi."
     }
   ],
   "goodFor": [
@@ -68,8 +68,8 @@
     "People who want to finish their shopping on foot"
   ],
   "noiseSources": [
-    "瀬田貫井線 (a main road) runs 28 m away. Morning and evening, the cars are audible indoors",
-    "世田谷町田線 (a main road) runs 55 m away. Morning and evening, the cars are audible indoors"
+    "瀬田貫井線 (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road",
+    "世田谷町田線 (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "pricey",

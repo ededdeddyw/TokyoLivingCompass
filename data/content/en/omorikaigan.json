@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 2 clinics and 9 pharmacies. The nearest facility recorded as a hospital is いすゞ病院, about 332 m from the station. The next nearest is 中島病院, about 1322 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 2 clinics and 9 pharmacies. The nearest hospital is いすゞ病院, about 6 minutes' walk from the station. The next nearest is 中島病院, about 22 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Keikyu Main Line.",
   "congestion": "Keikyu Main Line runs at 120% of capacity in the morning peak. The busiest stretch is 戸部→横浜, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "omori",
       "lead": "Omori is ahead on how little of the area is in the flood projection and how close the centre is, but Omorikaigan is ahead on quiet.",
-      "note": "681 m away in a straight line. It reaches Otemachi in about the same time as Omorikaigan. One-room rents run about ¥7,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Omorikaigan. One-room rents run about ¥7,000 lower."
     },
     {
       "slug": "heiwajima",
       "lead": "rents are lower at Heiwajima, but Omorikaigan is ahead on how little of the area is in the flood projection and the number of medical facilities.",
-      "note": "990 m away in a straight line. It reaches Otemachi in about the same time as Omorikaigan. One-room rents run about ¥11,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Omorikaigan. One-room rents run about ¥11,000 lower."
     }
   ],
   "goodFor": [
@@ -74,8 +74,8 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "The 首都高速1号羽田線 viaduct runs 359 m away. It is an expressway, so traffic is audible day and night",
-    "第一京浜 (4 lanes each way) runs 25 m away, right beside the station. Traffic on it never stops"
+    "The 首都高速1号羽田線 viaduct runs a short walk from the station. It is an expressway, so traffic is audible day and night",
+    "第一京浜 (4 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "singleLine",

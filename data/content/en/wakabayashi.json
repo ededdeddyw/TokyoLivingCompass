@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 6 clinics and 8 pharmacies. The nearest facility recorded as a hospital is アマノ動物病院, about 868 m from the station. The next nearest is 樹のはなクリニック, about 883 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 6 clinics and 8 pharmacies. The nearest hospital is アマノ動物病院, about 15 minutes' walk from the station. The next nearest is 樹のはなクリニック, about 15 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyu Setagaya Line.",
   "congestion": "The ministry's congestion survey does not publish figures for Tokyu Setagaya Line. It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "shoin-jinja-mae",
       "lead": "Shoin-Jinja-Mae is ahead on the number of medical facilities, but Wakabayashi is ahead on quiet.",
-      "note": "478 m away in a straight line. It reaches Otemachi in about the same time as Wakabayashi."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Wakabayashi."
     },
     {
       "slug": "nishi-taishido",
       "lead": "Nishi-Taishido is ahead on the number of medical facilities and how easy the shopping is, but Wakabayashi is ahead on quiet.",
-      "note": "604 m away in a straight line. It reaches Otemachi 3 minutes sooner than Wakabayashi. One-room rents run about ¥6,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi 3 minutes sooner than Wakabayashi. One-room rents run about ¥6,000 higher."
     }
   ],
   "goodFor": [
@@ -73,7 +73,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "環七通り (2 lanes each way) runs 64 m away. Morning and evening, the cars are audible indoors"
+    "環七通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "quiet",

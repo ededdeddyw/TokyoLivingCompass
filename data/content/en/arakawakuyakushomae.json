@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 17 clinics and 12 pharmacies. The nearest facility recorded as a hospital is 木村病院, about 272 m from the station. The next nearest is 上宮会日暮里上宮病院, about 744 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 17 clinics and 12 pharmacies. The nearest hospital is 木村病院, about 5 minutes' walk from the station. The next nearest is 上宮会日暮里上宮病院, about 13 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Sakura Tram (Toden Arakawa Line).",
   "congestion": "The ministry's congestion survey does not publish figures for Tokyo Sakura Tram (Toden Arakawa Line). It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "arakawa-itchumae",
       "lead": "rents are lower at Arakawakuyakushomae.",
-      "note": "268 m away in a straight line. It reaches Otemachi in about the same time as Arakawakuyakushomae. One-room rents run about ¥13,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Arakawakuyakushomae. One-room rents run about ¥13,000 higher."
     },
     {
       "slug": "arakawa-nichome",
       "lead": "Arakawa-Nichome is ahead on quiet, but Arakawakuyakushomae is ahead on how easy the shopping is.",
-      "note": "440 m away in a straight line. It reaches Otemachi 3 minutes sooner than Arakawakuyakushomae."
+      "note": "Close enough to walk to. It reaches Otemachi 3 minutes sooner than Arakawakuyakushomae."
     }
   ],
   "goodFor": [
@@ -76,7 +76,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "明治通り (2 lanes each way) runs 69 m away. Morning and evening, the cars are audible indoors"
+    "明治通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "quiet",

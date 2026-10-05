@@ -9,7 +9,7 @@
     "note": "The station sits on the higher side of the ground around it, at 2.5 m above sea level. Within 800 m the ground ranges from 1.2 m to 3.9 m, a difference of 2.7 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 5 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
-  "medical": "Within an 800 m walk of the station there are 1 pharmacy. The nearest facility recorded as a hospital is 河野臨牀医学研究所附属北品川病院, about 845 m from the station. The next nearest is 河野臨牀医学研究所附属第三北品川病院, about 1071 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 1 pharmacy. The nearest hospital is 河野臨牀医学研究所附属北品川病院, about 14 minutes' walk from the station. The next nearest is 河野臨牀医学研究所附属第三北品川病院, about 18 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station: Tokyo Monorail and Rinkai Line. The lines are split between operators (Tokyo Monorail runs 1 line and Tokyo Waterfront Area Rapid Transit runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "Rinkai Line runs at 118% of capacity in the morning peak. The busiest stretch is 大井町→品川シーサイド, which this station is not on. Tokyo Monorail is not covered by the ministry's congestion survey. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -27,12 +27,12 @@
     {
       "slug": "shimbamba",
       "lead": "rents are lower at Shimbamba, but Tennozu-Isle is ahead on the number of lines.",
-      "note": "962 m away in a straight line. It reaches Otemachi in about the same time as Tennozu-Isle. One-room rents run about ¥50,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Tennozu-Isle. One-room rents run about ¥50,000 lower."
     },
     {
       "slug": "kitashinagawa",
       "lead": "rents are lower at Kitashinagawa, but Tennozu-Isle is ahead on the number of lines.",
-      "note": "1046 m away in a straight line. It reaches Otemachi in about the same time as Tennozu-Isle. One-room rents run about ¥22,000 lower."
+      "note": "About 1 km away in a straight line. It reaches Otemachi in about the same time as Tennozu-Isle. One-room rents run about ¥22,000 lower."
     }
   ],
   "goodFor": [
@@ -45,8 +45,8 @@
     "People who want to hold the rent down"
   ],
   "noiseSources": [
-    "The 首都高速1号羽田線 viaduct runs 30 m away. It is an expressway, so traffic is audible day and night",
-    "海岸通り (3 lanes each way) runs 8 m away, right beside the station. Traffic on it never stops"
+    "The 首都高速1号羽田線 viaduct runs right beside the station. It is an expressway, so traffic is audible day and night",
+    "海岸通り (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "pricey",

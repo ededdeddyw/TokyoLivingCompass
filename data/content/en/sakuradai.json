@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 7 clinics and 11 pharmacies. The nearest facility recorded as a hospital is 総合東京病院, about 1196 m from the station. The next nearest is 中野江古田病院, about 1287 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 7 clinics and 11 pharmacies. The nearest hospital is 総合東京病院, about 20 minutes' walk from the station. The next nearest is 中野江古田病院, about 21 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Seibu Ikebukuro Line.",
   "congestion": "Seibu Ikebukuro Line runs at 130% of capacity in the morning peak. The busiest stretch is 椎名町→池袋, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "shin-sakuradai",
       "lead": "Shin-Sakuradai is ahead on how little of the area is in the flood projection, but Sakuradai is ahead on quiet.",
-      "note": "559 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Sakuradai."
+      "note": "Close enough to walk to. It takes 4 minutes longer to reach Otemachi than Sakuradai."
     },
     {
       "slug": "nerima",
       "lead": "Nerima is ahead on the number of lines and the number of medical facilities, but Sakuradai is ahead on quiet.",
-      "note": "742 m away in a straight line. It reaches Otemachi in about the same time as Sakuradai."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Sakuradai."
     }
   ],
   "goodFor": [
@@ -73,7 +73,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "千川通り (1 lanes each way) runs 71 m away. Morning and evening, the cars are audible indoors"
+    "千川通り (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "quiet",

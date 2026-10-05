@@ -279,6 +279,18 @@ def check_text(label, path, text, findings, taigen=True, claims=True):
                   f"比較や範囲の基準なら「{m.group(1)}エリア」と書く")
         break
 
+    # ルール46: 駅から施設までの距離のメートル表記。
+    # どこから測った値なのかが読み手に伝わらず、細かい数字も求められていない。
+    # 「駅から歩いて800m以内に」のように起点が書いてあるもの、
+    # 標高や建物の長さのように距離ではないものは対象外にする。
+    for m in re.finditer(r"(\d{2,4})m(先|ほど|の距離|離れ)", text):
+        head = text[max(0, m.start() - 12):m.start()]
+        if "標高" in head or "全長" in head or "高低差" in head or "標高差" in head:
+            continue
+        add("46", f"駅からの距離をメートルで書いている: 「{m.group(0)}」。"
+                  f"徒歩分数か「駅のすぐそば」で書く")
+        break
+
     # ルール26: 名詞の「抜け」。「抜ける」「抜け道」などの動詞・複合語は別語なので除く。
     if re.search(r"抜け(?!漏れ|る|た|て|ず|ない|道|穴|殻|出)", text):
         add("26", "名詞の「抜け」。常に「抜け漏れ」と書く")

@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 11 clinics and 15 pharmacies. The nearest facility recorded as a hospital is 茂恵会半蔵門病院, about 106 m from the station. The next nearest is 友仁会赤坂見附前田病院, about 1073 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 11 clinics and 15 pharmacies. The nearest hospital is 茂恵会半蔵門病院, about 2 minutes' walk from the station. The next nearest is 友仁会赤坂見附前田病院, about 18 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Hanzomon Line.",
   "congestion": "Tokyo Metro Hanzomon Line runs at 111% of capacity in the morning peak. The busiest stretch is 渋谷→表参道, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "kojimachi",
       "lead": "Hanzomon is ahead on how little of the area is in the flood projection and quiet.",
-      "note": "408 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Hanzomon. One-room rents run about ¥8,000 higher."
+      "note": "Close enough to walk to. It takes 6 minutes longer to reach Otemachi than Hanzomon. One-room rents run about ¥8,000 higher."
     },
     {
       "slug": "ichigaya",
       "lead": "rents are lower at Ichigaya, but Hanzomon is ahead on how little of the area is in the flood projection and the number of medical facilities.",
-      "note": "816 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Hanzomon. One-room rents run about ¥31,000 lower."
+      "note": "Close enough to walk to. It takes 4 minutes longer to reach Otemachi than Hanzomon. One-room rents run about ¥31,000 lower."
     }
   ],
   "goodFor": [
@@ -77,8 +77,8 @@
     "People who want to hold the rent down"
   ],
   "noiseSources": [
-    "The 首都高速都心環状線 viaduct runs 274 m away. It is an expressway, so traffic is audible day and night",
-    "新宿通り (3 lanes each way) runs 161 m away. Traffic on it never stops"
+    "The 首都高速都心環状線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
+    "新宿通り (3 lanes each way) runs just outside the station. Traffic on it never stops"
   ],
   "tags": [
     "pricey",

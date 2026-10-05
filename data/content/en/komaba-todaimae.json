@@ -25,7 +25,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 1 clinic and 3 pharmacies. The nearest facility recorded as a hospital is 田中舘医院, about 159 m from the station. The next nearest is Kijima E.N.T. & Pediatric Clinic, about 439 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 1 clinic and 3 pharmacies. The nearest hospital is 田中舘医院, about 3 minutes' walk from the station. The next nearest is Kijima E.N.T. & Pediatric Clinic, about 8 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Keio Inokashira Line.",
   "congestion": "Keio Inokashira Line runs at 125% of capacity in the morning peak. The busiest stretch of the line is 池ノ上→駒場東大前, which includes this station. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -43,12 +43,12 @@
     {
       "slug": "shinsen",
       "lead": "rents are lower at Komaba-Todaimae, but Shinsen is ahead on the number of medical facilities and how easy the shopping is.",
-      "note": "852 m away in a straight line. It reaches Otemachi in about the same time as Komaba-Todaimae. One-room rents run about ¥34,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Komaba-Todaimae. One-room rents run about ¥34,000 higher."
     },
     {
       "slug": "ikejiri-ohashi",
       "lead": "Ikejiri-Ohashi is ahead on how easy the shopping is, but Komaba-Todaimae is ahead on how little of the area is in the flood projection and quiet.",
-      "note": "898 m away in a straight line. It reaches Otemachi in about the same time as Komaba-Todaimae. One-room rents run about ¥8,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Komaba-Todaimae. One-room rents run about ¥8,000 lower."
     }
   ],
   "goodFor": [
@@ -60,7 +60,7 @@
     "People who want to finish their shopping on foot"
   ],
   "noiseSources": [
-    "The nearest big road is 淡島通り, 316 m away, so little traffic noise reaches the station area"
+    "The nearest big road, 淡島通り, is far enough that little traffic noise reaches the station area"
   ],
   "tags": [
     "quiet",

@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 3 clinics. The nearest facility recorded as a hospital is おくさわ脳卒中リハビリテーション病院, about 865 m from the station. The next nearest is 奥沢病院, about 1011 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 3 clinics. The nearest hospital is おくさわ脳卒中リハビリテーション病院, about 15 minutes' walk from the station. The next nearest is 奥沢病院, about 17 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station: Tokyu Toyoko Line and Tokyu Meguro Line. Both lines are run by Tokyu, so a fault affecting that company can stop them together.",
   "congestion": "Tokyu Meguro Line runs at 133% of capacity in the morning peak. The busiest stretch is 不動前→目黒, which this station is not on. Tokyu Toyoko Line runs at 124%. Its busiest stretch is 祐天寺→中目黒, which this station is likewise not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "tamagawa",
       "lead": "Tamagawa is ahead on the number of lines, but Den-En-Chofu is ahead on how little of the area is in the flood projection.",
-      "note": "812 m away in a straight line. It reaches Otemachi in about the same time as Den-En-Chofu."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Den-En-Chofu."
     },
     {
       "slug": "okusawa",
       "lead": "rents are lower at Den-En-Chofu, but Okusawa is ahead on the number of medical facilities and how easy the shopping is.",
-      "note": "912 m away in a straight line. It reaches Otemachi in about the same time as Den-En-Chofu. One-room rents run about ¥13,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Den-En-Chofu. One-room rents run about ¥13,000 higher."
     }
   ],
   "goodFor": [
@@ -74,7 +74,7 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "The nearest big road is 環八通り, 336 m away, so little traffic noise reaches the station area"
+    "The nearest big road, 環八通り, is far enough that little traffic noise reaches the station area"
   ],
   "tags": [
     "quiet",

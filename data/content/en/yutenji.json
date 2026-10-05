@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 9 clinics and 8 pharmacies. The nearest facility recorded as a hospital is 菫会目黒病院, about 592 m from the station. The next nearest is 総合病院三宿病院, about 743 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 9 clinics and 8 pharmacies. The nearest hospital is 菫会目黒病院, about 10 minutes' walk from the station. The next nearest is 総合病院三宿病院, about 13 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyu Toyoko Line.",
   "congestion": "Tokyu Toyoko Line runs at 124% of capacity in the morning peak. The busiest stretch of the line is 祐天寺→中目黒, which includes this station. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "nakameguro",
       "lead": "rents are lower at Yutenji, but Naka-Meguro is ahead on the number of lines and how close the centre is.",
-      "note": "1028 m away in a straight line. It reaches Otemachi 5 minutes sooner than Yutenji. One-room rents run about ¥28,000 higher."
+      "note": "About 1 km away in a straight line. It reaches Otemachi 5 minutes sooner than Yutenji. One-room rents run about ¥28,000 higher."
     },
     {
       "slug": "gakugei-daigaku",
       "lead": "Gakugei-Daigaku is ahead on how little of the area is in the flood projection, but Yutenji is ahead on how easy the shopping is.",
-      "note": "1057 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Yutenji."
+      "note": "About 1 km away in a straight line. It takes 3 minutes longer to reach Otemachi than Yutenji."
     }
   ],
   "goodFor": [
@@ -74,7 +74,7 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "The nearest big road is 駒沢通り, 258 m away, so little traffic noise reaches the station area"
+    "The nearest big road, 駒沢通り, is far enough that little traffic noise reaches the station area"
   ],
   "tags": [
     "quiet",

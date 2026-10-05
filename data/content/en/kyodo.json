@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 17 clinics and 13 pharmacies. The nearest facility recorded as a hospital is 児玉新生会児玉経堂病院, about 172 m from the station. The next nearest is 菊池外科病院, about 419 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 17 clinics and 13 pharmacies. The nearest hospital is 児玉新生会児玉経堂病院, about 3 minutes' walk from the station. The next nearest is 菊池外科病院, about 7 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Odakyu Odawara Line.",
   "congestion": "Odakyu Odawara Line runs at 150% of capacity in the morning peak. The busiest stretch is 世田谷代田→下北沢, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "miyanosaka",
       "lead": "Miyanosaka is ahead on quiet, but Kyodo is ahead on how little of the area is in the flood projection and how close the centre is.",
-      "note": "896 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Kyodo."
+      "note": "Close enough to walk to. It takes 7 minutes longer to reach Otemachi than Kyodo."
     },
     {
       "slug": "gotokuji",
       "lead": "Gotokuji is ahead on the number of lines, but Kyodo is ahead on how easy the shopping is.",
-      "note": "1038 m away in a straight line. It reaches Otemachi in about the same time as Kyodo."
+      "note": "About 1 km away in a straight line. It reaches Otemachi in about the same time as Kyodo."
     }
   ],
   "goodFor": [
@@ -75,7 +75,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "調布経堂停車場線 (1 lanes each way) runs 135 m away. Morning and evening, the cars are audible indoors"
+    "調布経堂停車場線 (1 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "someBustle",

@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 6 clinics and 12 pharmacies. The nearest facility recorded as a hospital is 救世軍ブース記念病院, about 606 m from the station. The next nearest is 杏林大学医学部付属杉並病院, about 994 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 6 clinics and 12 pharmacies. The nearest hospital is 救世軍ブース記念病院, about 10 minutes' walk from the station. The next nearest is 杏林大学医学部付属杉並病院, about 17 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Marunouchi Line.",
   "congestion": "Tokyo Metro Marunouchi Line runs at 154% of capacity in the morning peak. The busiest stretch is 新大塚→茗荷谷, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "nakano-shimbashi",
       "lead": "Nakano-Shimbashi is ahead on the number of medical facilities, but Nakano-Fujimicho is ahead on quiet.",
-      "note": "662 m away in a straight line. It reaches Otemachi in about the same time as Nakano-Fujimicho."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Nakano-Fujimicho."
     },
     {
       "slug": "shin-nakano",
       "lead": "Shin-Nakano is ahead on how close the centre is and the number of medical facilities, but Nakano-Fujimicho is ahead on quiet.",
-      "note": "798 m away in a straight line. It reaches Otemachi 23 minutes sooner than Nakano-Fujimicho."
+      "note": "Close enough to walk to. It reaches Otemachi 23 minutes sooner than Nakano-Fujimicho."
     }
   ],
   "goodFor": [
@@ -73,7 +73,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "中野通り (1 lanes each way) runs 200 m away. Morning and evening, the cars are audible indoors"
+    "中野通り (1 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "quiet",

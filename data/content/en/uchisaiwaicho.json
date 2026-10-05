@@ -25,7 +25,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 25 clinics and 20 pharmacies. The nearest facility recorded as a hospital is 浩邦会日比谷病院, about 115 m from the station. The next nearest is 十仁病院, about 376 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 25 clinics and 20 pharmacies. The nearest hospital is 浩邦会日比谷病院, about 2 minutes' walk from the station. The next nearest is 十仁病院, about 7 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Toei Mita Line.",
   "congestion": "Toei Mita Line runs at 146% of capacity in the morning peak. The busiest stretch is 西巣鴨→巣鴨, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -43,12 +43,12 @@
     {
       "slug": "shimbashi",
       "lead": "rents are lower at Shimbashi, but Uchisaiwaicho is ahead on the number of medical facilities.",
-      "note": "492 m away in a straight line. It takes 5 minutes longer to reach Otemachi than Uchisaiwaicho. One-room rents run about ¥18,000 lower."
+      "note": "Close enough to walk to. It takes 5 minutes longer to reach Otemachi than Uchisaiwaicho. One-room rents run about ¥18,000 lower."
     },
     {
       "slug": "kasumigaseki",
       "lead": "Kasumigaseki is ahead on the number of lines and how little of the area is in the flood projection, but Uchisaiwaicho is ahead on how easy the shopping is.",
-      "note": "622 m away in a straight line. It reaches Otemachi in about the same time as Uchisaiwaicho."
+      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Uchisaiwaicho."
     }
   ],
   "goodFor": [
@@ -62,7 +62,7 @@
     "People who want to hold the rent down"
   ],
   "noiseSources": [
-    "日比谷通り (3 lanes each way) runs 5 m away, right beside the station. Traffic on it never stops"
+    "日比谷通り (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "lively",

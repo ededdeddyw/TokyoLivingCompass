@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 1 clinic and 3 pharmacies. No facility recorded as a hospital lies within 2.5 km of the station. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 1 clinic and 3 pharmacies. No facility recorded as a hospital lies within 2.5 km of the station. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Nippori-Toneri Liner.",
   "congestion": "The ministry's congestion survey does not publish figures for Nippori-Toneri Liner. It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "minumadai-shinsuikoen",
       "lead": "rent, commuting and the flood projection are all much the same.",
-      "note": "984 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Toneri."
+      "note": "Close enough to walk to. It takes 3 minutes longer to reach Otemachi than Toneri."
     },
     {
       "slug": "toneri-koen",
       "lead": "Toneri is ahead on how easy the shopping is.",
-      "note": "1053 m away in a straight line. It reaches Otemachi 4 minutes sooner than Toneri. One-room rents run about ¥6,000 lower."
+      "note": "About 1 km away in a straight line. It reaches Otemachi 4 minutes sooner than Toneri. One-room rents run about ¥6,000 lower."
     }
   ],
   "goodFor": [
@@ -76,8 +76,8 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "尾久橋通り (a main road) runs 6 m away. Morning and evening, the cars are audible indoors",
-    "川口草加線 (1 lanes each way) runs 69 m away. Morning and evening, the cars are audible indoors"
+    "尾久橋通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road",
+    "川口草加線 (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "quiet",

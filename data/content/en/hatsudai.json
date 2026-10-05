@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 6 clinics and 6 pharmacies. The nearest facility recorded as a hospital is 温光会内藤病院, about 178 m from the station. The next nearest is 東洋病院, about 560 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 6 clinics and 6 pharmacies. The nearest hospital is 温光会内藤病院, about 3 minutes' walk from the station. The next nearest is 東洋病院, about 10 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station: Keio Line and Keio New Line. Both lines are run by Keio, so a fault affecting that company can stop them together.",
   "congestion": "Keio Line runs at 145% of capacity in the morning peak. The busiest stretch is 下高井戸→明大前, which this station is not on. Keio New Line is not covered by the ministry's congestion survey. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "sangubashi",
       "lead": "rents are lower at Hatsudai, but Sangubashi is ahead on how little of the area is in the flood projection and how close the centre is.",
-      "note": "714 m away in a straight line. It reaches Otemachi 10 minutes sooner than Hatsudai. One-room rents run about ¥13,000 higher."
+      "note": "Close enough to walk to. It reaches Otemachi 10 minutes sooner than Hatsudai. One-room rents run about ¥13,000 higher."
     },
     {
       "slug": "nishi-shinjuku-gochome",
       "lead": "Nishi-Shinjuku-Gochome is ahead on how close the centre is and quiet, but Hatsudai is ahead on the number of lines.",
-      "note": "970 m away in a straight line. It reaches Otemachi 9 minutes sooner than Hatsudai."
+      "note": "Close enough to walk to. It reaches Otemachi 9 minutes sooner than Hatsudai."
     }
   ],
   "goodFor": [
@@ -73,8 +73,8 @@
     "The data does not show a drawback particular to this station"
   ],
   "noiseSources": [
-    "The 首都高速4号新宿線 viaduct runs 4 m away. It is an expressway, so traffic is audible day and night",
-    "甲州街道 (2 lanes each way) runs 8 m away. Morning and evening, the cars are audible indoors"
+    "The 首都高速4号新宿線 viaduct runs right beside the station. It is an expressway, so traffic is audible day and night",
+    "甲州街道 (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "lowFlood",

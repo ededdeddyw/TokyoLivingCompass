@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 21 clinics and 16 pharmacies. The nearest facility recorded as a hospital is 中原病院, about 575 m from the station. The next nearest is 東急病院, about 586 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 21 clinics and 16 pharmacies. The nearest hospital is 中原病院, about 10 minutes' walk from the station. The next nearest is 東急病院, about 10 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyu Oimachi Line.",
   "congestion": "Tokyu Oimachi Line runs at 118% of capacity in the morning peak. The busiest stretch is 九品仏→自由が丘, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "ookayama",
       "lead": "Ookayama is ahead on the number of lines and how little of the area is in the flood projection, but Midorigaoka is ahead on how easy the shopping is.",
-      "note": "593 m away in a straight line. It reaches Otemachi 6 minutes sooner than Midorigaoka. One-room rents run about ¥6,000 lower."
+      "note": "Close enough to walk to. It reaches Otemachi 6 minutes sooner than Midorigaoka. One-room rents run about ¥6,000 lower."
     },
     {
       "slug": "okusawa",
       "lead": "rent, commuting and the flood projection are all much the same.",
-      "note": "698 m away in a straight line. It reaches Otemachi 3 minutes sooner than Midorigaoka."
+      "note": "Close enough to walk to. It reaches Otemachi 3 minutes sooner than Midorigaoka."
     }
   ],
   "goodFor": [
@@ -72,7 +72,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "The nearest big road is 自由通り, 729 m away, so little traffic noise reaches the station area"
+    "The nearest big road, 自由通り, is far enough that little traffic noise reaches the station area"
   ],
   "tags": [
     "lowFlood",

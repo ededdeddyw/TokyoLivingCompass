@@ -120,12 +120,14 @@ PHRASES = {
         "medicalPharmacies": "薬局が{count}{pharmacyWord}",
         "medicalNone": "駅から歩いて800m以内には、OpenStreetMap に登録されている"
                        "クリニックも薬局も見当たらない。",
-        "medicalHospitalNearest": "OpenStreetMap に病院として登録されている施設のうち、"
-                                  "駅からいちばん近いのは{name}である。"
-                                  "駅から{distance}mほどの距離にある。",
-        "medicalHospitalSecond": "次に近いのは{name}で、{distance}mほど離れている。",
+        # 距離はメートルで書かない。どこから測った値なのかが読み手に伝わらず、
+        # 細かい数字そのものも求められていない。駅から歩いて何分かで書く。
+        "medicalHospitalNearest": "駅からいちばん近い病院は{name}である。"
+                                  "歩いて{minutes}分ほどの距離にある。",
+        "medicalHospitalSecond": "次に近いのは{name}で、歩いて{minutes}分ほどかかる。",
         "medicalNoHospital": "駅から2.5km以内には、病院として登録されている施設が見当たらない。",
-        "medicalTrailer": "入院できるかどうかと、何科があるかまでは分からない。"
+        "medicalTrailer": "ここでいう病院は、OpenStreetMap に病院として登録されている施設である。"
+                          "入院できるかどうかと、何科があるかまでは分からない。"
                           "各施設のウェブサイトで確かめてほしい。"
                           "夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
 
@@ -213,11 +215,23 @@ PHRASES = {
         "roadSideOneway": "片側{n}車線",
         "roadSideBoth": "片側{n}車線",
         "roadSideUnknown": "大通り",
-        "noiseRoadVeryNear": "{name}（{side}の大通り）が{m}m先、目と鼻の先にある。一日中、車の通りが絶えない",
-        "noiseRoadMotorway": "{name}の高架が{m}m先を通る。高速道路なので、車の音は昼も夜も続く",
-        "noiseRoadBig": "{name}（{side}の大通り）が{m}m先にある。一日中、車の通りが絶えない",
-        "noiseRoadMid": "{name}（{side}）が{m}m先にある。朝夕は車の音が部屋まで入る",
-        "noiseRoadFar": "いちばん近い大きな通りは{name}で、{m}m先にある。駅の周りまで車の音は届きにくい",
+        # 道路までの距離もメートルで書かない。駅のすぐそばか、少し歩くかが分かれば足りる。
+        "roadWhereAtStation": "駅のすぐそば",
+        "roadWhereNear": "駅のすぐ近く",
+        "roadWhereAway": "駅から少し歩いたところ",
+        "noiseRoadVeryNear": "{name}（{side}の大通り）が{where}を通っている。"
+                             "一日中、車の通りが絶えない。"
+                             "駅に近い物件を見るときは、通りに面していないかを確かめたい",
+        "noiseRoadMotorway": "{name}の高架が{where}を通る。"
+                             "高速道路なので、車の音は昼も夜も続く",
+        "noiseRoadBig": "{name}（{side}の大通り）が{where}にある。一日中、車の通りが絶えない",
+        "noiseRoadMid": "{name}（{side}）が{where}にある。"
+                        "通りに面した部屋では、朝夕の車の音が入る",
+        "noiseRoadAtStation": "{name}（{side}）が{where}にある。"
+                              "駅に近い物件を見るときは、"
+                              "通りに面していないかを確かめたい",
+        "noiseRoadFar": "いちばん近い大きな通りは{name}で、駅から離れている。"
+                        "駅の周りまで車の音は届きにくい",
         # 道路名と距離は本文に書くので、ここでは繰り返さない。
         # 「一言でいうと」は、本文を読む前に結論だけを受け取るためのものである。
         "leadNoiseLoud": "人の声より先に、車の音を確かめたい駅である。",
@@ -239,7 +253,8 @@ PHRASES = {
         "cmpAxisQuiet": "静かさ",
         "cmpNothing": "家賃も通勤も災害の想定も、大きくは変わらない",
 
-        "neighbourDistance": "直線で{meters}mの距離にある。",
+        "neighbourDistanceClose": "歩いて行ける距離にある。",
+        "neighbourDistanceFar": "直線でおよそ{km}km離れている。",
         "neighbourSame": "大手町へは{station}と同じくらいの時間で着く。",
         "neighbourSlower": "大手町へは{station}より{minutes}{minuteWord}多くかかる。",
         "neighbourFaster": "大手町へは{station}より{minutes}{minuteWord}早く着く。",
@@ -336,12 +351,13 @@ PHRASES = {
         "medicalPharmacies": "{count} {pharmacyWord}",
         "medicalNone": "Within an 800 m walk of the station, OpenStreetMap records neither a "
                        "clinic nor a pharmacy. ",
-        "medicalHospitalNearest": "The nearest facility recorded as a hospital is {name}, "
-                                  "about {distance} m from the station. ",
-        "medicalHospitalSecond": "The next nearest is {name}, about {distance} m away. ",
+        "medicalHospitalNearest": "The nearest hospital is {name}, "
+                                  "about {minutes} minutes' walk from the station. ",
+        "medicalHospitalSecond": "The next nearest is {name}, about {minutes} minutes' walk. ",
         "medicalNoHospital": "No facility recorded as a hospital lies within 2.5 km of the "
                              "station. ",
-        "medicalTrailer": "OpenStreetMap does not record whether a facility admits inpatients "
+        "medicalTrailer": "\"Hospital\" here means a facility OpenStreetMap records as one. "
+                          "OpenStreetMap does not record whether a facility admits inpatients "
                           "or which departments it runs, so check each one on its own website. "
                           "For which clinics open at night and at weekends, ask the emergency "
                           "advice line of the ward you live in.",
@@ -441,11 +457,20 @@ PHRASES = {
         "roadSideOneway": "{n} lanes each way",
         "roadSideBoth": "{n} lanes each way",
         "roadSideUnknown": "a main road",
-        "noiseRoadVeryNear": "{name} ({side}) runs {m} m away, right beside the station. Traffic on it never stops",
-        "noiseRoadMotorway": "The {name} viaduct runs {m} m away. It is an expressway, so traffic is audible day and night",
-        "noiseRoadBig": "{name} ({side}) runs {m} m away. Traffic on it never stops",
-        "noiseRoadMid": "{name} ({side}) runs {m} m away. Morning and evening, the cars are audible indoors",
-        "noiseRoadFar": "The nearest big road is {name}, {m} m away, so little traffic noise reaches the station area",
+        "roadWhereAtStation": "right beside the station",
+        "roadWhereNear": "just outside the station",
+        "roadWhereAway": "a short walk from the station",
+        "noiseRoadVeryNear": "{name} ({side}) runs {where}. Traffic on it never stops, "
+                             "so for a flat close to the station, check whether it faces the road",
+        "noiseRoadMotorway": "The {name} viaduct runs {where}. It is an expressway, "
+                             "so traffic is audible day and night",
+        "noiseRoadBig": "{name} ({side}) runs {where}. Traffic on it never stops",
+        "noiseRoadMid": "{name} ({side}) runs {where}. In a flat facing it, "
+                        "the cars are audible morning and evening",
+        "noiseRoadAtStation": "{name} ({side}) runs {where}, so for a flat close to "
+                              "the station, check whether it faces the road",
+        "noiseRoadFar": "The nearest big road, {name}, is far enough that "
+                        "little traffic noise reaches the station area",
         "leadNoiseLoud": "At this station, check the traffic noise before the noise people make.",
         "leadNoiseMid": "Whether a flat faces the road changes what you hear indoors.",
         "leadNoiseQuiet": "The big roads are far enough that traffic noise is unlikely to bother you.",
@@ -465,7 +490,8 @@ PHRASES = {
         "cmpAxisQuiet": "quiet",
         "cmpNothing": "rent, commuting and the flood projection are all much the same",
 
-        "neighbourDistance": "{meters} m away in a straight line. ",
+        "neighbourDistanceClose": "Close enough to walk to. ",
+        "neighbourDistanceFar": "About {km} km away in a straight line. ",
         "neighbourSame": "It reaches Otemachi in about the same time as {station}. ",
         "neighbourSlower": "It takes {minutes} {minuteWord} longer to reach Otemachi than "
                            "{station}. ",
@@ -552,10 +578,11 @@ PHRASES = {
         "medicalClinics": "诊所{count}{clinicWord}",
         "medicalPharmacies": "药店{count}{pharmacyWord}",
         "medicalNone": "从车站步行800米以内，OpenStreetMap 上没有登记的诊所和药店。",
-        "medicalHospitalNearest": "登记为医院的设施中最近的是{name}，距车站约{distance}米。",
-        "medicalHospitalSecond": "其次是{name}，约{distance}米。",
+        "medicalHospitalNearest": "离车站最近的医院是{name}，步行约{minutes}分钟。",
+        "medicalHospitalSecond": "其次是{name}，步行约{minutes}分钟。",
         "medicalNoHospital": "车站2.5公里以内，没有登记为医院的设施。",
-        "medicalTrailer": "能否住院、设有哪些科室，OpenStreetMap 上没有记载，"
+        "medicalTrailer": "这里说的医院，是 OpenStreetMap 上登记为医院的设施。"
+                          "能否住院、设有哪些科室，OpenStreetMap 上没有记载，"
                           "请到各设施的网站上确认。夜间和休息日能就诊的医疗机构，"
                           "可以向所住区的急救咨询窗口查询。",
 
@@ -632,11 +659,16 @@ PHRASES = {
         "roadSideOneway": "单向{n}车道",
         "roadSideBoth": "单向{n}车道",
         "roadSideUnknown": "大马路",
-        "noiseRoadVeryNear": "{name}（{side}的大马路）就在{m}米外，近在眼前。一整天车流不断",
-        "noiseRoadMotorway": "{name}的高架从{m}米外经过。是高速公路，车声白天黑夜都不停",
-        "noiseRoadBig": "{name}（{side}的大马路）在{m}米外。一整天车流不断",
-        "noiseRoadMid": "{name}（{side}）在{m}米外。早晚车声会进到屋里",
-        "noiseRoadFar": "最近的大马路是{name}，在{m}米外，车声不太传到车站周边",
+        "roadWhereAtStation": "就在车站旁边",
+        "roadWhereNear": "在车站附近",
+        "roadWhereAway": "离车站走一小段",
+        "noiseRoadVeryNear": "{name}（{side}的大马路）{where}。一整天车流不断，"
+                             "看车站附近的房子时，要确认是否临街",
+        "noiseRoadMotorway": "{name}的高架{where}经过。是高速公路，车声白天黑夜都不停",
+        "noiseRoadBig": "{name}（{side}的大马路）{where}。一整天车流不断",
+        "noiseRoadMid": "{name}（{side}）{where}。临街的房间，早晚车声会进到屋里",
+        "noiseRoadAtStation": "{name}（{side}）{where}。看车站附近的房子时，要确认是否临街",
+        "noiseRoadFar": "最近的大马路是{name}，离车站有一段距离，车声不太传到车站周边",
         "leadNoiseLoud": "这个车站要先确认车声，而不是人声。",
         "leadNoiseMid": "是否临街，屋里听到的车声会明显不同。",
         "leadNoiseQuiet": "离大马路有一段距离，车声不太会造成困扰。",
@@ -656,7 +688,8 @@ PHRASES = {
         "cmpAxisQuiet": "安静",
         "cmpNothing": "租金、通勤和灾害预估都没有大的差别",
 
-        "neighbourDistance": "直线距离{meters}米。",
+        "neighbourDistanceClose": "走得到的距离。",
+        "neighbourDistanceFar": "直线距离约{km}公里。",
         "neighbourSame": "到大手町的时间与{station}差不多。",
         "neighbourSlower": "到大手町比{station}多花{minutes}{minuteWord}。",
         "neighbourFaster": "到大手町比{station}早到{minutes}{minuteWord}。",
@@ -745,11 +778,12 @@ PHRASES = {
         "medicalPharmacies": "약국이 {count}{pharmacyWord}",
         "medicalNone": "역에서 걸어서 800m 안에는 OpenStreetMap에 등록된 의원도 약국도 "
                        "보이지 않는다. ",
-        "medicalHospitalNearest": "병원으로 등록된 시설 중 가까운 곳은 {name}이며, "
-                                  "역에서 약 {distance}m 거리에 있다. ",
-        "medicalHospitalSecond": "그다음으로 가까운 곳은 {name}으로, 약 {distance}m 떨어져 있다. ",
+        "medicalHospitalNearest": "역에서 가장 가까운 병원은 {name}이며, "
+                                  "걸어서 약 {minutes}분 거리에 있다. ",
+        "medicalHospitalSecond": "그다음으로 가까운 곳은 {name}으로, 걸어서 약 {minutes}분 걸린다. ",
         "medicalNoHospital": "역에서 2.5km 안에는 병원으로 등록된 시설이 보이지 않는다. ",
-        "medicalTrailer": "입원할 수 있는지, 어떤 진료과가 있는지까지는 OpenStreetMap에 "
+        "medicalTrailer": "여기서 말하는 병원은 OpenStreetMap에 병원으로 등록된 시설이다. "
+                          "입원할 수 있는지, 어떤 진료과가 있는지까지는 OpenStreetMap에 "
                           "적혀 있지 않으므로, 각 시설의 웹사이트에서 확인하기 바란다. "
                           "야간이나 휴일에 진료받을 수 있는 의료기관은 사는 구의 응급 상담 "
                           "창구에서 확인할 수 있다.",
@@ -836,11 +870,17 @@ PHRASES = {
         "roadSideOneway": "편도 {n}차선",
         "roadSideBoth": "편도 {n}차선",
         "roadSideUnknown": "큰길",
-        "noiseRoadVeryNear": "{name}（{side}의 큰길）가 {m}m 앞, 바로 코앞에 있다. 하루 종일 차가 끊이지 않는다",
-        "noiseRoadMotorway": "{name} 고가가 {m}m 앞을 지난다. 고속도로라 차 소리가 낮에도 밤에도 이어진다",
-        "noiseRoadBig": "{name}（{side}의 큰길）가 {m}m 앞에 있다. 하루 종일 차가 끊이지 않는다",
-        "noiseRoadMid": "{name}（{side}）가 {m}m 앞에 있다. 아침저녁에는 차 소리가 방까지 들어온다",
-        "noiseRoadFar": "가장 가까운 큰길은 {name}로 {m}m 앞에 있어, 역 주변까지 차 소리는 잘 닿지 않는다",
+        "roadWhereAtStation": "역 바로 옆",
+        "roadWhereNear": "역 가까이",
+        "roadWhereAway": "역에서 조금 걸은 곳",
+        "noiseRoadVeryNear": "{name}（{side}의 큰길）가 {where}을 지난다. 하루 종일 차가 끊이지 않으니, "
+                             "역에서 가까운 집은 길에 면해 있는지 확인하고 싶다",
+        "noiseRoadMotorway": "{name} 고가가 {where}을 지난다. 고속도로라 차 소리가 낮에도 밤에도 이어진다",
+        "noiseRoadBig": "{name}（{side}의 큰길）가 {where}에 있다. 하루 종일 차가 끊이지 않는다",
+        "noiseRoadMid": "{name}（{side}）가 {where}에 있다. 길에 면한 방에서는 아침저녁 차 소리가 들어온다",
+        "noiseRoadAtStation": "{name}（{side}）가 {where}에 있다. 역에서 가까운 집을 볼 때는 "
+                              "길에 면해 있는지 확인하고 싶다",
+        "noiseRoadFar": "가장 가까운 큰길인 {name}는 역에서 떨어져 있어, 역 주변까지 차 소리는 잘 닿지 않는다",
         "leadNoiseLoud": "이 역은 사람 소리보다 차 소리를 먼저 확인하고 싶다.",
         "leadNoiseMid": "도로변 방인지 아닌지에 따라 방 안에서 들리는 차 소리가 확연히 달라진다.",
         "leadNoiseQuiet": "큰길에서 떨어져 있어, 차 소리는 신경 쓰이기 어렵다.",
@@ -860,7 +900,8 @@ PHRASES = {
         "cmpAxisQuiet": "조용함",
         "cmpNothing": "임대료도 통근도 재해 예상도 크게 다르지 않다",
 
-        "neighbourDistance": "직선거리로 {meters}m 떨어져 있다. ",
+        "neighbourDistanceClose": "걸어갈 수 있는 거리에 있다. ",
+        "neighbourDistanceFar": "직선거리로 약 {km}km 떨어져 있다. ",
         "neighbourSame": "오테마치까지 걸리는 시간은 {station}에서 갈 때와 비슷하다. ",
         "neighbourSlower": "오테마치까지 {station}보다 {minutes}{minuteWord} 더 걸린다. ",
         "neighbourFaster": "오테마치까지 {station}보다 {minutes}{minuteWord} 빨리 도착한다. ",

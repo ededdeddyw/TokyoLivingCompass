@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 13 clinics and 14 pharmacies. The nearest facility recorded as a hospital is 吉川内科小児科病院, about 640 m from the station. The next nearest is うめとぴあ, about 794 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 13 clinics and 14 pharmacies. The nearest hospital is 吉川内科小児科病院, about 11 minutes' walk from the station. The next nearest is うめとぴあ, about 13 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyu Setagaya Line.",
   "congestion": "The ministry's congestion survey does not publish figures for Tokyu Setagaya Line. It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "shimo-takaido",
       "lead": "Shimo-Takaido is ahead on the number of lines and how close the centre is, but Matsubara is ahead on quiet.",
-      "note": "680 m away in a straight line. It reaches Otemachi 6 minutes sooner than Matsubara."
+      "note": "Close enough to walk to. It reaches Otemachi 6 minutes sooner than Matsubara."
     },
     {
       "slug": "gotokuji",
       "lead": "Gotokuji is ahead on the number of lines and how close the centre is, but Matsubara is ahead on quiet.",
-      "note": "823 m away in a straight line. It reaches Otemachi 9 minutes sooner than Matsubara."
+      "note": "Close enough to walk to. It reaches Otemachi 9 minutes sooner than Matsubara."
     }
   ],
   "goodFor": [
@@ -74,7 +74,7 @@
     "People who want to finish their shopping on foot"
   ],
   "noiseSources": [
-    "瀬田貫井線 (a main road) runs 77 m away. Morning and evening, the cars are audible indoors"
+    "瀬田貫井線 (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "quiet",
