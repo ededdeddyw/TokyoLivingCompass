@@ -67,8 +67,8 @@ PHRASES = {
         "hubs": {"otemachi": "大手町", "shinjuku": "新宿", "shibuya": "渋谷",
                  "tokyo": "東京", "shinagawa": "品川", "toranomon": "虎ノ門",
                  "roppongi": "六本木"},
-        "slope": {"flat": "ほぼ平坦である", "some": "ゆるやかな坂がある",
-                  "hilly": "起伏が大きい"},
+        "slope": {"flat": "ほぼ平坦です", "some": "ゆるやかな坂があります",
+                  "hilly": "起伏が大きくなっています"},
         "operator": {"jr": "JR", "tokyo-metro": "東京メトロ", "toei": "都営",
                      "private": "私鉄"},
         "company": {"jr-east": "JR東日本", "tokyo-metro": "東京メトロ", "toei": "東京都交通局",
@@ -86,131 +86,136 @@ PHRASES = {
 
         "commuteItem": "{hub}へ{minutes}{minuteWord}",
         "reachItem": "{hub}へ{minutes}{minuteWord}",
-        "tagline": "{reach}で着く。{lineCount}{lineWord}が乗り入れる。{rent}",
-        "taglineRent": "ワンルームの家賃はおよそ{low}〜{high}{unit}である。",
+        "tagline": "{reach}で着きます。{lineCount}{lineWord}が乗り入れます。{rent}",
+        "taglineRent": "ワンルームの家賃相場はおよそ{low}〜{high}{unit}です。",
 
-        "summaryWhere": "{ward}にあり、{lines}が乗り入れる。",
-        "summaryWhereMany": "{ward}にあり、{operators}の{count}{lineWord}が乗り入れる。",
-        "summaryCommute": "主なオフィス街までの所要時間は、{items}である。",
-        "summaryTerrain": "駅の標高は{elevation}mで、周囲800mの標高差は{spread}mある。"
+        "summaryWhere": "この駅は{ward}にあり、{lines}が乗り入れます。",
+        "summaryWhereMany": "この駅は{ward}にあり、{operators}の{count}{lineWord}が乗り入れます。",
+        "summaryCommute": "主なオフィス街までの所要時間は、{items}です。",
+        "summaryTerrain": "駅の標高は{elevation}mで、周囲800mの標高差は{spread}mあります。"
                           "駅の周りの土地は{slope}。",
 
         "terrainLow": "駅は周囲より低い場所にあり",
         "terrainHigh": "駅は周囲の中では高いほうにあり",
         # どう測ったかは本文に書かない。節の下に出典としてリンクを出す
         # （src/components/StationDepth.tsx）。
-        "terrainNote": "{where}、標高は{elevation}mである。"
-                       "周囲800mの標高は{min}mから{max}mまで分かれ、その差は{spread}mある。",
+        "terrainNote": "{where}、標高は{elevation}mです。"
+                       "周囲800mの標高は{min}mから{max}mまで分かれ、その差は{spread}mあります。",
 
         "floodAtStation": "国土交通省のハザードマップでは、駅の地点が洪水浸水想定区域（想定最大規模）に入り、"
-                          "想定される深さは{depth}である。",
-        "floodNearOnly": "国土交通省のハザードマップでは、駅の地点は洪水浸水想定区域（想定最大規模）の外にある。",
-        "floodNone": "国土交通省のハザードマップで見ると、駅の地点は洪水浸水想定区域（想定最大規模）の外にある。"
-                     "駅から400m以内の9地点も、いずれも区域の外にある。",
+                          "想定される深さは{depth}です。",
+        "floodNearOnly": "国土交通省のハザードマップでは、駅の地点は洪水浸水想定区域（想定最大規模）の外にあります。",
+        "floodNone": "国土交通省のハザードマップで見ると、駅の地点は洪水浸水想定区域（想定最大規模）の外にあります。"
+                     "駅から400m以内の9地点も、いずれも区域の外にあります。",
         "floodAround": "駅から400m以内で見た9地点のうち{count}地点が区域に含まれ、"
-                       "その中で最も深い想定は{deepest}である。",
-        "hightide": "高潮についても9地点のうち{count}地点が想定区域に入る。",
+                       "その中で最も深い想定は{deepest}です。",
+        "hightide": "高潮についても9地点のうち{count}地点が想定区域に入ります。",
         "hazardTrailer": "想定される深さは同じ駅でも区画ごとに違うので、"
-                         "住所ごとに区のハザードマップで確認したい。"
+                         "住所ごとに区のハザードマップで確認してください。"
                          "内水氾濫は全国共通の地図が公開されておらず区が個別に出しているため、"
-                         "あわせて見ておきたい。",
+                         "あわせて見ておくことをおすすめします。",
 
-        "medicalCounts": "駅から歩いて800m以内に、{items}ある。",
+        "medicalCounts": "駅から歩いて800m以内に、{items}あります。",
         "medicalClinics": "クリニックが{count}{clinicWord}",
         "medicalPharmacies": "薬局が{count}{pharmacyWord}",
         "medicalNone": "駅から歩いて800m以内には、OpenStreetMap に登録されている"
-                       "クリニックも薬局も見当たらない。",
+                       "クリニックも薬局も見当たりません。",
         # 距離はメートルで書かない。どこから測った値なのかが読み手に伝わらず、
         # 細かい数字そのものも求められていない。駅から歩いて何分かで書く。
-        "medicalHospitalNearest": "駅からいちばん近い病院は{name}である。"
-                                  "歩いて{minutes}分ほどの距離にある。",
-        "medicalHospitalSecond": "次に近いのは{name}で、歩いて{minutes}分ほどかかる。",
-        "medicalNoHospital": "駅から2.5km以内には、病院として登録されている施設が見当たらない。",
-        "medicalTrailer": "ここでいう病院は、OpenStreetMap に病院として登録されている施設である。"
-                          "入院できるかどうかと、何科があるかまでは分からない。"
-                          "各施設のウェブサイトで確かめてほしい。"
-                          "夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できる。",
+        "medicalHospitalNearest": "駅からいちばん近い病院は{name}です。"
+                                  "歩いて{minutes}分ほどの距離にあります。",
+        "medicalHospitalSecond": "次に近いのは{name}で、歩いて{minutes}分ほどかかります。",
+        "medicalNoHospital": "駅から2.5km以内には、病院として登録されている施設が見当たりません。",
+        "medicalTrailer": "ここでいう病院は、OpenStreetMap に病院として登録されている施設です。"
+                          "入院できるかどうかと、何科があるかまでは分かりません。"
+                          "各施設のウェブサイトで確かめてください。"
+                          "夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できます。",
 
-        "congestionOnPeak": "{line}の朝の混雑率は{rate}%である。"
-                            "この駅を含む{section}が、{line}でいちばん混む区間にあたる。",
-        "congestionOffPeak": "{line}の朝の混雑率は{rate}%である。"
-                             "いちばん混むのは{section}で、この駅はその区間に入らない。",
-        "congestionOffPeak2": "{line}は{rate}%である。"
-                              "こちらでいちばん混むのは{section}で、やはりこの駅は外にある。",
-        "congestionUnknown": "{lines}の混雑率は、国土交通省の調査では公表されていない。",
-        "congestionAllUnknown": "{lines}の朝の混雑率は、国土交通省の調査では公表されていない。"
+        "congestionOnPeak": "{line}の朝の混雑率は{rate}%です。"
+                            "この駅を含む{section}が、{line}でいちばん混む区間にあたります。",
+        "congestionOffPeak": "{line}の朝の混雑率は{rate}%です。"
+                             "いちばん混むのは{section}で、この駅はその区間に入りません。",
+        "congestionOffPeak2": "{line}は{rate}%です。"
+                              "こちらでいちばん混むのは{section}で、やはりこの駅は外にあります。",
+        "congestionUnknown": "{lines}の混雑率は、国土交通省の調査では公表されていません。",
+        "congestionAllUnknown": "{lines}の朝の混雑率は、国土交通省の調査では公表されていません。"
                                 "この調査は主要な区間を対象にしており、"
-                                "この路線は対象に入っていない。",
-        "congestionScale4": "国土交通省の目安では、200%は体が触れ合って相当な圧迫感がある状態を指す。"
-                            "ドア付近の人は身動きがとれない。",
-        "congestionScale3": "国土交通省の目安では、180%は肩が触れ合ってやや圧迫感がある状態を指す。"
-                            "ドア付近の人は、体の向きを変えるのが難しくなる。",
+                                "この路線は対象に入っていません。",
+        "congestionScale4": "国土交通省の目安では、200%は体が触れ合って相当な圧迫感がある状態を指します。"
+                            "ドア付近の人は身動きがとれません。",
+        "congestionScale3": "国土交通省の目安では、180%は肩が触れ合ってやや圧迫感がある状態を指します。"
+                            "ドア付近の人は、体の向きを変えるのが難しくなります。",
         "congestionScale2": "国土交通省の目安では、150%は肩が触れ合わない程度で、"
-                            "ドア付近の人が多くなる状態を指す。ここはおおむねその状態にあたる。",
-        "congestionScale1": "国土交通省の目安では、150%で肩が触れ合わない程度になる。"
-                            "ここはそこまでは混まない。",
+                            "ドア付近の人が多くなる状態を指します。ここはおおむねその状態にあたります。",
+        "congestionScale1": "国土交通省の目安では、150%で肩が触れ合わない程度になります。"
+                            "ここはそこまでは混みません。",
         # 調査の方法は節の下に出典として出す（src/components/StationDepth.tsx）。
         "congestionTrailer": "路線の中でいちばん混む区間の値なので、"
-                             "この駅から乗る区間が同じ混み方とは限らない。",
-        "leadCongestion5": "使える路線の朝の混雑率は、23区の駅の中ではかなり低い。",
-        "leadCongestion4": "使える路線の朝の混雑率は、23区の駅の中では低いほうである。",
-        "leadCongestion3": "使える路線の朝の混雑率は、23区の駅の平均くらいである。",
-        "leadCongestion2": "使える路線の朝の混雑率は、23区の駅の中では高いほうである。",
-        "leadCongestion1": "使える路線の朝の混雑率は、23区の駅の中でもかなり高い。",
-        "stationLines": "{lines}の{count}{lineWord}が使える。",
-        "stationLinesCount": "使えるのは{count}{lineWord}である。",
-        "stationLinesHead": "{lines}が通る。",
-        "stationLinesMore": "加えて{lines}も乗り入れる。",
-        "stationLinesMore2": "さらに{lines}も使える。",
-        "stationLinesMore3": "このほか{lines}も停まる。",
+                             "この駅から乗る区間が同じ混み方とは限りません。",
+        "leadCongestion5": "使える路線の朝の混雑率は、23区の駅の中ではかなり低いほうです。",
+        "leadCongestion4": "使える路線の朝の混雑率は、23区の駅の中では低いほうです。",
+        "leadCongestion3": "使える路線の朝の混雑率は、23区の駅の平均くらいです。",
+        "leadCongestion2": "使える路線の朝の混雑率は、23区の駅の中では高いほうです。",
+        "leadCongestion1": "使える路線の朝の混雑率は、23区の駅の中でもかなり高いほうです。",
+        "stationLines": "この駅では{lines}の{count}{lineWord}が使えます。",
+        "stationLinesCount": "この駅で使えるのは{count}{lineWord}です。",
+        "stationLinesHead": "{lines}が通ります。",
+        "stationLinesMore": "加えて{lines}も乗り入れます。",
+        "stationLinesMore2": "さらに{lines}も使えます。",
+        "stationLinesMore3": "このほか{lines}も停まります。",
         "stationSingleLine": "乗り入れは1路線だけなので、その路線が止まったときは、"
-                             "ほかの路線が通る駅まで歩くことになる。",
+                             "ほかの路線が通る駅まで歩くことになります。",
         "stationOperatorItem": "{operator}が{count}{lineWord}",
-        "stationMixedOperators": "運営は{breakdown}に分かれている。"
-                                 "1つの路線が止まっても、別の運営会社の路線に乗り換えられる。",
-        "stationSameOperator": "{count}{lineWord}とも{operator}の路線である。"
-                               "運営会社全体に及ぶ障害のときは、まとめて止まることがある。",
-        "stationSameOperatorTwo": "2路線とも{operator}の路線である。"
-                                  "運営会社全体に及ぶ障害のときは、まとめて止まることがある。",
+        "stationMixedOperators": "運営は{breakdown}に分かれています。"
+                                 "1つの路線が止まっても、別の運営会社の路線に乗り換えられます。",
+        "stationSameOperator": "{count}{lineWord}とも{operator}の路線です。"
+                               "運営会社全体に及ぶ障害のときは、まとめて止まることがあります。",
+        "stationSameOperatorTwo": "2路線とも{operator}の路線です。"
+                                  "運営会社全体に及ぶ障害のときは、まとめて止まることがあります。",
 
         "rentLabels": {"oneRoom": "ワンルーム", "oneK": "1K",
                        "oneLDK": "1LDK", "twoLDK": "2LDK"},
         "rentItem": "{label}が{low}〜{high}{unit}",
-        "rentNote": "{items}である。LIFULL HOME'S・Yahoo!不動産・アットホームの"
-                    "駅別の相場を平均し、1万円刻みに丸めた（当社調べ）。"
-                    "いずれも募集賃料のため、実際の成約額はこれより下がることがある。"
-                    "同じ駅でも築年数・駅からの距離・通り沿いかどうかで大きく変わる。",
+        # 主語を省かない。何の金額なのかを文の先頭に置く。
+        # 4間取りを1文に入れると60字を超えるので、2つずつに分ける（ルール43）。
+        "rentNoteHead": "駅周辺の家賃相場は、{items}です。",
+        "rentNoteMore": "{items}程度です。",
+        "rentNoteTrailer": "いずれも LIFULL HOME'S・Yahoo!不動産・アットホームの"
+                           "駅別の相場を平均した値です（当社調べ）。1万円刻みに丸めています。"
+                           "どれも募集賃料のため、実際の成約額はこれより下がることがあります。"
+                           "同じ駅でも築年数・駅からの距離・通り沿いかどうかで大きく変わります。",
         "rentDrivers": ["築年数と構造", "駅からの距離", "幹線道路や線路に面しているか",
                         "坂の上か下か", "間取りに対する専有面積"],
-        "rentReason": "ワンルームの相場は{low}〜{high}{unit}である。",
-        "rentWideSpread": "ただし{layouts}は出典の値が3万円以上ひらいており、"
-                          "集計の対象が違うぶん幅を持って見たほうがよい。",
+        "rentReason": "駅周辺のワンルームの家賃相場は{low}〜{high}{unit}です。",
+        "rentWideSpread": "ただし{layouts}は出典の値が3万円以上ひらいているため、"
+                          "集計の対象が違うぶん幅を持って見てください。",
         "rentWideSep": "・",
 
-        "leadTerrainFlat": "駅の周りはほぼ平坦で、坂を気にせず住む場所を選べる。",
-        "leadTerrainSome": "駅の周りにはゆるやかな坂があり、どの区画に住むかで毎日の移動の負担が変わる。",
-        "leadTerrainHilly": "駅の周りは起伏が大きく、坂の上に住むか下に住むかで毎日の移動の負担が変わる。",
-        "leadGroceriesMany": "歩いて行けるスーパーが{count}軒あり、いちばん近い店までは徒歩{minutes}分である。",
-        "leadGroceriesFew": "歩いて行けるスーパーは{count}軒で、いちばん近い店までは徒歩{minutes}分である。",
-        "leadGroceriesNone": "駅から歩いて行けるスーパーを OpenStreetMap では確認できなかった。",
-        "leadHazard5": "大雨のときに浸水が想定される区域に入る地点は、23区の駅の中ではとても少ない。",
-        "leadHazard4": "大雨のときに浸水が想定される区域に入る地点は、23区の駅の中では少ないほうである。",
-        "leadHazard3": "大雨のときに浸水が想定される区域に入る地点の数は、23区の駅の平均くらいである。",
-        "leadHazard2": "大雨のときに浸水が想定される区域に入る地点は、23区の駅の中では多いほうである。",
-        "leadHazard1": "駅の周りで見た地点のほとんどが、大雨のときに浸水が想定される区域に入る。",
-        "leadStationMany": "{count}路線が使え、乗り換えの選択肢は23区の駅の中では多いほうである。",
-        "leadStationMid": "{count}路線が使える。乗り換えの選択肢は23区の駅の平均くらいである。",
-        "leadStationOne": "使える路線は{line}の1本だけである。止まった日は、別の駅まで歩いて別の路線に乗り換える。",
-        "leadRent5": "通勤にかかる時間に対して、家賃の相場は23区の駅の中でもかなり低い。",
-        "leadRent4": "通勤にかかる時間に対して、家賃の相場は低いほうである。",
-        "leadRent3": "通勤にかかる時間と家賃の相場の関係は、23区の駅の平均くらいである。",
-        "leadRent2": "通勤にかかる時間に対して、家賃の相場は高いほうである。",
-        "leadRent1": "通勤にかかる時間に対して、家賃の相場は23区の駅の中でもかなり高い。",
-        "leadMedical5": "歩いて行けるクリニックと薬局の数は、23区の駅の中でもとても多い。",
-        "leadMedical4": "歩いて行けるクリニックと薬局の数は、23区の駅の中では多いほうである。",
-        "leadMedical3": "歩いて行けるクリニックと薬局の数は、23区の駅の平均くらいである。",
-        "leadMedical2": "歩いて行けるクリニックと薬局の数は、23区の駅の中では少ないほうである。",
-        "leadMedical1": "歩いて行けるクリニックと薬局の数は、23区の駅の中では少ない。",
+        "leadTerrainFlat": "駅の周りはほぼ平坦で、坂を気にせず住む場所を選べます。",
+        "leadTerrainSome": "駅の周りにはゆるやかな坂があり、どの区画に住むかで毎日の移動の負担が変わります。",
+        "leadTerrainHilly": "駅の周りは起伏が大きく、坂の上に住むか下に住むかで毎日の移動の負担が変わります。",
+        "leadGroceriesMany": "歩いて行けるスーパーが{count}軒あり、いちばん近い店までは徒歩{minutes}分です。",
+        "leadGroceriesFew": "歩いて行けるスーパーは{count}軒で、いちばん近い店までは徒歩{minutes}分です。",
+        "leadGroceriesNone": "駅から歩いて行けるスーパーを OpenStreetMap では確認できませんでした。",
+        "leadHazard5": "大雨のときに浸水が想定される区域に入る地点は、23区の駅の中ではとても少ないほうです。",
+        "leadHazard4": "大雨のときに浸水が想定される区域に入る地点は、23区の駅の中では少ないほうです。",
+        "leadHazard3": "大雨のときに浸水が想定される区域に入る地点の数は、23区の駅の平均くらいです。",
+        "leadHazard2": "大雨のときに浸水が想定される区域に入る地点は、23区の駅の中では多いほうです。",
+        "leadHazard1": "駅の周りで見た地点のほとんどが、大雨のときに浸水が想定される区域に入ります。",
+        "leadStationMany": "{count}路線が使え、乗り換えの選択肢は23区の駅の中では多いほうです。",
+        "leadStationMid": "{count}路線が使えます。乗り換えの選択肢は23区の駅の平均くらいです。",
+        "leadStationOne": "使える路線は{line}の1本だけです。"
+                          "止まった日は、別の駅まで歩いて別の路線に乗り換えることになります。",
+        "leadRent5": "通勤にかかる時間に対して、家賃の相場は23区の駅の中でもかなり低いほうです。",
+        "leadRent4": "通勤にかかる時間に対して、家賃の相場は低いほうです。",
+        "leadRent3": "通勤にかかる時間と家賃の相場の関係は、23区の駅の平均くらいです。",
+        "leadRent2": "通勤にかかる時間に対して、家賃の相場は高いほうです。",
+        "leadRent1": "通勤にかかる時間に対して、家賃の相場は23区の駅の中でもかなり高いほうです。",
+        "leadMedical5": "歩いて行けるクリニックと薬局の数は、23区の駅の中でもとても多いほうです。",
+        "leadMedical4": "歩いて行けるクリニックと薬局の数は、23区の駅の中では多いほうです。",
+        "leadMedical3": "歩いて行けるクリニックと薬局の数は、23区の駅の平均くらいです。",
+        "leadMedical2": "歩いて行けるクリニックと薬局の数は、23区の駅の中では少ないほうです。",
+        "leadMedical1": "歩いて行けるクリニックと薬局の数は、23区の駅の中では少ないほうです。",
 
         "roadSideOneway": "片側{n}車線",
         "roadSideBoth": "片側{n}車線",
@@ -219,28 +224,28 @@ PHRASES = {
         "roadWhereAtStation": "駅のすぐそば",
         "roadWhereNear": "駅のすぐ近く",
         "roadWhereAway": "駅から少し歩いたところ",
-        "noiseRoadVeryNear": "{name}（{side}の大通り）が{where}を通っている。"
-                             "一日中、車の通りが絶えない。"
-                             "駅に近い物件を見るときは、通りに面していないかを確かめたい",
-        "noiseRoadMotorway": "{name}の高架が{where}を通る。"
-                             "高速道路なので、車の音は昼も夜も続く",
-        "noiseRoadBig": "{name}（{side}の大通り）が{where}にある。一日中、車の通りが絶えない",
-        "noiseRoadMid": "{name}（{side}）が{where}にある。"
-                        "通りに面した部屋では、朝夕の車の音が入る",
-        "noiseRoadAtStation": "{name}（{side}）が{where}にある。"
+        "noiseRoadVeryNear": "{name}（{side}の大通り）が{where}を通っています。"
+                             "一日中、車の通りが絶えません。"
+                             "駅に近い物件を見るときは、通りに面していないかを確かめてください",
+        "noiseRoadMotorway": "{name}の高架が{where}を通ります。"
+                             "高速道路なので、車の音は昼も夜も続きます",
+        "noiseRoadBig": "{name}（{side}の大通り）が{where}にあります。一日中、車の通りが絶えません",
+        "noiseRoadMid": "{name}（{side}）が{where}にあります。"
+                        "通りに面した部屋では、朝夕の車の音が入ります",
+        "noiseRoadAtStation": "{name}（{side}）が{where}にあります。"
                               "駅に近い物件を見るときは、"
-                              "通りに面していないかを確かめたい",
-        "noiseRoadFar": "いちばん近い大きな通りは{name}で、駅から離れている。"
-                        "駅の周りまで車の音は届きにくい",
+                              "通りに面していないかを確かめてください",
+        "noiseRoadFar": "いちばん近い大きな通りは{name}で、駅から離れています。"
+                        "駅の周りまで車の音は届きにくくなっています",
         # 道路名と距離は本文に書くので、ここでは繰り返さない。
         # 「一言でいうと」は、本文を読む前に結論だけを受け取るためのものである。
-        "leadNoiseLoud": "人の声より先に、車の音を確かめたい駅である。",
-        "leadNoiseMid": "沿道の部屋かどうかで、部屋の中で聞こえる車の音がはっきり変わる。",
-        "leadNoiseQuiet": "大きな通りから離れており、車の音は気になりにくい。",
+        "leadNoiseLoud": "人の声より先に、車の音を確かめたい駅です。",
+        "leadNoiseMid": "沿道の部屋かどうかで、部屋の中で聞こえる車の音がはっきり変わります。",
+        "leadNoiseQuiet": "大きな通りから離れており、車の音は気になりにくい駅です。",
 
-        "cmpRentCheaper": "家賃相場は{station}のほうが安い",
-        "cmpRentSame": "家賃相場はほぼ同じ",
-        "cmpAxisWin": "{axes}は{station}が上回る",
+        "cmpRentCheaper": "家賃相場は{station}のほうが安いです",
+        "cmpRentSame": "家賃相場はほぼ同じです",
+        "cmpAxisWin": "{axes}は{station}が上回ります",
         "cmpButJoin": "{a}。ただし{b}。",
         "cmpAndJoin": "{a}。{b}。",
         "cmpOnly": "{a}。",
@@ -251,15 +256,15 @@ PHRASES = {
         "cmpAxisHealthcare": "医療機関の多さ",
         "cmpAxisShopping": "買い物のしやすさ",
         "cmpAxisQuiet": "静かさ",
-        "cmpNothing": "家賃も通勤も災害の想定も、大きくは変わらない",
+        "cmpNothing": "家賃も通勤も災害の想定も、大きくは変わりません",
 
-        "neighbourDistanceClose": "歩いて行ける距離にある。",
-        "neighbourDistanceFar": "直線でおよそ{km}km離れている。",
-        "neighbourSame": "大手町へは{station}と同じくらいの時間で着く。",
-        "neighbourSlower": "大手町へは{station}より{minutes}{minuteWord}多くかかる。",
-        "neighbourFaster": "大手町へは{station}より{minutes}{minuteWord}早く着く。",
-        "neighbourRentHigher": "ワンルームの相場は{amount}{unit}ほど高い。",
-        "neighbourRentLower": "ワンルームの相場は{amount}{unit}ほど安い。",
+        "neighbourDistanceClose": "歩いて行ける距離にあります。",
+        "neighbourDistanceFar": "直線でおよそ{km}km離れています。",
+        "neighbourSame": "大手町へは{station}と同じくらいの時間で着きます。",
+        "neighbourSlower": "大手町へは{station}より{minutes}{minuteWord}多くかかります。",
+        "neighbourFaster": "大手町へは{station}より{minutes}{minuteWord}早く着きます。",
+        "neighbourRentHigher": "ワンルームの相場は{amount}{unit}ほど高めです。",
+        "neighbourRentLower": "ワンルームの相場は{amount}{unit}ほど安めです。",
 
         "goodOtemachi": "大手町・丸の内方面へ通勤する人",
         "goodShinjuku": "新宿方面へ通勤する人",
@@ -269,14 +274,14 @@ PHRASES = {
         "goodNature": "公園が近いことを重視する人",
         "goodDry": "大雨のときの浸水の想定が小さい土地を選びたい人",
         "goodCheap": "家賃を抑えたい単身者",
-        "goodUnknown": "データからは、際立った向き先を読み取れていない",
+        "goodUnknown": "データからは、際立った向き先を読み取れていません",
         "badFlood": "大雨のときの浸水の想定を避けたい人",
         "badHilly": "坂の上り下りを避けたい人",
         "badOneLine": "運転見合わせのときに別の経路が欲しい人",
         "badShopping": "徒歩圏で買い物を済ませたい人",
         "badFood": "外食できる店の多さを求める人",
         "badExpensive": "家賃を抑えたい人",
-        "badUnknown": "この駅ならではの弱点は、データからは読み取れていない",
+        "badUnknown": "この駅ならではの弱点は、データからは読み取れていません",
     },
 
     "en": {
@@ -412,12 +417,15 @@ PHRASES = {
         "rentLabels": {"oneRoom": "One room", "oneK": "1K",
                        "oneLDK": "1LDK", "twoLDK": "2LDK"},
         "rentItem": "{label} {low} to {high}",
-        "rentNote": "{items}. These are the per-station averages published by LIFULL HOME'S, "
-                    "Yahoo! Real Estate and at home, averaged together and rounded down to the "
-                    "nearest ¥10,000 (our own survey). All three are asking rents, so what "
-                    "tenants finally agree can be lower. Within the same station area the "
-                    "figure moves a great deal with the age of the building, the walk from the "
-                    "station, and whether the flat faces a main road.",
+        "rentNoteHead": "Around this station, {items}. ",
+        "rentNoteMore": "{items}. ",
+        "rentNoteTrailer": "These are the per-station averages published by LIFULL HOME'S, "
+                           "Yahoo! Real Estate and at home, averaged together and rounded down "
+                           "to the nearest \u00a510,000 (our own survey). All three are asking "
+                           "rents, so what tenants finally agree can be lower. Within the same "
+                           "station area the figure moves a great deal with the age of the "
+                           "building, the walk from the station, and whether the flat faces a "
+                           "main road.",
         "rentDrivers": ["Age and construction of the building",
                         "Walking distance from the station",
                         "Whether it faces a main road or the railway",
@@ -620,10 +628,12 @@ PHRASES = {
         "rentLabels": {"oneRoom": "一室户", "oneK": "1K",
                        "oneLDK": "1LDK", "twoLDK": "2LDK"},
         "rentItem": "{label}{low}至{high}{unit}",
-        "rentNote": "{items}。取 LIFULL HOME'S、Yahoo!不动产、at home 三家公布的"
-                    "分车站行情的平均值，并向下取整到1万日元（本公司调查）。"
-                    "三者都是招租价格，实际成交的金额可能低于此。"
-                    "即使是同一个车站，房龄、离车站的距离、是否临街，都会让金额差出很多。",
+        "rentNoteHead": "车站周边的租金行情，{items}。",
+        "rentNoteMore": "{items}。",
+        "rentNoteTrailer": "以上取 LIFULL HOME'S、Yahoo!不动产、at home 三家公布的"
+                           "分车站行情的平均值，并向下取整到1万日元（本公司调查）。"
+                           "三者都是招租价格，实际成交的金额可能低于此。"
+                           "即使是同一个车站，房龄、离车站的距离、是否临街，都会让金额差出很多。",
         "rentDrivers": ["房龄和建筑结构", "离车站的步行距离", "是否临主干道或铁路",
                         "在坡上还是坡下", "相对于户型的实际面积"],
         "rentReason": "一室户的行情为{low}至{high}{unit}。",
@@ -831,10 +841,12 @@ PHRASES = {
         "rentLabels": {"oneRoom": "원룸", "oneK": "1K",
                        "oneLDK": "1LDK", "twoLDK": "2LDK"},
         "rentItem": "{label} {low}~{high}{unit}",
-        "rentNote": "{items}이다. LIFULL HOME'S, Yahoo!부동산, at home이 공개하는 역별 시세를 "
-                    "평균 내어 1만 엔 단위로 내림한 값이다(당사 조사). 모두 모집 임대료이므로, "
-                    "실제로 계약되는 금액은 이보다 낮아질 수 있다. 같은 역이라도 건축 연수, "
-                    "역에서의 거리, 큰길에 면해 있는지에 따라 크게 달라진다.",
+        "rentNoteHead": "역 주변의 임대료 시세는 {items}이다. ",
+        "rentNoteMore": "{items}이다. ",
+        "rentNoteTrailer": "LIFULL HOME'S, Yahoo!부동산, at home이 공개하는 역별 시세를 "
+                           "평균 내어 1만 엔 단위로 내림한 값이다(당사 조사). 모두 모집 임대료이므로, "
+                           "실제로 계약되는 금액은 이보다 낮아질 수 있다. 같은 역이라도 건축 연수, "
+                           "역에서의 거리, 큰길에 면해 있는지에 따라 크게 달라진다.",
         "rentDrivers": ["건축 연수와 구조", "역에서의 도보 거리", "간선도로나 선로에 면해 있는지",
                         "언덕 위인지 아래인지", "구조 대비 전용 면적"],
         "rentReason": "원룸 시세는 {low}~{high}{unit}이다. ",

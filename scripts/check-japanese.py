@@ -142,13 +142,18 @@ AREA_BARE = re.compile(
 )
 
 # ルール3: 文末の調子。「ですます調」と「である調」の混在を見る。
-POLITE_END = re.compile(r"(です|ます|ました|ません|でしょう)[。！？]")
-PLAIN_END = re.compile(r"(である|だった|した|ない|いる|なる|れる|られる)[。！？]")
+# ルール3: 駅ページの日本語はですます調で書く（ルール47）。
+# 「ませんでした」「でした」も丁寧体なので、である調と数え違えないようにする。
+POLITE_END = re.compile(
+    r"(です|ます|ました|ません|ませんでした|でした|でしょう|ください|ましょう)[。！？]")
+PLAIN_END = re.compile(r"(である|だった|した|ない|いる|なる|れる|られる|だ)[。！？]")
 
 # ルール22: 同じ述語の連発。
+# ですます調に直したので、丁寧体の言い回しで数える（ルール47）。
 REPEATED_ENDINGS = [
-    "たほうがいい", "確認したい", "必要がある", "ことになる",
-    "とみてよい", "しておきたい", "が多い", "が分かれる",
+    "たほうがよいでしょう", "確認してください", "必要があります", "ことになります",
+    "とみてよいでしょう", "ておいてください", "たいところです", "が多いです",
+    "が分かれます",
 ]
 
 # 検査しないキー（slug や locale など、日本語の文章ではないもの）。
@@ -283,7 +288,7 @@ def check_text(label, path, text, findings, taigen=True, claims=True):
     # どこから測った値なのかが読み手に伝わらず、細かい数字も求められていない。
     # 「駅から歩いて800m以内に」のように起点が書いてあるもの、
     # 標高や建物の長さのように距離ではないものは対象外にする。
-    for m in re.finditer(r"(\d{2,4})m(先|ほど|の距離|離れ)", text):
+    for m in re.finditer(r"(\d{1,4})m(先|ほど|の距離|離れ)", text):
         head = text[max(0, m.start() - 12):m.start()]
         if "標高" in head or "全長" in head or "高低差" in head or "標高差" in head:
             continue
@@ -292,13 +297,16 @@ def check_text(label, path, text, findings, taigen=True, claims=True):
         break
 
     # ルール26: 名詞の「抜け」。「抜ける」「抜け道」などの動詞・複合語は別語なので除く。
-    if re.search(r"抜け(?!漏れ|る|た|て|ず|ない|道|穴|殻|出)", text):
+    if re.search(r"抜け(?!漏れ|る|ま|た|て|ず|ない|道|穴|殻|出)", text):
         add("26", "名詞の「抜け」。常に「抜け漏れ」と書く")
 
     # ルール3: 同一フィールド内での文末の混在
     ss = sentences(text)
+    # 「なりました。」は POLITE_END にも PLAIN_END（した）にも当たる。
+    # 丁寧体を先に判定し、当たった文はである調として数えない。
     polite = sum(1 for s in ss if POLITE_END.search(s))
-    plain = sum(1 for s in ss if PLAIN_END.search(s))
+    plain = sum(1 for s in ss
+                if not POLITE_END.search(s) and PLAIN_END.search(s))
     if polite > 0 and plain > 0:
         add("3", f"文末の混在: ですます調 {polite}文 / である調 {plain}文")
 

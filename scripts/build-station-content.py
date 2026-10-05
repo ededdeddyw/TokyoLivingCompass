@@ -636,11 +636,20 @@ def build(st, ctx):
     if band:
         b = band["bands"]
         rows = [(k, l) for k, l in p["rentLabels"].items() if k in b]
+        # 4間取りを1文に入れると60字を超えるので、2つずつに分ける（ルール43）。
+        # 先頭の文には「駅周辺の家賃相場は」という主語を置く（ルール4）。
+        def rent_items(group):
+            return join(p, (p["rentItem"].format(
+                label=l, low=money(b[k]["low"]), high=money(b[k]["high"]), unit=unit)
+                for k, l in group))
+
+        groups = [rows[i:i + 2] for i in range(0, len(rows), 2)]
+        note = [p["rentNoteHead"].format(items=rent_items(groups[0]))]
+        for g in groups[1:]:
+            note.append(p["rentNoteMore"].format(items=rent_items(g)))
+        note.append(p["rentNoteTrailer"])
         c["rentRange"] = {
-            "note": p["rentNote"].format(items=join(p, (
-                p["rentItem"].format(label=l, low=money(b[k]["low"]),
-                                     high=money(b[k]["high"]), unit=unit)
-                for k, l in rows))),
+            "note": "".join(note),
             "drivers": list(p["rentDrivers"]),
         }
         reason = []
