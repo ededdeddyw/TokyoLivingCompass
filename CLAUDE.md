@@ -3,7 +3,16 @@
 東京の駅ごとの住みやすさを多言語で提供し、「東京でどこに住むべきか」を決めるための
 意思決定エンジン。物件を探す**前に**、住む街を決めるためのサービス。
 
+**作業を始める前に [docs/15-principles.md](./docs/15-principles.md) を読む。**
+判断の原則、測り方で繰り返した失敗、やらないと決めたこと、
+全14文書の地図がそこにまとまっている。
+
+よく開くもの:
+
+- 開発の原則と、これまでに決めたこと: [docs/15-principles.md](./docs/15-principles.md)
 - 事業構想: [docs/00-concept.md](./docs/00-concept.md)
+- 18の評価軸と計算方法: [docs/03-scoring.md](./docs/03-scoring.md)
+- 読み手の3軸8区分: [docs/14-audience-segments.md](./docs/14-audience-segments.md)
 - 駅ページの品質基準: [docs/12-quality-standard.md](./docs/12-quality-standard.md)
 - 全458駅の計画: [docs/11-all-stations-plan.md](./docs/11-all-stations-plan.md)
 
@@ -265,6 +274,7 @@ npm run dev              # 開発サーバー
 npm run validate:data    # データ検証と充足率レポート
 npm run check:ja         # 日本語表現ルールの機械チェック
 npm run check:coverage   # 店の登録が、乗降客数から見て少ない駅を並べる
+npm run --silent review:segments > out.md  # 8区分の上位駅を点数つきで並べる
 npm run typecheck
 npm run build
 ```
@@ -295,3 +305,8 @@ python3 scripts/fetch-crime.py       # 町丁別の犯罪認知件数（警視�
 4. 派生値（総合評価、グレード、適合度）は保存せず、毎回計算する。
 5. 駅データは「ロースター（事実）＋計算値＋プロフィール」の重ね合わせ。
    家賃もスコアも軸ごとに任意で、揃った順に埋めていく。
+6. 画面に出す同じ名前の数字は、定義を1つにする。違う前提で出すなら、
+   どの前提で出した数字かをその場に書く。
+
+判断に迷ったときの原則10項目と、測り方で繰り返した失敗は
+[docs/15-principles.md](./docs/15-principles.md) §2・§3 にある。
