@@ -252,6 +252,7 @@
 | [12-quality-standard.md](./12-quality-standard.md) | 駅ページの品質基準。何を書けば完成か |
 | [13-japanese-style-rules.md](./13-japanese-style-rules.md) | 日本語表現ルール49項目の全文 |
 | [14-audience-segments.md](./14-audience-segments.md) | 読み手の3軸8区分と、区分ごとの重み |
+| [16-town-traits.md](./16-town-traits.md) | 街の特色をどこから取り、どう書くか。Wikipedia とぶらリハウスの扱い |
 | この文書 | 開発の原則と、これまでに決めたこと |
 
 ---
