@@ -11,7 +11,7 @@
 岩本町は昭和通りと靖国通りが交わり、昭和通りの上には首都高速1号上野線が通る。
 飲み屋は少ないが、車の音は一日中続く。
 
-道路の種別は OSM の highway タグによる。
+道路の種別は OSM の highway タグによる。tunnel タグの付いた区間（トンネル）は数えない。
   motorway  高速道路（首都高など）
   trunk     幹線道路（環七、甲州街道など）
   primary   主要道路（靖国通り、昭和通りなど）
@@ -124,6 +124,11 @@ def main():
             cls = w["tags"].get("highway")
             if cls not in CLASSES:
                 continue
+            # トンネルの区間は、車の音が地上にほとんど出ない。大崎の近くの
+            # 首都高速中央環状線は、山手通りと目黒川の下をトンネルで通るが、
+            # これを数えていたため「首都高が駅の近くを通る」と出ていた
+            if w["tags"].get("tunnel", "no") not in ("no", ""):
+                continue
             g = w["geometry"]
             # 枠の外の道路は早めに捨てる
             if min(abs(p["lat"] - lat) for p in g) > 0.01:
@@ -155,7 +160,7 @@ def main():
     json.dump({
         "meta": {
             "source": "OpenStreetMap contributors (ODbL)",
-            "method": f"highway が {'/'.join(CLASSES)} の道路について、"
+            "method": f"highway が {'/'.join(CLASSES)} の道路（トンネルの区間を除く）について、"
                       f"駅から中心線までの最短距離を計算。{NEAR_M}m以内を沿道とみなす",
             "retrievedAt": time.strftime("%Y-%m-%d"),
         },
