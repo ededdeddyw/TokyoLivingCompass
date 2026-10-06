@@ -377,90 +377,82 @@ def congestion_text(slug, lines, line_ids, ctx):
     return "".join(bits).strip(), top
 
 
-def compare_lead(p, a, b, ctx):
-    """
-    2駅を比べた「一言でいうと」を組み立てる。
+# 2駅を比べる軸。差がこれ以上あるときだけ書く。
+# 誰にとっても向きが同じ軸から先に見る（ルール40）。
+# 静かさと外食できる店の多さは人によって向きが変わるので、後ろに回す。
+NB_AXES = [("disaster", "cmpAxisDisaster", 15), ("safety", "cmpAxisSafety", 20),
+           ("healthcare", "cmpAxisHealthcare", 18), ("shopping", "cmpAxisShopping", 18),
+           ("family", "cmpAxisFamily", 25), ("quietness", "cmpAxisQuiet", 18),
+           ("food", "cmpAxisFood", 20)]
 
-    誰にとっても向きが同じ軸から先に書く（ルール40）。
-    家賃 → 浸水の想定 → 路線の数 → 都心への近さ → 医療 → 買い物 → 静かさ の順に見て、
-    差がはっきりしている軸だけを採る。店の多さのように好みが分かれる軸は入れない。
+
+def compare_wins(p, a, b, ctx):
+    """2駅を比べて、それぞれが上回る点を並べる。
+
+    本文（note）と同じ材料・同じしきい値で選ぶので、一言と本文が食い違わない。
+    鉄道の便 → 都心への近さ → 家賃の安さ → そのほかの軸、の順に見る。
     """
     sc, bands, roster = ctx["sc"], ctx["bands"], ctx["rosterBySlug"]
-    if a not in roster or b not in roster:
-        return None
-    names = ctx["displayName"]
-    name_a, name_b = names[a], names[b]
+    a_wins, b_wins = [], []
+
+    la = [i for i in roster[a]["lineIds"] if i in ctx["lines"]]
+    lb = [i for i in roster[b]["lineIds"] if i in ctx["lines"]]
+    if len(lb) > len(la):
+        b_wins.append(p["cmpAxisRail"])
+    elif len(la) > len(lb):
+        a_wins.append(p["cmpAxisRail"])
+
+    ca = {e["to"]: e["minutes"] for e in ctx["com"].get(a, [])}
+    cb = {e["to"]: e["minutes"] for e in ctx["com"].get(b, [])}
+    gaps = [(abs(cb[h] - ca[h]), h) for h in ca if h in cb]
+    if gaps:
+        gap, hub = max(gaps)
+        if gap >= 3:
+            (b_wins if cb[hub] < ca[hub] else a_wins).append(p["cmpAxisCommute"])
 
     def band(slug):
         v = bands.get(slug, {}).get("bands", {}).get("oneRoom")
         return v["mean"] if v else None
 
-    # 差がこれ以上あるときだけ書く。小さな差を並べても判断の助けにならない。
-    AXES = [("disaster", "cmpAxisDisaster", 12), ("commute", "cmpAxisCommute", 8),
-            ("healthcare", "cmpAxisHealthcare", 15), ("shopping", "cmpAxisShopping", 15),
-            ("quietness", "cmpAxisQuiet", 15)]
-    wins_a, wins_b = [], []
-    # 路線の数は、スコアではなく本数そのもので比べる
-    la, lb = len(roster[a]["lineIds"]), len(roster[b]["lineIds"])
-    if la - lb >= 1:
-        wins_a.append(p["cmpAxisTransit"])
-    elif lb - la >= 1:
-        wins_b.append(p["cmpAxisTransit"])
-    for axis, label, gap in AXES:
+    ra, rb = band(a), band(b)
+    if ra is not None and rb is not None and abs(ra - rb) >= 5000:
+        (b_wins if rb < ra else a_wins).append(p["cmpAxisRentLow"])
+
+    for axis, label, gapmin in NB_AXES:
         va, vb = sc.get(a, {}).get(axis), sc.get(b, {}).get(axis)
         if va is None or vb is None:
             continue
-        if va - vb >= gap:
-            wins_a.append(p[label])
-        elif vb - va >= gap:
-            wins_b.append(p[label])
+        if va - vb >= gapmin:
+            a_wins.append(p[label])
+        elif vb - va >= gapmin:
+            b_wins.append(p[label])
+    return a_wins, b_wins
 
-    # 片方が1つも上回らないと、「もう一方へ行け」としか読めない一言になる。
-    # その場合だけしきい値を半分にして、この駅が上回る軸を探す。
-    def relax(target, other, target_name_wins):
-        found = []
-        for axis, label, gap in AXES:
-            va, vb = sc.get(a, {}).get(axis), sc.get(b, {}).get(axis)
-            if va is None or vb is None:
-                continue
-            diff = (va - vb) if target_name_wins else (vb - va)
-            if gap / 2 <= diff < gap:
-                found.append(p[label])
-        return found[:1]
 
-    if not wins_a and wins_b:
-        wins_a = relax(wins_a, wins_b, True)
-    elif not wins_b and wins_a:
-        wins_b = relax(wins_b, wins_a, False)
+def compare_lead(p, a, b, ctx):
+    """
+    2駅を比べた「一言でいうと」を組み立てる。
 
-    ra, rb = band(a), band(b)
-    rent = None
-    if ra is not None and rb is not None and abs(ra - rb) >= 10000:
-        rent = p["cmpRentCheaper"].format(station=name_b if rb < ra else name_a)
-        cheaper_is_b = rb < ra
-
-    sep = p["cmpSep"]
-    def clause(wins, name):
-        return p["cmpAxisWin"].format(axes=sep.join(wins[:2]), station=name)
-
-    if rent:
-        # 家賃で負けている側が、ほかの軸で上回るなら「ただし」でつなぐ
-        other = wins_a if cheaper_is_b else wins_b
-        other_name = name_a if cheaper_is_b else name_b
-        if other:
-            return p["cmpButJoin"].format(a=rent, b=clause(other, other_name))
-        same = wins_b if cheaper_is_b else wins_a
-        same_name = name_b if cheaper_is_b else name_a
-        if same:
-            return p["cmpAndJoin"].format(a=rent, b=clause(same, same_name))
-        return p["cmpOnly"].format(a=rent)
-    if wins_a and wins_b:
-        return p["cmpButJoin"].format(a=clause(wins_b, name_b), b=clause(wins_a, name_a))
-    if wins_a:
-        return p["cmpOnly"].format(a=clause(wins_a, name_a))
-    if wins_b:
-        return p["cmpOnly"].format(a=clause(wins_b, name_b))
-    return p["cmpOnly"].format(a=p["cmpNothing"])
+    上回る点だけを並べると「それなら隣の駅でいい」としか読めない。
+    どちらを取るならどちらか、が1文で分かる形にする（ルール49）。
+    """
+    roster = ctx["rosterBySlug"]
+    if a not in roster or b not in roster:
+        return None
+    names = ctx["displayName"]
+    a_wins, b_wins = compare_wins(p, a, b, ctx)
+    if a_wins and b_wins:
+        return p["nbPickBoth"].format(
+            nbWin=b_wins[0], nb=names[b], stWin=a_wins[0], station=names[a])
+    # 片方が2つ以上の点で上回るときに「ほかの条件に大きな違いはありません」と
+    # 書くと、本文に出ている差と食い違う。その場合は2つ並べて言い切る。
+    if b_wins:
+        key = "nbPickNb" if len(b_wins) == 1 else "nbPickNbMany"
+        return p[key].format(nbWin=p["cmpSep"].join(b_wins[:2]), nb=names[b])
+    if a_wins:
+        key = "nbPickSt" if len(a_wins) == 1 else "nbPickStMany"
+        return p[key].format(stWin=p["cmpSep"].join(a_wins[:2]), station=names[a])
+    return p["nbPickNone"]
 
 
 def build(st, ctx):
@@ -723,12 +715,6 @@ def build(st, ctx):
                   key=lambda t: t[0])[:2]
     nb = []
     # 比べる軸。差がこれ以上あるときだけ、乗り換えの一言として書く。
-    # 誰にとっても向きが同じ軸から先に見る（ルール40）。
-    # 静かさと外食できる店の多さは人によって向きが変わるので、後ろに回す。
-    NB_AXES = [("disaster", "cmpAxisDisaster", 15), ("safety", "cmpAxisSafety", 20),
-               ("healthcare", "cmpAxisHealthcare", 18), ("shopping", "cmpAxisShopping", 18),
-               ("family", "cmpAxisFamily", 25), ("quietness", "cmpAxisQuiet", 18),
-               ("food", "cmpAxisFood", 20)]
     for dist, o in near:
         oslug = o["slug"]
         oc = {e["to"]: e["minutes"] for e in ctx["com"].get(oslug, [])}
