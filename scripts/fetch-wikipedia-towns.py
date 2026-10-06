@@ -28,9 +28,9 @@ import urllib.request
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ROSTER = os.path.join(ROOT, "data", "roster", "stations.json")
 OUT = os.path.join(ROOT, ".cache", "wikipedia")
-API = "https://ja.wikipedia.org/w/api.php"
+WIKI = "https://ja.wikipedia.org/wiki/"
 UA = "TokyoLivingCompass/0.1 (https://github.com/ededdeddyw/TokyoLivingCompass)"
-WAIT = 4.0
+WAIT = 3.0
 
 # 特色を読み取るのに使う節。のりば・年表・利用状況などは読まない
 KEEP = re.compile(r"駅周辺|概要|地理|地域|特徴|文化|商業|商店|まち|街|名所|施設|史跡|繁華")
@@ -38,36 +38,77 @@ SKIP = re.compile(r"利用状況|乗車人員|乗降人員|のりば|構造|バ�
                   r"関連項目|外部リンク|世帯数|人口|学区|郵便|事業所|交通|参考")
 
 
-def call(params):
-    q = urllib.parse.urlencode({**params, "format": "json", "formatversion": 2})
+def fetch_raw(title):
+    """記事の wikitext を返す。無ければ None。
+
+    API（api.php・REST）は、この環境から続けて呼ぶと 429 を返し続けた。
+    記事の原文を返す action=raw は、間隔を空ければ取れる。
+    """
+    url = f"{WIKI}{urllib.parse.quote(title.replace(' ', '_'))}?action=raw"
     for i in range(6):
         try:
-            req = urllib.request.Request(f"{API}?{q}", headers={"User-Agent": UA})
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
             with urllib.request.urlopen(req, timeout=40) as res:
-                return json.load(res)
+                time.sleep(WAIT)
+                return res.read().decode("utf-8")
         except urllib.error.HTTPError as e:
+            if e.code == 404:
+                time.sleep(WAIT)
+                return None
             if e.code != 429:
                 raise
         except (urllib.error.URLError, TimeoutError):
             pass
-        time.sleep(20 * (i + 1))
-    raise SystemExit("Wikipedia の API から応答が得られなかった")
+        time.sleep(30 * (i + 1))
+    raise SystemExit("Wikipedia から応答が得られなかった")
 
 
-def page(title):
-    d = call({"action": "query", "prop": "extracts|info|pageprops", "explaintext": 1,
-              "inprop": "url", "ppprop": "disambiguation", "redirects": 1, "titles": title})
-    time.sleep(WAIT)
-    p = d["query"]["pages"][0]
-    if p.get("missing") or "disambiguation" in (p.get("pageprops") or {}):
+def strip_nested(text, open_, close):
+    """{{…}} や {|…|} のような入れ子の囲みを取り除く。"""
+    out, depth, i = [], 0, 0
+    while i < len(text):
+        if text.startswith(open_, i):
+            depth += 1
+            i += len(open_)
+        elif depth and text.startswith(close, i):
+            depth -= 1
+            i += len(close)
+        else:
+            if not depth:
+                out.append(text[i])
+            i += 1
+    return "".join(out)
+
+
+def plain(wikitext):
+    """wikitext を、読み取りに使える平文に直す。"""
+    t = re.sub(r"<!--.*?-->", "", wikitext, flags=re.S)
+    t = re.sub(r"<ref[^>]*/>", "", t)
+    t = re.sub(r"<ref[^>]*>.*?</ref>", "", t, flags=re.S)
+    t = strip_nested(t, "{{", "}}")
+    t = strip_nested(t, "{|", "|}")
+    t = re.sub(r"\[\[(?:ファイル|画像|File|Image|Category|カテゴリ):[^\[\]]*(?:\[\[[^\]]*\]\][^\[\]]*)*\]\]", "", t)
+    t = re.sub(r"\[\[(?:[^\]|]*\|)?([^\]]*)\]\]", r"\1", t)
+    t = re.sub(r"\[https?://\S+\s*([^\]]*)\]", r"\1", t)
+    t = re.sub(r"'{2,}", "", t)
+    t = re.sub(r"<[^>]+>", "", t)
+    t = re.sub(r"^[*#:;]+\s*", "", t, flags=re.M)
+    t = re.sub(r"\n{3,}", "\n\n", t)
+    return t.strip()
+
+
+def page(title, hops=2):
+    raw = fetch_raw(title)
+    if raw is None:
         return None
-    return p
-
-
-def search(query):
-    d = call({"action": "query", "list": "search", "srsearch": query, "srlimit": 5})
-    time.sleep(WAIT)
-    return [r["title"] for r in d["query"]["search"]]
+    m = re.match(r"\s*#(?:REDIRECT|転送)\s*\[\[([^\]#|]+)", raw, re.I)
+    if m:
+        return page(m.group(1).strip(), hops - 1) if hops else None
+    if re.search(r"\{\{\s*(?:aimai|曖昧さ回避|disambig|地名の曖昧さ回避)", raw, re.I):
+        return None
+    return {"title": title.replace("_", " "),
+            "fullurl": f"{WIKI}{urllib.parse.quote(title.replace(' ', '_'))}",
+            "extract": plain(raw)}
 
 
 def sections(text, limit=1800):
@@ -102,11 +143,6 @@ def station_page(st):
         p = page(title)
         if p and in_tokyo(p, ward):
             return p
-    for title in search(f"{name}駅 {ward}"):
-        if title.startswith(name) and ("駅" in title or "停留場" in title):
-            p = page(title)
-            if p and in_tokyo(p, ward):
-                return p
     return None
 
 
@@ -136,7 +172,7 @@ def main():
             if p:
                 rec["pages"].append({
                     "kind": kind, "title": p["title"], "url": p["fullurl"],
-                    "revision": p["lastrevid"], "text": sections(p.get("extract", "")),
+                    "text": sections(p.get("extract", "")),
                 })
         json.dump(rec, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         print(f"[{n}/{len(roster)}] {st['nameJa']}: "
