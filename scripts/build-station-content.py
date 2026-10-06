@@ -722,33 +722,131 @@ def build(st, ctx):
     near = sorted(((haversine_m(st, o), o) for o in ctx["roster"] if o["slug"] != slug),
                   key=lambda t: t[0])[:2]
     nb = []
+    # 比べる軸。差がこれ以上あるときだけ、乗り換えの一言として書く。
+    # 誰にとっても向きが同じ軸から先に見る（ルール40）。
+    # 静かさと外食できる店の多さは人によって向きが変わるので、後ろに回す。
+    NB_AXES = [("disaster", "cmpAxisDisaster", 15), ("safety", "cmpAxisSafety", 20),
+               ("healthcare", "cmpAxisHealthcare", 18), ("shopping", "cmpAxisShopping", 18),
+               ("family", "cmpAxisFamily", 25), ("quietness", "cmpAxisQuiet", 18),
+               ("food", "cmpAxisFood", 20)]
     for dist, o in near:
-        oc = {e["to"]: e["minutes"] for e in ctx["com"].get(o["slug"], [])}
-        ob = ctx["bands"].get(o["slug"])
-        # 隣の駅までの距離は、歩いて行けるかどうかが分かれば足りる。
+        oslug = o["slug"]
+        oc = {e["to"]: e["minutes"] for e in ctx["com"].get(oslug, [])}
+        ob = ctx["bands"].get(oslug)
+        oname = ctx["displayName"][oslug]
+        olines = [line_name(p["lineName"](ctx["lines"][i]))
+                  for i in o["lineIds"] if i in ctx["lines"]]
+
+        # 1. どれくらい離れているか
         if dist < 1000:
             bits = [p["neighbourDistanceClose"].format(station=name)]
         else:
             bits = [p["neighbourDistanceFar"].format(
                 station=name,
                 km=f"{round(dist / 500) / 2:.1f}".rstrip("0").rstrip("."))]
-        if "otemachi" in com and "otemachi" in oc:
-            d = oc["otemachi"] - com["otemachi"]
-            if abs(d) <= 2:
-                bits.append(p["neighbourSame"].format(station=name))
+
+        # 2. 使える路線がどう違うか。本数だけでなく、路線の名前まで書く
+        extra = [l for l in olines if l not in lines]
+        rail_better = None
+        if olines:
+            if len(olines) > len(lines) and extra:
+                # 路線名を全部並べると1文が100字を超える（ルール43）。
+                # 3本までは名前で、それ以上は本数で書く。
+                if len(extra) <= 3:
+                    bits.append(p["nbLinesExtra"].format(
+                        nb=oname, station=name, lines=join(p, extra)))
+                else:
+                    bits.append(p["nbLinesExtraMany"].format(
+                        nb=oname, station=name, count=len(extra)))
+                bits.append(p["nbLinesBetter"].format(nb=oname))
+                rail_better = True
+            elif len(lines) > len(olines):
+                if len(olines) <= 3:
+                    bits.append(p["nbLinesFewer"].format(
+                        nb=oname, station=name, lines=join(p, olines)))
+                else:
+                    bits.append(p["nbLinesFewerMany"].format(
+                        nb=oname, station=name, count=len(olines)))
+                rail_better = False
+            elif extra:
+                if len(olines) <= 3:
+                    bits.append(p["nbLinesSwap"].format(
+                        nb=oname, station=name, lines=join(p, olines)))
+                else:
+                    bits.append(p["nbLinesExtraMany"].format(
+                        nb=oname, station=name, count=len(extra)))
             else:
-                key = "neighbourSlower" if d > 0 else "neighbourFaster"
-                bits.append(p[key].format(station=name, minutes=abs(d),
-                                          minuteWord=word(p, "minute", abs(d))))
+                bits.append(p["nbLinesSame"].format(station=name))
+
+        # 3. 通勤時間の差。差がいちばん大きいオフィス街を例に出す
+        gaps = [(abs(oc[h] - com[h]), h) for h in com if h in oc]
+        if gaps:
+            gap, hub = max(gaps)
+            if gap >= 3:
+                d = oc[hub] - com[hub]
+                key = "nbCommuteSlower" if d > 0 else "nbCommuteFaster"
+                bits.append(p[key].format(
+                    nb=oname, hub=p["hubs"][hub], minutes=abs(d),
+                    minuteWord=word(p, "minute", abs(d))))
+            else:
+                bits.append(p["nbCommuteSame"])
+
+        # 4. そのぶん何を手放すか。家賃を先に見て、無ければほかの軸を探す
+        traded = False
+        rent_said = False
         if band and ob and "oneRoom" in band["bands"] and "oneRoom" in ob["bands"]:
             dm = ob["bands"]["oneRoom"]["mean"] - band["bands"]["oneRoom"]["mean"]
             if abs(dm) >= 5000:
                 # 平均どうしの差をそのまま出すと「7,233円ほど高い」のように、
                 # 元の帯（1万円刻み）より細かい数字になり、精度を偽ることになる。
                 rounded = int(round(abs(dm) / 1000)) * 1000
-                key = "neighbourRentHigher" if dm > 0 else "neighbourRentLower"
-                bits.append(p[key].format(amount=money(rounded), unit=unit))
-        lead = compare_lead(p, slug, o["slug"], ctx)
+                amount = (p["moneySmall"](rounded) if rounded < 10000
+                          else money(rounded))
+                higher = dm > 0
+                # 鉄道の便で上回る駅が家賃も高いなら、それがこの2駅の引き換えになる
+                but = (rail_better is True and higher) or (rail_better is False and not higher)
+                if but:
+                    key = "nbRentHigherBut" if higher else "nbRentLowerBut"
+                elif rail_better is None:
+                    # 鉄道の便に差が無いときは「も」でつながない
+                    key = "nbRentHigherPlain" if higher else "nbRentLowerPlain"
+                else:
+                    key = "nbRentHigher" if higher else "nbRentLower"
+                bits.append(p[key].format(nb=oname, amount=amount, unit=unit))
+                traded = but
+                rent_said = True
+        if not traded:
+            # 家賃で引き換えが出なければ、軸で引き換えを探す。
+            # 鉄道の便で上回っている側と逆の側が上回る軸を選ぶと、
+            # 「それなら隣の駅でいい」で終わらない比較になる。
+            best = None
+            for axis, label, gapmin in NB_AXES:
+                va = ctx["sc"].get(slug, {}).get(axis)
+                vb = ctx["sc"].get(oslug, {}).get(axis)
+                if va is None or vb is None:
+                    continue
+                for diff, wins_station in ((va - vb, True), (vb - va, False)):
+                    if diff < gapmin:
+                        continue
+                    if rail_better is True and not wins_station:
+                        continue
+                    if rail_better is False and wins_station:
+                        continue
+                    if best is None or diff > best[0]:
+                        best = (diff, label, wins_station)
+            if best:
+                _, label, wins_station = best
+                if rail_better is None:
+                    key = "nbAxisPlain" if wins_station else "nbAxisPlainNb"
+                else:
+                    key = "nbAxisBut" if wins_station else "nbAxisButNb"
+                bits.append(p[key].format(axis=p[label], station=name, nb=oname))
+            elif not rent_said:
+                # 引き換えが見つからないことも、読み手には判断の材料になる。
+                # 黙って終わると「ほかは調べていない」のか「違いが無い」のか分からない。
+                bits.append(p["nbRestSimilar"])
+
+        lead = compare_lead(p, slug, oslug, ctx)
         entry = {"slug": o["slug"]}
         if lead:
             entry["lead"] = lead
