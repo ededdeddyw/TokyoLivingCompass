@@ -668,6 +668,50 @@ def build(st, ctx):
         if "oneRoom" in b:
             reason.append(p["rentReason"].format(
                 low=money(b["oneRoom"]["low"]), high=money(b["oneRoom"]["high"]), unit=unit))
+        # 「家賃がこの水準である理由」の節なので、相場の数字を繰り返すだけで
+        # 終わらせない。通勤時間に対してどの位置にあるかを書き、
+        # 相場を押し上げている材料と抑えている材料を添える（ルール49）。
+        if "rentValue" in sc:
+            reason.append(p[band_key("rentLevel", sc["rentValue"])])
+            down, up = [], []
+            if sc.get("disaster", 100) <= 35:
+                down.append(p["rentFactorFlood"])
+            if len(lines) == 1:
+                down.append(p["rentFactorOneLine"])
+            if ter.get("slope") == "hilly":
+                down.append(p["rentFactorHilly"])
+            if sc.get("shopping", 100) <= 30:
+                down.append(p["rentFactorFewShops"])
+            if sc.get("quietness", 100) <= 25:
+                down.append(p["rentFactorNoisy"])
+            if sc.get("transitConvenience", 0) >= 70 and len(lines) >= 3:
+                up.append(p["rentFactorManyLines"].format(count=len(lines)))
+            if sc.get("disaster", 0) >= 85:
+                up.append(p["rentFactorDry"])
+            if sc.get("family", 0) >= 80:
+                up.append(p["rentFactorFamily"])
+            if sc.get("quietness", 0) >= 75:
+                up.append(p["rentFactorQuiet"])
+            if sc.get("food", 0) >= 85:
+                up.append(p["rentFactorFood"])
+            down, up = down[:2], up[:2]
+            # 通勤時間に対して安い駅で「押し上げる材料」だけを並べると、
+            # 直前の文と向きが合わない。水準に合う側が無いときは、
+            # 代わりに金額そのものの位置を書く。
+            cheap_side = sc["rentValue"] >= 60
+            pricey_side = sc["rentValue"] <= 40
+            if (down and up) or (down and not pricey_side) or (up and not cheap_side):
+                if down and up:
+                    reason.append(p["rentBoth"].format(up=join(p, up), down=join(p, down)))
+                elif down:
+                    reason.append(p["rentDown"].format(items=join(p, down)))
+                else:
+                    reason.append(p["rentUp"].format(items=join(p, up)))
+            elif "rentLow" in sc:
+                if pricey_side and sc["rentLow"] >= 60:
+                    reason.append(p["rentAbsoluteLow"])
+                elif cheap_side and sc["rentLow"] <= 40:
+                    reason.append(p["rentAbsoluteHigh"])
         wide = [l for k, l in rows if b[k]["wideSpread"]]
         if wide:
             reason.append(p["rentWideSpread"].format(layouts=p["rentWideSep"].join(wide)))
