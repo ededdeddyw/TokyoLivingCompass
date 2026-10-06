@@ -538,12 +538,21 @@ def build(st, ctx):
             head = p["floodNearOnly"]
         else:
             head = p["floodNone"]
-        detail = (p["floodAround"].format(count=haz["aroundCount"],
-                                          deepest=depth_label[haz["deepest"]])
-                  if haz.get("aroundCount") else "")
+        if haz.get("aroundCount"):
+            key = ("floodAroundAll" if haz["aroundCount"] >= 9
+                   else "floodAroundSome" if haz.get("atStation")
+                   else "floodAroundOnly")
+            detail = p[key].format(count=haz["aroundCount"],
+                                   deepest=depth_label[haz["deepest"]])
+        else:
+            detail = ""
         tide_txt = (p["hightide"].format(count=tide["aroundCount"])
                     if tide.get("aroundCount") else "")
-        c["hazards"] = (head + detail + tide_txt + p["hazardTrailer"]).strip()
+        # 事実を並べて終わらせず、23区の中でどのあたりなのかで締める（ルール49）。
+        scores = ctx["sc"].get(slug, {})
+        tail = (p[band_key("hazardTrailer", scores["disaster"])]
+                if "disaster" in scores else "")
+        c["hazards"] = (head + detail + tide_txt + tail).strip()
 
     # ── 買い物（OpenStreetMap） ────────────────────
     sup = by_cat.get("supermarket", [])
@@ -573,6 +582,9 @@ def build(st, ctx):
                 p["medicalPharmacies"].format(
                     count=len(ph), pharmacyWord=word(p, "pharmacy", len(ph))) if ph else "") if x]
             bits = [p["medicalCounts"].format(items=join(p, counts))]
+            # 数が少ない駅にまで「選べます」と書くと、事実と合わない。
+            if len(cl) + len(ph) >= 10:
+                bits.append(p["medicalEnough"])
         else:
             bits = [p["medicalNone"]]
         if hp:
@@ -671,9 +683,10 @@ def build(st, ctx):
         ob = ctx["bands"].get(o["slug"])
         # 隣の駅までの距離は、歩いて行けるかどうかが分かれば足りる。
         if dist < 1000:
-            bits = [p["neighbourDistanceClose"]]
+            bits = [p["neighbourDistanceClose"].format(station=name)]
         else:
             bits = [p["neighbourDistanceFar"].format(
+                station=name,
                 km=f"{round(dist / 500) / 2:.1f}".rstrip("0").rstrip("."))]
         if "otemachi" in com and "otemachi" in oc:
             d = oc["otemachi"] - com["otemachi"]
@@ -800,7 +813,9 @@ def build(st, ctx):
     else:
         leads["groceries"] = p["leadGroceriesNone"]
     if "disaster" in sc:
-        leads["hazards"] = p[band_key("leadHazard", sc["disaster"])]
+        leads["hazards"] = (p["leadHazardAtStation"] if haz.get("atStation")
+                            else p["leadHazardNear"] if haz.get("aroundCount")
+                            else p["leadHazardNone"])
     if len(lines) == 1:
         leads["stationNote"] = p["leadStationOne"].format(line=lines[0])
     elif "transitConvenience" in sc:

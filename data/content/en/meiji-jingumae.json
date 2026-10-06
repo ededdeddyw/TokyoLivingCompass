@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 28.3 m above sea level. Within 800 m the ground ranges from 17 m to 33.8 m, a difference of 16.8 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 3 of the nine points within 400 m fall inside the area, and the deepest projection there is 0.5 to 3 m. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "東急ストア",
@@ -25,12 +25,12 @@
     {
       "slug": "omote-sando",
       "lead": "Omote-Sando is ahead on how little of the area is in the flood projection and the number of medical facilities, but Meiji-Jingumae is ahead on quiet.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Meiji-Jingumae."
+      "note": "Close enough to walk to from Meiji-Jingumae. It reaches Otemachi in about the same time as Meiji-Jingumae."
     },
     {
       "slug": "kita-sando",
       "lead": "Kita-Sando is ahead on how easy the shopping is, but Meiji-Jingumae is ahead on the number of lines and how close the centre is.",
-      "note": "About 1 km away in a straight line. It takes 7 minutes longer to reach Otemachi than Meiji-Jingumae."
+      "note": "About 1 km from Meiji-Jingumae in a straight line. It takes 7 minutes longer to reach Otemachi than Meiji-Jingumae."
     }
   ],
   "goodFor": [
@@ -54,7 +54,7 @@
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 1 supermarkets within walking distance, and the nearest is 13 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
     "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",

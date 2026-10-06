@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 29.6 m above sea level. Within 800 m the ground ranges from 24.6 m to 33.4 m, a difference of 8.8 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 1 also fall inside the area, and the deepest projection is 0.5 to 3 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
       "name": "よしや 大山店",
@@ -57,12 +57,12 @@
     {
       "slug": "itabashi-kuyakushomae",
       "lead": "Itabashi-Kuyakushomae is ahead on how easy the shopping is, but Oyama is ahead on quiet.",
-      "note": "Close enough to walk to. It reaches Otemachi 8 minutes sooner than Oyama."
+      "note": "Close enough to walk to from Oyama. It reaches Otemachi 8 minutes sooner than Oyama."
     },
     {
       "slug": "naka-itabashi",
       "lead": "Oyama is ahead on how little of the area is in the flood projection and how easy the shopping is.",
-      "note": "About 1 km away in a straight line. It reaches Otemachi in about the same time as Oyama."
+      "note": "About 1 km from Oyama in a straight line. It reaches Otemachi in about the same time as Oyama."
     }
   ],
   "goodFor": [
@@ -86,7 +86,7 @@
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 9 supermarkets within walking distance, and the nearest is 4 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tobu Tojo Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",

@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 29.7 m above sea level. Within 800 m the ground ranges from 27.5 m to 37.6 m, a difference of 10.1 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 4 also fall inside the area, and the deepest projection is 0.5 to 3 m. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "TOP若林店",
@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 6 clinics and 8 pharmacies. The nearest hospital is アマノ動物病院, about 15 minutes' walk from the station. The next nearest is 樹のはなクリニック, about 15 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 6 clinics and 8 pharmacies. Day-to-day care is available close to the station. The nearest hospital is アマノ動物病院, about 15 minutes' walk from the station. The next nearest is 樹のはなクリニック, about 15 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyu Setagaya Line.",
   "congestion": "The ministry's congestion survey does not publish figures for Tokyu Setagaya Line. It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "shoin-jinja-mae",
       "lead": "Shoin-Jinja-Mae is ahead on the number of medical facilities, but Wakabayashi is ahead on quiet.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Wakabayashi."
+      "note": "Close enough to walk to from Wakabayashi. It reaches Otemachi in about the same time as Wakabayashi."
     },
     {
       "slug": "nishi-taishido",
       "lead": "Nishi-Taishido is ahead on the number of medical facilities and how easy the shopping is, but Wakabayashi is ahead on quiet.",
-      "note": "Close enough to walk to. It reaches Otemachi 3 minutes sooner than Wakabayashi. One-room rents run about ¥6,000 higher."
+      "note": "Close enough to walk to from Wakabayashi. It reaches Otemachi 3 minutes sooner than Wakabayashi. One-room rents run about ¥6,000 higher."
     }
   ],
   "goodFor": [
@@ -84,7 +84,7 @@
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 8 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tokyu Setagaya Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",

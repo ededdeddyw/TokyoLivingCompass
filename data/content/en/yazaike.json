@@ -8,7 +8,7 @@
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 2.9 m above sea level. Within 800 m the ground ranges from 2.9 m to 3.2 m, a difference of 0.3 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. All nine points within 400 m of the station fall inside the area too, and the deepest projection among them is 0.5 to 3 m. On the whole, the flood projection here is about average for the 23 wards.",
   "groceries": [
     {
       "name": "comodi-iida 鹿浜店",
@@ -43,12 +43,12 @@
     {
       "slug": "nishiaraidaishi-nishi",
       "lead": "Nishiaraidaishi-Nishi is ahead on the number of medical facilities and how easy the shopping is, but Yazaike is ahead on how little of the area is in the flood projection.",
-      "note": "Close enough to walk to. It reaches Otemachi 3 minutes sooner than Yazaike."
+      "note": "Close enough to walk to from Yazaike. It reaches Otemachi 3 minutes sooner than Yazaike."
     },
     {
       "slug": "toneri-koen",
       "lead": "Yazaike is ahead on the number of medical facilities.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Yazaike."
+      "note": "Close enough to walk to from Yazaike. It reaches Otemachi in about the same time as Yazaike."
     }
   ],
   "goodFor": [
@@ -72,7 +72,7 @@
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "There are 2 supermarkets within walking distance, and the nearest is 12 minutes on foot.",
-    "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Nippori-Toneri Liner serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",

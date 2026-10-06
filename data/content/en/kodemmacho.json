@@ -8,7 +8,7 @@
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 4.9 m above sea level. Within 800 m the ground ranges from 3.3 m to 4.9 m, a difference of 1.6 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 1 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. All nine points within 400 m of the station fall inside the area too, and the deepest projection among them is 0.5 to 3 m. For storm surge, 1 of the nine points also fall inside the projected area. On the whole, the flood projection here is about average for the 23 wards.",
   "groceries": [
     {
       "name": "マルエツプチ",
@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 24 clinics and 22 pharmacies. The nearest hospital is 同仁記念会明和病院, about 14 minutes' walk from the station. The next nearest is 秋葉原メディカルクリニック, about 15 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 24 clinics and 22 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 同仁記念会明和病院, about 14 minutes' walk from the station. The next nearest is 秋葉原メディカルクリニック, about 15 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Hibiya Line.",
   "congestion": "Tokyo Metro Hibiya Line runs at 163% of capacity in the morning peak. The busiest stretch is 三ノ輪→入谷, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "bakurocho",
       "lead": "Bakurocho is ahead on the number of lines and quiet, but Kodemmacho is ahead on the number of medical facilities.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Kodemmacho. One-room rents run about ¥6,000 lower."
+      "note": "Close enough to walk to from Kodemmacho. It reaches Otemachi in about the same time as Kodemmacho. One-room rents run about ¥6,000 lower."
     },
     {
       "slug": "iwamotocho",
       "lead": "rent, commuting and the flood projection are all much the same.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Kodemmacho. One-room rents run about ¥6,000 lower."
+      "note": "Close enough to walk to from Kodemmacho. It reaches Otemachi in about the same time as Kodemmacho. One-room rents run about ¥6,000 lower."
     }
   ],
   "goodFor": [
@@ -89,7 +89,7 @@
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "There are 14 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
-    "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tokyo Metro Hibiya Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",

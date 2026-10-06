@@ -8,7 +8,7 @@
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 1.2 m above sea level. Within 800 m the ground ranges from 0.7 m to 4.1 m, a difference of 3.4 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 8 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 8 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 8 also fall inside the area, and the deepest projection is 0.5 to 3 m. For storm surge, 8 of the nine points also fall inside the projected area. On the whole, the flood projection here is about average for the 23 wards.",
   "groceries": [
     {
       "name": "まいばすけっと とうきょうスカイツリー駅南店",
@@ -25,7 +25,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 4 clinics and 10 pharmacies. The nearest hospital is 墨田病院, about 12 minutes' walk from the station. The next nearest is 山田記念病院, about 15 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 4 clinics and 10 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 墨田病院, about 12 minutes' walk from the station. The next nearest is 山田記念病院, about 15 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Toei Asakusa Line.",
   "congestion": "Toei Asakusa Line runs at 123% of capacity in the morning peak. The busiest stretch of the line is 本所吾妻橋→浅草, which includes this station. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -43,12 +43,12 @@
     {
       "slug": "tokyo-skytree",
       "lead": "Tokyo-Skytree is ahead on the number of medical facilities, but Honjo-Azumabashi is ahead on how little of the area is in the flood projection and how close the centre is.",
-      "note": "Close enough to walk to. It takes 5 minutes longer to reach Otemachi than Honjo-Azumabashi. One-room rents run about ¥6,000 lower."
+      "note": "Close enough to walk to from Honjo-Azumabashi. It takes 5 minutes longer to reach Otemachi than Honjo-Azumabashi. One-room rents run about ¥6,000 lower."
     },
     {
       "slug": "asakusa",
       "lead": "Asakusa is ahead on the number of lines and the number of medical facilities, but Honjo-Azumabashi is ahead on how little of the area is in the flood projection and quiet.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Honjo-Azumabashi."
+      "note": "Close enough to walk to from Honjo-Azumabashi. It reaches Otemachi in about the same time as Honjo-Azumabashi."
     }
   ],
   "goodFor": [
@@ -71,7 +71,7 @@
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "There are 6 supermarkets within walking distance, and the nearest is 7 minutes on foot.",
-    "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Toei Asakusa Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",

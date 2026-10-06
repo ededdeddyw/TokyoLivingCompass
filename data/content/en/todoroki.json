@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 27.2 m above sea level. Within 800 m the ground ranges from 27.2 m to 39.2 m, a difference of 12.0 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 3 also fall inside the area, and the deepest projection is 0.5 to 3 m. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "成城石井 等々力店",
@@ -43,12 +43,12 @@
     {
       "slug": "oyamadai",
       "lead": "Oyamadai is ahead on how little of the area is in the flood projection and quiet, but Todoroki is ahead on the number of medical facilities.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Todoroki. One-room rents run about ¥9,000 higher."
+      "note": "Close enough to walk to from Todoroki. It reaches Otemachi in about the same time as Todoroki. One-room rents run about ¥9,000 higher."
     },
     {
       "slug": "kaminoge",
       "lead": "Todoroki is ahead on how little of the area is in the flood projection.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Todoroki."
+      "note": "Close enough to walk to from Todoroki. It reaches Otemachi in about the same time as Todoroki."
     }
   ],
   "goodFor": [
@@ -71,7 +71,7 @@
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 2 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tokyu Oimachi Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",

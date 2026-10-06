@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 11.6 m above sea level. Within 800 m the ground ranges from 11.6 m to 30.3 m, a difference of 18.7 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 3 also fall inside the area, and the deepest projection is 0.5 to 3 m. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "マルエツ",
@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 8 clinics and 9 pharmacies. The nearest hospital is 茂恵会半蔵門病院, about 15 minutes' walk from the station. The next nearest is 日本歯科大学附属病院, about 20 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 8 clinics and 9 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 茂恵会半蔵門病院, about 15 minutes' walk from the station. The next nearest is 日本歯科大学附属病院, about 20 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "4 lines serve the station. JR Chuo-Sobu Line (Local) run through it. Tokyo Metro Yurakucho Line also call here. Tokyo Metro Namboku Line are available too. Toei Shinjuku Line stop here as well. The lines are split between operators (JR East runs 1 line, Tokyo Metro runs 2 lines and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "Tokyo Metro Namboku Line runs at 156% of capacity in the morning peak. The busiest stretch is 駒込→本駒込, which this station is not on. Tokyo Metro Yurakucho Line runs at 153%. Its busiest stretch is 東池袋→護国寺, which this station is likewise not on. Toei Shinjuku Line runs at 152%. Its busiest stretch is 西大島→住吉, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "hanzomon",
       "lead": "rents are lower at Ichigaya, but Hanzomon is ahead on how little of the area is in the flood projection and the number of medical facilities.",
-      "note": "Close enough to walk to. It reaches Otemachi 4 minutes sooner than Ichigaya. One-room rents run about ¥31,000 higher."
+      "note": "Close enough to walk to from Ichigaya. It reaches Otemachi 4 minutes sooner than Ichigaya. One-room rents run about ¥31,000 higher."
     },
     {
       "slug": "kojimachi",
       "lead": "rents are lower at Ichigaya, but Kojimachi is ahead on the number of medical facilities and how easy the shopping is.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Ichigaya. One-room rents run about ¥39,000 higher."
+      "note": "Close enough to walk to from Ichigaya. It reaches Otemachi in about the same time as Ichigaya. One-room rents run about ¥39,000 higher."
     }
   ],
   "goodFor": [
@@ -86,7 +86,7 @@
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 7 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "4 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",

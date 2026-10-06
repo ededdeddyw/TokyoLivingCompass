@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 29.1 m above sea level. Within 800 m the ground ranges from 22.6 m to 32.8 m, a difference of 10.2 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 3 of the nine points within 400 m fall inside the area, and the deepest projection there is 0.5 to 3 m. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "コープ 奥沢店",
@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 13 clinics and 13 pharmacies. The nearest hospital is おくさわ脳卒中リハビリテーション病院, about 2 minutes' walk from the station. The next nearest is 奥沢病院, about 3 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 13 clinics and 13 pharmacies. Day-to-day care is available close to the station. The nearest hospital is おくさわ脳卒中リハビリテーション病院, about 2 minutes' walk from the station. The next nearest is 奥沢病院, about 3 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyu Meguro Line.",
   "congestion": "Tokyu Meguro Line runs at 133% of capacity in the morning peak. The busiest stretch is 不動前→目黒, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "jiyugaoka",
       "lead": "Jiyugaoka is ahead on the number of lines.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Okusawa."
+      "note": "Close enough to walk to from Okusawa. It reaches Otemachi in about the same time as Okusawa."
     },
     {
       "slug": "midorigaoka",
       "lead": "rent, commuting and the flood projection are all much the same.",
-      "note": "Close enough to walk to. It takes 3 minutes longer to reach Otemachi than Okusawa."
+      "note": "Close enough to walk to from Okusawa. It takes 3 minutes longer to reach Otemachi than Okusawa."
     }
   ],
   "goodFor": [
@@ -83,7 +83,7 @@
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 11 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "Only the Tokyu Meguro Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",

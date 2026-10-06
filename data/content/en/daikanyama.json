@@ -8,7 +8,7 @@
     "slope": "hilly",
     "note": "The station sits on the higher side of the ground around it, at 24.7 m above sea level. Within 800 m the ground ranges from 9.7 m to 33.2 m, a difference of 23.5 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 1 of the nine points within 400 m fall inside the area, and the deepest projection there is less than 0.5 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
       "name": "ピーコックストア 代官山店",
@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 18 clinics and 9 pharmacies. The nearest hospital is 東京共済病院, about 13 minutes' walk from the station. The next nearest is アイシークリニック渋谷院, about 15 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 18 clinics and 9 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 東京共済病院, about 13 minutes' walk from the station. The next nearest is アイシークリニック渋谷院, about 15 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyu Toyoko Line.",
   "congestion": "Tokyu Toyoko Line runs at 124% of capacity in the morning peak. The busiest stretch is 祐天寺→中目黒, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "ebisu",
       "lead": "Ebisu is ahead on the number of lines and how close the centre is, but Daikanyama is ahead on quiet.",
-      "note": "Close enough to walk to. It reaches Otemachi 4 minutes sooner than Daikanyama."
+      "note": "Close enough to walk to from Daikanyama. It reaches Otemachi 4 minutes sooner than Daikanyama."
     },
     {
       "slug": "nakameguro",
       "lead": "rents are lower at Naka-Meguro, but Daikanyama is ahead on how easy the shopping is and quiet.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Daikanyama. One-room rents run about ¥26,000 lower."
+      "note": "Close enough to walk to from Daikanyama. It reaches Otemachi in about the same time as Daikanyama. One-room rents run about ¥26,000 lower."
     }
   ],
   "goodFor": [
@@ -89,7 +89,7 @@
   "leads": {
     "terrain": "The ground around the station rises and falls sharply, and living above or below the slope changes how much effort getting about takes.",
     "groceries": "There are 13 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "Only the Tokyu Toyoko Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the highest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",

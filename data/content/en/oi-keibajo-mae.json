@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 1.4 m above sea level. Within 800 m the ground ranges from 1.4 m to 11.7 m, a difference of 10.3 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. For storm surge, 5 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 1 of the nine points within 400 m fall inside the area, and the deepest projection there is less than 0.5 m. For storm surge, 5 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "文化堂",
@@ -50,12 +50,12 @@
     {
       "slug": "tachiaigawa",
       "lead": "rents are lower at Tachiaigawa, but Oi-Keibajo-Mae is ahead on quiet.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Oi-Keibajo-Mae. One-room rents run about ¥12,000 lower."
+      "note": "Close enough to walk to from Oi-Keibajo-Mae. It reaches Otemachi in about the same time as Oi-Keibajo-Mae. One-room rents run about ¥12,000 lower."
     },
     {
       "slug": "samezu",
       "lead": "Samezu is ahead on how close the centre is and the number of medical facilities, but Oi-Keibajo-Mae is ahead on quiet.",
-      "note": "About 1 km away in a straight line. It reaches Otemachi 3 minutes sooner than Oi-Keibajo-Mae. One-room rents run about ¥6,000 lower."
+      "note": "About 1 km from Oi-Keibajo-Mae in a straight line. It reaches Otemachi 3 minutes sooner than Oi-Keibajo-Mae. One-room rents run about ¥6,000 lower."
     }
   ],
   "goodFor": [
@@ -78,7 +78,7 @@
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 4 supermarkets within walking distance, and the nearest is 5 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "Only the Tokyo Monorail serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",

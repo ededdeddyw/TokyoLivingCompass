@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 13.3 m above sea level. Within 800 m the ground ranges from 8.1 m to 24.8 m, a difference of 16.7 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 1 of the nine points within 400 m fall inside the area, and the deepest projection there is less than 0.5 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
       "name": "まいばすけっと 白山駅前店",
@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 12 clinics and 15 pharmacies. The nearest hospital is 日本医科大学附属病院, about 11 minutes' walk from the station. The next nearest is 都立駒込病院, about 17 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 12 clinics and 15 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 日本医科大学附属病院, about 11 minutes' walk from the station. The next nearest is 都立駒込病院, about 17 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Toei Mita Line.",
   "congestion": "Toei Mita Line runs at 146% of capacity in the morning peak. The busiest stretch is 西巣鴨→巣鴨, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "hon-komagome",
       "lead": "Hon-Komagome is ahead on quiet, but Hakusan is ahead on how little of the area is in the flood projection.",
-      "note": "Close enough to walk to. It takes 8 minutes longer to reach Otemachi than Hakusan."
+      "note": "Close enough to walk to from Hakusan. It takes 8 minutes longer to reach Otemachi than Hakusan."
     },
     {
       "slug": "todaimae",
       "lead": "Todaimae is ahead on the number of medical facilities and quiet.",
-      "note": "Close enough to walk to. It takes 6 minutes longer to reach Otemachi than Hakusan. One-room rents run about ¥6,000 lower."
+      "note": "Close enough to walk to from Hakusan. It takes 6 minutes longer to reach Otemachi than Hakusan. One-room rents run about ¥6,000 lower."
     }
   ],
   "goodFor": [
@@ -86,7 +86,7 @@
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 11 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "Only the Toei Mita Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",

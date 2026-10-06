@@ -8,7 +8,7 @@
     "slope": "hilly",
     "note": "The station sits on the higher side of the ground around it, at 29.6 m above sea level. Within 800 m the ground ranges from 11.6 m to 33.1 m, a difference of 21.5 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 6 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 6 also fall inside the area, and the deepest projection is 0.5 to 3 m. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "74 cabotte",
@@ -43,12 +43,12 @@
     {
       "slug": "todoroki",
       "lead": "Todoroki is ahead on how little of the area is in the flood projection.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Kaminoge."
+      "note": "Close enough to walk to from Kaminoge. It reaches Otemachi in about the same time as Kaminoge."
     },
     {
       "slug": "futako-tamagawa",
       "lead": "Futako-Tamagawa is ahead on the number of lines and the number of medical facilities, but Kaminoge is ahead on quiet.",
-      "note": "About 1 km away in a straight line. It reaches Otemachi 7 minutes sooner than Kaminoge."
+      "note": "About 1 km from Kaminoge in a straight line. It reaches Otemachi 7 minutes sooner than Kaminoge."
     }
   ],
   "goodFor": [
@@ -73,7 +73,7 @@
   "leads": {
     "terrain": "The ground around the station rises and falls sharply, and living above or below the slope changes how much effort getting about takes.",
     "groceries": "There are 2 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tokyu Oimachi Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",

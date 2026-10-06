@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 3.1 m above sea level. Within 800 m the ground ranges from 1 m to 14.7 m, a difference of 13.7 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 5 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 2 also fall inside the area, and the deepest projection is 0.5 to 3 m. For storm surge, 5 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "オーケーストア",
@@ -57,12 +57,12 @@
     {
       "slug": "aomono-yokocho",
       "lead": "rent, commuting and the flood projection are all much the same.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Samezu."
+      "note": "Close enough to walk to from Samezu. It reaches Otemachi in about the same time as Samezu."
     },
     {
       "slug": "oimachi",
       "lead": "Oimachi is ahead on the number of lines and how little of the area is in the flood projection.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Samezu."
+      "note": "Close enough to walk to from Samezu. It reaches Otemachi in about the same time as Samezu."
     }
   ],
   "goodFor": [
@@ -84,7 +84,7 @@
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 7 supermarkets within walking distance, and the nearest is 7 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Keikyu Main Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",

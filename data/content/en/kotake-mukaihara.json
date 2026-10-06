@@ -8,7 +8,7 @@
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 34.4 m above sea level. Within 800 m the ground ranges from 29.2 m to 37 m, a difference of 7.8 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 3 of the nine points within 400 m fall inside the area, and the deepest projection there is 0.5 to 3 m. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "まいばすけっと",
@@ -57,12 +57,12 @@
     {
       "slug": "ekoda",
       "lead": "Ekoda is ahead on how little of the area is in the flood projection, but Kotake-Mukaihara is ahead on the number of lines and quiet.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Kotake-Mukaihara."
+      "note": "Close enough to walk to from Kotake-Mukaihara. It reaches Otemachi in about the same time as Kotake-Mukaihara."
     },
     {
       "slug": "shin-sakuradai",
       "lead": "Shin-Sakuradai is ahead on how little of the area is in the flood projection, but Kotake-Mukaihara is ahead on the number of lines and how close the centre is.",
-      "note": "Close enough to walk to. It takes 8 minutes longer to reach Otemachi than Kotake-Mukaihara."
+      "note": "Close enough to walk to from Kotake-Mukaihara. It takes 8 minutes longer to reach Otemachi than Kotake-Mukaihara."
     }
   ],
   "goodFor": [
@@ -86,7 +86,7 @@
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "There are 6 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",

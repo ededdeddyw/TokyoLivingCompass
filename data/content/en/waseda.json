@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 14.8 m above sea level. Within 800 m the ground ranges from 5.9 m to 25.1 m, a difference of 19.2 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 3 of the nine points within 400 m fall inside the area, and the deepest projection there is 0.5 to 3 m. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "三徳",
@@ -39,19 +39,19 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 7 clinics and 18 pharmacies. The nearest hospital is 国立国際医療センター, about 9 minutes' walk from the station. The next nearest is 神経研究所附属晴和病院, about 11 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 7 clinics and 18 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 国立国際医療センター, about 9 minutes' walk from the station. The next nearest is 神経研究所附属晴和病院, about 11 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Tozai Line.",
   "congestion": "Tokyo Metro Tozai Line runs at 160% of capacity in the morning peak. The busiest stretch is 木場→門前仲町, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "neighbours": [
     {
       "slug": "waseda-toden",
       "lead": "Waseda (Tokyo Sakura Tram (Toden Arakawa Line)) is ahead on quiet, but Waseda is ahead on how little of the area is in the flood projection and how close the centre is.",
-      "note": "Close enough to walk to. It takes 26 minutes longer to reach Otemachi than Waseda."
+      "note": "Close enough to walk to from Waseda. It takes 26 minutes longer to reach Otemachi than Waseda."
     },
     {
       "slug": "ushigome-yanagicho",
       "lead": "Ushigome-Yanagicho is ahead on quiet, but Waseda is ahead on how little of the area is in the flood projection.",
-      "note": "Close enough to walk to. It takes 5 minutes longer to reach Otemachi than Waseda."
+      "note": "Close enough to walk to from Waseda. It takes 5 minutes longer to reach Otemachi than Waseda."
     }
   ],
   "goodFor": [
@@ -73,7 +73,7 @@
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 10 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "Only the Tokyo Metro Tozai Line serves this station, so when it stops you walk to another station.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",

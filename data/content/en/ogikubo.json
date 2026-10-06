@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 46.7 m above sea level. Within 800 m the ground ranges from 41.6 m to 52.3 m, a difference of 10.7 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 4 also fall inside the area, and the deepest projection is 0.5 to 3 m. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "西友 荻窪店",
@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 26 clinics and 24 pharmacies. The nearest hospital is にれの木クリニック, about 4 minutes' walk from the station. The next nearest is 保険医療センター, about 5 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 26 clinics and 24 pharmacies. Day-to-day care is available close to the station. The nearest hospital is にれの木クリニック, about 4 minutes' walk from the station. The next nearest is 保険医療センター, about 5 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "3 lines serve the station. JR Chuo Rapid Line run through it. JR Chuo-Sobu Line (Local) also call here. Tokyo Metro Marunouchi Line are available too. The lines are split between operators (JR East runs 2 lines and Tokyo Metro runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "JR Chuo Rapid Line runs at 158% of capacity in the morning peak. The busiest stretch is 中野→新宿, which this station is not on. Tokyo Metro Marunouchi Line runs at 154%. Its busiest stretch is 新大塚→茗荷谷, which this station is likewise not on. JR Chuo-Sobu Line (Local) runs at 151%. Its busiest stretch is 錦糸町→両国, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "asagaya",
       "lead": "Asagaya is ahead on how little of the area is in the flood projection and how easy the shopping is, but Ogikubo is ahead on the number of lines.",
-      "note": "About 1.5 km away in a straight line. It reaches Otemachi 3 minutes sooner than Ogikubo."
+      "note": "About 1.5 km from Ogikubo in a straight line. It reaches Otemachi 3 minutes sooner than Ogikubo."
     },
     {
       "slug": "minami-asagaya",
       "lead": "Minami-Asagaya is ahead on how little of the area is in the flood projection and how easy the shopping is, but Ogikubo is ahead on the number of lines.",
-      "note": "About 1.5 km away in a straight line. It reaches Otemachi in about the same time as Ogikubo. One-room rents run about ¥6,000 higher."
+      "note": "About 1.5 km from Ogikubo in a straight line. It reaches Otemachi in about the same time as Ogikubo. One-room rents run about ¥6,000 higher."
     }
   ],
   "goodFor": [
@@ -86,7 +86,7 @@
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 8 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",

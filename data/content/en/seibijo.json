@@ -8,7 +8,7 @@
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 2 m above sea level. Within 800 m the ground ranges from 1.4 m to 4.4 m, a difference of 3.0 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 7 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 7 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 7 also fall inside the area, and the deepest projection is 0.5 to 3 m. For storm surge, 7 of the nine points also fall inside the projected area. On the whole, the flood projection here is about average for the 23 wards.",
   "medical": "Within an 800 m walk of the station there are 1 clinic and 1 pharmacy. The nearest hospital is 高野病院, about 19 minutes' walk from the station. The next nearest is 渡辺病院, about 20 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Monorail.",
   "congestion": "The ministry's congestion survey does not publish figures for Tokyo Monorail. It covers the major commuter stretches, and this line is not among them. ",
@@ -27,12 +27,12 @@
     {
       "slug": "tenkubashi",
       "lead": "Tenkubashi is ahead on the number of lines, but Seibijo is ahead on how little of the area is in the flood projection.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Seibijo."
+      "note": "Close enough to walk to from Seibijo. It reaches Otemachi in about the same time as Seibijo."
     },
     {
       "slug": "anamori-inari",
       "lead": "Anamori-Inari is ahead on the number of medical facilities and how easy the shopping is, but Seibijo is ahead on how little of the area is in the flood projection and quiet.",
-      "note": "Close enough to walk to. It takes 8 minutes longer to reach Otemachi than Seibijo."
+      "note": "Close enough to walk to from Seibijo. It takes 8 minutes longer to reach Otemachi than Seibijo."
     }
   ],
   "goodFor": [
@@ -56,7 +56,7 @@
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "OpenStreetMap records no supermarket within walking distance of the station.",
-    "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tokyo Monorail serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",

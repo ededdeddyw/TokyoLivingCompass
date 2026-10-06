@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 6.7 m above sea level. Within 800 m the ground ranges from -2.4 m to 7.8 m, a difference of 10.2 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is less than 0.5 m. For storm surge, 2 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 2 of the nine points within 400 m fall inside the area, and the deepest projection there is less than 0.5 m. For storm surge, 2 of the nine points also fall inside the projected area. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
       "name": "成城石井",
@@ -25,12 +25,12 @@
     {
       "slug": "daiba",
       "lead": "rent, commuting and the flood projection are all much the same.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Tokyo-International-Cruise-Terminal."
+      "note": "Close enough to walk to from Tokyo-International-Cruise-Terminal. It reaches Otemachi in about the same time as Tokyo-International-Cruise-Terminal."
     },
     {
       "slug": "telecom-center",
       "lead": "Telecom-Center is ahead on how little of the area is in the flood projection, but Tokyo-International-Cruise-Terminal is ahead on how easy the shopping is.",
-      "note": "Close enough to walk to. It takes 3 minutes longer to reach Otemachi than Tokyo-International-Cruise-Terminal."
+      "note": "Close enough to walk to from Tokyo-International-Cruise-Terminal. It takes 3 minutes longer to reach Otemachi than Tokyo-International-Cruise-Terminal."
     }
   ],
   "goodFor": [
@@ -53,7 +53,7 @@
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 1 supermarkets within walking distance, and the nearest is 8 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "Only the Yurikamome serves this station, so when it stops you walk to another station.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",

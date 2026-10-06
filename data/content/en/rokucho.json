@@ -8,7 +8,7 @@
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 1.4 m above sea level. Within 800 m the ground ranges from 0 m to 2.2 m, a difference of 2.2 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 7 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. All nine points within 400 m of the station fall inside the area too, and the deepest projection among them is 3 to 5 m. For storm surge, 7 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the large side for the 23 wards.",
   "groceries": [
     {
       "name": "ライフ 六町駅前店",
@@ -43,12 +43,12 @@
     {
       "slug": "kita-ayase",
       "lead": "Kita-Ayase is ahead on how easy the shopping is, but Rokucho is ahead on quiet.",
-      "note": "About 1.5 km away in a straight line. It reaches Otemachi in about the same time as Rokucho. One-room rents run about ¥8,000 higher."
+      "note": "About 1.5 km from Rokucho in a straight line. It reaches Otemachi in about the same time as Rokucho. One-room rents run about ¥8,000 higher."
     },
     {
       "slug": "aoi",
       "lead": "Aoi is ahead on how easy the shopping is, but Rokucho is ahead on the number of medical facilities.",
-      "note": "About 1.5 km away in a straight line. It reaches Otemachi 3 minutes sooner than Rokucho. One-room rents run about ¥7,000 higher."
+      "note": "About 1.5 km from Rokucho in a straight line. It reaches Otemachi 3 minutes sooner than Rokucho. One-room rents run about ¥7,000 higher."
     }
   ],
   "goodFor": [
@@ -73,7 +73,7 @@
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "There are 2 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, comparatively many of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tsukuba Express serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",

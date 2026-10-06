@@ -8,7 +8,7 @@
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 7 m above sea level. Within 800 m the ground ranges from 2.6 m to 7.5 m, a difference of 4.9 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 4 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 4 of the nine points within 400 m fall inside the area, and the deepest projection there is 0.5 to 3 m. For storm surge, 4 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "Y'smart",
@@ -36,12 +36,12 @@
     {
       "slug": "shinonome",
       "lead": "Tatsumi is ahead on how little of the area is in the flood projection and how close the centre is.",
-      "note": "Close enough to walk to. It takes 7 minutes longer to reach Otemachi than Tatsumi."
+      "note": "Close enough to walk to from Tatsumi. It takes 7 minutes longer to reach Otemachi than Tatsumi."
     },
     {
       "slug": "shin-kiba",
       "lead": "Shin-Kiba is ahead on the number of lines and how little of the area is in the flood projection, but Tatsumi is ahead on the number of medical facilities and quiet.",
-      "note": "About 1.5 km away in a straight line. It reaches Otemachi in about the same time as Tatsumi."
+      "note": "About 1.5 km from Tatsumi in a straight line. It reaches Otemachi in about the same time as Tatsumi."
     }
   ],
   "goodFor": [
@@ -65,7 +65,7 @@
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "There are 1 supermarkets within walking distance, and the nearest is 5 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "Only the Tokyo Metro Yurakucho Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",

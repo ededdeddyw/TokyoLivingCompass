@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 30.3 m above sea level. Within 800 m the ground ranges from 21.9 m to 40.2 m, a difference of 18.3 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
       "name": "東急ストア 田園調布店",
@@ -57,12 +57,12 @@
     {
       "slug": "tamagawa",
       "lead": "Tamagawa is ahead on the number of lines, but Den-En-Chofu is ahead on how little of the area is in the flood projection.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Den-En-Chofu."
+      "note": "Close enough to walk to from Den-En-Chofu. It reaches Otemachi in about the same time as Den-En-Chofu."
     },
     {
       "slug": "okusawa",
       "lead": "rents are lower at Den-En-Chofu, but Okusawa is ahead on the number of medical facilities and how easy the shopping is.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Den-En-Chofu. One-room rents run about ¥13,000 higher."
+      "note": "Close enough to walk to from Den-En-Chofu. It reaches Otemachi in about the same time as Den-En-Chofu. One-room rents run about ¥13,000 higher."
     }
   ],
   "goodFor": [
@@ -84,7 +84,7 @@
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 4 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "Neither the station nor the ground around it falls inside the projected flood area.",
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",

@@ -8,7 +8,7 @@
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 2 m above sea level. Within 800 m the ground ranges from -0.6 m to 2 m, a difference of 2.6 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 9 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. All nine points within 400 m of the station fall inside the area too, and the deepest projection among them is 3 to 5 m. For storm surge, 9 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the large side for the 23 wards.",
   "groceries": [
     {
       "name": "ライフ",
@@ -39,19 +39,19 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 10 clinics and 12 pharmacies. The nearest hospital is 健生堂病院, about 4 minutes' walk from the station. The next nearest is 高石胃腸病院, about 14 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 10 clinics and 12 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 健生堂病院, about 4 minutes' walk from the station. The next nearest is 高石胃腸病院, about 14 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "4 lines serve the station. Tobu Skytree Line and Keisei Oshiage Line run through it. Tokyo Metro Hanzomon Line also call here. Toei Asakusa Line are available too. The lines are split between operators (Tobu runs 1 line, Keisei runs 1 line, Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "Keisei Oshiage Line runs at 157% of capacity in the morning peak. The busiest stretch of the line is 京成曳舟→押上, which includes this station. Tobu Skytree Line runs at 142% of capacity in the morning peak. The busiest stretch is 小菅→北千住, which this station is not on. Toei Asakusa Line runs at 123%. Its busiest stretch is 本所吾妻橋→浅草, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "neighbours": [
     {
       "slug": "tokyo-skytree",
       "lead": "Oshiage is ahead on the number of lines.",
-      "note": "Close enough to walk to. It takes 6 minutes longer to reach Otemachi than Oshiage."
+      "note": "Close enough to walk to from Oshiage. It takes 6 minutes longer to reach Otemachi than Oshiage."
     },
     {
       "slug": "honjo-azumabashi",
       "lead": "Honjo-Azumabashi is ahead on how little of the area is in the flood projection, but Oshiage is ahead on the number of lines and the number of medical facilities.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Oshiage."
+      "note": "Close enough to walk to from Oshiage. It reaches Otemachi in about the same time as Oshiage."
     }
   ],
   "goodFor": [
@@ -74,7 +74,7 @@
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "There are 7 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, comparatively many of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "4 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",

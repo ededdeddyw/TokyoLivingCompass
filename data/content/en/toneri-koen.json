@@ -8,7 +8,7 @@
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 3 m above sea level. Within 800 m the ground ranges from 2.9 m to 4.9 m, a difference of 2.0 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. All nine points within 400 m of the station fall inside the area too, and the deepest projection among them is 3 to 5 m. On the whole, the flood projection here is on the large side for the 23 wards.",
   "medical": "Within an 800 m walk of the station, OpenStreetMap records neither a clinic nor a pharmacy. The nearest hospital is 博慈会記念総合病院, about 36 minutes' walk from the station. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Nippori-Toneri Liner.",
   "congestion": "The ministry's congestion survey does not publish figures for Nippori-Toneri Liner. It covers the major commuter stretches, and this line is not among them. ",
@@ -27,12 +27,12 @@
     {
       "slug": "yazaike",
       "lead": "Yazaike is ahead on the number of medical facilities.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Toneri-Koen."
+      "note": "Close enough to walk to from Toneri-Koen. It reaches Otemachi in about the same time as Toneri-Koen."
     },
     {
       "slug": "toneri",
       "lead": "Toneri is ahead on how easy the shopping is.",
-      "note": "About 1 km away in a straight line. It takes 4 minutes longer to reach Otemachi than Toneri-Koen. One-room rents run about ¥6,000 higher."
+      "note": "About 1 km from Toneri-Koen in a straight line. It takes 4 minutes longer to reach Otemachi than Toneri-Koen. One-room rents run about ¥6,000 higher."
     }
   ],
   "goodFor": [
@@ -57,7 +57,7 @@
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "OpenStreetMap records no supermarket within walking distance of the station.",
-    "hazards": "Among the 23 wards' stations, comparatively many of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Nippori-Toneri Liner serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is low for the 23 wards.",

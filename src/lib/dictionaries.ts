@@ -143,6 +143,8 @@ export type Dictionary = {
     source: string;
     terrainSource: string;
     congestionSource: string;
+    hazardSource: string;
+    medicalSource: string;
   };
   dataQuality: {
     seedWarning: string;
@@ -332,11 +334,13 @@ const ja: Dictionary = {
     family: "子育て",
     medical: "医療",
     rentRange: "同じ駅でも家賃に幅がある",
-    rentDrivers: "差を生む要因",
+    rentDrivers: "家賃の差を生む要因",
     unwritten: "未記入",
     source: "出典",
     terrainSource: "国土地理院 標高API",
-    congestionSource: "国土交通省 都市鉄道の混雑率調査（令和7年度）",
+    congestionSource: "国交省 混雑率調査（令和7年度）",
+    hazardSource: "国交省ハザードマップ",
+    medicalSource: "OpenStreetMap",
   },
   dataQuality: {
     seedWarning:
@@ -358,7 +362,7 @@ const ja: Dictionary = {
       "この数値は掲載元のページを開いての確認が済んでいない暫定値です。公開前に確認します。",
   },
   hazardNote:
-    "浸水想定区域とは、想定しうる最大規模の雨や台風が起きた場合に浸水すると試算された範囲です。ふだんから浸水する場所という意味ではなく、また区域の外なら浸水しないという意味でもありません。想定される深さは同じ駅でも区画ごとに違うため、住む場所を決める前に、区が公開しているハザードマップで住所ごとに確認してください。",
+    "浸水想定区域とは、想定しうる最大規模の雨や台風が起きた場合に浸水すると試算された範囲です。ふだんから浸水する場所という意味ではなく、また区域の外なら浸水しないという意味でもありません。想定される深さは同じ駅でも区画ごとに違うため、住む場所を決める前に、区が公開しているハザードマップで住所ごとに確認してください。下水があふれる内水氾濫は全国共通の地図がなく、区が個別に公開しているので、あわせて見てください。",
   rentHistory: {
     title: "家賃の推移",
     period: "時点",
@@ -627,11 +631,13 @@ const en: Dictionary = {
     family: "Raising children",
     medical: "Healthcare",
     rentRange: "Rent varies within the same station",
-    rentDrivers: "What drives the difference",
+    rentDrivers: "What drives the rent difference",
     unwritten: "Not written yet",
     source: "Source",
     terrainSource: "GSI elevation API",
-    congestionSource: "MLIT urban rail crowding survey (FY2025)",
+    congestionSource: "MLIT crowding survey (FY2025)",
+    hazardSource: "MLIT hazard map",
+    medicalSource: "OpenStreetMap",
   },
   dataQuality: {
     seedWarning:
@@ -923,11 +929,13 @@ const zhHans: Dictionary = {
     family: "养育孩子",
     medical: "医疗",
     rentRange: "同一车站内的租金差别",
-    rentDrivers: "差别来自哪里",
+    rentDrivers: "租金差别来自哪里",
     unwritten: "尚未写",
     source: "出处",
     terrainSource: "日本国土地理院 海拔API",
-    congestionSource: "日本国土交通省 都市铁道拥挤率调查（令和7年度）",
+    congestionSource: "日本国交省 拥挤率调查（令和7年度）",
+    hazardSource: "日本国交省 灾害风险地图",
+    medicalSource: "OpenStreetMap",
   },
   dataQuality: {
     seedWarning: "本页的数据是开发用的占位值，不是有出处的数字。",
@@ -1214,11 +1222,13 @@ const ko: Dictionary = {
     family: "아이를 키우기",
     medical: "의료",
     rentRange: "같은 역 안에서의 임대료 차이",
-    rentDrivers: "차이가 생기는 이유",
+    rentDrivers: "임대료 차이가 생기는 이유",
     unwritten: "아직 쓰지 않음",
     source: "출처",
     terrainSource: "일본 국토지리원 표고 API",
-    congestionSource: "일본 국토교통성 도시철도 혼잡률 조사(2025년도)",
+    congestionSource: "일본 국토교통성 혼잡률 조사(2025년도)",
+    hazardSource: "일본 국토교통성 재해 위험 지도",
+    medicalSource: "OpenStreetMap",
   },
   dataQuality: {
     seedWarning: "이 페이지의 데이터는 개발용 임시값이며, 출처가 있는 숫자가 아니다.",

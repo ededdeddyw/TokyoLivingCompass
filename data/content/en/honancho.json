@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 40 m above sea level. Within 800 m the ground ranges from 31.5 m to 40 m, a difference of 8.5 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 7 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 7 of the nine points within 400 m fall inside the area, and the deepest projection there is 0.5 to 3 m. On the whole, the flood projection here is about average for the 23 wards.",
   "groceries": [
     {
       "name": "サミット 和泉店",
@@ -25,7 +25,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 9 clinics and 7 pharmacies. The nearest hospital is 河北リハビリテーション病院, about 9 minutes' walk from the station. The next nearest is 杏林大学医学部付属杉並病院, about 12 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 9 clinics and 7 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 河北リハビリテーション病院, about 9 minutes' walk from the station. The next nearest is 杏林大学医学部付属杉並病院, about 12 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Marunouchi Line.",
   "congestion": "Tokyo Metro Marunouchi Line runs at 154% of capacity in the morning peak. The busiest stretch is 新大塚→茗荷谷, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -43,12 +43,12 @@
     {
       "slug": "nakano-fujimicho",
       "lead": "Nakano-Fujimicho is ahead on how little of the area is in the flood projection and how easy the shopping is.",
-      "note": "About 1 km away in a straight line. It reaches Otemachi in about the same time as Honancho. One-room rents run about ¥6,000 higher."
+      "note": "About 1 km from Honancho in a straight line. It reaches Otemachi in about the same time as Honancho. One-room rents run about ¥6,000 higher."
     },
     {
       "slug": "daitabashi",
       "lead": "Daitabashi is ahead on how little of the area is in the flood projection and how close the centre is, but Honancho is ahead on the number of medical facilities.",
-      "note": "About 1.5 km away in a straight line. It reaches Otemachi 19 minutes sooner than Honancho."
+      "note": "About 1.5 km from Honancho in a straight line. It reaches Otemachi 19 minutes sooner than Honancho."
     }
   ],
   "goodFor": [
@@ -71,7 +71,7 @@
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 4 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
-    "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "Only the Tokyo Metro Marunouchi Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the highest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",

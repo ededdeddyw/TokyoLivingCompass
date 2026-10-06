@@ -49,6 +49,8 @@ function Block({
 const GSI_ELEVATION_URL = "https://maps.gsi.go.jp/development/elevation_s.html";
 const MLIT_CONGESTION_URL =
   "https://www.mlit.go.jp/report/press/tetsudo04_hh_000139.html";
+const MLIT_HAZARD_URL = "https://disaportal.gsi.go.jp/maps/";
+const OSM_URL = "https://www.openstreetmap.org/copyright";
 
 export function StationDepth({
   content,
@@ -210,7 +212,9 @@ export function StationDepth({
         source={
           field === "congestion"
             ? { label: d.source, name: d.congestionSource, url: MLIT_CONGESTION_URL }
-            : undefined
+            : field === "medical"
+              ? { label: d.source, name: d.medicalSource, url: OSM_URL }
+              : undefined
         }
       >
         <p>{text}</p>
@@ -223,7 +227,12 @@ export function StationDepth({
   // 強く読まれないようにする。
   if (content.hazards) {
     blocks.push(
-      <Block key="hazards" title={d.hazards} lead={content.leads?.hazards}>
+      <Block
+        key="hazards"
+        title={d.hazards}
+        lead={content.leads?.hazards}
+        source={{ label: d.source, name: d.hazardSource, url: MLIT_HAZARD_URL }}
+      >
         <p>{content.hazards}</p>
         <p className="mt-2 text-xs leading-relaxed text-ink-soft">
           {dict.hazardNote}

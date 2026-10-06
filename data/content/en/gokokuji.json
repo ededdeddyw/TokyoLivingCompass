@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 13 m above sea level. Within 800 m the ground ranges from 13 m to 32.7 m, a difference of 19.7 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 1 also fall inside the area, and the deepest projection is less than 0.5 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
       "name": "マルエツプチ",
@@ -43,12 +43,12 @@
     {
       "slug": "shin-otsuka",
       "lead": "Shin-Otsuka is ahead on the number of medical facilities and how easy the shopping is, but Gokokuji is ahead on how little of the area is in the flood projection.",
-      "note": "Close enough to walk to. It reaches Otemachi 3 minutes sooner than Gokokuji."
+      "note": "Close enough to walk to from Gokokuji. It reaches Otemachi 3 minutes sooner than Gokokuji."
     },
     {
       "slug": "myogadani",
       "lead": "rents are lower at Gokokuji, but Myogadani is ahead on how close the centre is.",
-      "note": "Close enough to walk to. It reaches Otemachi 6 minutes sooner than Gokokuji. One-room rents run about ¥15,000 higher."
+      "note": "Close enough to walk to from Gokokuji. It reaches Otemachi 6 minutes sooner than Gokokuji. One-room rents run about ¥15,000 higher."
     }
   ],
   "goodFor": [
@@ -75,7 +75,7 @@
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 2 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tokyo Metro Yurakucho Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",

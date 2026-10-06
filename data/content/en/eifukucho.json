@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 44.1 m above sea level. Within 800 m the ground ranges from 35.6 m to 44.1 m, a difference of 8.5 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 2 of the nine points within 400 m fall inside the area, and the deepest projection there is 0.5 to 3 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
       "name": "KITCHEN COURT",
@@ -32,7 +32,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 13 clinics and 15 pharmacies. The nearest hospital is 樺島会樺島病院, about 15 minutes' walk from the station. The next nearest is 樺島病院, about 16 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 13 clinics and 15 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 樺島会樺島病院, about 15 minutes' walk from the station. The next nearest is 樺島病院, about 16 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Keio Inokashira Line.",
   "congestion": "Keio Inokashira Line runs at 125% of capacity in the morning peak. The busiest stretch is 池ノ上→駒場東大前, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -50,12 +50,12 @@
     {
       "slug": "nishi-eifuku",
       "lead": "rent, commuting and the flood projection are all much the same.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Eifukucho."
+      "note": "Close enough to walk to from Eifukucho. It reaches Otemachi in about the same time as Eifukucho."
     },
     {
       "slug": "meidaimae",
       "lead": "Meidaimae is ahead on the number of lines and how close the centre is, but Eifukucho is ahead on quiet.",
-      "note": "About 1 km away in a straight line. It reaches Otemachi 4 minutes sooner than Eifukucho."
+      "note": "About 1 km from Eifukucho in a straight line. It reaches Otemachi 4 minutes sooner than Eifukucho."
     }
   ],
   "goodFor": [
@@ -79,7 +79,7 @@
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 3 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "Only the Keio Inokashira Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",

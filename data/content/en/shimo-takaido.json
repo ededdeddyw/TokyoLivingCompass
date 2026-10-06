@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 45.4 m above sea level. Within 800 m the ground ranges from 38.2 m to 47.6 m, a difference of 9.4 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 3 of the nine points within 400 m fall inside the area, and the deepest projection there is 0.5 to 3 m. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "西友 下高井戸店",
@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 16 clinics and 9 pharmacies. The nearest hospital is 吉川内科小児科病院, about 2 minutes' walk from the station. The next nearest is うめとぴあ, about 21 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 16 clinics and 9 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 吉川内科小児科病院, about 2 minutes' walk from the station. The next nearest is うめとぴあ, about 21 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station: Keio Line and Tokyu Setagaya Line. The lines are split between operators (Keio runs 1 line and Tokyu runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "Keio Line runs at 145% of capacity in the morning peak. The busiest stretch of the line is 下高井戸→明大前, which includes this station. Tokyu Setagaya Line is not covered by the ministry's congestion survey. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "matsubara",
       "lead": "Matsubara is ahead on quiet, but Shimo-Takaido is ahead on the number of lines and how close the centre is.",
-      "note": "Close enough to walk to. It takes 6 minutes longer to reach Otemachi than Shimo-Takaido."
+      "note": "Close enough to walk to from Shimo-Takaido. It takes 6 minutes longer to reach Otemachi than Shimo-Takaido."
     },
     {
       "slug": "meidaimae",
       "lead": "Meidaimae is ahead on how little of the area is in the flood projection, but Shimo-Takaido is ahead on the number of medical facilities.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Shimo-Takaido. One-room rents run about ¥5,000 higher."
+      "note": "Close enough to walk to from Shimo-Takaido. It reaches Otemachi in about the same time as Shimo-Takaido. One-room rents run about ¥5,000 higher."
     }
   ],
   "goodFor": [
@@ -84,7 +84,7 @@
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 6 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",

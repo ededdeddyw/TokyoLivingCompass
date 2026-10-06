@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 24.7 m above sea level. Within 800 m the ground ranges from 15.4 m to 26.5 m, a difference of 11.1 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 1 of the nine points within 400 m fall inside the area, and the deepest projection there is less than 0.5 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
       "name": "肉のハナマサ",
@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 10 clinics and 7 pharmacies. The nearest hospital is 愛誠病院, about 24 minutes' walk from the station. The next nearest is 桑原病院, about 28 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 10 clinics and 7 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 愛誠病院, about 24 minutes' walk from the station. The next nearest is 桑原病院, about 28 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Sakura Tram (Toden Arakawa Line).",
   "congestion": "The ministry's congestion survey does not publish figures for Tokyo Sakura Tram (Toden Arakawa Line). It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "nishi-sugamo",
       "lead": "Nishi-Sugamo is ahead on how close the centre is and how easy the shopping is, but Nishigahara-Yonchome is ahead on quiet.",
-      "note": "Close enough to walk to. It reaches Otemachi 19 minutes sooner than Nishigahara-Yonchome. One-room rents run about ¥7,000 higher."
+      "note": "Close enough to walk to from Nishigahara-Yonchome. It reaches Otemachi 19 minutes sooner than Nishigahara-Yonchome. One-room rents run about ¥7,000 higher."
     },
     {
       "slug": "takinogawa-itchome",
       "lead": "Takinogawa-Itchome is ahead on the number of medical facilities, but Nishigahara-Yonchome is ahead on how little of the area is in the flood projection.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Nishigahara-Yonchome."
+      "note": "Close enough to walk to from Nishigahara-Yonchome. It reaches Otemachi in about the same time as Nishigahara-Yonchome."
     }
   ],
   "goodFor": [
@@ -86,7 +86,7 @@
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 8 supermarkets within walking distance, and the nearest is 5 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "Only the Tokyo Sakura Tram (Toden Arakawa Line) serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",

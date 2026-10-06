@@ -8,7 +8,7 @@
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 5.8 m above sea level. Within 800 m the ground ranges from 5.8 m to 8.4 m, a difference of 2.6 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "medical": "Within an 800 m walk of the station there are 1 pharmacy. The nearest hospital is 癌研有明病院, about 10 minutes' walk from the station. The next nearest is フジテレビ湾岸スタジオビル診療所, about 26 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Yurikamome.",
   "congestion": "Yurikamome runs at 92% of capacity in the morning peak. The busiest stretch is 汐留→竹芝, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
@@ -16,12 +16,12 @@
     {
       "slug": "kokusai-tenjijo",
       "lead": "Kokusai-Tenjijo is ahead on how close the centre is, but Tokyo-Big-Sight is ahead on quiet.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Tokyo-Big-Sight."
+      "note": "Close enough to walk to from Tokyo-Big-Sight. It reaches Otemachi in about the same time as Tokyo-Big-Sight."
     },
     {
       "slug": "ariake",
       "lead": "rent, commuting and the flood projection are all much the same.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Tokyo-Big-Sight."
+      "note": "Close enough to walk to from Tokyo-Big-Sight. It reaches Otemachi in about the same time as Tokyo-Big-Sight."
     }
   ],
   "goodFor": [
@@ -45,7 +45,7 @@
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "OpenStreetMap records no supermarket within walking distance of the station.",
-    "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "Neither the station nor the ground around it falls inside the projected flood area.",
     "stationNote": "Only the Yurikamome serves this station, so when it stops you walk to another station.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",

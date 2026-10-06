@@ -8,7 +8,7 @@
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 4.4 m above sea level. Within 800 m the ground ranges from 2.5 m to 4.4 m, a difference of 1.9 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 7 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 2 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 7 of the nine points within 400 m fall inside the area, and the deepest projection there is 0.5 to 3 m. For storm surge, 2 of the nine points also fall inside the projected area. On the whole, the flood projection here is about average for the 23 wards.",
   "groceries": [
     {
       "name": "明治屋",
@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 20 clinics and 13 pharmacies. The nearest hospital is いしせ脳神経外科クリニック, about 15 minutes' walk from the station. The next nearest is 聖路加国際病院, about 19 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 20 clinics and 13 pharmacies. Day-to-day care is available close to the station. The nearest hospital is いしせ脳神経外科クリニック, about 15 minutes' walk from the station. The next nearest is 聖路加国際病院, about 19 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station. Tokyo Metro Ginza Line run through it. Toei Asakusa Line also call here. The lines are split between operators (Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "Tokyo Metro Ginza Line runs at 153% of capacity in the morning peak. The busiest stretch is 赤坂見附→溜池山王, which this station is not on. Toei Asakusa Line runs at 123%. Its busiest stretch is 本所吾妻橋→浅草, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "hatchobori",
       "lead": "rents are lower at Hatchobori, but Kyobashi is ahead on how little of the area is in the flood projection.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Kyobashi. One-room rents run about ¥22,000 lower."
+      "note": "Close enough to walk to from Kyobashi. It reaches Otemachi in about the same time as Kyobashi. One-room rents run about ¥22,000 lower."
     },
     {
       "slug": "ginza",
       "lead": "Ginza is ahead on the number of lines and how little of the area is in the flood projection, but Kyobashi is ahead on how easy the shopping is.",
-      "note": "Close enough to walk to. It reaches Otemachi 6 minutes sooner than Kyobashi. One-room rents run about ¥6,000 higher."
+      "note": "Close enough to walk to from Kyobashi. It reaches Otemachi 6 minutes sooner than Kyobashi. One-room rents run about ¥6,000 higher."
     }
   ],
   "goodFor": [
@@ -86,7 +86,7 @@
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "There are 7 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
-    "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",

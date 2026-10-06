@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 23.2 m above sea level. Within 800 m the ground ranges from 8.3 m to 24.2 m, a difference of 15.9 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
       "name": "三徳",
@@ -57,12 +57,12 @@
     {
       "slug": "shimura-sanchome",
       "lead": "Shimura-Sakaue is ahead on how little of the area is in the flood projection.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Shimura-Sakaue."
+      "note": "Close enough to walk to from Shimura-Sakaue. It reaches Otemachi in about the same time as Shimura-Sakaue."
     },
     {
       "slug": "motohasunuma",
       "lead": "Shimura-Sakaue is ahead on how little of the area is in the flood projection.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Shimura-Sakaue."
+      "note": "Close enough to walk to from Shimura-Sakaue. It reaches Otemachi in about the same time as Shimura-Sakaue."
     }
   ],
   "goodFor": [
@@ -83,7 +83,7 @@
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 8 supermarkets within walking distance, and the nearest is 7 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "Neither the station nor the ground around it falls inside the projected flood area.",
     "stationNote": "Only the Toei Mita Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",

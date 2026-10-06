@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 25.9 m above sea level. Within 800 m the ground ranges from 23.7 m to 38.5 m, a difference of 14.8 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 4 also fall inside the area, and the deepest projection is 0.5 to 3 m. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "東急ストア",
@@ -57,12 +57,12 @@
     {
       "slug": "midorigaoka",
       "lead": "Midorigaoka is ahead on the number of medical facilities and how easy the shopping is, but Toritsu-Daigaku is ahead on how close the centre is.",
-      "note": "About 1.5 km away in a straight line. It takes 4 minutes longer to reach Otemachi than Toritsu-Daigaku. One-room rents run about ¥7,000 lower."
+      "note": "About 1.5 km from Toritsu-Daigaku in a straight line. It takes 4 minutes longer to reach Otemachi than Toritsu-Daigaku. One-room rents run about ¥7,000 lower."
     },
     {
       "slug": "jiyugaoka",
       "lead": "Jiyugaoka is ahead on the number of lines and how little of the area is in the flood projection.",
-      "note": "About 1.5 km away in a straight line. It takes 3 minutes longer to reach Otemachi than Toritsu-Daigaku."
+      "note": "About 1.5 km from Toritsu-Daigaku in a straight line. It takes 3 minutes longer to reach Otemachi than Toritsu-Daigaku."
     }
   ],
   "goodFor": [
@@ -84,7 +84,7 @@
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 6 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tokyu Toyoko Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",

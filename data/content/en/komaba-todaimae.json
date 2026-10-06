@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 33.4 m above sea level. Within 800 m the ground ranges from 30 m to 38.4 m, a difference of 8.4 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
       "name": "まいばすけっと 駒場東大前駅前店",
@@ -43,12 +43,12 @@
     {
       "slug": "shinsen",
       "lead": "rents are lower at Komaba-Todaimae, but Shinsen is ahead on the number of medical facilities and how easy the shopping is.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Komaba-Todaimae. One-room rents run about ¥34,000 higher."
+      "note": "Close enough to walk to from Komaba-Todaimae. It reaches Otemachi in about the same time as Komaba-Todaimae. One-room rents run about ¥34,000 higher."
     },
     {
       "slug": "ikejiri-ohashi",
       "lead": "Ikejiri-Ohashi is ahead on how easy the shopping is, but Komaba-Todaimae is ahead on how little of the area is in the flood projection and quiet.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Komaba-Todaimae. One-room rents run about ¥8,000 lower."
+      "note": "Close enough to walk to from Komaba-Todaimae. It reaches Otemachi in about the same time as Komaba-Todaimae. One-room rents run about ¥8,000 lower."
     }
   ],
   "goodFor": [
@@ -71,7 +71,7 @@
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 3 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "Neither the station nor the ground around it falls inside the projected flood area.",
     "stationNote": "Only the Keio Inokashira Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",

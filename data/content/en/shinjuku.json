@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 37.5 m above sea level. Within 800 m the ground ranges from 31.3 m to 40.3 m, a difference of 9.0 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 3 of the nine points within 400 m fall inside the area, and the deepest projection there is 0.5 to 3 m. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "TOMIZ",
@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 17 clinics and 34 pharmacies. The nearest hospital is myhospital, about 6 minutes' walk from the station. The next nearest is アイシークリニック新宿院, about 6 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 17 clinics and 34 pharmacies. Day-to-day care is available close to the station. The nearest hospital is myhospital, about 6 minutes' walk from the station. The next nearest is アイシークリニック新宿院, about 6 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "13 lines serve the station. JR Yamanote Line and JR Chuo Main Line run through it. JR Chuo Rapid Line also call here. JR Chuo-Sobu Line (Local) are available too. JR Saikyo Line and Narita Express stop here as well. JR Shonan-Shinjuku Line and Keio Line stop here as well. Keio New Line and Odakyu Odawara Line stop here as well. Tokyo Metro Marunouchi Line stop here as well. Toei Oedo Line and Toei Shinjuku Line stop here as well. The lines are split between operators (JR East runs 7 lines, Keio runs 2 lines, Odakyu runs 1 line, Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 2 lines), so when one line stops you can change to a line run by a different company.",
   "congestion": "JR Saikyo Line runs at 167% of capacity in the morning peak. The busiest stretch is 板橋→池袋, which this station is not on. JR Chuo Rapid Line runs at 158% of capacity in the morning peak. The busiest stretch of the line is 中野→新宿, which includes this station. Tokyo Metro Marunouchi Line runs at 154%. Its busiest stretch is 新大塚→茗荷谷, which this station is likewise not on. JR Chuo Main Line, Narita Express, JR Shonan-Shinjuku Line and Keio New Line is not covered by the ministry's congestion survey. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "shinjuku-nishiguchi",
       "lead": "Shinjuku-Nishiguchi is ahead on how little of the area is in the flood projection and how easy the shopping is, but Shinjuku is ahead on the number of lines and how close the centre is.",
-      "note": "Close enough to walk to. It takes 3 minutes longer to reach Otemachi than Shinjuku."
+      "note": "Close enough to walk to from Shinjuku. It takes 3 minutes longer to reach Otemachi than Shinjuku."
     },
     {
       "slug": "shinjuku-sanchome",
       "lead": "rents are lower at Shinjuku, but Shinjuku-Sanchome is ahead on how easy the shopping is.",
-      "note": "Close enough to walk to. It reaches Otemachi in about the same time as Shinjuku. One-room rents run about ¥19,000 higher."
+      "note": "Close enough to walk to from Shinjuku. It reaches Otemachi in about the same time as Shinjuku. One-room rents run about ¥19,000 higher."
     }
   ],
   "goodFor": [
@@ -88,7 +88,7 @@
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 4 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "13 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",

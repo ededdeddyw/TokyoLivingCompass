@@ -102,33 +102,41 @@ PHRASES = {
         "terrainNote": "{where}、標高は{elevation}mです。"
                        "周囲800mの標高は{min}mから{max}mまで分かれ、その差は{spread}mあります。",
 
-        "floodAtStation": "国土交通省のハザードマップでは、駅の地点が洪水浸水想定区域（想定最大規模）に入り、"
+        # 事実を並べるだけにせず、つなぎの言葉で読ませる（ルール49）。
+        # 想定の深さの注意と内水氾濫の案内は、駅ページが毎回出す注記
+        # （dict.hazardNote）と重なるので、ここでは繰り返さない。
+        "floodAtStation": "駅の地点が大雨のときの洪水浸水想定区域（想定最大規模）に入っており、"
                           "想定される深さは{depth}です。",
-        "floodNearOnly": "国土交通省のハザードマップでは、駅の地点は洪水浸水想定区域（想定最大規模）の外にあります。",
-        "floodNone": "国土交通省のハザードマップで見ると、駅の地点は洪水浸水想定区域（想定最大規模）の外にあります。"
-                     "駅から400m以内の9地点も、いずれも区域の外にあります。",
-        "floodAround": "駅から400m以内で見た9地点のうち{count}地点が区域に含まれ、"
-                       "その中で最も深い想定は{deepest}です。",
-        "hightide": "高潮についても9地点のうち{count}地点が想定区域に入ります。",
-        "hazardTrailer": "想定される深さは同じ駅でも区画ごとに違うので、"
-                         "住所ごとに区のハザードマップで確認してください。"
-                         "内水氾濫は全国共通の地図が公開されておらず区が個別に出しているため、"
-                         "あわせて見ておくことをおすすめします。",
+        "floodNearOnly": "駅の地点は、大雨のときの洪水浸水想定区域（想定最大規模）の外にあります。",
+        "floodNone": "駅の地点も、駅から400m以内で見た9地点も、"
+                     "大雨のときの洪水浸水想定区域（想定最大規模）の外にあります。",
+        # 駅の地点が区域に入るかどうかで、つなぎの言葉を変える。
+        "floodAroundAll": "駅のまわり400m以内で見た9地点も、すべて区域に含まれます。"
+                          "その中で最も深い想定は{deepest}です。",
+        "floodAroundSome": "駅のまわり400m以内で見た9地点のうち{count}地点も区域に含まれ、"
+                           "その中で最も深い想定は{deepest}です。",
+        "floodAroundOnly": "ただし駅のまわり400m以内で見た9地点のうち{count}地点は区域に入り、"
+                           "その中で最も深い想定は{deepest}です。",
+        "hightide": "高潮の想定区域にも、9地点のうち{count}地点が入ります。",
+        "hazardTrailer5": "総じて、大雨のときの浸水の想定は23区の駅の中でもとても小さいほうです。",
+        "hazardTrailer4": "総じて、大雨のときの浸水の想定は23区の駅の中では小さいほうです。",
+        "hazardTrailer3": "総じて、大雨のときの浸水の想定は23区の駅の平均くらいです。",
+        "hazardTrailer2": "総じて、大雨のときの浸水の想定は23区の駅の中では大きいほうです。",
+        "hazardTrailer1": "総じて、大雨のときの浸水の想定は23区の駅の中でもとても大きいほうです。",
 
         "medicalCounts": "駅から歩いて800m以内に、{items}あります。",
+        "medicalEnough": "日常のかかりつけは、駅の近くで選べます。",
         "medicalClinics": "クリニックが{count}{clinicWord}",
         "medicalPharmacies": "薬局が{count}{pharmacyWord}",
         "medicalNone": "駅から歩いて800m以内には、OpenStreetMap に登録されている"
                        "クリニックも薬局も見当たりません。",
         # 距離はメートルで書かない。どこから測った値なのかが読み手に伝わらず、
         # 細かい数字そのものも求められていない。駅から歩いて何分かで書く。
-        "medicalHospitalNearest": "駅からいちばん近い病院は{name}です。"
-                                  "歩いて{minutes}分ほどの距離にあります。",
+        "medicalHospitalNearest": "病院では、{name}が歩いて{minutes}分ほどの距離にあります。",
         "medicalHospitalSecond": "次に近いのは{name}で、歩いて{minutes}分ほどかかります。",
-        "medicalNoHospital": "駅から2.5km以内には、病院として登録されている施設が見当たりません。",
-        "medicalTrailer": "ここでいう病院は、OpenStreetMap に病院として登録されている施設です。"
-                          "入院できるかどうかと、何科があるかまでは分かりません。"
-                          "各施設のウェブサイトで確かめてください。"
+        "medicalNoHospital": "一方で、駅から2.5km以内に病院は見当たりません。",
+        "medicalTrailer": "ただし入院できるかどうかと、何科があるかまでは分かりません。"
+                          "気になる施設は、ウェブサイトで確かめてください。"
                           "夜間や休日にかかれる医療機関は、住む区の救急相談窓口で確認できます。",
 
         "congestionOnPeak": "{line}の朝の混雑率は{rate}%です。"
@@ -146,11 +154,12 @@ PHRASES = {
         "congestionScale3": "国土交通省の目安では、180%は肩が触れ合ってやや圧迫感がある状態を指します。"
                             "ドア付近の人は、体の向きを変えるのが難しくなります。",
         "congestionScale2": "国土交通省の目安では、150%は肩が触れ合わない程度で、"
-                            "ドア付近の人が多くなる状態を指します。ここはおおむねその状態にあたります。",
-        "congestionScale1": "国土交通省の目安では、150%で肩が触れ合わない程度になります。"
-                            "ここはそこまでは混みません。",
+                            "ドア付近の人が多くなる状態を指します。"
+                            "ここはおおむねその状態です。",
+        "congestionScale1": "国土交通省の目安では150%で肩が触れ合わない程度になるので、"
+                            "ここはそこまで混みません。",
         # 調査の方法は節の下に出典として出す（src/components/StationDepth.tsx）。
-        "congestionTrailer": "路線の中でいちばん混む区間の値なので、"
+        "congestionTrailer": "ただしこの数字は路線の中でいちばん混む区間のものなので、"
                              "この駅から乗る区間が同じ混み方とは限りません。",
         "leadCongestion5": "使える路線の朝の混雑率は、23区の駅の中ではかなり低いほうです。",
         "leadCongestion4": "使える路線の朝の混雑率は、23区の駅の中では低いほうです。",
@@ -197,11 +206,10 @@ PHRASES = {
         "leadGroceriesMany": "歩いて行けるスーパーが{count}軒あり、いちばん近い店までは徒歩{minutes}分です。",
         "leadGroceriesFew": "歩いて行けるスーパーは{count}軒で、いちばん近い店までは徒歩{minutes}分です。",
         "leadGroceriesNone": "駅から歩いて行けるスーパーを OpenStreetMap では確認できませんでした。",
-        "leadHazard5": "大雨のときに浸水が想定される区域に入る地点は、23区の駅の中ではとても少ないほうです。",
-        "leadHazard4": "大雨のときに浸水が想定される区域に入る地点は、23区の駅の中では少ないほうです。",
-        "leadHazard3": "大雨のときに浸水が想定される区域に入る地点の数は、23区の駅の平均くらいです。",
-        "leadHazard2": "大雨のときに浸水が想定される区域に入る地点は、23区の駅の中では多いほうです。",
-        "leadHazard1": "駅の周りで見た地点のほとんどが、大雨のときに浸水が想定される区域に入ります。",
+        # 本文の締めが23区の中での位置を書くので、一言では駅の地点そのものを書く。
+        "leadHazardAtStation": "駅の地点が、大雨のときの浸水想定区域に入っています。",
+        "leadHazardNear": "駅の地点は区域の外ですが、まわりには浸水が想定される区画があります。",
+        "leadHazardNone": "駅の地点も、そのまわりも、大雨のときの浸水想定区域の外にあります。",
         "leadStationMany": "{count}路線が使え、乗り換えの選択肢は23区の駅の中では多いほうです。",
         "leadStationMid": "{count}路線が使えます。乗り換えの選択肢は23区の駅の平均くらいです。",
         "leadStationOne": "使える路線は{line}の1本だけです。"
@@ -236,7 +244,7 @@ PHRASES = {
                               "駅に近い物件を見るときは、"
                               "通りに面していないかを確かめてください",
         "noiseRoadFar": "いちばん近い大きな通りは{name}で、駅から離れています。"
-                        "駅の周りまで車の音は届きにくくなっています",
+                        "駅の周りは車の音が少なく、落ち着いています",
         # 道路名と距離は本文に書くので、ここでは繰り返さない。
         # 「一言でいうと」は、本文を読む前に結論だけを受け取るためのものである。
         "leadNoiseLoud": "人の声より先に、車の音を確かめたい駅です。",
@@ -258,11 +266,12 @@ PHRASES = {
         "cmpAxisQuiet": "静かさ",
         "cmpNothing": "家賃も通勤も災害の想定も、大きくは変わりません",
 
-        "neighbourDistanceClose": "歩いて行ける距離にあります。",
-        "neighbourDistanceFar": "直線でおよそ{km}km離れています。",
-        "neighbourSame": "大手町へは{station}と同じくらいの時間で着きます。",
-        "neighbourSlower": "大手町へは{station}より{minutes}{minuteWord}多くかかります。",
-        "neighbourFaster": "大手町へは{station}より{minutes}{minuteWord}早く着きます。",
+        "neighbourDistanceClose": "{station}から歩いて行ける距離にあります。",
+        "neighbourDistanceFar": "{station}から直線でおよそ{km}km離れています。",
+        # 前の文で「◯◯から」と書いているので、ここでは駅名を繰り返さない。
+        "neighbourSame": "大手町までにかかる時間は、ほとんど変わりません。",
+        "neighbourSlower": "大手町へは{minutes}{minuteWord}多くかかります。",
+        "neighbourFaster": "大手町へは{minutes}{minuteWord}早く着きます。",
         "neighbourRentHigher": "ワンルームの相場は{amount}{unit}ほど高めです。",
         "neighbourRentLower": "ワンルームの相場は{amount}{unit}ほど安めです。",
 
@@ -342,16 +351,27 @@ PHRASES = {
         "floodNone": "On the flood hazard map for the largest rainfall the government models, "
                      "neither the station nor any of the nine points within 400 m of it falls "
                      "inside the projected inundation area. ",
-        "floodAround": "Of the nine points within 400 m of the station, {count} fall inside "
-                       "the area, and the deepest projection among them is {deepest}. ",
+        "floodAroundAll": "All nine points within 400 m of the station fall inside the area "
+                          "too, and the deepest projection among them is {deepest}. ",
+        "floodAroundSome": "Of the nine points within 400 m of the station, {count} also fall "
+                           "inside the area, and the deepest projection is {deepest}. ",
+        "floodAroundOnly": "Even so, {count} of the nine points within 400 m fall inside the "
+                           "area, and the deepest projection there is {deepest}. ",
         "hightide": "For storm surge, {count} of the nine points also fall inside the "
                     "projected area. ",
-        "hazardTrailer": "The projected depth differs block by block within the same station "
-                         "area, so check the ward hazard map for the specific address. "
-                         "Inland flooding from overwhelmed drains has no nationwide map; each "
-                         "ward publishes its own, and that is worth reading as well.",
+        "hazardTrailer5": "On the whole, the flood projection here is among the smallest "
+                          "in the 23 wards.",
+        "hazardTrailer4": "On the whole, the flood projection here is on the small side "
+                          "for the 23 wards.",
+        "hazardTrailer3": "On the whole, the flood projection here is about average "
+                          "for the 23 wards.",
+        "hazardTrailer2": "On the whole, the flood projection here is on the large side "
+                          "for the 23 wards.",
+        "hazardTrailer1": "On the whole, the flood projection here is among the largest "
+                          "in the 23 wards.",
 
         "medicalCounts": "Within an 800 m walk of the station there are {items}. ",
+        "medicalEnough": "Day-to-day care is available close to the station. ",
         "medicalClinics": "{count} {clinicWord}",
         "medicalPharmacies": "{count} {pharmacyWord}",
         "medicalNone": "Within an 800 m walk of the station, OpenStreetMap records neither a "
@@ -443,11 +463,9 @@ PHRASES = {
         "leadGroceriesMany": "There are {count} supermarkets within walking distance, and the nearest is {minutes} minutes on foot.",
         "leadGroceriesFew": "There are {count} supermarkets within walking distance, and the nearest is {minutes} minutes on foot.",
         "leadGroceriesNone": "OpenStreetMap records no supermarket within walking distance of the station.",
-        "leadHazard5": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
-        "leadHazard4": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
-        "leadHazard3": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
-        "leadHazard2": "Among the 23 wards' stations, comparatively many of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
-        "leadHazard1": "Almost every point measured around the station falls inside the projected inundation area for the largest rainfall the government models.",
+        "leadHazardAtStation": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
+        "leadHazardNear": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
+        "leadHazardNone": "Neither the station nor the ground around it falls inside the projected flood area.",
         "leadStationMany": "{count} lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
         "leadStationMid": "{count} lines serve the station. The choice of connections is about average for the 23 wards.",
         "leadStationOne": "Only the {line} serves this station, so when it stops you walk to another station.",
@@ -498,8 +516,8 @@ PHRASES = {
         "cmpAxisQuiet": "quiet",
         "cmpNothing": "rent, commuting and the flood projection are all much the same",
 
-        "neighbourDistanceClose": "Close enough to walk to. ",
-        "neighbourDistanceFar": "About {km} km away in a straight line. ",
+        "neighbourDistanceClose": "Close enough to walk to from {station}. ",
+        "neighbourDistanceFar": "About {km} km from {station} in a straight line. ",
         "neighbourSame": "It reaches Otemachi in about the same time as {station}. ",
         "neighbourSlower": "It takes {minutes} {minuteWord} longer to reach Otemachi than "
                            "{station}. ",
@@ -575,14 +593,21 @@ PHRASES = {
                          "车站所在的地点在区域之外。",
         "floodNone": "在按可能出现的最大降雨量推算的洪水浸水想定区域中，"
                      "车站所在的地点，以及车站400米以内的九个点，都在区域之外。",
-        "floodAround": "在车站400米以内查看的九个点中，有{count}个点被划入区域，"
-                       "其中推算最深的水深为{deepest}。",
+        "floodAroundAll": "车站400米以内查看的九个点也全部被划入区域，"
+                          "其中推算最深的水深为{deepest}。",
+        "floodAroundSome": "车站400米以内查看的九个点中，也有{count}个点被划入区域，"
+                           "其中推算最深的水深为{deepest}。",
+        "floodAroundOnly": "不过车站400米以内查看的九个点中，有{count}个点被划入区域，"
+                           "其中推算最深的水深为{deepest}。",
         "hightide": "风暴潮方面，九个点中也有{count}个点被划入想定区域。",
-        "hazardTrailer": "同一个车站周边，推算的水深也会因街区而异，"
-                         "所以请按具体地址查看所在区发布的灾害地图。"
-                         "内涝没有全国统一的地图，由各区分别发布，也一并看一看为好。",
+        "hazardTrailer5": "总的来说，大雨时的浸水推算在23区的车站中非常小。",
+        "hazardTrailer4": "总的来说，大雨时的浸水推算在23区的车站中偏小。",
+        "hazardTrailer3": "总的来说，大雨时的浸水推算与23区车站的平均水平相当。",
+        "hazardTrailer2": "总的来说，大雨时的浸水推算在23区的车站中偏大。",
+        "hazardTrailer1": "总的来说，大雨时的浸水推算在23区的车站中非常大。",
 
         "medicalCounts": "从车站步行800米以内，有{items}。",
+        "medicalEnough": "日常看病，在车站附近就能选。",
         "medicalClinics": "诊所{count}{clinicWord}",
         "medicalPharmacies": "药店{count}{pharmacyWord}",
         "medicalNone": "从车站步行800米以内，OpenStreetMap 上没有登记的诊所和药店。",
@@ -647,11 +672,9 @@ PHRASES = {
         "leadGroceriesMany": "步行可达的超市有{count}家，最近的一家步行{minutes}分钟。",
         "leadGroceriesFew": "步行可达的超市有{count}家，最近的一家步行{minutes}分钟。",
         "leadGroceriesNone": "OpenStreetMap 上查不到车站步行范围内的超市。",
-        "leadHazard5": "按可能出现的最大降雨量推算，进入浸水想定区域的地点，在23区的车站中非常少。",
-        "leadHazard4": "按可能出现的最大降雨量推算，进入浸水想定区域的地点，在23区的车站中偏少。",
-        "leadHazard3": "进入浸水想定区域的地点数量，与23区车站的平均水平相当。",
-        "leadHazard2": "按可能出现的最大降雨量推算，进入浸水想定区域的地点，在23区的车站中偏多。",
-        "leadHazard1": "车站周边所看的地点中，几乎全部进入按最大降雨量推算的浸水想定区域。",
+        "leadHazardAtStation": "车站所在的地点，被划入大雨时的浸水想定区域。",
+        "leadHazardNear": "车站所在的地点在区域之外，但周边有被划入浸水想定区域的街区。",
+        "leadHazardNone": "车站所在的地点及其周边，都在大雨时的浸水想定区域之外。",
         "leadStationMany": "有{count}条线路可用，换乘的选择在23区的车站中偏多。",
         "leadStationMid": "有{count}条线路可用。换乘的选择与23区车站的平均水平相当。",
         "leadStationOne": "可用的线路只有{line}一条，这条线停运时就要走到别的车站。",
@@ -698,8 +721,8 @@ PHRASES = {
         "cmpAxisQuiet": "安静",
         "cmpNothing": "租金、通勤和灾害预估都没有大的差别",
 
-        "neighbourDistanceClose": "走得到的距离。",
-        "neighbourDistanceFar": "直线距离约{km}公里。",
+        "neighbourDistanceClose": "从{station}走得到的距离。",
+        "neighbourDistanceFar": "距{station}直线约{km}公里。",
         "neighbourSame": "到大手町的时间与{station}差不多。",
         "neighbourSlower": "到大手町比{station}多花{minutes}{minuteWord}。",
         "neighbourFaster": "到大手町比{station}早到{minutes}{minuteWord}。",
@@ -776,14 +799,21 @@ PHRASES = {
                          "역이 있는 지점은 구역 밖에 있다. ",
         "floodNone": "상정할 수 있는 최대 규모의 강우를 전제로 한 홍수 침수 상정 구역에서, "
                      "역이 있는 지점도, 역에서 400m 안의 아홉 지점도 모두 구역 밖에 있다. ",
-        "floodAround": "역에서 400m 안에서 살펴본 아홉 지점 가운데 {count}곳이 구역에 들어가며, "
-                       "그중 가장 깊게 상정된 깊이는 {deepest}이다. ",
+        "floodAroundAll": "역에서 400m 안에서 살펴본 아홉 지점도 모두 구역에 들어가며, "
+                          "그중 가장 깊게 상정된 깊이는 {deepest}이다. ",
+        "floodAroundSome": "역에서 400m 안에서 살펴본 아홉 지점 가운데 {count}곳도 구역에 들어가며, "
+                           "그중 가장 깊게 상정된 깊이는 {deepest}이다. ",
+        "floodAroundOnly": "다만 역에서 400m 안의 아홉 지점 가운데 {count}곳은 구역에 들어가며, "
+                           "그중 가장 깊게 상정된 깊이는 {deepest}이다. ",
         "hightide": "폭풍해일에 대해서도 아홉 지점 가운데 {count}곳이 상정 구역에 들어간다. ",
-        "hazardTrailer": "같은 역이라도 구획마다 상정되는 깊이가 다르므로, 주소별로 구청이 "
-                         "내놓은 재해 지도에서 확인하는 것이 좋다. 내수 범람은 전국 공통의 "
-                         "지도가 공개되어 있지 않고 구청이 각각 내놓고 있으니, 함께 보아 두자.",
+        "hazardTrailer5": "전체적으로 큰비가 올 때의 침수 상정은 23구의 역 중에서 매우 작은 편이다. ",
+        "hazardTrailer4": "전체적으로 큰비가 올 때의 침수 상정은 23구의 역 중에서 작은 편이다. ",
+        "hazardTrailer3": "전체적으로 큰비가 올 때의 침수 상정은 23구 역의 평균 정도다. ",
+        "hazardTrailer2": "전체적으로 큰비가 올 때의 침수 상정은 23구의 역 중에서 큰 편이다. ",
+        "hazardTrailer1": "전체적으로 큰비가 올 때의 침수 상정은 23구의 역 중에서 매우 큰 편이다. ",
 
         "medicalCounts": "역에서 걸어서 800m 안에 {items} 있다. ",
+        "medicalEnough": "일상적으로 다닐 병원은 역 근처에서 고를 수 있다. ",
         "medicalClinics": "의원이 {count}{clinicWord}",
         "medicalPharmacies": "약국이 {count}{pharmacyWord}",
         "medicalNone": "역에서 걸어서 800m 안에는 OpenStreetMap에 등록된 의원도 약국도 "
@@ -860,11 +890,9 @@ PHRASES = {
         "leadGroceriesMany": "걸어갈 수 있는 슈퍼마켓이 {count}곳 있고, 가장 가까운 곳까지는 걸어서 {minutes}분이다.",
         "leadGroceriesFew": "걸어갈 수 있는 슈퍼마켓은 {count}곳이고, 가장 가까운 곳까지는 걸어서 {minutes}분이다.",
         "leadGroceriesNone": "역에서 걸어갈 수 있는 슈퍼마켓을 OpenStreetMap에서는 확인할 수 없었다.",
-        "leadHazard5": "상정 최대 규모의 침수 예상 구역에 들어가는 지점은, 23구의 역 중에서 매우 적다.",
-        "leadHazard4": "상정 최대 규모의 침수 예상 구역에 들어가는 지점은, 23구의 역 중에서 적은 편이다.",
-        "leadHazard3": "침수 예상 구역에 들어가는 지점의 수는, 23구 역의 평균 정도다.",
-        "leadHazard2": "상정 최대 규모의 침수 예상 구역에 들어가는 지점은, 23구의 역 중에서 많은 편이다.",
-        "leadHazard1": "역 주변에서 살펴본 지점의 대부분이, 상정 최대 규모의 침수 예상 구역에 들어간다.",
+        "leadHazardAtStation": "역이 있는 지점이 큰비가 올 때의 침수 예상 구역에 들어간다.",
+        "leadHazardNear": "역이 있는 지점은 구역 밖이지만, 주변에는 침수가 상정된 구획이 있다.",
+        "leadHazardNone": "역이 있는 지점도 그 주변도, 큰비가 올 때의 침수 예상 구역 밖에 있다.",
         "leadStationMany": "{count}개 노선을 쓸 수 있어, 환승 선택지는 23구의 역 중에서 많은 편이다.",
         "leadStationMid": "{count}개 노선을 쓸 수 있다. 환승 선택지는 23구 역의 평균 정도다.",
         "leadStationOne": "쓸 수 있는 노선은 {line} 하나뿐이라, 이 노선이 멈추면 다른 역까지 걸어가게 된다.",
@@ -912,8 +940,8 @@ PHRASES = {
         "cmpAxisQuiet": "조용함",
         "cmpNothing": "임대료도 통근도 재해 예상도 크게 다르지 않다",
 
-        "neighbourDistanceClose": "걸어갈 수 있는 거리에 있다. ",
-        "neighbourDistanceFar": "직선거리로 약 {km}km 떨어져 있다. ",
+        "neighbourDistanceClose": "{station}에서 걸어갈 수 있는 거리에 있다. ",
+        "neighbourDistanceFar": "{station}에서 직선거리로 약 {km}km 떨어져 있다. ",
         "neighbourSame": "오테마치까지 걸리는 시간은 {station}에서 갈 때와 비슷하다. ",
         "neighbourSlower": "오테마치까지 {station}보다 {minutes}{minuteWord} 더 걸린다. ",
         "neighbourFaster": "오테마치까지 {station}보다 {minutes}{minuteWord} 빨리 도착한다. ",

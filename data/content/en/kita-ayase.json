@@ -8,7 +8,7 @@
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 0.6 m above sea level. Within 800 m the ground ranges from -0.2 m to 2.4 m, a difference of 2.6 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 9 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. All nine points within 400 m of the station fall inside the area too, and the deepest projection among them is 3 to 5 m. For storm surge, 9 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the large side for the 23 wards.",
   "groceries": [
     {
       "name": "Y’s mart",
@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 8 clinics and 7 pharmacies. The nearest hospital is 六町駅クリニック, about 22 minutes' walk from the station. The next nearest is 江戸川病院高砂分院, about 37 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 8 clinics and 7 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 六町駅クリニック, about 22 minutes' walk from the station. The next nearest is 江戸川病院高砂分院, about 37 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Chiyoda Line.",
   "congestion": "Tokyo Metro Chiyoda Line runs at 150% of capacity in the morning peak. The busiest stretch is 町屋→西日暮里, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "aoi",
       "lead": "Aoi is ahead on how close the centre is and quiet, but Kita-Ayase is ahead on the number of medical facilities.",
-      "note": "About 1 km away in a straight line. It reaches Otemachi in about the same time as Kita-Ayase."
+      "note": "About 1 km from Kita-Ayase in a straight line. It reaches Otemachi in about the same time as Kita-Ayase."
     },
     {
       "slug": "rokucho",
       "lead": "Rokucho is ahead on quiet, but Kita-Ayase is ahead on how easy the shopping is.",
-      "note": "About 1.5 km away in a straight line. It reaches Otemachi in about the same time as Kita-Ayase. One-room rents run about ¥8,000 lower."
+      "note": "About 1.5 km from Kita-Ayase in a straight line. It reaches Otemachi in about the same time as Kita-Ayase. One-room rents run about ¥8,000 lower."
     }
   ],
   "goodFor": [
@@ -86,7 +86,7 @@
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "There are 4 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, comparatively many of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tokyo Metro Chiyoda Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",

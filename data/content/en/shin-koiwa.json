@@ -8,7 +8,7 @@
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 2.5 m above sea level. Within 800 m the ground ranges from -1.3 m to 2.5 m, a difference of 3.8 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 9 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. All nine points within 400 m of the station fall inside the area too, and the deepest projection among them is 3 to 5 m. For storm surge, 9 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the large side for the 23 wards.",
   "groceries": [
     {
       "name": "西友",
@@ -57,12 +57,12 @@
     {
       "slug": "hirai",
       "lead": "Shin-Koiwa is ahead on the number of lines.",
-      "note": "About 2 km away in a straight line. It takes 5 minutes longer to reach Otemachi than Shin-Koiwa."
+      "note": "About 2 km from Shin-Koiwa in a straight line. It takes 5 minutes longer to reach Otemachi than Shin-Koiwa."
     },
     {
       "slug": "keisei-tateishi",
       "lead": "Keisei-Tateishi is ahead on the number of medical facilities, but Shin-Koiwa is ahead on the number of lines and how close the centre is.",
-      "note": "About 2.5 km away in a straight line. It takes 12 minutes longer to reach Otemachi than Shin-Koiwa."
+      "note": "About 2.5 km from Shin-Koiwa in a straight line. It takes 12 minutes longer to reach Otemachi than Shin-Koiwa."
     }
   ],
   "goodFor": [
@@ -84,7 +84,7 @@
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "There are 5 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, comparatively many of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",

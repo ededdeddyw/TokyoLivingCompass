@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 5.5 m above sea level. Within 800 m the ground ranges from 3.1 m to 20.8 m, a difference of 17.7 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 6 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 3 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 6 also fall inside the area, and the deepest projection is 3 to 5 m. For storm surge, 3 of the nine points also fall inside the projected area. On the whole, the flood projection here is about average for the 23 wards.",
   "groceries": [
     {
       "name": "アピレ",
@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 19 clinics and 19 pharmacies. The nearest hospital is 東京北医療センター, about 18 minutes' walk from the station. The next nearest is 板橋中央総合病院, about 36 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 19 clinics and 19 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 東京北医療センター, about 18 minutes' walk from the station. The next nearest is 板橋中央総合病院, about 36 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "5 lines serve the station. JR Utsunomiya Line and JR Saikyo Line run through it. JR Takasaki Line and JR Keihin-Tohoku Line also call here. JR Shonan-Shinjuku Line are available too. All 5 lines are run by JR East, so a fault affecting that company can stop them together.",
   "congestion": "JR Saikyo Line runs at 167% of capacity in the morning peak. The busiest stretch is 板橋→池袋, which this station is not on. JR Keihin-Tohoku Line runs at 159%. Its busiest stretch is 大井町→品川, which this station is likewise not on. JR Takasaki Line runs at 131%. Its busiest stretch is 宮原→大宮, which this station is likewise not on. JR Shonan-Shinjuku Line is not covered by the ministry's congestion survey. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -57,12 +57,12 @@
     {
       "slug": "akabane-iwabuchi",
       "lead": "Akabane is ahead on the number of lines and how little of the area is in the flood projection.",
-      "note": "Close enough to walk to. It takes 4 minutes longer to reach Otemachi than Akabane."
+      "note": "Close enough to walk to from Akabane. It takes 4 minutes longer to reach Otemachi than Akabane."
     },
     {
       "slug": "shimo",
       "lead": "Shimo is ahead on quiet, but Akabane is ahead on the number of lines and how little of the area is in the flood projection.",
-      "note": "About 1 km away in a straight line. It reaches Otemachi in about the same time as Akabane."
+      "note": "About 1 km from Akabane in a straight line. It reaches Otemachi in about the same time as Akabane."
     }
   ],
   "goodFor": [
@@ -87,7 +87,7 @@
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 14 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
-    "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "5 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",

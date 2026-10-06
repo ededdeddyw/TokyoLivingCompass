@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 15.4 m above sea level. Within 800 m the ground ranges from 14 m to 22.2 m, a difference of 8.2 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 1 of the nine points within 400 m fall inside the area, and the deepest projection there is less than 0.5 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
       "name": "マルエツプチ",
@@ -57,12 +57,12 @@
     {
       "slug": "togoshi-koen",
       "lead": "Togoshi-Koen is ahead on the number of medical facilities and how easy the shopping is, but Nishi-Oi is ahead on the number of lines and how close the centre is.",
-      "note": "Close enough to walk to. It takes 13 minutes longer to reach Otemachi than Nishi-Oi."
+      "note": "Close enough to walk to from Nishi-Oi. It takes 13 minutes longer to reach Otemachi than Nishi-Oi."
     },
     {
       "slug": "shimo-shimmei",
       "lead": "Nishi-Oi is ahead on the number of lines and how close the centre is.",
-      "note": "Close enough to walk to. It takes 11 minutes longer to reach Otemachi than Nishi-Oi."
+      "note": "Close enough to walk to from Nishi-Oi. It takes 11 minutes longer to reach Otemachi than Nishi-Oi."
     }
   ],
   "goodFor": [
@@ -87,7 +87,7 @@
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 5 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
-    "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
