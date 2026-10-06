@@ -167,6 +167,11 @@ PHRASES = {
         # 調査の方法は節の下に出典として出す（src/components/StationDepth.tsx）。
         "congestionTrailer": "ただしこの数字は路線の中でいちばん混む区間のものなので、"
                              "この駅から乗る区間が同じ混み方とは限りません。",
+        "leadCongestionOnPeakHigh": "朝の電車はかなり混みます。{line}でいちばん混む区間に、この駅が入っています。",
+        "leadCongestionOnPeakLow": "{line}でいちばん混む区間にこの駅が入りますが、混雑率は{rate}%で、"
+                                   "肩が触れ合わない程度です。",
+        "leadCongestionOffPeakHigh": "朝の混み方は、路線の数字ほどではありません。"
+                                     "通る路線の混雑率は高めですが、この駅はいちばん混む区間の外にあります。",
         "leadCongestion5": "使える路線の朝の混雑率は、23区の駅の中ではかなり低いほうです。",
         "leadCongestion4": "使える路線の朝の混雑率は、23区の駅の中では低いほうです。",
         "leadCongestion3": "使える路線の朝の混雑率は、23区の駅の平均くらいです。",
@@ -290,7 +295,6 @@ PHRASES = {
         "nbPickNbMany": "{nbWin}は{nb}が上回ります。",
         "nbPickStMany": "{stWin}は{station}が上回ります。",
         "nbPickNone": "家賃も通勤も災害の想定も、大きな違いはありません。",
-        "cmpAxisRail": "鉄道の便",
         "cmpAxisRentLow": "家賃の安さ",
         "cmpRentCheaper": "家賃相場は{station}のほうが安いです",
         "cmpRentSame": "家賃相場はほぼ同じです",
@@ -300,8 +304,7 @@ PHRASES = {
         "cmpOnly": "{a}。",
         "cmpSep": "と",
         "cmpAxisDisaster": "大雨のときの浸水の想定の小ささ",
-        "cmpAxisTransit": "使える路線の数",
-        "cmpAxisCommute": "都心への近さ",
+        "cmpAxisCommute": "通勤の速さ",
         "cmpAxisHealthcare": "医療機関の多さ",
         "cmpAxisShopping": "買い物のしやすさ",
         "cmpAxisQuiet": "静かさ",
@@ -315,14 +318,23 @@ PHRASES = {
         "neighbourDistanceClose": "{station}から歩いて行ける距離にあります。",
         "neighbourDistanceFar": "{station}から直線でおよそ{km}km離れています。",
         "nbLinesExtra": "{nb}では、{station}で使えない{lines}も使えます。",
-        "nbLinesExtraMany": "{nb}では、{station}で使えない路線が{count}本あります。",
-        "nbLinesFewerMany": "{nb}で使えるのは{count}路線で、鉄道の便は{station}が上回ります。",
-        "nbLinesBetter": "使える路線が多いぶん、鉄道の便は{nb}が上回ります。",
-        "nbLinesFewer": "{nb}で使えるのは{lines}だけで、鉄道の便は{station}が上回ります。",
-        "nbLinesSwap": "{nb}が乗り入れるのは{lines}で、{station}とは路線が違います。",
+        "nbLinesCount": "{count}路線",
+        "nbLinesCommon": "どちらも{lines}が使えます。",
+        "nbLinesEach": "{station}では{here}が、{nb}では{there}が使えます。",
+        "nbLinesExtraHere": "{station}では、{nb}で使えない{lines}も使えます。",
+        "nbCommuteSplit": "行き先によって速いほうが変わります。"
+                          "{hubA}へは{station}のほうが{a}{minuteWordA}、"
+                          "{hubB}へは{nb}のほうが{b}{minuteWordB}早く着きます。",
+        "nbCommuteOne": "{hub}へは{who}のほうが{minutes}{minuteWord}早く着きますが、"
+                        "ほかの主なオフィス街へは大きく変わりません。",
+        "nbCommuteMany": "{hubs}へは、{who}のほうが{minutes}{minuteWord}以上早く着きます。",
+        "nbReasonShopping": "{winner}の周りには、歩いて13分ほどの範囲に{names}などのスーパーが{w}軒あります。"
+                            "{loser}は{l}軒です。",
+        "nbReasonHealthcare": "{winner}の周りには、歩いて13分ほどの範囲にクリニックと薬局が{w}件あります。"
+                              "{loser}は{l}件です。",
+        "nbReasonFood": "{winner}の周りには、歩いて13分ほどの範囲に飲食店が{w}軒あります。"
+                        "{loser}は{l}軒です。",
         "nbLinesSame": "使える路線は{station}と同じです。",
-        "nbCommuteFaster": "たとえば{hub}へは、{nb}のほうが{minutes}{minuteWord}早く着きます。",
-        "nbCommuteSlower": "たとえば{hub}へは、{nb}のほうが{minutes}{minuteWord}多くかかります。",
         "nbCommuteSame": "主なオフィス街までの所要時間は、ほとんど変わりません。",
         "nbRentHigherBut": "ただしワンルームの家賃相場は、{nb}のほうが{amount}{unit}ほど高めです。",
         "nbRentHigher": "ワンルームの家賃相場も、{nb}のほうが{amount}{unit}ほど高めです。",
@@ -472,6 +484,12 @@ PHRASES = {
                             "either seated or able to hold a strap or pillar. ",
         "congestionTrailer": "The figures describe each line's busiest stretch, "
                              "so the stretch you ride may be easier. ",
+        "leadCongestionOnPeakHigh": "Morning trains are very crowded: this station sits on the "
+                                    "busiest stretch of the {line}. ",
+        "leadCongestionOnPeakLow": "This station sits on the busiest stretch of the {line}, but at "
+                                   "{rate}% passengers are not shoulder to shoulder. ",
+        "leadCongestionOffPeakHigh": "Mornings here are less crowded than the line figures suggest: "
+                                     "the lines are busy, but this station is outside their busiest stretches. ",
         "leadCongestion5": "Among the 23 wards' stations, the lines here are very lightly "
                            "loaded in the morning. ",
         "leadCongestion4": "Among the 23 wards' stations, the lines here are lightly loaded "
@@ -596,7 +614,6 @@ PHRASES = {
         "nbPickNbMany": "{nb} is ahead on {nbWin}. ",
         "nbPickStMany": "{station} is ahead on {stWin}. ",
         "nbPickNone": "Rent, commute and flood projections differ little. ",
-        "cmpAxisRail": "rail connections",
         "cmpAxisRentLow": "lower rent",
         "cmpRentCheaper": "rents are lower at {station}",
         "cmpRentSame": "rents are about the same",
@@ -606,7 +623,6 @@ PHRASES = {
         "cmpOnly": "{a}.",
         "cmpSep": " and ",
         "cmpAxisDisaster": "how little of the area is in the flood projection",
-        "cmpAxisTransit": "the number of lines",
         "cmpAxisCommute": "how close the centre is",
         "cmpAxisHealthcare": "the number of medical facilities",
         "cmpAxisShopping": "how easy the shopping is",
@@ -619,14 +635,23 @@ PHRASES = {
         "neighbourDistanceClose": "Close enough to walk to from {station}. ",
         "neighbourDistanceFar": "About {km} km from {station} in a straight line. ",
         "nbLinesExtra": "{nb} also has the {lines}, which {station} does not. ",
-        "nbLinesExtraMany": "{nb} has {count} lines that {station} does not. ",
-        "nbLinesFewerMany": "{nb} has {count} lines, so {station} is the better connected. ",
-        "nbLinesBetter": "With more lines, {nb} is the better connected of the two. ",
-        "nbLinesFewer": "{nb} has only the {lines}, so {station} is the better connected. ",
-        "nbLinesSwap": "{nb} has the {lines}, a different set from {station}. ",
+        "nbLinesCount": "{count} lines",
+        "nbLinesCommon": "Both have the {lines}. ",
+        "nbLinesExtraHere": "{station} also has the {lines}, which {nb} does not. ",
+        "nbLinesEach": "{station} adds the {here}; {nb} adds the {there}. ",
+        "nbCommuteSplit": "Which is faster depends on where you are going: "
+                          "{station} is {a} {minuteWordA} quicker to {hubA}, "
+                          "{nb} is {b} {minuteWordB} quicker to {hubB}. ",
+        "nbCommuteOne": "{who} is {minutes} {minuteWord} quicker to {hub}, "
+                        "but times to the other main business districts are much the same. ",
+        "nbCommuteMany": "{who} is at least {minutes} {minuteWord} quicker to {hubs}. ",
+        "nbReasonShopping": "Within about 13 minutes' walk, {winner} has {w} supermarkets "
+                            "({names} and others) and {loser} has {l}. ",
+        "nbReasonHealthcare": "Within about 13 minutes' walk, {winner} has {w} clinics and "
+                              "pharmacies and {loser} has {l}. ",
+        "nbReasonFood": "Within about 13 minutes' walk, {winner} has {w} restaurants "
+                        "and {loser} has {l}. ",
         "nbLinesSame": "It is served by the same lines as {station}. ",
-        "nbCommuteFaster": "To {hub}, for instance, {nb} is {minutes} {minuteWord} quicker. ",
-        "nbCommuteSlower": "To {hub}, for instance, {nb} takes {minutes} {minuteWord} longer. ",
         "nbCommuteSame": "Journey times to the main business districts are much the same. ",
         "nbRentHigherBut": "A one-room flat, though, costs about {amount} more at {nb}. ",
         "nbRentHigher": "A one-room flat also costs about {amount} more at {nb}. ",
@@ -753,6 +778,9 @@ PHRASES = {
         "congestionScale2": "按国土交通省的标准，150%指肩膀不会相互接触，车门附近人较多。",
         "congestionScale1": "按国土交通省的标准，100%指所有人都能就座或抓住吊环、立柱。",
         "congestionTrailer": "这是全线最拥挤区间的数值，本站乘车的区间未必相同。",
+        "leadCongestionOnPeakHigh": "早高峰的列车非常拥挤。本站位于{line}最拥挤的区间内。",
+        "leadCongestionOnPeakLow": "本站位于{line}最拥挤的区间内，但拥挤率为{rate}%，乘客之间肩膀不会相碰。",
+        "leadCongestionOffPeakHigh": "早高峰的拥挤程度不像线路数字那么高。线路的拥挤率偏高，但本站不在最拥挤的区间内。",
         "leadCongestion5": "可使用线路的早高峰拥挤率，在23区的车站中非常低。",
         "leadCongestion4": "可使用线路的早高峰拥挤率，在23区的车站中偏低。",
         "leadCongestion3": "可使用线路的早高峰拥挤率，与23区车站的平均水平相当。",
@@ -855,7 +883,6 @@ PHRASES = {
         "nbPickNbMany": "{nbWin}是{nb}更强。",
         "nbPickStMany": "{stWin}是{station}更强。",
         "nbPickNone": "租金、通勤、灾害推算都没有太大差别。",
-        "cmpAxisRail": "铁路出行的方便程度",
         "cmpAxisRentLow": "租金便宜",
         "cmpRentCheaper": "租金行情是{station}更便宜",
         "cmpRentSame": "租金行情差不多",
@@ -865,7 +892,6 @@ PHRASES = {
         "cmpOnly": "{a}。",
         "cmpSep": "和",
         "cmpAxisDisaster": "浸水预估的范围小",
-        "cmpAxisTransit": "可用线路的数量",
         "cmpAxisCommute": "离市中心的近",
         "cmpAxisHealthcare": "医疗机构的多",
         "cmpAxisShopping": "买东西的方便",
@@ -878,14 +904,18 @@ PHRASES = {
         "neighbourDistanceClose": "从{station}走得到的距离。",
         "neighbourDistanceFar": "距{station}直线约{km}公里。",
         "nbLinesExtra": "{nb}还能用{station}没有的{lines}。",
-        "nbLinesExtraMany": "{nb}有{count}条{station}没有的线路。",
-        "nbLinesFewerMany": "{nb}可用{count}条线路，铁路出行的方便程度是{station}更强。",
-        "nbLinesBetter": "可用的线路更多，铁路出行的方便程度是{nb}更强。",
-        "nbLinesFewer": "{nb}只能用{lines}，铁路出行的方便程度是{station}更强。",
-        "nbLinesSwap": "{nb}可用的是{lines}，与{station}的线路不同。",
+        "nbLinesCount": "{count}条线路",
+        "nbLinesCommon": "两站都能用{lines}。",
+        "nbLinesEach": "{station}能用{here}，{nb}能用{there}。",
+        "nbLinesExtraHere": "{station}还能用{nb}没有的{lines}。",
+        "nbCommuteSplit": "哪边更快取决于目的地：去{hubA}，{station}快{a}{minuteWordA}；"
+                          "去{hubB}，{nb}快{b}{minuteWordB}。",
+        "nbCommuteOne": "去{hub}，{who}快{minutes}{minuteWord}，去其他主要商务区则差别不大。",
+        "nbCommuteMany": "去{hubs}，{who}至少快{minutes}{minuteWord}。",
+        "nbReasonShopping": "步行约13分钟范围内的超市，{winner}有{w}家（{names}等），{loser}有{l}家。",
+        "nbReasonHealthcare": "步行约13分钟范围内的诊所和药店，{winner}有{w}家，{loser}有{l}家。",
+        "nbReasonFood": "步行约13分钟范围内的餐饮店，{winner}有{w}家，{loser}有{l}家。",
         "nbLinesSame": "可用的线路与{station}相同。",
-        "nbCommuteFaster": "例如到{hub}，{nb}要快{minutes}{minuteWord}。",
-        "nbCommuteSlower": "例如到{hub}，{nb}要多花{minutes}{minuteWord}。",
         "nbCommuteSame": "到主要商务区的时间几乎没有差别。",
         "nbRentHigherBut": "不过一室户的租金行情，{nb}要高出约{amount}{unit}。",
         "nbRentHigher": "一室户的租金行情也是{nb}高出约{amount}{unit}。",
@@ -1025,6 +1055,11 @@ PHRASES = {
                             "잡을 수 있는 상태를 말한다. ",
         "congestionTrailer": "노선에서 가장 혼잡한 구간의 값이므로, "
                              "이 역에서 타는 구간이 같은 정도라고는 할 수 없다. ",
+        "leadCongestionOnPeakHigh": "아침 열차는 상당히 붐빈다. 이 역은 {line}에서 가장 붐비는 구간에 들어간다. ",
+        "leadCongestionOnPeakLow": "이 역은 {line}에서 가장 붐비는 구간에 들어가지만, 혼잡률은 {rate}%로 "
+                                   "어깨가 닿지 않는 정도이다. ",
+        "leadCongestionOffPeakHigh": "아침 혼잡은 노선의 수치만큼은 아니다. 노선의 혼잡률은 높은 편이지만, "
+                                     "이 역은 가장 붐비는 구간 밖에 있다. ",
         "leadCongestion5": "이용할 수 있는 노선의 아침 혼잡률은 23구의 역 중에서 매우 낮은 편이다. ",
         "leadCongestion4": "이용할 수 있는 노선의 아침 혼잡률은 23구의 역 중에서 낮은 편이다. ",
         "leadCongestion3": "이용할 수 있는 노선의 아침 혼잡률은 23구 역의 평균 정도이다. ",
@@ -1128,7 +1163,6 @@ PHRASES = {
         "nbPickNbMany": "{nbWin}는 {nb}가 앞선다. ",
         "nbPickStMany": "{stWin}는 {station}가 앞선다. ",
         "nbPickNone": "임대료도 통근도 재해 상정도 큰 차이가 없다. ",
-        "cmpAxisRail": "철도 이용의 편리함",
         "cmpAxisRentLow": "저렴한 임대료",
         "cmpRentCheaper": "임대료 시세는 {station}가 더 싸다",
         "cmpRentSame": "임대료 시세는 비슷하다",
@@ -1138,7 +1172,6 @@ PHRASES = {
         "cmpOnly": "{a}.",
         "cmpSep": "와 ",
         "cmpAxisDisaster": "침수 예상 범위의 작음",
-        "cmpAxisTransit": "쓸 수 있는 노선 수",
         "cmpAxisCommute": "도심까지의 가까움",
         "cmpAxisHealthcare": "의료기관의 많음",
         "cmpAxisShopping": "장보기의 편함",
@@ -1151,14 +1184,22 @@ PHRASES = {
         "neighbourDistanceClose": "{station}에서 걸어갈 수 있는 거리에 있다. ",
         "neighbourDistanceFar": "{station}에서 직선거리로 약 {km}km 떨어져 있다. ",
         "nbLinesExtra": "{nb}에서는 {station}에서 쓸 수 없는 {lines}도 쓸 수 있다. ",
-        "nbLinesExtraMany": "{nb}에는 {station}에서 쓸 수 없는 노선이 {count}개 있다. ",
-        "nbLinesFewerMany": "{nb}에서 쓸 수 있는 노선은 {count}개로, 철도 이용은 {station}가 앞선다. ",
-        "nbLinesBetter": "쓸 수 있는 노선이 많은 만큼, 철도 이용은 {nb}가 앞선다. ",
-        "nbLinesFewer": "{nb}에서 쓸 수 있는 것은 {lines}뿐이라, 철도 이용은 {station}가 앞선다. ",
-        "nbLinesSwap": "{nb}에서 쓸 수 있는 것은 {lines}로, {station}와는 노선이 다르다. ",
+        "nbLinesCount": "{count}개 노선",
+        "nbLinesCommon": "두 역 모두 {lines}을(를) 쓸 수 있다. ",
+        "nbLinesEach": "{station}에서는 {here}, {nb}에서는 {there}을(를) 쓸 수 있다. ",
+        "nbLinesExtraHere": "{station}에서는 {nb}에서 쓸 수 없는 {lines}도 쓸 수 있다. ",
+        "nbCommuteSplit": "목적지에 따라 빠른 쪽이 달라진다. {hubA}까지는 {station}이 "
+                          "{a}{minuteWordA}, {hubB}까지는 {nb}이(가) {b}{minuteWordB} 빠르다. ",
+        "nbCommuteOne": "{hub}까지는 {who}이(가) {minutes}{minuteWord} 빠르지만, "
+                        "다른 주요 업무지구까지는 큰 차이가 없다. ",
+        "nbCommuteMany": "{hubs}까지는 {who}이(가) {minutes}{minuteWord} 이상 빠르다. ",
+        "nbReasonShopping": "걸어서 13분 정도 범위의 슈퍼는 {winner}이(가) {w}곳({names} 등), "
+                            "{loser}이(가) {l}곳이다. ",
+        "nbReasonHealthcare": "걸어서 13분 정도 범위의 의원과 약국은 {winner}이(가) {w}곳, "
+                              "{loser}이(가) {l}곳이다. ",
+        "nbReasonFood": "걸어서 13분 정도 범위의 음식점은 {winner}이(가) {w}곳, "
+                        "{loser}이(가) {l}곳이다. ",
         "nbLinesSame": "쓸 수 있는 노선은 {station}와 같다. ",
-        "nbCommuteFaster": "예를 들어 {hub}까지는 {nb}가 {minutes}{minuteWord} 빠르다. ",
-        "nbCommuteSlower": "예를 들어 {hub}까지는 {nb}가 {minutes}{minuteWord} 더 걸린다. ",
         "nbCommuteSame": "주요 업무지구까지 걸리는 시간은 거의 차이가 없다. ",
         "nbRentHigherBut": "다만 원룸 시세는 {nb}가 {amount}{unit} 정도 비싸다. ",
         "nbRentHigher": "원룸 시세도 {nb}가 {amount}{unit} 정도 비싸다. ",

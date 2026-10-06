@@ -79,8 +79,19 @@ LINE_SPEED = {
     "22007": 38.0,   # 西武新宿線
 }
 
+# 駅すぱあと形式の路線データ（ekidata）は、環状線を1本の列として持つ。
+# 山手線は大崎で始まり品川で終わるため、そのままでは品川と大崎のあいだが
+# つながらず、大崎→品川が「乗換1回・13分」になっていた（実際は1駅・約3分）。
+# 大江戸線も都庁前と新宿のあいだが抜け漏れている。列の端どうしをここで足す。
+EXTRA_EDGES = {
+    "11302": [("品川", "大崎")],
+    "99301": [("新宿", "都庁前")],
+}
+
 DWELL_MIN = 0.4        # 1駅あたりの停車時間
 TRANSFER_MIN = 5.0     # 乗り換え1回あたり（徒歩＋待ち）
+# 経路を選ぶときだけ乗換1回に上乗せする分数。出力する所要時間には含めない。
+TRANSFER_AVERSION = 3.0
 # 最初の待ち時間は含めない。世間で言う「新宿まで5分」は乗車時間を指すため、
 # それに揃えないと利用者の持っている感覚とずれる。
 BOARD_MIN = 0.0
@@ -146,6 +157,13 @@ def build_graph():
             edges[(ga, line_cd)].append(((gb, line_cd), minutes, False))
             edges[(gb, line_cd)].append(((ga, line_cd), minutes, False))
 
+        by_name = {s["station_name"]: str(s["station_g_cd"]) for s in seq}
+        for na, nb in EXTRA_EDGES.get(line_cd, []):
+            ga, gb = by_name[na], by_name[nb]
+            minutes = km(coords[ga], coords[gb]) / speed * 60 + DWELL_MIN
+            edges[(ga, line_cd)].append(((gb, line_cd), minutes, False))
+            edges[(gb, line_cd)].append(((ga, line_cd), minutes, False))
+
     # 同一駅内の乗り換え
     for g, lines in station_lines.items():
         for la in lines:
@@ -158,35 +176,39 @@ def build_graph():
 
 def dijkstra(edges, station_lines, origin_group):
     """
-    オフィス駅から全駅への最短所要時間。
+    オフィス駅から全駅への所要時間。
     所要時間だけを最小化すると乗換だらけの経路になるので、乗換にも時間を課している。
+    さらに経路を選ぶときだけ、乗換1回につき TRANSFER_AVERSION 分を上乗せする。
+    人は数分の差なら乗り換えない経路を選ぶ（大崎→東京は、品川で東海道線に
+    乗り換えるより山手線に乗ったままのほうが普通である）。出力する分数は実際の時間のまま。
     """
-    best = {}
+    best = {}   # node -> (選ぶためのコスト, 所要時間, 乗換回数)
     heap = []
     for line in station_lines[origin_group]:
         node = (origin_group, line)
-        best[node] = (BOARD_MIN, 0)
-        heapq.heappush(heap, (BOARD_MIN, 0, node))
+        best[node] = (BOARD_MIN, BOARD_MIN, 0)
+        heapq.heappush(heap, (BOARD_MIN, BOARD_MIN, 0, node))
 
     while heap:
-        cost, transfers, node = heapq.heappop(heap)
-        if best.get(node, (math.inf,))[0] < cost:
+        choice, cost, transfers, node = heapq.heappop(heap)
+        if best.get(node, (math.inf,))[0] < choice:
             continue
         for nxt, minutes, is_transfer in edges[node]:
             nc = cost + minutes
             nt = transfers + (1 if is_transfer else 0)
+            nchoice = choice + minutes + (TRANSFER_AVERSION if is_transfer else 0)
             cur = best.get(nxt)
-            if cur is None or nc < cur[0] - 1e-9:
-                best[nxt] = (nc, nt)
-                heapq.heappush(heap, (nc, nt, nxt))
+            if cur is None or nchoice < cur[0] - 1e-9:
+                best[nxt] = (nchoice, nc, nt)
+                heapq.heappush(heap, (nchoice, nc, nt, nxt))
 
-    # 駅単位に畳む。同じ駅でも到達に使う路線で結果が違うため、最短のものを採る。
+    # 駅単位に畳む。同じ駅でも到達に使う路線で結果が違うため、選ぶためのコストが最小のものを採る。
     per_station = {}
-    for (g, _line), (cost, transfers) in best.items():
+    for (g, _line), (choice, cost, transfers) in best.items():
         cur = per_station.get(g)
-        if cur is None or cost < cur[0]:
-            per_station[g] = (cost, transfers)
-    return per_station
+        if cur is None or choice < cur[0]:
+            per_station[g] = (choice, cost, transfers)
+    return {g: (cost, transfers) for g, (_c, cost, transfers) in per_station.items()}
 
 
 def main():

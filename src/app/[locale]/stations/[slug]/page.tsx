@@ -262,6 +262,21 @@ export default async function StationPage({
           ))}
         </dl>
         <RentSourceNote source={station.sources?.rent} dict={dict} />
+        {/* 家賃がこの水準である理由は、相場の数字のすぐ下に置く。
+            ページの後半に離して置くと、数字と理由を読み手が自分でつなぐことになる。 */}
+        {station.content.rentReason && (
+          <div className="space-y-1.5 pt-2">
+            <h3 className="text-sm font-semibold text-ink">{dict.depth.rentReason}</h3>
+            {station.content.leads?.rentReason && (
+              <p className="text-sm font-medium leading-relaxed text-ink">
+                {station.content.leads.rentReason}
+              </p>
+            )}
+            <p className="text-sm leading-relaxed text-ink-soft">
+              {station.content.rentReason}
+            </p>
+          </div>
+        )}
       </Section>
 
       {station.rentBands && (

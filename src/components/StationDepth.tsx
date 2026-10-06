@@ -198,7 +198,6 @@ export function StationDepth({
     "nightWalk",
     "residents",
     "housingStock",
-    "rentReason",
     "outlook",
   ] as const;
   for (const field of simple) {
