@@ -337,6 +337,22 @@ export const groceryStoreSchema = z.object({
 });
 
 /**
+ * スーパー以外の、誰でも知っているチェーン店（ドラッグストア・100円ショップ）。
+ * 知られていない個人店より、名前を見ただけで何が買えるか分かる店のほうが、
+ * 読み手が駅前の暮らしを思い浮かべやすい。実在の確認はスーパーと同じく必須。
+ */
+export const dailyShopSchema = z.object({
+  name: z.string().min(1),
+  kind: z.enum(["drugstore", "hundredYen"]),
+  /** 駅からの徒歩分数。裏取りできていない場合は書かない */
+  walkMinutes: z.number().int().min(0).max(30).optional(),
+  /** 入っている建物など */
+  note: z.string().optional(),
+  sourceUrl: z.string().url(),
+  verifiedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+});
+
+/**
  * 駅の出口ごとの街の違い。
  * 同じ駅でも北口と南口で別の街であることが多く、住む方角の選択に直結する。
  * 既存のまとめ記事が駅を一枚岩として扱うせいで、最も抜け落ちている観点。
@@ -491,6 +507,8 @@ export const stationContentSchema = z.object({
   noiseSources: z.array(z.string()).optional(),
   /** 日常の買い物先。価格帯と徒歩分数つき */
   groceries: z.array(groceryStoreSchema).optional(),
+  /** ドラッグストアと100円ショップ。日常の買い物の節に一緒に出す */
+  dailyShops: z.array(dailyShopSchema).optional(),
   /** 住民層 */
   residents: z.string().optional(),
   /** 物件の傾向。築年数、構造、間取りの偏り */
@@ -591,6 +609,7 @@ export type StationContent = z.infer<typeof stationContentSchema>;
 export type DayFaces = z.infer<typeof dayFacesSchema>;
 export type Terrain = z.infer<typeof terrainSchema>;
 export type GroceryStore = z.infer<typeof groceryStoreSchema>;
+export type DailyShop = z.infer<typeof dailyShopSchema>;
 export type NeighbourNote = z.infer<typeof neighbourNoteSchema>;
 export type StationExit = z.infer<typeof exitSchema>;
 export type Leads = z.infer<typeof leadsSchema>;

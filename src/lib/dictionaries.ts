@@ -124,6 +124,8 @@ export type Dictionary = {
     groceries: string;
     tier: Record<"discount" | "standard" | "premium", string>;
     walkMinutes: string;
+    dailyShops: string;
+    shopKind: Record<"drugstore" | "hundredYen", string>;
     residents: string;
     housingStock: string;
     hazards: string;
@@ -320,6 +322,8 @@ const ja: Dictionary = {
     groceries: "日常の買い物",
     tier: { discount: "安い", standard: "標準", premium: "高い" },
     walkMinutes: "徒歩",
+    dailyShops: "ドラッグストア・100円ショップ",
+    shopKind: { drugstore: "ドラッグストア", hundredYen: "100円ショップ" },
     residents: "住んでいる人の層",
     housingStock: "物件の傾向",
     hazards: "災害リスク",
@@ -617,6 +621,8 @@ const en: Dictionary = {
     groceries: "Everyday shopping",
     tier: { discount: "Cheap", standard: "Standard", premium: "Upmarket" },
     walkMinutes: "walk",
+    dailyShops: "Drugstores and 100-yen shops",
+    shopKind: { drugstore: "Drugstore", hundredYen: "100-yen shop" },
     residents: "Who lives here",
     housingStock: "What the housing is like",
     hazards: "Disaster risk",
@@ -915,6 +921,8 @@ const zhHans: Dictionary = {
     groceries: "日常采买",
     tier: { discount: "便宜", standard: "普通", premium: "高档" },
     walkMinutes: "步行",
+    dailyShops: "药妆店・百元店",
+    shopKind: { drugstore: "药妆店", hundredYen: "百元店" },
     residents: "住的是哪些人",
     housingStock: "房子的类型",
     hazards: "灾害风险",
@@ -1208,6 +1216,8 @@ const ko: Dictionary = {
     groceries: "일상 장보기",
     tier: { discount: "저렴", standard: "보통", premium: "고급" },
     walkMinutes: "도보",
+    dailyShops: "드러그스토어・100엔숍",
+    shopKind: { drugstore: "드러그스토어", hundredYen: "100엔숍" },
     residents: "어떤 사람들이 사는가",
     housingStock: "어떤 집이 많은가",
     hazards: "재해 위험",

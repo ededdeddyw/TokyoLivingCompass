@@ -124,6 +124,27 @@ export function StationDepth({
             </li>
           ))}
         </ul>
+        {content.dailyShops && content.dailyShops.length > 0 && (
+          <>
+            <h4 className="mt-3 text-xs font-semibold text-ink">{d.dailyShops}</h4>
+            <ul className="mt-1.5 space-y-1.5">
+              {content.dailyShops.map((shop) => (
+                <li key={shop.name} className="flex flex-wrap items-baseline gap-x-2">
+                  <span className="font-medium text-ink">{shop.name}</span>
+                  <span className="rounded bg-canvas px-1.5 py-0.5 text-xs">
+                    {d.shopKind[shop.kind]}
+                  </span>
+                  {shop.walkMinutes !== undefined && (
+                    <span className="text-xs tabular-nums">
+                      {d.walkMinutes} {shop.walkMinutes}分
+                    </span>
+                  )}
+                  {shop.note && <span className="w-full">{shop.note}</span>}
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
       </Block>,
     );
   }
