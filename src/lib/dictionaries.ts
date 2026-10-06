@@ -58,6 +58,10 @@ export type Dictionary = {
     supermarkets: string;
     commercial: string;
     goodFor: string;
+    /** 街の特色の見出し・出典・注記（src/components/TownTraits.tsx） */
+    townTraits: string;
+    townTraitsSource: string;
+    townTraitsNote: string;
     notFor: string;
     residentComment: string;
     compiledComment: string;
@@ -252,6 +256,9 @@ const ja: Dictionary = {
     supermarkets: "スーパー",
     commercial: "商業施設",
     goodFor: "向いている人",
+    townTraits: "どんな街か",
+    townTraitsSource: "出典",
+    townTraitsNote: "記事から街の特色を読み取り、まとめ直しています。家賃や所要時間などの数字は、このページのほかの欄を見てください。",
     notFor: "向かない人",
     residentComment: "東京在住者コメント",
     compiledComment: "この街の特色のまとめ",
@@ -551,6 +558,9 @@ const en: Dictionary = {
     supermarkets: "Supermarkets",
     commercial: "Shopping",
     goodFor: "Good for",
+    townTraits: "What the area is like",
+    townTraitsSource: "Sources",
+    townTraitsNote: "Summarised from the articles above. For rent, journey times and other figures, see the rest of this page.",
     notFor: "Not for",
     residentComment: "From someone who lives in Tokyo",
     compiledComment: "What this neighbourhood is like",
@@ -853,6 +863,9 @@ const zhHans: Dictionary = {
     supermarkets: "超市",
     commercial: "购物",
     goodFor: "适合的人",
+    townTraits: "街区特色",
+    townTraitsSource: "出处",
+    townTraitsNote: "根据上述条目整理了街区特色。租金、通勤时间等数字请参看本页其他栏目。",
     notFor: "不适合的人",
     residentComment: "住在东京的人怎么说",
     compiledComment: "这个街区的特色小结",
@@ -1147,6 +1160,9 @@ const ko: Dictionary = {
     supermarkets: "슈퍼마켓",
     commercial: "쇼핑",
     goodFor: "맞는 사람",
+    townTraits: "어떤 동네인가",
+    townTraitsSource: "출처",
+    townTraitsNote: "위 문서에서 동네의 특색을 읽어 정리했습니다. 임대료와 소요 시간 등의 숫자는 이 페이지의 다른 항목을 보세요.",
     notFor: "맞지 않는 사람",
     residentComment: "도쿄에 사는 사람의 이야기",
     compiledComment: "이 동네의 특색 정리",

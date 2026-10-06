@@ -9,6 +9,7 @@ import { OverallScore } from "@/components/OverallScore";
 import { ScoreGrid } from "@/components/ScoreGrid";
 import { StationDepth } from "@/components/StationDepth";
 import { SeedNotice } from "@/components/SeedNotice";
+import { TownTraits } from "@/components/TownTraits";
 import { getDictionary } from "@/lib/dictionaries";
 import { formatYen } from "@/lib/format";
 import { ACTIVE_LOCALES, isActiveLocale, type ActiveLocale } from "@/lib/i18n";
@@ -27,6 +28,7 @@ import {
   getLocalizedStation,
   getLocalizedStations,
   getStationContent,
+  getTownTraits,
   resolveLines,
 } from "@/lib/stations";
 
@@ -156,6 +158,7 @@ export default async function StationPage({
   if (!station) notFound();
 
   const dict = getDictionary(locale);
+  const townTraits = getTownTraits(slug, locale);
   // 総合評価は読み手の区分ごとに変わる。一覧から区分つきのリンクで来た読み手に
   // 別の数字を見せないよう、区分ごとの点数をすべて渡しておく
   // （src/components/OverallScore.tsx）。
@@ -242,6 +245,8 @@ export default async function StationPage({
       {station.dataQuality === "seed" && <SeedNotice dict={dict} />}
 
       <p className="max-w-3xl leading-relaxed text-ink">{station.content.summary}</p>
+
+      {townTraits && <TownTraits data={townTraits} dict={dict} />}
 
       <Section title={dict.station.rent}>
         <dl className="grid grid-cols-2 gap-3 sm:grid-cols-4">

@@ -60,6 +60,8 @@ def main():
         print("  -", p)
     out = {
         "meta": {
+            "label": "Wikipedia",
+            "licenseName": "CC BY-SA 4.0",
             "note": "Wikipedia の駅と町の記事から、街の特色だけを読み取ってまとめ直したもの。"
                     "記事の文は写していない。家賃・所要時間・店の数のような数字は取らない。"
                     "方針は docs/16-town-traits.md。",

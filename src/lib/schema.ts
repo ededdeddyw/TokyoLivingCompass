@@ -626,3 +626,43 @@ export function depthFilled(content: StationContent): DepthField[] {
 
 /** 駅マスタと、あるロケールの散文を結合したもの。ページはこの形で受け取る。 */
 export type LocalizedStation = Station & { content: StationContent };
+
+/**
+ * 街の特色（data/town-traits/*.json）。出典の記事から読み取ってまとめ直したもの。
+ * 出典ごとに1ファイル。方針は docs/16-town-traits.md。
+ */
+export const townTraitsFileSchema = z.object({
+  meta: z
+    .object({
+      /** 画面に出す出典の名前（「Wikipedia」など） */
+      label: z.string().min(1),
+      /** ライセンス表示が要る出典のときだけ（「CC BY-SA 4.0」など） */
+      licenseName: z.string().optional(),
+      license: z.string().url().optional(),
+    })
+    .passthrough(),
+  stations: z.record(
+    z.string(),
+    z.object({
+      sources: z.array(
+        z.object({
+          title: z.string().min(1),
+          url: z.string().url(),
+          retrievedAt: z.string().optional(),
+        }),
+      ),
+      traits: z.array(z.object({ text: z.string().min(1), from: z.string().min(1) })),
+    }),
+  ),
+});
+
+/** 駅ページに出す形。複数の出典を重ね、出典ごとに記事へのリンクを持つ。 */
+export type TownTraits = {
+  traits: string[];
+  sources: {
+    label: string;
+    licenseName?: string;
+    license?: string;
+    articles: { title: string; url: string }[];
+  }[];
+};
