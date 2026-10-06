@@ -1,7 +1,7 @@
 {
   "meta": {
-    "method": "highway が motorway/trunk/primary/secondary の道路について、駅から中心線までの最短距離を計算。150m以内を沿道とみなす",
-    "retrievedAt": "2026-09-23",
+    "method": "highway が motorway/trunk/primary/secondary の道路（トンネルの区間を除く）について、駅から中心線までの最短距離を計算。150m以内を沿道とみなす",
+    "retrievedAt": "2026-10-06",
     "source": "OpenStreetMap contributors (ODbL)"
   },
   "stations": {
@@ -22,7 +22,7 @@
       },
       "secondary": {
         "lanes": null,
-        "m": 73,
+        "m": 84,
         "name": "新荒川堤防線",
         "oneway": false
       }
@@ -632,7 +632,7 @@
     "asukayama": {
       "motorway": {
         "lanes": 2,
-        "m": 45,
+        "m": 141,
         "name": "首都高速中央環状線",
         "oneway": true
       },
@@ -876,8 +876,8 @@
     "daikanyama": {
       "motorway": {
         "lanes": 2,
-        "m": 561,
-        "name": "首都高速中央環状線",
+        "m": 1018,
+        "name": "首都高速3号渋谷線",
         "oneway": true
       },
       "nearAnyM": 152,
@@ -1042,8 +1042,8 @@
     "ebisu": {
       "motorway": {
         "lanes": 2,
-        "m": 927,
-        "name": "首都高速中央環状線",
+        "m": 982,
+        "name": "首都高速2号目黒線",
         "oneway": true
       },
       "nearAnyM": 84,
@@ -1180,12 +1180,12 @@
     "fudo-mae": {
       "motorway": {
         "lanes": 2,
-        "m": 39,
-        "name": "首都高速中央環状線",
+        "m": 357,
+        "name": "首都高速2号目黒線",
         "oneway": true
       },
-      "nearAnyM": 39,
-      "nearMajorM": 39,
+      "nearAnyM": 43,
+      "nearMajorM": 43,
       "primary": {
         "lanes": 2,
         "m": 43,
@@ -1290,7 +1290,7 @@
     "gaiemmae": {
       "motorway": {
         "lanes": 2,
-        "m": 1047,
+        "m": 1048,
         "name": "首都高速4号新宿線",
         "oneway": true
       },
@@ -1412,8 +1412,8 @@
     "gotanda": {
       "motorway": {
         "lanes": 2,
-        "m": 342,
-        "name": "首都高速中央環状線",
+        "m": 444,
+        "name": "首都高速2号目黒線",
         "oneway": true
       },
       "nearAnyM": 14,
@@ -1644,8 +1644,8 @@
     "hanzomon": {
       "motorway": {
         "lanes": 2,
-        "m": 274,
-        "name": "首都高速都心環状線",
+        "m": 453,
+        "name": "首都高速4号新宿線",
         "oneway": true
       },
       "nearAnyM": 161,
@@ -1894,7 +1894,7 @@
     "higashi-ginza": {
       "motorway": {
         "lanes": null,
-        "m": 162,
+        "m": 167,
         "name": "首都高速都心環状線",
         "oneway": true
       },
@@ -2070,12 +2070,6 @@
       }
     },
     "higashi-nagasaki": {
-      "motorway": {
-        "lanes": 2,
-        "m": 1167,
-        "name": "首都高速中央環状線",
-        "oneway": true
-      },
       "nearAnyM": 339,
       "nearMajorM": 339,
       "primary": {
@@ -2092,12 +2086,6 @@
       }
     },
     "higashi-nakano": {
-      "motorway": {
-        "lanes": 2,
-        "m": 59,
-        "name": "首都高速中央環状線",
-        "oneway": true
-      },
       "nearAnyM": 57,
       "nearMajorM": 57,
       "primary": {
@@ -2452,7 +2440,7 @@
     "ichigaya": {
       "motorway": {
         "lanes": 2,
-        "m": 878,
+        "m": 882,
         "name": "首都高速都心環状線",
         "oneway": true
       },
@@ -2644,13 +2632,13 @@
       }
     },
     "iogi": {
-      "nearAnyM": 85,
-      "nearMajorM": 85,
+      "nearAnyM": 343,
+      "nearMajorM": 468,
       "primary": {
-        "lanes": 2,
-        "m": 85,
-        "name": "環八通り",
-        "oneway": true
+        "lanes": null,
+        "m": 468,
+        "name": "旧早稲田通り",
+        "oneway": false
       },
       "secondary": {
         "lanes": 2,
@@ -3043,11 +3031,11 @@
     },
     "kami-igusa": {
       "nearAnyM": 86,
-      "nearMajorM": 1026,
+      "nearMajorM": 1080,
       "primary": {
         "lanes": 2,
-        "m": 1026,
-        "name": "環八通り",
+        "m": 1080,
+        "name": "青梅街道",
         "oneway": true
       },
       "secondary": {
@@ -3062,8 +3050,8 @@
       "nearMajorM": 303,
       "primary": {
         "lanes": 2,
-        "m": 839,
-        "name": "北町若木トンネル",
+        "m": 866,
+        "name": "環八通り",
         "oneway": true
       },
       "secondary": {
@@ -3212,9 +3200,9 @@
       },
       "secondary": {
         "lanes": 2,
-        "m": 540,
-        "name": "築地虎ノ門トンネル",
-        "oneway": true
+        "m": 556,
+        "name": "新虎通り",
+        "oneway": false
       },
       "trunk": {
         "lanes": null,
@@ -3248,7 +3236,7 @@
     "kanamecho": {
       "motorway": {
         "lanes": 2,
-        "m": 56,
+        "m": 121,
         "name": "首都高速中央環状線",
         "oneway": true
       },
@@ -3398,7 +3386,7 @@
     "kasumigaseki": {
       "motorway": {
         "lanes": null,
-        "m": 237,
+        "m": 424,
         "name": "首都高速都心環状線",
         "oneway": true
       },
@@ -3735,12 +3723,6 @@
         "m": 226,
         "name": "四谷角筈線",
         "oneway": false
-      },
-      "trunk": {
-        "lanes": 2,
-        "m": 1098,
-        "name": "甲州街道",
-        "oneway": true
       }
     },
     "kita-senju": {
@@ -3790,8 +3772,8 @@
     "kitashinagawa": {
       "motorway": {
         "lanes": 2,
-        "m": 646,
-        "name": "首都高速中央環状線",
+        "m": 972,
+        "name": "首都高速1号羽田線",
         "oneway": true
       },
       "nearAnyM": 36,
@@ -3928,7 +3910,7 @@
     "kojimachi": {
       "motorway": {
         "lanes": 2,
-        "m": 489,
+        "m": 490,
         "name": "首都高速4号新宿線",
         "oneway": true
       },
@@ -3964,7 +3946,7 @@
       },
       "trunk": {
         "lanes": 2,
-        "m": 776,
+        "m": 777,
         "name": "第一京浜",
         "oneway": true
       }
@@ -3972,7 +3954,7 @@
     "kokkai-gijidomae": {
       "motorway": {
         "lanes": 2,
-        "m": 176,
+        "m": 223,
         "name": "首都高速都心環状線",
         "oneway": true
       },
@@ -4020,7 +4002,7 @@
       },
       "trunk": {
         "lanes": 2,
-        "m": 815,
+        "m": 821,
         "name": "甲州街道",
         "oneway": true
       }
@@ -4056,12 +4038,12 @@
     "komaba-todaimae": {
       "motorway": {
         "lanes": 2,
-        "m": 437,
-        "name": "首都高速中央環状線",
+        "m": 782,
+        "name": "首都高速3号渋谷線",
         "oneway": true
       },
       "nearAnyM": 316,
-      "nearMajorM": 437,
+      "nearMajorM": 439,
       "primary": {
         "lanes": null,
         "m": 439,
@@ -4216,7 +4198,7 @@
       }
     },
     "kotake-mukaihara": {
-      "nearAnyM": 2,
+      "nearAnyM": 39,
       "nearMajorM": 365,
       "primary": {
         "lanes": 2,
@@ -4225,8 +4207,8 @@
         "oneway": true
       },
       "secondary": {
-        "lanes": null,
-        "m": 2,
+        "lanes": 2,
+        "m": 39,
         "name": "要町通り",
         "oneway": true
       }
@@ -4503,8 +4485,8 @@
         "oneway": true
       },
       "secondary": {
-        "lanes": 2,
-        "m": 362,
+        "lanes": 3,
+        "m": 366,
         "name": "北品川四谷線",
         "oneway": true
       },
@@ -4566,12 +4548,6 @@
       }
     },
     "mejiro": {
-      "motorway": {
-        "lanes": 2,
-        "m": 1133,
-        "name": "首都高速中央環状線",
-        "oneway": true
-      },
       "nearAnyM": 135,
       "nearMajorM": 135,
       "primary": {
@@ -5096,7 +5072,7 @@
     "nagatacho": {
       "motorway": {
         "lanes": 2,
-        "m": 62,
+        "m": 64,
         "name": "首都高速4号新宿線",
         "oneway": true
       },
@@ -5144,12 +5120,6 @@
       }
     },
     "nakai": {
-      "motorway": {
-        "lanes": 2,
-        "m": 1,
-        "name": "首都高速中央環状線",
-        "oneway": true
-      },
       "nearAnyM": 1,
       "nearMajorM": 1,
       "primary": {
@@ -5166,14 +5136,8 @@
       }
     },
     "nakameguro": {
-      "motorway": {
-        "lanes": 2,
-        "m": 61,
-        "name": "首都高速中央環状線",
-        "oneway": true
-      },
-      "nearAnyM": 61,
-      "nearMajorM": 61,
+      "nearAnyM": 64,
+      "nearMajorM": 64,
       "primary": {
         "lanes": 2,
         "m": 64,
@@ -5204,7 +5168,7 @@
       }
     },
     "nakano": {
-      "nearAnyM": 39,
+      "nearAnyM": 49,
       "nearMajorM": 468,
       "primary": {
         "lanes": 2,
@@ -5214,7 +5178,7 @@
       },
       "secondary": {
         "lanes": 4,
-        "m": 39,
+        "m": 49,
         "name": "中野通り",
         "oneway": false
       }
@@ -5236,12 +5200,6 @@
       }
     },
     "nakano-sakaue": {
-      "motorway": {
-        "lanes": 2,
-        "m": 23,
-        "name": "首都高速中央環状線",
-        "oneway": true
-      },
       "nearAnyM": 22,
       "nearMajorM": 22,
       "primary": {
@@ -5258,12 +5216,6 @@
       }
     },
     "nakano-shimbashi": {
-      "motorway": {
-        "lanes": 2,
-        "m": 695,
-        "name": "首都高速中央環状線",
-        "oneway": true
-      },
       "nearAnyM": 451,
       "nearMajorM": 600,
       "primary": {
@@ -5341,10 +5293,10 @@
     },
     "nerima-kasugacho": {
       "nearAnyM": 1,
-      "nearMajorM": 7,
+      "nearMajorM": 35,
       "primary": {
         "lanes": 2,
-        "m": 7,
+        "m": 35,
         "name": "環八通り",
         "oneway": true
       },
@@ -5357,10 +5309,10 @@
     },
     "nerima-takanodai": {
       "nearAnyM": 132,
-      "nearMajorM": 385,
+      "nearMajorM": 567,
       "primary": {
         "lanes": 2,
-        "m": 385,
+        "m": 567,
         "name": "環八通り",
         "oneway": true
       },
@@ -5642,12 +5594,6 @@
       }
     },
     "nishi-shinjuku": {
-      "motorway": {
-        "lanes": 2,
-        "m": 916,
-        "name": "首都高速中央環状線",
-        "oneway": true
-      },
       "nearAnyM": 7,
       "nearMajorM": 7,
       "primary": {
@@ -5672,12 +5618,12 @@
     "nishi-shinjuku-gochome": {
       "motorway": {
         "lanes": 2,
-        "m": 196,
-        "name": "首都高速中央環状線",
+        "m": 854,
+        "name": "首都高速4号新宿線",
         "oneway": true
       },
       "nearAnyM": 1,
-      "nearMajorM": 196,
+      "nearMajorM": 199,
       "primary": {
         "lanes": null,
         "m": 199,
@@ -5866,7 +5812,7 @@
     "nishigahara": {
       "motorway": {
         "lanes": 2,
-        "m": 687,
+        "m": 719,
         "name": "首都高速中央環状線",
         "oneway": true
       },
@@ -5958,7 +5904,7 @@
         "name": "首都高速3号渋谷線",
         "oneway": true
       },
-      "nearAnyM": 2,
+      "nearAnyM": 89,
       "nearMajorM": 114,
       "primary": {
         "lanes": 2,
@@ -5968,8 +5914,8 @@
       },
       "secondary": {
         "lanes": 2,
-        "m": 2,
-        "name": "乃木坂トンネル",
+        "m": 89,
+        "name": "南青山陸橋",
         "oneway": false
       },
       "trunk": {
@@ -6034,12 +5980,6 @@
       }
     },
     "ochiai": {
-      "motorway": {
-        "lanes": 2,
-        "m": 192,
-        "name": "首都高速中央環状線",
-        "oneway": true
-      },
       "nearAnyM": 0,
       "nearMajorM": 0,
       "primary": {
@@ -6056,12 +5996,6 @@
       }
     },
     "ochiai-minami-nagasaki": {
-      "motorway": {
-        "lanes": 2,
-        "m": 730,
-        "name": "首都高速中央環状線",
-        "oneway": true
-      },
       "nearAnyM": 0,
       "nearMajorM": 0,
       "primary": {
@@ -6188,8 +6122,8 @@
     "oimachi": {
       "motorway": {
         "lanes": 2,
-        "m": 972,
-        "name": "首都高速中央環状線",
+        "m": 1144,
+        "name": "首都高速1号羽田線",
         "oneway": true
       },
       "nearAnyM": 32,
@@ -6232,7 +6166,7 @@
     "oji": {
       "motorway": {
         "lanes": 2,
-        "m": 190,
+        "m": 242,
         "name": "首都高速中央環状線",
         "oneway": true
       },
@@ -6584,8 +6518,8 @@
     "osaki": {
       "motorway": {
         "lanes": 2,
-        "m": 117,
-        "name": "首都高速中央環状線",
+        "m": 909,
+        "name": "首都高速2号目黒線",
         "oneway": true
       },
       "nearAnyM": 36,
@@ -6611,13 +6545,13 @@
     },
     "osaki-hirokoji": {
       "motorway": {
-        "lanes": 2,
-        "m": 77,
-        "name": "首都高速中央環状線",
+        "lanes": null,
+        "m": 383,
+        "name": "首都高速2号目黒線",
         "oneway": true
       },
-      "nearAnyM": 77,
-      "nearMajorM": 77,
+      "nearAnyM": 81,
+      "nearMajorM": 81,
       "primary": {
         "lanes": 2,
         "m": 81,
@@ -7044,7 +6978,7 @@
     "sakuradamon": {
       "motorway": {
         "lanes": null,
-        "m": 214,
+        "m": 235,
         "name": "首都高速都心環状線",
         "oneway": true
       },
@@ -7292,7 +7226,7 @@
       },
       "trunk": {
         "lanes": 2,
-        "m": 658,
+        "m": 725,
         "name": "甲州街道",
         "oneway": true
       }
@@ -7584,7 +7518,7 @@
     "shiinamachi": {
       "motorway": {
         "lanes": 2,
-        "m": 111,
+        "m": 949,
         "name": "首都高速中央環状線",
         "oneway": true
       },
@@ -7644,8 +7578,8 @@
     "shimbamba": {
       "motorway": {
         "lanes": 2,
-        "m": 148,
-        "name": "首都高速中央環状線",
+        "m": 910,
+        "name": "首都高速1号羽田線",
         "oneway": true
       },
       "nearAnyM": 30,
@@ -7671,8 +7605,8 @@
     },
     "shimbashi": {
       "motorway": {
-        "lanes": 2,
-        "m": 472,
+        "lanes": null,
+        "m": 482,
         "name": "首都高速都心環状線",
         "oneway": true
       },
@@ -7786,12 +7720,6 @@
       }
     },
     "shimo-ochiai": {
-      "motorway": {
-        "lanes": 2,
-        "m": 645,
-        "name": "首都高速中央環状線",
-        "oneway": true
-      },
       "nearAnyM": 93,
       "nearMajorM": 93,
       "primary": {
@@ -7802,12 +7730,6 @@
       }
     },
     "shimo-shimmei": {
-      "motorway": {
-        "lanes": 2,
-        "m": 1185,
-        "name": "首都高速中央環状線",
-        "oneway": true
-      },
       "nearAnyM": 13,
       "nearMajorM": 1033,
       "primary": {
@@ -8018,11 +7940,11 @@
         "name": "首都高速中央環状線",
         "oneway": true
       },
-      "nearAnyM": 107,
-      "nearMajorM": 107,
+      "nearAnyM": 110,
+      "nearMajorM": 110,
       "primary": {
-        "lanes": null,
-        "m": 107,
+        "lanes": 2,
+        "m": 110,
         "name": "平和橋通り",
         "oneway": false
       },
@@ -8161,13 +8083,13 @@
     },
     "shin-seibijo": {
       "motorway": {
-        "lanes": null,
-        "m": 361,
+        "lanes": 3,
+        "m": 376,
         "name": "首都高速湾岸線",
         "oneway": true
       },
-      "nearAnyM": 292,
-      "nearMajorM": 292,
+      "nearAnyM": 296,
+      "nearMajorM": 296,
       "primary": {
         "lanes": 2,
         "m": 1031,
@@ -8176,7 +8098,7 @@
       },
       "trunk": {
         "lanes": 2,
-        "m": 292,
+        "m": 296,
         "name": "国道357号",
         "oneway": true
       }
@@ -8388,8 +8310,8 @@
         "name": "首都高速4号新宿線",
         "oneway": true
       },
-      "nearAnyM": 105,
-      "nearMajorM": 105,
+      "nearAnyM": 317,
+      "nearMajorM": 317,
       "primary": {
         "lanes": 4,
         "m": 317,
@@ -8404,7 +8326,7 @@
       },
       "trunk": {
         "lanes": 2,
-        "m": 105,
+        "m": 399,
         "name": "甲州街道",
         "oneway": true
       }
@@ -8532,7 +8454,7 @@
       },
       "trunk": {
         "lanes": 2,
-        "m": 211,
+        "m": 238,
         "name": "玉川通り",
         "oneway": true
       }
@@ -9647,8 +9569,8 @@
     },
     "toranomon": {
       "motorway": {
-        "lanes": null,
-        "m": 446,
+        "lanes": 2,
+        "m": 502,
         "name": "首都高速都心環状線",
         "oneway": true
       },
@@ -9810,8 +9732,8 @@
       },
       "secondary": {
         "lanes": 2,
-        "m": 256,
-        "name": "築地虎ノ門トンネル",
+        "m": 310,
+        "name": "環二通り",
         "oneway": true
       },
       "trunk": {
@@ -9840,7 +9762,7 @@
     "uchisaiwaicho": {
       "motorway": {
         "lanes": null,
-        "m": 827,
+        "m": 972,
         "name": "首都高速都心環状線",
         "oneway": true
       },
@@ -10292,7 +10214,7 @@
     "yotsuya": {
       "motorway": {
         "lanes": 2,
-        "m": 452,
+        "m": 458,
         "name": "首都高速4号新宿線",
         "oneway": true
       },
@@ -10374,14 +10296,8 @@
       }
     },
     "yoyogi-hachiman": {
-      "motorway": {
-        "lanes": 2,
-        "m": 93,
-        "name": "首都高速中央環状線",
-        "oneway": true
-      },
-      "nearAnyM": 93,
-      "nearMajorM": 93,
+      "nearAnyM": 96,
+      "nearMajorM": 96,
       "primary": {
         "lanes": null,
         "m": 96,
@@ -10398,12 +10314,12 @@
     "yoyogi-uehara": {
       "motorway": {
         "lanes": 2,
-        "m": 685,
-        "name": "首都高速中央環状線",
+        "m": 937,
+        "name": "首都高速4号新宿線",
         "oneway": true
       },
       "nearAnyM": 102,
-      "nearMajorM": 685,
+      "nearMajorM": 688,
       "primary": {
         "lanes": null,
         "m": 688,
@@ -10496,12 +10412,6 @@
       }
     },
     "yutenji": {
-      "motorway": {
-        "lanes": 2,
-        "m": 1083,
-        "name": "首都高速中央環状線",
-        "oneway": true
-      },
       "nearAnyM": 258,
       "nearMajorM": 1023,
       "primary": {
