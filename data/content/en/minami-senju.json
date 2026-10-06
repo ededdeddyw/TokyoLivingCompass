@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Minami-Senju",
   "tagline": "Tokyo in 17 minutes and Otemachi in 23 minutes. Served by 3 lines. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Arakawa City, served by JR Joban Line, Tokyo Metro Hibiya Line and Tsukuba Express. Journey times to the main business districts are 23 minutes to Otemachi, 30 minutes to Shinjuku, 40 minutes to Shibuya and 31 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 1.1 m above sea level, and the ground within 800 m varies in height by 1.5 m. The land around the station is close to level.",
+  "summary": "The station is in Arakawa City, where JR East, Tokyo Metro and Tsukuba Express run 3 lines between them. Journey times to the main business districts are 23 minutes to Otemachi, 30 minutes to Shinjuku, 40 minutes to Shibuya and 31 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 1.1 m above sea level, and the ground within 800 m varies in height by 1.5 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits lower than the ground around it, at 1.1 m above sea level. Within 800 m the ground ranges from 0.7 m to 2.2 m, a difference of 1.5 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 1.1 m above sea level. Within 800 m the ground ranges from 0.7 m to 2.2 m, a difference of 1.5 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 9 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. All nine points within 400 m of the station fall inside the area too, and the deepest projection among them is 3 to 5 m. For storm surge, 9 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the large side for the 23 wards.",
   "groceries": [
     {
       "name": "三徳 南千住店",
       "tier": "standard",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/1990596297",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと 南千住7丁目店",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/10313896344",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "リブレ京成",
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/441689469",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "キリン堂",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/5208621597",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 20 clinics and 10 pharmacies. Facilities recorded as hospitals lie at 木村病院, about 933 m away and 台東病院, about 1308 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "3 lines serve the station: JR Joban Line, Tokyo Metro Hibiya Line and Tsukuba Express. The lines are split between operators (JR East runs 1 line, Tokyo Metro runs 1 line and Tsukuba Express runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 78.",
+  "medical": "Within an 800 m walk of the station there are 20 clinics and 10 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 木村病院, about 16 minutes' walk from the station. The next nearest is 台東病院, about 22 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "3 lines serve the station. JR Joban Line and Tokyo Metro Hibiya Line run through it. Tsukuba Express also call here. The lines are split between operators (JR East runs 1 line, Tokyo Metro runs 1 line and Tsukuba Express runs 1 line), so when one line stops you can change to a line run by a different company.",
+  "congestion": "Tokyo Metro Hibiya Line runs at 163% of capacity in the morning peak. The busiest stretch is 三ノ輪→入谷, which this station is not on. Tsukuba Express runs at 151%. Its busiest stretch is 青井→北千住, which this station is likewise not on. JR Joban Line runs at 142%. Its busiest stretch is 三河島→日暮里, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥90,000 to ¥100,000, 1K ¥100,000 to ¥110,000, 1LDK ¥160,000 to ¥170,000 and 2LDK ¥200,000 to ¥210,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥90,000 to ¥100,000 and 1K ¥100,000 to ¥110,000. 1LDK ¥160,000 to ¥170,000 and 2LDK ¥200,000 to ¥210,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is on the low side. 3 lines and a wide choice of connections pushes the figure up. On the other side, a large projected flood depth holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "minowabashi",
-      "note": "708 m away in a straight line. It takes 10 minutes longer to reach Otemachi than Minami-Senju."
+      "lead": "Minami-Senju is ahead on rail connections and how close the centre is. ",
+      "note": "Close enough to walk to from Minami-Senju. Minowabashi has only the Tokyo Sakura Tram (Toden Arakawa Line), so Minami-Senju is the better connected. To Tokyo, for instance, Minowabashi takes 21 minutes longer. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "minowa",
-      "note": "802 m away in a straight line. It reaches Otemachi in about the same time as Minami-Senju. One-room rents run about ¥8,000 higher."
+      "lead": "For safety, Minowa; for rail connections, Minami-Senju. ",
+      "note": "Close enough to walk to from Minami-Senju. Minowa has only the Tokyo Metro Hibiya Line, so Minami-Senju is the better connected. To Shinjuku, for instance, Minowa takes 3 minutes longer. A one-room flat also costs about ¥8,000 more at Minowa. On safety, though, Minowa comes out ahead."
     }
   ],
   "goodFor": [
@@ -71,5 +74,24 @@
   "notFor": [
     "People avoiding projected flood inundation areas"
   ],
+  "noiseSources": [
+    "山谷通り (a main road) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
+  ],
+  "tags": [
+    "floodArea",
+    "lateNight",
+    "flat",
+    "parkNear"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 10 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
+    "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are some of the most heavily loaded in the morning. ",
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
+  },
   "authoredBy": "data-generated"
 }

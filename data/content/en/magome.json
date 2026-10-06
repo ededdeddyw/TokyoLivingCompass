@@ -6,29 +6,30 @@
   "summary": "The station is in Ota City, served by Toei Asakusa Line. Journey times to the main business districts are 31 minutes to Otemachi, 32 minutes to Shinjuku, 23 minutes to Shibuya and 20 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 19.9 m above sea level, and the ground within 800 m varies in height by 16.3 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits on the higher side of the ground around it, at 19.9 m above sea level. Within 800 m the ground ranges from 10.4 m to 26.7 m, a difference of 16.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 19.9 m above sea level. Within 800 m the ground ranges from 10.4 m to 26.7 m, a difference of 16.3 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 1 of the nine points within 400 m fall inside the area, and the deepest projection there is less than 0.5 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
       "name": "まいばすけっと 馬込駅前店",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/2049076887",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ライフ 東馬込店",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/5727090273",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 16 clinics and 8 pharmacies. Facilities recorded as hospitals lie at おきの会旗の台病院, about 1425 m away and 昭和医科大学病院, about 1464 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Toei Asakusa Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 16 clinics and 8 pharmacies. Day-to-day care is available close to the station. The nearest hospital is おきの会旗の台病院, about 24 minutes' walk from the station. The next nearest is 昭和医科大学病院, about 24 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Toei Asakusa Line.",
+  "congestion": "Toei Asakusa Line runs at 123% of capacity in the morning peak. The busiest stretch is 本所吾妻橋→浅草, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥90,000 to ¥100,000, 1K ¥100,000 to ¥110,000, 1LDK ¥160,000 to ¥170,000 and 2LDK ¥200,000 to ¥210,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥90,000 to ¥100,000 and 1K ¥100,000 to ¥110,000. 1LDK ¥160,000 to ¥170,000 and 2LDK ¥200,000 to ¥210,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -37,15 +38,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. a small projected flood depth and schools and parks within walking distance pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "ebara-machi",
-      "note": "904 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Magome."
+      "lead": "For the number of medical facilities, Ebara-Machi; for how close the centre is, Magome. ",
+      "note": "Close enough to walk to from Magome. Ebara-Machi has the Tokyu Oimachi Line, a different set from Magome. To Toranomon, for instance, Ebara-Machi takes 4 minutes longer. On how easy the shopping is, Ebara-Machi comes out ahead."
     },
     {
       "slug": "nakanobu",
-      "note": "1041 m away in a straight line. It reaches Otemachi in about the same time as Magome. One-room rents run about ¥8,000 higher."
+      "lead": "For rail connections, Nakanobu; for lower rent, Magome. ",
+      "note": "About 1 km from Magome in a straight line. Nakanobu also has the Tokyu Oimachi Line, which Magome does not. With more lines, Nakanobu is the better connected of the two. To Shinagawa, for instance, Nakanobu is 5 minutes quicker. A one-room flat, though, costs about ¥8,000 more at Nakanobu."
     }
   ],
   "goodFor": [
@@ -56,5 +59,26 @@
     "People who want another route when service is suspended",
     "People who want plenty of places to eat out"
   ],
+  "noiseSources": [
+    "第二京浜 (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road",
+    "環七通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "goodValue",
+    "lowFlood",
+    "singleLine",
+    "familyFriendly",
+    "parkNear"
+  ],
+  "leads": {
+    "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
+    "groceries": "There are 6 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
+    "stationNote": "Only the Toei Asakusa Line serves this station, so when it stops you walk to another station.",
+    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
+  },
   "authoredBy": "data-generated"
 }

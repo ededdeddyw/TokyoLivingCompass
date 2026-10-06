@@ -3,22 +3,25 @@
   "locale": "en",
   "name": "Sakuradamon",
   "tagline": "Tokyo in 9 minutes and Otemachi in 9 minutes. Served by 1 line.",
-  "summary": "The station is in Chiyoda City, served by Tokyo Metro Yurakucho Line. Journey times to the main business districts are 9 minutes to Otemachi, 18 minutes to Shinjuku, 17 minutes to Shibuya and 19 minutes to Shinagawa. The station stands 8 m above sea level, and the ground within 800 m varies in height by 21.4 m. The land around the station rises and falls sharply.",
+  "summary": "The station is in Chiyoda City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 9 minutes to Otemachi, 18 minutes to Shinjuku, 17 minutes to Shibuya and 19 minutes to Shinagawa. The station stands 8 m above sea level, and the ground within 800 m varies in height by 21.4 m. The land around the station rises and falls sharply.",
   "terrain": {
     "slope": "hilly",
-    "note": "The station sits lower than the ground around it, at 8 m above sea level. Within 800 m the ground ranges from 4.6 m to 26 m, a difference of 21.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 8 m above sea level. Within 800 m the ground ranges from 4.6 m to 26 m, a difference of 21.4 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
-  "medical": "Within an 800 m walk of the station there are 3 clinics and 1 pharmacy. Facilities recorded as hospitals lie at 浩邦会日比谷病院, about 992 m away and 虎の門病院, about 1126 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Tokyo Metro Yurakucho Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 2 also fall inside the area, and the deepest projection is less than 0.5 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
+  "medical": "Within an 800 m walk of the station there are 3 clinics and 1 pharmacy. The nearest hospital is 浩邦会日比谷病院, about 17 minutes' walk from the station. The next nearest is 虎の門病院, about 19 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Metro Yurakucho Line.",
+  "congestion": "Tokyo Metro Yurakucho Line runs at 153% of capacity in the morning peak. The busiest stretch is 東池袋→護国寺, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "neighbours": [
     {
       "slug": "kasumigaseki",
-      "note": "400 m away in a straight line. It reaches Otemachi 4 minutes sooner than Sakuradamon."
+      "lead": "For rail connections, Kasumigaseki; for quiet, Sakuradamon. ",
+      "note": "Close enough to walk to from Sakuradamon. Kasumigaseki also has the Tokyo Metro Marunouchi Line, Tokyo Metro Hibiya Line and Tokyo Metro Chiyoda Line, which Sakuradamon does not. With more lines, Kasumigaseki is the better connected of the two. To Toranomon, for instance, Kasumigaseki is 9 minutes quicker. On quiet, though, Sakuradamon comes out ahead."
     },
     {
       "slug": "kokkai-gijidomae",
-      "note": "685 m away in a straight line. It reaches Otemachi 3 minutes sooner than Sakuradamon."
+      "lead": "For rail connections, Kokkai-Gijidomae; for safety, Sakuradamon. ",
+      "note": "Close enough to walk to from Sakuradamon. Kokkai-Gijidomae also has the Tokyo Metro Marunouchi Line and Tokyo Metro Chiyoda Line, which Sakuradamon does not. With more lines, Kokkai-Gijidomae is the better connected of the two. To Shinjuku, for instance, Kokkai-Gijidomae is 6 minutes quicker. On safety, though, Sakuradamon comes out ahead."
     }
   ],
   "goodFor": [
@@ -32,5 +35,24 @@
     "People who want to finish their shopping on foot",
     "People who want plenty of places to eat out"
   ],
+  "noiseSources": [
+    "The 首都高速都心環状線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
+    "内堀通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "lowFlood",
+    "fastToCenter",
+    "singleLine",
+    "hilly"
+  ],
+  "leads": {
+    "terrain": "The ground around the station rises and falls sharply, and living above or below the slope changes how much effort getting about takes.",
+    "groceries": "OpenStreetMap records no supermarket within walking distance of the station.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
+    "stationNote": "Only the Tokyo Metro Yurakucho Line serves this station, so when it stops you walk to another station.",
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
+  },
   "authoredBy": "data-generated"
 }

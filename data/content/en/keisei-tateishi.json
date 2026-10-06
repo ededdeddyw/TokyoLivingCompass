@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Keisei-Tateishi",
   "tagline": "Tokyo in 33 minutes and Otemachi in 33 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Katsushika City, served by Keisei Oshiage Line. Journey times to the main business districts are 33 minutes to Otemachi, 49 minutes to Shinjuku, 51 minutes to Shibuya and 46 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands -0.2 m above sea level, and the ground within 800 m varies in height by 3.4 m. The land around the station is close to level.",
+  "summary": "The station is in Katsushika City, where Keisei run 1 line between them. Journey times to the main business districts are 33 minutes to Otemachi, 49 minutes to Shinjuku, 51 minutes to Shibuya and 46 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands -0.2 m above sea level, and the ground within 800 m varies in height by 3.4 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits on the higher side of the ground around it, at -0.2 m above sea level. Within 800 m the ground ranges from -1.4 m to 2 m, a difference of 3.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at -0.2 m above sea level. Within 800 m the ground ranges from -1.4 m to 2 m, a difference of 3.4 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 5 to 10 m. For storm surge, 9 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. All nine points within 400 m of the station fall inside the area too, and the deepest projection among them is 5 to 10 m. For storm surge, 9 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the large side for the 23 wards.",
   "groceries": [
     {
       "name": "ヨークフーズ立石店",
       "tier": "standard",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/way/226847700",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/6045809990",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "サミット",
       "tier": "standard",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/6871040378",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "業務スーパー",
       "tier": "discount",
       "walkMinutes": 12,
       "sourceUrl": "https://www.openstreetmap.org/node/5728064920",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 23 clinics and 13 pharmacies. Facilities recorded as hospitals lie at 坂本病院, about 2085 m away and 道園会東京松永病院, about 2228 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Keisei Oshiage Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 23 clinics and 13 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 坂本病院, about 34 minutes' walk from the station. The next nearest is 道園会東京松永病院, about 37 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Keisei Oshiage Line.",
+  "congestion": "Keisei Oshiage Line runs at 157% of capacity in the morning peak. The busiest stretch is 京成曳舟→押上, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥70,000 to ¥80,000, 1K ¥80,000 to ¥90,000, 1LDK ¥120,000 to ¥130,000 and 2LDK ¥150,000 to ¥160,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥70,000 to ¥80,000 and 1K ¥80,000 to ¥90,000. 1LDK ¥120,000 to ¥130,000 and 2LDK ¥150,000 to ¥160,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What holds the figure down: a large projected flood depth and only one line, the {line}, serving the station. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "aoto",
-      "note": "1096 m away in a straight line. It reaches Otemachi in about the same time as Keisei-Tateishi."
+      "lead": "For rail connections, Aoto; for how close the centre is, Keisei-Tateishi. ",
+      "note": "About 1 km from Keisei-Tateishi in a straight line. Aoto also has the Keisei Main Line and Narita Sky Access Line, which Keisei-Tateishi does not. With more lines, Aoto is the better connected of the two. To Shinagawa, for instance, Aoto takes 3 minutes longer. On safety, though, Keisei-Tateishi comes out ahead."
     },
     {
       "slug": "ohanajaya",
-      "note": "1297 m away in a straight line. It reaches Otemachi in about the same time as Keisei-Tateishi."
+      "lead": "For how easy the shopping is, Ohanajaya; for how close the centre is, Keisei-Tateishi. ",
+      "note": "About 1.5 km from Keisei-Tateishi in a straight line. Ohanajaya has the Keisei Main Line, a different set from Keisei-Tateishi. To Toranomon, for instance, Ohanajaya takes 3 minutes longer. On how easy the shopping is, Ohanajaya comes out ahead."
     }
   ],
   "goodFor": [
@@ -69,8 +72,26 @@
   "notFor": [
     "People avoiding projected flood inundation areas",
     "People who want another route when service is suspended",
-    "People who want to finish their shopping on foot",
-    "People who want plenty of places to eat out"
+    "People who want to finish their shopping on foot"
   ],
+  "noiseSources": [
+    "奥戸街道 (1 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
+  ],
+  "tags": [
+    "floodArea",
+    "singleLine",
+    "lateNight",
+    "flat"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 4 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
+    "stationNote": "Only the Keisei Oshiage Line serves this station, so when it stops you walk to another station.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
+  },
   "authoredBy": "data-generated"
 }

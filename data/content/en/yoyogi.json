@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Yoyogi",
   "tagline": "Shinjuku in 2 minutes and Shibuya in 7 minutes. Served by 3 lines. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
-  "summary": "The station is in Shibuya City, served by JR Yamanote Line, JR Chuo-Sobu Line (Local) and Toei Oedo Line. Journey times to the main business districts are 23 minutes to Otemachi, 2 minutes to Shinjuku, 7 minutes to Shibuya and 31 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 35 m above sea level, and the ground within 800 m varies in height by 4.7 m. The land around the station is close to level.",
+  "summary": "The station is in Shibuya City, where JR East and the Tokyo Metropolitan Bureau of Transportation run 3 lines between them. Journey times to the main business districts are 23 minutes to Otemachi, 2 minutes to Shinjuku, 7 minutes to Shibuya and 31 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 35 m above sea level, and the ground within 800 m varies in height by 4.7 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits on the higher side of the ground around it, at 35 m above sea level. Within 800 m the ground ranges from 32 m to 36.7 m, a difference of 4.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 35 m above sea level. Within 800 m the ground ranges from 32 m to 36.7 m, a difference of 4.7 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 2 of the nine points within 400 m fall inside the area, and the deepest projection there is less than 0.5 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
       "name": "マルマンストア",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/4104461590",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと 代々木1丁目店",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/2504465816",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "MEGAドン・キホーテ",
       "tier": "standard",
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/node/6011377090",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ドン・キホーテUNY",
       "tier": "standard",
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/node/10992424505",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 4 clinics and 8 pharmacies. Facilities recorded as hospitals lie at 東海大学医学部付属東京病院, about 310 m away and JR東京総合病院, about 339 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "3 lines serve the station: JR Yamanote Line, JR Chuo-Sobu Line (Local) and Toei Oedo Line. The lines are split between operators (JR East runs 2 lines and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 73.",
+  "medical": "Within an 800 m walk of the station there are 4 clinics and 8 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 東海大学医学部付属東京病院, about 6 minutes' walk from the station. The next nearest is JR東京総合病院, about 6 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "3 lines serve the station. JR Yamanote Line run through it. JR Chuo-Sobu Line (Local) also call here. Toei Oedo Line are available too. The lines are split between operators (JR East runs 2 lines and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company.",
+  "congestion": "JR Chuo-Sobu Line (Local) runs at 151% of capacity in the morning peak. The busiest stretch is 錦糸町→両国, which this station is not on. Toei Oedo Line runs at 147%. Its busiest stretch is 中井→東中野, which this station is likewise not on. JR Yamanote Line runs at 136%. Its busiest stretch is 新大久保→新宿, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥130,000 to ¥140,000, 1K ¥140,000 to ¥150,000, 1LDK ¥230,000 to ¥240,000 and 2LDK ¥350,000 to ¥360,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥130,000 to ¥140,000 and 1K ¥140,000 to ¥150,000. 1LDK ¥230,000 to ¥240,000 and 2LDK ¥350,000 to ¥360,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What pushes the figure up: 3 lines and a wide choice of connections and a small projected flood depth. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "minami-shinjuku",
-      "note": "296 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Yoyogi. One-room rents run about ¥8,000 lower."
+      "lead": "For lower rent, Minami-Shinjuku; for rail connections, Yoyogi. ",
+      "note": "Close enough to walk to from Yoyogi. Minami-Shinjuku has only the Odakyu Odawara Line, so Yoyogi is the better connected. To Toranomon, for instance, Minami-Shinjuku takes 8 minutes longer. A one-room flat, though, costs about ¥8,000 less at Minami-Shinjuku."
     },
     {
       "slug": "kita-sando",
-      "note": "608 m away in a straight line. It reaches Otemachi in about the same time as Yoyogi. One-room rents run about ¥18,000 higher."
+      "lead": "Yoyogi is ahead on rail connections and how close the centre is. ",
+      "note": "Close enough to walk to from Yoyogi. Kita-Sando has only the Tokyo Metro Fukutoshin Line, so Yoyogi is the better connected. To Roppongi, for instance, Kita-Sando takes 16 minutes longer. A one-room flat also costs about ¥18,000 more at Kita-Sando."
     }
   ],
   "goodFor": [
@@ -70,5 +73,25 @@
   "notFor": [
     "The data does not show a drawback particular to this station"
   ],
+  "noiseSources": [
+    "The 首都高速4号新宿線 viaduct runs a short walk from the station. It is an expressway, so traffic is audible day and night",
+    "四谷角筈線 (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "lowFlood",
+    "fastToCenter",
+    "flat",
+    "cafeRich"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 6 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
+    "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
+  },
   "authoredBy": "data-generated"
 }

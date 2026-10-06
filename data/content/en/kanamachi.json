@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Kanamachi",
   "tagline": "Tokyo in 35 minutes and Otemachi in 39 minutes. Served by 2 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Katsushika City, served by JR Joban Line and Keisei Kanamachi Line. Journey times to the main business districts are 39 minutes to Otemachi, 50 minutes to Shinjuku, 59 minutes to Shibuya and 50 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 2.6 m above sea level, and the ground within 800 m varies in height by 2.6 m. The land around the station is close to level.",
+  "summary": "The station is in Katsushika City, where JR East and Keisei run 2 lines between them. Journey times to the main business districts are 39 minutes to Otemachi, 50 minutes to Shinjuku, 59 minutes to Shibuya and 50 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 2.6 m above sea level, and the ground within 800 m varies in height by 2.6 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits on the higher side of the ground around it, at 2.6 m above sea level. Within 800 m the ground ranges from 1.3 m to 3.9 m, a difference of 2.6 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 2.6 m above sea level. Within 800 m the ground ranges from 1.3 m to 3.9 m, a difference of 2.6 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 9 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. All nine points within 400 m of the station fall inside the area too, and the deepest projection among them is 3 to 5 m. For storm surge, 9 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the large side for the 23 wards.",
   "groceries": [
     {
       "name": "マルエツ",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/2014328456",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "東急ストア",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/5702024560",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/12022828583",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ヨークフーズ",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/13130922633",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 18 clinics and 15 pharmacies. Facilities recorded as hospitals lie at 第一病院, about 641 m away and 一秀会葛飾橋病院, about 1731 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "2 lines serve the station: JR Joban Line and Keisei Kanamachi Line. The lines are split between operators (JR East runs 1 line and Keisei runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "medical": "Within an 800 m walk of the station there are 18 clinics and 15 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 第一病院, about 11 minutes' walk from the station. The next nearest is 一秀会葛飾橋病院, about 29 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: JR Joban Line and Keisei Kanamachi Line. The lines are split between operators (JR East runs 1 line and Keisei runs 1 line), so when one line stops you can change to a line run by a different company.",
+  "congestion": "JR Joban Line runs at 142% of capacity in the morning peak. The busiest stretch is 三河島→日暮里, which this station is not on. Keisei Kanamachi Line is not covered by the ministry's congestion survey. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥70,000 to ¥80,000, 1K ¥80,000 to ¥90,000, 1LDK ¥100,000 to ¥110,000 and 2LDK ¥140,000 to ¥150,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥70,000 to ¥80,000 and 1K ¥80,000 to ¥90,000. 1LDK ¥100,000 to ¥110,000 and 2LDK ¥140,000 to ¥150,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. schools and parks within walking distance pushes the figure up. On the other side, a large projected flood depth holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "shibamata",
-      "note": "1476 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Kanamachi."
+      "lead": "For safety, Shibamata; for rail connections, Kanamachi. ",
+      "note": "About 1.5 km from Kanamachi in a straight line. Shibamata has only the Keisei Kanamachi Line, so Kanamachi is the better connected. To Tokyo, for instance, Shibamata takes 9 minutes longer. On safety, though, Shibamata comes out ahead."
     },
     {
       "slug": "keisei-takasago",
-      "note": "2037 m away in a straight line. It reaches Otemachi in about the same time as Kanamachi."
+      "lead": "For rail connections, Keisei-Takasago; for how close the centre is, Kanamachi. ",
+      "note": "About 2 km from Kanamachi in a straight line. Keisei-Takasago has 4 lines that Kanamachi does not. With more lines, Keisei-Takasago is the better connected of the two. To Tokyo, for instance, Keisei-Takasago takes 3 minutes longer. On the number of medical facilities, though, Kanamachi comes out ahead."
     }
   ],
   "goodFor": [
@@ -69,5 +72,25 @@
   "notFor": [
     "People avoiding projected flood inundation areas"
   ],
+  "noiseSources": [
+    "The nearest big road, 水戸街道, is far enough that little traffic noise reaches the station area",
+    "The nearest big road, 柴又街道, is far enough that little traffic noise reaches the station area"
+  ],
+  "tags": [
+    "floodArea",
+    "familyFriendly",
+    "flat",
+    "medicalRich"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 7 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
+    "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
+  },
   "authoredBy": "data-generated"
 }

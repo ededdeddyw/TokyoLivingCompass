@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Awajicho",
   "tagline": "Otemachi in 10 minutes and Tokyo in 13 minutes. Served by 2 lines. A one-room flat rents for roughly ¥150,000 to ¥160,000.",
-  "summary": "The station is in Chiyoda City, served by Tokyo Metro Marunouchi Line and Toei Shinjuku Line. Journey times to the main business districts are 10 minutes to Otemachi, 15 minutes to Shinjuku, 23 minutes to Shibuya and 28 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 4.7 m above sea level, and the ground within 800 m varies in height by 10.7 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Chiyoda City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 10 minutes to Otemachi, 15 minutes to Shinjuku, 23 minutes to Shibuya and 28 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 4.7 m above sea level, and the ground within 800 m varies in height by 10.7 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits lower than the ground around it, at 4.7 m above sea level. Within 800 m the ground ranges from 3 m to 13.7 m, a difference of 10.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 4.7 m above sea level. Within 800 m the ground ranges from 3 m to 13.7 m, a difference of 10.7 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 5 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 1 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 5 also fall inside the area, and the deepest projection is 0.5 to 3 m. For storm surge, 1 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "オリンピック",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/2410482146",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マルエツプチ",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/2130328791",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/12087614656",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "成城石井",
       "tier": "premium",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/4315444329",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 63 clinics and 49 pharmacies. Facilities recorded as hospitals lie at 神尾記念病院, about 185 m away and 名倉クリニック, about 250 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "2 lines serve the station: Tokyo Metro Marunouchi Line and Toei Shinjuku Line. The lines are split between operators (Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "medical": "Within an 800 m walk of the station there are 63 clinics and 49 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 神尾記念病院, about 4 minutes' walk from the station. The next nearest is 名倉クリニック, about 5 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station. Tokyo Metro Marunouchi Line run through it. Toei Shinjuku Line also call here. The lines are split between operators (Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company.",
+  "congestion": "Tokyo Metro Marunouchi Line runs at 154% of capacity in the morning peak. The busiest stretch is 新大塚→茗荷谷, which this station is not on. Toei Shinjuku Line runs at 152%. Its busiest stretch is 西大島→住吉, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥150,000 to ¥160,000, 1K ¥140,000 to ¥150,000, 1LDK ¥230,000 to ¥240,000 and 2LDK ¥300,000 to ¥310,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥150,000 to ¥160,000 and 1K ¥140,000 to ¥150,000. 1LDK ¥230,000 to ¥240,000 and 2LDK ¥300,000 to ¥310,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥150,000 to ¥160,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥150,000 to ¥160,000. Set against how long it takes to reach the central business districts, that is on the high side. plenty of places to eat out pushes the figure up. On the other side, many bars by the station and voices outside late at night holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "ochanomizu",
-      "note": "399 m away in a straight line. It reaches Otemachi 6 minutes sooner than Awajicho. One-room rents run about ¥14,000 lower."
+      "lead": "Ochanomizu is ahead on rail connections and how close the centre is. ",
+      "note": "Close enough to walk to from Awajicho. Ochanomizu also has the JR Chuo Rapid Line, JR Chuo-Sobu Line (Local) and Tokyo Metro Chiyoda Line, which Awajicho does not. With more lines, Ochanomizu is the better connected of the two. To Shinagawa, for instance, Ochanomizu is 9 minutes quicker. A one-room flat also costs about ¥14,000 less at Ochanomizu."
     },
     {
       "slug": "kanda",
-      "note": "501 m away in a straight line. It reaches Otemachi in about the same time as Awajicho."
+      "lead": "Kanda is ahead on rail connections and how close the centre is. ",
+      "note": "Close enough to walk to from Awajicho. Kanda has 4 lines that Awajicho does not. With more lines, Kanda is the better connected of the two. To Shinagawa, for instance, Kanda is 11 minutes quicker. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -71,5 +74,27 @@
     "People avoiding projected flood inundation areas",
     "People who want to hold the rent down"
   ],
+  "noiseSources": [
+    "靖国通り (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road",
+    "外堀通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "someBustle",
+    "pricey",
+    "singleFriendly",
+    "shoppingEasy",
+    "diningRich",
+    "lateNight"
+  ],
+  "leads": {
+    "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
+    "groceries": "There are 14 supermarkets within walking distance, and the nearest is 4 minutes on foot.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
+    "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
+    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
+  },
   "authoredBy": "data-generated"
 }

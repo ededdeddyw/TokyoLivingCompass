@@ -3,32 +3,33 @@
   "locale": "en",
   "name": "Honancho",
   "tagline": "Shinjuku in 33 minutes and Shibuya in 42 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Suginami City, served by Tokyo Metro Marunouchi Line. Journey times to the main business districts are 52 minutes to Otemachi, 33 minutes to Shinjuku, 42 minutes to Shibuya and 63 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 40 m above sea level, and the ground within 800 m varies in height by 8.5 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Suginami City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 52 minutes to Otemachi, 33 minutes to Shinjuku, 42 minutes to Shibuya and 63 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 40 m above sea level, and the ground within 800 m varies in height by 8.5 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits on the higher side of the ground around it, at 40 m above sea level. Within 800 m the ground ranges from 31.5 m to 40 m, a difference of 8.5 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 40 m above sea level. Within 800 m the ground ranges from 31.5 m to 40 m, a difference of 8.5 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 7 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 7 of the nine points within 400 m fall inside the area, and the deepest projection there is 0.5 to 3 m. On the whole, the flood projection here is about average for the 23 wards.",
   "groceries": [
     {
       "name": "サミット 和泉店",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/476572208",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "肉のハマナサ",
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/2425383325",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 9 clinics and 7 pharmacies. Facilities recorded as hospitals lie at 河北リハビリテーション病院, about 505 m away and 杏林大学医学部付属杉並病院, about 719 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Tokyo Metro Marunouchi Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 9 clinics and 7 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 河北リハビリテーション病院, about 9 minutes' walk from the station. The next nearest is 杏林大学医学部付属杉並病院, about 12 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Metro Marunouchi Line.",
+  "congestion": "Tokyo Metro Marunouchi Line runs at 154% of capacity in the morning peak. The busiest stretch is 新大塚→茗荷谷, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥80,000 to ¥90,000, 1K ¥100,000 to ¥110,000, 1LDK ¥160,000 to ¥170,000 and 2LDK ¥220,000 to ¥230,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥80,000 to ¥90,000 and 1K ¥100,000 to ¥110,000. 1LDK ¥160,000 to ¥170,000 and 2LDK ¥220,000 to ¥230,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -37,15 +38,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is among the highest in the 23 wards. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "nakano-fujimicho",
-      "note": "1223 m away in a straight line. It reaches Otemachi in about the same time as Honancho. One-room rents run about ¥6,000 higher."
+      "lead": "For how close the centre is, Nakano-Fujimicho; for lower rent, Honancho. ",
+      "note": "About 1 km from Honancho in a straight line. It is served by the same lines as Honancho. To Toranomon, for instance, Nakano-Fujimicho is 3 minutes quicker. A one-room flat costs about ¥6,000 more at Nakano-Fujimicho. On how little of the area is in the flood projection, Nakano-Fujimicho comes out ahead."
     },
     {
       "slug": "daitabashi",
-      "note": "1404 m away in a straight line. It reaches Otemachi 19 minutes sooner than Honancho."
+      "lead": "For how close the centre is, Daitabashi; for safety, Honancho. ",
+      "note": "About 1.5 km from Honancho in a straight line. Daitabashi has the Keio Line, a different set from Honancho. To Shinjuku, for instance, Daitabashi is 25 minutes quicker. On how little of the area is in the flood projection, Daitabashi comes out ahead."
     }
   ],
   "goodFor": [
@@ -54,8 +57,26 @@
   ],
   "notFor": [
     "People who want another route when service is suspended",
-    "People who want to finish their shopping on foot",
-    "People who want plenty of places to eat out"
+    "People who want to finish their shopping on foot"
   ],
+  "noiseSources": [
+    "方南通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "pricey",
+    "singleLine",
+    "parkNear",
+    "medicalRich"
+  ],
+  "leads": {
+    "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
+    "groceries": "There are 4 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
+    "stationNote": "Only the Tokyo Metro Marunouchi Line serves this station, so when it stops you walk to another station.",
+    "rentRange": "Set against how long the commute takes, rents here are among the highest in the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
+  },
   "authoredBy": "data-generated"
 }

@@ -53,7 +53,32 @@ COINED = [
     "ほうが開いている", "夜が長い", "流れが速い", "空気が違う",
     "濃く残", "機能している", "成立している", "削られる",
     "音を拾う", "体感が", "選択肢は地図上",
+    # 人の増減を、人を液体や物のように扱う語で書いたもの（ルール36・37）。
+    # 「人で埋まる」「人が引く」は人間が普段使わない。
+    # 何人が、どこから来て、どうなるのかを書く。
+    "人が引く", "人が引い", "客が引く", "人波", "人が流れ込",
+    "人が吸い込まれ", "人が消える", "熱気", "活気に満ち",
 ]
+
+# ルール36: 場所や店が「人で埋まる」とは書かない。
+# 席が空かない、列ができる、通りを歩くのが遅くなる、のように、
+# 読み手が目で見て確かめられる形にする。
+FILLED = re.compile(r"[人客]で[^。]{0,20}(?:埋ま|あふれ|満ち)")
+
+# ルール39: 「評価が分かれる」で終わると、読み手は自分がどちらなのか分からない。
+# どちらの人がどちらを選ぶのかまで書く。
+SPLIT_VERDICT = re.compile(r"(?:評価|判断|意見|好み)が分かれる")
+
+# ルール43: 1文の長さ。いまの本文は中央値28字、95%が52字以内なので、
+# 60字を超えたら詰め込みすぎを疑う。数字や固有名詞が並ぶ文は長くても読めるので、
+# 違反ではなく要確認として出す。
+LONG_SENTENCE = 60
+# ルール45: 何の浸水なのかが書かれていない形。
+BARE_FLOOD = re.compile(r"(?<!大雨のときの)浸水の想定(?!区域)")
+# ルール44: 上下どちらの列車の話なのかが書かれていない形。
+ONE_WAY = re.compile(r"[^。]*方[向面]から来る[^。]*。")
+MD_LINK = re.compile(r"\[([^\]]*)\]\([^)]*\)")
+INLINE_CODE = re.compile(r"`[^`]*`")
 
 # ルール27: 不都合を抽象的な動詞で圧縮した表現。
 # 「生活が滞る」と書かれても、通勤が遅れるのか買い物に行けないのかが読み手に伝わらない。
@@ -117,13 +142,18 @@ AREA_BARE = re.compile(
 )
 
 # ルール3: 文末の調子。「ですます調」と「である調」の混在を見る。
-POLITE_END = re.compile(r"(です|ます|ました|ません|でしょう)[。！？]")
-PLAIN_END = re.compile(r"(である|だった|した|ない|いる|なる|れる|られる)[。！？]")
+# ルール3: 駅ページの日本語はですます調で書く（ルール47）。
+# 「ませんでした」「でした」も丁寧体なので、である調と数え違えないようにする。
+POLITE_END = re.compile(
+    r"(です|ます|ました|ません|ませんでした|でした|でしょう|ください|ましょう)[。！？]")
+PLAIN_END = re.compile(r"(である|だった|した|ない|いる|なる|れる|られる|だ)[。！？]")
 
 # ルール22: 同じ述語の連発。
+# ですます調に直したので、丁寧体の言い回しで数える（ルール47）。
 REPEATED_ENDINGS = [
-    "たほうがいい", "確認したい", "必要がある", "ことになる",
-    "とみてよい", "しておきたい", "が多い", "が分かれる",
+    "たほうがよいでしょう", "確認してください", "必要があります", "ことになります",
+    "とみてよいでしょう", "ておいてください", "たいところです", "が多いです",
+    "が分かれます",
 ]
 
 # 検査しないキー（slug や locale など、日本語の文章ではないもの）。
@@ -193,6 +223,38 @@ def check_text(label, path, text, findings, taigen=True, claims=True):
             add("18", f"比喩・独自ワード: 「{word}」。何がどうなるのかを書く")
             break
 
+    # ルール43: 1文が長すぎないか。
+    # 改行でも区切る。見出し・表・箇条書きは1文ではないので外す。
+    for sentence in re.split(r"(?<=。)|\n", text):
+        sentence = sentence.strip()
+        if not sentence.endswith("。") or sentence.startswith(("#", "|", "-", "*", ">")):
+            continue
+        # リンク先のURL・ファイル名・コードは、読み手が文として読む部分ではない。
+        # 長さを測るときは外す。
+        sentence = MD_LINK.sub(r"\1", sentence)
+        sentence = INLINE_CODE.sub("", sentence)
+        if len(sentence) > LONG_SENTENCE:
+            add("43", f"1文が{len(sentence)}字ある: 「{sentence[:28]}…」。句点で区切れないか", "要確認")
+            break
+
+    for m in BARE_FLOOD.finditer(text):
+        add("45", "何の浸水か書かれていない: 「浸水の想定」。「大雨のときの浸水の想定」と書く")
+        break
+
+    for m in ONE_WAY.finditer(text):
+        add("44", f"どちらへ向かう列車の話か書かれていない: 「{m.group()[:30]}…」。"
+                  "上下どちらにも列車は走っている")
+        break
+
+    for m in SPLIT_VERDICT.finditer(text):
+        add("39", f"どちらの人がどちらを選ぶのかが書かれていない: 「{m.group()}」", "要確認")
+        break
+
+    for m in FILLED.finditer(text):
+        add("36", f"人の増減を物の量のように書いている: 「{m.group()}」。"
+                  "席が空かない・列ができる、のように目で見て確かめられる形にする")
+        break
+
     for word, opened in ABBREVIATIONS.items():
         if re.search(re.escape(word) + r"(?!品|食品|市場)", text):
             add("31", f"略語: 「{word}」。「{opened}」と開いて書く")
@@ -222,14 +284,29 @@ def check_text(label, path, text, findings, taigen=True, claims=True):
                   f"比較や範囲の基準なら「{m.group(1)}エリア」と書く")
         break
 
+    # ルール46: 駅から施設までの距離のメートル表記。
+    # どこから測った値なのかが読み手に伝わらず、細かい数字も求められていない。
+    # 「駅から歩いて800m以内に」のように起点が書いてあるもの、
+    # 標高や建物の長さのように距離ではないものは対象外にする。
+    for m in re.finditer(r"(\d{1,4})m(先|ほど|の距離|離れ)", text):
+        head = text[max(0, m.start() - 12):m.start()]
+        if "標高" in head or "全長" in head or "高低差" in head or "標高差" in head:
+            continue
+        add("46", f"駅からの距離をメートルで書いている: 「{m.group(0)}」。"
+                  f"徒歩分数か「駅のすぐそば」で書く")
+        break
+
     # ルール26: 名詞の「抜け」。「抜ける」「抜け道」などの動詞・複合語は別語なので除く。
-    if re.search(r"抜け(?!漏れ|る|た|て|ず|ない|道|穴|殻|出)", text):
+    if re.search(r"抜け(?!漏れ|る|ま|た|て|ず|ない|道|穴|殻|出)", text):
         add("26", "名詞の「抜け」。常に「抜け漏れ」と書く")
 
     # ルール3: 同一フィールド内での文末の混在
     ss = sentences(text)
+    # 「なりました。」は POLITE_END にも PLAIN_END（した）にも当たる。
+    # 丁寧体を先に判定し、当たった文はである調として数えない。
     polite = sum(1 for s in ss if POLITE_END.search(s))
-    plain = sum(1 for s in ss if PLAIN_END.search(s))
+    plain = sum(1 for s in ss
+                if not POLITE_END.search(s) and PLAIN_END.search(s))
     if polite > 0 and plain > 0:
         add("3", f"文末の混在: ですます調 {polite}文 / である調 {plain}文")
 

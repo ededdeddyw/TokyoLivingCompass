@@ -3,32 +3,33 @@
   "locale": "en",
   "name": "Tenkubashi",
   "tagline": "Shinagawa in 31 minutes and Tokyo in 35 minutes. Served by 2 lines. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Ota City, served by Keikyu Airport Line and Tokyo Monorail. Journey times to the main business districts are 40 minutes to Otemachi, 49 minutes to Shinjuku, 44 minutes to Shibuya and 31 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 3.1 m above sea level, and the ground within 800 m varies in height by 2.4 m. The land around the station is close to level.",
+  "summary": "The station is in Ota City, where Keikyu and Tokyo Monorail run 2 lines between them. Journey times to the main business districts are 40 minutes to Otemachi, 49 minutes to Shinjuku, 44 minutes to Shibuya and 31 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 3.1 m above sea level, and the ground within 800 m varies in height by 2.4 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits on the higher side of the ground around it, at 3.1 m above sea level. Within 800 m the ground ranges from 1 m to 3.4 m, a difference of 2.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 3.1 m above sea level. Within 800 m the ground ranges from 1 m to 3.4 m, a difference of 2.4 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 8 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 8 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 8 also fall inside the area, and the deepest projection is 0.5 to 3 m. For storm surge, 8 of the nine points also fall inside the projected area. On the whole, the flood projection here is about average for the 23 wards.",
   "groceries": [
     {
       "name": "フジ 羽田店",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/3382217057",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと 穴守稲荷店",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/13481160038",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 5 clinics and 3 pharmacies. Facilities recorded as hospitals lie at 渡辺病院, about 1231 m away and 高野病院, about 1256 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "2 lines serve the station: Keikyu Airport Line and Tokyo Monorail. The lines are split between operators (Keikyu runs 1 line and Tokyo Monorail runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 3 pharmacies. The nearest hospital is 渡辺病院, about 21 minutes' walk from the station. The next nearest is 高野病院, about 21 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Keikyu Airport Line and Tokyo Monorail. The lines are split between operators (Keikyu runs 1 line and Tokyo Monorail runs 1 line), so when one line stops you can change to a line run by a different company.",
+  "congestion": "The ministry's congestion survey does not publish figures for Keikyu Airport Line and Tokyo Monorail. It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
-    "note": "One room ¥80,000 to ¥90,000, 1K ¥100,000 to ¥110,000, 1LDK ¥130,000 to ¥140,000 and 2LDK ¥180,000 to ¥190,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥80,000 to ¥90,000 and 1K ¥100,000 to ¥110,000. 1LDK ¥130,000 to ¥140,000 and 2LDK ¥180,000 to ¥190,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -37,15 +38,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000.",
+  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is on the high side. quiet surroundings pushes the figure up. On the other side, little daily shopping within walking distance holds it down.",
   "neighbours": [
     {
       "slug": "seibijo",
-      "note": "695 m away in a straight line. It reaches Otemachi in about the same time as Tenkubashi."
+      "lead": "Tenkubashi is ahead on rail connections and how close the centre is. ",
+      "note": "Close enough to walk to from Tenkubashi. Seibijo has only the Tokyo Monorail, so Tenkubashi is the better connected. To Shinagawa, for instance, Seibijo takes 3 minutes longer. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "anamori-inari",
-      "note": "701 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Tenkubashi. One-room rents run about ¥6,000 higher."
+      "lead": "For the number of medical facilities, Anamori-Inari; for rail connections, Tenkubashi. ",
+      "note": "Close enough to walk to from Tenkubashi. Anamori-Inari has only the Keikyu Airport Line, so Tenkubashi is the better connected. To Toranomon, for instance, Anamori-Inari takes 7 minutes longer. A one-room flat also costs about ¥6,000 more at Anamori-Inari. On the number of places to eat out, though, Anamori-Inari comes out ahead."
     }
   ],
   "goodFor": [
@@ -57,5 +60,22 @@
     "People who want to finish their shopping on foot",
     "People who want plenty of places to eat out"
   ],
+  "noiseSources": [
+    "環八通り (3 lanes each way) runs just outside the station. Traffic on it never stops",
+    "環八通り (2 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
+  ],
+  "tags": [
+    "quiet",
+    "flat"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 2 supermarkets within walking distance, and the nearest is 10 minutes on foot.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
+    "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
+  },
   "authoredBy": "data-generated"
 }

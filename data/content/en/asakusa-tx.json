@@ -1,48 +1,49 @@
 {
   "slug": "asakusa-tx",
   "locale": "en",
-  "name": "Asakusa",
+  "name": "Asakusa (Tsukuba Express)",
   "tagline": "Tokyo in 13 minutes and Otemachi in 19 minutes. Served by 1 line. A one-room flat rents for roughly ¥110,000 to ¥120,000.",
   "summary": "The station is in Taito City, served by Tsukuba Express. Journey times to the main business districts are 19 minutes to Otemachi, 27 minutes to Shinjuku, 37 minutes to Shibuya and 28 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 1.9 m above sea level, and the ground within 800 m varies in height by 2.2 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits lower than the ground around it, at 1.9 m above sea level. Within 800 m the ground ranges from 1.6 m to 3.8 m, a difference of 2.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 1.9 m above sea level. Within 800 m the ground ranges from 1.6 m to 3.8 m, a difference of 2.2 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 7 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. All nine points within 400 m of the station fall inside the area too, and the deepest projection among them is 3 to 5 m. For storm surge, 7 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the large side for the 23 wards.",
   "groceries": [
     {
       "name": "Sanpei Store",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/1931813558",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "西友 浅草ROX店",
       "tier": "discount",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/1148820976",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "オーケーストア 浅草店",
       "tier": "discount",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/13476958977",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ライフ",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/1931798073",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 10 clinics and 28 pharmacies. Facilities recorded as hospitals lie at 浅草寺病院, about 445 m away and 台東病院, about 995 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Tsukuba Express. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 10 clinics and 28 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 浅草寺病院, about 8 minutes' walk from the station. The next nearest is 台東病院, about 17 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tsukuba Express.",
+  "congestion": "Tsukuba Express runs at 151% of capacity in the morning peak. The busiest stretch is 青井→北千住, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥110,000 to ¥120,000, 1K ¥120,000 to ¥130,000, 1LDK ¥180,000 to ¥190,000 and 2LDK ¥230,000 to ¥240,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥110,000 to ¥120,000 and 1K ¥120,000 to ¥130,000. 1LDK ¥180,000 to ¥190,000 and 2LDK ¥230,000 to ¥240,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥110,000 to ¥120,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥110,000 to ¥120,000. Set against how long it takes to reach the central business districts, that is on the low side. plenty of places to eat out pushes the figure up. On the other side, a large projected flood depth and only one line, the {line}, serving the station holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "tawaramachi",
-      "note": "456 m away in a straight line. It reaches Otemachi in about the same time as Asakusa. One-room rents run about ¥10,000 higher."
+      "lead": "For how close the centre is, Tawaramachi; for lower rent, Asakusa (Tsukuba Express). ",
+      "note": "Close enough to walk to from Asakusa (Tsukuba Express). Tawaramachi has the Tokyo Metro Ginza Line, a different set from Asakusa (Tsukuba Express). To Shibuya, for instance, Tawaramachi is 4 minutes quicker. A one-room flat costs about ¥10,000 more at Tawaramachi."
     },
     {
       "slug": "asakusa",
-      "note": "584 m away in a straight line. It reaches Otemachi in about the same time as Asakusa."
+      "lead": "For rail connections, Asakusa; for how easy the shopping is, Asakusa (Tsukuba Express). ",
+      "note": "Close enough to walk to from Asakusa (Tsukuba Express). Asakusa also has the Tobu Skytree Line, Tokyo Metro Ginza Line and Toei Asakusa Line, which Asakusa (Tsukuba Express) does not. With more lines, Asakusa is the better connected of the two. Journey times to the main business districts are much the same. On how easy the shopping is, though, Asakusa (Tsukuba Express) comes out ahead."
     }
   ],
   "goodFor": [
@@ -71,5 +74,26 @@
     "People avoiding projected flood inundation areas",
     "People who want another route when service is suspended"
   ],
+  "noiseSources": [
+    "国際通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "majorHub",
+    "floodArea",
+    "singleLine",
+    "singleFriendly",
+    "shoppingEasy",
+    "diningRich"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 17 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
+    "stationNote": "Only the Tsukuba Express serves this station, so when it stops you walk to another station.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
+  },
   "authoredBy": "data-generated"
 }

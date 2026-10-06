@@ -6,13 +6,14 @@
   "summary": "The station is in Edogawa City, served by JR Keiyo Line. Journey times to the main business districts are 24 minutes to Otemachi, 38 minutes to Shinjuku, 45 minutes to Shibuya and 32 minutes to Shinagawa. A one-room flat rents for roughly ¥60,000 to ¥70,000. The station stands 4.6 m above sea level, and the ground within 800 m varies in height by 7.6 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits lower than the ground around it, at 4.6 m above sea level. Within 800 m the ground ranges from 2.8 m to 10.4 m, a difference of 7.6 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 4.6 m above sea level. Within 800 m the ground ranges from 2.8 m to 10.4 m, a difference of 7.6 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
-  "medical": "Within an 800 m walk of the station, OpenStreetMap records neither a clinic nor a pharmacy. Facilities recorded as hospitals lie at 東京臨海病院, about 1138 m away and 東京脳神経センター病院, about 1943 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: JR Keiyo Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. On the whole, the flood projection here is among the smallest in the 23 wards.",
+  "medical": "Within an 800 m walk of the station, OpenStreetMap records neither a clinic nor a pharmacy. The nearest hospital is 東京臨海病院, about 19 minutes' walk from the station. The next nearest is 東京脳神経センター病院, about 32 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: JR Keiyo Line.",
+  "congestion": "JR Keiyo Line runs at 123% of capacity in the morning peak. The busiest stretch of the line is 葛西臨海公園→新木場, which includes this station. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥60,000 to ¥70,000, 1K ¥70,000 to ¥80,000, 1LDK ¥130,000 to ¥140,000 and 2LDK ¥170,000 to ¥180,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥60,000 to ¥70,000 and 1K ¥70,000 to ¥80,000. 1LDK ¥130,000 to ¥140,000 and 2LDK ¥170,000 to ¥180,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -21,15 +22,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥60,000 to ¥70,000. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥60,000 to ¥70,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "nishi-kasai",
-      "note": "2259 m away in a straight line. It reaches Otemachi 3 minutes sooner than Kasairinkaikoen. One-room rents run about ¥8,000 higher."
+      "lead": "For the number of medical facilities, Nishi-Kasai; for how close the centre is, Kasairinkaikoen. ",
+      "note": "About 2.5 km from Kasairinkaikoen in a straight line. Nishi-Kasai has the Tokyo Metro Tozai Line, a different set from Kasairinkaikoen. To Tokyo, for instance, Nishi-Kasai takes 9 minutes longer. A one-room flat costs about ¥8,000 more at Nishi-Kasai. On how easy the shopping is, Nishi-Kasai comes out ahead."
     },
     {
       "slug": "kasai",
-      "note": "2348 m away in a straight line. It reaches Otemachi in about the same time as Kasairinkaikoen."
+      "lead": "For the number of medical facilities, Kasai; for how close the centre is, Kasairinkaikoen. ",
+      "note": "About 2.5 km from Kasairinkaikoen in a straight line. Kasai has the Tokyo Metro Tozai Line, a different set from Kasairinkaikoen. To Tokyo, for instance, Kasai takes 12 minutes longer. On how easy the shopping is, Kasai comes out ahead."
     }
   ],
   "goodFor": [
@@ -42,5 +45,25 @@
     "People who want to finish their shopping on foot",
     "People who want plenty of places to eat out"
   ],
+  "noiseSources": [
+    "The 首都高速湾岸線 viaduct runs right beside the station. It is an expressway, so traffic is audible day and night",
+    "東京湾岸道路 (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "goodValue",
+    "lowFlood",
+    "singleLine",
+    "flat"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "OpenStreetMap records no supermarket within walking distance of the station.",
+    "hazards": "Neither the station nor the ground around it falls inside the projected flood area.",
+    "stationNote": "Only the JR Keiyo Line serves this station, so when it stops you walk to another station.",
+    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
+  },
   "authoredBy": "data-generated"
 }

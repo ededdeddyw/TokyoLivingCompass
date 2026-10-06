@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Akabane",
   "tagline": "Shinjuku in 15 minutes and Shibuya in 20 minutes. Served by 5 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Kita City, served by JR Utsunomiya Line, JR Saikyo Line, JR Takasaki Line, JR Keihin-Tohoku Line and JR Shonan-Shinjuku Line. Journey times to the main business districts are 31 minutes to Otemachi, 15 minutes to Shinjuku, 20 minutes to Shibuya and 41 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 5.5 m above sea level, and the ground within 800 m varies in height by 17.7 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Kita City, where JR East run 5 lines between them. Journey times to the main business districts are 31 minutes to Otemachi, 15 minutes to Shinjuku, 20 minutes to Shibuya and 41 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 5.5 m above sea level, and the ground within 800 m varies in height by 17.7 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits lower than the ground around it, at 5.5 m above sea level. Within 800 m the ground ranges from 3.1 m to 20.8 m, a difference of 17.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 5.5 m above sea level. Within 800 m the ground ranges from 3.1 m to 20.8 m, a difference of 17.7 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 6 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 3 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 6 also fall inside the area, and the deepest projection is 3 to 5 m. For storm surge, 3 of the nine points also fall inside the projected area. On the whole, the flood projection here is about average for the 23 wards.",
   "groceries": [
     {
       "name": "アピレ",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/1783452087",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ビビオ",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/1783452083",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "イトーヨーカドー",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/1405245954",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "フジ",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/2558170380",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 19 clinics and 19 pharmacies. Facilities recorded as hospitals lie at 東京北医療センター, about 1057 m away and 板橋中央総合病院, about 2189 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "5 lines serve the station: JR Utsunomiya Line, JR Saikyo Line, JR Takasaki Line, JR Keihin-Tohoku Line and JR Shonan-Shinjuku Line. All 5 lines are run by JR East, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 88.",
+  "medical": "Within an 800 m walk of the station there are 19 clinics and 19 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 東京北医療センター, about 18 minutes' walk from the station. The next nearest is 板橋中央総合病院, about 36 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "5 lines serve the station. JR Utsunomiya Line and JR Saikyo Line run through it. JR Takasaki Line and JR Keihin-Tohoku Line also call here. JR Shonan-Shinjuku Line are available too. All 5 lines are run by JR East, so a fault affecting that company can stop them together.",
+  "congestion": "JR Saikyo Line runs at 167% of capacity in the morning peak. The busiest stretch is 板橋→池袋, which this station is not on. JR Keihin-Tohoku Line runs at 159%. Its busiest stretch is 大井町→品川, which this station is likewise not on. JR Takasaki Line runs at 131%. Its busiest stretch is 宮原→大宮, which this station is likewise not on. JR Shonan-Shinjuku Line is not covered by the ministry's congestion survey. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥70,000 to ¥80,000, 1K ¥90,000 to ¥100,000, 1LDK ¥150,000 to ¥160,000 and 2LDK ¥200,000 to ¥210,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥70,000 to ¥80,000 and 1K ¥90,000 to ¥100,000. 1LDK ¥150,000 to ¥160,000 and 2LDK ¥200,000 to ¥210,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "akabane-iwabuchi",
-      "note": "608 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Akabane."
+      "lead": "Akabane is ahead on rail connections and how close the centre is. ",
+      "note": "Close enough to walk to from Akabane. Akabane-Iwabuchi has only the Tokyo Metro Namboku Line and Saitama Railway Line, so Akabane is the better connected. To Shibuya, for instance, Akabane-Iwabuchi takes 24 minutes longer. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "shimo",
-      "note": "1052 m away in a straight line. It reaches Otemachi in about the same time as Akabane."
+      "lead": "For safety, Shimo; for rail connections, Akabane. ",
+      "note": "About 1 km from Akabane in a straight line. Shimo has only the Tokyo Metro Namboku Line, so Akabane is the better connected. To Shinjuku, for instance, Shimo takes 21 minutes longer. On what it offers families, though, Shimo comes out ahead."
     }
   ],
   "goodFor": [
@@ -71,5 +74,25 @@
   "notFor": [
     "People avoiding projected flood inundation areas"
   ],
+  "noiseSources": [
+    "中十条赤羽線 (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "majorHub",
+    "goodValue",
+    "manyLines",
+    "shoppingEasy",
+    "lateNight"
+  ],
+  "leads": {
+    "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
+    "groceries": "There are 14 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
+    "stationNote": "5 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are some of the most heavily loaded in the morning. ",
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
+  },
   "authoredBy": "data-generated"
 }

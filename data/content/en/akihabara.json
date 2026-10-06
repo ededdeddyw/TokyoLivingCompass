@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Akihabara",
   "tagline": "Tokyo in 5 minutes and Otemachi in 11 minutes. Served by 5 lines. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
-  "summary": "The station is in Chiyoda City, served by JR Yamanote Line, JR Chuo-Sobu Line (Local), JR Keihin-Tohoku Line, Tokyo Metro Hibiya Line and Tsukuba Express. Journey times to the main business districts are 11 minutes to Otemachi, 18 minutes to Shinjuku, 28 minutes to Shibuya and 19 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 3.5 m above sea level, and the ground within 800 m varies in height by 2.8 m. The land around the station is close to level.",
+  "summary": "The station is in Chiyoda City, where JR East, Tokyo Metro and Tsukuba Express run 5 lines between them. Journey times to the main business districts are 11 minutes to Otemachi, 18 minutes to Shinjuku, 28 minutes to Shibuya and 19 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 3.5 m above sea level, and the ground within 800 m varies in height by 2.8 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits on the higher side of the ground around it, at 3.5 m above sea level. Within 800 m the ground ranges from 2 m to 4.8 m, a difference of 2.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 3.5 m above sea level. Within 800 m the ground ranges from 2 m to 4.8 m, a difference of 2.8 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 5 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. All nine points within 400 m of the station fall inside the area too, and the deepest projection among them is 3 to 5 m. For storm surge, 5 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the large side for the 23 wards.",
   "groceries": [
     {
       "name": "成城石井 アトレ秋葉原1店",
       "tier": "premium",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/9418883312",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "日本百貨店しょくひんかん",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/2724694059",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "福島屋 秋葉原店",
       "tier": "premium",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/2263941712",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "TOKiS 秋葉原店",
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/8986264202",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 56 clinics and 44 pharmacies. Facilities recorded as hospitals lie at 秋葉原メディカルクリニック, about 200 m away and 同仁記念会明和病院, about 441 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "5 lines serve the station: JR Yamanote Line, JR Chuo-Sobu Line (Local), JR Keihin-Tohoku Line, Tokyo Metro Hibiya Line and Tsukuba Express. The lines are split between operators (JR East runs 3 lines, Tokyo Metro runs 1 line and Tsukuba Express runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 98.",
+  "medical": "Within an 800 m walk of the station there are 56 clinics and 44 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 秋葉原メディカルクリニック, about 4 minutes' walk from the station. The next nearest is 同仁記念会明和病院, about 8 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "5 lines serve the station. JR Yamanote Line run through it. JR Chuo-Sobu Line (Local) also call here. JR Keihin-Tohoku Line are available too. Tokyo Metro Hibiya Line and Tsukuba Express stop here as well. The lines are split between operators (JR East runs 3 lines, Tokyo Metro runs 1 line and Tsukuba Express runs 1 line), so when one line stops you can change to a line run by a different company.",
+  "congestion": "Tokyo Metro Hibiya Line runs at 163% of capacity in the morning peak. The busiest stretch is 三ノ輪→入谷, which this station is not on. JR Keihin-Tohoku Line runs at 159%. Its busiest stretch is 大井町→品川, which this station is likewise not on. JR Chuo-Sobu Line (Local) runs at 151%. Its busiest stretch is 錦糸町→両国, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥130,000 to ¥140,000, 1K ¥140,000 to ¥150,000, 1LDK ¥210,000 to ¥220,000 and 2LDK ¥270,000 to ¥280,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥130,000 to ¥140,000 and 1K ¥140,000 to ¥150,000. 1LDK ¥210,000 to ¥220,000 and 2LDK ¥270,000 to ¥280,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. 5 lines and a wide choice of connections and plenty of places to eat out pushes the figure up. On the other side, a large projected flood depth holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "iwamotocho",
-      "note": "381 m away in a straight line. It reaches Otemachi in about the same time as Akihabara."
+      "lead": "Akihabara is ahead on rail connections and how close the centre is. ",
+      "note": "Close enough to walk to from Akihabara. Iwamotocho has only the Toei Shinjuku Line, so Akihabara is the better connected. To Toranomon, for instance, Iwamotocho takes 8 minutes longer. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "suehirocho",
-      "note": "527 m away in a straight line. It reaches Otemachi in about the same time as Akihabara."
+      "lead": "For how little of the area is in the flood projection, Suehirocho; for rail connections, Akihabara. ",
+      "note": "Close enough to walk to from Akihabara. Suehirocho has only the Tokyo Metro Ginza Line, so Akihabara is the better connected. To Tokyo, for instance, Suehirocho takes 5 minutes longer. On how little of the area is in the flood projection, though, Suehirocho comes out ahead."
     }
   ],
   "goodFor": [
@@ -72,5 +75,27 @@
   "notFor": [
     "People avoiding projected flood inundation areas"
   ],
+  "noiseSources": [
+    "The 首都高速1号上野線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
+    "昭和通り (3 lanes each way) runs just outside the station. Traffic on it never stops"
+  ],
+  "tags": [
+    "majorHub",
+    "goodValue",
+    "floodArea",
+    "manyLines",
+    "singleFriendly",
+    "shoppingEasy"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 20 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
+    "stationNote": "5 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are some of the most heavily loaded in the morning. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
+  },
   "authoredBy": "data-generated"
 }

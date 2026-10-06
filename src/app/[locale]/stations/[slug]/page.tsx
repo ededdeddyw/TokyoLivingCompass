@@ -5,9 +5,11 @@ import { notFound } from "next/navigation";
 import { RentBands } from "@/components/RentBands";
 import { RentHistoryTable } from "@/components/RentHistoryTable";
 import { RentSourceNote } from "@/components/RentSourceNote";
+import { OverallScore } from "@/components/OverallScore";
 import { ScoreGrid } from "@/components/ScoreGrid";
 import { StationDepth } from "@/components/StationDepth";
 import { SeedNotice } from "@/components/SeedNotice";
+import { TownTraits } from "@/components/TownTraits";
 import { getDictionary } from "@/lib/dictionaries";
 import { formatYen } from "@/lib/format";
 import { ACTIVE_LOCALES, isActiveLocale, type ActiveLocale } from "@/lib/i18n";
@@ -21,10 +23,12 @@ import {
 } from "@/lib/seo";
 import { OFFICE_HUBS, RENT_TYPES } from "@/lib/schema";
 import { overallScoreForPreset } from "@/lib/scoring";
+import { WEIGHT_PRESETS, type WeightPreset } from "@/lib/weights";
 import {
   getLocalizedStation,
   getLocalizedStations,
   getStationContent,
+  getTownTraits,
   resolveLines,
 } from "@/lib/stations";
 
@@ -154,15 +158,25 @@ export default async function StationPage({
   if (!station) notFound();
 
   const dict = getDictionary(locale);
-  const overall = overallScoreForPreset(station, "balanced");
+  const townTraits = getTownTraits(slug, locale);
+  // 総合評価は読み手の区分ごとに変わる。一覧から区分つきのリンクで来た読み手に
+  // 別の数字を見せないよう、区分ごとの点数をすべて渡しておく
+  // （src/components/OverallScore.tsx）。
+  const overallByPreset = Object.fromEntries(
+    WEIGHT_PRESETS.map((preset) => [preset, overallScoreForPreset(station, preset)]),
+  ) as Record<WeightPreset, number | null>;
   const crowding =
     station.morningCrowding === undefined
       ? dict.dataQuality.notAvailable
       : dict.crowdingLevels[station.morningCrowding as 1 | 2 | 3 | 4 | 5];
 
-  // 隣接駅の表示名を先に解決しておく（コンポーネント側でデータを取りに行かせない）。
+  // 近くの駅と迷いやすい駅の表示名を先に解決しておく
+  // （コンポーネント側でデータを取りに行かせない）。
   const neighbourNames: Record<string, string> = {};
-  for (const n of station.content.neighbours ?? []) {
+  for (const n of [
+    ...(station.content.neighbours ?? []),
+    ...(station.content.alternatives ?? []),
+  ]) {
     const other = getLocalizedStation(n.slug, locale);
     if (other) neighbourNames[n.slug] = other.content.name;
   }
@@ -193,19 +207,46 @@ export default async function StationPage({
             <span className="ml-3 text-xl font-normal text-ink-soft">{station.nameJa}</span>
           )}
         </h1>
+        {/* 別名で探した人に、ここが同じ駅だと分かるようにする。 */}
+        {station.alsoKnownAs && station.alsoKnownAs.length > 0 && (
+          <p className="text-sm text-ink-soft">
+            {dict.station.alsoKnownAs.replace(
+              "{names}",
+              station.alsoKnownAs.map((n) => `${n}駅`).join("・"),
+            )}
+          </p>
+        )}
+        {station.content.tags && station.content.tags.length > 0 && (
+          // 街の性格タグ。本文を読む前に、どんな街かを掴めるようにする。
+          <ul className="flex flex-wrap gap-1.5">
+            {station.content.tags.map((tag) => (
+              <li
+                key={tag}
+                className="rounded-full border border-line px-2.5 py-0.5 text-xs text-ink-soft"
+              >
+                {dict.tags[tag]}
+              </li>
+            ))}
+          </ul>
+        )}
         <p className="text-lg text-ink-soft">{station.content.tagline}</p>
-        <p className="text-sm text-ink-soft">
-          {dict.station.overall}{" "}
-          <strong className="text-2xl tabular-nums text-ink">
-            {overall === null ? dict.dataQuality.notAvailable : overall.toFixed(1)}
-          </strong>
-          {overall !== null && <span className="text-ink-soft"> / 10</span>}
-        </p>
+        <OverallScore
+          scores={overallByPreset}
+          labels={{
+            overall: dict.station.overall,
+            notAvailable: dict.dataQuality.notAvailable,
+            balanced: dict.station.overallBalanced,
+            segment: dict.station.overallSegment,
+            options: dict.segmentOptions,
+          }}
+        />
       </header>
 
       {station.dataQuality === "seed" && <SeedNotice dict={dict} />}
 
       <p className="max-w-3xl leading-relaxed text-ink">{station.content.summary}</p>
+
+      {townTraits && <TownTraits data={townTraits} dict={dict} />}
 
       <Section title={dict.station.rent}>
         <dl className="grid grid-cols-2 gap-3 sm:grid-cols-4">
@@ -226,6 +267,21 @@ export default async function StationPage({
           ))}
         </dl>
         <RentSourceNote source={station.sources?.rent} dict={dict} />
+        {/* 家賃がこの水準である理由は、相場の数字のすぐ下に置く。
+            ページの後半に離して置くと、数字と理由を読み手が自分でつなぐことになる。 */}
+        {station.content.rentReason && (
+          <div className="space-y-1.5 pt-2">
+            <h3 className="text-sm font-semibold text-ink">{dict.depth.rentReason}</h3>
+            {station.content.leads?.rentReason && (
+              <p className="text-sm font-medium leading-relaxed text-ink">
+                {station.content.leads.rentReason}
+              </p>
+            )}
+            <p className="text-sm leading-relaxed text-ink-soft">
+              {station.content.rentReason}
+            </p>
+          </div>
+        )}
       </Section>
 
       {station.rentBands && (

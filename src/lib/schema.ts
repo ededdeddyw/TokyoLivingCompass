@@ -8,6 +8,7 @@ import { z } from "zod";
 /** 16 の評価軸。順序が表示順を兼ねる。軸を足す/消すとここだけで全体に波及する。 */
 export const SCORE_AXES = [
   "rentValue",
+  "rentLow",
   "commute",
   "transitConvenience",
   "shopping",
@@ -23,6 +24,7 @@ export const SCORE_AXES = [
   "nature",
   "healthcare",
   "fitness",
+  "disaster",
 ] as const;
 
 export type ScoreAxis = (typeof SCORE_AXES)[number];
@@ -60,6 +62,11 @@ export const lineSchema = z.object({
 export const rosterStationSchema = z.object({
   slug: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/),
   nameJa: z.string().min(1),
+  /**
+   * 同じ乗換駅の、表示名に選ばなかった駅名（虎ノ門に対する虎ノ門ヒルズなど）。
+   * この名前で探した人が、どこにもたどり着けなくならないようにする。
+   */
+  alsoKnownAs: z.array(z.string().min(1)).optional(),
   nameRomaji: z.string().min(1),
   ward: z.string().min(1),
   wardCode: z.string().regex(/^\d{5}$/),
@@ -330,10 +337,80 @@ export const groceryStoreSchema = z.object({
 });
 
 /**
+ * スーパー以外の、誰でも知っているチェーン店（ドラッグストア・100円ショップ）。
+ * 知られていない個人店より、名前を見ただけで何が買えるか分かる店のほうが、
+ * 読み手が駅前の暮らしを思い浮かべやすい。実在の確認はスーパーと同じく必須。
+ */
+export const dailyShopSchema = z.object({
+  name: z.string().min(1),
+  kind: z.enum(["drugstore", "hundredYen"]),
+  /** 駅からの徒歩分数。裏取りできていない場合は書かない */
+  walkMinutes: z.number().int().min(0).max(30).optional(),
+  /** 入っている建物など */
+  note: z.string().optional(),
+  sourceUrl: z.string().url(),
+  verifiedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+});
+
+/**
  * 駅の出口ごとの街の違い。
  * 同じ駅でも北口と南口で別の街であることが多く、住む方角の選択に直結する。
  * 既存のまとめ記事が駅を一枚岩として扱うせいで、最も抜け落ちている観点。
  */
+/**
+ * 街の性格を表すタグ。自由記述にすると言語ごとに訳せなくなり、
+ * 絞り込みにも使えないため、決まった語彙から選ぶ。表示ラベルは src/lib/dictionaries.ts。
+ *
+ * 駅につけるタグ（STATION_TAGS）は、スコアと路線数と地形から機械的に決まる
+ * （scripts/build-station-content.py）。出口につけるタグ（EXIT_TAGS）は、
+ * 出口の先に何があるかを人が見て選ぶ。
+ */
+export const STATION_TAGS = [
+  "majorHub",
+  "someBustle",
+  "lively",
+  "quiet",
+  "shoppingEasy",
+  "diningRich",
+  "cafeRich",
+  "lateNight",
+  "parkNear",
+  "flat",
+  "hilly",
+  "goodValue",
+  "pricey",
+  "fastToCenter",
+  "manyLines",
+  "singleLine",
+  "floodArea",
+  "lowFlood",
+  "familyFriendly",
+  "singleFriendly",
+  "medicalRich",
+] as const;
+export type StationTag = (typeof STATION_TAGS)[number];
+
+/** 出口の先がどんな場所かを表すタグ。人が選ぶ。 */
+export const EXIT_TAGS = [
+  "shoppingStreet",
+  "departmentStore",
+  "diningCluster",
+  "barStreet",
+  "residential",
+  "quietResidential",
+  "office",
+  "entertainment",
+  "culture",
+  "school",
+  "park",
+  "waterfront",
+  "factory",
+  "hospital",
+  "uphill",
+  "downhill",
+] as const;
+export type ExitTag = (typeof EXIT_TAGS)[number];
+
 export const exitSchema = z.object({
   name: z.string().min(1),
   /**
@@ -342,6 +419,8 @@ export const exitSchema = z.object({
    * 1路線しか通っていない駅では省略してよい。
    */
   line: z.string().min(1).optional(),
+  /** 出口の先がどんな場所かを、決まった語彙から選ぶ。本文を読む前に方角を選べるようにする。 */
+  tags: z.array(z.enum(EXIT_TAGS)).optional(),
   character: z.string().min(1),
 });
 
@@ -355,8 +434,50 @@ export const rentRangeSchema = z.object({
 /** 隣接駅との使い分け。「この用途なら隣の駅のほうがいい」を正直に書く。 */
 export const neighbourNoteSchema = z.object({
   slug: z.string().min(1),
+  /**
+   * 比較の「一言でいうと」。本文を読む前に、どちらが何で上回るのかを受け取れるようにする。
+   * 誰にとっても向きが同じ軸（家賃・浸水の想定・路線の数）から書く
+   * （docs/13-japanese-style-rules.md ルール40）。
+   */
+  lead: z.string().min(1).optional(),
   note: z.string().min(1),
 });
+
+/**
+ * 節ごとの「一言でいうと」。本文を読む前に、その節の結論だけを受け取れるようにする。
+ * 「災害リスクは、23区の中では浸水の想定が小さいほうです」のように、
+ * 23区内での位置づけを1文で書く。
+ *
+ * 機械で出せる節（地形・買い物・災害・駅の使い勝手・家賃・医療・子育て）は
+ * scripts/build-station-content.py が全駅ぶんを作り、
+ * 残りは人が書く。
+ */
+export const LEAD_FIELDS = [
+  "faces",
+  "congestion",
+  "terrain",
+  "noiseSources",
+  "groceries",
+  "residents",
+  "housingStock",
+  "hazards",
+  "stationNote",
+  "nightWalk",
+  "rentReason",
+  "rentRange",
+  "exits",
+  "family",
+  "medical",
+  "outlook",
+] as const;
+export type LeadField = (typeof LEAD_FIELDS)[number];
+
+export const leadsSchema = z.object(
+  Object.fromEntries(LEAD_FIELDS.map((f) => [f, z.string().min(1).optional()])) as Record<
+    LeadField,
+    z.ZodOptional<z.ZodString>
+  >,
+);
 
 export const stationContentSchema = z.object({
   slug: z.string().min(1),
@@ -369,6 +490,14 @@ export const stationContentSchema = z.object({
   goodFor: z.array(z.string()).min(1),
   notFor: z.array(z.string()).min(1),
 
+  /**
+   * 街の性格タグ。スコアと路線数と地形から決まるので、全駅ぶんが自動で入る。
+   * 駅名のすぐ下に出し、本文を読む前にどんな街かを掴めるようにする。
+   */
+  tags: z.array(z.enum(STATION_TAGS)).optional(),
+  /** 節ごとの「一言でいうと」。 */
+  leads: leadsSchema.optional(),
+
   // --- 深さを作る層。分かったものから足す ---
   /** 時間帯別の街の顔 */
   faces: dayFacesSchema.optional(),
@@ -378,6 +507,8 @@ export const stationContentSchema = z.object({
   noiseSources: z.array(z.string()).optional(),
   /** 日常の買い物先。価格帯と徒歩分数つき */
   groceries: z.array(groceryStoreSchema).optional(),
+  /** ドラッグストアと100円ショップ。日常の買い物の節に一緒に出す */
+  dailyShops: z.array(dailyShopSchema).optional(),
   /** 住民層 */
   residents: z.string().optional(),
   /** 物件の傾向。築年数、構造、間取りの偏り */
@@ -386,12 +517,27 @@ export const stationContentSchema = z.object({
   hazards: z.string().optional(),
   /** 駅そのものの使い勝手。ホームの深さ、改札の位置、乗換の実際 */
   stationNote: z.string().optional(),
+  /**
+   * 朝の混雑率。国土交通省の調査から、その駅で使える路線ごとに出す。
+   *
+   * DEPTH_FIELDS には入れない。出典のある数字だけから全458駅ぶんを組み立てる層で、
+   * 人が書く17層の充足率に混ぜると、書けている駅の数が実態より多く見える。
+   */
+  congestion: z.string().optional(),
   /** 夜の帰り道 */
   nightWalk: z.string().optional(),
   /** 家賃が相場より高い／安い理由 */
   rentReason: z.string().optional(),
-  /** 隣接駅との使い分け */
+  /**
+   * 近くの駅との違い。距離・所要時間・家賃の差から組み立てる層で、
+   * scripts/build-station-content.py が全駅ぶんを作る。
+   */
   neighbours: z.array(neighbourNoteSchema).optional(),
+  /**
+   * この駅と迷いやすい駅。近さではなく、条件が似ていて比較検討の対象になる駅を人が選ぶ。
+   * 近くの駅（neighbours）と混ぜると、7km離れた駅を隣の駅として読ませることになる。
+   */
+  alternatives: z.array(neighbourNoteSchema).optional(),
   /** 5年後の見通し。再開発、路線延伸など */
   outlook: z.string().optional(),
   /** 出口ごとの街の違い */
@@ -449,6 +595,7 @@ export const DEPTH_FIELDS = [
   "nightWalk",
   "rentReason",
   "neighbours",
+  "alternatives",
   "outlook",
   "exits",
   "family",
@@ -462,8 +609,10 @@ export type StationContent = z.infer<typeof stationContentSchema>;
 export type DayFaces = z.infer<typeof dayFacesSchema>;
 export type Terrain = z.infer<typeof terrainSchema>;
 export type GroceryStore = z.infer<typeof groceryStoreSchema>;
+export type DailyShop = z.infer<typeof dailyShopSchema>;
 export type NeighbourNote = z.infer<typeof neighbourNoteSchema>;
 export type StationExit = z.infer<typeof exitSchema>;
+export type Leads = z.infer<typeof leadsSchema>;
 export type RentRange = z.infer<typeof rentRangeSchema>;
 
 /** その駅の日本語コンテンツが、深さの層をいくつ満たしているか。 */
@@ -477,3 +626,43 @@ export function depthFilled(content: StationContent): DepthField[] {
 
 /** 駅マスタと、あるロケールの散文を結合したもの。ページはこの形で受け取る。 */
 export type LocalizedStation = Station & { content: StationContent };
+
+/**
+ * 街の特色（data/town-traits/*.json）。出典の記事から読み取ってまとめ直したもの。
+ * 出典ごとに1ファイル。方針は docs/16-town-traits.md。
+ */
+export const townTraitsFileSchema = z.object({
+  meta: z
+    .object({
+      /** 画面に出す出典の名前（「Wikipedia」など） */
+      label: z.string().min(1),
+      /** ライセンス表示が要る出典のときだけ（「CC BY-SA 4.0」など） */
+      licenseName: z.string().optional(),
+      license: z.string().url().optional(),
+    })
+    .passthrough(),
+  stations: z.record(
+    z.string(),
+    z.object({
+      sources: z.array(
+        z.object({
+          title: z.string().min(1),
+          url: z.string().url(),
+          retrievedAt: z.string().optional(),
+        }),
+      ),
+      traits: z.array(z.object({ text: z.string().min(1), from: z.string().min(1) })),
+    }),
+  ),
+});
+
+/** 駅ページに出す形。複数の出典を重ね、出典ごとに記事へのリンクを持つ。 */
+export type TownTraits = {
+  traits: string[];
+  sources: {
+    label: string;
+    licenseName?: string;
+    license?: string;
+    articles: { title: string; url: string }[];
+  }[];
+};

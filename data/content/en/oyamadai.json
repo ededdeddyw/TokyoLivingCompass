@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Oyamadai",
   "tagline": "Shibuya in 23 minutes and Shinagawa in 29 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Setagaya City, served by Tokyu Oimachi Line. Journey times to the main business districts are 46 minutes to Otemachi, 33 minutes to Shinjuku, 23 minutes to Shibuya and 29 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 27.4 m above sea level, and the ground within 800 m varies in height by 6.1 m. The land around the station is close to level.",
+  "summary": "The station is in Setagaya City, where Tokyu run 1 line between them. Journey times to the main business districts are 46 minutes to Otemachi, 33 minutes to Shinjuku, 23 minutes to Shibuya and 29 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 27.4 m above sea level, and the ground within 800 m varies in height by 6.1 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits lower than the ground around it, at 27.4 m above sea level. Within 800 m the ground ranges from 27.4 m to 33.5 m, a difference of 6.1 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 27.4 m above sea level. Within 800 m the ground ranges from 27.4 m to 33.5 m, a difference of 6.1 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 1 also fall inside the area, and the deepest projection is less than 0.5 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
       "name": "成城石井 等々力店",
       "tier": "premium",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/1872304140",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "プチマルシェ フジ 九品仏駅前店",
       "tier": "standard",
       "walkMinutes": 12,
       "sourceUrl": "https://www.openstreetmap.org/node/6929377310",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 12,
       "sourceUrl": "https://www.openstreetmap.org/node/2578935971",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "スーパーバリュー",
       "tier": "standard",
       "walkMinutes": 12,
       "sourceUrl": "https://www.openstreetmap.org/node/1759374025",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 3 clinics and 4 pharmacies. Facilities recorded as hospitals lie at 和乃会小倉病院, about 1346 m away and 長谷川病院, about 1388 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Tokyu Oimachi Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 3 clinics and 4 pharmacies. The nearest hospital is 和乃会小倉病院, about 22 minutes' walk from the station. The next nearest is 長谷川病院, about 23 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyu Oimachi Line.",
+  "congestion": "Tokyu Oimachi Line runs at 118% of capacity in the morning peak. The busiest stretch is 九品仏→自由が丘, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥90,000 to ¥100,000, 1K ¥90,000 to ¥100,000, 1LDK ¥160,000 to ¥170,000 and 2LDK ¥230,000 to ¥240,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥90,000 to ¥100,000 and 1K ¥90,000 to ¥100,000. 1LDK ¥160,000 to ¥170,000 and 2LDK ¥230,000 to ¥240,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is on the high side. a small projected flood depth and quiet surroundings pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "todoroki",
-      "note": "557 m away in a straight line. It reaches Otemachi in about the same time as Oyamadai. One-room rents run about ¥9,000 lower."
+      "lead": "For lower rent, Todoroki; for how little of the area is in the flood projection, Oyamadai. ",
+      "note": "Close enough to walk to from Oyamadai. It is served by the same lines as Oyamadai. Journey times to the main business districts are much the same. A one-room flat costs about ¥9,000 less at Todoroki. On how little of the area is in the flood projection, Oyamadai comes out ahead."
     },
     {
       "slug": "kuhombutsu",
-      "note": "668 m away in a straight line. It reaches Otemachi in about the same time as Oyamadai. One-room rents run about ¥10,000 higher."
+      "lead": "Oyamadai is ahead on lower rent and how little of the area is in the flood projection. ",
+      "note": "Close enough to walk to from Oyamadai. It is served by the same lines as Oyamadai. Journey times to the main business districts are much the same. A one-room flat costs about ¥10,000 more at Kuhombutsu. On how little of the area is in the flood projection, Oyamadai comes out ahead."
     }
   ],
   "goodFor": [
@@ -72,5 +75,24 @@
     "People who want to finish their shopping on foot",
     "People who want plenty of places to eat out"
   ],
+  "noiseSources": [
+    "The nearest big road, 環八通り, is far enough that little traffic noise reaches the station area"
+  ],
+  "tags": [
+    "quiet",
+    "lowFlood",
+    "singleLine",
+    "flat"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 4 supermarkets within walking distance, and the nearest is 11 minutes on foot.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
+    "stationNote": "Only the Tokyu Oimachi Line serves this station, so when it stops you walk to another station.",
+    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
+    "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
+  },
   "authoredBy": "data-generated"
 }

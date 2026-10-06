@@ -6,43 +6,44 @@
   "summary": "The station is in Meguro City, served by Tokyu Toyoko Line. Journey times to the main business districts are 36 minutes to Otemachi, 22 minutes to Shinjuku, 12 minutes to Shibuya and 30 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 25.9 m above sea level, and the ground within 800 m varies in height by 14.8 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits lower than the ground around it, at 25.9 m above sea level. Within 800 m the ground ranges from 23.7 m to 38.5 m, a difference of 14.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 25.9 m above sea level. Within 800 m the ground ranges from 23.7 m to 38.5 m, a difference of 14.8 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 4 also fall inside the area, and the deepest projection is 0.5 to 3 m. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "東急ストア",
       "tier": "standard",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/way/701464303",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "なんでも酒や カクヤス 都立大学店",
       "tier": "standard",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/10274573965",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "肉のハナマサ 都立大店",
       "tier": "discount",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/10731876131",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/6585809388",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 2 clinics and 2 pharmacies. Facilities recorded as hospitals lie at 目黒厚生会本田病院, about 111 m away and 日扇会第一病院, about 347 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Tokyu Toyoko Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 2 clinics and 2 pharmacies. The nearest hospital is 目黒厚生会本田病院, about 2 minutes' walk from the station. The next nearest is 日扇会第一病院, about 6 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyu Toyoko Line.",
+  "congestion": "Tokyu Toyoko Line runs at 124% of capacity in the morning peak. The busiest stretch is 祐天寺→中目黒, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥100,000 to ¥110,000, 1K ¥100,000 to ¥110,000, 1LDK ¥190,000 to ¥200,000 and 2LDK ¥270,000 to ¥280,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥100,000 to ¥110,000 and 1K ¥100,000 to ¥110,000. 1LDK ¥190,000 to ¥200,000 and 2LDK ¥270,000 to ¥280,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥100,000 to ¥110,000. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥100,000 to ¥110,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. schools and parks within walking distance pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "midorigaoka",
-      "note": "1303 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Toritsu-Daigaku. One-room rents run about ¥7,000 lower."
+      "lead": "For lower rent, Midorigaoka; for how close the centre is, Toritsu-Daigaku. ",
+      "note": "About 1.5 km from Toritsu-Daigaku in a straight line. Midorigaoka has the Tokyu Oimachi Line, a different set from Toritsu-Daigaku. To Toranomon, for instance, Midorigaoka takes 11 minutes longer. A one-room flat costs about ¥7,000 less at Midorigaoka. On the number of medical facilities, Midorigaoka comes out ahead."
     },
     {
       "slug": "jiyugaoka",
-      "note": "1371 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Toritsu-Daigaku."
+      "lead": "For rail connections, Jiyugaoka; for safety, Toritsu-Daigaku. ",
+      "note": "About 1.5 km from Toritsu-Daigaku in a straight line. Jiyugaoka also has the Tokyu Oimachi Line, which Toritsu-Daigaku does not. With more lines, Jiyugaoka is the better connected of the two. To Shinagawa, for instance, Jiyugaoka is 4 minutes quicker. On what it offers families, though, Toritsu-Daigaku comes out ahead."
     }
   ],
   "goodFor": [
@@ -67,8 +70,26 @@
   ],
   "notFor": [
     "People avoiding projected flood inundation areas",
-    "People who want another route when service is suspended",
-    "People who want plenty of places to eat out"
+    "People who want another route when service is suspended"
   ],
+  "noiseSources": [
+    "目黒通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "quiet",
+    "lowFlood",
+    "singleLine",
+    "familyFriendly"
+  ],
+  "leads": {
+    "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
+    "groceries": "There are 6 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
+    "stationNote": "Only the Tokyu Toyoko Line serves this station, so when it stops you walk to another station.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
+  },
   "authoredBy": "data-generated"
 }

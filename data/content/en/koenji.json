@@ -61,11 +61,18 @@
     {
       "name": "North exit (北口)",
       "line": "JR Chuo Rapid Line / JR Chuo-Sobu Line",
+      "tags": [
+        "shoppingStreet",
+        "barStreet"
+      ],
       "character": "The way to the Junjo and Koshin-dori shopping streets. Shops selling fresh food and everyday goods line the way, and this is where daily life happens. There are plenty of bars too."
     },
     {
       "name": "South exit (南口)",
       "line": "JR Chuo Rapid Line / JR Chuo-Sobu Line",
+      "tags": [
+        "shoppingStreet"
+      ],
       "character": "The Pal and Look shopping streets run south, and the vintage clothing shops are concentrated on this side. Many of the visitors are young, and at weekends the pavements stay busy from midday into the evening."
     }
   ],
@@ -87,14 +94,16 @@
   },
   "family": "The share of households with children is not high, and both the shops and the housing lean towards people living alone. The ground is flat, on the terrace, so a pushchair is easy to manage, but there are few large parks near the station and Wadabori Park and the Zenpukuji riverside are some distance away. Check school catchment and nursery availability by address against Suginami City's own current information. Whether you read the late-night foot traffic as reassuring company or as noise that never lets up is what divides opinion here.",
   "medical": "Within walking distance of the station there are 25 clinics and 23 pharmacies, the most of any of the seventeen stations written up in this depth. Hojo Hospital is about 370 m away and Seizankai Kiyokawa Hospital about 550 m, so hospitals that admit inpatients are within walking distance too. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "neighbours": [
+  "alternatives": [
     {
       "slug": "higashi-nakano",
-      "note": "If you want quiet rather than bustle, choose Higashi-Nakano. Shinjuku is one stop away, but only local trains stop there. Rents are at a similar level."
+      "note": "If you want quiet rather than bustle, choose Higashi-Nakano. Shinjuku is one stop away, but only local trains stop there. Rents are at a similar level.",
+      "lead": "Higashi-Nakano is ahead on how little of the area is in the flood projection, but Koenji is ahead on quiet."
     },
     {
       "slug": "sasazuka",
-      "note": "If you want a train you can sit on in the morning, choose Sasazuka. Trains on the Keio New Line start there, and Shinjuku is five minutes away. The neighbourhood has nothing like Koenji's character, though."
+      "note": "If you want a train you can sit on in the morning, choose Sasazuka. Trains on the Keio New Line start there, and Shinjuku is five minutes away. The neighbourhood has nothing like Koenji's character, though.",
+      "lead": "rents are lower at Koenji, but Sasazuka is ahead on how little of the area is in the flood projection."
     }
   ],
   "outlook": "No large redevelopment is on the horizon, and the make-up of the neighbourhood — vintage shops and restaurants at its centre — looks set to continue for the time being. On the other hand, disaster preparedness in densely packed timber housing is an acknowledged problem for the authorities, so over the long run rebuilding may reduce the stock of cheap timber-built flats.",
@@ -111,5 +120,37 @@
     "People who want a settled environment centred on raising children"
   ],
   "residentComment": "It is not a neighbourhood to recommend to everyone, but nowhere else in Tokyo packs this many vintage shops, live music venues and owner-run bars into one place, and anyone who wants that will struggle to find the same thing elsewhere. There are so many cheap places to eat that you can keep food costs down without cooking. The rent people call cheap, though, is a figure based on old timber-built flats; ask for ordinary fittings and it matches any other Chuo Line station. The morning crowding, and the Rapid passing through at weekends, are things you feel as an inconvenience most weeks once you live here. That this is a densely packed timber-housing area is worth facing squarely as the reason the rent is low.",
-  "authoredBy": "ai-localized"
+  "authoredBy": "ai-localized",
+  "neighbours": [
+    {
+      "slug": "shin-koenji",
+      "lead": "Koenji is ahead on rail connections and how close the centre is. ",
+      "note": "Close enough to walk to from Koenji. Shin-Koenji has only the Tokyo Metro Marunouchi Line, so Koenji is the better connected. To Tokyo, for instance, Shin-Koenji takes 6 minutes longer. Rents, flood projections and the rest differ little."
+    },
+    {
+      "slug": "higashi-koenji",
+      "lead": "For safety, Higashi-Koenji; for rail connections, Koenji. ",
+      "note": "About 1 km from Koenji in a straight line. Higashi-Koenji has only the Tokyo Metro Marunouchi Line, so Koenji is the better connected. To Tokyo, for instance, Higashi-Koenji takes 4 minutes longer. A one-room flat also costs about ¥7,000 more at Higashi-Koenji. On what it offers families, though, Higashi-Koenji comes out ahead."
+    }
+  ],
+  "tags": [
+    "majorHub",
+    "goodValue",
+    "shoppingEasy",
+    "diningRich",
+    "lateNight",
+    "flat"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 15 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
+    "hazards": "Among the 23 wards' stations, comparatively few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "exits": "The north exit is the centre of everyday shopping, with fresh food and household goods; the second-hand clothes shops cluster on the south side.",
+    "noiseSources": "The nearest main road is 環七通り, 446 m away, so traffic noise is unlikely to bother you.",
+    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. "
+  },
+  "congestion": "JR Chuo Rapid Line runs at 158% of capacity in the morning peak. The busiest stretch is 中野→新宿, which this station is not on. JR Chuo-Sobu Line (Local) runs at 151%. Its busiest stretch is 錦糸町→両国, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier."
 }

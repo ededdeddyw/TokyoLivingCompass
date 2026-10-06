@@ -6,43 +6,44 @@
   "summary": "The station is in Katsushika City, served by Hokuso Line. Journey times to the main business districts are 45 minutes to Otemachi, 59 minutes to Shinjuku, 64 minutes to Shibuya and 59 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 2.1 m above sea level, and the ground within 800 m varies in height by 0.5 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits on the higher side of the ground around it, at 2.1 m above sea level. Within 800 m the ground ranges from 1.7 m to 2.2 m, a difference of 0.5 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 2.1 m above sea level. Within 800 m the ground ranges from 1.7 m to 2.2 m, a difference of 0.5 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 9 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. All nine points within 400 m of the station fall inside the area too, and the deepest projection among them is 3 to 5 m. For storm surge, 9 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the large side for the 23 wards.",
   "groceries": [
     {
       "name": "ラコマート",
       "tier": "standard",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/3110908055",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "リブレ京成 新柴又店",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/5731532292",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Olympic 柴又店",
       "tier": "standard",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/6979633158",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Big-A",
       "tier": "discount",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/5731532277",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 6 clinics and 6 pharmacies. Facilities recorded as hospitals lie at 国際医療福祉大学市川メディカルセンター, about 2147 m away and 式場病院, about 2164 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Hokuso Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 6 clinics and 6 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 国際医療福祉大学市川メディカルセンター, about 35 minutes' walk from the station. The next nearest is 式場病院, about 36 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Hokuso Line.",
+  "congestion": "Hokuso Line runs at 90% of capacity in the morning peak. The busiest stretch of the line is 新柴又→京成高砂, which includes this station. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥70,000 to ¥80,000, 1K ¥70,000 to ¥80,000, 1LDK ¥120,000 to ¥130,000 and 2LDK ¥150,000 to ¥160,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥70,000 to ¥80,000 and 1K ¥70,000 to ¥80,000. 1LDK ¥120,000 to ¥130,000 and 2LDK ¥150,000 to ¥160,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is on the high side. schools and parks within walking distance and quiet surroundings pushes the figure up. On the other side, a large projected flood depth and only one line, the {line}, serving the station holds it down.",
   "neighbours": [
     {
       "slug": "shibamata",
-      "note": "701 m away in a straight line. It reaches Otemachi in about the same time as Shin-Shibamata."
+      "lead": "Shibamata is ahead on the number of places to eat out, and little else separates the two. ",
+      "note": "Close enough to walk to from Shin-Shibamata. Shibamata has the Keisei Kanamachi Line, a different set from Shin-Shibamata. Journey times to the main business districts are much the same. On the number of places to eat out, Shibamata comes out ahead."
     },
     {
       "slug": "keisei-koiwa",
-      "note": "1059 m away in a straight line. It reaches Otemachi in about the same time as Shin-Shibamata."
+      "lead": "Keisei-Koiwa is ahead on how close the centre is and how easy the shopping is. ",
+      "note": "About 1 km from Shin-Shibamata in a straight line. Keisei-Koiwa has the Keisei Main Line, a different set from Shin-Shibamata. To Shinjuku, for instance, Keisei-Koiwa is 3 minutes quicker. On how easy the shopping is, Keisei-Koiwa comes out ahead."
     }
   ],
   "goodFor": [
@@ -71,5 +74,26 @@
     "People who want another route when service is suspended",
     "People who want plenty of places to eat out"
   ],
+  "noiseSources": [
+    "柴又街道 (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "quiet",
+    "pricey",
+    "floodArea",
+    "singleLine",
+    "familyFriendly",
+    "flat"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 7 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
+    "stationNote": "Only the Hokuso Line serves this station, so when it stops you walk to another station.",
+    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
+  },
   "authoredBy": "data-generated"
 }

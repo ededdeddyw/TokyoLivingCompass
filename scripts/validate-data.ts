@@ -204,32 +204,32 @@ function shortLineName(name: string): string {
 // 店名は、実在を確認していないものを載せてはいけない。
 // スキーマが sourceUrl と verifiedAt を必須にしているので、ここでは鮮度と件数を見る。
 const STORE_STALE_DAYS = 365;
-const staleStores: string[] = [];
-const noGroceries: string[] = [];
+const staleStores = new Set<string>();
+const noGroceries = new Set<string>();
 for (const locale of listContentLocales()) {
   if (!isActiveLocale(locale)) continue;
   for (const slug of listContentSlugs(locale)) {
     const content = getStationContent(slug, locale);
     if (!content) continue;
     if (!content.groceries || content.groceries.length === 0) {
-      noGroceries.push(slug);
+      noGroceries.add(slug);
       continue;
     }
     for (const store of content.groceries) {
       const age = (Date.now() - Date.parse(store.verifiedAt)) / 86_400_000;
-      if (age > STORE_STALE_DAYS) staleStores.push(`${slug}/${store.name}`);
+      if (age > STORE_STALE_DAYS) staleStores.add(`${slug}/${store.name}`);
     }
   }
 }
-if (noGroceries.length > 0) {
+if (noGroceries.size > 0) {
   warnings.push(
-    `${noGroceries.length}駅に、実在を確認できた店が1つもありません: ${noGroceries.join("、")}`,
+    `${noGroceries.size}駅に、実在を確認できた店が1つもありません: ${[...noGroceries].join("、")}`,
   );
 }
-if (staleStores.length > 0) {
+if (staleStores.size > 0) {
   warnings.push(
-    `${staleStores.length}件の店が、確認から1年以上たっています。閉店していないか見直してください: ` +
-      staleStores.join("、"),
+    `${staleStores.size}件の店が、確認から1年以上たっています。閉店していないか見直してください: ` +
+      [...staleStores].join("、"),
   );
 }
 
@@ -265,12 +265,19 @@ const bar = (n: number) => {
 const layers: [string, number][] = [
   ["所在区・路線", stations.length],
   ["所要時間（計算）", stations.filter((s) => s.commutes.length === OFFICE_HUBS.length).length],
-  ["朝の混雑・始発", stations.filter((s) => s.morningCrowding !== undefined).length],
+  ["朝の混雑・始発（人が書く層）", stations.filter((s) => s.morningCrowding !== undefined).length],
   ["家賃", stations.filter((s) => s.rent !== undefined).length],
   ["スコア（1軸以上）", stations.filter((s) => Object.keys(s.scores).length > 0).length],
-  ["スコア（16軸すべて）", stations.filter((s) => Object.keys(s.scores).length === SCORE_AXES.length).length],
+  [`スコア（${SCORE_AXES.length}軸すべて）`, stations.filter((s) => Object.keys(s.scores).length === SCORE_AXES.length).length],
   ["周辺施設", stations.filter((s) => s.facilities !== undefined).length],
+  ["治安（警視庁の認知件数）", stations.filter((s) => s.scores.safety !== undefined).length],
 ];
+layers.push([
+  "朝の混雑率（国土交通省の調査）",
+  listContentSlugs("ja").filter((slug) => {
+    return Boolean(getStationContent(slug, "ja")?.congestion);
+  }).length,
+]);
 for (const locale of ACTIVE_LOCALES) {
   layers.push([`コンテンツ（${locale}）`, listContentSlugs(locale).filter((x) => slugs.has(x)).length]);
 }

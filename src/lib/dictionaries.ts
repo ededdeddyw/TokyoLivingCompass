@@ -1,7 +1,7 @@
 import type { ActiveLocale } from "./i18n";
-import type { RentMethod, RentType, ScoreAxis } from "./schema";
+import type { ExitTag, RentMethod, RentType, ScoreAxis, StationTag } from "./schema";
 import type { Grade } from "./scoring";
-import type { WeightPreset } from "./weights";
+import type { SegmentAxis, SegmentOption } from "./weights";
 
 /** UI 文言。駅の散文（data/content）とは別管理（docs/04-i18n.md §6）。 */
 
@@ -23,6 +23,19 @@ export type Dictionary = {
   seoCompareTitle: string;
   tagline: string;
   nav: { stations: string; find: string; compare: string };
+  /** 運営者情報ページ（docs/05-seo.md §5）。 */
+  about: {
+    heading: string;
+    operatorLabel: string;
+    operatorName: string;
+    contactLabel: string;
+    whatThisIs: string;
+    sourcesHeading: string;
+    sources: string[];
+    disclaimerHeading: string;
+    disclaimers: string[];
+    updatedLabel: string;
+  };
   home: {
     lead: string;
     findCta: string;
@@ -31,6 +44,10 @@ export type Dictionary = {
   };
   station: {
     overall: string;
+    overallBalanced: string;
+    overallSegment: string;
+    /** 同じ乗換駅の、表示名に選ばなかった駅名を出すときの文言。 */
+    alsoKnownAs: string;
     rent: string;
     commute: string;
     lines: string;
@@ -41,6 +58,10 @@ export type Dictionary = {
     supermarkets: string;
     commercial: string;
     goodFor: string;
+    /** 街の特色の見出し・出典・注記（src/components/TownTraits.tsx） */
+    townTraits: string;
+    townTraitsSource: string;
+    townTraitsNote: string;
     notFor: string;
     residentComment: string;
     compiledComment: string;
@@ -61,6 +82,7 @@ export type Dictionary = {
     count: string;
     sortBy: string;
     perspective: string;
+    gateNote: string;
   };
   find: {
     heading: string;
@@ -106,13 +128,17 @@ export type Dictionary = {
     groceries: string;
     tier: Record<"discount" | "standard" | "premium", string>;
     walkMinutes: string;
+    dailyShops: string;
+    shopKind: Record<"drugstore" | "hundredYen", string>;
     residents: string;
     housingStock: string;
     hazards: string;
     stationNote: string;
+    congestion: string;
     nightWalk: string;
     rentReason: string;
     neighbours: string;
+    alternatives: string;
     outlook: string;
     exits: string;
     family: string;
@@ -120,6 +146,11 @@ export type Dictionary = {
     rentRange: string;
     rentDrivers: string;
     unwritten: string;
+    source: string;
+    terrainSource: string;
+    congestionSource: string;
+    hazardSource: string;
+    medicalSource: string;
   };
   dataQuality: {
     seedWarning: string;
@@ -148,10 +179,17 @@ export type Dictionary = {
     statistic: Record<"median" | "mean", string>;
     method: Record<RentMethod, string>;
   };
+  tags: Record<StationTag, string>;
+  exitTags: Record<ExitTag, string>;
   axes: Record<ScoreAxis, string>;
   grades: Record<Grade, string>;
   rentTypes: Record<RentType, string>;
-  presets: Record<WeightPreset, string>;
+  /** 区分の既定（すべての軸を均等に見る）の呼び名。 */
+  balancedLabel: string;
+  /** 区分を決める3つの軸の名前（docs/14-audience-segments.md §2）。 */
+  segmentAxes: Record<SegmentAxis, string>;
+  /** 軸ごとの選択肢の名前。 */
+  segmentOptions: Record<SegmentOption, string>;
   offices: Record<string, string>;
   crowdingLevels: Record<1 | 2 | 3 | 4 | 5, string>;
 };
@@ -164,6 +202,39 @@ const ja: Dictionary = {
   seoCompareTitle: "{a}と{b}、どちらに住むか｜家賃・通勤・環境の比較",
   tagline: "東京で、あなたに一番合う街を見つける。",
   nav: { stations: "駅を見る", find: "駅を探す", compare: "駅を比べる" },
+  about: {
+    heading: "このサイトについて",
+    operatorLabel: "運営者",
+    operatorName: "日本で最高の場所に住もう",
+    contactLabel: "連絡先",
+    whatThisIs:
+      "東京23区の458駅について、家賃・通勤時間・土地の高低・浸水想定・周辺施設を集め、" +
+      "住む街を決めるために比べられる形にしたサイトです。物件を探す前に、" +
+      "どの街に住むかを決めるために使ってください。",
+    sourcesHeading: "数字の出どころ",
+    sources: [
+      "家賃: LIFULL HOME'S・Yahoo!不動産・アットホームが公開する駅ごとの相場を平均し、1万円刻みに丸めた値（当社調べ）",
+      "所要時間: 駅間の距離と路線の種別から計算した推定値。乗車時間を基準にし、乗り換え1回につき5分を加えている",
+      "土地の高低: 国土地理院の標高API。駅と半径400mの8方位、計9地点を読み取った値",
+      "浸水想定: 重ねるハザードマップ（国土交通省・国土地理院）の想定最大規模の区域",
+      "周辺施設: OpenStreetMap contributors（ODbL）",
+      "駅・路線: 駅データ.jp ほか公開データ",
+    ],
+    disclaimerHeading: "読むときに知っておいてほしいこと",
+    disclaimers: [
+      "家賃は募集賃料の平均です。実際に契約する金額はこれより下がることがあります。" +
+        "同じ駅でも、築年数・駅からの距離・通りに面しているかで大きく変わります。",
+      "浸水想定区域は、想定しうる最大規模の雨や台風を前提にした試算です。" +
+        "ふだん浸水する場所という意味でも、区域の外なら浸水しないという意味でもありません。" +
+        "住む場所を決める前に、住所ごとに区のハザードマップで確認してください。",
+      "所要時間は計算した推定値で、実際の時刻表に基づくものではありません。" +
+        "快速や特急などの優等列車は考慮していません。",
+      "店名や施設名は OpenStreetMap に登録されている情報です。" +
+        "閉店や移転が反映されていない場合があります。",
+      "このサイトは不動産の取引を行いません。物件の紹介・仲介もしていません。",
+    ],
+    updatedLabel: "最終更新",
+  },
   home: {
     lead: "勤務先・予算・暮らし方から、東京のどこに住むべきかを決めるためのサービスです。物件を探す前に、街を決める。",
     findCta: "勤務先から駅を探す",
@@ -172,6 +243,9 @@ const ja: Dictionary = {
   },
   station: {
     overall: "総合評価",
+    overallBalanced: "すべての軸を均等に見たときの点数です。",
+    overallSegment: "「{view}」を選んだときの点数です。",
+    alsoKnownAs: "{names}も同じ乗換駅として扱っています",
     rent: "家賃相場",
     commute: "都心アクセス",
     lines: "路線",
@@ -182,6 +256,9 @@ const ja: Dictionary = {
     supermarkets: "スーパー",
     commercial: "商業施設",
     goodFor: "向いている人",
+    townTraits: "どんな街か",
+    townTraitsSource: "出典",
+    townTraitsNote: "記事から街の特色を読み取り、まとめ直しています。家賃や所要時間などの数字は、このページのほかの欄を見てください。",
     notFor: "向かない人",
     residentComment: "東京在住者コメント",
     compiledComment: "この街の特色のまとめ",
@@ -203,6 +280,8 @@ const ja: Dictionary = {
     count: "駅",
     sortBy: "並び替え",
     perspective: "評価の視点",
+    gateNote:
+      "選んだ区分で重く見る軸が下位3割に入る駅は、一覧の後ろにまとめています。",
   },
   find: {
     heading: "勤務先から住む駅を探す",
@@ -250,20 +329,29 @@ const ja: Dictionary = {
     groceries: "日常の買い物",
     tier: { discount: "安い", standard: "標準", premium: "高い" },
     walkMinutes: "徒歩",
+    dailyShops: "ドラッグストア・100円ショップ",
+    shopKind: { drugstore: "ドラッグストア", hundredYen: "100円ショップ" },
     residents: "住んでいる人の層",
     housingStock: "物件の傾向",
     hazards: "災害リスク",
     stationNote: "駅の使い勝手",
+    congestion: "朝の混雑率",
     nightWalk: "夜の帰り道",
     rentReason: "家賃がこの水準である理由",
-    neighbours: "隣の駅との使い分け",
+    neighbours: "近くの駅との違い",
+    alternatives: "この駅と迷いやすい駅",
     outlook: "これからどう変わるか",
     exits: "出口で変わる街の顔",
     family: "子育て",
     medical: "医療",
     rentRange: "同じ駅でも家賃に幅がある",
-    rentDrivers: "差を生む要因",
+    rentDrivers: "家賃の差を生む要因",
     unwritten: "未記入",
+    source: "出典",
+    terrainSource: "国土地理院 標高API",
+    congestionSource: "国交省 混雑率調査（令和7年度）",
+    hazardSource: "国交省ハザードマップ",
+    medicalSource: "OpenStreetMap",
   },
   dataQuality: {
     seedWarning:
@@ -285,7 +373,7 @@ const ja: Dictionary = {
       "この数値は掲載元のページを開いての確認が済んでいない暫定値です。公開前に確認します。",
   },
   hazardNote:
-    "浸水想定区域とは、想定しうる最大規模の雨や台風が起きた場合に浸水すると試算された範囲です。ふだんから浸水する場所という意味ではなく、また区域の外なら浸水しないという意味でもありません。想定される深さは同じ駅でも区画ごとに違うため、住む場所を決める前に、区が公開しているハザードマップで住所ごとに確認してください。",
+    "浸水想定区域とは、想定しうる最大規模の雨や台風が起きた場合に浸水すると試算された範囲です。ふだんから浸水する場所という意味ではなく、また区域の外なら浸水しないという意味でもありません。想定される深さは同じ駅でも区画ごとに違うため、住む場所を決める前に、区が公開しているハザードマップで住所ごとに確認してください。下水があふれる内水氾濫は全国共通の地図がなく、区が個別に公開しているので、あわせて見てください。",
   rentHistory: {
     title: "家賃の推移",
     period: "時点",
@@ -307,8 +395,50 @@ const ja: Dictionary = {
       manual: "手集計",
     },
   },
+  tags: {
+      majorHub: "大きな繁華街",
+    someBustle: "やや繁華街",
+      lively: "にぎやか",
+      quiet: "静か",
+      shoppingEasy: "買い物が近い",
+      diningRich: "外食の店が多い",
+      cafeRich: "カフェが多い",
+      lateNight: "夜遅くまで開いている店がある",
+      parkNear: "公園が近い",
+      flat: "坂がない",
+      hilly: "坂が多い",
+      goodValue: "通勤の速さのわりに家賃が安い",
+      pricey: "通勤の速さのわりに家賃が高い",
+      fastToCenter: "都心へ速い",
+      manyLines: "路線が多い",
+      singleLine: "1路線だけ",
+      floodArea: "浸水想定区域に入る地点が多い",
+      lowFlood: "浸水想定区域に入る地点が少ない",
+      familyFriendly: "子育て向きの環境",
+      singleFriendly: "一人暮らし向き",
+      medicalRich: "医療機関が多い",
+    },
+  exitTags: {
+      shoppingStreet: "商店街",
+      departmentStore: "大型商業施設",
+      diningCluster: "飲食店が集まる",
+      barStreet: "飲み屋街",
+      residential: "住宅街",
+      quietResidential: "閑静な住宅街",
+      office: "オフィス街",
+    entertainment: "繁華街",
+    culture: "美術館・ホール",
+      school: "学校が多い",
+      park: "公園",
+      waterfront: "水辺",
+      factory: "町工場・倉庫",
+      hospital: "病院",
+      uphill: "坂を上る",
+      downhill: "坂を下る",
+    },
   axes: {
     rentValue: "家賃コスパ",
+    rentLow: "家賃の安さ",
     commute: "都心アクセス",
     transitConvenience: "乗換利便性",
     shopping: "買い物",
@@ -324,6 +454,7 @@ const ja: Dictionary = {
     nature: "公園・自然",
     healthcare: "病院",
     fitness: "ジム",
+    disaster: "浸水想定の小ささ",
   },
   grades: {
     excellent: "とても良い",
@@ -337,13 +468,19 @@ const ja: Dictionary = {
     oneLDK: "1LDK",
     twoLDK: "2LDK",
   },
-  presets: {
-    balanced: "バランス",
-    single: "一人暮らし",
-    family: "ファミリー",
-    quiet: "静かさ重視",
-    value: "コスパ重視",
-    international: "外国人向け",
+  balancedLabel: "すべて均等",
+  segmentAxes: {
+    household: "世帯",
+    night: "夜の過ごし方",
+    money: "家賃と立地",
+  },
+  segmentOptions: {
+    kids: "子どもと住む",
+    solo: "子どもなし",
+    out: "夜は街で過ごす",
+    home: "夜は家で過ごす",
+    thrifty: "家賃の安さを優先",
+    location: "立地のよさを優先",
   },
   offices: {
     shinjuku: "新宿",
@@ -371,6 +508,35 @@ const en: Dictionary = {
   seoCompareTitle: "{a} or {b}: comparing rent, commute and surroundings",
   tagline: "Find the Tokyo neighborhood that fits you.",
   nav: { stations: "Stations", find: "Find your area", compare: "Compare" },
+  about: {
+    heading: "About this site",
+    operatorLabel: "Operated by",
+    operatorName: "日本で最高の場所に住もう (Nihon de saikou no basho ni sumou)",
+    contactLabel: "Contact",
+    whatThisIs:
+      "For all 458 stations in Tokyo's 23 wards, this site gathers rent, journey times, " +
+      "the lie of the land, projected flood depths and nearby facilities, and puts them in a " +
+      "form you can compare. It is for deciding which neighbourhood to live in, before you " +
+      "start looking at flats.",
+    sourcesHeading: "Where the figures come from",
+    sources: [
+      "Rent: the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey)",
+      "Journey times: estimates computed from inter-station distance and line type, based on in-vehicle time, with 5 minutes allowed per change",
+      "Elevation: the elevation API of the Geospatial Information Authority of Japan, read at nine points (the station and eight compass directions 400 m out)",
+      "Flood projections: the national hazard map (MLIT and the Geospatial Information Authority of Japan), for the largest scenario modelled",
+      "Nearby facilities: OpenStreetMap contributors (ODbL)",
+      "Stations and lines: ekidata.jp and other published data",
+    ],
+    disclaimerHeading: "What to know before you read",
+    disclaimers: [
+      "Rents are averages of asking rents. What tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+      "A projected inundation area is an estimate based on the largest rainfall or typhoon the authorities plan for. It does not mean the area floods routinely, nor that areas outside it never flood. Before deciding where to live, check your specific address on the ward's own hazard map.",
+      "Journey times are computed estimates, not taken from timetables. Express and rapid services are not modelled.",
+      "Shop and facility names come from OpenStreetMap. Closures and relocations may not be reflected.",
+      "This site does not deal in property. It neither lists nor brokers flats.",
+    ],
+    updatedLabel: "Last updated",
+  },
   home: {
     lead: "Decide where to live in Tokyo based on your office, budget and lifestyle. Choose the neighborhood before you start looking at apartments.",
     findCta: "Find areas near your office",
@@ -379,6 +545,9 @@ const en: Dictionary = {
   },
   station: {
     overall: "Overall",
+    overallBalanced: "Scored with every axis weighted equally.",
+    overallSegment: "Scored for: {view}.",
+    alsoKnownAs: "{names} is treated as the same interchange",
     rent: "Typical rent",
     commute: "Commute",
     lines: "Lines",
@@ -389,6 +558,9 @@ const en: Dictionary = {
     supermarkets: "Supermarkets",
     commercial: "Shopping",
     goodFor: "Good for",
+    townTraits: "What the area is like",
+    townTraitsSource: "Sources",
+    townTraitsNote: "Summarised from the articles above. For rent, journey times and other figures, see the rest of this page.",
     notFor: "Not for",
     residentComment: "From someone who lives in Tokyo",
     compiledComment: "What this neighbourhood is like",
@@ -410,6 +582,8 @@ const en: Dictionary = {
     count: "stations",
     sortBy: "Sort by",
     perspective: "Ranked for",
+    gateNote:
+      "Stations in the bottom 30% on an axis this segment leans on are grouped at the end of the list.",
   },
   find: {
     heading: "Find where to live, starting from your office",
@@ -457,20 +631,29 @@ const en: Dictionary = {
     groceries: "Everyday shopping",
     tier: { discount: "Cheap", standard: "Standard", premium: "Upmarket" },
     walkMinutes: "walk",
+    dailyShops: "Drugstores and 100-yen shops",
+    shopKind: { drugstore: "Drugstore", hundredYen: "100-yen shop" },
     residents: "Who lives here",
     housingStock: "What the housing is like",
     hazards: "Disaster risk",
     stationNote: "Using the station",
+    congestion: "Morning crowding",
     nightWalk: "Walking home at night",
     rentReason: "Why rent sits where it does",
-    neighbours: "When a neighbouring station is better",
+    neighbours: "How the nearest stations differ",
+    alternatives: "Stations you may be weighing this one against",
     outlook: "How it is changing",
     exits: "How the area differs by exit",
     family: "Raising children",
     medical: "Healthcare",
     rentRange: "Rent varies within the same station",
-    rentDrivers: "What drives the difference",
+    rentDrivers: "What drives the rent difference",
     unwritten: "Not written yet",
+    source: "Source",
+    terrainSource: "GSI elevation API",
+    congestionSource: "MLIT crowding survey (FY2025)",
+    hazardSource: "MLIT hazard map",
+    medicalSource: "OpenStreetMap",
   },
   dataQuality: {
     seedWarning:
@@ -518,8 +701,50 @@ const en: Dictionary = {
       manual: "Compiled by hand",
     },
   },
+  tags: {
+      majorHub: "Major entertainment district",
+    someBustle: "Somewhat busy",
+      lively: "Lively",
+      quiet: "Quiet",
+      shoppingEasy: "Shops close by",
+      diningRich: "Plenty of places to eat",
+      cafeRich: "Plenty of cafes",
+      lateNight: "Places open late",
+      parkNear: "Parks nearby",
+      flat: "Flat ground",
+      hilly: "Hilly",
+      goodValue: "Good value for the commute",
+      pricey: "Expensive for the commute",
+      fastToCenter: "Quick into the centre",
+      manyLines: "Several lines",
+      singleLine: "One line only",
+      floodArea: "Much of the area is in the flood projection",
+      lowFlood: "Little of the area is in the flood projection",
+      familyFriendly: "Suits families",
+      singleFriendly: "Suits living alone",
+      medicalRich: "Many medical facilities",
+    },
+  exitTags: {
+      shoppingStreet: "Shopping street",
+      departmentStore: "Large shopping complex",
+      diningCluster: "Restaurants cluster here",
+      barStreet: "Bar street",
+      residential: "Housing",
+      quietResidential: "Quiet residential streets",
+      office: "Offices",
+    entertainment: "Entertainment district",
+    culture: "Museum or concert hall",
+      school: "Schools",
+      park: "Park",
+      waterfront: "Waterfront",
+      factory: "Small factories and warehouses",
+      hospital: "Hospital",
+      uphill: "Uphill",
+      downhill: "Downhill",
+    },
   axes: {
     rentValue: "Rent value",
+    rentLow: "Low rent",
     commute: "Commute",
     transitConvenience: "Transit options",
     shopping: "Groceries",
@@ -535,6 +760,7 @@ const en: Dictionary = {
     nature: "Parks & nature",
     healthcare: "Healthcare",
     fitness: "Gyms",
+    disaster: "Low flood projection",
   },
   grades: {
     excellent: "Excellent",
@@ -548,13 +774,19 @@ const en: Dictionary = {
     oneLDK: "1LDK",
     twoLDK: "2LDK",
   },
-  presets: {
-    balanced: "Balanced",
-    single: "Living alone",
-    family: "Family",
-    quiet: "Quiet",
-    value: "Value",
-    international: "Foreign residents",
+  balancedLabel: "All axes equally",
+  segmentAxes: {
+    household: "Household",
+    night: "Evenings",
+    money: "Rent or location",
+  },
+  segmentOptions: {
+    kids: "With children",
+    solo: "No children",
+    out: "Out in the neighbourhood",
+    home: "At home",
+    thrifty: "Cheaper rent first",
+    location: "Better location first",
   },
   offices: {
     shinjuku: "Shinjuku",
@@ -583,6 +815,33 @@ const zhHans: Dictionary = {
   seoCompareTitle: "{a}还是{b}｜租金·通勤·环境的比较",
   tagline: "找到适合你的东京街区。",
   nav: { stations: "车站一览", find: "找住处", compare: "比较" },
+  about: {
+    heading: "关于本站",
+    operatorLabel: "运营者",
+    operatorName: "日本で最高の場所に住もう",
+    contactLabel: "联系方式",
+    whatThisIs:
+      "本站收集东京23区458个车站的租金、通勤时间、地势高低、浸水想定和周边设施，" +
+      "整理成可以互相比较的形式。请在找房子之前，用它来决定住在哪个街区。",
+    sourcesHeading: "数字的来源",
+    sources: [
+      "租金：取 LIFULL HOME'S、Yahoo!不动产、at home 三家公布的分车站行情的平均值，并向下取整到1万日元（本公司调查）",
+      "通勤时间：按站间距离和线路种类计算的估算值。以乘车时间为准，每次换乘计入5分钟",
+      "地势高低：日本国土地理院的海拔API。读取了车站和半径400米的八个方位，共九个点",
+      "浸水想定：重叠灾害地图（国土交通省·国土地理院）按可能出现的最大规模推算的区域",
+      "周边设施：OpenStreetMap contributors（ODbL）",
+      "车站·线路：车站数据.jp 等公开数据",
+    ],
+    disclaimerHeading: "阅读前请知悉",
+    disclaimers: [
+      "租金是招租价格的平均值。实际签约的金额可能低于此。即使是同一个车站，房龄、离车站的距离、是否临街，都会让金额差出很多。",
+      "浸水想定区域，是按所设想的最大降雨或台风推算出的范围。它既不表示这里平时就会淹水，也不表示区域之外就不会淹。在决定住处之前，请按具体地址查看所在区发布的灾害地图。",
+      "通勤时间是计算出的估算值，不是依据实际时刻表。未考虑快速、特急等优等列车。",
+      "店名和设施名来自 OpenStreetMap，可能没有反映歇业或搬迁。",
+      "本站不从事不动产交易，也不介绍或中介房源。",
+    ],
+    updatedLabel: "最后更新",
+  },
   home: {
     lead: "按公司位置、预算和生活方式，决定在东京住哪里。先定下住的街区，再去看房子。",
     findCta: "从公司位置找街区",
@@ -591,6 +850,9 @@ const zhHans: Dictionary = {
   },
   station: {
     overall: "综合",
+    overallBalanced: "这是各评价轴同等看待时的分数。",
+    overallSegment: "这是选择「{view}」时的分数。",
+    alsoKnownAs: "{names}也作为同一换乘站处理",
     rent: "租金行情",
     commute: "通勤",
     lines: "线路",
@@ -601,6 +863,9 @@ const zhHans: Dictionary = {
     supermarkets: "超市",
     commercial: "购物",
     goodFor: "适合的人",
+    townTraits: "街区特色",
+    townTraitsSource: "出处",
+    townTraitsNote: "根据上述条目整理了街区特色。租金、通勤时间等数字请参看本页其他栏目。",
     notFor: "不适合的人",
     residentComment: "住在东京的人怎么说",
     compiledComment: "这个街区的特色小结",
@@ -622,6 +887,7 @@ const zhHans: Dictionary = {
     count: "个车站",
     sortBy: "排序",
     perspective: "按什么排序",
+    gateNote: "在本区分重视的评价轴上处于后30%的车站，统一排在列表末尾。",
   },
   find: {
     heading: "从公司位置出发，找该住哪里",
@@ -668,20 +934,29 @@ const zhHans: Dictionary = {
     groceries: "日常采买",
     tier: { discount: "便宜", standard: "普通", premium: "高档" },
     walkMinutes: "步行",
+    dailyShops: "药妆店・百元店",
+    shopKind: { drugstore: "药妆店", hundredYen: "百元店" },
     residents: "住的是哪些人",
     housingStock: "房子的类型",
     hazards: "灾害风险",
     stationNote: "车站用起来如何",
+    congestion: "早高峰的拥挤率",
     nightWalk: "夜里回家的路",
     rentReason: "租金为何是这个水平",
-    neighbours: "什么时候邻站更合适",
+    neighbours: "与邻近车站的差别",
+    alternatives: "会与这里放在一起比较的车站",
     outlook: "今后会怎么变",
     exits: "不同出口的差别",
     family: "养育孩子",
     medical: "医疗",
     rentRange: "同一车站内的租金差别",
-    rentDrivers: "差别来自哪里",
+    rentDrivers: "租金差别来自哪里",
     unwritten: "尚未写",
+    source: "出处",
+    terrainSource: "日本国土地理院 海拔API",
+    congestionSource: "日本国交省 拥挤率调查（令和7年度）",
+    hazardSource: "日本国交省 灾害风险地图",
+    medicalSource: "OpenStreetMap",
   },
   dataQuality: {
     seedWarning: "本页的数据是开发用的占位值，不是有出处的数字。",
@@ -723,8 +998,50 @@ const zhHans: Dictionary = {
       manual: "人工整理",
     },
   },
+  tags: {
+      majorHub: "大型繁华街",
+    someBustle: "略显繁华",
+      lively: "热闹",
+      quiet: "安静",
+      shoppingEasy: "买东西方便",
+      diningRich: "餐饮店多",
+      cafeRich: "咖啡馆多",
+      lateNight: "有营业到深夜的店",
+      parkNear: "公园近",
+      flat: "没有坡",
+      hilly: "坡道多",
+      goodValue: "相对通勤速度租金便宜",
+      pricey: "相对通勤速度租金偏高",
+      fastToCenter: "到市中心快",
+      manyLines: "线路多",
+      singleLine: "只有一条线",
+      floodArea: "进入浸水想定区域的地点多",
+      lowFlood: "进入浸水想定区域的地点少",
+      familyFriendly: "适合育儿",
+      singleFriendly: "适合独居",
+      medicalRich: "医疗机构多",
+    },
+  exitTags: {
+      shoppingStreet: "商店街",
+      departmentStore: "大型商业设施",
+      diningCluster: "餐饮店聚集",
+      barStreet: "酒馆街",
+      residential: "住宅区",
+      quietResidential: "安静的住宅区",
+      office: "办公区",
+    entertainment: "繁华街",
+    culture: "美术馆·音乐厅",
+      school: "学校多",
+      park: "公园",
+      waterfront: "水边",
+      factory: "小工厂和仓库",
+      hospital: "医院",
+      uphill: "上坡",
+      downhill: "下坡",
+    },
   axes: {
     rentValue: "租金性价比",
+    rentLow: "租金低廉",
     commute: "通勤",
     transitConvenience: "换乘便利",
     shopping: "日常采买",
@@ -740,6 +1057,7 @@ const zhHans: Dictionary = {
     nature: "公园和绿地",
     healthcare: "医疗",
     fitness: "健身房",
+    disaster: "浸水预估较小",
   },
   grades: {
     excellent: "很好",
@@ -753,13 +1071,19 @@ const zhHans: Dictionary = {
     oneLDK: "1LDK",
     twoLDK: "2LDK",
   },
-  presets: {
-    balanced: "均衡",
-    single: "单身生活",
-    family: "家庭",
-    quiet: "安静",
-    value: "性价比",
-    international: "外国居民",
+  balancedLabel: "各项均衡",
+  segmentAxes: {
+    household: "家庭构成",
+    night: "夜间的过法",
+    money: "房租与位置",
+  },
+  segmentOptions: {
+    kids: "与孩子同住",
+    solo: "没有孩子",
+    out: "夜晚在街上度过",
+    home: "夜晚在家度过",
+    thrifty: "优先考虑房租便宜",
+    location: "优先考虑位置好",
   },
   offices: {
     shinjuku: "新宿",
@@ -787,6 +1111,34 @@ const ko: Dictionary = {
   seoCompareTitle: "{a}와 {b}, 어디에 살까｜임대료·출퇴근·환경 비교",
   tagline: "나에게 맞는 도쿄의 동네를 찾는다.",
   nav: { stations: "역 목록", find: "살 곳 찾기", compare: "비교" },
+  about: {
+    heading: "이 사이트에 대하여",
+    operatorLabel: "운영자",
+    operatorName: "日本で最高の場所に住もう",
+    contactLabel: "연락처",
+    whatThisIs:
+      "도쿄 23구의 458개 역에 대해 임대료, 출퇴근 시간, 땅의 높낮이, 침수 상정, 주변 시설을 모아 " +
+      "서로 비교할 수 있는 형태로 정리한 사이트입니다. 집을 찾기 전에, 어느 동네에 살지를 " +
+      "정하는 데 써 주세요.",
+    sourcesHeading: "숫자의 출처",
+    sources: [
+      "임대료: LIFULL HOME'S, Yahoo!부동산, at home이 공개하는 역별 시세를 평균 내어 1만 엔 단위로 내림한 값(당사 조사)",
+      "출퇴근 시간: 역 사이의 거리와 노선 종류로 계산한 추정값. 승차 시간을 기준으로 하고, 환승 1회당 5분을 더했다",
+      "땅의 높낮이: 일본 국토지리원의 표고 API. 역과 반경 400m의 여덟 방위, 모두 아홉 지점을 읽은 값",
+      "침수 상정: 가사네루 해저드맵(국토교통성·국토지리원)의 상정 최대 규모 구역",
+      "주변 시설: OpenStreetMap contributors(ODbL)",
+      "역·노선: 에키데이터.jp 등 공개 데이터",
+    ],
+    disclaimerHeading: "읽기 전에 알아 두었으면 하는 것",
+    disclaimers: [
+      "임대료는 모집 임대료의 평균입니다. 실제로 계약하는 금액은 이보다 낮아질 수 있습니다. 같은 역이라도 건축 연수, 역에서의 거리, 큰길에 면해 있는지에 따라 크게 달라집니다.",
+      "침수 상정 구역은 상정할 수 있는 최대 규모의 비나 태풍을 전제로 한 추산입니다. 평소에 물에 잠기는 곳이라는 뜻도, 구역 밖이면 잠기지 않는다는 뜻도 아닙니다. 살 곳을 정하기 전에 주소별로 구청이 내놓은 재해 지도에서 확인해 주세요.",
+      "출퇴근 시간은 계산한 추정값이며, 실제 시각표에 따른 것이 아닙니다. 쾌속이나 특급 같은 우등 열차는 반영하지 않았습니다.",
+      "가게 이름과 시설 이름은 OpenStreetMap에 등록된 정보입니다. 폐업이나 이전이 반영되지 않았을 수 있습니다.",
+      "이 사이트는 부동산 거래를 하지 않습니다. 매물 소개나 중개도 하지 않습니다.",
+    ],
+    updatedLabel: "최종 수정",
+  },
   home: {
     lead: "회사 위치와 예산, 생활 방식에 맞춰 도쿄에서 살 곳을 정한다. 집을 보러 다니기 전에, 살 동네부터 정한다.",
     findCta: "회사 위치에서 동네 찾기",
@@ -795,6 +1147,9 @@ const ko: Dictionary = {
   },
   station: {
     overall: "종합",
+    overallBalanced: "모든 축을 균등하게 보았을 때의 점수입니다.",
+    overallSegment: "「{view}」 기준의 점수입니다.",
+    alsoKnownAs: "{names}도 같은 환승역으로 다룹니다",
     rent: "임대료 시세",
     commute: "출퇴근",
     lines: "노선",
@@ -805,6 +1160,9 @@ const ko: Dictionary = {
     supermarkets: "슈퍼마켓",
     commercial: "쇼핑",
     goodFor: "맞는 사람",
+    townTraits: "어떤 동네인가",
+    townTraitsSource: "출처",
+    townTraitsNote: "위 문서에서 동네의 특색을 읽어 정리했습니다. 임대료와 소요 시간 등의 숫자는 이 페이지의 다른 항목을 보세요.",
     notFor: "맞지 않는 사람",
     residentComment: "도쿄에 사는 사람의 이야기",
     compiledComment: "이 동네의 특색 정리",
@@ -826,6 +1184,8 @@ const ko: Dictionary = {
     count: "개 역",
     sortBy: "정렬",
     perspective: "무엇을 기준으로",
+    gateNote:
+      "이 구분에서 중요하게 보는 축이 하위 30%에 해당하는 역은 목록 뒤쪽에 모았습니다.",
   },
   find: {
     heading: "회사 위치에서 시작해 살 곳을 찾는다",
@@ -872,20 +1232,29 @@ const ko: Dictionary = {
     groceries: "일상 장보기",
     tier: { discount: "저렴", standard: "보통", premium: "고급" },
     walkMinutes: "도보",
+    dailyShops: "드러그스토어・100엔숍",
+    shopKind: { drugstore: "드러그스토어", hundredYen: "100엔숍" },
     residents: "어떤 사람들이 사는가",
     housingStock: "어떤 집이 많은가",
     hazards: "재해 위험",
     stationNote: "역을 쓸 때",
+    congestion: "아침 혼잡률",
     nightWalk: "밤에 집으로 가는 길",
     rentReason: "임대료가 이 수준인 이유",
-    neighbours: "옆 역이 나을 때",
+    neighbours: "가까운 역과의 차이",
+    alternatives: "이 역과 함께 놓고 고민하게 되는 역",
     outlook: "앞으로 어떻게 바뀌는가",
     exits: "출구에 따른 차이",
     family: "아이를 키우기",
     medical: "의료",
     rentRange: "같은 역 안에서의 임대료 차이",
-    rentDrivers: "차이가 생기는 이유",
+    rentDrivers: "임대료 차이가 생기는 이유",
     unwritten: "아직 쓰지 않음",
+    source: "출처",
+    terrainSource: "일본 국토지리원 표고 API",
+    congestionSource: "일본 국토교통성 혼잡률 조사(2025년도)",
+    hazardSource: "일본 국토교통성 재해 위험 지도",
+    medicalSource: "OpenStreetMap",
   },
   dataQuality: {
     seedWarning: "이 페이지의 데이터는 개발용 임시값이며, 출처가 있는 숫자가 아니다.",
@@ -927,8 +1296,50 @@ const ko: Dictionary = {
       manual: "사람이 정리",
     },
   },
+  tags: {
+      majorHub: "큰 번화가",
+    someBustle: "다소 번화함",
+      lively: "북적임",
+      quiet: "조용함",
+      shoppingEasy: "장 보기 가까움",
+      diningRich: "외식할 가게가 많음",
+      cafeRich: "카페가 많음",
+      lateNight: "밤늦게까지 여는 가게가 있음",
+      parkNear: "공원이 가까움",
+      flat: "언덕이 없음",
+      hilly: "언덕이 많음",
+      goodValue: "통근 속도에 비해 임대료가 저렴",
+      pricey: "통근 속도에 비해 임대료가 비쌈",
+      fastToCenter: "도심까지 빠름",
+      manyLines: "노선이 많음",
+      singleLine: "노선이 하나뿐",
+      floodArea: "침수 예상 구역에 드는 지점이 많음",
+      lowFlood: "침수 예상 구역에 드는 지점이 적음",
+      familyFriendly: "육아에 맞는 환경",
+      singleFriendly: "1인 가구에 맞음",
+      medicalRich: "의료기관이 많음",
+    },
+  exitTags: {
+      shoppingStreet: "상점가",
+      departmentStore: "대형 상업시설",
+      diningCluster: "음식점이 모여 있음",
+      barStreet: "술집 거리",
+      residential: "주택가",
+      quietResidential: "조용한 주택가",
+      office: "오피스 거리",
+    entertainment: "번화가",
+    culture: "미술관·홀",
+      school: "학교가 많음",
+      park: "공원",
+      waterfront: "물가",
+      factory: "작은 공장과 창고",
+      hospital: "병원",
+      uphill: "오르막",
+      downhill: "내리막",
+    },
   axes: {
     rentValue: "임대료 대비 가치",
+    rentLow: "저렴한 임대료",
     commute: "출퇴근",
     transitConvenience: "환승 편의",
     shopping: "일상 장보기",
@@ -944,6 +1355,7 @@ const ko: Dictionary = {
     nature: "공원과 녹지",
     healthcare: "의료",
     fitness: "헬스장",
+    disaster: "침수 예상이 작음",
   },
   grades: {
     excellent: "매우 좋음",
@@ -957,13 +1369,19 @@ const ko: Dictionary = {
     oneLDK: "1LDK",
     twoLDK: "2LDK",
   },
-  presets: {
-    balanced: "균형",
-    single: "1인 생활",
-    family: "가족",
-    quiet: "조용함",
-    value: "가격 대비",
-    international: "외국인 거주자",
+  balancedLabel: "모든 축을 균등하게",
+  segmentAxes: {
+    household: "가구 구성",
+    night: "저녁 시간",
+    money: "임대료와 입지",
+  },
+  segmentOptions: {
+    kids: "아이와 함께 산다",
+    solo: "아이가 없다",
+    out: "저녁은 동네에서",
+    home: "저녁은 집에서",
+    thrifty: "저렴한 임대료 우선",
+    location: "좋은 입지 우선",
   },
   offices: {
     shinjuku: "신주쿠",

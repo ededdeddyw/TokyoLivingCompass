@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Hongo-Sanchome",
   "tagline": "Otemachi in 6 minutes and Tokyo in 7 minutes. Served by 2 lines. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
-  "summary": "The station is in Bunkyo City, served by Tokyo Metro Marunouchi Line and Toei Oedo Line. Journey times to the main business districts are 6 minutes to Otemachi, 18 minutes to Shinjuku, 28 minutes to Shibuya and 22 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 21.9 m above sea level, and the ground within 800 m varies in height by 13.9 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Bunkyo City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 6 minutes to Otemachi, 18 minutes to Shinjuku, 28 minutes to Shibuya and 22 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 21.9 m above sea level, and the ground within 800 m varies in height by 13.9 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits on the higher side of the ground around it, at 21.9 m above sea level. Within 800 m the ground ranges from 13.9 m to 27.8 m, a difference of 13.9 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 21.9 m above sea level. Within 800 m the ground ranges from 13.9 m to 27.8 m, a difference of 13.9 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 1 of the nine points within 400 m fall inside the area, and the deepest projection there is less than 0.5 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
       "name": "ゆうきや",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/4961068246",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ライフ 本郷三丁目駅前店",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/9742201386",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マルエツプチ",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/5886575034",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと 本郷２丁目店",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/4449843854",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 27 clinics and 25 pharmacies. Facilities recorded as hospitals lie at 飯田医院, about 261 m away and 東京大学医学部附属病院, about 734 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "2 lines serve the station: Tokyo Metro Marunouchi Line and Toei Oedo Line. The lines are split between operators (Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "medical": "Within an 800 m walk of the station there are 27 clinics and 25 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 飯田医院, about 5 minutes' walk from the station. The next nearest is 東京大学医学部附属病院, about 12 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station. Tokyo Metro Marunouchi Line run through it. Toei Oedo Line also call here. The lines are split between operators (Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company.",
+  "congestion": "Tokyo Metro Marunouchi Line runs at 154% of capacity in the morning peak. The busiest stretch is 新大塚→茗荷谷, which this station is not on. Toei Oedo Line runs at 147%. Its busiest stretch is 中井→東中野, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥130,000 to ¥140,000, 1K ¥140,000 to ¥150,000, 1LDK ¥220,000 to ¥230,000 and 2LDK ¥280,000 to ¥290,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥130,000 to ¥140,000 and 1K ¥140,000 to ¥150,000. 1LDK ¥220,000 to ¥230,000 and 2LDK ¥280,000 to ¥290,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is on the low side. a small projected flood depth and plenty of places to eat out pushes the figure up. On the other side, many bars by the station and voices outside late at night holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "kasuga",
-      "note": "671 m away in a straight line. It reaches Otemachi in about the same time as Hongo-Sanchome. One-room rents run about ¥19,000 lower."
+      "lead": "For lower rent, Kasuga; for how close the centre is, Hongo-Sanchome. ",
+      "note": "Close enough to walk to from Hongo-Sanchome. Kasuga has the Toei Oedo Line and Toei Mita Line, a different set from Hongo-Sanchome. To Tokyo, for instance, Kasuga takes 6 minutes longer. A one-room flat costs about ¥19,000 less at Kasuga."
     },
     {
       "slug": "suidobashi",
-      "note": "678 m away in a straight line. It reaches Otemachi in about the same time as Hongo-Sanchome. One-room rents run about ¥7,000 higher."
+      "lead": "For how close the centre is, Suidobashi; for lower rent, Hongo-Sanchome. ",
+      "note": "Close enough to walk to from Hongo-Sanchome. Suidobashi has the JR Chuo-Sobu Line (Local) and Toei Mita Line, a different set from Hongo-Sanchome. To Shibuya, for instance, Suidobashi is 5 minutes quicker. A one-room flat costs about ¥7,000 more at Suidobashi. On how little of the area is in the flood projection, Hongo-Sanchome comes out ahead."
     }
   ],
   "goodFor": [
@@ -69,5 +72,27 @@
   "notFor": [
     "The data does not show a drawback particular to this station"
   ],
+  "noiseSources": [
+    "春日通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road",
+    "春日通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "someBustle",
+    "lowFlood",
+    "diningRich",
+    "lateNight",
+    "cafeRich",
+    "medicalRich"
+  ],
+  "leads": {
+    "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
+    "groceries": "There are 9 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
+    "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
+  },
   "authoredBy": "data-generated"
 }

@@ -3,22 +3,25 @@
   "locale": "en",
   "name": "Kasumigaseki",
   "tagline": "Toranomon in 1 minute and Tokyo in 5 minutes. Served by 3 lines.",
-  "summary": "The station is in Chiyoda City, served by Tokyo Metro Marunouchi Line, Tokyo Metro Hibiya Line and Tokyo Metro Chiyoda Line. Journey times to the main business districts are 5 minutes to Otemachi, 13 minutes to Shinjuku, 17 minutes to Shibuya and 20 minutes to Shinagawa. The station stands 7.4 m above sea level, and the ground within 800 m varies in height by 16.3 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Chiyoda City, where Tokyo Metro run 3 lines between them. Journey times to the main business districts are 5 minutes to Otemachi, 13 minutes to Shinjuku, 17 minutes to Shibuya and 20 minutes to Shinagawa. The station stands 7.4 m above sea level, and the ground within 800 m varies in height by 16.3 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits lower than the ground around it, at 7.4 m above sea level. Within 800 m the ground ranges from 4.4 m to 20.7 m, a difference of 16.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 7.4 m above sea level. Within 800 m the ground ranges from 4.4 m to 20.7 m, a difference of 16.3 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
-  "medical": "Within an 800 m walk of the station there are 18 clinics and 14 pharmacies. Facilities recorded as hospitals lie at 浩邦会日比谷病院, about 715 m away and 虎の門病院, about 776 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "3 lines serve the station: Tokyo Metro Marunouchi Line, Tokyo Metro Hibiya Line and Tokyo Metro Chiyoda Line. All 3 lines are run by Tokyo Metro, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 68.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 3 also fall inside the area, and the deepest projection is less than 0.5 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
+  "medical": "Within an 800 m walk of the station there are 18 clinics and 14 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 浩邦会日比谷病院, about 12 minutes' walk from the station. The next nearest is 虎の門病院, about 13 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "3 lines serve the station. Tokyo Metro Marunouchi Line run through it. Tokyo Metro Hibiya Line also call here. Tokyo Metro Chiyoda Line are available too. All 3 lines are run by Tokyo Metro, so a fault affecting that company can stop them together.",
+  "congestion": "Tokyo Metro Hibiya Line runs at 163% of capacity in the morning peak. The busiest stretch is 三ノ輪→入谷, which this station is not on. Tokyo Metro Marunouchi Line runs at 154%. Its busiest stretch is 新大塚→茗荷谷, which this station is likewise not on. Tokyo Metro Chiyoda Line runs at 150%. Its busiest stretch is 町屋→西日暮里, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "neighbours": [
     {
       "slug": "sakuradamon",
-      "note": "400 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Kasumigaseki."
+      "lead": "For quiet, Sakuradamon; for rail connections, Kasumigaseki. ",
+      "note": "Close enough to walk to from Kasumigaseki. Sakuradamon has only the Tokyo Metro Yurakucho Line, so Kasumigaseki is the better connected. To Toranomon, for instance, Sakuradamon takes 9 minutes longer. On quiet, though, Sakuradamon comes out ahead."
     },
     {
       "slug": "kokkai-gijidomae",
-      "note": "513 m away in a straight line. It reaches Otemachi in about the same time as Kasumigaseki."
+      "lead": "For how easy the shopping is, Kokkai-Gijidomae; for rail connections, Kasumigaseki. ",
+      "note": "Close enough to walk to from Kasumigaseki. Kokkai-Gijidomae has only the Tokyo Metro Marunouchi Line and Tokyo Metro Chiyoda Line, so Kasumigaseki is the better connected. To Toranomon, for instance, Kokkai-Gijidomae takes 7 minutes longer. On how easy the shopping is, though, Kokkai-Gijidomae comes out ahead."
     }
   ],
   "goodFor": [
@@ -30,5 +33,24 @@
     "People avoiding projected flood inundation areas",
     "People who want to finish their shopping on foot"
   ],
+  "noiseSources": [
+    "The 首都高速都心環状線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
+    "桜田通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "lowFlood",
+    "fastToCenter",
+    "singleFriendly",
+    "medicalRich"
+  ],
+  "leads": {
+    "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
+    "groceries": "OpenStreetMap records no supermarket within walking distance of the station.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
+    "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are some of the most heavily loaded in the morning. ",
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
+  },
   "authoredBy": "data-generated"
 }

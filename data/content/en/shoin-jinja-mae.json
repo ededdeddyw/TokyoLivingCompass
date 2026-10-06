@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Shoin-Jinja-Mae",
   "tagline": "Shibuya in 20 minutes and Shinjuku in 29 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Setagaya City, served by Tokyu Setagaya Line. Journey times to the main business districts are 43 minutes to Otemachi, 29 minutes to Shinjuku, 20 minutes to Shibuya and 46 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 37.8 m above sea level, and the ground within 800 m varies in height by 8.8 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Setagaya City, where Tokyu run 1 line between them. Journey times to the main business districts are 43 minutes to Otemachi, 29 minutes to Shinjuku, 20 minutes to Shibuya and 46 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 37.8 m above sea level, and the ground within 800 m varies in height by 8.8 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits on the higher side of the ground around it, at 37.8 m above sea level. Within 800 m the ground ranges from 29.4 m to 38.2 m, a difference of 8.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 37.8 m above sea level. Within 800 m the ground ranges from 29.4 m to 38.2 m, a difference of 8.8 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 4 of the nine points within 400 m fall inside the area, and the deepest projection there is 0.5 to 3 m. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "サミット 松陰神社前店",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/1798142276",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/5408651179",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Cusina Felice",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/5438780492",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "TOP若林店",
       "tier": "standard",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/2391232594",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 7 clinics and 12 pharmacies. Facilities recorded as hospitals lie at さくら会世田谷中央病院, about 516 m away and 平和協会駒沢病院, about 1188 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Tokyu Setagaya Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 7 clinics and 12 pharmacies. Day-to-day care is available close to the station. The nearest hospital is さくら会世田谷中央病院, about 9 minutes' walk from the station. The next nearest is 平和協会駒沢病院, about 20 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyu Setagaya Line.",
+  "congestion": "The ministry's congestion survey does not publish figures for Tokyu Setagaya Line. It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
-    "note": "One room ¥90,000 to ¥100,000, 1K ¥90,000 to ¥100,000, 1LDK ¥180,000 to ¥190,000 and 2LDK ¥250,000 to ¥260,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥90,000 to ¥100,000 and 1K ¥90,000 to ¥100,000. 1LDK ¥180,000 to ¥190,000 and 2LDK ¥250,000 to ¥260,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is on the high side. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "setagaya",
-      "note": "387 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Shoin-Jinja-Mae. One-room rents run about ¥10,000 lower."
+      "lead": "For lower rent, Setagaya; for how close the centre is, Shoin-Jinja-Mae. ",
+      "note": "Close enough to walk to from Shoin-Jinja-Mae. It is served by the same lines as Shoin-Jinja-Mae. To Otemachi, for instance, Setagaya takes 3 minutes longer. A one-room flat costs about ¥10,000 less at Setagaya."
     },
     {
       "slug": "wakabayashi",
-      "note": "478 m away in a straight line. It reaches Otemachi in about the same time as Shoin-Jinja-Mae."
+      "lead": "For how close the centre is, Wakabayashi; for safety, Shoin-Jinja-Mae. ",
+      "note": "Close enough to walk to from Shoin-Jinja-Mae. It is served by the same lines as Shoin-Jinja-Mae. To Tokyo, for instance, Wakabayashi is 3 minutes quicker. On the number of places to eat out, Shoin-Jinja-Mae comes out ahead."
     }
   ],
   "goodFor": [
@@ -68,5 +71,23 @@
   "notFor": [
     "People who want another route when service is suspended"
   ],
+  "noiseSources": [
+    "世田谷通り (1 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
+  ],
+  "tags": [
+    "pricey",
+    "lowFlood",
+    "singleLine",
+    "medicalRich"
+  ],
+  "leads": {
+    "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
+    "groceries": "There are 7 supermarkets within walking distance, and the nearest is 4 minutes on foot.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
+    "stationNote": "Only the Tokyu Setagaya Line serves this station, so when it stops you walk to another station.",
+    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
+  },
   "authoredBy": "data-generated"
 }

@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Kita-Sando",
   "tagline": "Shibuya in 5 minutes and Shinjuku in 10 minutes. Served by 1 line. A one-room flat rents for roughly ¥150,000 to ¥160,000.",
-  "summary": "The station is in Shibuya City, served by Tokyo Metro Fukutoshin Line. Journey times to the main business districts are 23 minutes to Otemachi, 10 minutes to Shinjuku, 5 minutes to Shibuya and 31 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 25.5 m above sea level, and the ground within 800 m varies in height by 10.0 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shibuya City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 23 minutes to Otemachi, 10 minutes to Shinjuku, 5 minutes to Shibuya and 31 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 25.5 m above sea level, and the ground within 800 m varies in height by 10.0 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits lower than the ground around it, at 25.5 m above sea level. Within 800 m the ground ranges from 25.5 m to 35.5 m, a difference of 10.0 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 25.5 m above sea level. Within 800 m the ground ranges from 25.5 m to 35.5 m, a difference of 10.0 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 2 also fall inside the area, and the deepest projection is 0.5 to 3 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
       "name": "オーケーストア 千駄ヶ谷店",
       "tier": "discount",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/2933652015",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "コープ",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/2933652016",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ピアゴ",
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/3899237666",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マルマンストア",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/4104461590",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 2 clinics and 3 pharmacies. Facilities recorded as hospitals lie at 東海大学医学部付属東京病院, about 436 m away and 東京勤労者医療会代々木病院, about 451 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Tokyo Metro Fukutoshin Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 2 clinics and 3 pharmacies. The nearest hospital is 東海大学医学部付属東京病院, about 8 minutes' walk from the station. The next nearest is 東京勤労者医療会代々木病院, about 8 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tokyo Metro Fukutoshin Line.",
+  "congestion": "Tokyo Metro Fukutoshin Line runs at 117% of capacity in the morning peak. The busiest stretch is 要町→池袋, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥150,000 to ¥160,000, 1K ¥140,000 to ¥150,000, 1LDK ¥250,000 to ¥260,000 and 2LDK ¥370,000 to ¥380,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥150,000 to ¥160,000 and 1K ¥140,000 to ¥150,000. 1LDK ¥250,000 to ¥260,000 and 2LDK ¥370,000 to ¥380,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥150,000 to ¥160,000. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥150,000 to ¥160,000. Set against how long it takes to reach the central business districts, that is on the high side. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "yoyogi",
-      "note": "608 m away in a straight line. It reaches Otemachi in about the same time as Kita-Sando. One-room rents run about ¥18,000 lower."
+      "lead": "Yoyogi is ahead on rail connections and how close the centre is. ",
+      "note": "Close enough to walk to from Kita-Sando. Yoyogi also has the JR Yamanote Line, JR Chuo-Sobu Line (Local) and Toei Oedo Line, which Kita-Sando does not. With more lines, Yoyogi is the better connected of the two. To Roppongi, for instance, Yoyogi is 16 minutes quicker. A one-room flat also costs about ¥18,000 less at Yoyogi."
     },
     {
       "slug": "sendagaya",
-      "note": "638 m away in a straight line. It reaches Otemachi in about the same time as Kita-Sando. One-room rents run about ¥20,000 lower."
+      "lead": "For lower rent, Sendagaya; for how close the centre is, Kita-Sando. ",
+      "note": "Close enough to walk to from Kita-Sando. Sendagaya has the JR Chuo-Sobu Line (Local), a different set from Kita-Sando. To Shibuya, for instance, Sendagaya takes 9 minutes longer. A one-room flat costs about ¥20,000 less at Sendagaya. On safety, Sendagaya comes out ahead."
     }
   ],
   "goodFor": [
@@ -71,5 +74,25 @@
     "People who want to finish their shopping on foot",
     "People who want to hold the rent down"
   ],
+  "noiseSources": [
+    "The 首都高速4号新宿線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
+    "明治通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "pricey",
+    "lowFlood",
+    "fastToCenter",
+    "singleLine"
+  ],
+  "leads": {
+    "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
+    "groceries": "There are 4 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
+    "stationNote": "Only the Tokyo Metro Fukutoshin Line serves this station, so when it stops you walk to another station.",
+    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
+  },
   "authoredBy": "data-generated"
 }

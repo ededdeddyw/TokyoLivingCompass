@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Aomono-Yokocho",
   "tagline": "Shinagawa in 5 minutes and Tokyo in 20 minutes. Served by 1 line. A one-room flat rents for roughly ¥110,000 to ¥120,000.",
-  "summary": "The station is in Shinagawa City, served by Keikyu Main Line. Journey times to the main business districts are 26 minutes to Otemachi, 36 minutes to Shinjuku, 31 minutes to Shibuya and 5 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 3.4 m above sea level, and the ground within 800 m varies in height by 13.2 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shinagawa City, where Keikyu run 1 line between them. Journey times to the main business districts are 26 minutes to Otemachi, 36 minutes to Shinjuku, 31 minutes to Shibuya and 5 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 3.4 m above sea level, and the ground within 800 m varies in height by 13.2 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits lower than the ground around it, at 3.4 m above sea level. Within 800 m the ground ranges from 2 m to 15.2 m, a difference of 13.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 3.4 m above sea level. Within 800 m the ground ranges from 2 m to 15.2 m, a difference of 13.2 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 5 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 4 of the nine points within 400 m fall inside the area, and the deepest projection there is 0.5 to 3 m. For storm surge, 5 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "オーケーストア",
       "tier": "discount",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/4464931089",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/2390628279",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "miniピアゴ (mini PIAGO)",
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/2391098425",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "イオン 品川シーサイド店",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/way/204395549",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 5 clinics and 5 pharmacies. Facilities recorded as hospitals lie at 柴田内科消化器科クリニック, about 132 m away and 東京品川病院, about 1121 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Keikyu Main Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 5 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 柴田内科消化器科クリニック, about 3 minutes' walk from the station. The next nearest is 東京品川病院, about 19 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Keikyu Main Line.",
+  "congestion": "Keikyu Main Line runs at 120% of capacity in the morning peak. The busiest stretch is 戸部→横浜, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥110,000 to ¥120,000, 1K ¥120,000 to ¥130,000, 1LDK ¥190,000 to ¥200,000 and 2LDK ¥250,000 to ¥260,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥110,000 to ¥120,000 and 1K ¥120,000 to ¥130,000. 1LDK ¥190,000 to ¥200,000 and 2LDK ¥250,000 to ¥260,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥110,000 to ¥120,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥110,000 to ¥120,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What holds the figure down: only one line, the {line}, serving the station. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "samezu",
-      "note": "490 m away in a straight line. It reaches Otemachi in about the same time as Aomono-Yokocho."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Aomono-Yokocho. It is served by the same lines as Aomono-Yokocho. Journey times to the main business districts are much the same. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "shinagawa-seaside",
-      "note": "602 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Aomono-Yokocho. One-room rents run about ¥7,000 higher."
+      "lead": "For how close the centre is, Shinagawa-Seaside; for lower rent, Aomono-Yokocho. ",
+      "note": "Close enough to walk to from Aomono-Yokocho. Shinagawa-Seaside has the Rinkai Line, a different set from Aomono-Yokocho. To Shinjuku, for instance, Shinagawa-Seaside is 12 minutes quicker. A one-room flat costs about ¥7,000 more at Shinagawa-Seaside. On quiet, Shinagawa-Seaside comes out ahead."
     }
   ],
   "goodFor": [
@@ -68,5 +71,24 @@
   "notFor": [
     "People who want another route when service is suspended"
   ],
+  "noiseSources": [
+    "第一京浜 (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road",
+    "池上通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "lowFlood",
+    "singleLine",
+    "parkNear"
+  ],
+  "leads": {
+    "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
+    "groceries": "There are 7 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
+    "stationNote": "Only the Keikyu Main Line serves this station, so when it stops you walk to another station.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
+  },
   "authoredBy": "data-generated"
 }

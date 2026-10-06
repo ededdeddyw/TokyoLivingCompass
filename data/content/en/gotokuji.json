@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Gotokuji",
   "tagline": "Shinjuku in 16 minutes and Shibuya in 18 minutes. Served by 2 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Setagaya City, served by Odakyu Odawara Line and Tokyu Setagaya Line. Journey times to the main business districts are 34 minutes to Otemachi, 16 minutes to Shinjuku, 18 minutes to Shibuya and 44 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 35.2 m above sea level, and the ground within 800 m varies in height by 7.5 m. The land around the station is close to level.",
+  "summary": "The station is in Setagaya City, where Odakyu and Tokyu run 2 lines between them. Journey times to the main business districts are 34 minutes to Otemachi, 16 minutes to Shinjuku, 18 minutes to Shibuya and 44 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 35.2 m above sea level, and the ground within 800 m varies in height by 7.5 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits on the higher side of the ground around it, at 35.2 m above sea level. Within 800 m the ground ranges from 32.9 m to 40.4 m, a difference of 7.5 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 35.2 m above sea level. Within 800 m the ground ranges from 32.9 m to 40.4 m, a difference of 7.5 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 4 also fall inside the area, and the deepest projection is 0.5 to 3 m. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "つるかめストア",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/1230778035",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Parque",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/5436853551",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Odakyu OX 梅ヶ丘店",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/1221313459",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ワイズマート 梅ヶ丘店",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/1230778027",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 17 clinics and 16 pharmacies. Facilities recorded as hospitals lie at うめとぴあ, about 498 m away and 児玉新生会児玉経堂病院, about 1062 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "2 lines serve the station: Odakyu Odawara Line and Tokyu Setagaya Line. The lines are split between operators (Odakyu runs 1 line and Tokyu runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "medical": "Within an 800 m walk of the station there are 17 clinics and 16 pharmacies. Day-to-day care is available close to the station. The nearest hospital is うめとぴあ, about 9 minutes' walk from the station. The next nearest is 児玉新生会児玉経堂病院, about 18 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Odakyu Odawara Line and Tokyu Setagaya Line. The lines are split between operators (Odakyu runs 1 line and Tokyu runs 1 line), so when one line stops you can change to a line run by a different company.",
+  "congestion": "Odakyu Odawara Line runs at 150% of capacity in the morning peak. The busiest stretch is 世田谷代田→下北沢, which this station is not on. Tokyu Setagaya Line is not covered by the ministry's congestion survey. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥70,000 to ¥80,000, 1K ¥90,000 to ¥100,000, 1LDK ¥160,000 to ¥170,000 and 2LDK ¥220,000 to ¥230,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥70,000 to ¥80,000 and 1K ¥90,000 to ¥100,000. 1LDK ¥160,000 to ¥170,000 and 2LDK ¥220,000 to ¥230,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is on the low side. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "umegaoka",
-      "note": "651 m away in a straight line. It reaches Otemachi in about the same time as Gotokuji."
+      "lead": "Gotokuji is ahead on rail connections and safety. ",
+      "note": "Close enough to walk to from Gotokuji. Umegaoka has only the Odakyu Odawara Line, so Gotokuji is the better connected. Journey times to the main business districts are much the same. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "miyanosaka",
-      "note": "725 m away in a straight line. It takes 9 minutes longer to reach Otemachi than Gotokuji."
+      "lead": "For quiet, Miyanosaka; for rail connections, Gotokuji. ",
+      "note": "Close enough to walk to from Gotokuji. Miyanosaka has only the Tokyu Setagaya Line, so Gotokuji is the better connected. To Toranomon, for instance, Miyanosaka takes 9 minutes longer. On quiet, though, Miyanosaka comes out ahead."
     }
   ],
   "goodFor": [
@@ -70,5 +73,24 @@
   "notFor": [
     "People avoiding projected flood inundation areas"
   ],
+  "noiseSources": [
+    "瀬田貫井線 (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "goodValue",
+    "familyFriendly",
+    "flat",
+    "medicalRich"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 6 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
+    "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
+  },
   "authoredBy": "data-generated"
 }

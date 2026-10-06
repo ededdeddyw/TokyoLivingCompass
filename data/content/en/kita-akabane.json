@@ -6,43 +6,44 @@
   "summary": "The station is in Kita City, served by JR Saikyo Line. Journey times to the main business districts are 36 minutes to Otemachi, 20 minutes to Shinjuku, 26 minutes to Shibuya and 49 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 4 m above sea level, and the ground within 800 m varies in height by 9.7 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits lower than the ground around it, at 4 m above sea level. Within 800 m the ground ranges from 2.1 m to 11.8 m, a difference of 9.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 4 m above sea level. Within 800 m the ground ranges from 2.1 m to 11.8 m, a difference of 9.7 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 5 to 10 m. Of the nine points within 400 m of the station, 8 fall inside the area, and the deepest projection among them is 5 to 10 m. For storm surge, 5 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 5 to 10 m. Of the nine points within 400 m of the station, 8 also fall inside the area, and the deepest projection is 5 to 10 m. For storm surge, 5 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the large side for the 23 wards.",
   "groceries": [
     {
       "name": "ライフ 北赤羽店",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/1785756554",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/9963588985",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ライフ",
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/9963588981",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "OK",
       "tier": "standard",
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/way/391517645",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 1 clinic. Facilities recorded as hospitals lie at 東京北医療センター, about 642 m away and 板橋中央総合病院, about 1444 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: JR Saikyo Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 1 clinic. The nearest hospital is 東京北医療センター, about 11 minutes' walk from the station. The next nearest is 板橋中央総合病院, about 24 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: JR Saikyo Line.",
+  "congestion": "JR Saikyo Line runs at 167% of capacity in the morning peak. The busiest stretch is 板橋→池袋, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥70,000 to ¥80,000, 1K ¥90,000 to ¥100,000, 1LDK ¥140,000 to ¥150,000 and 2LDK ¥180,000 to ¥190,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥70,000 to ¥80,000 and 1K ¥90,000 to ¥100,000. 1LDK ¥140,000 to ¥150,000 and 2LDK ¥180,000 to ¥190,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is on the low side. quiet surroundings pushes the figure up. On the other side, a large projected flood depth and only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "ukimafunado",
-      "note": "1376 m away in a straight line. It reaches Otemachi in about the same time as Kita-Akabane."
+      "lead": "Kita-Akabane is ahead on how close the centre is and the number of medical facilities. ",
+      "note": "About 1.5 km from Kita-Akabane in a straight line. It is served by the same lines as Kita-Akabane. To Tokyo, for instance, Ukimafunado takes 3 minutes longer. On the number of medical facilities, Kita-Akabane comes out ahead."
     },
     {
       "slug": "akabane-iwabuchi",
-      "note": "1533 m away in a straight line. It reaches Otemachi in about the same time as Kita-Akabane."
+      "lead": "For rail connections, Akabane-Iwabuchi; for how close the centre is, Kita-Akabane. ",
+      "note": "About 1.5 km from Kita-Akabane in a straight line. Akabane-Iwabuchi also has the Tokyo Metro Namboku Line and Saitama Railway Line, which Kita-Akabane does not. With more lines, Akabane-Iwabuchi is the better connected of the two. To Shinjuku, for instance, Akabane-Iwabuchi takes 18 minutes longer. On safety, though, Kita-Akabane comes out ahead."
     }
   ],
   "goodFor": [
@@ -72,5 +75,25 @@
     "People who want to finish their shopping on foot",
     "People who want plenty of places to eat out"
   ],
+  "noiseSources": [
+    "赤羽西台線 (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road",
+    "The nearest big road, 環八通り, is far enough that little traffic noise reaches the station area"
+  ],
+  "tags": [
+    "quiet",
+    "goodValue",
+    "floodArea",
+    "singleLine"
+  ],
+  "leads": {
+    "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
+    "groceries": "There are 4 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
+    "stationNote": "Only the JR Saikyo Line serves this station, so when it stops you walk to another station.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are some of the most heavily loaded in the morning. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
+  },
   "authoredBy": "data-generated"
 }

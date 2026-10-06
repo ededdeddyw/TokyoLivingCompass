@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Uguisudani",
   "tagline": "Tokyo in 11 minutes and Otemachi in 17 minutes. Served by 2 lines. A one-room flat rents for roughly ¥110,000 to ¥120,000.",
-  "summary": "The station is in Taito City, served by JR Yamanote Line and JR Keihin-Tohoku Line. Journey times to the main business districts are 17 minutes to Otemachi, 25 minutes to Shinjuku, 34 minutes to Shibuya and 25 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 8.8 m above sea level, and the ground within 800 m varies in height by 16.9 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Taito City, where JR East run 2 lines between them. Journey times to the main business districts are 17 minutes to Otemachi, 25 minutes to Shinjuku, 34 minutes to Shibuya and 25 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 8.8 m above sea level, and the ground within 800 m varies in height by 16.9 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits on the higher side of the ground around it, at 8.8 m above sea level. Within 800 m the ground ranges from 2.8 m to 19.7 m, a difference of 16.9 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 8.8 m above sea level. Within 800 m the ground ranges from 2.8 m to 19.7 m, a difference of 16.9 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 5 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 5 of the nine points within 400 m fall inside the area, and the deepest projection there is 0.5 to 3 m. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "ドン・キホーテ鶯谷店",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/11897856469",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "業務スーパー",
       "tier": "discount",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/5718105176",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/5718105161",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ライフ 東日暮里店",
       "tier": "standard",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/way/232228587",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 13 clinics and 11 pharmacies. Facilities recorded as hospitals lie at 神経科土田病院, about 487 m away and はせがわ病院, about 815 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "2 lines serve the station: JR Yamanote Line and JR Keihin-Tohoku Line. Both lines are run by JR East, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "medical": "Within an 800 m walk of the station there are 13 clinics and 11 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 神経科土田病院, about 8 minutes' walk from the station. The next nearest is はせがわ病院, about 14 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: JR Yamanote Line and JR Keihin-Tohoku Line. Both lines are run by JR East, so a fault affecting that company can stop them together.",
+  "congestion": "JR Keihin-Tohoku Line runs at 159% of capacity in the morning peak. The busiest stretch is 大井町→品川, which this station is not on. JR Yamanote Line runs at 136%. Its busiest stretch is 新大久保→新宿, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥110,000 to ¥120,000, 1K ¥120,000 to ¥130,000, 1LDK ¥180,000 to ¥190,000 and 2LDK ¥240,000 to ¥250,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥110,000 to ¥120,000 and 1K ¥120,000 to ¥130,000. 1LDK ¥180,000 to ¥190,000 and 2LDK ¥240,000 to ¥250,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥110,000 to ¥120,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥110,000 to ¥120,000. Set against how long it takes to reach the central business districts, that is on the low side. In plain yen, though, it is on the high side for the 23 wards. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "iriya",
-      "note": "563 m away in a straight line. It reaches Otemachi in about the same time as Uguisudani."
+      "lead": "Uguisudani is ahead on rail connections and how close the centre is. ",
+      "note": "Close enough to walk to from Uguisudani. Iriya has only the Tokyo Metro Hibiya Line, so Uguisudani is the better connected. To Shinjuku, for instance, Iriya takes 5 minutes longer. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "ueno",
-      "note": "923 m away in a straight line. It reaches Otemachi 6 minutes sooner than Uguisudani."
+      "lead": "Ueno is ahead on rail connections and how close the centre is. ",
+      "note": "Close enough to walk to from Uguisudani. Ueno has 6 lines that Uguisudani does not. With more lines, Ueno is the better connected of the two. To Tokyo, for instance, Ueno is 6 minutes quicker. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -69,5 +72,24 @@
   "notFor": [
     "The data does not show a drawback particular to this station"
   ],
+  "noiseSources": [
+    "言問通り (1 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
+  ],
+  "tags": [
+    "goodValue",
+    "shoppingEasy",
+    "lateNight",
+    "medicalRich"
+  ],
+  "leads": {
+    "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
+    "groceries": "There are 11 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
+    "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
+  },
   "authoredBy": "data-generated"
 }

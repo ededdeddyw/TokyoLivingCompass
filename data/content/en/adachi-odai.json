@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Adachi-Odai",
   "tagline": "Otemachi in 26 minutes and Tokyo in 27 minutes. Served by 1 line. A one-room flat rents for roughly ¥60,000 to ¥70,000.",
-  "summary": "The station is in Adachi City, served by Nippori-Toneri Liner. Journey times to the main business districts are 26 minutes to Otemachi, 38 minutes to Shinjuku, 44 minutes to Shibuya and 42 minutes to Shinagawa. A one-room flat rents for roughly ¥60,000 to ¥70,000. The station stands 1.6 m above sea level, and the ground within 800 m varies in height by 4.7 m. The land around the station is close to level.",
+  "summary": "The station is in Adachi City, where the Tokyo Metropolitan Bureau of Transportation run 1 line between them. Journey times to the main business districts are 26 minutes to Otemachi, 38 minutes to Shinjuku, 44 minutes to Shibuya and 42 minutes to Shinagawa. A one-room flat rents for roughly ¥60,000 to ¥70,000. The station stands 1.6 m above sea level, and the ground within 800 m varies in height by 4.7 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits lower than the ground around it, at 1.6 m above sea level. Within 800 m the ground ranges from 1.5 m to 6.2 m, a difference of 4.7 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 1.6 m above sea level. Within 800 m the ground ranges from 1.5 m to 6.2 m, a difference of 4.7 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 5 fall inside the area, and the deepest projection among them is 5 to 10 m. For storm surge, 2 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 5 of the nine points within 400 m fall inside the area, and the deepest projection there is 5 to 10 m. For storm surge, 2 of the nine points also fall inside the projected area. On the whole, the flood projection here is about average for the 23 wards.",
   "groceries": [
     {
       "name": "オーケーストア 足立小台店",
       "tier": "discount",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/3350187229",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/5438174601",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ライフ 東尾久店",
       "tier": "standard",
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/node/2001844216",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "J・マート物産店",
       "tier": "standard",
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/node/5628327770",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 1 clinic and 1 pharmacy. Facilities recorded as hospitals lie at 竹内病院, about 1563 m away and 米倉脊椎・関節病院, about 1614 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Nippori-Toneri Liner. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 1 clinic and 1 pharmacy. The nearest hospital is 竹内病院, about 26 minutes' walk from the station. The next nearest is 米倉脊椎・関節病院, about 27 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Nippori-Toneri Liner.",
+  "congestion": "The ministry's congestion survey does not publish figures for Nippori-Toneri Liner. It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
-    "note": "One room ¥60,000 to ¥70,000, 1K ¥90,000 to ¥100,000, 1LDK ¥120,000 to ¥130,000 and 2LDK ¥180,000 to ¥190,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥60,000 to ¥70,000 and 1K ¥90,000 to ¥100,000. 1LDK ¥120,000 to ¥130,000 and 2LDK ¥180,000 to ¥190,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥60,000 to ¥70,000. For 1K, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥60,000 to ¥70,000. Set against how long it takes to reach the central business districts, that is on the low side. quiet surroundings pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down. For 1K, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "kumanomae",
-      "note": "624 m away in a straight line. It reaches Otemachi in about the same time as Adachi-Odai. One-room rents run about ¥10,000 higher."
+      "lead": "For rail connections, Kumanomae; for lower rent, Adachi-Odai. ",
+      "note": "Close enough to walk to from Adachi-Odai. Kumanomae also has the Tokyo Sakura Tram (Toden Arakawa Line), which Adachi-Odai does not. With more lines, Kumanomae is the better connected of the two. To Shibuya, for instance, Kumanomae is 3 minutes quicker. A one-room flat, though, costs about ¥10,000 more at Kumanomae."
     },
     {
       "slug": "miyanomae",
-      "note": "701 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Adachi-Odai. One-room rents run about ¥7,000 higher."
+      "lead": "For the number of medical facilities, Miyanomae; for how close the centre is, Adachi-Odai. ",
+      "note": "Close enough to walk to from Adachi-Odai. Miyanomae has the Tokyo Sakura Tram (Toden Arakawa Line), a different set from Adachi-Odai. To Toranomon, for instance, Miyanomae takes 6 minutes longer. A one-room flat costs about ¥7,000 more at Miyanomae. On the number of places to eat out, Miyanomae comes out ahead."
     }
   ],
   "goodFor": [
@@ -72,5 +75,24 @@
     "People who want to finish their shopping on foot",
     "People who want plenty of places to eat out"
   ],
+  "noiseSources": [
+    "尾久橋通り (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road",
+    "新荒川堤防線 (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "quiet",
+    "singleLine",
+    "flat",
+    "parkNear"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 4 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
+    "stationNote": "Only the Nippori-Toneri Liner serves this station, so when it stops you walk to another station.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
+  },
   "authoredBy": "data-generated"
 }

@@ -6,43 +6,44 @@
   "summary": "The station is in Toshima City, served by Tobu Tojo Line. Journey times to the main business districts are 26 minutes to Otemachi, 15 minutes to Shinjuku, 20 minutes to Shibuya and 41 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 27.5 m above sea level, and the ground within 800 m varies in height by 10.8 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits on the higher side of the ground around it, at 27.5 m above sea level. Within 800 m the ground ranges from 20.7 m to 31.5 m, a difference of 10.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 27.5 m above sea level. Within 800 m the ground ranges from 20.7 m to 31.5 m, a difference of 10.8 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 3 of the nine points within 400 m fall inside the area, and the deepest projection there is 0.5 to 3 m. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "まいばすけっと 北池袋駅東店",
       "tier": "standard",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/7836225385",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Big-A",
       "tier": "discount",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/way/566291765",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マルエツ",
       "tier": "standard",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/1669568490",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "コモディイイダ",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/5442927843",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 7 clinics and 9 pharmacies. Facilities recorded as hospitals lie at 大成会長汐病院, about 753 m away and 小川医院, about 976 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Tobu Tojo Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 7 clinics and 9 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 大成会長汐病院, about 13 minutes' walk from the station. The next nearest is 小川医院, about 16 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tobu Tojo Line.",
+  "congestion": "Tobu Tojo Line runs at 131% of capacity in the morning peak. The busiest stretch of the line is 北池袋→池袋, which includes this station. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥80,000 to ¥90,000, 1K ¥100,000 to ¥110,000, 1LDK ¥170,000 to ¥180,000 and 2LDK ¥220,000 to ¥230,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥80,000 to ¥90,000 and 1K ¥100,000 to ¥110,000. 1LDK ¥170,000 to ¥180,000 and 2LDK ¥220,000 to ¥230,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is on the low side. quiet surroundings pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "shimo-itabashi",
-      "note": "524 m away in a straight line. It reaches Otemachi in about the same time as Kita-Ikebukuro. One-room rents run about ¥8,000 higher."
+      "lead": "Kita-Ikebukuro is ahead on lower rent, and little else separates the two. ",
+      "note": "Close enough to walk to from Kita-Ikebukuro. It is served by the same lines as Kita-Ikebukuro. Journey times to the main business districts are much the same. A one-room flat costs about ¥8,000 more at Shimo-Itabashi."
     },
     {
       "slug": "itabashi",
-      "note": "524 m away in a straight line. It reaches Otemachi in about the same time as Kita-Ikebukuro. One-room rents run about ¥7,000 higher."
+      "lead": "For how close the centre is, Itabashi; for lower rent, Kita-Ikebukuro. ",
+      "note": "Close enough to walk to from Kita-Ikebukuro. Itabashi has the JR Saikyo Line, a different set from Kita-Ikebukuro. To Shinjuku, for instance, Itabashi is 4 minutes quicker. A one-room flat costs about ¥7,000 more at Itabashi. On quiet, Kita-Ikebukuro comes out ahead."
     }
   ],
   "goodFor": [
@@ -72,5 +75,24 @@
     "People who want another route when service is suspended",
     "People who want plenty of places to eat out"
   ],
+  "noiseSources": [
+    "The nearest big road, 川越街道, is far enough that little traffic noise reaches the station area"
+  ],
+  "tags": [
+    "quiet",
+    "singleLine",
+    "shoppingEasy",
+    "parkNear"
+  ],
+  "leads": {
+    "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
+    "groceries": "There are 14 supermarkets within walking distance, and the nearest is 4 minutes on foot.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
+    "stationNote": "Only the Tobu Tojo Line serves this station, so when it stops you walk to another station.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
+    "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
+  },
   "authoredBy": "data-generated"
 }

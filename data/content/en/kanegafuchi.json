@@ -6,29 +6,30 @@
   "summary": "The station is in Sumida City, served by Tobu Skytree Line. Journey times to the main business districts are 28 minutes to Otemachi, 42 minutes to Shinjuku, 47 minutes to Shibuya and 41 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands -0.5 m above sea level, and the ground within 800 m varies in height by 4.4 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits lower than the ground around it, at -0.5 m above sea level. Within 800 m the ground ranges from -0.8 m to 3.6 m, a difference of 4.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at -0.5 m above sea level. Within 800 m the ground ranges from -0.8 m to 3.6 m, a difference of 4.4 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 5 to 10 m. Of the nine points within 400 m of the station, 7 fall inside the area, and the deepest projection among them is 5 to 10 m. For storm surge, 7 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 5 to 10 m. Of the nine points within 400 m of the station, 7 also fall inside the area, and the deepest projection is 5 to 10 m. For storm surge, 7 of the nine points also fall inside the projected area. On the whole, the flood projection here is about average for the 23 wards.",
   "groceries": [
     {
       "name": "ベルクス",
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/5542764312",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/13956368103",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 4 clinics and 5 pharmacies. Facilities recorded as hospitals lie at 梶原病院, about 161 m away and 健和会柳原病院, about 1027 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Tobu Skytree Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 4 clinics and 5 pharmacies. The nearest hospital is 梶原病院, about 3 minutes' walk from the station. The next nearest is 健和会柳原病院, about 17 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tobu Skytree Line.",
+  "congestion": "Tobu Skytree Line runs at 142% of capacity in the morning peak. The busiest stretch is 小菅→北千住, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥80,000 to ¥90,000, 1K ¥90,000 to ¥100,000, 1LDK ¥140,000 to ¥150,000 and 2LDK ¥190,000 to ¥200,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥80,000 to ¥90,000 and 1K ¥90,000 to ¥100,000. 1LDK ¥140,000 to ¥150,000 and 2LDK ¥190,000 to ¥200,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -37,15 +38,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What holds the figure down: only one line, the {line}, serving the station and little daily shopping within walking distance. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "yahiro",
-      "note": "1011 m away in a straight line. It reaches Otemachi in about the same time as Kanegafuchi."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "About 1 km from Kanegafuchi in a straight line. Yahiro has the Keisei Oshiage Line, a different set from Kanegafuchi. Journey times to the main business districts are much the same. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "higashi-mukojima",
-      "note": "1048 m away in a straight line. It reaches Otemachi in about the same time as Kanegafuchi."
+      "lead": "Higashi-Mukojima is ahead on how close the centre is and how easy the shopping is. ",
+      "note": "About 1 km from Kanegafuchi in a straight line. It is served by the same lines as Kanegafuchi. To Roppongi, for instance, Higashi-Mukojima is 3 minutes quicker. On how easy the shopping is, Higashi-Mukojima comes out ahead."
     }
   ],
   "goodFor": [
@@ -58,5 +61,22 @@
     "People who want to finish their shopping on foot",
     "People who want plenty of places to eat out"
   ],
+  "noiseSources": [
+    "鐘ヶ淵通り (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "singleLine",
+    "flat"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 3 supermarkets within walking distance, and the nearest is 6 minutes on foot.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
+    "stationNote": "Only the Tobu Skytree Line serves this station, so when it stops you walk to another station.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
+  },
   "authoredBy": "data-generated"
 }

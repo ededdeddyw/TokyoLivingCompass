@@ -7,14 +7,50 @@ import type { StationContent } from "@/lib/schema";
  * 未記入の項目は表示しない。空欄を並べても価値がないため。
  */
 
-function Block({ title, children }: { title: string; children: React.ReactNode }) {
+/**
+ * 節ひとつ。lead は「一言でいうと」で、本文を読む前に結論だけを受け取れるようにする
+ * （docs/12-quality-standard.md）。入っていない節では出さない。
+ */
+function Block({
+  title,
+  lead,
+  source,
+  children,
+}: {
+  title: string;
+  lead?: string;
+  /** 出典。どう測ったかの説明は本文に書かず、ここにリンクだけ置く。 */
+  source?: { label: string; name: string; url: string };
+  children: React.ReactNode;
+}) {
   return (
     <section className="space-y-1.5">
       <h3 className="text-sm font-semibold text-ink">{title}</h3>
+      {lead && <p className="text-sm font-medium leading-relaxed text-ink">{lead}</p>}
       <div className="text-sm leading-relaxed text-ink-soft">{children}</div>
+      {source && (
+        <p className="text-xs text-ink-soft">
+          {source.label}:{" "}
+          <a
+            href={source.url}
+            className="text-accent hover:underline"
+            rel="noreferrer"
+            target="_blank"
+          >
+            {source.name}
+          </a>
+        </p>
+      )}
     </section>
   );
 }
+
+/** 出典のアドレス。言語によって変わらないので定数で持つ。 */
+const GSI_ELEVATION_URL = "https://maps.gsi.go.jp/development/elevation_s.html";
+const MLIT_CONGESTION_URL =
+  "https://www.mlit.go.jp/report/press/tetsudo04_hh_000139.html";
+const MLIT_HAZARD_URL = "https://disaportal.gsi.go.jp/maps/";
+const OSM_URL = "https://www.openstreetmap.org/copyright";
 
 export function StationDepth({
   content,
@@ -32,7 +68,7 @@ export function StationDepth({
 
   if (content.faces) {
     blocks.push(
-      <Block key="faces" title={d.faces}>
+      <Block key="faces" title={d.faces} lead={content.leads?.faces}>
         <dl className="space-y-2">
           {(
             [
@@ -54,7 +90,12 @@ export function StationDepth({
 
   if (content.terrain) {
     blocks.push(
-      <Block key="terrain" title={d.terrain}>
+      <Block
+        key="terrain"
+        title={d.terrain}
+        lead={content.leads?.terrain}
+        source={{ label: d.source, name: d.terrainSource, url: GSI_ELEVATION_URL }}
+      >
         <p>
           <span className="font-medium text-ink">{d.slope[content.terrain.slope]}</span>
           {" — "}
@@ -66,7 +107,7 @@ export function StationDepth({
 
   if (content.groceries && content.groceries.length > 0) {
     blocks.push(
-      <Block key="groceries" title={d.groceries}>
+      <Block key="groceries" title={d.groceries} lead={content.leads?.groceries}>
         <ul className="space-y-1.5">
           {content.groceries.map((store) => (
             <li key={store.name} className="flex flex-wrap items-baseline gap-x-2">
@@ -83,13 +124,34 @@ export function StationDepth({
             </li>
           ))}
         </ul>
+        {content.dailyShops && content.dailyShops.length > 0 && (
+          <>
+            <h4 className="mt-3 text-xs font-semibold text-ink">{d.dailyShops}</h4>
+            <ul className="mt-1.5 space-y-1.5">
+              {content.dailyShops.map((shop) => (
+                <li key={shop.name} className="flex flex-wrap items-baseline gap-x-2">
+                  <span className="font-medium text-ink">{shop.name}</span>
+                  <span className="rounded bg-canvas px-1.5 py-0.5 text-xs">
+                    {d.shopKind[shop.kind]}
+                  </span>
+                  {shop.walkMinutes !== undefined && (
+                    <span className="text-xs tabular-nums">
+                      {d.walkMinutes} {shop.walkMinutes}分
+                    </span>
+                  )}
+                  {shop.note && <span className="w-full">{shop.note}</span>}
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
       </Block>,
     );
   }
 
   if (content.exits && content.exits.length > 0) {
     blocks.push(
-      <Block key="exits" title={d.exits}>
+      <Block key="exits" title={d.exits} lead={content.leads?.exits}>
         <dl className="space-y-2">
           {content.exits.map((exit) => (
             <div key={exit.name} className="flex gap-3">
@@ -101,7 +163,21 @@ export function StationDepth({
                 )}
                 {exit.name}
               </dt>
-              <dd>{exit.character}</dd>
+              <dd>
+                {exit.tags && exit.tags.length > 0 && (
+                  <span className="mb-1 flex flex-wrap gap-1">
+                    {exit.tags.map((t) => (
+                      <span
+                        key={t}
+                        className="rounded bg-[#f3f4f6] px-1.5 py-0.5 text-xs text-[#5b6472]"
+                      >
+                        {dict.exitTags[t]}
+                      </span>
+                    ))}
+                  </span>
+                )}
+                {exit.character}
+              </dd>
             </div>
           ))}
         </dl>
@@ -111,7 +187,7 @@ export function StationDepth({
 
   if (content.rentRange) {
     blocks.push(
-      <Block key="rentRange" title={d.rentRange}>
+      <Block key="rentRange" title={d.rentRange} lead={content.leads?.rentRange}>
         <p>{content.rentRange.note}</p>
         <p className="mt-1.5">
           <span className="font-medium text-ink">{d.rentDrivers}: </span>
@@ -123,7 +199,7 @@ export function StationDepth({
 
   if (content.noiseSources && content.noiseSources.length > 0) {
     blocks.push(
-      <Block key="noise" title={d.noiseSources}>
+      <Block key="noise" title={d.noiseSources} lead={content.leads?.noiseSources}>
         <ul className="list-disc space-y-1 pl-5">
           {content.noiseSources.map((n) => (
             <li key={n}>{n}</li>
@@ -133,24 +209,37 @@ export function StationDepth({
     );
   }
 
-  const simple: [string, string | undefined][] = [
-    [d.family, content.family],
-    [d.medical, content.medical],
-    [d.stationNote, content.stationNote],
-    [d.nightWalk, content.nightWalk],
-    [d.residents, content.residents],
-    [d.housingStock, content.housingStock],
-    [d.rentReason, content.rentReason],
-    [d.outlook, content.outlook],
-  ];
-  for (const [title, text] of simple) {
-    if (text) {
-      blocks.push(
-        <Block key={title} title={title}>
-          <p>{text}</p>
-        </Block>,
-      );
-    }
+  const simple = [
+    "family",
+    "medical",
+    "stationNote",
+    // 混雑率は「駅の使い勝手」のすぐ後ろに置く。毎朝どの電車に乗るかの話なので、
+    // 路線の説明を読んだ直後に見えたほうが読み手がつなげやすい。
+    "congestion",
+    "nightWalk",
+    "residents",
+    "housingStock",
+    "outlook",
+  ] as const;
+  for (const field of simple) {
+    const text = content[field];
+    if (!text) continue;
+    blocks.push(
+      <Block
+        key={field}
+        title={d[field]}
+        lead={content.leads?.[field]}
+        source={
+          field === "congestion"
+            ? { label: d.source, name: d.congestionSource, url: MLIT_CONGESTION_URL }
+            : field === "medical"
+              ? { label: d.source, name: d.medicalSource, url: OSM_URL }
+              : undefined
+        }
+      >
+        <p>{text}</p>
+      </Block>,
+    );
   }
 
   // 災害は、書き方ひとつで読み手の受け取り方が大きく変わる。
@@ -158,7 +247,12 @@ export function StationDepth({
   // 強く読まれないようにする。
   if (content.hazards) {
     blocks.push(
-      <Block key="hazards" title={d.hazards}>
+      <Block
+        key="hazards"
+        title={d.hazards}
+        lead={content.leads?.hazards}
+        source={{ label: d.source, name: d.hazardSource, url: MLIT_HAZARD_URL }}
+      >
         <p>{content.hazards}</p>
         <p className="mt-2 text-xs leading-relaxed text-ink-soft">
           {dict.hazardNote}
@@ -167,16 +261,24 @@ export function StationDepth({
     );
   }
 
-  if (content.neighbours && content.neighbours.length > 0) {
+  // 近くの駅（距離から選ぶ）と、迷いやすい駅（条件が似ていて人が選ぶ）は、
+  // 読み手にとって意味が違うため、同じ節にまとめない。
+  for (const field of ["neighbours", "alternatives"] as const) {
+    const list = content[field];
+    if (!list || list.length === 0) continue;
     blocks.push(
-      <Block key="neighbours" title={d.neighbours}>
+      <Block key={field} title={d[field]}>
         <ul className="space-y-1.5">
-          {content.neighbours.map((n) => (
+          {list.map((n) => (
             <li key={n.slug}>
               <span className="font-medium text-ink">
                 {neighbourNames[n.slug] ?? n.slug}
               </span>
-              {" — "}
+              {/* 比較の一言。本文を読む前に、どちらが何で上回るのかを渡す。 */}
+              {n.lead && (
+                <span className="block font-medium text-ink">{n.lead}</span>
+              )}
+              {n.lead ? "" : " — "}
               {n.note}
             </li>
           ))}

@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Shin-Okubo",
   "tagline": "Shinjuku in 3 minutes and Shibuya in 12 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Shinjuku City, served by JR Yamanote Line. Journey times to the main business districts are 24 minutes to Otemachi, 3 minutes to Shinjuku, 12 minutes to Shibuya and 34 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 34.9 m above sea level, and the ground within 800 m varies in height by 5.0 m. The land around the station is close to level.",
+  "summary": "The station is in Shinjuku City, where JR East run 1 line between them. Journey times to the main business districts are 24 minutes to Otemachi, 3 minutes to Shinjuku, 12 minutes to Shibuya and 34 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 34.9 m above sea level, and the ground within 800 m varies in height by 5.0 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits on the higher side of the ground around it, at 34.9 m above sea level. Within 800 m the ground ranges from 29.9 m to 34.9 m, a difference of 5.0 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 34.9 m above sea level. Within 800 m the ground ranges from 29.9 m to 34.9 m, a difference of 5.0 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 2 of the nine points within 400 m fall inside the area, and the deepest projection there is less than 0.5 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
       "name": "Barahi",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/11508150180",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと 新大久保駅南店",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/10297160169",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "チョンガーネ",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/5648840053",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "業務スーパー",
       "tier": "discount",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/4963228357",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 15 clinics and 18 pharmacies. Facilities recorded as hospitals lie at 広恵会春山外科病院, about 364 m away and JCHO 東京山手メディカルセンター, about 443 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: JR Yamanote Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 15 clinics and 18 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 広恵会春山外科病院, about 6 minutes' walk from the station. The next nearest is JCHO 東京山手メディカルセンター, about 8 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: JR Yamanote Line.",
+  "congestion": "JR Yamanote Line runs at 136% of capacity in the morning peak. The busiest stretch of the line is 新大久保→新宿, which includes this station. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥90,000 to ¥100,000, 1K ¥110,000 to ¥120,000, 1LDK ¥200,000 to ¥210,000 and 2LDK ¥290,000 to ¥300,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥90,000 to ¥100,000 and 1K ¥110,000 to ¥120,000. 1LDK ¥200,000 to ¥210,000 and 2LDK ¥290,000 to ¥300,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. a small projected flood depth and plenty of places to eat out pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "okubo",
-      "note": "265 m away in a straight line. It takes 4 minutes longer to reach Otemachi than Shin-Okubo."
+      "lead": "Shin-Okubo is ahead on how close the centre is, and little else separates the two. ",
+      "note": "Close enough to walk to from Shin-Okubo. Okubo has the JR Chuo-Sobu Line (Local), a different set from Shin-Okubo. To Otemachi, for instance, Okubo takes 4 minutes longer. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "seibu-shinjuku",
-      "note": "514 m away in a straight line. It reaches Otemachi in about the same time as Shin-Okubo. One-room rents run about ¥34,000 higher."
+      "lead": "Shin-Okubo is ahead on how close the centre is and lower rent. ",
+      "note": "Close enough to walk to from Shin-Okubo. Seibu-Shinjuku has the Seibu Shinjuku Line, a different set from Shin-Okubo. To Shinjuku, for instance, Seibu-Shinjuku takes 13 minutes longer. A one-room flat costs about ¥34,000 more at Seibu-Shinjuku."
     }
   ],
   "goodFor": [
@@ -72,5 +75,26 @@
   "notFor": [
     "People who want another route when service is suspended"
   ],
+  "noiseSources": [
+    "大久保通り (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "someBustle",
+    "goodValue",
+    "singleLine",
+    "singleFriendly",
+    "shoppingEasy",
+    "diningRich"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 17 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
+    "stationNote": "Only the JR Yamanote Line serves this station, so when it stops you walk to another station.",
+    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
+  },
   "authoredBy": "data-generated"
 }

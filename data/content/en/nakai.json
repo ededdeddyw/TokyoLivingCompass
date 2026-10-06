@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Nakai",
   "tagline": "Shinjuku in 10 minutes and Shibuya in 20 minutes. Served by 2 lines. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Shinjuku City, served by Seibu Shinjuku Line and Toei Oedo Line. Journey times to the main business districts are 24 minutes to Otemachi, 10 minutes to Shinjuku, 20 minutes to Shibuya and 41 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 18.7 m above sea level, and the ground within 800 m varies in height by 17.3 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shinjuku City, where Seibu and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 24 minutes to Otemachi, 10 minutes to Shinjuku, 20 minutes to Shibuya and 41 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 18.7 m above sea level, and the ground within 800 m varies in height by 17.3 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits lower than the ground around it, at 18.7 m above sea level. Within 800 m the ground ranges from 18.7 m to 36 m, a difference of 17.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 18.7 m above sea level. Within 800 m the ground ranges from 18.7 m to 36 m, a difference of 17.3 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 2 also fall inside the area, and the deepest projection is 0.5 to 3 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
       "name": "みらべる",
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/1390753539",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "コープとうきょう",
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/1391549095",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "イオン",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/2546447138",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "スズタツ",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/way/470875735",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 12 clinics and 10 pharmacies. Facilities recorded as hospitals lie at 久木田医院, about 809 m away and 聖母会聖母病院, about 935 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "2 lines serve the station: Seibu Shinjuku Line and Toei Oedo Line. The lines are split between operators (Seibu runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "medical": "Within an 800 m walk of the station there are 12 clinics and 10 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 久木田医院, about 14 minutes' walk from the station. The next nearest is 聖母会聖母病院, about 16 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Seibu Shinjuku Line and Toei Oedo Line. The lines are split between operators (Seibu runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company.",
+  "congestion": "Seibu Shinjuku Line runs at 148% of capacity in the morning peak. The busiest stretch is 下落合→高田馬場, which this station is not on. Toei Oedo Line runs at 147% of capacity in the morning peak. The busiest stretch of the line is 中井→東中野, which includes this station. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥80,000 to ¥90,000, 1K ¥100,000 to ¥110,000, 1LDK ¥160,000 to ¥170,000 and 2LDK ¥240,000 to ¥250,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥80,000 to ¥90,000 and 1K ¥100,000 to ¥110,000. 1LDK ¥160,000 to ¥170,000 and 2LDK ¥240,000 to ¥250,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "ochiai",
-      "note": "403 m away in a straight line. It reaches Otemachi 5 minutes sooner than Nakai."
+      "lead": "For the number of medical facilities, Ochiai; for rail connections, Nakai. ",
+      "note": "Close enough to walk to from Nakai. Ochiai has only the Tokyo Metro Tozai Line, so Nakai is the better connected. To Roppongi, for instance, Ochiai takes 10 minutes longer. On how easy the shopping is, though, Ochiai comes out ahead."
     },
     {
       "slug": "shimo-ochiai",
-      "note": "800 m away in a straight line. It reaches Otemachi in about the same time as Nakai."
+      "lead": "For how easy the shopping is, Shimo-Ochiai; for rail connections, Nakai. ",
+      "note": "Close enough to walk to from Nakai. Shimo-Ochiai has only the Seibu Shinjuku Line, so Nakai is the better connected. To Toranomon, for instance, Shimo-Ochiai takes 7 minutes longer. On quiet, though, Shimo-Ochiai comes out ahead."
     }
   ],
   "goodFor": [
@@ -70,5 +73,25 @@
   "notFor": [
     "People avoiding projected flood inundation areas"
   ],
+  "noiseSources": [
+    "The 首都高速中央環状線 viaduct runs right beside the station. It is an expressway, so traffic is audible day and night",
+    "山手通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "goodValue",
+    "lowFlood",
+    "parkNear",
+    "medicalRich"
+  ],
+  "leads": {
+    "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
+    "groceries": "There are 6 supermarkets within walking distance, and the nearest is 5 minutes on foot.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
+    "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
+  },
   "authoredBy": "data-generated"
 }

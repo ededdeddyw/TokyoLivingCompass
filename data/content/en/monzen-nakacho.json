@@ -54,16 +54,27 @@
     {
       "name": "Exit 1",
       "line": "Tokyo Metro Tozai Line",
+      "tags": [
+        "shoppingStreet",
+        "diningCluster"
+      ],
       "character": "Towards the temple approach and the shopping street. Restaurants and everyday shops gather here; this is the centre of daily life, and it is lit at night."
     },
     {
       "name": "Exits 2 and 3",
       "line": "Tokyo Metro Tozai Line",
+      "tags": [
+        "residential"
+      ],
       "character": "Blocks of flats line the main roads. Convenient, but rooms facing the road let the traffic in."
     },
     {
       "name": "Exits 5 and 6",
       "line": "Toei Oedo Line",
+      "tags": [
+        "waterfront",
+        "quietResidential"
+      ],
       "character": "Housing along the canal, quiet even during the day. Further from the bustle by the station, so fewer people are about at night."
     }
   ],
@@ -85,14 +96,16 @@
   },
   "family": "The grounds of Tomioka Hachimangu and Fukagawa Park are within walking distance, and Kiba Park is reachable by bicycle. The ground is flat, so a pushchair is easy. Because the festival and the neighbourhood association are active, adults nearby still know the local children by sight. Nursery vacancies and school catchments change by year and by address, so check Koto City's current information for each flat. Allow for the fact that the Tozai Line's morning crowding is considerably harder once you are boarding it after a nursery drop-off.",
   "medical": "Within walking distance of the station there are 5 clinics and 2 pharmacies, which is on the low side for the Fukagawa area. Hospitals that admit inpatients include Shuseikai Kiba Hospital and Ishikawajima Memorial Hospital, both about 1.1 km away. A bicycle widens the range considerably. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "neighbours": [
+  "alternatives": [
     {
       "slug": "kiyosumi-shirakawa",
-      "note": "If you want to avoid the Tozai Line's crowding, choose Kiyosumi-Shirakawa. The Hanzomon and Oedo Lines make for a comfortable commute and run direct towards Shibuya. After 20:00, though, almost all the restaurants are shut and the choice for eating out shrinks sharply."
+      "note": "If you want to avoid the Tozai Line's crowding, choose Kiyosumi-Shirakawa. The Hanzomon and Oedo Lines make for a comfortable commute and run direct towards Shibuya. After 20:00, though, almost all the restaurants are shut and the choice for eating out shrinks sharply.",
+      "lead": "Kiyosumi-Shirakawa is ahead on the number of medical facilities and how easy the shopping is, but Monzen-Nakacho is ahead on how little of the area is in the flood projection."
     },
     {
       "slug": "morishita",
-      "note": "If you want to hold the rent down, choose Morishita. Some places there stay open late, and Shinjuku is direct. Otemachi needs one change, so the commute is shorter from Monzen-Nakacho."
+      "note": "If you want to hold the rent down, choose Morishita. Some places there stay open late, and Shinjuku is direct. Otemachi needs one change, so the commute is shorter from Monzen-Nakacho.",
+      "lead": "rents are lower at Morishita, and Morishita is ahead on the number of medical facilities and how easy the shopping is."
     }
   ],
   "outlook": "No large redevelopment is on the horizon, and the character of a temple-gate town looks set to remain. Development towards Toyosu and Toyocho may make the Tozai Line's crowding worse, so expect the commute to stay as it is or deteriorate rather than improve.",
@@ -109,5 +122,35 @@
     "People who want to do all their shopping in one large complex"
   ],
   "residentComment": "Of the three stations in the Fukagawa area, only Monzen-Nakacho has the restaurants to go out and eat at night. Being able to eat somewhere on the way home is worth more once you live here than you would guess. The Tozai Line in the morning really is hard, though, and underestimating it means the tiredness of a packed train every morning piles up. Switching to the Oedo Line is possible but a detour, so unless you commute towards Otemachi or Nihonbashi, Kiyosumi-Shirakawa is easier on balance. That this is low ground, and inside the storm surge projection, is best looked at separately from how pleasant the place feels.",
-  "authoredBy": "ai-localized"
+  "authoredBy": "ai-localized",
+  "neighbours": [
+    {
+      "slug": "etchujima",
+      "lead": "For how close the centre is, Etchujima; for rail connections, Monzen-Nakacho. ",
+      "note": "Close enough to walk to from Monzen-Nakacho. Etchujima has only the JR Keiyo Line, so Monzen-Nakacho is the better connected. To Tokyo, for instance, Etchujima is 9 minutes quicker. On quiet, though, Etchujima comes out ahead."
+    },
+    {
+      "slug": "kiba",
+      "lead": "For quiet, Kiba; for rail connections, Monzen-Nakacho. ",
+      "note": "About 1 km from Monzen-Nakacho in a straight line. Kiba has only the Tokyo Metro Tozai Line, so Monzen-Nakacho is the better connected. To Roppongi, for instance, Kiba takes 8 minutes longer. On quiet, though, Kiba comes out ahead."
+    }
+  ],
+  "tags": [
+    "fastToCenter",
+    "diningRich",
+    "lateNight",
+    "flat"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 5 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
+    "hazards": "The number of points that fall inside the projected inundation area is about average for a station in the 23 wards.",
+    "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "exits": "The shopping street and the restaurants sit by exit 1; exits 5 and 6, on the Oedo Line side, come out into housing along the canal. Foot traffic at night is heaviest by exit 1.",
+    "noiseSources": "At this station, check the traffic noise before the noise people make: 永代通り runs 2 m away.",
+    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. "
+  },
+  "congestion": "Tokyo Metro Tozai Line runs at 160% of capacity in the morning peak. The busiest stretch of the line is 木場→門前仲町, which includes this station. Toei Oedo Line runs at 147% of capacity in the morning peak. The busiest stretch is 中井→東中野, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier."
 }

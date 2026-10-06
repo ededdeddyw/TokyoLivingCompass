@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Yotsuya",
   "tagline": "Shinjuku in 5 minutes and Tokyo in 10 minutes. Served by 5 lines. A one-room flat rents for roughly ¥120,000 to ¥130,000.",
-  "summary": "The station is in Shinjuku City, served by JR Chuo Main Line, JR Chuo Rapid Line, JR Chuo-Sobu Line (Local), Tokyo Metro Marunouchi Line and Tokyo Metro Namboku Line. Journey times to the main business districts are 12 minutes to Otemachi, 5 minutes to Shinjuku, 15 minutes to Shibuya and 25 minutes to Shinagawa. A one-room flat rents for roughly ¥120,000 to ¥130,000. The station stands 26.7 m above sea level, and the ground within 800 m varies in height by 13.3 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shinjuku City, where JR East and Tokyo Metro run 5 lines between them. Journey times to the main business districts are 12 minutes to Otemachi, 5 minutes to Shinjuku, 15 minutes to Shibuya and 25 minutes to Shinagawa. A one-room flat rents for roughly ¥120,000 to ¥130,000. The station stands 26.7 m above sea level, and the ground within 800 m varies in height by 13.3 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits on the higher side of the ground around it, at 26.7 m above sea level. Within 800 m the ground ranges from 19.9 m to 33.2 m, a difference of 13.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 26.7 m above sea level. Within 800 m the ground ranges from 19.9 m to 33.2 m, a difference of 13.3 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 2 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 2 of the nine points within 400 m fall inside the area, and the deepest projection there is less than 0.5 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
       "name": "成城石井 アトレ四谷店",
       "tier": "premium",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/4358349335",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マルエツプチ",
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/11060934108",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "肉のハナマサ",
       "tier": "discount",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/1463983621",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/3949450147",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 7 clinics and 8 pharmacies. Facilities recorded as hospitals lie at 友仁会赤坂見附前田病院, about 912 m away and 茂恵会半蔵門病院, about 1127 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "5 lines serve the station: JR Chuo Main Line, JR Chuo Rapid Line, JR Chuo-Sobu Line (Local), Tokyo Metro Marunouchi Line and Tokyo Metro Namboku Line. The lines are split between operators (JR East runs 3 lines and Tokyo Metro runs 2 lines), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 93.",
+  "medical": "Within an 800 m walk of the station there are 7 clinics and 8 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 友仁会赤坂見附前田病院, about 15 minutes' walk from the station. The next nearest is 茂恵会半蔵門病院, about 19 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "5 lines serve the station. JR Chuo Main Line and JR Chuo Rapid Line run through it. JR Chuo-Sobu Line (Local) also call here. Tokyo Metro Marunouchi Line are available too. Tokyo Metro Namboku Line stop here as well. The lines are split between operators (JR East runs 3 lines and Tokyo Metro runs 2 lines), so when one line stops you can change to a line run by a different company.",
+  "congestion": "JR Chuo Rapid Line runs at 158% of capacity in the morning peak. The busiest stretch is 中野→新宿, which this station is not on. Tokyo Metro Namboku Line runs at 156%. Its busiest stretch is 駒込→本駒込, which this station is likewise not on. Tokyo Metro Marunouchi Line runs at 154%. Its busiest stretch is 新大塚→茗荷谷, which this station is likewise not on. JR Chuo Main Line is not covered by the ministry's congestion survey. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥120,000 to ¥130,000, 1K ¥140,000 to ¥150,000, 1LDK ¥230,000 to ¥240,000 and 2LDK ¥380,000 to ¥390,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥120,000 to ¥130,000 and 1K ¥140,000 to ¥150,000. 1LDK ¥230,000 to ¥240,000 and 2LDK ¥380,000 to ¥390,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥120,000 to ¥130,000. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥120,000 to ¥130,000. Set against how long it takes to reach the central business districts, that is on the low side. 5 lines and a wide choice of connections and a small projected flood depth pushes the figure up. On the other side, many bars by the station and voices outside late at night holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "kojimachi",
-      "note": "689 m away in a straight line. It reaches Otemachi in about the same time as Yotsuya. One-room rents run about ¥47,000 higher."
+      "lead": "For the number of medical facilities, Kojimachi; for rail connections, Yotsuya. ",
+      "note": "Close enough to walk to from Yotsuya. Kojimachi has only the Tokyo Metro Yurakucho Line, so Yotsuya is the better connected. To Shinjuku, for instance, Kojimachi takes 10 minutes longer. A one-room flat also costs about ¥47,000 more at Kojimachi. On the number of medical facilities, though, Kojimachi comes out ahead."
     },
     {
       "slug": "ichigaya",
-      "note": "868 m away in a straight line. It reaches Otemachi in about the same time as Yotsuya. One-room rents run about ¥8,000 higher."
+      "lead": "For quiet, Ichigaya; for rail connections, Yotsuya. ",
+      "note": "Close enough to walk to from Yotsuya. Ichigaya has 4 lines, so Yotsuya is the better connected. To Tokyo, for instance, Ichigaya takes 6 minutes longer. A one-room flat also costs about ¥8,000 more at Ichigaya. On quiet, though, Ichigaya comes out ahead."
     }
   ],
   "goodFor": [
@@ -70,5 +73,25 @@
   "notFor": [
     "The data does not show a drawback particular to this station"
   ],
+  "noiseSources": [
+    "新宿通り (4 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road",
+    "外堀通り (5 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "lowFlood",
+    "fastToCenter",
+    "manyLines",
+    "lateNight"
+  ],
+  "leads": {
+    "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
+    "groceries": "There are 7 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
+    "stationNote": "5 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
+  },
   "authoredBy": "data-generated"
 }

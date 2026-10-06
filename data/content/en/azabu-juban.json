@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Azabu-Juban",
   "tagline": "Roppongi in 2 minutes and Shinjuku in 12 minutes. Served by 2 lines. A one-room flat rents for roughly ¥160,000 to ¥170,000.",
-  "summary": "The station is in Minato City, served by Tokyo Metro Namboku Line and Toei Oedo Line. Journey times to the main business districts are 21 minutes to Otemachi, 12 minutes to Shinjuku, 16 minutes to Shibuya and 22 minutes to Shinagawa. A one-room flat rents for roughly ¥160,000 to ¥170,000. The station stands 5.1 m above sea level, and the ground within 800 m varies in height by 25.3 m. The land around the station rises and falls sharply.",
+  "summary": "The station is in Minato City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 21 minutes to Otemachi, 12 minutes to Shinjuku, 16 minutes to Shibuya and 22 minutes to Shinagawa. A one-room flat rents for roughly ¥160,000 to ¥170,000. The station stands 5.1 m above sea level, and the ground within 800 m varies in height by 25.3 m. The land around the station rises and falls sharply.",
   "terrain": {
     "slope": "hilly",
-    "note": "The station sits lower than the ground around it, at 5.1 m above sea level. Within 800 m the ground ranges from 4.3 m to 29.6 m, a difference of 25.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 5.1 m above sea level. Within 800 m the ground ranges from 4.3 m to 29.6 m, a difference of 25.3 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 3 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 4 also fall inside the area, and the deepest projection is 0.5 to 3 m. For storm surge, 3 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "成城石井",
       "tier": "premium",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/5130825867",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Picard",
       "tier": "premium",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/5130825868",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Bio C' Bon",
       "tier": "premium",
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/2401019744",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ダイエー",
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/3722860917",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 10 clinics and 9 pharmacies. Facilities recorded as hospitals lie at 三田病院, about 570 m away and 南麻布医院, about 630 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "2 lines serve the station: Tokyo Metro Namboku Line and Toei Oedo Line. The lines are split between operators (Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "medical": "Within an 800 m walk of the station there are 10 clinics and 9 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 三田病院, about 10 minutes' walk from the station. The next nearest is 南麻布医院, about 11 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Tokyo Metro Namboku Line and Toei Oedo Line. The lines are split between operators (Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company.",
+  "congestion": "Tokyo Metro Namboku Line runs at 156% of capacity in the morning peak. The busiest stretch is 駒込→本駒込, which this station is not on. Toei Oedo Line runs at 147%. Its busiest stretch is 中井→東中野, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥160,000 to ¥170,000, 1K ¥140,000 to ¥150,000, 1LDK ¥300,000 to ¥310,000 and 2LDK ¥620,000 to ¥630,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥160,000 to ¥170,000 and 1K ¥140,000 to ¥150,000. 1LDK ¥300,000 to ¥310,000 and 2LDK ¥620,000 to ¥630,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥160,000 to ¥170,000. For One room, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥160,000 to ¥170,000. Set against how long it takes to reach the central business districts, that is among the highest in the 23 wards. For One room, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "akabanebashi",
-      "note": "641 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Azabu-Juban. One-room rents run about ¥9,000 higher."
+      "lead": "For quiet, Akabanebashi; for rail connections, Azabu-Juban. ",
+      "note": "Close enough to walk to from Azabu-Juban. Akabanebashi has only the Toei Oedo Line, so Azabu-Juban is the better connected. To Otemachi, for instance, Akabanebashi takes 3 minutes longer. A one-room flat also costs about ¥9,000 more at Akabanebashi. On quiet, though, Akabanebashi comes out ahead."
     },
     {
       "slug": "roppongi",
-      "note": "979 m away in a straight line. It reaches Otemachi 5 minutes sooner than Azabu-Juban. One-room rents run about ¥9,000 higher."
+      "lead": "For how close the centre is, Roppongi; for lower rent, Azabu-Juban. ",
+      "note": "Close enough to walk to from Azabu-Juban. Roppongi has the Tokyo Metro Hibiya Line and Toei Oedo Line, a different set from Azabu-Juban. To Toranomon, for instance, Roppongi is 7 minutes quicker. A one-room flat costs about ¥9,000 more at Roppongi. On safety, Azabu-Juban comes out ahead."
     }
   ],
   "goodFor": [
@@ -71,5 +74,25 @@
     "People who would rather not walk up and down slopes",
     "People who want to hold the rent down"
   ],
+  "noiseSources": [
+    "The 首都高速2号目黒線 viaduct runs right beside the station. It is an expressway, so traffic is audible day and night",
+    "高輪麻布線 (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "pricey",
+    "fastToCenter",
+    "diningRich",
+    "hilly"
+  ],
+  "leads": {
+    "terrain": "The ground around the station rises and falls sharply, and living above or below the slope changes how much effort getting about takes.",
+    "groceries": "There are 11 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
+    "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are among the highest in the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
+  },
   "authoredBy": "data-generated"
 }

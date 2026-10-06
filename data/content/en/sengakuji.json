@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Sengakuji",
   "tagline": "Shinagawa in 2 minutes and Toranomon in 15 minutes. Served by 2 lines. A one-room flat rents for roughly ¥150,000 to ¥160,000.",
-  "summary": "The station is in Minato City, served by Keikyu Main Line and Toei Asakusa Line. Journey times to the main business districts are 18 minutes to Otemachi, 27 minutes to Shinjuku, 20 minutes to Shibuya and 2 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 4 m above sea level, and the ground within 800 m varies in height by 24.6 m. The land around the station rises and falls sharply.",
+  "summary": "The station is in Minato City, where Keikyu and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 18 minutes to Otemachi, 27 minutes to Shinjuku, 20 minutes to Shibuya and 2 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 4 m above sea level, and the ground within 800 m varies in height by 24.6 m. The land around the station rises and falls sharply.",
   "terrain": {
     "slope": "hilly",
-    "note": "The station sits lower than the ground around it, at 4 m above sea level. Within 800 m the ground ranges from 1.9 m to 26.5 m, a difference of 24.6 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 4 m above sea level. Within 800 m the ground ranges from 1.9 m to 26.5 m, a difference of 24.6 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 2 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 3 also fall inside the area, and the deepest projection is 0.5 to 3 m. For storm surge, 2 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "明治屋",
       "tier": "premium",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/14122805105",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ZEROCORNER",
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/14122805109",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ピーコックストア 三田伊皿子店",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/1772594480",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "成城石井 ニュウマン高輪店",
       "tier": "premium",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/14122805116",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 6 clinics and 7 pharmacies. Facilities recorded as hospitals lie at 桜十字白金リハビリテーション病院, about 1027 m away and 厚生会古川橋病院, about 1091 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "2 lines serve the station: Keikyu Main Line and Toei Asakusa Line. The lines are split between operators (Keikyu runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "medical": "Within an 800 m walk of the station there are 6 clinics and 7 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 桜十字白金リハビリテーション病院, about 17 minutes' walk from the station. The next nearest is 厚生会古川橋病院, about 18 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: Keikyu Main Line and Toei Asakusa Line. The lines are split between operators (Keikyu runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company.",
+  "congestion": "Toei Asakusa Line runs at 123% of capacity in the morning peak. The busiest stretch is 本所吾妻橋→浅草, which this station is not on. Keikyu Main Line runs at 120%. Its busiest stretch is 戸部→横浜, which this station is likewise not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥150,000 to ¥160,000, 1K ¥130,000 to ¥140,000, 1LDK ¥240,000 to ¥250,000 and 2LDK ¥370,000 to ¥380,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥150,000 to ¥160,000 and 1K ¥130,000 to ¥140,000. 1LDK ¥240,000 to ¥250,000 and 2LDK ¥370,000 to ¥380,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥150,000 to ¥160,000. For One room, 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥150,000 to ¥160,000. Set against how long it takes to reach the central business districts, that is on the high side. For One room, 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "takanawa-gateway",
-      "note": "360 m away in a straight line. It reaches Otemachi in about the same time as Sengakuji. One-room rents run about ¥11,000 higher."
+      "lead": "For quiet, Takanawa-Gateway; for how close the centre is, Sengakuji. ",
+      "note": "Close enough to walk to from Sengakuji. Takanawa-Gateway has the JR Yamanote Line and JR Keihin-Tohoku Line, a different set from Sengakuji. To Shibuya, for instance, Takanawa-Gateway takes 8 minutes longer. A one-room flat costs about ¥11,000 more at Takanawa-Gateway. On quiet, Takanawa-Gateway comes out ahead."
     },
     {
       "slug": "shirokane-takanawa",
-      "note": "710 m away in a straight line. It reaches Otemachi 4 minutes sooner than Sengakuji. One-room rents run about ¥6,000 lower."
+      "lead": "For lower rent, Shirokane-Takanawa; for how close the centre is, Sengakuji. ",
+      "note": "Close enough to walk to from Sengakuji. Shirokane-Takanawa has the Tokyo Metro Namboku Line and Toei Mita Line, a different set from Sengakuji. To Shinagawa, for instance, Shirokane-Takanawa takes 17 minutes longer. A one-room flat costs about ¥6,000 less at Shirokane-Takanawa. On safety, Shirokane-Takanawa comes out ahead."
     }
   ],
   "goodFor": [
@@ -70,5 +73,24 @@
     "People who would rather not walk up and down slopes",
     "People who want to hold the rent down"
   ],
+  "noiseSources": [
+    "第一京浜 (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road",
+    "高輪麻布線 (3 lanes each way) runs just outside the station. Traffic on it never stops"
+  ],
+  "tags": [
+    "lowFlood",
+    "fastToCenter",
+    "hilly"
+  ],
+  "leads": {
+    "terrain": "The ground around the station rises and falls sharply, and living above or below the slope changes how much effort getting about takes.",
+    "groceries": "There are 7 supermarkets within walking distance, and the nearest is 5 minutes on foot.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
+    "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
+  },
   "authoredBy": "data-generated"
 }

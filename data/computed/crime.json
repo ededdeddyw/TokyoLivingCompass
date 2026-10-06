@@ -1,0 +1,6867 @@
+{
+  "meta": {
+    "source": "警視庁 市区町丁別 犯罪認知件数（R7）",
+    "sourceUrl": "https://www.keishicho.metro.tokyo.lg.jp/about_mpd/jokyo_tokei/jokyo/ninchikensu.html",
+    "centroidSource": "国土交通省 大字・町丁目レベル位置参照情報（令和6年度版）",
+    "centroidSourceUrl": "https://nlftp.mlit.go.jp/isj/",
+    "radiusM": 800,
+    "note": "駅から800m以内に代表点がある町丁の認知件数を合計し、1町丁あたりに直した"
+  },
+  "stations": {
+    "kudanshita": {
+      "places": 21,
+      "counts": {
+        "total": 277,
+        "violent": 36,
+        "felony": 3,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 13.19,
+        "violent": 1.71,
+        "felony": 0.14,
+        "burglary": 0.14
+      }
+    },
+    "nijubashimae": {
+      "places": 7,
+      "counts": {
+        "total": 842,
+        "violent": 95,
+        "felony": 3,
+        "burglary": 11
+      },
+      "perPlace": {
+        "total": 120.29,
+        "violent": 13.57,
+        "felony": 0.43,
+        "burglary": 1.57
+      }
+    },
+    "uchisaiwaicho": {
+      "places": 19,
+      "counts": {
+        "total": 1192,
+        "violent": 172,
+        "felony": 6,
+        "burglary": 77
+      },
+      "perPlace": {
+        "total": 62.74,
+        "violent": 9.05,
+        "felony": 0.32,
+        "burglary": 4.05
+      }
+    },
+    "hanzomon": {
+      "places": 16,
+      "counts": {
+        "total": 166,
+        "violent": 26,
+        "felony": 0,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 10.38,
+        "violent": 1.62,
+        "felony": 0.0,
+        "burglary": 0.31
+      }
+    },
+    "kokkai-gijidomae": {
+      "places": 10,
+      "counts": {
+        "total": 381,
+        "violent": 77,
+        "felony": 12,
+        "burglary": 9
+      },
+      "perPlace": {
+        "total": 38.1,
+        "violent": 7.7,
+        "felony": 1.2,
+        "burglary": 0.9
+      }
+    },
+    "otemachi": {
+      "places": 18,
+      "counts": {
+        "total": 957,
+        "violent": 102,
+        "felony": 6,
+        "burglary": 23
+      },
+      "perPlace": {
+        "total": 53.17,
+        "violent": 5.67,
+        "felony": 0.33,
+        "burglary": 1.28
+      }
+    },
+    "iwamotocho": {
+      "places": 47,
+      "counts": {
+        "total": 1116,
+        "violent": 110,
+        "felony": 12,
+        "burglary": 35
+      },
+      "perPlace": {
+        "total": 23.74,
+        "violent": 2.34,
+        "felony": 0.26,
+        "burglary": 0.74
+      }
+    },
+    "ichigaya": {
+      "places": 26,
+      "counts": {
+        "total": 165,
+        "violent": 34,
+        "felony": 1,
+        "burglary": 9
+      },
+      "perPlace": {
+        "total": 6.35,
+        "violent": 1.31,
+        "felony": 0.04,
+        "burglary": 0.35
+      }
+    },
+    "ochanomizu": {
+      "places": 32,
+      "counts": {
+        "total": 1035,
+        "violent": 114,
+        "felony": 6,
+        "burglary": 21
+      },
+      "perPlace": {
+        "total": 32.34,
+        "violent": 3.56,
+        "felony": 0.19,
+        "burglary": 0.66
+      }
+    },
+    "yurakucho": {
+      "places": 15,
+      "counts": {
+        "total": 924,
+        "violent": 86,
+        "felony": 3,
+        "burglary": 18
+      },
+      "perPlace": {
+        "total": 61.6,
+        "violent": 5.73,
+        "felony": 0.2,
+        "burglary": 1.2
+      }
+    },
+    "suehirocho": {
+      "places": 31,
+      "counts": {
+        "total": 1648,
+        "violent": 197,
+        "felony": 20,
+        "burglary": 53
+      },
+      "perPlace": {
+        "total": 53.16,
+        "violent": 6.35,
+        "felony": 0.65,
+        "burglary": 1.71
+      }
+    },
+    "tokyo": {
+      "places": 15,
+      "counts": {
+        "total": 959,
+        "violent": 99,
+        "felony": 4,
+        "burglary": 13
+      },
+      "perPlace": {
+        "total": 63.93,
+        "violent": 6.6,
+        "felony": 0.27,
+        "burglary": 0.87
+      }
+    },
+    "sakuradamon": {
+      "places": 8,
+      "counts": {
+        "total": 126,
+        "violent": 27,
+        "felony": 2,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 15.75,
+        "violent": 3.38,
+        "felony": 0.25,
+        "burglary": 0.12
+      }
+    },
+    "suidobashi": {
+      "places": 22,
+      "counts": {
+        "total": 558,
+        "violent": 74,
+        "felony": 3,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 25.36,
+        "violent": 3.36,
+        "felony": 0.14,
+        "burglary": 0.32
+      }
+    },
+    "nagatacho": {
+      "places": 16,
+      "counts": {
+        "total": 344,
+        "violent": 75,
+        "felony": 10,
+        "burglary": 10
+      },
+      "perPlace": {
+        "total": 21.5,
+        "violent": 4.69,
+        "felony": 0.62,
+        "burglary": 0.62
+      }
+    },
+    "awajicho": {
+      "places": 39,
+      "counts": {
+        "total": 1205,
+        "violent": 129,
+        "felony": 9,
+        "burglary": 29
+      },
+      "perPlace": {
+        "total": 30.9,
+        "violent": 3.31,
+        "felony": 0.23,
+        "burglary": 0.74
+      }
+    },
+    "tameike-sanno": {
+      "places": 11,
+      "counts": {
+        "total": 335,
+        "violent": 66,
+        "felony": 12,
+        "burglary": 10
+      },
+      "perPlace": {
+        "total": 30.45,
+        "violent": 6.0,
+        "felony": 1.09,
+        "burglary": 0.91
+      }
+    },
+    "jimbocho": {
+      "places": 28,
+      "counts": {
+        "total": 401,
+        "violent": 49,
+        "felony": 3,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 14.32,
+        "violent": 1.75,
+        "felony": 0.11,
+        "burglary": 0.21
+      }
+    },
+    "kanda": {
+      "places": 43,
+      "counts": {
+        "total": 950,
+        "violent": 114,
+        "felony": 7,
+        "burglary": 41
+      },
+      "perPlace": {
+        "total": 22.09,
+        "violent": 2.65,
+        "felony": 0.16,
+        "burglary": 0.95
+      }
+    },
+    "akihabara": {
+      "places": 43,
+      "counts": {
+        "total": 1257,
+        "violent": 120,
+        "felony": 12,
+        "burglary": 33
+      },
+      "perPlace": {
+        "total": 29.23,
+        "violent": 2.79,
+        "felony": 0.28,
+        "burglary": 0.77
+      }
+    },
+    "takebashi": {
+      "places": 13,
+      "counts": {
+        "total": 263,
+        "violent": 37,
+        "felony": 2,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 20.23,
+        "violent": 2.85,
+        "felony": 0.15,
+        "burglary": 0.23
+      }
+    },
+    "kasumigaseki": {
+      "places": 10,
+      "counts": {
+        "total": 218,
+        "violent": 39,
+        "felony": 1,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 21.8,
+        "violent": 3.9,
+        "felony": 0.1,
+        "burglary": 0.2
+      }
+    },
+    "iidabashi": {
+      "places": 29,
+      "counts": {
+        "total": 404,
+        "violent": 68,
+        "felony": 1,
+        "burglary": 11
+      },
+      "perPlace": {
+        "total": 13.93,
+        "violent": 2.34,
+        "felony": 0.03,
+        "burglary": 0.38
+      }
+    },
+    "kojimachi": {
+      "places": 15,
+      "counts": {
+        "total": 155,
+        "violent": 27,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 10.33,
+        "violent": 1.8,
+        "felony": 0.0,
+        "burglary": 0.2
+      }
+    },
+    "mitsukoshimae": {
+      "places": 33,
+      "counts": {
+        "total": 570,
+        "violent": 49,
+        "felony": 3,
+        "burglary": 26
+      },
+      "perPlace": {
+        "total": 17.27,
+        "violent": 1.48,
+        "felony": 0.09,
+        "burglary": 0.79
+      }
+    },
+    "kyobashi": {
+      "places": 25,
+      "counts": {
+        "total": 1322,
+        "violent": 122,
+        "felony": 3,
+        "burglary": 17
+      },
+      "perPlace": {
+        "total": 52.88,
+        "violent": 4.88,
+        "felony": 0.12,
+        "burglary": 0.68
+      }
+    },
+    "ningyocho": {
+      "places": 24,
+      "counts": {
+        "total": 395,
+        "violent": 48,
+        "felony": 4,
+        "burglary": 14
+      },
+      "perPlace": {
+        "total": 16.46,
+        "violent": 2.0,
+        "felony": 0.17,
+        "burglary": 0.58
+      }
+    },
+    "hatchobori": {
+      "places": 24,
+      "counts": {
+        "total": 363,
+        "violent": 37,
+        "felony": 2,
+        "burglary": 11
+      },
+      "perPlace": {
+        "total": 15.12,
+        "violent": 1.54,
+        "felony": 0.08,
+        "burglary": 0.46
+      }
+    },
+    "kachidoki": {
+      "places": 11,
+      "counts": {
+        "total": 201,
+        "violent": 22,
+        "felony": 6,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 18.27,
+        "violent": 2.0,
+        "felony": 0.55,
+        "burglary": 0.18
+      }
+    },
+    "kodemmacho": {
+      "places": 44,
+      "counts": {
+        "total": 557,
+        "violent": 58,
+        "felony": 8,
+        "burglary": 31
+      },
+      "perPlace": {
+        "total": 12.66,
+        "violent": 1.32,
+        "felony": 0.18,
+        "burglary": 0.7
+      }
+    },
+    "nihombashi": {
+      "places": 28,
+      "counts": {
+        "total": 1030,
+        "violent": 107,
+        "felony": 3,
+        "burglary": 23
+      },
+      "perPlace": {
+        "total": 36.79,
+        "violent": 3.82,
+        "felony": 0.11,
+        "burglary": 0.82
+      }
+    },
+    "tsukishima": {
+      "places": 14,
+      "counts": {
+        "total": 203,
+        "violent": 23,
+        "felony": 5,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 14.5,
+        "violent": 1.64,
+        "felony": 0.36,
+        "burglary": 0.21
+      }
+    },
+    "higashi-ginza": {
+      "places": 17,
+      "counts": {
+        "total": 982,
+        "violent": 99,
+        "felony": 6,
+        "burglary": 64
+      },
+      "perPlace": {
+        "total": 57.76,
+        "violent": 5.82,
+        "felony": 0.35,
+        "burglary": 3.76
+      }
+    },
+    "hamacho": {
+      "places": 28,
+      "counts": {
+        "total": 385,
+        "violent": 45,
+        "felony": 5,
+        "burglary": 19
+      },
+      "perPlace": {
+        "total": 13.75,
+        "violent": 1.61,
+        "felony": 0.18,
+        "burglary": 0.68
+      }
+    },
+    "tsukiji": {
+      "places": 24,
+      "counts": {
+        "total": 660,
+        "violent": 57,
+        "felony": 4,
+        "burglary": 11
+      },
+      "perPlace": {
+        "total": 27.5,
+        "violent": 2.38,
+        "felony": 0.17,
+        "burglary": 0.46
+      }
+    },
+    "tsukijishijo": {
+      "places": 14,
+      "counts": {
+        "total": 764,
+        "violent": 83,
+        "felony": 5,
+        "burglary": 63
+      },
+      "perPlace": {
+        "total": 54.57,
+        "violent": 5.93,
+        "felony": 0.36,
+        "burglary": 4.5
+      }
+    },
+    "kayabacho": {
+      "places": 23,
+      "counts": {
+        "total": 427,
+        "violent": 52,
+        "felony": 1,
+        "burglary": 13
+      },
+      "perPlace": {
+        "total": 18.57,
+        "violent": 2.26,
+        "felony": 0.04,
+        "burglary": 0.57
+      }
+    },
+    "ginza": {
+      "places": 18,
+      "counts": {
+        "total": 1171,
+        "violent": 120,
+        "felony": 5,
+        "burglary": 69
+      },
+      "perPlace": {
+        "total": 65.06,
+        "violent": 6.67,
+        "felony": 0.28,
+        "burglary": 3.83
+      }
+    },
+    "bakurocho": {
+      "places": 33,
+      "counts": {
+        "total": 409,
+        "violent": 45,
+        "felony": 6,
+        "burglary": 14
+      },
+      "perPlace": {
+        "total": 12.39,
+        "violent": 1.36,
+        "felony": 0.18,
+        "burglary": 0.42
+      }
+    },
+    "odaiba-kaihinkoen": {
+      "places": 3,
+      "counts": {
+        "total": 181,
+        "violent": 14,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 60.33,
+        "violent": 4.67,
+        "felony": 0.0,
+        "burglary": 1.0
+      }
+    },
+    "mita": {
+      "places": 10,
+      "counts": {
+        "total": 283,
+        "violent": 39,
+        "felony": 0,
+        "burglary": 10
+      },
+      "perPlace": {
+        "total": 28.3,
+        "violent": 3.9,
+        "felony": 0.0,
+        "burglary": 1.0
+      }
+    },
+    "nogizaka": {
+      "places": 11,
+      "counts": {
+        "total": 456,
+        "violent": 76,
+        "felony": 15,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 41.45,
+        "violent": 6.91,
+        "felony": 1.36,
+        "burglary": 0.64
+      }
+    },
+    "roppongi": {
+      "places": 12,
+      "counts": {
+        "total": 534,
+        "violent": 120,
+        "felony": 18,
+        "burglary": 12
+      },
+      "perPlace": {
+        "total": 44.5,
+        "violent": 10.0,
+        "felony": 1.5,
+        "burglary": 1.0
+      }
+    },
+    "roppongi-itchome": {
+      "places": 18,
+      "counts": {
+        "total": 530,
+        "violent": 100,
+        "felony": 17,
+        "burglary": 10
+      },
+      "perPlace": {
+        "total": 29.44,
+        "violent": 5.56,
+        "felony": 0.94,
+        "burglary": 0.56
+      }
+    },
+    "shinagawa": {
+      "places": 6,
+      "counts": {
+        "total": 376,
+        "violent": 80,
+        "felony": 3,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 62.67,
+        "violent": 13.33,
+        "felony": 0.5,
+        "burglary": 0.5
+      }
+    },
+    "gaiemmae": {
+      "places": 10,
+      "counts": {
+        "total": 300,
+        "violent": 23,
+        "felony": 5,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 30.0,
+        "violent": 2.3,
+        "felony": 0.5,
+        "burglary": 0.5
+      }
+    },
+    "daimon": {
+      "places": 15,
+      "counts": {
+        "total": 296,
+        "violent": 51,
+        "felony": 3,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 19.73,
+        "violent": 3.4,
+        "felony": 0.2,
+        "burglary": 0.27
+      }
+    },
+    "hiro-o": {
+      "places": 12,
+      "counts": {
+        "total": 261,
+        "violent": 29,
+        "felony": 11,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 21.75,
+        "violent": 2.42,
+        "felony": 0.92,
+        "burglary": 0.5
+      }
+    },
+    "onarimon": {
+      "places": 19,
+      "counts": {
+        "total": 408,
+        "violent": 48,
+        "felony": 2,
+        "burglary": 18
+      },
+      "perPlace": {
+        "total": 21.47,
+        "violent": 2.53,
+        "felony": 0.11,
+        "burglary": 0.95
+      }
+    },
+    "shimbashi": {
+      "places": 17,
+      "counts": {
+        "total": 1037,
+        "violent": 144,
+        "felony": 6,
+        "burglary": 77
+      },
+      "perPlace": {
+        "total": 61.0,
+        "violent": 8.47,
+        "felony": 0.35,
+        "burglary": 4.53
+      }
+    },
+    "hinode": {
+      "places": 8,
+      "counts": {
+        "total": 162,
+        "violent": 31,
+        "felony": 1,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 20.25,
+        "violent": 3.88,
+        "felony": 0.12,
+        "burglary": 0.38
+      }
+    },
+    "tokyo-teleport": {
+      "places": 3,
+      "counts": {
+        "total": 181,
+        "violent": 14,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 60.33,
+        "violent": 4.67,
+        "felony": 0.0,
+        "burglary": 1.0
+      }
+    },
+    "shiodome": {
+      "places": 14,
+      "counts": {
+        "total": 928,
+        "violent": 135,
+        "felony": 7,
+        "burglary": 74
+      },
+      "perPlace": {
+        "total": 66.29,
+        "violent": 9.64,
+        "felony": 0.5,
+        "burglary": 5.29
+      }
+    },
+    "sengakuji": {
+      "places": 6,
+      "counts": {
+        "total": 388,
+        "violent": 74,
+        "felony": 5,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 64.67,
+        "violent": 12.33,
+        "felony": 0.83,
+        "burglary": 0.5
+      }
+    },
+    "hamamatsucho": {
+      "places": 13,
+      "counts": {
+        "total": 255,
+        "violent": 42,
+        "felony": 3,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 19.62,
+        "violent": 3.23,
+        "felony": 0.23,
+        "burglary": 0.46
+      }
+    },
+    "tamachi": {
+      "places": 11,
+      "counts": {
+        "total": 339,
+        "violent": 47,
+        "felony": 2,
+        "burglary": 10
+      },
+      "perPlace": {
+        "total": 30.82,
+        "violent": 4.27,
+        "felony": 0.18,
+        "burglary": 0.91
+      }
+    },
+    "shirokanedai": {
+      "places": 9,
+      "counts": {
+        "total": 83,
+        "violent": 14,
+        "felony": 1,
+        "burglary": 0
+      },
+      "perPlace": {
+        "total": 9.22,
+        "violent": 1.56,
+        "felony": 0.11,
+        "burglary": 0.0
+      }
+    },
+    "shirokane-takanawa": {
+      "places": 11,
+      "counts": {
+        "total": 229,
+        "violent": 31,
+        "felony": 4,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 20.82,
+        "violent": 2.82,
+        "felony": 0.36,
+        "burglary": 0.55
+      }
+    },
+    "kamiyacho": {
+      "places": 21,
+      "counts": {
+        "total": 457,
+        "violent": 66,
+        "felony": 5,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 21.76,
+        "violent": 3.14,
+        "felony": 0.24,
+        "burglary": 0.29
+      }
+    },
+    "takeshiba": {
+      "places": 7,
+      "counts": {
+        "total": 165,
+        "violent": 31,
+        "felony": 2,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 23.57,
+        "violent": 4.43,
+        "felony": 0.29,
+        "burglary": 0.86
+      }
+    },
+    "shibakoen": {
+      "places": 15,
+      "counts": {
+        "total": 278,
+        "violent": 32,
+        "felony": 2,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 18.53,
+        "violent": 2.13,
+        "felony": 0.13,
+        "burglary": 0.4
+      }
+    },
+    "shibaura-futo": {
+      "places": 2,
+      "counts": {
+        "total": 45,
+        "violent": 9,
+        "felony": 2,
+        "burglary": 0
+      },
+      "perPlace": {
+        "total": 22.5,
+        "violent": 4.5,
+        "felony": 1.0,
+        "burglary": 0.0
+      }
+    },
+    "toranomon": {
+      "places": 16,
+      "counts": {
+        "total": 618,
+        "violent": 86,
+        "felony": 3,
+        "burglary": 18
+      },
+      "perPlace": {
+        "total": 38.62,
+        "violent": 5.38,
+        "felony": 0.19,
+        "burglary": 1.12
+      }
+    },
+    "omote-sando": {
+      "places": 10,
+      "counts": {
+        "total": 483,
+        "violent": 33,
+        "felony": 2,
+        "burglary": 15
+      },
+      "perPlace": {
+        "total": 48.3,
+        "violent": 3.3,
+        "felony": 0.2,
+        "burglary": 1.5
+      }
+    },
+    "akasaka": {
+      "places": 12,
+      "counts": {
+        "total": 338,
+        "violent": 72,
+        "felony": 13,
+        "burglary": 10
+      },
+      "perPlace": {
+        "total": 28.17,
+        "violent": 6.0,
+        "felony": 1.08,
+        "burglary": 0.83
+      }
+    },
+    "akabanebashi": {
+      "places": 18,
+      "counts": {
+        "total": 310,
+        "violent": 32,
+        "felony": 3,
+        "burglary": 10
+      },
+      "perPlace": {
+        "total": 17.22,
+        "violent": 1.78,
+        "felony": 0.17,
+        "burglary": 0.56
+      }
+    },
+    "aoyama-itchome": {
+      "places": 7,
+      "counts": {
+        "total": 110,
+        "violent": 10,
+        "felony": 4,
+        "burglary": 0
+      },
+      "perPlace": {
+        "total": 15.71,
+        "violent": 1.43,
+        "felony": 0.57,
+        "burglary": 0.0
+      }
+    },
+    "takanawa-gateway": {
+      "places": 6,
+      "counts": {
+        "total": 470,
+        "violent": 91,
+        "felony": 5,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 78.33,
+        "violent": 15.17,
+        "felony": 0.83,
+        "burglary": 0.5
+      }
+    },
+    "takanawadai": {
+      "places": 11,
+      "counts": {
+        "total": 401,
+        "violent": 80,
+        "felony": 9,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 36.45,
+        "violent": 7.27,
+        "felony": 0.82,
+        "burglary": 0.27
+      }
+    },
+    "azabu-juban": {
+      "places": 20,
+      "counts": {
+        "total": 421,
+        "violent": 52,
+        "felony": 4,
+        "burglary": 15
+      },
+      "perPlace": {
+        "total": 21.05,
+        "violent": 2.6,
+        "felony": 0.2,
+        "burglary": 0.75
+      }
+    },
+    "shimo-ochiai": {
+      "places": 9,
+      "counts": {
+        "total": 282,
+        "violent": 16,
+        "felony": 2,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 31.33,
+        "violent": 1.78,
+        "felony": 0.22,
+        "burglary": 0.89
+      }
+    },
+    "nakai": {
+      "places": 12,
+      "counts": {
+        "total": 249,
+        "violent": 18,
+        "felony": 4,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 20.75,
+        "violent": 1.5,
+        "felony": 0.33,
+        "burglary": 0.5
+      }
+    },
+    "shinanomachi": {
+      "places": 11,
+      "counts": {
+        "total": 120,
+        "violent": 17,
+        "felony": 1,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 10.91,
+        "violent": 1.55,
+        "felony": 0.09,
+        "burglary": 0.18
+      }
+    },
+    "yotsuya": {
+      "places": 19,
+      "counts": {
+        "total": 244,
+        "violent": 28,
+        "felony": 1,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 12.84,
+        "violent": 1.47,
+        "felony": 0.05,
+        "burglary": 0.32
+      }
+    },
+    "yotsuya-sanchome": {
+      "places": 21,
+      "counts": {
+        "total": 463,
+        "violent": 71,
+        "felony": 7,
+        "burglary": 11
+      },
+      "perPlace": {
+        "total": 22.05,
+        "violent": 3.38,
+        "felony": 0.33,
+        "burglary": 0.52
+      }
+    },
+    "kokuritsu-kyogijo": {
+      "places": 8,
+      "counts": {
+        "total": 159,
+        "violent": 23,
+        "felony": 1,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 19.88,
+        "violent": 2.88,
+        "felony": 0.12,
+        "burglary": 0.38
+      }
+    },
+    "okubo": {
+      "places": 12,
+      "counts": {
+        "total": 2394,
+        "violent": 366,
+        "felony": 73,
+        "burglary": 89
+      },
+      "perPlace": {
+        "total": 199.5,
+        "violent": 30.5,
+        "felony": 6.08,
+        "burglary": 7.42
+      }
+    },
+    "shin-okubo": {
+      "places": 10,
+      "counts": {
+        "total": 2335,
+        "violent": 362,
+        "felony": 68,
+        "burglary": 87
+      },
+      "perPlace": {
+        "total": 233.5,
+        "violent": 36.2,
+        "felony": 6.8,
+        "burglary": 8.7
+      }
+    },
+    "shinjuku": {
+      "places": 9,
+      "counts": {
+        "total": 3175,
+        "violent": 399,
+        "felony": 36,
+        "burglary": 66
+      },
+      "perPlace": {
+        "total": 352.78,
+        "violent": 44.33,
+        "felony": 4.0,
+        "burglary": 7.33
+      }
+    },
+    "shinjuku-sanchome": {
+      "places": 11,
+      "counts": {
+        "total": 3672,
+        "violent": 506,
+        "felony": 72,
+        "burglary": 81
+      },
+      "perPlace": {
+        "total": 333.82,
+        "violent": 46.0,
+        "felony": 6.55,
+        "burglary": 7.36
+      }
+    },
+    "shinjuku-gyoemmae": {
+      "places": 13,
+      "counts": {
+        "total": 1836,
+        "violent": 204,
+        "felony": 25,
+        "burglary": 36
+      },
+      "perPlace": {
+        "total": 141.23,
+        "violent": 15.69,
+        "felony": 1.92,
+        "burglary": 2.77
+      }
+    },
+    "shinjuku-nishiguchi": {
+      "places": 11,
+      "counts": {
+        "total": 3771,
+        "violent": 530,
+        "felony": 78,
+        "burglary": 75
+      },
+      "perPlace": {
+        "total": 342.82,
+        "violent": 48.18,
+        "felony": 7.09,
+        "burglary": 6.82
+      }
+    },
+    "waseda": {
+      "places": 15,
+      "counts": {
+        "total": 250,
+        "violent": 63,
+        "felony": 6,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 16.67,
+        "violent": 4.2,
+        "felony": 0.4,
+        "burglary": 0.47
+      }
+    },
+    "waseda-toden": {
+      "places": 12,
+      "counts": {
+        "total": 218,
+        "violent": 26,
+        "felony": 0,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 18.17,
+        "violent": 2.17,
+        "felony": 0.0,
+        "burglary": 0.67
+      }
+    },
+    "akebonobashi": {
+      "places": 21,
+      "counts": {
+        "total": 452,
+        "violent": 93,
+        "felony": 10,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 21.52,
+        "violent": 4.43,
+        "felony": 0.48,
+        "burglary": 0.38
+      }
+    },
+    "higashi-shinjuku": {
+      "places": 10,
+      "counts": {
+        "total": 2295,
+        "violent": 371,
+        "felony": 70,
+        "burglary": 66
+      },
+      "perPlace": {
+        "total": 229.5,
+        "violent": 37.1,
+        "felony": 7.0,
+        "burglary": 6.6
+      }
+    },
+    "edogawabashi": {
+      "places": 24,
+      "counts": {
+        "total": 251,
+        "violent": 44,
+        "felony": 2,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 10.46,
+        "violent": 1.83,
+        "felony": 0.08,
+        "burglary": 0.04
+      }
+    },
+    "ushigome-yanagicho": {
+      "places": 25,
+      "counts": {
+        "total": 358,
+        "violent": 106,
+        "felony": 12,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 14.32,
+        "violent": 4.24,
+        "felony": 0.48,
+        "burglary": 0.28
+      }
+    },
+    "ushigome-kagurazaka": {
+      "places": 48,
+      "counts": {
+        "total": 276,
+        "violent": 63,
+        "felony": 3,
+        "burglary": 14
+      },
+      "perPlace": {
+        "total": 5.75,
+        "violent": 1.31,
+        "felony": 0.06,
+        "burglary": 0.29
+      }
+    },
+    "kagurazaka": {
+      "places": 42,
+      "counts": {
+        "total": 337,
+        "violent": 73,
+        "felony": 5,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 8.02,
+        "violent": 1.74,
+        "felony": 0.12,
+        "burglary": 0.1
+      }
+    },
+    "wakamatsu-kawada": {
+      "places": 18,
+      "counts": {
+        "total": 544,
+        "violent": 143,
+        "felony": 13,
+        "burglary": 13
+      },
+      "perPlace": {
+        "total": 30.22,
+        "violent": 7.94,
+        "felony": 0.72,
+        "burglary": 0.72
+      }
+    },
+    "nishi-shinjuku": {
+      "places": 10,
+      "counts": {
+        "total": 2006,
+        "violent": 295,
+        "felony": 28,
+        "burglary": 44
+      },
+      "perPlace": {
+        "total": 200.6,
+        "violent": 29.5,
+        "felony": 2.8,
+        "burglary": 4.4
+      }
+    },
+    "nishi-waseda": {
+      "places": 9,
+      "counts": {
+        "total": 522,
+        "violent": 61,
+        "felony": 5,
+        "burglary": 16
+      },
+      "perPlace": {
+        "total": 58.0,
+        "violent": 6.78,
+        "felony": 0.56,
+        "burglary": 1.78
+      }
+    },
+    "seibu-shinjuku": {
+      "places": 11,
+      "counts": {
+        "total": 3819,
+        "violent": 544,
+        "felony": 81,
+        "burglary": 87
+      },
+      "perPlace": {
+        "total": 347.18,
+        "violent": 49.45,
+        "felony": 7.36,
+        "burglary": 7.91
+      }
+    },
+    "tochomae": {
+      "places": 9,
+      "counts": {
+        "total": 1111,
+        "violent": 152,
+        "felony": 13,
+        "burglary": 32
+      },
+      "perPlace": {
+        "total": 123.44,
+        "violent": 16.89,
+        "felony": 1.44,
+        "burglary": 3.56
+      }
+    },
+    "omokagebashi": {
+      "places": 13,
+      "counts": {
+        "total": 424,
+        "violent": 40,
+        "felony": 2,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 32.62,
+        "violent": 3.08,
+        "felony": 0.15,
+        "burglary": 0.62
+      }
+    },
+    "takadanobaba": {
+      "places": 9,
+      "counts": {
+        "total": 478,
+        "violent": 33,
+        "felony": 5,
+        "burglary": 11
+      },
+      "perPlace": {
+        "total": 53.11,
+        "violent": 3.67,
+        "felony": 0.56,
+        "burglary": 1.22
+      }
+    },
+    "sengoku": {
+      "places": 10,
+      "counts": {
+        "total": 226,
+        "violent": 17,
+        "felony": 0,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 22.6,
+        "violent": 1.7,
+        "felony": 0.0,
+        "burglary": 0.6
+      }
+    },
+    "korakuen": {
+      "places": 12,
+      "counts": {
+        "total": 353,
+        "violent": 52,
+        "felony": 3,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 29.42,
+        "violent": 4.33,
+        "felony": 0.25,
+        "burglary": 0.25
+      }
+    },
+    "shin-otsuka": {
+      "places": 11,
+      "counts": {
+        "total": 316,
+        "violent": 28,
+        "felony": 1,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 28.73,
+        "violent": 2.55,
+        "felony": 0.09,
+        "burglary": 0.36
+      }
+    },
+    "kasuga": {
+      "places": 12,
+      "counts": {
+        "total": 345,
+        "violent": 49,
+        "felony": 2,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 28.75,
+        "violent": 4.08,
+        "felony": 0.17,
+        "burglary": 0.25
+      }
+    },
+    "hongo-sanchome": {
+      "places": 13,
+      "counts": {
+        "total": 288,
+        "violent": 39,
+        "felony": 3,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 22.15,
+        "violent": 3.0,
+        "felony": 0.23,
+        "burglary": 0.62
+      }
+    },
+    "hon-komagome": {
+      "places": 11,
+      "counts": {
+        "total": 183,
+        "violent": 9,
+        "felony": 2,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 16.64,
+        "violent": 0.82,
+        "felony": 0.18,
+        "burglary": 0.55
+      }
+    },
+    "todaimae": {
+      "places": 13,
+      "counts": {
+        "total": 150,
+        "violent": 10,
+        "felony": 3,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 11.54,
+        "violent": 0.77,
+        "felony": 0.23,
+        "burglary": 0.15
+      }
+    },
+    "nezu": {
+      "places": 14,
+      "counts": {
+        "total": 172,
+        "violent": 14,
+        "felony": 1,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 12.29,
+        "violent": 1.0,
+        "felony": 0.07,
+        "burglary": 0.43
+      }
+    },
+    "hakusan": {
+      "places": 10,
+      "counts": {
+        "total": 159,
+        "violent": 11,
+        "felony": 2,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 15.9,
+        "violent": 1.1,
+        "felony": 0.2,
+        "burglary": 0.2
+      }
+    },
+    "myogadani": {
+      "places": 11,
+      "counts": {
+        "total": 175,
+        "violent": 21,
+        "felony": 1,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 15.91,
+        "violent": 1.91,
+        "felony": 0.09,
+        "burglary": 0.36
+      }
+    },
+    "gokokuji": {
+      "places": 15,
+      "counts": {
+        "total": 192,
+        "violent": 24,
+        "felony": 2,
+        "burglary": 0
+      },
+      "perPlace": {
+        "total": 12.8,
+        "violent": 1.6,
+        "felony": 0.13,
+        "burglary": 0.0
+      }
+    },
+    "minowa": {
+      "places": 16,
+      "counts": {
+        "total": 389,
+        "violent": 43,
+        "felony": 3,
+        "burglary": 13
+      },
+      "perPlace": {
+        "total": 24.31,
+        "violent": 2.69,
+        "felony": 0.19,
+        "burglary": 0.81
+      }
+    },
+    "ueno": {
+      "places": 16,
+      "counts": {
+        "total": 873,
+        "violent": 120,
+        "felony": 9,
+        "burglary": 22
+      },
+      "perPlace": {
+        "total": 54.56,
+        "violent": 7.5,
+        "felony": 0.56,
+        "burglary": 1.38
+      }
+    },
+    "keisei-ueno": {
+      "places": 18,
+      "counts": {
+        "total": 1115,
+        "violent": 150,
+        "felony": 14,
+        "burglary": 30
+      },
+      "perPlace": {
+        "total": 61.94,
+        "violent": 8.33,
+        "felony": 0.78,
+        "burglary": 1.67
+      }
+    },
+    "iriya": {
+      "places": 23,
+      "counts": {
+        "total": 641,
+        "violent": 83,
+        "felony": 3,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 27.87,
+        "violent": 3.61,
+        "felony": 0.13,
+        "burglary": 0.22
+      }
+    },
+    "sendagi": {
+      "places": 16,
+      "counts": {
+        "total": 168,
+        "violent": 10,
+        "felony": 1,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 10.5,
+        "violent": 0.62,
+        "felony": 0.06,
+        "burglary": 0.19
+      }
+    },
+    "okachimachi": {
+      "places": 22,
+      "counts": {
+        "total": 1199,
+        "violent": 129,
+        "felony": 18,
+        "burglary": 33
+      },
+      "perPlace": {
+        "total": 54.5,
+        "violent": 5.86,
+        "felony": 0.82,
+        "burglary": 1.5
+      }
+    },
+    "shin-okachimachi": {
+      "places": 29,
+      "counts": {
+        "total": 813,
+        "violent": 87,
+        "felony": 9,
+        "burglary": 16
+      },
+      "perPlace": {
+        "total": 28.03,
+        "violent": 3.0,
+        "felony": 0.31,
+        "burglary": 0.55
+      }
+    },
+    "asakusa": {
+      "places": 22,
+      "counts": {
+        "total": 591,
+        "violent": 43,
+        "felony": 2,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 26.86,
+        "violent": 1.95,
+        "felony": 0.09,
+        "burglary": 0.23
+      }
+    },
+    "asakusa-tx": {
+      "places": 23,
+      "counts": {
+        "total": 684,
+        "violent": 67,
+        "felony": 3,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 29.74,
+        "violent": 2.91,
+        "felony": 0.13,
+        "burglary": 0.3
+      }
+    },
+    "asakusabashi": {
+      "places": 30,
+      "counts": {
+        "total": 382,
+        "violent": 43,
+        "felony": 8,
+        "burglary": 17
+      },
+      "perPlace": {
+        "total": 12.73,
+        "violent": 1.43,
+        "felony": 0.27,
+        "burglary": 0.57
+      }
+    },
+    "yushima": {
+      "places": 17,
+      "counts": {
+        "total": 1073,
+        "violent": 124,
+        "felony": 15,
+        "burglary": 33
+      },
+      "perPlace": {
+        "total": 63.12,
+        "violent": 7.29,
+        "felony": 0.88,
+        "burglary": 1.94
+      }
+    },
+    "tawaramachi": {
+      "places": 26,
+      "counts": {
+        "total": 644,
+        "violent": 68,
+        "felony": 4,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 24.77,
+        "violent": 2.62,
+        "felony": 0.15,
+        "burglary": 0.31
+      }
+    },
+    "inaricho": {
+      "places": 26,
+      "counts": {
+        "total": 806,
+        "violent": 87,
+        "felony": 5,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 31.0,
+        "violent": 3.35,
+        "felony": 0.19,
+        "burglary": 0.23
+      }
+    },
+    "kuramae": {
+      "places": 26,
+      "counts": {
+        "total": 287,
+        "violent": 38,
+        "felony": 3,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 11.04,
+        "violent": 1.46,
+        "felony": 0.12,
+        "burglary": 0.15
+      }
+    },
+    "uguisudani": {
+      "places": 17,
+      "counts": {
+        "total": 565,
+        "violent": 79,
+        "felony": 3,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 33.24,
+        "violent": 4.65,
+        "felony": 0.18,
+        "burglary": 0.35
+      }
+    },
+    "tokyo-skytree": {
+      "places": 18,
+      "counts": {
+        "total": 322,
+        "violent": 26,
+        "felony": 1,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 17.89,
+        "violent": 1.44,
+        "felony": 0.06,
+        "burglary": 0.17
+      }
+    },
+    "ryogoku": {
+      "places": 21,
+      "counts": {
+        "total": 252,
+        "violent": 24,
+        "felony": 1,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 12.0,
+        "violent": 1.14,
+        "felony": 0.05,
+        "burglary": 0.38
+      }
+    },
+    "keisei-hikifune": {
+      "places": 14,
+      "counts": {
+        "total": 290,
+        "violent": 26,
+        "felony": 4,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 20.71,
+        "violent": 1.86,
+        "felony": 0.29,
+        "burglary": 0.36
+      }
+    },
+    "yahiro": {
+      "places": 10,
+      "counts": {
+        "total": 175,
+        "violent": 21,
+        "felony": 2,
+        "burglary": 11
+      },
+      "perPlace": {
+        "total": 17.5,
+        "violent": 2.1,
+        "felony": 0.2,
+        "burglary": 1.1
+      }
+    },
+    "omurai": {
+      "places": 15,
+      "counts": {
+        "total": 215,
+        "violent": 16,
+        "felony": 2,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 14.33,
+        "violent": 1.07,
+        "felony": 0.13,
+        "burglary": 0.53
+      }
+    },
+    "oshiage": {
+      "places": 19,
+      "counts": {
+        "total": 326,
+        "violent": 27,
+        "felony": 1,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 17.16,
+        "violent": 1.42,
+        "felony": 0.05,
+        "burglary": 0.05
+      }
+    },
+    "hikifune": {
+      "places": 12,
+      "counts": {
+        "total": 264,
+        "violent": 22,
+        "felony": 3,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 22.0,
+        "violent": 1.83,
+        "felony": 0.25,
+        "burglary": 0.25
+      }
+    },
+    "honjo-azumabashi": {
+      "places": 20,
+      "counts": {
+        "total": 265,
+        "violent": 21,
+        "felony": 0,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 13.25,
+        "violent": 1.05,
+        "felony": 0.0,
+        "burglary": 0.2
+      }
+    },
+    "higashi-azuma": {
+      "places": 10,
+      "counts": {
+        "total": 115,
+        "violent": 11,
+        "felony": 2,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 11.5,
+        "violent": 1.1,
+        "felony": 0.2,
+        "burglary": 0.3
+      }
+    },
+    "higashi-mukojima": {
+      "places": 11,
+      "counts": {
+        "total": 221,
+        "violent": 28,
+        "felony": 4,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 20.09,
+        "violent": 2.55,
+        "felony": 0.36,
+        "burglary": 0.73
+      }
+    },
+    "kikukawa": {
+      "places": 25,
+      "counts": {
+        "total": 233,
+        "violent": 20,
+        "felony": 3,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 9.32,
+        "violent": 0.8,
+        "felony": 0.12,
+        "burglary": 0.24
+      }
+    },
+    "kinshicho": {
+      "places": 21,
+      "counts": {
+        "total": 802,
+        "violent": 91,
+        "felony": 12,
+        "burglary": 15
+      },
+      "perPlace": {
+        "total": 38.19,
+        "violent": 4.33,
+        "felony": 0.57,
+        "burglary": 0.71
+      }
+    },
+    "kanegafuchi": {
+      "places": 7,
+      "counts": {
+        "total": 145,
+        "violent": 20,
+        "felony": 0,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 20.71,
+        "violent": 2.86,
+        "felony": 0.0,
+        "burglary": 1.0
+      }
+    },
+    "telecom-center": {
+      "places": 2,
+      "counts": {
+        "total": 23,
+        "violent": 4,
+        "felony": 0,
+        "burglary": 0
+      },
+      "perPlace": {
+        "total": 11.5,
+        "violent": 2.0,
+        "felony": 0.0,
+        "burglary": 0.0
+      }
+    },
+    "kameido": {
+      "places": 7,
+      "counts": {
+        "total": 393,
+        "violent": 27,
+        "felony": 3,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 56.14,
+        "violent": 3.86,
+        "felony": 0.43,
+        "burglary": 0.57
+      }
+    },
+    "kameidosuijin": {
+      "places": 7,
+      "counts": {
+        "total": 317,
+        "violent": 25,
+        "felony": 5,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 45.29,
+        "violent": 3.57,
+        "felony": 0.71,
+        "burglary": 0.86
+      }
+    },
+    "sumiyoshi": {
+      "places": 19,
+      "counts": {
+        "total": 526,
+        "violent": 77,
+        "felony": 10,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 27.68,
+        "violent": 4.05,
+        "felony": 0.53,
+        "burglary": 0.42
+      }
+    },
+    "minami-sunamachi": {
+      "places": 5,
+      "counts": {
+        "total": 165,
+        "violent": 6,
+        "felony": 1,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 33.0,
+        "violent": 1.2,
+        "felony": 0.2,
+        "burglary": 0.4
+      }
+    },
+    "kokusai-tenjijo": {
+      "places": 3,
+      "counts": {
+        "total": 191,
+        "violent": 14,
+        "felony": 1,
+        "burglary": 0
+      },
+      "perPlace": {
+        "total": 63.67,
+        "violent": 4.67,
+        "felony": 0.33,
+        "burglary": 0.0
+      }
+    },
+    "ojima": {
+      "places": 8,
+      "counts": {
+        "total": 254,
+        "violent": 14,
+        "felony": 2,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 31.75,
+        "violent": 1.75,
+        "felony": 0.25,
+        "burglary": 0.75
+      }
+    },
+    "shijo-mae": {
+      "places": 2,
+      "counts": {
+        "total": 108,
+        "violent": 13,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 54.0,
+        "violent": 6.5,
+        "felony": 0.0,
+        "burglary": 1.5
+      }
+    },
+    "shin-kiba": {
+      "places": 3,
+      "counts": {
+        "total": 33,
+        "violent": 10,
+        "felony": 0,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 11.0,
+        "violent": 3.33,
+        "felony": 0.0,
+        "burglary": 0.33
+      }
+    },
+    "shin-toyosu": {
+      "places": 3,
+      "counts": {
+        "total": 189,
+        "violent": 12,
+        "felony": 0,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 63.0,
+        "violent": 4.0,
+        "felony": 0.0,
+        "burglary": 2.0
+      }
+    },
+    "ariake": {
+      "places": 3,
+      "counts": {
+        "total": 191,
+        "violent": 14,
+        "felony": 1,
+        "burglary": 0
+      },
+      "perPlace": {
+        "total": 63.67,
+        "violent": 4.67,
+        "felony": 0.33,
+        "burglary": 0.0
+      }
+    },
+    "ariake-tennis-no-mori": {
+      "places": 3,
+      "counts": {
+        "total": 161,
+        "violent": 17,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 53.67,
+        "violent": 5.67,
+        "felony": 0.0,
+        "burglary": 1.0
+      }
+    },
+    "kiba": {
+      "places": 14,
+      "counts": {
+        "total": 258,
+        "violent": 19,
+        "felony": 2,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 18.43,
+        "violent": 1.36,
+        "felony": 0.14,
+        "burglary": 0.21
+      }
+    },
+    "tokyo-big-sight": {
+      "places": 2,
+      "counts": {
+        "total": 141,
+        "violent": 7,
+        "felony": 1,
+        "burglary": 0
+      },
+      "perPlace": {
+        "total": 70.5,
+        "violent": 3.5,
+        "felony": 0.5,
+        "burglary": 0.0
+      }
+    },
+    "higashi-ojima": {
+      "places": 5,
+      "counts": {
+        "total": 134,
+        "violent": 6,
+        "felony": 2,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 26.8,
+        "violent": 1.2,
+        "felony": 0.4,
+        "burglary": 0.6
+      }
+    },
+    "toyocho": {
+      "places": 8,
+      "counts": {
+        "total": 293,
+        "violent": 17,
+        "felony": 2,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 36.62,
+        "violent": 2.12,
+        "felony": 0.25,
+        "burglary": 0.25
+      }
+    },
+    "shinonome": {
+      "places": 1,
+      "counts": {
+        "total": 76,
+        "violent": 14,
+        "felony": 2,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 76.0,
+        "violent": 14.0,
+        "felony": 2.0,
+        "burglary": 1.0
+      }
+    },
+    "morishita": {
+      "places": 29,
+      "counts": {
+        "total": 285,
+        "violent": 23,
+        "felony": 4,
+        "burglary": 12
+      },
+      "perPlace": {
+        "total": 9.83,
+        "violent": 0.79,
+        "felony": 0.14,
+        "burglary": 0.41
+      }
+    },
+    "kiyosumi-shirakawa": {
+      "places": 26,
+      "counts": {
+        "total": 210,
+        "violent": 17,
+        "felony": 3,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 8.08,
+        "violent": 0.65,
+        "felony": 0.12,
+        "burglary": 0.12
+      }
+    },
+    "shiomi": {
+      "places": 5,
+      "counts": {
+        "total": 100,
+        "violent": 9,
+        "felony": 1,
+        "burglary": 0
+      },
+      "perPlace": {
+        "total": 20.0,
+        "violent": 1.8,
+        "felony": 0.2,
+        "burglary": 0.0
+      }
+    },
+    "nishi-ojima": {
+      "places": 7,
+      "counts": {
+        "total": 253,
+        "violent": 14,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 36.14,
+        "violent": 2.0,
+        "felony": 0.0,
+        "burglary": 0.43
+      }
+    },
+    "toyosu": {
+      "places": 5,
+      "counts": {
+        "total": 243,
+        "violent": 15,
+        "felony": 1,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 48.6,
+        "violent": 3.0,
+        "felony": 0.2,
+        "burglary": 0.6
+      }
+    },
+    "etchujima": {
+      "places": 15,
+      "counts": {
+        "total": 209,
+        "violent": 28,
+        "felony": 5,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 13.93,
+        "violent": 1.87,
+        "felony": 0.33,
+        "burglary": 0.2
+      }
+    },
+    "tatsumi": {
+      "places": 3,
+      "counts": {
+        "total": 53,
+        "violent": 5,
+        "felony": 0,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 17.67,
+        "violent": 1.67,
+        "felony": 0.0,
+        "burglary": 0.33
+      }
+    },
+    "monzen-nakacho": {
+      "places": 22,
+      "counts": {
+        "total": 250,
+        "violent": 33,
+        "felony": 3,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 11.36,
+        "violent": 1.5,
+        "felony": 0.14,
+        "burglary": 0.14
+      }
+    },
+    "aomi": {
+      "places": 4,
+      "counts": {
+        "total": 200,
+        "violent": 17,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 50.0,
+        "violent": 4.25,
+        "felony": 0.0,
+        "burglary": 0.75
+      }
+    },
+    "shimo-shimmei": {
+      "places": 15,
+      "counts": {
+        "total": 238,
+        "violent": 27,
+        "felony": 3,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 15.87,
+        "violent": 1.8,
+        "felony": 0.2,
+        "burglary": 0.33
+      }
+    },
+    "fudo-mae": {
+      "places": 15,
+      "counts": {
+        "total": 316,
+        "violent": 36,
+        "felony": 3,
+        "burglary": 13
+      },
+      "perPlace": {
+        "total": 21.07,
+        "violent": 2.4,
+        "felony": 0.2,
+        "burglary": 0.87
+      }
+    },
+    "nakanobu": {
+      "places": 19,
+      "counts": {
+        "total": 167,
+        "violent": 11,
+        "felony": 1,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 8.79,
+        "violent": 0.58,
+        "felony": 0.05,
+        "burglary": 0.42
+      }
+    },
+    "gotanda": {
+      "places": 14,
+      "counts": {
+        "total": 346,
+        "violent": 31,
+        "felony": 9,
+        "burglary": 11
+      },
+      "perPlace": {
+        "total": 24.71,
+        "violent": 2.21,
+        "felony": 0.64,
+        "burglary": 0.79
+      }
+    },
+    "kitashinagawa": {
+      "places": 9,
+      "counts": {
+        "total": 264,
+        "violent": 34,
+        "felony": 4,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 29.33,
+        "violent": 3.78,
+        "felony": 0.44,
+        "burglary": 0.89
+      }
+    },
+    "daiba": {
+      "places": 3,
+      "counts": {
+        "total": 181,
+        "violent": 14,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 60.33,
+        "violent": 4.67,
+        "felony": 0.0,
+        "burglary": 1.0
+      }
+    },
+    "shinagawa-seaside": {
+      "places": 6,
+      "counts": {
+        "total": 186,
+        "violent": 20,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 31.0,
+        "violent": 3.33,
+        "felony": 0.0,
+        "burglary": 0.5
+      }
+    },
+    "oimachi": {
+      "places": 14,
+      "counts": {
+        "total": 332,
+        "violent": 41,
+        "felony": 8,
+        "burglary": 11
+      },
+      "perPlace": {
+        "total": 23.71,
+        "violent": 2.93,
+        "felony": 0.57,
+        "burglary": 0.79
+      }
+    },
+    "oi-keibajo-mae": {
+      "places": 4,
+      "counts": {
+        "total": 99,
+        "violent": 8,
+        "felony": 0,
+        "burglary": 0
+      },
+      "perPlace": {
+        "total": 24.75,
+        "violent": 2.0,
+        "felony": 0.0,
+        "burglary": 0.0
+      }
+    },
+    "osaki": {
+      "places": 13,
+      "counts": {
+        "total": 326,
+        "violent": 38,
+        "felony": 3,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 25.08,
+        "violent": 2.92,
+        "felony": 0.23,
+        "burglary": 0.54
+      }
+    },
+    "osaki-hirokoji": {
+      "places": 14,
+      "counts": {
+        "total": 465,
+        "violent": 51,
+        "felony": 8,
+        "burglary": 9
+      },
+      "perPlace": {
+        "total": 33.21,
+        "violent": 3.64,
+        "felony": 0.57,
+        "burglary": 0.64
+      }
+    },
+    "tennozu-isle": {
+      "places": 6,
+      "counts": {
+        "total": 132,
+        "violent": 12,
+        "felony": 2,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 22.0,
+        "violent": 2.0,
+        "felony": 0.33,
+        "burglary": 0.33
+      }
+    },
+    "togoshi-koen": {
+      "places": 21,
+      "counts": {
+        "total": 171,
+        "violent": 12,
+        "felony": 1,
+        "burglary": 12
+      },
+      "perPlace": {
+        "total": 8.14,
+        "violent": 0.57,
+        "felony": 0.05,
+        "burglary": 0.57
+      }
+    },
+    "togoshi": {
+      "places": 18,
+      "counts": {
+        "total": 182,
+        "violent": 13,
+        "felony": 1,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 10.11,
+        "violent": 0.72,
+        "felony": 0.06,
+        "burglary": 0.33
+      }
+    },
+    "shimbamba": {
+      "places": 10,
+      "counts": {
+        "total": 190,
+        "violent": 12,
+        "felony": 2,
+        "burglary": 11
+      },
+      "perPlace": {
+        "total": 19.0,
+        "violent": 1.2,
+        "felony": 0.2,
+        "burglary": 1.1
+      }
+    },
+    "hatanodai": {
+      "places": 15,
+      "counts": {
+        "total": 120,
+        "violent": 9,
+        "felony": 0,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 8.0,
+        "violent": 0.6,
+        "felony": 0.0,
+        "burglary": 0.13
+      }
+    },
+    "tokyo-international-cruise-terminal": {
+      "places": 3,
+      "counts": {
+        "total": 124,
+        "violent": 10,
+        "felony": 0,
+        "burglary": 0
+      },
+      "perPlace": {
+        "total": 41.33,
+        "violent": 3.33,
+        "felony": 0.0,
+        "burglary": 0.0
+      }
+    },
+    "musashi-koyama": {
+      "places": 13,
+      "counts": {
+        "total": 189,
+        "violent": 16,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 14.54,
+        "violent": 1.23,
+        "felony": 0.0,
+        "burglary": 0.23
+      }
+    },
+    "meguro": {
+      "places": 13,
+      "counts": {
+        "total": 269,
+        "violent": 33,
+        "felony": 3,
+        "burglary": 11
+      },
+      "perPlace": {
+        "total": 20.69,
+        "violent": 2.54,
+        "felony": 0.23,
+        "burglary": 0.85
+      }
+    },
+    "tachiaigawa": {
+      "places": 11,
+      "counts": {
+        "total": 139,
+        "violent": 15,
+        "felony": 0,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 12.64,
+        "violent": 1.36,
+        "felony": 0.0,
+        "burglary": 0.18
+      }
+    },
+    "ebara-nakanobu": {
+      "places": 21,
+      "counts": {
+        "total": 224,
+        "violent": 16,
+        "felony": 1,
+        "burglary": 9
+      },
+      "perPlace": {
+        "total": 10.67,
+        "violent": 0.76,
+        "felony": 0.05,
+        "burglary": 0.43
+      }
+    },
+    "ebara-machi": {
+      "places": 16,
+      "counts": {
+        "total": 145,
+        "violent": 7,
+        "felony": 1,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 9.06,
+        "violent": 0.44,
+        "felony": 0.06,
+        "burglary": 0.31
+      }
+    },
+    "nishi-oi": {
+      "places": 17,
+      "counts": {
+        "total": 132,
+        "violent": 8,
+        "felony": 1,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 7.76,
+        "violent": 0.47,
+        "felony": 0.06,
+        "burglary": 0.24
+      }
+    },
+    "nishi-koyama": {
+      "places": 15,
+      "counts": {
+        "total": 218,
+        "violent": 20,
+        "felony": 1,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 14.53,
+        "violent": 1.33,
+        "felony": 0.07,
+        "burglary": 0.2
+      }
+    },
+    "aomono-yokocho": {
+      "places": 10,
+      "counts": {
+        "total": 303,
+        "violent": 32,
+        "felony": 5,
+        "burglary": 10
+      },
+      "perPlace": {
+        "total": 30.3,
+        "violent": 3.2,
+        "felony": 0.5,
+        "burglary": 1.0
+      }
+    },
+    "samezu": {
+      "places": 11,
+      "counts": {
+        "total": 317,
+        "violent": 37,
+        "felony": 5,
+        "burglary": 9
+      },
+      "perPlace": {
+        "total": 28.82,
+        "violent": 3.36,
+        "felony": 0.45,
+        "burglary": 0.82
+      }
+    },
+    "nakameguro": {
+      "places": 13,
+      "counts": {
+        "total": 346,
+        "violent": 26,
+        "felony": 5,
+        "burglary": 16
+      },
+      "perPlace": {
+        "total": 26.62,
+        "violent": 2.0,
+        "felony": 0.38,
+        "burglary": 1.23
+      }
+    },
+    "gakugei-daigaku": {
+      "places": 12,
+      "counts": {
+        "total": 192,
+        "violent": 21,
+        "felony": 0,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 16.0,
+        "violent": 1.75,
+        "felony": 0.0,
+        "burglary": 0.42
+      }
+    },
+    "ikejiri-ohashi": {
+      "places": 11,
+      "counts": {
+        "total": 273,
+        "violent": 19,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 24.82,
+        "violent": 1.73,
+        "felony": 0.0,
+        "burglary": 0.27
+      }
+    },
+    "senzoku": {
+      "places": 12,
+      "counts": {
+        "total": 132,
+        "violent": 8,
+        "felony": 1,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 11.0,
+        "violent": 0.67,
+        "felony": 0.08,
+        "burglary": 0.25
+      }
+    },
+    "yutenji": {
+      "places": 12,
+      "counts": {
+        "total": 194,
+        "violent": 18,
+        "felony": 6,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 16.17,
+        "violent": 1.5,
+        "felony": 0.5,
+        "burglary": 0.58
+      }
+    },
+    "midorigaoka": {
+      "places": 10,
+      "counts": {
+        "total": 87,
+        "violent": 8,
+        "felony": 0,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 8.7,
+        "violent": 0.8,
+        "felony": 0.0,
+        "burglary": 0.5
+      }
+    },
+    "jiyugaoka": {
+      "places": 11,
+      "counts": {
+        "total": 206,
+        "violent": 18,
+        "felony": 2,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 18.73,
+        "violent": 1.64,
+        "felony": 0.18,
+        "burglary": 0.45
+      }
+    },
+    "toritsu-daigaku": {
+      "places": 10,
+      "counts": {
+        "total": 143,
+        "violent": 9,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 14.3,
+        "violent": 0.9,
+        "felony": 0.0,
+        "burglary": 0.3
+      }
+    },
+    "komaba-todaimae": {
+      "places": 12,
+      "counts": {
+        "total": 199,
+        "violent": 22,
+        "felony": 2,
+        "burglary": 13
+      },
+      "perPlace": {
+        "total": 16.58,
+        "violent": 1.83,
+        "felony": 0.17,
+        "burglary": 1.08
+      }
+    },
+    "shimomaruko": {
+      "places": 10,
+      "counts": {
+        "total": 123,
+        "violent": 8,
+        "felony": 0,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 12.3,
+        "violent": 0.8,
+        "felony": 0.0,
+        "burglary": 0.2
+      }
+    },
+    "kugahara": {
+      "places": 7,
+      "counts": {
+        "total": 55,
+        "violent": 6,
+        "felony": 1,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 7.86,
+        "violent": 0.86,
+        "felony": 0.14,
+        "burglary": 1.0
+      }
+    },
+    "keikyu-kamata": {
+      "places": 12,
+      "counts": {
+        "total": 651,
+        "violent": 47,
+        "felony": 0,
+        "burglary": 24
+      },
+      "perPlace": {
+        "total": 54.25,
+        "violent": 3.92,
+        "felony": 0.0,
+        "burglary": 2.0
+      }
+    },
+    "rokugodote": {
+      "places": 5,
+      "counts": {
+        "total": 95,
+        "violent": 12,
+        "felony": 0,
+        "burglary": 0
+      },
+      "perPlace": {
+        "total": 19.0,
+        "violent": 2.4,
+        "felony": 0.0,
+        "burglary": 0.0
+      }
+    },
+    "kita-senzoku": {
+      "places": 11,
+      "counts": {
+        "total": 96,
+        "violent": 12,
+        "felony": 1,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 8.73,
+        "violent": 1.09,
+        "felony": 0.09,
+        "burglary": 0.27
+      }
+    },
+    "chidoricho": {
+      "places": 10,
+      "counts": {
+        "total": 109,
+        "violent": 4,
+        "felony": 1,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 10.9,
+        "violent": 0.4,
+        "felony": 0.1,
+        "burglary": 0.5
+      }
+    },
+    "tamagawa": {
+      "places": 5,
+      "counts": {
+        "total": 85,
+        "violent": 15,
+        "felony": 1,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 17.0,
+        "violent": 3.0,
+        "felony": 0.2,
+        "burglary": 1.4
+      }
+    },
+    "ookayama": {
+      "places": 12,
+      "counts": {
+        "total": 95,
+        "violent": 10,
+        "felony": 1,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 7.92,
+        "violent": 0.83,
+        "felony": 0.08,
+        "burglary": 0.58
+      }
+    },
+    "omori": {
+      "places": 10,
+      "counts": {
+        "total": 422,
+        "violent": 28,
+        "felony": 3,
+        "burglary": 12
+      },
+      "perPlace": {
+        "total": 42.2,
+        "violent": 2.8,
+        "felony": 0.3,
+        "burglary": 1.2
+      }
+    },
+    "omorikaigan": {
+      "places": 9,
+      "counts": {
+        "total": 353,
+        "violent": 25,
+        "felony": 3,
+        "burglary": 11
+      },
+      "perPlace": {
+        "total": 39.22,
+        "violent": 2.78,
+        "felony": 0.33,
+        "burglary": 1.22
+      }
+    },
+    "omorimachi": {
+      "places": 11,
+      "counts": {
+        "total": 274,
+        "violent": 18,
+        "felony": 1,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 24.91,
+        "violent": 1.64,
+        "felony": 0.09,
+        "burglary": 0.09
+      }
+    },
+    "otorii": {
+      "places": 11,
+      "counts": {
+        "total": 210,
+        "violent": 14,
+        "felony": 2,
+        "burglary": 33
+      },
+      "perPlace": {
+        "total": 19.09,
+        "violent": 1.27,
+        "felony": 0.18,
+        "burglary": 3.0
+      }
+    },
+    "tenkubashi": {
+      "places": 5,
+      "counts": {
+        "total": 55,
+        "violent": 2,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 11.0,
+        "violent": 0.4,
+        "felony": 0.0,
+        "burglary": 0.6
+      }
+    },
+    "heiwajima": {
+      "places": 11,
+      "counts": {
+        "total": 276,
+        "violent": 23,
+        "felony": 0,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 25.09,
+        "violent": 2.09,
+        "felony": 0.0,
+        "burglary": 0.18
+      }
+    },
+    "ontakesan": {
+      "places": 10,
+      "counts": {
+        "total": 143,
+        "violent": 14,
+        "felony": 1,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 14.3,
+        "violent": 1.4,
+        "felony": 0.1,
+        "burglary": 0.7
+      }
+    },
+    "seibijo": {
+      "places": 5,
+      "counts": {
+        "total": 45,
+        "violent": 3,
+        "felony": 0,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 9.0,
+        "violent": 0.6,
+        "felony": 0.0,
+        "burglary": 0.2
+      }
+    },
+    "shin-seibijo": {
+      "places": 1,
+      "counts": {
+        "total": 92,
+        "violent": 15,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 92.0,
+        "violent": 15.0,
+        "felony": 0.0,
+        "burglary": 3.0
+      }
+    },
+    "showajima": {
+      "places": 6,
+      "counts": {
+        "total": 36,
+        "violent": 6,
+        "felony": 1,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 6.0,
+        "violent": 1.0,
+        "felony": 0.17,
+        "burglary": 0.67
+      }
+    },
+    "umeyashiki": {
+      "places": 14,
+      "counts": {
+        "total": 301,
+        "violent": 17,
+        "felony": 0,
+        "burglary": 20
+      },
+      "perPlace": {
+        "total": 21.5,
+        "violent": 1.21,
+        "felony": 0.0,
+        "burglary": 1.43
+      }
+    },
+    "musashi-nitta": {
+      "places": 9,
+      "counts": {
+        "total": 117,
+        "violent": 6,
+        "felony": 1,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 13.0,
+        "violent": 0.67,
+        "felony": 0.11,
+        "burglary": 0.11
+      }
+    },
+    "ikegami": {
+      "places": 12,
+      "counts": {
+        "total": 153,
+        "violent": 10,
+        "felony": 3,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 12.75,
+        "violent": 0.83,
+        "felony": 0.25,
+        "burglary": 0.58
+      }
+    },
+    "numabe": {
+      "places": 5,
+      "counts": {
+        "total": 74,
+        "violent": 14,
+        "felony": 2,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 14.8,
+        "violent": 2.8,
+        "felony": 0.4,
+        "burglary": 0.6
+      }
+    },
+    "senzoku-ike": {
+      "places": 9,
+      "counts": {
+        "total": 88,
+        "violent": 9,
+        "felony": 2,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 9.78,
+        "violent": 1.0,
+        "felony": 0.22,
+        "burglary": 0.11
+      }
+    },
+    "ryutsu-center": {
+      "places": 6,
+      "counts": {
+        "total": 30,
+        "violent": 5,
+        "felony": 0,
+        "burglary": 10
+      },
+      "perPlace": {
+        "total": 5.0,
+        "violent": 0.83,
+        "felony": 0.0,
+        "burglary": 1.67
+      }
+    },
+    "den-en-chofu": {
+      "places": 7,
+      "counts": {
+        "total": 50,
+        "violent": 5,
+        "felony": 0,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 7.14,
+        "violent": 0.71,
+        "felony": 0.0,
+        "burglary": 0.71
+      }
+    },
+    "yaguchi-no-watashi": {
+      "places": 8,
+      "counts": {
+        "total": 162,
+        "violent": 8,
+        "felony": 6,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 20.25,
+        "violent": 1.0,
+        "felony": 0.75,
+        "burglary": 0.12
+      }
+    },
+    "ishikawadai": {
+      "places": 12,
+      "counts": {
+        "total": 114,
+        "violent": 6,
+        "felony": 2,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 9.5,
+        "violent": 0.5,
+        "felony": 0.17,
+        "burglary": 0.33
+      }
+    },
+    "anamori-inari": {
+      "places": 10,
+      "counts": {
+        "total": 114,
+        "violent": 9,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 11.4,
+        "violent": 0.9,
+        "felony": 0.0,
+        "burglary": 0.3
+      }
+    },
+    "kojiya": {
+      "places": 10,
+      "counts": {
+        "total": 254,
+        "violent": 15,
+        "felony": 2,
+        "burglary": 0
+      },
+      "perPlace": {
+        "total": 25.4,
+        "violent": 1.5,
+        "felony": 0.2,
+        "burglary": 0.0
+      }
+    },
+    "haneda-airport-terminal-1-2": {
+      "places": 1,
+      "counts": {
+        "total": 92,
+        "violent": 15,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 92.0,
+        "violent": 15.0,
+        "felony": 0.0,
+        "burglary": 3.0
+      }
+    },
+    "kamata": {
+      "places": 12,
+      "counts": {
+        "total": 877,
+        "violent": 75,
+        "felony": 4,
+        "burglary": 23
+      },
+      "perPlace": {
+        "total": 73.08,
+        "violent": 6.25,
+        "felony": 0.33,
+        "burglary": 1.92
+      }
+    },
+    "hasunuma": {
+      "places": 13,
+      "counts": {
+        "total": 489,
+        "violent": 42,
+        "felony": 9,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 37.62,
+        "violent": 3.23,
+        "felony": 0.69,
+        "burglary": 0.46
+      }
+    },
+    "nishimagome": {
+      "places": 8,
+      "counts": {
+        "total": 87,
+        "violent": 12,
+        "felony": 1,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 10.88,
+        "violent": 1.5,
+        "felony": 0.12,
+        "burglary": 0.62
+      }
+    },
+    "nagahara": {
+      "places": 11,
+      "counts": {
+        "total": 101,
+        "violent": 8,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 9.18,
+        "violent": 0.73,
+        "felony": 0.0,
+        "burglary": 0.27
+      }
+    },
+    "zoshiki": {
+      "places": 8,
+      "counts": {
+        "total": 261,
+        "violent": 16,
+        "felony": 1,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 32.62,
+        "violent": 2.0,
+        "felony": 0.12,
+        "burglary": 0.62
+      }
+    },
+    "yukigaya-otsuka": {
+      "places": 12,
+      "counts": {
+        "total": 150,
+        "violent": 6,
+        "felony": 1,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 12.5,
+        "violent": 0.5,
+        "felony": 0.08,
+        "burglary": 0.33
+      }
+    },
+    "magome": {
+      "places": 14,
+      "counts": {
+        "total": 122,
+        "violent": 8,
+        "felony": 1,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 8.71,
+        "violent": 0.57,
+        "felony": 0.07,
+        "burglary": 0.36
+      }
+    },
+    "unoki": {
+      "places": 6,
+      "counts": {
+        "total": 57,
+        "violent": 5,
+        "felony": 1,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 9.5,
+        "violent": 0.83,
+        "felony": 0.17,
+        "burglary": 0.17
+      }
+    },
+    "sangen-jaya": {
+      "places": 11,
+      "counts": {
+        "total": 476,
+        "violent": 46,
+        "felony": 5,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 43.27,
+        "violent": 4.18,
+        "felony": 0.45,
+        "burglary": 0.73
+      }
+    },
+    "kami-kitazawa": {
+      "places": 9,
+      "counts": {
+        "total": 144,
+        "violent": 10,
+        "felony": 2,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 16.0,
+        "violent": 1.11,
+        "felony": 0.22,
+        "burglary": 0.11
+      }
+    },
+    "kamimachi": {
+      "places": 9,
+      "counts": {
+        "total": 125,
+        "violent": 10,
+        "felony": 2,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 13.89,
+        "violent": 1.11,
+        "felony": 0.22,
+        "burglary": 0.33
+      }
+    },
+    "kaminoge": {
+      "places": 9,
+      "counts": {
+        "total": 77,
+        "violent": 4,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 8.56,
+        "violent": 0.44,
+        "felony": 0.0,
+        "burglary": 0.33
+      }
+    },
+    "shimo-kitazawa": {
+      "places": 10,
+      "counts": {
+        "total": 328,
+        "violent": 26,
+        "felony": 4,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 32.8,
+        "violent": 2.6,
+        "felony": 0.4,
+        "burglary": 0.6
+      }
+    },
+    "shimo-takaido": {
+      "places": 9,
+      "counts": {
+        "total": 185,
+        "violent": 26,
+        "felony": 1,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 20.56,
+        "violent": 2.89,
+        "felony": 0.11,
+        "burglary": 0.33
+      }
+    },
+    "setagaya": {
+      "places": 10,
+      "counts": {
+        "total": 173,
+        "violent": 16,
+        "felony": 4,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 17.3,
+        "violent": 1.6,
+        "felony": 0.4,
+        "burglary": 0.7
+      }
+    },
+    "setagaya-daita": {
+      "places": 9,
+      "counts": {
+        "total": 344,
+        "violent": 32,
+        "felony": 5,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 38.22,
+        "violent": 3.56,
+        "felony": 0.56,
+        "burglary": 0.89
+      }
+    },
+    "kuhombutsu": {
+      "places": 12,
+      "counts": {
+        "total": 138,
+        "violent": 12,
+        "felony": 1,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 11.5,
+        "violent": 1.0,
+        "felony": 0.08,
+        "burglary": 0.42
+      }
+    },
+    "futako-tamagawa": {
+      "places": 5,
+      "counts": {
+        "total": 252,
+        "violent": 18,
+        "felony": 1,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 50.4,
+        "violent": 3.6,
+        "felony": 0.2,
+        "burglary": 0.4
+      }
+    },
+    "daitabashi": {
+      "places": 8,
+      "counts": {
+        "total": 296,
+        "violent": 33,
+        "felony": 1,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 37.0,
+        "violent": 4.12,
+        "felony": 0.12,
+        "burglary": 0.62
+      }
+    },
+    "hachiman-yama": {
+      "places": 9,
+      "counts": {
+        "total": 133,
+        "violent": 8,
+        "felony": 1,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 14.78,
+        "violent": 0.89,
+        "felony": 0.11,
+        "burglary": 0.11
+      }
+    },
+    "chitose-karasuyama": {
+      "places": 11,
+      "counts": {
+        "total": 294,
+        "violent": 21,
+        "felony": 2,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 26.73,
+        "violent": 1.91,
+        "felony": 0.18,
+        "burglary": 0.09
+      }
+    },
+    "chitose-funabashi": {
+      "places": 9,
+      "counts": {
+        "total": 153,
+        "violent": 7,
+        "felony": 1,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 17.0,
+        "violent": 0.78,
+        "felony": 0.11,
+        "burglary": 0.22
+      }
+    },
+    "okusawa": {
+      "places": 10,
+      "counts": {
+        "total": 160,
+        "violent": 14,
+        "felony": 1,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 16.0,
+        "violent": 1.4,
+        "felony": 0.1,
+        "burglary": 0.7
+      }
+    },
+    "miyanosaka": {
+      "places": 11,
+      "counts": {
+        "total": 167,
+        "violent": 13,
+        "felony": 2,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 15.18,
+        "violent": 1.18,
+        "felony": 0.18,
+        "burglary": 0.27
+      }
+    },
+    "oyamadai": {
+      "places": 10,
+      "counts": {
+        "total": 115,
+        "violent": 11,
+        "felony": 0,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 11.5,
+        "violent": 1.1,
+        "felony": 0.0,
+        "burglary": 0.2
+      }
+    },
+    "seijogakuen-mae": {
+      "places": 9,
+      "counts": {
+        "total": 133,
+        "violent": 11,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 14.78,
+        "violent": 1.22,
+        "felony": 0.0,
+        "burglary": 0.33
+      }
+    },
+    "shindaita": {
+      "places": 9,
+      "counts": {
+        "total": 334,
+        "violent": 31,
+        "felony": 5,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 37.11,
+        "violent": 3.44,
+        "felony": 0.56,
+        "burglary": 0.89
+      }
+    },
+    "meidaimae": {
+      "places": 8,
+      "counts": {
+        "total": 213,
+        "violent": 28,
+        "felony": 3,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 26.62,
+        "violent": 3.5,
+        "felony": 0.38,
+        "burglary": 0.5
+      }
+    },
+    "higashi-kitazawa": {
+      "places": 10,
+      "counts": {
+        "total": 303,
+        "violent": 24,
+        "felony": 3,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 30.3,
+        "violent": 2.4,
+        "felony": 0.3,
+        "burglary": 0.5
+      }
+    },
+    "higashi-matsubara": {
+      "places": 9,
+      "counts": {
+        "total": 201,
+        "violent": 24,
+        "felony": 3,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 22.33,
+        "violent": 2.67,
+        "felony": 0.33,
+        "burglary": 0.22
+      }
+    },
+    "matsubara": {
+      "places": 8,
+      "counts": {
+        "total": 91,
+        "violent": 9,
+        "felony": 1,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 11.38,
+        "violent": 1.12,
+        "felony": 0.12,
+        "burglary": 0.12
+      }
+    },
+    "shoin-jinja-mae": {
+      "places": 11,
+      "counts": {
+        "total": 193,
+        "violent": 19,
+        "felony": 4,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 17.55,
+        "violent": 1.73,
+        "felony": 0.36,
+        "burglary": 0.64
+      }
+    },
+    "sakurajosui": {
+      "places": 10,
+      "counts": {
+        "total": 141,
+        "violent": 12,
+        "felony": 2,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 14.1,
+        "violent": 1.2,
+        "felony": 0.2,
+        "burglary": 0.3
+      }
+    },
+    "sakura-shimmachi": {
+      "places": 11,
+      "counts": {
+        "total": 223,
+        "violent": 20,
+        "felony": 1,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 20.27,
+        "violent": 1.82,
+        "felony": 0.09,
+        "burglary": 0.09
+      }
+    },
+    "umegaoka": {
+      "places": 9,
+      "counts": {
+        "total": 151,
+        "violent": 16,
+        "felony": 1,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 16.78,
+        "violent": 1.78,
+        "felony": 0.11,
+        "burglary": 0.11
+      }
+    },
+    "ikenoue": {
+      "places": 10,
+      "counts": {
+        "total": 304,
+        "violent": 25,
+        "felony": 4,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 30.4,
+        "violent": 2.5,
+        "felony": 0.4,
+        "burglary": 0.6
+      }
+    },
+    "yoga": {
+      "places": 9,
+      "counts": {
+        "total": 146,
+        "violent": 6,
+        "felony": 1,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 16.22,
+        "violent": 0.67,
+        "felony": 0.11,
+        "burglary": 0.44
+      }
+    },
+    "soshigaya-okura": {
+      "places": 11,
+      "counts": {
+        "total": 153,
+        "violent": 5,
+        "felony": 0,
+        "burglary": 0
+      },
+      "perPlace": {
+        "total": 13.91,
+        "violent": 0.45,
+        "felony": 0.0,
+        "burglary": 0.0
+      }
+    },
+    "todoroki": {
+      "places": 10,
+      "counts": {
+        "total": 134,
+        "violent": 11,
+        "felony": 0,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 13.4,
+        "violent": 1.1,
+        "felony": 0.0,
+        "burglary": 0.2
+      }
+    },
+    "kyodo": {
+      "places": 9,
+      "counts": {
+        "total": 236,
+        "violent": 11,
+        "felony": 1,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 26.22,
+        "violent": 1.22,
+        "felony": 0.11,
+        "burglary": 0.44
+      }
+    },
+    "roka-koen": {
+      "places": 9,
+      "counts": {
+        "total": 187,
+        "violent": 8,
+        "felony": 1,
+        "burglary": 0
+      },
+      "perPlace": {
+        "total": 20.78,
+        "violent": 0.89,
+        "felony": 0.11,
+        "burglary": 0.0
+      }
+    },
+    "wakabayashi": {
+      "places": 12,
+      "counts": {
+        "total": 356,
+        "violent": 36,
+        "felony": 5,
+        "burglary": 9
+      },
+      "perPlace": {
+        "total": 29.67,
+        "violent": 3.0,
+        "felony": 0.42,
+        "burglary": 0.75
+      }
+    },
+    "nishi-taishido": {
+      "places": 10,
+      "counts": {
+        "total": 401,
+        "violent": 41,
+        "felony": 4,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 40.1,
+        "violent": 4.1,
+        "felony": 0.4,
+        "burglary": 0.7
+      }
+    },
+    "gotokuji": {
+      "places": 9,
+      "counts": {
+        "total": 121,
+        "violent": 10,
+        "felony": 0,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 13.44,
+        "violent": 1.11,
+        "felony": 0.0,
+        "burglary": 0.11
+      }
+    },
+    "komazawa-daigaku": {
+      "places": 11,
+      "counts": {
+        "total": 222,
+        "violent": 18,
+        "felony": 2,
+        "burglary": 0
+      },
+      "perPlace": {
+        "total": 20.18,
+        "violent": 1.64,
+        "felony": 0.18,
+        "burglary": 0.0
+      }
+    },
+    "yoyogi": {
+      "places": 7,
+      "counts": {
+        "total": 392,
+        "violent": 33,
+        "felony": 4,
+        "burglary": 14
+      },
+      "perPlace": {
+        "total": 56.0,
+        "violent": 4.71,
+        "felony": 0.57,
+        "burglary": 2.0
+      }
+    },
+    "yoyogi-uehara": {
+      "places": 9,
+      "counts": {
+        "total": 167,
+        "violent": 8,
+        "felony": 0,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 18.56,
+        "violent": 0.89,
+        "felony": 0.0,
+        "burglary": 0.22
+      }
+    },
+    "yoyogi-hachiman": {
+      "places": 8,
+      "counts": {
+        "total": 209,
+        "violent": 19,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 26.12,
+        "violent": 2.38,
+        "felony": 0.0,
+        "burglary": 0.38
+      }
+    },
+    "daikanyama": {
+      "places": 13,
+      "counts": {
+        "total": 372,
+        "violent": 31,
+        "felony": 7,
+        "burglary": 15
+      },
+      "perPlace": {
+        "total": 28.62,
+        "violent": 2.38,
+        "felony": 0.54,
+        "burglary": 1.15
+      }
+    },
+    "hatsudai": {
+      "places": 10,
+      "counts": {
+        "total": 372,
+        "violent": 46,
+        "felony": 4,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 37.2,
+        "violent": 4.6,
+        "felony": 0.4,
+        "burglary": 0.5
+      }
+    },
+    "kita-sando": {
+      "places": 9,
+      "counts": {
+        "total": 578,
+        "violent": 37,
+        "felony": 4,
+        "burglary": 14
+      },
+      "perPlace": {
+        "total": 64.22,
+        "violent": 4.11,
+        "felony": 0.44,
+        "burglary": 1.56
+      }
+    },
+    "sendagaya": {
+      "places": 9,
+      "counts": {
+        "total": 167,
+        "violent": 25,
+        "felony": 0,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 18.56,
+        "violent": 2.78,
+        "felony": 0.0,
+        "burglary": 0.22
+      }
+    },
+    "minami-shinjuku": {
+      "places": 9,
+      "counts": {
+        "total": 877,
+        "violent": 108,
+        "felony": 8,
+        "burglary": 19
+      },
+      "perPlace": {
+        "total": 97.44,
+        "violent": 12.0,
+        "felony": 0.89,
+        "burglary": 2.11
+      }
+    },
+    "sangubashi": {
+      "places": 8,
+      "counts": {
+        "total": 326,
+        "violent": 39,
+        "felony": 4,
+        "burglary": 10
+      },
+      "perPlace": {
+        "total": 40.75,
+        "violent": 4.88,
+        "felony": 0.5,
+        "burglary": 1.25
+      }
+    },
+    "hatagaya": {
+      "places": 10,
+      "counts": {
+        "total": 294,
+        "violent": 20,
+        "felony": 1,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 29.4,
+        "violent": 2.0,
+        "felony": 0.1,
+        "burglary": 0.2
+      }
+    },
+    "ebisu": {
+      "places": 14,
+      "counts": {
+        "total": 515,
+        "violent": 55,
+        "felony": 6,
+        "burglary": 22
+      },
+      "perPlace": {
+        "total": 36.79,
+        "violent": 3.93,
+        "felony": 0.43,
+        "burglary": 1.57
+      }
+    },
+    "meiji-jingumae": {
+      "places": 9,
+      "counts": {
+        "total": 737,
+        "violent": 47,
+        "felony": 1,
+        "burglary": 18
+      },
+      "perPlace": {
+        "total": 81.89,
+        "violent": 5.22,
+        "felony": 0.11,
+        "burglary": 2.0
+      }
+    },
+    "shibuya": {
+      "places": 14,
+      "counts": {
+        "total": 1796,
+        "violent": 242,
+        "felony": 43,
+        "burglary": 30
+      },
+      "perPlace": {
+        "total": 128.29,
+        "violent": 17.29,
+        "felony": 3.07,
+        "burglary": 2.14
+      }
+    },
+    "shinsen": {
+      "places": 16,
+      "counts": {
+        "total": 1499,
+        "violent": 227,
+        "felony": 39,
+        "burglary": 26
+      },
+      "perPlace": {
+        "total": 93.69,
+        "violent": 14.19,
+        "felony": 2.44,
+        "burglary": 1.62
+      }
+    },
+    "sasazuka": {
+      "places": 9,
+      "counts": {
+        "total": 314,
+        "violent": 28,
+        "felony": 0,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 34.89,
+        "violent": 3.11,
+        "felony": 0.0,
+        "burglary": 0.89
+      }
+    },
+    "nishi-shinjuku-gochome": {
+      "places": 11,
+      "counts": {
+        "total": 574,
+        "violent": 70,
+        "felony": 10,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 52.18,
+        "violent": 6.36,
+        "felony": 0.91,
+        "burglary": 0.55
+      }
+    },
+    "nakano": {
+      "places": 9,
+      "counts": {
+        "total": 650,
+        "violent": 85,
+        "felony": 3,
+        "burglary": 22
+      },
+      "perPlace": {
+        "total": 72.22,
+        "violent": 9.44,
+        "felony": 0.33,
+        "burglary": 2.44
+      }
+    },
+    "nakano-sakaue": {
+      "places": 9,
+      "counts": {
+        "total": 354,
+        "violent": 42,
+        "felony": 6,
+        "burglary": 10
+      },
+      "perPlace": {
+        "total": 39.33,
+        "violent": 4.67,
+        "felony": 0.67,
+        "burglary": 1.11
+      }
+    },
+    "nakano-fujimicho": {
+      "places": 10,
+      "counts": {
+        "total": 213,
+        "violent": 20,
+        "felony": 1,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 21.3,
+        "violent": 2.0,
+        "felony": 0.1,
+        "burglary": 0.6
+      }
+    },
+    "nakano-shimbashi": {
+      "places": 11,
+      "counts": {
+        "total": 256,
+        "violent": 24,
+        "felony": 4,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 23.27,
+        "violent": 2.18,
+        "felony": 0.36,
+        "burglary": 0.27
+      }
+    },
+    "fujimidai": {
+      "places": 11,
+      "counts": {
+        "total": 196,
+        "violent": 22,
+        "felony": 1,
+        "burglary": 9
+      },
+      "perPlace": {
+        "total": 17.82,
+        "violent": 2.0,
+        "felony": 0.09,
+        "burglary": 0.82
+      }
+    },
+    "shin-nakano": {
+      "places": 10,
+      "counts": {
+        "total": 334,
+        "violent": 39,
+        "felony": 1,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 33.4,
+        "violent": 3.9,
+        "felony": 0.1,
+        "burglary": 0.3
+      }
+    },
+    "araiyakushi-mae": {
+      "places": 12,
+      "counts": {
+        "total": 244,
+        "violent": 23,
+        "felony": 3,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 20.33,
+        "violent": 1.92,
+        "felony": 0.25,
+        "burglary": 0.33
+      }
+    },
+    "higashi-nakano": {
+      "places": 10,
+      "counts": {
+        "total": 306,
+        "violent": 24,
+        "felony": 9,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 30.6,
+        "violent": 2.4,
+        "felony": 0.9,
+        "burglary": 0.5
+      }
+    },
+    "numabukuro": {
+      "places": 13,
+      "counts": {
+        "total": 208,
+        "violent": 17,
+        "felony": 4,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 16.0,
+        "violent": 1.31,
+        "felony": 0.31,
+        "burglary": 0.38
+      }
+    },
+    "ochiai": {
+      "places": 10,
+      "counts": {
+        "total": 253,
+        "violent": 23,
+        "felony": 3,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 25.3,
+        "violent": 2.3,
+        "felony": 0.3,
+        "burglary": 0.5
+      }
+    },
+    "toritsu-kasei": {
+      "places": 11,
+      "counts": {
+        "total": 220,
+        "violent": 17,
+        "felony": 3,
+        "burglary": 11
+      },
+      "perPlace": {
+        "total": 20.0,
+        "violent": 1.55,
+        "felony": 0.27,
+        "burglary": 1.0
+      }
+    },
+    "nogata": {
+      "places": 12,
+      "counts": {
+        "total": 263,
+        "violent": 22,
+        "felony": 5,
+        "burglary": 10
+      },
+      "perPlace": {
+        "total": 21.92,
+        "violent": 1.83,
+        "felony": 0.42,
+        "burglary": 0.83
+      }
+    },
+    "saginomiya": {
+      "places": 13,
+      "counts": {
+        "total": 220,
+        "violent": 24,
+        "felony": 4,
+        "burglary": 12
+      },
+      "perPlace": {
+        "total": 16.92,
+        "violent": 1.85,
+        "felony": 0.31,
+        "burglary": 0.92
+      }
+    },
+    "shimo-igusa": {
+      "places": 9,
+      "counts": {
+        "total": 117,
+        "violent": 9,
+        "felony": 0,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 13.0,
+        "violent": 1.0,
+        "felony": 0.0,
+        "burglary": 0.67
+      }
+    },
+    "kugayama": {
+      "places": 7,
+      "counts": {
+        "total": 105,
+        "violent": 16,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 15.0,
+        "violent": 2.29,
+        "felony": 0.0,
+        "burglary": 0.43
+      }
+    },
+    "iogi": {
+      "places": 10,
+      "counts": {
+        "total": 121,
+        "violent": 3,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 12.1,
+        "violent": 0.3,
+        "felony": 0.0,
+        "burglary": 0.3
+      }
+    },
+    "minami-asagaya": {
+      "places": 7,
+      "counts": {
+        "total": 284,
+        "violent": 13,
+        "felony": 2,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 40.57,
+        "violent": 1.86,
+        "felony": 0.29,
+        "burglary": 0.43
+      }
+    },
+    "fujimigaoka": {
+      "places": 7,
+      "counts": {
+        "total": 85,
+        "violent": 13,
+        "felony": 0,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 12.14,
+        "violent": 1.86,
+        "felony": 0.0,
+        "burglary": 0.14
+      }
+    },
+    "shin-koenji": {
+      "places": 7,
+      "counts": {
+        "total": 313,
+        "violent": 19,
+        "felony": 3,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 44.71,
+        "violent": 2.71,
+        "felony": 0.43,
+        "burglary": 0.43
+      }
+    },
+    "honancho": {
+      "places": 7,
+      "counts": {
+        "total": 137,
+        "violent": 11,
+        "felony": 3,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 19.57,
+        "violent": 1.57,
+        "felony": 0.43,
+        "burglary": 0.71
+      }
+    },
+    "higashi-koenji": {
+      "places": 8,
+      "counts": {
+        "total": 220,
+        "violent": 11,
+        "felony": 2,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 27.5,
+        "violent": 1.38,
+        "felony": 0.25,
+        "burglary": 0.62
+      }
+    },
+    "eifukucho": {
+      "places": 7,
+      "counts": {
+        "total": 126,
+        "violent": 10,
+        "felony": 1,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 18.0,
+        "violent": 1.43,
+        "felony": 0.14,
+        "burglary": 0.57
+      }
+    },
+    "hamadayama": {
+      "places": 8,
+      "counts": {
+        "total": 94,
+        "violent": 5,
+        "felony": 0,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 11.75,
+        "violent": 0.62,
+        "felony": 0.0,
+        "burglary": 0.25
+      }
+    },
+    "ogikubo": {
+      "places": 10,
+      "counts": {
+        "total": 259,
+        "violent": 25,
+        "felony": 4,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 25.9,
+        "violent": 2.5,
+        "felony": 0.4,
+        "burglary": 0.5
+      }
+    },
+    "nishi-eifuku": {
+      "places": 9,
+      "counts": {
+        "total": 106,
+        "violent": 7,
+        "felony": 1,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 11.78,
+        "violent": 0.78,
+        "felony": 0.11,
+        "burglary": 0.44
+      }
+    },
+    "nishi-ogikubo": {
+      "places": 13,
+      "counts": {
+        "total": 174,
+        "violent": 21,
+        "felony": 6,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 13.38,
+        "violent": 1.62,
+        "felony": 0.46,
+        "burglary": 0.46
+      }
+    },
+    "asagaya": {
+      "places": 10,
+      "counts": {
+        "total": 369,
+        "violent": 17,
+        "felony": 3,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 36.9,
+        "violent": 1.7,
+        "felony": 0.3,
+        "burglary": 0.8
+      }
+    },
+    "takaido": {
+      "places": 8,
+      "counts": {
+        "total": 98,
+        "violent": 9,
+        "felony": 0,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 12.25,
+        "violent": 1.12,
+        "felony": 0.0,
+        "burglary": 0.5
+      }
+    },
+    "koenji": {
+      "places": 11,
+      "counts": {
+        "total": 489,
+        "violent": 39,
+        "felony": 4,
+        "burglary": 12
+      },
+      "perPlace": {
+        "total": 44.45,
+        "violent": 3.55,
+        "felony": 0.36,
+        "burglary": 1.09
+      }
+    },
+    "shimo-itabashi": {
+      "places": 11,
+      "counts": {
+        "total": 388,
+        "violent": 28,
+        "felony": 3,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 35.27,
+        "violent": 2.55,
+        "felony": 0.27,
+        "burglary": 0.64
+      }
+    },
+    "kita-ikebukuro": {
+      "places": 12,
+      "counts": {
+        "total": 430,
+        "violent": 30,
+        "felony": 9,
+        "burglary": 14
+      },
+      "perPlace": {
+        "total": 35.83,
+        "violent": 2.5,
+        "felony": 0.75,
+        "burglary": 1.17
+      }
+    },
+    "senkawa": {
+      "places": 13,
+      "counts": {
+        "total": 271,
+        "violent": 16,
+        "felony": 3,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 20.85,
+        "violent": 1.23,
+        "felony": 0.23,
+        "burglary": 0.08
+      }
+    },
+    "mukohara": {
+      "places": 11,
+      "counts": {
+        "total": 552,
+        "violent": 56,
+        "felony": 4,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 50.18,
+        "violent": 5.09,
+        "felony": 0.36,
+        "burglary": 0.55
+      }
+    },
+    "otsuka": {
+      "places": 12,
+      "counts": {
+        "total": 513,
+        "violent": 48,
+        "felony": 5,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 42.75,
+        "violent": 4.0,
+        "felony": 0.42,
+        "burglary": 0.5
+      }
+    },
+    "gakushuinshita": {
+      "places": 10,
+      "counts": {
+        "total": 224,
+        "violent": 20,
+        "felony": 2,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 22.4,
+        "violent": 2.0,
+        "felony": 0.2,
+        "burglary": 0.6
+      }
+    },
+    "sugamo": {
+      "places": 12,
+      "counts": {
+        "total": 299,
+        "violent": 26,
+        "felony": 4,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 24.92,
+        "violent": 2.17,
+        "felony": 0.33,
+        "burglary": 0.25
+      }
+    },
+    "sugamoshinden": {
+      "places": 12,
+      "counts": {
+        "total": 447,
+        "violent": 48,
+        "felony": 5,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 37.25,
+        "violent": 4.0,
+        "felony": 0.42,
+        "burglary": 0.33
+      }
+    },
+    "koshinzuka": {
+      "places": 14,
+      "counts": {
+        "total": 406,
+        "violent": 42,
+        "felony": 8,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 29.0,
+        "violent": 3.0,
+        "felony": 0.57,
+        "burglary": 0.57
+      }
+    },
+    "shin-koshinzuka": {
+      "places": 11,
+      "counts": {
+        "total": 194,
+        "violent": 17,
+        "felony": 4,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 17.64,
+        "violent": 1.55,
+        "felony": 0.36,
+        "burglary": 0.55
+      }
+    },
+    "higashi-ikebukuro": {
+      "places": 14,
+      "counts": {
+        "total": 997,
+        "violent": 84,
+        "felony": 9,
+        "burglary": 44
+      },
+      "perPlace": {
+        "total": 71.21,
+        "violent": 6.0,
+        "felony": 0.64,
+        "burglary": 3.14
+      }
+    },
+    "higashi-nagasaki": {
+      "places": 13,
+      "counts": {
+        "total": 200,
+        "violent": 17,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 15.38,
+        "violent": 1.31,
+        "felony": 0.0,
+        "burglary": 0.23
+      }
+    },
+    "shiinamachi": {
+      "places": 10,
+      "counts": {
+        "total": 182,
+        "violent": 13,
+        "felony": 2,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 18.2,
+        "violent": 1.3,
+        "felony": 0.2,
+        "burglary": 0.3
+      }
+    },
+    "ikebukuro": {
+      "places": 12,
+      "counts": {
+        "total": 2305,
+        "violent": 239,
+        "felony": 46,
+        "burglary": 76
+      },
+      "perPlace": {
+        "total": 192.08,
+        "violent": 19.92,
+        "felony": 3.83,
+        "burglary": 6.33
+      }
+    },
+    "mejiro": {
+      "places": 10,
+      "counts": {
+        "total": 205,
+        "violent": 10,
+        "felony": 4,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 20.5,
+        "violent": 1.0,
+        "felony": 0.4,
+        "burglary": 0.6
+      }
+    },
+    "ochiai-minami-nagasaki": {
+      "places": 12,
+      "counts": {
+        "total": 194,
+        "violent": 19,
+        "felony": 2,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 16.17,
+        "violent": 1.58,
+        "felony": 0.17,
+        "burglary": 0.17
+      }
+    },
+    "nishi-sugamo": {
+      "places": 12,
+      "counts": {
+        "total": 246,
+        "violent": 23,
+        "felony": 4,
+        "burglary": 11
+      },
+      "perPlace": {
+        "total": 20.5,
+        "violent": 1.92,
+        "felony": 0.33,
+        "burglary": 0.92
+      }
+    },
+    "kanamecho": {
+      "places": 13,
+      "counts": {
+        "total": 411,
+        "violent": 28,
+        "felony": 5,
+        "burglary": 11
+      },
+      "perPlace": {
+        "total": 31.62,
+        "violent": 2.15,
+        "felony": 0.38,
+        "burglary": 0.85
+      }
+    },
+    "toden-zoshigaya": {
+      "places": 12,
+      "counts": {
+        "total": 909,
+        "violent": 111,
+        "felony": 8,
+        "burglary": 9
+      },
+      "perPlace": {
+        "total": 75.75,
+        "violent": 9.25,
+        "felony": 0.67,
+        "burglary": 0.75
+      }
+    },
+    "zoshigaya": {
+      "places": 11,
+      "counts": {
+        "total": 207,
+        "violent": 13,
+        "felony": 1,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 18.82,
+        "violent": 1.18,
+        "felony": 0.09,
+        "burglary": 0.27
+      }
+    },
+    "komagome": {
+      "places": 14,
+      "counts": {
+        "total": 283,
+        "violent": 33,
+        "felony": 2,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 20.21,
+        "violent": 2.36,
+        "felony": 0.14,
+        "burglary": 0.29
+      }
+    },
+    "kami-nakazato": {
+      "places": 10,
+      "counts": {
+        "total": 136,
+        "violent": 13,
+        "felony": 4,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 13.6,
+        "violent": 1.3,
+        "felony": 0.4,
+        "burglary": 0.7
+      }
+    },
+    "kita-akabane": {
+      "places": 7,
+      "counts": {
+        "total": 130,
+        "violent": 10,
+        "felony": 0,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 18.57,
+        "violent": 1.43,
+        "felony": 0.0,
+        "burglary": 0.57
+      }
+    },
+    "jujo": {
+      "places": 18,
+      "counts": {
+        "total": 268,
+        "violent": 26,
+        "felony": 3,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 14.89,
+        "violent": 1.44,
+        "felony": 0.17,
+        "burglary": 0.28
+      }
+    },
+    "oku": {
+      "places": 12,
+      "counts": {
+        "total": 184,
+        "violent": 17,
+        "felony": 3,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 15.33,
+        "violent": 1.42,
+        "felony": 0.25,
+        "burglary": 0.5
+      }
+    },
+    "shimo": {
+      "places": 8,
+      "counts": {
+        "total": 283,
+        "violent": 14,
+        "felony": 0,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 35.38,
+        "violent": 1.75,
+        "felony": 0.0,
+        "burglary": 0.5
+      }
+    },
+    "higashi-jujo": {
+      "places": 17,
+      "counts": {
+        "total": 310,
+        "violent": 26,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 18.24,
+        "violent": 1.53,
+        "felony": 0.0,
+        "burglary": 0.18
+      }
+    },
+    "sakaecho": {
+      "places": 12,
+      "counts": {
+        "total": 322,
+        "violent": 23,
+        "felony": 4,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 26.83,
+        "violent": 1.92,
+        "felony": 0.33,
+        "burglary": 0.42
+      }
+    },
+    "kajiwara": {
+      "places": 12,
+      "counts": {
+        "total": 185,
+        "violent": 14,
+        "felony": 4,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 15.42,
+        "violent": 1.17,
+        "felony": 0.33,
+        "burglary": 0.42
+      }
+    },
+    "takinogawa-itchome": {
+      "places": 8,
+      "counts": {
+        "total": 142,
+        "violent": 14,
+        "felony": 3,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 17.75,
+        "violent": 1.75,
+        "felony": 0.38,
+        "burglary": 0.62
+      }
+    },
+    "oji": {
+      "places": 14,
+      "counts": {
+        "total": 371,
+        "violent": 25,
+        "felony": 3,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 26.5,
+        "violent": 1.79,
+        "felony": 0.21,
+        "burglary": 0.5
+      }
+    },
+    "oji-kamiya": {
+      "places": 12,
+      "counts": {
+        "total": 263,
+        "violent": 19,
+        "felony": 0,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 21.92,
+        "violent": 1.58,
+        "felony": 0.0,
+        "burglary": 0.08
+      }
+    },
+    "tabata": {
+      "places": 16,
+      "counts": {
+        "total": 250,
+        "violent": 28,
+        "felony": 1,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 15.62,
+        "violent": 1.75,
+        "felony": 0.06,
+        "burglary": 0.31
+      }
+    },
+    "nishigahara": {
+      "places": 11,
+      "counts": {
+        "total": 163,
+        "violent": 17,
+        "felony": 3,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 14.82,
+        "violent": 1.55,
+        "felony": 0.27,
+        "burglary": 0.45
+      }
+    },
+    "nishigahara-yonchome": {
+      "places": 13,
+      "counts": {
+        "total": 219,
+        "violent": 20,
+        "felony": 4,
+        "burglary": 14
+      },
+      "perPlace": {
+        "total": 16.85,
+        "violent": 1.54,
+        "felony": 0.31,
+        "burglary": 1.08
+      }
+    },
+    "akabane": {
+      "places": 11,
+      "counts": {
+        "total": 599,
+        "violent": 73,
+        "felony": 2,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 54.45,
+        "violent": 6.64,
+        "felony": 0.18,
+        "burglary": 0.55
+      }
+    },
+    "akabane-iwabuchi": {
+      "places": 10,
+      "counts": {
+        "total": 595,
+        "violent": 74,
+        "felony": 5,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 59.5,
+        "violent": 7.4,
+        "felony": 0.5,
+        "burglary": 0.7
+      }
+    },
+    "asukayama": {
+      "places": 10,
+      "counts": {
+        "total": 307,
+        "violent": 24,
+        "felony": 2,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 30.7,
+        "violent": 2.4,
+        "felony": 0.2,
+        "burglary": 0.7
+      }
+    },
+    "minowabashi": {
+      "places": 14,
+      "counts": {
+        "total": 392,
+        "violent": 38,
+        "felony": 1,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 28.0,
+        "violent": 2.71,
+        "felony": 0.07,
+        "burglary": 0.57
+      }
+    },
+    "mikawashima": {
+      "places": 11,
+      "counts": {
+        "total": 471,
+        "violent": 70,
+        "felony": 9,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 42.82,
+        "violent": 6.36,
+        "felony": 0.82,
+        "burglary": 0.55
+      }
+    },
+    "minami-senju": {
+      "places": 11,
+      "counts": {
+        "total": 441,
+        "violent": 45,
+        "felony": 5,
+        "burglary": 17
+      },
+      "perPlace": {
+        "total": 40.09,
+        "violent": 4.09,
+        "felony": 0.45,
+        "burglary": 1.55
+      }
+    },
+    "miyanomae": {
+      "places": 9,
+      "counts": {
+        "total": 139,
+        "violent": 17,
+        "felony": 1,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 15.44,
+        "violent": 1.89,
+        "felony": 0.11,
+        "burglary": 0.11
+      }
+    },
+    "odai": {
+      "places": 11,
+      "counts": {
+        "total": 194,
+        "violent": 19,
+        "felony": 1,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 17.64,
+        "violent": 1.73,
+        "felony": 0.09,
+        "burglary": 0.18
+      }
+    },
+    "shim-mikawashima": {
+      "places": 13,
+      "counts": {
+        "total": 448,
+        "violent": 70,
+        "felony": 8,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 34.46,
+        "violent": 5.38,
+        "felony": 0.62,
+        "burglary": 0.38
+      }
+    },
+    "nippori": {
+      "places": 14,
+      "counts": {
+        "total": 413,
+        "violent": 58,
+        "felony": 8,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 29.5,
+        "violent": 4.14,
+        "felony": 0.57,
+        "burglary": 0.5
+      }
+    },
+    "higashi-ogu-sanchome": {
+      "places": 12,
+      "counts": {
+        "total": 220,
+        "violent": 24,
+        "felony": 2,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 18.33,
+        "violent": 2.0,
+        "felony": 0.17,
+        "burglary": 0.25
+      }
+    },
+    "kumanomae": {
+      "places": 11,
+      "counts": {
+        "total": 193,
+        "violent": 18,
+        "felony": 2,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 17.55,
+        "violent": 1.64,
+        "felony": 0.18,
+        "burglary": 0.45
+      }
+    },
+    "machiya": {
+      "places": 12,
+      "counts": {
+        "total": 242,
+        "violent": 27,
+        "felony": 1,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 20.17,
+        "violent": 2.25,
+        "felony": 0.08,
+        "burglary": 0.25
+      }
+    },
+    "machiya-nichome": {
+      "places": 12,
+      "counts": {
+        "total": 258,
+        "violent": 31,
+        "felony": 1,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 21.5,
+        "violent": 2.58,
+        "felony": 0.08,
+        "burglary": 0.25
+      }
+    },
+    "arakawa-itchumae": {
+      "places": 15,
+      "counts": {
+        "total": 382,
+        "violent": 33,
+        "felony": 2,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 25.47,
+        "violent": 2.2,
+        "felony": 0.13,
+        "burglary": 0.47
+      }
+    },
+    "arakawa-nanachome": {
+      "places": 11,
+      "counts": {
+        "total": 210,
+        "violent": 24,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 19.09,
+        "violent": 2.18,
+        "felony": 0.0,
+        "burglary": 0.27
+      }
+    },
+    "arakawa-nichome": {
+      "places": 9,
+      "counts": {
+        "total": 260,
+        "violent": 27,
+        "felony": 1,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 28.89,
+        "violent": 3.0,
+        "felony": 0.11,
+        "burglary": 0.33
+      }
+    },
+    "arakawakuyakushomae": {
+      "places": 10,
+      "counts": {
+        "total": 278,
+        "violent": 19,
+        "felony": 1,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 27.8,
+        "violent": 1.9,
+        "felony": 0.1,
+        "burglary": 0.1
+      }
+    },
+    "arakawa-shakomae": {
+      "places": 12,
+      "counts": {
+        "total": 160,
+        "violent": 11,
+        "felony": 3,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 13.33,
+        "violent": 0.92,
+        "felony": 0.25,
+        "burglary": 0.42
+      }
+    },
+    "arakawa-yuenchimae": {
+      "places": 13,
+      "counts": {
+        "total": 178,
+        "violent": 13,
+        "felony": 3,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 13.69,
+        "violent": 1.0,
+        "felony": 0.23,
+        "burglary": 0.38
+      }
+    },
+    "nishi-nippori": {
+      "places": 13,
+      "counts": {
+        "total": 405,
+        "violent": 59,
+        "felony": 5,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 31.15,
+        "violent": 4.54,
+        "felony": 0.38,
+        "burglary": 0.23
+      }
+    },
+    "akado-shogakkomae": {
+      "places": 14,
+      "counts": {
+        "total": 251,
+        "violent": 32,
+        "felony": 2,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 17.93,
+        "violent": 2.29,
+        "felony": 0.14,
+        "burglary": 0.21
+      }
+    },
+    "tokiwadai": {
+      "places": 9,
+      "counts": {
+        "total": 212,
+        "violent": 12,
+        "felony": 3,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 23.56,
+        "violent": 1.33,
+        "felony": 0.33,
+        "burglary": 0.89
+      }
+    },
+    "kami-itabashi": {
+      "places": 11,
+      "counts": {
+        "total": 230,
+        "violent": 22,
+        "felony": 1,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 20.91,
+        "violent": 2.0,
+        "felony": 0.09,
+        "burglary": 0.45
+      }
+    },
+    "naka-itabashi": {
+      "places": 11,
+      "counts": {
+        "total": 297,
+        "violent": 20,
+        "felony": 8,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 27.0,
+        "violent": 1.82,
+        "felony": 0.73,
+        "burglary": 0.73
+      }
+    },
+    "chikatetsu-akatsuka": {
+      "places": 9,
+      "counts": {
+        "total": 225,
+        "violent": 23,
+        "felony": 2,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 25.0,
+        "violent": 2.56,
+        "felony": 0.22,
+        "burglary": 0.56
+      }
+    },
+    "oyama": {
+      "places": 11,
+      "counts": {
+        "total": 447,
+        "violent": 37,
+        "felony": 5,
+        "burglary": 13
+      },
+      "perPlace": {
+        "total": 40.64,
+        "violent": 3.36,
+        "felony": 0.45,
+        "burglary": 1.18
+      }
+    },
+    "shimura-sanchome": {
+      "places": 9,
+      "counts": {
+        "total": 191,
+        "violent": 20,
+        "felony": 2,
+        "burglary": 0
+      },
+      "perPlace": {
+        "total": 21.22,
+        "violent": 2.22,
+        "felony": 0.22,
+        "burglary": 0.0
+      }
+    },
+    "shimura-sakaue": {
+      "places": 8,
+      "counts": {
+        "total": 168,
+        "violent": 13,
+        "felony": 2,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 21.0,
+        "violent": 1.62,
+        "felony": 0.25,
+        "burglary": 0.25
+      }
+    },
+    "narimasu": {
+      "places": 7,
+      "counts": {
+        "total": 300,
+        "violent": 29,
+        "felony": 1,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 42.86,
+        "violent": 4.14,
+        "felony": 0.14,
+        "burglary": 0.57
+      }
+    },
+    "shin-itabashi": {
+      "places": 9,
+      "counts": {
+        "total": 257,
+        "violent": 23,
+        "felony": 3,
+        "burglary": 13
+      },
+      "perPlace": {
+        "total": 28.56,
+        "violent": 2.56,
+        "felony": 0.33,
+        "burglary": 1.44
+      }
+    },
+    "shin-takashimadaira": {
+      "places": 7,
+      "counts": {
+        "total": 183,
+        "violent": 17,
+        "felony": 2,
+        "burglary": 16
+      },
+      "perPlace": {
+        "total": 26.14,
+        "violent": 2.43,
+        "felony": 0.29,
+        "burglary": 2.29
+      }
+    },
+    "motohasunuma": {
+      "places": 10,
+      "counts": {
+        "total": 205,
+        "violent": 17,
+        "felony": 2,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 20.5,
+        "violent": 1.7,
+        "felony": 0.2,
+        "burglary": 0.5
+      }
+    },
+    "itabashi": {
+      "places": 9,
+      "counts": {
+        "total": 268,
+        "violent": 22,
+        "felony": 3,
+        "burglary": 16
+      },
+      "perPlace": {
+        "total": 29.78,
+        "violent": 2.44,
+        "felony": 0.33,
+        "burglary": 1.78
+      }
+    },
+    "itabashi-kuyakushomae": {
+      "places": 7,
+      "counts": {
+        "total": 264,
+        "violent": 23,
+        "felony": 2,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 37.71,
+        "violent": 3.29,
+        "felony": 0.29,
+        "burglary": 0.57
+      }
+    },
+    "itabashihoncho": {
+      "places": 10,
+      "counts": {
+        "total": 272,
+        "violent": 26,
+        "felony": 4,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 27.2,
+        "violent": 2.6,
+        "felony": 0.4,
+        "burglary": 0.3
+      }
+    },
+    "ukimafunado": {
+      "places": 6,
+      "counts": {
+        "total": 101,
+        "violent": 8,
+        "felony": 0,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 16.83,
+        "violent": 1.33,
+        "felony": 0.0,
+        "burglary": 0.33
+      }
+    },
+    "hasune": {
+      "places": 6,
+      "counts": {
+        "total": 188,
+        "violent": 21,
+        "felony": 2,
+        "burglary": 0
+      },
+      "perPlace": {
+        "total": 31.33,
+        "violent": 3.5,
+        "felony": 0.33,
+        "burglary": 0.0
+      }
+    },
+    "nishidai": {
+      "places": 5,
+      "counts": {
+        "total": 238,
+        "violent": 25,
+        "felony": 2,
+        "burglary": 0
+      },
+      "perPlace": {
+        "total": 47.6,
+        "violent": 5.0,
+        "felony": 0.4,
+        "burglary": 0.0
+      }
+    },
+    "nishi-takashimadaira": {
+      "places": 5,
+      "counts": {
+        "total": 61,
+        "violent": 7,
+        "felony": 0,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 12.2,
+        "violent": 1.4,
+        "felony": 0.0,
+        "burglary": 0.8
+      }
+    },
+    "takashimadaira": {
+      "places": 5,
+      "counts": {
+        "total": 289,
+        "violent": 21,
+        "felony": 3,
+        "burglary": 14
+      },
+      "perPlace": {
+        "total": 57.8,
+        "violent": 4.2,
+        "felony": 0.6,
+        "burglary": 2.8
+      }
+    },
+    "kami-igusa": {
+      "places": 10,
+      "counts": {
+        "total": 111,
+        "violent": 5,
+        "felony": 2,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 11.1,
+        "violent": 0.5,
+        "felony": 0.2,
+        "burglary": 0.1
+      }
+    },
+    "kami-shakujii": {
+      "places": 7,
+      "counts": {
+        "total": 112,
+        "violent": 4,
+        "felony": 1,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 16.0,
+        "violent": 0.57,
+        "felony": 0.14,
+        "burglary": 0.71
+      }
+    },
+    "nakamurabashi": {
+      "places": 12,
+      "counts": {
+        "total": 177,
+        "violent": 20,
+        "felony": 2,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 14.75,
+        "violent": 1.67,
+        "felony": 0.17,
+        "burglary": 0.42
+      }
+    },
+    "hikarigaoka": {
+      "places": 8,
+      "counts": {
+        "total": 309,
+        "violent": 13,
+        "felony": 2,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 38.62,
+        "violent": 1.62,
+        "felony": 0.25,
+        "burglary": 0.38
+      }
+    },
+    "oizumi-gakuen": {
+      "places": 5,
+      "counts": {
+        "total": 247,
+        "violent": 25,
+        "felony": 2,
+        "burglary": 11
+      },
+      "perPlace": {
+        "total": 49.4,
+        "violent": 5.0,
+        "felony": 0.4,
+        "burglary": 2.2
+      }
+    },
+    "kotake-mukaihara": {
+      "places": 11,
+      "counts": {
+        "total": 180,
+        "violent": 9,
+        "felony": 1,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 16.36,
+        "violent": 0.82,
+        "felony": 0.09,
+        "burglary": 0.18
+      }
+    },
+    "heiwadai": {
+      "places": 9,
+      "counts": {
+        "total": 145,
+        "violent": 14,
+        "felony": 2,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 16.11,
+        "violent": 1.56,
+        "felony": 0.22,
+        "burglary": 0.67
+      }
+    },
+    "shin-sakuradai": {
+      "places": 11,
+      "counts": {
+        "total": 239,
+        "violent": 15,
+        "felony": 2,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 21.73,
+        "violent": 1.36,
+        "felony": 0.18,
+        "burglary": 0.64
+      }
+    },
+    "shin-egota": {
+      "places": 12,
+      "counts": {
+        "total": 226,
+        "violent": 18,
+        "felony": 2,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 18.83,
+        "violent": 1.5,
+        "felony": 0.17,
+        "burglary": 0.08
+      }
+    },
+    "tobu-nerima": {
+      "places": 8,
+      "counts": {
+        "total": 262,
+        "violent": 22,
+        "felony": 3,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 32.75,
+        "violent": 2.75,
+        "felony": 0.38,
+        "burglary": 0.62
+      }
+    },
+    "sakuradai": {
+      "places": 12,
+      "counts": {
+        "total": 407,
+        "violent": 47,
+        "felony": 2,
+        "burglary": 13
+      },
+      "perPlace": {
+        "total": 33.92,
+        "violent": 3.92,
+        "felony": 0.17,
+        "burglary": 1.08
+      }
+    },
+    "musashi-seki": {
+      "places": 8,
+      "counts": {
+        "total": 122,
+        "violent": 11,
+        "felony": 1,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 15.25,
+        "violent": 1.38,
+        "felony": 0.12,
+        "burglary": 0.25
+      }
+    },
+    "hikawadai": {
+      "places": 8,
+      "counts": {
+        "total": 127,
+        "violent": 7,
+        "felony": 1,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 15.88,
+        "violent": 0.88,
+        "felony": 0.12,
+        "burglary": 0.62
+      }
+    },
+    "ekoda": {
+      "places": 12,
+      "counts": {
+        "total": 271,
+        "violent": 22,
+        "felony": 1,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 22.58,
+        "violent": 1.83,
+        "felony": 0.08,
+        "burglary": 0.33
+      }
+    },
+    "shakujii-koen": {
+      "places": 10,
+      "counts": {
+        "total": 218,
+        "violent": 13,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 21.8,
+        "violent": 1.3,
+        "felony": 0.0,
+        "burglary": 0.3
+      }
+    },
+    "nerima": {
+      "places": 14,
+      "counts": {
+        "total": 418,
+        "violent": 55,
+        "felony": 2,
+        "burglary": 16
+      },
+      "perPlace": {
+        "total": 29.86,
+        "violent": 3.93,
+        "felony": 0.14,
+        "burglary": 1.14
+      }
+    },
+    "nerima-kasugacho": {
+      "places": 6,
+      "counts": {
+        "total": 106,
+        "violent": 9,
+        "felony": 0,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 17.67,
+        "violent": 1.5,
+        "felony": 0.0,
+        "burglary": 0.17
+      }
+    },
+    "nerima-takanodai": {
+      "places": 10,
+      "counts": {
+        "total": 136,
+        "violent": 9,
+        "felony": 0,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 13.6,
+        "violent": 0.9,
+        "felony": 0.0,
+        "burglary": 0.1
+      }
+    },
+    "toshimaen": {
+      "places": 11,
+      "counts": {
+        "total": 291,
+        "violent": 36,
+        "felony": 2,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 26.45,
+        "violent": 3.27,
+        "felony": 0.18,
+        "burglary": 0.55
+      }
+    },
+    "gotanno": {
+      "places": 11,
+      "counts": {
+        "total": 209,
+        "violent": 19,
+        "felony": 2,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 19.0,
+        "violent": 1.73,
+        "felony": 0.18,
+        "burglary": 0.73
+      }
+    },
+    "rokucho": {
+      "places": 13,
+      "counts": {
+        "total": 150,
+        "violent": 12,
+        "felony": 2,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 11.54,
+        "violent": 0.92,
+        "felony": 0.15,
+        "burglary": 0.38
+      }
+    },
+    "kita-senju": {
+      "places": 12,
+      "counts": {
+        "total": 512,
+        "violent": 84,
+        "felony": 3,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 42.67,
+        "violent": 7.0,
+        "felony": 0.25,
+        "burglary": 0.67
+      }
+    },
+    "kita-ayase": {
+      "places": 12,
+      "counts": {
+        "total": 212,
+        "violent": 16,
+        "felony": 1,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 17.67,
+        "violent": 1.33,
+        "felony": 0.08,
+        "burglary": 0.33
+      }
+    },
+    "senjuohashi": {
+      "places": 12,
+      "counts": {
+        "total": 239,
+        "violent": 22,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 19.92,
+        "violent": 1.83,
+        "felony": 0.0,
+        "burglary": 0.25
+      }
+    },
+    "horikiri": {
+      "places": 6,
+      "counts": {
+        "total": 131,
+        "violent": 18,
+        "felony": 2,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 21.83,
+        "violent": 3.0,
+        "felony": 0.33,
+        "burglary": 0.83
+      }
+    },
+    "daishimae": {
+      "places": 12,
+      "counts": {
+        "total": 230,
+        "violent": 23,
+        "felony": 2,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 19.17,
+        "violent": 1.92,
+        "felony": 0.17,
+        "burglary": 0.42
+      }
+    },
+    "kosuge": {
+      "places": 8,
+      "counts": {
+        "total": 122,
+        "violent": 7,
+        "felony": 0,
+        "burglary": 9
+      },
+      "perPlace": {
+        "total": 15.25,
+        "violent": 0.88,
+        "felony": 0.0,
+        "burglary": 1.12
+      }
+    },
+    "ogi-ohashi": {
+      "places": 5,
+      "counts": {
+        "total": 110,
+        "violent": 5,
+        "felony": 1,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 22.0,
+        "violent": 1.0,
+        "felony": 0.2,
+        "burglary": 0.8
+      }
+    },
+    "umejima": {
+      "places": 9,
+      "counts": {
+        "total": 146,
+        "violent": 11,
+        "felony": 0,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 16.22,
+        "violent": 1.22,
+        "felony": 0.0,
+        "burglary": 0.67
+      }
+    },
+    "kohoku": {
+      "places": 8,
+      "counts": {
+        "total": 134,
+        "violent": 6,
+        "felony": 1,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 16.75,
+        "violent": 0.75,
+        "felony": 0.12,
+        "burglary": 0.12
+      }
+    },
+    "ushida": {
+      "places": 7,
+      "counts": {
+        "total": 237,
+        "violent": 45,
+        "felony": 5,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 33.86,
+        "violent": 6.43,
+        "felony": 0.71,
+        "burglary": 0.71
+      }
+    },
+    "takenotsuka": {
+      "places": 12,
+      "counts": {
+        "total": 400,
+        "violent": 39,
+        "felony": 6,
+        "burglary": 10
+      },
+      "perPlace": {
+        "total": 33.33,
+        "violent": 3.25,
+        "felony": 0.5,
+        "burglary": 0.83
+      }
+    },
+    "ayase": {
+      "places": 10,
+      "counts": {
+        "total": 371,
+        "violent": 25,
+        "felony": 3,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 37.1,
+        "violent": 2.5,
+        "felony": 0.3,
+        "burglary": 0.8
+      }
+    },
+    "toneri": {
+      "places": 11,
+      "counts": {
+        "total": 135,
+        "violent": 10,
+        "felony": 1,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 12.27,
+        "violent": 0.91,
+        "felony": 0.09,
+        "burglary": 0.36
+      }
+    },
+    "toneri-koen": {
+      "places": 10,
+      "counts": {
+        "total": 48,
+        "violent": 8,
+        "felony": 4,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 4.8,
+        "violent": 0.8,
+        "felony": 0.4,
+        "burglary": 0.1
+      }
+    },
+    "nishiarai": {
+      "places": 12,
+      "counts": {
+        "total": 376,
+        "violent": 24,
+        "felony": 2,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 31.33,
+        "violent": 2.0,
+        "felony": 0.17,
+        "burglary": 0.67
+      }
+    },
+    "nishiaraidaishi-nishi": {
+      "places": 10,
+      "counts": {
+        "total": 170,
+        "violent": 15,
+        "felony": 2,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 17.0,
+        "violent": 1.5,
+        "felony": 0.2,
+        "burglary": 0.1
+      }
+    },
+    "minumadai-shinsuikoen": {
+      "places": 5,
+      "counts": {
+        "total": 81,
+        "violent": 5,
+        "felony": 3,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 16.2,
+        "violent": 1.0,
+        "felony": 0.6,
+        "burglary": 0.6
+      }
+    },
+    "yazaike": {
+      "places": 10,
+      "counts": {
+        "total": 114,
+        "violent": 12,
+        "felony": 3,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 11.4,
+        "violent": 1.2,
+        "felony": 0.3,
+        "burglary": 0.1
+      }
+    },
+    "adachi-odai": {
+      "places": 4,
+      "counts": {
+        "total": 67,
+        "violent": 5,
+        "felony": 0,
+        "burglary": 2
+      },
+      "perPlace": {
+        "total": 16.75,
+        "violent": 1.25,
+        "felony": 0.0,
+        "burglary": 0.5
+      }
+    },
+    "aoi": {
+      "places": 12,
+      "counts": {
+        "total": 237,
+        "violent": 15,
+        "felony": 3,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 19.75,
+        "violent": 1.25,
+        "felony": 0.25,
+        "burglary": 0.67
+      }
+    },
+    "koya": {
+      "places": 7,
+      "counts": {
+        "total": 158,
+        "violent": 10,
+        "felony": 2,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 22.57,
+        "violent": 1.43,
+        "felony": 0.29,
+        "burglary": 0.86
+      }
+    },
+    "ohanajaya": {
+      "places": 13,
+      "counts": {
+        "total": 289,
+        "violent": 11,
+        "felony": 1,
+        "burglary": 9
+      },
+      "perPlace": {
+        "total": 22.23,
+        "violent": 0.85,
+        "felony": 0.08,
+        "burglary": 0.69
+      }
+    },
+    "kameari": {
+      "places": 10,
+      "counts": {
+        "total": 560,
+        "violent": 30,
+        "felony": 2,
+        "burglary": 11
+      },
+      "perPlace": {
+        "total": 56.0,
+        "violent": 3.0,
+        "felony": 0.2,
+        "burglary": 1.1
+      }
+    },
+    "keisei-tateishi": {
+      "places": 11,
+      "counts": {
+        "total": 153,
+        "violent": 13,
+        "felony": 0,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 13.91,
+        "violent": 1.18,
+        "felony": 0.0,
+        "burglary": 0.45
+      }
+    },
+    "keisei-takasago": {
+      "places": 9,
+      "counts": {
+        "total": 147,
+        "violent": 13,
+        "felony": 1,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 16.33,
+        "violent": 1.44,
+        "felony": 0.11,
+        "burglary": 0.11
+      }
+    },
+    "yotsugi": {
+      "places": 7,
+      "counts": {
+        "total": 147,
+        "violent": 14,
+        "felony": 0,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 21.0,
+        "violent": 2.0,
+        "felony": 0.0,
+        "burglary": 0.71
+      }
+    },
+    "horikirishobuen": {
+      "places": 7,
+      "counts": {
+        "total": 204,
+        "violent": 19,
+        "felony": 0,
+        "burglary": 10
+      },
+      "perPlace": {
+        "total": 29.14,
+        "violent": 2.71,
+        "felony": 0.0,
+        "burglary": 1.43
+      }
+    },
+    "shin-koiwa": {
+      "places": 11,
+      "counts": {
+        "total": 490,
+        "violent": 45,
+        "felony": 2,
+        "burglary": 8
+      },
+      "perPlace": {
+        "total": 44.55,
+        "violent": 4.09,
+        "felony": 0.18,
+        "burglary": 0.73
+      }
+    },
+    "shin-shibamata": {
+      "places": 8,
+      "counts": {
+        "total": 102,
+        "violent": 4,
+        "felony": 0,
+        "burglary": 0
+      },
+      "perPlace": {
+        "total": 12.75,
+        "violent": 0.5,
+        "felony": 0.0,
+        "burglary": 0.0
+      }
+    },
+    "shibamata": {
+      "places": 8,
+      "counts": {
+        "total": 99,
+        "violent": 7,
+        "felony": 0,
+        "burglary": 0
+      },
+      "perPlace": {
+        "total": 12.38,
+        "violent": 0.88,
+        "felony": 0.0,
+        "burglary": 0.0
+      }
+    },
+    "kanamachi": {
+      "places": 9,
+      "counts": {
+        "total": 287,
+        "violent": 11,
+        "felony": 0,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 31.89,
+        "violent": 1.22,
+        "felony": 0.0,
+        "burglary": 0.11
+      }
+    },
+    "aoto": {
+      "places": 9,
+      "counts": {
+        "total": 218,
+        "violent": 21,
+        "felony": 1,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 24.22,
+        "violent": 2.33,
+        "felony": 0.11,
+        "burglary": 0.67
+      }
+    },
+    "ichinoe": {
+      "places": 10,
+      "counts": {
+        "total": 184,
+        "violent": 7,
+        "felony": 1,
+        "burglary": 0
+      },
+      "perPlace": {
+        "total": 18.4,
+        "violent": 0.7,
+        "felony": 0.1,
+        "burglary": 0.0
+      }
+    },
+    "keisei-koiwa": {
+      "places": 10,
+      "counts": {
+        "total": 177,
+        "violent": 11,
+        "felony": 4,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 17.7,
+        "violent": 1.1,
+        "felony": 0.4,
+        "burglary": 0.6
+      }
+    },
+    "koiwa": {
+      "places": 10,
+      "counts": {
+        "total": 493,
+        "violent": 46,
+        "felony": 8,
+        "burglary": 10
+      },
+      "perPlace": {
+        "total": 49.3,
+        "violent": 4.6,
+        "felony": 0.8,
+        "burglary": 1.0
+      }
+    },
+    "hirai": {
+      "places": 7,
+      "counts": {
+        "total": 167,
+        "violent": 11,
+        "felony": 5,
+        "burglary": 7
+      },
+      "perPlace": {
+        "total": 23.86,
+        "violent": 1.57,
+        "felony": 0.71,
+        "burglary": 1.0
+      }
+    },
+    "edogawa": {
+      "places": 6,
+      "counts": {
+        "total": 88,
+        "violent": 4,
+        "felony": 2,
+        "burglary": 0
+      },
+      "perPlace": {
+        "total": 14.67,
+        "violent": 0.67,
+        "felony": 0.33,
+        "burglary": 0.0
+      }
+    },
+    "mizue": {
+      "places": 11,
+      "counts": {
+        "total": 290,
+        "violent": 20,
+        "felony": 0,
+        "burglary": 3
+      },
+      "perPlace": {
+        "total": 26.36,
+        "violent": 1.82,
+        "felony": 0.0,
+        "burglary": 0.27
+      }
+    },
+    "shinozaki": {
+      "places": 10,
+      "counts": {
+        "total": 198,
+        "violent": 14,
+        "felony": 2,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 19.8,
+        "violent": 1.4,
+        "felony": 0.2,
+        "burglary": 0.5
+      }
+    },
+    "funabori": {
+      "places": 9,
+      "counts": {
+        "total": 214,
+        "violent": 13,
+        "felony": 0,
+        "burglary": 4
+      },
+      "perPlace": {
+        "total": 23.78,
+        "violent": 1.44,
+        "felony": 0.0,
+        "burglary": 0.44
+      }
+    },
+    "kasai": {
+      "places": 9,
+      "counts": {
+        "total": 341,
+        "violent": 29,
+        "felony": 4,
+        "burglary": 6
+      },
+      "perPlace": {
+        "total": 37.89,
+        "violent": 3.22,
+        "felony": 0.44,
+        "burglary": 0.67
+      }
+    },
+    "kasai-rinkai-koen": {
+      "places": 5,
+      "counts": {
+        "total": 86,
+        "violent": 9,
+        "felony": 0,
+        "burglary": 1
+      },
+      "perPlace": {
+        "total": 17.2,
+        "violent": 1.8,
+        "felony": 0.0,
+        "burglary": 0.2
+      }
+    },
+    "nishi-kasai": {
+      "places": 8,
+      "counts": {
+        "total": 392,
+        "violent": 22,
+        "felony": 5,
+        "burglary": 5
+      },
+      "perPlace": {
+        "total": 49.0,
+        "violent": 2.75,
+        "felony": 0.62,
+        "burglary": 0.62
+      }
+    }
+  }
+}

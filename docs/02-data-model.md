@@ -70,7 +70,7 @@ data/
 | `morningCrowding` | 1–5 | 朝ラッシュの混雑度（1 = 空いている、5 = 非常に混雑） |
 | `rent` | Rent | 間取り別の家賃相場（円 / 月） |
 | `commutes` | Commute[] | 主要オフィス駅への所要時間 |
-| `scores` | Scores | 16軸スコア（0–100） |
+| `scores` | Scores | 18軸スコア（0–100） |
 | `facilities` | Facilities | 周辺施設の実名リスト |
 | `similarStations` | string[] | 似ている駅の slug |
 | `sources` | Sources | 出典。`sources.rent` は `dataQuality` を `seed` から上げるとき必須 |
@@ -154,7 +154,7 @@ data/
 | `residentComment` | string | 東京在住者コメント。**人間が書く。AI 生成禁止** |
 | `authoredBy` | `human` \| `ai-localized` \| `seed-placeholder` | 生成方法の記録。`seed-placeholder` は公開不可 |
 
-`residentComment` は本サービスの差別化の中核（構想 §4.2）なので、日本語は必ず人間が書き、他言語はその**翻訳ではなくローカライズ**とする。方針は [04-i18n.md](./04-i18n.md)。
+`residentComment` は本サービスの差別化の中核にあたる（構想 §4.2）。日本語は人間が書き、他言語はその**翻訳ではなくローカライズ**とする。方針は [04-i18n.md](./04-i18n.md)。
 
 ---
 

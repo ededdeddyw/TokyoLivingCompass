@@ -61,10 +61,17 @@
   "exits": [
     {
       "name": "East exit (towards Palm)",
+      "tags": [
+        "shoppingStreet",
+        "diningCluster"
+      ],
       "character": "Towards the covered shopping street and the redevelopment towers; the centre of shopping and eating. Busy, and lit at night as a result."
     },
     {
       "name": "West exit",
+      "tags": [
+        "residential"
+      ],
       "character": "Mainly housing, and calmer than the east side. It is the way through towards Togoshi and Ebara, and rents are a little lower than on the east side."
     }
   ],
@@ -86,14 +93,16 @@
   },
   "family": "Everyday goods and food are all in the shopping street, so shopping with a child in tow is less of a chore. Rinshi-no-Mori Park is within cycling distance, and there are small parks near the station. There are slopes around the station, though, so a pushchair is harder in some directions than others. Check nursery availability and school catchment by address against Shinagawa City's own current information.",
   "medical": "Kosaikai Hospital is right by the station, about 35 m away. Within walking distance there are 11 clinics and 6 pharmacies. Larger hospitals include Showa Medical University East Hospital about 1.2 km away and Showa Medical University Hospital about 1.4 km. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "neighbours": [
+  "alternatives": [
     {
       "slug": "nakameguro",
-      "note": "If you want calmer streets and to be nearer Shibuya, choose Nakameguro. Rent for a 1LDK is about ¥50,000 higher, though, and Musashi-Koyama is the better of the two for shopping."
+      "note": "If you want calmer streets and to be nearer Shibuya, choose Nakameguro. Rent for a 1LDK is about ¥50,000 higher, though, and Musashi-Koyama is the better of the two for shopping.",
+      "lead": "rents are lower at Musashi-Koyama, but Naka-Meguro is ahead on the number of lines and how close the centre is."
     },
     {
       "slug": "oimachi",
-      "note": "For commuting towards Shinagawa and Tokyo, Oimachi is quicker. It has three lines and copes better when one stops, but Musashi-Koyama wins on how usable its shopping street is."
+      "note": "For commuting towards Shinagawa and Tokyo, Oimachi is quicker. It has three lines and copes better when one stops, but Musashi-Koyama wins on how usable its shopping street is.",
+      "lead": "Oimachi is ahead on the number of lines and how close the centre is, but Musashi-Koyama is ahead on how easy the shopping is and quiet."
     }
   ],
   "outlook": "The redevelopment by the station has settled, but rebuilding plans continue nearby. Nothing suggests the shopping street itself will change quickly, yet rents have kept rising as the towers filled, and that looks set to continue for now.",
@@ -110,5 +119,37 @@
     "People who want nothing but quiet residential streets"
   ],
   "residentComment": "The shopping street is what stands out. Roughly 800 m of covered arcade holds fresh food, prepared dishes and restaurants, so a wet day is no obstacle to shopping. Being this close to Meguro and Shirokanedai while keeping food costs down is down to that arcade. The drawback is the slope: going home from the station into the residential streets means climbing it every time. Since the towers went up in the redevelopment, rents have clearly risen. Search on the figures from a few years ago and nothing comes up.",
-  "authoredBy": "ai-localized"
+  "authoredBy": "ai-localized",
+  "neighbours": [
+    {
+      "slug": "nishi-koyama",
+      "lead": "For lower rent, Nishi-Koyama; for how little of the area is in the flood projection, Musashi-Koyama. ",
+      "note": "Close enough to walk to from Musashi-Koyama. It is served by the same lines as Musashi-Koyama. Journey times to the main business districts are much the same. A one-room flat costs about ¥5,000 less at Nishi-Koyama. On how little of the area is in the flood projection, Musashi-Koyama comes out ahead."
+    },
+    {
+      "slug": "fudo-mae",
+      "lead": "For how close the centre is, Fudo-Mae; for lower rent, Musashi-Koyama. ",
+      "note": "About 1 km from Musashi-Koyama in a straight line. It is served by the same lines as Musashi-Koyama. To Shinagawa, for instance, Fudo-Mae is 3 minutes quicker. A one-room flat costs about ¥14,000 more at Fudo-Mae. On what it offers families, Musashi-Koyama comes out ahead."
+    }
+  ],
+  "tags": [
+    "lowFlood",
+    "singleLine",
+    "familyFriendly",
+    "shoppingEasy",
+    "flat",
+    "parkNear"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 16 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
+    "hazards": "Among the 23 wards' stations, very few of the points around this one fall inside the projected inundation area for the largest rainfall the government models.",
+    "stationNote": "Only the Tokyu Meguro Line serves this station, so when it stops you walk to another station.",
+    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "exits": "The covered shopping street at the east exit is the centre of shopping and eating; the west exit is mainly housing, and rents there are a little lower.",
+    "noiseSources": "鮫洲大山線 runs 156 m away, so whether a flat faces it changes what you hear indoors.",
+    "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. "
+  },
+  "congestion": "Tokyu Meguro Line runs at 133% of capacity in the morning peak. The busiest stretch is 不動前→目黒, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier."
 }

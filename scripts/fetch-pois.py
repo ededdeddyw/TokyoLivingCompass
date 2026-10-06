@@ -59,6 +59,14 @@ GROUPS = {
         "bar": ['["amenity"="bar"]', '["amenity"="pub"]'],
         "gym": ['["leisure"="fitness_centre"]'],
     },
+    # 子どもと暮らす人の判断材料。これまで「子育てのしやすさ」を
+    # 公園・クリニック・スーパー・平坦さだけで出していたため、
+    # 駅前に酒場が63軒ある高円寺が全458駅の94パーセンタイルに出ていた。
+    "child": {
+        "school": ['["amenity"="school"]'],
+        "kindergarten": ['["amenity"="kindergarten"]'],
+        "childcare": ['["amenity"="childcare"]'],
+    },
 }
 CATEGORIES = {k: v for g in GROUPS.values() for k, v in g.items()}
 
@@ -74,6 +82,9 @@ RADIUS_BY_CATEGORY = {
     "gym": 1000,
     "park": 1200,
     "hospital": 2500,
+    "school": 1500,       # 小中学校は歩いて通う距離で見る
+    "kindergarten": 1000,
+    "childcare": 1000,
 }
 RADIUS_M = max(RADIUS_BY_CATEGORY.values())
 DETOUR = 1.3            # 直線距離に対する実際の歩行距離の見込み
@@ -189,6 +200,12 @@ def category_of(tags):
         return "pharmacy"
     if a in ("restaurant", "cafe", "bar", "pub"):
         return "bar" if a in ("bar", "pub") else a
+    if a == "school":
+        return "school"
+    if a == "kindergarten":
+        return "kindergarten"
+    if a == "childcare":
+        return "childcare"
     if tags.get("leisure") == "park":
         return "park"
     if tags.get("leisure") == "fitness_centre":
@@ -235,7 +252,11 @@ def main():
         tags = el.get("tags", {})
         name = tags.get("name")
         if not name:
-            continue  # 名前のない施設は載せられない
+            # 学校・幼稚園・保育園は数えるためだけに使い、名前では出さない。
+            # OpenStreetMap には名前の入っていない保育園がある。
+            if tags.get("amenity") not in ("school", "kindergarten", "childcare"):
+                continue  # 名前のない施設は載せられない
+            name = ""
         # 閉店した店が名前だけ残っていることがある（「文化堂跡」など）。
         # 実在しない店を載せるのが最も重い失敗なので、疑わしいものは落とす。
         if any(w in name for w in ("跡", "閉店", "跡地", "旧")):

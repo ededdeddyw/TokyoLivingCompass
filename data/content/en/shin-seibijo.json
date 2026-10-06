@@ -6,18 +6,21 @@
   "summary": "The station is in Ota City, served by Tokyo Monorail. Journey times to the main business districts are 46 minutes to Otemachi, 55 minutes to Shinjuku, 50 minutes to Shibuya and 41 minutes to Shinagawa. The station stands 5.6 m above sea level, and the ground within 800 m varies in height by 8.2 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits on the higher side of the ground around it, at 5.6 m above sea level. Within 800 m the ground ranges from 0.9 m to 9.1 m, a difference of 8.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 5.6 m above sea level. Within 800 m the ground ranges from 0.9 m to 9.1 m, a difference of 8.2 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
-  "stationNote": "1 line serve the station: Tokyo Monorail. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. On the whole, the flood projection here is among the smallest in the 23 wards.",
+  "stationNote": "1 line serve the station: Tokyo Monorail.",
+  "congestion": "The ministry's congestion survey does not publish figures for Tokyo Monorail. It covers the major commuter stretches, and this line is not among them. ",
   "neighbours": [
     {
       "slug": "haneda-airport-terminal-1-2",
-      "note": "794 m away in a straight line. It reaches Otemachi in about the same time as Shin-Seibijo."
+      "lead": "For rail connections, Haneda-Airport-Terminal-1-2; for quiet, Shin-Seibijo. ",
+      "note": "Close enough to walk to from Shin-Seibijo. Haneda-Airport-Terminal-1-2 also has the Keikyu Airport Line, which Shin-Seibijo does not. With more lines, Haneda-Airport-Terminal-1-2 is the better connected of the two. To Shinagawa, for instance, Haneda-Airport-Terminal-1-2 is 4 minutes quicker. On quiet, though, Shin-Seibijo comes out ahead."
     },
     {
       "slug": "haneda-airport-terminal-3",
-      "note": "1655 m away in a straight line. It reaches Otemachi 3 minutes sooner than Shin-Seibijo."
+      "lead": "For rail connections, Haneda-Airport-Terminal-3; for how little of the area is in the flood projection, Shin-Seibijo. ",
+      "note": "About 1.5 km from Shin-Seibijo in a straight line. Haneda-Airport-Terminal-3 also has the Keikyu Airport Line, which Shin-Seibijo does not. With more lines, Haneda-Airport-Terminal-3 is the better connected of the two. To Shinagawa, for instance, Haneda-Airport-Terminal-3 is 7 minutes quicker. On how little of the area is in the flood projection, though, Shin-Seibijo comes out ahead."
     }
   ],
   "goodFor": [
@@ -28,5 +31,21 @@
     "People who want to finish their shopping on foot",
     "People who want plenty of places to eat out"
   ],
+  "noiseSources": [
+    "The 首都高速湾岸線 viaduct runs a short walk from the station. It is an expressway, so traffic is audible day and night"
+  ],
+  "tags": [
+    "quiet",
+    "lowFlood",
+    "singleLine"
+  ],
+  "leads": {
+    "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
+    "groceries": "OpenStreetMap records no supermarket within walking distance of the station.",
+    "hazards": "Neither the station nor the ground around it falls inside the projected flood area.",
+    "stationNote": "Only the Tokyo Monorail serves this station, so when it stops you walk to another station.",
+    "medical": "The number of clinics and pharmacies within walking distance is low for the 23 wards.",
+    "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
+  },
   "authoredBy": "data-generated"
 }

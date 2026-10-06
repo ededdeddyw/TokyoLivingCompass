@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Shindaita",
   "tagline": "Shibuya in 9 minutes and Shinjuku in 17 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Setagaya City, served by Keio Inokashira Line. Journey times to the main business districts are 33 minutes to Otemachi, 17 minutes to Shinjuku, 9 minutes to Shibuya and 35 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 36.6 m above sea level, and the ground within 800 m varies in height by 10.2 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Setagaya City, where Keio run 1 line between them. Journey times to the main business districts are 33 minutes to Otemachi, 17 minutes to Shinjuku, 9 minutes to Shibuya and 35 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 36.6 m above sea level, and the ground within 800 m varies in height by 10.2 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits lower than the ground around it, at 36.6 m above sea level. Within 800 m the ground ranges from 34.1 m to 44.3 m, a difference of 10.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 36.6 m above sea level. Within 800 m the ground ranges from 34.1 m to 44.3 m, a difference of 10.2 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 3 also fall inside the area, and the deepest projection is less than 0.5 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
       "name": "まいばすけっと 世田谷代田駅前店",
       "tier": "standard",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/2519783352",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Natural House",
       "tier": "standard",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/2266962270",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ハルケ",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/1657345812",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "オオゼキ 下北沢店",
       "tier": "discount",
       "walkMinutes": 12,
       "sourceUrl": "https://www.openstreetmap.org/node/648668430",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 20 clinics and 11 pharmacies. Facilities recorded as hospitals lie at 島津メディカルクリニック, about 494 m away and 加藤医院, about 503 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Keio Inokashira Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 20 clinics and 11 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 島津メディカルクリニック, about 9 minutes' walk from the station. The next nearest is 加藤医院, about 9 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Keio Inokashira Line.",
+  "congestion": "Keio Inokashira Line runs at 125% of capacity in the morning peak. The busiest stretch is 池ノ上→駒場東大前, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥90,000 to ¥100,000, 1K ¥100,000 to ¥110,000, 1LDK ¥180,000 to ¥190,000 and 2LDK ¥230,000 to ¥240,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥90,000 to ¥100,000 and 1K ¥100,000 to ¥110,000. 1LDK ¥180,000 to ¥190,000 and 2LDK ¥230,000 to ¥240,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is on the low side. What holds the figure down: only one line, the {line}, serving the station and little daily shopping within walking distance. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "higashi-matsubara",
-      "note": "450 m away in a straight line. It reaches Otemachi in about the same time as Shindaita. One-room rents run about ¥8,000 lower."
+      "lead": "Higashi-Matsubara is ahead on lower rent and quiet. ",
+      "note": "Close enough to walk to from Shindaita. It is served by the same lines as Shindaita. Journey times to the main business districts are much the same. A one-room flat costs about ¥8,000 less at Higashi-Matsubara. On quiet, Higashi-Matsubara comes out ahead."
     },
     {
       "slug": "setagaya-daita",
-      "note": "482 m away in a straight line. It reaches Otemachi in about the same time as Shindaita."
+      "lead": "For how easy the shopping is, Setagaya-Daita; for how close the centre is, Shindaita. ",
+      "note": "Close enough to walk to from Shindaita. Setagaya-Daita has the Odakyu Odawara Line, a different set from Shindaita. To Toranomon, for instance, Setagaya-Daita takes 5 minutes longer. On how easy the shopping is, Setagaya-Daita comes out ahead."
     }
   ],
   "goodFor": [
@@ -71,5 +74,24 @@
     "People who want another route when service is suspended",
     "People who want to finish their shopping on foot"
   ],
+  "noiseSources": [
+    "環七通り(新代田駅) (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "goodValue",
+    "lowFlood",
+    "singleLine",
+    "medicalRich"
+  ],
+  "leads": {
+    "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
+    "groceries": "There are 4 supermarkets within walking distance, and the nearest is 8 minutes on foot.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
+    "stationNote": "Only the Keio Inokashira Line serves this station, so when it stops you walk to another station.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
+  },
   "authoredBy": "data-generated"
 }

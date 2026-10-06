@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Nishi-Oi",
   "tagline": "Shinagawa in 5 minutes and Shibuya in 11 minutes. Served by 2 lines. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Shinagawa City, served by JR Yokosuka Line and JR Shonan-Shinjuku Line. Journey times to the main business districts are 21 minutes to Otemachi, 16 minutes to Shinjuku, 11 minutes to Shibuya and 5 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 15.4 m above sea level, and the ground within 800 m varies in height by 8.2 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shinagawa City, where JR East run 2 lines between them. Journey times to the main business districts are 21 minutes to Otemachi, 16 minutes to Shinjuku, 11 minutes to Shibuya and 5 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 15.4 m above sea level, and the ground within 800 m varies in height by 8.2 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
-    "note": "The station sits lower than the ground around it, at 15.4 m above sea level. Within 800 m the ground ranges from 14 m to 22.2 m, a difference of 8.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 15.4 m above sea level. Within 800 m the ground ranges from 14 m to 22.2 m, a difference of 8.2 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 1 of the nine points within 400 m fall inside the area, and the deepest projection there is less than 0.5 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
       "name": "マルエツプチ",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/1985076824",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "文化堂 西大井店",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/2441192701",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "丸正 二葉店",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/5981327725",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Big-A 品川豊町店",
       "tier": "discount",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/5744822119",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 1 clinic. Facilities recorded as hospitals lie at 仁生堂大村病院, about 758 m away and 佐花会大井中央病院, about 1067 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "2 lines serve the station: JR Yokosuka Line and JR Shonan-Shinjuku Line. Both lines are run by JR East, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 52.",
+  "medical": "Within an 800 m walk of the station there are 1 clinic. The nearest hospital is 仁生堂大村病院, about 13 minutes' walk from the station. The next nearest is 佐花会大井中央病院, about 18 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station. JR Yokosuka Line run through it. JR Shonan-Shinjuku Line also call here. Both lines are run by JR East, so a fault affecting that company can stop them together.",
+  "congestion": "JR Yokosuka Line runs at 138% of capacity in the morning peak. The busiest stretch of the line is 武蔵小杉→西大井, which includes this station. JR Shonan-Shinjuku Line is not covered by the ministry's congestion survey. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥90,000 to ¥100,000, 1K ¥100,000 to ¥110,000, 1LDK ¥170,000 to ¥180,000 and 2LDK ¥220,000 to ¥230,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥90,000 to ¥100,000 and 1K ¥100,000 to ¥110,000. 1LDK ¥170,000 to ¥180,000 and 2LDK ¥220,000 to ¥230,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "togoshi-koen",
-      "note": "867 m away in a straight line. It takes 13 minutes longer to reach Otemachi than Nishi-Oi."
+      "lead": "For the number of medical facilities, Togoshi-Koen; for rail connections, Nishi-Oi. ",
+      "note": "Close enough to walk to from Nishi-Oi. Togoshi-Koen has only the Tokyu Oimachi Line, so Nishi-Oi is the better connected. To Shinjuku, for instance, Togoshi-Koen takes 14 minutes longer. On how easy the shopping is, though, Togoshi-Koen comes out ahead."
     },
     {
       "slug": "shimo-shimmei",
-      "note": "888 m away in a straight line. It takes 11 minutes longer to reach Otemachi than Nishi-Oi."
+      "lead": "Nishi-Oi is ahead on rail connections and how close the centre is. ",
+      "note": "Close enough to walk to from Nishi-Oi. Shimo-Shimmei has only the Tokyu Oimachi Line, so Nishi-Oi is the better connected. To Shinjuku, for instance, Shimo-Shimmei takes 12 minutes longer. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -70,5 +73,26 @@
   "notFor": [
     "People who want plenty of places to eat out"
   ],
+  "noiseSources": [
+    "The nearest big road, 第二京浜, is far enough that little traffic noise reaches the station area"
+  ],
+  "tags": [
+    "quiet",
+    "goodValue",
+    "lowFlood",
+    "fastToCenter",
+    "familyFriendly",
+    "parkNear"
+  ],
+  "leads": {
+    "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
+    "groceries": "There are 5 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
+    "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
+    "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
+  },
   "authoredBy": "data-generated"
 }

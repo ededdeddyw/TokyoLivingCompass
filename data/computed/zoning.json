@@ -1,0 +1,8153 @@
+{
+  "meta": {
+    "source": "国土数値情報 A29 用途地域（平成31年）",
+    "sourceUrl": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A29-v2_1.html",
+    "radiusM": 500,
+    "gridM": 25,
+    "note": "半径500mの円を25m間隔の格子点で埋め、各点の用途地域を数えた面積の割合"
+  },
+  "stations": {
+    "kudanshita": {
+      "shares": {
+        "第一種住居地域": 0.362,
+        "第二種住居地域": 0.0533,
+        "商業地域": 0.5847
+      },
+      "groups": {
+        "commercial": 0.5847,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.4153,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 494
+    },
+    "nijubashimae": {
+      "shares": {
+        "第一種住居地域": 0.4511,
+        "商業地域": 0.5489
+      },
+      "groups": {
+        "commercial": 0.5489,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.4511,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 795
+    },
+    "uchisaiwaicho": {
+      "shares": {
+        "第一種住居地域": 0.1416,
+        "商業地域": 0.8584
+      },
+      "groups": {
+        "commercial": 0.8584,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.1416,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 701
+    },
+    "hanzomon": {
+      "shares": {
+        "第一種住居地域": 0.2944,
+        "第二種住居地域": 0.2959,
+        "商業地域": 0.4097
+      },
+      "groups": {
+        "commercial": 0.4097,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.5903,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 477
+    },
+    "kokkai-gijidomae": {
+      "shares": {
+        "商業地域": 1.0
+      },
+      "groups": {
+        "commercial": 1.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 555
+    },
+    "otemachi": {
+      "shares": {
+        "第一種住居地域": 0.1766,
+        "商業地域": 0.8234
+      },
+      "groups": {
+        "commercial": 0.8234,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.1766,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 1027
+    },
+    "iwamotocho": {
+      "shares": {
+        "商業地域": 1.0
+      },
+      "groups": {
+        "commercial": 1.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 661
+    },
+    "ichigaya": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0048,
+        "第二種中高層住居専用地域": 0.0525,
+        "第一種住居地域": 0.4033,
+        "第二種住居地域": 0.1472,
+        "近隣商業地域": 0.0135,
+        "商業地域": 0.3628,
+        "準工業地域": 0.0159
+      },
+      "groups": {
+        "commercial": 0.3628,
+        "nearCommercial": 0.0135,
+        "lowRise": 0.0048,
+        "residential": 0.603,
+        "industrial": 0.0159
+      },
+      "covered": 1.0,
+      "far": 442
+    },
+    "ochanomizu": {
+      "shares": {
+        "第一種住居地域": 0.0994,
+        "商業地域": 0.9006
+      },
+      "groups": {
+        "commercial": 0.9006,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0994,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 552
+    },
+    "yurakucho": {
+      "shares": {
+        "第一種住居地域": 0.2609,
+        "商業地域": 0.7391
+      },
+      "groups": {
+        "commercial": 0.7391,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.2609,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 821
+    },
+    "suehirocho": {
+      "shares": {
+        "第一種住居地域": 0.0032,
+        "近隣商業地域": 0.0406,
+        "商業地域": 0.9562
+      },
+      "groups": {
+        "commercial": 0.9562,
+        "nearCommercial": 0.0406,
+        "lowRise": 0.0,
+        "residential": 0.0032,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 640
+    },
+    "tokyo": {
+      "shares": {
+        "第一種住居地域": 0.0835,
+        "商業地域": 0.9165
+      },
+      "groups": {
+        "commercial": 0.9165,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0835,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 1012
+    },
+    "sakuradamon": {
+      "shares": {
+        "第一種住居地域": 0.5115,
+        "商業地域": 0.4885
+      },
+      "groups": {
+        "commercial": 0.4885,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.5115,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 398
+    },
+    "suidobashi": {
+      "shares": {
+        "第一種住居地域": 0.0605,
+        "近隣商業地域": 0.2021,
+        "商業地域": 0.7375
+      },
+      "groups": {
+        "commercial": 0.7375,
+        "nearCommercial": 0.2021,
+        "lowRise": 0.0,
+        "residential": 0.0605,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 475
+    },
+    "nagatacho": {
+      "shares": {
+        "第一種住居地域": 0.0175,
+        "第二種住居地域": 0.3095,
+        "商業地域": 0.673
+      },
+      "groups": {
+        "commercial": 0.673,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.327,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 492
+    },
+    "awajicho": {
+      "shares": {
+        "第一種住居地域": 0.0286,
+        "商業地域": 0.9714
+      },
+      "groups": {
+        "commercial": 0.9714,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0286,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 628
+    },
+    "tameike-sanno": {
+      "shares": {
+        "第二種住居地域": 0.008,
+        "近隣商業地域": 0.0008,
+        "商業地域": 0.9912
+      },
+      "groups": {
+        "commercial": 0.9912,
+        "nearCommercial": 0.0008,
+        "lowRise": 0.0,
+        "residential": 0.008,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 552
+    },
+    "jimbocho": {
+      "shares": {
+        "第一種住居地域": 0.0302,
+        "商業地域": 0.9698
+      },
+      "groups": {
+        "commercial": 0.9698,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0302,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 597
+    },
+    "kanda": {
+      "shares": {
+        "商業地域": 1.0
+      },
+      "groups": {
+        "commercial": 1.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 685
+    },
+    "akihabara": {
+      "shares": {
+        "第一種住居地域": 0.0008,
+        "商業地域": 0.9992
+      },
+      "groups": {
+        "commercial": 0.9992,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0008,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 671
+    },
+    "takebashi": {
+      "shares": {
+        "第一種住居地域": 0.5879,
+        "商業地域": 0.4121
+      },
+      "groups": {
+        "commercial": 0.4121,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.5879,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 474
+    },
+    "kasumigaseki": {
+      "shares": {
+        "第一種住居地域": 0.171,
+        "商業地域": 0.829
+      },
+      "groups": {
+        "commercial": 0.829,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.171,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 519
+    },
+    "iidabashi": {
+      "shares": {
+        "第二種中高層住居専用地域": 0.008,
+        "第一種住居地域": 0.1416,
+        "第二種住居地域": 0.0883,
+        "近隣商業地域": 0.0095,
+        "商業地域": 0.6587,
+        "準工業地域": 0.0939
+      },
+      "groups": {
+        "commercial": 0.6587,
+        "nearCommercial": 0.0095,
+        "lowRise": 0.0,
+        "residential": 0.2379,
+        "industrial": 0.0939
+      },
+      "covered": 1.0,
+      "far": 473
+    },
+    "kojimachi": {
+      "shares": {
+        "第一種住居地域": 0.0859,
+        "第二種住居地域": 0.5211,
+        "商業地域": 0.393
+      },
+      "groups": {
+        "commercial": 0.393,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.607,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 492
+    },
+    "mitsukoshimae": {
+      "shares": {
+        "商業地域": 1.0
+      },
+      "groups": {
+        "commercial": 1.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 786
+    },
+    "kyobashi": {
+      "shares": {
+        "商業地域": 1.0
+      },
+      "groups": {
+        "commercial": 1.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 742
+    },
+    "ningyocho": {
+      "shares": {
+        "商業地域": 1.0
+      },
+      "groups": {
+        "commercial": 1.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 610
+    },
+    "hatchobori": {
+      "shares": {
+        "商業地域": 0.9905
+      },
+      "groups": {
+        "commercial": 0.9905,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.0
+      },
+      "covered": 0.9905,
+      "far": 600
+    },
+    "kachidoki": {
+      "shares": {
+        "第一種住居地域": 0.0756,
+        "第二種住居地域": 0.3111,
+        "商業地域": 0.2411,
+        "準工業地域": 0.0652
+      },
+      "groups": {
+        "commercial": 0.2411,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.3866,
+        "industrial": 0.0652
+      },
+      "covered": 0.6929,
+      "far": 455
+    },
+    "kodemmacho": {
+      "shares": {
+        "商業地域": 1.0
+      },
+      "groups": {
+        "commercial": 1.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 652
+    },
+    "nihombashi": {
+      "shares": {
+        "商業地域": 1.0
+      },
+      "groups": {
+        "commercial": 1.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 758
+    },
+    "tsukishima": {
+      "shares": {
+        "第一種住居地域": 0.1591,
+        "第二種住居地域": 0.3373,
+        "商業地域": 0.1814
+      },
+      "groups": {
+        "commercial": 0.1814,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.4964,
+        "industrial": 0.0
+      },
+      "covered": 0.6778,
+      "far": 442
+    },
+    "higashi-ginza": {
+      "shares": {
+        "商業地域": 1.0
+      },
+      "groups": {
+        "commercial": 1.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 704
+    },
+    "hamacho": {
+      "shares": {
+        "近隣商業地域": 0.0231,
+        "商業地域": 0.7224,
+        "準工業地域": 0.0772
+      },
+      "groups": {
+        "commercial": 0.7224,
+        "nearCommercial": 0.0231,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.0772
+      },
+      "covered": 0.8226,
+      "far": 549
+    },
+    "tsukiji": {
+      "shares": {
+        "第二種住居地域": 0.1496,
+        "商業地域": 0.8504
+      },
+      "groups": {
+        "commercial": 0.8504,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.1496,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 581
+    },
+    "tsukijishijo": {
+      "shares": {
+        "第一種住居地域": 0.0636,
+        "商業地域": 0.9117
+      },
+      "groups": {
+        "commercial": 0.9117,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0636,
+        "industrial": 0.0
+      },
+      "covered": 0.9753,
+      "far": 603
+    },
+    "kayabacho": {
+      "shares": {
+        "商業地域": 1.0
+      },
+      "groups": {
+        "commercial": 1.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 612
+    },
+    "ginza": {
+      "shares": {
+        "商業地域": 1.0
+      },
+      "groups": {
+        "commercial": 1.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 834
+    },
+    "bakurocho": {
+      "shares": {
+        "商業地域": 0.9682
+      },
+      "groups": {
+        "commercial": 0.9682,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.0
+      },
+      "covered": 0.9682,
+      "far": 612
+    },
+    "odaiba-kaihinkoen": {
+      "shares": {
+        "第一種住居地域": 0.0899,
+        "商業地域": 0.2936,
+        "準工業地域": 0.2912
+      },
+      "groups": {
+        "commercial": 0.2936,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0899,
+        "industrial": 0.2912
+      },
+      "covered": 0.6746,
+      "far": 375
+    },
+    "mita": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0159,
+        "第一種住居地域": 0.0016,
+        "近隣商業地域": 0.1512,
+        "商業地域": 0.6118,
+        "準工業地域": 0.2196
+      },
+      "groups": {
+        "commercial": 0.6118,
+        "nearCommercial": 0.1512,
+        "lowRise": 0.0159,
+        "residential": 0.0016,
+        "industrial": 0.2196
+      },
+      "covered": 1.0,
+      "far": 509
+    },
+    "nogizaka": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.3779,
+        "第二種中高層住居専用地域": 0.2005,
+        "第一種住居地域": 0.1631,
+        "第二種住居地域": 0.1042,
+        "近隣商業地域": 0.0501,
+        "商業地域": 0.1042
+      },
+      "groups": {
+        "commercial": 0.1042,
+        "nearCommercial": 0.0501,
+        "lowRise": 0.3779,
+        "residential": 0.4678,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 291
+    },
+    "roppongi": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0231,
+        "第二種中高層住居専用地域": 0.1663,
+        "第一種住居地域": 0.1671,
+        "第二種住居地域": 0.218,
+        "近隣商業地域": 0.0589,
+        "商業地域": 0.3667
+      },
+      "groups": {
+        "commercial": 0.3667,
+        "nearCommercial": 0.0589,
+        "lowRise": 0.0231,
+        "residential": 0.5513,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 422
+    },
+    "roppongi-itchome": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1201,
+        "第二種中高層住居専用地域": 0.1082,
+        "第一種住居地域": 0.008,
+        "第二種住居地域": 0.3739,
+        "商業地域": 0.3898
+      },
+      "groups": {
+        "commercial": 0.3898,
+        "nearCommercial": 0.0,
+        "lowRise": 0.1201,
+        "residential": 0.4901,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 445
+    },
+    "shinagawa": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0819,
+        "第二種住居地域": 0.1575,
+        "商業地域": 0.5259,
+        "準工業地域": 0.2347
+      },
+      "groups": {
+        "commercial": 0.5259,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0819,
+        "residential": 0.1575,
+        "industrial": 0.2347
+      },
+      "covered": 1.0,
+      "far": 491
+    },
+    "gaiemmae": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1893,
+        "第二種中高層住居専用地域": 0.2824,
+        "第一種住居地域": 0.113,
+        "第二種住居地域": 0.1583,
+        "近隣商業地域": 0.0819,
+        "商業地域": 0.175
+      },
+      "groups": {
+        "commercial": 0.175,
+        "nearCommercial": 0.0819,
+        "lowRise": 0.1893,
+        "residential": 0.5537,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 357
+    },
+    "daimon": {
+      "shares": {
+        "第一種住居地域": 0.0931,
+        "第二種住居地域": 0.0931,
+        "商業地域": 0.7645,
+        "準工業地域": 0.0493
+      },
+      "groups": {
+        "commercial": 0.7645,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.1862,
+        "industrial": 0.0493
+      },
+      "covered": 1.0,
+      "far": 533
+    },
+    "hiro-o": {
+      "shares": {
+        "第一種低層住居専用地域": 0.07,
+        "第一種中高層住居専用地域": 0.3349,
+        "第二種中高層住居専用地域": 0.2713,
+        "第一種住居地域": 0.1949,
+        "第二種住居地域": 0.0119,
+        "近隣商業地域": 0.0175,
+        "商業地域": 0.0994
+      },
+      "groups": {
+        "commercial": 0.0994,
+        "nearCommercial": 0.0175,
+        "lowRise": 0.4049,
+        "residential": 0.4781,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 305
+    },
+    "onarimon": {
+      "shares": {
+        "第一種住居地域": 0.0931,
+        "第二種住居地域": 0.2291,
+        "商業地域": 0.6778
+      },
+      "groups": {
+        "commercial": 0.6778,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.3222,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 503
+    },
+    "shimbashi": {
+      "shares": {
+        "第一種住居地域": 0.0048,
+        "商業地域": 0.9825,
+        "準工業地域": 0.0127
+      },
+      "groups": {
+        "commercial": 0.9825,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0048,
+        "industrial": 0.0127
+      },
+      "covered": 1.0,
+      "far": 760
+    },
+    "hinode": {
+      "shares": {
+        "商業地域": 0.0843,
+        "準工業地域": 0.4582
+      },
+      "groups": {
+        "commercial": 0.0843,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.4582
+      },
+      "covered": 0.5426,
+      "far": 415
+    },
+    "tokyo-teleport": {
+      "shares": {
+        "第一種住居地域": 0.0294,
+        "商業地域": 0.4073,
+        "準工業地域": 0.4391
+      },
+      "groups": {
+        "commercial": 0.4073,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0294,
+        "industrial": 0.4391
+      },
+      "covered": 0.8759,
+      "far": 394
+    },
+    "shiodome": {
+      "shares": {
+        "第一種住居地域": 0.1957,
+        "商業地域": 0.7701,
+        "準工業地域": 0.0215
+      },
+      "groups": {
+        "commercial": 0.7701,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.1957,
+        "industrial": 0.0215
+      },
+      "covered": 0.9873,
+      "far": 622
+    },
+    "sengakuji": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.2673,
+        "第一種住居地域": 0.0708,
+        "第二種住居地域": 0.035,
+        "近隣商業地域": 0.0597,
+        "商業地域": 0.1424,
+        "準工業地域": 0.4248
+      },
+      "groups": {
+        "commercial": 0.1424,
+        "nearCommercial": 0.0597,
+        "lowRise": 0.2673,
+        "residential": 0.1058,
+        "industrial": 0.4248
+      },
+      "covered": 1.0,
+      "far": 386
+    },
+    "hamamatsucho": {
+      "shares": {
+        "第一種住居地域": 0.0971,
+        "第二種住居地域": 0.0016,
+        "商業地域": 0.5768,
+        "準工業地域": 0.2864
+      },
+      "groups": {
+        "commercial": 0.5768,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0986,
+        "industrial": 0.2864
+      },
+      "covered": 0.9618,
+      "far": 513
+    },
+    "tamachi": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.008,
+        "第一種住居地域": 0.043,
+        "第二種住居地域": 0.0032,
+        "商業地域": 0.5577,
+        "準工業地域": 0.3882
+      },
+      "groups": {
+        "commercial": 0.5577,
+        "nearCommercial": 0.0,
+        "lowRise": 0.008,
+        "residential": 0.0461,
+        "industrial": 0.3882
+      },
+      "covered": 1.0,
+      "far": 490
+    },
+    "shirokanedai": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.6309,
+        "第一種住居地域": 0.1416,
+        "第二種住居地域": 0.105,
+        "商業地域": 0.1225
+      },
+      "groups": {
+        "commercial": 0.1225,
+        "nearCommercial": 0.0,
+        "lowRise": 0.6309,
+        "residential": 0.2466,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 309
+    },
+    "shirokane-takanawa": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.358,
+        "第一種住居地域": 0.066,
+        "第二種住居地域": 0.0103,
+        "近隣商業地域": 0.0931,
+        "商業地域": 0.2323,
+        "準工業地域": 0.2403
+      },
+      "groups": {
+        "commercial": 0.2323,
+        "nearCommercial": 0.0931,
+        "lowRise": 0.358,
+        "residential": 0.0764,
+        "industrial": 0.2403
+      },
+      "covered": 1.0,
+      "far": 364
+    },
+    "kamiyacho": {
+      "shares": {
+        "第二種中高層住居専用地域": 0.0652,
+        "第一種住居地域": 0.1138,
+        "第二種住居地域": 0.3803,
+        "商業地域": 0.4407
+      },
+      "groups": {
+        "commercial": 0.4407,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.5593,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 427
+    },
+    "takeshiba": {
+      "shares": {
+        "第一種住居地域": 0.1169,
+        "第二種住居地域": 0.0016,
+        "商業地域": 0.0605,
+        "準工業地域": 0.3532
+      },
+      "groups": {
+        "commercial": 0.0605,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.1185,
+        "industrial": 0.3532
+      },
+      "covered": 0.5322,
+      "far": 385
+    },
+    "shibakoen": {
+      "shares": {
+        "第二種住居地域": 0.3317,
+        "近隣商業地域": 0.179,
+        "商業地域": 0.4893
+      },
+      "groups": {
+        "commercial": 0.4893,
+        "nearCommercial": 0.179,
+        "lowRise": 0.0,
+        "residential": 0.3317,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 428
+    },
+    "shibaura-futo": {
+      "shares": {
+        "第二種住居地域": 0.0103,
+        "商業地域": 0.0135,
+        "準工業地域": 0.6428
+      },
+      "groups": {
+        "commercial": 0.0135,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0103,
+        "industrial": 0.6428
+      },
+      "covered": 0.6667,
+      "far": 400
+    },
+    "toranomon": {
+      "shares": {
+        "第一種住居地域": 0.0127,
+        "第二種住居地域": 0.0469,
+        "商業地域": 0.9403
+      },
+      "groups": {
+        "commercial": 0.9403,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0597,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 635
+    },
+    "omote-sando": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.2172,
+        "第二種中高層住居専用地域": 0.2403,
+        "第一種住居地域": 0.1217,
+        "第二種住居地域": 0.1591,
+        "近隣商業地域": 0.039,
+        "商業地域": 0.2228
+      },
+      "groups": {
+        "commercial": 0.2228,
+        "nearCommercial": 0.039,
+        "lowRise": 0.2172,
+        "residential": 0.5211,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 370
+    },
+    "akasaka": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0008,
+        "第一種住居地域": 0.0239,
+        "第二種住居地域": 0.1623,
+        "近隣商業地域": 0.0095,
+        "商業地域": 0.8035
+      },
+      "groups": {
+        "commercial": 0.8035,
+        "nearCommercial": 0.0095,
+        "lowRise": 0.0008,
+        "residential": 0.1862,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 517
+    },
+    "akabanebashi": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0732,
+        "第一種住居地域": 0.0708,
+        "第二種住居地域": 0.4702,
+        "近隣商業地域": 0.2387,
+        "商業地域": 0.1472
+      },
+      "groups": {
+        "commercial": 0.1472,
+        "nearCommercial": 0.2387,
+        "lowRise": 0.0732,
+        "residential": 0.541,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 361
+    },
+    "aoyama-itchome": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.4821,
+        "第二種中高層住居専用地域": 0.2204,
+        "第一種住居地域": 0.0064,
+        "第二種住居地域": 0.0939,
+        "近隣商業地域": 0.0095,
+        "商業地域": 0.1877
+      },
+      "groups": {
+        "commercial": 0.1877,
+        "nearCommercial": 0.0095,
+        "lowRise": 0.4821,
+        "residential": 0.3206,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 326
+    },
+    "takanawa-gateway": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1376,
+        "第一種住居地域": 0.039,
+        "第二種住居地域": 0.0406,
+        "近隣商業地域": 0.0119,
+        "商業地域": 0.1408,
+        "準工業地域": 0.6301
+      },
+      "groups": {
+        "commercial": 0.1408,
+        "nearCommercial": 0.0119,
+        "lowRise": 0.1376,
+        "residential": 0.0796,
+        "industrial": 0.6301
+      },
+      "covered": 1.0,
+      "far": 410
+    },
+    "takanawadai": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0732,
+        "第一種中高層住居専用地域": 0.4972,
+        "第一種住居地域": 0.1002,
+        "第二種住居地域": 0.1615,
+        "近隣商業地域": 0.035,
+        "商業地域": 0.1329
+      },
+      "groups": {
+        "commercial": 0.1329,
+        "nearCommercial": 0.035,
+        "lowRise": 0.5704,
+        "residential": 0.2617,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 288
+    },
+    "azabu-juban": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.2625,
+        "第二種中高層住居専用地域": 0.0931,
+        "第一種住居地域": 0.0859,
+        "第二種住居地域": 0.0955,
+        "近隣商業地域": 0.1814,
+        "商業地域": 0.2498,
+        "準工業地域": 0.0318
+      },
+      "groups": {
+        "commercial": 0.2498,
+        "nearCommercial": 0.1814,
+        "lowRise": 0.2625,
+        "residential": 0.2745,
+        "industrial": 0.0318
+      },
+      "covered": 1.0,
+      "far": 385
+    },
+    "shimo-ochiai": {
+      "shares": {
+        "第一種低層住居専用地域": 0.253,
+        "第一種中高層住居専用地域": 0.1217,
+        "第一種住居地域": 0.1846,
+        "近隣商業地域": 0.0453,
+        "商業地域": 0.0088,
+        "準工業地域": 0.3866
+      },
+      "groups": {
+        "commercial": 0.0088,
+        "nearCommercial": 0.0453,
+        "lowRise": 0.3747,
+        "residential": 0.1846,
+        "industrial": 0.3866
+      },
+      "covered": 1.0,
+      "far": 273
+    },
+    "nakai": {
+      "shares": {
+        "第一種低層住居専用地域": 0.1981,
+        "第一種中高層住居専用地域": 0.206,
+        "第一種住居地域": 0.3548,
+        "近隣商業地域": 0.1599,
+        "商業地域": 0.0406,
+        "準工業地域": 0.0406
+      },
+      "groups": {
+        "commercial": 0.0406,
+        "nearCommercial": 0.1599,
+        "lowRise": 0.4041,
+        "residential": 0.3548,
+        "industrial": 0.0406
+      },
+      "covered": 1.0,
+      "far": 271
+    },
+    "shinanomachi": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.2291,
+        "第二種中高層住居専用地域": 0.4089,
+        "第一種住居地域": 0.2363,
+        "第二種住居地域": 0.0652,
+        "近隣商業地域": 0.008,
+        "商業地域": 0.0525
+      },
+      "groups": {
+        "commercial": 0.0525,
+        "nearCommercial": 0.008,
+        "lowRise": 0.2291,
+        "residential": 0.7104,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 285
+    },
+    "yotsuya": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1504,
+        "第二種中高層住居専用地域": 0.0016,
+        "第一種住居地域": 0.5139,
+        "第二種住居地域": 0.1002,
+        "近隣商業地域": 0.0294,
+        "商業地域": 0.2045
+      },
+      "groups": {
+        "commercial": 0.2045,
+        "nearCommercial": 0.0294,
+        "lowRise": 0.1504,
+        "residential": 0.6158,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 414
+    },
+    "yotsuya-sanchome": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1504,
+        "第二種中高層住居専用地域": 0.1018,
+        "第一種住居地域": 0.284,
+        "近隣商業地域": 0.0613,
+        "商業地域": 0.4025
+      },
+      "groups": {
+        "commercial": 0.4025,
+        "nearCommercial": 0.0613,
+        "lowRise": 0.1504,
+        "residential": 0.3858,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 416
+    },
+    "kokuritsu-kyogijo": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1496,
+        "第二種中高層住居専用地域": 0.498,
+        "第一種住居地域": 0.1758,
+        "第二種住居地域": 0.0867,
+        "近隣商業地域": 0.0628,
+        "商業地域": 0.027
+      },
+      "groups": {
+        "commercial": 0.027,
+        "nearCommercial": 0.0628,
+        "lowRise": 0.1496,
+        "residential": 0.7605,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 265
+    },
+    "okubo": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1973,
+        "第一種住居地域": 0.4256,
+        "第二種住居地域": 0.0024,
+        "近隣商業地域": 0.0875,
+        "商業地域": 0.2872
+      },
+      "groups": {
+        "commercial": 0.2872,
+        "nearCommercial": 0.0875,
+        "lowRise": 0.1973,
+        "residential": 0.428,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 384
+    },
+    "shin-okubo": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1114,
+        "第一種住居地域": 0.5044,
+        "近隣商業地域": 0.0732,
+        "商業地域": 0.3111
+      },
+      "groups": {
+        "commercial": 0.3111,
+        "nearCommercial": 0.0732,
+        "lowRise": 0.1114,
+        "residential": 0.5044,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 394
+    },
+    "shinjuku": {
+      "shares": {
+        "商業地域": 1.0
+      },
+      "groups": {
+        "commercial": 1.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 829
+    },
+    "shinjuku-sanchome": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1209,
+        "第二種住居地域": 0.0199,
+        "商業地域": 0.8592
+      },
+      "groups": {
+        "commercial": 0.8592,
+        "nearCommercial": 0.0,
+        "lowRise": 0.1209,
+        "residential": 0.0199,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 692
+    },
+    "shinjuku-gyoemmae": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.4018,
+        "第一種住居地域": 0.0151,
+        "近隣商業地域": 0.0008,
+        "商業地域": 0.5823
+      },
+      "groups": {
+        "commercial": 0.5823,
+        "nearCommercial": 0.0008,
+        "lowRise": 0.4018,
+        "residential": 0.0151,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 470
+    },
+    "shinjuku-nishiguchi": {
+      "shares": {
+        "商業地域": 1.0
+      },
+      "groups": {
+        "commercial": 1.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 821
+    },
+    "waseda": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.3763,
+        "第一種住居地域": 0.2729,
+        "第二種住居地域": 0.1663,
+        "近隣商業地域": 0.1575,
+        "商業地域": 0.0159,
+        "準工業地域": 0.0111
+      },
+      "groups": {
+        "commercial": 0.0159,
+        "nearCommercial": 0.1575,
+        "lowRise": 0.3763,
+        "residential": 0.4391,
+        "industrial": 0.0111
+      },
+      "covered": 1.0,
+      "far": 358
+    },
+    "waseda-toden": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0986,
+        "第一種中高層住居専用地域": 0.1702,
+        "第一種住居地域": 0.2944,
+        "第二種住居地域": 0.0207,
+        "近隣商業地域": 0.0453,
+        "商業地域": 0.1766,
+        "準工業地域": 0.1941
+      },
+      "groups": {
+        "commercial": 0.1766,
+        "nearCommercial": 0.0453,
+        "lowRise": 0.2689,
+        "residential": 0.315,
+        "industrial": 0.1941
+      },
+      "covered": 1.0,
+      "far": 345
+    },
+    "akebonobashi": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1209,
+        "第二種中高層住居専用地域": 0.1846,
+        "第一種住居地域": 0.1313,
+        "第二種住居地域": 0.1862,
+        "近隣商業地域": 0.1042,
+        "商業地域": 0.2729
+      },
+      "groups": {
+        "commercial": 0.2729,
+        "nearCommercial": 0.1042,
+        "lowRise": 0.1209,
+        "residential": 0.502,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 380
+    },
+    "higashi-shinjuku": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1846,
+        "第一種住居地域": 0.2776,
+        "第二種住居地域": 0.1225,
+        "商業地域": 0.4153
+      },
+      "groups": {
+        "commercial": 0.4153,
+        "nearCommercial": 0.0,
+        "lowRise": 0.1846,
+        "residential": 0.4002,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 445
+    },
+    "edogawabashi": {
+      "shares": {
+        "第一種低層住居専用地域": 0.2458,
+        "第一種住居地域": 0.0446,
+        "第二種住居地域": 0.0613,
+        "近隣商業地域": 0.0613,
+        "商業地域": 0.2578,
+        "準工業地域": 0.3294
+      },
+      "groups": {
+        "commercial": 0.2578,
+        "nearCommercial": 0.0613,
+        "lowRise": 0.2458,
+        "residential": 0.1058,
+        "industrial": 0.3294
+      },
+      "covered": 1.0,
+      "far": 323
+    },
+    "ushigome-yanagicho": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.3317,
+        "第二種中高層住居専用地域": 0.0247,
+        "第一種住居地域": 0.3835,
+        "第二種住居地域": 0.0223,
+        "近隣商業地域": 0.0613,
+        "商業地域": 0.1766
+      },
+      "groups": {
+        "commercial": 0.1766,
+        "nearCommercial": 0.0613,
+        "lowRise": 0.3317,
+        "residential": 0.4304,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 344
+    },
+    "ushigome-kagurazaka": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.3612,
+        "第二種中高層住居専用地域": 0.0827,
+        "第一種住居地域": 0.1909,
+        "第二種住居地域": 0.0581,
+        "近隣商業地域": 0.0461,
+        "商業地域": 0.257,
+        "準工業地域": 0.004
+      },
+      "groups": {
+        "commercial": 0.257,
+        "nearCommercial": 0.0461,
+        "lowRise": 0.3612,
+        "residential": 0.3317,
+        "industrial": 0.004
+      },
+      "covered": 1.0,
+      "far": 354
+    },
+    "kagurazaka": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.2458,
+        "第二種中高層住居専用地域": 0.0716,
+        "第一種住居地域": 0.0843,
+        "第二種住居地域": 0.1193,
+        "近隣商業地域": 0.0191,
+        "商業地域": 0.2299,
+        "準工業地域": 0.2299
+      },
+      "groups": {
+        "commercial": 0.2299,
+        "nearCommercial": 0.0191,
+        "lowRise": 0.2458,
+        "residential": 0.2753,
+        "industrial": 0.2299
+      },
+      "covered": 1.0,
+      "far": 349
+    },
+    "wakamatsu-kawada": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.4137,
+        "第二種中高層住居専用地域": 0.0024,
+        "第一種住居地域": 0.3047,
+        "第二種住居地域": 0.0453,
+        "近隣商業地域": 0.1472,
+        "商業地域": 0.0867
+      },
+      "groups": {
+        "commercial": 0.0867,
+        "nearCommercial": 0.1472,
+        "lowRise": 0.4137,
+        "residential": 0.3524,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 338
+    },
+    "nishi-shinjuku": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0278,
+        "第一種住居地域": 0.0724,
+        "第二種住居地域": 0.0024,
+        "近隣商業地域": 0.008,
+        "商業地域": 0.8894
+      },
+      "groups": {
+        "commercial": 0.8894,
+        "nearCommercial": 0.008,
+        "lowRise": 0.0278,
+        "residential": 0.0748,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 671
+    },
+    "nishi-waseda": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.4813,
+        "第一種住居地域": 0.3341,
+        "商業地域": 0.1846
+      },
+      "groups": {
+        "commercial": 0.1846,
+        "nearCommercial": 0.0,
+        "lowRise": 0.4813,
+        "residential": 0.3341,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 372
+    },
+    "seibu-shinjuku": {
+      "shares": {
+        "第一種住居地域": 0.1591,
+        "近隣商業地域": 0.0278,
+        "商業地域": 0.813
+      },
+      "groups": {
+        "commercial": 0.813,
+        "nearCommercial": 0.0278,
+        "lowRise": 0.0,
+        "residential": 0.1591,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 628
+    },
+    "tochomae": {
+      "shares": {
+        "第一種住居地域": 0.1599,
+        "商業地域": 0.8401
+      },
+      "groups": {
+        "commercial": 0.8401,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.1599,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 770
+    },
+    "omokagebashi": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.3556,
+        "第一種住居地域": 0.14,
+        "商業地域": 0.2156,
+        "準工業地域": 0.2888
+      },
+      "groups": {
+        "commercial": 0.2156,
+        "nearCommercial": 0.0,
+        "lowRise": 0.3556,
+        "residential": 0.14,
+        "industrial": 0.2888
+      },
+      "covered": 1.0,
+      "far": 356
+    },
+    "takadanobaba": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1925,
+        "第一種住居地域": 0.171,
+        "近隣商業地域": 0.0263,
+        "商業地域": 0.288,
+        "準工業地域": 0.3222
+      },
+      "groups": {
+        "commercial": 0.288,
+        "nearCommercial": 0.0263,
+        "lowRise": 0.1925,
+        "residential": 0.171,
+        "industrial": 0.3222
+      },
+      "covered": 1.0,
+      "far": 372
+    },
+    "sengoku": {
+      "shares": {
+        "第一種低層住居専用地域": 0.1066,
+        "第一種中高層住居専用地域": 0.3803,
+        "第一種住居地域": 0.1098,
+        "第二種住居地域": 0.0843,
+        "近隣商業地域": 0.1472,
+        "商業地域": 0.1718
+      },
+      "groups": {
+        "commercial": 0.1718,
+        "nearCommercial": 0.1472,
+        "lowRise": 0.4869,
+        "residential": 0.1941,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 309
+    },
+    "korakuen": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0064,
+        "第一種中高層住居専用地域": 0.0684,
+        "第一種住居地域": 0.3397,
+        "第二種住居地域": 0.0135,
+        "近隣商業地域": 0.1146,
+        "商業地域": 0.4177,
+        "準工業地域": 0.0398
+      },
+      "groups": {
+        "commercial": 0.4177,
+        "nearCommercial": 0.1146,
+        "lowRise": 0.0748,
+        "residential": 0.3532,
+        "industrial": 0.0398
+      },
+      "covered": 1.0,
+      "far": 400
+    },
+    "shin-otsuka": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.3477,
+        "第一種住居地域": 0.2474,
+        "第二種住居地域": 0.0159,
+        "近隣商業地域": 0.0597,
+        "商業地域": 0.222,
+        "準工業地域": 0.1074
+      },
+      "groups": {
+        "commercial": 0.222,
+        "nearCommercial": 0.0597,
+        "lowRise": 0.3477,
+        "residential": 0.2633,
+        "industrial": 0.1074
+      },
+      "covered": 1.0,
+      "far": 344
+    },
+    "kasuga": {
+      "shares": {
+        "第一種低層住居専用地域": 0.074,
+        "第一種中高層住居専用地域": 0.074,
+        "第一種住居地域": 0.3079,
+        "第二種住居地域": 0.0111,
+        "近隣商業地域": 0.1193,
+        "商業地域": 0.3564,
+        "準工業地域": 0.0573
+      },
+      "groups": {
+        "commercial": 0.3564,
+        "nearCommercial": 0.1193,
+        "lowRise": 0.148,
+        "residential": 0.319,
+        "industrial": 0.0573
+      },
+      "covered": 1.0,
+      "far": 387
+    },
+    "hongo-sanchome": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1687,
+        "第一種住居地域": 0.1615,
+        "第二種住居地域": 0.008,
+        "近隣商業地域": 0.2864,
+        "商業地域": 0.3755
+      },
+      "groups": {
+        "commercial": 0.3755,
+        "nearCommercial": 0.2864,
+        "lowRise": 0.1687,
+        "residential": 0.1695,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 437
+    },
+    "hon-komagome": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.467,
+        "第一種住居地域": 0.2593,
+        "近隣商業地域": 0.1352,
+        "商業地域": 0.1384
+      },
+      "groups": {
+        "commercial": 0.1384,
+        "nearCommercial": 0.1352,
+        "lowRise": 0.467,
+        "residential": 0.2593,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 336
+    },
+    "todaimae": {
+      "shares": {
+        "第一種低層住居専用地域": 0.1217,
+        "第一種中高層住居専用地域": 0.3739,
+        "第二種中高層住居専用地域": 0.0103,
+        "第一種住居地域": 0.2776,
+        "第二種住居地域": 0.0143,
+        "近隣商業地域": 0.1241,
+        "商業地域": 0.078
+      },
+      "groups": {
+        "commercial": 0.078,
+        "nearCommercial": 0.1241,
+        "lowRise": 0.4956,
+        "residential": 0.3023,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 305
+    },
+    "nezu": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.3461,
+        "第二種中高層住居専用地域": 0.0461,
+        "第一種住居地域": 0.3309,
+        "第二種住居地域": 0.0191,
+        "近隣商業地域": 0.1551,
+        "商業地域": 0.1026
+      },
+      "groups": {
+        "commercial": 0.1026,
+        "nearCommercial": 0.1551,
+        "lowRise": 0.3461,
+        "residential": 0.3962,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 334
+    },
+    "hakusan": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0732,
+        "第一種中高層住居専用地域": 0.1909,
+        "第一種住居地域": 0.3978,
+        "近隣商業地域": 0.1702,
+        "商業地域": 0.1679
+      },
+      "groups": {
+        "commercial": 0.1679,
+        "nearCommercial": 0.1702,
+        "lowRise": 0.2641,
+        "residential": 0.3978,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 346
+    },
+    "myogadani": {
+      "shares": {
+        "第一種低層住居専用地域": 0.1464,
+        "第一種中高層住居専用地域": 0.3755,
+        "第二種中高層住居専用地域": 0.0549,
+        "第一種住居地域": 0.113,
+        "第二種住居地域": 0.1042,
+        "近隣商業地域": 0.0286,
+        "商業地域": 0.1082,
+        "準工業地域": 0.0692
+      },
+      "groups": {
+        "commercial": 0.1082,
+        "nearCommercial": 0.0286,
+        "lowRise": 0.5219,
+        "residential": 0.2721,
+        "industrial": 0.0692
+      },
+      "covered": 1.0,
+      "far": 327
+    },
+    "gokokuji": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0223,
+        "第一種中高層住居専用地域": 0.5895,
+        "第一種住居地域": 0.0732,
+        "第二種住居地域": 0.035,
+        "近隣商業地域": 0.0414,
+        "商業地域": 0.214,
+        "準工業地域": 0.0247
+      },
+      "groups": {
+        "commercial": 0.214,
+        "nearCommercial": 0.0414,
+        "lowRise": 0.6118,
+        "residential": 0.1082,
+        "industrial": 0.0247
+      },
+      "covered": 1.0,
+      "far": 339
+    },
+    "minowa": {
+      "shares": {
+        "第一種住居地域": 0.0151,
+        "近隣商業地域": 0.1249,
+        "商業地域": 0.4702,
+        "準工業地域": 0.3898
+      },
+      "groups": {
+        "commercial": 0.4702,
+        "nearCommercial": 0.1249,
+        "lowRise": 0.0,
+        "residential": 0.0151,
+        "industrial": 0.3898
+      },
+      "covered": 1.0,
+      "far": 419
+    },
+    "ueno": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.3437,
+        "第二種中高層住居専用地域": 0.0048,
+        "第一種住居地域": 0.0072,
+        "商業地域": 0.6444
+      },
+      "groups": {
+        "commercial": 0.6444,
+        "nearCommercial": 0.0,
+        "lowRise": 0.3437,
+        "residential": 0.0119,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 528
+    },
+    "keisei-ueno": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.3835,
+        "第一種住居地域": 0.0597,
+        "第二種住居地域": 0.0008,
+        "商業地域": 0.5561
+      },
+      "groups": {
+        "commercial": 0.5561,
+        "nearCommercial": 0.0,
+        "lowRise": 0.3835,
+        "residential": 0.0605,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 526
+    },
+    "iriya": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0088,
+        "第二種中高層住居専用地域": 0.0247,
+        "第一種住居地域": 0.066,
+        "商業地域": 0.9006
+      },
+      "groups": {
+        "commercial": 0.9006,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0088,
+        "residential": 0.0907,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 517
+    },
+    "sendagi": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.4145,
+        "第二種中高層住居専用地域": 0.0302,
+        "第一種住居地域": 0.2323,
+        "近隣商業地域": 0.2164,
+        "商業地域": 0.1066
+      },
+      "groups": {
+        "commercial": 0.1066,
+        "nearCommercial": 0.2164,
+        "lowRise": 0.4145,
+        "residential": 0.2625,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 306
+    },
+    "okachimachi": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0621,
+        "商業地域": 0.9379
+      },
+      "groups": {
+        "commercial": 0.9379,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0621,
+        "residential": 0.0,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 651
+    },
+    "shin-okachimachi": {
+      "shares": {
+        "商業地域": 1.0
+      },
+      "groups": {
+        "commercial": 1.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 547
+    },
+    "asakusa": {
+      "shares": {
+        "第一種住居地域": 0.0366,
+        "近隣商業地域": 0.0963,
+        "商業地域": 0.6969
+      },
+      "groups": {
+        "commercial": 0.6969,
+        "nearCommercial": 0.0963,
+        "lowRise": 0.0,
+        "residential": 0.0366,
+        "industrial": 0.0
+      },
+      "covered": 0.8298,
+      "far": 537
+    },
+    "asakusa-tx": {
+      "shares": {
+        "商業地域": 1.0
+      },
+      "groups": {
+        "commercial": 1.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 569
+    },
+    "asakusabashi": {
+      "shares": {
+        "商業地域": 0.9125
+      },
+      "groups": {
+        "commercial": 0.9125,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.0
+      },
+      "covered": 0.9125,
+      "far": 566
+    },
+    "yushima": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.2363,
+        "第二種住居地域": 0.0955,
+        "近隣商業地域": 0.0652,
+        "商業地域": 0.603
+      },
+      "groups": {
+        "commercial": 0.603,
+        "nearCommercial": 0.0652,
+        "lowRise": 0.2363,
+        "residential": 0.0955,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 519
+    },
+    "tawaramachi": {
+      "shares": {
+        "商業地域": 1.0
+      },
+      "groups": {
+        "commercial": 1.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 586
+    },
+    "inaricho": {
+      "shares": {
+        "商業地域": 1.0
+      },
+      "groups": {
+        "commercial": 1.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 582
+    },
+    "kuramae": {
+      "shares": {
+        "第一種住居地域": 0.0135,
+        "近隣商業地域": 0.043,
+        "商業地域": 0.7701,
+        "準工業地域": 0.0191
+      },
+      "groups": {
+        "commercial": 0.7701,
+        "nearCommercial": 0.043,
+        "lowRise": 0.0,
+        "residential": 0.0135,
+        "industrial": 0.0191
+      },
+      "covered": 0.8457,
+      "far": 549
+    },
+    "uguisudani": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.3707,
+        "第二種中高層住居専用地域": 0.0469,
+        "第一種住居地域": 0.1034,
+        "近隣商業地域": 0.0326,
+        "商業地域": 0.4208,
+        "準工業地域": 0.0255
+      },
+      "groups": {
+        "commercial": 0.4208,
+        "nearCommercial": 0.0326,
+        "lowRise": 0.3707,
+        "residential": 0.1504,
+        "industrial": 0.0255
+      },
+      "covered": 1.0,
+      "far": 379
+    },
+    "tokyo-skytree": {
+      "shares": {
+        "第一種住居地域": 0.0127,
+        "近隣商業地域": 0.1575,
+        "商業地域": 0.4073,
+        "準工業地域": 0.4224
+      },
+      "groups": {
+        "commercial": 0.4073,
+        "nearCommercial": 0.1575,
+        "lowRise": 0.0,
+        "residential": 0.0127,
+        "industrial": 0.4224
+      },
+      "covered": 1.0,
+      "far": 370
+    },
+    "ryogoku": {
+      "shares": {
+        "第一種住居地域": 0.0986,
+        "近隣商業地域": 0.0804,
+        "商業地域": 0.646,
+        "準工業地域": 0.0692
+      },
+      "groups": {
+        "commercial": 0.646,
+        "nearCommercial": 0.0804,
+        "lowRise": 0.0,
+        "residential": 0.0986,
+        "industrial": 0.0692
+      },
+      "covered": 0.8942,
+      "far": 425
+    },
+    "keisei-hikifune": {
+      "shares": {
+        "近隣商業地域": 0.2601,
+        "商業地域": 0.2315,
+        "準工業地域": 0.5084
+      },
+      "groups": {
+        "commercial": 0.2315,
+        "nearCommercial": 0.2601,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.5084
+      },
+      "covered": 1.0,
+      "far": 282
+    },
+    "yahiro": {
+      "shares": {
+        "近隣商業地域": 0.0008,
+        "商業地域": 0.1344,
+        "準工業地域": 0.4527,
+        "工業地域": 0.0143
+      },
+      "groups": {
+        "commercial": 0.1344,
+        "nearCommercial": 0.0008,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.467
+      },
+      "covered": 0.6022,
+      "far": 281
+    },
+    "omurai": {
+      "shares": {
+        "第一種住居地域": 0.1114,
+        "近隣商業地域": 0.0899,
+        "商業地域": 0.1273,
+        "準工業地域": 0.6714
+      },
+      "groups": {
+        "commercial": 0.1273,
+        "nearCommercial": 0.0899,
+        "lowRise": 0.0,
+        "residential": 0.1114,
+        "industrial": 0.6714
+      },
+      "covered": 1.0,
+      "far": 254
+    },
+    "oshiage": {
+      "shares": {
+        "近隣商業地域": 0.3214,
+        "商業地域": 0.3142,
+        "準工業地域": 0.3644
+      },
+      "groups": {
+        "commercial": 0.3142,
+        "nearCommercial": 0.3214,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.3644
+      },
+      "covered": 1.0,
+      "far": 342
+    },
+    "hikifune": {
+      "shares": {
+        "近隣商業地域": 0.3071,
+        "商業地域": 0.2713,
+        "準工業地域": 0.4216
+      },
+      "groups": {
+        "commercial": 0.2713,
+        "nearCommercial": 0.3071,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.4216
+      },
+      "covered": 1.0,
+      "far": 294
+    },
+    "honjo-azumabashi": {
+      "shares": {
+        "第一種住居地域": 0.0573,
+        "近隣商業地域": 0.2864,
+        "商業地域": 0.3317,
+        "準工業地域": 0.2928
+      },
+      "groups": {
+        "commercial": 0.3317,
+        "nearCommercial": 0.2864,
+        "lowRise": 0.0,
+        "residential": 0.0573,
+        "industrial": 0.2928
+      },
+      "covered": 0.9682,
+      "far": 352
+    },
+    "higashi-azuma": {
+      "shares": {
+        "第一種住居地域": 0.1329,
+        "近隣商業地域": 0.0676,
+        "商業地域": 0.1257,
+        "準工業地域": 0.6738
+      },
+      "groups": {
+        "commercial": 0.1257,
+        "nearCommercial": 0.0676,
+        "lowRise": 0.0,
+        "residential": 0.1329,
+        "industrial": 0.6738
+      },
+      "covered": 1.0,
+      "far": 254
+    },
+    "higashi-mukojima": {
+      "shares": {
+        "近隣商業地域": 0.2068,
+        "商業地域": 0.1623,
+        "準工業地域": 0.6309
+      },
+      "groups": {
+        "commercial": 0.1623,
+        "nearCommercial": 0.2068,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.6309
+      },
+      "covered": 1.0,
+      "far": 299
+    },
+    "kikukawa": {
+      "shares": {
+        "近隣商業地域": 0.07,
+        "商業地域": 0.206,
+        "準工業地域": 0.7239
+      },
+      "groups": {
+        "commercial": 0.206,
+        "nearCommercial": 0.07,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.7239
+      },
+      "covered": 1.0,
+      "far": 338
+    },
+    "kinshicho": {
+      "shares": {
+        "第一種住居地域": 0.0788,
+        "近隣商業地域": 0.0438,
+        "商業地域": 0.8186,
+        "準工業地域": 0.0589
+      },
+      "groups": {
+        "commercial": 0.8186,
+        "nearCommercial": 0.0438,
+        "lowRise": 0.0,
+        "residential": 0.0788,
+        "industrial": 0.0589
+      },
+      "covered": 1.0,
+      "far": 538
+    },
+    "kanegafuchi": {
+      "shares": {
+        "第一種住居地域": 0.0621,
+        "近隣商業地域": 0.1695,
+        "商業地域": 0.0597,
+        "準工業地域": 0.5449
+      },
+      "groups": {
+        "commercial": 0.0597,
+        "nearCommercial": 0.1695,
+        "lowRise": 0.0,
+        "residential": 0.0621,
+        "industrial": 0.5449
+      },
+      "covered": 0.8361,
+      "far": 261
+    },
+    "telecom-center": {
+      "shares": {
+        "準工業地域": 0.9459
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.9459
+      },
+      "covered": 0.9459,
+      "far": 261
+    },
+    "kameido": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0199,
+        "第一種住居地域": 0.0804,
+        "第二種住居地域": 0.0255,
+        "近隣商業地域": 0.07,
+        "商業地域": 0.564,
+        "準工業地域": 0.2403
+      },
+      "groups": {
+        "commercial": 0.564,
+        "nearCommercial": 0.07,
+        "lowRise": 0.0199,
+        "residential": 0.1058,
+        "industrial": 0.2403
+      },
+      "covered": 1.0,
+      "far": 445
+    },
+    "kameidosuijin": {
+      "shares": {
+        "第一種住居地域": 0.2371,
+        "第二種住居地域": 0.0621,
+        "近隣商業地域": 0.0549,
+        "商業地域": 0.2021,
+        "準工業地域": 0.4439
+      },
+      "groups": {
+        "commercial": 0.2021,
+        "nearCommercial": 0.0549,
+        "lowRise": 0.0,
+        "residential": 0.2991,
+        "industrial": 0.4439
+      },
+      "covered": 1.0,
+      "far": 325
+    },
+    "sumiyoshi": {
+      "shares": {
+        "第一種住居地域": 0.2761,
+        "近隣商業地域": 0.0294,
+        "商業地域": 0.1766,
+        "準工業地域": 0.5179
+      },
+      "groups": {
+        "commercial": 0.1766,
+        "nearCommercial": 0.0294,
+        "lowRise": 0.0,
+        "residential": 0.2761,
+        "industrial": 0.5179
+      },
+      "covered": 1.0,
+      "far": 342
+    },
+    "minami-sunamachi": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1321,
+        "第一種住居地域": 0.288,
+        "第二種住居地域": 0.0278,
+        "準住居地域": 0.0382,
+        "近隣商業地域": 0.0438,
+        "商業地域": 0.0509,
+        "準工業地域": 0.1488,
+        "工業地域": 0.0191,
+        "工業専用地域": 0.2514
+      },
+      "groups": {
+        "commercial": 0.0509,
+        "nearCommercial": 0.0438,
+        "lowRise": 0.1321,
+        "residential": 0.354,
+        "industrial": 0.4193
+      },
+      "covered": 1.0,
+      "far": 288
+    },
+    "kokusai-tenjijo": {
+      "shares": {
+        "第一種住居地域": 0.354,
+        "準工業地域": 0.0557,
+        "工業専用地域": 0.5903
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.354,
+        "industrial": 0.646
+      },
+      "covered": 1.0,
+      "far": 241
+    },
+    "ojima": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1146,
+        "第一種住居地域": 0.354,
+        "第二種住居地域": 0.0676,
+        "近隣商業地域": 0.0764,
+        "商業地域": 0.1082,
+        "準工業地域": 0.2792
+      },
+      "groups": {
+        "commercial": 0.1082,
+        "nearCommercial": 0.0764,
+        "lowRise": 0.1146,
+        "residential": 0.4216,
+        "industrial": 0.2792
+      },
+      "covered": 1.0,
+      "far": 332
+    },
+    "shijo-mae": {
+      "shares": {
+        "工業地域": 0.6842
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.6842
+      },
+      "covered": 0.6842,
+      "far": 200
+    },
+    "shin-kiba": {
+      "shares": {
+        "第一種住居地域": 0.3898,
+        "準工業地域": 0.4256,
+        "工業地域": 0.0191
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.3898,
+        "industrial": 0.4447
+      },
+      "covered": 0.8345,
+      "far": 215
+    },
+    "shin-toyosu": {
+      "shares": {
+        "準工業地域": 0.0103,
+        "工業地域": 0.6587
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.6691
+      },
+      "covered": 0.6691,
+      "far": 202
+    },
+    "ariake": {
+      "shares": {
+        "第一種住居地域": 0.3063,
+        "準工業地域": 0.0557,
+        "工業専用地域": 0.638
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.3063,
+        "industrial": 0.6937
+      },
+      "covered": 1.0,
+      "far": 232
+    },
+    "ariake-tennis-no-mori": {
+      "shares": {
+        "第一種住居地域": 0.4956,
+        "第二種住居地域": 0.0103,
+        "準工業地域": 0.2068,
+        "工業地域": 0.0644
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.506,
+        "industrial": 0.2713
+      },
+      "covered": 0.7772,
+      "far": 251
+    },
+    "kiba": {
+      "shares": {
+        "第一種住居地域": 0.1893,
+        "第二種住居地域": 0.0151,
+        "近隣商業地域": 0.0302,
+        "商業地域": 0.245,
+        "準工業地域": 0.5187
+      },
+      "groups": {
+        "commercial": 0.245,
+        "nearCommercial": 0.0302,
+        "lowRise": 0.0,
+        "residential": 0.2045,
+        "industrial": 0.5187
+      },
+      "covered": 0.9984,
+      "far": 357
+    },
+    "tokyo-big-sight": {
+      "shares": {
+        "第一種住居地域": 0.0215,
+        "準工業地域": 0.1551,
+        "工業専用地域": 0.6269
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0215,
+        "industrial": 0.782
+      },
+      "covered": 0.8035,
+      "far": 222
+    },
+    "higashi-ojima": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.008,
+        "第一種住居地域": 0.3882,
+        "近隣商業地域": 0.0135,
+        "商業地域": 0.0549,
+        "準工業地域": 0.5346
+      },
+      "groups": {
+        "commercial": 0.0549,
+        "nearCommercial": 0.0135,
+        "lowRise": 0.008,
+        "residential": 0.3882,
+        "industrial": 0.5346
+      },
+      "covered": 0.9992,
+      "far": 328
+    },
+    "toyocho": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0628,
+        "第一種住居地域": 0.0565,
+        "第二種住居地域": 0.1376,
+        "準住居地域": 0.0223,
+        "商業地域": 0.1838,
+        "準工業地域": 0.3986,
+        "工業専用地域": 0.1138
+      },
+      "groups": {
+        "commercial": 0.1838,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0628,
+        "residential": 0.2164,
+        "industrial": 0.5123
+      },
+      "covered": 0.9753,
+      "far": 330
+    },
+    "shinonome": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0119,
+        "第一種住居地域": 0.0103,
+        "第二種住居地域": 0.0239,
+        "準工業地域": 0.6603,
+        "工業地域": 0.0024,
+        "工業専用地域": 0.0764
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0119,
+        "residential": 0.0342,
+        "industrial": 0.7391
+      },
+      "covered": 0.7852,
+      "far": 263
+    },
+    "morishita": {
+      "shares": {
+        "近隣商業地域": 0.0716,
+        "商業地域": 0.187,
+        "準工業地域": 0.6659
+      },
+      "groups": {
+        "commercial": 0.187,
+        "nearCommercial": 0.0716,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.6659
+      },
+      "covered": 0.9244,
+      "far": 370
+    },
+    "kiyosumi-shirakawa": {
+      "shares": {
+        "第一種住居地域": 0.1114,
+        "近隣商業地域": 0.1154,
+        "商業地域": 0.1082,
+        "準工業地域": 0.6643
+      },
+      "groups": {
+        "commercial": 0.1082,
+        "nearCommercial": 0.1154,
+        "lowRise": 0.0,
+        "residential": 0.1114,
+        "industrial": 0.6643
+      },
+      "covered": 0.9992,
+      "far": 332
+    },
+    "shiomi": {
+      "shares": {
+        "近隣商業地域": 0.035,
+        "準工業地域": 0.6126,
+        "工業専用地域": 0.1074
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.035,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.72
+      },
+      "covered": 0.755,
+      "far": 265
+    },
+    "nishi-ojima": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1392,
+        "第一種住居地域": 0.0366,
+        "近隣商業地域": 0.0255,
+        "商業地域": 0.1655,
+        "準工業地域": 0.6333
+      },
+      "groups": {
+        "commercial": 0.1655,
+        "nearCommercial": 0.0255,
+        "lowRise": 0.1392,
+        "residential": 0.0366,
+        "industrial": 0.6333
+      },
+      "covered": 1.0,
+      "far": 335
+    },
+    "toyosu": {
+      "shares": {
+        "第一種住居地域": 0.1114,
+        "第二種住居地域": 0.0095,
+        "商業地域": 0.0636,
+        "準工業地域": 0.3325,
+        "工業地域": 0.4224
+      },
+      "groups": {
+        "commercial": 0.0636,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.1209,
+        "industrial": 0.755
+      },
+      "covered": 0.9395,
+      "far": 272
+    },
+    "etchujima": {
+      "shares": {
+        "第一種住居地域": 0.3803,
+        "近隣商業地域": 0.0135,
+        "商業地域": 0.0636,
+        "準工業地域": 0.2848
+      },
+      "groups": {
+        "commercial": 0.0636,
+        "nearCommercial": 0.0135,
+        "lowRise": 0.0,
+        "residential": 0.3803,
+        "industrial": 0.2848
+      },
+      "covered": 0.7422,
+      "far": 330
+    },
+    "tatsumi": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.2387,
+        "第一種住居地域": 0.1862,
+        "第二種住居地域": 0.0867,
+        "準工業地域": 0.2904
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.2387,
+        "residential": 0.2729,
+        "industrial": 0.2904
+      },
+      "covered": 0.8019,
+      "far": 276
+    },
+    "monzen-nakacho": {
+      "shares": {
+        "第一種住居地域": 0.1408,
+        "近隣商業地域": 0.0692,
+        "商業地域": 0.3914,
+        "準工業地域": 0.3986
+      },
+      "groups": {
+        "commercial": 0.3914,
+        "nearCommercial": 0.0692,
+        "lowRise": 0.0,
+        "residential": 0.1408,
+        "industrial": 0.3986
+      },
+      "covered": 1.0,
+      "far": 390
+    },
+    "aomi": {
+      "shares": {
+        "商業地域": 0.1209,
+        "準工業地域": 0.6158
+      },
+      "groups": {
+        "commercial": 0.1209,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.6158
+      },
+      "covered": 0.7367,
+      "far": 349
+    },
+    "shimo-shimmei": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0891,
+        "第一種住居地域": 0.529,
+        "近隣商業地域": 0.0724,
+        "商業地域": 0.0557,
+        "準工業地域": 0.2538
+      },
+      "groups": {
+        "commercial": 0.0557,
+        "nearCommercial": 0.0724,
+        "lowRise": 0.0891,
+        "residential": 0.529,
+        "industrial": 0.2538
+      },
+      "covered": 1.0,
+      "far": 231
+    },
+    "fudo-mae": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0597,
+        "第一種住居地域": 0.1289,
+        "第二種住居地域": 0.0469,
+        "近隣商業地域": 0.0541,
+        "商業地域": 0.2363,
+        "準工業地域": 0.4741
+      },
+      "groups": {
+        "commercial": 0.2363,
+        "nearCommercial": 0.0541,
+        "lowRise": 0.0597,
+        "residential": 0.1758,
+        "industrial": 0.4741
+      },
+      "covered": 1.0,
+      "far": 368
+    },
+    "nakanobu": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0915,
+        "第一種住居地域": 0.58,
+        "近隣商業地域": 0.1631,
+        "商業地域": 0.0899,
+        "準工業地域": 0.0756
+      },
+      "groups": {
+        "commercial": 0.0899,
+        "nearCommercial": 0.1631,
+        "lowRise": 0.0915,
+        "residential": 0.58,
+        "industrial": 0.0756
+      },
+      "covered": 1.0,
+      "far": 242
+    },
+    "gotanda": {
+      "shares": {
+        "第一種低層住居専用地域": 0.109,
+        "第一種中高層住居専用地域": 0.0811,
+        "第一種住居地域": 0.0374,
+        "第二種住居地域": 0.004,
+        "商業地域": 0.5927,
+        "準工業地域": 0.1758
+      },
+      "groups": {
+        "commercial": 0.5927,
+        "nearCommercial": 0.0,
+        "lowRise": 0.1901,
+        "residential": 0.0414,
+        "industrial": 0.1758
+      },
+      "covered": 1.0,
+      "far": 502
+    },
+    "kitashinagawa": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0915,
+        "第一種中高層住居専用地域": 0.2633,
+        "第一種住居地域": 0.1114,
+        "第二種住居地域": 0.0541,
+        "近隣商業地域": 0.035,
+        "商業地域": 0.2212,
+        "準工業地域": 0.1965
+      },
+      "groups": {
+        "commercial": 0.2212,
+        "nearCommercial": 0.035,
+        "lowRise": 0.3548,
+        "residential": 0.1655,
+        "industrial": 0.1965
+      },
+      "covered": 0.973,
+      "far": 350
+    },
+    "daiba": {
+      "shares": {
+        "第一種住居地域": 0.1957,
+        "商業地域": 0.4909,
+        "準工業地域": 0.004
+      },
+      "groups": {
+        "commercial": 0.4909,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.1957,
+        "industrial": 0.004
+      },
+      "covered": 0.6905,
+      "far": 420
+    },
+    "shinagawa-seaside": {
+      "shares": {
+        "第一種住居地域": 0.043,
+        "近隣商業地域": 0.0127,
+        "準工業地域": 0.572,
+        "工業地域": 0.1726
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0127,
+        "lowRise": 0.0,
+        "residential": 0.043,
+        "industrial": 0.7446
+      },
+      "covered": 0.8003,
+      "far": 278
+    },
+    "oimachi": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0644,
+        "第一種住居地域": 0.288,
+        "近隣商業地域": 0.1161,
+        "商業地域": 0.3532,
+        "準工業地域": 0.1655,
+        "工業地域": 0.0127
+      },
+      "groups": {
+        "commercial": 0.3532,
+        "nearCommercial": 0.1161,
+        "lowRise": 0.0644,
+        "residential": 0.288,
+        "industrial": 0.1782
+      },
+      "covered": 1.0,
+      "far": 354
+    },
+    "oi-keibajo-mae": {
+      "shares": {
+        "第一種住居地域": 0.2928,
+        "第二種住居地域": 0.0048,
+        "準工業地域": 0.4773
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.2975,
+        "industrial": 0.4773
+      },
+      "covered": 0.7749,
+      "far": 240
+    },
+    "osaki": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0191,
+        "第一種住居地域": 0.2045,
+        "近隣商業地域": 0.0422,
+        "商業地域": 0.0867,
+        "準工業地域": 0.6476
+      },
+      "groups": {
+        "commercial": 0.0867,
+        "nearCommercial": 0.0422,
+        "lowRise": 0.0191,
+        "residential": 0.2045,
+        "industrial": 0.6476
+      },
+      "covered": 1.0,
+      "far": 314
+    },
+    "osaki-hirokoji": {
+      "shares": {
+        "第一種住居地域": 0.2888,
+        "商業地域": 0.5179,
+        "準工業地域": 0.1933
+      },
+      "groups": {
+        "commercial": 0.5179,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.2888,
+        "industrial": 0.1933
+      },
+      "covered": 1.0,
+      "far": 503
+    },
+    "tennozu-isle": {
+      "shares": {
+        "第一種住居地域": 0.0541,
+        "第二種住居地域": 0.0119,
+        "商業地域": 0.2196,
+        "準工業地域": 0.3325
+      },
+      "groups": {
+        "commercial": 0.2196,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.066,
+        "industrial": 0.3325
+      },
+      "covered": 0.6181,
+      "far": 423
+    },
+    "togoshi-koen": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1138,
+        "第一種住居地域": 0.6325,
+        "近隣商業地域": 0.1774,
+        "商業地域": 0.074,
+        "準工業地域": 0.0024
+      },
+      "groups": {
+        "commercial": 0.074,
+        "nearCommercial": 0.1774,
+        "lowRise": 0.1138,
+        "residential": 0.6325,
+        "industrial": 0.0024
+      },
+      "covered": 1.0,
+      "far": 246
+    },
+    "togoshi": {
+      "shares": {
+        "第一種住居地域": 0.2824,
+        "近隣商業地域": 0.1718,
+        "商業地域": 0.1647,
+        "準工業地域": 0.3811
+      },
+      "groups": {
+        "commercial": 0.1647,
+        "nearCommercial": 0.1718,
+        "lowRise": 0.0,
+        "residential": 0.2824,
+        "industrial": 0.3811
+      },
+      "covered": 1.0,
+      "far": 287
+    },
+    "shimbamba": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0159,
+        "第一種中高層住居専用地域": 0.144,
+        "第一種住居地域": 0.2991,
+        "第二種住居地域": 0.0024,
+        "近隣商業地域": 0.0923,
+        "商業地域": 0.1941,
+        "準工業地域": 0.2339,
+        "工業地域": 0.0175
+      },
+      "groups": {
+        "commercial": 0.1941,
+        "nearCommercial": 0.0923,
+        "lowRise": 0.1599,
+        "residential": 0.3015,
+        "industrial": 0.2514
+      },
+      "covered": 0.9992,
+      "far": 337
+    },
+    "hatanodai": {
+      "shares": {
+        "第一種低層住居専用地域": 0.1989,
+        "第一種中高層住居専用地域": 0.3294,
+        "第一種住居地域": 0.1909,
+        "準住居地域": 0.0167,
+        "近隣商業地域": 0.1909,
+        "商業地域": 0.0732
+      },
+      "groups": {
+        "commercial": 0.0732,
+        "nearCommercial": 0.1909,
+        "lowRise": 0.5282,
+        "residential": 0.2076,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 229
+    },
+    "tokyo-international-cruise-terminal": {
+      "shares": {
+        "第一種住居地域": 0.2649,
+        "商業地域": 0.3317,
+        "準工業地域": 0.2275
+      },
+      "groups": {
+        "commercial": 0.3317,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.2649,
+        "industrial": 0.2275
+      },
+      "covered": 0.8242,
+      "far": 372
+    },
+    "musashi-koyama": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0923,
+        "第一種住居地域": 0.4948,
+        "近隣商業地域": 0.2323,
+        "商業地域": 0.1321,
+        "準工業地域": 0.0485
+      },
+      "groups": {
+        "commercial": 0.1321,
+        "nearCommercial": 0.2323,
+        "lowRise": 0.0923,
+        "residential": 0.4948,
+        "industrial": 0.0485
+      },
+      "covered": 1.0,
+      "far": 294
+    },
+    "meguro": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0589,
+        "第一種中高層住居専用地域": 0.3278,
+        "第二種中高層住居専用地域": 0.0453,
+        "第一種住居地域": 0.1098,
+        "第二種住居地域": 0.0422,
+        "商業地域": 0.2784,
+        "準工業地域": 0.1376
+      },
+      "groups": {
+        "commercial": 0.2784,
+        "nearCommercial": 0.0,
+        "lowRise": 0.3866,
+        "residential": 0.1973,
+        "industrial": 0.1376
+      },
+      "covered": 1.0,
+      "far": 333
+    },
+    "tachiaigawa": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0716,
+        "第一種住居地域": 0.1615,
+        "近隣商業地域": 0.0644,
+        "商業地域": 0.1217,
+        "準工業地域": 0.4996
+      },
+      "groups": {
+        "commercial": 0.1217,
+        "nearCommercial": 0.0644,
+        "lowRise": 0.0716,
+        "residential": 0.1615,
+        "industrial": 0.4996
+      },
+      "covered": 0.9189,
+      "far": 267
+    },
+    "ebara-nakanobu": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1535,
+        "第一種住居地域": 0.4765,
+        "近隣商業地域": 0.2124,
+        "商業地域": 0.0859,
+        "準工業地域": 0.0716
+      },
+      "groups": {
+        "commercial": 0.0859,
+        "nearCommercial": 0.2124,
+        "lowRise": 0.1535,
+        "residential": 0.4765,
+        "industrial": 0.0716
+      },
+      "covered": 1.0,
+      "far": 251
+    },
+    "ebara-machi": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.3182,
+        "第一種住居地域": 0.4654,
+        "近隣商業地域": 0.1519,
+        "商業地域": 0.0095,
+        "準工業地域": 0.0549
+      },
+      "groups": {
+        "commercial": 0.0095,
+        "nearCommercial": 0.1519,
+        "lowRise": 0.3182,
+        "residential": 0.4654,
+        "industrial": 0.0549
+      },
+      "covered": 1.0,
+      "far": 219
+    },
+    "nishi-oi": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0223,
+        "第一種中高層住居専用地域": 0.2053,
+        "第一種住居地域": 0.2983,
+        "近隣商業地域": 0.1623,
+        "準工業地域": 0.3119
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1623,
+        "lowRise": 0.2275,
+        "residential": 0.2983,
+        "industrial": 0.3119
+      },
+      "covered": 1.0,
+      "far": 235
+    },
+    "nishi-koyama": {
+      "shares": {
+        "第一種低層住居専用地域": 0.1169,
+        "第一種住居地域": 0.6468,
+        "近隣商業地域": 0.1774,
+        "商業地域": 0.0549,
+        "準工業地域": 0.004
+      },
+      "groups": {
+        "commercial": 0.0549,
+        "nearCommercial": 0.1774,
+        "lowRise": 0.1169,
+        "residential": 0.6468,
+        "industrial": 0.004
+      },
+      "covered": 1.0,
+      "far": 250
+    },
+    "aomono-yokocho": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0422,
+        "第一種住居地域": 0.2745,
+        "近隣商業地域": 0.1607,
+        "商業地域": 0.1161,
+        "準工業地域": 0.4065
+      },
+      "groups": {
+        "commercial": 0.1161,
+        "nearCommercial": 0.1607,
+        "lowRise": 0.0422,
+        "residential": 0.2745,
+        "industrial": 0.4065
+      },
+      "covered": 1.0,
+      "far": 291
+    },
+    "samezu": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1695,
+        "第一種住居地域": 0.1018,
+        "近隣商業地域": 0.1265,
+        "商業地域": 0.144,
+        "準工業地域": 0.3882
+      },
+      "groups": {
+        "commercial": 0.144,
+        "nearCommercial": 0.1265,
+        "lowRise": 0.1695,
+        "residential": 0.1018,
+        "industrial": 0.3882
+      },
+      "covered": 0.93,
+      "far": 296
+    },
+    "nakameguro": {
+      "shares": {
+        "第一種低層住居専用地域": 0.2371,
+        "第一種中高層住居専用地域": 0.0867,
+        "第二種中高層住居専用地域": 0.0971,
+        "第一種住居地域": 0.0628,
+        "第二種住居地域": 0.0772,
+        "近隣商業地域": 0.0215,
+        "商業地域": 0.2689,
+        "準工業地域": 0.1488
+      },
+      "groups": {
+        "commercial": 0.2689,
+        "nearCommercial": 0.0215,
+        "lowRise": 0.3238,
+        "residential": 0.2371,
+        "industrial": 0.1488
+      },
+      "covered": 1.0,
+      "far": 283
+    },
+    "gakugei-daigaku": {
+      "shares": {
+        "第一種低層住居専用地域": 0.5139,
+        "第二種低層住居専用地域": 0.0008,
+        "第一種中高層住居専用地域": 0.1671,
+        "第二種中高層住居専用地域": 0.0334,
+        "第一種住居地域": 0.0183,
+        "第二種住居地域": 0.0008,
+        "近隣商業地域": 0.171,
+        "商業地域": 0.0644,
+        "準工業地域": 0.0302
+      },
+      "groups": {
+        "commercial": 0.0644,
+        "nearCommercial": 0.171,
+        "lowRise": 0.6818,
+        "residential": 0.0525,
+        "industrial": 0.0302
+      },
+      "covered": 1.0,
+      "far": 201
+    },
+    "ikejiri-ohashi": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0239,
+        "第一種中高層住居専用地域": 0.1018,
+        "第二種中高層住居専用地域": 0.3119,
+        "第一種住居地域": 0.2084,
+        "近隣商業地域": 0.0827,
+        "商業地域": 0.1679,
+        "準工業地域": 0.1034
+      },
+      "groups": {
+        "commercial": 0.1679,
+        "nearCommercial": 0.0827,
+        "lowRise": 0.1257,
+        "residential": 0.5203,
+        "industrial": 0.1034
+      },
+      "covered": 1.0,
+      "far": 266
+    },
+    "senzoku": {
+      "shares": {
+        "第一種低層住居専用地域": 0.6364,
+        "第二種低層住居専用地域": 0.0119,
+        "第一種中高層住居専用地域": 0.0883,
+        "第一種住居地域": 0.1002,
+        "第二種住居地域": 0.008,
+        "準住居地域": 0.0851,
+        "近隣商業地域": 0.07
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.07,
+        "lowRise": 0.7367,
+        "residential": 0.1933,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 161
+    },
+    "yutenji": {
+      "shares": {
+        "第一種低層住居専用地域": 0.5418,
+        "第一種中高層住居専用地域": 0.0239,
+        "第一種住居地域": 0.2299,
+        "第二種住居地域": 0.0453,
+        "近隣商業地域": 0.1583,
+        "商業地域": 0.0008
+      },
+      "groups": {
+        "commercial": 0.0008,
+        "nearCommercial": 0.1583,
+        "lowRise": 0.5656,
+        "residential": 0.2753,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 191
+    },
+    "midorigaoka": {
+      "shares": {
+        "第一種低層住居専用地域": 0.4805,
+        "第一種中高層住居専用地域": 0.3675,
+        "第二種中高層住居専用地域": 0.0175,
+        "第一種住居地域": 0.0652,
+        "近隣商業地域": 0.0621,
+        "準工業地域": 0.0072
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0621,
+        "lowRise": 0.8481,
+        "residential": 0.0827,
+        "industrial": 0.0072
+      },
+      "covered": 1.0,
+      "far": 162
+    },
+    "jiyugaoka": {
+      "shares": {
+        "第一種低層住居専用地域": 0.5028,
+        "第一種中高層住居専用地域": 0.1416,
+        "第二種中高層住居専用地域": 0.0231,
+        "第一種住居地域": 0.0302,
+        "近隣商業地域": 0.1973,
+        "商業地域": 0.105
+      },
+      "groups": {
+        "commercial": 0.105,
+        "nearCommercial": 0.1973,
+        "lowRise": 0.6444,
+        "residential": 0.0533,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 211
+    },
+    "toritsu-daigaku": {
+      "shares": {
+        "第一種低層住居専用地域": 0.4829,
+        "第一種中高層住居専用地域": 0.136,
+        "第一種住居地域": 0.0748,
+        "第二種住居地域": 0.0692,
+        "近隣商業地域": 0.0597,
+        "商業地域": 0.0955,
+        "準工業地域": 0.0819
+      },
+      "groups": {
+        "commercial": 0.0955,
+        "nearCommercial": 0.0597,
+        "lowRise": 0.6189,
+        "residential": 0.144,
+        "industrial": 0.0819
+      },
+      "covered": 1.0,
+      "far": 194
+    },
+    "komaba-todaimae": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0748,
+        "第一種中高層住居専用地域": 0.6818,
+        "第二種中高層住居専用地域": 0.0796,
+        "第一種住居地域": 0.0493,
+        "第二種住居地域": 0.0453,
+        "近隣商業地域": 0.0692
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0692,
+        "lowRise": 0.7566,
+        "residential": 0.1742,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 214
+    },
+    "shimomaruko": {
+      "shares": {
+        "第一種低層住居専用地域": 0.1313,
+        "第一種中高層住居専用地域": 0.0326,
+        "第一種住居地域": 0.3707,
+        "準住居地域": 0.0915,
+        "近隣商業地域": 0.1679,
+        "準工業地域": 0.1512,
+        "工業地域": 0.0549
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1679,
+        "lowRise": 0.1639,
+        "residential": 0.4622,
+        "industrial": 0.206
+      },
+      "covered": 1.0,
+      "far": 216
+    },
+    "kugahara": {
+      "shares": {
+        "第一種低層住居専用地域": 0.5346,
+        "第一種中高層住居専用地域": 0.3055,
+        "準住居地域": 0.0859,
+        "近隣商業地域": 0.074
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.074,
+        "lowRise": 0.8401,
+        "residential": 0.0859,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 163
+    },
+    "keikyu-kamata": {
+      "shares": {
+        "第一種住居地域": 0.2387,
+        "近隣商業地域": 0.2578,
+        "商業地域": 0.2808,
+        "準工業地域": 0.2228
+      },
+      "groups": {
+        "commercial": 0.2808,
+        "nearCommercial": 0.2578,
+        "lowRise": 0.0,
+        "residential": 0.2387,
+        "industrial": 0.2228
+      },
+      "covered": 1.0,
+      "far": 362
+    },
+    "rokugodote": {
+      "shares": {
+        "近隣商業地域": 0.0127,
+        "準工業地域": 0.2633,
+        "工業地域": 0.2323
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0127,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.4956
+      },
+      "covered": 0.5084,
+      "far": 219
+    },
+    "kita-senzoku": {
+      "shares": {
+        "第一種低層住居専用地域": 0.607,
+        "第二種低層住居専用地域": 0.0199,
+        "第一種中高層住居専用地域": 0.2068,
+        "準住居地域": 0.0764,
+        "近隣商業地域": 0.0875,
+        "商業地域": 0.0024
+      },
+      "groups": {
+        "commercial": 0.0024,
+        "nearCommercial": 0.0875,
+        "lowRise": 0.8337,
+        "residential": 0.0764,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 158
+    },
+    "chidoricho": {
+      "shares": {
+        "第一種低層住居専用地域": 0.4543,
+        "第一種中高層住居専用地域": 0.0103,
+        "第一種住居地域": 0.214,
+        "準住居地域": 0.0549,
+        "近隣商業地域": 0.1329,
+        "準工業地域": 0.1337
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1329,
+        "lowRise": 0.4646,
+        "residential": 0.2689,
+        "industrial": 0.1337
+      },
+      "covered": 1.0,
+      "far": 177
+    },
+    "tamagawa": {
+      "shares": {
+        "第一種低層住居専用地域": 0.494,
+        "第一種中高層住居専用地域": 0.0127,
+        "第一種住居地域": 0.1687,
+        "準住居地域": 0.0334,
+        "近隣商業地域": 0.0461
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0461,
+        "lowRise": 0.5068,
+        "residential": 0.2021,
+        "industrial": 0.0
+      },
+      "covered": 0.755,
+      "far": 135
+    },
+    "ookayama": {
+      "shares": {
+        "第一種低層住居専用地域": 0.5004,
+        "第二種低層住居専用地域": 0.0207,
+        "第一種中高層住居専用地域": 0.3477,
+        "第一種住居地域": 0.0143,
+        "近隣商業地域": 0.1146,
+        "準工業地域": 0.0024
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1146,
+        "lowRise": 0.8687,
+        "residential": 0.0143,
+        "industrial": 0.0024
+      },
+      "covered": 1.0,
+      "far": 171
+    },
+    "omori": {
+      "shares": {
+        "第一種低層住居専用地域": 0.2235,
+        "第一種中高層住居専用地域": 0.0764,
+        "第一種住居地域": 0.0183,
+        "近隣商業地域": 0.1154,
+        "商業地域": 0.5314,
+        "準工業地域": 0.035
+      },
+      "groups": {
+        "commercial": 0.5314,
+        "nearCommercial": 0.1154,
+        "lowRise": 0.2999,
+        "residential": 0.0183,
+        "industrial": 0.035
+      },
+      "covered": 1.0,
+      "far": 370
+    },
+    "omorikaigan": {
+      "shares": {
+        "第一種住居地域": 0.1408,
+        "近隣商業地域": 0.0088,
+        "商業地域": 0.5322,
+        "準工業地域": 0.1973
+      },
+      "groups": {
+        "commercial": 0.5322,
+        "nearCommercial": 0.0088,
+        "lowRise": 0.0,
+        "residential": 0.1408,
+        "industrial": 0.1973
+      },
+      "covered": 0.8791,
+      "far": 414
+    },
+    "omorimachi": {
+      "shares": {
+        "第一種住居地域": 0.4193,
+        "近隣商業地域": 0.0573,
+        "商業地域": 0.206,
+        "準工業地域": 0.3174
+      },
+      "groups": {
+        "commercial": 0.206,
+        "nearCommercial": 0.0573,
+        "lowRise": 0.0,
+        "residential": 0.4193,
+        "industrial": 0.3174
+      },
+      "covered": 1.0,
+      "far": 266
+    },
+    "otorii": {
+      "shares": {
+        "第一種住居地域": 0.218,
+        "近隣商業地域": 0.2323,
+        "商業地域": 0.031,
+        "準工業地域": 0.4773,
+        "工業地域": 0.0414
+      },
+      "groups": {
+        "commercial": 0.031,
+        "nearCommercial": 0.2323,
+        "lowRise": 0.0,
+        "residential": 0.218,
+        "industrial": 0.5187
+      },
+      "covered": 1.0,
+      "far": 242
+    },
+    "tenkubashi": {
+      "shares": {
+        "第一種住居地域": 0.1154,
+        "近隣商業地域": 0.0191,
+        "商業地域": 0.027,
+        "準工業地域": 0.6516,
+        "工業専用地域": 0.0358
+      },
+      "groups": {
+        "commercial": 0.027,
+        "nearCommercial": 0.0191,
+        "lowRise": 0.0,
+        "residential": 0.1154,
+        "industrial": 0.6874
+      },
+      "covered": 0.8488,
+      "far": 209
+    },
+    "heiwajima": {
+      "shares": {
+        "第一種住居地域": 0.4224,
+        "準住居地域": 0.0119,
+        "近隣商業地域": 0.2164,
+        "商業地域": 0.1822,
+        "準工業地域": 0.1671
+      },
+      "groups": {
+        "commercial": 0.1822,
+        "nearCommercial": 0.2164,
+        "lowRise": 0.0,
+        "residential": 0.4344,
+        "industrial": 0.1671
+      },
+      "covered": 1.0,
+      "far": 302
+    },
+    "ontakesan": {
+      "shares": {
+        "第一種低層住居専用地域": 0.5243,
+        "第一種中高層住居専用地域": 0.2951,
+        "第一種住居地域": 0.0119,
+        "準住居地域": 0.0915,
+        "近隣商業地域": 0.0772
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0772,
+        "lowRise": 0.8194,
+        "residential": 0.1034,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 162
+    },
+    "seibijo": {
+      "shares": {
+        "商業地域": 0.0064,
+        "準工業地域": 0.6404,
+        "工業地域": 0.0016,
+        "工業専用地域": 0.2339
+      },
+      "groups": {
+        "commercial": 0.0064,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.8759
+      },
+      "covered": 0.8823,
+      "far": 202
+    },
+    "shin-seibijo": {
+      "shares": {
+        "準工業地域": 1.0
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 1.0
+      },
+      "covered": 1.0,
+      "far": 200
+    },
+    "showajima": {
+      "shares": {
+        "準工業地域": 0.0239,
+        "工業地域": 0.0231,
+        "工業専用地域": 0.7804
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.8274
+      },
+      "covered": 0.8274,
+      "far": 200
+    },
+    "umeyashiki": {
+      "shares": {
+        "第一種住居地域": 0.7096,
+        "近隣商業地域": 0.0994,
+        "商業地域": 0.1265,
+        "準工業地域": 0.0644
+      },
+      "groups": {
+        "commercial": 0.1265,
+        "nearCommercial": 0.0994,
+        "lowRise": 0.0,
+        "residential": 0.7096,
+        "industrial": 0.0644
+      },
+      "covered": 1.0,
+      "far": 269
+    },
+    "musashi-nitta": {
+      "shares": {
+        "第一種住居地域": 0.245,
+        "準住居地域": 0.0215,
+        "近隣商業地域": 0.0923,
+        "準工業地域": 0.6412
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0923,
+        "lowRise": 0.0,
+        "residential": 0.2665,
+        "industrial": 0.6412
+      },
+      "covered": 1.0,
+      "far": 227
+    },
+    "ikegami": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.2466,
+        "第一種住居地域": 0.4495,
+        "準住居地域": 0.0215,
+        "近隣商業地域": 0.1607,
+        "商業地域": 0.0835,
+        "準工業地域": 0.0382
+      },
+      "groups": {
+        "commercial": 0.0835,
+        "nearCommercial": 0.1607,
+        "lowRise": 0.2466,
+        "residential": 0.471,
+        "industrial": 0.0382
+      },
+      "covered": 1.0,
+      "far": 243
+    },
+    "numabe": {
+      "shares": {
+        "第一種低層住居専用地域": 0.2228,
+        "第一種中高層住居専用地域": 0.0947,
+        "第一種住居地域": 0.2498,
+        "準住居地域": 0.031,
+        "近隣商業地域": 0.0446
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0446,
+        "lowRise": 0.3174,
+        "residential": 0.2808,
+        "industrial": 0.0
+      },
+      "covered": 0.6428,
+      "far": 171
+    },
+    "senzoku-ike": {
+      "shares": {
+        "第一種低層住居専用地域": 0.5752,
+        "第一種中高層住居専用地域": 0.2649,
+        "準住居地域": 0.0843,
+        "近隣商業地域": 0.0756
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0756,
+        "lowRise": 0.8401,
+        "residential": 0.0843,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 154
+    },
+    "ryutsu-center": {
+      "shares": {
+        "第一種住居地域": 0.0294,
+        "商業地域": 0.0573,
+        "準工業地域": 0.7375
+      },
+      "groups": {
+        "commercial": 0.0573,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0294,
+        "industrial": 0.7375
+      },
+      "covered": 0.8242,
+      "far": 298
+    },
+    "den-en-chofu": {
+      "shares": {
+        "第一種低層住居専用地域": 0.8083,
+        "第一種中高層住居専用地域": 0.004,
+        "第一種住居地域": 0.0438,
+        "第二種住居地域": 0.0804,
+        "近隣商業地域": 0.0636
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0636,
+        "lowRise": 0.8123,
+        "residential": 0.1241,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 112
+    },
+    "yaguchi-no-watashi": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0008,
+        "第一種住居地域": 0.4678,
+        "準住居地域": 0.0819,
+        "近隣商業地域": 0.105,
+        "準工業地域": 0.3445
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.105,
+        "lowRise": 0.0008,
+        "residential": 0.5497,
+        "industrial": 0.3445
+      },
+      "covered": 1.0,
+      "far": 229
+    },
+    "ishikawadai": {
+      "shares": {
+        "第一種低層住居専用地域": 0.3174,
+        "第一種中高層住居専用地域": 0.4614,
+        "第一種住居地域": 0.004,
+        "準住居地域": 0.0676,
+        "近隣商業地域": 0.1496
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1496,
+        "lowRise": 0.7788,
+        "residential": 0.0716,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 189
+    },
+    "anamori-inari": {
+      "shares": {
+        "第一種住居地域": 0.2681,
+        "近隣商業地域": 0.1002,
+        "商業地域": 0.0851,
+        "準工業地域": 0.2944,
+        "工業地域": 0.109,
+        "工業専用地域": 0.1432
+      },
+      "groups": {
+        "commercial": 0.0851,
+        "nearCommercial": 0.1002,
+        "lowRise": 0.0,
+        "residential": 0.2681,
+        "industrial": 0.5465
+      },
+      "covered": 1.0,
+      "far": 228
+    },
+    "kojiya": {
+      "shares": {
+        "第一種住居地域": 0.3827,
+        "近隣商業地域": 0.2697,
+        "準工業地域": 0.3477
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.2697,
+        "lowRise": 0.0,
+        "residential": 0.3827,
+        "industrial": 0.3477
+      },
+      "covered": 1.0,
+      "far": 240
+    },
+    "haneda-airport-terminal-1-2": {
+      "shares": {
+        "準工業地域": 1.0
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 1.0
+      },
+      "covered": 1.0,
+      "far": 200
+    },
+    "haneda-airport-terminal-3": {
+      "shares": {
+        "準工業地域": 0.8345
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.8345
+      },
+      "covered": 0.8345,
+      "far": 200
+    },
+    "kamata": {
+      "shares": {
+        "第一種住居地域": 0.2204,
+        "第二種住居地域": 0.0438,
+        "近隣商業地域": 0.0883,
+        "商業地域": 0.6325,
+        "準工業地域": 0.0151
+      },
+      "groups": {
+        "commercial": 0.6325,
+        "nearCommercial": 0.0883,
+        "lowRise": 0.0,
+        "residential": 0.2641,
+        "industrial": 0.0151
+      },
+      "covered": 1.0,
+      "far": 465
+    },
+    "hasunuma": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0103,
+        "第一種住居地域": 0.6046,
+        "準住居地域": 0.0581,
+        "近隣商業地域": 0.074,
+        "商業地域": 0.253
+      },
+      "groups": {
+        "commercial": 0.253,
+        "nearCommercial": 0.074,
+        "lowRise": 0.0103,
+        "residential": 0.6627,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 319
+    },
+    "nishimagome": {
+      "shares": {
+        "第一種低層住居専用地域": 0.1114,
+        "第一種中高層住居専用地域": 0.5632,
+        "第一種住居地域": 0.0931,
+        "準住居地域": 0.0621,
+        "近隣商業地域": 0.066,
+        "準工業地域": 0.1042
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.066,
+        "lowRise": 0.6746,
+        "residential": 0.1551,
+        "industrial": 0.1042
+      },
+      "covered": 1.0,
+      "far": 185
+    },
+    "nagahara": {
+      "shares": {
+        "第一種低層住居専用地域": 0.3731,
+        "第一種中高層住居専用地域": 0.3469,
+        "第一種住居地域": 0.0032,
+        "準住居地域": 0.0605,
+        "近隣商業地域": 0.1877,
+        "商業地域": 0.0286
+      },
+      "groups": {
+        "commercial": 0.0286,
+        "nearCommercial": 0.1877,
+        "lowRise": 0.72,
+        "residential": 0.0636,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 195
+    },
+    "zoshiki": {
+      "shares": {
+        "第一種住居地域": 0.179,
+        "近隣商業地域": 0.1965,
+        "準工業地域": 0.6245
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1965,
+        "lowRise": 0.0,
+        "residential": 0.179,
+        "industrial": 0.6245
+      },
+      "covered": 1.0,
+      "far": 224
+    },
+    "yukigaya-otsuka": {
+      "shares": {
+        "第一種低層住居専用地域": 0.4375,
+        "第一種中高層住居専用地域": 0.2936,
+        "第一種住居地域": 0.0684,
+        "第二種住居地域": 0.0302,
+        "準住居地域": 0.0223,
+        "近隣商業地域": 0.148
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.148,
+        "lowRise": 0.7311,
+        "residential": 0.1209,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 179
+    },
+    "magome": {
+      "shares": {
+        "第一種低層住居専用地域": 0.1289,
+        "第一種中高層住居専用地域": 0.5203,
+        "第一種住居地域": 0.074,
+        "第二種住居地域": 0.0175,
+        "準住居地域": 0.1734,
+        "近隣商業地域": 0.074,
+        "商業地域": 0.0008,
+        "準工業地域": 0.0111
+      },
+      "groups": {
+        "commercial": 0.0008,
+        "nearCommercial": 0.074,
+        "lowRise": 0.6492,
+        "residential": 0.2649,
+        "industrial": 0.0111
+      },
+      "covered": 1.0,
+      "far": 208
+    },
+    "unoki": {
+      "shares": {
+        "第一種低層住居専用地域": 0.1408,
+        "第一種中高層住居専用地域": 0.105,
+        "第一種住居地域": 0.498,
+        "準住居地域": 0.0772,
+        "近隣商業地域": 0.0963,
+        "準工業地域": 0.0668,
+        "工業地域": 0.0135
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0963,
+        "lowRise": 0.2458,
+        "residential": 0.5752,
+        "industrial": 0.0804
+      },
+      "covered": 0.9976,
+      "far": 204
+    },
+    "sangen-jaya": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.2068,
+        "第二種中高層住居専用地域": 0.0016,
+        "第一種住居地域": 0.4169,
+        "近隣商業地域": 0.1432,
+        "商業地域": 0.2315
+      },
+      "groups": {
+        "commercial": 0.2315,
+        "nearCommercial": 0.1432,
+        "lowRise": 0.2068,
+        "residential": 0.4185,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 301
+    },
+    "kami-kitazawa": {
+      "shares": {
+        "第一種低層住居専用地域": 0.3469,
+        "第二種低層住居専用地域": 0.0119,
+        "第一種中高層住居専用地域": 0.2617,
+        "第一種住居地域": 0.1838,
+        "第二種住居地域": 0.0398,
+        "近隣商業地域": 0.1432,
+        "準工業地域": 0.0127
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1432,
+        "lowRise": 0.6205,
+        "residential": 0.2235,
+        "industrial": 0.0127
+      },
+      "covered": 1.0,
+      "far": 183
+    },
+    "kamimachi": {
+      "shares": {
+        "第一種低層住居専用地域": 0.2148,
+        "第一種中高層住居専用地域": 0.4439,
+        "第一種住居地域": 0.101,
+        "第二種住居地域": 0.0438,
+        "近隣商業地域": 0.1965
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1965,
+        "lowRise": 0.6587,
+        "residential": 0.1448,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 213
+    },
+    "kaminoge": {
+      "shares": {
+        "第一種低層住居専用地域": 0.607,
+        "第二種低層住居専用地域": 0.0557,
+        "第一種中高層住居専用地域": 0.0804,
+        "第一種住居地域": 0.1384,
+        "近隣商業地域": 0.1185
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1185,
+        "lowRise": 0.743,
+        "residential": 0.1384,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 143
+    },
+    "shimo-kitazawa": {
+      "shares": {
+        "第一種低層住居専用地域": 0.4789,
+        "第一種中高層住居専用地域": 0.1082,
+        "第一種住居地域": 0.1321,
+        "近隣商業地域": 0.1106,
+        "商業地域": 0.1702
+      },
+      "groups": {
+        "commercial": 0.1702,
+        "nearCommercial": 0.1106,
+        "lowRise": 0.5871,
+        "residential": 0.1321,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 235
+    },
+    "shimo-takaido": {
+      "shares": {
+        "第一種低層住居専用地域": 0.5219,
+        "第一種中高層住居専用地域": 0.1543,
+        "第一種住居地域": 0.0915,
+        "近隣商業地域": 0.1122,
+        "商業地域": 0.1201
+      },
+      "groups": {
+        "commercial": 0.1201,
+        "nearCommercial": 0.1122,
+        "lowRise": 0.6762,
+        "residential": 0.0915,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 196
+    },
+    "setagaya": {
+      "shares": {
+        "第一種低層住居専用地域": 0.3031,
+        "第二種低層住居専用地域": 0.0143,
+        "第一種中高層住居専用地域": 0.1321,
+        "第一種住居地域": 0.1034,
+        "第二種住居地域": 0.2593,
+        "近隣商業地域": 0.1877
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1877,
+        "lowRise": 0.4495,
+        "residential": 0.3628,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 229
+    },
+    "setagaya-daita": {
+      "shares": {
+        "第一種低層住居専用地域": 0.8091,
+        "第一種中高層住居専用地域": 0.066,
+        "準住居地域": 0.0278,
+        "近隣商業地域": 0.0971
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0971,
+        "lowRise": 0.8751,
+        "residential": 0.0278,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 168
+    },
+    "kuhombutsu": {
+      "shares": {
+        "第一種低層住居専用地域": 0.6603,
+        "第二種低層住居専用地域": 0.0493,
+        "第一種中高層住居専用地域": 0.1193,
+        "第二種中高層住居専用地域": 0.0549,
+        "第二種住居地域": 0.0438,
+        "近隣商業地域": 0.0724
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0724,
+        "lowRise": 0.829,
+        "residential": 0.0986,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 144
+    },
+    "futako-tamagawa": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0334,
+        "第一種中高層住居専用地域": 0.0525,
+        "第一種住居地域": 0.1742,
+        "第二種住居地域": 0.0215,
+        "準住居地域": 0.0135,
+        "近隣商業地域": 0.1551,
+        "商業地域": 0.14
+      },
+      "groups": {
+        "commercial": 0.14,
+        "nearCommercial": 0.1551,
+        "lowRise": 0.0859,
+        "residential": 0.2092,
+        "industrial": 0.0
+      },
+      "covered": 0.5903,
+      "far": 312
+    },
+    "daitabashi": {
+      "shares": {
+        "第一種低層住居専用地域": 0.2522,
+        "第一種中高層住居専用地域": 0.0724,
+        "第二種中高層住居専用地域": 0.1146,
+        "第一種住居地域": 0.2251,
+        "準住居地域": 0.0088,
+        "近隣商業地域": 0.1782,
+        "商業地域": 0.1488
+      },
+      "groups": {
+        "commercial": 0.1488,
+        "nearCommercial": 0.1782,
+        "lowRise": 0.3246,
+        "residential": 0.3484,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 245
+    },
+    "hachiman-yama": {
+      "shares": {
+        "第一種低層住居専用地域": 0.1488,
+        "第二種低層住居専用地域": 0.0628,
+        "第一種中高層住居専用地域": 0.4399,
+        "第二種中高層住居専用地域": 0.0469,
+        "第一種住居地域": 0.074,
+        "第二種住居地域": 0.0597,
+        "準住居地域": 0.0621,
+        "近隣商業地域": 0.1058
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1058,
+        "lowRise": 0.6516,
+        "residential": 0.2426,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 208
+    },
+    "chitose-karasuyama": {
+      "shares": {
+        "第一種低層住居専用地域": 0.1957,
+        "第一種中高層住居専用地域": 0.2999,
+        "第一種住居地域": 0.3031,
+        "準住居地域": 0.0358,
+        "近隣商業地域": 0.1154,
+        "商業地域": 0.0501
+      },
+      "groups": {
+        "commercial": 0.0501,
+        "nearCommercial": 0.1154,
+        "lowRise": 0.4956,
+        "residential": 0.3389,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 213
+    },
+    "chitose-funabashi": {
+      "shares": {
+        "第一種低層住居専用地域": 0.5084,
+        "第二種低層住居専用地域": 0.0255,
+        "第一種中高層住居専用地域": 0.2578,
+        "第一種住居地域": 0.0835,
+        "近隣商業地域": 0.1177,
+        "準工業地域": 0.0072
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1177,
+        "lowRise": 0.7916,
+        "residential": 0.0835,
+        "industrial": 0.0072
+      },
+      "covered": 1.0,
+      "far": 168
+    },
+    "okusawa": {
+      "shares": {
+        "第一種低層住居専用地域": 0.673,
+        "第一種中高層住居専用地域": 0.0477,
+        "第一種住居地域": 0.0708,
+        "近隣商業地域": 0.1679,
+        "商業地域": 0.0406
+      },
+      "groups": {
+        "commercial": 0.0406,
+        "nearCommercial": 0.1679,
+        "lowRise": 0.7208,
+        "residential": 0.0708,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 165
+    },
+    "miyanosaka": {
+      "shares": {
+        "第一種低層住居専用地域": 0.5155,
+        "第一種中高層住居専用地域": 0.3262,
+        "第一種住居地域": 0.1018,
+        "近隣商業地域": 0.0565
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0565,
+        "lowRise": 0.8417,
+        "residential": 0.1018,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 173
+    },
+    "oyamadai": {
+      "shares": {
+        "第一種低層住居専用地域": 0.5203,
+        "第二種低層住居専用地域": 0.0509,
+        "第一種中高層住居専用地域": 0.1655,
+        "第二種中高層住居専用地域": 0.0509,
+        "第一種住居地域": 0.0469,
+        "第二種住居地域": 0.0501,
+        "近隣商業地域": 0.1154
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1154,
+        "lowRise": 0.7367,
+        "residential": 0.148,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 162
+    },
+    "seijogakuen-mae": {
+      "shares": {
+        "第一種低層住居専用地域": 0.7216,
+        "第一種中高層住居専用地域": 0.1671,
+        "第二種中高層住居専用地域": 0.0111,
+        "第一種住居地域": 0.0143,
+        "第二種住居地域": 0.0024,
+        "近隣商業地域": 0.0835
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0835,
+        "lowRise": 0.8886,
+        "residential": 0.0278,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 128
+    },
+    "shindaita": {
+      "shares": {
+        "第一種低層住居専用地域": 0.782,
+        "第一種中高層住居専用地域": 0.0191,
+        "第一種住居地域": 0.0525,
+        "準住居地域": 0.0247,
+        "近隣商業地域": 0.1217
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1217,
+        "lowRise": 0.8011,
+        "residential": 0.0772,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 176
+    },
+    "meidaimae": {
+      "shares": {
+        "第一種低層住居専用地域": 0.3763,
+        "第一種中高層住居専用地域": 0.2633,
+        "第一種住居地域": 0.1002,
+        "第二種住居地域": 0.0382,
+        "近隣商業地域": 0.0358,
+        "商業地域": 0.1862
+      },
+      "groups": {
+        "commercial": 0.1862,
+        "nearCommercial": 0.0358,
+        "lowRise": 0.6396,
+        "residential": 0.1384,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 209
+    },
+    "higashi-kitazawa": {
+      "shares": {
+        "第一種低層住居専用地域": 0.4296,
+        "第一種中高層住居専用地域": 0.14,
+        "第二種中高層住居専用地域": 0.0533,
+        "第一種住居地域": 0.1917,
+        "近隣商業地域": 0.1527,
+        "商業地域": 0.0326
+      },
+      "groups": {
+        "commercial": 0.0326,
+        "nearCommercial": 0.1527,
+        "lowRise": 0.5696,
+        "residential": 0.245,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 205
+    },
+    "higashi-matsubara": {
+      "shares": {
+        "第一種低層住居専用地域": 0.712,
+        "第一種中高層住居専用地域": 0.0724,
+        "第一種住居地域": 0.1249,
+        "近隣商業地域": 0.0907
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0907,
+        "lowRise": 0.7844,
+        "residential": 0.1249,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 170
+    },
+    "matsubara": {
+      "shares": {
+        "第一種低層住居専用地域": 0.8465,
+        "第二種低層住居専用地域": 0.0255,
+        "第一種中高層住居専用地域": 0.008,
+        "第一種住居地域": 0.0613,
+        "近隣商業地域": 0.0589
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0589,
+        "lowRise": 0.8799,
+        "residential": 0.0613,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 150
+    },
+    "shoin-jinja-mae": {
+      "shares": {
+        "第一種低層住居専用地域": 0.1901,
+        "第二種低層住居専用地域": 0.0183,
+        "第一種中高層住居専用地域": 0.3612,
+        "第一種住居地域": 0.0119,
+        "第二種住居地域": 0.2578,
+        "近隣商業地域": 0.1599,
+        "商業地域": 0.0008
+      },
+      "groups": {
+        "commercial": 0.0008,
+        "nearCommercial": 0.1599,
+        "lowRise": 0.5696,
+        "residential": 0.2697,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 233
+    },
+    "sakurajosui": {
+      "shares": {
+        "第一種低層住居専用地域": 0.389,
+        "第一種中高層住居専用地域": 0.253,
+        "第一種住居地域": 0.2092,
+        "近隣商業地域": 0.1488
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1488,
+        "lowRise": 0.642,
+        "residential": 0.2092,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 179
+    },
+    "sakura-shimmachi": {
+      "shares": {
+        "第一種低層住居専用地域": 0.5354,
+        "第一種中高層住居専用地域": 0.1814,
+        "第一種住居地域": 0.0103,
+        "準住居地域": 0.035,
+        "近隣商業地域": 0.0796,
+        "準工業地域": 0.1583
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0796,
+        "lowRise": 0.7168,
+        "residential": 0.0453,
+        "industrial": 0.1583
+      },
+      "covered": 1.0,
+      "far": 169
+    },
+    "umegaoka": {
+      "shares": {
+        "第一種低層住居専用地域": 0.4423,
+        "第一種中高層住居専用地域": 0.214,
+        "第一種住居地域": 0.2633,
+        "近隣商業地域": 0.0804
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0804,
+        "lowRise": 0.6563,
+        "residential": 0.2633,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 182
+    },
+    "ikenoue": {
+      "shares": {
+        "第一種低層住居専用地域": 0.5076,
+        "第一種中高層住居専用地域": 0.1591,
+        "第一種住居地域": 0.1663,
+        "近隣商業地域": 0.105,
+        "商業地域": 0.0621
+      },
+      "groups": {
+        "commercial": 0.0621,
+        "nearCommercial": 0.105,
+        "lowRise": 0.6667,
+        "residential": 0.1663,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 203
+    },
+    "yoga": {
+      "shares": {
+        "第一種低層住居専用地域": 0.2498,
+        "第二種低層住居専用地域": 0.1551,
+        "第一種中高層住居専用地域": 0.0565,
+        "第一種住居地域": 0.2912,
+        "第二種住居地域": 0.0414,
+        "準住居地域": 0.0533,
+        "近隣商業地域": 0.1527
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1527,
+        "lowRise": 0.4614,
+        "residential": 0.3858,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 207
+    },
+    "soshigaya-okura": {
+      "shares": {
+        "第一種低層住居専用地域": 0.6356,
+        "第一種中高層住居専用地域": 0.1591,
+        "第二種中高層住居専用地域": 0.0485,
+        "第一種住居地域": 0.0676,
+        "近隣商業地域": 0.0891
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0891,
+        "lowRise": 0.7947,
+        "residential": 0.1161,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 164
+    },
+    "todoroki": {
+      "shares": {
+        "第一種低層住居専用地域": 0.6158,
+        "第二種低層住居専用地域": 0.0064,
+        "第一種中高層住居専用地域": 0.0986,
+        "第二種中高層住居専用地域": 0.0223,
+        "第一種住居地域": 0.0461,
+        "第二種住居地域": 0.0613,
+        "近隣商業地域": 0.1496
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1496,
+        "lowRise": 0.7208,
+        "residential": 0.1297,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 157
+    },
+    "kyodo": {
+      "shares": {
+        "第一種低層住居専用地域": 0.4113,
+        "第二種低層住居専用地域": 0.0048,
+        "第一種中高層住居専用地域": 0.0891,
+        "第一種住居地域": 0.2403,
+        "近隣商業地域": 0.1082,
+        "商業地域": 0.0891,
+        "準工業地域": 0.0573
+      },
+      "groups": {
+        "commercial": 0.0891,
+        "nearCommercial": 0.1082,
+        "lowRise": 0.5052,
+        "residential": 0.2403,
+        "industrial": 0.0573
+      },
+      "covered": 1.0,
+      "far": 199
+    },
+    "roka-koen": {
+      "shares": {
+        "第一種低層住居専用地域": 0.1488,
+        "第一種中高層住居専用地域": 0.3978,
+        "第二種中高層住居専用地域": 0.0223,
+        "第一種住居地域": 0.2418,
+        "第二種住居地域": 0.0207,
+        "準住居地域": 0.0883,
+        "近隣商業地域": 0.0804
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0804,
+        "lowRise": 0.5465,
+        "residential": 0.3731,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 203
+    },
+    "wakabayashi": {
+      "shares": {
+        "第一種低層住居専用地域": 0.1822,
+        "第一種中高層住居専用地域": 0.3874,
+        "第一種住居地域": 0.2068,
+        "第二種住居地域": 0.031,
+        "近隣商業地域": 0.1623,
+        "商業地域": 0.0302
+      },
+      "groups": {
+        "commercial": 0.0302,
+        "nearCommercial": 0.1623,
+        "lowRise": 0.5696,
+        "residential": 0.2379,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 221
+    },
+    "nishi-taishido": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0875,
+        "第一種中高層住居専用地域": 0.027,
+        "第二種中高層住居専用地域": 0.0008,
+        "第一種住居地域": 0.6014,
+        "近隣商業地域": 0.0819,
+        "商業地域": 0.2013
+      },
+      "groups": {
+        "commercial": 0.2013,
+        "nearCommercial": 0.0819,
+        "lowRise": 0.1146,
+        "residential": 0.6022,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 291
+    },
+    "gotokuji": {
+      "shares": {
+        "第一種低層住居専用地域": 0.4527,
+        "第一種中高層住居専用地域": 0.0557,
+        "第一種住居地域": 0.3787,
+        "近隣商業地域": 0.1114,
+        "商業地域": 0.0016
+      },
+      "groups": {
+        "commercial": 0.0016,
+        "nearCommercial": 0.1114,
+        "lowRise": 0.5084,
+        "residential": 0.3787,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 181
+    },
+    "komazawa-daigaku": {
+      "shares": {
+        "第一種低層住居専用地域": 0.4956,
+        "第一種中高層住居専用地域": 0.2633,
+        "第一種住居地域": 0.0796,
+        "近隣商業地域": 0.0692,
+        "商業地域": 0.0923
+      },
+      "groups": {
+        "commercial": 0.0923,
+        "nearCommercial": 0.0692,
+        "lowRise": 0.7589,
+        "residential": 0.0796,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 200
+    },
+    "yoyogi": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0843,
+        "第二種中高層住居専用地域": 0.1687,
+        "第二種住居地域": 0.2681,
+        "近隣商業地域": 0.0461,
+        "商業地域": 0.4328
+      },
+      "groups": {
+        "commercial": 0.4328,
+        "nearCommercial": 0.0461,
+        "lowRise": 0.0843,
+        "residential": 0.4368,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 410
+    },
+    "yoyogi-uehara": {
+      "shares": {
+        "第一種低層住居専用地域": 0.607,
+        "第二種低層住居専用地域": 0.0167,
+        "第二種中高層住居専用地域": 0.1074,
+        "第一種住居地域": 0.1106,
+        "近隣商業地域": 0.1583
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1583,
+        "lowRise": 0.6237,
+        "residential": 0.218,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 202
+    },
+    "yoyogi-hachiman": {
+      "shares": {
+        "第一種低層住居専用地域": 0.206,
+        "第二種低層住居専用地域": 0.0875,
+        "第二種中高層住居専用地域": 0.3126,
+        "第一種住居地域": 0.0764,
+        "第二種住居地域": 0.0263,
+        "準住居地域": 0.0573,
+        "近隣商業地域": 0.2339
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.2339,
+        "lowRise": 0.2936,
+        "residential": 0.4726,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 258
+    },
+    "daikanyama": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0438,
+        "第二種低層住居専用地域": 0.14,
+        "第一種中高層住居専用地域": 0.0334,
+        "第二種中高層住居専用地域": 0.3214,
+        "第一種住居地域": 0.0986,
+        "第二種住居地域": 0.1138,
+        "商業地域": 0.1877,
+        "準工業地域": 0.0613
+      },
+      "groups": {
+        "commercial": 0.1877,
+        "nearCommercial": 0.0,
+        "lowRise": 0.2172,
+        "residential": 0.5338,
+        "industrial": 0.0613
+      },
+      "covered": 1.0,
+      "far": 317
+    },
+    "hatsudai": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0939,
+        "第二種低層住居専用地域": 0.0676,
+        "第二種中高層住居専用地域": 0.0899,
+        "第一種住居地域": 0.3007,
+        "第二種住居地域": 0.0453,
+        "準住居地域": 0.0597,
+        "近隣商業地域": 0.0493,
+        "商業地域": 0.2768,
+        "準工業地域": 0.0167
+      },
+      "groups": {
+        "commercial": 0.2768,
+        "nearCommercial": 0.0493,
+        "lowRise": 0.1615,
+        "residential": 0.4956,
+        "industrial": 0.0167
+      },
+      "covered": 1.0,
+      "far": 356
+    },
+    "kita-sando": {
+      "shares": {
+        "第二種中高層住居専用地域": 0.4893,
+        "第一種住居地域": 0.0159,
+        "第二種住居地域": 0.2593,
+        "近隣商業地域": 0.0541,
+        "商業地域": 0.1814
+      },
+      "groups": {
+        "commercial": 0.1814,
+        "nearCommercial": 0.0541,
+        "lowRise": 0.0,
+        "residential": 0.7645,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 327
+    },
+    "sendagaya": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.3564,
+        "第二種中高層住居専用地域": 0.2689,
+        "第一種住居地域": 0.0851,
+        "第二種住居地域": 0.2037,
+        "近隣商業地域": 0.0859
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0859,
+        "lowRise": 0.3564,
+        "residential": 0.5577,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 259
+    },
+    "minami-shinjuku": {
+      "shares": {
+        "第二種中高層住居専用地域": 0.3262,
+        "第二種住居地域": 0.1941,
+        "近隣商業地域": 0.0438,
+        "商業地域": 0.436
+      },
+      "groups": {
+        "commercial": 0.436,
+        "nearCommercial": 0.0438,
+        "lowRise": 0.0,
+        "residential": 0.5203,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 418
+    },
+    "sangubashi": {
+      "shares": {
+        "第二種低層住居専用地域": 0.2339,
+        "第二種中高層住居専用地域": 0.5871,
+        "第一種住居地域": 0.0525,
+        "第二種住居地域": 0.0692,
+        "準住居地域": 0.039,
+        "近隣商業地域": 0.0175,
+        "商業地域": 0.0008
+      },
+      "groups": {
+        "commercial": 0.0008,
+        "nearCommercial": 0.0175,
+        "lowRise": 0.2339,
+        "residential": 0.7478,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 247
+    },
+    "hatagaya": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0541,
+        "第二種中高層住居専用地域": 0.1273,
+        "第一種住居地域": 0.4574,
+        "第二種住居地域": 0.0247,
+        "準住居地域": 0.0016,
+        "近隣商業地域": 0.0446,
+        "商業地域": 0.1305,
+        "準工業地域": 0.1599
+      },
+      "groups": {
+        "commercial": 0.1305,
+        "nearCommercial": 0.0446,
+        "lowRise": 0.0541,
+        "residential": 0.611,
+        "industrial": 0.1599
+      },
+      "covered": 1.0,
+      "far": 301
+    },
+    "ebisu": {
+      "shares": {
+        "第二種中高層住居専用地域": 0.1193,
+        "第一種住居地域": 0.2816,
+        "第二種住居地域": 0.0827,
+        "近隣商業地域": 0.0127,
+        "商業地域": 0.4829,
+        "準工業地域": 0.0207
+      },
+      "groups": {
+        "commercial": 0.4829,
+        "nearCommercial": 0.0127,
+        "lowRise": 0.0,
+        "residential": 0.4837,
+        "industrial": 0.0207
+      },
+      "covered": 1.0,
+      "far": 416
+    },
+    "meiji-jingumae": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0994,
+        "第二種中高層住居専用地域": 0.4893,
+        "第一種住居地域": 0.1329,
+        "第二種住居地域": 0.0294,
+        "近隣商業地域": 0.0382,
+        "商業地域": 0.2108
+      },
+      "groups": {
+        "commercial": 0.2108,
+        "nearCommercial": 0.0382,
+        "lowRise": 0.0994,
+        "residential": 0.6516,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 301
+    },
+    "shibuya": {
+      "shares": {
+        "第二種住居地域": 0.0581,
+        "商業地域": 0.9419
+      },
+      "groups": {
+        "commercial": 0.9419,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0581,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 711
+    },
+    "shinsen": {
+      "shares": {
+        "第一種低層住居専用地域": 0.1273,
+        "第二種低層住居専用地域": 0.0326,
+        "第一種中高層住居専用地域": 0.0811,
+        "第二種中高層住居専用地域": 0.0286,
+        "第一種住居地域": 0.1408,
+        "第二種住居地域": 0.1384,
+        "商業地域": 0.4511
+      },
+      "groups": {
+        "commercial": 0.4511,
+        "nearCommercial": 0.0,
+        "lowRise": 0.2411,
+        "residential": 0.3079,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 424
+    },
+    "sasazuka": {
+      "shares": {
+        "第一種低層住居専用地域": 0.1257,
+        "第一種中高層住居専用地域": 0.1241,
+        "第二種中高層住居専用地域": 0.1695,
+        "第一種住居地域": 0.2609,
+        "第二種住居地域": 0.0008,
+        "近隣商業地域": 0.0477,
+        "商業地域": 0.1885,
+        "準工業地域": 0.0827
+      },
+      "groups": {
+        "commercial": 0.1885,
+        "nearCommercial": 0.0477,
+        "lowRise": 0.2498,
+        "residential": 0.4312,
+        "industrial": 0.0827
+      },
+      "covered": 1.0,
+      "far": 288
+    },
+    "nishi-shinjuku-gochome": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1185,
+        "第二種中高層住居専用地域": 0.0652,
+        "第一種住居地域": 0.2729,
+        "第二種住居地域": 0.1893,
+        "近隣商業地域": 0.0915,
+        "商業地域": 0.2625
+      },
+      "groups": {
+        "commercial": 0.2625,
+        "nearCommercial": 0.0915,
+        "lowRise": 0.1185,
+        "residential": 0.5274,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 359
+    },
+    "nakano": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0056,
+        "第一種中高層住居専用地域": 0.3946,
+        "第一種住居地域": 0.0493,
+        "近隣商業地域": 0.1702,
+        "商業地域": 0.3365,
+        "準工業地域": 0.0438
+      },
+      "groups": {
+        "commercial": 0.3365,
+        "nearCommercial": 0.1702,
+        "lowRise": 0.4002,
+        "residential": 0.0493,
+        "industrial": 0.0438
+      },
+      "covered": 1.0,
+      "far": 352
+    },
+    "nakano-sakaue": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0119,
+        "第一種中高層住居専用地域": 0.6492,
+        "第一種住居地域": 0.0056,
+        "第二種住居地域": 0.0318,
+        "近隣商業地域": 0.1225,
+        "商業地域": 0.179
+      },
+      "groups": {
+        "commercial": 0.179,
+        "nearCommercial": 0.1225,
+        "lowRise": 0.6611,
+        "residential": 0.0374,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 283
+    },
+    "nakano-fujimicho": {
+      "shares": {
+        "第一種低層住居専用地域": 0.2267,
+        "第一種中高層住居専用地域": 0.3405,
+        "第一種住居地域": 0.0764,
+        "近隣商業地域": 0.2005,
+        "準工業地域": 0.1559
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.2005,
+        "lowRise": 0.5672,
+        "residential": 0.0764,
+        "industrial": 0.1559
+      },
+      "covered": 1.0,
+      "far": 220
+    },
+    "nakano-shimbashi": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.5863,
+        "第一種住居地域": 0.1734,
+        "近隣商業地域": 0.1925,
+        "商業地域": 0.0477
+      },
+      "groups": {
+        "commercial": 0.0477,
+        "nearCommercial": 0.1925,
+        "lowRise": 0.5863,
+        "residential": 0.1734,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 245
+    },
+    "fujimidai": {
+      "shares": {
+        "第一種低層住居専用地域": 0.4057,
+        "第一種中高層住居専用地域": 0.0979,
+        "第一種住居地域": 0.2299,
+        "近隣商業地域": 0.1122,
+        "商業地域": 0.0263,
+        "準工業地域": 0.1281
+      },
+      "groups": {
+        "commercial": 0.0263,
+        "nearCommercial": 0.1122,
+        "lowRise": 0.5036,
+        "residential": 0.2299,
+        "industrial": 0.1281
+      },
+      "covered": 1.0,
+      "far": 180
+    },
+    "shin-nakano": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0199,
+        "第一種中高層住居専用地域": 0.6476,
+        "第一種住居地域": 0.0525,
+        "近隣商業地域": 0.14,
+        "商業地域": 0.14
+      },
+      "groups": {
+        "commercial": 0.14,
+        "nearCommercial": 0.14,
+        "lowRise": 0.6675,
+        "residential": 0.0525,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 267
+    },
+    "araiyakushi-mae": {
+      "shares": {
+        "第一種低層住居専用地域": 0.3866,
+        "第一種中高層住居専用地域": 0.3532,
+        "第一種住居地域": 0.0708,
+        "近隣商業地域": 0.1647,
+        "商業地域": 0.0247
+      },
+      "groups": {
+        "commercial": 0.0247,
+        "nearCommercial": 0.1647,
+        "lowRise": 0.7399,
+        "residential": 0.0708,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 209
+    },
+    "higashi-nakano": {
+      "shares": {
+        "第一種低層住居専用地域": 0.2522,
+        "第一種中高層住居専用地域": 0.3031,
+        "第二種中高層住居専用地域": 0.0493,
+        "第一種住居地域": 0.0446,
+        "近隣商業地域": 0.2347,
+        "商業地域": 0.1161
+      },
+      "groups": {
+        "commercial": 0.1161,
+        "nearCommercial": 0.2347,
+        "lowRise": 0.5553,
+        "residential": 0.0939,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 274
+    },
+    "numabukuro": {
+      "shares": {
+        "第一種低層住居専用地域": 0.5712,
+        "第一種中高層住居専用地域": 0.2331,
+        "第一種住居地域": 0.0294,
+        "近隣商業地域": 0.0955,
+        "商業地域": 0.0151,
+        "準工業地域": 0.0557
+      },
+      "groups": {
+        "commercial": 0.0151,
+        "nearCommercial": 0.0955,
+        "lowRise": 0.8043,
+        "residential": 0.0294,
+        "industrial": 0.0557
+      },
+      "covered": 1.0,
+      "far": 187
+    },
+    "ochiai": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0024,
+        "第一種中高層住居専用地域": 0.3325,
+        "第二種中高層住居専用地域": 0.0175,
+        "第一種住居地域": 0.3278,
+        "近隣商業地域": 0.2586,
+        "商業地域": 0.0446,
+        "準工業地域": 0.0167
+      },
+      "groups": {
+        "commercial": 0.0446,
+        "nearCommercial": 0.2586,
+        "lowRise": 0.3349,
+        "residential": 0.3453,
+        "industrial": 0.0167
+      },
+      "covered": 1.0,
+      "far": 311
+    },
+    "toritsu-kasei": {
+      "shares": {
+        "第一種低層住居専用地域": 0.8632,
+        "第一種住居地域": 0.0119,
+        "近隣商業地域": 0.1249
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1249,
+        "lowRise": 0.8632,
+        "residential": 0.0119,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 173
+    },
+    "nogata": {
+      "shares": {
+        "第一種低層住居専用地域": 0.6961,
+        "第一種住居地域": 0.031,
+        "近隣商業地域": 0.2554,
+        "商業地域": 0.0175
+      },
+      "groups": {
+        "commercial": 0.0175,
+        "nearCommercial": 0.2554,
+        "lowRise": 0.6961,
+        "residential": 0.031,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 195
+    },
+    "saginomiya": {
+      "shares": {
+        "第一種低層住居専用地域": 0.7414,
+        "第一種中高層住居専用地域": 0.1138,
+        "第一種住居地域": 0.0135,
+        "近隣商業地域": 0.1313
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1313,
+        "lowRise": 0.8552,
+        "residential": 0.0135,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 178
+    },
+    "shimo-igusa": {
+      "shares": {
+        "第一種低層住居専用地域": 0.7709,
+        "第一種中高層住居専用地域": 0.0215,
+        "第二種中高層住居専用地域": 0.0804,
+        "第一種住居地域": 0.0326,
+        "近隣商業地域": 0.0947
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0947,
+        "lowRise": 0.7924,
+        "residential": 0.113,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 144
+    },
+    "kugayama": {
+      "shares": {
+        "第一種低層住居専用地域": 0.8075,
+        "第一種中高層住居専用地域": 0.0851,
+        "第二種中高層住居専用地域": 0.0263,
+        "近隣商業地域": 0.0748,
+        "準工業地域": 0.0064
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0748,
+        "lowRise": 0.8926,
+        "residential": 0.0263,
+        "industrial": 0.0064
+      },
+      "covered": 1.0,
+      "far": 119
+    },
+    "iogi": {
+      "shares": {
+        "第一種低層住居専用地域": 0.7049,
+        "第一種中高層住居専用地域": 0.0477,
+        "第二種中高層住居専用地域": 0.039,
+        "第一種住居地域": 0.0438,
+        "準住居地域": 0.0684,
+        "近隣商業地域": 0.0963
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0963,
+        "lowRise": 0.7526,
+        "residential": 0.1512,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 148
+    },
+    "minami-asagaya": {
+      "shares": {
+        "第一種低層住居専用地域": 0.4845,
+        "第一種中高層住居専用地域": 0.2657,
+        "第二種中高層住居専用地域": 0.0167,
+        "近隣商業地域": 0.0111,
+        "商業地域": 0.222
+      },
+      "groups": {
+        "commercial": 0.222,
+        "nearCommercial": 0.0111,
+        "lowRise": 0.7502,
+        "residential": 0.0167,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 216
+    },
+    "fujimigaoka": {
+      "shares": {
+        "第一種低層住居専用地域": 0.7844,
+        "第一種中高層住居専用地域": 0.113,
+        "第二種中高層住居専用地域": 0.0589,
+        "第一種住居地域": 0.0024,
+        "近隣商業地域": 0.0414
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0414,
+        "lowRise": 0.8974,
+        "residential": 0.0613,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 103
+    },
+    "shin-koenji": {
+      "shares": {
+        "第一種低層住居専用地域": 0.2816,
+        "第一種中高層住居専用地域": 0.2888,
+        "第二種中高層住居専用地域": 0.0517,
+        "第一種住居地域": 0.1305,
+        "近隣商業地域": 0.144,
+        "商業地域": 0.1034
+      },
+      "groups": {
+        "commercial": 0.1034,
+        "nearCommercial": 0.144,
+        "lowRise": 0.5704,
+        "residential": 0.1822,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 211
+    },
+    "honancho": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0716,
+        "第一種中高層住居専用地域": 0.3636,
+        "第二種中高層住居専用地域": 0.0374,
+        "第一種住居地域": 0.1265,
+        "第二種住居地域": 0.0247,
+        "準住居地域": 0.0103,
+        "近隣商業地域": 0.1631,
+        "商業地域": 0.0485,
+        "準工業地域": 0.1543
+      },
+      "groups": {
+        "commercial": 0.0485,
+        "nearCommercial": 0.1631,
+        "lowRise": 0.4352,
+        "residential": 0.1989,
+        "industrial": 0.1543
+      },
+      "covered": 1.0,
+      "far": 233
+    },
+    "higashi-koenji": {
+      "shares": {
+        "第一種低層住居専用地域": 0.1464,
+        "第一種中高層住居専用地域": 0.459,
+        "第二種中高層住居専用地域": 0.0923,
+        "第一種住居地域": 0.0342,
+        "第二種住居地域": 0.0088,
+        "近隣商業地域": 0.1488,
+        "商業地域": 0.1106
+      },
+      "groups": {
+        "commercial": 0.1106,
+        "nearCommercial": 0.1488,
+        "lowRise": 0.6054,
+        "residential": 0.1352,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 240
+    },
+    "eifukucho": {
+      "shares": {
+        "第一種低層住居専用地域": 0.7454,
+        "第一種中高層住居専用地域": 0.0382,
+        "第二種住居地域": 0.0374,
+        "近隣商業地域": 0.179
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.179,
+        "lowRise": 0.7836,
+        "residential": 0.0374,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 147
+    },
+    "hamadayama": {
+      "shares": {
+        "第一種低層住居専用地域": 0.6834,
+        "第一種中高層住居専用地域": 0.0748,
+        "第二種中高層住居専用地域": 0.0557,
+        "準住居地域": 0.0907,
+        "近隣商業地域": 0.0955
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0955,
+        "lowRise": 0.7582,
+        "residential": 0.1464,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 142
+    },
+    "ogikubo": {
+      "shares": {
+        "第一種低層住居専用地域": 0.1424,
+        "第一種中高層住居専用地域": 0.2442,
+        "第二種中高層住居専用地域": 0.0183,
+        "第一種住居地域": 0.0239,
+        "第二種住居地域": 0.0605,
+        "近隣商業地域": 0.2212,
+        "商業地域": 0.2896
+      },
+      "groups": {
+        "commercial": 0.2896,
+        "nearCommercial": 0.2212,
+        "lowRise": 0.3866,
+        "residential": 0.1026,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 312
+    },
+    "nishi-eifuku": {
+      "shares": {
+        "第一種低層住居専用地域": 0.817,
+        "第一種中高層住居専用地域": 0.0135,
+        "準住居地域": 0.0796,
+        "近隣商業地域": 0.0899
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0899,
+        "lowRise": 0.8305,
+        "residential": 0.0796,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 133
+    },
+    "nishi-ogikubo": {
+      "shares": {
+        "第一種低層住居専用地域": 0.5744,
+        "第一種中高層住居専用地域": 0.0342,
+        "第二種中高層住居専用地域": 0.101,
+        "近隣商業地域": 0.1862,
+        "商業地域": 0.1042
+      },
+      "groups": {
+        "commercial": 0.1042,
+        "nearCommercial": 0.1862,
+        "lowRise": 0.6086,
+        "residential": 0.101,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 201
+    },
+    "asagaya": {
+      "shares": {
+        "第一種低層住居専用地域": 0.187,
+        "第一種中高層住居専用地域": 0.4574,
+        "第二種中高層住居専用地域": 0.0414,
+        "第二種住居地域": 0.0032,
+        "近隣商業地域": 0.0971,
+        "商業地域": 0.214
+      },
+      "groups": {
+        "commercial": 0.214,
+        "nearCommercial": 0.0971,
+        "lowRise": 0.6444,
+        "residential": 0.0446,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 266
+    },
+    "takaido": {
+      "shares": {
+        "第一種低層住居専用地域": 0.5561,
+        "第一種中高層住居専用地域": 0.2164,
+        "第二種中高層住居専用地域": 0.0008,
+        "第二種住居地域": 0.1106,
+        "準住居地域": 0.0302,
+        "近隣商業地域": 0.0859
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0859,
+        "lowRise": 0.7725,
+        "residential": 0.1416,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 137
+    },
+    "koenji": {
+      "shares": {
+        "第一種低層住居専用地域": 0.1281,
+        "第一種中高層住居専用地域": 0.3445,
+        "第二種中高層住居専用地域": 0.0668,
+        "近隣商業地域": 0.2259,
+        "商業地域": 0.2347
+      },
+      "groups": {
+        "commercial": 0.2347,
+        "nearCommercial": 0.2259,
+        "lowRise": 0.4726,
+        "residential": 0.0668,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 294
+    },
+    "shimo-itabashi": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1193,
+        "第一種住居地域": 0.0891,
+        "第二種住居地域": 0.1519,
+        "近隣商業地域": 0.1973,
+        "商業地域": 0.1909,
+        "準工業地域": 0.2514
+      },
+      "groups": {
+        "commercial": 0.1909,
+        "nearCommercial": 0.1973,
+        "lowRise": 0.1193,
+        "residential": 0.2411,
+        "industrial": 0.2514
+      },
+      "covered": 1.0,
+      "far": 368
+    },
+    "kita-ikebukuro": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.3803,
+        "第一種住居地域": 0.206,
+        "第二種住居地域": 0.0024,
+        "近隣商業地域": 0.2387,
+        "商業地域": 0.0199,
+        "準工業地域": 0.1527
+      },
+      "groups": {
+        "commercial": 0.0199,
+        "nearCommercial": 0.2387,
+        "lowRise": 0.3803,
+        "residential": 0.2084,
+        "industrial": 0.1527
+      },
+      "covered": 1.0,
+      "far": 323
+    },
+    "senkawa": {
+      "shares": {
+        "第一種低層住居専用地域": 0.4741,
+        "第一種中高層住居専用地域": 0.3071,
+        "第一種住居地域": 0.0557,
+        "近隣商業地域": 0.1631
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1631,
+        "lowRise": 0.7812,
+        "residential": 0.0557,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 207
+    },
+    "mukohara": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0143,
+        "第一種住居地域": 0.4232,
+        "第二種住居地域": 0.0032,
+        "近隣商業地域": 0.0875,
+        "商業地域": 0.4328,
+        "準工業地域": 0.039
+      },
+      "groups": {
+        "commercial": 0.4328,
+        "nearCommercial": 0.0875,
+        "lowRise": 0.0143,
+        "residential": 0.4264,
+        "industrial": 0.039
+      },
+      "covered": 1.0,
+      "far": 451
+    },
+    "otsuka": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.2045,
+        "第一種住居地域": 0.1838,
+        "第二種住居地域": 0.0573,
+        "近隣商業地域": 0.0477,
+        "商業地域": 0.5068
+      },
+      "groups": {
+        "commercial": 0.5068,
+        "nearCommercial": 0.0477,
+        "lowRise": 0.2045,
+        "residential": 0.2411,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 445
+    },
+    "gakushuinshita": {
+      "shares": {
+        "第一種低層住居専用地域": 0.004,
+        "第一種中高層住居専用地域": 0.3978,
+        "第一種住居地域": 0.1106,
+        "近隣商業地域": 0.0652,
+        "商業地域": 0.0875,
+        "準工業地域": 0.3349
+      },
+      "groups": {
+        "commercial": 0.0875,
+        "nearCommercial": 0.0652,
+        "lowRise": 0.4018,
+        "residential": 0.1106,
+        "industrial": 0.3349
+      },
+      "covered": 1.0,
+      "far": 335
+    },
+    "sugamo": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0867,
+        "第一種中高層住居専用地域": 0.3023,
+        "第一種住居地域": 0.2721,
+        "近隣商業地域": 0.0509,
+        "商業地域": 0.288
+      },
+      "groups": {
+        "commercial": 0.288,
+        "nearCommercial": 0.0509,
+        "lowRise": 0.389,
+        "residential": 0.2721,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 378
+    },
+    "sugamoshinden": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.5585,
+        "第一種住居地域": 0.0684,
+        "第二種住居地域": 0.0151,
+        "近隣商業地域": 0.1329,
+        "商業地域": 0.2251
+      },
+      "groups": {
+        "commercial": 0.2251,
+        "nearCommercial": 0.1329,
+        "lowRise": 0.5585,
+        "residential": 0.0835,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 384
+    },
+    "koshinzuka": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.5123,
+        "第一種住居地域": 0.171,
+        "近隣商業地域": 0.1193,
+        "商業地域": 0.1965,
+        "準工業地域": 0.0008
+      },
+      "groups": {
+        "commercial": 0.1965,
+        "nearCommercial": 0.1193,
+        "lowRise": 0.5123,
+        "residential": 0.171,
+        "industrial": 0.0008
+      },
+      "covered": 1.0,
+      "far": 350
+    },
+    "shin-koshinzuka": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.459,
+        "第一種住居地域": 0.1989,
+        "近隣商業地域": 0.1305,
+        "商業地域": 0.2116
+      },
+      "groups": {
+        "commercial": 0.2116,
+        "nearCommercial": 0.1305,
+        "lowRise": 0.459,
+        "residential": 0.1989,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 346
+    },
+    "higashi-ikebukuro": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.2339,
+        "第一種住居地域": 0.3134,
+        "近隣商業地域": 0.101,
+        "商業地域": 0.3516
+      },
+      "groups": {
+        "commercial": 0.3516,
+        "nearCommercial": 0.101,
+        "lowRise": 0.2339,
+        "residential": 0.3134,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 419
+    },
+    "higashi-nagasaki": {
+      "shares": {
+        "第一種低層住居専用地域": 0.2068,
+        "第一種中高層住居専用地域": 0.3564,
+        "第二種中高層住居専用地域": 0.0008,
+        "第一種住居地域": 0.0883,
+        "近隣商業地域": 0.2999,
+        "商業地域": 0.0477
+      },
+      "groups": {
+        "commercial": 0.0477,
+        "nearCommercial": 0.2999,
+        "lowRise": 0.5632,
+        "residential": 0.0891,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 242
+    },
+    "shiinamachi": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0732,
+        "第一種中高層住居専用地域": 0.5378,
+        "第一種住居地域": 0.0533,
+        "近隣商業地域": 0.1655,
+        "商業地域": 0.1702
+      },
+      "groups": {
+        "commercial": 0.1702,
+        "nearCommercial": 0.1655,
+        "lowRise": 0.611,
+        "residential": 0.0533,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 268
+    },
+    "ikebukuro": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0048,
+        "第一種住居地域": 0.0636,
+        "近隣商業地域": 0.0095,
+        "商業地域": 0.922
+      },
+      "groups": {
+        "commercial": 0.922,
+        "nearCommercial": 0.0095,
+        "lowRise": 0.0048,
+        "residential": 0.0636,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 737
+    },
+    "mejiro": {
+      "shares": {
+        "第一種低層住居専用地域": 0.3842,
+        "第一種中高層住居専用地域": 0.2936,
+        "第一種住居地域": 0.1599,
+        "第二種住居地域": 0.0159,
+        "近隣商業地域": 0.0008,
+        "商業地域": 0.0748,
+        "準工業地域": 0.0708
+      },
+      "groups": {
+        "commercial": 0.0748,
+        "nearCommercial": 0.0008,
+        "lowRise": 0.6778,
+        "residential": 0.1758,
+        "industrial": 0.0708
+      },
+      "covered": 1.0,
+      "far": 250
+    },
+    "ochiai-minami-nagasaki": {
+      "shares": {
+        "第一種低層住居専用地域": 0.3484,
+        "第一種中高層住居専用地域": 0.245,
+        "第二種中高層住居専用地域": 0.0111,
+        "第一種住居地域": 0.0827,
+        "第二種住居地域": 0.0111,
+        "近隣商業地域": 0.1877,
+        "準工業地域": 0.1138
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1877,
+        "lowRise": 0.5935,
+        "residential": 0.105,
+        "industrial": 0.1138
+      },
+      "covered": 1.0,
+      "far": 200
+    },
+    "nishi-sugamo": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.3095,
+        "第一種住居地域": 0.3015,
+        "近隣商業地域": 0.1408,
+        "商業地域": 0.2387,
+        "準工業地域": 0.0095
+      },
+      "groups": {
+        "commercial": 0.2387,
+        "nearCommercial": 0.1408,
+        "lowRise": 0.3095,
+        "residential": 0.3015,
+        "industrial": 0.0095
+      },
+      "covered": 1.0,
+      "far": 346
+    },
+    "kanamecho": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.5147,
+        "第一種住居地域": 0.1798,
+        "近隣商業地域": 0.1321,
+        "商業地域": 0.1734
+      },
+      "groups": {
+        "commercial": 0.1734,
+        "nearCommercial": 0.1321,
+        "lowRise": 0.5147,
+        "residential": 0.1798,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 316
+    },
+    "toden-zoshigaya": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.4041,
+        "第一種住居地域": 0.2331,
+        "近隣商業地域": 0.0605,
+        "商業地域": 0.3023
+      },
+      "groups": {
+        "commercial": 0.3023,
+        "nearCommercial": 0.0605,
+        "lowRise": 0.4041,
+        "residential": 0.2331,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 396
+    },
+    "zoshigaya": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0549,
+        "第一種中高層住居専用地域": 0.611,
+        "第一種住居地域": 0.1623,
+        "近隣商業地域": 0.1058,
+        "商業地域": 0.0613,
+        "準工業地域": 0.0048
+      },
+      "groups": {
+        "commercial": 0.0613,
+        "nearCommercial": 0.1058,
+        "lowRise": 0.6659,
+        "residential": 0.1623,
+        "industrial": 0.0048
+      },
+      "covered": 1.0,
+      "far": 319
+    },
+    "komagome": {
+      "shares": {
+        "第一種低層住居専用地域": 0.1432,
+        "第一種中高層住居専用地域": 0.2689,
+        "第一種住居地域": 0.2164,
+        "近隣商業地域": 0.1917,
+        "商業地域": 0.1798
+      },
+      "groups": {
+        "commercial": 0.1798,
+        "nearCommercial": 0.1917,
+        "lowRise": 0.4121,
+        "residential": 0.2164,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 332
+    },
+    "kami-nakazato": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.2068,
+        "第一種住居地域": 0.0891,
+        "近隣商業地域": 0.1193,
+        "商業地域": 0.0501,
+        "準工業地域": 0.5346
+      },
+      "groups": {
+        "commercial": 0.0501,
+        "nearCommercial": 0.1193,
+        "lowRise": 0.2068,
+        "residential": 0.0891,
+        "industrial": 0.5346
+      },
+      "covered": 1.0,
+      "far": 227
+    },
+    "kita-akabane": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1066,
+        "第一種住居地域": 0.3095,
+        "近隣商業地域": 0.109,
+        "商業地域": 0.0302,
+        "準工業地域": 0.1161,
+        "工業地域": 0.1623
+      },
+      "groups": {
+        "commercial": 0.0302,
+        "nearCommercial": 0.109,
+        "lowRise": 0.1066,
+        "residential": 0.3095,
+        "industrial": 0.2784
+      },
+      "covered": 0.8337,
+      "far": 232
+    },
+    "jujo": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0986,
+        "第一種住居地域": 0.5561,
+        "第二種住居地域": 0.0167,
+        "近隣商業地域": 0.2474,
+        "商業地域": 0.0764,
+        "準工業地域": 0.0048
+      },
+      "groups": {
+        "commercial": 0.0764,
+        "nearCommercial": 0.2474,
+        "lowRise": 0.0986,
+        "residential": 0.5728,
+        "industrial": 0.0048
+      },
+      "covered": 1.0,
+      "far": 273
+    },
+    "oku": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0652,
+        "第一種住居地域": 0.0143,
+        "商業地域": 0.1034,
+        "準工業地域": 0.817
+      },
+      "groups": {
+        "commercial": 0.1034,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0652,
+        "residential": 0.0143,
+        "industrial": 0.817
+      },
+      "covered": 1.0,
+      "far": 268
+    },
+    "shimo": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.222,
+        "第一種住居地域": 0.1424,
+        "近隣商業地域": 0.1257,
+        "商業地域": 0.0788,
+        "準工業地域": 0.1941,
+        "工業地域": 0.1973
+      },
+      "groups": {
+        "commercial": 0.0788,
+        "nearCommercial": 0.1257,
+        "lowRise": 0.222,
+        "residential": 0.1424,
+        "industrial": 0.3914
+      },
+      "covered": 0.9602,
+      "far": 246
+    },
+    "higashi-jujo": {
+      "shares": {
+        "第一種住居地域": 0.358,
+        "近隣商業地域": 0.3349,
+        "商業地域": 0.1281,
+        "準工業地域": 0.179
+      },
+      "groups": {
+        "commercial": 0.1281,
+        "nearCommercial": 0.3349,
+        "lowRise": 0.0,
+        "residential": 0.358,
+        "industrial": 0.179
+      },
+      "covered": 1.0,
+      "far": 289
+    },
+    "sakaecho": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1806,
+        "第一種住居地域": 0.0477,
+        "近隣商業地域": 0.0931,
+        "商業地域": 0.175,
+        "準工業地域": 0.4996,
+        "工業地域": 0.004
+      },
+      "groups": {
+        "commercial": 0.175,
+        "nearCommercial": 0.0931,
+        "lowRise": 0.1806,
+        "residential": 0.0477,
+        "industrial": 0.5036
+      },
+      "covered": 1.0,
+      "far": 266
+    },
+    "kajiwara": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0024,
+        "第一種住居地域": 0.1989,
+        "近隣商業地域": 0.0636,
+        "商業地域": 0.1138,
+        "準工業地域": 0.5919,
+        "工業地域": 0.0294
+      },
+      "groups": {
+        "commercial": 0.1138,
+        "nearCommercial": 0.0636,
+        "lowRise": 0.0024,
+        "residential": 0.1989,
+        "industrial": 0.6213
+      },
+      "covered": 1.0,
+      "far": 255
+    },
+    "takinogawa-itchome": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.6627,
+        "第一種住居地域": 0.1074,
+        "近隣商業地域": 0.1177,
+        "商業地域": 0.1122
+      },
+      "groups": {
+        "commercial": 0.1122,
+        "nearCommercial": 0.1177,
+        "lowRise": 0.6627,
+        "residential": 0.1074,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 250
+    },
+    "oji": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.2466,
+        "第一種住居地域": 0.0414,
+        "近隣商業地域": 0.1774,
+        "商業地域": 0.3516,
+        "準工業地域": 0.183
+      },
+      "groups": {
+        "commercial": 0.3516,
+        "nearCommercial": 0.1774,
+        "lowRise": 0.2466,
+        "residential": 0.0414,
+        "industrial": 0.183
+      },
+      "covered": 1.0,
+      "far": 352
+    },
+    "oji-kamiya": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0469,
+        "第一種住居地域": 0.5282,
+        "近隣商業地域": 0.0875,
+        "商業地域": 0.0986,
+        "準工業地域": 0.1647,
+        "工業地域": 0.074
+      },
+      "groups": {
+        "commercial": 0.0986,
+        "nearCommercial": 0.0875,
+        "lowRise": 0.0469,
+        "residential": 0.5282,
+        "industrial": 0.2387
+      },
+      "covered": 1.0,
+      "far": 253
+    },
+    "tabata": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0032,
+        "第一種住居地域": 0.3731,
+        "近隣商業地域": 0.1472,
+        "商業地域": 0.0255,
+        "準工業地域": 0.4511
+      },
+      "groups": {
+        "commercial": 0.0255,
+        "nearCommercial": 0.1472,
+        "lowRise": 0.0032,
+        "residential": 0.3731,
+        "industrial": 0.4511
+      },
+      "covered": 1.0,
+      "far": 299
+    },
+    "nishigahara": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.4463,
+        "第一種住居地域": 0.1631,
+        "近隣商業地域": 0.1265,
+        "準工業地域": 0.2641
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1265,
+        "lowRise": 0.4463,
+        "residential": 0.1631,
+        "industrial": 0.2641
+      },
+      "covered": 1.0,
+      "far": 208
+    },
+    "nishigahara-yonchome": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.5505,
+        "第一種住居地域": 0.1726,
+        "近隣商業地域": 0.0939,
+        "商業地域": 0.183
+      },
+      "groups": {
+        "commercial": 0.183,
+        "nearCommercial": 0.0939,
+        "lowRise": 0.5505,
+        "residential": 0.1726,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 295
+    },
+    "akabane": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.2339,
+        "第二種中高層住居専用地域": 0.0032,
+        "第一種住居地域": 0.1034,
+        "近隣商業地域": 0.175,
+        "商業地域": 0.4232,
+        "準工業地域": 0.0613
+      },
+      "groups": {
+        "commercial": 0.4232,
+        "nearCommercial": 0.175,
+        "lowRise": 0.2339,
+        "residential": 0.1066,
+        "industrial": 0.0613
+      },
+      "covered": 1.0,
+      "far": 388
+    },
+    "akabane-iwabuchi": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1941,
+        "第一種住居地域": 0.206,
+        "近隣商業地域": 0.1106,
+        "商業地域": 0.3628,
+        "準工業地域": 0.0716
+      },
+      "groups": {
+        "commercial": 0.3628,
+        "nearCommercial": 0.1106,
+        "lowRise": 0.1941,
+        "residential": 0.206,
+        "industrial": 0.0716
+      },
+      "covered": 0.9451,
+      "far": 348
+    },
+    "asukayama": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.4964,
+        "第一種住居地域": 0.0366,
+        "近隣商業地域": 0.144,
+        "商業地域": 0.1885,
+        "準工業地域": 0.1344
+      },
+      "groups": {
+        "commercial": 0.1885,
+        "nearCommercial": 0.144,
+        "lowRise": 0.4964,
+        "residential": 0.0366,
+        "industrial": 0.1344
+      },
+      "covered": 1.0,
+      "far": 276
+    },
+    "minowabashi": {
+      "shares": {
+        "近隣商業地域": 0.1838,
+        "商業地域": 0.2745,
+        "準工業地域": 0.5418
+      },
+      "groups": {
+        "commercial": 0.2745,
+        "nearCommercial": 0.1838,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.5418
+      },
+      "covered": 1.0,
+      "far": 384
+    },
+    "mikawashima": {
+      "shares": {
+        "近隣商業地域": 0.0199,
+        "商業地域": 0.2275,
+        "準工業地域": 0.7526
+      },
+      "groups": {
+        "commercial": 0.2275,
+        "nearCommercial": 0.0199,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.7526
+      },
+      "covered": 1.0,
+      "far": 356
+    },
+    "minami-senju": {
+      "shares": {
+        "近隣商業地域": 0.0374,
+        "商業地域": 0.1591,
+        "準工業地域": 0.8035
+      },
+      "groups": {
+        "commercial": 0.1591,
+        "nearCommercial": 0.0374,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.8035
+      },
+      "covered": 1.0,
+      "far": 303
+    },
+    "miyanomae": {
+      "shares": {
+        "第一種住居地域": 0.0446,
+        "近隣商業地域": 0.2068,
+        "商業地域": 0.0915,
+        "準工業地域": 0.5585,
+        "工業専用地域": 0.0008
+      },
+      "groups": {
+        "commercial": 0.0915,
+        "nearCommercial": 0.2068,
+        "lowRise": 0.0,
+        "residential": 0.0446,
+        "industrial": 0.5593
+      },
+      "covered": 0.9021,
+      "far": 328
+    },
+    "odai": {
+      "shares": {
+        "第一種住居地域": 0.1941,
+        "近隣商業地域": 0.1647,
+        "商業地域": 0.0326,
+        "準工業地域": 0.5179,
+        "工業地域": 0.0016,
+        "工業専用地域": 0.0008
+      },
+      "groups": {
+        "commercial": 0.0326,
+        "nearCommercial": 0.1647,
+        "lowRise": 0.0,
+        "residential": 0.1941,
+        "industrial": 0.5203
+      },
+      "covered": 0.9117,
+      "far": 313
+    },
+    "shim-mikawashima": {
+      "shares": {
+        "近隣商業地域": 0.07,
+        "商業地域": 0.2554,
+        "準工業地域": 0.6746
+      },
+      "groups": {
+        "commercial": 0.2554,
+        "nearCommercial": 0.07,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.6746
+      },
+      "covered": 1.0,
+      "far": 368
+    },
+    "nippori": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.175,
+        "第二種中高層住居専用地域": 0.0994,
+        "第一種住居地域": 0.14,
+        "近隣商業地域": 0.0278,
+        "商業地域": 0.3309,
+        "準工業地域": 0.2267
+      },
+      "groups": {
+        "commercial": 0.3309,
+        "nearCommercial": 0.0278,
+        "lowRise": 0.175,
+        "residential": 0.2395,
+        "industrial": 0.2267
+      },
+      "covered": 1.0,
+      "far": 417
+    },
+    "higashi-ogu-sanchome": {
+      "shares": {
+        "第一種住居地域": 0.0119,
+        "近隣商業地域": 0.2609,
+        "商業地域": 0.0557,
+        "準工業地域": 0.6714
+      },
+      "groups": {
+        "commercial": 0.0557,
+        "nearCommercial": 0.2609,
+        "lowRise": 0.0,
+        "residential": 0.0119,
+        "industrial": 0.6714
+      },
+      "covered": 1.0,
+      "far": 323
+    },
+    "kumanomae": {
+      "shares": {
+        "第一種住居地域": 0.0565,
+        "近隣商業地域": 0.1766,
+        "商業地域": 0.1456,
+        "準工業地域": 0.5219,
+        "工業地域": 0.0597
+      },
+      "groups": {
+        "commercial": 0.1456,
+        "nearCommercial": 0.1766,
+        "lowRise": 0.0,
+        "residential": 0.0565,
+        "industrial": 0.5815
+      },
+      "covered": 0.9602,
+      "far": 329
+    },
+    "machiya": {
+      "shares": {
+        "近隣商業地域": 0.066,
+        "商業地域": 0.1734,
+        "準工業地域": 0.7605
+      },
+      "groups": {
+        "commercial": 0.1734,
+        "nearCommercial": 0.066,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.7605
+      },
+      "covered": 1.0,
+      "far": 327
+    },
+    "machiya-nichome": {
+      "shares": {
+        "近隣商業地域": 0.2172,
+        "商業地域": 0.1249,
+        "準工業地域": 0.6579
+      },
+      "groups": {
+        "commercial": 0.1249,
+        "nearCommercial": 0.2172,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.6579
+      },
+      "covered": 1.0,
+      "far": 330
+    },
+    "arakawa-itchumae": {
+      "shares": {
+        "近隣商業地域": 0.1766,
+        "商業地域": 0.2068,
+        "準工業地域": 0.5871,
+        "工業地域": 0.0294
+      },
+      "groups": {
+        "commercial": 0.2068,
+        "nearCommercial": 0.1766,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.6165
+      },
+      "covered": 1.0,
+      "far": 367
+    },
+    "arakawa-nanachome": {
+      "shares": {
+        "第一種住居地域": 0.0008,
+        "近隣商業地域": 0.0064,
+        "商業地域": 0.1456,
+        "準工業地域": 0.7637,
+        "工業地域": 0.0708
+      },
+      "groups": {
+        "commercial": 0.1456,
+        "nearCommercial": 0.0064,
+        "lowRise": 0.0,
+        "residential": 0.0008,
+        "industrial": 0.8345
+      },
+      "covered": 0.9873,
+      "far": 291
+    },
+    "arakawa-nichome": {
+      "shares": {
+        "第一種住居地域": 0.0016,
+        "近隣商業地域": 0.0215,
+        "商業地域": 0.1265,
+        "準工業地域": 0.7104,
+        "工業地域": 0.14
+      },
+      "groups": {
+        "commercial": 0.1265,
+        "nearCommercial": 0.0215,
+        "lowRise": 0.0,
+        "residential": 0.0016,
+        "industrial": 0.8504
+      },
+      "covered": 1.0,
+      "far": 306
+    },
+    "arakawakuyakushomae": {
+      "shares": {
+        "近隣商業地域": 0.1313,
+        "商業地域": 0.1543,
+        "準工業地域": 0.6428,
+        "工業地域": 0.0716
+      },
+      "groups": {
+        "commercial": 0.1543,
+        "nearCommercial": 0.1313,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.7144
+      },
+      "covered": 1.0,
+      "far": 339
+    },
+    "arakawa-shakomae": {
+      "shares": {
+        "第一種住居地域": 0.1854,
+        "近隣商業地域": 0.039,
+        "商業地域": 0.0971,
+        "準工業地域": 0.5982,
+        "工業地域": 0.0756
+      },
+      "groups": {
+        "commercial": 0.0971,
+        "nearCommercial": 0.039,
+        "lowRise": 0.0,
+        "residential": 0.1854,
+        "industrial": 0.6738
+      },
+      "covered": 0.9952,
+      "far": 280
+    },
+    "arakawa-yuenchimae": {
+      "shares": {
+        "第一種住居地域": 0.2586,
+        "近隣商業地域": 0.0788,
+        "商業地域": 0.0175,
+        "準工業地域": 0.5903,
+        "工業地域": 0.0008
+      },
+      "groups": {
+        "commercial": 0.0175,
+        "nearCommercial": 0.0788,
+        "lowRise": 0.0,
+        "residential": 0.2586,
+        "industrial": 0.5911
+      },
+      "covered": 0.9459,
+      "far": 299
+    },
+    "nishi-nippori": {
+      "shares": {
+        "第二種中高層住居専用地域": 0.1448,
+        "第一種住居地域": 0.222,
+        "近隣商業地域": 0.0414,
+        "商業地域": 0.3142,
+        "準工業地域": 0.2776
+      },
+      "groups": {
+        "commercial": 0.3142,
+        "nearCommercial": 0.0414,
+        "lowRise": 0.0,
+        "residential": 0.3667,
+        "industrial": 0.2776
+      },
+      "covered": 1.0,
+      "far": 401
+    },
+    "akado-shogakkomae": {
+      "shares": {
+        "近隣商業地域": 0.1289,
+        "商業地域": 0.1806,
+        "準工業地域": 0.6905
+      },
+      "groups": {
+        "commercial": 0.1806,
+        "nearCommercial": 0.1289,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.6905
+      },
+      "covered": 1.0,
+      "far": 341
+    },
+    "tokiwadai": {
+      "shares": {
+        "第一種低層住居専用地域": 0.2729,
+        "第一種中高層住居専用地域": 0.1742,
+        "第一種住居地域": 0.2212,
+        "第二種住居地域": 0.0724,
+        "近隣商業地域": 0.1885,
+        "商業地域": 0.0708
+      },
+      "groups": {
+        "commercial": 0.0708,
+        "nearCommercial": 0.1885,
+        "lowRise": 0.4471,
+        "residential": 0.2936,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 226
+    },
+    "kami-itabashi": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.2172,
+        "第一種住居地域": 0.2959,
+        "第二種住居地域": 0.0278,
+        "近隣商業地域": 0.2458,
+        "商業地域": 0.0724,
+        "準工業地域": 0.1408
+      },
+      "groups": {
+        "commercial": 0.0724,
+        "nearCommercial": 0.2458,
+        "lowRise": 0.2172,
+        "residential": 0.3238,
+        "industrial": 0.1408
+      },
+      "covered": 1.0,
+      "far": 240
+    },
+    "naka-itabashi": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0414,
+        "第一種中高層住居専用地域": 0.1432,
+        "第一種住居地域": 0.4431,
+        "第二種住居地域": 0.0286,
+        "近隣商業地域": 0.2609,
+        "商業地域": 0.0827
+      },
+      "groups": {
+        "commercial": 0.0827,
+        "nearCommercial": 0.2609,
+        "lowRise": 0.1846,
+        "residential": 0.4718,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 290
+    },
+    "chikatetsu-akatsuka": {
+      "shares": {
+        "第一種低層住居専用地域": 0.1647,
+        "第一種中高層住居専用地域": 0.471,
+        "第一種住居地域": 0.1472,
+        "近隣商業地域": 0.1583,
+        "商業地域": 0.0565,
+        "準工業地域": 0.0024
+      },
+      "groups": {
+        "commercial": 0.0565,
+        "nearCommercial": 0.1583,
+        "lowRise": 0.6356,
+        "residential": 0.1472,
+        "industrial": 0.0024
+      },
+      "covered": 1.0,
+      "far": 213
+    },
+    "oyama": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0501,
+        "第一種住居地域": 0.1193,
+        "第二種住居地域": 0.4272,
+        "近隣商業地域": 0.1106,
+        "商業地域": 0.2275,
+        "準工業地域": 0.0652
+      },
+      "groups": {
+        "commercial": 0.2275,
+        "nearCommercial": 0.1106,
+        "lowRise": 0.0501,
+        "residential": 0.5465,
+        "industrial": 0.0652
+      },
+      "covered": 1.0,
+      "far": 336
+    },
+    "shimura-sanchome": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0565,
+        "第一種住居地域": 0.4232,
+        "近隣商業地域": 0.0915,
+        "商業地域": 0.0032,
+        "準工業地域": 0.3588,
+        "工業地域": 0.0668
+      },
+      "groups": {
+        "commercial": 0.0032,
+        "nearCommercial": 0.0915,
+        "lowRise": 0.0565,
+        "residential": 0.4232,
+        "industrial": 0.4256
+      },
+      "covered": 1.0,
+      "far": 217
+    },
+    "shimura-sakaue": {
+      "shares": {
+        "第一種住居地域": 0.3445,
+        "近隣商業地域": 0.078,
+        "商業地域": 0.1305,
+        "準工業地域": 0.4471
+      },
+      "groups": {
+        "commercial": 0.1305,
+        "nearCommercial": 0.078,
+        "lowRise": 0.0,
+        "residential": 0.3445,
+        "industrial": 0.4471
+      },
+      "covered": 1.0,
+      "far": 234
+    },
+    "narimasu": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0565,
+        "第一種中高層住居専用地域": 0.4383,
+        "第一種住居地域": 0.0851,
+        "近隣商業地域": 0.1464,
+        "商業地域": 0.1671,
+        "準工業地域": 0.1066
+      },
+      "groups": {
+        "commercial": 0.1671,
+        "nearCommercial": 0.1464,
+        "lowRise": 0.4948,
+        "residential": 0.0851,
+        "industrial": 0.1066
+      },
+      "covered": 1.0,
+      "far": 264
+    },
+    "shin-itabashi": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.319,
+        "第一種住居地域": 0.2403,
+        "第二種住居地域": 0.0477,
+        "近隣商業地域": 0.0716,
+        "商業地域": 0.3063,
+        "準工業地域": 0.0151
+      },
+      "groups": {
+        "commercial": 0.3063,
+        "nearCommercial": 0.0716,
+        "lowRise": 0.319,
+        "residential": 0.288,
+        "industrial": 0.0151
+      },
+      "covered": 1.0,
+      "far": 356
+    },
+    "shin-takashimadaira": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0764,
+        "第一種中高層住居専用地域": 0.4344,
+        "第一種住居地域": 0.1098,
+        "準住居地域": 0.0843,
+        "近隣商業地域": 0.0231,
+        "商業地域": 0.0398,
+        "準工業地域": 0.1885
+      },
+      "groups": {
+        "commercial": 0.0398,
+        "nearCommercial": 0.0231,
+        "lowRise": 0.5107,
+        "residential": 0.1941,
+        "industrial": 0.1885
+      },
+      "covered": 0.9562,
+      "far": 263
+    },
+    "motohasunuma": {
+      "shares": {
+        "第一種住居地域": 0.1225,
+        "第二種住居地域": 0.0302,
+        "近隣商業地域": 0.0477,
+        "商業地域": 0.1329,
+        "準工業地域": 0.6667
+      },
+      "groups": {
+        "commercial": 0.1329,
+        "nearCommercial": 0.0477,
+        "lowRise": 0.0,
+        "residential": 0.1527,
+        "industrial": 0.6667
+      },
+      "covered": 1.0,
+      "far": 237
+    },
+    "itabashi": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0684,
+        "第一種住居地域": 0.2339,
+        "第二種住居地域": 0.0541,
+        "近隣商業地域": 0.2005,
+        "商業地域": 0.2848,
+        "準工業地域": 0.1583
+      },
+      "groups": {
+        "commercial": 0.2848,
+        "nearCommercial": 0.2005,
+        "lowRise": 0.0684,
+        "residential": 0.288,
+        "industrial": 0.1583
+      },
+      "covered": 1.0,
+      "far": 387
+    },
+    "itabashi-kuyakushomae": {
+      "shares": {
+        "第一種住居地域": 0.3604,
+        "第二種住居地域": 0.214,
+        "近隣商業地域": 0.0764,
+        "商業地域": 0.3341,
+        "準工業地域": 0.0151
+      },
+      "groups": {
+        "commercial": 0.3341,
+        "nearCommercial": 0.0764,
+        "lowRise": 0.0,
+        "residential": 0.5744,
+        "industrial": 0.0151
+      },
+      "covered": 1.0,
+      "far": 383
+    },
+    "itabashihoncho": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0469,
+        "第一種住居地域": 0.2172,
+        "近隣商業地域": 0.0923,
+        "商業地域": 0.2649,
+        "準工業地域": 0.3787
+      },
+      "groups": {
+        "commercial": 0.2649,
+        "nearCommercial": 0.0923,
+        "lowRise": 0.0469,
+        "residential": 0.2172,
+        "industrial": 0.3787
+      },
+      "covered": 1.0,
+      "far": 326
+    },
+    "ukimafunado": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1241,
+        "第一種住居地域": 0.1448,
+        "近隣商業地域": 0.0613,
+        "商業地域": 0.0239,
+        "準工業地域": 0.4646,
+        "工業地域": 0.1122,
+        "工業専用地域": 0.0302
+      },
+      "groups": {
+        "commercial": 0.0239,
+        "nearCommercial": 0.0613,
+        "lowRise": 0.1241,
+        "residential": 0.1448,
+        "industrial": 0.607
+      },
+      "covered": 0.961,
+      "far": 226
+    },
+    "hasune": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1257,
+        "第一種住居地域": 0.5179,
+        "準住居地域": 0.0621,
+        "近隣商業地域": 0.1519,
+        "商業地域": 0.0088,
+        "準工業地域": 0.1329,
+        "工業地域": 0.0008
+      },
+      "groups": {
+        "commercial": 0.0088,
+        "nearCommercial": 0.1519,
+        "lowRise": 0.1257,
+        "residential": 0.58,
+        "industrial": 0.1337
+      },
+      "covered": 1.0,
+      "far": 228
+    },
+    "nishidai": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.218,
+        "第一種住居地域": 0.249,
+        "準住居地域": 0.1241,
+        "近隣商業地域": 0.0247,
+        "商業地域": 0.0541,
+        "準工業地域": 0.2737,
+        "工業地域": 0.0374
+      },
+      "groups": {
+        "commercial": 0.0541,
+        "nearCommercial": 0.0247,
+        "lowRise": 0.218,
+        "residential": 0.3731,
+        "industrial": 0.3111
+      },
+      "covered": 0.9809,
+      "far": 257
+    },
+    "nishi-takashimadaira": {
+      "shares": {
+        "第一種低層住居専用地域": 0.2888,
+        "第一種中高層住居専用地域": 0.0573,
+        "第一種住居地域": 0.0613,
+        "準住居地域": 0.0827,
+        "準工業地域": 0.4837
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.3461,
+        "residential": 0.144,
+        "industrial": 0.4837
+      },
+      "covered": 0.9737,
+      "far": 214
+    },
+    "takashimadaira": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.5282,
+        "第一種住居地域": 0.07,
+        "準住居地域": 0.0676,
+        "商業地域": 0.2068,
+        "準工業地域": 0.0907,
+        "工業地域": 0.0048
+      },
+      "groups": {
+        "commercial": 0.2068,
+        "nearCommercial": 0.0,
+        "lowRise": 0.5282,
+        "residential": 0.1376,
+        "industrial": 0.0955
+      },
+      "covered": 0.9682,
+      "far": 311
+    },
+    "kami-igusa": {
+      "shares": {
+        "第一種低層住居専用地域": 0.6794,
+        "第一種中高層住居専用地域": 0.1368,
+        "第二種中高層住居専用地域": 0.0127,
+        "第一種住居地域": 0.0756,
+        "第二種住居地域": 0.0342,
+        "近隣商業地域": 0.0565,
+        "準工業地域": 0.0048
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0565,
+        "lowRise": 0.8162,
+        "residential": 0.1225,
+        "industrial": 0.0048
+      },
+      "covered": 1.0,
+      "far": 146
+    },
+    "kami-shakujii": {
+      "shares": {
+        "第一種低層住居専用地域": 0.4455,
+        "第一種中高層住居専用地域": 0.1687,
+        "第一種住居地域": 0.1655,
+        "近隣商業地域": 0.1838,
+        "準工業地域": 0.0366
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1838,
+        "lowRise": 0.6142,
+        "residential": 0.1655,
+        "industrial": 0.0366
+      },
+      "covered": 1.0,
+      "far": 178
+    },
+    "nakamurabashi": {
+      "shares": {
+        "第一種低層住居専用地域": 0.1639,
+        "第一種中高層住居専用地域": 0.2936,
+        "第一種住居地域": 0.2689,
+        "準住居地域": 0.0684,
+        "近隣商業地域": 0.1002,
+        "商業地域": 0.0851,
+        "準工業地域": 0.0199
+      },
+      "groups": {
+        "commercial": 0.0851,
+        "nearCommercial": 0.1002,
+        "lowRise": 0.4574,
+        "residential": 0.3373,
+        "industrial": 0.0199
+      },
+      "covered": 1.0,
+      "far": 232
+    },
+    "hikarigaoka": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0788,
+        "第一種中高層住居専用地域": 0.6516,
+        "第一種住居地域": 0.171,
+        "商業地域": 0.0986
+      },
+      "groups": {
+        "commercial": 0.0986,
+        "nearCommercial": 0.0,
+        "lowRise": 0.7303,
+        "residential": 0.171,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 228
+    },
+    "oizumi-gakuen": {
+      "shares": {
+        "第一種低層住居専用地域": 0.2864,
+        "第一種中高層住居専用地域": 0.3397,
+        "第一種住居地域": 0.1114,
+        "近隣商業地域": 0.1432,
+        "商業地域": 0.1082,
+        "準工業地域": 0.0111
+      },
+      "groups": {
+        "commercial": 0.1082,
+        "nearCommercial": 0.1432,
+        "lowRise": 0.6261,
+        "residential": 0.1114,
+        "industrial": 0.0111
+      },
+      "covered": 1.0,
+      "far": 208
+    },
+    "kotake-mukaihara": {
+      "shares": {
+        "第一種低層住居専用地域": 0.2434,
+        "第一種中高層住居専用地域": 0.3986,
+        "第一種住居地域": 0.1567,
+        "準住居地域": 0.0151,
+        "近隣商業地域": 0.0804,
+        "準工業地域": 0.1058
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0804,
+        "lowRise": 0.642,
+        "residential": 0.1718,
+        "industrial": 0.1058
+      },
+      "covered": 1.0,
+      "far": 197
+    },
+    "heiwadai": {
+      "shares": {
+        "第一種低層住居専用地域": 0.5203,
+        "第一種中高層住居専用地域": 0.2204,
+        "第一種住居地域": 0.1018,
+        "近隣商業地域": 0.1448,
+        "準工業地域": 0.0127
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1448,
+        "lowRise": 0.7407,
+        "residential": 0.1018,
+        "industrial": 0.0127
+      },
+      "covered": 1.0,
+      "far": 172
+    },
+    "shin-sakuradai": {
+      "shares": {
+        "第一種低層住居専用地域": 0.4606,
+        "第一種中高層住居専用地域": 0.1329,
+        "第一種住居地域": 0.0979,
+        "準住居地域": 0.0963,
+        "近隣商業地域": 0.1066,
+        "商業地域": 0.1058
+      },
+      "groups": {
+        "commercial": 0.1058,
+        "nearCommercial": 0.1066,
+        "lowRise": 0.5935,
+        "residential": 0.1941,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 227
+    },
+    "shin-egota": {
+      "shares": {
+        "第一種低層住居専用地域": 0.3357,
+        "第一種中高層住居専用地域": 0.3866,
+        "第一種住居地域": 0.0127,
+        "近隣商業地域": 0.2005,
+        "商業地域": 0.0302,
+        "準工業地域": 0.0342
+      },
+      "groups": {
+        "commercial": 0.0302,
+        "nearCommercial": 0.2005,
+        "lowRise": 0.7224,
+        "residential": 0.0127,
+        "industrial": 0.0342
+      },
+      "covered": 1.0,
+      "far": 218
+    },
+    "tobu-nerima": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.2928,
+        "第一種住居地域": 0.1997,
+        "近隣商業地域": 0.1456,
+        "商業地域": 0.0223,
+        "準工業地域": 0.3389,
+        "工業地域": 0.0008
+      },
+      "groups": {
+        "commercial": 0.0223,
+        "nearCommercial": 0.1456,
+        "lowRise": 0.2928,
+        "residential": 0.1997,
+        "industrial": 0.3397
+      },
+      "covered": 1.0,
+      "far": 229
+    },
+    "sakuradai": {
+      "shares": {
+        "第一種低層住居専用地域": 0.2689,
+        "第一種中高層住居専用地域": 0.2808,
+        "第一種住居地域": 0.0477,
+        "準住居地域": 0.074,
+        "近隣商業地域": 0.1631,
+        "商業地域": 0.1655
+      },
+      "groups": {
+        "commercial": 0.1655,
+        "nearCommercial": 0.1631,
+        "lowRise": 0.5497,
+        "residential": 0.1217,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 249
+    },
+    "musashi-seki": {
+      "shares": {
+        "第一種低層住居専用地域": 0.3095,
+        "第一種中高層住居専用地域": 0.3421,
+        "第一種住居地域": 0.0963,
+        "第二種住居地域": 0.0446,
+        "近隣商業地域": 0.2076
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.2076,
+        "lowRise": 0.6516,
+        "residential": 0.1408,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 190
+    },
+    "hikawadai": {
+      "shares": {
+        "第一種低層住居専用地域": 0.4113,
+        "第一種中高層住居専用地域": 0.1973,
+        "第一種住居地域": 0.171,
+        "近隣商業地域": 0.0986,
+        "準工業地域": 0.1217
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0986,
+        "lowRise": 0.6086,
+        "residential": 0.171,
+        "industrial": 0.1217
+      },
+      "covered": 1.0,
+      "far": 185
+    },
+    "ekoda": {
+      "shares": {
+        "第一種低層住居専用地域": 0.2124,
+        "第一種中高層住居専用地域": 0.3628,
+        "第一種住居地域": 0.0931,
+        "準住居地域": 0.0016,
+        "近隣商業地域": 0.1997,
+        "商業地域": 0.1233,
+        "準工業地域": 0.0072
+      },
+      "groups": {
+        "commercial": 0.1233,
+        "nearCommercial": 0.1997,
+        "lowRise": 0.5752,
+        "residential": 0.0947,
+        "industrial": 0.0072
+      },
+      "covered": 1.0,
+      "far": 252
+    },
+    "shakujii-koen": {
+      "shares": {
+        "第一種低層住居専用地域": 0.2761,
+        "第一種中高層住居専用地域": 0.42,
+        "第一種住居地域": 0.0501,
+        "近隣商業地域": 0.1122,
+        "商業地域": 0.1416
+      },
+      "groups": {
+        "commercial": 0.1416,
+        "nearCommercial": 0.1122,
+        "lowRise": 0.6961,
+        "residential": 0.0501,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 214
+    },
+    "nerima": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0788,
+        "第一種中高層住居専用地域": 0.2761,
+        "第一種住居地域": 0.1297,
+        "近隣商業地域": 0.183,
+        "商業地域": 0.3325
+      },
+      "groups": {
+        "commercial": 0.3325,
+        "nearCommercial": 0.183,
+        "lowRise": 0.3548,
+        "residential": 0.1297,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 330
+    },
+    "nerima-kasugacho": {
+      "shares": {
+        "第一種低層住居専用地域": 0.6762,
+        "第一種中高層住居専用地域": 0.0414,
+        "第一種住居地域": 0.2068,
+        "近隣商業地域": 0.0756
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0756,
+        "lowRise": 0.7176,
+        "residential": 0.2068,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 160
+    },
+    "nerima-takanodai": {
+      "shares": {
+        "第一種低層住居専用地域": 0.5187,
+        "第一種中高層住居専用地域": 0.1329,
+        "第一種住居地域": 0.1305,
+        "第二種住居地域": 0.0732,
+        "準住居地域": 0.0971,
+        "近隣商業地域": 0.0477
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0477,
+        "lowRise": 0.6516,
+        "residential": 0.3007,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 174
+    },
+    "toshimaen": {
+      "shares": {
+        "第一種低層住居専用地域": 0.3787,
+        "第一種中高層住居専用地域": 0.1543,
+        "第一種住居地域": 0.1718,
+        "第二種住居地域": 0.144,
+        "近隣商業地域": 0.1154,
+        "商業地域": 0.0358
+      },
+      "groups": {
+        "commercial": 0.0358,
+        "nearCommercial": 0.1154,
+        "lowRise": 0.533,
+        "residential": 0.3158,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 183
+    },
+    "gotanno": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.2848,
+        "第一種住居地域": 0.0772,
+        "近隣商業地域": 0.2029,
+        "商業地域": 0.0064,
+        "準工業地域": 0.4288
+      },
+      "groups": {
+        "commercial": 0.0064,
+        "nearCommercial": 0.2029,
+        "lowRise": 0.2848,
+        "residential": 0.0772,
+        "industrial": 0.4288
+      },
+      "covered": 1.0,
+      "far": 262
+    },
+    "rokucho": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0143,
+        "第一種中高層住居専用地域": 0.2108,
+        "第一種住居地域": 0.4813,
+        "準住居地域": 0.0963,
+        "近隣商業地域": 0.0994,
+        "商業地域": 0.0374,
+        "準工業地域": 0.0605
+      },
+      "groups": {
+        "commercial": 0.0374,
+        "nearCommercial": 0.0994,
+        "lowRise": 0.2251,
+        "residential": 0.5776,
+        "industrial": 0.0605
+      },
+      "covered": 1.0,
+      "far": 230
+    },
+    "kita-senju": {
+      "shares": {
+        "第一種住居地域": 0.2068,
+        "近隣商業地域": 0.4097,
+        "商業地域": 0.2816,
+        "準工業地域": 0.1018
+      },
+      "groups": {
+        "commercial": 0.2816,
+        "nearCommercial": 0.4097,
+        "lowRise": 0.0,
+        "residential": 0.2068,
+        "industrial": 0.1018
+      },
+      "covered": 1.0,
+      "far": 357
+    },
+    "kita-ayase": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.3652,
+        "第二種中高層住居専用地域": 0.0127,
+        "第一種住居地域": 0.3954,
+        "準住居地域": 0.0446,
+        "近隣商業地域": 0.0446,
+        "準工業地域": 0.1376
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0446,
+        "lowRise": 0.3652,
+        "residential": 0.4527,
+        "industrial": 0.1376
+      },
+      "covered": 1.0,
+      "far": 309
+    },
+    "senjuohashi": {
+      "shares": {
+        "第一種住居地域": 0.1384,
+        "第二種住居地域": 0.027,
+        "近隣商業地域": 0.3071,
+        "商業地域": 0.1551,
+        "準工業地域": 0.2164,
+        "工業地域": 0.0557
+      },
+      "groups": {
+        "commercial": 0.1551,
+        "nearCommercial": 0.3071,
+        "lowRise": 0.0,
+        "residential": 0.1655,
+        "industrial": 0.2721
+      },
+      "covered": 0.8998,
+      "far": 349
+    },
+    "horikiri": {
+      "shares": {
+        "第一種住居地域": 0.0072,
+        "準工業地域": 0.4328,
+        "工業地域": 0.0239
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0072,
+        "industrial": 0.4566
+      },
+      "covered": 0.4638,
+      "far": 257
+    },
+    "daishimae": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0318,
+        "第一種住居地域": 0.4964,
+        "第二種住居地域": 0.0668,
+        "近隣商業地域": 0.323,
+        "商業地域": 0.0668,
+        "準工業地域": 0.0151
+      },
+      "groups": {
+        "commercial": 0.0668,
+        "nearCommercial": 0.323,
+        "lowRise": 0.0318,
+        "residential": 0.5632,
+        "industrial": 0.0151
+      },
+      "covered": 1.0,
+      "far": 262
+    },
+    "kosuge": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0915,
+        "第一種住居地域": 0.0907,
+        "第二種住居地域": 0.2005,
+        "近隣商業地域": 0.0191,
+        "準工業地域": 0.3246
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0191,
+        "lowRise": 0.0915,
+        "residential": 0.2912,
+        "industrial": 0.3246
+      },
+      "covered": 0.7263,
+      "far": 243
+    },
+    "ogi-ohashi": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1472,
+        "第一種住居地域": 0.4829,
+        "近隣商業地域": 0.0366,
+        "準工業地域": 0.0764,
+        "工業地域": 0.2021
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0366,
+        "lowRise": 0.1472,
+        "residential": 0.4829,
+        "industrial": 0.2784
+      },
+      "covered": 0.9451,
+      "far": 243
+    },
+    "umejima": {
+      "shares": {
+        "第一種住居地域": 0.3572,
+        "第二種住居地域": 0.0223,
+        "近隣商業地域": 0.1599,
+        "商業地域": 0.0223,
+        "準工業地域": 0.4002,
+        "工業地域": 0.0382
+      },
+      "groups": {
+        "commercial": 0.0223,
+        "nearCommercial": 0.1599,
+        "lowRise": 0.0,
+        "residential": 0.3795,
+        "industrial": 0.4383
+      },
+      "covered": 1.0,
+      "far": 251
+    },
+    "kohoku": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.4956,
+        "第一種住居地域": 0.1018,
+        "近隣商業地域": 0.1273,
+        "商業地域": 0.0326,
+        "準工業地域": 0.2204,
+        "工業地域": 0.0223
+      },
+      "groups": {
+        "commercial": 0.0326,
+        "nearCommercial": 0.1273,
+        "lowRise": 0.4956,
+        "residential": 0.1018,
+        "industrial": 0.2426
+      },
+      "covered": 1.0,
+      "far": 247
+    },
+    "ushida": {
+      "shares": {
+        "第二種中高層住居専用地域": 0.008,
+        "第一種住居地域": 0.0446,
+        "近隣商業地域": 0.1106,
+        "準工業地域": 0.537,
+        "工業地域": 0.1846
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1106,
+        "lowRise": 0.0,
+        "residential": 0.0525,
+        "industrial": 0.7216
+      },
+      "covered": 0.8846,
+      "far": 287
+    },
+    "takenotsuka": {
+      "shares": {
+        "第一種低層住居専用地域": 0.0931,
+        "第一種中高層住居専用地域": 0.2904,
+        "第一種住居地域": 0.1161,
+        "近隣商業地域": 0.3652,
+        "商業地域": 0.1329,
+        "準工業地域": 0.0024
+      },
+      "groups": {
+        "commercial": 0.1329,
+        "nearCommercial": 0.3652,
+        "lowRise": 0.3835,
+        "residential": 0.1161,
+        "industrial": 0.0024
+      },
+      "covered": 1.0,
+      "far": 287
+    },
+    "ayase": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.2275,
+        "第一種住居地域": 0.2824,
+        "準住居地域": 0.0223,
+        "近隣商業地域": 0.2816,
+        "商業地域": 0.1798,
+        "準工業地域": 0.0064
+      },
+      "groups": {
+        "commercial": 0.1798,
+        "nearCommercial": 0.2816,
+        "lowRise": 0.2275,
+        "residential": 0.3047,
+        "industrial": 0.0064
+      },
+      "covered": 1.0,
+      "far": 332
+    },
+    "toneri": {
+      "shares": {
+        "第一種低層住居専用地域": 0.2124,
+        "第一種中高層住居専用地域": 0.5593,
+        "第一種住居地域": 0.0772,
+        "近隣商業地域": 0.0501,
+        "準工業地域": 0.101
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0501,
+        "lowRise": 0.7717,
+        "residential": 0.0772,
+        "industrial": 0.101
+      },
+      "covered": 1.0,
+      "far": 216
+    },
+    "toneri-koen": {
+      "shares": {
+        "第一種低層住居専用地域": 0.7104,
+        "第一種住居地域": 0.1265,
+        "準工業地域": 0.1631
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.7104,
+        "residential": 0.1265,
+        "industrial": 0.1631
+      },
+      "covered": 1.0,
+      "far": 124
+    },
+    "nishiarai": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1957,
+        "第一種住居地域": 0.288,
+        "第二種住居地域": 0.0159,
+        "近隣商業地域": 0.1901,
+        "商業地域": 0.0875,
+        "準工業地域": 0.2228
+      },
+      "groups": {
+        "commercial": 0.0875,
+        "nearCommercial": 0.1901,
+        "lowRise": 0.1957,
+        "residential": 0.3039,
+        "industrial": 0.2228
+      },
+      "covered": 1.0,
+      "far": 264
+    },
+    "nishiaraidaishi-nishi": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0167,
+        "第一種住居地域": 0.7701,
+        "近隣商業地域": 0.0255,
+        "準工業地域": 0.1877
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0255,
+        "lowRise": 0.0167,
+        "residential": 0.7701,
+        "industrial": 0.1877
+      },
+      "covered": 1.0,
+      "far": 274
+    },
+    "minumadai-shinsuikoen": {
+      "shares": {
+        "第一種低層住居専用地域": 0.3588,
+        "第一種中高層住居専用地域": 0.1933,
+        "第一種住居地域": 0.0708,
+        "近隣商業地域": 0.0644,
+        "準工業地域": 0.0286
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0644,
+        "lowRise": 0.5521,
+        "residential": 0.0708,
+        "industrial": 0.0286
+      },
+      "covered": 0.716,
+      "far": 192
+    },
+    "yazaike": {
+      "shares": {
+        "第一種低層住居専用地域": 0.2514,
+        "第一種中高層住居専用地域": 0.0366,
+        "第一種住居地域": 0.5919,
+        "近隣商業地域": 0.0533,
+        "準工業地域": 0.0668
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0533,
+        "lowRise": 0.288,
+        "residential": 0.5919,
+        "industrial": 0.0668
+      },
+      "covered": 1.0,
+      "far": 222
+    },
+    "adachi-odai": {
+      "shares": {
+        "第一種住居地域": 0.0072,
+        "商業地域": 0.0366,
+        "準工業地域": 0.218,
+        "工業地域": 0.1225,
+        "工業専用地域": 0.0644
+      },
+      "groups": {
+        "commercial": 0.0366,
+        "nearCommercial": 0.0,
+        "lowRise": 0.0,
+        "residential": 0.0072,
+        "industrial": 0.4049
+      },
+      "covered": 0.4487,
+      "far": 270
+    },
+    "aoi": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.4543,
+        "第一種住居地域": 0.1185,
+        "近隣商業地域": 0.1201,
+        "準工業地域": 0.2037,
+        "工業地域": 0.1034
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1201,
+        "lowRise": 0.4543,
+        "residential": 0.1185,
+        "industrial": 0.3071
+      },
+      "covered": 1.0,
+      "far": 226
+    },
+    "koya": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.4375,
+        "第一種住居地域": 0.3174,
+        "近隣商業地域": 0.1122,
+        "商業地域": 0.0008,
+        "準工業地域": 0.113,
+        "工業地域": 0.0191
+      },
+      "groups": {
+        "commercial": 0.0008,
+        "nearCommercial": 0.1122,
+        "lowRise": 0.4375,
+        "residential": 0.3174,
+        "industrial": 0.1321
+      },
+      "covered": 1.0,
+      "far": 245
+    },
+    "ohanajaya": {
+      "shares": {
+        "第一種住居地域": 0.2633,
+        "近隣商業地域": 0.0135,
+        "商業地域": 0.0589,
+        "準工業地域": 0.2904,
+        "工業地域": 0.3739
+      },
+      "groups": {
+        "commercial": 0.0589,
+        "nearCommercial": 0.0135,
+        "lowRise": 0.0,
+        "residential": 0.2633,
+        "industrial": 0.6643
+      },
+      "covered": 1.0,
+      "far": 218
+    },
+    "kameari": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0032,
+        "第一種住居地域": 0.3636,
+        "第二種住居地域": 0.0151,
+        "近隣商業地域": 0.1862,
+        "商業地域": 0.3087,
+        "準工業地域": 0.1233
+      },
+      "groups": {
+        "commercial": 0.3087,
+        "nearCommercial": 0.1862,
+        "lowRise": 0.0032,
+        "residential": 0.3787,
+        "industrial": 0.1233
+      },
+      "covered": 1.0,
+      "far": 328
+    },
+    "keisei-tateishi": {
+      "shares": {
+        "第一種住居地域": 0.2975,
+        "第二種住居地域": 0.0143,
+        "近隣商業地域": 0.0684,
+        "商業地域": 0.171,
+        "準工業地域": 0.3835,
+        "工業地域": 0.0024
+      },
+      "groups": {
+        "commercial": 0.171,
+        "nearCommercial": 0.0684,
+        "lowRise": 0.0,
+        "residential": 0.3119,
+        "industrial": 0.3858
+      },
+      "covered": 0.9372,
+      "far": 258
+    },
+    "keisei-takasago": {
+      "shares": {
+        "第二種低層住居専用地域": 0.066,
+        "第一種中高層住居専用地域": 0.1305,
+        "第一種住居地域": 0.529,
+        "近隣商業地域": 0.1082,
+        "商業地域": 0.0525,
+        "準工業地域": 0.0581
+      },
+      "groups": {
+        "commercial": 0.0525,
+        "nearCommercial": 0.1082,
+        "lowRise": 0.1965,
+        "residential": 0.529,
+        "industrial": 0.0581
+      },
+      "covered": 0.9443,
+      "far": 219
+    },
+    "yotsugi": {
+      "shares": {
+        "近隣商業地域": 0.0326,
+        "商業地域": 0.0605,
+        "準工業地域": 0.4089,
+        "工業地域": 0.1225
+      },
+      "groups": {
+        "commercial": 0.0605,
+        "nearCommercial": 0.0326,
+        "lowRise": 0.0,
+        "residential": 0.0,
+        "industrial": 0.5314
+      },
+      "covered": 0.6245,
+      "far": 243
+    },
+    "horikirishobuen": {
+      "shares": {
+        "第一種住居地域": 0.2554,
+        "近隣商業地域": 0.1639,
+        "商業地域": 0.0883,
+        "準工業地域": 0.4423,
+        "工業地域": 0.0398
+      },
+      "groups": {
+        "commercial": 0.0883,
+        "nearCommercial": 0.1639,
+        "lowRise": 0.0,
+        "residential": 0.2554,
+        "industrial": 0.4821
+      },
+      "covered": 0.9897,
+      "far": 243
+    },
+    "shin-koiwa": {
+      "shares": {
+        "第一種住居地域": 0.4097,
+        "近隣商業地域": 0.0597,
+        "商業地域": 0.3898,
+        "準工業地域": 0.1408
+      },
+      "groups": {
+        "commercial": 0.3898,
+        "nearCommercial": 0.0597,
+        "lowRise": 0.0,
+        "residential": 0.4097,
+        "industrial": 0.1408
+      },
+      "covered": 1.0,
+      "far": 340
+    },
+    "shin-shibamata": {
+      "shares": {
+        "第二種低層住居専用地域": 0.4885,
+        "第一種中高層住居専用地域": 0.3699,
+        "第一種住居地域": 0.0461,
+        "近隣商業地域": 0.0907
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0907,
+        "lowRise": 0.8584,
+        "residential": 0.0461,
+        "industrial": 0.0
+      },
+      "covered": 0.9952,
+      "far": 207
+    },
+    "shibamata": {
+      "shares": {
+        "第二種低層住居専用地域": 0.1201,
+        "第一種中高層住居専用地域": 0.2045,
+        "第一種住居地域": 0.4535,
+        "近隣商業地域": 0.1042,
+        "商業地域": 0.0414,
+        "準工業地域": 0.0764
+      },
+      "groups": {
+        "commercial": 0.0414,
+        "nearCommercial": 0.1042,
+        "lowRise": 0.3246,
+        "residential": 0.4535,
+        "industrial": 0.0764
+      },
+      "covered": 1.0,
+      "far": 221
+    },
+    "kanamachi": {
+      "shares": {
+        "第二種低層住居専用地域": 0.0939,
+        "第一種中高層住居専用地域": 0.0509,
+        "第一種住居地域": 0.2673,
+        "第二種住居地域": 0.0581,
+        "近隣商業地域": 0.1233,
+        "商業地域": 0.323,
+        "準工業地域": 0.0835
+      },
+      "groups": {
+        "commercial": 0.323,
+        "nearCommercial": 0.1233,
+        "lowRise": 0.1448,
+        "residential": 0.3254,
+        "industrial": 0.0835
+      },
+      "covered": 1.0,
+      "far": 311
+    },
+    "aoto": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0947,
+        "第一種住居地域": 0.3866,
+        "第二種住居地域": 0.0636,
+        "近隣商業地域": 0.0485,
+        "商業地域": 0.0883,
+        "準工業地域": 0.113,
+        "工業地域": 0.0461
+      },
+      "groups": {
+        "commercial": 0.0883,
+        "nearCommercial": 0.0485,
+        "lowRise": 0.0947,
+        "residential": 0.4503,
+        "industrial": 0.1591
+      },
+      "covered": 0.8409,
+      "far": 260
+    },
+    "ichinoe": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.1217,
+        "第二種中高層住居専用地域": 0.0127,
+        "第一種住居地域": 0.459,
+        "近隣商業地域": 0.1663,
+        "準工業地域": 0.1002
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.1663,
+        "lowRise": 0.1217,
+        "residential": 0.4718,
+        "industrial": 0.1002
+      },
+      "covered": 0.86,
+      "far": 256
+    },
+    "keisei-koiwa": {
+      "shares": {
+        "第二種低層住居専用地域": 0.101,
+        "第一種中高層住居専用地域": 0.2609,
+        "第一種住居地域": 0.4638,
+        "近隣商業地域": 0.0684,
+        "商業地域": 0.1058
+      },
+      "groups": {
+        "commercial": 0.1058,
+        "nearCommercial": 0.0684,
+        "lowRise": 0.362,
+        "residential": 0.4638,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 252
+    },
+    "koiwa": {
+      "shares": {
+        "第一種住居地域": 0.541,
+        "近隣商業地域": 0.1289,
+        "商業地域": 0.3302
+      },
+      "groups": {
+        "commercial": 0.3302,
+        "nearCommercial": 0.1289,
+        "lowRise": 0.0,
+        "residential": 0.541,
+        "industrial": 0.0
+      },
+      "covered": 1.0,
+      "far": 374
+    },
+    "hirai": {
+      "shares": {
+        "第一種住居地域": 0.5155,
+        "近隣商業地域": 0.0827,
+        "商業地域": 0.3246,
+        "準工業地域": 0.0772
+      },
+      "groups": {
+        "commercial": 0.3246,
+        "nearCommercial": 0.0827,
+        "lowRise": 0.0,
+        "residential": 0.5155,
+        "industrial": 0.0772
+      },
+      "covered": 1.0,
+      "far": 320
+    },
+    "edogawa": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.253,
+        "第一種住居地域": 0.2204,
+        "近隣商業地域": 0.0835
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0835,
+        "lowRise": 0.253,
+        "residential": 0.2204,
+        "industrial": 0.0
+      },
+      "covered": 0.5569,
+      "far": 226
+    },
+    "mizue": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0231,
+        "第二種中高層住居専用地域": 0.0032,
+        "第一種住居地域": 0.7446,
+        "近隣商業地域": 0.1249,
+        "商業地域": 0.0652,
+        "準工業地域": 0.039
+      },
+      "groups": {
+        "commercial": 0.0652,
+        "nearCommercial": 0.1249,
+        "lowRise": 0.0231,
+        "residential": 0.7478,
+        "industrial": 0.039
+      },
+      "covered": 1.0,
+      "far": 303
+    },
+    "shinozaki": {
+      "shares": {
+        "第一種低層住居専用地域": 0.1034,
+        "第一種中高層住居専用地域": 0.249,
+        "第一種住居地域": 0.3492,
+        "近隣商業地域": 0.1504,
+        "商業地域": 0.0501,
+        "準工業地域": 0.0979
+      },
+      "groups": {
+        "commercial": 0.0501,
+        "nearCommercial": 0.1504,
+        "lowRise": 0.3524,
+        "residential": 0.3492,
+        "industrial": 0.0979
+      },
+      "covered": 1.0,
+      "far": 220
+    },
+    "funabori": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0175,
+        "第一種住居地域": 0.249,
+        "近隣商業地域": 0.1925,
+        "商業地域": 0.1066,
+        "準工業地域": 0.432,
+        "工業地域": 0.0024
+      },
+      "groups": {
+        "commercial": 0.1066,
+        "nearCommercial": 0.1925,
+        "lowRise": 0.0175,
+        "residential": 0.249,
+        "industrial": 0.4344
+      },
+      "covered": 1.0,
+      "far": 291
+    },
+    "kasai": {
+      "shares": {
+        "第一種住居地域": 0.5792,
+        "近隣商業地域": 0.1885,
+        "商業地域": 0.2084,
+        "準工業地域": 0.0239
+      },
+      "groups": {
+        "commercial": 0.2084,
+        "nearCommercial": 0.1885,
+        "lowRise": 0.0,
+        "residential": 0.5792,
+        "industrial": 0.0239
+      },
+      "covered": 1.0,
+      "far": 345
+    },
+    "kasai-rinkai-koen": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.4861,
+        "準工業地域": 0.5139
+      },
+      "groups": {
+        "commercial": 0.0,
+        "nearCommercial": 0.0,
+        "lowRise": 0.4861,
+        "residential": 0.0,
+        "industrial": 0.5139
+      },
+      "covered": 1.0,
+      "far": 188
+    },
+    "nishi-kasai": {
+      "shares": {
+        "第一種中高層住居専用地域": 0.0446,
+        "第一種住居地域": 0.4248,
+        "近隣商業地域": 0.2562,
+        "商業地域": 0.1114,
+        "準工業地域": 0.1631
+      },
+      "groups": {
+        "commercial": 0.1114,
+        "nearCommercial": 0.2562,
+        "lowRise": 0.0446,
+        "residential": 0.4248,
+        "industrial": 0.1631
+      },
+      "covered": 1.0,
+      "far": 333
+    }
+  }
+}

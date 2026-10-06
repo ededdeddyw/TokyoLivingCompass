@@ -3,32 +3,33 @@
   "locale": "en",
   "name": "Ginza",
   "tagline": "Tokyo in 3 minutes and Otemachi in 4 minutes. Served by 4 lines. A one-room flat rents for roughly ¥170,000 to ¥180,000.",
-  "summary": "The station is in Chuo City, served by Tokyo Metro Ginza Line, Tokyo Metro Marunouchi Line, Tokyo Metro Hibiya Line and Tokyo Metro Yurakucho Line. Journey times to the main business districts are 4 minutes to Otemachi, 16 minutes to Shinjuku, 17 minutes to Shibuya and 14 minutes to Shinagawa. A one-room flat rents for roughly ¥170,000 to ¥180,000. The station stands 3.8 m above sea level, and the ground within 800 m varies in height by 1.3 m. The land around the station is close to level.",
+  "summary": "The station is in Chuo City, where Tokyo Metro run 4 lines between them. Journey times to the main business districts are 4 minutes to Otemachi, 16 minutes to Shinjuku, 17 minutes to Shibuya and 14 minutes to Shinagawa. A one-room flat rents for roughly ¥170,000 to ¥180,000. The station stands 3.8 m above sea level, and the ground within 800 m varies in height by 1.3 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits on the higher side of the ground around it, at 3.8 m above sea level. Within 800 m the ground ranges from 2.5 m to 3.8 m, a difference of 1.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 3.8 m above sea level. Within 800 m the ground ranges from 2.5 m to 3.8 m, a difference of 1.3 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 5 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 2 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 5 of the nine points within 400 m fall inside the area, and the deepest projection there is 0.5 to 3 m. For storm surge, 2 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "オーケーストア",
       "tier": "discount",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/11524805662",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "明治屋",
       "tier": "premium",
       "walkMinutes": 12,
       "sourceUrl": "https://www.openstreetmap.org/node/7196596448",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 15 clinics and 9 pharmacies. Facilities recorded as hospitals lie at 十仁病院, about 761 m away and 浩邦会日比谷病院, about 782 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "4 lines serve the station: Tokyo Metro Ginza Line, Tokyo Metro Marunouchi Line, Tokyo Metro Hibiya Line and Tokyo Metro Yurakucho Line. All 4 lines are run by Tokyo Metro, so a fault affecting that company can stop them together. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 80.",
+  "medical": "Within an 800 m walk of the station there are 15 clinics and 9 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 十仁病院, about 13 minutes' walk from the station. The next nearest is 浩邦会日比谷病院, about 13 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "4 lines serve the station. Tokyo Metro Ginza Line run through it. Tokyo Metro Marunouchi Line also call here. Tokyo Metro Hibiya Line are available too. Tokyo Metro Yurakucho Line stop here as well. All 4 lines are run by Tokyo Metro, so a fault affecting that company can stop them together.",
+  "congestion": "Tokyo Metro Hibiya Line runs at 163% of capacity in the morning peak. The busiest stretch is 三ノ輪→入谷, which this station is not on. Tokyo Metro Marunouchi Line runs at 154%. Its busiest stretch is 新大塚→茗荷谷, which this station is likewise not on. Tokyo Metro Ginza Line runs at 153%. Its busiest stretch is 赤坂見附→溜池山王, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥170,000 to ¥180,000, 1K ¥140,000 to ¥150,000, 1LDK ¥250,000 to ¥260,000 and 2LDK ¥360,000 to ¥370,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥170,000 to ¥180,000 and 1K ¥140,000 to ¥150,000. 1LDK ¥250,000 to ¥260,000 and 2LDK ¥360,000 to ¥370,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -37,15 +38,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥170,000 to ¥180,000. For One room, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥170,000 to ¥180,000. Set against how long it takes to reach the central business districts, that is on the low side. 4 lines and a wide choice of connections and plenty of places to eat out pushes the figure up. On the other side, little daily shopping within walking distance holds it down. For One room, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "yurakucho",
-      "note": "408 m away in a straight line. It reaches Otemachi in about the same time as Ginza."
+      "lead": "For rail connections, Yurakucho; for how close the centre is, Ginza. ",
+      "note": "Close enough to walk to from Ginza. Yurakucho has 4 lines that Ginza does not. With more lines, Yurakucho is the better connected of the two. To Shinjuku, for instance, Yurakucho takes 4 minutes longer. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "higashi-ginza",
-      "note": "414 m away in a straight line. It takes 6 minutes longer to reach Otemachi than Ginza. One-room rents run about ¥10,000 lower."
+      "lead": "For lower rent, Higashi-Ginza; for rail connections, Ginza. ",
+      "note": "Close enough to walk to from Ginza. Higashi-Ginza has only the Tokyo Metro Hibiya Line and Toei Asakusa Line, so Ginza is the better connected. To Tokyo, for instance, Higashi-Ginza takes 6 minutes longer. A one-room flat, though, costs about ¥10,000 less at Higashi-Ginza."
     }
   ],
   "goodFor": [
@@ -58,5 +61,27 @@
     "People who want to finish their shopping on foot",
     "People who want to hold the rent down"
   ],
+  "noiseSources": [
+    "外堀通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road",
+    "晴海通り (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "majorHub",
+    "goodValue",
+    "fastToCenter",
+    "manyLines",
+    "diningRich",
+    "lateNight"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 2 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
+    "stationNote": "4 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are some of the most heavily loaded in the morning. ",
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
+  },
   "authoredBy": "data-generated"
 }

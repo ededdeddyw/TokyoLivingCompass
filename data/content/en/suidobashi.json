@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Suidobashi",
   "tagline": "Otemachi in 5 minutes and Tokyo in 11 minutes. Served by 2 lines. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
-  "summary": "The station is in Chiyoda City, served by JR Chuo-Sobu Line (Local) and Toei Mita Line. Journey times to the main business districts are 5 minutes to Otemachi, 17 minutes to Shinjuku, 23 minutes to Shibuya and 25 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 4.9 m above sea level, and the ground within 800 m varies in height by 21.3 m. The land around the station rises and falls sharply.",
+  "summary": "The station is in Chiyoda City, where JR East and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 5 minutes to Otemachi, 17 minutes to Shinjuku, 23 minutes to Shibuya and 25 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 4.9 m above sea level, and the ground within 800 m varies in height by 21.3 m. The land around the station rises and falls sharply.",
   "terrain": {
     "slope": "hilly",
-    "note": "The station sits lower than the ground around it, at 4.9 m above sea level. Within 800 m the ground ranges from 1.4 m to 22.7 m, a difference of 21.3 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits lower than the ground around it, at 4.9 m above sea level. Within 800 m the ground ranges from 1.4 m to 22.7 m, a difference of 21.3 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 4 fall inside the area, and the deepest projection among them is 0.5 to 3 m. For storm surge, 1 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 4 also fall inside the area, and the deepest projection is 0.5 to 3 m. For storm surge, 1 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "森下自然医食品店グルージア",
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/5542969138",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マルエツプチ",
       "tier": "standard",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/4964137902",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/3777876587",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ゆうきや",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/4961068246",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 21 clinics and 18 pharmacies. Facilities recorded as hospitals lie at 東京歯科大学水道橋病院, about 153 m away and 飯田医院, about 420 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "2 lines serve the station: JR Chuo-Sobu Line (Local) and Toei Mita Line. The lines are split between operators (JR East runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "medical": "Within an 800 m walk of the station there are 21 clinics and 18 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 東京歯科大学水道橋病院, about 3 minutes' walk from the station. The next nearest is 飯田医院, about 7 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station. JR Chuo-Sobu Line (Local) run through it. Toei Mita Line also call here. The lines are split between operators (JR East runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company.",
+  "congestion": "JR Chuo-Sobu Line (Local) runs at 151% of capacity in the morning peak. The busiest stretch is 錦糸町→両国, which this station is not on. Toei Mita Line runs at 146%. Its busiest stretch is 西巣鴨→巣鴨, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥130,000 to ¥140,000, 1K ¥140,000 to ¥150,000, 1LDK ¥220,000 to ¥230,000 and 2LDK ¥320,000 to ¥330,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥130,000 to ¥140,000 and 1K ¥140,000 to ¥150,000. 1LDK ¥220,000 to ¥230,000 and 2LDK ¥320,000 to ¥330,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What holds the figure down: a climb from the station to much of the housing. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "korakuen",
-      "note": "631 m away in a straight line. It takes 3 minutes longer to reach Otemachi than Suidobashi. One-room rents run about ¥26,000 lower."
+      "lead": "For lower rent, Korakuen; for how close the centre is, Suidobashi. ",
+      "note": "Close enough to walk to from Suidobashi. Korakuen has the Tokyo Metro Marunouchi Line and Tokyo Metro Namboku Line, a different set from Suidobashi. To Toranomon, for instance, Korakuen takes 3 minutes longer. A one-room flat costs about ¥26,000 less at Korakuen. On the number of places to eat out, Suidobashi comes out ahead."
     },
     {
       "slug": "hongo-sanchome",
-      "note": "678 m away in a straight line. It reaches Otemachi in about the same time as Suidobashi. One-room rents run about ¥7,000 lower."
+      "lead": "For lower rent, Hongo-Sanchome; for how close the centre is, Suidobashi. ",
+      "note": "Close enough to walk to from Suidobashi. Hongo-Sanchome has the Tokyo Metro Marunouchi Line and Toei Oedo Line, a different set from Suidobashi. To Shibuya, for instance, Hongo-Sanchome takes 5 minutes longer. A one-room flat costs about ¥7,000 less at Hongo-Sanchome. On how little of the area is in the flood projection, Hongo-Sanchome comes out ahead."
     }
   ],
   "goodFor": [
@@ -71,5 +74,26 @@
     "People avoiding projected flood inundation areas",
     "People who would rather not walk up and down slopes"
   ],
+  "noiseSources": [
+    "The 首都高速5号池袋線 viaduct runs a short walk from the station. It is an expressway, so traffic is audible day and night",
+    "外堀通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "lively",
+    "lateNight",
+    "hilly",
+    "cafeRich",
+    "medicalRich"
+  ],
+  "leads": {
+    "terrain": "The ground around the station rises and falls sharply, and living above or below the slope changes how much effort getting about takes.",
+    "groceries": "There are 11 supermarkets within walking distance, and the nearest is 6 minutes on foot.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
+    "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
+  },
   "authoredBy": "data-generated"
 }

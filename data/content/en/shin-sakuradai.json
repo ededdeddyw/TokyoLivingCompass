@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Shin-Sakuradai",
   "tagline": "Shinjuku in 27 minutes and Shibuya in 32 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Nerima City, served by Seibu Yurakucho Line. Journey times to the main business districts are 37 minutes to Otemachi, 27 minutes to Shinjuku, 32 minutes to Shibuya and 53 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 37.1 m above sea level, and the ground within 800 m varies in height by 1.6 m. The land around the station is close to level.",
+  "summary": "The station is in Nerima City, where Seibu run 1 line between them. Journey times to the main business districts are 37 minutes to Otemachi, 27 minutes to Shinjuku, 32 minutes to Shibuya and 53 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 37.1 m above sea level, and the ground within 800 m varies in height by 1.6 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits on the higher side of the ground around it, at 37.1 m above sea level. Within 800 m the ground ranges from 36.6 m to 38.2 m, a difference of 1.6 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 37.1 m above sea level. Within 800 m the ground ranges from 36.6 m to 38.2 m, a difference of 1.6 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
       "name": "ライフ 新桜台店",
       "tier": "standard",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/4160653093",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "Big-A 練馬栄町店",
       "tier": "discount",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/12477157918",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/5601377727",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "西友",
       "tier": "discount",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/1678025753",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 5 clinics and 8 pharmacies. Facilities recorded as hospitals lie at 東京武蔵野病院, about 896 m away and 練馬総合病院, about 1128 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Seibu Yurakucho Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 8 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 東京武蔵野病院, about 15 minutes' walk from the station. The next nearest is 練馬総合病院, about 19 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Seibu Yurakucho Line.",
+  "congestion": "Seibu Yurakucho Line runs at 102% of capacity in the morning peak. The busiest stretch of the line is 新桜台→小竹向原, which includes this station. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥70,000 to ¥80,000, 1K ¥90,000 to ¥100,000, 1LDK ¥150,000 to ¥160,000 and 2LDK ¥180,000 to ¥190,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥70,000 to ¥80,000 and 1K ¥90,000 to ¥100,000. 1LDK ¥150,000 to ¥160,000 and 2LDK ¥180,000 to ¥190,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "ekoda",
-      "note": "541 m away in a straight line. It reaches Otemachi 6 minutes sooner than Shin-Sakuradai."
+      "lead": "Ekoda is ahead on how close the centre is and the number of places to eat out. ",
+      "note": "Close enough to walk to from Shin-Sakuradai. Ekoda has the Seibu Ikebukuro Line, a different set from Shin-Sakuradai. To Tokyo, for instance, Ekoda is 7 minutes quicker. On the number of places to eat out, Ekoda comes out ahead."
     },
     {
       "slug": "sakuradai",
-      "note": "559 m away in a straight line. It reaches Otemachi 4 minutes sooner than Shin-Sakuradai."
+      "lead": "For how close the centre is, Sakuradai; for safety, Shin-Sakuradai. ",
+      "note": "Close enough to walk to from Shin-Sakuradai. Sakuradai has the Seibu Ikebukuro Line, a different set from Shin-Sakuradai. To Shinjuku, for instance, Sakuradai is 5 minutes quicker. On what it offers families, Shin-Sakuradai comes out ahead."
     }
   ],
   "goodFor": [
@@ -68,7 +71,27 @@
     "People living alone who want to hold the rent down"
   ],
   "notFor": [
-    "People who want another route when service is suspended"
+    "People who want another route when service is suspended",
+    "People who want plenty of places to eat out"
   ],
+  "noiseSources": [
+    "環七通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "quiet",
+    "lowFlood",
+    "singleLine",
+    "flat"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 8 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
+    "hazards": "Neither the station nor the ground around it falls inside the projected flood area.",
+    "stationNote": "Only the Seibu Yurakucho Line serves this station, so when it stops you walk to another station.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
+  },
   "authoredBy": "data-generated"
 }

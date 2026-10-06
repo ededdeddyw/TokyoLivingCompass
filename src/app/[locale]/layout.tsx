@@ -74,8 +74,13 @@ export default async function LocaleLayout({
         <main className="mx-auto max-w-5xl px-5 py-10">{children}</main>
 
         <footer className="border-t border-line bg-surface">
-          <div className="mx-auto max-w-5xl px-5 py-6 text-sm text-ink-soft">
-            {dict.siteName} — {dict.tagline}
+          <div className="mx-auto flex max-w-5xl flex-wrap items-center gap-x-5 gap-y-2 px-5 py-6 text-sm text-ink-soft">
+            <span>
+              {dict.siteName} — {dict.tagline}
+            </span>
+            <Link href={`/${locale}/about`} className="hover:text-accent">
+              {dict.about.heading}
+            </Link>
           </div>
         </footer>
       </body>

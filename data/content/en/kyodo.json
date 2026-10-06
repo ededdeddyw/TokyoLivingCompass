@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Kyodo",
   "tagline": "Shinjuku in 18 minutes and Shibuya in 20 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Setagaya City, served by Odakyu Odawara Line. Journey times to the main business districts are 36 minutes to Otemachi, 18 minutes to Shinjuku, 20 minutes to Shibuya and 46 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 38.5 m above sea level, and the ground within 800 m varies in height by 5.4 m. The land around the station is close to level.",
+  "summary": "The station is in Setagaya City, where Odakyu run 1 line between them. Journey times to the main business districts are 36 minutes to Otemachi, 18 minutes to Shinjuku, 20 minutes to Shibuya and 46 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 38.5 m above sea level, and the ground within 800 m varies in height by 5.4 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits on the higher side of the ground around it, at 38.5 m above sea level. Within 800 m the ground ranges from 35.2 m to 40.6 m, a difference of 5.4 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 38.5 m above sea level. Within 800 m the ground ranges from 35.2 m to 40.6 m, a difference of 5.4 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 3 fall inside the area, and the deepest projection among them is 0.5 to 3 m. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 3 of the nine points within 400 m fall inside the area, and the deepest projection there is 0.5 to 3 m. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "Odakyu OX 経堂店",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/1919626726",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "まいばすけっと 経堂駅前店",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/1696438301",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "オオゼキ",
       "tier": "discount",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/11015022709",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ピーコックストア 経堂店",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/1823133649",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 17 clinics and 13 pharmacies. Facilities recorded as hospitals lie at 児玉新生会児玉経堂病院, about 172 m away and 菊池外科病院, about 419 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Odakyu Odawara Line. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 17 clinics and 13 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 児玉新生会児玉経堂病院, about 3 minutes' walk from the station. The next nearest is 菊池外科病院, about 7 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Odakyu Odawara Line.",
+  "congestion": "Odakyu Odawara Line runs at 150% of capacity in the morning peak. The busiest stretch is 世田谷代田→下北沢, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥70,000 to ¥80,000, 1K ¥80,000 to ¥90,000, 1LDK ¥150,000 to ¥160,000 and 2LDK ¥220,000 to ¥230,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥70,000 to ¥80,000 and 1K ¥80,000 to ¥90,000. 1LDK ¥150,000 to ¥160,000 and 2LDK ¥220,000 to ¥230,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is on the low side. schools and parks within walking distance pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "miyanosaka",
-      "note": "896 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Kyodo."
+      "lead": "For quiet, Miyanosaka; for how close the centre is, Kyodo. ",
+      "note": "Close enough to walk to from Kyodo. Miyanosaka has the Tokyu Setagaya Line, a different set from Kyodo. To Tokyo, for instance, Miyanosaka takes 7 minutes longer. On how easy the shopping is, Kyodo comes out ahead."
     },
     {
       "slug": "gotokuji",
-      "note": "1038 m away in a straight line. It reaches Otemachi in about the same time as Kyodo."
+      "lead": "For rail connections, Gotokuji; for how easy the shopping is, Kyodo. ",
+      "note": "About 1 km from Kyodo in a straight line. Gotokuji also has the Tokyu Setagaya Line, which Kyodo does not. With more lines, Gotokuji is the better connected of the two. To Toranomon, for instance, Gotokuji is 3 minutes quicker. On how easy the shopping is, though, Kyodo comes out ahead."
     }
   ],
   "goodFor": [
@@ -71,5 +74,24 @@
   "notFor": [
     "People who want another route when service is suspended"
   ],
+  "noiseSources": [
+    "調布経堂停車場線 (1 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
+  ],
+  "tags": [
+    "someBustle",
+    "singleLine",
+    "familyFriendly",
+    "flat"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 12 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
+    "stationNote": "Only the Odakyu Odawara Line serves this station, so when it stops you walk to another station.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
+  },
   "authoredBy": "data-generated"
 }

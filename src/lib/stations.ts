@@ -19,6 +19,8 @@ import {
   type StationContent,
   type ScoreAxis,
   type StationProfile,
+  type TownTraits,
+  townTraitsFileSchema,
 } from "./schema";
 
 /**
@@ -34,6 +36,12 @@ const LINES_FILE = join(DATA_DIR, "reference", "lines.json");
 const COMMUTES_FILE = join(DATA_DIR, "computed", "commutes.json");
 const COMPUTED_SCORES_FILE = join(DATA_DIR, "computed", "scores.json");
 const RENT_BANDS_FILE = join(DATA_DIR, "computed", "rent-bands.json");
+const TOWN_TRAITS_DIR = join(DATA_DIR, "town-traits");
+/**
+ * 街の特色を重ねる順。住んでいる人の目線の出典（ぶらリハウス）を先に、
+ * 全駅の下地にしている Wikipedia を後ろに置く。ここに無いファイルは読まない。
+ */
+const TOWN_TRAIT_FILES = ["rehouse.json", "wikipedia.json"];
 
 function readJson(path: string): unknown {
   return JSON.parse(readFileSync(path, "utf8"));
@@ -280,4 +288,46 @@ export function getRoster(): RosterStation[] {
   }
   rosterCache = parsed.data;
   return rosterCache;
+}
+
+let townTraitCache: Map<string, TownTraits> | null = null;
+
+/**
+ * 街の特色。いまは日本語だけで、ほかのロケールでは出さない（訳していないため）。
+ * 出典ごとのファイルを重ね、出典ごとに記事へのリンクを残す。
+ */
+export function getTownTraits(slug: string, locale: ActiveLocale): TownTraits | null {
+  if (locale !== "ja") return null;
+  if (!townTraitCache) {
+    townTraitCache = new Map();
+    for (const file of TOWN_TRAIT_FILES) {
+      let raw: unknown;
+      try {
+        raw = readJson(join(TOWN_TRAITS_DIR, file));
+      } catch (error) {
+        if ((error as NodeJS.ErrnoException).code !== "ENOENT") throw error;
+        continue;
+      }
+      const parsed = townTraitsFileSchema.safeParse(raw);
+      if (!parsed.success) {
+        throw new Error(
+          `街の特色が不正です: ${file}\n${JSON.stringify(parsed.error.format(), null, 2)}`,
+        );
+      }
+      const { meta, stations } = parsed.data;
+      for (const [key, entry] of Object.entries(stations)) {
+        if (entry.traits.length === 0) continue;
+        const cur = townTraitCache.get(key) ?? { traits: [], sources: [] };
+        cur.traits.push(...entry.traits.map((t) => t.text));
+        cur.sources.push({
+          label: meta.label,
+          licenseName: meta.licenseName,
+          license: meta.license,
+          articles: entry.sources.map(({ title, url }) => ({ title, url })),
+        });
+        townTraitCache.set(key, cur);
+      }
+    }
+  }
+  return townTraitCache.get(slug) ?? null;
 }

@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Sugamo",
   "tagline": "Otemachi in 14 minutes and Shinjuku in 18 minutes. Served by 2 lines. A one-room flat rents for roughly ¥100,000 to ¥110,000.",
-  "summary": "The station is in Toshima City, served by JR Yamanote Line and Toei Mita Line. Journey times to the main business districts are 14 minutes to Otemachi, 18 minutes to Shinjuku, 23 minutes to Shibuya and 34 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 25.6 m above sea level, and the ground within 800 m varies in height by 1.8 m. The land around the station is close to level.",
+  "summary": "The station is in Toshima City, where JR East and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 14 minutes to Otemachi, 18 minutes to Shinjuku, 23 minutes to Shibuya and 34 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 25.6 m above sea level, and the ground within 800 m varies in height by 1.8 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits on the higher side of the ground around it, at 25.6 m above sea level. Within 800 m the ground ranges from 24.6 m to 26.4 m, a difference of 1.8 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 25.6 m above sea level. Within 800 m the ground ranges from 24.6 m to 26.4 m, a difference of 1.8 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
       "name": "成城石井",
       "tier": "premium",
       "walkMinutes": 1,
       "sourceUrl": "https://www.openstreetmap.org/node/12395612605",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "西友 巣鴨店",
       "tier": "discount",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/5459937879",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "サミット",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/2786939332",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "リコス",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/12541078305",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 22 clinics and 25 pharmacies. Facilities recorded as hospitals lie at 東京健生病院, about 1029 m away and 都立大塚病院, about 1083 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "2 lines serve the station: JR Yamanote Line and Toei Mita Line. The lines are split between operators (JR East runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "medical": "Within an 800 m walk of the station there are 22 clinics and 25 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 東京健生病院, about 17 minutes' walk from the station. The next nearest is 都立大塚病院, about 18 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station: JR Yamanote Line and Toei Mita Line. The lines are split between operators (JR East runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company.",
+  "congestion": "Toei Mita Line runs at 146% of capacity in the morning peak. The busiest stretch of the line is 西巣鴨→巣鴨, which includes this station. JR Yamanote Line runs at 136% of capacity in the morning peak. The busiest stretch is 新大久保→新宿, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥100,000 to ¥110,000, 1K ¥110,000 to ¥120,000, 1LDK ¥180,000 to ¥190,000 and 2LDK ¥230,000 to ¥240,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥100,000 to ¥110,000 and 1K ¥110,000 to ¥120,000. 1LDK ¥180,000 to ¥190,000 and 2LDK ¥230,000 to ¥240,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥100,000 to ¥110,000. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥100,000 to ¥110,000. Set against how long it takes to reach the central business districts, that is on the low side. a small projected flood depth pushes the figure up. On the other side, many bars by the station and voices outside late at night holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "sengoku",
-      "note": "811 m away in a straight line. It reaches Otemachi in about the same time as Sugamo."
+      "lead": "For quiet, Sengoku; for rail connections, Sugamo. ",
+      "note": "Close enough to walk to from Sugamo. Sengoku has only the Toei Mita Line, so Sugamo is the better connected. To Shinjuku, for instance, Sengoku takes 7 minutes longer. On quiet, though, Sengoku comes out ahead."
     },
     {
       "slug": "komagome",
-      "note": "843 m away in a straight line. It takes 7 minutes longer to reach Otemachi than Sugamo. One-room rents run about ¥6,000 lower."
+      "lead": "For lower rent, Komagome; for how close the centre is, Sugamo. ",
+      "note": "Close enough to walk to from Sugamo. Komagome has the JR Yamanote Line and Tokyo Metro Namboku Line, a different set from Sugamo. To Otemachi, for instance, Komagome takes 7 minutes longer. A one-room flat costs about ¥6,000 less at Komagome. On how little of the area is in the flood projection, Sugamo comes out ahead."
     }
   ],
   "goodFor": [
@@ -72,5 +75,24 @@
   "notFor": [
     "The data does not show a drawback particular to this station"
   ],
+  "noiseSources": [
+    "白山通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "goodValue",
+    "lowFlood",
+    "flat",
+    "medicalRich"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 10 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
+    "hazards": "Neither the station nor the ground around it falls inside the projected flood area.",
+    "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
+  },
   "authoredBy": "data-generated"
 }

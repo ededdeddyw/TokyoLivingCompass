@@ -23,6 +23,9 @@
 
 すでに人が書いた駅（authoredBy が draft か human）と、
 文章としてローカライズした駅（ai-localized）は上書きしない。
+ただし近くの駅の節（neighbours）だけは、距離・所要時間・家賃の差から組み立てる
+データだけの層なので、人が書いた駅でも作り直す。人が「比べたい駅」として選んだ駅は
+alternatives に入っており、この処理では触らない。
 
 言語ごとに違うのは文型だけで、組み立ての手順は変わらない。
 文型は scripts/station_phrases.py にまとめてある。
@@ -32,6 +35,7 @@ import json
 import math
 import os
 import re
+import statistics
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -56,6 +60,47 @@ def tier_of(name):
 
 def load(p):
     return json.load(open(os.path.join(D, p), encoding="utf-8"))
+
+
+def build_display_names(roster, lines, p):
+    """同じ駅名が2つあるときに、どちらの駅かが分かる表示名を作る。
+
+    早稲田は東京メトロ東西線と都電荒川線に、浅草は3路線とつくばエクスプレスに
+    それぞれ同じ名前の駅がある。名前だけで書くと
+    「静かさは早稲田が上回る。ただし都心への近さは早稲田が上回る」のように、
+    どちらの話をしているのか読み取れない文になる。
+
+    乗り入れる路線が多いほうを代表とし、そのまま「早稲田」と書く。
+    もう一方には路線名を添えて「早稲田（都電荒川線）」と書く。
+    """
+    by_name = {}
+    for st in roster:
+        by_name.setdefault(st["nameJa"], []).append(st)
+    names = {}
+    for group in by_name.values():
+        if len(group) == 1:
+            names[group[0]["slug"]] = p["stationName"](group[0])
+            continue
+        ordered = sorted(group, key=lambda st: (-len(st["lineIds"]), len(st["slug"])))
+        for i, st in enumerate(ordered):
+            plain = p["stationName"](st)
+            ids = [i for i in st["lineIds"] if i in lines]
+            if i == 0 or not ids:
+                names[st["slug"]] = plain
+            else:
+                label = line_name(p["lineName"](lines[ids[0]]))
+                names[st["slug"]] = p["stationNameWithLine"].format(
+                    name=plain, line=label)
+    return names
+
+
+def walk_minutes(distance_m):
+    """直線距離から徒歩分数を見積もる。scripts/fetch-pois.py と同じ見込みを使う。
+
+    距離をメートルで書くと、どこから測った値なのかが読み手に伝わらない。
+    「駅から歩いて何分か」のほうが、住む場所を決めるときの判断に直結する。
+    """
+    return max(1, math.ceil(distance_m * 1.3 / 80.0))
 
 
 def line_name(name):
@@ -84,10 +129,425 @@ def join(p, items):
     return p["listSep"].join(items[:-1]) + p["lastSep"] + items[-1]
 
 
+def chunk(items, limit=40):
+    """並べると長くなる語を、文に収まる塊に切る。1文が長いと読みにくいため。"""
+    out, cur, n = [], [], 0
+    for it in items:
+        if cur and n + len(it) + 1 > limit:
+            out.append(cur)
+            cur, n = [], 0
+        cur.append(it)
+        n += len(it) + 1
+    if cur:
+        out.append(cur)
+    return out
+
+
 def word(p, key, n):
     """数に応じた語形を返す。英語だけ単数と複数で変わる。"""
     forms = p["words"][key]
     return forms[0] if n == 1 else forms[1]
+
+
+def five(score):
+    """0〜100のスコアを5点満点に直す。src/lib/scoring.ts の toFivePoint と同じ式。"""
+    return round(min(5.0, max(1.0, 1 + score / 25)) * 2) / 2
+
+
+def band_key(prefix, score):
+    """スコアを5段階の文型キーにする（leadHazard5 〜 leadHazard1）。"""
+    v = five(score)
+    step = 5 if v >= 4.5 else 4 if v >= 3.5 else 3 if v >= 2.5 else 2 if v >= 1.5 else 1
+    return f"{prefix}{step}"
+
+
+# 街の性格タグ。スコアと路線数と地形から決まる。
+# 条件は「23区の駅の中で上位／下位2割」を目安に置いている。
+# 並び順がそのまま表示順になるので、街を言い当てる力が強いものを先に置く。
+TAG_RULES = [
+    # 繁華街の2段階は station_tags() が先に決める。ここでは扱わない。
+    ("lively", lambda sc, st, ter: sc.get("nightlife", 0) >= 80 and sc.get("food", 0) >= 75),
+    ("quiet", lambda sc, st, ter: sc.get("quietness", 0) >= 80),
+    ("goodValue", lambda sc, st, ter: sc.get("rentValue", -1) >= 80),
+    ("pricey", lambda sc, st, ter: 0 <= sc.get("rentValue", -1) <= 20),
+    ("fastToCenter", lambda sc, st, ter: sc.get("commute", 0) >= 80),
+    ("manyLines", lambda sc, st, ter: len(st["lineIds"]) >= 4),
+    ("singleLine", lambda sc, st, ter: len(st["lineIds"]) == 1),
+    ("floodArea", lambda sc, st, ter: sc.get("disaster", 100) <= 35),
+    ("lowFlood", lambda sc, st, ter: sc.get("disaster", 0) >= 90),
+    ("shoppingEasy", lambda sc, st, ter: sc.get("shopping", 0) >= 80),
+    ("diningRich", lambda sc, st, ter: sc.get("food", 0) >= 85),
+    ("cafeRich", lambda sc, st, ter: sc.get("cafe", 0) >= 85),
+    ("lateNight", lambda sc, st, ter: sc.get("nightlife", 0) >= 85),
+    ("parkNear", lambda sc, st, ter: sc.get("nature", 0) >= 85),
+    ("medicalRich", lambda sc, st, ter: sc.get("healthcare", 0) >= 90),
+    # family は学校・幼稚園・保育園を入れて組み直した。
+    # 高円寺は94点から61点（181位）になった（docs/14-audience-segments.md §1）。
+    ("familyFriendly", lambda sc, st, ter: sc.get("family", 0) >= 85),
+    ("singleFriendly", lambda sc, st, ter: sc.get("singleLife", 0) >= 85),
+    ("flat", lambda sc, st, ter: ter.get("slope") == "flat"),
+    ("hilly", lambda sc, st, ter: ter.get("slope") == "hilly"),
+]
+# 同時に立つと読み手が混乱する組み合わせ。先に出たほうを残す。
+TAG_CONFLICTS = [("lively", "quiet"), ("majorHub", "quiet"), ("someBustle", "quiet"),
+                 ("majorHub", "lively"), ("someBustle", "lively"),
+                 ("goodValue", "pricey"), ("floodArea", "lowFlood"),
+                 ("flat", "hilly"), ("manyLines", "singleLine")]
+MAX_TAGS = 6
+
+# 6つに絞るとき、どれを残すか。住む街を決める人が先に知りたい順に並べる。
+# TAG_RULES の並び順で切ると、街の性格を表すタグが後ろにあるせいで落ちる。
+# singleFriendly は条件を満たす駅が28あるのに、1駅にしか付いていなかった。
+TAG_ORDER = [
+    "majorHub", "someBustle", "lively", "quiet",
+    "goodValue", "pricey",
+    "floodArea", "lowFlood",
+    "fastToCenter", "manyLines", "singleLine",
+    "familyFriendly", "singleFriendly",
+    "shoppingEasy", "diningRich", "lateNight",
+    "flat", "hilly",
+    "cafeRich", "parkNear", "medicalRich",
+]
+
+
+# タグが足りない駅を埋めるとき、その駅で上のほうにある軸から順に見る。
+# しきい値を全体で下げるのではなく、タグが2つ以下の駅にだけ、この表を使う。
+FILL_TAGS = [
+    ("quietness", "quiet"), ("rentValue", "goodValue"), ("disaster", "lowFlood"),
+    ("commute", "fastToCenter"), ("singleLife", "singleFriendly"),
+    ("shopping", "shoppingEasy"), ("food", "diningRich"), ("nightlife", "lateNight"),
+    ("cafe", "cafeRich"), ("nature", "parkNear"), ("healthcare", "medicalRich"),
+]
+MIN_TAGS = 4        # ここを下回る駅だけ、下のしきい値で埋める
+FILL_FLOOR = 65     # 全458駅の上位3分の1にあたる
+
+
+def station_tags(sc, st, ter, ctx=None):
+    picked = [t for t, ok in TAG_RULES if ok(sc, st, ter)]
+    if ctx is not None:
+        bustle = bustle_tag(st["slug"], ctx)
+        if bustle:
+            picked.insert(0, bustle)
+
+    def drop_conflicts(tags):
+        for a, b in TAG_CONFLICTS:
+            if a in tags and b in tags:
+                tags.remove(b if tags.index(a) < tags.index(b) else a)
+        return tags
+
+    drop_conflicts(picked)
+    # タグが2つ以下だと、その駅が何も語らないページになる。門前仲町は
+    # 「平坦」1つだけだった。しきい値を全体で下げると、どの駅も同じ顔になるので、
+    # 足りない駅にだけ、その駅で上のほうにある軸から補う。
+    if len(picked) < MIN_TAGS:
+        for axis, tag in sorted(FILL_TAGS, key=lambda at: -sc.get(at[0], 0)):
+            if len(picked) >= MIN_TAGS:
+                break
+            if tag in picked or sc.get(axis, 0) < FILL_FLOOR:
+                continue
+            trial = picked + [tag]
+            if tag in drop_conflicts(list(trial)):
+                picked = trial
+
+    picked.sort(key=lambda t: TAG_ORDER.index(t) if t in TAG_ORDER else len(TAG_ORDER))
+    return picked[:MAX_TAGS]
+
+
+# 「大きな繁華街」は、よそから食事・買い物・飲みのためにわざわざ来る駅だけに付ける。
+#
+# 機械で決められない。半径300mの飲食店の数で並べると、上位は御徒町578・湯島544・
+# 京成上野345・赤坂305・渋谷305 の順になり、新宿は173、池袋は101で上位に出てこない。
+# 理由は2つある。
+#   1. 隣の繁華街からあふれた店を数えてしまう（湯島と末広町は上野・御徒町の一部、
+#      淡路町は神田と秋葉原の続き）
+#   2. 新宿・池袋・上野は駅の範囲が広く、代表の座標が繁華街の中心から離れる。
+#      商業の中身が百貨店や駅ビルで、OpenStreetMap では点1つにしかならない駅もある
+#
+# そこで、一覧は人が決め、データで裏を取る（ロースターの WARD_OVERRIDE と同じ扱い）。
+# 根拠は docs/12-quality-standard.md に書く。
+MAJOR_HUBS = {
+    # 山手線沿い
+    "shinjuku", "ikebukuro", "shibuya", "ebisu", "gotanda", "shimbashi", "ginza",
+    "kanda", "akihabara", "ueno", "okachimachi",
+    # 山手線の外側・内側で、よそから飲みに来る駅
+    "roppongi", "koenji", "akabane", "kinshicho", "nakano", "kita-senju", "takadanobaba",
+    "shimo-kitazawa", "kamata", "asakusa", "asakusa-tx", "sangen-jaya",
+    # 買い物でよそから来る駅。飲食店の数では測れない
+    "jiyugaoka",
+}
+
+# 「やや繁華街」は、駅前に店は多いが、よそから来る駅ではないところ。
+#
+# 店の数をそのまま全458駅で並べることはできない。OpenStreetMap の登録の細かさが
+# 区によって大きく違うためである。駅から500m以内にある商業の建物の棟数は、
+# 中央値で台東区205棟に対して板橋区9棟で、20倍以上の開きがある。
+# この差は街の実態ではなく、地図を作る人の多さの差である。
+#
+# そこで、全体で並べるのをやめ、まわりの駅と比べてどれだけ突き出ているかで測る。
+# 半径4km以内にある駅の中央値に対する倍率をとれば、区ごとの登録の細かさの差は
+# 分子と分母の両方に効くので打ち消し合う。
+BUSTLE_NEIGHBOUR_KM = 4.0
+SOME_BUSTLE_RATIO = 3.0
+# まわりの駅がどこも店の登録が少ない地域では、22軒の駅でも7倍に見えてしまう。
+# 倍率だけでなく、実数でも下限を置く。300m以内60軒は、全458駅の上位2割にあたる。
+SOME_BUSTLE_MIN_SHOPS = 60
+# 分母が小さいと倍率が跳ねる。中央値がこれを下回る地域では、この値を分母に使う。
+BUSTLE_FLOOR_SHOPS = 15.0
+BUSTLE_FLOOR_LEVELS = 150.0
+
+
+def bustle_ratio(slug, ctx):
+    """まわりの駅と比べて、店と商業の建物がどれだけ多いか。倍率で返す。"""
+    cache = ctx.setdefault("_bustleRatio", {})
+    if slug in cache:
+        return cache[slug]
+    roster, shops, floors = ctx["rosterBySlug"], ctx["bustle"], ctx["floors"]
+    here = roster.get(slug)
+    if here is None:
+        return 0.0
+    near = [o for o in shops
+            if haversine_m(here, roster[o]) <= BUSTLE_NEIGHBOUR_KM * 1000]
+    mid_shop = max(statistics.median(shops[o] for o in near), BUSTLE_FLOOR_SHOPS)
+    mid_floor = max(statistics.median(floors.get(o, 0) for o in near), BUSTLE_FLOOR_LEVELS)
+    r = math.sqrt(max(shops[slug] / mid_shop, 0.01)
+                  * max(floors.get(slug, 0) / mid_floor, 0.01))
+    cache[slug] = r
+    return r
+
+
+def bustle_tag(slug, ctx):
+    """繁華街のタグを決める。大きな繁華街・やや繁華街・なし の3段階。
+
+    隣の大きな駅の続きにあたる駅にも「やや繁華街」は付ける。
+    淡路町は神田と秋葉原の続きだが、駅前に店が多いこと自体は住む人に効くため。
+    付けないのは「大きな繁華街」のほうである。
+    """
+    if slug in MAJOR_HUBS:
+        return "majorHub"
+    if slug not in ctx["bustle"]:
+        return None
+    if ctx["bustle"][slug] < SOME_BUSTLE_MIN_SHOPS:
+        return None
+    return "someBustle" if bustle_ratio(slug, ctx) >= SOME_BUSTLE_RATIO else None
+
+
+def congestion_text(slug, lines, line_ids, ctx):
+    """朝の混雑率の節を組み立てる。路線ごとに、公表されている最混雑区間と値を書く。
+
+    値は路線の最混雑区間のものなので、その区間にこの駅が入っているかどうかで
+    読み手にとっての意味が変わる。門前仲町は東西線の最混雑区間（木場→門前仲町）に
+    入っており、毎朝その混み方の電車に乗ることになる。
+    """
+    p_, cong = ctx["p"], ctx["congestion"]
+    rows = []
+    for lid, name in zip(line_ids, lines):
+        v = cong.get(lid)
+        if v:
+            rows.append((v["rate"], lid, name, v))
+    if not rows:
+        # 都電荒川線や東京モノレールは調査の対象に入っていない。
+        # 黙って節を落とすと、調べていないのか混まないのかが読み手に分からない。
+        if not lines:
+            return None, None
+        return p_["congestionAllUnknown"].format(lines=join(p_, lines)), None
+    rows.sort(key=lambda r: -r[0])
+    bits = []
+    off_peak_seen = False
+    for rate, _, name, v in rows[:3]:
+        section = f"{v['fromStation']}→{v['toStation']}"
+        if slug in (v.get("fromSlug"), v.get("toSlug")):
+            key = "congestionOnPeak"
+        else:
+            # 2つめ以降は言い方を変える。同じ文末が続くと読みにくい（ルール22）
+            key = "congestionOffPeak2" if off_peak_seen else "congestionOffPeak"
+            off_peak_seen = True
+        bits.append(p_[key].format(line=name, rate=rate, section=section))
+    top = rows[0][0]
+    # 目安は、その駅の値が超えている段を書く。167%に「180%は…」と添えると、
+    # 実際より混むように読める
+    step = 4 if top >= 200 else 3 if top >= 180 else 2 if top >= 150 else 1
+    bits.append(p_[f"congestionScale{step}"])
+    bits.append(p_["congestionTrailer"])
+    # 公表されていない路線があることも書く。都電荒川線のように調査の対象外がある
+    known = {lid for _, lid, _, _ in rows}
+    unknown = [n for lid, n in zip(line_ids, lines) if lid not in known]
+    if unknown:
+        bits.insert(min(len(rows), 3),
+                    p_["congestionUnknown"].format(lines=join(p_, unknown)))
+    return "".join(bits).strip(), top
+
+
+def congestion_lead(slug, line_ids, ctx):
+    """朝の混雑率の「一言でいうと」。
+
+    公表されている混雑率は、路線の中でいちばん混む区間の値である。
+    使える路線の値だけで「とても高い」と書くと、大崎のように、どの路線でも
+    いちばん混む区間の外にある駅まで、毎朝その混み方の電車に乗るように読める。
+    本文は「この駅はその区間に入りません」と書いているので、一言と本文が食い違う。
+    そこで、この駅がいちばん混む区間に入るかどうかを先に見る。
+    """
+    p_, cong = ctx["p"], ctx["congestion"]
+    rows = [(cong[i]["rate"], i) for i in line_ids if i in cong and i in ctx["lines"]]
+    if not rows:
+        return None
+    on_peak = sorted(((r, i) for r, i in rows
+                      if slug in (cong[i].get("fromSlug"), cong[i].get("toSlug"))),
+                     reverse=True)
+    top = max(r for r, _ in rows)
+
+    def name(i):
+        return line_name(p_["lineName"](ctx["lines"][i]))
+
+    if on_peak:
+        rate, lid = on_peak[0]
+        key = "leadCongestionOnPeakHigh" if rate >= 150 else "leadCongestionOnPeakLow"
+        return p_[key].format(line=name(lid), rate=rate)
+    if top >= 150:
+        return p_["leadCongestionOffPeakHigh"]
+    if slug in ctx["congestionEase"]:
+        return p_[band_key("leadCongestion", ctx["congestionEase"][slug])]
+    return None
+
+
+# 2駅を比べる軸。差がこれ以上あるときだけ書く。
+# 誰にとっても向きが同じ軸から先に見る（ルール40）。
+# 静かさと外食できる店の多さは人によって向きが変わるので、後ろに回す。
+NB_AXES = [("disaster", "cmpAxisDisaster", 15), ("safety", "cmpAxisSafety", 20),
+           ("healthcare", "cmpAxisHealthcare", 18), ("shopping", "cmpAxisShopping", 18),
+           ("family", "cmpAxisFamily", 25), ("quietness", "cmpAxisQuiet", 18),
+           ("food", "cmpAxisFood", 20)]
+
+
+# 所要時間の差をこれ以上で「早く着く」と書く。計算値の誤差は±3分ほどあるので、
+# 2駅の差が4分以下だと、向きそのものが誤差に埋もれる（docs/10-commute-estimation.md）。
+COMMUTE_GAP_MIN = 5
+
+
+def commute_edge(a, b, ctx):
+    """2駅の所要時間を比べて、どちらが通勤で速いかを返す。
+
+    返り値は (勝つ側, aが速いオフィス街のリスト, bが速いオフィス街のリスト)。
+    リストは差の大きい順で、要素は (差の分数, オフィス街)。
+    勝つ側は "a"・"b"・None。片方が2か所以上で速く、もう片方が1か所も
+    速くないときだけ勝ちとする。1か所だけなら行き先しだいなので勝ち負けにしない。
+    """
+    ca = {e["to"]: e["minutes"] for e in ctx["com"].get(a, [])}
+    cb = {e["to"]: e["minutes"] for e in ctx["com"].get(b, [])}
+    a_fast = sorted(((cb[h] - ca[h], h) for h in ca if h in cb
+                     and cb[h] - ca[h] >= COMMUTE_GAP_MIN), reverse=True)
+    b_fast = sorted(((ca[h] - cb[h], h) for h in ca if h in cb
+                     and ca[h] - cb[h] >= COMMUTE_GAP_MIN), reverse=True)
+    edge = None
+    if len(a_fast) >= 2 and not b_fast:
+        edge = "a"
+    elif len(b_fast) >= 2 and not a_fast:
+        edge = "b"
+    return edge, a_fast, b_fast
+
+
+# 比べた軸に、何を数えた結果なのかを添える。「買い物のしやすさは○○が上」だけでは
+# 根拠が読み手に見えない。数えた範囲は data/computed/pois.json の半径（800m）で、
+# 徒歩分数は 800m × 1.3 ÷ 分速80m ＝ 13分。
+AXIS_COUNTS = {
+    "shopping": (("supermarket",), "nbReasonShopping"),
+    "healthcare": (("clinic", "pharmacy"), "nbReasonHealthcare"),
+    "food": (("restaurant",), "nbReasonFood"),
+}
+
+
+def axis_reason(p, axis, winner, loser, ctx):
+    """軸の差の根拠を1文で返す。数えられない軸は None。"""
+    if axis not in AXIS_COUNTS:
+        return None
+    cats, key = AXIS_COUNTS[axis]
+
+    def pick(slug):
+        return sorted((x for x in ctx["pois"].get(slug, []) if x["category"] in cats),
+                      key=lambda x: x["distanceM"])
+
+    w, l = pick(winner), pick(loser)
+    if len(w) <= len(l):
+        return None
+    names = []
+    for x in w:
+        # 「まいばすけっと 西五反田2丁目店」と「まいばすけっと 東五反田５丁目店」の
+        # ように同じ店の別店舗が並ぶので、店の名前の頭で重複を除く
+        head = re.split(r"[ 　]", x["name"])[0]
+        # 「peacock」と「ピーコックストア」のように、同じ店が英字でも登録されている。
+        # 日本語の文に入れるので、英字だけの名前は使わない
+        if p is PHRASES["ja"] and re.fullmatch(r"[A-Za-z0-9&'.\- ]+", head):
+            continue
+        if head and head not in names:
+            names.append(head)
+        if len(names) == 2:
+            break
+    return p[key].format(
+        winner=ctx["displayName"][winner], loser=ctx["displayName"][loser],
+        w=len(w), l=len(l), names=join(p, names))
+
+
+def compare_wins(p, a, b, ctx):
+    """2駅を比べて、それぞれが上回る点を並べる。
+
+    本文（note）と同じ材料・同じしきい値で選ぶので、一言と本文が食い違わない。
+    通勤の速さ → 家賃の安さ → そのほかの軸、の順に見る。
+    """
+    sc, bands, roster = ctx["sc"], ctx["bands"], ctx["rosterBySlug"]
+    a_wins, b_wins = [], []
+
+    # 鉄道の便は路線の本数では決めない。大崎（4路線）と五反田（3路線）は
+    # 山手線が共通で、残りは行き先の違う路線どうしである。本数で「大崎が上回る」と
+    # 書くと、浅草線や池上線で通う人にとっては逆になる。
+    # 主なオフィス街への所要時間が、片方だけに偏って速いときに限って書く。
+    edge, _, _ = commute_edge(a, b, ctx)
+    if edge == "a":
+        a_wins.append(p["cmpAxisCommute"])
+    elif edge == "b":
+        b_wins.append(p["cmpAxisCommute"])
+
+    def band(slug):
+        v = bands.get(slug, {}).get("bands", {}).get("oneRoom")
+        return v["mean"] if v else None
+
+    ra, rb = band(a), band(b)
+    if ra is not None and rb is not None and abs(ra - rb) >= 5000:
+        (b_wins if rb < ra else a_wins).append(p["cmpAxisRentLow"])
+
+    for axis, label, gapmin in NB_AXES:
+        va, vb = sc.get(a, {}).get(axis), sc.get(b, {}).get(axis)
+        if va is None or vb is None:
+            continue
+        if va - vb >= gapmin:
+            a_wins.append(p[label])
+        elif vb - va >= gapmin:
+            b_wins.append(p[label])
+    return a_wins, b_wins
+
+
+def compare_lead(p, a, b, ctx):
+    """
+    2駅を比べた「一言でいうと」を組み立てる。
+
+    上回る点だけを並べると「それなら隣の駅でいい」としか読めない。
+    どちらを取るならどちらか、が1文で分かる形にする（ルール49）。
+    """
+    roster = ctx["rosterBySlug"]
+    if a not in roster or b not in roster:
+        return None
+    names = ctx["displayName"]
+    a_wins, b_wins = compare_wins(p, a, b, ctx)
+    if a_wins and b_wins:
+        return p["nbPickBoth"].format(
+            nbWin=b_wins[0], nb=names[b], stWin=a_wins[0], station=names[a])
+    # 片方が2つ以上の点で上回るときに「ほかの条件に大きな違いはありません」と
+    # 書くと、本文に出ている差と食い違う。その場合は2つ並べて言い切る。
+    if b_wins:
+        key = "nbPickNb" if len(b_wins) == 1 else "nbPickNbMany"
+        return p[key].format(nbWin=p["cmpSep"].join(b_wins[:2]), nb=names[b])
+    if a_wins:
+        key = "nbPickSt" if len(a_wins) == 1 else "nbPickStMany"
+        return p[key].format(stWin=p["cmpSep"].join(a_wins[:2]), station=names[a])
+    return p["nbPickNone"]
 
 
 def build(st, ctx):
@@ -96,12 +556,13 @@ def build(st, ctx):
     money, unit, sep = p["money"], p["moneyUnit"], p["listSep"]
     depth_label = p["depth"]
     slug = st["slug"]
-    name = p["stationName"](st)
+    name = ctx["displayName"][slug]
     line_objs = [ctx["lines"][i] for i in st["lineIds"] if i in ctx["lines"]]
     lines = [line_name(p["lineName"](l)) for l in line_objs]
     companies = [l["company"] for l in line_objs]
     com = {e["to"]: e["minutes"] for e in ctx["com"].get(slug, [])}
     ter = ctx["ter"].get(slug, {})
+    road = ctx["roads"].get(slug, {})
     haz = ctx["haz"].get(slug, {}).get("flood", {})
     tide = ctx["haz"].get(slug, {}).get("hightide", {})
     band = ctx["bands"].get(slug)
@@ -124,7 +585,15 @@ def build(st, ctx):
         reach=reach, lineCount=len(lines), lineWord=word(p, "line", len(lines)),
         rent=rent_txt).strip()
 
-    parts = [p["summaryWhere"].format(ward=p["ward"](st), lines=join(p, lines))]
+    where = p["summaryWhere"].format(ward=p["ward"](st), lines=join(p, lines))
+    if len(where) > 60:
+        # 路線名を全部並べると1文が長くなりすぎる。概要では運営会社と本数だけ出し、
+        # 路線名は「駅の使い勝手」に回す。
+        firms = sorted(set(companies), key=companies.index)
+        where = p["summaryWhereMany"].format(
+            ward=p["ward"](st), operators=join(p, (p["company"][co] for co in firms)),
+            count=len(lines), lineWord=word(p, "line", len(lines)))
+    parts = [where]
     hub_order = ["otemachi", "shinjuku", "shibuya", "shinagawa"]
     parts.append(p["summaryCommute"].format(items=join(p, (
         p["commuteItem"].format(hub=p["hubs"][h], minutes=com[h],
@@ -156,12 +625,21 @@ def build(st, ctx):
             head = p["floodNearOnly"]
         else:
             head = p["floodNone"]
-        detail = (p["floodAround"].format(count=haz["aroundCount"],
-                                          deepest=depth_label[haz["deepest"]])
-                  if haz.get("aroundCount") else "")
+        if haz.get("aroundCount"):
+            key = ("floodAroundAll" if haz["aroundCount"] >= 9
+                   else "floodAroundSome" if haz.get("atStation")
+                   else "floodAroundOnly")
+            detail = p[key].format(count=haz["aroundCount"],
+                                   deepest=depth_label[haz["deepest"]])
+        else:
+            detail = ""
         tide_txt = (p["hightide"].format(count=tide["aroundCount"])
                     if tide.get("aroundCount") else "")
-        c["hazards"] = (head + detail + tide_txt + p["hazardTrailer"]).strip()
+        # 事実を並べて終わらせず、23区の中でどのあたりなのかで締める（ルール49）。
+        scores = ctx["sc"].get(slug, {})
+        tail = (p[band_key("hazardTrailer", scores["disaster"])]
+                if "disaster" in scores else "")
+        c["hazards"] = (head + detail + tide_txt + tail).strip()
 
     # ── 買い物（OpenStreetMap） ────────────────────
     sup = by_cat.get("supermarket", [])
@@ -191,26 +669,44 @@ def build(st, ctx):
                 p["medicalPharmacies"].format(
                     count=len(ph), pharmacyWord=word(p, "pharmacy", len(ph))) if ph else "") if x]
             bits = [p["medicalCounts"].format(items=join(p, counts))]
+            # 数が少ない駅にまで「選べます」と書くと、事実と合わない。
+            if len(cl) + len(ph) >= 10:
+                bits.append(p["medicalEnough"])
         else:
             bits = [p["medicalNone"]]
         if hp:
             near = sorted(hp, key=lambda x: x["distanceM"])[:2]
-            bits.append(p["medicalHospitals"].format(items=join(p, (
-                p["medicalHospitalItem"].format(name=h["name"], distance=h["distanceM"])
-                for h in near))))
+            bits.append(p["medicalHospitalNearest"].format(
+                name=near[0]["name"], distance=near[0]["distanceM"],
+                minutes=walk_minutes(near[0]["distanceM"])))
+            if len(near) > 1:
+                bits.append(p["medicalHospitalSecond"].format(
+                    name=near[1]["name"], distance=near[1]["distanceM"],
+                    minutes=walk_minutes(near[1]["distanceM"])))
         else:
             bits.append(p["medicalNoHospital"])
         bits.append(p["medicalTrailer"])
         c["medical"] = "".join(bits).strip()
 
     # ── 駅の使い勝手 ───────────────────────────────
-    note = [p["stationLines"].format(lines=join(p, lines), count=len(lines),
-                                     lineWord=word(p, "line", len(lines)))]
+    groups = chunk(lines)
+    if len(groups) == 1:
+        note = [p["stationLines"].format(lines=join(p, lines), count=len(lines),
+                                         lineWord=word(p, "line", len(lines)))]
+    else:
+        note = [p["stationLinesCount"].format(count=len(lines),
+                                              lineWord=word(p, "line", len(lines))),
+                p["stationLinesHead"].format(lines=join(p, groups[0]))]
+        more = ["stationLinesMore", "stationLinesMore2", "stationLinesMore3"]
+        for i, g in enumerate(groups[1:]):
+            note.append(p[more[min(i, len(more) - 1)]].format(lines=join(p, g)))
     # 乗換の余地は「路線がいくつあるか」ではなく「運営会社が分かれているか」で決まる。
     # 京王と小田急はどちらも私鉄だが別の会社なので、片方が止まっても他方は動く。
     unique = sorted(set(companies), key=companies.index)
     if len(lines) == 1:
-        note.append(p["stationSingleLine"])
+        # 1路線だけの駅では、止まったときの話を「一言でいうと」に書く。
+        # 本文でも同じことを書くと、同じ内容を2回読ませることになる。
+        pass
     elif len(unique) > 1:
         breakdown = join(p, (
             p["stationOperatorItem"].format(
@@ -224,56 +720,233 @@ def build(st, ctx):
             count=len(lines), lineWord=word(p, "line", len(lines)),
             operator=p["company"][unique[0]]))
     sc = ctx["sc"].get(slug, {})
-    if "transitConvenience" in sc:
-        note.append(p["stationTransitScore"].format(score=sc["transitConvenience"]))
+    # 乗換の利便性の点数は、本文に書かない。「32点である」とだけ書いても、
+    # 高いのか低いのかが読み手に伝わらない。点数は評価軸の表に出している。
     c["stationNote"] = "".join(note).strip()
+
+    # ── 朝の混雑率（国土交通省の調査） ─────────────
+    text, top = congestion_text(
+        slug, lines, [i for i in st["lineIds"] if i in ctx["lines"]], ctx)
+    if text:
+        c["congestion"] = text
+        ctx.setdefault("_congestionTop", {})[slug] = top
 
     # ── 家賃（当社調べ） ───────────────────────────
     if band:
         b = band["bands"]
         rows = [(k, l) for k, l in p["rentLabels"].items() if k in b]
+        # 4間取りを1文に入れると60字を超えるので、2つずつに分ける（ルール43）。
+        # 先頭の文には「駅周辺の家賃相場は」という主語を置く（ルール4）。
+        def rent_items(group):
+            return join(p, (p["rentItem"].format(
+                label=l, low=money(b[k]["low"]), high=money(b[k]["high"]), unit=unit)
+                for k, l in group))
+
+        groups = [rows[i:i + 2] for i in range(0, len(rows), 2)]
+        note = [p["rentNoteHead"].format(items=rent_items(groups[0]))]
+        for g in groups[1:]:
+            note.append(p["rentNoteMore"].format(items=rent_items(g)))
+        note.append(p["rentNoteTrailer"])
         c["rentRange"] = {
-            "note": p["rentNote"].format(items=join(p, (
-                p["rentItem"].format(label=l, low=money(b[k]["low"]),
-                                     high=money(b[k]["high"]), unit=unit)
-                for k, l in rows))),
+            "note": "".join(note),
             "drivers": list(p["rentDrivers"]),
         }
         reason = []
         if "oneRoom" in b:
             reason.append(p["rentReason"].format(
                 low=money(b["oneRoom"]["low"]), high=money(b["oneRoom"]["high"]), unit=unit))
+        # 「家賃がこの水準である理由」の節なので、相場の数字を繰り返すだけで
+        # 終わらせない。通勤時間に対してどの位置にあるかを書き、
+        # 相場を押し上げている材料と抑えている材料を添える（ルール49）。
+        if "rentValue" in sc:
+            reason.append(p[band_key("rentLevel", sc["rentValue"])])
+            down, up = [], []
+            if sc.get("disaster", 100) <= 35:
+                down.append(p["rentFactorFlood"])
+            if len(lines) == 1:
+                down.append(p["rentFactorOneLine"])
+            if ter.get("slope") == "hilly":
+                down.append(p["rentFactorHilly"])
+            if sc.get("shopping", 100) <= 30:
+                down.append(p["rentFactorFewShops"])
+            if sc.get("quietness", 100) <= 25:
+                down.append(p["rentFactorNoisy"])
+            if sc.get("transitConvenience", 0) >= 70 and len(lines) >= 3:
+                up.append(p["rentFactorManyLines"].format(count=len(lines)))
+            if sc.get("disaster", 0) >= 85:
+                up.append(p["rentFactorDry"])
+            if sc.get("family", 0) >= 80:
+                up.append(p["rentFactorFamily"])
+            if sc.get("quietness", 0) >= 75:
+                up.append(p["rentFactorQuiet"])
+            if sc.get("food", 0) >= 85:
+                up.append(p["rentFactorFood"])
+            down, up = down[:2], up[:2]
+            # 通勤時間に対して安い駅で「押し上げる材料」だけを並べると、
+            # 直前の文と向きが合わない。水準に合う側が無いときは、
+            # 代わりに金額そのものの位置を書く。
+            cheap_side = sc["rentValue"] >= 60
+            pricey_side = sc["rentValue"] <= 40
+            if (down and up) or (down and not pricey_side) or (up and not cheap_side):
+                if down and up:
+                    reason.append(p["rentBoth"].format(up=join(p, up), down=join(p, down)))
+                elif down:
+                    reason.append(p["rentDown"].format(items=join(p, down)))
+                else:
+                    reason.append(p["rentUp"].format(items=join(p, up)))
+            elif "rentLow" in sc:
+                if pricey_side and sc["rentLow"] >= 60:
+                    reason.append(p["rentAbsoluteLow"])
+                elif cheap_side and sc["rentLow"] <= 40:
+                    reason.append(p["rentAbsoluteHigh"])
         wide = [l for k, l in rows if b[k]["wideSpread"]]
         if wide:
             reason.append(p["rentWideSpread"].format(layouts=p["rentWideSep"].join(wide)))
         if reason:
             c["rentReason"] = "".join(reason).strip()
 
-    # ── 隣の駅との使い分け ─────────────────────────
+    # ── 近くの駅との違い ───────────────────────────
     near = sorted(((haversine_m(st, o), o) for o in ctx["roster"] if o["slug"] != slug),
                   key=lambda t: t[0])[:2]
     nb = []
+    # 比べる軸。差がこれ以上あるときだけ、乗り換えの一言として書く。
     for dist, o in near:
-        oc = {e["to"]: e["minutes"] for e in ctx["com"].get(o["slug"], [])}
-        ob = ctx["bands"].get(o["slug"])
-        bits = [p["neighbourDistance"].format(meters=int(dist))]
-        if "otemachi" in com and "otemachi" in oc:
-            d = oc["otemachi"] - com["otemachi"]
-            if abs(d) <= 2:
-                bits.append(p["neighbourSame"].format(station=name))
+        oslug = o["slug"]
+        oc = {e["to"]: e["minutes"] for e in ctx["com"].get(oslug, [])}
+        ob = ctx["bands"].get(oslug)
+        oname = ctx["displayName"][oslug]
+        olines = [line_name(p["lineName"](ctx["lines"][i]))
+                  for i in o["lineIds"] if i in ctx["lines"]]
+
+        # 1. どれくらい離れているか
+        if dist < 1000:
+            bits = [p["neighbourDistanceClose"].format(station=name)]
+        else:
+            bits = [p["neighbourDistanceFar"].format(
+                station=name,
+                km=f"{round(dist / 500) / 2:.1f}".rstrip("0").rstrip("."))]
+
+        # 2. 使える路線がどう違うか。本数ではなく、共通の路線と、片方にしかない路線を書く。
+        # 本数で「鉄道の便は○○が上回る」と書くと、大崎（4路線）と五反田（3路線）のように
+        # 山手線が共通で、残りが行き先の違う路線どうしのときに、読み手を誤らせる。
+        common = [l for l in lines if l in olines]
+        only_here = [l for l in lines if l not in olines]
+        only_there = [l for l in olines if l not in lines]
+
+        def lines_or_count(items):
+            # 路線名を全部並べると1文が長くなる（ルール43）。3本までは名前で書く
+            return (join(p, items) if len(items) <= 3
+                    else p["nbLinesCount"].format(count=len(items)))
+
+        if olines:
+            if common and (only_here or only_there):
+                bits.append(p["nbLinesCommon"].format(lines=lines_or_count(common)))
+            if only_here and only_there:
+                bits.append(p["nbLinesEach"].format(
+                    station=name, nb=oname,
+                    here=lines_or_count(only_here), there=lines_or_count(only_there)))
+            elif only_there:
+                bits.append(p["nbLinesExtra"].format(
+                    nb=oname, station=name, lines=lines_or_count(only_there)))
+            elif only_here:
+                bits.append(p["nbLinesExtraHere"].format(
+                    nb=oname, station=name, lines=lines_or_count(only_here)))
             else:
-                key = "neighbourSlower" if d > 0 else "neighbourFaster"
-                bits.append(p[key].format(station=name, minutes=abs(d),
-                                          minuteWord=word(p, "minute", abs(d))))
+                bits.append(p["nbLinesSame"].format(station=name))
+
+        # 3. 通勤時間の差。路線の本数ではなく、主なオフィス街への所要時間で比べる。
+        # 行き先によって速いほうが入れ替わるなら、そのまま両方を書く。
+        edge, here_fast, there_fast = commute_edge(slug, oslug, ctx)
+        rail_better = {"a": False, "b": True}.get(edge)
+        if oc and com:
+            if here_fast and there_fast:
+                bits.append(p["nbCommuteSplit"].format(
+                    station=name, nb=oname,
+                    hubA=p["hubs"][here_fast[0][1]], a=here_fast[0][0],
+                    hubB=p["hubs"][there_fast[0][1]], b=there_fast[0][0],
+                    minuteWordA=word(p, "minute", here_fast[0][0]),
+                    minuteWordB=word(p, "minute", there_fast[0][0])))
+            elif here_fast or there_fast:
+                fast = here_fast or there_fast
+                who = name if here_fast else oname
+                if len(fast) == 1:
+                    bits.append(p["nbCommuteOne"].format(
+                        who=who, hub=p["hubs"][fast[0][1]], minutes=fast[0][0],
+                        minuteWord=word(p, "minute", fast[0][0])))
+                else:
+                    bits.append(p["nbCommuteMany"].format(
+                        who=who, hubs=p["cmpSep"].join(p["hubs"][h] for _, h in fast[:2]),
+                        minutes=min(d for d, _ in fast[:2]),
+                        minuteWord=word(p, "minute", min(d for d, _ in fast[:2]))))
+            else:
+                bits.append(p["nbCommuteSame"])
+
+        # 4. そのぶん何を手放すか。家賃を先に見て、無ければほかの軸を探す
+        traded = False
+        rent_said = False
         if band and ob and "oneRoom" in band["bands"] and "oneRoom" in ob["bands"]:
             dm = ob["bands"]["oneRoom"]["mean"] - band["bands"]["oneRoom"]["mean"]
             if abs(dm) >= 5000:
                 # 平均どうしの差をそのまま出すと「7,233円ほど高い」のように、
                 # 元の帯（1万円刻み）より細かい数字になり、精度を偽ることになる。
                 rounded = int(round(abs(dm) / 1000)) * 1000
-                key = "neighbourRentHigher" if dm > 0 else "neighbourRentLower"
-                bits.append(p[key].format(amount=money(rounded), unit=unit))
-        nb.append({"slug": o["slug"], "note": "".join(bits).strip()})
+                amount = (p["moneySmall"](rounded) if rounded < 10000
+                          else money(rounded))
+                higher = dm > 0
+                # 鉄道の便で上回る駅が家賃も高いなら、それがこの2駅の引き換えになる
+                but = (rail_better is True and higher) or (rail_better is False and not higher)
+                if but:
+                    key = "nbRentHigherBut" if higher else "nbRentLowerBut"
+                elif rail_better is None:
+                    # 鉄道の便に差が無いときは「も」でつながない
+                    key = "nbRentHigherPlain" if higher else "nbRentLowerPlain"
+                else:
+                    key = "nbRentHigher" if higher else "nbRentLower"
+                bits.append(p[key].format(nb=oname, amount=amount, unit=unit))
+                traded = but
+                rent_said = True
+        if not traded:
+            # 家賃で引き換えが出なければ、軸で引き換えを探す。
+            # 鉄道の便で上回っている側と逆の側が上回る軸を選ぶと、
+            # 「それなら隣の駅でいい」で終わらない比較になる。
+            best = None
+            for axis, label, gapmin in NB_AXES:
+                va = ctx["sc"].get(slug, {}).get(axis)
+                vb = ctx["sc"].get(oslug, {}).get(axis)
+                if va is None or vb is None:
+                    continue
+                for diff, wins_station in ((va - vb, True), (vb - va, False)):
+                    if diff < gapmin:
+                        continue
+                    if rail_better is True and not wins_station:
+                        continue
+                    if rail_better is False and wins_station:
+                        continue
+                    if best is None or diff > best[0]:
+                        best = (diff, label, wins_station)
+            if best:
+                _, label, wins_station = best
+                if rail_better is None:
+                    key = "nbAxisPlain" if wins_station else "nbAxisPlainNb"
+                else:
+                    key = "nbAxisBut" if wins_station else "nbAxisButNb"
+                bits.append(p[key].format(axis=p[label], station=name, nb=oname))
+                axis = next(a for a, l, _ in NB_AXES if l == label)
+                reason = axis_reason(p, axis, slug if wins_station else oslug,
+                                     oslug if wins_station else slug, ctx)
+                if reason:
+                    bits.append(reason)
+            elif not rent_said:
+                # 引き換えが見つからないことも、読み手には判断の材料になる。
+                # 黙って終わると「ほかは調べていない」のか「違いが無い」のか分からない。
+                bits.append(p["nbRestSimilar"])
+
+        lead = compare_lead(p, slug, oslug, ctx)
+        entry = {"slug": o["slug"]}
+        if lead:
+            entry["lead"] = lead
+        entry["note"] = "".join(bits).strip()
+        nb.append(entry)
     if nb:
         c["neighbours"] = nb
 
@@ -311,6 +984,95 @@ def build(st, ctx):
     c["goodFor"] = good[:5] or [p["goodUnknown"]]
     c["notFor"] = bad[:5] or [p["badUnknown"]]
 
+    # ── 音が気になりうる場所 ───────────────────────
+    # 静けさは、人の音と車の音を分けて確かめる（ルール41）。
+    # 繁華街から離れていても、幹線道路に面していれば車の音は一日中続く。
+    def road_side(v):
+        """車線数を「片側n車線」に直す。分離帯のある大通りは片方ずつ登録されている。"""
+        lanes = v.get("lanes")
+        if not lanes:
+            return p["roadSideUnknown"]
+        key = "roadSideOneway" if v.get("oneway") else "roadSideBoth"
+        n = lanes if v.get("oneway") else max(1, round(lanes / 2))
+        return p[key].format(n=n)
+
+    def road_line(cls, v):
+        """道路名だけでは、どれくらいうるさいのかが読み手に伝わらない。
+        高速道路か一般道か、片側何車線か、駅から何m先かを添える（ルール42）。"""
+        side = road_side(v)
+        if cls == "motorway":
+            key = "noiseRoadMotorway"
+        elif v["m"] > 200:
+            key = "noiseRoadFar"
+        else:
+            wide = (v.get("lanes") or 0) >= (3 if v.get("oneway") else 6)
+            key = ("noiseRoadVeryNear" if wide and v["m"] <= 100
+                   else "noiseRoadAtStation" if v["m"] <= 100
+                   else "noiseRoadBig" if wide else "noiseRoadMid")
+        where = (p["roadWhereAtStation"] if v["m"] <= 100
+                 else p["roadWhereNear"] if v["m"] <= 300
+                 else p["roadWhereAway"])
+        return p[key].format(name=v["name"], m=v["m"], side=side, where=where)
+
+    # 音の出どころは2本まで書く。高速道路は音の質が違うので、
+    # 一般道より近くなくても先に出す。
+    ordered = sorted(
+        ((cls, v) for cls in ("motorway", "trunk", "primary", "secondary")
+         if (v := road.get(cls)) and v.get("name")),
+        key=lambda t: (t[0] != "motorway" or t[1]["m"] > 400, t[1]["m"]))
+    near_road = ordered[0] if ordered else None
+    # 変数名を lines にすると、上で組み立てた路線名の一覧を上書きしてしまう。
+    # 実際、菊川の「駅の使い勝手」の一言が
+    # 「使える路線は新大橋通り（大通り）が2m先にあるの1本だけである」になっていた。
+    noise = []
+    for cls, v in ordered:
+        if v["m"] <= 250 or (cls == "motorway" and v["m"] <= 400) or not noise:
+            noise.append(road_line(cls, v))
+        if len(noise) == 2:
+            break
+    if noise:
+        c["noiseSources"] = noise
+
+    # ── 街の性格タグと、節ごとの一言 ───────────────
+    tags = station_tags(sc, st, ter, ctx)
+    if tags:
+        c["tags"] = tags
+
+    leads = {}
+    slope = ter.get("slope")
+    if slope in ("flat", "some", "hilly"):
+        leads["terrain"] = p["leadTerrain" + slope.capitalize()]
+    shops = by_cat.get("supermarket", [])
+    if shops:
+        nearest = min(x["walkMinutes"] for x in shops)
+        key = "leadGroceriesMany" if len(shops) >= 3 else "leadGroceriesFew"
+        leads["groceries"] = p[key].format(count=len(shops), minutes=nearest)
+    else:
+        leads["groceries"] = p["leadGroceriesNone"]
+    if "disaster" in sc:
+        leads["hazards"] = (p["leadHazardAtStation"] if haz.get("atStation")
+                            else p["leadHazardNear"] if haz.get("aroundCount")
+                            else p["leadHazardNone"])
+    if len(lines) == 1:
+        leads["stationNote"] = p["leadStationOne"].format(line=lines[0])
+    elif "transitConvenience" in sc:
+        key = "leadStationMany" if five(sc["transitConvenience"]) >= 3.5 else "leadStationMid"
+        leads["stationNote"] = p[key].format(count=len(lines))
+    if "rentValue" in sc:
+        leads["rentRange"] = p[band_key("leadRent", sc["rentValue"])]
+    if "healthcare" in sc:
+        leads["medical"] = p[band_key("leadMedical", sc["healthcare"])]
+    lead = congestion_lead(slug, st["lineIds"], ctx)
+    if lead:
+        leads["congestion"] = lead
+    if near_road and near_road[1].get("name"):
+        cls, v = near_road
+        key = ("leadNoiseLoud" if (cls == "motorway" and v["m"] <= 200) or v["m"] <= 60
+               else "leadNoiseMid" if v["m"] <= 250 else "leadNoiseQuiet")
+        leads["noiseSources"] = p[key].format(name=v["name"], m=v["m"])
+    if leads:
+        c["leads"] = leads
+
     c["authoredBy"] = "data-generated"
     return c
 
@@ -336,6 +1098,24 @@ def main():
 
     roster = load("roster/stations.json")
     pois_doc = load("computed/pois.json")
+    buildings = load("computed/buildings.json")["stations"]
+    congestion = load("computed/congestion.json")["lines"]
+
+    # 混雑率の一言は「23区の駅の中で高いか低いか」で出す。
+    # 駅が使える路線のうち、いちばん混む路線の値をその駅の値とし、
+    # 低いほうが高い点になるように向きをそろえる。
+    peak = {}
+    for r in roster:
+        rates = [congestion[i]["rate"] for i in r["lineIds"] if i in congestion]
+        if rates:
+            peak[r["slug"]] = max(rates)
+    order = sorted(peak.values())
+    ease = {}
+    for slug, v in peak.items():
+        below = sum(1 for x in order if x < v)
+        same = sum(1 for x in order if x == v)
+        ease[slug] = 100 - round((below + same / 2) / len(order) * 100)
+
     ctx = {
         "locale": args.locale,
         "p": PHRASES[args.locale],
@@ -344,13 +1124,34 @@ def main():
         "com": load("computed/commutes.json"),
         "sc": load("computed/scores.json"),
         "ter": load("computed/terrain.json")["stations"],
+        "roads": load("computed/roads.json")["stations"],
+        "rosterBySlug": {r["slug"]: r for r in roster},
+        # 駅を出てすぐの繁華性。半径300mの飲食店・酒場・カフェの数
+        "bustle": {
+            r["slug"]: sum(1 for x in pois_doc["stations"].get(r["slug"], [])
+                           if x["category"] in ("restaurant", "bar", "cafe")
+                           and x["distanceM"] <= 300)
+            for r in roster
+        },
+        # 駅から500m以内にある商業の建物の、階数の合計。
+        # 雑居ビルのテナントが OpenStreetMap に入っていないため、
+        # 路面の店の数だけでは、縦に積まれた街の厚みを測れない
+        "floors": {r["slug"]: buildings.get(r["slug"], {}).get("floors", 0)
+                   for r in roster},
+        # 路線ごとの朝の混雑率（国土交通省の調査）。路線IDで引く
+        "congestion": congestion,
+        # 使える路線のうち、いちばん混む路線の混雑率を、23区の駅の中での
+        # 位置に直した値。低いほうが高い点になる
+        "congestionEase": ease,
         "haz": load("computed/hazard.json")["stations"],
         "bands": load("computed/rent-bands.json"),
         "pois": pois_doc["stations"],
         "poiDate": pois_doc["meta"]["retrievedAt"],
     }
+    # 同じ駅名が2つある駅には、路線名を添えた表示名を使う
+    ctx["displayName"] = build_display_names(roster, ctx["lines"], ctx["p"])
 
-    written = made = skipped = 0
+    written = made = skipped = refreshed = 0
     targets = roster[:args.limit] if args.limit else roster
     for st in targets:
         path = os.path.join(out_dir, f"{st['slug']}.json")
@@ -359,6 +1160,49 @@ def main():
             # 人が書いた駅と、文章としてローカライズした駅は上書きしない
             if existing.get("authoredBy") in ("human", "draft", "ai-localized"):
                 skipped += 1
+                # ただし近くの駅・性格タグ・節ごとの一言は、スコアと距離だけで決まる層
+                # なので、人が書いた駅でもここで作り直す。人が選んだ駅は alternatives に
+                # 入っており、人が書いた一言は上書きしない。
+                fresh = build(st, ctx)
+                touched = False
+                # 混雑率は出典のある数字だけから組み立てるので、人が書いた駅でも
+                # ここで作り直す。調査結果が更新されたら全駅に反映される。
+                for field in ("neighbours", "tags", "congestion"):
+                    if fresh.get(field) and fresh[field] != existing.get(field):
+                        existing[field] = fresh[field]
+                        touched = True
+                # 一言は、本文と食い違うと読み手を迷わせる。人が本文を書いた駅では、
+                # 本文に合わせて一言も人が書くので、既にあるものは上書きしない。
+                # 淡路町では、本文が「坂を上るのは御茶ノ水へ出るときだけ」と書いている
+                # 横で、組み立てた一言が「どの区画に住むかで負担が変わる」と出ていた。
+                # 迷いやすい駅の比較にも、一言を入れる。note は人が書いたものを残す。
+                for field in ("neighbours", "alternatives"):
+                    for item in existing.get(field) or []:
+                        if "lead" in item:
+                            continue
+                        lead = compare_lead(ctx["p"], st["slug"], item["slug"], ctx)
+                        if lead:
+                            item["lead"] = lead
+                            touched = True
+
+                merged = dict(existing.get("leads") or {})
+                # 混雑率の一言は、作り直している本文（congestion）と食い違わないよう、
+                # 人が書いた駅でも作り直す
+                fresh_lead = (fresh.get("leads") or {}).get("congestion")
+                if fresh_lead and merged.get("congestion") != fresh_lead:
+                    merged["congestion"] = fresh_lead
+                    touched = True
+                for k, v in (fresh.get("leads") or {}).items():
+                    if k not in merged:
+                        merged[k] = v
+                        touched = True
+                if merged:
+                    existing["leads"] = merged
+                if touched and not args.dry_run:
+                    json.dump(existing, open(path, "w", encoding="utf-8"),
+                              ensure_ascii=False, indent=2)
+                    open(path, "a", encoding="utf-8").write("\n")
+                    refreshed += 1
                 continue
         c = build(st, ctx)
         made += 1
@@ -367,7 +1211,8 @@ def main():
             open(path, "a", encoding="utf-8").write("\n")
             written += 1
 
-    print(f"組み立てた駅: {made} / 人が書いた駅・訳した駅は残した: {skipped}")
+    print(f"組み立てた駅: {made} / 人が書いた駅・訳した駅は残した: {skipped}"
+          f"（うちデータで決まる層だけ作り直した: {refreshed}）")
     if args.dry_run:
         print("（--dry-run のため書き込んでいない）")
     else:

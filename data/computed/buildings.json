@@ -1,0 +1,1841 @@
+{
+  "meta": {
+    "method": "駅から半径500m以内の商業・事務所・店舗の建物について、building:levels を足し合わせた。登録がない建物は、その範囲の中央値で補っている",
+    "retrievedAt": "2026-09-23",
+    "source": "OpenStreetMap contributors (ODbL)"
+  },
+  "stations": {
+    "adachi-odai": {
+      "buildings": 78,
+      "floors": 169
+    },
+    "akabane": {
+      "buildings": 68,
+      "floors": 240
+    },
+    "akabane-iwabuchi": {
+      "buildings": 23,
+      "floors": 78
+    },
+    "akabanebashi": {
+      "buildings": 70,
+      "floors": 306
+    },
+    "akado-shogakkomae": {
+      "buildings": 7,
+      "floors": 18
+    },
+    "akasaka": {
+      "buildings": 53,
+      "floors": 417
+    },
+    "akebonobashi": {
+      "buildings": 21,
+      "floors": 101
+    },
+    "akihabara": {
+      "buildings": 1006,
+      "floors": 4774
+    },
+    "anamori-inari": {
+      "buildings": 120,
+      "floors": 434
+    },
+    "aoi": {
+      "buildings": 0,
+      "floors": 0
+    },
+    "aomi": {
+      "buildings": 2,
+      "floors": 6
+    },
+    "aomono-yokocho": {
+      "buildings": 43,
+      "floors": 221
+    },
+    "aoto": {
+      "buildings": 98,
+      "floors": 267
+    },
+    "aoyama-itchome": {
+      "buildings": 17,
+      "floors": 135
+    },
+    "araiyakushi-mae": {
+      "buildings": 33,
+      "floors": 94
+    },
+    "arakawa-itchumae": {
+      "buildings": 46,
+      "floors": 118
+    },
+    "arakawa-nanachome": {
+      "buildings": 26,
+      "floors": 63
+    },
+    "arakawa-nichome": {
+      "buildings": 24,
+      "floors": 56
+    },
+    "arakawa-shakomae": {
+      "buildings": 390,
+      "floors": 970
+    },
+    "arakawa-yuenchimae": {
+      "buildings": 110,
+      "floors": 294
+    },
+    "arakawakuyakushomae": {
+      "buildings": 28,
+      "floors": 69
+    },
+    "ariake": {
+      "buildings": 10,
+      "floors": 31
+    },
+    "ariake-tennis-no-mori": {
+      "buildings": 11,
+      "floors": 39
+    },
+    "asagaya": {
+      "buildings": 24,
+      "floors": 56
+    },
+    "asakusa": {
+      "buildings": 154,
+      "floors": 541
+    },
+    "asakusa-tx": {
+      "buildings": 147,
+      "floors": 427
+    },
+    "asakusabashi": {
+      "buildings": 426,
+      "floors": 1589
+    },
+    "asukayama": {
+      "buildings": 44,
+      "floors": 171
+    },
+    "awajicho": {
+      "buildings": 586,
+      "floors": 2844
+    },
+    "ayase": {
+      "buildings": 5,
+      "floors": 17
+    },
+    "azabu-juban": {
+      "buildings": 26,
+      "floors": 114
+    },
+    "bakurocho": {
+      "buildings": 61,
+      "floors": 249
+    },
+    "chidoricho": {
+      "buildings": 5,
+      "floors": 10
+    },
+    "chikatetsu-akatsuka": {
+      "buildings": 145,
+      "floors": 290
+    },
+    "chitose-funabashi": {
+      "buildings": 18,
+      "floors": 36
+    },
+    "chitose-karasuyama": {
+      "buildings": 50,
+      "floors": 108
+    },
+    "daiba": {
+      "buildings": 6,
+      "floors": 24
+    },
+    "daikanyama": {
+      "buildings": 200,
+      "floors": 829
+    },
+    "daimon": {
+      "buildings": 80,
+      "floors": 602
+    },
+    "daishimae": {
+      "buildings": 73,
+      "floors": 172
+    },
+    "daitabashi": {
+      "buildings": 18,
+      "floors": 62
+    },
+    "den-en-chofu": {
+      "buildings": 6,
+      "floors": 12
+    },
+    "ebara-machi": {
+      "buildings": 34,
+      "floors": 102
+    },
+    "ebara-nakanobu": {
+      "buildings": 24,
+      "floors": 85
+    },
+    "ebisu": {
+      "buildings": 152,
+      "floors": 739
+    },
+    "edogawa": {
+      "buildings": 12,
+      "floors": 24
+    },
+    "edogawabashi": {
+      "buildings": 8,
+      "floors": 50
+    },
+    "eifukucho": {
+      "buildings": 2,
+      "floors": 5
+    },
+    "ekoda": {
+      "buildings": 100,
+      "floors": 287
+    },
+    "etchujima": {
+      "buildings": 25,
+      "floors": 120
+    },
+    "fudo-mae": {
+      "buildings": 46,
+      "floors": 283
+    },
+    "fujimidai": {
+      "buildings": 66,
+      "floors": 167
+    },
+    "fujimigaoka": {
+      "buildings": 26,
+      "floors": 60
+    },
+    "funabori": {
+      "buildings": 6,
+      "floors": 18
+    },
+    "futako-tamagawa": {
+      "buildings": 13,
+      "floors": 79
+    },
+    "gaiemmae": {
+      "buildings": 17,
+      "floors": 124
+    },
+    "gakugei-daigaku": {
+      "buildings": 5,
+      "floors": 10
+    },
+    "gakushuinshita": {
+      "buildings": 18,
+      "floors": 78
+    },
+    "ginza": {
+      "buildings": 118,
+      "floors": 650
+    },
+    "gokokuji": {
+      "buildings": 7,
+      "floors": 51
+    },
+    "gotanda": {
+      "buildings": 103,
+      "floors": 539
+    },
+    "gotanno": {
+      "buildings": 72,
+      "floors": 257
+    },
+    "gotokuji": {
+      "buildings": 17,
+      "floors": 30
+    },
+    "hachiman-yama": {
+      "buildings": 20,
+      "floors": 41
+    },
+    "hakusan": {
+      "buildings": 14,
+      "floors": 52
+    },
+    "hamacho": {
+      "buildings": 21,
+      "floors": 90
+    },
+    "hamadayama": {
+      "buildings": 12,
+      "floors": 24
+    },
+    "hamamatsucho": {
+      "buildings": 92,
+      "floors": 1075
+    },
+    "haneda-airport-terminal-1-2": {
+      "buildings": 12,
+      "floors": 76
+    },
+    "haneda-airport-terminal-3": {
+      "buildings": 17,
+      "floors": 53
+    },
+    "hanzomon": {
+      "buildings": 47,
+      "floors": 289
+    },
+    "hasune": {
+      "buildings": 8,
+      "floors": 20
+    },
+    "hasunuma": {
+      "buildings": 4,
+      "floors": 12
+    },
+    "hatagaya": {
+      "buildings": 61,
+      "floors": 228
+    },
+    "hatanodai": {
+      "buildings": 34,
+      "floors": 92
+    },
+    "hatchobori": {
+      "buildings": 24,
+      "floors": 117
+    },
+    "hatsudai": {
+      "buildings": 50,
+      "floors": 236
+    },
+    "heiwadai": {
+      "buildings": 168,
+      "floors": 392
+    },
+    "heiwajima": {
+      "buildings": 9,
+      "floors": 27
+    },
+    "higashi-azuma": {
+      "buildings": 22,
+      "floors": 59
+    },
+    "higashi-ginza": {
+      "buildings": 86,
+      "floors": 473
+    },
+    "higashi-ikebukuro": {
+      "buildings": 12,
+      "floors": 61
+    },
+    "higashi-jujo": {
+      "buildings": 12,
+      "floors": 29
+    },
+    "higashi-kitazawa": {
+      "buildings": 16,
+      "floors": 33
+    },
+    "higashi-koenji": {
+      "buildings": 30,
+      "floors": 60
+    },
+    "higashi-matsubara": {
+      "buildings": 24,
+      "floors": 55
+    },
+    "higashi-mukojima": {
+      "buildings": 34,
+      "floors": 75
+    },
+    "higashi-nagasaki": {
+      "buildings": 72,
+      "floors": 208
+    },
+    "higashi-nakano": {
+      "buildings": 64,
+      "floors": 199
+    },
+    "higashi-ogu-sanchome": {
+      "buildings": 14,
+      "floors": 35
+    },
+    "higashi-ojima": {
+      "buildings": 18,
+      "floors": 52
+    },
+    "higashi-shinjuku": {
+      "buildings": 332,
+      "floors": 1238
+    },
+    "hikarigaoka": {
+      "buildings": 8,
+      "floors": 16
+    },
+    "hikawadai": {
+      "buildings": 110,
+      "floors": 264
+    },
+    "hikifune": {
+      "buildings": 28,
+      "floors": 73
+    },
+    "hinode": {
+      "buildings": 56,
+      "floors": 612
+    },
+    "hirai": {
+      "buildings": 46,
+      "floors": 128
+    },
+    "hiro-o": {
+      "buildings": 102,
+      "floors": 428
+    },
+    "hon-komagome": {
+      "buildings": 14,
+      "floors": 52
+    },
+    "honancho": {
+      "buildings": 20,
+      "floors": 42
+    },
+    "hongo-sanchome": {
+      "buildings": 348,
+      "floors": 1560
+    },
+    "honjo-azumabashi": {
+      "buildings": 113,
+      "floors": 424
+    },
+    "horikiri": {
+      "buildings": 20,
+      "floors": 51
+    },
+    "horikirishobuen": {
+      "buildings": 38,
+      "floors": 97
+    },
+    "ichigaya": {
+      "buildings": 32,
+      "floors": 172
+    },
+    "ichinoe": {
+      "buildings": 12,
+      "floors": 36
+    },
+    "iidabashi": {
+      "buildings": 148,
+      "floors": 798
+    },
+    "ikebukuro": {
+      "buildings": 202,
+      "floors": 918
+    },
+    "ikegami": {
+      "buildings": 8,
+      "floors": 20
+    },
+    "ikejiri-ohashi": {
+      "buildings": 46,
+      "floors": 90
+    },
+    "ikenoue": {
+      "buildings": 12,
+      "floors": 25
+    },
+    "inaricho": {
+      "buildings": 313,
+      "floors": 1108
+    },
+    "iogi": {
+      "buildings": 32,
+      "floors": 79
+    },
+    "iriya": {
+      "buildings": 101,
+      "floors": 334
+    },
+    "ishikawadai": {
+      "buildings": 2,
+      "floors": 4
+    },
+    "itabashi": {
+      "buildings": 65,
+      "floors": 219
+    },
+    "itabashi-kuyakushomae": {
+      "buildings": 58,
+      "floors": 160
+    },
+    "itabashihoncho": {
+      "buildings": 18,
+      "floors": 36
+    },
+    "iwamotocho": {
+      "buildings": 537,
+      "floors": 2512
+    },
+    "jimbocho": {
+      "buildings": 383,
+      "floors": 1788
+    },
+    "jiyugaoka": {
+      "buildings": 28,
+      "floors": 67
+    },
+    "jujo": {
+      "buildings": 11,
+      "floors": 29
+    },
+    "kachidoki": {
+      "buildings": 12,
+      "floors": 71
+    },
+    "kagurazaka": {
+      "buildings": 30,
+      "floors": 124
+    },
+    "kajiwara": {
+      "buildings": 380,
+      "floors": 942
+    },
+    "kamata": {
+      "buildings": 25,
+      "floors": 88
+    },
+    "kameari": {
+      "buildings": 53,
+      "floors": 153
+    },
+    "kameido": {
+      "buildings": 36,
+      "floors": 92
+    },
+    "kameidosuijin": {
+      "buildings": 8,
+      "floors": 17
+    },
+    "kami-igusa": {
+      "buildings": 100,
+      "floors": 214
+    },
+    "kami-itabashi": {
+      "buildings": 88,
+      "floors": 202
+    },
+    "kami-kitazawa": {
+      "buildings": 5,
+      "floors": 10
+    },
+    "kami-nakazato": {
+      "buildings": 174,
+      "floors": 430
+    },
+    "kami-shakujii": {
+      "buildings": 102,
+      "floors": 280
+    },
+    "kamimachi": {
+      "buildings": 50,
+      "floors": 104
+    },
+    "kaminoge": {
+      "buildings": 8,
+      "floors": 18
+    },
+    "kamiyacho": {
+      "buildings": 124,
+      "floors": 1147
+    },
+    "kanamachi": {
+      "buildings": 94,
+      "floors": 277
+    },
+    "kanamecho": {
+      "buildings": 86,
+      "floors": 307
+    },
+    "kanda": {
+      "buildings": 307,
+      "floors": 1641
+    },
+    "kanegafuchi": {
+      "buildings": 26,
+      "floors": 54
+    },
+    "kasai": {
+      "buildings": 24,
+      "floors": 66
+    },
+    "kasai-rinkai-koen": {
+      "buildings": 25,
+      "floors": 143
+    },
+    "kasuga": {
+      "buildings": 55,
+      "floors": 362
+    },
+    "kasumigaseki": {
+      "buildings": 16,
+      "floors": 177
+    },
+    "kayabacho": {
+      "buildings": 90,
+      "floors": 510
+    },
+    "keikyu-kamata": {
+      "buildings": 34,
+      "floors": 119
+    },
+    "keisei-hikifune": {
+      "buildings": 41,
+      "floors": 109
+    },
+    "keisei-koiwa": {
+      "buildings": 66,
+      "floors": 175
+    },
+    "keisei-takasago": {
+      "buildings": 34,
+      "floors": 72
+    },
+    "keisei-tateishi": {
+      "buildings": 85,
+      "floors": 243
+    },
+    "keisei-ueno": {
+      "buildings": 421,
+      "floors": 1817
+    },
+    "kiba": {
+      "buildings": 18,
+      "floors": 131
+    },
+    "kikukawa": {
+      "buildings": 63,
+      "floors": 209
+    },
+    "kinshicho": {
+      "buildings": 202,
+      "floors": 839
+    },
+    "kita-akabane": {
+      "buildings": 3,
+      "floors": 10
+    },
+    "kita-ayase": {
+      "buildings": 6,
+      "floors": 24
+    },
+    "kita-ikebukuro": {
+      "buildings": 37,
+      "floors": 115
+    },
+    "kita-sando": {
+      "buildings": 40,
+      "floors": 182
+    },
+    "kita-senju": {
+      "buildings": 329,
+      "floors": 1284
+    },
+    "kita-senzoku": {
+      "buildings": 24,
+      "floors": 64
+    },
+    "kitashinagawa": {
+      "buildings": 29,
+      "floors": 366
+    },
+    "kiyosumi-shirakawa": {
+      "buildings": 48,
+      "floors": 186
+    },
+    "kodemmacho": {
+      "buildings": 31,
+      "floors": 149
+    },
+    "koenji": {
+      "buildings": 58,
+      "floors": 108
+    },
+    "kohoku": {
+      "buildings": 37,
+      "floors": 75
+    },
+    "koiwa": {
+      "buildings": 81,
+      "floors": 277
+    },
+    "kojimachi": {
+      "buildings": 41,
+      "floors": 259
+    },
+    "kojiya": {
+      "buildings": 46,
+      "floors": 136
+    },
+    "kokkai-gijidomae": {
+      "buildings": 18,
+      "floors": 242
+    },
+    "kokuritsu-kyogijo": {
+      "buildings": 9,
+      "floors": 44
+    },
+    "kokusai-tenjijo": {
+      "buildings": 13,
+      "floors": 57
+    },
+    "komaba-todaimae": {
+      "buildings": 10,
+      "floors": 22
+    },
+    "komagome": {
+      "buildings": 174,
+      "floors": 639
+    },
+    "komazawa-daigaku": {
+      "buildings": 9,
+      "floors": 34
+    },
+    "korakuen": {
+      "buildings": 76,
+      "floors": 409
+    },
+    "koshinzuka": {
+      "buildings": 25,
+      "floors": 84
+    },
+    "kosuge": {
+      "buildings": 8,
+      "floors": 32
+    },
+    "kotake-mukaihara": {
+      "buildings": 66,
+      "floors": 175
+    },
+    "koya": {
+      "buildings": 39,
+      "floors": 81
+    },
+    "kudanshita": {
+      "buildings": 164,
+      "floors": 882
+    },
+    "kugahara": {
+      "buildings": 7,
+      "floors": 14
+    },
+    "kugayama": {
+      "buildings": 58,
+      "floors": 120
+    },
+    "kuhombutsu": {
+      "buildings": 24,
+      "floors": 52
+    },
+    "kumanomae": {
+      "buildings": 100,
+      "floors": 219
+    },
+    "kuramae": {
+      "buildings": 300,
+      "floors": 1130
+    },
+    "kyobashi": {
+      "buildings": 138,
+      "floors": 914
+    },
+    "kyodo": {
+      "buildings": 198,
+      "floors": 459
+    },
+    "machiya": {
+      "buildings": 24,
+      "floors": 61
+    },
+    "machiya-nichome": {
+      "buildings": 10,
+      "floors": 25
+    },
+    "magome": {
+      "buildings": 52,
+      "floors": 157
+    },
+    "matsubara": {
+      "buildings": 1,
+      "floors": 2
+    },
+    "meguro": {
+      "buildings": 36,
+      "floors": 231
+    },
+    "meidaimae": {
+      "buildings": 34,
+      "floors": 72
+    },
+    "meiji-jingumae": {
+      "buildings": 159,
+      "floors": 620
+    },
+    "mejiro": {
+      "buildings": 98,
+      "floors": 284
+    },
+    "midorigaoka": {
+      "buildings": 32,
+      "floors": 68
+    },
+    "mikawashima": {
+      "buildings": 17,
+      "floors": 54
+    },
+    "minami-asagaya": {
+      "buildings": 20,
+      "floors": 46
+    },
+    "minami-senju": {
+      "buildings": 90,
+      "floors": 236
+    },
+    "minami-shinjuku": {
+      "buildings": 80,
+      "floors": 479
+    },
+    "minami-sunamachi": {
+      "buildings": 10,
+      "floors": 37
+    },
+    "minowa": {
+      "buildings": 61,
+      "floors": 190
+    },
+    "minowabashi": {
+      "buildings": 68,
+      "floors": 206
+    },
+    "minumadai-shinsuikoen": {
+      "buildings": 23,
+      "floors": 37
+    },
+    "mita": {
+      "buildings": 196,
+      "floors": 1372
+    },
+    "mitsukoshimae": {
+      "buildings": 59,
+      "floors": 511
+    },
+    "miyanomae": {
+      "buildings": 66,
+      "floors": 172
+    },
+    "miyanosaka": {
+      "buildings": 43,
+      "floors": 85
+    },
+    "mizue": {
+      "buildings": 15,
+      "floors": 35
+    },
+    "monzen-nakacho": {
+      "buildings": 72,
+      "floors": 252
+    },
+    "morishita": {
+      "buildings": 24,
+      "floors": 101
+    },
+    "motohasunuma": {
+      "buildings": 6,
+      "floors": 12
+    },
+    "mukohara": {
+      "buildings": 33,
+      "floors": 138
+    },
+    "musashi-koyama": {
+      "buildings": 10,
+      "floors": 30
+    },
+    "musashi-nitta": {
+      "buildings": 27,
+      "floors": 65
+    },
+    "musashi-seki": {
+      "buildings": 80,
+      "floors": 207
+    },
+    "myogadani": {
+      "buildings": 15,
+      "floors": 55
+    },
+    "nagahara": {
+      "buildings": 60,
+      "floors": 162
+    },
+    "nagatacho": {
+      "buildings": 44,
+      "floors": 342
+    },
+    "naka-itabashi": {
+      "buildings": 0,
+      "floors": 0
+    },
+    "nakai": {
+      "buildings": 19,
+      "floors": 59
+    },
+    "nakameguro": {
+      "buildings": 32,
+      "floors": 88
+    },
+    "nakamurabashi": {
+      "buildings": 75,
+      "floors": 249
+    },
+    "nakano": {
+      "buildings": 593,
+      "floors": 2151
+    },
+    "nakano-fujimicho": {
+      "buildings": 35,
+      "floors": 113
+    },
+    "nakano-sakaue": {
+      "buildings": 60,
+      "floors": 304
+    },
+    "nakano-shimbashi": {
+      "buildings": 89,
+      "floors": 313
+    },
+    "nakanobu": {
+      "buildings": 28,
+      "floors": 104
+    },
+    "narimasu": {
+      "buildings": 9,
+      "floors": 20
+    },
+    "nerima": {
+      "buildings": 274,
+      "floors": 1078
+    },
+    "nerima-kasugacho": {
+      "buildings": 44,
+      "floors": 106
+    },
+    "nerima-takanodai": {
+      "buildings": 58,
+      "floors": 114
+    },
+    "nezu": {
+      "buildings": 24,
+      "floors": 79
+    },
+    "nihombashi": {
+      "buildings": 267,
+      "floors": 1881
+    },
+    "nijubashimae": {
+      "buildings": 24,
+      "floors": 303
+    },
+    "ningyocho": {
+      "buildings": 54,
+      "floors": 234
+    },
+    "nippori": {
+      "buildings": 19,
+      "floors": 66
+    },
+    "nishi-eifuku": {
+      "buildings": 15,
+      "floors": 31
+    },
+    "nishi-kasai": {
+      "buildings": 83,
+      "floors": 250
+    },
+    "nishi-koyama": {
+      "buildings": 12,
+      "floors": 36
+    },
+    "nishi-nippori": {
+      "buildings": 17,
+      "floors": 50
+    },
+    "nishi-ogikubo": {
+      "buildings": 420,
+      "floors": 1296
+    },
+    "nishi-oi": {
+      "buildings": 12,
+      "floors": 37
+    },
+    "nishi-ojima": {
+      "buildings": 1,
+      "floors": 3
+    },
+    "nishi-shinjuku": {
+      "buildings": 145,
+      "floors": 994
+    },
+    "nishi-shinjuku-gochome": {
+      "buildings": 147,
+      "floors": 739
+    },
+    "nishi-sugamo": {
+      "buildings": 18,
+      "floors": 70
+    },
+    "nishi-taishido": {
+      "buildings": 99,
+      "floors": 288
+    },
+    "nishi-takashimadaira": {
+      "buildings": 2,
+      "floors": 4
+    },
+    "nishi-waseda": {
+      "buildings": 61,
+      "floors": 266
+    },
+    "nishiarai": {
+      "buildings": 42,
+      "floors": 104
+    },
+    "nishiaraidaishi-nishi": {
+      "buildings": 79,
+      "floors": 165
+    },
+    "nishidai": {
+      "buildings": 15,
+      "floors": 30
+    },
+    "nishigahara": {
+      "buildings": 34,
+      "floors": 103
+    },
+    "nishigahara-yonchome": {
+      "buildings": 25,
+      "floors": 89
+    },
+    "nishimagome": {
+      "buildings": 20,
+      "floors": 49
+    },
+    "nogata": {
+      "buildings": 190,
+      "floors": 560
+    },
+    "nogizaka": {
+      "buildings": 20,
+      "floors": 149
+    },
+    "numabe": {
+      "buildings": 2,
+      "floors": 4
+    },
+    "numabukuro": {
+      "buildings": 30,
+      "floors": 87
+    },
+    "ochanomizu": {
+      "buildings": 610,
+      "floors": 2877
+    },
+    "ochiai": {
+      "buildings": 20,
+      "floors": 56
+    },
+    "ochiai-minami-nagasaki": {
+      "buildings": 44,
+      "floors": 118
+    },
+    "odai": {
+      "buildings": 74,
+      "floors": 198
+    },
+    "odaiba-kaihinkoen": {
+      "buildings": 3,
+      "floors": 8
+    },
+    "ogi-ohashi": {
+      "buildings": 30,
+      "floors": 72
+    },
+    "ogikubo": {
+      "buildings": 38,
+      "floors": 196
+    },
+    "ohanajaya": {
+      "buildings": 100,
+      "floors": 216
+    },
+    "oi-keibajo-mae": {
+      "buildings": 40,
+      "floors": 120
+    },
+    "oimachi": {
+      "buildings": 97,
+      "floors": 606
+    },
+    "oizumi-gakuen": {
+      "buildings": 16,
+      "floors": 38
+    },
+    "oji": {
+      "buildings": 80,
+      "floors": 330
+    },
+    "oji-kamiya": {
+      "buildings": 20,
+      "floors": 76
+    },
+    "ojima": {
+      "buildings": 5,
+      "floors": 15
+    },
+    "okachimachi": {
+      "buildings": 1390,
+      "floors": 6277
+    },
+    "oku": {
+      "buildings": 118,
+      "floors": 307
+    },
+    "okubo": {
+      "buildings": 118,
+      "floors": 419
+    },
+    "okusawa": {
+      "buildings": 14,
+      "floors": 36
+    },
+    "omokagebashi": {
+      "buildings": 12,
+      "floors": 48
+    },
+    "omori": {
+      "buildings": 121,
+      "floors": 471
+    },
+    "omorikaigan": {
+      "buildings": 46,
+      "floors": 195
+    },
+    "omorimachi": {
+      "buildings": 11,
+      "floors": 31
+    },
+    "omote-sando": {
+      "buildings": 40,
+      "floors": 212
+    },
+    "omurai": {
+      "buildings": 37,
+      "floors": 91
+    },
+    "onarimon": {
+      "buildings": 58,
+      "floors": 406
+    },
+    "ontakesan": {
+      "buildings": 5,
+      "floors": 10
+    },
+    "ookayama": {
+      "buildings": 23,
+      "floors": 45
+    },
+    "osaki": {
+      "buildings": 52,
+      "floors": 488
+    },
+    "osaki-hirokoji": {
+      "buildings": 67,
+      "floors": 404
+    },
+    "oshiage": {
+      "buildings": 44,
+      "floors": 150
+    },
+    "otemachi": {
+      "buildings": 44,
+      "floors": 631
+    },
+    "otorii": {
+      "buildings": 94,
+      "floors": 306
+    },
+    "otsuka": {
+      "buildings": 60,
+      "floors": 253
+    },
+    "oyama": {
+      "buildings": 240,
+      "floors": 731
+    },
+    "oyamadai": {
+      "buildings": 26,
+      "floors": 53
+    },
+    "roka-koen": {
+      "buildings": 15,
+      "floors": 30
+    },
+    "rokucho": {
+      "buildings": 1,
+      "floors": 4
+    },
+    "rokugodote": {
+      "buildings": 12,
+      "floors": 27
+    },
+    "roppongi": {
+      "buildings": 42,
+      "floors": 353
+    },
+    "roppongi-itchome": {
+      "buildings": 57,
+      "floors": 667
+    },
+    "ryogoku": {
+      "buildings": 224,
+      "floors": 985
+    },
+    "ryutsu-center": {
+      "buildings": 14,
+      "floors": 46
+    },
+    "saginomiya": {
+      "buildings": 61,
+      "floors": 148
+    },
+    "sakaecho": {
+      "buildings": 62,
+      "floors": 160
+    },
+    "sakura-shimmachi": {
+      "buildings": 29,
+      "floors": 63
+    },
+    "sakuradai": {
+      "buildings": 61,
+      "floors": 172
+    },
+    "sakuradamon": {
+      "buildings": 6,
+      "floors": 20
+    },
+    "sakurajosui": {
+      "buildings": 7,
+      "floors": 17
+    },
+    "samezu": {
+      "buildings": 42,
+      "floors": 131
+    },
+    "sangen-jaya": {
+      "buildings": 147,
+      "floors": 383
+    },
+    "sangubashi": {
+      "buildings": 12,
+      "floors": 53
+    },
+    "sasazuka": {
+      "buildings": 14,
+      "floors": 70
+    },
+    "seibijo": {
+      "buildings": 16,
+      "floors": 87
+    },
+    "seibu-shinjuku": {
+      "buildings": 751,
+      "floors": 3837
+    },
+    "seijogakuen-mae": {
+      "buildings": 22,
+      "floors": 44
+    },
+    "sendagaya": {
+      "buildings": 10,
+      "floors": 45
+    },
+    "sendagi": {
+      "buildings": 15,
+      "floors": 45
+    },
+    "sengakuji": {
+      "buildings": 52,
+      "floors": 268
+    },
+    "sengoku": {
+      "buildings": 22,
+      "floors": 111
+    },
+    "senjuohashi": {
+      "buildings": 119,
+      "floors": 302
+    },
+    "senkawa": {
+      "buildings": 53,
+      "floors": 143
+    },
+    "senzoku": {
+      "buildings": 14,
+      "floors": 40
+    },
+    "senzoku-ike": {
+      "buildings": 12,
+      "floors": 30
+    },
+    "setagaya": {
+      "buildings": 70,
+      "floors": 155
+    },
+    "setagaya-daita": {
+      "buildings": 25,
+      "floors": 50
+    },
+    "shakujii-koen": {
+      "buildings": 56,
+      "floors": 127
+    },
+    "shibakoen": {
+      "buildings": 132,
+      "floors": 672
+    },
+    "shibamata": {
+      "buildings": 39,
+      "floors": 86
+    },
+    "shibaura-futo": {
+      "buildings": 8,
+      "floors": 55
+    },
+    "shibuya": {
+      "buildings": 358,
+      "floors": 2826
+    },
+    "shiinamachi": {
+      "buildings": 69,
+      "floors": 228
+    },
+    "shijo-mae": {
+      "buildings": 10,
+      "floors": 110
+    },
+    "shim-mikawashima": {
+      "buildings": 3,
+      "floors": 9
+    },
+    "shimbamba": {
+      "buildings": 47,
+      "floors": 170
+    },
+    "shimbashi": {
+      "buildings": 62,
+      "floors": 533
+    },
+    "shimo": {
+      "buildings": 5,
+      "floors": 9
+    },
+    "shimo-igusa": {
+      "buildings": 13,
+      "floors": 28
+    },
+    "shimo-itabashi": {
+      "buildings": 70,
+      "floors": 251
+    },
+    "shimo-kitazawa": {
+      "buildings": 42,
+      "floors": 91
+    },
+    "shimo-ochiai": {
+      "buildings": 45,
+      "floors": 151
+    },
+    "shimo-shimmei": {
+      "buildings": 20,
+      "floors": 127
+    },
+    "shimo-takaido": {
+      "buildings": 14,
+      "floors": 26
+    },
+    "shimomaruko": {
+      "buildings": 15,
+      "floors": 30
+    },
+    "shimura-sakaue": {
+      "buildings": 8,
+      "floors": 20
+    },
+    "shimura-sanchome": {
+      "buildings": 12,
+      "floors": 24
+    },
+    "shin-egota": {
+      "buildings": 68,
+      "floors": 182
+    },
+    "shin-itabashi": {
+      "buildings": 78,
+      "floors": 209
+    },
+    "shin-kiba": {
+      "buildings": 24,
+      "floors": 116
+    },
+    "shin-koenji": {
+      "buildings": 8,
+      "floors": 16
+    },
+    "shin-koiwa": {
+      "buildings": 144,
+      "floors": 467
+    },
+    "shin-koshinzuka": {
+      "buildings": 31,
+      "floors": 113
+    },
+    "shin-nakano": {
+      "buildings": 30,
+      "floors": 58
+    },
+    "shin-okachimachi": {
+      "buildings": 558,
+      "floors": 2106
+    },
+    "shin-okubo": {
+      "buildings": 189,
+      "floors": 697
+    },
+    "shin-otsuka": {
+      "buildings": 7,
+      "floors": 21
+    },
+    "shin-sakuradai": {
+      "buildings": 85,
+      "floors": 232
+    },
+    "shin-seibijo": {
+      "buildings": 0,
+      "floors": 0
+    },
+    "shin-shibamata": {
+      "buildings": 38,
+      "floors": 86
+    },
+    "shin-takashimadaira": {
+      "buildings": 0,
+      "floors": 0
+    },
+    "shin-toyosu": {
+      "buildings": 12,
+      "floors": 64
+    },
+    "shinagawa": {
+      "buildings": 80,
+      "floors": 876
+    },
+    "shinagawa-seaside": {
+      "buildings": 48,
+      "floors": 346
+    },
+    "shinanomachi": {
+      "buildings": 30,
+      "floors": 150
+    },
+    "shindaita": {
+      "buildings": 22,
+      "floors": 48
+    },
+    "shinjuku": {
+      "buildings": 466,
+      "floors": 3173
+    },
+    "shinjuku-gyoemmae": {
+      "buildings": 36,
+      "floors": 169
+    },
+    "shinjuku-nishiguchi": {
+      "buildings": 625,
+      "floors": 3846
+    },
+    "shinjuku-sanchome": {
+      "buildings": 538,
+      "floors": 3102
+    },
+    "shinonome": {
+      "buildings": 70,
+      "floors": 240
+    },
+    "shinozaki": {
+      "buildings": 52,
+      "floors": 120
+    },
+    "shinsen": {
+      "buildings": 293,
+      "floors": 1404
+    },
+    "shiodome": {
+      "buildings": 58,
+      "floors": 550
+    },
+    "shiomi": {
+      "buildings": 33,
+      "floors": 103
+    },
+    "shirokane-takanawa": {
+      "buildings": 63,
+      "floors": 287
+    },
+    "shirokanedai": {
+      "buildings": 23,
+      "floors": 99
+    },
+    "shoin-jinja-mae": {
+      "buildings": 66,
+      "floors": 153
+    },
+    "showajima": {
+      "buildings": 14,
+      "floors": 35
+    },
+    "soshigaya-okura": {
+      "buildings": 16,
+      "floors": 26
+    },
+    "suehirocho": {
+      "buildings": 1542,
+      "floors": 7672
+    },
+    "sugamo": {
+      "buildings": 72,
+      "floors": 298
+    },
+    "sugamoshinden": {
+      "buildings": 55,
+      "floors": 224
+    },
+    "suidobashi": {
+      "buildings": 166,
+      "floors": 720
+    },
+    "sumiyoshi": {
+      "buildings": 70,
+      "floors": 243
+    },
+    "tabata": {
+      "buildings": 7,
+      "floors": 21
+    },
+    "tachiaigawa": {
+      "buildings": 24,
+      "floors": 95
+    },
+    "takadanobaba": {
+      "buildings": 368,
+      "floors": 1793
+    },
+    "takaido": {
+      "buildings": 12,
+      "floors": 48
+    },
+    "takanawa-gateway": {
+      "buildings": 45,
+      "floors": 385
+    },
+    "takanawadai": {
+      "buildings": 28,
+      "floors": 151
+    },
+    "takashimadaira": {
+      "buildings": 6,
+      "floors": 12
+    },
+    "takebashi": {
+      "buildings": 56,
+      "floors": 311
+    },
+    "takenotsuka": {
+      "buildings": 170,
+      "floors": 531
+    },
+    "takeshiba": {
+      "buildings": 30,
+      "floors": 489
+    },
+    "takinogawa-itchome": {
+      "buildings": 12,
+      "floors": 29
+    },
+    "tamachi": {
+      "buildings": 154,
+      "floors": 1397
+    },
+    "tamagawa": {
+      "buildings": 8,
+      "floors": 13
+    },
+    "tameike-sanno": {
+      "buildings": 44,
+      "floors": 359
+    },
+    "tatsumi": {
+      "buildings": 8,
+      "floors": 28
+    },
+    "tawaramachi": {
+      "buildings": 144,
+      "floors": 480
+    },
+    "telecom-center": {
+      "buildings": 6,
+      "floors": 25
+    },
+    "tenkubashi": {
+      "buildings": 32,
+      "floors": 88
+    },
+    "tennozu-isle": {
+      "buildings": 58,
+      "floors": 403
+    },
+    "tobu-nerima": {
+      "buildings": 57,
+      "floors": 115
+    },
+    "tochomae": {
+      "buildings": 84,
+      "floors": 786
+    },
+    "todaimae": {
+      "buildings": 19,
+      "floors": 51
+    },
+    "toden-zoshigaya": {
+      "buildings": 12,
+      "floors": 61
+    },
+    "todoroki": {
+      "buildings": 16,
+      "floors": 32
+    },
+    "togoshi": {
+      "buildings": 17,
+      "floors": 77
+    },
+    "togoshi-koen": {
+      "buildings": 12,
+      "floors": 54
+    },
+    "tokiwadai": {
+      "buildings": 3,
+      "floors": 9
+    },
+    "tokyo": {
+      "buildings": 62,
+      "floors": 553
+    },
+    "tokyo-big-sight": {
+      "buildings": 13,
+      "floors": 53
+    },
+    "tokyo-international-cruise-terminal": {
+      "buildings": 6,
+      "floors": 29
+    },
+    "tokyo-skytree": {
+      "buildings": 54,
+      "floors": 179
+    },
+    "tokyo-teleport": {
+      "buildings": 7,
+      "floors": 26
+    },
+    "toneri": {
+      "buildings": 95,
+      "floors": 170
+    },
+    "toneri-koen": {
+      "buildings": 22,
+      "floors": 38
+    },
+    "toranomon": {
+      "buildings": 84,
+      "floors": 1024
+    },
+    "toritsu-daigaku": {
+      "buildings": 6,
+      "floors": 12
+    },
+    "toritsu-kasei": {
+      "buildings": 74,
+      "floors": 180
+    },
+    "toshimaen": {
+      "buildings": 110,
+      "floors": 286
+    },
+    "toyocho": {
+      "buildings": 26,
+      "floors": 108
+    },
+    "toyosu": {
+      "buildings": 62,
+      "floors": 455
+    },
+    "tsukiji": {
+      "buildings": 16,
+      "floors": 96
+    },
+    "tsukijishijo": {
+      "buildings": 37,
+      "floors": 273
+    },
+    "tsukishima": {
+      "buildings": 11,
+      "floors": 44
+    },
+    "uchisaiwaicho": {
+      "buildings": 48,
+      "floors": 340
+    },
+    "ueno": {
+      "buildings": 205,
+      "floors": 688
+    },
+    "uguisudani": {
+      "buildings": 128,
+      "floors": 433
+    },
+    "ukimafunado": {
+      "buildings": 8,
+      "floors": 16
+    },
+    "umegaoka": {
+      "buildings": 30,
+      "floors": 68
+    },
+    "umejima": {
+      "buildings": 79,
+      "floors": 221
+    },
+    "umeyashiki": {
+      "buildings": 10,
+      "floors": 30
+    },
+    "unoki": {
+      "buildings": 7,
+      "floors": 14
+    },
+    "ushida": {
+      "buildings": 43,
+      "floors": 105
+    },
+    "ushigome-kagurazaka": {
+      "buildings": 36,
+      "floors": 142
+    },
+    "ushigome-yanagicho": {
+      "buildings": 15,
+      "floors": 58
+    },
+    "wakabayashi": {
+      "buildings": 26,
+      "floors": 50
+    },
+    "wakamatsu-kawada": {
+      "buildings": 18,
+      "floors": 71
+    },
+    "waseda": {
+      "buildings": 33,
+      "floors": 115
+    },
+    "waseda-toden": {
+      "buildings": 21,
+      "floors": 61
+    },
+    "yaguchi-no-watashi": {
+      "buildings": 6,
+      "floors": 15
+    },
+    "yahiro": {
+      "buildings": 20,
+      "floors": 51
+    },
+    "yazaike": {
+      "buildings": 43,
+      "floors": 76
+    },
+    "yoga": {
+      "buildings": 7,
+      "floors": 15
+    },
+    "yotsugi": {
+      "buildings": 23,
+      "floors": 56
+    },
+    "yotsuya": {
+      "buildings": 9,
+      "floors": 45
+    },
+    "yotsuya-sanchome": {
+      "buildings": 21,
+      "floors": 108
+    },
+    "yoyogi": {
+      "buildings": 86,
+      "floors": 511
+    },
+    "yoyogi-hachiman": {
+      "buildings": 30,
+      "floors": 83
+    },
+    "yoyogi-uehara": {
+      "buildings": 38,
+      "floors": 120
+    },
+    "yukigaya-otsuka": {
+      "buildings": 29,
+      "floors": 59
+    },
+    "yurakucho": {
+      "buildings": 82,
+      "floors": 461
+    },
+    "yushima": {
+      "buildings": 931,
+      "floors": 4644
+    },
+    "yutenji": {
+      "buildings": 8,
+      "floors": 22
+    },
+    "zoshigaya": {
+      "buildings": 8,
+      "floors": 23
+    },
+    "zoshiki": {
+      "buildings": 64,
+      "floors": 194
+    }
+  }
+}

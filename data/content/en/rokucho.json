@@ -6,29 +6,30 @@
   "summary": "The station is in Adachi City, served by Tsukuba Express. Journey times to the main business districts are 32 minutes to Otemachi, 39 minutes to Shinjuku, 49 minutes to Shibuya and 40 minutes to Shinagawa. A one-room flat rents for roughly ¥60,000 to ¥70,000. The station stands 1.4 m above sea level, and the ground within 800 m varies in height by 2.2 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits on the higher side of the ground around it, at 1.4 m above sea level. Within 800 m the ground ranges from 0 m to 2.2 m, a difference of 2.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 1.4 m above sea level. Within 800 m the ground ranges from 0 m to 2.2 m, a difference of 2.2 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. Of the nine points within 400 m of the station, 9 fall inside the area, and the deepest projection among them is 3 to 5 m. For storm surge, 7 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. All nine points within 400 m of the station fall inside the area too, and the deepest projection among them is 3 to 5 m. For storm surge, 7 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the large side for the 23 wards.",
   "groceries": [
     {
       "name": "ライフ 六町駅前店",
       "tier": "standard",
       "walkMinutes": 2,
       "sourceUrl": "https://www.openstreetmap.org/node/1990358451",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "BeL'X",
       "tier": "standard",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/6553627032",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 2 clinics and 2 pharmacies. Facilities recorded as hospitals lie at 六町駅クリニック, about 67 m away and 江戸川病院高砂分院, about 2384 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "1 line serve the station: Tsukuba Express. Only one line runs here, so when it stops you will be walking to a station on another line. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 32.",
+  "medical": "Within an 800 m walk of the station there are 2 clinics and 2 pharmacies. The nearest hospital is 六町駅クリニック, about 2 minutes' walk from the station. The next nearest is 江戸川病院高砂分院, about 39 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "1 line serve the station: Tsukuba Express.",
+  "congestion": "Tsukuba Express runs at 151% of capacity in the morning peak. The busiest stretch is 青井→北千住, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥60,000 to ¥70,000, 1K ¥70,000 to ¥80,000, 1LDK ¥120,000 to ¥130,000 and 2LDK ¥150,000 to ¥160,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥60,000 to ¥70,000 and 1K ¥70,000 to ¥80,000. 1LDK ¥120,000 to ¥130,000 and 2LDK ¥150,000 to ¥160,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -37,15 +38,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥60,000 to ¥70,000.",
+  "rentReason": "A one-room flat here goes for ¥60,000 to ¥70,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. quiet surroundings pushes the figure up. On the other side, a large projected flood depth and only one line, the {line}, serving the station holds it down.",
   "neighbours": [
     {
       "slug": "kita-ayase",
-      "note": "1269 m away in a straight line. It reaches Otemachi in about the same time as Rokucho. One-room rents run about ¥8,000 higher."
+      "lead": "For how easy the shopping is, Kita-Ayase; for how close the centre is, Rokucho. ",
+      "note": "About 1.5 km from Rokucho in a straight line. Kita-Ayase has the Tokyo Metro Chiyoda Line, a different set from Rokucho. To Tokyo, for instance, Kita-Ayase takes 7 minutes longer. A one-room flat costs about ¥8,000 more at Kita-Ayase. On quiet, Rokucho comes out ahead."
     },
     {
       "slug": "aoi",
-      "note": "1471 m away in a straight line. It reaches Otemachi 3 minutes sooner than Rokucho. One-room rents run about ¥7,000 higher."
+      "lead": "For how close the centre is, Aoi; for lower rent, Rokucho. ",
+      "note": "About 1.5 km from Rokucho in a straight line. It is served by the same lines as Rokucho. To Toranomon, for instance, Aoi is 3 minutes quicker. A one-room flat costs about ¥7,000 more at Aoi. On how easy the shopping is, Aoi comes out ahead."
     }
   ],
   "goodFor": [
@@ -58,5 +61,24 @@
     "People who want to finish their shopping on foot",
     "People who want plenty of places to eat out"
   ],
+  "noiseSources": [
+    "平方東京線 (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "goodValue",
+    "floodArea",
+    "singleLine",
+    "flat"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 2 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
+    "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
+    "stationNote": "Only the Tsukuba Express serves this station, so when it stops you walk to another station.",
+    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
+  },
   "authoredBy": "data-generated"
 }

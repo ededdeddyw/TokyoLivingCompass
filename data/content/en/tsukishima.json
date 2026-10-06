@@ -3,46 +3,47 @@
   "locale": "en",
   "name": "Tsukishima",
   "tagline": "Tokyo in 12 minutes and Otemachi in 13 minutes. Served by 2 lines. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
-  "summary": "The station is in Chuo City, served by Tokyo Metro Yurakucho Line and Toei Oedo Line. Journey times to the main business districts are 13 minutes to Otemachi, 25 minutes to Shinjuku, 25 minutes to Shibuya and 23 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 2.1 m above sea level, and the ground within 800 m varies in height by 1.2 m. The land around the station is close to level.",
+  "summary": "The station is in Chuo City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 13 minutes to Otemachi, 25 minutes to Shinjuku, 25 minutes to Shibuya and 23 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 2.1 m above sea level, and the ground within 800 m varies in height by 1.2 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
-    "note": "The station sits on the higher side of the ground around it, at 2.1 m above sea level. Within 800 m the ground ranges from 1.4 m to 2.6 m, a difference of 1.2 m. These figures were read from the elevation API of the Geospatial Information Authority of Japan at nine points: the station itself and eight compass directions 400 m out."
+    "note": "The station sits on the higher side of the ground around it, at 2.1 m above sea level. Within 800 m the ground ranges from 1.4 m to 2.6 m, a difference of 1.2 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Of the nine points within 400 m of the station, 1 fall inside the area, and the deepest projection among them is less than 0.5 m. For storm surge, 4 of the nine points also fall inside the projected area. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 1 of the nine points within 400 m fall inside the area, and the deepest projection there is less than 0.5 m. For storm surge, 4 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the small side for the 23 wards.",
   "groceries": [
     {
       "name": "スーパーマーケット文化堂　月島店",
       "tier": "standard",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/5290785847",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "フジマート",
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/2476228612",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "ダイエー 月島店",
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/5274913583",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     },
     {
       "name": "マルエツ 佃店",
       "tier": "standard",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/6053918189",
-      "verifiedAt": "2026-09-13"
+      "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 6 clinics and 7 pharmacies. Facilities recorded as hospitals lie at 石川島記念病院, about 318 m away and 聖路加国際病院, about 696 m away. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "2 lines serve the station: Tokyo Metro Yurakucho Line and Toei Oedo Line. The lines are split between operators (Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company. Scored out of 100 from the number of lines and the spread of operators, transfer convenience here comes to 57.",
+  "medical": "Within an 800 m walk of the station there are 6 clinics and 7 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 石川島記念病院, about 6 minutes' walk from the station. The next nearest is 聖路加国際病院, about 12 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "stationNote": "2 lines serve the station. Tokyo Metro Yurakucho Line run through it. Toei Oedo Line also call here. The lines are split between operators (Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company.",
+  "congestion": "Tokyo Metro Yurakucho Line runs at 153% of capacity in the morning peak. The busiest stretch is 東池袋→護国寺, which this station is not on. Toei Oedo Line runs at 147%. Its busiest stretch is 中井→東中野, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "One room ¥130,000 to ¥140,000, 1K ¥130,000 to ¥140,000, 1LDK ¥220,000 to ¥230,000 and 2LDK ¥320,000 to ¥330,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, One room ¥130,000 to ¥140,000 and 1K ¥130,000 to ¥140,000. 1LDK ¥220,000 to ¥230,000 and 2LDK ¥320,000 to ¥330,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -51,15 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "etchujima",
-      "note": "838 m away in a straight line. It reaches Otemachi in about the same time as Tsukishima. One-room rents run about ¥6,000 lower."
+      "lead": "For lower rent, Etchujima; for rail connections, Tsukishima. ",
+      "note": "Close enough to walk to from Tsukishima. Etchujima has only the JR Keiyo Line, so Tsukishima is the better connected. To Shibuya, for instance, Etchujima takes 8 minutes longer. A one-room flat, though, costs about ¥6,000 less at Etchujima."
     },
     {
       "slug": "kachidoki",
-      "note": "998 m away in a straight line. It takes 5 minutes longer to reach Otemachi than Tsukishima. One-room rents run about ¥12,000 higher."
+      "lead": "Tsukishima is ahead on rail connections and how close the centre is. ",
+      "note": "Close enough to walk to from Tsukishima. Kachidoki has only the Toei Oedo Line, so Tsukishima is the better connected. To Tokyo, for instance, Kachidoki takes 6 minutes longer. A one-room flat also costs about ¥12,000 more at Kachidoki."
     }
   ],
   "goodFor": [
@@ -70,5 +73,24 @@
   "notFor": [
     "The data does not show a drawback particular to this station"
   ],
+  "noiseSources": [
+    "佃大橋通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+  ],
+  "tags": [
+    "lowFlood",
+    "fastToCenter",
+    "flat",
+    "parkNear"
+  ],
+  "leads": {
+    "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
+    "groceries": "There are 6 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
+    "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
+    "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
+  },
   "authoredBy": "data-generated"
 }

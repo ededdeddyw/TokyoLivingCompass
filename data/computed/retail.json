@@ -1,0 +1,3383 @@
+{
+  "meta": {
+    "method": "駅から半径400m以内の shop=mall / department_store / amenity=marketplace を数える",
+    "retrievedAt": "2026-09-23",
+    "source": "OpenStreetMap contributors (ODbL)"
+  },
+  "stations": {
+    "adachi-odai": {
+      "count": 0,
+      "places": []
+    },
+    "akabane": {
+      "count": 0,
+      "places": []
+    },
+    "akabane-iwabuchi": {
+      "count": 0,
+      "places": []
+    },
+    "akabanebashi": {
+      "count": 0,
+      "places": []
+    },
+    "akado-shogakkomae": {
+      "count": 0,
+      "places": []
+    },
+    "akasaka": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "marketplace",
+          "m": 82,
+          "name": "あおもり地域アンテナショップ"
+        }
+      ]
+    },
+    "akebonobashi": {
+      "count": 0,
+      "places": []
+    },
+    "akihabara": {
+      "count": 5,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 76,
+          "name": "ヨドバシAkiba"
+        },
+        {
+          "kind": "mall",
+          "m": 143,
+          "name": "アトレ秋葉原1"
+        },
+        {
+          "kind": "mall",
+          "m": 194,
+          "name": "秋葉原ラジオ会館"
+        },
+        {
+          "kind": "department_store",
+          "m": 238,
+          "name": null
+        },
+        {
+          "kind": "mall",
+          "m": 334,
+          "name": "AKIBAカルチャーズZONE"
+        }
+      ]
+    },
+    "anamori-inari": {
+      "count": 0,
+      "places": []
+    },
+    "aoi": {
+      "count": 0,
+      "places": []
+    },
+    "aomi": {
+      "count": 0,
+      "places": []
+    },
+    "aomono-yokocho": {
+      "count": 0,
+      "places": []
+    },
+    "aoto": {
+      "count": 0,
+      "places": []
+    },
+    "aoyama-itchome": {
+      "count": 0,
+      "places": []
+    },
+    "araiyakushi-mae": {
+      "count": 0,
+      "places": []
+    },
+    "arakawa-itchumae": {
+      "count": 2,
+      "places": [
+        {
+          "kind": "marketplace",
+          "m": 179,
+          "name": "みのり屋米店"
+        },
+        {
+          "kind": "mall",
+          "m": 288,
+          "name": "MINOWORLD"
+        }
+      ]
+    },
+    "arakawa-nanachome": {
+      "count": 0,
+      "places": []
+    },
+    "arakawa-nichome": {
+      "count": 0,
+      "places": []
+    },
+    "arakawa-shakomae": {
+      "count": 0,
+      "places": []
+    },
+    "arakawa-yuenchimae": {
+      "count": 0,
+      "places": []
+    },
+    "arakawakuyakushomae": {
+      "count": 0,
+      "places": []
+    },
+    "ariake": {
+      "count": 0,
+      "places": []
+    },
+    "ariake-tennis-no-mori": {
+      "count": 0,
+      "places": []
+    },
+    "asagaya": {
+      "count": 3,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 37,
+          "name": "ビーンズぷらす"
+        },
+        {
+          "kind": "mall",
+          "m": 48,
+          "name": "ビーンズくるく"
+        },
+        {
+          "kind": "mall",
+          "m": 139,
+          "name": "ビーンズてくて"
+        }
+      ]
+    },
+    "asakusa": {
+      "count": 10,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 121,
+          "name": "松屋浅草"
+        },
+        {
+          "kind": "mall",
+          "m": 126,
+          "name": null
+        },
+        {
+          "kind": "mall",
+          "m": 137,
+          "name": null
+        },
+        {
+          "kind": "mall",
+          "m": 145,
+          "name": null
+        },
+        {
+          "kind": "mall",
+          "m": 154,
+          "name": "浅草エキミセ"
+        },
+        {
+          "kind": "mall",
+          "m": 157,
+          "name": null
+        },
+        {
+          "kind": "mall",
+          "m": 290,
+          "name": null
+        },
+        {
+          "kind": "mall",
+          "m": 314,
+          "name": null
+        }
+      ]
+    },
+    "asakusa-tx": {
+      "count": 9,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 109,
+          "name": "浅草ROX"
+        },
+        {
+          "kind": "department_store",
+          "m": 123,
+          "name": null
+        },
+        {
+          "kind": "department_store",
+          "m": 149,
+          "name": "まるごとにっぽん"
+        },
+        {
+          "kind": "mall",
+          "m": 156,
+          "name": "ROX・3G"
+        },
+        {
+          "kind": "mall",
+          "m": 171,
+          "name": "ROX2G"
+        },
+        {
+          "kind": "mall",
+          "m": 225,
+          "name": null
+        },
+        {
+          "kind": "mall",
+          "m": 249,
+          "name": null
+        },
+        {
+          "kind": "mall",
+          "m": 289,
+          "name": null
+        }
+      ]
+    },
+    "asakusabashi": {
+      "count": 0,
+      "places": []
+    },
+    "asukayama": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 328,
+          "name": "サンスクエア"
+        }
+      ]
+    },
+    "awajicho": {
+      "count": 0,
+      "places": []
+    },
+    "ayase": {
+      "count": 0,
+      "places": []
+    },
+    "azabu-juban": {
+      "count": 0,
+      "places": []
+    },
+    "bakurocho": {
+      "count": 0,
+      "places": []
+    },
+    "chidoricho": {
+      "count": 0,
+      "places": []
+    },
+    "chikatetsu-akatsuka": {
+      "count": 0,
+      "places": []
+    },
+    "chitose-funabashi": {
+      "count": 0,
+      "places": []
+    },
+    "chitose-karasuyama": {
+      "count": 0,
+      "places": []
+    },
+    "daiba": {
+      "count": 2,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 283,
+          "name": "アクアシテイお台場"
+        },
+        {
+          "kind": "mall",
+          "m": 371,
+          "name": "ダイバーシティ東京"
+        }
+      ]
+    },
+    "daikanyama": {
+      "count": 2,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 187,
+          "name": null
+        },
+        {
+          "kind": "mall",
+          "m": 337,
+          "name": "代官山 T-SITE"
+        }
+      ]
+    },
+    "daimon": {
+      "count": 0,
+      "places": []
+    },
+    "daishimae": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 142,
+          "name": "門前華永路商店街"
+        }
+      ]
+    },
+    "daitabashi": {
+      "count": 0,
+      "places": []
+    },
+    "den-en-chofu": {
+      "count": 0,
+      "places": []
+    },
+    "ebara-machi": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 383,
+          "name": "イオンタウン"
+        }
+      ]
+    },
+    "ebara-nakanobu": {
+      "count": 0,
+      "places": []
+    },
+    "ebisu": {
+      "count": 2,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 37,
+          "name": "アトレ恵比寿 西館"
+        },
+        {
+          "kind": "mall",
+          "m": 119,
+          "name": "えびすストアー"
+        }
+      ]
+    },
+    "edogawa": {
+      "count": 0,
+      "places": []
+    },
+    "edogawabashi": {
+      "count": 0,
+      "places": []
+    },
+    "eifukucho": {
+      "count": 0,
+      "places": []
+    },
+    "ekoda": {
+      "count": 0,
+      "places": []
+    },
+    "etchujima": {
+      "count": 0,
+      "places": []
+    },
+    "fudo-mae": {
+      "count": 0,
+      "places": []
+    },
+    "fujimidai": {
+      "count": 0,
+      "places": []
+    },
+    "fujimigaoka": {
+      "count": 0,
+      "places": []
+    },
+    "funabori": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 204,
+          "name": "イオンフードスタイル"
+        }
+      ]
+    },
+    "futako-tamagawa": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 245,
+          "name": "玉川高島屋S・C"
+        }
+      ]
+    },
+    "gaiemmae": {
+      "count": 0,
+      "places": []
+    },
+    "gakugei-daigaku": {
+      "count": 0,
+      "places": []
+    },
+    "gakushuinshita": {
+      "count": 0,
+      "places": []
+    },
+    "ginza": {
+      "count": 13,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 105,
+          "name": "和光"
+        },
+        {
+          "kind": "mall",
+          "m": 132,
+          "name": "西銀座"
+        },
+        {
+          "kind": "mall",
+          "m": 135,
+          "name": "マロニエゲート銀座2"
+        },
+        {
+          "kind": "department_store",
+          "m": 177,
+          "name": "松屋銀座"
+        },
+        {
+          "kind": "department_store",
+          "m": 186,
+          "name": "三越銀座店"
+        },
+        {
+          "kind": "mall",
+          "m": 187,
+          "name": null
+        },
+        {
+          "kind": "mall",
+          "m": 190,
+          "name": "ルミネ有楽町"
+        },
+        {
+          "kind": "mall",
+          "m": 193,
+          "name": "銀座プレイス"
+        }
+      ]
+    },
+    "gokokuji": {
+      "count": 0,
+      "places": []
+    },
+    "gotanda": {
+      "count": 2,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 14,
+          "name": "アトレ五反田2"
+        },
+        {
+          "kind": "marketplace",
+          "m": 71,
+          "name": "五反田東急スクエア"
+        }
+      ]
+    },
+    "gotanno": {
+      "count": 0,
+      "places": []
+    },
+    "gotokuji": {
+      "count": 0,
+      "places": []
+    },
+    "hachiman-yama": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 107,
+          "name": "京王リトナード"
+        }
+      ]
+    },
+    "hakusan": {
+      "count": 0,
+      "places": []
+    },
+    "hamacho": {
+      "count": 0,
+      "places": []
+    },
+    "hamadayama": {
+      "count": 0,
+      "places": []
+    },
+    "hamamatsucho": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 255,
+          "name": "ハマサイト グルメ"
+        }
+      ]
+    },
+    "haneda-airport-terminal-1-2": {
+      "count": 2,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 264,
+          "name": "伊勢丹"
+        },
+        {
+          "kind": "department_store",
+          "m": 268,
+          "name": "伊勢丹"
+        }
+      ]
+    },
+    "haneda-airport-terminal-3": {
+      "count": 0,
+      "places": []
+    },
+    "hanzomon": {
+      "count": 0,
+      "places": []
+    },
+    "hasune": {
+      "count": 0,
+      "places": []
+    },
+    "hasunuma": {
+      "count": 0,
+      "places": []
+    },
+    "hatagaya": {
+      "count": 0,
+      "places": []
+    },
+    "hatanodai": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 184,
+          "name": "イオンタウン"
+        }
+      ]
+    },
+    "hatchobori": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 310,
+          "name": null
+        }
+      ]
+    },
+    "hatsudai": {
+      "count": 0,
+      "places": []
+    },
+    "heiwadai": {
+      "count": 0,
+      "places": []
+    },
+    "heiwajima": {
+      "count": 0,
+      "places": []
+    },
+    "higashi-azuma": {
+      "count": 0,
+      "places": []
+    },
+    "higashi-ginza": {
+      "count": 6,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 71,
+          "name": "木挽町広場"
+        },
+        {
+          "kind": "department_store",
+          "m": 227,
+          "name": "三越銀座店"
+        },
+        {
+          "kind": "mall",
+          "m": 256,
+          "name": "銀座プレイス"
+        },
+        {
+          "kind": "mall",
+          "m": 287,
+          "name": "GINZA SIX"
+        },
+        {
+          "kind": "department_store",
+          "m": 316,
+          "name": "和光"
+        },
+        {
+          "kind": "department_store",
+          "m": 317,
+          "name": "松屋銀座"
+        }
+      ]
+    },
+    "higashi-ikebukuro": {
+      "count": 0,
+      "places": []
+    },
+    "higashi-jujo": {
+      "count": 0,
+      "places": []
+    },
+    "higashi-kitazawa": {
+      "count": 0,
+      "places": []
+    },
+    "higashi-koenji": {
+      "count": 0,
+      "places": []
+    },
+    "higashi-matsubara": {
+      "count": 0,
+      "places": []
+    },
+    "higashi-mukojima": {
+      "count": 0,
+      "places": []
+    },
+    "higashi-nagasaki": {
+      "count": 0,
+      "places": []
+    },
+    "higashi-nakano": {
+      "count": 0,
+      "places": []
+    },
+    "higashi-ogu-sanchome": {
+      "count": 0,
+      "places": []
+    },
+    "higashi-ojima": {
+      "count": 0,
+      "places": []
+    },
+    "higashi-shinjuku": {
+      "count": 0,
+      "places": []
+    },
+    "hikarigaoka": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 140,
+          "name": "光が丘LIVIN, IMA, イオン"
+        }
+      ]
+    },
+    "hikawadai": {
+      "count": 0,
+      "places": []
+    },
+    "hikifune": {
+      "count": 0,
+      "places": []
+    },
+    "hinode": {
+      "count": 0,
+      "places": []
+    },
+    "hirai": {
+      "count": 0,
+      "places": []
+    },
+    "hiro-o": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 247,
+          "name": "広尾プラザ"
+        }
+      ]
+    },
+    "hon-komagome": {
+      "count": 0,
+      "places": []
+    },
+    "honancho": {
+      "count": 0,
+      "places": []
+    },
+    "hongo-sanchome": {
+      "count": 0,
+      "places": []
+    },
+    "honjo-azumabashi": {
+      "count": 0,
+      "places": []
+    },
+    "horikiri": {
+      "count": 0,
+      "places": []
+    },
+    "horikirishobuen": {
+      "count": 0,
+      "places": []
+    },
+    "ichigaya": {
+      "count": 0,
+      "places": []
+    },
+    "ichinoe": {
+      "count": 0,
+      "places": []
+    },
+    "iidabashi": {
+      "count": 0,
+      "places": []
+    },
+    "ikebukuro": {
+      "count": 9,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 72,
+          "name": "東武ホープセンター"
+        },
+        {
+          "kind": "mall",
+          "m": 82,
+          "name": "Tobu Hope Center"
+        },
+        {
+          "kind": "mall",
+          "m": 167,
+          "name": "PARCO"
+        },
+        {
+          "kind": "mall",
+          "m": 177,
+          "name": "西武池袋本店"
+        },
+        {
+          "kind": "mall",
+          "m": 190,
+          "name": "池袋ショッピングパーク 南館"
+        },
+        {
+          "kind": "department_store",
+          "m": 206,
+          "name": "ルミネ池袋"
+        },
+        {
+          "kind": "mall",
+          "m": 215,
+          "name": "池袋ショッピングパーク 北館"
+        },
+        {
+          "kind": "mall",
+          "m": 226,
+          "name": "P' PARCO"
+        }
+      ]
+    },
+    "ikegami": {
+      "count": 0,
+      "places": []
+    },
+    "ikejiri-ohashi": {
+      "count": 0,
+      "places": []
+    },
+    "ikenoue": {
+      "count": 0,
+      "places": []
+    },
+    "inaricho": {
+      "count": 0,
+      "places": []
+    },
+    "iogi": {
+      "count": 0,
+      "places": []
+    },
+    "iriya": {
+      "count": 0,
+      "places": []
+    },
+    "ishikawadai": {
+      "count": 0,
+      "places": []
+    },
+    "itabashi": {
+      "count": 0,
+      "places": []
+    },
+    "itabashi-kuyakushomae": {
+      "count": 0,
+      "places": []
+    },
+    "itabashihoncho": {
+      "count": 0,
+      "places": []
+    },
+    "iwamotocho": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 375,
+          "name": "ヨドバシAkiba"
+        }
+      ]
+    },
+    "jimbocho": {
+      "count": 0,
+      "places": []
+    },
+    "jiyugaoka": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 190,
+          "name": "JIYUGAOKA de aone"
+        }
+      ]
+    },
+    "jujo": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "marketplace",
+          "m": 119,
+          "name": "インド食材 SONALI STAR"
+        }
+      ]
+    },
+    "kachidoki": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "marketplace",
+          "m": 67,
+          "name": "Tsukishima Second Children's Park Farmers Market"
+        }
+      ]
+    },
+    "kagurazaka": {
+      "count": 0,
+      "places": []
+    },
+    "kajiwara": {
+      "count": 0,
+      "places": []
+    },
+    "kamata": {
+      "count": 0,
+      "places": []
+    },
+    "kameari": {
+      "count": 0,
+      "places": []
+    },
+    "kameido": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 37,
+          "name": "アトレ亀戸"
+        }
+      ]
+    },
+    "kameidosuijin": {
+      "count": 0,
+      "places": []
+    },
+    "kami-igusa": {
+      "count": 0,
+      "places": []
+    },
+    "kami-itabashi": {
+      "count": 0,
+      "places": []
+    },
+    "kami-kitazawa": {
+      "count": 0,
+      "places": []
+    },
+    "kami-nakazato": {
+      "count": 0,
+      "places": []
+    },
+    "kami-shakujii": {
+      "count": 0,
+      "places": []
+    },
+    "kamimachi": {
+      "count": 0,
+      "places": []
+    },
+    "kaminoge": {
+      "count": 0,
+      "places": []
+    },
+    "kamiyacho": {
+      "count": 0,
+      "places": []
+    },
+    "kanamachi": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 358,
+          "name": "MARK IS 葛飾かなまち"
+        }
+      ]
+    },
+    "kanamecho": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "marketplace",
+          "m": 104,
+          "name": "新東京木材商業組合 池袋市場"
+        }
+      ]
+    },
+    "kanda": {
+      "count": 0,
+      "places": []
+    },
+    "kanegafuchi": {
+      "count": 0,
+      "places": []
+    },
+    "kasai": {
+      "count": 2,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 59,
+          "name": "メトロセンター第2"
+        },
+        {
+          "kind": "mall",
+          "m": 136,
+          "name": "メトロセンター第1"
+        }
+      ]
+    },
+    "kasai-rinkai-koen": {
+      "count": 0,
+      "places": []
+    },
+    "kasuga": {
+      "count": 2,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 307,
+          "name": "my"
+        },
+        {
+          "kind": "mall",
+          "m": 337,
+          "name": "ラクーア"
+        }
+      ]
+    },
+    "kasumigaseki": {
+      "count": 0,
+      "places": []
+    },
+    "kayabacho": {
+      "count": 0,
+      "places": []
+    },
+    "keikyu-kamata": {
+      "count": 0,
+      "places": []
+    },
+    "keisei-hikifune": {
+      "count": 0,
+      "places": []
+    },
+    "keisei-koiwa": {
+      "count": 0,
+      "places": []
+    },
+    "keisei-takasago": {
+      "count": 0,
+      "places": []
+    },
+    "keisei-tateishi": {
+      "count": 0,
+      "places": []
+    },
+    "keisei-ueno": {
+      "count": 7,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 124,
+          "name": "上野松竹デパート"
+        },
+        {
+          "kind": "marketplace",
+          "m": 157,
+          "name": "アメヤ横丁"
+        },
+        {
+          "kind": "mall",
+          "m": 211,
+          "name": "上野マルイ"
+        },
+        {
+          "kind": "department_store",
+          "m": 232,
+          "name": null
+        },
+        {
+          "kind": "mall",
+          "m": 244,
+          "name": "アトレ"
+        },
+        {
+          "kind": "department_store",
+          "m": 323,
+          "name": "London Sports"
+        },
+        {
+          "kind": "department_store",
+          "m": 330,
+          "name": "London sports"
+        }
+      ]
+    },
+    "kiba": {
+      "count": 0,
+      "places": []
+    },
+    "kikukawa": {
+      "count": 0,
+      "places": []
+    },
+    "kinshicho": {
+      "count": 6,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 49,
+          "name": "アルカイースト"
+        },
+        {
+          "kind": "mall",
+          "m": 151,
+          "name": "錦糸町PARCO"
+        },
+        {
+          "kind": "mall",
+          "m": 151,
+          "name": null
+        },
+        {
+          "kind": "mall",
+          "m": 177,
+          "name": "アルカキット錦糸町"
+        },
+        {
+          "kind": "department_store",
+          "m": 231,
+          "name": "マルイ"
+        },
+        {
+          "kind": "mall",
+          "m": 238,
+          "name": "錦糸町マルイ"
+        }
+      ]
+    },
+    "kita-akabane": {
+      "count": 0,
+      "places": []
+    },
+    "kita-ayase": {
+      "count": 0,
+      "places": []
+    },
+    "kita-ikebukuro": {
+      "count": 0,
+      "places": []
+    },
+    "kita-sando": {
+      "count": 0,
+      "places": []
+    },
+    "kita-senju": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 158,
+          "name": "北千住マルイ"
+        }
+      ]
+    },
+    "kita-senzoku": {
+      "count": 0,
+      "places": []
+    },
+    "kitashinagawa": {
+      "count": 0,
+      "places": []
+    },
+    "kiyosumi-shirakawa": {
+      "count": 0,
+      "places": []
+    },
+    "kodemmacho": {
+      "count": 0,
+      "places": []
+    },
+    "koenji": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 41,
+          "name": "ラーメン横丁"
+        }
+      ]
+    },
+    "kohoku": {
+      "count": 0,
+      "places": []
+    },
+    "koiwa": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 46,
+          "name": "Shapo"
+        }
+      ]
+    },
+    "kojimachi": {
+      "count": 0,
+      "places": []
+    },
+    "kojiya": {
+      "count": 0,
+      "places": []
+    },
+    "kokkai-gijidomae": {
+      "count": 0,
+      "places": []
+    },
+    "kokuritsu-kyogijo": {
+      "count": 0,
+      "places": []
+    },
+    "kokusai-tenjijo": {
+      "count": 0,
+      "places": []
+    },
+    "komaba-todaimae": {
+      "count": 0,
+      "places": []
+    },
+    "komagome": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "marketplace",
+          "m": 145,
+          "name": "赤とうがらし"
+        }
+      ]
+    },
+    "komazawa-daigaku": {
+      "count": 0,
+      "places": []
+    },
+    "korakuen": {
+      "count": 2,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 83,
+          "name": "my"
+        },
+        {
+          "kind": "mall",
+          "m": 187,
+          "name": "ラクーア"
+        }
+      ]
+    },
+    "koshinzuka": {
+      "count": 0,
+      "places": []
+    },
+    "kosuge": {
+      "count": 0,
+      "places": []
+    },
+    "kotake-mukaihara": {
+      "count": 0,
+      "places": []
+    },
+    "koya": {
+      "count": 0,
+      "places": []
+    },
+    "kudanshita": {
+      "count": 0,
+      "places": []
+    },
+    "kugahara": {
+      "count": 0,
+      "places": []
+    },
+    "kugayama": {
+      "count": 0,
+      "places": []
+    },
+    "kuhombutsu": {
+      "count": 0,
+      "places": []
+    },
+    "kumanomae": {
+      "count": 0,
+      "places": []
+    },
+    "kuramae": {
+      "count": 0,
+      "places": []
+    },
+    "kyobashi": {
+      "count": 2,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 294,
+          "name": "KIRARITO GINZA"
+        },
+        {
+          "kind": "department_store",
+          "m": 358,
+          "name": null
+        }
+      ]
+    },
+    "kyodo": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 54,
+          "name": "Kyodo Corty"
+        }
+      ]
+    },
+    "machiya": {
+      "count": 0,
+      "places": []
+    },
+    "machiya-nichome": {
+      "count": 0,
+      "places": []
+    },
+    "magome": {
+      "count": 0,
+      "places": []
+    },
+    "matsubara": {
+      "count": 0,
+      "places": []
+    },
+    "meguro": {
+      "count": 2,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 74,
+          "name": "アトレ目黒1 A館"
+        },
+        {
+          "kind": "mall",
+          "m": 116,
+          "name": "アトレ目黒1 B館"
+        }
+      ]
+    },
+    "meidaimae": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 24,
+          "name": "フレンテ明大前"
+        }
+      ]
+    },
+    "meiji-jingumae": {
+      "count": 9,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 133,
+          "name": "ラフォーレ原宿"
+        },
+        {
+          "kind": "mall",
+          "m": 134,
+          "name": "東急プラザ原宿"
+        },
+        {
+          "kind": "mall",
+          "m": 196,
+          "name": "東急プラザ表参道「オモカド」"
+        },
+        {
+          "kind": "mall",
+          "m": 199,
+          "name": "Cute Cube Harajuku"
+        },
+        {
+          "kind": "mall",
+          "m": 202,
+          "name": "原宿アルタ"
+        },
+        {
+          "kind": "mall",
+          "m": 206,
+          "name": "原宿friend"
+        },
+        {
+          "kind": "mall",
+          "m": 211,
+          "name": "PICNIC"
+        },
+        {
+          "kind": "mall",
+          "m": 346,
+          "name": "gyre"
+        }
+      ]
+    },
+    "mejiro": {
+      "count": 0,
+      "places": []
+    },
+    "midorigaoka": {
+      "count": 0,
+      "places": []
+    },
+    "mikawashima": {
+      "count": 0,
+      "places": []
+    },
+    "minami-asagaya": {
+      "count": 0,
+      "places": []
+    },
+    "minami-senju": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 349,
+          "name": "LaLaテラス南千住"
+        }
+      ]
+    },
+    "minami-shinjuku": {
+      "count": 0,
+      "places": []
+    },
+    "minami-sunamachi": {
+      "count": 0,
+      "places": []
+    },
+    "minowa": {
+      "count": 2,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 255,
+          "name": "MINOWORLD"
+        },
+        {
+          "kind": "marketplace",
+          "m": 388,
+          "name": "みのり屋米店"
+        }
+      ]
+    },
+    "minowabashi": {
+      "count": 2,
+      "places": [
+        {
+          "kind": "marketplace",
+          "m": 105,
+          "name": "みのり屋米店"
+        },
+        {
+          "kind": "mall",
+          "m": 231,
+          "name": "MINOWORLD"
+        }
+      ]
+    },
+    "minumadai-shinsuikoen": {
+      "count": 0,
+      "places": []
+    },
+    "mita": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 262,
+          "name": "ピアタ"
+        }
+      ]
+    },
+    "mitsukoshimae": {
+      "count": 5,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 83,
+          "name": "COREDO室町1 (室町東三井ビルディング)"
+        },
+        {
+          "kind": "department_store",
+          "m": 132,
+          "name": "Coredo室町3 (室町ちばぎん三井ビルディング)"
+        },
+        {
+          "kind": "department_store",
+          "m": 137,
+          "name": "日本橋室町三井タワー [COREDO室町テラス]"
+        },
+        {
+          "kind": "department_store",
+          "m": 139,
+          "name": "COREDO室町2 (室町古河三井ビルディング)"
+        },
+        {
+          "kind": "department_store",
+          "m": 160,
+          "name": "日本橋三越本店"
+        }
+      ]
+    },
+    "miyanomae": {
+      "count": 0,
+      "places": []
+    },
+    "miyanosaka": {
+      "count": 0,
+      "places": []
+    },
+    "mizue": {
+      "count": 0,
+      "places": []
+    },
+    "monzen-nakacho": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 184,
+          "name": null
+        }
+      ]
+    },
+    "morishita": {
+      "count": 0,
+      "places": []
+    },
+    "motohasunuma": {
+      "count": 0,
+      "places": []
+    },
+    "mukohara": {
+      "count": 0,
+      "places": []
+    },
+    "musashi-koyama": {
+      "count": 0,
+      "places": []
+    },
+    "musashi-nitta": {
+      "count": 0,
+      "places": []
+    },
+    "musashi-seki": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 35,
+          "name": "Emio武蔵関"
+        }
+      ]
+    },
+    "myogadani": {
+      "count": 0,
+      "places": []
+    },
+    "nagahara": {
+      "count": 0,
+      "places": []
+    },
+    "nagatacho": {
+      "count": 0,
+      "places": []
+    },
+    "naka-itabashi": {
+      "count": 0,
+      "places": []
+    },
+    "nakai": {
+      "count": 0,
+      "places": []
+    },
+    "nakameguro": {
+      "count": 0,
+      "places": []
+    },
+    "nakamurabashi": {
+      "count": 0,
+      "places": []
+    },
+    "nakano": {
+      "count": 3,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 134,
+          "name": "マルイ中野店"
+        },
+        {
+          "kind": "marketplace",
+          "m": 162,
+          "name": "麒麟堂"
+        },
+        {
+          "kind": "mall",
+          "m": 254,
+          "name": "中野駅北口商店街"
+        }
+      ]
+    },
+    "nakano-fujimicho": {
+      "count": 0,
+      "places": []
+    },
+    "nakano-sakaue": {
+      "count": 0,
+      "places": []
+    },
+    "nakano-shimbashi": {
+      "count": 0,
+      "places": []
+    },
+    "nakanobu": {
+      "count": 0,
+      "places": []
+    },
+    "narimasu": {
+      "count": 0,
+      "places": []
+    },
+    "nerima": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 118,
+          "name": "ココネリ"
+        }
+      ]
+    },
+    "nerima-kasugacho": {
+      "count": 0,
+      "places": []
+    },
+    "nerima-takanodai": {
+      "count": 0,
+      "places": []
+    },
+    "nezu": {
+      "count": 0,
+      "places": []
+    },
+    "nihombashi": {
+      "count": 3,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 77,
+          "name": "Coredo日本橋"
+        },
+        {
+          "kind": "department_store",
+          "m": 147,
+          "name": "日本橋高島屋"
+        },
+        {
+          "kind": "department_store",
+          "m": 396,
+          "name": "日本橋三越本店"
+        }
+      ]
+    },
+    "nijubashimae": {
+      "count": 2,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 210,
+          "name": "丸の内MY PLAZA"
+        },
+        {
+          "kind": "mall",
+          "m": 289,
+          "name": "KITTE"
+        }
+      ]
+    },
+    "ningyocho": {
+      "count": 0,
+      "places": []
+    },
+    "nippori": {
+      "count": 0,
+      "places": []
+    },
+    "nishi-eifuku": {
+      "count": 0,
+      "places": []
+    },
+    "nishi-kasai": {
+      "count": 4,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 10,
+          "name": "メトロセンター2番街"
+        },
+        {
+          "kind": "mall",
+          "m": 93,
+          "name": "メトロセンター3番街"
+        },
+        {
+          "kind": "mall",
+          "m": 119,
+          "name": "メトロセンター1番街"
+        },
+        {
+          "kind": "mall",
+          "m": 198,
+          "name": "メトロセンター4番街"
+        }
+      ]
+    },
+    "nishi-koyama": {
+      "count": 0,
+      "places": []
+    },
+    "nishi-nippori": {
+      "count": 0,
+      "places": []
+    },
+    "nishi-ogikubo": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "marketplace",
+          "m": 329,
+          "name": "八百富"
+        }
+      ]
+    },
+    "nishi-oi": {
+      "count": 0,
+      "places": []
+    },
+    "nishi-ojima": {
+      "count": 0,
+      "places": []
+    },
+    "nishi-shinjuku": {
+      "count": 2,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 197,
+          "name": "Can Do ¥100"
+        },
+        {
+          "kind": "department_store",
+          "m": 199,
+          "name": "Can Do ¥100"
+        }
+      ]
+    },
+    "nishi-shinjuku-gochome": {
+      "count": 0,
+      "places": []
+    },
+    "nishi-sugamo": {
+      "count": 0,
+      "places": []
+    },
+    "nishi-taishido": {
+      "count": 0,
+      "places": []
+    },
+    "nishi-takashimadaira": {
+      "count": 0,
+      "places": []
+    },
+    "nishi-waseda": {
+      "count": 0,
+      "places": []
+    },
+    "nishiarai": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 189,
+          "name": "PASSAGGIO"
+        }
+      ]
+    },
+    "nishiaraidaishi-nishi": {
+      "count": 0,
+      "places": []
+    },
+    "nishidai": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "marketplace",
+          "m": 66,
+          "name": "AEON"
+        }
+      ]
+    },
+    "nishigahara": {
+      "count": 0,
+      "places": []
+    },
+    "nishigahara-yonchome": {
+      "count": 0,
+      "places": []
+    },
+    "nishimagome": {
+      "count": 0,
+      "places": []
+    },
+    "nogata": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 92,
+          "name": "野方文化マーケット"
+        }
+      ]
+    },
+    "nogizaka": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 370,
+          "name": "ガレリア"
+        }
+      ]
+    },
+    "numabe": {
+      "count": 0,
+      "places": []
+    },
+    "numabukuro": {
+      "count": 0,
+      "places": []
+    },
+    "ochanomizu": {
+      "count": 0,
+      "places": []
+    },
+    "ochiai": {
+      "count": 0,
+      "places": []
+    },
+    "ochiai-minami-nagasaki": {
+      "count": 0,
+      "places": []
+    },
+    "odai": {
+      "count": 0,
+      "places": []
+    },
+    "odaiba-kaihinkoen": {
+      "count": 3,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 224,
+          "name": "アイランドモール"
+        },
+        {
+          "kind": "mall",
+          "m": 239,
+          "name": "シーサイドモール"
+        },
+        {
+          "kind": "mall",
+          "m": 258,
+          "name": "デックス東京ビーチ"
+        }
+      ]
+    },
+    "ogi-ohashi": {
+      "count": 0,
+      "places": []
+    },
+    "ogikubo": {
+      "count": 3,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 26,
+          "name": "LUMINE荻窪店"
+        },
+        {
+          "kind": "mall",
+          "m": 83,
+          "name": "荻窪タウンセブン"
+        },
+        {
+          "kind": "marketplace",
+          "m": 279,
+          "name": "岡本とうふ店"
+        }
+      ]
+    },
+    "ohanajaya": {
+      "count": 0,
+      "places": []
+    },
+    "oi-keibajo-mae": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 315,
+          "name": "ヴィラ大井"
+        }
+      ]
+    },
+    "oimachi": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 168,
+          "name": "阪急大井町店"
+        }
+      ]
+    },
+    "oizumi-gakuen": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 50,
+          "name": "Grand Emio"
+        }
+      ]
+    },
+    "oji": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 98,
+          "name": "サンスクエア"
+        }
+      ]
+    },
+    "oji-kamiya": {
+      "count": 0,
+      "places": []
+    },
+    "ojima": {
+      "count": 0,
+      "places": []
+    },
+    "okachimachi": {
+      "count": 11,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 106,
+          "name": "松坂屋"
+        },
+        {
+          "kind": "department_store",
+          "m": 120,
+          "name": "London sports"
+        },
+        {
+          "kind": "department_store",
+          "m": 128,
+          "name": "London Sports"
+        },
+        {
+          "kind": "department_store",
+          "m": 140,
+          "name": "PARCO_ya"
+        },
+        {
+          "kind": "mall",
+          "m": 142,
+          "name": "PARCO_ya 上野"
+        },
+        {
+          "kind": "mall",
+          "m": 186,
+          "name": "多慶屋（建て替え中）"
+        },
+        {
+          "kind": "mall",
+          "m": 193,
+          "name": "多慶屋 ファッション館"
+        },
+        {
+          "kind": "mall",
+          "m": 202,
+          "name": "多慶屋"
+        }
+      ]
+    },
+    "oku": {
+      "count": 0,
+      "places": []
+    },
+    "okubo": {
+      "count": 2,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 372,
+          "name": "K-Star Plus"
+        },
+        {
+          "kind": "department_store",
+          "m": 382,
+          "name": null
+        }
+      ]
+    },
+    "okusawa": {
+      "count": 0,
+      "places": []
+    },
+    "omokagebashi": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 398,
+          "name": "ドンキホーテ ピカソ"
+        }
+      ]
+    },
+    "omori": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 226,
+          "name": null
+        }
+      ]
+    },
+    "omorikaigan": {
+      "count": 0,
+      "places": []
+    },
+    "omorimachi": {
+      "count": 0,
+      "places": []
+    },
+    "omote-sando": {
+      "count": 4,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 161,
+          "name": null
+        },
+        {
+          "kind": "mall",
+          "m": 217,
+          "name": "Ao"
+        },
+        {
+          "kind": "mall",
+          "m": 266,
+          "name": null
+        },
+        {
+          "kind": "mall",
+          "m": 284,
+          "name": "Portofino"
+        }
+      ]
+    },
+    "omurai": {
+      "count": 0,
+      "places": []
+    },
+    "onarimon": {
+      "count": 0,
+      "places": []
+    },
+    "ontakesan": {
+      "count": 0,
+      "places": []
+    },
+    "ookayama": {
+      "count": 0,
+      "places": []
+    },
+    "osaki": {
+      "count": 0,
+      "places": []
+    },
+    "osaki-hirokoji": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 307,
+          "name": "TOCビル"
+        }
+      ]
+    },
+    "oshiage": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 190,
+          "name": "東京ソラマチ"
+        }
+      ]
+    },
+    "otemachi": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 178,
+          "name": "iiyo!!"
+        }
+      ]
+    },
+    "otorii": {
+      "count": 0,
+      "places": []
+    },
+    "otsuka": {
+      "count": 0,
+      "places": []
+    },
+    "oyama": {
+      "count": 0,
+      "places": []
+    },
+    "oyamadai": {
+      "count": 0,
+      "places": []
+    },
+    "roka-koen": {
+      "count": 0,
+      "places": []
+    },
+    "rokucho": {
+      "count": 0,
+      "places": []
+    },
+    "rokugodote": {
+      "count": 0,
+      "places": []
+    },
+    "roppongi": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 329,
+          "name": "ガレリア"
+        }
+      ]
+    },
+    "roppongi-itchome": {
+      "count": 0,
+      "places": []
+    },
+    "ryogoku": {
+      "count": 0,
+      "places": []
+    },
+    "ryutsu-center": {
+      "count": 0,
+      "places": []
+    },
+    "saginomiya": {
+      "count": 0,
+      "places": []
+    },
+    "sakaecho": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 374,
+          "name": "サンスクエア"
+        }
+      ]
+    },
+    "sakura-shimmachi": {
+      "count": 0,
+      "places": []
+    },
+    "sakuradai": {
+      "count": 0,
+      "places": []
+    },
+    "sakuradamon": {
+      "count": 0,
+      "places": []
+    },
+    "sakurajosui": {
+      "count": 0,
+      "places": []
+    },
+    "samezu": {
+      "count": 0,
+      "places": []
+    },
+    "sangen-jaya": {
+      "count": 0,
+      "places": []
+    },
+    "sangubashi": {
+      "count": 0,
+      "places": []
+    },
+    "sasazuka": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 72,
+          "name": "フレンテ笹塚"
+        }
+      ]
+    },
+    "seibijo": {
+      "count": 0,
+      "places": []
+    },
+    "seibu-shinjuku": {
+      "count": 2,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 202,
+          "name": "西武新宿ペペ & Brick St."
+        },
+        {
+          "kind": "mall",
+          "m": 364,
+          "name": null
+        }
+      ]
+    },
+    "seijogakuen-mae": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 17,
+          "name": "成城corty"
+        }
+      ]
+    },
+    "sendagaya": {
+      "count": 0,
+      "places": []
+    },
+    "sendagi": {
+      "count": 0,
+      "places": []
+    },
+    "sengakuji": {
+      "count": 3,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 121,
+          "name": "NEWoMan TAKANAWA MIMURE"
+        },
+        {
+          "kind": "mall",
+          "m": 242,
+          "name": "NEWoMan高輪 LUFTBAUM"
+        },
+        {
+          "kind": "mall",
+          "m": 249,
+          "name": "NeWoMan"
+        }
+      ]
+    },
+    "sengoku": {
+      "count": 0,
+      "places": []
+    },
+    "senjuohashi": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "marketplace",
+          "m": 322,
+          "name": "足立市場"
+        }
+      ]
+    },
+    "senkawa": {
+      "count": 0,
+      "places": []
+    },
+    "senzoku": {
+      "count": 0,
+      "places": []
+    },
+    "senzoku-ike": {
+      "count": 0,
+      "places": []
+    },
+    "setagaya": {
+      "count": 0,
+      "places": []
+    },
+    "setagaya-daita": {
+      "count": 0,
+      "places": []
+    },
+    "shakujii-koen": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 68,
+          "name": "ピアレス"
+        }
+      ]
+    },
+    "shibakoen": {
+      "count": 0,
+      "places": []
+    },
+    "shibamata": {
+      "count": 0,
+      "places": []
+    },
+    "shibaura-futo": {
+      "count": 0,
+      "places": []
+    },
+    "shibuya": {
+      "count": 15,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 178,
+          "name": "西武渋谷店A館"
+        },
+        {
+          "kind": "mall",
+          "m": 202,
+          "name": "東急プラザ渋谷"
+        },
+        {
+          "kind": "mall",
+          "m": 223,
+          "name": "渋谷ヒカリエ"
+        },
+        {
+          "kind": "department_store",
+          "m": 238,
+          "name": "西武渋谷店B館"
+        },
+        {
+          "kind": "mall",
+          "m": 254,
+          "name": null
+        },
+        {
+          "kind": "mall",
+          "m": 258,
+          "name": "Shibuya 109"
+        },
+        {
+          "kind": "department_store",
+          "m": 291,
+          "name": "西武渋谷店ロフト館"
+        },
+        {
+          "kind": "department_store",
+          "m": 295,
+          "name": null
+        }
+      ]
+    },
+    "shiinamachi": {
+      "count": 0,
+      "places": []
+    },
+    "shijo-mae": {
+      "count": 2,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 180,
+          "name": "豊洲 千客万来"
+        },
+        {
+          "kind": "marketplace",
+          "m": 214,
+          "name": "豊洲市場(5街区)"
+        }
+      ]
+    },
+    "shim-mikawashima": {
+      "count": 0,
+      "places": []
+    },
+    "shimbamba": {
+      "count": 0,
+      "places": []
+    },
+    "shimbashi": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 134,
+          "name": "NEWしんばしビル"
+        }
+      ]
+    },
+    "shimo": {
+      "count": 0,
+      "places": []
+    },
+    "shimo-igusa": {
+      "count": 0,
+      "places": []
+    },
+    "shimo-itabashi": {
+      "count": 0,
+      "places": []
+    },
+    "shimo-kitazawa": {
+      "count": 4,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 74,
+          "name": "Mikan shimokitazawa"
+        },
+        {
+          "kind": "mall",
+          "m": 78,
+          "name": "Recipe SHIMOKITA"
+        },
+        {
+          "kind": "department_store",
+          "m": 123,
+          "name": null
+        },
+        {
+          "kind": "department_store",
+          "m": 161,
+          "name": null
+        }
+      ]
+    },
+    "shimo-ochiai": {
+      "count": 0,
+      "places": []
+    },
+    "shimo-shimmei": {
+      "count": 0,
+      "places": []
+    },
+    "shimo-takaido": {
+      "count": 0,
+      "places": []
+    },
+    "shimomaruko": {
+      "count": 0,
+      "places": []
+    },
+    "shimura-sakaue": {
+      "count": 0,
+      "places": []
+    },
+    "shimura-sanchome": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 141,
+          "name": "志村ショッピングセンター"
+        }
+      ]
+    },
+    "shin-egota": {
+      "count": 0,
+      "places": []
+    },
+    "shin-itabashi": {
+      "count": 0,
+      "places": []
+    },
+    "shin-kiba": {
+      "count": 0,
+      "places": []
+    },
+    "shin-koenji": {
+      "count": 0,
+      "places": []
+    },
+    "shin-koiwa": {
+      "count": 0,
+      "places": []
+    },
+    "shin-koshinzuka": {
+      "count": 0,
+      "places": []
+    },
+    "shin-nakano": {
+      "count": 0,
+      "places": []
+    },
+    "shin-okachimachi": {
+      "count": 0,
+      "places": []
+    },
+    "shin-okubo": {
+      "count": 2,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 120,
+          "name": "K-Star Plus"
+        },
+        {
+          "kind": "department_store",
+          "m": 128,
+          "name": null
+        }
+      ]
+    },
+    "shin-otsuka": {
+      "count": 0,
+      "places": []
+    },
+    "shin-sakuradai": {
+      "count": 0,
+      "places": []
+    },
+    "shin-seibijo": {
+      "count": 0,
+      "places": []
+    },
+    "shin-shibamata": {
+      "count": 0,
+      "places": []
+    },
+    "shin-takashimadaira": {
+      "count": 0,
+      "places": []
+    },
+    "shin-toyosu": {
+      "count": 0,
+      "places": []
+    },
+    "shinagawa": {
+      "count": 3,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 90,
+          "name": "ウイング高輪 東館"
+        },
+        {
+          "kind": "mall",
+          "m": 183,
+          "name": "アトレ品川"
+        },
+        {
+          "kind": "mall",
+          "m": 188,
+          "name": null
+        }
+      ]
+    },
+    "shinagawa-seaside": {
+      "count": 0,
+      "places": []
+    },
+    "shinanomachi": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 90,
+          "name": "atre vie"
+        }
+      ]
+    },
+    "shindaita": {
+      "count": 0,
+      "places": []
+    },
+    "shinjuku": {
+      "count": 24,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 43,
+          "name": null
+        },
+        {
+          "kind": "department_store",
+          "m": 59,
+          "name": null
+        },
+        {
+          "kind": "department_store",
+          "m": 62,
+          "name": "Keio Department Store Shinjuku"
+        },
+        {
+          "kind": "mall",
+          "m": 64,
+          "name": "Lumine 2"
+        },
+        {
+          "kind": "department_store",
+          "m": 65,
+          "name": "Keio Department Store Shinjuku"
+        },
+        {
+          "kind": "department_store",
+          "m": 71,
+          "name": "Keith Department"
+        },
+        {
+          "kind": "department_store",
+          "m": 72,
+          "name": "京王百貨店新宿店"
+        },
+        {
+          "kind": "department_store",
+          "m": 94,
+          "name": "Keio Department Store Shinjuku"
+        }
+      ]
+    },
+    "shinjuku-gyoemmae": {
+      "count": 0,
+      "places": []
+    },
+    "shinjuku-nishiguchi": {
+      "count": 16,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 99,
+          "name": "小田急百貨店"
+        },
+        {
+          "kind": "department_store",
+          "m": 102,
+          "name": "小田急ハルク"
+        },
+        {
+          "kind": "department_store",
+          "m": 161,
+          "name": "西武新宿ペペ & Brick St."
+        },
+        {
+          "kind": "department_store",
+          "m": 164,
+          "name": "小田急エース"
+        },
+        {
+          "kind": "mall",
+          "m": 262,
+          "name": null
+        },
+        {
+          "kind": "mall",
+          "m": 287,
+          "name": "ルミネエスト新宿"
+        },
+        {
+          "kind": "department_store",
+          "m": 297,
+          "name": null
+        },
+        {
+          "kind": "deli",
+          "m": 303,
+          "name": "RF1/神戸コロッケ"
+        }
+      ]
+    },
+    "shinjuku-sanchome": {
+      "count": 14,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 66,
+          "name": "三越"
+        },
+        {
+          "kind": "department_store",
+          "m": 96,
+          "name": "丸井"
+        },
+        {
+          "kind": "department_store",
+          "m": 115,
+          "name": "新宿マルイ本館"
+        },
+        {
+          "kind": "department_store",
+          "m": 116,
+          "name": null
+        },
+        {
+          "kind": "department_store",
+          "m": 117,
+          "name": "伊勢丹 新宿店本館"
+        },
+        {
+          "kind": "department_store",
+          "m": 186,
+          "name": "伊勢丹 新宿店メンズ館"
+        },
+        {
+          "kind": "department_store",
+          "m": 220,
+          "name": "ビックロ"
+        },
+        {
+          "kind": "department_store",
+          "m": 228,
+          "name": "新宿マルイメン"
+        }
+      ]
+    },
+    "shinonome": {
+      "count": 0,
+      "places": []
+    },
+    "shinozaki": {
+      "count": 0,
+      "places": []
+    },
+    "shinsen": {
+      "count": 0,
+      "places": []
+    },
+    "shiodome": {
+      "count": 0,
+      "places": []
+    },
+    "shiomi": {
+      "count": 0,
+      "places": []
+    },
+    "shirokane-takanawa": {
+      "count": 0,
+      "places": []
+    },
+    "shirokanedai": {
+      "count": 0,
+      "places": []
+    },
+    "shoin-jinja-mae": {
+      "count": 0,
+      "places": []
+    },
+    "showajima": {
+      "count": 0,
+      "places": []
+    },
+    "soshigaya-okura": {
+      "count": 0,
+      "places": []
+    },
+    "suehirocho": {
+      "count": 2,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 227,
+          "name": "2k540 AKI-OKA ARTISAN"
+        },
+        {
+          "kind": "department_store",
+          "m": 294,
+          "name": null
+        }
+      ]
+    },
+    "sugamo": {
+      "count": 2,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 35,
+          "name": "atré vie"
+        },
+        {
+          "kind": "marketplace",
+          "m": 126,
+          "name": "おたからや"
+        }
+      ]
+    },
+    "sugamoshinden": {
+      "count": 0,
+      "places": []
+    },
+    "suidobashi": {
+      "count": 0,
+      "places": []
+    },
+    "sumiyoshi": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "marketplace",
+          "m": 204,
+          "name": "住吉銀座商店街"
+        }
+      ]
+    },
+    "tabata": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 60,
+          "name": "atre vie"
+        }
+      ]
+    },
+    "tachiaigawa": {
+      "count": 0,
+      "places": []
+    },
+    "takadanobaba": {
+      "count": 0,
+      "places": []
+    },
+    "takaido": {
+      "count": 0,
+      "places": []
+    },
+    "takanawa-gateway": {
+      "count": 4,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 119,
+          "name": "NEWoMan高輪 LUFTBAUM"
+        },
+        {
+          "kind": "mall",
+          "m": 119,
+          "name": "NeWoMan"
+        },
+        {
+          "kind": "mall",
+          "m": 145,
+          "name": "NeWoMan"
+        },
+        {
+          "kind": "mall",
+          "m": 276,
+          "name": "NEWoMan TAKANAWA MIMURE"
+        }
+      ]
+    },
+    "takanawadai": {
+      "count": 0,
+      "places": []
+    },
+    "takashimadaira": {
+      "count": 0,
+      "places": []
+    },
+    "takebashi": {
+      "count": 0,
+      "places": []
+    },
+    "takenotsuka": {
+      "count": 0,
+      "places": []
+    },
+    "takeshiba": {
+      "count": 2,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 232,
+          "name": "アトレ竹芝"
+        },
+        {
+          "kind": "mall",
+          "m": 379,
+          "name": "ハマサイト グルメ"
+        }
+      ]
+    },
+    "takinogawa-itchome": {
+      "count": 0,
+      "places": []
+    },
+    "tamachi": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 78,
+          "name": "ピアタ"
+        }
+      ]
+    },
+    "tamagawa": {
+      "count": 0,
+      "places": []
+    },
+    "tameike-sanno": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "marketplace",
+          "m": 361,
+          "name": "あおもり地域アンテナショップ"
+        }
+      ]
+    },
+    "tatsumi": {
+      "count": 0,
+      "places": []
+    },
+    "tawaramachi": {
+      "count": 4,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 330,
+          "name": "ROX2G"
+        },
+        {
+          "kind": "department_store",
+          "m": 362,
+          "name": null
+        },
+        {
+          "kind": "mall",
+          "m": 373,
+          "name": "浅草ROX"
+        },
+        {
+          "kind": "mall",
+          "m": 389,
+          "name": "ROX・3G"
+        }
+      ]
+    },
+    "telecom-center": {
+      "count": 0,
+      "places": []
+    },
+    "tenkubashi": {
+      "count": 0,
+      "places": []
+    },
+    "tennozu-isle": {
+      "count": 0,
+      "places": []
+    },
+    "tobu-nerima": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 187,
+          "name": "イオン板橋ショッピングセンター"
+        }
+      ]
+    },
+    "tochomae": {
+      "count": 0,
+      "places": []
+    },
+    "todaimae": {
+      "count": 0,
+      "places": []
+    },
+    "toden-zoshigaya": {
+      "count": 0,
+      "places": []
+    },
+    "todoroki": {
+      "count": 0,
+      "places": []
+    },
+    "togoshi": {
+      "count": 0,
+      "places": []
+    },
+    "togoshi-koen": {
+      "count": 0,
+      "places": []
+    },
+    "tokiwadai": {
+      "count": 0,
+      "places": []
+    },
+    "tokyo": {
+      "count": 6,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 200,
+          "name": "東京駅一番街"
+        },
+        {
+          "kind": "mall",
+          "m": 204,
+          "name": "KITTE"
+        },
+        {
+          "kind": "department_store",
+          "m": 259,
+          "name": "大丸"
+        },
+        {
+          "kind": "mall",
+          "m": 264,
+          "name": "八重洲地下街"
+        },
+        {
+          "kind": "mall",
+          "m": 329,
+          "name": "iiyo!!"
+        },
+        {
+          "kind": "mall",
+          "m": 360,
+          "name": "TEKKO avenue"
+        }
+      ]
+    },
+    "tokyo-big-sight": {
+      "count": 0,
+      "places": []
+    },
+    "tokyo-international-cruise-terminal": {
+      "count": 0,
+      "places": []
+    },
+    "tokyo-skytree": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 144,
+          "name": "東京ソラマチ"
+        }
+      ]
+    },
+    "tokyo-teleport": {
+      "count": 3,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 287,
+          "name": "アイランドモール"
+        },
+        {
+          "kind": "mall",
+          "m": 319,
+          "name": "デックス東京ビーチ"
+        },
+        {
+          "kind": "mall",
+          "m": 322,
+          "name": "シーサイドモール"
+        }
+      ]
+    },
+    "toneri": {
+      "count": 0,
+      "places": []
+    },
+    "toneri-koen": {
+      "count": 0,
+      "places": []
+    },
+    "toranomon": {
+      "count": 0,
+      "places": []
+    },
+    "toritsu-daigaku": {
+      "count": 0,
+      "places": []
+    },
+    "toritsu-kasei": {
+      "count": 0,
+      "places": []
+    },
+    "toshimaen": {
+      "count": 0,
+      "places": []
+    },
+    "toyocho": {
+      "count": 0,
+      "places": []
+    },
+    "toyosu": {
+      "count": 3,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 172,
+          "name": "アーバンドックららぽーと豊洲"
+        },
+        {
+          "kind": "mall",
+          "m": 234,
+          "name": "アーバンドック ららぽーと豊洲 ANNEX"
+        },
+        {
+          "kind": "mall",
+          "m": 339,
+          "name": "アーバンドック ららぽーと豊洲"
+        }
+      ]
+    },
+    "tsukiji": {
+      "count": 0,
+      "places": []
+    },
+    "tsukijishijo": {
+      "count": 3,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 253,
+          "name": "築地にっぽん漁港市場"
+        },
+        {
+          "kind": "marketplace",
+          "m": 330,
+          "name": "築地場外市場"
+        },
+        {
+          "kind": "mall",
+          "m": 368,
+          "name": "築地魚河岸"
+        }
+      ]
+    },
+    "tsukishima": {
+      "count": 0,
+      "places": []
+    },
+    "uchisaiwaicho": {
+      "count": 0,
+      "places": []
+    },
+    "ueno": {
+      "count": 4,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 140,
+          "name": "アトレ"
+        },
+        {
+          "kind": "department_store",
+          "m": 165,
+          "name": null
+        },
+        {
+          "kind": "department_store",
+          "m": 261,
+          "name": "上野松竹デパート"
+        },
+        {
+          "kind": "mall",
+          "m": 292,
+          "name": "上野マルイ"
+        }
+      ]
+    },
+    "uguisudani": {
+      "count": 0,
+      "places": []
+    },
+    "ukimafunado": {
+      "count": 0,
+      "places": []
+    },
+    "umegaoka": {
+      "count": 0,
+      "places": []
+    },
+    "umejima": {
+      "count": 0,
+      "places": []
+    },
+    "umeyashiki": {
+      "count": 0,
+      "places": []
+    },
+    "unoki": {
+      "count": 0,
+      "places": []
+    },
+    "ushida": {
+      "count": 0,
+      "places": []
+    },
+    "ushigome-kagurazaka": {
+      "count": 0,
+      "places": []
+    },
+    "ushigome-yanagicho": {
+      "count": 0,
+      "places": []
+    },
+    "wakabayashi": {
+      "count": 0,
+      "places": []
+    },
+    "wakamatsu-kawada": {
+      "count": 0,
+      "places": []
+    },
+    "waseda": {
+      "count": 0,
+      "places": []
+    },
+    "waseda-toden": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 364,
+          "name": "ドンキホーテ ピカソ"
+        }
+      ]
+    },
+    "yaguchi-no-watashi": {
+      "count": 0,
+      "places": []
+    },
+    "yahiro": {
+      "count": 0,
+      "places": []
+    },
+    "yazaike": {
+      "count": 0,
+      "places": []
+    },
+    "yoga": {
+      "count": 0,
+      "places": []
+    },
+    "yotsugi": {
+      "count": 0,
+      "places": []
+    },
+    "yotsuya": {
+      "count": 1,
+      "places": [
+        {
+          "kind": "mall",
+          "m": 47,
+          "name": "アトレ四谷"
+        }
+      ]
+    },
+    "yotsuya-sanchome": {
+      "count": 0,
+      "places": []
+    },
+    "yoyogi": {
+      "count": 0,
+      "places": []
+    },
+    "yoyogi-hachiman": {
+      "count": 0,
+      "places": []
+    },
+    "yoyogi-uehara": {
+      "count": 0,
+      "places": []
+    },
+    "yukigaya-otsuka": {
+      "count": 0,
+      "places": []
+    },
+    "yurakucho": {
+      "count": 11,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 133,
+          "name": null
+        },
+        {
+          "kind": "mall",
+          "m": 182,
+          "name": "阪急メンズ東京"
+        },
+        {
+          "kind": "mall",
+          "m": 228,
+          "name": "ルミネ有楽町"
+        },
+        {
+          "kind": "department_store",
+          "m": 246,
+          "name": "東京交通会館"
+        },
+        {
+          "kind": "mall",
+          "m": 279,
+          "name": "西銀座"
+        },
+        {
+          "kind": "department_store",
+          "m": 290,
+          "name": "日比谷シャンテ"
+        },
+        {
+          "kind": "department_store",
+          "m": 291,
+          "name": "東京ミッドタウン日比谷"
+        },
+        {
+          "kind": "mall",
+          "m": 347,
+          "name": "東急プラザ銀座"
+        }
+      ]
+    },
+    "yushima": {
+      "count": 3,
+      "places": [
+        {
+          "kind": "department_store",
+          "m": 324,
+          "name": "松坂屋"
+        },
+        {
+          "kind": "department_store",
+          "m": 330,
+          "name": "PARCO_ya"
+        },
+        {
+          "kind": "mall",
+          "m": 332,
+          "name": "PARCO_ya 上野"
+        }
+      ]
+    },
+    "yutenji": {
+      "count": 0,
+      "places": []
+    },
+    "zoshigaya": {
+      "count": 0,
+      "places": []
+    },
+    "zoshiki": {
+      "count": 0,
+      "places": []
+    }
+  }
+}
