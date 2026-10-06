@@ -52,7 +52,7 @@ def main():
                     problems.append(f"{slug}: 句点で終わっていない「{t['text'][:20]}…」")
             used = {t["from"] for t in rec.get("traits", [])}
             merged[slug] = {
-                "sources": [{"title": p["title"], "url": p["url"], "revision": p["revision"]}
+                "sources": [{"title": p["title"], "url": p["url"], "retrievedAt": cache["retrievedAt"]}
                             for p in cache["pages"] if p["title"] in used],
                 "traits": rec.get("traits", []),
             }
