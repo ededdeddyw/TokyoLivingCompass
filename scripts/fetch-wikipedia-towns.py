@@ -125,6 +125,9 @@ def sections(text, limit=1800):
 
 def in_tokyo(p, ward):
     t = p.get("extract", "")[:600]
+    # 栄町駅で、千葉県印旛郡栄町の記事が当たっていた。冒頭に他県の名前があれば外す
+    if re.search(r"(?:千葉|埼玉|神奈川|北海道|大阪|愛知|兵庫|福岡)[県府道]?", t[:200]) and "東京都" not in t[:200]:
+        return False
     return "東京都" in t or ward in t
 
 
@@ -132,6 +135,8 @@ def in_tokyo(p, ward):
 STATION_TITLE = {
     "waseda-toden": "早稲田停留場",
     "asakusa-tx": "浅草駅 (つくばエクスプレス)",
+    # 「栄町停留場」は曖昧さ回避の記事で、「栄町駅」は東京都の駅ではない
+    "sakaecho": "栄町停留場 (東京都)",
 }
 
 
