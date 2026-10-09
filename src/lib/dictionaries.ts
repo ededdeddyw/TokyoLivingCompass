@@ -42,6 +42,25 @@ export type Dictionary = {
     browseCta: string;
     featuredHeading: string;
   };
+  /** 駅ページの見た目のための短い文言（2026-10 の見た目の改修で足した） */
+  stationUi: {
+    keyRent: string;
+    keyRentType: string;
+    keyNearest: string;
+    keyNearestValue: string;
+    keyLines: string;
+    keyLinesValue: string;
+    strengths: string;
+    weaknesses: string;
+    strengthsNone: string;
+    weaknessesNone: string;
+    allScores: string;
+    neutralNote: string;
+    nav: Record<"traits" | "rent" | "commute" | "scores" | "life" | "compare", string>;
+    commuteFastest: string;
+    meanRent: string;
+    readMore: string;
+  };
   station: {
     overall: string;
     overallBalanced: string;
@@ -240,6 +259,24 @@ const ja: Dictionary = {
     findCta: "勤務先から駅を探す",
     browseCta: "駅一覧を見る",
     featuredHeading: "掲載中の駅",
+  },
+  stationUi: {
+    keyRent: "1Kの家賃の目安",
+    keyRentType: "1K",
+    keyNearest: "いちばん近いオフィス街",
+    keyNearestValue: "{hub}へ{minutes}分",
+    keyLines: "使える路線",
+    keyLinesValue: "{count}路線",
+    strengths: "この駅の強み",
+    weaknesses: "この駅の弱み",
+    strengthsNone: "とくに目立つ強みは少ない駅です。",
+    weaknessesNone: "とくに目立つ弱みは少ない駅です。",
+    allScores: "18の評価軸をすべて見る",
+    neutralNote: "飲食店・カフェ・ナイトライフは、多いほうがよいかどうかが人によって違うので、良し悪しの色を付けていません。",
+    nav: { traits: "どんな街か", rent: "家賃", commute: "通勤", scores: "評価", life: "暮らし", compare: "比べる" },
+    commuteFastest: "短い順",
+    meanRent: "平均 {yen}",
+    readMore: "続きを読む",
   },
   station: {
     overall: "総合評価",
@@ -542,6 +579,24 @@ const en: Dictionary = {
     findCta: "Find areas near your office",
     browseCta: "Browse all stations",
     featuredHeading: "Stations covered",
+  },
+  stationUi: {
+    keyRent: "Typical 1K rent",
+    keyRentType: "1K",
+    keyNearest: "Nearest business district",
+    keyNearestValue: "{minutes} min to {hub}",
+    keyLines: "Lines",
+    keyLinesValue: "{count} lines",
+    strengths: "Strengths",
+    weaknesses: "Weaknesses",
+    strengthsNone: "No standout strengths.",
+    weaknessesNone: "No standout weaknesses.",
+    allScores: "Show all 18 measures",
+    neutralNote: "Restaurants, cafés and nightlife are not coloured as good or bad: whether more is better depends on the person.",
+    nav: { traits: "The area", rent: "Rent", commute: "Commute", scores: "Scores", life: "Daily life", compare: "Compare" },
+    commuteFastest: "Shortest first",
+    meanRent: "Average {yen}",
+    readMore: "Read more",
   },
   station: {
     overall: "Overall",
@@ -848,6 +903,24 @@ const zhHans: Dictionary = {
     browseCta: "查看全部车站",
     featuredHeading: "收录的车站",
   },
+  stationUi: {
+    keyRent: "1K租金参考",
+    keyRentType: "1K",
+    keyNearest: "最近的商务区",
+    keyNearestValue: "到{hub}{minutes}分钟",
+    keyLines: "可用线路",
+    keyLinesValue: "{count}条线路",
+    strengths: "本站的优势",
+    weaknesses: "本站的不足",
+    strengthsNone: "没有特别突出的优势。",
+    weaknessesNone: "没有特别突出的不足。",
+    allScores: "查看全部18项评分",
+    neutralNote: "餐饮、咖啡馆和夜生活是否越多越好因人而异，因此不标注好坏颜色。",
+    nav: { traits: "街区特色", rent: "租金", commute: "通勤", scores: "评分", life: "生活", compare: "比较" },
+    commuteFastest: "由短到长",
+    meanRent: "平均 {yen}",
+    readMore: "展开阅读",
+  },
   station: {
     overall: "综合",
     overallBalanced: "这是各评价轴同等看待时的分数。",
@@ -1144,6 +1217,24 @@ const ko: Dictionary = {
     findCta: "회사 위치에서 동네 찾기",
     browseCta: "역 전체 보기",
     featuredHeading: "다루고 있는 역",
+  },
+  stationUi: {
+    keyRent: "1K 임대료 기준",
+    keyRentType: "1K",
+    keyNearest: "가장 가까운 업무지구",
+    keyNearestValue: "{hub}까지 {minutes}분",
+    keyLines: "이용 노선",
+    keyLinesValue: "{count}개 노선",
+    strengths: "이 역의 강점",
+    weaknesses: "이 역의 약점",
+    strengthsNone: "특별히 두드러진 강점은 적은 역입니다.",
+    weaknessesNone: "특별히 두드러진 약점은 적은 역입니다.",
+    allScores: "18개 평가 항목 모두 보기",
+    neutralNote: "음식점·카페·나이트라이프는 많을수록 좋은지가 사람마다 달라 좋고 나쁨의 색을 붙이지 않았습니다.",
+    nav: { traits: "어떤 동네인가", rent: "임대료", commute: "통근", scores: "평가", life: "생활", compare: "비교" },
+    commuteFastest: "짧은 순",
+    meanRent: "평균 {yen}",
+    readMore: "더 읽기",
   },
   station: {
     overall: "종합",

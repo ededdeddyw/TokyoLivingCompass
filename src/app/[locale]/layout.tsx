@@ -3,6 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
 
+import { Compass } from "lucide-react";
+
 import { getDictionary } from "@/lib/dictionaries";
 import { ACTIVE_LOCALES, isActiveLocale, LOCALE_LABELS } from "@/lib/i18n";
 
@@ -39,11 +41,17 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body className="min-h-screen bg-canvas text-ink antialiased">
         <header className="border-b border-line bg-surface">
-          <div className="mx-auto flex max-w-5xl flex-wrap items-center gap-x-6 gap-y-2 px-5 py-4">
-            <Link href={`/${locale}`} className="text-base font-semibold text-ink">
+          <div className="mx-auto flex max-w-5xl flex-wrap items-center gap-x-6 gap-y-2 px-5 py-3">
+            <Link
+              href={`/${locale}`}
+              className="flex items-center gap-2 text-base font-bold text-ink"
+            >
+              <span className="grid size-8 place-items-center rounded-xl bg-gradient-to-br from-accent to-accent-bright text-white shadow-sm">
+                <Compass aria-hidden="true" className="size-5" />
+              </span>
               {dict.siteName}
             </Link>
-            <nav className="flex gap-5 text-sm text-ink-soft">
+            <nav className="order-3 flex w-full gap-5 overflow-x-auto text-sm text-ink-soft sm:order-none sm:w-auto">
               <Link href={`/${locale}/stations`} className="hover:text-accent">
                 {dict.nav.stations}
               </Link>
@@ -54,7 +62,7 @@ export default async function LocaleLayout({
                 {dict.roster.heading}
               </Link>
             </nav>
-            <div className="ml-auto flex gap-3 text-sm">
+            <div className="ml-auto flex gap-2.5 text-xs sm:text-sm">
               {ACTIVE_LOCALES.map((l) => (
                 <Link
                   key={l}

@@ -1,3 +1,29 @@
+import {
+  Building2,
+  CalendarDays,
+  ChevronDown,
+  Clock,
+  Sun,
+  DoorOpen,
+  GitCompareArrows,
+  HeartPulse,
+  House,
+  Moon,
+  Mountain,
+  Baby,
+  ShoppingBasket,
+  Sunrise,
+  TrainFront,
+  TrendingUp,
+  Users,
+  Volume2,
+  Wallet,
+  Waves,
+  type LucideIcon,
+} from "lucide-react";
+
+import Link from "next/link";
+
 import type { Dictionary } from "@/lib/dictionaries";
 import type { StationContent } from "@/lib/schema";
 
@@ -12,24 +38,54 @@ import type { StationContent } from "@/lib/schema";
  * （docs/12-quality-standard.md）。入っていない節では出さない。
  */
 function Block({
+  icon,
   title,
   lead,
   source,
   children,
+  more,
 }: {
+  /**
+   * 本文を「続きを読む」で畳むときの文言。一言（lead）があるときだけ畳む。
+   * スマホで長い本文が十数枚続くと、目当ての節にたどり着けない。
+   * 畳んでも本文は HTML に残るので、検索にも読み上げにも届く。
+   */
+  more?: string;
+  /** ICONS のキー。節の種類 */
+  icon: string;
   title: string;
   lead?: string;
   /** 出典。どう測ったかの説明は本文に書かず、ここにリンクだけ置く。 */
   source?: { label: string; name: string; url: string };
   children: React.ReactNode;
 }) {
+  const Icon = ICONS[icon] ?? House;
   return (
-    <section className="space-y-1.5">
-      <h3 className="text-sm font-semibold text-ink">{title}</h3>
-      {lead && <p className="text-sm font-medium leading-relaxed text-ink">{lead}</p>}
-      <div className="text-sm leading-relaxed text-ink-soft">{children}</div>
+    <section className="rounded-2xl border border-line bg-surface p-5 shadow-sm">
+      <h3 className="flex items-center gap-2 text-base font-bold text-ink">
+        <span className="grid size-8 shrink-0 place-items-center rounded-full bg-accent-soft text-accent">
+          <Icon aria-hidden="true" className="size-4" />
+        </span>
+        {title}
+      </h3>
+      {lead && (
+        <p className="mt-3 border-l-4 border-sun pl-3 text-[15px] font-semibold leading-relaxed text-ink">
+          {lead}
+        </p>
+      )}
+      {more && lead ? (
+        <details className="group mt-2">
+          <summary className="inline-flex cursor-pointer list-none items-center gap-1 text-sm font-semibold text-accent">
+            {more}
+            <ChevronDown aria-hidden="true" className="size-4 transition group-open:rotate-180" />
+          </summary>
+          <div className="mt-2 text-[15px] leading-loose text-ink-soft">{children}</div>
+        </details>
+      ) : (
+        <div className="mt-3 text-[15px] leading-loose text-ink-soft">{children}</div>
+      )}
       {source && (
-        <p className="text-xs text-ink-soft">
+        <p className="mt-3 text-xs text-ink-soft">
           {source.label}:{" "}
           <a
             href={source.url}
@@ -45,6 +101,27 @@ function Block({
   );
 }
 
+/** 節ごとのアイコン。文字を読む前に、どの話かを見分けられるようにする。 */
+const ICONS: Record<string, LucideIcon> = {
+  faces: Clock,
+  terrain: Mountain,
+  groceries: ShoppingBasket,
+  exits: DoorOpen,
+  rentRange: Wallet,
+  noise: Volume2,
+  family: Baby,
+  medical: HeartPulse,
+  stationNote: TrainFront,
+  congestion: Sunrise,
+  nightWalk: Moon,
+  residents: Users,
+  housingStock: Building2,
+  outlook: TrendingUp,
+  hazards: Waves,
+  neighbours: GitCompareArrows,
+  alternatives: GitCompareArrows,
+};
+
 /** 出典のアドレス。言語によって変わらないので定数で持つ。 */
 const GSI_ELEVATION_URL = "https://maps.gsi.go.jp/development/elevation_s.html";
 const MLIT_CONGESTION_URL =
@@ -56,9 +133,11 @@ export function StationDepth({
   content,
   dict,
   neighbourNames,
+  locale,
 }: {
   content: StationContent;
   dict: Dictionary;
+  locale: string;
   /** 隣接駅 slug → 表示名。解決できない駅は slug のまま出す。 */
   neighbourNames: Record<string, string>;
 }) {
@@ -68,19 +147,22 @@ export function StationDepth({
 
   if (content.faces) {
     blocks.push(
-      <Block key="faces" title={d.faces} lead={content.leads?.faces}>
-        <dl className="space-y-2">
+      <Block key="faces" icon="faces" title={d.faces} lead={content.leads?.faces}>
+        <dl className="grid gap-3 sm:grid-cols-2">
           {(
             [
-              [d.morning, content.faces.morning],
-              [d.daytime, content.faces.daytime],
-              [d.night, content.faces.night],
-              [d.weekend, content.faces.weekend],
+              [d.morning, content.faces.morning, Sunrise],
+              [d.daytime, content.faces.daytime, Sun],
+              [d.night, content.faces.night, Moon],
+              [d.weekend, content.faces.weekend, CalendarDays],
             ] as const
-          ).map(([label, text]) => (
-            <div key={label} className="flex gap-3">
-              <dt className="w-10 shrink-0 font-medium text-ink">{label}</dt>
-              <dd>{text}</dd>
+          ).map(([label, text, Icon]) => (
+            <div key={label} className="rounded-xl bg-canvas p-3.5">
+              <dt className="flex items-center gap-1.5 text-sm font-bold text-ink">
+                <Icon aria-hidden="true" className="size-4 text-sun" />
+                {label}
+              </dt>
+              <dd className="mt-1.5 text-sm leading-relaxed">{text}</dd>
             </div>
           ))}
         </dl>
@@ -92,6 +174,7 @@ export function StationDepth({
     blocks.push(
       <Block
         key="terrain"
+        icon="terrain"
         title={d.terrain}
         lead={content.leads?.terrain}
         source={{ label: d.source, name: d.terrainSource, url: GSI_ELEVATION_URL }}
@@ -107,7 +190,7 @@ export function StationDepth({
 
   if (content.groceries && content.groceries.length > 0) {
     blocks.push(
-      <Block key="groceries" title={d.groceries} lead={content.leads?.groceries}>
+      <Block key="groceries" icon="groceries" title={d.groceries} lead={content.leads?.groceries}>
         <ul className="space-y-1.5">
           {content.groceries.map((store) => (
             <li key={store.name} className="flex flex-wrap items-baseline gap-x-2">
@@ -151,7 +234,7 @@ export function StationDepth({
 
   if (content.exits && content.exits.length > 0) {
     blocks.push(
-      <Block key="exits" title={d.exits} lead={content.leads?.exits}>
+      <Block key="exits" icon="exits" title={d.exits} lead={content.leads?.exits}>
         <dl className="space-y-2">
           {content.exits.map((exit) => (
             <div key={exit.name} className="flex gap-3">
@@ -187,7 +270,13 @@ export function StationDepth({
 
   if (content.rentRange) {
     blocks.push(
-      <Block key="rentRange" title={d.rentRange} lead={content.leads?.rentRange}>
+      <Block
+        key="rentRange"
+        icon="rentRange"
+        title={d.rentRange}
+        lead={content.leads?.rentRange}
+        more={dict.stationUi.readMore}
+      >
         <p>{content.rentRange.note}</p>
         <p className="mt-1.5">
           <span className="font-medium text-ink">{d.rentDrivers}: </span>
@@ -199,7 +288,7 @@ export function StationDepth({
 
   if (content.noiseSources && content.noiseSources.length > 0) {
     blocks.push(
-      <Block key="noise" title={d.noiseSources} lead={content.leads?.noiseSources}>
+      <Block key="noise" icon="noise" title={d.noiseSources} lead={content.leads?.noiseSources}>
         <ul className="list-disc space-y-1 pl-5">
           {content.noiseSources.map((n) => (
             <li key={n}>{n}</li>
@@ -227,8 +316,10 @@ export function StationDepth({
     blocks.push(
       <Block
         key={field}
+        icon={field}
         title={d[field]}
         lead={content.leads?.[field]}
+        more={dict.stationUi.readMore}
         source={
           field === "congestion"
             ? { label: d.source, name: d.congestionSource, url: MLIT_CONGESTION_URL }
@@ -249,6 +340,7 @@ export function StationDepth({
     blocks.push(
       <Block
         key="hazards"
+        icon="hazards"
         title={d.hazards}
         lead={content.leads?.hazards}
         source={{ label: d.source, name: d.hazardSource, url: MLIT_HAZARD_URL }}
@@ -263,23 +355,41 @@ export function StationDepth({
 
   // 近くの駅（距離から選ぶ）と、迷いやすい駅（条件が似ていて人が選ぶ）は、
   // 読み手にとって意味が違うため、同じ節にまとめない。
+  // 近くの駅（距離から選ぶ）と、迷いやすい駅（条件が似ていて人が選ぶ）は、
+  // 読み手にとって意味が違うため、同じカードにまとめない。
+  const compare: React.ReactNode[] = [];
   for (const field of ["neighbours", "alternatives"] as const) {
     const list = content[field];
     if (!list || list.length === 0) continue;
-    blocks.push(
-      <Block key={field} title={d[field]}>
-        <ul className="space-y-1.5">
+    compare.push(
+      <Block key={field} icon={field} title={d[field]}>
+        <ul className="divide-y divide-line">
           {list.map((n) => (
-            <li key={n.slug}>
-              <span className="font-medium text-ink">
+            <li key={n.slug} className="py-3 first:pt-0 last:pb-0">
+              <Link
+                href={`/${locale}/stations/${n.slug}`}
+                className="inline-flex items-center rounded-full bg-accent-soft px-3 py-0.5 text-sm font-bold text-accent-strong hover:bg-accent hover:text-white"
+              >
                 {neighbourNames[n.slug] ?? n.slug}
-              </span>
+              </Link>
               {/* 比較の一言。本文を読む前に、どちらが何で上回るのかを渡す。 */}
               {n.lead && (
-                <span className="block font-medium text-ink">{n.lead}</span>
+                <p className="mt-2 font-semibold leading-relaxed text-ink">{n.lead}</p>
               )}
-              {n.lead ? "" : " — "}
-              {n.note}
+              {n.lead ? (
+                <details className="group mt-1">
+                  <summary className="inline-flex cursor-pointer list-none items-center gap-1 text-sm font-semibold text-accent">
+                    {dict.stationUi.readMore}
+                    <ChevronDown
+                      aria-hidden="true"
+                      className="size-4 transition group-open:rotate-180"
+                    />
+                  </summary>
+                  <p className="mt-1">{n.note}</p>
+                </details>
+              ) : (
+                <p className="mt-1">{n.note}</p>
+              )}
             </li>
           ))}
         </ul>
@@ -287,12 +397,22 @@ export function StationDepth({
     );
   }
 
-  if (blocks.length === 0) return null;
+  if (blocks.length === 0 && compare.length === 0) return null;
 
   return (
-    <section className="space-y-6">
-      <h2 className="text-lg font-semibold text-ink">{d.heading}</h2>
-      <div className="grid gap-6 sm:grid-cols-2">{blocks}</div>
-    </section>
+    <>
+      {blocks.length > 0 && (
+        <section id="life" className="space-y-4">
+          <h2 className="text-xl font-bold text-ink">{d.heading}</h2>
+          <div className="grid items-start gap-4 lg:grid-cols-2">{blocks}</div>
+        </section>
+      )}
+      {compare.length > 0 && (
+        <section id="compare" className="space-y-4">
+          <h2 className="text-xl font-bold text-ink">{dict.stationUi.nav.compare}</h2>
+          <div className="grid items-start gap-4 lg:grid-cols-2">{compare}</div>
+        </section>
+      )}
+    </>
   );
 }

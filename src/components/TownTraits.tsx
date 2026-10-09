@@ -1,3 +1,5 @@
+import { MapPinned } from "lucide-react";
+
 import type { Dictionary } from "@/lib/dictionaries";
 import type { TownTraits as TownTraitsData } from "@/lib/schema";
 
@@ -14,14 +16,25 @@ export function TownTraits({
   dict: Dictionary;
 }) {
   return (
-    <section className="space-y-2">
-      <h2 className="text-lg font-semibold text-ink">{dict.station.townTraits}</h2>
-      <ul className="list-disc space-y-1.5 pl-5 leading-relaxed text-ink">
+    <section
+      id="traits"
+      className="rounded-2xl border border-line bg-surface p-5 shadow-sm sm:p-6"
+    >
+      <h2 className="flex items-center gap-2 text-xl font-bold text-ink">
+        <span className="grid size-9 place-items-center rounded-full bg-sun-soft text-sun-ink">
+          <MapPinned aria-hidden="true" className="size-5" />
+        </span>
+        {dict.station.townTraits}
+      </h2>
+      <ul className="mt-4 space-y-3">
         {data.traits.map((t) => (
-          <li key={t}>{t}</li>
+          <li key={t} className="flex gap-3 text-[15px] leading-relaxed text-ink">
+            <span aria-hidden="true" className="mt-2.5 size-1.5 shrink-0 rounded-full bg-sun" />
+            <span>{t}</span>
+          </li>
         ))}
       </ul>
-      <p className="text-xs leading-relaxed text-ink-soft">
+      <p className="mt-4 border-t border-line pt-3 text-xs leading-relaxed text-ink-soft">
         {dict.station.townTraitsSource}:{" "}
         {data.sources.map((src, i) => (
           <span key={src.label}>
