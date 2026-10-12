@@ -328,7 +328,7 @@ export default async function StationPage({
             <img
               src={photo.src}
               alt={dict.stationUi.photoAlt.replace("{name}", station.content.name)}
-              className="aspect-[4/3] w-full rounded-2xl object-cover shadow-md ring-1 ring-white/30"
+              className="aspect-video w-full rounded-2xl object-cover lg:aspect-[4/3] shadow-md ring-1 ring-white/30"
               loading="eager"
             />
             <figcaption className="mt-1.5 text-[11px] leading-snug text-white/80">
