@@ -319,6 +319,7 @@
 | [14-audience-segments.md](./14-audience-segments.md) | 読み手の3軸8区分と、区分ごとの重み |
 | [16-town-traits.md](./16-town-traits.md) | 街の特色をどこから取り、どう書くか。Wikipedia とぶらリハウスの扱い |
 | [17-design.md](./17-design.md) | 画面の色・部品・並べ方と、その理由 |
+| [18-persona-days.md](./18-persona-days.md) | 住む人の層ごとの1日の過ごし方（試作）と、層別のサイト構成の案 |
 | この文書 | 開発の原則と、これまでに決めたこと |
 
 ---
