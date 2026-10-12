@@ -157,12 +157,14 @@ def percentile(values):
 
 
 # 層ごとの「暮らし」の重み。どれも駅のまわりで済ませることなので、駅の点をそのまま使う。
+# 通勤（都心アクセス・乗換利便性）と家賃は、ここに入れない。どの層にとっても大きな材料だが、
+# 入れると「暮らしやすさ」の差が通勤と家賃の差に埋もれる。別に持っておき、
+# サイトで公開するときに合わせる（docs/18-persona-days.md §6.6）。
 LIFE_WEIGHTS = {
-    "single": {"commute": 0.3, "singleLife": 0.25, "safety": 0.2, "shopping": 0.15, "rentLow": 0.1},
-    "dinks": {"commute": 0.3, "transitConvenience": 0.2, "safety": 0.15, "food": 0.15,
-              "shopping": 0.1, "healthcare": 0.1},
-    "family": {"family": 0.3, "safety": 0.2, "shopping": 0.15, "healthcare": 0.1,
-               "disaster": 0.1, "quietness": 0.1, "commute": 0.05},
+    "single": {"singleLife": 0.4, "safety": 0.35, "shopping": 0.25},
+    "dinks": {"safety": 0.3, "food": 0.25, "shopping": 0.25, "healthcare": 0.2},
+    "family": {"family": 0.35, "safety": 0.2, "shopping": 0.15, "healthcare": 0.1,
+               "disaster": 0.1, "quietness": 0.1},
     "senior": {"healthcare": 0.3, "shopping": 0.2, "quietness": 0.15, "safety": 0.15,
                "disaster": 0.1, "flat": 0.1},
 }
@@ -249,6 +251,10 @@ def main():
             "indoor": 0.4 * sc.get("quietness", 50) + 0.6 * in_dest[0][0],
         }
         out[slug] = {
+            # 公開するときに合わせる材料。いまの点には入れていない
+            "commute": sc.get("commute"),
+            "transitConvenience": sc.get("transitConvenience"),
+            "rentLow": sc.get("rentLow"),
             "greenHa": round(math.expm1(green[slug]), 1),
             "greenParks": green_names[slug],
             "outdoorDest": [{"to": o, "minutes": round(mi), "parks": green_names[o]}
@@ -272,7 +278,7 @@ def main():
 
     meta = {
         "note": "暮らし（駅のまわりで済むか）と楽しみ（電車で行ける駅まで含めて見る）を、"
-                "層ごとの重みで合わせた点。楽しみは、行き先の魅力を所要時間で割り引く（45分で0）。"
+                "層ごとの重みで合わせた点。通勤と家賃はまだ入れていない。楽しみは、行き先の魅力を所要時間で割り引く（45分で0）。"
                 "方針は docs/18-persona-days.md。",
         "parkSources": [
             {"name": "国土数値情報 都市公園データ（P13、平成23年度）", "url": P13_URL},
