@@ -42,6 +42,9 @@ import { WEIGHT_PRESETS, type WeightPreset } from "@/lib/weights";
 import {
   getLocalizedStation,
   getLocalizedStations,
+  getRentAverages,
+  getStationPhoto,
+  getWardLinks,
   getStationContent,
   getTownTraits,
   resolveLines,
@@ -208,6 +211,12 @@ export default async function StationPage({
     .map((s) => getLocalizedStation(s, locale as ActiveLocale))
     .filter((s): s is NonNullable<typeof s> => s !== null);
 
+  // 区の名前。英語だけはローマ字にし、ほかの言語は漢字のまま出す。
+  const wardLabel =
+    locale === "en"
+      ? station.ward.charAt(0).toUpperCase() + station.ward.slice(1)
+      : station.wardNameJa;
+  const photo = getStationPhoto(station.slug);
   const lineNames = resolveLines(station.lineIds).map((l) =>
     locale === "ja" ? l.nameJa : l.nameEn,
   );
@@ -265,50 +274,71 @@ export default async function StationPage({
           stationJsonLd(station, locale, dict, lineNames),
         )}
       />
-      <header className="overflow-hidden rounded-3xl bg-gradient-to-br from-accent-strong via-accent to-accent-bright p-6 text-white shadow-md sm:p-8">
-        <p className="flex flex-wrap items-center gap-1.5 text-xs text-white/90">
-          <span className="inline-flex items-center gap-1 rounded-full bg-white/15 px-2.5 py-1">
-            <MapPin aria-hidden="true" className="size-3.5" />
-            {station.wardNameJa}
-          </span>
-          {lineNames.map((l) => (
-            <span key={l} className="inline-flex items-center gap-1 rounded-full bg-white/15 px-2.5 py-1">
-              <TrainFront aria-hidden="true" className="size-3.5" />
-              {l}
+      <header className="overflow-hidden rounded-3xl bg-gradient-to-br from-accent-strong via-accent to-accent-bright p-6 text-white shadow-md sm:p-8 lg:grid lg:grid-cols-[1fr_24rem] lg:gap-8">
+        <div>
+          <p className="flex flex-wrap items-center gap-1.5 text-xs text-white/90">
+            <span className="inline-flex items-center gap-1 rounded-full bg-white/15 px-2.5 py-1">
+              <MapPin aria-hidden="true" className="size-3.5" />
+              {station.wardNameJa}
             </span>
-          ))}
-        </p>
-        <h1 className="mt-4 text-4xl font-bold tracking-tight sm:text-5xl">
-          {station.content.name}
-          {locale !== "ja" && (
-            <span className="ml-3 text-xl font-normal text-white/80">{station.nameJa}</span>
-          )}
-        </h1>
-        {/* 別名で探した人に、ここが同じ駅だと分かるようにする。 */}
-        {station.alsoKnownAs && station.alsoKnownAs.length > 0 && (
-          <p className="mt-2 text-sm text-white/85">
-            {dict.station.alsoKnownAs.replace(
-              "{names}",
-              station.alsoKnownAs.map((n) => `${n}駅`).join("・"),
-            )}
-          </p>
-        )}
-        <p className="mt-4 max-w-3xl text-base leading-relaxed text-white sm:text-lg">
-          {station.content.tagline}
-        </p>
-        {station.content.tags && station.content.tags.length > 0 && (
-          // 街の性格タグ。本文を読む前に、どんな街かを掴めるようにする。
-          <ul className="mt-4 flex flex-wrap gap-1.5">
-            {station.content.tags.map((tag) => (
-              <li
-                key={tag}
-                className="inline-flex items-center gap-1 rounded-full bg-white px-3 py-1 text-xs font-semibold text-accent-strong"
-              >
-                <Star aria-hidden="true" className="size-3 fill-sun text-sun" />
-                {dict.tags[tag]}
-              </li>
+            {lineNames.map((l) => (
+              <span key={l} className="inline-flex items-center gap-1 rounded-full bg-white/15 px-2.5 py-1">
+                <TrainFront aria-hidden="true" className="size-3.5" />
+                {l}
+              </span>
             ))}
-          </ul>
+          </p>
+          <h1 className="mt-4 text-4xl font-bold tracking-tight sm:text-5xl">
+            {station.content.name}
+            {locale !== "ja" && (
+              <span className="ml-3 text-xl font-normal text-white/80">{station.nameJa}</span>
+            )}
+          </h1>
+          {/* 別名で探した人に、ここが同じ駅だと分かるようにする。 */}
+          {station.alsoKnownAs && station.alsoKnownAs.length > 0 && (
+            <p className="mt-2 text-sm text-white/85">
+              {dict.station.alsoKnownAs.replace(
+                "{names}",
+                station.alsoKnownAs.map((n) => `${n}駅`).join("・"),
+              )}
+            </p>
+          )}
+          <p className="mt-4 max-w-3xl text-base leading-relaxed text-white sm:text-lg">
+            {station.content.tagline}
+          </p>
+          {station.content.tags && station.content.tags.length > 0 && (
+            // 街の性格タグ。本文を読む前に、どんな街かを掴めるようにする。
+            <ul className="mt-4 flex flex-wrap gap-1.5">
+              {station.content.tags.map((tag) => (
+                <li
+                  key={tag}
+                  className="inline-flex items-center gap-1 rounded-full bg-white px-3 py-1 text-xs font-semibold text-accent-strong"
+                >
+                  <Star aria-hidden="true" className="size-3 fill-sun text-sun" />
+                  {dict.tags[tag]}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+        {photo && (
+          // 駅の写真。Wikimedia Commons の自由なライセンスの写真だけを使い、作者とライセンスを必ず添える。
+          <figure className="mt-6 lg:mt-0">
+            {/* eslint-disable-next-line @next/next/no-img-element -- 外部の画像を、最適化サーバーを通さずにそのまま出す */}
+            <img
+              src={photo.src}
+              alt={dict.stationUi.photoAlt.replace("{name}", station.content.name)}
+              className="aspect-[4/3] w-full rounded-2xl object-cover shadow-md ring-1 ring-white/30"
+              loading="eager"
+            />
+            <figcaption className="mt-1.5 text-[11px] leading-snug text-white/80">
+              <a href={photo.page} className="hover:underline" rel="noreferrer" target="_blank">
+                {dict.stationUi.photoCredit
+                  .replace("{author}", photo.author)
+                  .replace("{license}", photo.license)}
+              </a>
+            </figcaption>
+          </figure>
         )}
       </header>
 
@@ -338,7 +368,13 @@ export default async function StationPage({
 
       <Section id="rent" title={dict.station.rent}>
         {station.rentBands ? (
-          <RentBands data={station.rentBands} dict={dict} locale={locale} />
+          <RentBands
+            data={station.rentBands}
+            dict={dict}
+            locale={locale}
+            averages={getRentAverages(station.wardCode)}
+            wardLabel={wardLabel}
+          />
         ) : (
           <>
             <dl className="grid grid-cols-2 gap-3 sm:grid-cols-4">
@@ -469,6 +505,7 @@ export default async function StationPage({
         dict={dict}
         neighbourNames={neighbourNames}
         locale={locale}
+        wardLinks={getWardLinks(station)}
       />
 
       {station.content.residentComment && (

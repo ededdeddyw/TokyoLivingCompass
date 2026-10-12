@@ -20,12 +20,13 @@ import {
   Wallet,
   Waves,
   type LucideIcon,
+  ExternalLink,
 } from "lucide-react";
 
 import Link from "next/link";
 
 import type { Dictionary } from "@/lib/dictionaries";
-import type { StationContent } from "@/lib/schema";
+import type { StationContent, WardLinks } from "@/lib/schema";
 
 /**
  * 「住むと分かること」の表示（docs/12-quality-standard.md）。
@@ -44,7 +45,13 @@ function Block({
   source,
   children,
   more,
+  wide = false,
+  footer,
 }: {
+  /** 畳んだ本文の外に、いつも見える形で置くもの（区の公式ページへのリンクなど） */
+  footer?: React.ReactNode;
+  /** 2列に並べたときに、横幅いっぱいを使う。朝・昼・夜・週末のように並べて読む節に使う。 */
+  wide?: boolean;
   /**
    * 本文を「続きを読む」で畳むときの文言。一言（lead）があるときだけ畳む。
    * スマホで長い本文が十数枚続くと、目当ての節にたどり着けない。
@@ -61,7 +68,9 @@ function Block({
 }) {
   const Icon = ICONS[icon] ?? House;
   return (
-    <section className="rounded-2xl border border-line bg-surface p-5 shadow-sm">
+    <section
+      className={`rounded-2xl border border-line bg-surface p-5 shadow-sm ${wide ? "lg:col-span-2" : ""}`}
+    >
       <h3 className="flex items-center gap-2 text-base font-bold text-ink">
         <span className="grid size-8 shrink-0 place-items-center rounded-full bg-accent-soft text-accent">
           <Icon aria-hidden="true" className="size-4" />
@@ -84,6 +93,7 @@ function Block({
       ) : (
         <div className="mt-3 text-[15px] leading-loose text-ink-soft">{children}</div>
       )}
+      {footer}
       {source && (
         <p className="mt-3 text-xs text-ink-soft">
           {source.label}:{" "}
@@ -129,12 +139,46 @@ const MLIT_CONGESTION_URL =
 const MLIT_HAZARD_URL = "https://disaportal.gsi.go.jp/maps/";
 const OSM_URL = "https://www.openstreetmap.org/copyright";
 
+/** 区の公式ページへのリンクの一覧。区の境の駅では、区ごとに並べる。 */
+function WardLinkList({
+  items,
+  heading,
+}: {
+  items: { key: string; label: string; url: string }[];
+  heading: string;
+}) {
+  if (items.length === 0) return null;
+  return (
+    <div className="mt-4 rounded-xl bg-canvas p-3.5">
+      <p className="text-xs font-semibold text-ink-soft">{heading}</p>
+      <ul className="mt-2 space-y-1.5">
+        {items.map((it) => (
+          <li key={it.key}>
+            <a
+              href={it.url}
+              className="inline-flex items-start gap-1.5 text-sm font-medium text-accent hover:underline"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <ExternalLink aria-hidden="true" className="mt-0.5 size-3.5 shrink-0" />
+              {it.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
 export function StationDepth({
   content,
   dict,
   neighbourNames,
   locale,
+  wardLinks = [],
 }: {
+  /** 駅のまわりにかかる区の公式ページ。所在地の区が先頭 */
+  wardLinks?: WardLinks[];
   content: StationContent;
   dict: Dictionary;
   locale: string;
@@ -144,11 +188,40 @@ export function StationDepth({
   const d = dict.depth;
 
   const blocks: React.ReactNode[] = [];
+  const ui = dict.stationUi;
+  const wardOnly = wardLinks.length === 1;
+  const linkLabel = (tpl: string, ward: string) =>
+    tpl.replace("{ward}", ward).replace(/^\s+/, "");
+  const childcareLinks = wardLinks.flatMap((w) =>
+    (
+      [
+        ["childcare", w.childcare, ui.wardChildcare],
+        ["school", w.school, ui.wardSchool],
+      ] as const
+    ).flatMap(([kind, link, tpl]) =>
+      link ? [{ key: `${w.wardCode}-${kind}`, url: link.url, label: linkLabel(tpl, w.nameJa) }] : [],
+    ),
+  );
+  const hazardLinks = wardLinks.flatMap((w) =>
+    w.hazard
+      ? [{ key: `${w.wardCode}-hazard`, url: w.hazard.url, label: linkLabel(ui.wardHazard, w.nameJa) }]
+      : [],
+  );
+  const childcareFooter = (
+    <WardLinkList items={childcareLinks} heading={wardOnly ? ui.wardLinksHeading : ui.wardLinksHeadingMulti} />
+  );
+  const hazardFooter = (
+    <WardLinkList items={hazardLinks} heading={wardOnly ? ui.wardLinksHeading : ui.wardLinksHeadingMulti} />
+  );
 
   if (content.faces) {
     blocks.push(
-      <Block key="faces" icon="faces" title={d.faces} lead={content.leads?.faces}>
-        <dl className="grid gap-3 sm:grid-cols-2">
+      <Block key="faces" icon="faces" title={d.faces} lead={content.leads?.faces} wide>
+        {/*
+          4つを2列のカードにすると、半分の幅の中でさらに半分になり、1行が10字ほどで折り返して
+          読みにくかった。時間の順に1列で並べ、見出しを左、本文を右に置く。
+        */}
+        <dl className="mt-1 divide-y divide-line">
           {(
             [
               [d.morning, content.faces.morning, Sunrise],
@@ -157,12 +230,12 @@ export function StationDepth({
               [d.weekend, content.faces.weekend, CalendarDays],
             ] as const
           ).map(([label, text, Icon]) => (
-            <div key={label} className="rounded-xl bg-canvas p-3.5">
-              <dt className="flex items-center gap-1.5 text-sm font-bold text-ink">
+            <div key={label} className="grid gap-1 py-3 sm:grid-cols-[6rem_1fr] sm:gap-4">
+              <dt className="flex items-center gap-1.5 text-sm font-bold text-ink sm:items-start sm:pt-0.5">
                 <Icon aria-hidden="true" className="size-4 text-sun" />
                 {label}
               </dt>
-              <dd className="mt-1.5 text-sm leading-relaxed">{text}</dd>
+              <dd className="max-w-3xl text-[15px] leading-relaxed">{text}</dd>
             </div>
           ))}
         </dl>
@@ -320,6 +393,7 @@ export function StationDepth({
         title={d[field]}
         lead={content.leads?.[field]}
         more={dict.stationUi.readMore}
+        footer={field === "family" ? childcareFooter : undefined}
         source={
           field === "congestion"
             ? { label: d.source, name: d.congestionSource, url: MLIT_CONGESTION_URL }
@@ -329,6 +403,16 @@ export function StationDepth({
         }
       >
         <p>{text}</p>
+      </Block>,
+    );
+  }
+
+  // 子育ての本文がまだ無い駅でも、区の保育園と学区のページへは案内する。
+  if (!content.family && childcareLinks.length > 0) {
+    blocks.push(
+      <Block key="family" icon="family" title={d.family}>
+        <p>{ui.wardChildcareOnly}</p>
+        {childcareFooter}
       </Block>,
     );
   }
@@ -349,6 +433,14 @@ export function StationDepth({
         <p className="mt-2 text-xs leading-relaxed text-ink-soft">
           {dict.hazardNote}
         </p>
+        {hazardFooter}
+      </Block>,
+    );
+  } else if (hazardLinks.length > 0) {
+    blocks.push(
+      <Block key="hazards" icon="hazards" title={d.hazards}>
+        <p>{ui.wardHazardOnly}</p>
+        {hazardFooter}
       </Block>,
     );
   }

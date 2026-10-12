@@ -36,7 +36,7 @@ export function ScoreHighlights({
   const ui = dict.stationUi;
 
   const list = (items: typeof strengths, good: boolean) => (
-    <ul className="mt-3 space-y-2">
+    <ul className="mt-3 space-y-3">
       {items.map(([axis, v]) => (
         <li key={axis} className="flex items-center gap-2.5">
           <span
@@ -44,7 +44,10 @@ export function ScoreHighlights({
           >
             <AxisIcon axis={axis} className="size-4" />
           </span>
-          <span className="flex-1 text-sm font-medium text-ink">{dict.axes[axis]}</span>
+          <span className="min-w-0 flex-1">
+            <span className="block text-sm font-medium text-ink">{dict.axes[axis]}</span>
+            <span className="block text-xs leading-snug text-ink-soft">{dict.axisQuestions[axis]}</span>
+          </span>
           <span className="text-sm tabular-nums text-ink-soft">
             <span className="font-semibold text-ink">{toFivePoint(v).toFixed(1)}</span>/5
           </span>

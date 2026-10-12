@@ -42,9 +42,12 @@ export function ScoreRow({
 }) {
   if (value === undefined) {
     return (
-      <li className={`flex items-center gap-3 py-2.5 ${className}`}>
+      <li className={`flex items-center gap-3 py-3 ${className}`}>
         <AxisIcon axis={axis} className="size-4 shrink-0 text-ink-soft/60" />
-        <span className="min-w-0 flex-1 text-sm text-ink-soft">{dict.axes[axis]}</span>
+        <span className="min-w-0 flex-1">
+          <span className="block text-sm text-ink-soft">{dict.axes[axis]}</span>
+          <span className="block text-xs leading-snug text-ink-soft/80">{dict.axisQuestions[axis]}</span>
+        </span>
         <span className="rounded-full bg-fair-soft px-2 py-0.5 text-xs text-ink-soft">
           {dict.dataQuality.notAvailable}
         </span>
@@ -54,30 +57,34 @@ export function ScoreRow({
   const neutral = PREFERENCE_AXES.has(axis);
   const grade = toGrade(value);
   const points = toFivePoint(value);
+  // 問いの一文は、棒と点数の横に詰めると1行が数字で折り返してしまう。名前の行の下に、横幅いっぱいで置く。
   return (
-    <li className={`flex items-center gap-3 py-2.5 ${className}`}>
-      <AxisIcon axis={axis} className="size-4 shrink-0 text-accent" />
-      <span className="min-w-0 flex-1 truncate text-sm text-ink">{dict.axes[axis]}</span>
-      <span aria-hidden="true" className="h-2 w-16 shrink-0 overflow-hidden rounded-full bg-line sm:w-24">
-        <span
-          className={`block h-full rounded-full ${neutral ? "bg-accent-bright/70" : BAR_STYLES[grade]}`}
-          style={{ width: `${(points / 5) * 100}%` }}
-        />
-      </span>
-      <span className="w-12 shrink-0 text-right text-sm tabular-nums text-ink">
-        <span className="font-semibold">{points.toFixed(1)}</span>
-        <span className="text-xs text-ink-soft">/5</span>
-      </span>
-      {neutral ? (
-        <span className="w-7 shrink-0" aria-hidden="true" />
-      ) : (
-        <span
-          className={`w-7 shrink-0 rounded-md py-0.5 text-center text-xs font-semibold ${GRADE_STYLES[grade]}`}
-        >
-          <span aria-hidden="true">{gradeSymbol(grade)}</span>
-          <span className="sr-only">{dict.grades[grade]}</span>
+    <li className={`py-3 ${className}`}>
+      <div className="flex items-center gap-3">
+        <AxisIcon axis={axis} className="size-4 shrink-0 text-accent" />
+        <span className="min-w-0 flex-1 text-sm font-medium text-ink">{dict.axes[axis]}</span>
+        <span aria-hidden="true" className="h-2 w-16 shrink-0 overflow-hidden rounded-full bg-line sm:w-24">
+          <span
+            className={`block h-full rounded-full ${neutral ? "bg-accent-bright/70" : BAR_STYLES[grade]}`}
+            style={{ width: `${(points / 5) * 100}%` }}
+          />
         </span>
-      )}
+        <span className="w-12 shrink-0 text-right text-sm tabular-nums text-ink">
+          <span className="font-semibold">{points.toFixed(1)}</span>
+          <span className="text-xs text-ink-soft">/5</span>
+        </span>
+        {neutral ? (
+          <span className="w-7 shrink-0" aria-hidden="true" />
+        ) : (
+          <span
+            className={`w-7 shrink-0 rounded-md py-0.5 text-center text-xs font-semibold ${GRADE_STYLES[grade]}`}
+          >
+            <span aria-hidden="true">{gradeSymbol(grade)}</span>
+            <span className="sr-only">{dict.grades[grade]}</span>
+          </span>
+        )}
+      </div>
+      <p className="mt-1 pl-7 text-xs leading-snug text-ink-soft">{dict.axisQuestions[axis]}</p>
     </li>
   );
 }

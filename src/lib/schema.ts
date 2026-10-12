@@ -666,3 +666,41 @@ export type TownTraits = {
     articles: { title: string; url: string }[];
   }[];
 };
+
+/**
+ * 駅の写真。Wikimedia Commons の、自由に使えるライセンスの写真だけを持つ。
+ * 作者とライセンスの表示が要るので、どちらも必須にする。
+ * scripts で集めた結果を data/computed/station-photos.json に置く。
+ */
+export const stationPhotoSchema = z.object({
+  file: z.string().min(1),
+  /** 画像そのものの URL（幅を指定した縮小版） */
+  src: z.string().url(),
+  /** Commons のファイルのページ。作者とライセンスの詳細はここにある */
+  page: z.string().url(),
+  author: z.string().min(1),
+  license: z.string().min(1),
+  licenseUrl: z.string().url().optional(),
+});
+export const stationPhotosFileSchema = z.record(z.string(), stationPhotoSchema.nullable());
+export type StationPhoto = z.infer<typeof stationPhotoSchema>;
+
+/** 区の公式ページへのリンク。保育園の空き状況・学区・ハザードマップ。 */
+const wardLinkSchema = z.object({ url: z.string().url(), title: z.string().min(1) });
+export const wardLinksFileSchema = z.object({
+  meta: z.object({ checkedAt: z.string(), note: z.string() }),
+  wards: z.record(
+    z.string().regex(/^\d{5}$/),
+    z.object({
+      nameJa: z.string().min(1),
+      childcare: wardLinkSchema.nullable(),
+      school: wardLinkSchema.nullable(),
+      hazard: wardLinkSchema.nullable(),
+    }),
+  ),
+});
+export type WardLinks = z.infer<typeof wardLinksFileSchema>["wards"][string] & {
+  wardCode: string;
+};
+/** 駅のまわりにかかる区。所在地の区が先頭。scripts/build-station-wards.py が出す */
+export const stationWardsFileSchema = z.record(z.string(), z.array(z.string().regex(/^\d{5}$/)).min(1));
