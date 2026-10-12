@@ -14,6 +14,8 @@ import {
   type Line,
   type LocalizedStation,
   type RentBands,
+  type RentType,
+  RENT_TYPES,
   type RosterStation,
   type Station,
   type StationContent,
@@ -21,6 +23,11 @@ import {
   type StationProfile,
   type TownTraits,
   townTraitsFileSchema,
+  stationPhotosFileSchema,
+  stationWardsFileSchema,
+  wardLinksFileSchema,
+  type StationPhoto,
+  type WardLinks,
 } from "./schema";
 
 /**
@@ -37,6 +44,9 @@ const COMMUTES_FILE = join(DATA_DIR, "computed", "commutes.json");
 const COMPUTED_SCORES_FILE = join(DATA_DIR, "computed", "scores.json");
 const RENT_BANDS_FILE = join(DATA_DIR, "computed", "rent-bands.json");
 const TOWN_TRAITS_DIR = join(DATA_DIR, "town-traits");
+const PHOTOS_FILE = join(DATA_DIR, "computed", "station-photos.json");
+const STATION_WARDS_FILE = join(DATA_DIR, "computed", "station-wards.json");
+const WARD_LINKS_FILE = join(DATA_DIR, "reference", "ward-links.json");
 /**
  * 街の特色を重ねる順。住んでいる人の目線の出典（ぶらリハウス）を先に、
  * 全駅の下地にしている Wikipedia を後ろに置く。ここに無いファイルは読まない。
@@ -136,6 +146,37 @@ function getRentBands(): Map<string, RentBands> {
   }
   rentBandCache = new Map(Object.entries(parsed.data));
   return rentBandCache;
+}
+
+/** 間取りごとの、駅の帯の平均値をさらに平均したもの。 */
+export type RentAverage = Partial<Record<RentType, { mean: number; count: number }>>;
+
+function averageBands(bands: RentBands[]): RentAverage {
+  const out: RentAverage = {};
+  for (const type of RENT_TYPES) {
+    const means = bands.flatMap((b) => (b.bands[type] ? [b.bands[type]!.mean] : []));
+    if (means.length === 0) continue;
+    out[type] = {
+      mean: Math.round(means.reduce((a, b) => a + b, 0) / means.length),
+      count: means.length,
+    };
+  }
+  return out;
+}
+
+/**
+ * 同じ区の駅と、23区すべての駅の家賃の平均。駅ページで「この駅は高いのか安いのか」を示す。
+ *
+ * 駅ごとの帯の平均値を、駅を1つずつ同じ重みで平均している。物件の数では重みをつけないので、
+ * 「区の家賃相場」ではなく「区の駅の平均」として出す。保存せず毎回計算する（設計上の約束4）。
+ */
+export function getRentAverages(wardCode: string): { ward: RentAverage; all: RentAverage } {
+  const bands = getRentBands();
+  const roster = getRoster();
+  const inWard = roster
+    .filter((s) => s.wardCode === wardCode)
+    .flatMap((s) => (bands.has(s.slug) ? [bands.get(s.slug)!] : []));
+  return { ward: averageBands(inWard), all: averageBands([...bands.values()]) };
 }
 
 let stationCache: Station[] | null = null;
@@ -330,4 +371,46 @@ export function getTownTraits(slug: string, locale: ActiveLocale): TownTraits | 
     }
   }
   return townTraitCache.get(slug) ?? null;
+}
+
+/** ファイルが無ければ null。あれば zod で確かめる。 */
+function readOptional<T>(file: string, schema: { safeParse(v: unknown): { success: true; data: T } | { success: false; error: { format(): unknown } } }, label: string): T | null {
+  let raw: unknown;
+  try {
+    raw = readJson(file);
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code !== "ENOENT") throw error;
+    return null;
+  }
+  const parsed = schema.safeParse(raw);
+  if (!parsed.success) {
+    throw new Error(`${label}が不正です\n${JSON.stringify(parsed.error.format(), null, 2)}`);
+  }
+  return parsed.data;
+}
+
+let photoCache: Record<string, StationPhoto | null> | null = null;
+
+/** 駅の写真。Commons で自由に使える写真が見つからなかった駅は null。 */
+export function getStationPhoto(slug: string): StationPhoto | null {
+  photoCache ??= readOptional(PHOTOS_FILE, stationPhotosFileSchema, "駅の写真") ?? {};
+  return photoCache[slug] ?? null;
+}
+
+let wardLinkCache: { stationWards: Record<string, string[]>; links: Record<string, Omit<WardLinks, "wardCode">> } | null = null;
+
+/**
+ * 駅のまわりにかかる区ごとの、公式ページへのリンク。所在地の区が先頭。
+ * 区の境にある駅（目黒駅は品川区にあり、西側は目黒区）では2つ以上になる。
+ */
+export function getWardLinks(station: { slug: string; wardCode: string }): WardLinks[] {
+  wardLinkCache ??= {
+    stationWards: readOptional(STATION_WARDS_FILE, stationWardsFileSchema, "駅のまわりの区") ?? {},
+    links: readOptional(WARD_LINKS_FILE, wardLinksFileSchema, "区のリンク")?.wards ?? {},
+  };
+  const codes = wardLinkCache.stationWards[station.slug] ?? [station.wardCode];
+  return codes.flatMap((code) => {
+    const l = wardLinkCache!.links[code];
+    return l ? [{ ...l, wardCode: code }] : [];
+  });
 }

@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "checkedAt": "2026-10-12",
+    "note": "23区の公式サイト（city.*.lg.jp / city.*.tokyo.jp）の、保育園の入園案内または空き状況・小学校の通学区域・水害のハザードマップのページ。HTTP 200 が返り、本文に目的の語が入っていることを確かめた。杉並区と練馬区の保育園のページは、同じURLのまま毎月中身が更新される。千代田・文京・江東・北の各区は小学校の通学区域のページだけを入れ、中央区は区のFAQのページを入れた。"
+  },
+  "wards": {
+    "13101": {
+      "nameJa": "千代田区",
+      "childcare": {
+        "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/nyuenannai.html",
+        "title": "千代田区ホームページ - 保育園・こども園等の入園案内"
+      },
+      "school": {
+        "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/gakko/tsugaku-kuiki.html",
+        "title": "千代田区ホームページ - 区立小学校の通学区域"
+      },
+      "hazard": {
+        "url": "https://www.city.chiyoda.lg.jp/koho/kurashi/bosai/bosai-taisaku/fusui-dosha-saigai/map.html",
+        "title": "千代田区ホームページ - ハザードマップ（洪水・高潮・土砂災害）"
+      }
+    },
+    "13102": {
+      "nameJa": "中央区",
+      "childcare": {
+        "url": "https://www.city.chuo.lg.jp/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/shisetsu/index.html",
+        "title": "中央区ホームページ／保育施設案内・定員・空き情報"
+      },
+      "school": {
+        "url": "https://www.city.chuo.lg.jp/a0049/faq/kosodate/gakkoukyouiku/school/0008.html",
+        "title": "中央区ホームページ／小学校・中学校の学区はどうなっていますか。"
+      },
+      "hazard": {
+        "url": "https://www.city.chuo.lg.jp/bousaianzen/bousai/bousaitaisaku/suigaisonae/kouzuihazardmap/index.html",
+        "title": "中央区ホームページ／洪水ハザードマップ・浸水実績図"
+      }
+    },
+    "13103": {
+      "nameJa": "港区",
+      "childcare": {
+        "url": "https://www.city.minato.tokyo.jp/kodomo/kodomo/kodomo/hoikuen/aki.html",
+        "title": "港区ホームページ／区立・私立保育園空き状況"
+      },
+      "school": {
+        "url": "https://www.city.minato.tokyo.jp/gakkouuneishien/kuse/kocho/faq/gakko/004.html",
+        "title": "港区ホームページ／区立小学校・中学校の通学区域について"
+      },
+      "hazard": {
+        "url": "https://www.city.minato.tokyo.jp/dobokukeikaku/bosai-anzen/bosai/shinsui/hazard-map/index.html",
+        "title": "港区ホームページ／浸水ハザードマップ"
+      }
+    },
+    "13104": {
+      "nameJa": "新宿区",
+      "childcare": {
+        "url": "https://www.city.shinjuku.lg.jp/kodomo/file04_07_00034.html",
+        "title": "認可保育園・認証保育所等の空き状況・申込み状況：新宿区"
+      },
+      "school": {
+        "url": "https://www.city.shinjuku.lg.jp/kodomo/index04_0402_01.html",
+        "title": "通学区域：新宿区"
+      },
+      "hazard": {
+        "url": "https://www.city.shinjuku.lg.jp/anzen/file03_00016.html",
+        "title": "新宿区洪水ハザードマップ：新宿区"
+      }
+    },
+    "13105": {
+      "nameJa": "文京区",
+      "childcare": {
+        "url": "https://www.city.bunkyo.lg.jp/b023/p001602.html",
+        "title": "空き状況のご案内 | 文京区"
+      },
+      "school": {
+        "url": "https://www.city.bunkyo.lg.jp/b048/p002107.html",
+        "title": "小学校 通学区域 | 文京区"
+      },
+      "hazard": {
+        "url": "https://www.city.bunkyo.lg.jp/bousaianzen/bousai/kinkyuusaigai/map/index.html",
+        "title": "防災地図・各種ハザードマップ | 文京区"
+      }
+    },
+    "13106": {
+      "nameJa": "台東区",
+      "childcare": {
+        "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/index.html",
+        "title": "保育園入園に関するご案内 台東区ホームページ"
+      },
+      "school": {
+        "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kuritsushocyugakko/nyugakutugaku/tsuugakukuiki.html",
+        "title": "区立小学校・中学校の通学区域 台東区ホームページ"
+      },
+      "hazard": {
+        "url": "https://www.city.taito.lg.jp/bosai/map/saigai/hazardmap.html",
+        "title": "ハザードマップ（水害・土砂災害） 台東区ホームページ"
+      }
+    },
+    "13107": {
+      "nameJa": "墨田区",
+      "childcare": {
+        "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/bosyuusuu/ta80320020180605.html",
+        "title": "空き情報〈認可保育園・認定こども園・小規模保育事業所・家庭的保育者（保育ママ）〉 墨田区公式ホームページ"
+      },
+      "school": {
+        "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kyouiku/school/gakkou_kihon/tuugaku_kuiki.html",
+        "title": "通学区域（小学校・中学校） 墨田区公式ホームページ"
+      },
+      "hazard": {
+        "url": "https://www.city.sumida.lg.jp/anzen_anshin/bousai/suigai/suigai.html",
+        "title": "墨田区水害ハザードマップ（水害への備え） 墨田区公式ホームページ"
+      }
+    },
+    "13108": {
+      "nameJa": "江東区",
+      "childcare": {
+        "url": "https://www.city.koto.lg.jp/kodomo/hoiku/ninka/index.html",
+        "title": "保育園等の申込をされる方へ｜江東区"
+      },
+      "school": {
+        "url": "https://www.city.koto.lg.jp/581101/kodomo/gakko/shuen/shogakko/6119.html",
+        "title": "区立小学校・義務教育学校前期課程の通学区域｜江東区"
+      },
+      "hazard": {
+        "url": "https://www.city.koto.lg.jp/470601/20200701.html",
+        "title": "江東区水害ハザードマップ（3種類）｜江東区"
+      }
+    },
+    "13109": {
+      "nameJa": "品川区",
+      "childcare": {
+        "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/index.html",
+        "title": "保育園｜品川区"
+      },
+      "school": {
+        "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-gakkou/kodomo-gakkou-nyugaku/20221118191255.html",
+        "title": "通学区域｜品川区"
+      },
+      "hazard": {
+        "url": "https://www.city.shinagawa.tokyo.jp/PC/bosai/bosai2/taihu/hpg000020939.html",
+        "title": "浸水に関するハザードマップと浸水実績｜品川区"
+      }
+    },
+    "13110": {
+      "nameJa": "目黒区",
+      "childcare": {
+        "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/akijokyo.html",
+        "title": "区内保育施設の空き状況（例月） | 目黒区"
+      },
+      "school": {
+        "url": "https://www.city.meguro.tokyo.jp/gakkouunei/kosodatekyouiku/shouchuugakkou/50onjun.html",
+        "title": "町名50音順 通学区域 | 目黒区"
+      },
+      "hazard": {
+        "url": "https://www.city.meguro.tokyo.jp/bousai/bousaianzen/bousai/map.html",
+        "title": "目黒区水害ハザードマップ | 目黒区"
+      }
+    },
+    "13111": {
+      "nameJa": "大田区",
+      "childcare": {
+        "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/hoiku/akijyoho/index.html",
+        "title": "大田区ホームページ：保育園空き情報"
+      },
+      "school": {
+        "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/kyouiku/gakko/tsuugaku/index.html",
+        "title": "大田区ホームページ：通学区域"
+      },
+      "hazard": {
+        "url": "https://www.city.ota.tokyo.jp/seikatsu/chiiki/bousai/suigai/hazardmap.html",
+        "title": "大田区ホームページ：大田区防災ハザードマップ"
+      }
+    },
+    "13112": {
+      "nameJa": "世田谷区",
+      "childcare": {
+        "url": "https://www.city.setagaya.lg.jp/kodomokyouiku/hoikuen/category/13054.html",
+        "title": "認可保育園（空き数） | 世田谷区公式ホームページ"
+      },
+      "school": {
+        "url": "https://www.city.setagaya.lg.jp/02046/1838.html",
+        "title": "通学区域 | 世田谷区公式ホームページ"
+      },
+      "hazard": {
+        "url": "https://www.city.setagaya.lg.jp/kurashi/kyuukyuu/category/12840.html",
+        "title": "ハザードマップ | 世田谷区公式ホームページ"
+      }
+    },
+    "13113": {
+      "nameJa": "渋谷区",
+      "childcare": {
+        "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoiku_aki.html",
+        "title": "区立・私立保育園の空き状況 | 保育園の入園申込 | 渋谷区ポータル"
+      },
+      "school": {
+        "url": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/tsugakukuiki/",
+        "title": "通学区域 | 学校・教育 | 渋谷区ポータル"
+      },
+      "hazard": {
+        "url": "https://www.city.shibuya.tokyo.jp/bosai/bosai/bosai-manual-map/kozui_map.html",
+        "title": "洪水ハザードマップ・浸水実績 | 防災マニュアル・防災マップ | 渋谷区ポータル"
+      }
+    },
+    "13114": {
+      "nameJa": "中野区",
+      "childcare": {
+        "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/hoikusyo-annai.html",
+        "title": "保育所等についてのご案内（入園・転園申請について） | 中野区"
+      },
+      "school": {
+        "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/gakko/tsugakukuiki/index.html",
+        "title": "通学区域 | 中野区"
+      },
+      "hazard": {
+        "url": "https://www.city.tokyo-nakano.lg.jp/bosai/hazardmap/index.html",
+        "title": "ハザードマップ | 中野区"
+      }
+    },
+    "13115": {
+      "nameJa": "杉並区",
+      "childcare": {
+        "url": "https://www.city.suginami.tokyo.jp/s058/1068.html",
+        "title": "保育施設の空き状況【認可保育園・地域型保育事業・区立子供園：令和8年9月30日更新】【家庭福祉員・認証・認可外保育施設等：令和8年8月31日更新】｜杉並区公式ホームページ"
+      },
+      "school": {
+        "url": "https://www.city.suginami.tokyo.jp/s109/7382.html",
+        "title": "区立学校学区域一覧｜杉並区公式ホームページ"
+      },
+      "hazard": {
+        "url": "https://www.city.suginami.tokyo.jp/bousai/bousai/hazardmap/kouzui/index.html",
+        "title": "水害ハザードマップ（浸水予想図）と防災マップ｜杉並区公式ホームページ"
+      }
+    },
+    "13116": {
+      "nameJa": "豊島区",
+      "childcare": {
+        "url": "https://www.city.toshima.lg.jp/kosodate/hoiku/nyuen/index.html",
+        "title": "保育園の入園に関すること｜豊島区公式ホームページ"
+      },
+      "school": {
+        "url": "https://www.city.toshima.lg.jp/353/kosodate/gakko/sho-chu/tennyugaku/003874.html",
+        "title": "通学区域（指定校）および隣接校選択制｜豊島区公式ホームページ"
+      },
+      "hazard": {
+        "url": "https://www.city.toshima.lg.jp/042/bosai/taisaku/hazard-map/010305.html",
+        "title": "豊島区洪水・内水ハザードマップ｜豊島区公式ホームページ"
+      }
+    },
+    "13117": {
+      "nameJa": "北区",
+      "childcare": {
+        "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1018588.html",
+        "title": "保育園の入園申請（各保育園の空き人数及び申込状況）｜東京都北区"
+      },
+      "school": {
+        "url": "https://www.city.kita.lg.jp/children-edu/schools/1004052/1007563.html",
+        "title": "小学校通学区域一覧｜東京都北区"
+      },
+      "hazard": {
+        "url": "https://www.city.kita.lg.jp/safety/disaster/1018235/1002608/1002609.html",
+        "title": "東京都北区水害ハザードマップ｜東京都北区"
+      }
+    },
+    "13118": {
+      "nameJa": "荒川区",
+      "childcare": {
+        "url": "https://www.city.arakawa.tokyo.jp/kosodate/hoikuen/akijyoho/index.html",
+        "title": "認可保育園の空き情報・統計／荒川区公式サイト"
+      },
+      "school": {
+        "url": "https://www.city.arakawa.tokyo.jp/a048/kyouiku-seishounen/gakkou/tuugakukuikihyou.html",
+        "title": "通学区域表／荒川区公式サイト"
+      },
+      "hazard": {
+        "url": "https://www.city.arakawa.tokyo.jp/a013/bousai/suigainisonaete/suigaimap.html",
+        "title": "荒川区水害ハザードマップ／荒川区公式サイト"
+      }
+    },
+    "13119": {
+      "nameJa": "板橋区",
+      "childcare": {
+        "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/index.html",
+        "title": "認可保育施設のご案内｜板橋区公式ホームページ"
+      },
+      "school": {
+        "url": "https://www.city.itabashi.tokyo.jp/kyoikuiinkai/gakko/tsuugaku/1011975.html",
+        "title": "板橋区立小中学校通学区域・小学校隣接校案内｜板橋区公式ホームページ"
+      },
+      "hazard": {
+        "url": "https://www.city.itabashi.tokyo.jp/bousai/bousai/map/index.html",
+        "title": "防災マップ・各種ハザードマップ｜板橋区公式ホームページ"
+      }
+    },
+    "13120": {
+      "nameJa": "練馬区",
+      "childcare": {
+        "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/ninka-aiki.html",
+        "title": "【保育園等】空き状況（令和8年11月入園分）：練馬区公式ホームページ"
+      },
+      "school": {
+        "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kyoiku/shochu/gakkuiki/index.html",
+        "title": "区立小中学校 学区域一覧：練馬区公式ホームページ"
+      },
+      "hazard": {
+        "url": "https://www.city.nerima.tokyo.jp/kurashi/bosai/suigai/hazardmap.html",
+        "title": "練馬区水害ハザードマップ：練馬区公式ホームページ"
+      }
+    },
+    "13121": {
+      "nameJa": "足立区",
+      "childcare": {
+        "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/bosyuuninnzuu.html",
+        "title": "保育施設募集人数（例月入所分）｜足立区"
+      },
+      "school": {
+        "url": "https://www.city.adachi.tokyo.jp/k-kyoiku/shochu/gakkosentaku/index.html",
+        "title": "学校選択制度・通学区域｜足立区"
+      },
+      "hazard": {
+        "url": "https://www.city.adachi.tokyo.jp/bosai/bosaisaigai/map/index.html",
+        "title": "水害・洪水ハザードマップ｜足立区"
+      }
+    },
+    "13122": {
+      "nameJa": "葛飾区",
+      "childcare": {
+        "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1030355/1002334/index.html",
+        "title": "認可保育園・認証保育所・保育ママ等の空き状況｜葛飾区公式サイト"
+      },
+      "school": {
+        "url": "https://www.city.katsushika.lg.jp/kosodate/1000057/1002475/1019654/index.html",
+        "title": "葛飾区立学校通学区域一覧｜葛飾区公式サイト"
+      },
+      "hazard": {
+        "url": "https://www.city.katsushika.lg.jp/kurashi/1004028/1000063/1004031/1022522.html",
+        "title": "葛飾区水害ハザードマップ（令和7年3月発行）｜葛飾区公式サイト"
+      }
+    },
+    "13123": {
+      "nameJa": "江戸川区",
+      "childcare": {
+        "url": "https://www.city.edogawa.tokyo.jp/e048/kosodate/kosodate/hoiku/nitijou/hoikuen/teiin_to_bosyusu.html",
+        "title": "認可私立保育施設・区立保育園の定員と募集数 江戸川区ホームページ"
+      },
+      "school": {
+        "url": "https://www.city.edogawa.tokyo.jp/kosodate/kyoiku/kyouiku/shisetuitiran/syogakko/shiteiko/index.html",
+        "title": "通学区域一覧（住所別） 江戸川区ホームページ"
+      },
+      "hazard": {
+        "url": "https://www.city.edogawa.tokyo.jp/e007/bosaianzen/bosai/kanrenmap/hazardmap/index.html",
+        "title": "江戸川区水害ハザードマップ第2版(2025年7月公表) 江戸川区ホームページ"
+      }
+    }
+  }
+}

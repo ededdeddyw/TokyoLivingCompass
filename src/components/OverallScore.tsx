@@ -52,15 +52,15 @@ function Score({ preset, scores, labels }: Props & { preset: WeightPreset }) {
   const value = scores[preset] ?? null;
   const name = viewName(preset, labels);
   return (
-    <div className="space-y-1">
-      <p className="text-sm text-ink-soft">
-        {labels.overall}{" "}
-        <strong className="text-2xl tabular-nums text-ink">
+    <div className="rounded-2xl border border-sun/40 bg-sun-soft p-4 shadow-sm">
+      <p className="text-xs text-sun-ink">{labels.overall}</p>
+      <p className="mt-1">
+        <strong className="text-2xl font-bold tabular-nums text-ink sm:text-3xl">
           {value === null ? labels.notAvailable : value.toFixed(1)}
         </strong>
-        {value !== null && <span className="text-ink-soft"> / 10</span>}
+        {value !== null && <span className="text-sm text-ink-soft"> / 10</span>}
       </p>
-      <p className="text-xs text-ink-soft">
+      <p className="mt-1 text-[11px] leading-snug text-ink-soft">
         {name === null ? labels.balanced : labels.segment.replace("{view}", name)}
       </p>
     </div>

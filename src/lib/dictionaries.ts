@@ -42,6 +42,46 @@ export type Dictionary = {
     browseCta: string;
     featuredHeading: string;
   };
+  /** 駅ページの見た目のための短い文言（2026-10 の見た目の改修で足した） */
+  stationUi: {
+    keyRent: string;
+    keyRentType: string;
+    keyNearest: string;
+    keyNearestValue: string;
+    keyLines: string;
+    keyLinesValue: string;
+    strengths: string;
+    weaknesses: string;
+    strengthsNone: string;
+    weaknessesNone: string;
+    allScores: string;
+    neutralNote: string;
+    nav: Record<"traits" | "rent" | "commute" | "scores" | "life" | "compare", string>;
+    commuteFastest: string;
+    meanRent: string;
+    readMore: string;
+    rentCompareWard: string;
+    rentCompareAll: string;
+    rentCompareThis: string;
+    rentHead: string;
+    rentHeadAllOnly: string;
+    cmpHigherCont: string;
+    cmpLowerCont: string;
+    cmpSameCont: string;
+    cmpHigher: string;
+    cmpLower: string;
+    cmpSame: string;
+    rentCompareNote: string;
+    wardChildcare: string;
+    wardSchool: string;
+    wardHazard: string;
+    wardLinksHeading: string;
+    wardLinksHeadingMulti: string;
+    wardChildcareOnly: string;
+    wardHazardOnly: string;
+    photoAlt: string;
+    photoCredit: string;
+  };
   station: {
     overall: string;
     overallBalanced: string;
@@ -182,6 +222,8 @@ export type Dictionary = {
   tags: Record<StationTag, string>;
   exitTags: Record<ExitTag, string>;
   axes: Record<ScoreAxis, string>;
+  /** 軸の名前の下に添える、その軸が何を問うているかの一文。 */
+  axisQuestions: Record<ScoreAxis, string>;
   grades: Record<Grade, string>;
   rentTypes: Record<RentType, string>;
   /** 区分の既定（すべての軸を均等に見る）の呼び名。 */
@@ -240,6 +282,45 @@ const ja: Dictionary = {
     findCta: "勤務先から駅を探す",
     browseCta: "駅一覧を見る",
     featuredHeading: "掲載中の駅",
+  },
+  stationUi: {
+    keyRent: "1Kの家賃の目安",
+    keyRentType: "1K",
+    keyNearest: "いちばん近いオフィス街",
+    keyNearestValue: "{hub}へ{minutes}分",
+    keyLines: "使える路線",
+    keyLinesValue: "{count}路線",
+    strengths: "この駅の強み",
+    weaknesses: "この駅の弱み",
+    strengthsNone: "とくに目立つ強みは少ない駅です。",
+    weaknessesNone: "とくに目立つ弱みは少ない駅です。",
+    allScores: "18の評価軸をすべて見る",
+    neutralNote: "飲食店・カフェ・ナイトライフは、多いほうがよいかどうかが人によって違うので、良し悪しの色を付けていません。",
+    nav: { traits: "どんな街か", rent: "家賃", commute: "通勤", scores: "評価", life: "暮らし", compare: "比べる" },
+    commuteFastest: "短い順",
+    meanRent: "平均 {yen}",
+    readMore: "続きを読む",
+    rentCompareWard: "{ward}の駅の平均",
+    rentCompareAll: "23区の駅の平均",
+    rentCompareThis: "この駅",
+    rentHead: "{type}の家賃の平均は、{ward}の駅の平均と比べると{cmpW}、23区の駅の平均と比べると{cmpA}です。",
+    rentHeadAllOnly: "{type}の家賃の平均は、23区の駅の平均と比べると{cmpA}です。",
+    cmpHigherCont: "{diff}高く",
+    cmpLowerCont: "{diff}安く",
+    cmpSameCont: "ほぼ同じで",
+    cmpHigher: "{diff}高い",
+    cmpLower: "{diff}安い",
+    cmpSame: "ほぼ同じ",
+    rentCompareNote: "平均は、家賃を調べた駅（{ward}は{wardCount}駅、23区は{allCount}駅）の帯の平均値を、駅ごとに同じ重みで平均したものです。物件の数では重みをつけていません。",
+    wardChildcare: "{ward}の保育園の入園案内と空き状況",
+    wardSchool: "{ward}の学区（通学区域）",
+    wardHazard: "{ward}のハザードマップ",
+    wardLinksHeading: "区の公式ページで確かめてください。",
+    wardLinksHeadingMulti: "駅のまわりは区の境です。住所がある区のページで確かめてください。",
+    wardChildcareOnly: "保育園の空き状況と通う小中学校は、住所によって変わります。区の公式ページで確かめてください。",
+    wardHazardOnly: "大雨のときの浸水の想定は、住所によって変わります。区のハザードマップで確かめてください。",
+    photoAlt: "{name}駅",
+    photoCredit: "写真: {author}（{license}、Wikimedia Commons）",
   },
   station: {
     overall: "総合評価",
@@ -456,6 +537,26 @@ const ja: Dictionary = {
     fitness: "ジム",
     disaster: "浸水想定の小ささ",
   },
+  axisQuestions: {
+    rentValue: "都心への行きやすさを考えると、家賃が割安な駅といえるか？",
+    rentLow: "23区の駅の中で、家賃そのものが安いか？",
+    commute: "大手町・新宿・渋谷などのオフィス街へ、短い時間で行けるか？",
+    transitConvenience: "使える路線が多く、乗り換えずに行ける駅が多いか？",
+    shopping: "歩いて行ける範囲に、スーパーや日用品の店がそろっているか？",
+    food: "駅の近くに、外食できる店が多いか？",
+    cafe: "駅の近くに、カフェや喫茶店が多いか？",
+    nightlife: "駅の近くに、居酒屋やバーが多いか？",
+    safety: "駅周辺の治安は良好か？",
+    quietness: "駅の周りで、人の声や車の音が少ないか？",
+    family: "学校・保育園・公園などがそろい、子どもと暮らしやすいか？",
+    singleLife: "外食できる店やスーパーが近く、一人でも暮らしやすいか？",
+    internationalFriendliness: "外国から来た人が暮らしやすい環境か？",
+    style: "街並みや店の雰囲気に、おしゃれさを感じるか？",
+    nature: "歩いて行ける範囲に、公園や緑地が多いか？",
+    healthcare: "近くに診療所が多く、大きな病院へも行きやすいか？",
+    fitness: "歩いて行ける範囲に、ジムが多いか？",
+    disaster: "大雨や高潮のときの浸水の想定が小さいか？",
+  },
   grades: {
     excellent: "とても良い",
     good: "良い",
@@ -542,6 +643,45 @@ const en: Dictionary = {
     findCta: "Find areas near your office",
     browseCta: "Browse all stations",
     featuredHeading: "Stations covered",
+  },
+  stationUi: {
+    keyRent: "Typical 1K rent",
+    keyRentType: "1K",
+    keyNearest: "Nearest business district",
+    keyNearestValue: "{minutes} min to {hub}",
+    keyLines: "Lines",
+    keyLinesValue: "{count} lines",
+    strengths: "Strengths",
+    weaknesses: "Weaknesses",
+    strengthsNone: "No standout strengths.",
+    weaknessesNone: "No standout weaknesses.",
+    allScores: "Show all 18 measures",
+    neutralNote: "Restaurants, cafés and nightlife are not coloured as good or bad: whether more is better depends on the person.",
+    nav: { traits: "The area", rent: "Rent", commute: "Commute", scores: "Scores", life: "Daily life", compare: "Compare" },
+    commuteFastest: "Shortest first",
+    meanRent: "Average {yen}",
+    readMore: "Read more",
+    rentCompareWard: "{ward} avg.",
+    rentCompareAll: "23 wards avg.",
+    rentCompareThis: "This station",
+    rentHead: "Average {type} rent here is {cmpW} the average for stations in {ward}, and {cmpA} the average for all 23-ward stations.",
+    rentHeadAllOnly: "Average {type} rent here is {cmpA} the average for all 23-ward stations.",
+    cmpHigherCont: "{diff} above",
+    cmpLowerCont: "{diff} below",
+    cmpSameCont: "about the same as",
+    cmpHigher: "{diff} above",
+    cmpLower: "{diff} below",
+    cmpSame: "about the same as",
+    rentCompareNote: "Each surveyed station counts equally in the averages ({ward}: {wardCount} stations; 23 wards: {allCount} stations). They are not weighted by number of listings.",
+    wardChildcare: "{ward}: nursery admission and vacancies",
+    wardSchool: "{ward}: school districts",
+    wardHazard: "{ward}: hazard map",
+    wardLinksHeading: "Check on the ward’s official site (Japanese)",
+    wardLinksHeadingMulti: "The station sits on a ward border. Check the site for the ward of your address (Japanese)",
+    wardChildcareOnly: "Nursery vacancies and school districts depend on your address. Check the ward’s official site.",
+    wardHazardOnly: "Projected flooding from heavy rain depends on your address. Check the ward’s hazard map.",
+    photoAlt: "{name} Station",
+    photoCredit: "Photo: {author} ({license}, Wikimedia Commons)",
   },
   station: {
     overall: "Overall",
@@ -762,6 +902,26 @@ const en: Dictionary = {
     fitness: "Gyms",
     disaster: "Low flood projection",
   },
+  axisQuestions: {
+    rentValue: "Is rent cheap for how easily you reach central Tokyo?",
+    rentLow: "Is rent itself low among the 23 wards?",
+    commute: "Can you reach Otemachi, Shinjuku, Shibuya and other office districts quickly?",
+    transitConvenience: "Are there many lines and many places you can reach without changing trains?",
+    shopping: "Are supermarkets and daily-goods shops within walking distance?",
+    food: "Are there many places to eat out near the station?",
+    cafe: "Are there many cafés near the station?",
+    nightlife: "Are there many izakaya and bars near the station?",
+    safety: "Is the area around the station safe?",
+    quietness: "Is the area around the station free of crowd and traffic noise?",
+    family: "Are schools, nurseries and parks nearby for raising children?",
+    singleLife: "Are restaurants and supermarkets close enough to live alone comfortably?",
+    internationalFriendliness: "Is it easy for people from abroad to live here?",
+    style: "Do the streets and shops feel stylish?",
+    nature: "Are there many parks and green spaces within walking distance?",
+    healthcare: "Are there many clinics nearby and a large hospital within reach?",
+    fitness: "Are there many gyms within walking distance?",
+    disaster: "Is the projected flooding from heavy rain or storm surge small?",
+  },
   grades: {
     excellent: "Excellent",
     good: "Good",
@@ -847,6 +1007,45 @@ const zhHans: Dictionary = {
     findCta: "从公司位置找街区",
     browseCta: "查看全部车站",
     featuredHeading: "收录的车站",
+  },
+  stationUi: {
+    keyRent: "1K租金参考",
+    keyRentType: "1K",
+    keyNearest: "最近的商务区",
+    keyNearestValue: "到{hub}{minutes}分钟",
+    keyLines: "可用线路",
+    keyLinesValue: "{count}条线路",
+    strengths: "本站的优势",
+    weaknesses: "本站的不足",
+    strengthsNone: "没有特别突出的优势。",
+    weaknessesNone: "没有特别突出的不足。",
+    allScores: "查看全部18项评分",
+    neutralNote: "餐饮、咖啡馆和夜生活是否越多越好因人而异，因此不标注好坏颜色。",
+    nav: { traits: "街区特色", rent: "租金", commute: "通勤", scores: "评分", life: "生活", compare: "比较" },
+    commuteFastest: "由短到长",
+    meanRent: "平均 {yen}",
+    readMore: "展开阅读",
+    rentCompareWard: "{ward}车站平均",
+    rentCompareAll: "23区车站平均",
+    rentCompareThis: "本站",
+    rentHead: "本站{type}平均房租与{ward}车站平均相比{cmpW}，与23区车站平均相比{cmpA}。",
+    rentHeadAllOnly: "本站{type}平均房租与23区车站平均相比{cmpA}。",
+    cmpHigherCont: "高{diff}",
+    cmpLowerCont: "低{diff}",
+    cmpSameCont: "基本持平",
+    cmpHigher: "高{diff}",
+    cmpLower: "低{diff}",
+    cmpSame: "基本持平",
+    rentCompareNote: "平均值按每个已调查车站同等权重计算（{ward}{wardCount}个车站，23区{allCount}个车站），未按房源数量加权。",
+    wardChildcare: "{ward}：保育园入园指南与空位",
+    wardSchool: "{ward}：学区",
+    wardHazard: "{ward}：灾害地图",
+    wardLinksHeading: "请在区政府官网确认（日语）",
+    wardLinksHeadingMulti: "车站周边跨越区界，请查看住址所在区的官网（日语）",
+    wardChildcareOnly: "保育园空位和就读学校因住址而异，请在区政府官网确认。",
+    wardHazardOnly: "暴雨时的预测浸水情况因住址而异，请查看区的灾害地图。",
+    photoAlt: "{name}站",
+    photoCredit: "照片：{author}（{license}，Wikimedia Commons）",
   },
   station: {
     overall: "综合",
@@ -1059,6 +1258,26 @@ const zhHans: Dictionary = {
     fitness: "健身房",
     disaster: "浸水预估较小",
   },
+  axisQuestions: {
+    rentValue: "考虑到去市中心的便利程度，房租算不算便宜？",
+    rentLow: "在23区的车站中，房租本身是否便宜？",
+    commute: "能否快速到达大手町、新宿、涩谷等办公区？",
+    transitConvenience: "可用线路多吗？不换乘就能到达的车站多吗？",
+    shopping: "步行范围内是否有超市和日用品店？",
+    food: "车站附近外出就餐的店多吗？",
+    cafe: "车站附近咖啡馆多吗？",
+    nightlife: "车站附近居酒屋和酒吧多吗？",
+    safety: "车站周边治安好吗？",
+    quietness: "车站周边人声和车辆噪音少吗？",
+    family: "学校、保育园、公园齐全，适合带孩子生活吗？",
+    singleLife: "餐馆和超市近，一个人生活方便吗？",
+    internationalFriendliness: "外国人住起来方便吗？",
+    style: "街道和店铺有时尚感吗？",
+    nature: "步行范围内公园和绿地多吗？",
+    healthcare: "附近诊所多吗？去大医院方便吗？",
+    fitness: "步行范围内健身房多吗？",
+    disaster: "暴雨或风暴潮时的预测浸水程度小吗？",
+  },
   grades: {
     excellent: "很好",
     good: "较好",
@@ -1144,6 +1363,45 @@ const ko: Dictionary = {
     findCta: "회사 위치에서 동네 찾기",
     browseCta: "역 전체 보기",
     featuredHeading: "다루고 있는 역",
+  },
+  stationUi: {
+    keyRent: "1K 임대료 기준",
+    keyRentType: "1K",
+    keyNearest: "가장 가까운 업무지구",
+    keyNearestValue: "{hub}까지 {minutes}분",
+    keyLines: "이용 노선",
+    keyLinesValue: "{count}개 노선",
+    strengths: "이 역의 강점",
+    weaknesses: "이 역의 약점",
+    strengthsNone: "특별히 두드러진 강점은 적은 역입니다.",
+    weaknessesNone: "특별히 두드러진 약점은 적은 역입니다.",
+    allScores: "18개 평가 항목 모두 보기",
+    neutralNote: "음식점·카페·나이트라이프는 많을수록 좋은지가 사람마다 달라 좋고 나쁨의 색을 붙이지 않았습니다.",
+    nav: { traits: "어떤 동네인가", rent: "임대료", commute: "통근", scores: "평가", life: "생활", compare: "비교" },
+    commuteFastest: "짧은 순",
+    meanRent: "평균 {yen}",
+    readMore: "더 읽기",
+    rentCompareWard: "{ward} 역 평균",
+    rentCompareAll: "23구 역 평균",
+    rentCompareThis: "이 역",
+    rentHead: "{type} 평균 임대료는 {ward} 역 평균과 비교하면 {cmpW}, 23구 역 평균과 비교하면 {cmpA}.",
+    rentHeadAllOnly: "{type} 평균 임대료는 23구 역 평균과 비교하면 {cmpA}.",
+    cmpHigherCont: "{diff} 높고",
+    cmpLowerCont: "{diff} 낮고",
+    cmpSameCont: "거의 같고",
+    cmpHigher: "{diff} 높습니다",
+    cmpLower: "{diff} 낮습니다",
+    cmpSame: "거의 같습니다",
+    rentCompareNote: "평균은 조사한 역({ward} {wardCount}개 역, 23구 {allCount}개 역)을 같은 비중으로 평균한 값이며, 매물 수로 가중하지 않았습니다.",
+    wardChildcare: "{ward}: 보육원 입원 안내와 공석",
+    wardSchool: "{ward}: 학구",
+    wardHazard: "{ward}: 해저드 맵",
+    wardLinksHeading: "구 공식 사이트에서 확인하세요(일본어)",
+    wardLinksHeadingMulti: "역 주변이 구 경계입니다. 주소지 구의 사이트에서 확인하세요(일본어)",
+    wardChildcareOnly: "보육원 공석과 다닐 학교는 주소에 따라 다릅니다. 구 공식 사이트에서 확인하세요.",
+    wardHazardOnly: "폭우 때의 예상 침수는 주소에 따라 다릅니다. 구의 해저드 맵에서 확인하세요.",
+    photoAlt: "{name}역",
+    photoCredit: "사진: {author} ({license}, Wikimedia Commons)",
   },
   station: {
     overall: "종합",
@@ -1356,6 +1614,26 @@ const ko: Dictionary = {
     healthcare: "의료",
     fitness: "헬스장",
     disaster: "침수 예상이 작음",
+  },
+  axisQuestions: {
+    rentValue: "도심 접근성을 생각하면 임대료가 저렴한 역인가?",
+    rentLow: "23구의 역 가운데 임대료 자체가 싼가?",
+    commute: "오테마치·신주쿠·시부야 등 오피스 지역에 빨리 갈 수 있는가?",
+    transitConvenience: "이용 가능한 노선이 많고, 환승 없이 갈 수 있는 역이 많은가?",
+    shopping: "걸어갈 수 있는 범위에 슈퍼와 생활용품점이 있는가?",
+    food: "역 근처에 외식할 가게가 많은가?",
+    cafe: "역 근처에 카페가 많은가?",
+    nightlife: "역 근처에 이자카야와 바가 많은가?",
+    safety: "역 주변의 치안은 양호한가?",
+    quietness: "역 주변에 사람 소리와 차 소리가 적은가?",
+    family: "학교·보육원·공원이 갖춰져 아이와 살기 좋은가?",
+    singleLife: "식당과 슈퍼가 가까워 혼자 살기 편한가?",
+    internationalFriendliness: "외국에서 온 사람이 살기 편한 환경인가?",
+    style: "거리와 가게 분위기가 세련되었는가?",
+    nature: "걸어갈 수 있는 범위에 공원과 녹지가 많은가?",
+    healthcare: "근처에 의원이 많고 큰 병원에도 가기 쉬운가?",
+    fitness: "걸어갈 수 있는 범위에 헬스장이 많은가?",
+    disaster: "폭우나 해일 때의 예상 침수가 작은가?",
   },
   grades: {
     excellent: "매우 좋음",

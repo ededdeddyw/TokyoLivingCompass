@@ -1,21 +1,56 @@
 @import "tailwindcss";
 
+/*
+ * 色の決まりごと（2026-10 に決めた。理由は docs/17-design.md）。
+ *
+ * 主役は澄んだ水色〜青緑（事実・信頼・東京の水辺）、差し色はあたたかいオレンジ
+ * （暮らしの温かさ）。オレンジは押してほしい場所と強みの印だけに使い、画面の1割に抑える。
+ *
+ * 点数の良し悪しは good（深い青緑）と bad（コーラル）で示す。差し色のオレンジとは
+ * 分け、「警告」と読まれないようにする。色だけに頼らず ◎○△× の記号も必ず添える。
+ */
 @theme {
-  --color-ink: #14181f;
-  --color-ink-soft: #5b6472;
-  --color-line: #e3e7ec;
+  --color-ink: #13222a;
+  --color-ink-soft: #55636f;
+  --color-line: #e1e8ec;
   --color-surface: #ffffff;
-  --color-canvas: #f7f8fa;
-  --color-accent: #1f5f8b;
-  --color-accent-soft: #eaf1f7;
+  --color-canvas: #f3f7f8;
+
+  --color-accent: #0e7c86;
+  --color-accent-strong: #0a5f67;
+  --color-accent-bright: #38b2c4;
+  --color-accent-soft: #e6f6f8;
+
+  --color-sun: #f59e0b;
+  --color-sun-ink: #8a5100;
+  --color-sun-soft: #fff4e0;
+
+  --color-good: #0e7c86;
+  --color-good-soft: #e6f6f8;
+  --color-fair: #8a97a3;
+  --color-fair-soft: #eef2f4;
+  --color-bad: #d9604f;
+  --color-bad-soft: #fdecea;
 }
 
 html {
   background-color: var(--color-canvas);
   color: var(--color-ink);
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: system-ui, -apple-system, "Hiragino Kaku Gothic ProN",
     "Noto Sans JP", "Meiryo", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-feature-settings: "palt";
+}
+
+/* 目次から飛んだときに、固定した目次の下に見出しが隠れないようにする */
+[id] {
+  scroll-margin-top: 4.5rem;
 }

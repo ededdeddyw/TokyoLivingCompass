@@ -34,7 +34,9 @@ OSM は地域によって登録の密度が違うため、数そのものでは�
 """
 import collections
 import json
+import math
 import os
+import statistics
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -331,7 +333,25 @@ def main():
                 for s in roster
                 if (crime.get(s["slug"]) or {}).get("perPlace", {}).get(key) is not None}
     pct_violent = percentile_scores(per_place("violent"))
-    pct_allCrime = percentile_scores(per_place("total"))
+
+    # 治安の点は、重い犯罪だけを、23区の駅の中央値との比で測る。
+    # 総合計には自転車盗や万引きが多く含まれ、店や駐輪場の多い駅ほど件数が増える。
+    # 順位（パーセンタイル）で点にすると、中央値近くの小さな差が大きな点差になる。
+    # 大崎は粗暴犯が1町丁あたり2.9件（中央値2.0件）で、順位では37点まで下がっていた。
+    # 中央値と同じなら50点、2倍なら30点、半分なら70点になるよう、比の対数で点にする。
+    crime_weights = {"violent": 0.5, "felony": 0.2, "burglary": 0.3}
+    # 凶悪犯と侵入窃盗は0件の町丁が多い。0で割らないよう、小さな値を足して比べる。
+    crime_floor = {"violent": 0.3, "felony": 0.1, "burglary": 0.1}
+    crime_median = {k: statistics.median(per_place(k).values()) for k in crime_weights}
+
+    def safety_score(slug):
+        rec = (crime.get(slug) or {}).get("perPlace") or {}
+        if any(rec.get(k) is None for k in crime_weights):
+            return None
+        ratio = sum(w * math.log2((rec[k] + crime_floor[k])
+                                  / (crime_median[k] + crime_floor[k]))
+                    for k, w in crime_weights.items())
+        return clamp(50 - 20 * ratio)
 
     out = {}
     # ファミリー適性は5つの材料の重みつき平均なので、そのままだと真ん中に寄り、
@@ -423,12 +443,10 @@ def main():
                 + pct["supermarket"][slug] * 0.2
                 + scores.get("commute", 50) * 0.25)
 
-            # 治安は、警視庁の町丁別認知件数から出す。
-            # 粗暴犯を主に見る。総合計には自転車盗が多く含まれ、
-            # 駅前に自転車が多い街ほど件数が増えるため、主役には置かない。
-            if station["slug"] in pct_violent:
-                scores["safety"] = clamp(
-                    100 - (pct_violent[slug] * 0.6 + pct_allCrime[slug] * 0.4))
+            # 治安は、警視庁の町丁別認知件数のうち、粗暴犯・凶悪犯・侵入窃盗から出す。
+            safety = safety_score(slug)
+            if safety is not None:
+                scores["safety"] = safety
 
         fs = flood_score(hazard.get(station["slug"]))
         if fs is not None:
