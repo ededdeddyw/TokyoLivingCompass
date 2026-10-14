@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥110,000 to ¥120,000. Set against how long it takes to reach the central business districts, that is on the low side. What holds the figure down: only one line, the {line}, serving the station and a climb from the station to much of the housing. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥110,000 to ¥120,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What holds the figure down: only one line, the {line}, serving the station and a climb from the station to much of the housing. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "kagurazaka",
-      "lead": "Kagurazaka is ahead on how close the centre is and the number of medical facilities. ",
-      "note": "Close enough to walk to from Edogawabashi. Kagurazaka has the Tokyo Metro Tozai Line, a different set from Edogawabashi. To Tokyo, for instance, Kagurazaka is 5 minutes quicker. On the number of medical facilities, Kagurazaka comes out ahead."
+      "lead": "Kagurazaka is ahead on the number of medical facilities, and little else separates the two. ",
+      "note": "Close enough to walk to from Edogawabashi. Edogawabashi adds the Tokyo Metro Yurakucho Line; Kagurazaka adds the Tokyo Metro Tozai Line. Which is faster depends on where you are going: Edogawabashi is 6 minutes quicker to Toranomon, Kagurazaka is 7 minutes quicker to Tokyo. On the number of medical facilities, Kagurazaka comes out ahead. Within about 13 minutes' walk, Kagurazaka has 51 clinics and pharmacies and Edogawabashi has 21."
     },
     {
       "slug": "myogadani",
-      "lead": "For how close the centre is, Myogadani; for how easy the shopping is, Edogawabashi. ",
-      "note": "Close enough to walk to from Edogawabashi. Myogadani has the Tokyo Metro Marunouchi Line, a different set from Edogawabashi. To Tokyo, for instance, Myogadani is 7 minutes quicker. On how easy the shopping is, Edogawabashi comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Myogadani; for how easy the shopping is, Edogawabashi. ",
+      "note": "Close enough to walk to from Edogawabashi. Edogawabashi adds the Tokyo Metro Yurakucho Line; Myogadani adds the Tokyo Metro Marunouchi Line. Which is faster depends on where you are going: Edogawabashi is 5 minutes quicker to Toranomon, Myogadani is 9 minutes quicker to Tokyo. On how easy the shopping is, Edogawabashi comes out ahead. Within about 13 minutes' walk, Edogawabashi has 12 supermarkets (まいばすけっと and コモディイイダ and others) and Myogadani has 4."
     }
   ],
   "goodFor": [
@@ -91,9 +91,9 @@
     "groceries": "There are 12 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tokyo Metro Yurakucho Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

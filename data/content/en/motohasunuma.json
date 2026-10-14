@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Motohasunuma",
   "tagline": "Otemachi in 27 minutes and Tokyo in 33 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Itabashi City, served by Toei Mita Line. Journey times to the main business districts are 27 minutes to Otemachi, 35 minutes to Shinjuku, 41 minutes to Shibuya and 47 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 22.2 m above sea level, and the ground within 800 m varies in height by 7.4 m. The land around the station is close to level.",
+  "summary": "The station is in Itabashi City, served by Toei Mita Line. Journey times to the main business districts are 27 minutes to Otemachi, 35 minutes to Shinjuku, 44 minutes to Shibuya and 47 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 22.2 m above sea level, and the ground within 800 m varies in height by 7.4 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 22.2 m above sea level. Within 800 m the ground ranges from 17.3 m to 24.7 m, a difference of 7.4 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What holds the figure down: only one line, the {line}, serving the station. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. In plain yen, though, it is on the low side for the 23 wards. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "itabashihoncho",
-      "lead": "For how close the centre is, Itabashihoncho; for safety, Motohasunuma. ",
-      "note": "Close enough to walk to from Motohasunuma. It is served by the same lines as Motohasunuma. To Toranomon, for instance, Itabashihoncho is 3 minutes quicker. On what it offers families, Motohasunuma comes out ahead."
+      "lead": "Motohasunuma is ahead on what it offers families, and little else separates the two. ",
+      "note": "Close enough to walk to from Motohasunuma. It is served by the same lines as Motohasunuma. Journey times to the main business districts are much the same. On what it offers families, Motohasunuma comes out ahead."
     },
     {
       "slug": "shimura-sakaue",
-      "lead": "For how little of the area is in the flood projection, Shimura-Sakaue; for how close the centre is, Motohasunuma. ",
-      "note": "Close enough to walk to from Motohasunuma. It is served by the same lines as Motohasunuma. To Shinjuku, for instance, Shimura-Sakaue takes 3 minutes longer. On how little of the area is in the flood projection, Shimura-Sakaue comes out ahead."
+      "lead": "Shimura-Sakaue is ahead on how little of the area is in the flood projection, and little else separates the two. ",
+      "note": "Close enough to walk to from Motohasunuma. It is served by the same lines as Motohasunuma. Journey times to the main business districts are much the same. On how little of the area is in the flood projection, Shimura-Sakaue comes out ahead."
     }
   ],
   "goodFor": [

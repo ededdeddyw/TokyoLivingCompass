@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Bakurocho",
   "tagline": "Tokyo in 4 minutes and Otemachi in 10 minutes. Served by 3 lines. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
-  "summary": "The station is in Chuo City, where JR East and the Tokyo Metropolitan Bureau of Transportation run 3 lines between them. Journey times to the main business districts are 10 minutes to Otemachi, 19 minutes to Shinjuku, 27 minutes to Shibuya and 19 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 4.3 m above sea level, and the ground within 800 m varies in height by 2.3 m. The land around the station is close to level.",
+  "summary": "The station is in Chuo City, where JR East and the Tokyo Metropolitan Bureau of Transportation run 3 lines between them. Journey times to the main business districts are 10 minutes to Otemachi, 19 minutes to Shinjuku, 27 minutes to Shibuya and 15 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 4.3 m above sea level, and the ground within 800 m varies in height by 2.3 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 4.3 m above sea level. Within 800 m the ground ranges from 2 m to 4.3 m, a difference of 2.3 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is on the low side. In plain yen, though, it is on the high side for the 23 wards. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. In plain yen, though, it is on the high side for the 23 wards. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "kodemmacho",
-      "lead": "Bakurocho is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Bakurocho. Kodemmacho has only the Tokyo Metro Hibiya Line, so Bakurocho is the better connected. To Tokyo, for instance, Kodemmacho takes 8 minutes longer. A one-room flat also costs about ¥6,000 more at Kodemmacho."
+      "lead": "Bakurocho is ahead on how close the centre is and lower rent. ",
+      "note": "Close enough to walk to from Bakurocho. Bakurocho adds the JR Sobu Main Line, Toei Asakusa Line and Toei Shinjuku Line; Kodemmacho adds the Tokyo Metro Hibiya Line. Bakurocho is at least 8 minutes quicker to Shinagawa and Tokyo. A one-room flat also costs about ¥6,000 more at Kodemmacho."
     },
     {
       "slug": "asakusabashi",
-      "lead": "For lower rent, Asakusabashi; for rail connections, Bakurocho. ",
-      "note": "Close enough to walk to from Bakurocho. Asakusabashi has only the JR Chuo-Sobu Line (Local) and Toei Asakusa Line, so Bakurocho is the better connected. To Tokyo, for instance, Asakusabashi takes 7 minutes longer. A one-room flat, though, costs about ¥6,000 less at Asakusabashi."
+      "lead": "For lower rent, Asakusabashi; for how close the centre is, Bakurocho. ",
+      "note": "Close enough to walk to from Bakurocho. Both have the Toei Asakusa Line. Bakurocho adds the JR Sobu Main Line and Toei Shinjuku Line; Asakusabashi adds the JR Chuo-Sobu Line (Local). Bakurocho is at least 7 minutes quicker to Shinagawa and Tokyo. A one-room flat, though, costs about ¥6,000 less at Asakusabashi."
     }
   ],
   "goodFor": [
@@ -79,19 +79,19 @@
     "江戸通り (3 lanes each way) runs just outside the station. Traffic on it never stops"
   ],
   "tags": [
+    "goodValue",
     "singleFriendly",
     "shoppingEasy",
-    "flat",
-    "cafeRich"
+    "flat"
   ],
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "There are 14 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
-    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

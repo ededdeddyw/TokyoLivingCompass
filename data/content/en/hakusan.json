@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Hakusan",
   "tagline": "Otemachi in 10 minutes and Tokyo in 16 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Bunkyo City, served by Toei Mita Line. Journey times to the main business districts are 10 minutes to Otemachi, 25 minutes to Shinjuku, 28 minutes to Shibuya and 30 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 13.3 m above sea level, and the ground within 800 m varies in height by 16.7 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Bunkyo City, served by Toei Mita Line. Journey times to the main business districts are 10 minutes to Otemachi, 24 minutes to Shinjuku, 28 minutes to Shibuya and 30 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 13.3 m above sea level, and the ground within 800 m varies in height by 16.7 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 13.3 m above sea level. Within 800 m the ground ranges from 8.1 m to 24.8 m, a difference of 16.7 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "hon-komagome",
-      "lead": "For quiet, Hon-Komagome; for how close the centre is, Hakusan. ",
-      "note": "Close enough to walk to from Hakusan. Hon-Komagome has the Tokyo Metro Namboku Line, a different set from Hakusan. To Otemachi, for instance, Hon-Komagome takes 8 minutes longer. On quiet, Hon-Komagome comes out ahead."
+      "lead": "Hon-Komagome is ahead on quiet, and little else separates the two. ",
+      "note": "Close enough to walk to from Hakusan. Hakusan adds the Toei Mita Line; Hon-Komagome adds the Tokyo Metro Namboku Line. Hakusan is 8 minutes quicker to Otemachi, but times to the other main business districts are much the same. On quiet, Hon-Komagome comes out ahead."
     },
     {
       "slug": "todaimae",
-      "lead": "For lower rent, Todaimae; for how close the centre is, Hakusan. ",
-      "note": "Close enough to walk to from Hakusan. Todaimae has the Tokyo Metro Namboku Line, a different set from Hakusan. To Otemachi, for instance, Todaimae takes 6 minutes longer. A one-room flat costs about ¥6,000 less at Todaimae. On quiet, Todaimae comes out ahead."
+      "lead": "Todaimae is ahead on lower rent and the number of medical facilities. ",
+      "note": "Close enough to walk to from Hakusan. Hakusan adds the Toei Mita Line; Todaimae adds the Tokyo Metro Namboku Line. Hakusan is 6 minutes quicker to Otemachi, but times to the other main business districts are much the same. A one-room flat costs about ¥6,000 less at Todaimae. On quiet, Todaimae comes out ahead."
     }
   ],
   "goodFor": [

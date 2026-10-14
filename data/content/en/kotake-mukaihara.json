@@ -2,8 +2,8 @@
   "slug": "kotake-mukaihara",
   "locale": "en",
   "name": "Kotake-Mukaihara",
-  "tagline": "Shinjuku in 20 minutes and Shibuya in 25 minutes. Served by 3 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Nerima City, where Seibu and Tokyo Metro run 3 lines between them. Journey times to the main business districts are 29 minutes to Otemachi, 20 minutes to Shinjuku, 25 minutes to Shibuya and 46 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 34.4 m above sea level, and the ground within 800 m varies in height by 7.8 m. The land around the station is close to level.",
+  "tagline": "Shinjuku in 20 minutes and Shibuya in 27 minutes. Served by 3 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
+  "summary": "The station is in Nerima City, where Seibu and Tokyo Metro run 3 lines between them. Journey times to the main business districts are 29 minutes to Otemachi, 20 minutes to Shinjuku, 27 minutes to Shibuya and 41 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 34.4 m above sea level, and the ground within 800 m varies in height by 7.8 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 34.4 m above sea level. Within 800 m the ground ranges from 29.2 m to 37 m, a difference of 7.8 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "ekoda",
-      "lead": "For the number of places to eat out, Ekoda; for rail connections, Kotake-Mukaihara. ",
-      "note": "Close enough to walk to from Kotake-Mukaihara. Ekoda has only the Seibu Ikebukuro Line, so Kotake-Mukaihara is the better connected. To Toranomon, for instance, Ekoda takes 5 minutes longer. On the number of places to eat out, though, Ekoda comes out ahead."
+      "lead": "For the number of places to eat out, Ekoda; for what it offers families, Kotake-Mukaihara. ",
+      "note": "Close enough to walk to from Kotake-Mukaihara. Kotake-Mukaihara adds the Seibu Yurakucho Line, Tokyo Metro Yurakucho Line and Tokyo Metro Fukutoshin Line; Ekoda adds the Seibu Ikebukuro Line. Kotake-Mukaihara is 5 minutes quicker to Toranomon, but times to the other main business districts are much the same. On the number of places to eat out, Ekoda comes out ahead. Within about 13 minutes' walk, Ekoda has 34 restaurants and Kotake-Mukaihara has 10."
     },
     {
       "slug": "shin-sakuradai",
-      "lead": "For how little of the area is in the flood projection, Shin-Sakuradai; for rail connections, Kotake-Mukaihara. ",
-      "note": "Close enough to walk to from Kotake-Mukaihara. Shin-Sakuradai has only the Seibu Yurakucho Line, so Kotake-Mukaihara is the better connected. To Otemachi, for instance, Shin-Sakuradai takes 8 minutes longer. On how little of the area is in the flood projection, though, Shin-Sakuradai comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Shin-Sakuradai; for quiet, Kotake-Mukaihara. ",
+      "note": "Close enough to walk to from Kotake-Mukaihara. Both have the Seibu Yurakucho Line. Kotake-Mukaihara also has the Tokyo Metro Yurakucho Line and Tokyo Metro Fukutoshin Line, which Shin-Sakuradai does not. Journey times to the main business districts are much the same. On how little of the area is in the flood projection, Shin-Sakuradai comes out ahead."
     }
   ],
   "goodFor": [
@@ -75,7 +75,7 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "要町通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+    "要町通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "quiet",
@@ -90,7 +90,7 @@
     "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "This station sits on the busiest stretch of the Seibu Yurakucho Line, but at 102% passengers are not shoulder to shoulder. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

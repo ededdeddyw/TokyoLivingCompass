@@ -2,8 +2,8 @@
   "slug": "heiwadai",
   "locale": "en",
   "name": "Heiwadai",
-  "tagline": "Shinjuku in 26 minutes and Shibuya in 31 minutes. Served by 2 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Nerima City, where Tokyo Metro run 2 lines between them. Journey times to the main business districts are 36 minutes to Otemachi, 26 minutes to Shinjuku, 31 minutes to Shibuya and 52 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 35 m above sea level, and the ground within 800 m varies in height by 1.2 m. The land around the station is close to level.",
+  "tagline": "Shinjuku in 26 minutes and Shibuya in 33 minutes. Served by 2 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
+  "summary": "The station is in Nerima City, where Tokyo Metro run 2 lines between them. Journey times to the main business districts are 36 minutes to Otemachi, 26 minutes to Shinjuku, 33 minutes to Shibuya and 47 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 35 m above sea level, and the ground within 800 m varies in height by 1.2 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 35 m above sea level. Within 800 m the ground ranges from 34.4 m to 35.6 m, a difference of 1.2 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "hikawadai",
-      "lead": "Hikawadai is ahead on how close the centre is, and little else separates the two. ",
-      "note": "About 1.5 km from Heiwadai in a straight line. It is served by the same lines as Heiwadai. To Otemachi, for instance, Hikawadai is 4 minutes quicker. Rents, flood projections and the rest differ little."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "About 1.5 km from Heiwadai in a straight line. It is served by the same lines as Heiwadai. Journey times to the main business districts are much the same. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "nerima-kasugacho",
-      "lead": "For how close the centre is, Nerima-Kasugacho; for rail connections, Heiwadai. ",
-      "note": "About 1.5 km from Heiwadai in a straight line. Nerima-Kasugacho has only the Toei Oedo Line, so Heiwadai is the better connected. To Roppongi, for instance, Nerima-Kasugacho is 7 minutes quicker. Rents, flood projections and the rest differ little."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "About 1.5 km from Heiwadai in a straight line. Heiwadai adds the Tokyo Metro Yurakucho Line and Tokyo Metro Fukutoshin Line; Nerima-Kasugacho adds the Toei Oedo Line. Which is faster depends on where you are going: Heiwadai is 7 minutes quicker to Otemachi, Nerima-Kasugacho is 9 minutes quicker to Roppongi. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -89,7 +89,7 @@
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Ogikubo",
   "tagline": "Shinjuku in 13 minutes and Shibuya in 23 minutes. Served by 3 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Suginami City, where JR East and Tokyo Metro run 3 lines between them. Journey times to the main business districts are 33 minutes to Otemachi, 13 minutes to Shinjuku, 23 minutes to Shibuya and 43 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 46.7 m above sea level, and the ground within 800 m varies in height by 10.7 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Suginami City, where JR East and Tokyo Metro run 3 lines between them. Journey times to the main business districts are 34 minutes to Otemachi, 13 minutes to Shinjuku, 23 minutes to Shibuya and 42 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 46.7 m above sea level, and the ground within 800 m varies in height by 10.7 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 46.7 m above sea level. Within 800 m the ground ranges from 41.6 m to 52.3 m, a difference of 10.7 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "asagaya",
-      "lead": "For how close the centre is, Asagaya; for rail connections, Ogikubo. ",
-      "note": "About 1.5 km from Ogikubo in a straight line. Asagaya has only the JR Chuo Rapid Line and JR Chuo-Sobu Line (Local), so Ogikubo is the better connected. To Shinagawa, for instance, Asagaya is 3 minutes quicker. On what it offers families, though, Asagaya comes out ahead."
+      "lead": "Asagaya is ahead on how easy the shopping is and what it offers families. ",
+      "note": "About 1.5 km from Ogikubo in a straight line. Both have the JR Chuo Rapid Line and JR Chuo-Sobu Line (Local). Ogikubo also has the Tokyo Metro Marunouchi Line, which Asagaya does not. Journey times to the main business districts are much the same. On what it offers families, Asagaya comes out ahead."
     },
     {
       "slug": "minami-asagaya",
-      "lead": "For how little of the area is in the flood projection, Minami-Asagaya; for rail connections, Ogikubo. ",
-      "note": "About 1.5 km from Ogikubo in a straight line. Minami-Asagaya has only the Tokyo Metro Marunouchi Line, so Ogikubo is the better connected. To Tokyo, for instance, Minami-Asagaya takes 5 minutes longer. A one-room flat also costs about ¥6,000 more at Minami-Asagaya. On how easy the shopping is, though, Minami-Asagaya comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Minami-Asagaya; for lower rent, Ogikubo. ",
+      "note": "About 1.5 km from Ogikubo in a straight line. Both have the Tokyo Metro Marunouchi Line. Ogikubo also has the JR Chuo Rapid Line and JR Chuo-Sobu Line (Local), which Minami-Asagaya does not. Ogikubo is 5 minutes quicker to Tokyo, but times to the other main business districts are much the same. A one-room flat costs about ¥6,000 more at Minami-Asagaya. On how easy the shopping is, Minami-Asagaya comes out ahead. Within about 13 minutes' walk, Minami-Asagaya has 14 supermarkets (生鮮市場 and ピーコックストア and others) and Ogikubo has 8."
     }
   ],
   "goodFor": [
@@ -90,7 +90,7 @@
     "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

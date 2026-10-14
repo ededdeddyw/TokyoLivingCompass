@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Asagaya",
   "tagline": "Shinjuku in 11 minutes and Shibuya in 21 minutes. Served by 2 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Suginami City, where JR East run 2 lines between them. Journey times to the main business districts are 30 minutes to Otemachi, 11 minutes to Shinjuku, 21 minutes to Shibuya and 40 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 41 m above sea level, and the ground within 800 m varies in height by 6.7 m. The land around the station is close to level.",
+  "summary": "The station is in Suginami City, where JR East run 2 lines between them. Journey times to the main business districts are 31 minutes to Otemachi, 11 minutes to Shinjuku, 21 minutes to Shibuya and 40 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 41 m above sea level, and the ground within 800 m varies in height by 6.7 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 41 m above sea level. Within 800 m the ground ranges from 38.6 m to 45.3 m, a difference of 6.7 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "minami-asagaya",
-      "lead": "Asagaya is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Asagaya. Minami-Asagaya has only the Tokyo Metro Marunouchi Line, so Asagaya is the better connected. To Tokyo, for instance, Minami-Asagaya takes 7 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Asagaya. Asagaya adds the JR Chuo Rapid Line and JR Chuo-Sobu Line (Local); Minami-Asagaya adds the Tokyo Metro Marunouchi Line. Asagaya is 7 minutes quicker to Tokyo, but times to the other main business districts are much the same. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "koenji",
-      "lead": "For how close the centre is, Koenji; for safety, Asagaya. ",
-      "note": "About 1 km from Asagaya in a straight line. It is served by the same lines as Asagaya. To Toranomon, for instance, Koenji is 3 minutes quicker. On what it offers families, Asagaya comes out ahead."
+      "lead": "Asagaya is ahead on what it offers families, and little else separates the two. ",
+      "note": "About 1 km from Asagaya in a straight line. It is served by the same lines as Asagaya. Journey times to the main business districts are much the same. On what it offers families, Asagaya comes out ahead."
     }
   ],
   "goodFor": [
@@ -92,7 +92,7 @@
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

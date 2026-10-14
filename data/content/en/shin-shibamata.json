@@ -2,8 +2,8 @@
   "slug": "shin-shibamata",
   "locale": "en",
   "name": "Shin-Shibamata",
-  "tagline": "Tokyo in 45 minutes and Otemachi in 45 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Katsushika City, served by Hokuso Line. Journey times to the main business districts are 45 minutes to Otemachi, 59 minutes to Shinjuku, 64 minutes to Shibuya and 59 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 2.1 m above sea level, and the ground within 800 m varies in height by 0.5 m. The land around the station is close to level.",
+  "tagline": "Tokyo in 43 minutes and Otemachi in 45 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
+  "summary": "The station is in Katsushika City, served by Hokuso Line. Journey times to the main business districts are 45 minutes to Otemachi, 58 minutes to Shinjuku, 63 minutes to Shibuya and 55 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 2.1 m above sea level, and the ground within 800 m varies in height by 0.5 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 2.1 m above sea level. Within 800 m the ground ranges from 1.7 m to 2.2 m, a difference of 0.5 m."
@@ -57,12 +57,12 @@
     {
       "slug": "shibamata",
       "lead": "Shibamata is ahead on the number of places to eat out, and little else separates the two. ",
-      "note": "Close enough to walk to from Shin-Shibamata. Shibamata has the Keisei Kanamachi Line, a different set from Shin-Shibamata. Journey times to the main business districts are much the same. On the number of places to eat out, Shibamata comes out ahead."
+      "note": "Close enough to walk to from Shin-Shibamata. Shin-Shibamata adds the Hokuso Line; Shibamata adds the Keisei Kanamachi Line. Journey times to the main business districts are much the same. On the number of places to eat out, Shibamata comes out ahead. Within about 13 minutes' walk, Shibamata has 21 restaurants and Shin-Shibamata has 16."
     },
     {
       "slug": "keisei-koiwa",
-      "lead": "Keisei-Koiwa is ahead on how close the centre is and how easy the shopping is. ",
-      "note": "About 1 km from Shin-Shibamata in a straight line. Keisei-Koiwa has the Keisei Main Line, a different set from Shin-Shibamata. To Shinjuku, for instance, Keisei-Koiwa is 3 minutes quicker. On how easy the shopping is, Keisei-Koiwa comes out ahead."
+      "lead": "For how easy the shopping is, Keisei-Koiwa; for safety, Shin-Shibamata. ",
+      "note": "About 1 km from Shin-Shibamata in a straight line. Shin-Shibamata adds the Hokuso Line; Keisei-Koiwa adds the Keisei Main Line. Journey times to the main business districts are much the same. On safety, Shin-Shibamata comes out ahead."
     }
   ],
   "goodFor": [
@@ -92,7 +92,7 @@
     "stationNote": "Only the Hokuso Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
+    "congestion": "This station sits on the busiest stretch of the Hokuso Line, but at 90% passengers are not shoulder to shoulder. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

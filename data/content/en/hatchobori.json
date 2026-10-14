@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥140,000 to ¥150,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. What holds the figure down: a large projected flood depth. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥140,000 to ¥150,000. Set against how long it takes to reach the central business districts, that is on the low side. What holds the figure down: a large projected flood depth. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "kyobashi",
-      "lead": "For how little of the area is in the flood projection, Kyobashi; for how close the centre is, Hatchobori. ",
-      "note": "Close enough to walk to from Hatchobori. Kyobashi has the Tokyo Metro Ginza Line and Toei Asakusa Line, a different set from Hatchobori. To Tokyo, for instance, Kyobashi takes 8 minutes longer. A one-room flat costs about ¥22,000 more at Kyobashi. On safety, Hatchobori comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Kyobashi; for lower rent, Hatchobori. ",
+      "note": "Close enough to walk to from Hatchobori. Hatchobori adds the JR Keiyo Line and Tokyo Metro Hibiya Line; Kyobashi adds the Tokyo Metro Ginza Line and Toei Asakusa Line. Which is faster depends on where you are going: Hatchobori is 8 minutes quicker to Tokyo, Kyobashi is 8 minutes quicker to Shibuya. A one-room flat costs about ¥22,000 more at Kyobashi. On how little of the area is in the flood projection, Kyobashi comes out ahead."
     },
     {
       "slug": "kayabacho",
-      "lead": "For how little of the area is in the flood projection, Kayabacho; for how close the centre is, Hatchobori. ",
-      "note": "Close enough to walk to from Hatchobori. Kayabacho has the Tokyo Metro Hibiya Line and Tokyo Metro Tozai Line, a different set from Hatchobori. To Tokyo, for instance, Kayabacho takes 7 minutes longer. On how little of the area is in the flood projection, Kayabacho comes out ahead."
+      "lead": "Kayabacho is ahead on how little of the area is in the flood projection, and little else separates the two. ",
+      "note": "Close enough to walk to from Hatchobori. Both have the Tokyo Metro Hibiya Line. Hatchobori adds the JR Keiyo Line; Kayabacho adds the Tokyo Metro Tozai Line. Which is faster depends on where you are going: Hatchobori is 7 minutes quicker to Tokyo, Kayabacho is 5 minutes quicker to Otemachi. On how little of the area is in the flood projection, Kayabacho comes out ahead."
     }
   ],
   "goodFor": [
@@ -88,9 +88,9 @@
     "groceries": "There are 8 supermarkets within walking distance, and the nearest is 4 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
-    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are some of the most heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
   },
   "authoredBy": "data-generated"

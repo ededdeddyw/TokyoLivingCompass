@@ -2,8 +2,8 @@
   "slug": "fudo-mae",
   "locale": "en",
   "name": "Fudo-Mae",
-  "tagline": "Shibuya in 14 minutes and Roppongi in 22 minutes. Served by 1 line. A one-room flat rents for roughly ¥110,000 to ¥120,000.",
-  "summary": "The station is in Shinagawa City, where Tokyu run 1 line between them. Journey times to the main business districts are 25 minutes to Otemachi, 23 minutes to Shinjuku, 14 minutes to Shibuya and 26 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 5.4 m above sea level, and the ground within 800 m varies in height by 18.3 m. The land around the station has gentle slopes.",
+  "tagline": "Shibuya in 14 minutes and Shinagawa in 15 minutes. Served by 1 line. A one-room flat rents for roughly ¥110,000 to ¥120,000.",
+  "summary": "The station is in Shinagawa City, where Tokyu run 1 line between them. Journey times to the main business districts are 21 minutes to Otemachi, 23 minutes to Shinjuku, 14 minutes to Shibuya and 15 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 5.4 m above sea level, and the ground within 800 m varies in height by 18.3 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 5.4 m above sea level. Within 800 m the ground ranges from 4 m to 22.3 m, a difference of 18.3 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥110,000 to ¥120,000. Set against how long it takes to reach the central business districts, that is on the high side. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥110,000 to ¥120,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What holds the figure down: only one line, the {line}, serving the station. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "meguro",
-      "lead": "For rail connections, Meguro; for lower rent, Fudo-Mae. ",
-      "note": "Close enough to walk to from Fudo-Mae. Meguro also has the JR Yamanote Line, Tokyo Metro Namboku Line and Toei Mita Line, which Fudo-Mae does not. With more lines, Meguro is the better connected of the two. To Toranomon, for instance, Meguro is 7 minutes quicker. A one-room flat, though, costs about ¥19,000 more at Meguro."
+      "lead": "For how close the centre is, Meguro; for lower rent, Fudo-Mae. ",
+      "note": "Close enough to walk to from Fudo-Mae. Both have the Tokyu Meguro Line. Meguro also has the JR Yamanote Line, Tokyo Metro Namboku Line and Toei Mita Line, which Fudo-Mae does not. Meguro is at least 7 minutes quicker to Shinjuku and Shinagawa. A one-room flat, though, costs about ¥19,000 more at Meguro."
     },
     {
       "slug": "osaki-hirokoji",
-      "lead": "For how close the centre is, Osaki-Hirokoji; for safety, Fudo-Mae. ",
-      "note": "Close enough to walk to from Fudo-Mae. Osaki-Hirokoji has the Tokyu Ikegami Line, a different set from Fudo-Mae. To Shinagawa, for instance, Osaki-Hirokoji is 8 minutes quicker. On safety, Fudo-Mae comes out ahead."
+      "lead": "Fudo-Mae is ahead on how close the centre is, and little else separates the two. ",
+      "note": "Close enough to walk to from Fudo-Mae. Fudo-Mae adds the Tokyu Meguro Line; Osaki-Hirokoji adds the Tokyu Ikegami Line. Fudo-Mae is at least 6 minutes quicker to Otemachi and Roppongi. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -74,7 +74,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "The 首都高速中央環状線 viaduct runs right beside the station. It is an expressway, so traffic is audible day and night",
+    "The 首都高速2号目黒線 viaduct runs a short walk from the station. It is an expressway, so traffic is audible day and night",
     "山手通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
@@ -88,10 +88,10 @@
     "groceries": "There are 11 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tokyu Meguro Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
-    "noiseSources": "At this station, check the traffic noise before the noise people make."
+    "congestion": "This station sits on the busiest stretch of the Tokyu Meguro Line, but at 133% passengers are not shoulder to shoulder. ",
+    "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
   },
   "authoredBy": "data-generated"
 }

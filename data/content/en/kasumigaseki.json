@@ -15,13 +15,13 @@
   "neighbours": [
     {
       "slug": "sakuradamon",
-      "lead": "For quiet, Sakuradamon; for rail connections, Kasumigaseki. ",
-      "note": "Close enough to walk to from Kasumigaseki. Sakuradamon has only the Tokyo Metro Yurakucho Line, so Kasumigaseki is the better connected. To Toranomon, for instance, Sakuradamon takes 9 minutes longer. On quiet, though, Sakuradamon comes out ahead."
+      "lead": "For quiet, Sakuradamon; for how close the centre is, Kasumigaseki. ",
+      "note": "Close enough to walk to from Kasumigaseki. Kasumigaseki adds the Tokyo Metro Marunouchi Line, Tokyo Metro Hibiya Line and Tokyo Metro Chiyoda Line; Sakuradamon adds the Tokyo Metro Yurakucho Line. Kasumigaseki is at least 9 minutes quicker to Toranomon and Roppongi. On quiet, though, Sakuradamon comes out ahead."
     },
     {
       "slug": "kokkai-gijidomae",
-      "lead": "For how easy the shopping is, Kokkai-Gijidomae; for rail connections, Kasumigaseki. ",
-      "note": "Close enough to walk to from Kasumigaseki. Kokkai-Gijidomae has only the Tokyo Metro Marunouchi Line and Tokyo Metro Chiyoda Line, so Kasumigaseki is the better connected. To Toranomon, for instance, Kokkai-Gijidomae takes 7 minutes longer. On how easy the shopping is, though, Kokkai-Gijidomae comes out ahead."
+      "lead": "For how easy the shopping is, Kokkai-Gijidomae; for how close the centre is, Kasumigaseki. ",
+      "note": "Close enough to walk to from Kasumigaseki. Both have the Tokyo Metro Marunouchi Line and Tokyo Metro Chiyoda Line. Kasumigaseki also has the Tokyo Metro Hibiya Line, which Kokkai-Gijidomae does not. Kasumigaseki is at least 7 minutes quicker to Toranomon and Roppongi. On how easy the shopping is, though, Kokkai-Gijidomae comes out ahead. Within about 13 minutes' walk, Kokkai-Gijidomae has 5 supermarkets (瑞山物産 and 吉池 and others) and Kasumigaseki has 0."
     }
   ],
   "goodFor": [
@@ -34,8 +34,8 @@
     "People who want to finish their shopping on foot"
   ],
   "noiseSources": [
-    "The 首都高速都心環状線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
-    "桜田通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+    "桜田通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road",
+    "国会通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "lowFlood",
@@ -49,8 +49,8 @@
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are some of the most heavily loaded in the morning. ",
-    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"
 }

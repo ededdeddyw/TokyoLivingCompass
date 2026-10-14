@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Hatanodai",
   "tagline": "Shinagawa in 18 minutes and Shibuya in 23 minutes. Served by 2 lines. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Shinagawa City, where Tokyu run 2 lines between them. Journey times to the main business districts are 36 minutes to Otemachi, 31 minutes to Shinjuku, 23 minutes to Shibuya and 18 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 23.5 m above sea level, and the ground within 800 m varies in height by 15.8 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shinagawa City, where Tokyu run 2 lines between them. Journey times to the main business districts are 38 minutes to Otemachi, 31 minutes to Shinjuku, 23 minutes to Shibuya and 18 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 23.5 m above sea level, and the ground within 800 m varies in height by 15.8 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 23.5 m above sea level. Within 800 m the ground ranges from 19.4 m to 35.2 m, a difference of 15.8 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "ebara-machi",
-      "lead": "For the number of places to eat out, Ebara-Machi; for rail connections, Hatanodai. ",
-      "note": "Close enough to walk to from Hatanodai. Ebara-Machi has only the Tokyu Oimachi Line, so Hatanodai is the better connected. To Shibuya, for instance, Ebara-Machi takes 4 minutes longer. On the number of places to eat out, though, Ebara-Machi comes out ahead."
+      "lead": "Ebara-Machi is ahead on the number of places to eat out, and little else separates the two. ",
+      "note": "Close enough to walk to from Hatanodai. Both have the Tokyu Oimachi Line. Hatanodai also has the Tokyu Ikegami Line, which Ebara-Machi does not. Journey times to the main business districts are much the same. On the number of places to eat out, Ebara-Machi comes out ahead. Within about 13 minutes' walk, Ebara-Machi has 35 restaurants and Hatanodai has 24."
     },
     {
       "slug": "nagahara",
-      "lead": "Hatanodai is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Hatanodai. Nagahara has only the Tokyu Ikegami Line, so Hatanodai is the better connected. To Shinagawa, for instance, Nagahara takes 7 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Hatanodai. Both have the Tokyu Ikegami Line. Hatanodai also has the Tokyu Oimachi Line, which Nagahara does not. Journey times to the main business districts are much the same. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [

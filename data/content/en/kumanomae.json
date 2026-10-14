@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Kumanomae",
   "tagline": "Otemachi in 24 minutes and Tokyo in 25 minutes. Served by 2 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Arakawa City, where the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 24 minutes to Otemachi, 36 minutes to Shinjuku, 41 minutes to Shibuya and 40 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 1.7 m above sea level, and the ground within 800 m varies in height by 1.1 m. The land around the station is close to level.",
+  "summary": "The station is in Arakawa City, where the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 24 minutes to Otemachi, 36 minutes to Shinjuku, 44 minutes to Shibuya and 40 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 1.7 m above sea level, and the ground within 800 m varies in height by 1.1 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 1.7 m above sea level. Within 800 m the ground ranges from 1.6 m to 2.7 m, a difference of 1.1 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "miyanomae",
-      "lead": "Kumanomae is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Kumanomae. Miyanomae has only the Tokyo Sakura Tram (Toden Arakawa Line), so Kumanomae is the better connected. To Toranomon, for instance, Miyanomae takes 8 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "Kumanomae is ahead on how close the centre is, and little else separates the two. ",
+      "note": "Close enough to walk to from Kumanomae. Both have the Tokyo Sakura Tram (Toden Arakawa Line). Kumanomae also has the Nippori-Toneri Liner, which Miyanomae does not. Kumanomae is at least 9 minutes quicker to Toranomon and Roppongi. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "higashi-ogu-sanchome",
-      "lead": "For how easy the shopping is, Higashi-Ogu-Sanchome; for rail connections, Kumanomae. ",
-      "note": "Close enough to walk to from Kumanomae. Higashi-Ogu-Sanchome has only the Tokyo Sakura Tram (Toden Arakawa Line), so Kumanomae is the better connected. To Tokyo, for instance, Higashi-Ogu-Sanchome takes 7 minutes longer. On how easy the shopping is, though, Higashi-Ogu-Sanchome comes out ahead."
+      "lead": "For how easy the shopping is, Higashi-Ogu-Sanchome; for how close the centre is, Kumanomae. ",
+      "note": "Close enough to walk to from Kumanomae. Both have the Tokyo Sakura Tram (Toden Arakawa Line). Kumanomae also has the Nippori-Toneri Liner, which Higashi-Ogu-Sanchome does not. Kumanomae is at least 6 minutes quicker to Tokyo and Shinagawa. On how easy the shopping is, though, Higashi-Ogu-Sanchome comes out ahead. Within about 13 minutes' walk, Higashi-Ogu-Sanchome has 12 supermarkets (まいばすけっと and ライフ and others) and Kumanomae has 8."
     }
   ],
   "goodFor": [

@@ -2,8 +2,8 @@
   "slug": "shinagawa-seaside",
   "locale": "en",
   "name": "Shinagawa-Seaside",
-  "tagline": "Shinagawa in 13 minutes and Shibuya in 19 minutes. Served by 1 line. A one-room flat rents for roughly ¥120,000 to ¥130,000.",
-  "summary": "The station is in Shinagawa City, served by Rinkai Line. Journey times to the main business districts are 33 minutes to Otemachi, 24 minutes to Shinjuku, 19 minutes to Shibuya and 13 minutes to Shinagawa. A one-room flat rents for roughly ¥120,000 to ¥130,000. The station stands 2.3 m above sea level, and the ground within 800 m varies in height by 7.9 m. The land around the station is close to level.",
+  "tagline": "Shinagawa in 13 minutes and Shibuya in 16 minutes. Served by 1 line. A one-room flat rents for roughly ¥120,000 to ¥130,000.",
+  "summary": "The station is in Shinagawa City, served by Rinkai Line. Journey times to the main business districts are 33 minutes to Otemachi, 22 minutes to Shinjuku, 16 minutes to Shibuya and 13 minutes to Shinagawa. A one-room flat rents for roughly ¥120,000 to ¥130,000. The station stands 2.3 m above sea level, and the ground within 800 m varies in height by 7.9 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 2.3 m above sea level. Within 800 m the ground ranges from 1.3 m to 9.2 m, a difference of 7.9 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥120,000 to ¥130,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards.",
+  "rentReason": "A one-room flat here goes for ¥120,000 to ¥130,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What holds the figure down: only one line, the {line}, serving the station and little daily shopping within walking distance.",
   "neighbours": [
     {
       "slug": "aomono-yokocho",
-      "lead": "For lower rent, Aomono-Yokocho; for how close the centre is, Shinagawa-Seaside. ",
-      "note": "Close enough to walk to from Shinagawa-Seaside. Aomono-Yokocho has the Keikyu Main Line, a different set from Shinagawa-Seaside. To Shinjuku, for instance, Aomono-Yokocho takes 12 minutes longer. A one-room flat costs about ¥7,000 less at Aomono-Yokocho. On quiet, Shinagawa-Seaside comes out ahead."
+      "lead": "For lower rent, Aomono-Yokocho; for quiet, Shinagawa-Seaside. ",
+      "note": "Close enough to walk to from Shinagawa-Seaside. Shinagawa-Seaside adds the Rinkai Line; Aomono-Yokocho adds the Keikyu Main Line. Which is faster depends on where you are going: Shinagawa-Seaside is 12 minutes quicker to Shinjuku, Aomono-Yokocho is 8 minutes quicker to Shinagawa. A one-room flat costs about ¥7,000 less at Aomono-Yokocho. On quiet, Shinagawa-Seaside comes out ahead."
     },
     {
       "slug": "samezu",
-      "lead": "For lower rent, Samezu; for how close the centre is, Shinagawa-Seaside. ",
-      "note": "Close enough to walk to from Shinagawa-Seaside. Samezu has the Keikyu Main Line, a different set from Shinagawa-Seaside. To Shinjuku, for instance, Samezu takes 13 minutes longer. A one-room flat costs about ¥11,000 less at Samezu. On how easy the shopping is, Samezu comes out ahead."
+      "lead": "Samezu is ahead on lower rent and how easy the shopping is. ",
+      "note": "Close enough to walk to from Shinagawa-Seaside. Shinagawa-Seaside adds the Rinkai Line; Samezu adds the Keikyu Main Line. Which is faster depends on where you are going: Shinagawa-Seaside is 13 minutes quicker to Shinjuku, Samezu is 7 minutes quicker to Shinagawa. A one-room flat costs about ¥11,000 less at Samezu. On how easy the shopping is, Samezu comes out ahead. Within about 13 minutes' walk, Samezu has 7 supermarkets (オーケーストア and 西友 and others) and Shinagawa-Seaside has 4."
     }
   ],
   "goodFor": [
@@ -88,7 +88,7 @@
     "stationNote": "Only the Rinkai Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
+    "congestion": "This station sits on the busiest stretch of the Rinkai Line, but at 118% passengers are not shoulder to shoulder. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

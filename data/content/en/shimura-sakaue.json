@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Shimura-Sakaue",
   "tagline": "Otemachi in 29 minutes and Tokyo in 35 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Itabashi City, served by Toei Mita Line. Journey times to the main business districts are 29 minutes to Otemachi, 38 minutes to Shinjuku, 43 minutes to Shibuya and 49 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 23.2 m above sea level, and the ground within 800 m varies in height by 15.9 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Itabashi City, served by Toei Mita Line. Journey times to the main business districts are 29 minutes to Otemachi, 38 minutes to Shinjuku, 46 minutes to Shibuya and 49 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 23.2 m above sea level, and the ground within 800 m varies in height by 15.9 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 23.2 m above sea level. Within 800 m the ground ranges from 8.3 m to 24.2 m, a difference of 15.9 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is on the high side. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "shimura-sanchome",
-      "lead": "Shimura-Sakaue is ahead on how close the centre is and how little of the area is in the flood projection. ",
-      "note": "Close enough to walk to from Shimura-Sakaue. It is served by the same lines as Shimura-Sakaue. To Tokyo, for instance, Shimura-Sanchome takes 3 minutes longer. On how little of the area is in the flood projection, Shimura-Sakaue comes out ahead."
+      "lead": "Shimura-Sakaue is ahead on how little of the area is in the flood projection, and little else separates the two. ",
+      "note": "Close enough to walk to from Shimura-Sakaue. It is served by the same lines as Shimura-Sakaue. Journey times to the main business districts are much the same. On how little of the area is in the flood projection, Shimura-Sakaue comes out ahead."
     },
     {
       "slug": "motohasunuma",
-      "lead": "For how close the centre is, Motohasunuma; for how little of the area is in the flood projection, Shimura-Sakaue. ",
-      "note": "Close enough to walk to from Shimura-Sakaue. It is served by the same lines as Shimura-Sakaue. To Shinjuku, for instance, Motohasunuma is 3 minutes quicker. On how little of the area is in the flood projection, Shimura-Sakaue comes out ahead."
+      "lead": "Shimura-Sakaue is ahead on how little of the area is in the flood projection, and little else separates the two. ",
+      "note": "Close enough to walk to from Shimura-Sakaue. It is served by the same lines as Shimura-Sakaue. Journey times to the main business districts are much the same. On how little of the area is in the flood projection, Shimura-Sakaue comes out ahead."
     }
   ],
   "goodFor": [
@@ -85,7 +85,7 @@
     "groceries": "There are 8 supermarkets within walking distance, and the nearest is 7 minutes on foot.",
     "hazards": "Neither the station nor the ground around it falls inside the projected flood area.",
     "stationNote": "Only the Toei Mita Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."

@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Kokusai-Tenjijo",
   "tagline": "Tokyo in 25 minutes and Shinagawa in 25 minutes. Served by 1 line.",
-  "summary": "The station is in Koto City, served by Rinkai Line. Journey times to the main business districts are 31 minutes to Otemachi, 36 minutes to Shinjuku, 32 minutes to Shibuya and 25 minutes to Shinagawa. The station stands 7.5 m above sea level, and the ground within 800 m varies in height by 4.2 m. The land around the station is close to level.",
+  "summary": "The station is in Koto City, served by Rinkai Line. Journey times to the main business districts are 31 minutes to Otemachi, 34 minutes to Shinjuku, 28 minutes to Shibuya and 25 minutes to Shinagawa. The station stands 7.5 m above sea level, and the ground within 800 m varies in height by 4.2 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 7.5 m above sea level. Within 800 m the ground ranges from 3.6 m to 7.8 m, a difference of 4.2 m."
@@ -49,13 +49,13 @@
   "neighbours": [
     {
       "slug": "ariake",
-      "lead": "Kokusai-Tenjijo is ahead on how close the centre is, and little else separates the two. ",
-      "note": "Close enough to walk to from Kokusai-Tenjijo. Ariake has the Yurikamome, a different set from Kokusai-Tenjijo. To Shinagawa, for instance, Ariake takes 16 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Kokusai-Tenjijo. Kokusai-Tenjijo adds the Rinkai Line; Ariake adds the Yurikamome. Which is faster depends on where you are going: Kokusai-Tenjijo is 17 minutes quicker to Shinagawa, Ariake is 5 minutes quicker to Toranomon. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "tokyo-big-sight",
       "lead": "For quiet, Tokyo-Big-Sight; for how close the centre is, Kokusai-Tenjijo. ",
-      "note": "Close enough to walk to from Kokusai-Tenjijo. Tokyo-Big-Sight has the Yurikamome, a different set from Kokusai-Tenjijo. To Shinagawa, for instance, Tokyo-Big-Sight takes 15 minutes longer. On quiet, Tokyo-Big-Sight comes out ahead."
+      "note": "Close enough to walk to from Kokusai-Tenjijo. Kokusai-Tenjijo adds the Rinkai Line; Tokyo-Big-Sight adds the Yurikamome. Kokusai-Tenjijo is at least 15 minutes quicker to Shibuya and Shinagawa. On quiet, though, Tokyo-Big-Sight comes out ahead."
     }
   ],
   "goodFor": [

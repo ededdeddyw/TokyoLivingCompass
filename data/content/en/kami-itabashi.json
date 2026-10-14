@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Kami-Itabashi",
   "tagline": "Shinjuku in 25 minutes and Shibuya in 30 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Itabashi City, served by Tobu Tojo Line. Journey times to the main business districts are 36 minutes to Otemachi, 25 minutes to Shinjuku, 30 minutes to Shibuya and 51 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 31.2 m above sea level, and the ground within 800 m varies in height by 8.0 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Itabashi City, served by Tobu Tojo Line. Journey times to the main business districts are 36 minutes to Otemachi, 25 minutes to Shinjuku, 30 minutes to Shibuya and 46 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 31.2 m above sea level, and the ground within 800 m varies in height by 8.0 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 31.2 m above sea level. Within 800 m the ground ranges from 23.8 m to 31.8 m, a difference of 8.0 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "tokiwadai",
-      "lead": "For how close the centre is, Tokiwadai; for how little of the area is in the flood projection, Kami-Itabashi. ",
-      "note": "About 1.5 km from Kami-Itabashi in a straight line. It is served by the same lines as Kami-Itabashi. To Shinjuku, for instance, Tokiwadai is 3 minutes quicker. On how little of the area is in the flood projection, Kami-Itabashi comes out ahead."
+      "lead": "For what it offers families, Tokiwadai; for how little of the area is in the flood projection, Kami-Itabashi. ",
+      "note": "About 1.5 km from Kami-Itabashi in a straight line. It is served by the same lines as Kami-Itabashi. Journey times to the main business districts are much the same. On how little of the area is in the flood projection, Kami-Itabashi comes out ahead."
     },
     {
       "slug": "tobu-nerima",
-      "lead": "For lower rent, Tobu-Nerima; for how close the centre is, Kami-Itabashi. ",
-      "note": "About 1.5 km from Kami-Itabashi in a straight line. It is served by the same lines as Kami-Itabashi. To Toranomon, for instance, Tobu-Nerima takes 3 minutes longer. A one-room flat costs about ¥5,000 less at Tobu-Nerima. On quiet, Kami-Itabashi comes out ahead."
+      "lead": "For lower rent, Tobu-Nerima; for quiet, Kami-Itabashi. ",
+      "note": "About 1.5 km from Kami-Itabashi in a straight line. It is served by the same lines as Kami-Itabashi. Journey times to the main business districts are much the same. A one-room flat costs about ¥5,000 less at Tobu-Nerima. On quiet, Kami-Itabashi comes out ahead."
     }
   ],
   "goodFor": [
@@ -77,7 +77,6 @@
   ],
   "tags": [
     "quiet",
-    "goodValue",
     "lowFlood",
     "singleLine"
   ],

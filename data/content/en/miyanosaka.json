@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Miyanosaka",
   "tagline": "Shinjuku in 24 minutes and Shibuya in 26 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Setagaya City, where Tokyu run 1 line between them. Journey times to the main business districts are 43 minutes to Otemachi, 24 minutes to Shinjuku, 26 minutes to Shibuya and 52 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 34.3 m above sea level, and the ground within 800 m varies in height by 6.9 m. The land around the station is close to level.",
+  "summary": "The station is in Setagaya City, where Tokyu run 1 line between them. Journey times to the main business districts are 39 minutes to Otemachi, 24 minutes to Shinjuku, 26 minutes to Shibuya and 46 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 34.3 m above sea level, and the ground within 800 m varies in height by 6.9 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 34.3 m above sea level. Within 800 m the ground ranges from 33.1 m to 40 m, a difference of 6.9 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is on the high side. schools and parks within walking distance and quiet surroundings pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. schools and parks within walking distance and quiet surroundings pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "kamimachi",
-      "lead": "For how little of the area is in the flood projection, Kamimachi; for how close the centre is, Miyanosaka. ",
-      "note": "Close enough to walk to from Miyanosaka. It is served by the same lines as Miyanosaka. To Shinjuku, for instance, Kamimachi takes 3 minutes longer. On how little of the area is in the flood projection, Kamimachi comes out ahead."
+      "lead": "Kamimachi is ahead on how little of the area is in the flood projection, and little else separates the two. ",
+      "note": "Close enough to walk to from Miyanosaka. It is served by the same lines as Miyanosaka. Journey times to the main business districts are much the same. On how little of the area is in the flood projection, Kamimachi comes out ahead."
     },
     {
       "slug": "setagaya",
-      "lead": "For how close the centre is, Setagaya; for quiet, Miyanosaka. ",
-      "note": "Close enough to walk to from Miyanosaka. It is served by the same lines as Miyanosaka. To Toranomon, for instance, Setagaya is 5 minutes quicker. On quiet, Miyanosaka comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Setagaya; for quiet, Miyanosaka. ",
+      "note": "Close enough to walk to from Miyanosaka. It is served by the same lines as Miyanosaka. Miyanosaka is 5 minutes quicker to Shinjuku, but times to the other main business districts are much the same. On quiet, Miyanosaka comes out ahead."
     }
   ],
   "goodFor": [
@@ -88,7 +88,7 @@
     "groceries": "There are 4 supermarkets within walking distance, and the nearest is 9 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tokyu Setagaya Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },

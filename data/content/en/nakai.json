@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Nakai",
   "tagline": "Shinjuku in 10 minutes and Shibuya in 20 minutes. Served by 2 lines. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Shinjuku City, where Seibu and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 24 minutes to Otemachi, 10 minutes to Shinjuku, 20 minutes to Shibuya and 41 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 18.7 m above sea level, and the ground within 800 m varies in height by 17.3 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shinjuku City, where Seibu and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 24 minutes to Otemachi, 10 minutes to Shinjuku, 20 minutes to Shibuya and 38 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 18.7 m above sea level, and the ground within 800 m varies in height by 17.3 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 18.7 m above sea level. Within 800 m the ground ranges from 18.7 m to 36 m, a difference of 17.3 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "ochiai",
-      "lead": "For the number of medical facilities, Ochiai; for rail connections, Nakai. ",
-      "note": "Close enough to walk to from Nakai. Ochiai has only the Tokyo Metro Tozai Line, so Nakai is the better connected. To Roppongi, for instance, Ochiai takes 10 minutes longer. On how easy the shopping is, though, Ochiai comes out ahead."
+      "lead": "For the number of medical facilities, Ochiai; for how little of the area is in the flood projection, Nakai. ",
+      "note": "Close enough to walk to from Nakai. Nakai adds the Seibu Shinjuku Line and Toei Oedo Line; Ochiai adds the Tokyo Metro Tozai Line. Which is faster depends on where you are going: Nakai is 11 minutes quicker to Roppongi, Ochiai is 5 minutes quicker to Tokyo. On how easy the shopping is, Ochiai comes out ahead. Within about 13 minutes' walk, Ochiai has 12 supermarkets (イオン and みらべる and others) and Nakai has 6."
     },
     {
       "slug": "shimo-ochiai",
-      "lead": "For how easy the shopping is, Shimo-Ochiai; for rail connections, Nakai. ",
-      "note": "Close enough to walk to from Nakai. Shimo-Ochiai has only the Seibu Shinjuku Line, so Nakai is the better connected. To Toranomon, for instance, Shimo-Ochiai takes 7 minutes longer. On quiet, though, Shimo-Ochiai comes out ahead."
+      "lead": "For how easy the shopping is, Shimo-Ochiai; for how close the centre is, Nakai. ",
+      "note": "Close enough to walk to from Nakai. Both have the Seibu Shinjuku Line. Nakai also has the Toei Oedo Line, which Shimo-Ochiai does not. Nakai is at least 7 minutes quicker to Toranomon and Roppongi. On quiet, though, Shimo-Ochiai comes out ahead."
     }
   ],
   "goodFor": [
@@ -74,7 +74,6 @@
     "People avoiding projected flood inundation areas"
   ],
   "noiseSources": [
-    "The 首都高速中央環状線 viaduct runs right beside the station. It is an expressway, so traffic is audible day and night",
     "山手通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
@@ -90,7 +89,7 @@
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "This station sits on the busiest stretch of the Toei Oedo Line, but at 147% passengers are not shoulder to shoulder. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

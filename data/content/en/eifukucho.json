@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Eifukucho",
   "tagline": "Shibuya in 15 minutes and Shinjuku in 18 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Suginami City, where Keio run 1 line between them. Journey times to the main business districts are 39 minutes to Otemachi, 18 minutes to Shinjuku, 15 minutes to Shibuya and 41 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 44.1 m above sea level, and the ground within 800 m varies in height by 8.5 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Suginami City, where Keio run 1 line between them. Journey times to the main business districts are 38 minutes to Otemachi, 18 minutes to Shinjuku, 15 minutes to Shibuya and 36 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 44.1 m above sea level, and the ground within 800 m varies in height by 8.5 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 44.1 m above sea level. Within 800 m the ground ranges from 35.6 m to 44.1 m, a difference of 8.5 m."
@@ -45,17 +45,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is on the low side. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "nishi-eifuku",
-      "lead": "Nishi-Eifuku is ahead on safety, and little else separates the two. ",
-      "note": "Close enough to walk to from Eifukucho. It is served by the same lines as Eifukucho. Journey times to the main business districts are much the same. On safety, Nishi-Eifuku comes out ahead."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Eifukucho. It is served by the same lines as Eifukucho. Journey times to the main business districts are much the same. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "meidaimae",
-      "lead": "For rail connections, Meidaimae; for safety, Eifukucho. ",
-      "note": "About 1 km from Eifukucho in a straight line. Meidaimae also has the Keio Line, which Eifukucho does not. With more lines, Meidaimae is the better connected of the two. To Tokyo, for instance, Meidaimae is 8 minutes quicker. On safety, though, Eifukucho comes out ahead."
+      "lead": "For how close the centre is, Meidaimae; for what it offers families, Eifukucho. ",
+      "note": "About 1 km from Eifukucho in a straight line. Both have the Keio Inokashira Line. Meidaimae also has the Keio Line, which Eifukucho does not. Meidaimae is at least 8 minutes quicker to Tokyo and Shinjuku. On what it offers families, though, Eifukucho comes out ahead."
     }
   ],
   "goodFor": [
@@ -81,7 +81,7 @@
     "groceries": "There are 3 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
     "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "Only the Keio Inokashira Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."

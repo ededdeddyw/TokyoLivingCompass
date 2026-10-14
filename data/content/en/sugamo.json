@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Sugamo",
   "tagline": "Otemachi in 14 minutes and Shinjuku in 18 minutes. Served by 2 lines. A one-room flat rents for roughly ¥100,000 to ¥110,000.",
-  "summary": "The station is in Toshima City, where JR East and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 14 minutes to Otemachi, 18 minutes to Shinjuku, 23 minutes to Shibuya and 34 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 25.6 m above sea level, and the ground within 800 m varies in height by 1.8 m. The land around the station is close to level.",
+  "summary": "The station is in Toshima City, where JR East and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 14 minutes to Otemachi, 18 minutes to Shinjuku, 26 minutes to Shibuya and 34 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 25.6 m above sea level, and the ground within 800 m varies in height by 1.8 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 25.6 m above sea level. Within 800 m the ground ranges from 24.6 m to 26.4 m, a difference of 1.8 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "sengoku",
-      "lead": "For quiet, Sengoku; for rail connections, Sugamo. ",
-      "note": "Close enough to walk to from Sugamo. Sengoku has only the Toei Mita Line, so Sugamo is the better connected. To Shinjuku, for instance, Sengoku takes 7 minutes longer. On quiet, though, Sengoku comes out ahead."
+      "lead": "For quiet, Sengoku; for the number of medical facilities, Sugamo. ",
+      "note": "Close enough to walk to from Sugamo. Both have the Toei Mita Line. Sugamo also has the JR Yamanote Line, which Sengoku does not. Which is faster depends on where you are going: Sugamo is 7 minutes quicker to Shinjuku, Sengoku is 5 minutes quicker to Tokyo. On the number of places to eat out, Sugamo comes out ahead. Within about 13 minutes' walk, Sugamo has 87 restaurants and Sengoku has 43."
     },
     {
       "slug": "komagome",
-      "lead": "For lower rent, Komagome; for how close the centre is, Sugamo. ",
-      "note": "Close enough to walk to from Sugamo. Komagome has the JR Yamanote Line and Tokyo Metro Namboku Line, a different set from Sugamo. To Otemachi, for instance, Komagome takes 7 minutes longer. A one-room flat costs about ¥6,000 less at Komagome. On how little of the area is in the flood projection, Sugamo comes out ahead."
+      "lead": "For lower rent, Komagome; for how little of the area is in the flood projection, Sugamo. ",
+      "note": "Close enough to walk to from Sugamo. Both have the JR Yamanote Line. Sugamo adds the Toei Mita Line; Komagome adds the Tokyo Metro Namboku Line. Sugamo is 7 minutes quicker to Otemachi, but times to the other main business districts are much the same. A one-room flat costs about ¥6,000 less at Komagome. On how little of the area is in the flood projection, Sugamo comes out ahead."
     }
   ],
   "goodFor": [
@@ -79,9 +79,9 @@
     "白山通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
-    "goodValue",
     "lowFlood",
     "flat",
+    "parkNear",
     "medicalRich"
   ],
   "leads": {
@@ -91,7 +91,7 @@
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
+    "congestion": "This station sits on the busiest stretch of the Toei Mita Line, but at 146% passengers are not shoulder to shoulder. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

@@ -22,17 +22,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥110,000 to ¥120,000. Set against how long it takes to reach the central business districts, that is on the low side. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥110,000 to ¥120,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "kokuritsu-kyogijo",
-      "lead": "For how close the centre is, Kokuritsu-Kyogijo; for lower rent, Shinanomachi. ",
-      "note": "Close enough to walk to from Shinanomachi. Kokuritsu-Kyogijo has the Toei Oedo Line, a different set from Shinanomachi. To Roppongi, for instance, Kokuritsu-Kyogijo is 13 minutes quicker. A one-room flat costs about ¥22,000 more at Kokuritsu-Kyogijo. On safety, Shinanomachi comes out ahead."
+      "lead": "For quiet, Kokuritsu-Kyogijo; for lower rent, Shinanomachi. ",
+      "note": "Close enough to walk to from Shinanomachi. Shinanomachi adds the JR Chuo-Sobu Line (Local); Kokuritsu-Kyogijo adds the Toei Oedo Line. Which is faster depends on where you are going: Shinanomachi is 7 minutes quicker to Tokyo, Kokuritsu-Kyogijo is 13 minutes quicker to Roppongi. A one-room flat costs about ¥22,000 more at Kokuritsu-Kyogijo. On quiet, Kokuritsu-Kyogijo comes out ahead."
     },
     {
       "slug": "sendagaya",
-      "lead": "For how easy the shopping is, Sendagaya; for how close the centre is, Shinanomachi. ",
-      "note": "Close enough to walk to from Shinanomachi. It is served by the same lines as Shinanomachi. To Shinagawa, for instance, Sendagaya takes 3 minutes longer. A one-room flat costs about ¥22,000 more at Sendagaya. On safety, Shinanomachi comes out ahead."
+      "lead": "For how easy the shopping is, Sendagaya; for lower rent, Shinanomachi. ",
+      "note": "Close enough to walk to from Shinanomachi. It is served by the same lines as Shinanomachi. Journey times to the main business districts are much the same. A one-room flat costs about ¥22,000 more at Sendagaya. On how easy the shopping is, Sendagaya comes out ahead. Within about 13 minutes' walk, Sendagaya has 3 supermarkets (ピアゴ and コープ and others) and Shinanomachi has 0."
     }
   ],
   "goodFor": [
@@ -58,9 +58,9 @@
     "groceries": "OpenStreetMap records no supermarket within walking distance of the station.",
     "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "Only the JR Chuo-Sobu Line (Local) serves this station, so when it stops you walk to another station.",
-    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

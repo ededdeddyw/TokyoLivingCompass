@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Setagaya-Daita",
   "tagline": "Shinjuku in 12 minutes and Shibuya in 14 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Setagaya City, where Odakyu run 1 line between them. Journey times to the main business districts are 31 minutes to Otemachi, 12 minutes to Shinjuku, 14 minutes to Shibuya and 40 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 42.8 m above sea level, and the ground within 800 m varies in height by 15.4 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Setagaya City, where Odakyu run 1 line between them. Journey times to the main business districts are 27 minutes to Otemachi, 12 minutes to Shinjuku, 14 minutes to Shibuya and 34 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 42.8 m above sea level, and the ground within 800 m varies in height by 15.4 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 42.8 m above sea level. Within 800 m the ground ranges from 29.8 m to 45.2 m, a difference of 15.4 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is on the low side. What holds the figure down: only one line, the {line}, serving the station. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. What holds the figure down: only one line, the {line}, serving the station. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "shindaita",
-      "lead": "For how close the centre is, Shindaita; for how easy the shopping is, Setagaya-Daita. ",
-      "note": "Close enough to walk to from Setagaya-Daita. Shindaita has the Keio Inokashira Line, a different set from Setagaya-Daita. To Toranomon, for instance, Shindaita is 5 minutes quicker. On how easy the shopping is, Setagaya-Daita comes out ahead."
+      "lead": "Setagaya-Daita is ahead on how easy the shopping is, and little else separates the two. ",
+      "note": "Close enough to walk to from Setagaya-Daita. Setagaya-Daita adds the Odakyu Odawara Line; Shindaita adds the Keio Inokashira Line. Which is faster depends on where you are going: Setagaya-Daita is 5 minutes quicker to Tokyo, Shindaita is 5 minutes quicker to Shibuya. On how easy the shopping is, Setagaya-Daita comes out ahead. Within about 13 minutes' walk, Setagaya-Daita has 6 supermarkets (まいばすけっと and 信濃屋 and others) and Shindaita has 4."
     },
     {
       "slug": "shimo-kitazawa",
-      "lead": "For rail connections, Shimo-Kitazawa; for quiet, Setagaya-Daita. ",
-      "note": "Close enough to walk to from Setagaya-Daita. Shimo-Kitazawa also has the Keio Inokashira Line, which Setagaya-Daita does not. With more lines, Shimo-Kitazawa is the better connected of the two. To Toranomon, for instance, Shimo-Kitazawa is 6 minutes quicker. On quiet, though, Setagaya-Daita comes out ahead."
+      "lead": "For how close the centre is, Shimo-Kitazawa; for quiet, Setagaya-Daita. ",
+      "note": "Close enough to walk to from Setagaya-Daita. Both have the Odakyu Odawara Line. Shimo-Kitazawa also has the Keio Inokashira Line, which Setagaya-Daita does not. Shimo-Kitazawa is at least 6 minutes quicker to Shinagawa and Shibuya. On quiet, though, Setagaya-Daita comes out ahead."
     }
   ],
   "goodFor": [
@@ -77,9 +77,9 @@
     "環七通り (3 lanes each way) runs just outside the station. Traffic on it never stops"
   ],
   "tags": [
+    "goodValue",
     "lowFlood",
     "singleLine",
-    "cafeRich",
     "medicalRich"
   ],
   "leads": {
@@ -87,9 +87,9 @@
     "groceries": "There are 6 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Odakyu Odawara Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Morning trains are very crowded: this station sits on the busiest stretch of the Odakyu Odawara Line. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

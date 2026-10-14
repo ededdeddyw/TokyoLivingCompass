@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Seijogakuen-Mae",
   "tagline": "Shinjuku in 26 minutes and Shibuya in 28 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Setagaya City, where Odakyu run 1 line between them. Journey times to the main business districts are 44 minutes to Otemachi, 26 minutes to Shinjuku, 28 minutes to Shibuya and 54 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 43.6 m above sea level, and the ground within 800 m varies in height by 13.2 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Setagaya City, where Odakyu run 1 line between them. Journey times to the main business districts are 40 minutes to Otemachi, 26 minutes to Shinjuku, 28 minutes to Shibuya and 48 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 43.6 m above sea level, and the ground within 800 m varies in height by 13.2 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 43.6 m above sea level. Within 800 m the ground ranges from 31.2 m to 44.4 m, a difference of 13.2 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "soshigaya-okura",
-      "lead": "For how close the centre is, Soshigaya-Okura; for lower rent, Seijogakuen-Mae. ",
-      "note": "About 1 km from Seijogakuen-Mae in a straight line. It is served by the same lines as Seijogakuen-Mae. To Shinjuku, for instance, Soshigaya-Okura is 3 minutes quicker. A one-room flat costs about ¥7,000 more at Soshigaya-Okura. On the number of places to eat out, Soshigaya-Okura comes out ahead."
+      "lead": "For safety, Soshigaya-Okura; for lower rent, Seijogakuen-Mae. ",
+      "note": "About 1 km from Seijogakuen-Mae in a straight line. It is served by the same lines as Seijogakuen-Mae. Journey times to the main business districts are much the same. A one-room flat costs about ¥7,000 more at Soshigaya-Okura. On the number of places to eat out, Soshigaya-Okura comes out ahead. Within about 13 minutes' walk, Soshigaya-Okura has 30 restaurants and Seijogakuen-Mae has 5."
     },
     {
       "slug": "chitose-funabashi",
       "lead": "For how close the centre is, Chitose-Funabashi; for lower rent, Seijogakuen-Mae. ",
-      "note": "About 2.5 km from Seijogakuen-Mae in a straight line. It is served by the same lines as Seijogakuen-Mae. To Shinjuku, for instance, Chitose-Funabashi is 6 minutes quicker. A one-room flat costs about ¥6,000 more at Chitose-Funabashi. On the number of places to eat out, Chitose-Funabashi comes out ahead."
+      "note": "About 2.5 km from Seijogakuen-Mae in a straight line. It is served by the same lines as Seijogakuen-Mae. Chitose-Funabashi is at least 6 minutes quicker to Shinjuku and Shinagawa. A one-room flat, though, costs about ¥6,000 more at Chitose-Funabashi."
     }
   ],
   "goodFor": [
@@ -88,7 +88,7 @@
     "stationNote": "Only the Odakyu Odawara Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
   },
   "authoredBy": "data-generated"

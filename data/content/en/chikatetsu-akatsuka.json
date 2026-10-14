@@ -2,8 +2,8 @@
   "slug": "chikatetsu-akatsuka",
   "locale": "en",
   "name": "Chikatetsu-Akatsuka",
-  "tagline": "Shinjuku in 29 minutes and Shibuya in 34 minutes. Served by 3 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Itabashi City, where Tobu and Tokyo Metro run 3 lines between them. Journey times to the main business districts are 39 minutes to Otemachi, 29 minutes to Shinjuku, 34 minutes to Shibuya and 56 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 34.8 m above sea level, and the ground within 800 m varies in height by 4.0 m. The land around the station is close to level.",
+  "tagline": "Shinjuku in 29 minutes and Shibuya in 36 minutes. Served by 3 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
+  "summary": "The station is in Itabashi City, where Tobu and Tokyo Metro run 3 lines between them. Journey times to the main business districts are 39 minutes to Otemachi, 29 minutes to Shinjuku, 36 minutes to Shibuya and 50 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 34.8 m above sea level, and the ground within 800 m varies in height by 4.0 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 34.8 m above sea level. Within 800 m the ground ranges from 31.7 m to 35.7 m, a difference of 4.0 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "narimasu",
-      "lead": "For quiet, Narimasu; for how close the centre is, Chikatetsu-Akatsuka. ",
-      "note": "About 1.5 km from Chikatetsu-Akatsuka in a straight line. It is served by the same lines as Chikatetsu-Akatsuka. To Shinjuku, for instance, Narimasu takes 4 minutes longer. On quiet, Narimasu comes out ahead."
+      "lead": "For quiet, Narimasu; for the number of medical facilities, Chikatetsu-Akatsuka. ",
+      "note": "About 1.5 km from Chikatetsu-Akatsuka in a straight line. It is served by the same lines as Chikatetsu-Akatsuka. Journey times to the main business districts are much the same. On quiet, Narimasu comes out ahead."
     },
     {
       "slug": "tobu-nerima",
-      "lead": "For quiet, Tobu-Nerima; for rail connections, Chikatetsu-Akatsuka. ",
-      "note": "About 1.5 km from Chikatetsu-Akatsuka in a straight line. Tobu-Nerima has only the Tobu Tojo Line, so Chikatetsu-Akatsuka is the better connected. To Toranomon, for instance, Tobu-Nerima takes 3 minutes longer. On quiet, though, Tobu-Nerima comes out ahead."
+      "lead": "For quiet, Tobu-Nerima; for how little of the area is in the flood projection, Chikatetsu-Akatsuka. ",
+      "note": "About 1.5 km from Chikatetsu-Akatsuka in a straight line. Both have the Tobu Tojo Line. Chikatetsu-Akatsuka also has the Tokyo Metro Yurakucho Line and Tokyo Metro Fukutoshin Line, which Tobu-Nerima does not. Journey times to the main business districts are much the same. On the number of medical facilities, Chikatetsu-Akatsuka comes out ahead. Within about 13 minutes' walk, Chikatetsu-Akatsuka has 41 clinics and pharmacies and Tobu-Nerima has 17."
     }
   ],
   "goodFor": [
@@ -92,7 +92,7 @@
     "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

@@ -2,8 +2,8 @@
   "slug": "numabe",
   "locale": "en",
   "name": "Numabe",
-  "tagline": "Shibuya in 26 minutes and Shinagawa in 30 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Ota City, served by Tokyu Tamagawa Line. Journey times to the main business districts are 45 minutes to Otemachi, 36 minutes to Shinjuku, 26 minutes to Shibuya and 30 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 7.3 m above sea level, and the ground within 800 m varies in height by 21.8 m. The land around the station rises and falls sharply.",
+  "tagline": "Shibuya in 26 minutes and Shinagawa in 31 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
+  "summary": "The station is in Ota City, served by Tokyu Tamagawa Line. Journey times to the main business districts are 44 minutes to Otemachi, 36 minutes to Shinjuku, 26 minutes to Shibuya and 31 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 7.3 m above sea level, and the ground within 800 m varies in height by 21.8 m. The land around the station rises and falls sharply.",
   "terrain": {
     "slope": "hilly",
     "note": "The station sits lower than the ground around it, at 7.3 m above sea level. Within 800 m the ground ranges from 1.8 m to 23.6 m, a difference of 21.8 m."
@@ -38,17 +38,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is on the low side. a small projected flood depth and quiet surroundings pushes the figure up. On the other side, only one line, the {line}, serving the station and a climb from the station to much of the housing holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. a small projected flood depth and quiet surroundings pushes the figure up. On the other side, only one line, the {line}, serving the station and a climb from the station to much of the housing holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "ontakesan",
-      "lead": "For safety, Ontakesan; for how close the centre is, Numabe. ",
-      "note": "Close enough to walk to from Numabe. Ontakesan has the Tokyu Ikegami Line, a different set from Numabe. To Shibuya, for instance, Ontakesan takes 5 minutes longer. On what it offers families, Ontakesan comes out ahead."
+      "lead": "Ontakesan is ahead on the number of medical facilities and how easy the shopping is. ",
+      "note": "Close enough to walk to from Numabe. Numabe adds the Tokyu Tamagawa Line; Ontakesan adds the Tokyu Ikegami Line. Numabe is 5 minutes quicker to Shibuya, but times to the other main business districts are much the same. On what it offers families, Ontakesan comes out ahead."
     },
     {
       "slug": "tamagawa",
-      "lead": "Tamagawa is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Numabe. Tamagawa also has the Tokyu Toyoko Line and Tokyu Meguro Line, which Numabe does not. With more lines, Tamagawa is the better connected of the two. To Toranomon, for instance, Tamagawa is 7 minutes quicker. Rents, flood projections and the rest differ little."
+      "lead": "Tamagawa is ahead on how close the centre is, and little else separates the two. ",
+      "note": "Close enough to walk to from Numabe. Both have the Tokyu Tamagawa Line. Tamagawa also has the Tokyu Toyoko Line and Tokyu Meguro Line, which Numabe does not. Tamagawa is at least 7 minutes quicker to Shinagawa and Toranomon. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -75,7 +75,7 @@
     "groceries": "There are 3 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tokyu Tamagawa Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."

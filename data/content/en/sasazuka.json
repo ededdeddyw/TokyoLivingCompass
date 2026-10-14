@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Sasazuka",
   "tagline": "Shinjuku in 6 minutes and Shibuya in 16 minutes. Served by 2 lines. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Shibuya City, where Keio run 2 lines between them. Journey times to the main business districts are 31 minutes to Otemachi, 6 minutes to Shinjuku, 16 minutes to Shibuya and 37 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 42.2 m above sea level, and the ground within 800 m varies in height by 9.2 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shibuya City, where Keio run 2 lines between them. Journey times to the main business districts are 28 minutes to Otemachi, 6 minutes to Shinjuku, 16 minutes to Shibuya and 35 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 42.2 m above sea level, and the ground within 800 m varies in height by 9.2 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 42.2 m above sea level. Within 800 m the ground ranges from 35.8 m to 45 m, a difference of 9.2 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "daitabashi",
-      "lead": "For lower rent, Daitabashi; for rail connections, Sasazuka. ",
-      "note": "Close enough to walk to from Sasazuka. Daitabashi has only the Keio Line, so Sasazuka is the better connected. Journey times to the main business districts are much the same. A one-room flat, though, costs about ¥8,000 less at Daitabashi."
+      "lead": "Daitabashi is ahead on lower rent and how little of the area is in the flood projection. ",
+      "note": "Close enough to walk to from Sasazuka. Both have the Keio Line. Sasazuka also has the Keio New Line, which Daitabashi does not. Sasazuka is 5 minutes quicker to Otemachi, but times to the other main business districts are much the same. A one-room flat costs about ¥8,000 less at Daitabashi. On how little of the area is in the flood projection, Daitabashi comes out ahead."
     },
     {
       "slug": "hatagaya",
       "lead": "Sasazuka is ahead on how close the centre is, and little else separates the two. ",
-      "note": "Close enough to walk to from Sasazuka. It is served by the same lines as Sasazuka. To Tokyo, for instance, Hatagaya takes 8 minutes longer. Rents, flood projections and the rest differ little."
+      "note": "Close enough to walk to from Sasazuka. It is served by the same lines as Sasazuka. Sasazuka is at least 7 minutes quicker to Tokyo and Toranomon. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -80,6 +80,7 @@
   "tags": [
     "goodValue",
     "lowFlood",
+    "fastToCenter",
     "parkNear"
   ],
   "leads": {

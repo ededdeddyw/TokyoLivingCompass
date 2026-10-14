@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Toneri",
   "tagline": "Otemachi in 45 minutes and Tokyo in 46 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Adachi City, where the Tokyo Metropolitan Bureau of Transportation run 1 line between them. Journey times to the main business districts are 45 minutes to Otemachi, 56 minutes to Shinjuku, 62 minutes to Shibuya and 60 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 3.8 m above sea level, and the ground within 800 m varies in height by 1.3 m. The land around the station is close to level.",
+  "summary": "The station is in Adachi City, where the Tokyo Metropolitan Bureau of Transportation run 1 line between them. Journey times to the main business districts are 45 minutes to Otemachi, 57 minutes to Shinjuku, 65 minutes to Shibuya and 60 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 3.8 m above sea level, and the ground within 800 m varies in height by 1.3 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 3.8 m above sea level. Within 800 m the ground ranges from 3.2 m to 4.5 m, a difference of 1.3 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "minumadai-shinsuikoen",
-      "lead": "Toneri is ahead on how close the centre is, and little else separates the two. ",
-      "note": "Close enough to walk to from Toneri. It is served by the same lines as Toneri. To Toranomon, for instance, Minumadai-Shinsuikoen takes 3 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Toneri. It is served by the same lines as Toneri. Journey times to the main business districts are much the same. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "toneri-koen",
-      "lead": "For how close the centre is, Toneri-Koen; for how easy the shopping is, Toneri. ",
-      "note": "About 1 km from Toneri in a straight line. It is served by the same lines as Toneri. To Toranomon, for instance, Toneri-Koen is 4 minutes quicker. A one-room flat costs about ¥6,000 less at Toneri-Koen. On what it offers families, Toneri comes out ahead."
+      "lead": "For lower rent, Toneri-Koen; for how easy the shopping is, Toneri. ",
+      "note": "About 1 km from Toneri in a straight line. It is served by the same lines as Toneri. Journey times to the main business districts are much the same. A one-room flat costs about ¥6,000 less at Toneri-Koen. On what it offers families, Toneri comes out ahead."
     }
   ],
   "goodFor": [
@@ -81,6 +81,7 @@
   ],
   "tags": [
     "quiet",
+    "pricey",
     "singleLine",
     "flat"
   ],

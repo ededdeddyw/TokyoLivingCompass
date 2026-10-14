@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Hamacho",
   "tagline": "Tokyo in 10 minutes and Otemachi in 15 minutes. Served by 1 line. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
-  "summary": "The station is in Chuo City, served by Toei Shinjuku Line. Journey times to the main business districts are 15 minutes to Otemachi, 20 minutes to Shinjuku, 28 minutes to Shibuya and 25 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 1.8 m above sea level, and the ground within 800 m varies in height by 2.4 m. The land around the station is close to level.",
+  "summary": "The station is in Chuo City, served by Toei Shinjuku Line. Journey times to the main business districts are 15 minutes to Otemachi, 20 minutes to Shinjuku, 28 minutes to Shibuya and 21 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 1.8 m above sea level, and the ground within 800 m varies in height by 2.4 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 1.8 m above sea level. Within 800 m the ground ranges from 0.7 m to 3.1 m, a difference of 2.4 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "ningyocho",
-      "lead": "For rail connections, Ningyocho; for lower rent, Hamacho. ",
-      "note": "Close enough to walk to from Hamacho. Ningyocho also has the Tokyo Metro Hibiya Line, Tokyo Metro Hanzomon Line and Toei Asakusa Line, which Hamacho does not. With more lines, Ningyocho is the better connected of the two. To Roppongi, for instance, Ningyocho is 12 minutes quicker. A one-room flat, though, costs about ¥5,000 more at Ningyocho."
+      "lead": "For the number of places to eat out, Ningyocho; for lower rent, Hamacho. ",
+      "note": "Close enough to walk to from Hamacho. Hamacho adds the Toei Shinjuku Line; Ningyocho adds the Tokyo Metro Hibiya Line, Tokyo Metro Hanzomon Line and Toei Asakusa Line. Which is faster depends on where you are going: Hamacho is 5 minutes quicker to Shinjuku, Ningyocho is 12 minutes quicker to Roppongi. A one-room flat costs about ¥5,000 more at Ningyocho. On the number of places to eat out, Ningyocho comes out ahead. Within about 13 minutes' walk, Ningyocho has 161 restaurants and Hamacho has 120."
     },
     {
       "slug": "bakurocho",
-      "lead": "Bakurocho is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Hamacho. Bakurocho also has the JR Sobu Main Line and Toei Asakusa Line, which Hamacho does not. With more lines, Bakurocho is the better connected of the two. To Roppongi, for instance, Bakurocho is 7 minutes quicker. Rents, flood projections and the rest differ little."
+      "lead": "Bakurocho is ahead on how close the centre is, and little else separates the two. ",
+      "note": "Close enough to walk to from Hamacho. Both have the Toei Shinjuku Line. Bakurocho also has the JR Sobu Main Line and Toei Asakusa Line, which Hamacho does not. Bakurocho is at least 7 minutes quicker to Toranomon and Roppongi. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -91,7 +91,7 @@
     "stationNote": "Only the Toei Shinjuku Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

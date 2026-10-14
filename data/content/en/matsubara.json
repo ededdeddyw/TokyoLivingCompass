@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Matsubara",
   "tagline": "Shinjuku in 21 minutes and Shibuya in 27 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Setagaya City, where Tokyu run 1 line between them. Journey times to the main business districts are 43 minutes to Otemachi, 21 minutes to Shinjuku, 27 minutes to Shibuya and 52 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 37.7 m above sea level, and the ground within 800 m varies in height by 10.8 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Setagaya City, where Tokyu run 1 line between them. Journey times to the main business districts are 39 minutes to Otemachi, 21 minutes to Shinjuku, 27 minutes to Shibuya and 47 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 37.7 m above sea level, and the ground within 800 m varies in height by 10.8 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 37.7 m above sea level. Within 800 m the ground ranges from 35.1 m to 45.9 m, a difference of 10.8 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is on the high side. schools and parks within walking distance and quiet surroundings pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. schools and parks within walking distance and quiet surroundings pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "shimo-takaido",
-      "lead": "For rail connections, Shimo-Takaido; for safety, Matsubara. ",
-      "note": "Close enough to walk to from Matsubara. Shimo-Takaido also has the Keio Line, which Matsubara does not. With more lines, Shimo-Takaido is the better connected of the two. To Tokyo, for instance, Shimo-Takaido is 9 minutes quicker. On safety, though, Matsubara comes out ahead."
+      "lead": "For how close the centre is, Shimo-Takaido; for what it offers families, Matsubara. ",
+      "note": "Close enough to walk to from Matsubara. Both have the Tokyu Setagaya Line. Shimo-Takaido also has the Keio Line, which Matsubara does not. Shimo-Takaido is at least 9 minutes quicker to Tokyo and Shinjuku. On what it offers families, though, Matsubara comes out ahead."
     },
     {
       "slug": "gotokuji",
-      "lead": "For rail connections, Gotokuji; for quiet, Matsubara. ",
-      "note": "Close enough to walk to from Matsubara. Gotokuji also has the Odakyu Odawara Line, which Matsubara does not. With more lines, Gotokuji is the better connected of the two. To Toranomon, for instance, Gotokuji is 9 minutes quicker. On quiet, though, Matsubara comes out ahead."
+      "lead": "For how close the centre is, Gotokuji; for quiet, Matsubara. ",
+      "note": "Close enough to walk to from Matsubara. Both have the Tokyu Setagaya Line. Gotokuji also has the Odakyu Odawara Line, which Matsubara does not. Gotokuji is at least 9 minutes quicker to Toranomon and Shinagawa. On quiet, though, Matsubara comes out ahead."
     }
   ],
   "goodFor": [
@@ -87,7 +87,7 @@
     "groceries": "There are 4 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tokyu Setagaya Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },

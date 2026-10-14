@@ -2,8 +2,8 @@
   "slug": "ebara-machi",
   "locale": "en",
   "name": "Ebara-Machi",
-  "tagline": "Shinagawa in 17 minutes and Shibuya in 27 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Shinagawa City, where Tokyu run 1 line between them. Journey times to the main business districts are 35 minutes to Otemachi, 33 minutes to Shinjuku, 27 minutes to Shibuya and 17 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 19.3 m above sea level, and the ground within 800 m varies in height by 12.9 m. The land around the station has gentle slopes.",
+  "tagline": "Shinagawa in 17 minutes and Shibuya in 25 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
+  "summary": "The station is in Shinagawa City, where Tokyu run 1 line between them. Journey times to the main business districts are 35 minutes to Otemachi, 30 minutes to Shinjuku, 25 minutes to Shibuya and 17 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 19.3 m above sea level, and the ground within 800 m varies in height by 12.9 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 19.3 m above sea level. Within 800 m the ground ranges from 18.2 m to 31.1 m, a difference of 12.9 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "hatanodai",
-      "lead": "For rail connections, Hatanodai; for the number of places to eat out, Ebara-Machi. ",
-      "note": "Close enough to walk to from Ebara-Machi. Hatanodai also has the Tokyu Ikegami Line, which Ebara-Machi does not. With more lines, Hatanodai is the better connected of the two. To Shibuya, for instance, Hatanodai is 4 minutes quicker. On the number of places to eat out, though, Ebara-Machi comes out ahead."
+      "lead": "Ebara-Machi is ahead on the number of places to eat out, and little else separates the two. ",
+      "note": "Close enough to walk to from Ebara-Machi. Both have the Tokyu Oimachi Line. Hatanodai also has the Tokyu Ikegami Line, which Ebara-Machi does not. Journey times to the main business districts are much the same. On the number of places to eat out, Ebara-Machi comes out ahead. Within about 13 minutes' walk, Ebara-Machi has 35 restaurants and Hatanodai has 24."
     },
     {
       "slug": "nakanobu",
-      "lead": "For rail connections, Nakanobu; for lower rent, Ebara-Machi. ",
-      "note": "Close enough to walk to from Ebara-Machi. Nakanobu also has the Toei Asakusa Line, which Ebara-Machi does not. With more lines, Nakanobu is the better connected of the two. To Roppongi, for instance, Nakanobu is 7 minutes quicker. A one-room flat, though, costs about ¥6,000 more at Nakanobu."
+      "lead": "For how close the centre is, Nakanobu; for lower rent, Ebara-Machi. ",
+      "note": "Close enough to walk to from Ebara-Machi. Both have the Tokyu Oimachi Line. Nakanobu also has the Toei Asakusa Line, which Ebara-Machi does not. Nakanobu is at least 6 minutes quicker to Roppongi and Toranomon. A one-room flat, though, costs about ¥6,000 more at Nakanobu."
     }
   ],
   "goodFor": [

@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Omote-Sando",
   "tagline": "Shibuya in 3 minutes and Toranomon in 10 minutes. Served by 3 lines. A one-room flat rents for roughly ¥180,000 to ¥190,000.",
-  "summary": "The station is in Minato City, where Tokyo Metro run 3 lines between them. Journey times to the main business districts are 14 minutes to Otemachi, 13 minutes to Shinjuku, 3 minutes to Shibuya and 24 minutes to Shinagawa. A one-room flat rents for roughly ¥180,000 to ¥190,000. The station stands 33.6 m above sea level, and the ground within 800 m varies in height by 10.7 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Minato City, where Tokyo Metro run 3 lines between them. Journey times to the main business districts are 14 minutes to Otemachi, 16 minutes to Shinjuku, 3 minutes to Shibuya and 23 minutes to Shinagawa. A one-room flat rents for roughly ¥180,000 to ¥190,000. The station stands 33.6 m above sea level, and the ground within 800 m varies in height by 10.7 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 33.6 m above sea level. Within 800 m the ground ranges from 23.6 m to 34.3 m, a difference of 10.7 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "gaiemmae",
-      "lead": "Omote-Sando is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Omote-Sando. Gaiemmae has only the Tokyo Metro Ginza Line, so Omote-Sando is the better connected. To Otemachi, for instance, Gaiemmae takes 5 minutes longer. A one-room flat also costs about ¥9,000 more at Gaiemmae."
+      "lead": "Omote-Sando is ahead on lower rent, and little else separates the two. ",
+      "note": "Close enough to walk to from Omote-Sando. Both have the Tokyo Metro Ginza Line. Omote-Sando also has the Tokyo Metro Chiyoda Line and Tokyo Metro Hanzomon Line, which Gaiemmae does not. Omote-Sando is 5 minutes quicker to Otemachi, but times to the other main business districts are much the same. A one-room flat costs about ¥9,000 more at Gaiemmae."
     },
     {
       "slug": "meiji-jingumae",
-      "lead": "For how close the centre is, Meiji-Jingumae; for how little of the area is in the flood projection, Omote-Sando. ",
-      "note": "Close enough to walk to from Omote-Sando. Meiji-Jingumae has the JR Yamanote Line, Tokyo Metro Chiyoda Line and Tokyo Metro Fukutoshin Line, a different set from Omote-Sando. To Shinjuku, for instance, Meiji-Jingumae is 8 minutes quicker. On the number of medical facilities, Omote-Sando comes out ahead."
+      "lead": "For quiet, Meiji-Jingumae; for how little of the area is in the flood projection, Omote-Sando. ",
+      "note": "Close enough to walk to from Omote-Sando. Both have the Tokyo Metro Chiyoda Line. Omote-Sando adds the Tokyo Metro Ginza Line and Tokyo Metro Hanzomon Line; Meiji-Jingumae adds the JR Yamanote Line and Tokyo Metro Fukutoshin Line. Which is faster depends on where you are going: Omote-Sando is 7 minutes quicker to Toranomon, Meiji-Jingumae is 11 minutes quicker to Shinjuku. On the number of medical facilities, Omote-Sando comes out ahead. Within about 13 minutes' walk, Omote-Sando has 39 clinics and pharmacies and Meiji-Jingumae has 7."
     }
   ],
   "goodFor": [
@@ -93,7 +93,7 @@
     "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the highest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "This station sits on the busiest stretch of the Tokyo Metro Hanzomon Line, but at 111% passengers are not shoulder to shoulder. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Yutenji",
   "tagline": "Shibuya in 6 minutes and Shinjuku in 16 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Meguro City, served by Tokyu Toyoko Line. Journey times to the main business districts are 30 minutes to Otemachi, 16 minutes to Shinjuku, 6 minutes to Shibuya and 33 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 29.8 m above sea level, and the ground within 800 m varies in height by 9.4 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Meguro City, served by Tokyu Toyoko Line. Journey times to the main business districts are 30 minutes to Otemachi, 16 minutes to Shinjuku, 6 minutes to Shibuya and 27 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 29.8 m above sea level, and the ground within 800 m varies in height by 9.4 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 29.8 m above sea level. Within 800 m the ground ranges from 22.4 m to 31.8 m, a difference of 9.4 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is on the low side. a small projected flood depth and quiet surroundings pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. a small projected flood depth and quiet surroundings pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "nakameguro",
-      "lead": "For rail connections, Naka-Meguro; for lower rent, Yutenji. ",
-      "note": "About 1 km from Yutenji in a straight line. Naka-Meguro also has the Tokyo Metro Hibiya Line, which Yutenji does not. With more lines, Naka-Meguro is the better connected of the two. To Toranomon, for instance, Naka-Meguro is 7 minutes quicker. A one-room flat, though, costs about ¥28,000 more at Naka-Meguro."
+      "lead": "For how close the centre is, Naka-Meguro; for lower rent, Yutenji. ",
+      "note": "About 1 km from Yutenji in a straight line. Both have the Tokyu Toyoko Line. Naka-Meguro also has the Tokyo Metro Hibiya Line, which Yutenji does not. Naka-Meguro is at least 7 minutes quicker to Shinagawa and Toranomon. A one-room flat, though, costs about ¥28,000 more at Naka-Meguro."
     },
     {
       "slug": "gakugei-daigaku",
-      "lead": "Yutenji is ahead on how close the centre is, and little else separates the two. ",
-      "note": "About 1 km from Yutenji in a straight line. It is served by the same lines as Yutenji. To Tokyo, for instance, Gakugei-Daigaku takes 3 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "About 1 km from Yutenji in a straight line. It is served by the same lines as Yutenji. Journey times to the main business districts are much the same. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -87,9 +87,9 @@
     "groceries": "There are 9 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
     "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "Only the Tokyu Toyoko Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
+    "congestion": "This station sits on the busiest stretch of the Tokyu Toyoko Line, but at 124% passengers are not shoulder to shoulder. ",
     "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
   },
   "authoredBy": "data-generated"

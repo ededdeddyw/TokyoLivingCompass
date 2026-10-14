@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Daikanyama",
   "tagline": "Shibuya in 3 minutes and Shinjuku in 13 minutes. Served by 1 line. A one-room flat rents for roughly ¥150,000 to ¥160,000.",
-  "summary": "The station is in Shibuya City, where Tokyu run 1 line between them. Journey times to the main business districts are 26 minutes to Otemachi, 13 minutes to Shinjuku, 3 minutes to Shibuya and 29 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 24.7 m above sea level, and the ground within 800 m varies in height by 23.5 m. The land around the station rises and falls sharply.",
+  "summary": "The station is in Shibuya City, where Tokyu run 1 line between them. Journey times to the main business districts are 26 minutes to Otemachi, 13 minutes to Shinjuku, 3 minutes to Shibuya and 23 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 24.7 m above sea level, and the ground within 800 m varies in height by 23.5 m. The land around the station rises and falls sharply.",
   "terrain": {
     "slope": "hilly",
     "note": "The station sits on the higher side of the ground around it, at 24.7 m above sea level. Within 800 m the ground ranges from 9.7 m to 33.2 m, a difference of 23.5 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥150,000 to ¥160,000. Set against how long it takes to reach the central business districts, that is among the highest in the 23 wards. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station and a climb from the station to much of the housing holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥150,000 to ¥160,000. Set against how long it takes to reach the central business districts, that is on the high side. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station and a climb from the station to much of the housing holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "ebisu",
-      "lead": "For rail connections, Ebisu; for quiet, Daikanyama. ",
-      "note": "Close enough to walk to from Daikanyama. Ebisu has 4 lines that Daikanyama does not. With more lines, Ebisu is the better connected of the two. To Shinagawa, for instance, Ebisu is 10 minutes quicker. On quiet, though, Daikanyama comes out ahead."
+      "lead": "For how close the centre is, Ebisu; for quiet, Daikanyama. ",
+      "note": "Close enough to walk to from Daikanyama. Daikanyama adds the Tokyu Toyoko Line; Ebisu adds the 4 lines. Ebisu is at least 9 minutes quicker to Shinagawa and Toranomon. On quiet, though, Daikanyama comes out ahead."
     },
     {
       "slug": "nakameguro",
-      "lead": "For rail connections, Naka-Meguro; for how easy the shopping is, Daikanyama. ",
-      "note": "Close enough to walk to from Daikanyama. Naka-Meguro also has the Tokyo Metro Hibiya Line, which Daikanyama does not. With more lines, Naka-Meguro is the better connected of the two. To Toranomon, for instance, Naka-Meguro is 6 minutes quicker. A one-room flat also costs about ¥26,000 less at Naka-Meguro. On how easy the shopping is, though, Daikanyama comes out ahead."
+      "lead": "For how close the centre is, Naka-Meguro; for how easy the shopping is, Daikanyama. ",
+      "note": "Close enough to walk to from Daikanyama. Both have the Tokyu Toyoko Line. Naka-Meguro also has the Tokyo Metro Hibiya Line, which Daikanyama does not. Naka-Meguro is at least 6 minutes quicker to Toranomon and Tokyo. A one-room flat also costs about ¥26,000 less at Naka-Meguro. On how easy the shopping is, though, Daikanyama comes out ahead. Within about 13 minutes' walk, Daikanyama has 13 supermarkets (ピーコックストア and peacock and others) and Naka-Meguro has 6."
     }
   ],
   "goodFor": [
@@ -91,7 +91,7 @@
     "groceries": "There are 13 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
     "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "Only the Tokyu Toyoko Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "Set against how long the commute takes, rents here are among the highest in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."

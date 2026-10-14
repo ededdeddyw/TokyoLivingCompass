@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Jujo",
   "tagline": "Shinjuku in 14 minutes and Shibuya in 19 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Kita City, served by JR Saikyo Line. Journey times to the main business districts are 29 minutes to Otemachi, 14 minutes to Shinjuku, 19 minutes to Shibuya and 44 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 21.3 m above sea level, and the ground within 800 m varies in height by 3.1 m. The land around the station is close to level.",
+  "summary": "The station is in Kita City, served by JR Saikyo Line. Journey times to the main business districts are 29 minutes to Otemachi, 14 minutes to Shinjuku, 19 minutes to Shibuya and 36 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 21.3 m above sea level, and the ground within 800 m varies in height by 3.1 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 21.3 m above sea level. Within 800 m the ground ranges from 19.9 m to 23 m, a difference of 3.1 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "higashi-jujo",
-      "lead": "For how easy the shopping is, Higashi-Jujo; for how close the centre is, Jujo. ",
-      "note": "Close enough to walk to from Jujo. Higashi-Jujo has the JR Keihin-Tohoku Line, a different set from Jujo. To Shinjuku, for instance, Higashi-Jujo takes 9 minutes longer. On how easy the shopping is, Higashi-Jujo comes out ahead."
+      "lead": "Higashi-Jujo is ahead on how easy the shopping is, and little else separates the two. ",
+      "note": "Close enough to walk to from Jujo. Jujo adds the JR Saikyo Line; Higashi-Jujo adds the JR Keihin-Tohoku Line. Which is faster depends on where you are going: Jujo is 11 minutes quicker to Roppongi, Higashi-Jujo is 5 minutes quicker to Tokyo. On how easy the shopping is, Higashi-Jujo comes out ahead. Within about 13 minutes' walk, Higashi-Jujo has 14 supermarkets (The and みらべる and others) and Jujo has 9."
     },
     {
       "slug": "shin-itabashi",
-      "lead": "Jujo is ahead on how close the centre is and lower rent. ",
-      "note": "About 1.5 km from Jujo in a straight line. Shin-Itabashi has the Toei Mita Line, a different set from Jujo. To Shinjuku, for instance, Shin-Itabashi takes 14 minutes longer. A one-room flat costs about ¥9,000 more at Shin-Itabashi. On the number of places to eat out, Jujo comes out ahead."
+      "lead": "Jujo is ahead on lower rent and safety. ",
+      "note": "About 1.5 km from Jujo in a straight line. Jujo adds the JR Saikyo Line; Shin-Itabashi adds the Toei Mita Line. Which is faster depends on where you are going: Jujo is 17 minutes quicker to Shibuya, Shin-Itabashi is 9 minutes quicker to Otemachi. A one-room flat costs about ¥9,000 more at Shin-Itabashi. On the number of places to eat out, Jujo comes out ahead. Within about 13 minutes' walk, Jujo has 71 restaurants and Shin-Itabashi has 18."
     }
   ],
   "goodFor": [
@@ -92,7 +92,7 @@
     "stationNote": "Only the JR Saikyo Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are some of the most heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

@@ -2,8 +2,8 @@
   "slug": "togoshi",
   "locale": "en",
   "name": "Togoshi",
-  "tagline": "Shinagawa in 15 minutes and Shibuya in 18 minutes. Served by 2 lines. A one-room flat rents for roughly ¥100,000 to ¥110,000.",
-  "summary": "The station is in Shinagawa City, where Tokyu and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 27 minutes to Otemachi, 27 minutes to Shinjuku, 18 minutes to Shibuya and 15 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 19.2 m above sea level, and the ground within 800 m varies in height by 7.0 m. The land around the station is close to level.",
+  "tagline": "Shinagawa in 11 minutes and Shibuya in 18 minutes. Served by 2 lines. A one-room flat rents for roughly ¥100,000 to ¥110,000.",
+  "summary": "The station is in Shinagawa City, where Tokyu and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 27 minutes to Otemachi, 27 minutes to Shinjuku, 18 minutes to Shibuya and 11 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 19.2 m above sea level, and the ground within 800 m varies in height by 7.0 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 19.2 m above sea level. Within 800 m the ground ranges from 17.9 m to 24.9 m, a difference of 7.0 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "ebara-nakanobu",
-      "lead": "For how little of the area is in the flood projection, Ebara-Nakanobu; for rail connections, Togoshi. ",
-      "note": "Close enough to walk to from Togoshi. Ebara-Nakanobu has only the Tokyu Ikegami Line, so Togoshi is the better connected. To Toranomon, for instance, Ebara-Nakanobu takes 7 minutes longer. On how little of the area is in the flood projection, though, Ebara-Nakanobu comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Ebara-Nakanobu; for how close the centre is, Togoshi. ",
+      "note": "Close enough to walk to from Togoshi. Both have the Tokyu Ikegami Line. Togoshi also has the Toei Asakusa Line, which Ebara-Nakanobu does not. Togoshi is at least 7 minutes quicker to Tokyo and Toranomon. On how little of the area is in the flood projection, though, Ebara-Nakanobu comes out ahead."
     },
     {
       "slug": "togoshi-koen",
-      "lead": "For how little of the area is in the flood projection, Togoshi-Koen; for rail connections, Togoshi. ",
-      "note": "Close enough to walk to from Togoshi. Togoshi-Koen has only the Tokyu Oimachi Line, so Togoshi is the better connected. To Roppongi, for instance, Togoshi-Koen takes 9 minutes longer. On quiet, though, Togoshi-Koen comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Togoshi-Koen; for how close the centre is, Togoshi. ",
+      "note": "Close enough to walk to from Togoshi. Togoshi adds the Tokyu Ikegami Line and Toei Asakusa Line; Togoshi-Koen adds the Tokyu Oimachi Line. Togoshi is at least 7 minutes quicker to Toranomon and Otemachi. On quiet, though, Togoshi-Koen comes out ahead."
     }
   ],
   "goodFor": [

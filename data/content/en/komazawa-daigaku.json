@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Komazawa-Daigaku",
   "tagline": "Shibuya in 10 minutes and Shinjuku in 20 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Setagaya City, where Tokyu run 1 line between them. Journey times to the main business districts are 33 minutes to Otemachi, 20 minutes to Shinjuku, 10 minutes to Shibuya and 36 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 41 m above sea level, and the ground within 800 m varies in height by 8.1 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Setagaya City, where Tokyu run 1 line between them. Journey times to the main business districts are 29 minutes to Otemachi, 20 minutes to Shinjuku, 10 minutes to Shibuya and 30 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 41 m above sea level, and the ground within 800 m varies in height by 8.1 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 41 m above sea level. Within 800 m the ground ranges from 34.9 m to 43 m, a difference of 8.1 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is on the low side. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "nishi-taishido",
       "lead": "For the number of medical facilities, Nishi-Taishido; for how close the centre is, Komazawa-Daigaku. ",
-      "note": "About 1.5 km from Komazawa-Daigaku in a straight line. Nishi-Taishido has the Tokyu Setagaya Line, a different set from Komazawa-Daigaku. To Toranomon, for instance, Nishi-Taishido takes 5 minutes longer. On safety, Komazawa-Daigaku comes out ahead."
+      "note": "About 1.5 km from Komazawa-Daigaku in a straight line. Komazawa-Daigaku adds the Tokyu Den-en-toshi Line; Nishi-Taishido adds the Tokyu Setagaya Line. Komazawa-Daigaku is at least 5 minutes quicker to Toranomon and Otemachi. On the number of medical facilities, though, Nishi-Taishido comes out ahead. Within about 13 minutes' walk, Nishi-Taishido has 43 clinics and pharmacies and Komazawa-Daigaku has 10."
     },
     {
       "slug": "shoin-jinja-mae",
       "lead": "For quiet, Shoin-Jinja-Mae; for how close the centre is, Komazawa-Daigaku. ",
-      "note": "About 1.5 km from Komazawa-Daigaku in a straight line. Shoin-Jinja-Mae has the Tokyu Setagaya Line, a different set from Komazawa-Daigaku. To Toranomon, for instance, Shoin-Jinja-Mae takes 10 minutes longer. On quiet, Shoin-Jinja-Mae comes out ahead."
+      "note": "About 1.5 km from Komazawa-Daigaku in a straight line. Komazawa-Daigaku adds the Tokyu Den-en-toshi Line; Shoin-Jinja-Mae adds the Tokyu Setagaya Line. Komazawa-Daigaku is at least 10 minutes quicker to Shinjuku and Toranomon. On quiet, though, Shoin-Jinja-Mae comes out ahead."
     }
   ],
   "goodFor": [
@@ -77,6 +77,7 @@
     "玉川通り (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
+    "goodValue",
     "lowFlood",
     "singleLine"
   ],
@@ -85,7 +86,7 @@
     "groceries": "There are 7 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
     "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "Only the Tokyu Den-en-toshi Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."

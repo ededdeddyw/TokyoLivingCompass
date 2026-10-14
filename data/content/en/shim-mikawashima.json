@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Shim-Mikawashima",
   "tagline": "Tokyo in 20 minutes and Otemachi in 24 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Arakawa City, served by Keisei Main Line. Journey times to the main business districts are 24 minutes to Otemachi, 34 minutes to Shinjuku, 39 minutes to Shibuya and 34 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 3.2 m above sea level, and the ground within 800 m varies in height by 2.3 m. The land around the station is close to level.",
+  "summary": "The station is in Arakawa City, served by Keisei Main Line. Journey times to the main business districts are 24 minutes to Otemachi, 34 minutes to Shinjuku, 42 minutes to Shibuya and 34 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 3.2 m above sea level, and the ground within 800 m varies in height by 2.3 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 3.2 m above sea level. Within 800 m the ground ranges from 2 m to 4.3 m, a difference of 2.3 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What holds the figure down: a large projected flood depth and only one line, the {line}, serving the station. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "mikawashima",
-      "lead": "Mikawashima is ahead on how close the centre is, and little else separates the two. ",
-      "note": "Close enough to walk to from Shim-Mikawashima. Mikawashima has the JR Joban Line, a different set from Shim-Mikawashima. To Tokyo, for instance, Mikawashima is 4 minutes quicker. Rents, flood projections and the rest differ little."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Shim-Mikawashima. Shim-Mikawashima adds the Keisei Main Line; Mikawashima adds the JR Joban Line. Journey times to the main business districts are much the same. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "akado-shogakkomae",
-      "lead": "For safety, Akado-Shogakkomae; for how close the centre is, Shim-Mikawashima. ",
-      "note": "Close enough to walk to from Shim-Mikawashima. Akado-Shogakkomae has the Nippori-Toneri Liner, a different set from Shim-Mikawashima. To Toranomon, for instance, Akado-Shogakkomae takes 3 minutes longer. On safety, Akado-Shogakkomae comes out ahead."
+      "lead": "For safety, Akado-Shogakkomae; for the number of medical facilities, Shim-Mikawashima. ",
+      "note": "Close enough to walk to from Shim-Mikawashima. Shim-Mikawashima adds the Keisei Main Line; Akado-Shogakkomae adds the Nippori-Toneri Liner. Journey times to the main business districts are much the same. On what it offers families, Akado-Shogakkomae comes out ahead."
     }
   ],
   "goodFor": [

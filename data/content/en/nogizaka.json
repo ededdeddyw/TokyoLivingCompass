@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Nogizaka",
   "tagline": "Shibuya in 11 minutes and Otemachi in 11 minutes. Served by 1 line. A one-room flat rents for roughly ¥150,000 to ¥160,000.",
-  "summary": "The station is in Minato City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 11 minutes to Otemachi, 15 minutes to Shinjuku, 11 minutes to Shibuya and 26 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 31.3 m above sea level, and the ground within 800 m varies in height by 10.0 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Minato City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 11 minutes to Otemachi, 18 minutes to Shinjuku, 11 minutes to Shibuya and 26 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 31.3 m above sea level, and the ground within 800 m varies in height by 10.0 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 31.3 m above sea level. Within 800 m the ground ranges from 22.8 m to 32.8 m, a difference of 10.0 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "roppongi",
-      "lead": "For rail connections, Roppongi; for lower rent, Nogizaka. ",
-      "note": "Close enough to walk to from Nogizaka. Roppongi also has the Tokyo Metro Hibiya Line and Toei Oedo Line, which Nogizaka does not. With more lines, Roppongi is the better connected of the two. To Roppongi, for instance, Roppongi is 16 minutes quicker. A one-room flat, though, costs about ¥17,000 more at Roppongi."
+      "lead": "For how easy the shopping is, Roppongi; for lower rent, Nogizaka. ",
+      "note": "Close enough to walk to from Nogizaka. Nogizaka adds the Tokyo Metro Chiyoda Line; Roppongi adds the Tokyo Metro Hibiya Line and Toei Oedo Line. Which is faster depends on where you are going: Nogizaka is 5 minutes quicker to Otemachi, Roppongi is 16 minutes quicker to Roppongi. A one-room flat costs about ¥17,000 more at Roppongi. On quiet, Nogizaka comes out ahead."
     },
     {
       "slug": "aoyama-itchome",
-      "lead": "For rail connections, Aoyama-Itchome; for the number of places to eat out, Nogizaka. ",
-      "note": "Close enough to walk to from Nogizaka. Aoyama-Itchome also has the Tokyo Metro Ginza Line, Tokyo Metro Hanzomon Line and Toei Oedo Line, which Nogizaka does not. With more lines, Aoyama-Itchome is the better connected of the two. To Roppongi, for instance, Aoyama-Itchome is 14 minutes quicker. A one-room flat also costs about ¥15,000 less at Aoyama-Itchome. On the number of places to eat out, though, Nogizaka comes out ahead."
+      "lead": "For how close the centre is, Aoyama-Itchome; for the number of places to eat out, Nogizaka. ",
+      "note": "Close enough to walk to from Nogizaka. Nogizaka adds the Tokyo Metro Chiyoda Line; Aoyama-Itchome adds the Tokyo Metro Ginza Line, Tokyo Metro Hanzomon Line and Toei Oedo Line. Aoyama-Itchome is at least 11 minutes quicker to Roppongi and Shinjuku. A one-room flat also costs about ¥15,000 less at Aoyama-Itchome. On the number of places to eat out, though, Nogizaka comes out ahead. Within about 13 minutes' walk, Nogizaka has 193 restaurants and Aoyama-Itchome has 74."
     }
   ],
   "goodFor": [
@@ -76,7 +76,7 @@
     "People who want to hold the rent down"
   ],
   "noiseSources": [
-    "乃木坂トンネル (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road",
+    "南青山陸橋 (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road",
     "外苑東通り (2 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
@@ -92,8 +92,8 @@
     "stationNote": "Only the Tokyo Metro Chiyoda Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the highest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
-    "noiseSources": "At this station, check the traffic noise before the noise people make."
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"
 }

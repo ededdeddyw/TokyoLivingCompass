@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥150,000 to ¥160,000. Set against how long it takes to reach the central business districts, that is on the low side. What pushes the figure up: 7 lines and a wide choice of connections and plenty of places to eat out. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥150,000 to ¥160,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What pushes the figure up: 7 lines and a wide choice of connections and plenty of places to eat out. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "shiodome",
-      "lead": "Shimbashi is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Shimbashi. Shiodome has only the Toei Oedo Line and Yurikamome, so Shimbashi is the better connected. To Toranomon, for instance, Shiodome takes 6 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "Shimbashi is ahead on how close the centre is and how little of the area is in the flood projection. ",
+      "note": "Close enough to walk to from Shimbashi. Both have the Yurikamome. Shimbashi adds the 6 lines; Shiodome adds the Toei Oedo Line. Shimbashi is at least 6 minutes quicker to Toranomon and Tokyo. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "uchisaiwaicho",
-      "lead": "Shimbashi is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Shimbashi. Uchisaiwaicho has only the Toei Mita Line, so Shimbashi is the better connected. To Shinagawa, for instance, Uchisaiwaicho takes 12 minutes longer. A one-room flat also costs about ¥18,000 more at Uchisaiwaicho."
+      "lead": "Shimbashi is ahead on lower rent and how little of the area is in the flood projection. ",
+      "note": "Close enough to walk to from Shimbashi. Shimbashi adds the 7 lines; Uchisaiwaicho adds the Toei Mita Line. Which is faster depends on where you are going: Shimbashi is 11 minutes quicker to Shibuya, Uchisaiwaicho is 5 minutes quicker to Otemachi. A one-room flat costs about ¥18,000 more at Uchisaiwaicho. On how little of the area is in the flood projection, Shimbashi comes out ahead."
     }
   ],
   "goodFor": [
@@ -90,9 +90,9 @@
     "groceries": "There are 5 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
     "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "7 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
-    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

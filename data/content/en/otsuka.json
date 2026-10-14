@@ -2,8 +2,8 @@
   "slug": "otsuka",
   "locale": "en",
   "name": "Otsuka",
-  "tagline": "Shinjuku in 15 minutes and Shibuya in 21 minutes. Served by 2 lines. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Toshima City, where JR East and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 21 minutes to Otemachi, 15 minutes to Shinjuku, 21 minutes to Shibuya and 40 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 17.5 m above sea level, and the ground within 800 m varies in height by 13.2 m. The land around the station has gentle slopes.",
+  "tagline": "Shinjuku in 15 minutes and Otemachi in 21 minutes. Served by 2 lines. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
+  "summary": "The station is in Toshima City, where JR East and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 21 minutes to Otemachi, 15 minutes to Shinjuku, 24 minutes to Shibuya and 39 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 17.5 m above sea level, and the ground within 800 m varies in height by 13.2 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 17.5 m above sea level. Within 800 m the ground ranges from 17.5 m to 30.7 m, a difference of 13.2 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is on the low side. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What pushes the figure up: a small projected flood depth. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "sugamoshinden",
-      "lead": "For quiet, Sugamoshinden; for rail connections, Otsuka. ",
-      "note": "Close enough to walk to from Otsuka. Sugamoshinden has only the Tokyo Sakura Tram (Toden Arakawa Line), so Otsuka is the better connected. To Tokyo, for instance, Sugamoshinden takes 8 minutes longer. On quiet, though, Sugamoshinden comes out ahead."
+      "lead": "For quiet, Sugamoshinden; for how close the centre is, Otsuka. ",
+      "note": "Close enough to walk to from Otsuka. Both have the Tokyo Sakura Tram (Toden Arakawa Line). Otsuka also has the JR Yamanote Line, which Sugamoshinden does not. Otsuka is at least 8 minutes quicker to Tokyo and Shinjuku. On quiet, though, Sugamoshinden comes out ahead."
     },
     {
       "slug": "mukohara",
-      "lead": "Otsuka is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Otsuka. Mukohara has only the Tokyo Sakura Tram (Toden Arakawa Line), so Otsuka is the better connected. To Tokyo, for instance, Mukohara takes 9 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "Otsuka is ahead on how close the centre is and the number of places to eat out. ",
+      "note": "Close enough to walk to from Otsuka. Both have the Tokyo Sakura Tram (Toden Arakawa Line). Otsuka also has the JR Yamanote Line, which Mukohara does not. Otsuka is at least 9 minutes quicker to Tokyo and Shinjuku. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -88,7 +88,7 @@
     "groceries": "There are 20 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
-    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."

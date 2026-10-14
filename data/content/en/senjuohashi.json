@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Senjuohashi",
   "tagline": "Otemachi in 25 minutes and Tokyo in 26 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Adachi City, served by Keisei Main Line. Journey times to the main business districts are 25 minutes to Otemachi, 37 minutes to Shinjuku, 45 minutes to Shibuya and 40 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 0.7 m above sea level, and the ground within 800 m varies in height by 3.0 m. The land around the station is close to level.",
+  "summary": "The station is in Adachi City, served by Keisei Main Line. Journey times to the main business districts are 25 minutes to Otemachi, 40 minutes to Shinjuku, 48 minutes to Shibuya and 40 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 0.7 m above sea level, and the ground within 800 m varies in height by 3.0 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 0.7 m above sea level. Within 800 m the ground ranges from 0.2 m to 3.2 m, a difference of 3.0 m."
@@ -45,17 +45,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. In plain yen, though, it is on the low side for the 23 wards. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is on the high side. In plain yen, though, it is on the low side for the 23 wards. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "minami-senju",
-      "lead": "For rail connections, Minami-Senju; for lower rent, Senjuohashi. ",
-      "note": "About 1 km from Senjuohashi in a straight line. Minami-Senju also has the JR Joban Line, Tokyo Metro Hibiya Line and Tsukuba Express, which Senjuohashi does not. With more lines, Minami-Senju is the better connected of the two. To Toranomon, for instance, Minami-Senju is 9 minutes quicker. A one-room flat, though, costs about ¥14,000 more at Minami-Senju."
+      "lead": "For how close the centre is, Minami-Senju; for lower rent, Senjuohashi. ",
+      "note": "About 1 km from Senjuohashi in a straight line. Senjuohashi adds the Keisei Main Line; Minami-Senju adds the JR Joban Line, Tokyo Metro Hibiya Line and Tsukuba Express. Minami-Senju is at least 9 minutes quicker to Tokyo and Shinagawa. A one-room flat, though, costs about ¥14,000 more at Minami-Senju."
     },
     {
       "slug": "kita-senju",
-      "lead": "For rail connections, Kita-Senju; for safety, Senjuohashi. ",
-      "note": "About 1 km from Senjuohashi in a straight line. Kita-Senju has 5 lines that Senjuohashi does not. With more lines, Kita-Senju is the better connected of the two. To Toranomon, for instance, Kita-Senju is 7 minutes quicker. On what it offers families, though, Senjuohashi comes out ahead."
+      "lead": "For how close the centre is, Kita-Senju; for safety, Senjuohashi. ",
+      "note": "About 1 km from Senjuohashi in a straight line. Senjuohashi adds the Keisei Main Line; Kita-Senju adds the 5 lines. Kita-Senju is at least 7 minutes quicker to Tokyo and Shinjuku. On what it offers families, though, Senjuohashi comes out ahead."
     }
   ],
   "goodFor": [
@@ -84,7 +84,7 @@
     "groceries": "There are 4 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Keisei Main Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."

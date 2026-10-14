@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Asukayama",
   "tagline": "Tokyo in 29 minutes and Otemachi in 33 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Kita City, where the Tokyo Metropolitan Bureau of Transportation run 1 line between them. Journey times to the main business districts are 33 minutes to Otemachi, 34 minutes to Shinjuku, 38 minutes to Shibuya and 43 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 16 m above sea level, and the ground within 800 m varies in height by 18.7 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Kita City, where the Tokyo Metropolitan Bureau of Transportation run 1 line between them. Journey times to the main business districts are 33 minutes to Otemachi, 35 minutes to Shinjuku, 38 minutes to Shibuya and 43 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 16 m above sea level, and the ground within 800 m varies in height by 18.7 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 16 m above sea level. Within 800 m the ground ranges from 4.7 m to 23.4 m, a difference of 18.7 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "oji",
-      "lead": "For rail connections, Oji; for lower rent, Asukayama. ",
-      "note": "Close enough to walk to from Asukayama. Oji also has the JR Keihin-Tohoku Line and Tokyo Metro Namboku Line, which Asukayama does not. With more lines, Oji is the better connected of the two. To Shinjuku, for instance, Oji is 8 minutes quicker. A one-room flat, though, costs about ¥9,000 more at Oji."
+      "lead": "For how close the centre is, Oji; for lower rent, Asukayama. ",
+      "note": "Close enough to walk to from Asukayama. Both have the Tokyo Sakura Tram (Toden Arakawa Line). Oji also has the JR Keihin-Tohoku Line and Tokyo Metro Namboku Line, which Asukayama does not. Oji is at least 7 minutes quicker to Shinjuku and Toranomon. A one-room flat, though, costs about ¥9,000 more at Oji."
     },
     {
       "slug": "takinogawa-itchome",
-      "lead": "For safety, Takinogawa-Itchome; for how close the centre is, Asukayama. ",
-      "note": "Close enough to walk to from Asukayama. It is served by the same lines as Asukayama. To Shinagawa, for instance, Takinogawa-Itchome takes 3 minutes longer. On safety, Takinogawa-Itchome comes out ahead."
+      "lead": "Asukayama is ahead on the number of medical facilities, and little else separates the two. ",
+      "note": "Close enough to walk to from Asukayama. It is served by the same lines as Asukayama. Journey times to the main business districts are much the same. On the number of medical facilities, Asukayama comes out ahead. Within about 13 minutes' walk, Asukayama has 31 clinics and pharmacies and Takinogawa-Itchome has 22."
     }
   ],
   "goodFor": [
@@ -76,7 +76,7 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "The 首都高速中央環状線 viaduct runs right beside the station. It is an expressway, so traffic is audible day and night",
+    "The 首都高速中央環状線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
     "本郷通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [

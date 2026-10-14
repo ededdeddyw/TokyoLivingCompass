@@ -2,8 +2,8 @@
   "slug": "narimasu",
   "locale": "en",
   "name": "Narimasu",
-  "tagline": "Shinjuku in 33 minutes and Shibuya in 37 minutes. Served by 3 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Itabashi City, where Tobu and Tokyo Metro run 3 lines between them. Journey times to the main business districts are 42 minutes to Otemachi, 33 minutes to Shinjuku, 37 minutes to Shibuya and 59 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 32.1 m above sea level, and the ground within 800 m varies in height by 18.3 m. The land around the station has gentle slopes.",
+  "tagline": "Shinjuku in 33 minutes and Shibuya in 39 minutes. Served by 3 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
+  "summary": "The station is in Itabashi City, where Tobu and Tokyo Metro run 3 lines between them. Journey times to the main business districts are 42 minutes to Otemachi, 33 minutes to Shinjuku, 39 minutes to Shibuya and 53 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 32.1 m above sea level, and the ground within 800 m varies in height by 18.3 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 32.1 m above sea level. Within 800 m the ground ranges from 16.6 m to 34.9 m, a difference of 18.3 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "chikatetsu-akatsuka",
-      "lead": "For how close the centre is, Chikatetsu-Akatsuka; for quiet, Narimasu. ",
-      "note": "About 1.5 km from Narimasu in a straight line. It is served by the same lines as Narimasu. To Shinjuku, for instance, Chikatetsu-Akatsuka is 4 minutes quicker. On quiet, Narimasu comes out ahead."
+      "lead": "For the number of medical facilities, Chikatetsu-Akatsuka; for quiet, Narimasu. ",
+      "note": "About 1.5 km from Narimasu in a straight line. It is served by the same lines as Narimasu. Journey times to the main business districts are much the same. On quiet, Narimasu comes out ahead."
     },
     {
       "slug": "hikarigaoka",
-      "lead": "For how close the centre is, Hikarigaoka; for rail connections, Narimasu. ",
-      "note": "About 2 km from Narimasu in a straight line. Hikarigaoka has only the Toei Oedo Line, so Narimasu is the better connected. To Roppongi, for instance, Hikarigaoka is 10 minutes quicker. A one-room flat also costs about ¥9,000 more at Hikarigaoka. On what it offers families, though, Hikarigaoka comes out ahead."
+      "lead": "For how close the centre is, Hikarigaoka; for lower rent, Narimasu. ",
+      "note": "About 2 km from Narimasu in a straight line. Narimasu adds the Tobu Tojo Line, Tokyo Metro Yurakucho Line and Tokyo Metro Fukutoshin Line; Hikarigaoka adds the Toei Oedo Line. Hikarigaoka is at least 6 minutes quicker to Roppongi and Shinjuku. A one-room flat, though, costs about ¥9,000 more at Hikarigaoka."
     }
   ],
   "goodFor": [
@@ -89,7 +89,7 @@
     "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

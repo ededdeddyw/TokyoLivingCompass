@@ -2,8 +2,8 @@
   "slug": "horikiri",
   "locale": "en",
   "name": "Horikiri",
-  "tagline": "Tokyo in 28 minutes and Otemachi in 30 minutes. Served by 1 line. A one-room flat rents for roughly ¥60,000 to ¥70,000.",
-  "summary": "The station is in Adachi City, served by Tobu Skytree Line. Journey times to the main business districts are 30 minutes to Otemachi, 41 minutes to Shinjuku, 49 minutes to Shibuya and 42 minutes to Shinagawa. A one-room flat rents for roughly ¥60,000 to ¥70,000. The station stands 3.9 m above sea level, and the ground within 800 m varies in height by 4.4 m. The land around the station is close to level.",
+  "tagline": "Tokyo in 26 minutes and Otemachi in 26 minutes. Served by 1 line. A one-room flat rents for roughly ¥60,000 to ¥70,000.",
+  "summary": "The station is in Adachi City, served by Tobu Skytree Line. Journey times to the main business districts are 26 minutes to Otemachi, 42 minutes to Shinjuku, 45 minutes to Shibuya and 37 minutes to Shinagawa. A one-room flat rents for roughly ¥60,000 to ¥70,000. The station stands 3.9 m above sea level, and the ground within 800 m varies in height by 4.4 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 3.9 m above sea level. Within 800 m the ground ranges from -0.5 m to 3.9 m, a difference of 4.4 m."
@@ -31,17 +31,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥60,000 to ¥70,000. Set against how long it takes to reach the central business districts, that is on the low side. quiet surroundings pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥60,000 to ¥70,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. quiet surroundings pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "ushida",
-      "lead": "For rail connections, Ushida; for lower rent, Horikiri. ",
-      "note": "Close enough to walk to from Horikiri. Ushida also has the Keisei Main Line, which Horikiri does not. With more lines, Ushida is the better connected of the two. Journey times to the main business districts are much the same. A one-room flat, though, costs about ¥10,000 more at Ushida."
+      "lead": "For the number of places to eat out, Ushida; for lower rent, Horikiri. ",
+      "note": "Close enough to walk to from Horikiri. Both have the Tobu Skytree Line. Ushida also has the Keisei Main Line, which Horikiri does not. Journey times to the main business districts are much the same. A one-room flat costs about ¥10,000 more at Ushida. On how little of the area is in the flood projection, Horikiri comes out ahead."
     },
     {
       "slug": "horikirishobuen",
       "lead": "For the number of medical facilities, Horikirishobuen; for how close the centre is, Horikiri. ",
-      "note": "About 1 km from Horikiri in a straight line. Horikirishobuen has the Keisei Main Line, a different set from Horikiri. To Toranomon, for instance, Horikirishobuen takes 4 minutes longer. A one-room flat costs about ¥6,000 more at Horikirishobuen. On the number of places to eat out, Horikirishobuen comes out ahead."
+      "note": "About 1 km from Horikiri in a straight line. Horikiri adds the Tobu Skytree Line; Horikirishobuen adds the Keisei Main Line. Horikiri is at least 9 minutes quicker to Shinagawa and Shibuya. A one-room flat also costs about ¥6,000 more at Horikirishobuen. On the number of places to eat out, though, Horikirishobuen comes out ahead. Within about 13 minutes' walk, Horikirishobuen has 46 restaurants and Horikiri has 12."
     }
   ],
   "goodFor": [
@@ -69,7 +69,7 @@
     "groceries": "There are 1 supermarkets within walking distance, and the nearest is 11 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tobu Skytree Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."

@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Hiro-O",
   "tagline": "Roppongi in 3 minutes and Toranomon in 8 minutes. Served by 1 line. A one-room flat rents for roughly ¥150,000 to ¥160,000.",
-  "summary": "The station is in Minato City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 19 minutes to Otemachi, 15 minutes to Shinjuku, 10 minutes to Shibuya and 27 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 10.9 m above sea level, and the ground within 800 m varies in height by 23.4 m. The land around the station rises and falls sharply.",
+  "summary": "The station is in Minato City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 19 minutes to Otemachi, 15 minutes to Shinjuku, 10 minutes to Shibuya and 20 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 10.9 m above sea level, and the ground within 800 m varies in height by 23.4 m. The land around the station rises and falls sharply.",
   "terrain": {
     "slope": "hilly",
     "note": "The station sits lower than the ground around it, at 10.9 m above sea level. Within 800 m the ground ranges from 8.5 m to 31.9 m, a difference of 23.4 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "ebisu",
-      "lead": "For rail connections, Ebisu; for safety, Hiro-O. ",
-      "note": "About 1.5 km from Hiro-O in a straight line. Ebisu also has the JR Yamanote Line, JR Saikyo Line and JR Shonan-Shinjuku Line, which Hiro-O does not. With more lines, Ebisu is the better connected of the two. To Shinjuku, for instance, Ebisu is 8 minutes quicker. On safety, though, Hiro-O comes out ahead."
+      "lead": "Ebisu is ahead on how close the centre is, and little else separates the two. ",
+      "note": "About 1.5 km from Hiro-O in a straight line. Both have the Tokyo Metro Hibiya Line. Ebisu also has the JR Yamanote Line, JR Saikyo Line and JR Shonan-Shinjuku Line, which Hiro-O does not. Ebisu is at least 8 minutes quicker to Shinjuku and Shinagawa. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "azabu-juban",
-      "lead": "For rail connections, Azabu-Juban; for how close the centre is, Hiro-O. ",
-      "note": "About 1.5 km from Hiro-O in a straight line. Azabu-Juban also has the Tokyo Metro Namboku Line and Toei Oedo Line, which Hiro-O does not. With more lines, Azabu-Juban is the better connected of the two. To Shibuya, for instance, Azabu-Juban takes 6 minutes longer. A one-room flat, though, costs about ¥14,000 more at Azabu-Juban."
+      "lead": "Hiro-O is ahead on lower rent and quiet. ",
+      "note": "About 1.5 km from Hiro-O in a straight line. Hiro-O adds the Tokyo Metro Hibiya Line; Azabu-Juban adds the Tokyo Metro Namboku Line and Toei Oedo Line. Hiro-O is 6 minutes quicker to Shibuya, but times to the other main business districts are much the same. A one-room flat costs about ¥14,000 more at Azabu-Juban. On quiet, Hiro-O comes out ahead."
     }
   ],
   "goodFor": [
@@ -91,7 +91,7 @@
     "stationNote": "Only the Tokyo Metro Hibiya Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are some of the most heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

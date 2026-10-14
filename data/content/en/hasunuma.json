@@ -2,8 +2,8 @@
   "slug": "hasunuma",
   "locale": "en",
   "name": "Hasunuma",
-  "tagline": "Shinagawa in 22 minutes and Tokyo in 36 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Ota City, served by Tokyu Ikegami Line. Journey times to the main business districts are 42 minutes to Otemachi, 43 minutes to Shinjuku, 38 minutes to Shibuya and 22 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 3.9 m above sea level, and the ground within 800 m varies in height by 1.3 m. The land around the station is close to level.",
+  "tagline": "Shinagawa in 22 minutes and Shibuya in 35 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
+  "summary": "The station is in Ota City, served by Tokyu Ikegami Line. Journey times to the main business districts are 42 minutes to Otemachi, 40 minutes to Shinjuku, 35 minutes to Shibuya and 22 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 3.9 m above sea level, and the ground within 800 m varies in height by 1.3 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 3.9 m above sea level. Within 800 m the ground ranges from 3.4 m to 4.7 m, a difference of 1.3 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "kamata",
-      "lead": "For rail connections, Kamata; for quiet, Hasunuma. ",
-      "note": "Close enough to walk to from Hasunuma. Kamata also has the JR Keihin-Tohoku Line and Tokyu Tamagawa Line, which Hasunuma does not. With more lines, Kamata is the better connected of the two. To Toranomon, for instance, Kamata is 7 minutes quicker. On quiet, though, Hasunuma comes out ahead."
+      "lead": "For how close the centre is, Kamata; for quiet, Hasunuma. ",
+      "note": "Close enough to walk to from Hasunuma. Both have the Tokyu Ikegami Line. Kamata also has the JR Keihin-Tohoku Line and Tokyu Tamagawa Line, which Hasunuma does not. Kamata is at least 7 minutes quicker to Toranomon and Tokyo. On quiet, though, Hasunuma comes out ahead."
     },
     {
       "slug": "yaguchi-no-watashi",
-      "lead": "For how close the centre is, Yaguchi-No-Watashi; for the number of medical facilities, Hasunuma. ",
-      "note": "Close enough to walk to from Hasunuma. Yaguchi-No-Watashi has the Tokyu Tamagawa Line, a different set from Hasunuma. To Shibuya, for instance, Yaguchi-No-Watashi is 4 minutes quicker. On what it offers families, Yaguchi-No-Watashi comes out ahead."
+      "lead": "For safety, Yaguchi-No-Watashi; for the number of medical facilities, Hasunuma. ",
+      "note": "Close enough to walk to from Hasunuma. Hasunuma adds the Tokyu Ikegami Line; Yaguchi-No-Watashi adds the Tokyu Tamagawa Line. Journey times to the main business districts are much the same. On what it offers families, Yaguchi-No-Watashi comes out ahead."
     }
   ],
   "goodFor": [

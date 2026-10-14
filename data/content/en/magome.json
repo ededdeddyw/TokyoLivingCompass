@@ -2,8 +2,8 @@
   "slug": "magome",
   "locale": "en",
   "name": "Magome",
-  "tagline": "Shinagawa in 20 minutes and Shibuya in 23 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Ota City, served by Toei Asakusa Line. Journey times to the main business districts are 31 minutes to Otemachi, 32 minutes to Shinjuku, 23 minutes to Shibuya and 20 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 19.9 m above sea level, and the ground within 800 m varies in height by 16.3 m. The land around the station has gentle slopes.",
+  "tagline": "Shinagawa in 16 minutes and Shibuya in 23 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
+  "summary": "The station is in Ota City, served by Toei Asakusa Line. Journey times to the main business districts are 31 minutes to Otemachi, 32 minutes to Shinjuku, 23 minutes to Shibuya and 16 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 19.9 m above sea level, and the ground within 800 m varies in height by 16.3 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 19.9 m above sea level. Within 800 m the ground ranges from 10.4 m to 26.7 m, a difference of 16.3 m."
@@ -42,13 +42,13 @@
   "neighbours": [
     {
       "slug": "ebara-machi",
-      "lead": "For the number of medical facilities, Ebara-Machi; for how close the centre is, Magome. ",
-      "note": "Close enough to walk to from Magome. Ebara-Machi has the Tokyu Oimachi Line, a different set from Magome. To Toranomon, for instance, Ebara-Machi takes 4 minutes longer. On how easy the shopping is, Ebara-Machi comes out ahead."
+      "lead": "For the number of medical facilities, Ebara-Machi; for how little of the area is in the flood projection, Magome. ",
+      "note": "Close enough to walk to from Magome. Magome adds the Toei Asakusa Line; Ebara-Machi adds the Tokyu Oimachi Line. Journey times to the main business districts are much the same. On how easy the shopping is, Ebara-Machi comes out ahead. Within about 13 minutes' walk, Ebara-Machi has 10 supermarkets (オオゼキ and まいばすけっと and others) and Magome has 6."
     },
     {
       "slug": "nakanobu",
-      "lead": "For rail connections, Nakanobu; for lower rent, Magome. ",
-      "note": "About 1 km from Magome in a straight line. Nakanobu also has the Tokyu Oimachi Line, which Magome does not. With more lines, Nakanobu is the better connected of the two. To Shinagawa, for instance, Nakanobu is 5 minutes quicker. A one-room flat, though, costs about ¥8,000 more at Nakanobu."
+      "lead": "For the number of medical facilities, Nakanobu; for lower rent, Magome. ",
+      "note": "About 1 km from Magome in a straight line. Both have the Toei Asakusa Line. Nakanobu also has the Tokyu Oimachi Line, which Magome does not. Journey times to the main business districts are much the same. A one-room flat costs about ¥8,000 more at Nakanobu. On how easy the shopping is, Nakanobu comes out ahead. Within about 13 minutes' walk, Nakanobu has 11 supermarkets (東急ストア and 文化堂 and others) and Magome has 6."
     }
   ],
   "goodFor": [

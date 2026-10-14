@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Takadanobaba",
   "tagline": "Shinjuku in 7 minutes and Shibuya in 15 minutes. Served by 3 lines. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Shinjuku City, where JR East, Seibu and Tokyo Metro run 3 lines between them. Journey times to the main business districts are 15 minutes to Otemachi, 7 minutes to Shinjuku, 15 minutes to Shibuya and 36 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 21.9 m above sea level, and the ground within 800 m varies in height by 18.9 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shinjuku City, where JR East, Seibu and Tokyo Metro run 3 lines between them. Journey times to the main business districts are 15 minutes to Otemachi, 7 minutes to Shinjuku, 15 minutes to Shibuya and 30 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 21.9 m above sea level, and the ground within 800 m varies in height by 18.9 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 21.9 m above sea level. Within 800 m the ground ranges from 11.7 m to 30.6 m, a difference of 18.9 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "nishi-waseda",
-      "lead": "For how little of the area is in the flood projection, Nishi-Waseda; for rail connections, Takadanobaba. ",
-      "note": "Close enough to walk to from Takadanobaba. Nishi-Waseda has only the Tokyo Metro Fukutoshin Line, so Takadanobaba is the better connected. To Otemachi, for instance, Nishi-Waseda takes 12 minutes longer. On how little of the area is in the flood projection, though, Nishi-Waseda comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Nishi-Waseda; for how easy the shopping is, Takadanobaba. ",
+      "note": "Close enough to walk to from Takadanobaba. Takadanobaba adds the JR Yamanote Line, Seibu Shinjuku Line and Tokyo Metro Tozai Line; Nishi-Waseda adds the Tokyo Metro Fukutoshin Line. Which is faster depends on where you are going: Takadanobaba is 13 minutes quicker to Otemachi, Nishi-Waseda is 5 minutes quicker to Toranomon. On how easy the shopping is, Takadanobaba comes out ahead. Within about 13 minutes' walk, Takadanobaba has 9 supermarkets (ピーコックストア and 西友 and others) and Nishi-Waseda has 6."
     },
     {
       "slug": "gakushuinshita",
-      "lead": "For safety, Gakushuinshita; for rail connections, Takadanobaba. ",
-      "note": "Close enough to walk to from Takadanobaba. Gakushuinshita has only the Tokyo Sakura Tram (Toden Arakawa Line), so Takadanobaba is the better connected. To Otemachi, for instance, Gakushuinshita takes 17 minutes longer. A one-room flat also costs about ¥12,000 more at Gakushuinshita. On quiet, though, Gakushuinshita comes out ahead."
+      "lead": "For quiet, Gakushuinshita; for how close the centre is, Takadanobaba. ",
+      "note": "Close enough to walk to from Takadanobaba. Takadanobaba adds the JR Yamanote Line, Seibu Shinjuku Line and Tokyo Metro Tozai Line; Gakushuinshita adds the Tokyo Sakura Tram (Toden Arakawa Line). Takadanobaba is at least 16 minutes quicker to Otemachi and Shinjuku. A one-room flat also costs about ¥12,000 more at Gakushuinshita. On quiet, though, Gakushuinshita comes out ahead."
     }
   ],
   "goodFor": [
@@ -91,7 +91,7 @@
     "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "This station sits on the busiest stretch of the Seibu Shinjuku Line, but at 148% passengers are not shoulder to shoulder. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Hatsudai",
   "tagline": "Shinjuku in 11 minutes and Shibuya in 21 minutes. Served by 2 lines. A one-room flat rents for roughly ¥100,000 to ¥110,000.",
-  "summary": "The station is in Shibuya City, where Keio run 2 lines between them. Journey times to the main business districts are 36 minutes to Otemachi, 11 minutes to Shinjuku, 21 minutes to Shibuya and 42 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 41.3 m above sea level, and the ground within 800 m varies in height by 11.2 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shibuya City, where Keio run 2 lines between them. Journey times to the main business districts are 32 minutes to Otemachi, 11 minutes to Shinjuku, 21 minutes to Shibuya and 40 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 41.3 m above sea level, and the ground within 800 m varies in height by 11.2 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 41.3 m above sea level. Within 800 m the ground ranges from 30.3 m to 41.5 m, a difference of 11.2 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "sangubashi",
-      "lead": "For how close the centre is, Sangubashi; for rail connections, Hatsudai. ",
-      "note": "Close enough to walk to from Hatsudai. Sangubashi has only the Odakyu Odawara Line, so Hatsudai is the better connected. To Otemachi, for instance, Sangubashi is 10 minutes quicker. A one-room flat also costs about ¥13,000 more at Sangubashi. On quiet, though, Sangubashi comes out ahead."
+      "lead": "For how close the centre is, Sangubashi; for lower rent, Hatsudai. ",
+      "note": "Close enough to walk to from Hatsudai. Hatsudai adds the Keio Line and Keio New Line; Sangubashi adds the Odakyu Odawara Line. Sangubashi is at least 8 minutes quicker to Toranomon and Tokyo. A one-room flat, though, costs about ¥13,000 more at Sangubashi."
     },
     {
       "slug": "nishi-shinjuku-gochome",
-      "lead": "For how close the centre is, Nishi-Shinjuku-Gochome; for rail connections, Hatsudai. ",
-      "note": "Close enough to walk to from Hatsudai. Nishi-Shinjuku-Gochome has only the Toei Oedo Line, so Hatsudai is the better connected. To Toranomon, for instance, Nishi-Shinjuku-Gochome is 13 minutes quicker. On quiet, though, Nishi-Shinjuku-Gochome comes out ahead."
+      "lead": "Nishi-Shinjuku-Gochome is ahead on how close the centre is and quiet. ",
+      "note": "Close enough to walk to from Hatsudai. Hatsudai adds the Keio Line and Keio New Line; Nishi-Shinjuku-Gochome adds the Toei Oedo Line. Nishi-Shinjuku-Gochome is at least 13 minutes quicker to Toranomon and Roppongi. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [

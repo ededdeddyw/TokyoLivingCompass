@@ -2,8 +2,8 @@
   "slug": "nakanobu",
   "locale": "en",
   "name": "Nakanobu",
-  "tagline": "Shinagawa in 15 minutes and Shibuya in 21 minutes. Served by 2 lines. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Shinagawa City, where Tokyu and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 29 minutes to Otemachi, 29 minutes to Shinjuku, 21 minutes to Shibuya and 15 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 22.9 m above sea level, and the ground within 800 m varies in height by 5.1 m. The land around the station is close to level.",
+  "tagline": "Shinagawa in 14 minutes and Shibuya in 21 minutes. Served by 2 lines. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
+  "summary": "The station is in Shinagawa City, where Tokyu and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 29 minutes to Otemachi, 29 minutes to Shinjuku, 21 minutes to Shibuya and 14 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 22.9 m above sea level, and the ground within 800 m varies in height by 5.1 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 22.9 m above sea level. Within 800 m the ground ranges from 18.1 m to 23.2 m, a difference of 5.1 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "ebara-nakanobu",
-      "lead": "For the number of places to eat out, Ebara-Nakanobu; for rail connections, Nakanobu. ",
-      "note": "Close enough to walk to from Nakanobu. Ebara-Nakanobu has only the Tokyu Ikegami Line, so Nakanobu is the better connected. To Shinagawa, for instance, Ebara-Nakanobu takes 7 minutes longer. On the number of places to eat out, though, Ebara-Nakanobu comes out ahead."
+      "lead": "For the number of places to eat out, Ebara-Nakanobu; for the number of medical facilities, Nakanobu. ",
+      "note": "Close enough to walk to from Nakanobu. Nakanobu adds the Tokyu Oimachi Line and Toei Asakusa Line; Ebara-Nakanobu adds the Tokyu Ikegami Line. Nakanobu is 6 minutes quicker to Tokyo, but times to the other main business districts are much the same. On the number of places to eat out, Ebara-Nakanobu comes out ahead. Within about 13 minutes' walk, Ebara-Nakanobu has 55 restaurants and Nakanobu has 34."
     },
     {
       "slug": "ebara-machi",
-      "lead": "For lower rent, Ebara-Machi; for rail connections, Nakanobu. ",
-      "note": "Close enough to walk to from Nakanobu. Ebara-Machi has only the Tokyu Oimachi Line, so Nakanobu is the better connected. To Roppongi, for instance, Ebara-Machi takes 7 minutes longer. A one-room flat, though, costs about ¥6,000 less at Ebara-Machi."
+      "lead": "For lower rent, Ebara-Machi; for how close the centre is, Nakanobu. ",
+      "note": "Close enough to walk to from Nakanobu. Both have the Tokyu Oimachi Line. Nakanobu also has the Toei Asakusa Line, which Ebara-Machi does not. Nakanobu is at least 6 minutes quicker to Roppongi and Toranomon. A one-room flat, though, costs about ¥6,000 less at Ebara-Machi."
     }
   ],
   "goodFor": [

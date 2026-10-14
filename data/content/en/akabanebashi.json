@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Akabanebashi",
   "tagline": "Roppongi in 4 minutes and Shinjuku in 14 minutes. Served by 1 line. A one-room flat rents for roughly ¥170,000 to ¥180,000.",
-  "summary": "The station is in Minato City, served by Toei Oedo Line. Journey times to the main business districts are 24 minutes to Otemachi, 14 minutes to Shinjuku, 18 minutes to Shibuya and 20 minutes to Shinagawa. A one-room flat rents for roughly ¥170,000 to ¥180,000. The station stands 4.2 m above sea level, and the ground within 800 m varies in height by 17.4 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Minato City, served by Toei Oedo Line. Journey times to the main business districts are 25 minutes to Otemachi, 14 minutes to Shinjuku, 18 minutes to Shibuya and 16 minutes to Shinagawa. A one-room flat rents for roughly ¥170,000 to ¥180,000. The station stands 4.2 m above sea level, and the ground within 800 m varies in height by 17.4 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 4.2 m above sea level. Within 800 m the ground ranges from 4.2 m to 21.6 m, a difference of 17.4 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "shibakoen",
-      "lead": "For lower rent, Shibakoen; for how close the centre is, Akabanebashi. ",
-      "note": "Close enough to walk to from Akabanebashi. Shibakoen has the Toei Mita Line, a different set from Akabanebashi. To Roppongi, for instance, Shibakoen takes 16 minutes longer. A one-room flat costs about ¥28,000 less at Shibakoen. On how easy the shopping is, Shibakoen comes out ahead."
+      "lead": "For lower rent, Shibakoen; for how little of the area is in the flood projection, Akabanebashi. ",
+      "note": "Close enough to walk to from Akabanebashi. Akabanebashi adds the Toei Oedo Line; Shibakoen adds the Toei Mita Line. Which is faster depends on where you are going: Akabanebashi is 16 minutes quicker to Roppongi, Shibakoen is 16 minutes quicker to Otemachi. A one-room flat costs about ¥28,000 less at Shibakoen. On how easy the shopping is, Shibakoen comes out ahead. Within about 13 minutes' walk, Shibakoen has 10 supermarkets (まいばすけっと and マルエツプチ and others) and Akabanebashi has 6."
     },
     {
       "slug": "azabu-juban",
-      "lead": "For rail connections, Azabu-Juban; for quiet, Akabanebashi. ",
-      "note": "Close enough to walk to from Akabanebashi. Azabu-Juban also has the Tokyo Metro Namboku Line, which Akabanebashi does not. With more lines, Azabu-Juban is the better connected of the two. To Otemachi, for instance, Azabu-Juban is 3 minutes quicker. A one-room flat also costs about ¥9,000 less at Azabu-Juban. On quiet, though, Akabanebashi comes out ahead."
+      "lead": "For lower rent, Azabu-Juban; for quiet, Akabanebashi. ",
+      "note": "Close enough to walk to from Akabanebashi. Both have the Toei Oedo Line. Azabu-Juban also has the Tokyo Metro Namboku Line, which Akabanebashi does not. Journey times to the main business districts are much the same. A one-room flat costs about ¥9,000 less at Azabu-Juban. On how easy the shopping is, Azabu-Juban comes out ahead. Within about 13 minutes' walk, Azabu-Juban has 11 supermarkets (成城石井 and Picard and others) and Akabanebashi has 6."
     }
   ],
   "goodFor": [
@@ -79,7 +79,7 @@
   ],
   "tags": [
     "pricey",
-    "lowFlood",
+    "fastToCenter",
     "singleLine",
     "medicalRich"
   ],

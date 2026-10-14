@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Shinozaki",
   "tagline": "Tokyo in 38 minutes and Otemachi in 38 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Edogawa City, where the Tokyo Metropolitan Bureau of Transportation run 1 line between them. Journey times to the main business districts are 38 minutes to Otemachi, 48 minutes to Shinjuku, 56 minutes to Shibuya and 52 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 1.3 m above sea level, and the ground within 800 m varies in height by 0.7 m. The land around the station is close to level.",
+  "summary": "The station is in Edogawa City, where the Tokyo Metropolitan Bureau of Transportation run 1 line between them. Journey times to the main business districts are 38 minutes to Otemachi, 48 minutes to Shinjuku, 56 minutes to Shibuya and 48 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 1.3 m above sea level, and the ground within 800 m varies in height by 0.7 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 1.3 m above sea level. Within 800 m the ground ranges from 0.7 m to 1.4 m, a difference of 0.7 m."
@@ -49,13 +49,13 @@
   "neighbours": [
     {
       "slug": "mizue",
-      "lead": "Mizue is ahead on how close the centre is and how easy the shopping is. ",
-      "note": "About 1.5 km from Shinozaki in a straight line. It is served by the same lines as Shinozaki. To Tokyo, for instance, Mizue is 4 minutes quicker. On how easy the shopping is, Mizue comes out ahead."
+      "lead": "Mizue is ahead on how easy the shopping is, and little else separates the two. ",
+      "note": "About 1.5 km from Shinozaki in a straight line. It is served by the same lines as Shinozaki. Journey times to the main business districts are much the same. On how easy the shopping is, Mizue comes out ahead. Within about 13 minutes' walk, Mizue has 10 supermarkets (ライブ and まいばすけっと and others) and Shinozaki has 3."
     },
     {
       "slug": "ichinoe",
       "lead": "For how close the centre is, Ichinoe; for lower rent, Shinozaki. ",
-      "note": "About 3 km from Shinozaki in a straight line. It is served by the same lines as Shinozaki. To Toranomon, for instance, Ichinoe is 7 minutes quicker. A one-room flat costs about ¥6,000 more at Ichinoe. On what it offers families, Ichinoe comes out ahead."
+      "note": "About 3 km from Shinozaki in a straight line. It is served by the same lines as Shinozaki. Ichinoe is at least 7 minutes quicker to Toranomon and Tokyo. A one-room flat, though, costs about ¥6,000 more at Ichinoe."
     }
   ],
   "goodFor": [
@@ -85,7 +85,7 @@
     "stationNote": "Only the Toei Shinjuku Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
   },
   "authoredBy": "data-generated"

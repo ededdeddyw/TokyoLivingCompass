@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Shin-Nakano",
   "tagline": "Shinjuku in 7 minutes and Shibuya in 17 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Nakano City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 27 minutes to Otemachi, 7 minutes to Shinjuku, 17 minutes to Shibuya and 38 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 37.4 m above sea level, and the ground within 800 m varies in height by 4.0 m. The land around the station is close to level.",
+  "summary": "The station is in Nakano City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 27 minutes to Otemachi, 7 minutes to Shinjuku, 17 minutes to Shibuya and 36 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 37.4 m above sea level, and the ground within 800 m varies in height by 4.0 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 37.4 m above sea level. Within 800 m the ground ranges from 33.8 m to 37.8 m, a difference of 4.0 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "nakano-shimbashi",
-      "lead": "For safety, Nakano-Shimbashi; for how close the centre is, Shin-Nakano. ",
-      "note": "Close enough to walk to from Shin-Nakano. It is served by the same lines as Shin-Nakano. To Shinjuku, for instance, Nakano-Shimbashi takes 21 minutes longer. On quiet, Nakano-Shimbashi comes out ahead."
+      "lead": "For quiet, Nakano-Shimbashi; for how close the centre is, Shin-Nakano. ",
+      "note": "Close enough to walk to from Shin-Nakano. It is served by the same lines as Shin-Nakano. Shin-Nakano is at least 21 minutes quicker to Tokyo and Shinjuku. On quiet, though, Nakano-Shimbashi comes out ahead."
     },
     {
       "slug": "nakano-fujimicho",
-      "lead": "For safety, Nakano-Fujimicho; for how close the centre is, Shin-Nakano. ",
-      "note": "Close enough to walk to from Shin-Nakano. It is served by the same lines as Shin-Nakano. To Shinjuku, for instance, Nakano-Fujimicho takes 23 minutes longer. On quiet, Nakano-Fujimicho comes out ahead."
+      "lead": "For quiet, Nakano-Fujimicho; for how close the centre is, Shin-Nakano. ",
+      "note": "Close enough to walk to from Shin-Nakano. It is served by the same lines as Shin-Nakano. Shin-Nakano is at least 23 minutes quicker to Shinjuku and Shinagawa. On quiet, though, Nakano-Fujimicho comes out ahead."
     }
   ],
   "goodFor": [
@@ -92,7 +92,7 @@
     "stationNote": "Only the Tokyo Metro Marunouchi Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

@@ -42,13 +42,13 @@
   "neighbours": [
     {
       "slug": "yurakucho",
-      "lead": "For rail connections, Yurakucho; for how close the centre is, Ginza. ",
-      "note": "Close enough to walk to from Ginza. Yurakucho has 4 lines that Ginza does not. With more lines, Yurakucho is the better connected of the two. To Shinjuku, for instance, Yurakucho takes 4 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Ginza. Both have the Tokyo Metro Hibiya Line and Tokyo Metro Yurakucho Line. Ginza adds the Tokyo Metro Ginza Line and Tokyo Metro Marunouchi Line; Yurakucho adds the 4 lines. Journey times to the main business districts are much the same. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "higashi-ginza",
-      "lead": "For lower rent, Higashi-Ginza; for rail connections, Ginza. ",
-      "note": "Close enough to walk to from Ginza. Higashi-Ginza has only the Tokyo Metro Hibiya Line and Toei Asakusa Line, so Ginza is the better connected. To Tokyo, for instance, Higashi-Ginza takes 6 minutes longer. A one-room flat, though, costs about ¥10,000 less at Higashi-Ginza."
+      "lead": "For lower rent, Higashi-Ginza; for how close the centre is, Ginza. ",
+      "note": "Close enough to walk to from Ginza. Both have the Tokyo Metro Hibiya Line. Ginza adds the Tokyo Metro Ginza Line, Tokyo Metro Marunouchi Line and Tokyo Metro Yurakucho Line; Higashi-Ginza adds the Toei Asakusa Line. Ginza is at least 6 minutes quicker to Tokyo and Shinjuku. A one-room flat, though, costs about ¥10,000 less at Higashi-Ginza."
     }
   ],
   "goodFor": [
@@ -67,11 +67,11 @@
   ],
   "tags": [
     "majorHub",
-    "goodValue",
     "fastToCenter",
     "manyLines",
     "diningRich",
-    "lateNight"
+    "lateNight",
+    "flat"
   ],
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
@@ -80,7 +80,7 @@
     "stationNote": "4 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are some of the most heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

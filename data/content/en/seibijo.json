@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Seibijo",
   "tagline": "Tokyo in 33 minutes and Shinagawa in 34 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Ota City, served by Tokyo Monorail. Journey times to the main business districts are 39 minutes to Otemachi, 48 minutes to Shinjuku, 43 minutes to Shibuya and 34 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 2 m above sea level, and the ground within 800 m varies in height by 3.0 m. The land around the station is close to level.",
+  "summary": "The station is in Ota City, served by Tokyo Monorail. Journey times to the main business districts are 39 minutes to Otemachi, 45 minutes to Shinjuku, 39 minutes to Shibuya and 34 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 2 m above sea level, and the ground within 800 m varies in height by 3.0 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 2 m above sea level. Within 800 m the ground ranges from 1.4 m to 4.4 m, a difference of 3.0 m."
@@ -26,13 +26,13 @@
   "neighbours": [
     {
       "slug": "tenkubashi",
-      "lead": "Tenkubashi is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Seibijo. Tenkubashi also has the Keikyu Airport Line, which Seibijo does not. With more lines, Tenkubashi is the better connected of the two. To Shinagawa, for instance, Tenkubashi is 3 minutes quicker. Rents, flood projections and the rest differ little."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Seibijo. Both have the Tokyo Monorail. Tenkubashi also has the Keikyu Airport Line, which Seibijo does not. Journey times to the main business districts are much the same. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "anamori-inari",
-      "lead": "For the number of medical facilities, Anamori-Inari; for how close the centre is, Seibijo. ",
-      "note": "Close enough to walk to from Seibijo. Anamori-Inari has the Keikyu Airport Line, a different set from Seibijo. To Toranomon, for instance, Anamori-Inari takes 9 minutes longer. On the number of places to eat out, Anamori-Inari comes out ahead."
+      "lead": "For the number of medical facilities, Anamori-Inari; for quiet, Seibijo. ",
+      "note": "Close enough to walk to from Seibijo. Seibijo adds the Tokyo Monorail; Anamori-Inari adds the Keikyu Airport Line. Which is faster depends on where you are going: Seibijo is 12 minutes quicker to Toranomon, Anamori-Inari is 5 minutes quicker to Shinagawa. On the number of places to eat out, Anamori-Inari comes out ahead. Within about 13 minutes' walk, Anamori-Inari has 28 restaurants and Seibijo has 7."
     }
   ],
   "goodFor": [

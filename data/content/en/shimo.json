@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Shimo",
   "tagline": "Otemachi in 32 minutes and Tokyo in 33 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Kita City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 32 minutes to Otemachi, 36 minutes to Shinjuku, 41 minutes to Shibuya and 47 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 2 m above sea level, and the ground within 800 m varies in height by 2 m. The land around the station is close to level.",
+  "summary": "The station is in Kita City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 32 minutes to Otemachi, 36 minutes to Shinjuku, 43 minutes to Shibuya and 47 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 2 m above sea level, and the ground within 800 m varies in height by 2 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 2 m above sea level. Within 800 m the ground ranges from 1 m to 3 m, a difference of 2 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "akabane",
-      "lead": "For rail connections, Akabane; for safety, Shimo. ",
-      "note": "About 1 km from Shimo in a straight line. Akabane has 5 lines that Shimo does not. With more lines, Akabane is the better connected of the two. To Shinjuku, for instance, Akabane is 21 minutes quicker. On what it offers families, though, Shimo comes out ahead."
+      "lead": "For how close the centre is, Akabane; for safety, Shimo. ",
+      "note": "About 1 km from Shimo in a straight line. Shimo adds the Tokyo Metro Namboku Line; Akabane adds the 5 lines. Akabane is at least 21 minutes quicker to Shibuya and Shinjuku. On what it offers families, though, Shimo comes out ahead."
     },
     {
       "slug": "akabane-iwabuchi",
-      "lead": "For rail connections, Akabane-Iwabuchi; for how close the centre is, Shimo. ",
-      "note": "About 1 km from Shimo in a straight line. Akabane-Iwabuchi also has the Saitama Railway Line, which Shimo does not. With more lines, Akabane-Iwabuchi is the better connected of the two. To Toranomon, for instance, Akabane-Iwabuchi takes 3 minutes longer. On what it offers families, though, Shimo comes out ahead."
+      "lead": "For the number of medical facilities, Akabane-Iwabuchi; for safety, Shimo. ",
+      "note": "About 1 km from Shimo in a straight line. Both have the Tokyo Metro Namboku Line. Akabane-Iwabuchi also has the Saitama Railway Line, which Shimo does not. Journey times to the main business districts are much the same. On what it offers families, Shimo comes out ahead."
     }
   ],
   "goodFor": [
@@ -89,7 +89,7 @@
     "stationNote": "Only the Tokyo Metro Namboku Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

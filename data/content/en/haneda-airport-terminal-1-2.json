@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Haneda-Airport-Terminal-1-2",
   "tagline": "Shinagawa in 37 minutes and Tokyo in 43 minutes. Served by 2 lines.",
-  "summary": "The station is in Ota City, where Keikyu and Tokyo Monorail run 2 lines between them. Journey times to the main business districts are 48 minutes to Otemachi, 57 minutes to Shinjuku, 52 minutes to Shibuya and 37 minutes to Shinagawa. The station stands 3.1 m above sea level, and the ground within 800 m varies in height by 2.5 m. The land around the station is close to level.",
+  "summary": "The station is in Ota City, where Keikyu and Tokyo Monorail run 2 lines between them. Journey times to the main business districts are 48 minutes to Otemachi, 54 minutes to Shinjuku, 49 minutes to Shibuya and 37 minutes to Shinagawa. The station stands 3.1 m above sea level, and the ground within 800 m varies in height by 2.5 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 3.1 m above sea level. Within 800 m the ground ranges from 3.1 m to 5.6 m, a difference of 2.5 m."
@@ -14,13 +14,13 @@
   "neighbours": [
     {
       "slug": "shin-seibijo",
-      "lead": "For quiet, Shin-Seibijo; for rail connections, Haneda-Airport-Terminal-1-2. ",
-      "note": "Close enough to walk to from Haneda-Airport-Terminal-1-2. Shin-Seibijo has only the Tokyo Monorail, so Haneda-Airport-Terminal-1-2 is the better connected. To Shinagawa, for instance, Shin-Seibijo takes 4 minutes longer. On quiet, though, Shin-Seibijo comes out ahead."
+      "lead": "For quiet, Shin-Seibijo; for the number of places to eat out, Haneda-Airport-Terminal-1-2. ",
+      "note": "Close enough to walk to from Haneda-Airport-Terminal-1-2. Both have the Tokyo Monorail. Haneda-Airport-Terminal-1-2 also has the Keikyu Airport Line, which Shin-Seibijo does not. Journey times to the main business districts are much the same. On quiet, Shin-Seibijo comes out ahead."
     },
     {
       "slug": "haneda-airport-terminal-3",
       "lead": "For how close the centre is, Haneda-Airport-Terminal-3; for how little of the area is in the flood projection, Haneda-Airport-Terminal-1-2. ",
-      "note": "About 1.5 km from Haneda-Airport-Terminal-1-2 in a straight line. It is served by the same lines as Haneda-Airport-Terminal-1-2. To Toranomon, for instance, Haneda-Airport-Terminal-3 is 5 minutes quicker. On quiet, Haneda-Airport-Terminal-3 comes out ahead."
+      "note": "About 1.5 km from Haneda-Airport-Terminal-1-2 in a straight line. It is served by the same lines as Haneda-Airport-Terminal-1-2. Haneda-Airport-Terminal-3 is at least 5 minutes quicker to Toranomon and Tokyo. On how little of the area is in the flood projection, though, Haneda-Airport-Terminal-1-2 comes out ahead."
     }
   ],
   "goodFor": [

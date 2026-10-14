@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Shinsen",
   "tagline": "Shibuya in 2 minutes and Shinjuku in 12 minutes. Served by 1 line. A one-room flat rents for roughly ¥150,000 to ¥160,000.",
-  "summary": "The station is in Shibuya City, where Keio run 1 line between them. Journey times to the main business districts are 26 minutes to Otemachi, 12 minutes to Shinjuku, 2 minutes to Shibuya and 28 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 26.9 m above sea level, and the ground within 800 m varies in height by 7.8 m. The land around the station is close to level.",
+  "summary": "The station is in Shibuya City, where Keio run 1 line between them. Journey times to the main business districts are 26 minutes to Otemachi, 12 minutes to Shinjuku, 2 minutes to Shibuya and 22 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 26.9 m above sea level, and the ground within 800 m varies in height by 7.8 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 26.9 m above sea level. Within 800 m the ground ranges from 26.9 m to 34.7 m, a difference of 7.8 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "shibuya",
-      "lead": "For rail connections, Shibuya; for quiet, Shinsen. ",
-      "note": "Close enough to walk to from Shinsen. Shibuya has 9 lines that Shinsen does not. With more lines, Shibuya is the better connected of the two. To Toranomon, for instance, Shibuya is 7 minutes quicker. On quiet, though, Shinsen comes out ahead."
+      "lead": "For how close the centre is, Shibuya; for quiet, Shinsen. ",
+      "note": "Close enough to walk to from Shinsen. Both have the Keio Inokashira Line. Shibuya also has the 9 lines, which Shinsen does not. Shibuya is at least 7 minutes quicker to Toranomon and Tokyo. On quiet, though, Shinsen comes out ahead."
     },
     {
       "slug": "komaba-todaimae",
-      "lead": "For lower rent, Komaba-Todaimae; for how close the centre is, Shinsen. ",
-      "note": "Close enough to walk to from Shinsen. It is served by the same lines as Shinsen. To Roppongi, for instance, Komaba-Todaimae takes 3 minutes longer. A one-room flat costs about ¥34,000 less at Komaba-Todaimae. On safety, Komaba-Todaimae comes out ahead."
+      "lead": "For lower rent, Komaba-Todaimae; for the number of medical facilities, Shinsen. ",
+      "note": "Close enough to walk to from Shinsen. It is served by the same lines as Shinsen. Journey times to the main business districts are much the same. A one-room flat costs about ¥34,000 less at Komaba-Todaimae. On how easy the shopping is, Shinsen comes out ahead. Within about 13 minutes' walk, Shinsen has 13 supermarkets (まいばすけっと and マルエツプチ and others) and Komaba-Todaimae has 3."
     }
   ],
   "goodFor": [

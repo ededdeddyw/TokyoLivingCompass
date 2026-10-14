@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Takanawa-Gateway",
   "tagline": "Shinagawa in 2 minutes and Tokyo in 12 minutes. Served by 2 lines. A one-room flat rents for roughly ¥160,000 to ¥170,000.",
-  "summary": "The station is in Minato City, where JR East run 2 lines between them. Journey times to the main business districts are 18 minutes to Otemachi, 33 minutes to Shinjuku, 28 minutes to Shibuya and 2 minutes to Shinagawa. A one-room flat rents for roughly ¥160,000 to ¥170,000. The station stands 3.3 m above sea level, and the ground within 800 m varies in height by 22.3 m. The land around the station rises and falls sharply.",
+  "summary": "The station is in Minato City, where JR East run 2 lines between them. Journey times to the main business districts are 18 minutes to Otemachi, 26 minutes to Shinjuku, 18 minutes to Shibuya and 2 minutes to Shinagawa. A one-room flat rents for roughly ¥160,000 to ¥170,000. The station stands 3.3 m above sea level, and the ground within 800 m varies in height by 22.3 m. The land around the station rises and falls sharply.",
   "terrain": {
     "slope": "hilly",
     "note": "The station sits lower than the ground around it, at 3.3 m above sea level. Within 800 m the ground ranges from 2.6 m to 24.9 m, a difference of 22.3 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "sengakuji",
-      "lead": "For how close the centre is, Sengakuji; for quiet, Takanawa-Gateway. ",
-      "note": "Close enough to walk to from Takanawa-Gateway. Sengakuji has the Keikyu Main Line and Toei Asakusa Line, a different set from Takanawa-Gateway. To Shibuya, for instance, Sengakuji is 8 minutes quicker. A one-room flat costs about ¥11,000 less at Sengakuji. On quiet, Takanawa-Gateway comes out ahead."
+      "lead": "For lower rent, Sengakuji; for quiet, Takanawa-Gateway. ",
+      "note": "Close enough to walk to from Takanawa-Gateway. Takanawa-Gateway adds the JR Yamanote Line and JR Keihin-Tohoku Line; Sengakuji adds the Keikyu Main Line and Toei Asakusa Line. Sengakuji is 7 minutes quicker to Roppongi, but times to the other main business districts are much the same. A one-room flat costs about ¥11,000 less at Sengakuji. On quiet, Takanawa-Gateway comes out ahead."
     },
     {
       "slug": "shinagawa",
-      "lead": "For rail connections, Shinagawa; for how little of the area is in the flood projection, Takanawa-Gateway. ",
-      "note": "Close enough to walk to from Takanawa-Gateway. Shinagawa has 4 lines that Takanawa-Gateway does not. With more lines, Shinagawa is the better connected of the two. To Shinjuku, for instance, Shinagawa is 7 minutes quicker. A one-room flat also costs about ¥13,000 less at Shinagawa. On quiet, though, Takanawa-Gateway comes out ahead."
+      "lead": "For lower rent, Shinagawa; for how little of the area is in the flood projection, Takanawa-Gateway. ",
+      "note": "Close enough to walk to from Takanawa-Gateway. Both have the JR Yamanote Line and JR Keihin-Tohoku Line. Shinagawa also has the 4 lines, which Takanawa-Gateway does not. Journey times to the main business districts are much the same. A one-room flat costs about ¥13,000 less at Shinagawa. On quiet, Takanawa-Gateway comes out ahead."
     }
   ],
   "goodFor": [
@@ -90,7 +90,7 @@
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Nakano-Fujimicho",
   "tagline": "Shinjuku in 30 minutes and Shibuya in 40 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Nakano City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 50 minutes to Otemachi, 30 minutes to Shinjuku, 40 minutes to Shibuya and 60 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 29.6 m above sea level, and the ground within 800 m varies in height by 8.7 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Nakano City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 50 minutes to Otemachi, 30 minutes to Shinjuku, 40 minutes to Shibuya and 59 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 29.6 m above sea level, and the ground within 800 m varies in height by 8.7 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 29.6 m above sea level. Within 800 m the ground ranges from 29.5 m to 38.2 m, a difference of 8.7 m."
@@ -61,8 +61,8 @@
     },
     {
       "slug": "shin-nakano",
-      "lead": "For how close the centre is, Shin-Nakano; for safety, Nakano-Fujimicho. ",
-      "note": "Close enough to walk to from Nakano-Fujimicho. It is served by the same lines as Nakano-Fujimicho. To Shinjuku, for instance, Shin-Nakano is 23 minutes quicker. On quiet, Nakano-Fujimicho comes out ahead."
+      "lead": "For how close the centre is, Shin-Nakano; for quiet, Nakano-Fujimicho. ",
+      "note": "Close enough to walk to from Nakano-Fujimicho. It is served by the same lines as Nakano-Fujimicho. Shin-Nakano is at least 23 minutes quicker to Shinjuku and Shinagawa. On quiet, though, Nakano-Fujimicho comes out ahead."
     }
   ],
   "goodFor": [
@@ -88,7 +88,7 @@
     "stationNote": "Only the Tokyo Metro Marunouchi Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the highest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

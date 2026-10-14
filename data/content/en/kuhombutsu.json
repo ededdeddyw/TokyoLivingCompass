@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Kuhombutsu",
   "tagline": "Shibuya in 22 minutes and Shinagawa in 28 minutes. Served by 1 line. A one-room flat rents for roughly ¥100,000 to ¥110,000.",
-  "summary": "The station is in Setagaya City, where Tokyu run 1 line between them. Journey times to the main business districts are 44 minutes to Otemachi, 31 minutes to Shinjuku, 22 minutes to Shibuya and 28 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 30.3 m above sea level, and the ground within 800 m varies in height by 14.7 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Setagaya City, where Tokyu run 1 line between them. Journey times to the main business districts are 40 minutes to Otemachi, 31 minutes to Shinjuku, 22 minutes to Shibuya and 28 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 30.3 m above sea level, and the ground within 800 m varies in height by 14.7 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 30.3 m above sea level. Within 800 m the ground ranges from 24 m to 38.7 m, a difference of 14.7 m."
@@ -61,8 +61,8 @@
     },
     {
       "slug": "jiyugaoka",
-      "lead": "For rail connections, Jiyugaoka; for safety, Kuhombutsu. ",
-      "note": "Close enough to walk to from Kuhombutsu. Jiyugaoka also has the Tokyu Toyoko Line, which Kuhombutsu does not. With more lines, Jiyugaoka is the better connected of the two. To Toranomon, for instance, Jiyugaoka is 7 minutes quicker. On safety, though, Kuhombutsu comes out ahead."
+      "lead": "For how close the centre is, Jiyugaoka; for quiet, Kuhombutsu. ",
+      "note": "Close enough to walk to from Kuhombutsu. Both have the Tokyu Oimachi Line. Jiyugaoka also has the Tokyu Toyoko Line, which Kuhombutsu does not. Jiyugaoka is at least 7 minutes quicker to Toranomon and Shibuya. On quiet, though, Kuhombutsu comes out ahead."
     }
   ],
   "goodFor": [
@@ -88,7 +88,7 @@
     "stationNote": "Only the Tokyu Oimachi Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
+    "congestion": "This station sits on the busiest stretch of the Tokyu Oimachi Line, but at 118% passengers are not shoulder to shoulder. ",
     "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
   },
   "authoredBy": "data-generated"

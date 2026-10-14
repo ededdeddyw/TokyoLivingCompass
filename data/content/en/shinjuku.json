@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Shinjuku",
   "tagline": "Shinjuku in 1 minute and Shibuya in 5 minutes. Served by 13 lines. A one-room flat rents for roughly ¥120,000 to ¥130,000.",
-  "summary": "The station is in Shinjuku City, where JR East, Keio, Odakyu, Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 13 lines between them. Journey times to the main business districts are 19 minutes to Otemachi, 1 minute to Shinjuku, 5 minutes to Shibuya and 26 minutes to Shinagawa. A one-room flat rents for roughly ¥120,000 to ¥130,000. The station stands 37.5 m above sea level, and the ground within 800 m varies in height by 9.0 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shinjuku City, where JR East, Keio, Odakyu, Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 13 lines between them. Journey times to the main business districts are 20 minutes to Otemachi, 1 minute to Shinjuku, 5 minutes to Shibuya and 24 minutes to Shinagawa. A one-room flat rents for roughly ¥120,000 to ¥130,000. The station stands 37.5 m above sea level, and the ground within 800 m varies in height by 9.0 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 37.5 m above sea level. Within 800 m the ground ranges from 31.3 m to 40.3 m, a difference of 9.0 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "shinjuku-nishiguchi",
-      "lead": "For how little of the area is in the flood projection, Shinjuku-Nishiguchi; for rail connections, Shinjuku. ",
-      "note": "Close enough to walk to from Shinjuku. Shinjuku-Nishiguchi has only the Toei Oedo Line, so Shinjuku is the better connected. To Roppongi, for instance, Shinjuku-Nishiguchi takes 21 minutes longer. On how easy the shopping is, though, Shinjuku-Nishiguchi comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Shinjuku-Nishiguchi; for how close the centre is, Shinjuku. ",
+      "note": "Close enough to walk to from Shinjuku. Both have the Toei Oedo Line. Shinjuku also has the 12 lines, which Shinjuku-Nishiguchi does not. Shinjuku is at least 8 minutes quicker to Tokyo and Shinagawa. On how easy the shopping is, though, Shinjuku-Nishiguchi comes out ahead. Within about 13 minutes' walk, Shinjuku-Nishiguchi has 11 supermarkets (TOMIZ and ドン・キホーテUNY and others) and Shinjuku has 4."
     },
     {
       "slug": "shinjuku-sanchome",
-      "lead": "For how easy the shopping is, Shinjuku-Sanchome; for rail connections, Shinjuku. ",
-      "note": "Close enough to walk to from Shinjuku. Shinjuku-Sanchome has only the Tokyo Metro Marunouchi Line, Tokyo Metro Fukutoshin Line and Toei Shinjuku Line, so Shinjuku is the better connected. To Roppongi, for instance, Shinjuku-Sanchome takes 7 minutes longer. A one-room flat also costs about ¥19,000 more at Shinjuku-Sanchome. On how easy the shopping is, though, Shinjuku-Sanchome comes out ahead."
+      "lead": "For how easy the shopping is, Shinjuku-Sanchome; for how close the centre is, Shinjuku. ",
+      "note": "Close enough to walk to from Shinjuku. Both have the Tokyo Metro Marunouchi Line and Toei Shinjuku Line. Shinjuku adds the 11 lines; Shinjuku-Sanchome adds the Tokyo Metro Fukutoshin Line. Shinjuku is at least 5 minutes quicker to Roppongi and Shinagawa. A one-room flat also costs about ¥19,000 more at Shinjuku-Sanchome. On how easy the shopping is, though, Shinjuku-Sanchome comes out ahead. Within about 13 minutes' walk, Shinjuku-Sanchome has 7 supermarkets (ドン・キホーテUNY and MEGAドン・キホーテ and others) and Shinjuku has 4."
     }
   ],
   "goodFor": [
@@ -92,7 +92,7 @@
     "stationNote": "13 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are some of the most heavily loaded in the morning. ",
+    "congestion": "Morning trains are very crowded: this station sits on the busiest stretch of the JR Chuo Rapid Line. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

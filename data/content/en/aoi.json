@@ -2,8 +2,8 @@
   "slug": "aoi",
   "locale": "en",
   "name": "Aoi",
-  "tagline": "Tokyo in 23 minutes and Otemachi in 29 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Adachi City, served by Tsukuba Express. Journey times to the main business districts are 29 minutes to Otemachi, 37 minutes to Shinjuku, 47 minutes to Shibuya and 37 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands -0.3 m above sea level, and the ground within 800 m varies in height by 2.4 m. The land around the station is close to level.",
+  "tagline": "Tokyo in 23 minutes and Otemachi in 31 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
+  "summary": "The station is in Adachi City, served by Tsukuba Express. Journey times to the main business districts are 31 minutes to Otemachi, 40 minutes to Shinjuku, 48 minutes to Shibuya and 37 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands -0.3 m above sea level, and the ground within 800 m varies in height by 2.4 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at -0.3 m above sea level. Within 800 m the ground ranges from -0.8 m to 1.6 m, a difference of 2.4 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "ayase",
-      "lead": "For rail connections, Ayase; for how close the centre is, Aoi. ",
-      "note": "About 1 km from Aoi in a straight line. Ayase also has the JR Joban Line and Tokyo Metro Chiyoda Line, which Aoi does not. With more lines, Ayase is the better connected of the two. To Toranomon, for instance, Ayase takes 5 minutes longer. A one-room flat, though, costs about ¥6,000 more at Ayase."
+      "lead": "For the number of medical facilities, Ayase; for lower rent, Aoi. ",
+      "note": "About 1 km from Aoi in a straight line. Aoi adds the Tsukuba Express; Ayase adds the JR Joban Line and Tokyo Metro Chiyoda Line. Aoi is 8 minutes quicker to Shinagawa, but times to the other main business districts are much the same. A one-room flat costs about ¥6,000 more at Ayase. On the number of places to eat out, Ayase comes out ahead. Within about 13 minutes' walk, Ayase has 50 restaurants and Aoi has 8."
     },
     {
       "slug": "gotanno",
       "lead": "For the number of places to eat out, Gotanno; for how close the centre is, Aoi. ",
-      "note": "About 1 km from Aoi in a straight line. Gotanno has the Tobu Skytree Line, a different set from Aoi. To Toranomon, for instance, Gotanno takes 6 minutes longer. On the number of places to eat out, Gotanno comes out ahead."
+      "note": "About 1 km from Aoi in a straight line. Aoi adds the Tsukuba Express; Gotanno adds the Tobu Skytree Line. Aoi is at least 7 minutes quicker to Shinagawa and Toranomon. On the number of places to eat out, though, Gotanno comes out ahead. Within about 13 minutes' walk, Gotanno has 36 restaurants and Aoi has 8."
     }
   ],
   "goodFor": [
@@ -93,7 +93,7 @@
     "stationNote": "Only the Tsukuba Express serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Morning trains are very crowded: this station sits on the busiest stretch of the Tsukuba Express. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Ojima",
   "tagline": "Tokyo in 21 minutes and Otemachi in 21 minutes. Served by 1 line. A one-room flat rents for roughly ¥100,000 to ¥110,000.",
-  "summary": "The station is in Koto City, served by Toei Shinjuku Line. Journey times to the main business districts are 21 minutes to Otemachi, 31 minutes to Shinjuku, 39 minutes to Shibuya and 35 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands -2.4 m above sea level, and the ground within 800 m varies in height by 1.7 m. The land around the station is close to level.",
+  "summary": "The station is in Koto City, served by Toei Shinjuku Line. Journey times to the main business districts are 21 minutes to Otemachi, 31 minutes to Shinjuku, 39 minutes to Shibuya and 31 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands -2.4 m above sea level, and the ground within 800 m varies in height by 1.7 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at -2.4 m above sea level. Within 800 m the ground ranges from -2.4 m to -0.7 m, a difference of 1.7 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "nishi-ojima",
-      "lead": "For how close the centre is, Nishi-Ojima; for lower rent, Ojima. ",
-      "note": "Close enough to walk to from Ojima. It is served by the same lines as Ojima. To Toranomon, for instance, Nishi-Ojima is 3 minutes quicker. A one-room flat costs about ¥9,000 more at Nishi-Ojima."
+      "lead": "Ojima is ahead on lower rent, and little else separates the two. ",
+      "note": "Close enough to walk to from Ojima. It is served by the same lines as Ojima. Journey times to the main business districts are much the same. A one-room flat costs about ¥9,000 more at Nishi-Ojima."
     },
     {
       "slug": "higashi-ojima",
-      "lead": "For lower rent, Higashi-Ojima; for how close the centre is, Ojima. ",
-      "note": "Close enough to walk to from Ojima. It is served by the same lines as Ojima. To Shinagawa, for instance, Higashi-Ojima takes 3 minutes longer. A one-room flat costs about ¥17,000 less at Higashi-Ojima."
+      "lead": "Higashi-Ojima is ahead on lower rent, and little else separates the two. ",
+      "note": "Close enough to walk to from Ojima. It is served by the same lines as Ojima. Journey times to the main business districts are much the same. A one-room flat costs about ¥17,000 less at Higashi-Ojima."
     }
   ],
   "goodFor": [
@@ -90,7 +90,7 @@
     "stationNote": "Only the Toei Shinjuku Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Honjo-Azumabashi",
   "tagline": "Tokyo in 17 minutes and Otemachi in 18 minutes. Served by 1 line. A one-room flat rents for roughly ¥110,000 to ¥120,000.",
-  "summary": "The station is in Sumida City, served by Toei Asakusa Line. Journey times to the main business districts are 18 minutes to Otemachi, 31 minutes to Shinjuku, 37 minutes to Shibuya and 29 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 1.2 m above sea level, and the ground within 800 m varies in height by 3.4 m. The land around the station is close to level.",
+  "summary": "The station is in Sumida City, served by Toei Asakusa Line. Journey times to the main business districts are 18 minutes to Otemachi, 31 minutes to Shinjuku, 37 minutes to Shibuya and 28 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 1.2 m above sea level, and the ground within 800 m varies in height by 3.4 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 1.2 m above sea level. Within 800 m the ground ranges from 0.7 m to 4.1 m, a difference of 3.4 m."
@@ -43,12 +43,12 @@
     {
       "slug": "tokyo-skytree",
       "lead": "For lower rent, Tokyo-Skytree; for how close the centre is, Honjo-Azumabashi. ",
-      "note": "Close enough to walk to from Honjo-Azumabashi. Tokyo-Skytree has the Tobu Skytree Line, a different set from Honjo-Azumabashi. To Roppongi, for instance, Tokyo-Skytree takes 6 minutes longer. A one-room flat costs about ¥6,000 less at Tokyo-Skytree. On how little of the area is in the flood projection, Honjo-Azumabashi comes out ahead."
+      "note": "Close enough to walk to from Honjo-Azumabashi. Honjo-Azumabashi adds the Toei Asakusa Line; Tokyo-Skytree adds the Tobu Skytree Line. Honjo-Azumabashi is at least 5 minutes quicker to Roppongi and Toranomon. A one-room flat, though, costs about ¥6,000 less at Tokyo-Skytree."
     },
     {
       "slug": "asakusa",
-      "lead": "For rail connections, Asakusa; for how little of the area is in the flood projection, Honjo-Azumabashi. ",
-      "note": "Close enough to walk to from Honjo-Azumabashi. Asakusa also has the Tobu Skytree Line and Tokyo Metro Ginza Line, which Honjo-Azumabashi does not. With more lines, Asakusa is the better connected of the two. To Shinjuku, for instance, Asakusa is 3 minutes quicker. On what it offers families, though, Honjo-Azumabashi comes out ahead."
+      "lead": "For the number of medical facilities, Asakusa; for how little of the area is in the flood projection, Honjo-Azumabashi. ",
+      "note": "Close enough to walk to from Honjo-Azumabashi. Both have the Toei Asakusa Line. Asakusa also has the Tobu Skytree Line and Tokyo Metro Ginza Line, which Honjo-Azumabashi does not. Journey times to the main business districts are much the same. On what it offers families, Honjo-Azumabashi comes out ahead."
     }
   ],
   "goodFor": [
@@ -75,7 +75,7 @@
     "stationNote": "Only the Toei Asakusa Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
+    "congestion": "This station sits on the busiest stretch of the Toei Asakusa Line, but at 123% passengers are not shoulder to shoulder. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

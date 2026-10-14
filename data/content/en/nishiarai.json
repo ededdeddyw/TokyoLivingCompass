@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Nishiarai",
   "tagline": "Tokyo in 34 minutes and Otemachi in 36 minutes. Served by 2 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Adachi City, where Tobu run 2 lines between them. Journey times to the main business districts are 36 minutes to Otemachi, 47 minutes to Shinjuku, 57 minutes to Shibuya and 48 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 1.2 m above sea level, and the ground within 800 m varies in height by 1.5 m. The land around the station is close to level.",
+  "summary": "The station is in Adachi City, where Tobu run 2 lines between them. Journey times to the main business districts are 36 minutes to Otemachi, 48 minutes to Shinjuku, 58 minutes to Shibuya and 50 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 1.2 m above sea level, and the ground within 800 m varies in height by 1.5 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 1.2 m above sea level. Within 800 m the ground ranges from 0.5 m to 2 m, a difference of 1.5 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What holds the figure down: a large projected flood depth. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. In plain yen, though, it is on the low side for the 23 wards. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "daishimae",
-      "lead": "For the number of medical facilities, Daishimae; for rail connections, Nishiarai. ",
-      "note": "Close enough to walk to from Nishiarai. Daishimae has only the Tobu Daishi Line, so Nishiarai is the better connected. To Toranomon, for instance, Daishimae takes 7 minutes longer. On the number of medical facilities, though, Daishimae comes out ahead."
+      "lead": "For the number of medical facilities, Daishimae; for how close the centre is, Nishiarai. ",
+      "note": "Close enough to walk to from Nishiarai. Both have the Tobu Daishi Line. Nishiarai also has the Tobu Skytree Line, which Daishimae does not. Nishiarai is at least 7 minutes quicker to Toranomon and Tokyo. On the number of medical facilities, though, Daishimae comes out ahead. Within about 13 minutes' walk, Daishimae has 17 clinics and pharmacies and Nishiarai has 12."
     },
     {
       "slug": "umejima",
-      "lead": "For safety, Umejima; for rail connections, Nishiarai. ",
-      "note": "Close enough to walk to from Nishiarai. Umejima has only the Tobu Skytree Line, so Nishiarai is the better connected. Journey times to the main business districts are much the same. On safety, though, Umejima comes out ahead."
+      "lead": "Nishiarai is ahead on how easy the shopping is, and little else separates the two. ",
+      "note": "Close enough to walk to from Nishiarai. Both have the Tobu Skytree Line. Nishiarai also has the Tobu Daishi Line, which Umejima does not. Journey times to the main business districts are much the same. On how easy the shopping is, Nishiarai comes out ahead. Within about 13 minutes' walk, Nishiarai has 8 supermarkets (AEON and まいばすけっと and others) and Umejima has 6."
     }
   ],
   "goodFor": [

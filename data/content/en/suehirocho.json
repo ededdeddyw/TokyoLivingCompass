@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Suehirocho",
   "tagline": "Tokyo in 10 minutes and Otemachi in 12 minutes. Served by 1 line. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
-  "summary": "The station is in Chiyoda City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 12 minutes to Otemachi, 20 minutes to Shinjuku, 27 minutes to Shibuya and 24 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 3.6 m above sea level, and the ground within 800 m varies in height by 7.7 m. The land around the station is close to level.",
+  "summary": "The station is in Chiyoda City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 12 minutes to Otemachi, 20 minutes to Shinjuku, 27 minutes to Shibuya and 22 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 3.6 m above sea level, and the ground within 800 m varies in height by 7.7 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 3.6 m above sea level. Within 800 m the ground ranges from 2.6 m to 10.3 m, a difference of 7.7 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "akihabara",
-      "lead": "For rail connections, Akihabara; for how little of the area is in the flood projection, Suehirocho. ",
-      "note": "Close enough to walk to from Suehirocho. Akihabara has 5 lines that Suehirocho does not. With more lines, Akihabara is the better connected of the two. To Tokyo, for instance, Akihabara is 5 minutes quicker. On how little of the area is in the flood projection, though, Suehirocho comes out ahead."
+      "lead": "For safety, Akihabara; for how little of the area is in the flood projection, Suehirocho. ",
+      "note": "Close enough to walk to from Suehirocho. Suehirocho adds the Tokyo Metro Ginza Line; Akihabara adds the 5 lines. Akihabara is 5 minutes quicker to Tokyo, but times to the other main business districts are much the same. On how little of the area is in the flood projection, Suehirocho comes out ahead."
     },
     {
       "slug": "okachimachi",
-      "lead": "Okachimachi is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Suehirocho. Okachimachi has 4 lines that Suehirocho does not. With more lines, Okachimachi is the better connected of the two. To Tokyo, for instance, Okachimachi is 3 minutes quicker. A one-room flat also costs about ¥7,000 less at Okachimachi."
+      "lead": "Okachimachi is ahead on lower rent, and little else separates the two. ",
+      "note": "Close enough to walk to from Suehirocho. Both have the Tokyo Metro Ginza Line. Okachimachi also has the 4 lines, which Suehirocho does not. Journey times to the main business districts are much the same. A one-room flat costs about ¥7,000 less at Okachimachi."
     }
   ],
   "goodFor": [
@@ -94,7 +94,7 @@
     "stationNote": "Only the Tokyo Metro Ginza Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
   },
   "authoredBy": "data-generated"

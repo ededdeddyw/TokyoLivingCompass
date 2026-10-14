@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Shirokane-Takanawa",
   "tagline": "Roppongi in 11 minutes and Otemachi in 14 minutes. Served by 2 lines. A one-room flat rents for roughly ¥140,000 to ¥150,000.",
-  "summary": "The station is in Minato City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 14 minutes to Otemachi, 21 minutes to Shinjuku, 17 minutes to Shibuya and 19 minutes to Shinagawa. A one-room flat rents for roughly ¥140,000 to ¥150,000. The station stands 10.5 m above sea level, and the ground within 800 m varies in height by 22.0 m. The land around the station rises and falls sharply.",
+  "summary": "The station is in Minato City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 14 minutes to Otemachi, 21 minutes to Shinjuku, 17 minutes to Shibuya and 15 minutes to Shinagawa. A one-room flat rents for roughly ¥140,000 to ¥150,000. The station stands 10.5 m above sea level, and the ground within 800 m varies in height by 22.0 m. The land around the station rises and falls sharply.",
   "terrain": {
     "slope": "hilly",
     "note": "The station sits lower than the ground around it, at 10.5 m above sea level. Within 800 m the ground ranges from 4.2 m to 26.2 m, a difference of 22.0 m."
@@ -56,8 +56,8 @@
   "neighbours": [
     {
       "slug": "sengakuji",
-      "lead": "For how close the centre is, Sengakuji; for lower rent, Shirokane-Takanawa. ",
-      "note": "Close enough to walk to from Shirokane-Takanawa. Sengakuji has the Keikyu Main Line and Toei Asakusa Line, a different set from Shirokane-Takanawa. To Shinagawa, for instance, Sengakuji is 17 minutes quicker. A one-room flat costs about ¥6,000 more at Sengakuji. On safety, Shirokane-Takanawa comes out ahead."
+      "lead": "Shirokane-Takanawa is ahead on lower rent and safety. ",
+      "note": "Close enough to walk to from Shirokane-Takanawa. Shirokane-Takanawa adds the Tokyo Metro Namboku Line and Toei Mita Line; Sengakuji adds the Keikyu Main Line and Toei Asakusa Line. Which is faster depends on where you are going: Shirokane-Takanawa is 6 minutes quicker to Shinjuku, Sengakuji is 13 minutes quicker to Shinagawa. A one-room flat costs about ¥6,000 more at Sengakuji. On safety, Shirokane-Takanawa comes out ahead."
     },
     {
       "slug": "shirokanedai",
@@ -88,7 +88,7 @@
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

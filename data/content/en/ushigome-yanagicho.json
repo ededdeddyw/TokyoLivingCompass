@@ -2,8 +2,8 @@
   "slug": "ushigome-yanagicho",
   "locale": "en",
   "name": "Ushigome-Yanagicho",
-  "tagline": "Otemachi in 16 minutes and Shinjuku in 18 minutes. Served by 1 line. A one-room flat rents for roughly ¥110,000 to ¥120,000.",
-  "summary": "The station is in Shinjuku City, served by Toei Oedo Line. Journey times to the main business districts are 16 minutes to Otemachi, 18 minutes to Shinjuku, 19 minutes to Shibuya and 35 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 26.6 m above sea level, and the ground within 800 m varies in height by 13.3 m. The land around the station has gentle slopes.",
+  "tagline": "Shinjuku in 9 minutes and Otemachi in 16 minutes. Served by 1 line. A one-room flat rents for roughly ¥110,000 to ¥120,000.",
+  "summary": "The station is in Shinjuku City, served by Toei Oedo Line. Journey times to the main business districts are 16 minutes to Otemachi, 9 minutes to Shinjuku, 19 minutes to Shibuya and 38 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 26.6 m above sea level, and the ground within 800 m varies in height by 13.3 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 26.6 m above sea level. Within 800 m the ground ranges from 21.4 m to 34.7 m, a difference of 13.3 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥110,000 to ¥120,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. quiet surroundings pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥110,000 to ¥120,000. Set against how long it takes to reach the central business districts, that is on the low side. quiet surroundings pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "wakamatsu-kawada",
-      "lead": "Ushigome-Yanagicho is ahead on safety, and little else separates the two. ",
-      "note": "Close enough to walk to from Ushigome-Yanagicho. It is served by the same lines as Ushigome-Yanagicho. Journey times to the main business districts are much the same. On safety, Ushigome-Yanagicho comes out ahead."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Ushigome-Yanagicho. It is served by the same lines as Ushigome-Yanagicho. Journey times to the main business districts are much the same. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "waseda",
-      "lead": "Ushigome-Yanagicho is ahead on how close the centre is and quiet. ",
-      "note": "Close enough to walk to from Ushigome-Yanagicho. Waseda has the Tokyo Metro Tozai Line, a different set from Ushigome-Yanagicho. To Shibuya, for instance, Waseda takes 5 minutes longer. On quiet, Ushigome-Yanagicho comes out ahead."
+      "lead": "Ushigome-Yanagicho is ahead on quiet, and little else separates the two. ",
+      "note": "Close enough to walk to from Ushigome-Yanagicho. Ushigome-Yanagicho adds the Toei Oedo Line; Waseda adds the Tokyo Metro Tozai Line. Which is faster depends on where you are going: Ushigome-Yanagicho is 10 minutes quicker to Roppongi, Waseda is 6 minutes quicker to Shinagawa. On quiet, Ushigome-Yanagicho comes out ahead."
     }
   ],
   "goodFor": [
@@ -88,7 +88,7 @@
     "groceries": "There are 10 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Toei Oedo Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
     "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."

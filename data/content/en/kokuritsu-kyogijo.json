@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Kokuritsu-Kyogijo",
   "tagline": "Shinjuku in 5 minutes and Roppongi in 5 minutes. Served by 1 line. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
-  "summary": "The station is in Shinjuku City, served by Toei Oedo Line. Journey times to the main business districts are 21 minutes to Otemachi, 5 minutes to Shinjuku, 13 minutes to Shibuya and 28 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 29 m above sea level, and the ground within 800 m varies in height by 6.9 m. The land around the station is close to level.",
+  "summary": "The station is in Shinjuku City, served by Toei Oedo Line. Journey times to the main business districts are 21 minutes to Otemachi, 5 minutes to Shinjuku, 13 minutes to Shibuya and 26 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 29 m above sea level, and the ground within 800 m varies in height by 6.9 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 29 m above sea level. Within 800 m the ground ranges from 27.7 m to 34.6 m, a difference of 6.9 m."
@@ -42,13 +42,13 @@
   "neighbours": [
     {
       "slug": "sendagaya",
-      "lead": "Kokuritsu-Kyogijo is ahead on how close the centre is, and little else separates the two. ",
-      "note": "Close enough to walk to from Kokuritsu-Kyogijo. Sendagaya has the JR Chuo-Sobu Line (Local), a different set from Kokuritsu-Kyogijo. To Roppongi, for instance, Sendagaya takes 11 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Kokuritsu-Kyogijo. Kokuritsu-Kyogijo adds the Toei Oedo Line; Sendagaya adds the JR Chuo-Sobu Line (Local). Which is faster depends on where you are going: Kokuritsu-Kyogijo is 11 minutes quicker to Roppongi, Sendagaya is 5 minutes quicker to Tokyo. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "shinanomachi",
-      "lead": "For lower rent, Shinanomachi; for how close the centre is, Kokuritsu-Kyogijo. ",
-      "note": "Close enough to walk to from Kokuritsu-Kyogijo. Shinanomachi has the JR Chuo-Sobu Line (Local), a different set from Kokuritsu-Kyogijo. To Roppongi, for instance, Shinanomachi takes 13 minutes longer. A one-room flat costs about ¥22,000 less at Shinanomachi. On safety, Shinanomachi comes out ahead."
+      "lead": "For lower rent, Shinanomachi; for quiet, Kokuritsu-Kyogijo. ",
+      "note": "Close enough to walk to from Kokuritsu-Kyogijo. Kokuritsu-Kyogijo adds the Toei Oedo Line; Shinanomachi adds the JR Chuo-Sobu Line (Local). Which is faster depends on where you are going: Kokuritsu-Kyogijo is 13 minutes quicker to Roppongi, Shinanomachi is 7 minutes quicker to Tokyo. A one-room flat costs about ¥22,000 less at Shinanomachi. On quiet, Kokuritsu-Kyogijo comes out ahead."
     }
   ],
   "goodFor": [

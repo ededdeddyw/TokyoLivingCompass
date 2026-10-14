@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Toshimaen",
   "tagline": "Shinjuku in 21 minutes and Shibuya in 31 minutes. Served by 2 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Nerima City, where Seibu and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 40 minutes to Otemachi, 21 minutes to Shinjuku, 31 minutes to Shibuya and 52 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 40.9 m above sea level, and the ground within 800 m varies in height by 10.9 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Nerima City, where Seibu and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 40 minutes to Otemachi, 21 minutes to Shinjuku, 31 minutes to Shibuya and 50 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 40.9 m above sea level, and the ground within 800 m varies in height by 10.9 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 40.9 m above sea level. Within 800 m the ground ranges from 30.5 m to 41.4 m, a difference of 10.9 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "nerima",
-      "lead": "For rail connections, Nerima; for quiet, Toshimaen. ",
-      "note": "Close enough to walk to from Toshimaen. Nerima also has the Seibu Ikebukuro Line and Seibu Yurakucho Line, which Toshimaen does not. With more lines, Nerima is the better connected of the two. To Tokyo, for instance, Nerima is 5 minutes quicker. On quiet, though, Toshimaen comes out ahead."
+      "lead": "For how close the centre is, Nerima; for quiet, Toshimaen. ",
+      "note": "Close enough to walk to from Toshimaen. Both have the Seibu Toshima Line and Toei Oedo Line. Nerima also has the Seibu Ikebukuro Line and Seibu Yurakucho Line, which Toshimaen does not. Nerima is at least 5 minutes quicker to Tokyo and Otemachi. On quiet, though, Toshimaen comes out ahead."
     },
     {
       "slug": "nakamurabashi",
-      "lead": "For safety, Nakamurabashi; for rail connections, Toshimaen. ",
-      "note": "About 1 km from Toshimaen in a straight line. Nakamurabashi has only the Seibu Ikebukuro Line, so Toshimaen is the better connected. To Toranomon, for instance, Nakamurabashi takes 7 minutes longer. On the number of places to eat out, though, Nakamurabashi comes out ahead."
+      "lead": "For what it offers families, Nakamurabashi; for how close the centre is, Toshimaen. ",
+      "note": "About 1 km from Toshimaen in a straight line. Toshimaen adds the Seibu Toshima Line and Toei Oedo Line; Nakamurabashi adds the Seibu Ikebukuro Line. Toshimaen is at least 6 minutes quicker to Toranomon and Shinjuku. On the number of places to eat out, though, Nakamurabashi comes out ahead. Within about 13 minutes' walk, Nakamurabashi has 40 restaurants and Toshimaen has 27."
     }
   ],
   "goodFor": [

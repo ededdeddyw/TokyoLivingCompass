@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Iogi",
   "tagline": "Shinjuku in 29 minutes and Shibuya in 39 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Suginami City, where Seibu run 1 line between them. Journey times to the main business districts are 39 minutes to Otemachi, 29 minutes to Shinjuku, 39 minutes to Shibuya and 60 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 42.4 m above sea level, and the ground within 800 m varies in height by 6.5 m. The land around the station is close to level.",
+  "summary": "The station is in Suginami City, where Seibu run 1 line between them. Journey times to the main business districts are 39 minutes to Otemachi, 29 minutes to Shinjuku, 39 minutes to Shibuya and 54 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 42.4 m above sea level, and the ground within 800 m varies in height by 6.5 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 42.4 m above sea level. Within 800 m the ground ranges from 42.4 m to 48.9 m, a difference of 6.5 m."
@@ -57,12 +57,12 @@
     {
       "slug": "shimo-igusa",
       "lead": "Iogi is ahead on how easy the shopping is, and little else separates the two. ",
-      "note": "Close enough to walk to from Iogi. It is served by the same lines as Iogi. Journey times to the main business districts are much the same. On how easy the shopping is, Iogi comes out ahead."
+      "note": "Close enough to walk to from Iogi. It is served by the same lines as Iogi. Journey times to the main business districts are much the same. On how easy the shopping is, Iogi comes out ahead. Within about 13 minutes' walk, Iogi has 8 supermarkets (ピーコックストア and サミットストアー and others) and Shimo-Igusa has 4."
     },
     {
       "slug": "kami-igusa",
-      "lead": "For the number of places to eat out, Kami-Igusa; for how close the centre is, Iogi. ",
-      "note": "About 1 km from Iogi in a straight line. It is served by the same lines as Iogi. To Shinjuku, for instance, Kami-Igusa takes 3 minutes longer. On the number of places to eat out, Kami-Igusa comes out ahead."
+      "lead": "For the number of places to eat out, Kami-Igusa; for quiet, Iogi. ",
+      "note": "About 1 km from Iogi in a straight line. It is served by the same lines as Iogi. Journey times to the main business districts are much the same. On quiet, Iogi comes out ahead."
     }
   ],
   "goodFor": [
@@ -76,7 +76,7 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "環八通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+    "The nearest big road, 新青梅街道, is far enough that little traffic noise reaches the station area"
   ],
   "tags": [
     "quiet",
@@ -92,7 +92,7 @@
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
     "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
-    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
+    "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
   },
   "authoredBy": "data-generated"
 }

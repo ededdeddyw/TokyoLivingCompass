@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Kohoku",
   "tagline": "Otemachi in 33 minutes and Tokyo in 35 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Adachi City, where the Tokyo Metropolitan Bureau of Transportation run 1 line between them. Journey times to the main business districts are 33 minutes to Otemachi, 45 minutes to Shinjuku, 51 minutes to Shibuya and 49 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 2.3 m above sea level, and the ground within 800 m varies in height by 1.6 m. The land around the station is close to level.",
+  "summary": "The station is in Adachi City, where the Tokyo Metropolitan Bureau of Transportation run 1 line between them. Journey times to the main business districts are 33 minutes to Otemachi, 45 minutes to Shinjuku, 54 minutes to Shibuya and 49 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 2.3 m above sea level, and the ground within 800 m varies in height by 1.6 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 2.3 m above sea level. Within 800 m the ground ranges from 1.8 m to 3.4 m, a difference of 1.6 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is on the low side. schools and parks within walking distance pushes the figure up. On the other side, a large projected flood depth and only one line, the {line}, serving the station holds it down.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. schools and parks within walking distance pushes the figure up. On the other side, a large projected flood depth and only one line, the {line}, serving the station holds it down.",
   "neighbours": [
     {
       "slug": "koya",
-      "lead": "For how close the centre is, Koya; for safety, Kohoku. ",
-      "note": "Close enough to walk to from Kohoku. It is served by the same lines as Kohoku. To Tokyo, for instance, Koya is 3 minutes quicker. On safety, Kohoku comes out ahead."
+      "lead": "Kohoku is ahead on safety, and little else separates the two. ",
+      "note": "Close enough to walk to from Kohoku. It is served by the same lines as Kohoku. Journey times to the main business districts are much the same. On safety, Kohoku comes out ahead."
     },
     {
       "slug": "nishiaraidaishi-nishi",
-      "lead": "Kohoku is ahead on how close the centre is, and little else separates the two. ",
-      "note": "Close enough to walk to from Kohoku. It is served by the same lines as Kohoku. To Toranomon, for instance, Nishiaraidaishi-Nishi takes 3 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Kohoku. It is served by the same lines as Kohoku. Journey times to the main business districts are much the same. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -88,7 +88,7 @@
     "groceries": "There are 5 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Nippori-Toneri Liner serves this station, so when it stops you walk to another station.",
-    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },

@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Ebisu",
   "tagline": "Shibuya in 2 minutes and Roppongi in 6 minutes. Served by 4 lines. A one-room flat rents for roughly ¥150,000 to ¥160,000.",
-  "summary": "The station is in Shibuya City, where JR East and Tokyo Metro run 4 lines between them. Journey times to the main business districts are 22 minutes to Otemachi, 7 minutes to Shinjuku, 2 minutes to Shibuya and 19 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 15.5 m above sea level, and the ground within 800 m varies in height by 17.2 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shibuya City, where JR East and Tokyo Metro run 4 lines between them. Journey times to the main business districts are 22 minutes to Otemachi, 7 minutes to Shinjuku, 2 minutes to Shibuya and 12 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 15.5 m above sea level, and the ground within 800 m varies in height by 17.2 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 15.5 m above sea level. Within 800 m the ground ranges from 13.5 m to 30.7 m, a difference of 17.2 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥150,000 to ¥160,000. Set against how long it takes to reach the central business districts, that is on the high side. What pushes the figure up: 4 lines and a wide choice of connections and a small projected flood depth. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥150,000 to ¥160,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What pushes the figure up: 4 lines and a wide choice of connections and a small projected flood depth. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "daikanyama",
-      "lead": "For quiet, Daikanyama; for rail connections, Ebisu. ",
-      "note": "Close enough to walk to from Ebisu. Daikanyama has only the Tokyu Toyoko Line, so Ebisu is the better connected. To Shinagawa, for instance, Daikanyama takes 10 minutes longer. On quiet, though, Daikanyama comes out ahead."
+      "lead": "For quiet, Daikanyama; for how close the centre is, Ebisu. ",
+      "note": "Close enough to walk to from Ebisu. Ebisu adds the 4 lines; Daikanyama adds the Tokyu Toyoko Line. Ebisu is at least 9 minutes quicker to Shinagawa and Toranomon. On quiet, though, Daikanyama comes out ahead."
     },
     {
       "slug": "nakameguro",
-      "lead": "For lower rent, Naka-Meguro; for rail connections, Ebisu. ",
-      "note": "About 1 km from Ebisu in a straight line. Naka-Meguro has only the Tokyu Toyoko Line and Tokyo Metro Hibiya Line, so Ebisu is the better connected. To Shinjuku, for instance, Naka-Meguro takes 7 minutes longer. A one-room flat, though, costs about ¥24,000 less at Naka-Meguro."
+      "lead": "For lower rent, Naka-Meguro; for how close the centre is, Ebisu. ",
+      "note": "About 1 km from Ebisu in a straight line. Both have the Tokyo Metro Hibiya Line. Ebisu adds the JR Yamanote Line, JR Saikyo Line and JR Shonan-Shinjuku Line; Naka-Meguro adds the Tokyu Toyoko Line. Ebisu is at least 7 minutes quicker to Shinjuku and Shinagawa. A one-room flat, though, costs about ¥24,000 less at Naka-Meguro."
     }
   ],
   "goodFor": [
@@ -88,9 +88,9 @@
     "groceries": "There are 10 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
     "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "4 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
-    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are some of the most heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

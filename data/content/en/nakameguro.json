@@ -2,8 +2,8 @@
   "slug": "nakameguro",
   "locale": "en",
   "name": "Nakameguro",
-  "tagline": "Three minutes to Shibuya, eight to Roppongi, and the Hibiya Line starts here, so queue on the platform and you will usually get a seat. The drawbacks are the rent and the cherry blossom weekends, when crowds along the river make even a trip to the supermarket slow.",
-  "summary": "The Tokyu Toyoko Line reaches Shibuya in three minutes; the Hibiya Line reaches Roppongi in eight and Toranomon in fifteen. The Hibiya Line starts at this station, so if you queue on the platform you can usually sit down even in the morning. Independent restaurants and shops line the Meguro River, and the calm of the streets ranks among the best in Tokyo. In exchange, rent is the highest of any station on this site, and on cherry blossom weekends the riverside pavements fill with visitors, so even walking to the local supermarket takes time. The station sits in the valley the Meguro River cut, so slopes are constant, and some people find that a daily burden once they have moved in.",
+  "tagline": "Four minutes to Shibuya, nine to Roppongi, and the Hibiya Line starts here, so queue on the platform and you will usually get a seat. The drawbacks are the rent and the cherry blossom weekends, when crowds along the river make even a trip to the supermarket slow.",
+  "summary": "The Tokyu Toyoko Line reaches Shibuya in four minutes; the Hibiya Line reaches Roppongi in nine and Toranomon in fourteen. The Hibiya Line starts at this station, so if you queue on the platform you can usually sit down even in the morning. Independent restaurants and shops line the Meguro River, and the calm of the streets ranks among the best in Tokyo. In exchange, rent is the highest of any station on this site, and on cherry blossom weekends the riverside pavements fill with visitors, so even walking to the local supermarket takes time. The station sits in the valley the Meguro River cut, so slopes are constant, and some people find that a daily burden once they have moved in.",
   "faces": {
     "morning": "Because the Hibiya Line starts here, you can sit down on the way to Roppongi and Toranomon. At peak times, though, a queue forms on the platform and you may let one train go. The Toyoko Line is one stop from Shibuya, but crowded in that direction. Outside the station, commuters and cafe customers mix, and between 7 and 9 the pavements feel narrow.",
     "daytime": "Weekday afternoons are quiet, with only a scattering of people walking along the river. The restaurants and shops are open, but foot traffic is light.",
@@ -90,7 +90,7 @@
   "hazards": "On the national hazard map, for the flood scenario based on the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Two of the nine points within 400 m of the station fall inside the area. The station sits at 9 m above sea level, at the bottom of the valley cut by the Meguro River, and the ground leaves the area as you climb. The choice is between the convenience of the riverside and the smaller projection up the slope. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
   "stationNote": "The Toyoko and Hibiya Lines share a platform, so you can switch between the Shibuya direction and the Roppongi direction without leaving it. The Hibiya Line starts at this station, so queue and you can sit all the way into central Tokyo in the morning. Toyoko Line expresses towards Shibuya are crowded, though; it is one stop, but the morning ride is not comfortable.",
   "nightWalk": "The area around the station and along the Meguro River is lit and busy at night. Up the slope, the residential streets have fewer lamps and fewer people. The distance is short but the gradient is real, so walk the route up the hill once before you decide how you feel about it.",
-  "rentReason": "Three minutes to Shibuya, eight to Roppongi, a seat on the Hibiya Line, and on top of that strong demand for the calm of the streets. Rent is high not only because the station is convenient: many people value living in this particular neighbourhood, and that demand pushes rents up. On the same budget you could have a larger flat one station away, so opinions divide on whether the difference is worth paying for the neighbourhood itself.",
+  "rentReason": "Four minutes to Shibuya, nine to Roppongi, a seat on the Hibiya Line, and on top of that strong demand for the calm of the streets. Rent is high not only because the station is convenient: many people value living in this particular neighbourhood, and that demand pushes rents up. On the same budget you could have a larger flat one station away, so opinions divide on whether the difference is worth paying for the neighbourhood itself.",
   "rentRange": {
     "note": "Newer blocks along the river and older buildings up the slope differ sharply in rent. Even within the same ten-minute walk of Nakameguro, the market towards Daikanyama sits a step above the market towards Yutenji. Treating the whole neighbourhood as one figure will mislead you about what you can actually rent.",
     "drivers": [
@@ -111,7 +111,7 @@
     },
     {
       "slug": "kiyosumi-shirakawa",
-      "note": "If you want to cut the budget substantially while keeping a neighbourhood with character of its own, choose Kiyosumi-Shirakawa. Shibuya becomes 25 minutes direct on the Hanzomon Line, but rent for a 1LDK falls by roughly ¥70,000.",
+      "note": "If you want to cut the budget substantially while keeping a neighbourhood with character of its own, choose Kiyosumi-Shirakawa. Shibuya becomes 27 minutes direct on the Hanzomon Line, but rent for a 1LDK falls by roughly ¥70,000.",
       "lead": "Kiyosumi-Shirakawa is ahead on quiet, but Naka-Meguro is ahead on how little of the area is in the flood projection and how close the centre is."
     }
   ],
@@ -133,13 +133,13 @@
   "neighbours": [
     {
       "slug": "daikanyama",
-      "lead": "For how easy the shopping is, Daikanyama; for rail connections, Naka-Meguro. ",
-      "note": "Close enough to walk to from Naka-Meguro. Daikanyama has only the Tokyu Toyoko Line, so Naka-Meguro is the better connected. To Toranomon, for instance, Daikanyama takes 6 minutes longer. A one-room flat also costs about ¥26,000 more at Daikanyama. On how easy the shopping is, though, Daikanyama comes out ahead."
+      "lead": "For how easy the shopping is, Daikanyama; for how close the centre is, Naka-Meguro. ",
+      "note": "Close enough to walk to from Naka-Meguro. Both have the Tokyu Toyoko Line. Naka-Meguro also has the Tokyo Metro Hibiya Line, which Daikanyama does not. Naka-Meguro is at least 6 minutes quicker to Toranomon and Tokyo. A one-room flat also costs about ¥26,000 more at Daikanyama. On how easy the shopping is, though, Daikanyama comes out ahead. Within about 13 minutes' walk, Daikanyama has 13 supermarkets (ピーコックストア and peacock and others) and Naka-Meguro has 6."
     },
     {
       "slug": "yutenji",
-      "lead": "For lower rent, Yutenji; for rail connections, Naka-Meguro. ",
-      "note": "About 1 km from Naka-Meguro in a straight line. Yutenji has only the Tokyu Toyoko Line, so Naka-Meguro is the better connected. To Toranomon, for instance, Yutenji takes 7 minutes longer. A one-room flat, though, costs about ¥28,000 less at Yutenji."
+      "lead": "For lower rent, Yutenji; for how close the centre is, Naka-Meguro. ",
+      "note": "About 1 km from Naka-Meguro in a straight line. Both have the Tokyu Toyoko Line. Naka-Meguro also has the Tokyo Metro Hibiya Line, which Yutenji does not. Naka-Meguro is at least 7 minutes quicker to Shinagawa and Toranomon. A one-room flat, though, costs about ¥28,000 less at Yutenji."
     }
   ],
   "leads": {
@@ -151,7 +151,7 @@
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
     "exits": "The main gate leads to the restaurants and the cherry trees along the Meguro River; the south gate is mainly housing. To avoid the cherry blossom crowds, living on the south-gate side makes the walk home easier.",
     "noiseSources": "At this station, check the traffic noise before the noise people make: 首都高速中央環状線 runs 61 m away.",
-    "congestion": "Among the 23 wards' stations, the lines here are some of the most heavily loaded in the morning. "
+    "congestion": "This station sits on the busiest stretch of the Tokyu Toyoko Line, but at 124% passengers are not shoulder to shoulder. "
   },
   "tags": [
     "lowFlood",

@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Iidabashi",
   "tagline": "Otemachi in 6 minutes and Tokyo in 12 minutes. Served by 5 lines. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
-  "summary": "The station is in Chiyoda City, where JR East, Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 5 lines between them. Journey times to the main business districts are 6 minutes to Otemachi, 15 minutes to Shinjuku, 21 minutes to Shibuya and 27 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 5.2 m above sea level, and the ground within 800 m varies in height by 11.6 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Chiyoda City, where JR East, Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 5 lines between them. Journey times to the main business districts are 6 minutes to Otemachi, 14 minutes to Shinjuku, 21 minutes to Shibuya and 30 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 5.2 m above sea level, and the ground within 800 m varies in height by 11.6 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 5.2 m above sea level. Within 800 m the ground ranges from 4.3 m to 15.9 m, a difference of 11.6 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What pushes the figure up: 5 lines and a wide choice of connections and plenty of places to eat out. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is on the high side. What pushes the figure up: 5 lines and a wide choice of connections and plenty of places to eat out. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "ushigome-kagurazaka",
-      "lead": "For lower rent, Ushigome-Kagurazaka; for rail connections, Iidabashi. ",
-      "note": "Close enough to walk to from Iidabashi. Ushigome-Kagurazaka has only the Toei Oedo Line, so Iidabashi is the better connected. To Roppongi, for instance, Ushigome-Kagurazaka takes 8 minutes longer. A one-room flat, though, costs about ¥17,000 less at Ushigome-Kagurazaka."
+      "lead": "For lower rent, Ushigome-Kagurazaka; for how close the centre is, Iidabashi. ",
+      "note": "Close enough to walk to from Iidabashi. Both have the Toei Oedo Line. Iidabashi also has the 4 lines, which Ushigome-Kagurazaka does not. Iidabashi is at least 7 minutes quicker to Toranomon and Otemachi. A one-room flat, though, costs about ¥17,000 less at Ushigome-Kagurazaka."
     },
     {
       "slug": "suidobashi",
-      "lead": "Iidabashi is ahead on rail connections and safety. ",
-      "note": "Close enough to walk to from Iidabashi. Suidobashi has only the JR Chuo-Sobu Line (Local) and Toei Mita Line, so Iidabashi is the better connected. Journey times to the main business districts are much the same. Rents, flood projections and the rest differ little."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Iidabashi. Both have the JR Chuo-Sobu Line (Local). Iidabashi adds the 4 lines; Suidobashi adds the Toei Mita Line. Suidobashi is 5 minutes quicker to Shinagawa, but times to the other main business districts are much the same. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -91,9 +91,9 @@
     "groceries": "There are 11 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "5 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
-    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

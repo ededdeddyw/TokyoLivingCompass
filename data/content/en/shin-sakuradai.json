@@ -2,8 +2,8 @@
   "slug": "shin-sakuradai",
   "locale": "en",
   "name": "Shin-Sakuradai",
-  "tagline": "Shinjuku in 27 minutes and Shibuya in 32 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Nerima City, where Seibu run 1 line between them. Journey times to the main business districts are 37 minutes to Otemachi, 27 minutes to Shinjuku, 32 minutes to Shibuya and 53 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 37.1 m above sea level, and the ground within 800 m varies in height by 1.6 m. The land around the station is close to level.",
+  "tagline": "Shinjuku in 23 minutes and Shibuya in 30 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
+  "summary": "The station is in Nerima City, where Seibu run 1 line between them. Journey times to the main business districts are 33 minutes to Otemachi, 23 minutes to Shinjuku, 30 minutes to Shibuya and 44 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 37.1 m above sea level, and the ground within 800 m varies in height by 1.6 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 37.1 m above sea level. Within 800 m the ground ranges from 36.6 m to 38.2 m, a difference of 1.6 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is on the low side. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "ekoda",
-      "lead": "Ekoda is ahead on how close the centre is and the number of places to eat out. ",
-      "note": "Close enough to walk to from Shin-Sakuradai. Ekoda has the Seibu Ikebukuro Line, a different set from Shin-Sakuradai. To Tokyo, for instance, Ekoda is 7 minutes quicker. On the number of places to eat out, Ekoda comes out ahead."
+      "lead": "Ekoda is ahead on the number of places to eat out, and little else separates the two. ",
+      "note": "Close enough to walk to from Shin-Sakuradai. Shin-Sakuradai adds the Seibu Yurakucho Line; Ekoda adds the Seibu Ikebukuro Line. Ekoda is 5 minutes quicker to Shibuya, but times to the other main business districts are much the same. On the number of places to eat out, Ekoda comes out ahead. Within about 13 minutes' walk, Ekoda has 34 restaurants and Shin-Sakuradai has 28."
     },
     {
       "slug": "sakuradai",
-      "lead": "For how close the centre is, Sakuradai; for safety, Shin-Sakuradai. ",
-      "note": "Close enough to walk to from Shin-Sakuradai. Sakuradai has the Seibu Ikebukuro Line, a different set from Shin-Sakuradai. To Shinjuku, for instance, Sakuradai is 5 minutes quicker. On what it offers families, Shin-Sakuradai comes out ahead."
+      "lead": "Shin-Sakuradai is ahead on what it offers families, and little else separates the two. ",
+      "note": "Close enough to walk to from Shin-Sakuradai. Shin-Sakuradai adds the Seibu Yurakucho Line; Sakuradai adds the Seibu Ikebukuro Line. Journey times to the main business districts are much the same. On what it offers families, Shin-Sakuradai comes out ahead."
     }
   ],
   "goodFor": [
@@ -78,7 +78,7 @@
     "環七通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
-    "quiet",
+    "goodValue",
     "lowFlood",
     "singleLine",
     "flat"
@@ -88,9 +88,9 @@
     "groceries": "There are 8 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
     "hazards": "Neither the station nor the ground around it falls inside the projected flood area.",
     "stationNote": "Only the Seibu Yurakucho Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
+    "congestion": "This station sits on the busiest stretch of the Seibu Yurakucho Line, but at 102% passengers are not shoulder to shoulder. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

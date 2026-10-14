@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is on the high side. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "shin-toyosu",
-      "lead": "For how little of the area is in the flood projection, Shin-Toyosu; for rail connections, Toyosu. ",
-      "note": "Close enough to walk to from Toyosu. Shin-Toyosu has only the Yurikamome, so Toyosu is the better connected. To Tokyo, for instance, Shin-Toyosu takes 8 minutes longer. A one-room flat also costs about ¥57,000 more at Shin-Toyosu. On quiet, though, Shin-Toyosu comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Shin-Toyosu; for how close the centre is, Toyosu. ",
+      "note": "Close enough to walk to from Toyosu. Both have the Yurikamome. Toyosu also has the Tokyo Metro Yurakucho Line, which Shin-Toyosu does not. Toyosu is at least 8 minutes quicker to Tokyo and Shinjuku. A one-room flat also costs about ¥57,000 more at Shin-Toyosu. On quiet, though, Shin-Toyosu comes out ahead."
     },
     {
       "slug": "shijo-mae",
-      "lead": "For how little of the area is in the flood projection, Shijo-Mae; for rail connections, Toyosu. ",
-      "note": "About 1.5 km from Toyosu in a straight line. Shijo-Mae has only the Yurikamome, so Toyosu is the better connected. To Shinjuku, for instance, Shijo-Mae takes 10 minutes longer. A one-room flat also costs about ¥49,000 more at Shijo-Mae. On quiet, though, Shijo-Mae comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Shijo-Mae; for how close the centre is, Toyosu. ",
+      "note": "About 1.5 km from Toyosu in a straight line. Both have the Yurikamome. Toyosu also has the Tokyo Metro Yurakucho Line, which Shijo-Mae does not. Toyosu is at least 10 minutes quicker to Shinjuku and Shinagawa. A one-room flat also costs about ¥49,000 more at Shijo-Mae. On quiet, though, Shijo-Mae comes out ahead."
     }
   ],
   "goodFor": [
@@ -87,9 +87,9 @@
     "groceries": "There are 5 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
-    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

@@ -2,8 +2,8 @@
   "slug": "hikifune",
   "locale": "en",
   "name": "Hikifune",
-  "tagline": "Tokyo in 24 minutes and Otemachi in 24 minutes. Served by 2 lines. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Sumida City, where Tobu run 2 lines between them. Journey times to the main business districts are 24 minutes to Otemachi, 38 minutes to Shinjuku, 43 minutes to Shibuya and 37 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 0.2 m above sea level, and the ground within 800 m varies in height by 1.0 m. The land around the station is close to level.",
+  "tagline": "Tokyo in 20 minutes and Otemachi in 20 minutes. Served by 2 lines. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
+  "summary": "The station is in Sumida City, where Tobu run 2 lines between them. Journey times to the main business districts are 20 minutes to Otemachi, 40 minutes to Shinjuku, 39 minutes to Shibuya and 31 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 0.2 m above sea level, and the ground within 800 m varies in height by 1.0 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 0.2 m above sea level. Within 800 m the ground ranges from -0.8 m to 0.2 m, a difference of 1.0 m."
@@ -52,20 +52,21 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is on the high side. quiet surroundings pushes the figure up. On the other side, a large projected flood depth holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. quiet surroundings pushes the figure up. On the other side, a large projected flood depth holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "keisei-hikifune",
-      "lead": "For lower rent, Keisei-Hikifune; for rail connections, Hikifune. ",
-      "note": "Close enough to walk to from Hikifune. Keisei-Hikifune has only the Keisei Oshiage Line, so Hikifune is the better connected. To Shinjuku, for instance, Keisei-Hikifune takes 3 minutes longer. A one-room flat, though, costs about ¥5,000 less at Keisei-Hikifune."
+      "lead": "Keisei-Hikifune is ahead on lower rent, and little else separates the two. ",
+      "note": "Close enough to walk to from Hikifune. Hikifune adds the Tobu Skytree Line and Tobu Kameido Line; Keisei-Hikifune adds the Keisei Oshiage Line. Journey times to the main business districts are much the same. A one-room flat costs about ¥5,000 less at Keisei-Hikifune."
     },
     {
       "slug": "higashi-mukojima",
-      "lead": "For lower rent, Higashi-Mukojima; for rail connections, Hikifune. ",
-      "note": "Close enough to walk to from Hikifune. Higashi-Mukojima has only the Tobu Skytree Line, so Hikifune is the better connected. Journey times to the main business districts are much the same. A one-room flat, though, costs about ¥11,000 less at Higashi-Mukojima."
+      "lead": "Higashi-Mukojima is ahead on lower rent, and little else separates the two. ",
+      "note": "Close enough to walk to from Hikifune. Both have the Tobu Skytree Line. Hikifune also has the Tobu Kameido Line, which Higashi-Mukojima does not. Journey times to the main business districts are much the same. A one-room flat costs about ¥11,000 less at Higashi-Mukojima."
     }
   ],
   "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
     "People who get around by bicycle or with a pushchair",
     "People living alone who want to hold the rent down"
   ],
@@ -86,7 +87,7 @@
     "groceries": "There are 8 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
-    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."

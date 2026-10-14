@@ -2,8 +2,8 @@
   "slug": "tochomae",
   "locale": "en",
   "name": "Tochomae",
-  "tagline": "Shinjuku in 18 minutes and Shibuya in 19 minutes. Served by 1 line. A one-room flat rents for roughly ¥120,000 to ¥130,000.",
-  "summary": "The station is in Shinjuku City, served by Toei Oedo Line. Journey times to the main business districts are 24 minutes to Otemachi, 18 minutes to Shinjuku, 19 minutes to Shibuya and 43 minutes to Shinagawa. A one-room flat rents for roughly ¥120,000 to ¥130,000. The station stands 33.4 m above sea level, and the ground within 800 m varies in height by 11.7 m. The land around the station has gentle slopes.",
+  "tagline": "Shinjuku in 2 minutes and Shibuya in 12 minutes. Served by 1 line. A one-room flat rents for roughly ¥120,000 to ¥130,000.",
+  "summary": "The station is in Shinjuku City, served by Toei Oedo Line. Journey times to the main business districts are 24 minutes to Otemachi, 2 minutes to Shinjuku, 12 minutes to Shibuya and 30 minutes to Shinagawa. A one-room flat rents for roughly ¥120,000 to ¥130,000. The station stands 33.4 m above sea level, and the ground within 800 m varies in height by 11.7 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 33.4 m above sea level. Within 800 m the ground ranges from 30.1 m to 41.8 m, a difference of 11.7 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥120,000 to ¥130,000. Set against how long it takes to reach the central business districts, that is among the highest in the 23 wards. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥120,000 to ¥130,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "nishi-shinjuku",
-      "lead": "Nishi-Shinjuku is ahead on how close the centre is and lower rent. ",
-      "note": "Close enough to walk to from Tochomae. Nishi-Shinjuku has the Tokyo Metro Marunouchi Line, a different set from Tochomae. To Shinjuku, for instance, Nishi-Shinjuku is 16 minutes quicker. A one-room flat costs about ¥17,000 less at Nishi-Shinjuku."
+      "lead": "Nishi-Shinjuku is ahead on lower rent, and little else separates the two. ",
+      "note": "Close enough to walk to from Tochomae. Tochomae adds the Toei Oedo Line; Nishi-Shinjuku adds the Tokyo Metro Marunouchi Line. Tochomae is 5 minutes quicker to Roppongi, but times to the other main business districts are much the same. A one-room flat costs about ¥17,000 less at Nishi-Shinjuku."
     },
     {
       "slug": "shinjuku",
-      "lead": "For rail connections, Shinjuku; for how little of the area is in the flood projection, Tochomae. ",
-      "note": "Close enough to walk to from Tochomae. Shinjuku has 12 lines that Tochomae does not. With more lines, Shinjuku is the better connected of the two. To Roppongi, for instance, Shinjuku is 23 minutes quicker. On how easy the shopping is, though, Tochomae comes out ahead."
+      "lead": "For how close the centre is, Shinjuku; for how little of the area is in the flood projection, Tochomae. ",
+      "note": "Close enough to walk to from Tochomae. Both have the Toei Oedo Line. Shinjuku also has the 12 lines, which Tochomae does not. Shinjuku is at least 7 minutes quicker to Tokyo and Shibuya. On how easy the shopping is, though, Tochomae comes out ahead. Within about 13 minutes' walk, Tochomae has 8 supermarkets (Maruetsu and はんこ屋さん21 and others) and Shinjuku has 4."
     }
   ],
   "goodFor": [
@@ -77,9 +77,9 @@
     "中央通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
-    "pricey",
     "lowFlood",
     "singleLine",
+    "cafeRich",
     "medicalRich"
   ],
   "leads": {
@@ -87,7 +87,7 @@
     "groceries": "There are 8 supermarkets within walking distance, and the nearest is 7 minutes on foot.",
     "hazards": "Neither the station nor the ground around it falls inside the projected flood area.",
     "stationNote": "Only the Toei Oedo Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "Set against how long the commute takes, rents here are among the highest in the 23 wards.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
     "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."

@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Yoyogi-Uehara",
   "tagline": "Shinjuku in 7 minutes and Shibuya in 13 minutes. Served by 2 lines. A one-room flat rents for roughly ¥110,000 to ¥120,000.",
-  "summary": "The station is in Shibuya City, where Odakyu and Tokyo Metro run 2 lines between them. Journey times to the main business districts are 21 minutes to Otemachi, 7 minutes to Shinjuku, 13 minutes to Shibuya and 36 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 29.2 m above sea level, and the ground within 800 m varies in height by 17.4 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shibuya City, where Odakyu and Tokyo Metro run 2 lines between them. Journey times to the main business districts are 21 minutes to Otemachi, 7 minutes to Shinjuku, 13 minutes to Shibuya and 28 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 29.2 m above sea level, and the ground within 800 m varies in height by 17.4 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 29.2 m above sea level. Within 800 m the ground ranges from 24.7 m to 42.1 m, a difference of 17.4 m."
@@ -56,12 +56,12 @@
   "neighbours": [
     {
       "slug": "higashi-kitazawa",
-      "lead": "For how little of the area is in the flood projection, Higashi-Kitazawa; for rail connections, Yoyogi-Uehara. ",
-      "note": "Close enough to walk to from Yoyogi-Uehara. Higashi-Kitazawa has only the Odakyu Odawara Line, so Yoyogi-Uehara is the better connected. To Toranomon, for instance, Higashi-Kitazawa takes 7 minutes longer. On quiet, though, Higashi-Kitazawa comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Higashi-Kitazawa; for safety, Yoyogi-Uehara. ",
+      "note": "Close enough to walk to from Yoyogi-Uehara. Both have the Odakyu Odawara Line. Yoyogi-Uehara also has the Tokyo Metro Chiyoda Line, which Higashi-Kitazawa does not. Journey times to the main business districts are much the same. On what it offers families, Yoyogi-Uehara comes out ahead."
     },
     {
       "slug": "yoyogi-hachiman",
-      "lead": "Yoyogi-Uehara is ahead on lower rent and safety. ",
+      "lead": "For quiet, Yoyogi-Hachiman; for lower rent, Yoyogi-Uehara. ",
       "note": "Close enough to walk to from Yoyogi-Uehara. It is served by the same lines as Yoyogi-Uehara. Journey times to the main business districts are much the same. A one-room flat costs about ¥26,000 more at Yoyogi-Hachiman. On what it offers families, Yoyogi-Uehara comes out ahead."
     }
   ],
@@ -88,7 +88,7 @@
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

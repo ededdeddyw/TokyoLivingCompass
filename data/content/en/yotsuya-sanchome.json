@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Yotsuya-Sanchome",
   "tagline": "Shinjuku in 5 minutes and Tokyo in 13 minutes. Served by 1 line. A one-room flat rents for roughly ¥120,000 to ¥130,000.",
-  "summary": "The station is in Shinjuku City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 15 minutes to Otemachi, 5 minutes to Shinjuku, 15 minutes to Shibuya and 27 minutes to Shinagawa. A one-room flat rents for roughly ¥120,000 to ¥130,000. The station stands 35 m above sea level, and the ground within 800 m varies in height by 12.2 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shinjuku City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 15 minutes to Otemachi, 5 minutes to Shinjuku, 15 minutes to Shibuya and 28 minutes to Shinagawa. A one-room flat rents for roughly ¥120,000 to ¥130,000. The station stands 35 m above sea level, and the ground within 800 m varies in height by 12.2 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 35 m above sea level. Within 800 m the ground ranges from 22.8 m to 35 m, a difference of 12.2 m."
@@ -57,12 +57,12 @@
     {
       "slug": "akebonobashi",
       "lead": "For quiet, Akebonobashi; for how close the centre is, Yotsuya-Sanchome. ",
-      "note": "Close enough to walk to from Yotsuya-Sanchome. Akebonobashi has the Toei Shinjuku Line, a different set from Yotsuya-Sanchome. To Toranomon, for instance, Akebonobashi takes 8 minutes longer. A one-room flat costs about ¥5,000 more at Akebonobashi. On quiet, Akebonobashi comes out ahead."
+      "note": "Close enough to walk to from Yotsuya-Sanchome. Yotsuya-Sanchome adds the Tokyo Metro Marunouchi Line; Akebonobashi adds the Toei Shinjuku Line. Yotsuya-Sanchome is at least 8 minutes quicker to Tokyo and Toranomon. A one-room flat also costs about ¥5,000 more at Akebonobashi. On quiet, though, Akebonobashi comes out ahead."
     },
     {
       "slug": "shinjuku-gyoemmae",
-      "lead": "For quiet, Shinjuku-Gyoemmae; for how close the centre is, Yotsuya-Sanchome. ",
-      "note": "Close enough to walk to from Yotsuya-Sanchome. It is served by the same lines as Yotsuya-Sanchome. To Tokyo, for instance, Shinjuku-Gyoemmae takes 3 minutes longer. A one-room flat costs about ¥23,000 more at Shinjuku-Gyoemmae. On how easy the shopping is, Yotsuya-Sanchome comes out ahead."
+      "lead": "For quiet, Shinjuku-Gyoemmae; for lower rent, Yotsuya-Sanchome. ",
+      "note": "Close enough to walk to from Yotsuya-Sanchome. It is served by the same lines as Yotsuya-Sanchome. Journey times to the main business districts are much the same. A one-room flat costs about ¥23,000 more at Shinjuku-Gyoemmae. On safety, Yotsuya-Sanchome comes out ahead."
     }
   ],
   "goodFor": [
@@ -91,7 +91,7 @@
     "stationNote": "Only the Tokyo Metro Marunouchi Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

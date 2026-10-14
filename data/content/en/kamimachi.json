@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Kamimachi",
   "tagline": "Shibuya in 24 minutes and Shinjuku in 27 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Setagaya City, where Tokyu run 1 line between them. Journey times to the main business districts are 45 minutes to Otemachi, 27 minutes to Shinjuku, 24 minutes to Shibuya and 50 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 34.3 m above sea level, and the ground within 800 m varies in height by 7.0 m. The land around the station is close to level.",
+  "summary": "The station is in Setagaya City, where Tokyu run 1 line between them. Journey times to the main business districts are 41 minutes to Otemachi, 27 minutes to Shinjuku, 24 minutes to Shibuya and 45 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 34.3 m above sea level, and the ground within 800 m varies in height by 7.0 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 34.3 m above sea level. Within 800 m the ground ranges from 32.2 m to 39.2 m, a difference of 7.0 m."
@@ -49,13 +49,13 @@
   "neighbours": [
     {
       "slug": "setagaya",
-      "lead": "For how close the centre is, Setagaya; for lower rent, Kamimachi. ",
-      "note": "Close enough to walk to from Kamimachi. It is served by the same lines as Kamimachi. To Toranomon, for instance, Setagaya is 3 minutes quicker. A one-room flat costs about ¥7,000 more at Setagaya."
+      "lead": "Kamimachi is ahead on lower rent, and little else separates the two. ",
+      "note": "Close enough to walk to from Kamimachi. It is served by the same lines as Kamimachi. Journey times to the main business districts are much the same. A one-room flat costs about ¥7,000 more at Setagaya."
     },
     {
       "slug": "miyanosaka",
-      "lead": "For how close the centre is, Miyanosaka; for how little of the area is in the flood projection, Kamimachi. ",
-      "note": "Close enough to walk to from Kamimachi. It is served by the same lines as Kamimachi. To Shinjuku, for instance, Miyanosaka is 3 minutes quicker. On how little of the area is in the flood projection, Kamimachi comes out ahead."
+      "lead": "Kamimachi is ahead on how little of the area is in the flood projection, and little else separates the two. ",
+      "note": "Close enough to walk to from Kamimachi. It is served by the same lines as Kamimachi. Journey times to the main business districts are much the same. On how little of the area is in the flood projection, Kamimachi comes out ahead."
     }
   ],
   "goodFor": [
@@ -72,7 +72,7 @@
     "世田谷町田線 (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
-    "pricey",
+    "lowFlood",
     "singleLine",
     "familyFriendly",
     "flat"

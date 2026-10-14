@@ -2,8 +2,8 @@
   "slug": "ochiai",
   "locale": "en",
   "name": "Ochiai",
-  "tagline": "Shinjuku in 15 minutes and Otemachi in 19 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Nakano City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 19 minutes to Otemachi, 15 minutes to Shinjuku, 23 minutes to Shibuya and 39 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 30.9 m above sea level, and the ground within 800 m varies in height by 16.2 m. The land around the station has gentle slopes.",
+  "tagline": "Shinjuku in 16 minutes and Otemachi in 19 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
+  "summary": "The station is in Nakano City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 19 minutes to Otemachi, 16 minutes to Shinjuku, 23 minutes to Shibuya and 39 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 30.9 m above sea level, and the ground within 800 m varies in height by 16.2 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 30.9 m above sea level. Within 800 m the ground ranges from 18.2 m to 34.4 m, a difference of 16.2 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. What holds the figure down: only one line, the {line}, serving the station. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is on the low side. What holds the figure down: only one line, the {line}, serving the station. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "nakai",
-      "lead": "For rail connections, Nakai; for the number of medical facilities, Ochiai. ",
-      "note": "Close enough to walk to from Ochiai. Nakai also has the Seibu Shinjuku Line and Toei Oedo Line, which Ochiai does not. With more lines, Nakai is the better connected of the two. To Roppongi, for instance, Nakai is 10 minutes quicker. On how easy the shopping is, though, Ochiai comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Nakai; for the number of medical facilities, Ochiai. ",
+      "note": "Close enough to walk to from Ochiai. Ochiai adds the Tokyo Metro Tozai Line; Nakai adds the Seibu Shinjuku Line and Toei Oedo Line. Which is faster depends on where you are going: Ochiai is 5 minutes quicker to Tokyo, Nakai is 11 minutes quicker to Roppongi. On how easy the shopping is, Ochiai comes out ahead. Within about 13 minutes' walk, Ochiai has 12 supermarkets (イオン and みらべる and others) and Nakai has 6."
     },
     {
       "slug": "higashi-nakano",
-      "lead": "For rail connections, Higashi-Nakano; for quiet, Ochiai. ",
-      "note": "Close enough to walk to from Ochiai. Higashi-Nakano also has the JR Chuo-Sobu Line (Local) and Toei Oedo Line, which Ochiai does not. With more lines, Higashi-Nakano is the better connected of the two. To Roppongi, for instance, Higashi-Nakano is 12 minutes quicker. On quiet, though, Ochiai comes out ahead."
+      "lead": "Higashi-Nakano is ahead on how little of the area is in the flood projection, and little else separates the two. ",
+      "note": "Close enough to walk to from Ochiai. Ochiai adds the Tokyo Metro Tozai Line; Higashi-Nakano adds the JR Chuo-Sobu Line (Local) and Toei Oedo Line. Which is faster depends on where you are going: Ochiai is 9 minutes quicker to Otemachi, Higashi-Nakano is 13 minutes quicker to Roppongi. On how little of the area is in the flood projection, Higashi-Nakano comes out ahead."
     }
   ],
   "goodFor": [
@@ -76,12 +76,11 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "The 首都高速中央環状線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
     "早稲田通り (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
-    "goodValue",
     "singleLine",
+    "shoppingEasy",
     "parkNear",
     "medicalRich"
   ],
@@ -90,9 +89,9 @@
     "groceries": "There are 12 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
     "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "Only the Tokyo Metro Tozai Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

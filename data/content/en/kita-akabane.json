@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Kita-Akabane",
   "tagline": "Shinjuku in 20 minutes and Shibuya in 26 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Kita City, served by JR Saikyo Line. Journey times to the main business districts are 36 minutes to Otemachi, 20 minutes to Shinjuku, 26 minutes to Shibuya and 49 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 4 m above sea level, and the ground within 800 m varies in height by 9.7 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Kita City, served by JR Saikyo Line. Journey times to the main business districts are 36 minutes to Otemachi, 20 minutes to Shinjuku, 26 minutes to Shibuya and 43 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 4 m above sea level, and the ground within 800 m varies in height by 9.7 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 4 m above sea level. Within 800 m the ground ranges from 2.1 m to 11.8 m, a difference of 9.7 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "ukimafunado",
-      "lead": "Kita-Akabane is ahead on how close the centre is and the number of medical facilities. ",
-      "note": "About 1.5 km from Kita-Akabane in a straight line. It is served by the same lines as Kita-Akabane. To Tokyo, for instance, Ukimafunado takes 3 minutes longer. On the number of medical facilities, Kita-Akabane comes out ahead."
+      "lead": "Kita-Akabane is ahead on the number of medical facilities, and little else separates the two. ",
+      "note": "About 1.5 km from Kita-Akabane in a straight line. It is served by the same lines as Kita-Akabane. Journey times to the main business districts are much the same. On the number of medical facilities, Kita-Akabane comes out ahead."
     },
     {
       "slug": "akabane-iwabuchi",
-      "lead": "For rail connections, Akabane-Iwabuchi; for how close the centre is, Kita-Akabane. ",
-      "note": "About 1.5 km from Kita-Akabane in a straight line. Akabane-Iwabuchi also has the Tokyo Metro Namboku Line and Saitama Railway Line, which Kita-Akabane does not. With more lines, Akabane-Iwabuchi is the better connected of the two. To Shinjuku, for instance, Akabane-Iwabuchi takes 18 minutes longer. On safety, though, Kita-Akabane comes out ahead."
+      "lead": "For the number of medical facilities, Akabane-Iwabuchi; for how close the centre is, Kita-Akabane. ",
+      "note": "About 1.5 km from Kita-Akabane in a straight line. Kita-Akabane adds the JR Saikyo Line; Akabane-Iwabuchi adds the Tokyo Metro Namboku Line and Saitama Railway Line. Kita-Akabane is at least 18 minutes quicker to Shibuya and Shinjuku. On how easy the shopping is, though, Akabane-Iwabuchi comes out ahead. Within about 13 minutes' walk, Akabane-Iwabuchi has 11 supermarkets (まいばすけっと and 赤羽越後屋 and others) and Kita-Akabane has 4."
     }
   ],
   "goodFor": [
@@ -92,7 +92,7 @@
     "stationNote": "Only the JR Saikyo Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are some of the most heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

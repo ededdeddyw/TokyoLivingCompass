@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Waseda (Tokyo Sakura Tram (Toden Arakawa Line))",
   "tagline": "Shinjuku in 28 minutes and Shibuya in 29 minutes. Served by 1 line.",
-  "summary": "The station is in Shinjuku City, where the Tokyo Metropolitan Bureau of Transportation run 1 line between them. Journey times to the main business districts are 37 minutes to Otemachi, 28 minutes to Shinjuku, 29 minutes to Shibuya and 54 minutes to Shinagawa. The station stands 7.7 m above sea level, and the ground within 800 m varies in height by 19.0 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shinjuku City, where the Tokyo Metropolitan Bureau of Transportation run 1 line between them. Journey times to the main business districts are 37 minutes to Otemachi, 28 minutes to Shinjuku, 29 minutes to Shibuya and 50 minutes to Shinagawa. The station stands 7.7 m above sea level, and the ground within 800 m varies in height by 19.0 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 7.7 m above sea level. Within 800 m the ground ranges from 7.5 m to 26.5 m, a difference of 19.0 m."
@@ -45,13 +45,13 @@
   "neighbours": [
     {
       "slug": "omokagebashi",
-      "lead": "For how close the centre is, Omokagebashi; for safety, Waseda (Tokyo Sakura Tram (Toden Arakawa Line)). ",
-      "note": "Close enough to walk to from Waseda (Tokyo Sakura Tram (Toden Arakawa Line)). It is served by the same lines as Waseda (Tokyo Sakura Tram (Toden Arakawa Line)). To Toranomon, for instance, Omokagebashi is 3 minutes quicker. On safety, Waseda (Tokyo Sakura Tram (Toden Arakawa Line)) comes out ahead."
+      "lead": "Omokagebashi is ahead on how little of the area is in the flood projection, and little else separates the two. ",
+      "note": "Close enough to walk to from Waseda (Tokyo Sakura Tram (Toden Arakawa Line)). It is served by the same lines as Waseda (Tokyo Sakura Tram (Toden Arakawa Line)). Journey times to the main business districts are much the same. On how little of the area is in the flood projection, Omokagebashi comes out ahead."
     },
     {
       "slug": "waseda",
       "lead": "For how close the centre is, Waseda; for what it offers families, Waseda (Tokyo Sakura Tram (Toden Arakawa Line)). ",
-      "note": "Close enough to walk to from Waseda (Tokyo Sakura Tram (Toden Arakawa Line)). Waseda has the Tokyo Metro Tozai Line, a different set from Waseda (Tokyo Sakura Tram (Toden Arakawa Line)). To Otemachi, for instance, Waseda is 26 minutes quicker. On what it offers families, Waseda (Tokyo Sakura Tram (Toden Arakawa Line)) comes out ahead."
+      "note": "Close enough to walk to from Waseda (Tokyo Sakura Tram (Toden Arakawa Line)). Waseda (Tokyo Sakura Tram (Toden Arakawa Line)) adds the Tokyo Sakura Tram (Toden Arakawa Line); Waseda adds the Tokyo Metro Tozai Line. Waseda is at least 23 minutes quicker to Otemachi and Tokyo. On what it offers families, though, Waseda (Tokyo Sakura Tram (Toden Arakawa Line)) comes out ahead."
     }
   ],
   "goodFor": [

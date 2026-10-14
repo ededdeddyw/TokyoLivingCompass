@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Kasairinkaikoen",
   "tagline": "Tokyo in 18 minutes and Otemachi in 24 minutes. Served by 1 line. A one-room flat rents for roughly ¥60,000 to ¥70,000.",
-  "summary": "The station is in Edogawa City, served by JR Keiyo Line. Journey times to the main business districts are 24 minutes to Otemachi, 38 minutes to Shinjuku, 45 minutes to Shibuya and 32 minutes to Shinagawa. A one-room flat rents for roughly ¥60,000 to ¥70,000. The station stands 4.6 m above sea level, and the ground within 800 m varies in height by 7.6 m. The land around the station is close to level.",
+  "summary": "The station is in Edogawa City, served by JR Keiyo Line. Journey times to the main business districts are 24 minutes to Otemachi, 38 minutes to Shinjuku, 46 minutes to Shibuya and 32 minutes to Shinagawa. A one-room flat rents for roughly ¥60,000 to ¥70,000. The station stands 4.6 m above sea level, and the ground within 800 m varies in height by 7.6 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 4.6 m above sea level. Within 800 m the ground ranges from 2.8 m to 10.4 m, a difference of 7.6 m."
@@ -27,12 +27,12 @@
     {
       "slug": "nishi-kasai",
       "lead": "For the number of medical facilities, Nishi-Kasai; for how close the centre is, Kasairinkaikoen. ",
-      "note": "About 2.5 km from Kasairinkaikoen in a straight line. Nishi-Kasai has the Tokyo Metro Tozai Line, a different set from Kasairinkaikoen. To Tokyo, for instance, Nishi-Kasai takes 9 minutes longer. A one-room flat costs about ¥8,000 more at Nishi-Kasai. On how easy the shopping is, Nishi-Kasai comes out ahead."
+      "note": "About 2.5 km from Kasairinkaikoen in a straight line. Kasairinkaikoen adds the JR Keiyo Line; Nishi-Kasai adds the Tokyo Metro Tozai Line. Kasairinkaikoen is at least 8 minutes quicker to Tokyo and Shinagawa. A one-room flat also costs about ¥8,000 more at Nishi-Kasai. On how easy the shopping is, though, Nishi-Kasai comes out ahead. Within about 13 minutes' walk, Nishi-Kasai has 14 supermarkets (ワイズマート and まいばすけっと and others) and Kasairinkaikoen has 0."
     },
     {
       "slug": "kasai",
       "lead": "For the number of medical facilities, Kasai; for how close the centre is, Kasairinkaikoen. ",
-      "note": "About 2.5 km from Kasairinkaikoen in a straight line. Kasai has the Tokyo Metro Tozai Line, a different set from Kasairinkaikoen. To Tokyo, for instance, Kasai takes 12 minutes longer. On how easy the shopping is, Kasai comes out ahead."
+      "note": "About 2.5 km from Kasairinkaikoen in a straight line. Kasairinkaikoen adds the JR Keiyo Line; Kasai adds the Tokyo Metro Tozai Line. Kasairinkaikoen is at least 11 minutes quicker to Tokyo and Shinagawa. On how easy the shopping is, though, Kasai comes out ahead. Within about 13 minutes' walk, Kasai has 14 supermarkets (東武ストア and ワイズマート and others) and Kasairinkaikoen has 0."
     }
   ],
   "goodFor": [
@@ -62,7 +62,7 @@
     "stationNote": "Only the JR Keiyo Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
+    "congestion": "This station sits on the busiest stretch of the JR Keiyo Line, but at 123% passengers are not shoulder to shoulder. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

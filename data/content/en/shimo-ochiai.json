@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Shimo-Ochiai",
   "tagline": "Shinjuku in 14 minutes and Shibuya in 22 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Shinjuku City, where Seibu run 1 line between them. Journey times to the main business districts are 22 minutes to Otemachi, 14 minutes to Shinjuku, 22 minutes to Shibuya and 43 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 15.9 m above sea level, and the ground within 800 m varies in height by 20.7 m. The land around the station rises and falls sharply.",
+  "summary": "The station is in Shinjuku City, where Seibu run 1 line between them. Journey times to the main business districts are 22 minutes to Otemachi, 14 minutes to Shinjuku, 22 minutes to Shibuya and 37 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 15.9 m above sea level, and the ground within 800 m varies in height by 20.7 m. The land around the station rises and falls sharply.",
   "terrain": {
     "slope": "hilly",
     "note": "The station sits lower than the ground around it, at 15.9 m above sea level. Within 800 m the ground ranges from 14.3 m to 35 m, a difference of 20.7 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "nakai",
-      "lead": "For rail connections, Nakai; for how easy the shopping is, Shimo-Ochiai. ",
-      "note": "Close enough to walk to from Shimo-Ochiai. Nakai also has the Toei Oedo Line, which Shimo-Ochiai does not. With more lines, Nakai is the better connected of the two. To Toranomon, for instance, Nakai is 7 minutes quicker. On quiet, though, Shimo-Ochiai comes out ahead."
+      "lead": "For how close the centre is, Nakai; for how easy the shopping is, Shimo-Ochiai. ",
+      "note": "Close enough to walk to from Shimo-Ochiai. Both have the Seibu Shinjuku Line. Nakai also has the Toei Oedo Line, which Shimo-Ochiai does not. Nakai is at least 7 minutes quicker to Toranomon and Roppongi. On quiet, though, Shimo-Ochiai comes out ahead."
     },
     {
       "slug": "takadanobaba",
-      "lead": "For rail connections, Takadanobaba; for safety, Shimo-Ochiai. ",
-      "note": "Close enough to walk to from Shimo-Ochiai. Takadanobaba also has the JR Yamanote Line and Tokyo Metro Tozai Line, which Shimo-Ochiai does not. With more lines, Takadanobaba is the better connected of the two. To Tokyo, for instance, Takadanobaba is 7 minutes quicker. On quiet, though, Shimo-Ochiai comes out ahead."
+      "lead": "For how close the centre is, Takadanobaba; for what it offers families, Shimo-Ochiai. ",
+      "note": "Close enough to walk to from Shimo-Ochiai. Both have the Seibu Shinjuku Line. Takadanobaba also has the JR Yamanote Line and Tokyo Metro Tozai Line, which Shimo-Ochiai does not. Takadanobaba is at least 7 minutes quicker to Tokyo and Shinjuku. On quiet, though, Shimo-Ochiai comes out ahead."
     }
   ],
   "goodFor": [
@@ -91,7 +91,7 @@
     "stationNote": "Only the Seibu Shinjuku Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "This station sits on the busiest stretch of the Seibu Shinjuku Line, but at 148% passengers are not shoulder to shoulder. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

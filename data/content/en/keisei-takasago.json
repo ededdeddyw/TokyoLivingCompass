@@ -2,8 +2,8 @@
   "slug": "keisei-takasago",
   "locale": "en",
   "name": "Keisei-Takasago",
-  "tagline": "Tokyo in 38 minutes and Otemachi in 38 minutes. Served by 5 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Katsushika City, where Keisei and Hokuso Railway run 5 lines between them. Journey times to the main business districts are 38 minutes to Otemachi, 52 minutes to Shinjuku, 57 minutes to Shibuya and 51 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 1 m above sea level, and the ground within 800 m varies in height by 0.8 m. The land around the station is close to level.",
+  "tagline": "Tokyo in 35 minutes and Otemachi in 37 minutes. Served by 5 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
+  "summary": "The station is in Katsushika City, where Keisei and Hokuso Railway run 5 lines between them. Journey times to the main business districts are 37 minutes to Otemachi, 50 minutes to Shinjuku, 56 minutes to Shibuya and 47 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 1 m above sea level, and the ground within 800 m varies in height by 0.8 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 1 m above sea level. Within 800 m the ground ranges from 0.8 m to 1.6 m, a difference of 0.8 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is on the high side. 5 lines and a wide choice of connections and schools and parks within walking distance pushes the figure up. On the other side, a large projected flood depth holds it down.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. 5 lines and a wide choice of connections and schools and parks within walking distance pushes the figure up. On the other side, a large projected flood depth holds it down.",
   "neighbours": [
     {
       "slug": "shibamata",
-      "lead": "For the number of medical facilities, Shibamata; for rail connections, Keisei-Takasago. ",
-      "note": "Close enough to walk to from Keisei-Takasago. Shibamata has only the Keisei Kanamachi Line, so Keisei-Takasago is the better connected. To Toranomon, for instance, Shibamata takes 7 minutes longer. On quiet, though, Shibamata comes out ahead."
+      "lead": "For the number of medical facilities, Shibamata; for how close the centre is, Keisei-Takasago. ",
+      "note": "Close enough to walk to from Keisei-Takasago. Both have the Keisei Kanamachi Line. Keisei-Takasago also has the 4 lines, which Shibamata does not. Keisei-Takasago is at least 7 minutes quicker to Roppongi and Toranomon. On quiet, though, Shibamata comes out ahead."
     },
     {
       "slug": "aoto",
-      "lead": "For how close the centre is, Aoto; for rail connections, Keisei-Takasago. ",
-      "note": "About 1 km from Keisei-Takasago in a straight line. Aoto has only the Keisei Main Line, Keisei Oshiage Line and Narita Sky Access Line, so Keisei-Takasago is the better connected. To Toranomon, for instance, Aoto is 3 minutes quicker. On the number of medical facilities, though, Aoto comes out ahead."
+      "lead": "For the number of medical facilities, Aoto; for what it offers families, Keisei-Takasago. ",
+      "note": "About 1 km from Keisei-Takasago in a straight line. Both have the Keisei Main Line, Keisei Oshiage Line and Narita Sky Access Line. Keisei-Takasago also has the Keisei Kanamachi Line and Hokuso Line, which Aoto does not. Journey times to the main business districts are much the same. On the number of medical facilities, Aoto comes out ahead. Within about 13 minutes' walk, Aoto has 34 clinics and pharmacies and Keisei-Takasago has 13."
     }
   ],
   "goodFor": [
@@ -87,9 +87,9 @@
     "groceries": "There are 6 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "5 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
-    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "This station sits on the busiest stretch of the Hokuso Line, but at 90% passengers are not shoulder to shoulder. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

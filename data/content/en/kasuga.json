@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Kasuga",
   "tagline": "Otemachi in 7 minutes and Tokyo in 13 minutes. Served by 2 lines. A one-room flat rents for roughly ¥110,000 to ¥120,000.",
-  "summary": "The station is in Bunkyo City, where the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 7 minutes to Otemachi, 22 minutes to Shinjuku, 25 minutes to Shibuya and 27 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 5.8 m above sea level, and the ground within 800 m varies in height by 16.9 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Bunkyo City, where the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 7 minutes to Otemachi, 16 minutes to Shinjuku, 25 minutes to Shibuya and 27 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 5.8 m above sea level, and the ground within 800 m varies in height by 16.9 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 5.8 m above sea level. Within 800 m the ground ranges from 5.8 m to 22.7 m, a difference of 16.9 m."
@@ -56,17 +56,18 @@
   "neighbours": [
     {
       "slug": "korakuen",
-      "lead": "Korakuen is ahead on how close the centre is, and little else separates the two. ",
-      "note": "Close enough to walk to from Kasuga. Korakuen has the Tokyo Metro Marunouchi Line and Tokyo Metro Namboku Line, a different set from Kasuga. To Shinjuku, for instance, Korakuen is 5 minutes quicker. Rents, flood projections and the rest differ little."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Kasuga. Kasuga adds the Toei Oedo Line and Toei Mita Line; Korakuen adds the Tokyo Metro Marunouchi Line and Tokyo Metro Namboku Line. Journey times to the main business districts are much the same. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "hongo-sanchome",
       "lead": "For how close the centre is, Hongo-Sanchome; for lower rent, Kasuga. ",
-      "note": "Close enough to walk to from Kasuga. Hongo-Sanchome has the Tokyo Metro Marunouchi Line and Toei Oedo Line, a different set from Kasuga. To Tokyo, for instance, Hongo-Sanchome is 6 minutes quicker. A one-room flat costs about ¥19,000 more at Hongo-Sanchome."
+      "note": "Close enough to walk to from Kasuga. Both have the Toei Oedo Line. Kasuga adds the Toei Mita Line; Hongo-Sanchome adds the Tokyo Metro Marunouchi Line. Hongo-Sanchome is at least 5 minutes quicker to Tokyo and Shinagawa. A one-room flat, though, costs about ¥19,000 more at Hongo-Sanchome."
     }
   ],
   "goodFor": [
     "People commuting to Otemachi and Marunouchi",
+    "People commuting towards Shinjuku",
     "People who want to finish their shopping on foot"
   ],
   "notFor": [

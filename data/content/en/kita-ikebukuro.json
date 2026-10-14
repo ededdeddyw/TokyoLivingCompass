@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Kita-Ikebukuro",
   "tagline": "Shinjuku in 15 minutes and Shibuya in 20 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Toshima City, served by Tobu Tojo Line. Journey times to the main business districts are 26 minutes to Otemachi, 15 minutes to Shinjuku, 20 minutes to Shibuya and 41 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 27.5 m above sea level, and the ground within 800 m varies in height by 10.8 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Toshima City, served by Tobu Tojo Line. Journey times to the main business districts are 26 minutes to Otemachi, 15 minutes to Shinjuku, 20 minutes to Shibuya and 36 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 27.5 m above sea level, and the ground within 800 m varies in height by 10.8 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 27.5 m above sea level. Within 800 m the ground ranges from 20.7 m to 31.5 m, a difference of 10.8 m."
@@ -61,8 +61,8 @@
     },
     {
       "slug": "itabashi",
-      "lead": "For how close the centre is, Itabashi; for lower rent, Kita-Ikebukuro. ",
-      "note": "Close enough to walk to from Kita-Ikebukuro. Itabashi has the JR Saikyo Line, a different set from Kita-Ikebukuro. To Shinjuku, for instance, Itabashi is 4 minutes quicker. A one-room flat costs about ¥7,000 more at Itabashi. On quiet, Kita-Ikebukuro comes out ahead."
+      "lead": "Kita-Ikebukuro is ahead on lower rent and quiet. ",
+      "note": "Close enough to walk to from Kita-Ikebukuro. Kita-Ikebukuro adds the Tobu Tojo Line; Itabashi adds the JR Saikyo Line. Journey times to the main business districts are much the same. A one-room flat costs about ¥7,000 more at Itabashi. On quiet, Kita-Ikebukuro comes out ahead."
     }
   ],
   "goodFor": [
@@ -80,6 +80,7 @@
   ],
   "tags": [
     "quiet",
+    "goodValue",
     "singleLine",
     "shoppingEasy",
     "parkNear"
@@ -91,7 +92,7 @@
     "stationNote": "Only the Tobu Tojo Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
+    "congestion": "This station sits on the busiest stretch of the Tobu Tojo Line, but at 131% passengers are not shoulder to shoulder. ",
     "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
   },
   "authoredBy": "data-generated"
