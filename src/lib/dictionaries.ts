@@ -1,9 +1,34 @@
 import type { ActiveLocale } from "./i18n";
-import type { ExitTag, RentMethod, RentType, ScoreAxis, StationTag } from "./schema";
+import type { ExitTag, Persona, PlayStyle, RentMethod, RentType, ScoreAxis, StationTag } from "./schema";
 import type { Grade } from "./scoring";
 import type { SegmentAxis, SegmentOption } from "./weights";
 
 /** UI 文言。駅の散文（data/content）とは別管理（docs/04-i18n.md §6）。 */
+
+/** 駅ページの「暮らし方で見る住みやすさ」の文言 */
+export type PersonaFitLabels = {
+  personas: Record<Persona, string>;
+  styles: Record<PlayStyle, string>;
+  personaLegend: string;
+  styleLegend: string;
+  scoreLabel: string;
+  weightNote: string;
+  weightNoteNoCommute: string;
+  noScore: string;
+  destOutdoor: string;
+  destIndoor: string;
+  here: string;
+  minutes: string;
+  dayTitle: string;
+  assumed: string;
+  assumedNote: string;
+  weekday: string;
+  holiday: string;
+  good: string;
+  care: string;
+  noDay: string;
+  method: string;
+};
 
 export type Dictionary = {
   siteName: string;
@@ -56,7 +81,10 @@ export type Dictionary = {
     weaknessesNone: string;
     allScores: string;
     neutralNote: string;
-    nav: Record<"traits" | "rent" | "commute" | "scores" | "life" | "compare", string>;
+    nav: Record<"traits" | "rent" | "commute" | "scores" | "persona" | "life" | "compare", string>;
+    personaTitle: string;
+    personaSummary: string;
+    personaFit: PersonaFitLabels;
     commuteFastest: string;
     meanRent: string;
     readMore: string;
@@ -296,7 +324,40 @@ const ja: Dictionary = {
     weaknessesNone: "とくに目立つ弱みは少ない駅です。",
     allScores: "18の評価軸をすべて見る",
     neutralNote: "飲食店・カフェ・ナイトライフは、多いほうがよいかどうかが人によって違うので、良し悪しの色を付けていません。",
-    nav: { traits: "どんな街か", rent: "家賃", commute: "通勤", scores: "評価", life: "暮らし", compare: "比べる" },
+    nav: { traits: "どんな街か", rent: "家賃", commute: "通勤", scores: "評価", persona: "暮らし方", life: "暮らし", compare: "比べる" },
+    personaTitle: "暮らし方で見る住みやすさ",
+    personaSummary: "一人暮らし・DINKs・子育てファミリー・シニア世代と、休日の過ごし方ごとに見る",
+    personaFit: {
+      "personas": {
+            "single": "一人暮らし",
+            "dinks": "DINKs（共働き夫婦）",
+            "family": "子育てファミリー",
+            "senior": "シニア世代"
+      },
+      "styles": {
+            "indoor": "インドア派",
+            "outdoor": "アウトドア派"
+      },
+      "personaLegend": "誰が住むか",
+      "styleLegend": "休日の過ごし方",
+      "scoreLabel": "{persona}・{style}の住みやすさ",
+      "weightNote": "暮らし・休日の楽しみに、家賃の安さ（3割）と通勤（{commute}割）を合わせた点です。",
+      "weightNoteNoCommute": "暮らし・休日の楽しみに、家賃の安さ（3割）を合わせた点です。シニア世代は通勤を含めていません。",
+      "noScore": "家賃を調べていないため、点数を出していません。",
+      "destOutdoor": "電車で行きやすい広い公園",
+      "destIndoor": "電車で行きやすい、店の多い街",
+      "here": "この駅のまわり",
+      "minutes": "{minutes}分",
+      "dayTitle": "{persona}の1日",
+      "assumed": "想定",
+      "assumedNote": "実在の人の生活ではなく、この駅のデータから組み立てたものです。",
+      "weekday": "平日",
+      "holiday": "休日",
+      "good": "向いている点",
+      "care": "工夫が要る点",
+      "noDay": "この駅の1日の過ごし方は、まだ書いていません。",
+      "method": "点数は、23区の駅どうしで比べた相対的な位置です。暮らし（駅のまわりの買い物・病院・治安など）と、休日の楽しみ（電車で行ける駅まで含め、遠いほど割り引く）から出しています。広い公園の面積は、国土数値情報の都市公園データとOpenStreetMapによります。"
+    },
     commuteFastest: "短い順",
     meanRent: "平均 {yen}",
     readMore: "続きを読む",
@@ -657,7 +718,40 @@ const en: Dictionary = {
     weaknessesNone: "No standout weaknesses.",
     allScores: "Show all 18 measures",
     neutralNote: "Restaurants, cafés and nightlife are not coloured as good or bad: whether more is better depends on the person.",
-    nav: { traits: "The area", rent: "Rent", commute: "Commute", scores: "Scores", life: "Daily life", compare: "Compare" },
+    nav: { traits: "The area", rent: "Rent", commute: "Commute", scores: "Scores", persona: "Lifestyle", life: "Daily life", compare: "Compare" },
+    personaTitle: "By lifestyle",
+    personaSummary: "By household (living alone, DINKs, families, seniors) and how you spend weekends",
+    personaFit: {
+      "personas": {
+            "single": "Living alone",
+            "dinks": "DINKs",
+            "family": "Families",
+            "senior": "Seniors"
+      },
+      "styles": {
+            "indoor": "Indoor",
+            "outdoor": "Outdoor"
+      },
+      "personaLegend": "Who lives here",
+      "styleLegend": "Weekends",
+      "scoreLabel": "{persona} · {style}",
+      "weightNote": "Daily life and weekend options, combined with low rent (30%) and commute ({commute}0%).",
+      "weightNoteNoCommute": "Daily life and weekend options, combined with low rent (30%). Commute is not included for seniors.",
+      "noScore": "No score: rent has not been surveyed for this station.",
+      "destOutdoor": "Large parks within easy reach by train",
+      "destIndoor": "Busy shopping areas within easy reach by train",
+      "here": "Around this station",
+      "minutes": "{minutes} min",
+      "dayTitle": "A day for {persona}",
+      "assumed": "Example",
+      "assumedNote": "This is an illustration built from this station’s data, not a real person’s day.",
+      "weekday": "Weekday",
+      "holiday": "Weekend",
+      "good": "Works well",
+      "care": "Plan for",
+      "noDay": "No example day has been written for this station yet.",
+      "method": "Scores are relative positions among the 23 wards’ stations, built from daily life around the station and weekend options reachable by train (discounted by travel time). Park areas come from MLIT urban park data and OpenStreetMap."
+    },
     commuteFastest: "Shortest first",
     meanRent: "Average {yen}",
     readMore: "Read more",
@@ -1021,7 +1115,40 @@ const zhHans: Dictionary = {
     weaknessesNone: "没有特别突出的不足。",
     allScores: "查看全部18项评分",
     neutralNote: "餐饮、咖啡馆和夜生活是否越多越好因人而异，因此不标注好坏颜色。",
-    nav: { traits: "街区特色", rent: "租金", commute: "通勤", scores: "评分", life: "生活", compare: "比较" },
+    nav: { traits: "街区特色", rent: "租金", commute: "通勤", scores: "评分", persona: "生活方式", life: "生活", compare: "比较" },
+    personaTitle: "按生活方式看宜居度",
+    personaSummary: "按独居、丁克、育儿家庭、老年人和假日过法来看",
+    personaFit: {
+      "personas": {
+            "single": "独居",
+            "dinks": "丁克夫妇",
+            "family": "育儿家庭",
+            "senior": "老年人"
+      },
+      "styles": {
+            "indoor": "室内派",
+            "outdoor": "户外派"
+      },
+      "personaLegend": "谁来住",
+      "styleLegend": "假日怎么过",
+      "scoreLabel": "{persona}・{style}的宜居度",
+      "weightNote": "在日常生活和假日乐趣之外，计入了房租便宜程度（30%）和通勤（{commute}0%）。",
+      "weightNoteNoCommute": "在日常生活和假日乐趣之外，计入了房租便宜程度（30%）。老年人不计通勤。",
+      "noScore": "尚未调查房租，因此不显示分数。",
+      "destOutdoor": "坐电车方便到达的大型公园",
+      "destIndoor": "坐电车方便到达的商业街区",
+      "here": "本站周边",
+      "minutes": "{minutes}分钟",
+      "dayTitle": "{persona}的一天",
+      "assumed": "示例",
+      "assumedNote": "这不是真实人物的生活，而是根据本站数据设想的示例。",
+      "weekday": "工作日",
+      "holiday": "假日",
+      "good": "优点",
+      "care": "需要注意",
+      "noDay": "尚未撰写本站的一天示例。",
+      "method": "分数是在23区各车站之间比较得出的相对位置，由车站周边的日常生活和坐电车可达的假日去处（越远折扣越大）计算。公园面积来自国土数值信息城市公园数据和OpenStreetMap。"
+    },
     commuteFastest: "由短到长",
     meanRent: "平均 {yen}",
     readMore: "展开阅读",
@@ -1377,7 +1504,40 @@ const ko: Dictionary = {
     weaknessesNone: "특별히 두드러진 약점은 적은 역입니다.",
     allScores: "18개 평가 항목 모두 보기",
     neutralNote: "음식점·카페·나이트라이프는 많을수록 좋은지가 사람마다 달라 좋고 나쁨의 색을 붙이지 않았습니다.",
-    nav: { traits: "어떤 동네인가", rent: "임대료", commute: "통근", scores: "평가", life: "생활", compare: "비교" },
+    nav: { traits: "어떤 동네인가", rent: "임대료", commute: "통근", scores: "평가", persona: "생활 방식", life: "생활", compare: "비교" },
+    personaTitle: "생활 방식별 살기 좋음",
+    personaSummary: "1인 가구・딩크・육아 가정・시니어와 휴일을 보내는 방식별로 보기",
+    personaFit: {
+      "personas": {
+            "single": "1인 가구",
+            "dinks": "딩크 부부",
+            "family": "육아 가정",
+            "senior": "시니어"
+      },
+      "styles": {
+            "indoor": "실내파",
+            "outdoor": "야외파"
+      },
+      "personaLegend": "누가 사는가",
+      "styleLegend": "휴일을 보내는 방식",
+      "scoreLabel": "{persona}・{style}의 살기 좋음",
+      "weightNote": "생활과 휴일의 즐거움에 임대료의 저렴함(30%)과 통근({commute}0%)을 합친 점수입니다.",
+      "weightNoteNoCommute": "생활과 휴일의 즐거움에 임대료의 저렴함(30%)을 합친 점수입니다. 시니어는 통근을 포함하지 않았습니다.",
+      "noScore": "임대료를 조사하지 않아 점수를 내지 않았습니다.",
+      "destOutdoor": "전철로 가기 쉬운 넓은 공원",
+      "destIndoor": "전철로 가기 쉬운 상점가",
+      "here": "이 역 주변",
+      "minutes": "{minutes}분",
+      "dayTitle": "{persona}의 하루",
+      "assumed": "예시",
+      "assumedNote": "실제 인물의 생활이 아니라, 이 역의 데이터로 구성한 예시입니다.",
+      "weekday": "평일",
+      "holiday": "휴일",
+      "good": "좋은 점",
+      "care": "신경 쓸 점",
+      "noDay": "이 역의 하루 예시는 아직 작성하지 않았습니다.",
+      "method": "점수는 23구 역들 사이의 상대적 위치이며, 역 주변의 생활과 전철로 갈 수 있는 휴일의 행선지(멀수록 할인)로 계산했습니다. 공원 면적은 국토수치정보 도시공원 데이터와 OpenStreetMap에 따릅니다."
+    },
     commuteFastest: "짧은 순",
     meanRent: "평균 {yen}",
     readMore: "더 읽기",

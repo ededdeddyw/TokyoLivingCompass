@@ -1,6 +1,8 @@
 import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
+import type { z } from "zod";
+
 import type { ActiveLocale } from "./i18n";
 import {
   computedCommutesSchema,
@@ -26,6 +28,9 @@ import {
   stationPhotosFileSchema,
   stationWardsFileSchema,
   wardLinksFileSchema,
+  lifestyleFileSchema,
+  type Lifestyle,
+  type Persona,
   type StationPhoto,
   type WardLinks,
 } from "./schema";
@@ -45,6 +50,7 @@ const COMPUTED_SCORES_FILE = join(DATA_DIR, "computed", "scores.json");
 const RENT_BANDS_FILE = join(DATA_DIR, "computed", "rent-bands.json");
 const TOWN_TRAITS_DIR = join(DATA_DIR, "town-traits");
 const PHOTOS_FILE = join(DATA_DIR, "computed", "station-photos.json");
+const LIFESTYLE_FILE = join(DATA_DIR, "computed", "lifestyle.json");
 const STATION_WARDS_FILE = join(DATA_DIR, "computed", "station-wards.json");
 const WARD_LINKS_FILE = join(DATA_DIR, "reference", "ward-links.json");
 /**
@@ -413,4 +419,24 @@ export function getWardLinks(station: { slug: string; wardCode: string }): WardL
     const l = wardLinkCache!.links[code];
     return l ? [{ ...l, wardCode: code }] : [];
   });
+}
+
+let lifestyleCache: z.infer<typeof lifestyleFileSchema> | null = null;
+
+function lifestyleFile() {
+  lifestyleCache ??= readOptional(LIFESTYLE_FILE, lifestyleFileSchema, "層ごとの点") ?? {
+    meta: { note: "", commuteShare: { single: 0, dinks: 0, family: 0, senior: 0 }, rentShare: 0 },
+    stations: {},
+  };
+  return lifestyleCache;
+}
+
+/** 層と休日の過ごし方ごとの点と、電車で行きやすい行き先。 */
+export function getLifestyle(slug: string): Lifestyle | null {
+  return lifestyleFile().stations[slug] ?? null;
+}
+
+/** 公開用の点に含めた通勤の割合（層ごと） */
+export function getLifestyleCommuteShare(): Record<Persona, number> {
+  return lifestyleFile().meta.commuteShare as Record<Persona, number>;
 }

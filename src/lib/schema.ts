@@ -548,6 +548,25 @@ export const stationContentSchema = z.object({
   medical: z.string().optional(),
   /** 家賃の幅と、その幅を生んでいる要因 */
   rentRange: rentRangeSchema.optional(),
+  /**
+   * 住む人の層ごとの、1日の過ごし方の想定（docs/18-persona-days.md）。
+   * 実在の人の生活ではないので、画面では必ず「想定」と添える。
+   * 文に出す店・施設・数字は、この駅のほかの項目とデータにあるものだけを使う。
+   */
+  personaDays: z
+    .record(
+      z.enum(["single", "dinks", "family", "senior"]),
+      z.object({
+        /** どんな人を想定したか（「渋谷の会社に勤める想定」など） */
+        who: z.string().min(1),
+        weekday: z.array(z.string().min(1)).min(1),
+        indoor: z.array(z.string().min(1)).min(1),
+        outdoor: z.array(z.string().min(1)).min(1),
+        good: z.string().min(1),
+        care: z.string().min(1),
+      }),
+    )
+    .optional(),
 
   /**
    * 東京在住者コメント。公開版は人間が書く（docs/02-data-model.md §4）。
@@ -704,3 +723,41 @@ export type WardLinks = z.infer<typeof wardLinksFileSchema>["wards"][string] & {
 };
 /** 駅のまわりにかかる区。所在地の区が先頭。scripts/build-station-wards.py が出す */
 export const stationWardsFileSchema = z.record(z.string(), z.array(z.string().regex(/^\d{5}$/)).min(1));
+
+/** 住む人の層。一人暮らしは男女で分けない（2026-10-13 に利用者と決めた） */
+export const PERSONAS = ["single", "dinks", "family", "senior"] as const;
+export type Persona = (typeof PERSONAS)[number];
+export const PLAY_STYLES = ["indoor", "outdoor"] as const;
+export type PlayStyle = (typeof PLAY_STYLES)[number];
+
+/** 層と休日の過ごし方ごとの点。scripts/build-lifestyle-scores.py が出す */
+const lifestyleSegmentSchema = z.object({
+  life: z.number(),
+  play: z.number(),
+  base: z.number(),
+  /** 通勤と家賃も合わせた公開用の点。家賃を調べていない駅には無い */
+  score: z.number().optional(),
+});
+export const lifestyleFileSchema = z.object({
+  meta: z
+    .object({
+      note: z.string(),
+      /** 公開用の点に含めた通勤の割合。画面の注記もこの値から出す */
+      commuteShare: z.record(z.enum(PERSONAS), z.number()),
+      rentShare: z.number(),
+    })
+    .passthrough(),
+  stations: z.record(
+    z.string(),
+    z.object({
+      greenHa: z.number(),
+      greenParks: z.array(z.string()),
+      outdoorDest: z.array(
+        z.object({ to: z.string(), minutes: z.number(), parks: z.array(z.string()) }),
+      ),
+      indoorDest: z.array(z.object({ to: z.string(), minutes: z.number() })),
+      segments: z.record(z.string(), lifestyleSegmentSchema),
+    }).passthrough(),
+  ),
+});
+export type Lifestyle = z.infer<typeof lifestyleFileSchema>["stations"][string];
