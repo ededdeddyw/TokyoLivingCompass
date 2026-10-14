@@ -119,7 +119,7 @@ def load_p13():
         points.append((y, x))
         pos += 8 + clen * 2
     # P13_003: 公園名、P13_008: 供用済面積（㎡）
-    return [{"name": r["P13_003"], "area": float(r["P13_008"] or 0), "at": p}
+    return [{"name": r["P13_003"], "ward": r["P13_006"], "area": float(r["P13_008"] or 0), "at": p}
             for r, p in zip(rows, points)]
 
 
@@ -186,6 +186,14 @@ def main():
 
     # 1〜2. 広い公園と、駅から歩いて行ける範囲の面積
     parks = [p for p in load_p13() + load_extra() if p["area"] >= BIG_PARK_M2]
+    # 「中央公園」のように、ほかの区にも同じ名前の公園があるものは「北区の中央公園」と書く。
+    # 名前だけでは、読み手がどの公園なのか分からない。
+    by_name = {}
+    for p in load_p13():
+        by_name.setdefault(p["name"], set()).add(p["ward"])
+    for p in parks:
+        if len(by_name.get(p["name"], ())) > 1 and p.get("ward"):
+            p["name"] = f"{p['ward']}の{p['name']}"
     green, green_names = {}, {}
     for st in roster:
         here = (st["lat"], st["lon"])

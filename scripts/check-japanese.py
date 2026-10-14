@@ -348,7 +348,25 @@ def main():
         walk(data, "", collected)
         for path, text in collected:
             check_text(label, path, text, findings)
-        check_repeats(label, [t for _, t in collected], findings)
+        # 層ごとの1日の過ごし方（personaDays）は、画面に1つの層ずつしか出ない。
+        # 4つの層をまとめて数えると、同じ道路の説明が層ごとに出るだけで連発に見えるので、
+        # 本文と1つの層を組み合わせて数える。
+        base = [t for path, t in collected if not path.startswith("personaDays")]
+        personas = sorted({path.split(".")[1] for path, _ in collected
+                           if path.startswith("personaDays.")})
+        if not personas:
+            check_repeats(label, base, findings)
+        before = len(findings)
+        for persona in personas:
+            check_repeats(label, base + [t for path, t in collected
+                                         if path.startswith(f"personaDays.{persona}.")], findings)
+        # 層ごとに同じ指摘が出たら、1つにまとめる
+        seen, merged = set(), []
+        for f in findings[before:]:
+            if f not in seen:
+                seen.add(f)
+                merged.append(f)
+        findings[before:] = merged
 
     for p in sorted(glob.glob(os.path.join(ROOT, "docs", "*.md"))):
         label = os.path.basename(p)

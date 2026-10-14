@@ -1205,6 +1205,12 @@ def main():
                     refreshed += 1
                 continue
         c = build(st, ctx)
+        # 1日の過ごし方は scripts/build-persona-days.py が作り、人が読み直す層なので、
+        # ここで組み立て直しても消さない
+        if os.path.exists(path):
+            for field in ("personaDays", "personaDaysStatus"):
+                if field in existing:
+                    c[field] = existing[field]
         made += 1
         if not args.dry_run:
             json.dump(c, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)

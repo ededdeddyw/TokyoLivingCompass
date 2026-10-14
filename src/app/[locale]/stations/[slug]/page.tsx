@@ -559,7 +559,10 @@ export default async function StationPage({
                 commuteShare={getLifestyleCommuteShare()}
                 outdoorDest={lifestyle.outdoorDest.map(toDest)}
                 indoorDest={lifestyle.indoorDest.map(toDest)}
-                days={station.content.personaDays}
+                days={
+                  // 下書き（データから組み立てただけで、人がまだ読んでいないもの）は出さない
+                  station.content.personaDaysStatus === "draft" ? undefined : station.content.personaDays
+                }
                 labels={ui.personaFit}
               />
             </div>
