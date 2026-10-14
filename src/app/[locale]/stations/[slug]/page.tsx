@@ -18,6 +18,7 @@ import { KeyFacts, type KeyFact } from "@/components/station/KeyFacts";
 import { ScoreHighlights } from "@/components/station/ScoreHighlights";
 import { SectionNav } from "@/components/station/SectionNav";
 import { RentBands } from "@/components/RentBands";
+import { PersonaFit, type Destination } from "@/components/station/PersonaFit";
 import { RentHistoryTable } from "@/components/RentHistoryTable";
 import { RentSourceNote } from "@/components/RentSourceNote";
 import { OverallScore } from "@/components/OverallScore";
@@ -36,11 +37,20 @@ import {
   pageDescription,
   pageTitle,
 } from "@/lib/seo";
-import { OFFICE_HUBS, RENT_TYPES } from "@/lib/schema";
-import { overallScoreForPreset } from "@/lib/scoring";
+import {
+  OFFICE_HUBS,
+  PERSONAS,
+  PLAY_STYLES,
+  RENT_TYPES,
+  type Persona,
+  type PlayStyle,
+} from "@/lib/schema";
+import { overallScoreForPreset, toFivePoint } from "@/lib/scoring";
 import { WEIGHT_PRESETS, type WeightPreset } from "@/lib/weights";
 import {
   getLocalizedStation,
+  getLifestyle,
+  getLifestyleCommuteShare,
   getLocalizedStations,
   getRentAverages,
   getStationPhoto,
@@ -207,6 +217,26 @@ export default async function StationPage({
     if (other) neighbourNames[n.slug] = other.content.name;
   }
 
+  // 層と休日の過ごし方ごとの点。8通りをすべて渡し、表示する1つはブラウザ側で選ぶ。
+  const lifestyle = getLifestyle(station.slug);
+  const destName = (slug: string) => getLocalizedStation(slug, locale)?.content.name ?? slug;
+  const personaScores = lifestyle
+    ? (Object.fromEntries(
+        PERSONAS.flatMap((p) =>
+          PLAY_STYLES.map((st) => {
+            const v = lifestyle.segments[`${p}-${st}`]?.score;
+            return [`${p}-${st}`, v === undefined ? null : toFivePoint(v)];
+          }),
+        ),
+      ) as Record<`${Persona}-${PlayStyle}`, number | null>)
+    : null;
+  const toDest = (d: { to: string; minutes: number; parks?: string[] }): Destination => ({
+    name: destName(d.to),
+    minutes: d.minutes,
+    here: d.to === station.slug,
+    parks: d.parks,
+  });
+
   const similar = station.similarStations
     .map((s) => getLocalizedStation(s, locale as ActiveLocale))
     .filter((s): s is NonNullable<typeof s> => s !== null);
@@ -262,6 +292,7 @@ export default async function StationPage({
     { id: "rent", label: ui.nav.rent },
     { id: "commute", label: ui.nav.commute },
     { id: "scores", label: ui.nav.scores },
+    ...(lifestyle ? [{ id: "persona", label: ui.nav.persona }] : []),
     { id: "life", label: ui.nav.life },
     { id: "compare", label: ui.nav.compare },
   ];
@@ -468,6 +499,19 @@ export default async function StationPage({
           </>
         )}
       </Section>
+
+      {lifestyle && personaScores && (
+        <Section id="persona" title={ui.personaTitle}>
+          <PersonaFit
+            scores={personaScores}
+            commuteShare={getLifestyleCommuteShare()}
+            outdoorDest={lifestyle.outdoorDest.map(toDest)}
+            indoorDest={lifestyle.indoorDest.map(toDest)}
+            days={station.content.personaDays}
+            labels={ui.personaFit}
+          />
+        </Section>
+      )}
 
       <div className="grid gap-4 sm:grid-cols-2">
         <section className="rounded-2xl border border-good/30 bg-good-soft p-5">

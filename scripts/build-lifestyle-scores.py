@@ -171,6 +171,11 @@ LIFE_WEIGHTS = {
 # 暮らしと楽しみの比。子育て世帯とシニアは、毎日のことの比重が大きい。
 PLAY_SHARE = {"single": 0.4, "dinks": 0.4, "family": 0.3, "senior": 0.3}
 FLAT = {"flat": 100, "some": 55, "hilly": 15}
+# 公開する点に合わせる、通勤と家賃の重み（2026-10-13 に利用者と決めた）。
+# 通勤は都心アクセス7割・乗換利便性3割。シニア世代は通勤が無いので0にする。
+# 家賃の安さは、どの層も3割。残りが暮らしと楽しみの点になる。
+COMMUTE_SHARE = {"single": 0.2, "dinks": 0.2, "family": 0.1, "senior": 0.0}
+RENT_SHARE = 0.3
 
 
 def main():
@@ -234,7 +239,7 @@ def main():
         return picked
 
     out = {}
-    raw = {}
+    raw, raw_base = {}, {}
     for st in roster:
         slug = st["slug"]
         sc = dict(scores.get(slug, {}))
@@ -267,18 +272,31 @@ def main():
             life = sum(sc[a] * w for a, w in usable.items()) / sum(usable.values())
             for style, p in play.items():
                 key = f"{persona}-{style}"
-                raw.setdefault(key, {})[slug] = (1 - PLAY_SHARE[persona]) * life + PLAY_SHARE[persona] * p
+                base = (1 - PLAY_SHARE[persona]) * life + PLAY_SHARE[persona] * p
+                parts = [(base, 1 - COMMUTE_SHARE[persona] - RENT_SHARE)]
+                if COMMUTE_SHARE[persona] and "commute" in sc:
+                    commute = 0.7 * sc["commute"] + 0.3 * sc.get("transitConvenience", sc["commute"])
+                    parts.append((commute, COMMUTE_SHARE[persona]))
+                raw_base.setdefault(key, {})[slug] = base
+                # 家賃を調べていない駅（霞ケ関のような官庁街など）は、公開用の点を出さない。
+                # 家賃を抜いて出すと、家賃の高さで下がるはずの駅が上位に出てしまう。
+                if "rentLow" in sc:
+                    parts.append((sc["rentLow"], RENT_SHARE))
+                    raw.setdefault(key, {})[slug] = sum(v * w for v, w in parts)
                 out[slug]["segments"][key] = {"life": round(life), "play": round(p)}
 
-    # 5. 区分ごとに、駅どうしの相対的な位置にする
-    for key, values in raw.items():
-        pct = percentile(values)
-        for slug, v in pct.items():
-            out[slug]["segments"][key]["score"] = round(v)
+    # 5. 区分ごとに、駅どうしの相対的な位置にする。
+    #    base は暮らしと楽しみだけの点、score は通勤と家賃も合わせた公開用の点。
+    for name, table in (("base", raw_base), ("score", raw)):
+        for key, values in table.items():
+            for slug, v in percentile(values).items():
+                out[slug]["segments"][key][name] = round(v)
 
     meta = {
+        "commuteShare": COMMUTE_SHARE,
+        "rentShare": RENT_SHARE,
         "note": "暮らし（駅のまわりで済むか）と楽しみ（電車で行ける駅まで含めて見る）を、"
-                "層ごとの重みで合わせた点。通勤と家賃はまだ入れていない。楽しみは、行き先の魅力を所要時間で割り引く（45分で0）。"
+                "層ごとの重みで合わせた点（base）と、通勤と家賃も合わせた公開用の点（score）。楽しみは、行き先の魅力を所要時間で割り引く（45分で0）。"
                 "方針は docs/18-persona-days.md。",
         "parkSources": [
             {"name": "国土数値情報 都市公園データ（P13、平成23年度）", "url": P13_URL},
