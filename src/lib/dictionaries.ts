@@ -83,6 +83,7 @@ export type Dictionary = {
     neutralNote: string;
     nav: Record<"traits" | "rent" | "commute" | "scores" | "persona" | "life" | "compare", string>;
     personaTitle: string;
+    personaSummary: string;
     personaFit: PersonaFitLabels;
     commuteFastest: string;
     meanRent: string;
@@ -325,6 +326,7 @@ const ja: Dictionary = {
     neutralNote: "飲食店・カフェ・ナイトライフは、多いほうがよいかどうかが人によって違うので、良し悪しの色を付けていません。",
     nav: { traits: "どんな街か", rent: "家賃", commute: "通勤", scores: "評価", persona: "暮らし方", life: "暮らし", compare: "比べる" },
     personaTitle: "暮らし方で見る住みやすさ",
+    personaSummary: "一人暮らし・DINKs・子育てファミリー・シニア世代と、休日の過ごし方ごとに見る",
     personaFit: {
       "personas": {
             "single": "一人暮らし",
@@ -718,6 +720,7 @@ const en: Dictionary = {
     neutralNote: "Restaurants, cafés and nightlife are not coloured as good or bad: whether more is better depends on the person.",
     nav: { traits: "The area", rent: "Rent", commute: "Commute", scores: "Scores", persona: "Lifestyle", life: "Daily life", compare: "Compare" },
     personaTitle: "By lifestyle",
+    personaSummary: "By household (living alone, DINKs, families, seniors) and how you spend weekends",
     personaFit: {
       "personas": {
             "single": "Living alone",
@@ -1114,6 +1117,7 @@ const zhHans: Dictionary = {
     neutralNote: "餐饮、咖啡馆和夜生活是否越多越好因人而异，因此不标注好坏颜色。",
     nav: { traits: "街区特色", rent: "租金", commute: "通勤", scores: "评分", persona: "生活方式", life: "生活", compare: "比较" },
     personaTitle: "按生活方式看宜居度",
+    personaSummary: "按独居、丁克、育儿家庭、老年人和假日过法来看",
     personaFit: {
       "personas": {
             "single": "独居",
@@ -1502,6 +1506,7 @@ const ko: Dictionary = {
     neutralNote: "음식점·카페·나이트라이프는 많을수록 좋은지가 사람마다 달라 좋고 나쁨의 색을 붙이지 않았습니다.",
     nav: { traits: "어떤 동네인가", rent: "임대료", commute: "통근", scores: "평가", persona: "생활 방식", life: "생활", compare: "비교" },
     personaTitle: "생활 방식별 살기 좋음",
+    personaSummary: "1인 가구・딩크・육아 가정・시니어와 휴일을 보내는 방식별로 보기",
     personaFit: {
       "personas": {
             "single": "1인 가구",

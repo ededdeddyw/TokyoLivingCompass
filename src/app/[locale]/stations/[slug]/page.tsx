@@ -292,9 +292,9 @@ export default async function StationPage({
     { id: "rent", label: ui.nav.rent },
     { id: "commute", label: ui.nav.commute },
     { id: "scores", label: ui.nav.scores },
-    ...(lifestyle ? [{ id: "persona", label: ui.nav.persona }] : []),
     { id: "life", label: ui.nav.life },
     { id: "compare", label: ui.nav.compare },
+    ...(lifestyle ? [{ id: "persona", label: ui.nav.persona }] : []),
   ];
 
   return (
@@ -500,19 +500,6 @@ export default async function StationPage({
         )}
       </Section>
 
-      {lifestyle && personaScores && (
-        <Section id="persona" title={ui.personaTitle}>
-          <PersonaFit
-            scores={personaScores}
-            commuteShare={getLifestyleCommuteShare()}
-            outdoorDest={lifestyle.outdoorDest.map(toDest)}
-            indoorDest={lifestyle.indoorDest.map(toDest)}
-            days={station.content.personaDays}
-            labels={ui.personaFit}
-          />
-        </Section>
-      )}
-
       <div className="grid gap-4 sm:grid-cols-2">
         <section className="rounded-2xl border border-good/30 bg-good-soft p-5">
           <h2 className="flex items-center gap-2 text-lg font-bold text-good">
@@ -551,6 +538,34 @@ export default async function StationPage({
         locale={locale}
         wardLinks={getWardLinks(station)}
       />
+
+      {/*
+        暮らし方ごとの点と1日の過ごし方は、駅そのものの特徴を読んだあとに見るものなので、
+        いちばん下に畳んで置く（2026-10-14 に利用者と決めた）。
+      */}
+      {lifestyle && personaScores && (
+        <section id="persona">
+          <details className="group rounded-2xl border border-line bg-surface p-5 shadow-sm">
+            <summary className="flex cursor-pointer list-none items-center justify-between gap-3">
+              <span>
+                <span className="block text-xl font-bold text-ink">{ui.personaTitle}</span>
+                <span className="mt-0.5 block text-sm text-ink-soft">{ui.personaSummary}</span>
+              </span>
+              <ChevronDown aria-hidden="true" className="size-5 shrink-0 text-accent transition group-open:rotate-180" />
+            </summary>
+            <div className="mt-4">
+              <PersonaFit
+                scores={personaScores}
+                commuteShare={getLifestyleCommuteShare()}
+                outdoorDest={lifestyle.outdoorDest.map(toDest)}
+                indoorDest={lifestyle.indoorDest.map(toDest)}
+                days={station.content.personaDays}
+                labels={ui.personaFit}
+              />
+            </div>
+          </details>
+        </section>
+      )}
 
       {station.content.residentComment && (
         <Section
