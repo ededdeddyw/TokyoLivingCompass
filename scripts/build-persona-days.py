@@ -63,11 +63,15 @@ class Station:
         self.life = ctx["lifestyle"].get(slug)
         self.names = ctx["names"]
         self.ward = self.roster["wardNameJa"]
+        self.hazard = ctx["hazard"].get(slug) or {}
 
     # --- 材料 ---
 
     def hubs(self, n=2):
-        return [c for c in self.commutes if c["to"] in HUB_NAMES][:n]
+        # 駅そのものがオフィス街にあたる駅（六本木・虎ノ門など）で、自分の駅を勤め先にしない
+        # 東京駅から大手町（1分）のように歩いて行ける近さのオフィス街も、通勤の例にしない
+        return [c for c in self.commutes
+                if c["to"] in HUB_NAMES and c["to"] != self.slug and c["minutes"] >= 3][:n]
 
     def nearest(self, category, max_min=10):
         items = sorted((p for p in self.pois if p["category"] == category and p.get("name")),
@@ -126,8 +130,8 @@ class Station:
         night = self.scores.get("nightlife")
         if food is None:
             return None
-        if food >= 70 and (night or 0) >= 60:
-            return "駅のまわりには飲食店や飲み屋が多く、帰りが遅くても夕食をとる店に困りません。"
+        if food >= 85 and (night or 0) >= 80:
+            return "駅のまわりには飲食店が多く、帰りが遅くなっても夕食をとる店を探せます。"
         if food < 30:
             return "駅のまわりで外食できる店は少ないので、夕食は家で作るか、乗り換える駅で済ませます。"
         return None
@@ -211,7 +215,7 @@ class Station:
         "food": "外食できる店が多く、食事に困りません。",
         "singleLife": "外食できる店やスーパーが近く、一人でも生活が駅のまわりで終わります。",
         "disaster": "大雨のときの浸水の想定も高潮の想定も、23区の駅の中では小さいほうです。",
-        "rentLow": "23区の中では家賃が安いほうです。",
+        "rentLow": "家賃の額そのものは、23区の駅の中では安いほうです。",
     }
     CARE = {
         "commute": "都心のオフィス街までは時間がかかるので、勤め先によっては通勤が負担になります。",
@@ -223,7 +227,7 @@ class Station:
         "food": "外食できる店は少ないので、食事は家で作ることが多くなります。",
         "singleLife": "自炊をしないと、一人暮らしの生活が駅のまわりで終わりにくい環境です。",
         "disaster": "大雨のときの浸水の想定か高潮の想定がある区画が多いので、住所ごとにハザードマップで確かめます。",
-        "rentLow": "23区の中では家賃が高いほうです。",
+        "rentLow": "家賃の額そのものは、23区の駅の中では高いほうです。",
     }
     AXES = {
         "single": ["singleLife", "safety", "shopping", "commute", "rentLow"],
@@ -232,9 +236,29 @@ class Station:
         "senior": ["healthcare", "shopping", "quietness", "safety", "disaster", "rentLow"],
     }
 
+    def axis_usable(self, axis):
+        """
+        浸水の想定は、23区の駅どうしで比べた点だけで「小さいほう」と書かない。
+        中目黒は点では中ほどだが、駅の地点が浸水想定区域に入っている。
+        駅の地点と、駅のまわりで見た地点のどちらにも想定が無いときだけ「小さい」と書き、
+        駅の地点が区域に入るか、まわりの半分以上が入るときだけ「工夫が要る」と書く。
+        """
+        if axis != "disaster":
+            return True
+        kinds = [self.hazard.get(k) or {} for k in ("flood", "hightide", "tsunami")]
+        at_station = any(k.get("atStation") for k in kinds)
+        around = max((k.get("aroundCount") or 0) / max(1, k.get("aroundTotal") or 9) for k in kinds)
+        score = self.scores.get("disaster", 50)
+        if score >= 55:
+            return not at_station and around == 0
+        if score < 45:
+            return at_station or around >= 0.5
+        return False
+
     def good_care(self, persona, used):
         """向いている点と工夫が要る点。本文にもう出ている文と同じものは選ばない。"""
-        vals = sorted(((self.scores[a], a) for a in self.AXES[persona] if a in self.scores),
+        vals = sorted(((self.scores[a], a) for a in self.AXES[persona]
+                       if a in self.scores and self.axis_usable(a)),
                       reverse=True)
         if not vals:
             return None, None
@@ -297,6 +321,7 @@ def main():
         "scores": load(os.path.join(ROOT, "data", "computed", "scores.json")),
         "commutes": load(os.path.join(ROOT, "data", "computed", "commutes.json")),
         "pois": load(os.path.join(ROOT, "data", "computed", "pois.json"))["stations"],
+        "hazard": load(os.path.join(ROOT, "data", "computed", "hazard.json")).get("stations", {}),
         "lifestyle": load(os.path.join(ROOT, "data", "computed", "lifestyle.json"))["stations"],
     }
     # 行き先の駅名は、駅ページの表示名（content.name）を使う
