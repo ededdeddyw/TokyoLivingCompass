@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Akabane",
   "tagline": "Shinjuku in 15 minutes and Shibuya in 20 minutes. Served by 5 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Kita City, where JR East run 5 lines between them. Journey times to the main business districts are 31 minutes to Otemachi, 15 minutes to Shinjuku, 20 minutes to Shibuya and 41 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 5.5 m above sea level, and the ground within 800 m varies in height by 17.7 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Kita City, where JR East run 5 lines between them. Journey times to the main business districts are 31 minutes to Otemachi, 15 minutes to Shinjuku, 20 minutes to Shibuya and 36 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 5.5 m above sea level, and the ground within 800 m varies in height by 17.7 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 5.5 m above sea level. Within 800 m the ground ranges from 3.1 m to 20.8 m, a difference of 17.7 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "akabane-iwabuchi",
-      "lead": "Akabane is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Akabane. Akabane-Iwabuchi has only the Tokyo Metro Namboku Line and Saitama Railway Line, so Akabane is the better connected. To Shibuya, for instance, Akabane-Iwabuchi takes 24 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "Akabane is ahead on how close the centre is and how little of the area is in the flood projection. ",
+      "note": "Close enough to walk to from Akabane. Akabane adds the 5 lines; Akabane-Iwabuchi adds the Tokyo Metro Namboku Line and Saitama Railway Line. Akabane is at least 23 minutes quicker to Shibuya and Shinjuku. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "shimo",
-      "lead": "For safety, Shimo; for rail connections, Akabane. ",
-      "note": "About 1 km from Akabane in a straight line. Shimo has only the Tokyo Metro Namboku Line, so Akabane is the better connected. To Shinjuku, for instance, Shimo takes 21 minutes longer. On what it offers families, though, Shimo comes out ahead."
+      "lead": "For safety, Shimo; for how close the centre is, Akabane. ",
+      "note": "About 1 km from Akabane in a straight line. Akabane adds the 5 lines; Shimo adds the Tokyo Metro Namboku Line. Akabane is at least 21 minutes quicker to Shibuya and Shinjuku. On what it offers families, though, Shimo comes out ahead."
     }
   ],
   "goodFor": [
@@ -91,7 +91,7 @@
     "stationNote": "5 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are some of the most heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

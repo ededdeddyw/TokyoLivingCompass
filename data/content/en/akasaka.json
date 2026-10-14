@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Akasaka",
   "tagline": "Otemachi in 8 minutes and Toranomon in 9 minutes. Served by 1 line. A one-room flat rents for roughly ¥150,000 to ¥160,000.",
-  "summary": "The station is in Minato City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 8 minutes to Otemachi, 18 minutes to Shinjuku, 14 minutes to Shibuya and 23 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 8.5 m above sea level, and the ground within 800 m varies in height by 13.4 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Minato City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 8 minutes to Otemachi, 21 minutes to Shinjuku, 14 minutes to Shibuya and 23 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 8.5 m above sea level, and the ground within 800 m varies in height by 13.4 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 8.5 m above sea level. Within 800 m the ground ranges from 8.5 m to 21.9 m, a difference of 13.4 m."
@@ -56,18 +56,17 @@
   "neighbours": [
     {
       "slug": "tameike-sanno",
-      "lead": "For rail connections, Tameike-Sanno; for lower rent, Akasaka. ",
-      "note": "Close enough to walk to from Akasaka. Tameike-Sanno also has the Tokyo Metro Ginza Line and Tokyo Metro Namboku Line, which Akasaka does not. With more lines, Tameike-Sanno is the better connected of the two. To Toranomon, for instance, Tameike-Sanno is 7 minutes quicker. A one-room flat, though, costs about ¥12,000 more at Tameike-Sanno."
+      "lead": "Akasaka is ahead on lower rent, and little else separates the two. ",
+      "note": "Close enough to walk to from Akasaka. Akasaka adds the Tokyo Metro Chiyoda Line; Tameike-Sanno adds the Tokyo Metro Ginza Line and Tokyo Metro Namboku Line. Which is faster depends on where you are going: Akasaka is 7 minutes quicker to Otemachi, Tameike-Sanno is 7 minutes quicker to Toranomon. A one-room flat costs about ¥12,000 more at Tameike-Sanno."
     },
     {
       "slug": "nagatacho",
-      "lead": "For rail connections, Nagatacho; for lower rent, Akasaka. ",
-      "note": "Close enough to walk to from Akasaka. Nagatacho has 5 lines that Akasaka does not. With more lines, Nagatacho is the better connected of the two. To Shinjuku, for instance, Nagatacho is 8 minutes quicker. A one-room flat, though, costs about ¥12,000 more at Nagatacho."
+      "lead": "For how close the centre is, Nagatacho; for lower rent, Akasaka. ",
+      "note": "Close enough to walk to from Akasaka. Akasaka adds the Tokyo Metro Chiyoda Line; Nagatacho adds the 5 lines. Nagatacho is at least 5 minutes quicker to Shinjuku and Toranomon. A one-room flat, though, costs about ¥12,000 more at Nagatacho."
     }
   ],
   "goodFor": [
-    "People commuting to Otemachi and Marunouchi",
-    "People commuting towards Shinjuku"
+    "People commuting to Otemachi and Marunouchi"
   ],
   "notFor": [
     "People avoiding projected flood inundation areas",
@@ -82,8 +81,8 @@
     "pricey",
     "fastToCenter",
     "singleLine",
-    "singleFriendly",
-    "diningRich"
+    "diningRich",
+    "lateNight"
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
@@ -92,7 +91,7 @@
     "stationNote": "Only the Tokyo Metro Chiyoda Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

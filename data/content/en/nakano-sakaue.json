@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Nakano-Sakaue",
   "tagline": "Shinjuku in 4 minutes and Shibuya in 14 minutes. Served by 2 lines. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Nakano City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 24 minutes to Otemachi, 4 minutes to Shinjuku, 14 minutes to Shibuya and 35 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 33.8 m above sea level, and the ground within 800 m varies in height by 10.9 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Nakano City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 24 minutes to Otemachi, 4 minutes to Shinjuku, 14 minutes to Shibuya and 33 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 33.8 m above sea level, and the ground within 800 m varies in height by 10.9 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 33.8 m above sea level. Within 800 m the ground ranges from 23.9 m to 34.8 m, a difference of 10.9 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "nishi-shinjuku-gochome",
-      "lead": "For quiet, Nishi-Shinjuku-Gochome; for rail connections, Nakano-Sakaue. ",
-      "note": "Close enough to walk to from Nakano-Sakaue. Nishi-Shinjuku-Gochome has only the Toei Oedo Line, so Nakano-Sakaue is the better connected. To Otemachi, for instance, Nishi-Shinjuku-Gochome takes 3 minutes longer. A one-room flat also costs about ¥7,000 more at Nishi-Shinjuku-Gochome. On quiet, though, Nishi-Shinjuku-Gochome comes out ahead."
+      "lead": "For quiet, Nishi-Shinjuku-Gochome; for lower rent, Nakano-Sakaue. ",
+      "note": "Close enough to walk to from Nakano-Sakaue. Both have the Toei Oedo Line. Nakano-Sakaue also has the Tokyo Metro Marunouchi Line, which Nishi-Shinjuku-Gochome does not. Journey times to the main business districts are much the same. A one-room flat costs about ¥7,000 more at Nishi-Shinjuku-Gochome. On quiet, Nishi-Shinjuku-Gochome comes out ahead."
     },
     {
       "slug": "nakano-shimbashi",
-      "lead": "For safety, Nakano-Shimbashi; for rail connections, Nakano-Sakaue. ",
-      "note": "Close enough to walk to from Nakano-Sakaue. Nakano-Shimbashi has only the Tokyo Metro Marunouchi Line, so Nakano-Sakaue is the better connected. To Roppongi, for instance, Nakano-Shimbashi takes 28 minutes longer. On quiet, though, Nakano-Shimbashi comes out ahead."
+      "lead": "For safety, Nakano-Shimbashi; for how close the centre is, Nakano-Sakaue. ",
+      "note": "Close enough to walk to from Nakano-Sakaue. Both have the Tokyo Metro Marunouchi Line. Nakano-Sakaue also has the Toei Oedo Line, which Nakano-Shimbashi does not. Nakano-Sakaue is at least 24 minutes quicker to Roppongi and Tokyo. On what it offers families, though, Nakano-Shimbashi comes out ahead."
     }
   ],
   "goodFor": [
@@ -74,7 +74,6 @@
     "The data does not show a drawback particular to this station"
   ],
   "noiseSources": [
-    "The 首都高速中央環状線 viaduct runs right beside the station. It is an expressway, so traffic is audible day and night",
     "山手通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
@@ -90,7 +89,7 @@
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

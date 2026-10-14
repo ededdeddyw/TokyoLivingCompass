@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Shibakoen",
   "tagline": "Otemachi in 9 minutes and Tokyo in 13 minutes. Served by 1 line. A one-room flat rents for roughly ¥140,000 to ¥150,000.",
-  "summary": "The station is in Minato City, served by Toei Mita Line. Journey times to the main business districts are 9 minutes to Otemachi, 29 minutes to Shinjuku, 22 minutes to Shibuya and 17 minutes to Shinagawa. A one-room flat rents for roughly ¥140,000 to ¥150,000. The station stands 3.4 m above sea level, and the ground within 800 m varies in height by 3.2 m. The land around the station is close to level.",
+  "summary": "The station is in Minato City, served by Toei Mita Line. Journey times to the main business districts are 9 minutes to Otemachi, 29 minutes to Shinjuku, 22 minutes to Shibuya and 13 minutes to Shinagawa. A one-room flat rents for roughly ¥140,000 to ¥150,000. The station stands 3.4 m above sea level, and the ground within 800 m varies in height by 3.2 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 3.4 m above sea level. Within 800 m the ground ranges from 2.8 m to 6 m, a difference of 3.2 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "daimon",
-      "lead": "For rail connections, Daimon; for how little of the area is in the flood projection, Shibakoen. ",
-      "note": "Close enough to walk to from Shibakoen. Daimon also has the Toei Oedo Line and Toei Asakusa Line, which Shibakoen does not. With more lines, Daimon is the better connected of the two. To Roppongi, for instance, Daimon is 14 minutes quicker. On what it offers families, though, Shibakoen comes out ahead."
+      "lead": "For the number of places to eat out, Daimon; for how little of the area is in the flood projection, Shibakoen. ",
+      "note": "Close enough to walk to from Shibakoen. Shibakoen adds the Toei Mita Line; Daimon adds the Toei Oedo Line and Toei Asakusa Line. Which is faster depends on where you are going: Shibakoen is 7 minutes quicker to Otemachi, Daimon is 14 minutes quicker to Roppongi. On what it offers families, Shibakoen comes out ahead."
     },
     {
       "slug": "akabanebashi",
-      "lead": "For how close the centre is, Akabanebashi; for lower rent, Shibakoen. ",
-      "note": "Close enough to walk to from Shibakoen. Akabanebashi has the Toei Oedo Line, a different set from Shibakoen. To Roppongi, for instance, Akabanebashi is 16 minutes quicker. A one-room flat costs about ¥28,000 more at Akabanebashi. On how easy the shopping is, Shibakoen comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Akabanebashi; for lower rent, Shibakoen. ",
+      "note": "Close enough to walk to from Shibakoen. Shibakoen adds the Toei Mita Line; Akabanebashi adds the Toei Oedo Line. Which is faster depends on where you are going: Shibakoen is 16 minutes quicker to Otemachi, Akabanebashi is 16 minutes quicker to Roppongi. A one-room flat costs about ¥28,000 more at Akabanebashi. On how easy the shopping is, Shibakoen comes out ahead. Within about 13 minutes' walk, Shibakoen has 10 supermarkets (まいばすけっと and マルエツプチ and others) and Akabanebashi has 6."
     }
   ],
   "goodFor": [

@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Shirokanedai",
   "tagline": "Roppongi in 13 minutes and Shibuya in 15 minutes. Served by 2 lines. A one-room flat rents for roughly ¥150,000 to ¥160,000.",
-  "summary": "The station is in Minato City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 16 minutes to Otemachi, 23 minutes to Shinjuku, 15 minutes to Shibuya and 21 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 30.3 m above sea level, and the ground within 800 m varies in height by 16.5 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Minato City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 16 minutes to Otemachi, 23 minutes to Shinjuku, 15 minutes to Shibuya and 16 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 30.3 m above sea level, and the ground within 800 m varies in height by 16.5 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 30.3 m above sea level. Within 800 m the ground ranges from 14.3 m to 30.8 m, a difference of 16.5 m."
@@ -56,8 +56,8 @@
   "neighbours": [
     {
       "slug": "takanawadai",
-      "lead": "For how close the centre is, Takanawadai; for rail connections, Shirokanedai. ",
-      "note": "Close enough to walk to from Shirokanedai. Takanawadai has only the Toei Asakusa Line, so Shirokanedai is the better connected. To Shinagawa, for instance, Takanawadai is 11 minutes quicker. A one-room flat, though, costs about ¥24,000 less at Takanawadai."
+      "lead": "For lower rent, Takanawadai; for safety, Shirokanedai. ",
+      "note": "Close enough to walk to from Shirokanedai. Shirokanedai adds the Tokyo Metro Namboku Line and Toei Mita Line; Takanawadai adds the Toei Asakusa Line. Which is faster depends on where you are going: Shirokanedai is 7 minutes quicker to Roppongi, Takanawadai is 10 minutes quicker to Shinagawa. A one-room flat costs about ¥24,000 less at Takanawadai. On what it offers families, Shirokanedai comes out ahead."
     },
     {
       "slug": "shirokane-takanawa",
@@ -89,7 +89,7 @@
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

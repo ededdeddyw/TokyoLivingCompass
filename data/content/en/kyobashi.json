@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Kyobashi",
   "tagline": "Toranomon in 6 minutes and Tokyo in 10 minutes. Served by 2 lines. A one-room flat rents for roughly ¥160,000 to ¥170,000.",
-  "summary": "The station is in Chuo City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 10 minutes to Otemachi, 23 minutes to Shinjuku, 19 minutes to Shibuya and 16 minutes to Shinagawa. A one-room flat rents for roughly ¥160,000 to ¥170,000. The station stands 4.4 m above sea level, and the ground within 800 m varies in height by 1.9 m. The land around the station is close to level.",
+  "summary": "The station is in Chuo City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 10 minutes to Otemachi, 23 minutes to Shinjuku, 19 minutes to Shibuya and 15 minutes to Shinagawa. A one-room flat rents for roughly ¥160,000 to ¥170,000. The station stands 4.4 m above sea level, and the ground within 800 m varies in height by 1.9 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 4.4 m above sea level. Within 800 m the ground ranges from 2.5 m to 4.4 m, a difference of 1.9 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "hatchobori",
-      "lead": "For how close the centre is, Hatchobori; for how little of the area is in the flood projection, Kyobashi. ",
-      "note": "Close enough to walk to from Kyobashi. Hatchobori has the JR Keiyo Line and Tokyo Metro Hibiya Line, a different set from Kyobashi. To Tokyo, for instance, Hatchobori is 8 minutes quicker. A one-room flat costs about ¥22,000 less at Hatchobori. On safety, Hatchobori comes out ahead."
+      "lead": "For lower rent, Hatchobori; for how little of the area is in the flood projection, Kyobashi. ",
+      "note": "Close enough to walk to from Kyobashi. Kyobashi adds the Tokyo Metro Ginza Line and Toei Asakusa Line; Hatchobori adds the JR Keiyo Line and Tokyo Metro Hibiya Line. Which is faster depends on where you are going: Kyobashi is 8 minutes quicker to Shibuya, Hatchobori is 8 minutes quicker to Tokyo. A one-room flat costs about ¥22,000 less at Hatchobori. On how little of the area is in the flood projection, Kyobashi comes out ahead."
     },
     {
       "slug": "ginza",
-      "lead": "For rail connections, Ginza; for lower rent, Kyobashi. ",
-      "note": "Close enough to walk to from Kyobashi. Ginza also has the Tokyo Metro Marunouchi Line, Tokyo Metro Hibiya Line and Tokyo Metro Yurakucho Line, which Kyobashi does not. With more lines, Ginza is the better connected of the two. To Tokyo, for instance, Ginza is 7 minutes quicker. A one-room flat, though, costs about ¥6,000 more at Ginza."
+      "lead": "For how close the centre is, Ginza; for lower rent, Kyobashi. ",
+      "note": "Close enough to walk to from Kyobashi. Both have the Tokyo Metro Ginza Line. Kyobashi adds the Toei Asakusa Line; Ginza adds the Tokyo Metro Marunouchi Line, Tokyo Metro Hibiya Line and Tokyo Metro Yurakucho Line. Ginza is at least 7 minutes quicker to Tokyo and Shinjuku. A one-room flat, though, costs about ¥6,000 more at Ginza."
     }
   ],
   "goodFor": [
@@ -90,7 +90,7 @@
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

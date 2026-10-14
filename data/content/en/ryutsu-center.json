@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Ryutsu-Center",
   "tagline": "Tokyo in 27 minutes and Shinagawa in 28 minutes. Served by 1 line. A one-room flat rents for roughly ¥100,000 to ¥110,000.",
-  "summary": "The station is in Ota City, served by Tokyo Monorail. Journey times to the main business districts are 33 minutes to Otemachi, 42 minutes to Shinjuku, 37 minutes to Shibuya and 28 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 3.5 m above sea level, and the ground within 800 m varies in height by 3.5 m. The land around the station is close to level.",
+  "summary": "The station is in Ota City, served by Tokyo Monorail. Journey times to the main business districts are 33 minutes to Otemachi, 39 minutes to Shinjuku, 33 minutes to Shibuya and 28 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 3.5 m above sea level, and the ground within 800 m varies in height by 3.5 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 3.5 m above sea level. Within 800 m the ground ranges from 2 m to 5.5 m, a difference of 3.5 m."
@@ -26,13 +26,13 @@
   "neighbours": [
     {
       "slug": "showajima",
-      "lead": "For lower rent, Showajima; for how close the centre is, Ryutsu-Center. ",
-      "note": "About 1 km from Ryutsu-Center in a straight line. It is served by the same lines as Ryutsu-Center. To Toranomon, for instance, Showajima takes 3 minutes longer. A one-room flat costs about ¥34,000 less at Showajima. On what it offers families, Showajima comes out ahead."
+      "lead": "Showajima is ahead on lower rent and what it offers families. ",
+      "note": "About 1 km from Ryutsu-Center in a straight line. It is served by the same lines as Ryutsu-Center. Journey times to the main business districts are much the same. A one-room flat costs about ¥34,000 less at Showajima. On what it offers families, Showajima comes out ahead."
     },
     {
       "slug": "heiwajima",
       "lead": "For how close the centre is, Heiwajima; for how little of the area is in the flood projection, Ryutsu-Center. ",
-      "note": "About 1.5 km from Ryutsu-Center in a straight line. Heiwajima has the Keikyu Main Line, a different set from Ryutsu-Center. To Shinagawa, for instance, Heiwajima is 15 minutes quicker. A one-room flat costs about ¥13,000 less at Heiwajima. On safety, Ryutsu-Center comes out ahead."
+      "note": "About 1.5 km from Ryutsu-Center in a straight line. Ryutsu-Center adds the Tokyo Monorail; Heiwajima adds the Keikyu Main Line. Heiwajima is at least 6 minutes quicker to Shinagawa and Roppongi. A one-room flat also costs about ¥13,000 less at Heiwajima. On how little of the area is in the flood projection, though, Ryutsu-Center comes out ahead."
     }
   ],
   "goodFor": [

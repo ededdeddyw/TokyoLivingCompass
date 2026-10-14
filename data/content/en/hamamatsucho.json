@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Hamamatsucho",
   "tagline": "Tokyo in 7 minutes and Shinagawa in 7 minutes. Served by 3 lines. A one-room flat rents for roughly ¥150,000 to ¥160,000.",
-  "summary": "The station is in Minato City, where JR East and Tokyo Monorail run 3 lines between them. Journey times to the main business districts are 12 minutes to Otemachi, 27 minutes to Shinjuku, 23 minutes to Shibuya and 7 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 4.4 m above sea level, and the ground within 800 m varies in height by 2.8 m. The land around the station is close to level.",
+  "summary": "The station is in Minato City, where JR East and Tokyo Monorail run 3 lines between them. Journey times to the main business districts are 12 minutes to Otemachi, 27 minutes to Shinjuku, 24 minutes to Shibuya and 7 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 4.4 m above sea level, and the ground within 800 m varies in height by 2.8 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 4.4 m above sea level. Within 800 m the ground ranges from 1.6 m to 4.4 m, a difference of 2.8 m."
@@ -42,13 +42,13 @@
   "neighbours": [
     {
       "slug": "daimon",
-      "lead": "For how close the centre is, Daimon; for rail connections, Hamamatsucho. ",
-      "note": "Close enough to walk to from Hamamatsucho. Daimon has only the Toei Oedo Line and Toei Asakusa Line, so Hamamatsucho is the better connected. To Roppongi, for instance, Daimon is 12 minutes quicker. Rents, flood projections and the rest differ little."
+      "lead": "For how close the centre is, Daimon; for quiet, Hamamatsucho. ",
+      "note": "Close enough to walk to from Hamamatsucho. Hamamatsucho adds the JR Yamanote Line, JR Keihin-Tohoku Line and Tokyo Monorail; Daimon adds the Toei Oedo Line and Toei Asakusa Line. Daimon is at least 11 minutes quicker to Roppongi and Shinjuku. On quiet, though, Hamamatsucho comes out ahead."
     },
     {
       "slug": "takeshiba",
-      "lead": "For how little of the area is in the flood projection, Takeshiba; for rail connections, Hamamatsucho. ",
-      "note": "Close enough to walk to from Hamamatsucho. Takeshiba has only the Yurikamome, so Hamamatsucho is the better connected. To Shinagawa, for instance, Takeshiba takes 9 minutes longer. A one-room flat also costs about ¥29,000 more at Takeshiba. On how little of the area is in the flood projection, though, Takeshiba comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Takeshiba; for how close the centre is, Hamamatsucho. ",
+      "note": "Close enough to walk to from Hamamatsucho. Hamamatsucho adds the JR Yamanote Line, JR Keihin-Tohoku Line and Tokyo Monorail; Takeshiba adds the Yurikamome. Hamamatsucho is at least 7 minutes quicker to Shinagawa and Otemachi. A one-room flat also costs about ¥29,000 more at Takeshiba. On how little of the area is in the flood projection, though, Takeshiba comes out ahead."
     }
   ],
   "goodFor": [
@@ -77,7 +77,7 @@
     "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
   },
   "authoredBy": "data-generated"

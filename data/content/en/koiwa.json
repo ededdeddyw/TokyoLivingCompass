@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Koiwa",
   "tagline": "Tokyo in 27 minutes and Otemachi in 33 minutes. Served by 1 line. A one-room flat rents for roughly ¥60,000 to ¥70,000.",
-  "summary": "The station is in Edogawa City, where JR East run 1 line between them. Journey times to the main business districts are 33 minutes to Otemachi, 45 minutes to Shinjuku, 52 minutes to Shibuya and 42 minutes to Shinagawa. A one-room flat rents for roughly ¥60,000 to ¥70,000. The station stands 2 m above sea level, and the ground within 800 m varies in height by 2.8 m. The land around the station is close to level.",
+  "summary": "The station is in Edogawa City, where JR East run 1 line between them. Journey times to the main business districts are 33 minutes to Otemachi, 45 minutes to Shinjuku, 52 minutes to Shibuya and 38 minutes to Shinagawa. A one-room flat rents for roughly ¥60,000 to ¥70,000. The station stands 2 m above sea level, and the ground within 800 m varies in height by 2.8 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 2 m above sea level. Within 800 m the ground ranges from 0.8 m to 3.6 m, a difference of 2.8 m."
@@ -57,12 +57,12 @@
     {
       "slug": "keisei-koiwa",
       "lead": "For safety, Keisei-Koiwa; for how close the centre is, Koiwa. ",
-      "note": "About 1 km from Koiwa in a straight line. Keisei-Koiwa has the Keisei Main Line, a different set from Koiwa. To Tokyo, for instance, Keisei-Koiwa takes 17 minutes longer. On what it offers families, Keisei-Koiwa comes out ahead."
+      "note": "About 1 km from Koiwa in a straight line. Koiwa adds the JR Chuo-Sobu Line (Local); Keisei-Koiwa adds the Keisei Main Line. Koiwa is at least 17 minutes quicker to Shinagawa and Tokyo. On what it offers families, though, Keisei-Koiwa comes out ahead."
     },
     {
       "slug": "edogawa",
       "lead": "For how little of the area is in the flood projection, Edogawa; for how close the centre is, Koiwa. ",
-      "note": "About 1.5 km from Koiwa in a straight line. Edogawa has the Keisei Main Line, a different set from Koiwa. To Tokyo, for instance, Edogawa takes 19 minutes longer. On how easy the shopping is, Koiwa comes out ahead."
+      "note": "About 1.5 km from Koiwa in a straight line. Koiwa adds the JR Chuo-Sobu Line (Local); Edogawa adds the Keisei Main Line. Koiwa is at least 20 minutes quicker to Shinagawa and Tokyo. On what it offers families, though, Edogawa comes out ahead."
     }
   ],
   "goodFor": [
@@ -91,7 +91,7 @@
     "stationNote": "Only the JR Chuo-Sobu Line (Local) serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

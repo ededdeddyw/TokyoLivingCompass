@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Akihabara",
   "tagline": "Tokyo in 5 minutes and Otemachi in 11 minutes. Served by 5 lines. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
-  "summary": "The station is in Chiyoda City, where JR East, Tokyo Metro and Tsukuba Express run 5 lines between them. Journey times to the main business districts are 11 minutes to Otemachi, 18 minutes to Shinjuku, 28 minutes to Shibuya and 19 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 3.5 m above sea level, and the ground within 800 m varies in height by 2.8 m. The land around the station is close to level.",
+  "summary": "The station is in Chiyoda City, where JR East, Tokyo Metro and Tsukuba Express run 5 lines between them. Journey times to the main business districts are 11 minutes to Otemachi, 18 minutes to Shinjuku, 29 minutes to Shibuya and 19 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 3.5 m above sea level, and the ground within 800 m varies in height by 2.8 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 3.5 m above sea level. Within 800 m the ground ranges from 2 m to 4.8 m, a difference of 2.8 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. 5 lines and a wide choice of connections and plenty of places to eat out pushes the figure up. On the other side, a large projected flood depth holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is on the low side. 5 lines and a wide choice of connections and plenty of places to eat out pushes the figure up. On the other side, a large projected flood depth holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "iwamotocho",
-      "lead": "Akihabara is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Akihabara. Iwamotocho has only the Toei Shinjuku Line, so Akihabara is the better connected. To Toranomon, for instance, Iwamotocho takes 8 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "Akihabara is ahead on how close the centre is, and little else separates the two. ",
+      "note": "Close enough to walk to from Akihabara. Akihabara adds the 5 lines; Iwamotocho adds the Toei Shinjuku Line. Akihabara is at least 6 minutes quicker to Toranomon and Tokyo. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "suehirocho",
-      "lead": "For how little of the area is in the flood projection, Suehirocho; for rail connections, Akihabara. ",
-      "note": "Close enough to walk to from Akihabara. Suehirocho has only the Tokyo Metro Ginza Line, so Akihabara is the better connected. To Tokyo, for instance, Suehirocho takes 5 minutes longer. On how little of the area is in the flood projection, though, Suehirocho comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Suehirocho; for safety, Akihabara. ",
+      "note": "Close enough to walk to from Akihabara. Akihabara adds the 5 lines; Suehirocho adds the Tokyo Metro Ginza Line. Akihabara is 5 minutes quicker to Tokyo, but times to the other main business districts are much the same. On how little of the area is in the flood projection, Suehirocho comes out ahead."
     }
   ],
   "goodFor": [
@@ -81,20 +81,20 @@
   ],
   "tags": [
     "majorHub",
-    "goodValue",
     "floodArea",
     "manyLines",
     "singleFriendly",
-    "shoppingEasy"
+    "shoppingEasy",
+    "diningRich"
   ],
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "There are 20 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "5 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
-    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are some of the most heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

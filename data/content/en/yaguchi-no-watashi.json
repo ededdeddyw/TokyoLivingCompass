@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Yaguchi-No-Watashi",
   "tagline": "Shinagawa in 23 minutes and Shibuya in 34 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Ota City, served by Tokyu Tamagawa Line. Journey times to the main business districts are 43 minutes to Otemachi, 44 minutes to Shinjuku, 34 minutes to Shibuya and 23 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 4.9 m above sea level, and the ground within 800 m varies in height by 1.1 m. The land around the station is close to level.",
+  "summary": "The station is in Ota City, served by Tokyu Tamagawa Line. Journey times to the main business districts are 43 minutes to Otemachi, 42 minutes to Shinjuku, 34 minutes to Shibuya and 23 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 4.9 m above sea level, and the ground within 800 m varies in height by 1.1 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 4.9 m above sea level. Within 800 m the ground ranges from 3.8 m to 4.9 m, a difference of 1.1 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. schools and parks within walking distance pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is on the high side. schools and parks within walking distance pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "hasunuma",
-      "lead": "For the number of medical facilities, Hasunuma; for how close the centre is, Yaguchi-No-Watashi. ",
-      "note": "Close enough to walk to from Yaguchi-No-Watashi. Hasunuma has the Tokyu Ikegami Line, a different set from Yaguchi-No-Watashi. To Shibuya, for instance, Hasunuma takes 4 minutes longer. On what it offers families, Yaguchi-No-Watashi comes out ahead."
+      "lead": "For the number of medical facilities, Hasunuma; for safety, Yaguchi-No-Watashi. ",
+      "note": "Close enough to walk to from Yaguchi-No-Watashi. Yaguchi-No-Watashi adds the Tokyu Tamagawa Line; Hasunuma adds the Tokyu Ikegami Line. Journey times to the main business districts are much the same. On what it offers families, Yaguchi-No-Watashi comes out ahead."
     },
     {
       "slug": "musashi-nitta",
-      "lead": "Yaguchi-No-Watashi is ahead on how close the centre is, and little else separates the two. ",
-      "note": "Close enough to walk to from Yaguchi-No-Watashi. It is served by the same lines as Yaguchi-No-Watashi. To Shinagawa, for instance, Musashi-Nitta takes 3 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Yaguchi-No-Watashi. It is served by the same lines as Yaguchi-No-Watashi. Journey times to the main business districts are much the same. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -88,9 +88,9 @@
     "groceries": "There are 7 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tokyu Tamagawa Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
+    "congestion": "This station sits on the busiest stretch of the Tokyu Tamagawa Line, but at 112% passengers are not shoulder to shoulder. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

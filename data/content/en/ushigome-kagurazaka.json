@@ -2,8 +2,8 @@
   "slug": "ushigome-kagurazaka",
   "locale": "en",
   "name": "Ushigome-Kagurazaka",
-  "tagline": "Otemachi in 13 minutes and Tokyo in 18 minutes. Served by 1 line. A one-room flat rents for roughly ¥120,000 to ¥130,000.",
-  "summary": "The station is in Shinjuku City, served by Toei Oedo Line. Journey times to the main business districts are 13 minutes to Otemachi, 20 minutes to Shinjuku, 21 minutes to Shibuya and 33 minutes to Shinagawa. A one-room flat rents for roughly ¥120,000 to ¥130,000. The station stands 19 m above sea level, and the ground within 800 m varies in height by 18.1 m. The land around the station has gentle slopes.",
+  "tagline": "Shinjuku in 12 minutes and Otemachi in 13 minutes. Served by 1 line. A one-room flat rents for roughly ¥120,000 to ¥130,000.",
+  "summary": "The station is in Shinjuku City, served by Toei Oedo Line. Journey times to the main business districts are 13 minutes to Otemachi, 12 minutes to Shinjuku, 21 minutes to Shibuya and 35 minutes to Shinagawa. A one-room flat rents for roughly ¥120,000 to ¥130,000. The station stands 19 m above sea level, and the ground within 800 m varies in height by 18.1 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 19 m above sea level. Within 800 m the ground ranges from 10.8 m to 28.9 m, a difference of 18.1 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "kagurazaka",
-      "lead": "For how close the centre is, Kagurazaka; for how little of the area is in the flood projection, Ushigome-Kagurazaka. ",
-      "note": "Close enough to walk to from Ushigome-Kagurazaka. Kagurazaka has the Tokyo Metro Tozai Line, a different set from Ushigome-Kagurazaka. To Shinagawa, for instance, Kagurazaka is 4 minutes quicker. On how little of the area is in the flood projection, Ushigome-Kagurazaka comes out ahead."
+      "lead": "Ushigome-Kagurazaka is ahead on how little of the area is in the flood projection and quiet. ",
+      "note": "Close enough to walk to from Ushigome-Kagurazaka. Ushigome-Kagurazaka adds the Toei Oedo Line; Kagurazaka adds the Tokyo Metro Tozai Line. Which is faster depends on where you are going: Ushigome-Kagurazaka is 6 minutes quicker to Shinjuku, Kagurazaka is 6 minutes quicker to Shinagawa. On how little of the area is in the flood projection, Ushigome-Kagurazaka comes out ahead."
     },
     {
       "slug": "iidabashi",
-      "lead": "For rail connections, Iidabashi; for lower rent, Ushigome-Kagurazaka. ",
-      "note": "Close enough to walk to from Ushigome-Kagurazaka. Iidabashi has 4 lines that Ushigome-Kagurazaka does not. With more lines, Iidabashi is the better connected of the two. To Roppongi, for instance, Iidabashi is 8 minutes quicker. A one-room flat, though, costs about ¥17,000 more at Iidabashi."
+      "lead": "For how close the centre is, Iidabashi; for lower rent, Ushigome-Kagurazaka. ",
+      "note": "Close enough to walk to from Ushigome-Kagurazaka. Both have the Toei Oedo Line. Iidabashi also has the 4 lines, which Ushigome-Kagurazaka does not. Iidabashi is at least 7 minutes quicker to Toranomon and Otemachi. A one-room flat, though, costs about ¥17,000 more at Iidabashi."
     }
   ],
   "goodFor": [
@@ -79,9 +79,9 @@
     "The nearest big road, 早稲田通り, is far enough that little traffic noise reaches the station area"
   ],
   "tags": [
-    "pricey",
     "lowFlood",
     "singleLine",
+    "singleFriendly",
     "shoppingEasy",
     "diningRich",
     "medicalRich"

@@ -2,8 +2,8 @@
   "slug": "kamata",
   "locale": "en",
   "name": "Kamata",
-  "tagline": "Shinagawa in 15 minutes and Tokyo in 29 minutes. Served by 3 lines. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Ota City, where JR East and Tokyu run 3 lines between them. Journey times to the main business districts are 35 minutes to Otemachi, 36 minutes to Shinjuku, 31 minutes to Shibuya and 15 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 3.3 m above sea level, and the ground within 800 m varies in height by 1.5 m. The land around the station is close to level.",
+  "tagline": "Shinagawa in 15 minutes and Shibuya in 28 minutes. Served by 3 lines. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
+  "summary": "The station is in Ota City, where JR East and Tokyu run 3 lines between them. Journey times to the main business districts are 35 minutes to Otemachi, 34 minutes to Shinjuku, 28 minutes to Shibuya and 15 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 3.3 m above sea level, and the ground within 800 m varies in height by 1.5 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 3.3 m above sea level. Within 800 m the ground ranges from 2.5 m to 4 m, a difference of 1.5 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "hasunuma",
-      "lead": "For quiet, Hasunuma; for rail connections, Kamata. ",
-      "note": "Close enough to walk to from Kamata. Hasunuma has only the Tokyu Ikegami Line, so Kamata is the better connected. To Toranomon, for instance, Hasunuma takes 7 minutes longer. On quiet, though, Hasunuma comes out ahead."
+      "lead": "For quiet, Hasunuma; for how close the centre is, Kamata. ",
+      "note": "Close enough to walk to from Kamata. Both have the Tokyu Ikegami Line. Kamata also has the JR Keihin-Tohoku Line and Tokyu Tamagawa Line, which Hasunuma does not. Kamata is at least 7 minutes quicker to Toranomon and Tokyo. On quiet, though, Hasunuma comes out ahead."
     },
     {
       "slug": "keikyu-kamata",
-      "lead": "Kamata is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Kamata. Keikyu-Kamata has only the Keikyu Main Line and Keikyu Airport Line, so Kamata is the better connected. To Shinjuku, for instance, Keikyu-Kamata takes 13 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "Kamata is ahead on how close the centre is, and little else separates the two. ",
+      "note": "Close enough to walk to from Kamata. Kamata adds the JR Keihin-Tohoku Line, Tokyu Ikegami Line and Tokyu Tamagawa Line; Keikyu-Kamata adds the Keikyu Main Line and Keikyu Airport Line. Kamata is at least 10 minutes quicker to Shinjuku and Shibuya. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -91,7 +91,7 @@
     "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "This station sits on the busiest stretch of the Tokyu Tamagawa Line, but at 112% passengers are not shoulder to shoulder. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

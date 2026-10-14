@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Kameari",
   "tagline": "Tokyo in 31 minutes and Otemachi in 35 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Katsushika City, served by JR Joban Line. Journey times to the main business districts are 35 minutes to Otemachi, 46 minutes to Shinjuku, 55 minutes to Shibuya and 46 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 1.1 m above sea level, and the ground within 800 m varies in height by 1.7 m. The land around the station is close to level.",
+  "summary": "The station is in Katsushika City, served by JR Joban Line. Journey times to the main business districts are 35 minutes to Otemachi, 49 minutes to Shinjuku, 56 minutes to Shibuya and 49 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 1.1 m above sea level, and the ground within 800 m varies in height by 1.7 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 1.1 m above sea level. Within 800 m the ground ranges from -0.6 m to 1.1 m, a difference of 1.7 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What holds the figure down: a large projected flood depth and only one line, the {line}, serving the station. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. In plain yen, though, it is on the low side for the 23 wards. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "kita-ayase",
-      "lead": "For how close the centre is, Kita-Ayase; for how easy the shopping is, Kameari. ",
-      "note": "About 2 km from Kameari in a straight line. Kita-Ayase has the Tokyo Metro Chiyoda Line, a different set from Kameari. To Shinjuku, for instance, Kita-Ayase is 4 minutes quicker. On the number of places to eat out, Kameari comes out ahead."
+      "lead": "For safety, Kita-Ayase; for how easy the shopping is, Kameari. ",
+      "note": "About 2 km from Kameari in a straight line. Kameari adds the JR Joban Line; Kita-Ayase adds the Tokyo Metro Chiyoda Line. Kita-Ayase is 7 minutes quicker to Shinjuku, but times to the other main business districts are much the same. On the number of places to eat out, Kameari comes out ahead. Within about 13 minutes' walk, Kameari has 77 restaurants and Kita-Ayase has 11."
     },
     {
       "slug": "kanamachi",
-      "lead": "For rail connections, Kanamachi; for how close the centre is, Kameari. ",
-      "note": "About 2 km from Kameari in a straight line. Kanamachi also has the Keisei Kanamachi Line, which Kameari does not. With more lines, Kanamachi is the better connected of the two. To Toranomon, for instance, Kanamachi takes 4 minutes longer. On how easy the shopping is, though, Kameari comes out ahead."
+      "lead": "For safety, Kanamachi; for how easy the shopping is, Kameari. ",
+      "note": "About 2 km from Kameari in a straight line. Both have the JR Joban Line. Kanamachi also has the Keisei Kanamachi Line, which Kameari does not. Journey times to the main business districts are much the same. On the number of medical facilities, Kanamachi comes out ahead. Within about 13 minutes' walk, Kanamachi has 33 clinics and pharmacies and Kameari has 27."
     }
   ],
   "goodFor": [

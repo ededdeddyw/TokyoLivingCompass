@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Ichinoe",
   "tagline": "Tokyo in 31 minutes and Otemachi in 31 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Edogawa City, where the Tokyo Metropolitan Bureau of Transportation run 1 line between them. Journey times to the main business districts are 31 minutes to Otemachi, 41 minutes to Shinjuku, 49 minutes to Shibuya and 45 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 1.1 m above sea level, and the ground within 800 m varies in height by 2.5 m. The land around the station is close to level.",
+  "summary": "The station is in Edogawa City, where the Tokyo Metropolitan Bureau of Transportation run 1 line between them. Journey times to the main business districts are 31 minutes to Otemachi, 41 minutes to Shinjuku, 49 minutes to Shibuya and 41 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 1.1 m above sea level, and the ground within 800 m varies in height by 2.5 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 1.1 m above sea level. Within 800 m the ground ranges from -0.5 m to 2 m, a difference of 2.5 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "mizue",
-      "lead": "For lower rent, Mizue; for how close the centre is, Ichinoe. ",
-      "note": "About 1.5 km from Ichinoe in a straight line. It is served by the same lines as Ichinoe. To Toranomon, for instance, Mizue takes 4 minutes longer. A one-room flat costs about ¥5,000 less at Mizue. On quiet, Mizue comes out ahead."
+      "lead": "For lower rent, Mizue; for what it offers families, Ichinoe. ",
+      "note": "About 1.5 km from Ichinoe in a straight line. It is served by the same lines as Ichinoe. Journey times to the main business districts are much the same. A one-room flat costs about ¥5,000 less at Mizue. On quiet, Mizue comes out ahead."
     },
     {
       "slug": "funabori",
-      "lead": "For how close the centre is, Funabori; for safety, Ichinoe. ",
-      "note": "About 1.5 km from Ichinoe in a straight line. It is served by the same lines as Ichinoe. To Tokyo, for instance, Funabori is 4 minutes quicker. On safety, Ichinoe comes out ahead."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "About 1.5 km from Ichinoe in a straight line. It is served by the same lines as Ichinoe. Journey times to the main business districts are much the same. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -89,7 +89,7 @@
     "stationNote": "Only the Toei Shinjuku Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

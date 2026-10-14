@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Shin-Koiwa",
   "tagline": "Tokyo in 16 minutes and Otemachi in 21 minutes. Served by 2 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Katsushika City, where JR East run 2 lines between them. Journey times to the main business districts are 21 minutes to Otemachi, 36 minutes to Shinjuku, 40 minutes to Shibuya and 30 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 2.5 m above sea level, and the ground within 800 m varies in height by 3.8 m. The land around the station is close to level.",
+  "summary": "The station is in Katsushika City, where JR East run 2 lines between them. Journey times to the main business districts are 21 minutes to Otemachi, 36 minutes to Shinjuku, 40 minutes to Shibuya and 26 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 2.5 m above sea level, and the ground within 800 m varies in height by 3.8 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 2.5 m above sea level. Within 800 m the ground ranges from -1.3 m to 2.5 m, a difference of 3.8 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "hirai",
-      "lead": "For safety, Hirai; for rail connections, Shin-Koiwa. ",
-      "note": "About 2 km from Shin-Koiwa in a straight line. Hirai has only the JR Chuo-Sobu Line (Local), so Shin-Koiwa is the better connected. To Toranomon, for instance, Hirai takes 5 minutes longer. On what it offers families, though, Hirai comes out ahead."
+      "lead": "For what it offers families, Hirai; for how close the centre is, Shin-Koiwa. ",
+      "note": "About 2 km from Shin-Koiwa in a straight line. Both have the JR Chuo-Sobu Line (Local). Shin-Koiwa also has the JR Sobu Main Line, which Hirai does not. Shin-Koiwa is at least 5 minutes quicker to Toranomon and Tokyo. On what it offers families, though, Hirai comes out ahead."
     },
     {
       "slug": "keisei-tateishi",
-      "lead": "For safety, Keisei-Tateishi; for rail connections, Shin-Koiwa. ",
-      "note": "About 2.5 km from Shin-Koiwa in a straight line. Keisei-Tateishi has only the Keisei Oshiage Line, so Shin-Koiwa is the better connected. To Tokyo, for instance, Keisei-Tateishi takes 17 minutes longer. On safety, though, Keisei-Tateishi comes out ahead."
+      "lead": "For safety, Keisei-Tateishi; for how close the centre is, Shin-Koiwa. ",
+      "note": "About 2.5 km from Shin-Koiwa in a straight line. Shin-Koiwa adds the JR Chuo-Sobu Line (Local) and JR Sobu Main Line; Keisei-Tateishi adds the Keisei Oshiage Line. Shin-Koiwa is at least 14 minutes quicker to Shinagawa and Tokyo. On what it offers families, though, Keisei-Tateishi comes out ahead."
     }
   ],
   "goodFor": [
@@ -73,7 +73,7 @@
     "People avoiding projected flood inundation areas"
   ],
   "noiseSources": [
-    "平和橋通り (a main road) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
+    "平和橋通り (1 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "quiet",
@@ -88,7 +88,7 @@
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Morning trains are very crowded: this station sits on the busiest stretch of the JR Sobu Main Line. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

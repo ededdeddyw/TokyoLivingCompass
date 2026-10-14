@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Nishi-Eifuku",
   "tagline": "Shibuya in 17 minutes and Shinjuku in 20 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Suginami City, where Keio run 1 line between them. Journey times to the main business districts are 41 minutes to Otemachi, 20 minutes to Shinjuku, 17 minutes to Shibuya and 43 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 42.5 m above sea level, and the ground within 800 m varies in height by 5.8 m. The land around the station is close to level.",
+  "summary": "The station is in Suginami City, where Keio run 1 line between them. Journey times to the main business districts are 40 minutes to Otemachi, 20 minutes to Shinjuku, 17 minutes to Shibuya and 38 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 42.5 m above sea level, and the ground within 800 m varies in height by 5.8 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 42.5 m above sea level. Within 800 m the ground ranges from 38.4 m to 44.2 m, a difference of 5.8 m."
@@ -45,17 +45,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is on the low side. schools and parks within walking distance pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. schools and parks within walking distance pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "hamadayama",
       "lead": "Hamadayama is ahead on how little of the area is in the flood projection and how easy the shopping is. ",
-      "note": "Close enough to walk to from Nishi-Eifuku. It is served by the same lines as Nishi-Eifuku. Journey times to the main business districts are much the same. On how easy the shopping is, Hamadayama comes out ahead."
+      "note": "Close enough to walk to from Nishi-Eifuku. It is served by the same lines as Nishi-Eifuku. Journey times to the main business districts are much the same. On how easy the shopping is, Hamadayama comes out ahead. Within about 13 minutes' walk, Hamadayama has 5 supermarkets (コモディイイダ and 成城石井 and others) and Nishi-Eifuku has 3."
     },
     {
       "slug": "eifukucho",
-      "lead": "Nishi-Eifuku is ahead on safety, and little else separates the two. ",
-      "note": "Close enough to walk to from Nishi-Eifuku. It is served by the same lines as Nishi-Eifuku. Journey times to the main business districts are much the same. On safety, Nishi-Eifuku comes out ahead."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Nishi-Eifuku. It is served by the same lines as Nishi-Eifuku. Journey times to the main business districts are much the same. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -85,7 +85,7 @@
     "groceries": "There are 3 supermarkets within walking distance, and the nearest is 4 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Keio Inokashira Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."

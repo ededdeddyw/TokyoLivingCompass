@@ -2,8 +2,8 @@
   "slug": "hikawadai",
   "locale": "en",
   "name": "Hikawadai",
-  "tagline": "Shinjuku in 23 minutes and Shibuya in 28 minutes. Served by 2 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Nerima City, where Tokyo Metro run 2 lines between them. Journey times to the main business districts are 32 minutes to Otemachi, 23 minutes to Shinjuku, 28 minutes to Shibuya and 49 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 27.6 m above sea level, and the ground within 800 m varies in height by 9.4 m. The land around the station has gentle slopes.",
+  "tagline": "Shinjuku in 23 minutes and Shibuya in 30 minutes. Served by 2 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
+  "summary": "The station is in Nerima City, where Tokyo Metro run 2 lines between them. Journey times to the main business districts are 32 minutes to Otemachi, 23 minutes to Shinjuku, 30 minutes to Shibuya and 44 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 27.6 m above sea level, and the ground within 800 m varies in height by 9.4 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 27.6 m above sea level. Within 800 m the ground ranges from 26.3 m to 35.7 m, a difference of 9.4 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "shin-sakuradai",
-      "lead": "For how little of the area is in the flood projection, Shin-Sakuradai; for rail connections, Hikawadai. ",
-      "note": "About 1 km from Hikawadai in a straight line. Shin-Sakuradai has only the Seibu Yurakucho Line, so Hikawadai is the better connected. To Otemachi, for instance, Shin-Sakuradai takes 5 minutes longer. A one-room flat also costs about ¥6,000 more at Shin-Sakuradai. On how little of the area is in the flood projection, though, Shin-Sakuradai comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Shin-Sakuradai; for lower rent, Hikawadai. ",
+      "note": "About 1 km from Hikawadai in a straight line. Hikawadai adds the Tokyo Metro Yurakucho Line and Tokyo Metro Fukutoshin Line; Shin-Sakuradai adds the Seibu Yurakucho Line. Journey times to the main business districts are much the same. A one-room flat costs about ¥6,000 more at Shin-Sakuradai. On how little of the area is in the flood projection, Shin-Sakuradai comes out ahead."
     },
     {
       "slug": "sakuradai",
-      "lead": "For how little of the area is in the flood projection, Sakuradai; for rail connections, Hikawadai. ",
-      "note": "About 1 km from Hikawadai in a straight line. Sakuradai has only the Seibu Ikebukuro Line, so Hikawadai is the better connected. To Toranomon, for instance, Sakuradai takes 4 minutes longer. A one-room flat also costs about ¥8,000 more at Sakuradai. On the number of medical facilities, though, Sakuradai comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Sakuradai; for lower rent, Hikawadai. ",
+      "note": "About 1 km from Hikawadai in a straight line. Hikawadai adds the Tokyo Metro Yurakucho Line and Tokyo Metro Fukutoshin Line; Sakuradai adds the Seibu Ikebukuro Line. Journey times to the main business districts are much the same. A one-room flat costs about ¥8,000 more at Sakuradai. On what it offers families, Hikawadai comes out ahead."
     }
   ],
   "goodFor": [
@@ -87,7 +87,7 @@
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

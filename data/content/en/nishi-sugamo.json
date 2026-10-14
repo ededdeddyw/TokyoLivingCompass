@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Nishi-Sugamo",
   "tagline": "Otemachi in 17 minutes and Tokyo in 24 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Toshima City, served by Toei Mita Line. Journey times to the main business districts are 17 minutes to Otemachi, 26 minutes to Shinjuku, 31 minutes to Shibuya and 37 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 26.1 m above sea level, and the ground within 800 m varies in height by 6.2 m. The land around the station is close to level.",
+  "summary": "The station is in Toshima City, served by Toei Mita Line. Journey times to the main business districts are 17 minutes to Otemachi, 26 minutes to Shinjuku, 34 minutes to Shibuya and 37 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 26.1 m above sea level, and the ground within 800 m varies in height by 6.2 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 26.1 m above sea level. Within 800 m the ground ranges from 21.3 m to 27.5 m, a difference of 6.2 m."
@@ -57,12 +57,12 @@
     {
       "slug": "shin-koshinzuka",
       "lead": "Nishi-Sugamo is ahead on how close the centre is and lower rent. ",
-      "note": "Close enough to walk to from Nishi-Sugamo. Shin-Koshinzuka has the Tokyo Sakura Tram (Toden Arakawa Line), a different set from Nishi-Sugamo. To Otemachi, for instance, Shin-Koshinzuka takes 16 minutes longer. A one-room flat costs about ¥15,000 more at Shin-Koshinzuka."
+      "note": "Close enough to walk to from Nishi-Sugamo. Nishi-Sugamo adds the Toei Mita Line; Shin-Koshinzuka adds the Tokyo Sakura Tram (Toden Arakawa Line). Nishi-Sugamo is at least 15 minutes quicker to Otemachi and Toranomon. A one-room flat also costs about ¥15,000 more at Shin-Koshinzuka."
     },
     {
       "slug": "nishigahara-yonchome",
       "lead": "For lower rent, Nishigahara-Yonchome; for how close the centre is, Nishi-Sugamo. ",
-      "note": "Close enough to walk to from Nishi-Sugamo. Nishigahara-Yonchome has the Tokyo Sakura Tram (Toden Arakawa Line), a different set from Nishi-Sugamo. To Otemachi, for instance, Nishigahara-Yonchome takes 19 minutes longer. A one-room flat costs about ¥7,000 less at Nishigahara-Yonchome. On quiet, Nishigahara-Yonchome comes out ahead."
+      "note": "Close enough to walk to from Nishi-Sugamo. Nishi-Sugamo adds the Toei Mita Line; Nishigahara-Yonchome adds the Tokyo Sakura Tram (Toden Arakawa Line). Nishi-Sugamo is at least 16 minutes quicker to Otemachi and Toranomon. A one-room flat, though, costs about ¥7,000 less at Nishigahara-Yonchome."
     }
   ],
   "goodFor": [
@@ -94,7 +94,7 @@
     "stationNote": "Only the Toei Mita Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
+    "congestion": "This station sits on the busiest stretch of the Toei Mita Line, but at 146% passengers are not shoulder to shoulder. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

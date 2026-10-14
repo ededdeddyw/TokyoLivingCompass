@@ -88,6 +88,28 @@ EXTRA_EDGES = {
     "99301": [("新宿", "都庁前")],
 }
 
+# 直通運転。境目の駅で路線が変わっても、同じ列車に乗ったまま行ける組み合わせ。
+# 以前はこれを乗り換え1回として数えていたため、武蔵小山から大手町（目黒線→三田線）が
+# 「乗り換え1回」と出て、本文の「乗り換えなし」と食い違っていた。
+# すべての列車が直通するわけではないので、境目では THROUGH_MIN だけ時間を足す。
+THROUGH_SERVICES = [
+    ("26002", "28009", "目黒"),        # 東急目黒線 ↔ 南北線
+    ("26002", "99303", "目黒"),        # 東急目黒線 ↔ 都営三田線
+    ("26001", "28010", "渋谷"),        # 東急東横線 ↔ 副都心線
+    ("26003", "28008", "渋谷"),        # 東急田園都市線 ↔ 半蔵門線
+    ("28008", "21002", "押上"),        # 半蔵門線 ↔ 東武伊勢崎線（スカイツリーライン）
+    ("28005", "25001", "代々木上原"),  # 千代田線 ↔ 小田急線
+    ("99302", "27001", "泉岳寺"),      # 都営浅草線 ↔ 京急本線
+    ("99302", "23002", "押上"),        # 都営浅草線 ↔ 京成押上線
+    ("99304", "24007", "新宿"),        # 都営新宿線 ↔ 京王新線
+    ("28004", "11313", "中野"),        # 東西線 ↔ JR中央・総武線
+    ("28006", "22003", "小竹向原"),    # 有楽町線 ↔ 西武有楽町線
+    ("28010", "22003", "小竹向原"),    # 副都心線 ↔ 西武有楽町線
+    ("11321", "99337", "大崎"),        # JR埼京線 ↔ りんかい線
+    ("11314", "11308", "東京"),        # JR総武快速線 ↔ 横須賀線
+]
+THROUGH_MIN = 1.0
+
 DWELL_MIN = 0.4        # 1駅あたりの停車時間
 TRANSFER_MIN = 5.0     # 乗り換え1回あたり（徒歩＋待ち）
 # 経路を選ぶときだけ乗換1回に上乗せする分数。出力する所要時間には含めない。
@@ -163,6 +185,16 @@ def build_graph():
             minutes = km(coords[ga], coords[gb]) / speed * 60 + DWELL_MIN
             edges[(ga, line_cd)].append(((gb, line_cd), minutes, False))
             edges[(gb, line_cd)].append(((ga, line_cd), minutes, False))
+
+    # 直通運転は、乗り換えとして数えない
+    for la, lb, station in THROUGH_SERVICES:
+        cands = [g for g, n in names.items()
+                 if n.startswith(station) and la in station_lines[g] and lb in station_lines[g]]
+        if not cands:
+            raise SystemExit(f"直通運転の境目の駅が見つかりません: {station}（{la}・{lb}）")
+        for g in cands:
+            edges[(g, la)].append(((g, lb), THROUGH_MIN, False))
+            edges[(g, lb)].append(((g, la), THROUGH_MIN, False))
 
     # 同一駅内の乗り換え
     for g, lines in station_lines.items():

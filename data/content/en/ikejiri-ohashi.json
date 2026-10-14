@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Ikejiri-Ohashi",
   "tagline": "Shibuya in 4 minutes and Shinjuku in 14 minutes. Served by 1 line. A one-room flat rents for roughly ¥110,000 to ¥120,000.",
-  "summary": "The station is in Meguro City, where Tokyu run 1 line between them. Journey times to the main business districts are 27 minutes to Otemachi, 14 minutes to Shinjuku, 4 minutes to Shibuya and 30 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 17 m above sea level, and the ground within 800 m varies in height by 20.0 m. The land around the station rises and falls sharply.",
+  "summary": "The station is in Meguro City, where Tokyu run 1 line between them. Journey times to the main business districts are 23 minutes to Otemachi, 14 minutes to Shinjuku, 4 minutes to Shibuya and 24 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 17 m above sea level, and the ground within 800 m varies in height by 20.0 m. The land around the station rises and falls sharply.",
   "terrain": {
     "slope": "hilly",
     "note": "The station sits lower than the ground around it, at 17 m above sea level. Within 800 m the ground ranges from 13.4 m to 33.4 m, a difference of 20.0 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "komaba-todaimae",
-      "lead": "For how little of the area is in the flood projection, Komaba-Todaimae; for lower rent, Ikejiri-Ohashi. ",
-      "note": "Close enough to walk to from Ikejiri-Ohashi. Komaba-Todaimae has the Keio Inokashira Line, a different set from Ikejiri-Ohashi. Journey times to the main business districts are much the same. A one-room flat costs about ¥8,000 more at Komaba-Todaimae. On quiet, Komaba-Todaimae comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Komaba-Todaimae; for how close the centre is, Ikejiri-Ohashi. ",
+      "note": "Close enough to walk to from Ikejiri-Ohashi. Ikejiri-Ohashi adds the Tokyu Den-en-toshi Line; Komaba-Todaimae adds the Keio Inokashira Line. Ikejiri-Ohashi is at least 5 minutes quicker to Roppongi and Otemachi. A one-room flat also costs about ¥8,000 more at Komaba-Todaimae. On quiet, though, Komaba-Todaimae comes out ahead."
     },
     {
       "slug": "shinsen",
       "lead": "For how little of the area is in the flood projection, Shinsen; for lower rent, Ikejiri-Ohashi. ",
-      "note": "About 1 km from Ikejiri-Ohashi in a straight line. Shinsen has the Keio Inokashira Line, a different set from Ikejiri-Ohashi. Journey times to the main business districts are much the same. A one-room flat costs about ¥42,000 more at Shinsen. On the number of places to eat out, Shinsen comes out ahead."
+      "note": "About 1 km from Ikejiri-Ohashi in a straight line. Ikejiri-Ohashi adds the Tokyu Den-en-toshi Line; Shinsen adds the Keio Inokashira Line. Journey times to the main business districts are much the same. A one-room flat costs about ¥42,000 more at Shinsen. On the number of places to eat out, Shinsen comes out ahead. Within about 13 minutes' walk, Shinsen has 317 restaurants and Ikejiri-Ohashi has 21."
     }
   ],
   "goodFor": [
@@ -79,8 +79,8 @@
     "玉川通り (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
+    "goodValue",
     "lowFlood",
-    "fastToCenter",
     "singleLine",
     "hilly"
   ],
@@ -91,7 +91,7 @@
     "stationNote": "Only the Tokyu Den-en-toshi Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
+    "congestion": "This station sits on the busiest stretch of the Tokyu Den-en-toshi Line, but at 138% passengers are not shoulder to shoulder. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

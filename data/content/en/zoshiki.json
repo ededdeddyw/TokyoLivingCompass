@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Zoshiki",
   "tagline": "Shinagawa in 21 minutes and Tokyo in 35 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Ota City, served by Keikyu Main Line. Journey times to the main business districts are 41 minutes to Otemachi, 52 minutes to Shinjuku, 47 minutes to Shibuya and 21 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 3.1 m above sea level, and the ground within 800 m varies in height by 1.1 m. The land around the station is close to level.",
+  "summary": "The station is in Ota City, served by Keikyu Main Line. Journey times to the main business districts are 42 minutes to Otemachi, 49 minutes to Shinjuku, 41 minutes to Shibuya and 21 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 3.1 m above sea level, and the ground within 800 m varies in height by 1.1 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 3.1 m above sea level. Within 800 m the ground ranges from 2.4 m to 3.5 m, a difference of 1.1 m."
@@ -49,13 +49,13 @@
   "neighbours": [
     {
       "slug": "rokugodote",
-      "lead": "For lower rent, Rokugodote; for how close the centre is, Zoshiki. ",
-      "note": "About 1 km from Zoshiki in a straight line. It is served by the same lines as Zoshiki. To Tokyo, for instance, Rokugodote takes 3 minutes longer. A one-room flat costs about ¥10,000 less at Rokugodote. On quiet, Rokugodote comes out ahead."
+      "lead": "For lower rent, Rokugodote; for the number of medical facilities, Zoshiki. ",
+      "note": "About 1 km from Zoshiki in a straight line. It is served by the same lines as Zoshiki. Journey times to the main business districts are much the same. A one-room flat costs about ¥10,000 less at Rokugodote. On quiet, Rokugodote comes out ahead."
     },
     {
       "slug": "kamata",
-      "lead": "For rail connections, Kamata; for lower rent, Zoshiki. ",
-      "note": "About 1.5 km from Zoshiki in a straight line. Kamata also has the JR Keihin-Tohoku Line, Tokyu Ikegami Line and Tokyu Tamagawa Line, which Zoshiki does not. With more lines, Kamata is the better connected of the two. To Shinjuku, for instance, Kamata is 16 minutes quicker. A one-room flat, though, costs about ¥5,000 more at Kamata."
+      "lead": "For how close the centre is, Kamata; for lower rent, Zoshiki. ",
+      "note": "About 1.5 km from Zoshiki in a straight line. Zoshiki adds the Keikyu Main Line; Kamata adds the JR Keihin-Tohoku Line, Tokyu Ikegami Line and Tokyu Tamagawa Line. Kamata is at least 13 minutes quicker to Shinjuku and Shibuya. A one-room flat, though, costs about ¥5,000 more at Kamata."
     }
   ],
   "goodFor": [

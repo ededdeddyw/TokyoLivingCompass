@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Higashi-Kitazawa",
   "tagline": "Shinjuku in 9 minutes and Shibuya in 14 minutes. Served by 1 line. A one-room flat rents for roughly ¥110,000 to ¥120,000.",
-  "summary": "The station is in Setagaya City, where Odakyu run 1 line between them. Journey times to the main business districts are 28 minutes to Otemachi, 9 minutes to Shinjuku, 14 minutes to Shibuya and 40 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 41.6 m above sea level, and the ground within 800 m varies in height by 10.1 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Setagaya City, where Odakyu run 1 line between them. Journey times to the main business districts are 24 minutes to Otemachi, 9 minutes to Shinjuku, 14 minutes to Shibuya and 31 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 41.6 m above sea level, and the ground within 800 m varies in height by 10.1 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 41.6 m above sea level. Within 800 m the ground ranges from 31.7 m to 41.8 m, a difference of 10.1 m."
@@ -49,13 +49,13 @@
   "neighbours": [
     {
       "slug": "ikenoue",
-      "lead": "Ikenoue is ahead on how close the centre is, and little else separates the two. ",
-      "note": "Close enough to walk to from Higashi-Kitazawa. Ikenoue has the Keio Inokashira Line, a different set from Higashi-Kitazawa. To Shinagawa, for instance, Ikenoue is 8 minutes quicker. Rents, flood projections and the rest differ little."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Higashi-Kitazawa. Higashi-Kitazawa adds the Odakyu Odawara Line; Ikenoue adds the Keio Inokashira Line. Which is faster depends on where you are going: Higashi-Kitazawa is 7 minutes quicker to Shinjuku, Ikenoue is 8 minutes quicker to Shibuya. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "shimo-kitazawa",
-      "lead": "For rail connections, Shimo-Kitazawa; for how little of the area is in the flood projection, Higashi-Kitazawa. ",
-      "note": "Close enough to walk to from Higashi-Kitazawa. Shimo-Kitazawa also has the Keio Inokashira Line, which Higashi-Kitazawa does not. With more lines, Shimo-Kitazawa is the better connected of the two. To Shinagawa, for instance, Shimo-Kitazawa is 6 minutes quicker. A one-room flat also costs about ¥18,000 less at Shimo-Kitazawa. On quiet, though, Higashi-Kitazawa comes out ahead."
+      "lead": "For lower rent, Shimo-Kitazawa; for how little of the area is in the flood projection, Higashi-Kitazawa. ",
+      "note": "Close enough to walk to from Higashi-Kitazawa. Both have the Odakyu Odawara Line. Shimo-Kitazawa also has the Keio Inokashira Line, which Higashi-Kitazawa does not. Shimo-Kitazawa is 6 minutes quicker to Shibuya, but times to the other main business districts are much the same. A one-room flat costs about ¥18,000 less at Shimo-Kitazawa. On the number of places to eat out, Shimo-Kitazawa comes out ahead. Within about 13 minutes' walk, Shimo-Kitazawa has 85 restaurants and Higashi-Kitazawa has 69."
     }
   ],
   "goodFor": [
@@ -80,7 +80,7 @@
     "stationNote": "Only the Odakyu Odawara Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

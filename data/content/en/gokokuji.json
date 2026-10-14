@@ -38,17 +38,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is on the low side. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "shin-otsuka",
-      "lead": "For how close the centre is, Shin-Otsuka; for safety, Gokokuji. ",
-      "note": "Close enough to walk to from Gokokuji. Shin-Otsuka has the Tokyo Metro Marunouchi Line, a different set from Gokokuji. To Tokyo, for instance, Shin-Otsuka is 8 minutes quicker. On how easy the shopping is, Shin-Otsuka comes out ahead."
+      "lead": "Shin-Otsuka is ahead on the number of medical facilities and how easy the shopping is. ",
+      "note": "Close enough to walk to from Gokokuji. Gokokuji adds the Tokyo Metro Yurakucho Line; Shin-Otsuka adds the Tokyo Metro Marunouchi Line. Which is faster depends on where you are going: Gokokuji is 6 minutes quicker to Toranomon, Shin-Otsuka is 10 minutes quicker to Tokyo. On how easy the shopping is, Shin-Otsuka comes out ahead. Within about 13 minutes' walk, Shin-Otsuka has 13 supermarkets (マルエツプチ and シマダヤ and others) and Gokokuji has 2."
     },
     {
       "slug": "myogadani",
       "lead": "For how close the centre is, Myogadani; for lower rent, Gokokuji. ",
-      "note": "Close enough to walk to from Gokokuji. Myogadani has the Tokyo Metro Marunouchi Line, a different set from Gokokuji. To Tokyo, for instance, Myogadani is 10 minutes quicker. A one-room flat costs about ¥15,000 more at Myogadani."
+      "note": "Close enough to walk to from Gokokuji. Gokokuji adds the Tokyo Metro Yurakucho Line; Myogadani adds the Tokyo Metro Marunouchi Line. Myogadani is at least 8 minutes quicker to Tokyo and Shinagawa. A one-room flat, though, costs about ¥15,000 more at Myogadani."
     }
   ],
   "goodFor": [
@@ -77,9 +77,9 @@
     "groceries": "There are 2 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tokyo Metro Yurakucho Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Morning trains are very crowded: this station sits on the busiest stretch of the Tokyo Metro Yurakucho Line. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

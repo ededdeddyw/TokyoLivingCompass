@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Sangubashi",
   "tagline": "Shinjuku in 3 minutes and Shibuya in 13 minutes. Served by 1 line. A one-room flat rents for roughly ¥110,000 to ¥120,000.",
-  "summary": "The station is in Shibuya City, where Odakyu run 1 line between them. Journey times to the main business districts are 26 minutes to Otemachi, 3 minutes to Shinjuku, 13 minutes to Shibuya and 34 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 28.2 m above sea level, and the ground within 800 m varies in height by 10.9 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shibuya City, where Odakyu run 1 line between them. Journey times to the main business districts are 26 minutes to Otemachi, 3 minutes to Shinjuku, 13 minutes to Shibuya and 32 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 28.2 m above sea level, and the ground within 800 m varies in height by 10.9 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 28.2 m above sea level. Within 800 m the ground ranges from 28.2 m to 39.1 m, a difference of 10.9 m."
@@ -57,12 +57,12 @@
     {
       "slug": "minami-shinjuku",
       "lead": "For the number of medical facilities, Minami-Shinjuku; for lower rent, Sangubashi. ",
-      "note": "Close enough to walk to from Sangubashi. It is served by the same lines as Sangubashi. Journey times to the main business districts are much the same. A one-room flat costs about ¥14,000 more at Minami-Shinjuku. On the number of places to eat out, Minami-Shinjuku comes out ahead."
+      "note": "Close enough to walk to from Sangubashi. It is served by the same lines as Sangubashi. Journey times to the main business districts are much the same. A one-room flat costs about ¥14,000 more at Minami-Shinjuku. On the number of places to eat out, Minami-Shinjuku comes out ahead. Within about 13 minutes' walk, Minami-Shinjuku has 134 restaurants and Sangubashi has 38."
     },
     {
       "slug": "hatsudai",
-      "lead": "For rail connections, Hatsudai; for how close the centre is, Sangubashi. ",
-      "note": "Close enough to walk to from Sangubashi. Hatsudai also has the Keio Line and Keio New Line, which Sangubashi does not. With more lines, Hatsudai is the better connected of the two. To Otemachi, for instance, Hatsudai takes 10 minutes longer. A one-room flat also costs about ¥13,000 less at Hatsudai. On quiet, though, Sangubashi comes out ahead."
+      "lead": "For lower rent, Hatsudai; for how close the centre is, Sangubashi. ",
+      "note": "Close enough to walk to from Sangubashi. Sangubashi adds the Odakyu Odawara Line; Hatsudai adds the Keio Line and Keio New Line. Sangubashi is at least 8 minutes quicker to Toranomon and Tokyo. A one-room flat, though, costs about ¥13,000 less at Hatsudai."
     }
   ],
   "goodFor": [
@@ -89,7 +89,7 @@
     "stationNote": "Only the Odakyu Odawara Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

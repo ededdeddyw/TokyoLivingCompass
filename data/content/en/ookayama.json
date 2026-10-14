@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Ookayama",
   "tagline": "Shinagawa in 22 minutes and Shibuya in 23 minutes. Served by 2 lines. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Ota City, where Tokyu run 2 lines between them. Journey times to the main business districts are 34 minutes to Otemachi, 31 minutes to Shinjuku, 23 minutes to Shibuya and 22 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 31.2 m above sea level, and the ground within 800 m varies in height by 14.6 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Ota City, where Tokyu run 2 lines between them. Journey times to the main business districts are 30 minutes to Otemachi, 31 minutes to Shinjuku, 23 minutes to Shibuya and 22 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 31.2 m above sea level, and the ground within 800 m varies in height by 14.6 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 31.2 m above sea level. Within 800 m the ground ranges from 21.8 m to 36.4 m, a difference of 14.6 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What pushes the figure up: a small projected flood depth and schools and parks within walking distance. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is on the low side. What pushes the figure up: a small projected flood depth and schools and parks within walking distance. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "midorigaoka",
-      "lead": "Ookayama is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Ookayama. Midorigaoka has only the Tokyu Oimachi Line, so Ookayama is the better connected. To Otemachi, for instance, Midorigaoka takes 6 minutes longer. A one-room flat also costs about ¥6,000 more at Midorigaoka."
+      "lead": "Ookayama is ahead on how close the centre is and lower rent. ",
+      "note": "Close enough to walk to from Ookayama. Both have the Tokyu Oimachi Line. Ookayama also has the Tokyu Meguro Line, which Midorigaoka does not. Ookayama is at least 6 minutes quicker to Toranomon and Otemachi. A one-room flat also costs about ¥6,000 more at Midorigaoka."
     },
     {
       "slug": "kita-senzoku",
-      "lead": "For quiet, Kita-Senzoku; for rail connections, Ookayama. ",
-      "note": "Close enough to walk to from Ookayama. Kita-Senzoku has only the Tokyu Oimachi Line, so Ookayama is the better connected. To Otemachi, for instance, Kita-Senzoku takes 5 minutes longer. On quiet, though, Kita-Senzoku comes out ahead."
+      "lead": "For quiet, Kita-Senzoku; for how close the centre is, Ookayama. ",
+      "note": "Close enough to walk to from Ookayama. Both have the Tokyu Oimachi Line. Ookayama also has the Tokyu Meguro Line, which Kita-Senzoku does not. Ookayama is at least 6 minutes quicker to Roppongi and Otemachi. On quiet, though, Kita-Senzoku comes out ahead."
     }
   ],
   "goodFor": [
@@ -85,7 +85,7 @@
     "groceries": "There are 8 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
     "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
-    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
     "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."

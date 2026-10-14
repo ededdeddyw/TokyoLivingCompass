@@ -2,8 +2,8 @@
   "slug": "meguro",
   "locale": "en",
   "name": "Meguro",
-  "tagline": "Shibuya in 7 minutes and Roppongi in 15 minutes. Served by 4 lines. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
-  "summary": "The station is in Shinagawa City, where JR East, Tokyu, Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 4 lines between them. Journey times to the main business districts are 18 minutes to Otemachi, 16 minutes to Shinjuku, 7 minutes to Shibuya and 19 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 30.5 m above sea level, and the ground within 800 m varies in height by 26.4 m. The land around the station rises and falls sharply.",
+  "tagline": "Shibuya in 7 minutes and Shinagawa in 8 minutes. Served by 4 lines. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
+  "summary": "The station is in Shinagawa City, where JR East, Tokyu, Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 4 lines between them. Journey times to the main business districts are 18 minutes to Otemachi, 16 minutes to Shinjuku, 7 minutes to Shibuya and 8 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 30.5 m above sea level, and the ground within 800 m varies in height by 26.4 m. The land around the station rises and falls sharply.",
   "terrain": {
     "slope": "hilly",
     "note": "The station sits on the higher side of the ground around it, at 30.5 m above sea level. Within 800 m the ground ranges from 4.1 m to 30.5 m, a difference of 26.4 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is on the high side. 4 lines and a wide choice of connections pushes the figure up. On the other side, a climb from the station to much of the housing holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. 4 lines and a wide choice of connections pushes the figure up. On the other side, a climb from the station to much of the housing holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "fudo-mae",
-      "lead": "For lower rent, Fudo-Mae; for rail connections, Meguro. ",
-      "note": "Close enough to walk to from Meguro. Fudo-Mae has only the Tokyu Meguro Line, so Meguro is the better connected. To Toranomon, for instance, Fudo-Mae takes 7 minutes longer. A one-room flat, though, costs about ¥19,000 less at Fudo-Mae."
+      "lead": "For lower rent, Fudo-Mae; for how close the centre is, Meguro. ",
+      "note": "Close enough to walk to from Meguro. Both have the Tokyu Meguro Line. Meguro also has the JR Yamanote Line, Tokyo Metro Namboku Line and Toei Mita Line, which Fudo-Mae does not. Meguro is at least 7 minutes quicker to Shinjuku and Shinagawa. A one-room flat, though, costs about ¥19,000 less at Fudo-Mae."
     },
     {
       "slug": "shirokanedai",
-      "lead": "For how little of the area is in the flood projection, Shirokanedai; for rail connections, Meguro. ",
-      "note": "About 1 km from Meguro in a straight line. Shirokanedai has only the Tokyo Metro Namboku Line and Toei Mita Line, so Meguro is the better connected. To Shibuya, for instance, Shirokanedai takes 8 minutes longer. A one-room flat also costs about ¥14,000 more at Shirokanedai. On safety, though, Shirokanedai comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Shirokanedai; for how close the centre is, Meguro. ",
+      "note": "About 1 km from Meguro in a straight line. Both have the Tokyo Metro Namboku Line and Toei Mita Line. Meguro also has the JR Yamanote Line and Tokyu Meguro Line, which Shirokanedai does not. Meguro is at least 8 minutes quicker to Shinagawa and Shibuya. A one-room flat also costs about ¥14,000 more at Shirokanedai. On safety, though, Shirokanedai comes out ahead."
     }
   ],
   "goodFor": [
@@ -88,9 +88,9 @@
     "groceries": "There are 10 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
     "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "4 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
-    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "This station sits on the busiest stretch of the Tokyu Meguro Line, but at 133% passengers are not shoulder to shoulder. ",
     "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
   },
   "authoredBy": "data-generated"

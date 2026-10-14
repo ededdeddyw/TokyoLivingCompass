@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Ayase",
   "tagline": "Tokyo in 27 minutes and Otemachi in 27 minutes. Served by 2 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Adachi City, where JR East and Tokyo Metro run 2 lines between them. Journey times to the main business districts are 27 minutes to Otemachi, 38 minutes to Shinjuku, 48 minutes to Shibuya and 42 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 0 m above sea level, and the ground within 800 m varies in height by 0.8 m. The land around the station is close to level.",
+  "summary": "The station is in Adachi City, where JR East and Tokyo Metro run 2 lines between them. Journey times to the main business districts are 27 minutes to Otemachi, 38 minutes to Shinjuku, 48 minutes to Shibuya and 45 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 0 m above sea level, and the ground within 800 m varies in height by 0.8 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 0 m above sea level. Within 800 m the ground ranges from -0.7 m to 0.1 m, a difference of 0.8 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "aoi",
-      "lead": "For how close the centre is, Aoi; for rail connections, Ayase. ",
-      "note": "About 1 km from Ayase in a straight line. Aoi has only the Tsukuba Express, so Ayase is the better connected. To Toranomon, for instance, Aoi is 5 minutes quicker. A one-room flat, though, costs about ¥6,000 less at Aoi."
+      "lead": "For lower rent, Aoi; for the number of medical facilities, Ayase. ",
+      "note": "About 1 km from Ayase in a straight line. Ayase adds the JR Joban Line and Tokyo Metro Chiyoda Line; Aoi adds the Tsukuba Express. Aoi is 8 minutes quicker to Shinagawa, but times to the other main business districts are much the same. A one-room flat costs about ¥6,000 less at Aoi. On the number of places to eat out, Ayase comes out ahead. Within about 13 minutes' walk, Ayase has 50 restaurants and Aoi has 8."
     },
     {
       "slug": "kosuge",
-      "lead": "For how little of the area is in the flood projection, Kosuge; for rail connections, Ayase. ",
-      "note": "About 1 km from Ayase in a straight line. Kosuge has only the Tobu Skytree Line, so Ayase is the better connected. To Shinjuku, for instance, Kosuge takes 3 minutes longer. On safety, though, Kosuge comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Kosuge; for the number of medical facilities, Ayase. ",
+      "note": "About 1 km from Ayase in a straight line. Ayase adds the JR Joban Line and Tokyo Metro Chiyoda Line; Kosuge adds the Tobu Skytree Line. Journey times to the main business districts are much the same. On how easy the shopping is, Ayase comes out ahead. Within about 13 minutes' walk, Ayase has 14 supermarkets (東急ストア and イトーヨーカドー and others) and Kosuge has 1."
     }
   ],
   "goodFor": [
@@ -89,7 +89,7 @@
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

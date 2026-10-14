@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Roppongi-Itchome",
   "tagline": "Toranomon in 9 minutes and Roppongi in 10 minutes. Served by 1 line. A one-room flat rents for roughly ¥180,000 to ¥190,000.",
-  "summary": "The station is in Minato City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 19 minutes to Otemachi, 16 minutes to Shinjuku, 17 minutes to Shibuya and 23 minutes to Shinagawa. A one-room flat rents for roughly ¥180,000 to ¥190,000. The station stands 16.2 m above sea level, and the ground within 800 m varies in height by 13.7 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Minato City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 19 minutes to Otemachi, 16 minutes to Shinjuku, 17 minutes to Shibuya and 24 minutes to Shinagawa. A one-room flat rents for roughly ¥180,000 to ¥190,000. The station stands 16.2 m above sea level, and the ground within 800 m varies in height by 13.7 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 16.2 m above sea level. Within 800 m the ground ranges from 14.7 m to 28.4 m, a difference of 13.7 m."
@@ -57,12 +57,12 @@
     {
       "slug": "kamiyacho",
       "lead": "Kamiyacho is ahead on how close the centre is, and little else separates the two. ",
-      "note": "Close enough to walk to from Roppongi-Itchome. Kamiyacho has the Tokyo Metro Hibiya Line, a different set from Roppongi-Itchome. To Toranomon, for instance, Kamiyacho is 7 minutes quicker. Rents, flood projections and the rest differ little."
+      "note": "Close enough to walk to from Roppongi-Itchome. Roppongi-Itchome adds the Tokyo Metro Namboku Line; Kamiyacho adds the Tokyo Metro Hibiya Line. Kamiyacho is at least 7 minutes quicker to Toranomon and Roppongi. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "roppongi",
-      "lead": "For rail connections, Roppongi; for the number of medical facilities, Roppongi-Itchome. ",
-      "note": "Close enough to walk to from Roppongi-Itchome. Roppongi also has the Tokyo Metro Hibiya Line and Toei Oedo Line, which Roppongi-Itchome does not. With more lines, Roppongi is the better connected of the two. To Roppongi, for instance, Roppongi is 9 minutes quicker. A one-room flat also costs about ¥9,000 less at Roppongi. On the number of medical facilities, though, Roppongi-Itchome comes out ahead."
+      "lead": "For how close the centre is, Roppongi; for the number of medical facilities, Roppongi-Itchome. ",
+      "note": "Close enough to walk to from Roppongi-Itchome. Roppongi-Itchome adds the Tokyo Metro Namboku Line; Roppongi adds the Tokyo Metro Hibiya Line and Toei Oedo Line. Roppongi is at least 6 minutes quicker to Roppongi and Shinjuku. A one-room flat also costs about ¥9,000 less at Roppongi. On the number of medical facilities, though, Roppongi-Itchome comes out ahead. Within about 13 minutes' walk, Roppongi-Itchome has 30 clinics and pharmacies and Roppongi has 9."
     }
   ],
   "goodFor": [
@@ -82,7 +82,6 @@
   "tags": [
     "pricey",
     "lowFlood",
-    "fastToCenter",
     "singleLine",
     "singleFriendly"
   ],
@@ -93,7 +92,7 @@
     "stationNote": "Only the Tokyo Metro Namboku Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the highest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

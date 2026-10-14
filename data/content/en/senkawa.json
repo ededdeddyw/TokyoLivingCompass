@@ -2,8 +2,8 @@
   "slug": "senkawa",
   "locale": "en",
   "name": "Senkawa",
-  "tagline": "Shinjuku in 17 minutes and Shibuya in 22 minutes. Served by 2 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Toshima City, where Tokyo Metro run 2 lines between them. Journey times to the main business districts are 27 minutes to Otemachi, 17 minutes to Shinjuku, 22 minutes to Shibuya and 43 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 32.5 m above sea level, and the ground within 800 m varies in height by 3.0 m. The land around the station is close to level.",
+  "tagline": "Shinjuku in 17 minutes and Shibuya in 24 minutes. Served by 2 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
+  "summary": "The station is in Toshima City, where Tokyo Metro run 2 lines between them. Journey times to the main business districts are 27 minutes to Otemachi, 17 minutes to Shinjuku, 24 minutes to Shibuya and 38 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 32.5 m above sea level, and the ground within 800 m varies in height by 3.0 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 32.5 m above sea level. Within 800 m the ground ranges from 32.5 m to 35.5 m, a difference of 3.0 m."
@@ -49,13 +49,13 @@
   "neighbours": [
     {
       "slug": "kanamecho",
-      "lead": "For how close the centre is, Kanamecho; for lower rent, Senkawa. ",
-      "note": "About 1 km from Senkawa in a straight line. It is served by the same lines as Senkawa. To Otemachi, for instance, Kanamecho is 3 minutes quicker. A one-room flat costs about ¥6,000 more at Kanamecho. On safety, Senkawa comes out ahead."
+      "lead": "For the number of medical facilities, Kanamecho; for lower rent, Senkawa. ",
+      "note": "About 1 km from Senkawa in a straight line. It is served by the same lines as Senkawa. Journey times to the main business districts are much the same. A one-room flat costs about ¥6,000 more at Kanamecho. On what it offers families, Senkawa comes out ahead."
     },
     {
       "slug": "higashi-nagasaki",
-      "lead": "For how little of the area is in the flood projection, Higashi-Nagasaki; for rail connections, Senkawa. ",
-      "note": "About 1 km from Senkawa in a straight line. Higashi-Nagasaki has only the Seibu Ikebukuro Line, so Senkawa is the better connected. To Toranomon, for instance, Higashi-Nagasaki takes 6 minutes longer. On how little of the area is in the flood projection, though, Higashi-Nagasaki comes out ahead."
+      "lead": "Higashi-Nagasaki is ahead on how little of the area is in the flood projection, and little else separates the two. ",
+      "note": "About 1 km from Senkawa in a straight line. Senkawa adds the Tokyo Metro Yurakucho Line and Tokyo Metro Fukutoshin Line; Higashi-Nagasaki adds the Seibu Ikebukuro Line. Senkawa is 6 minutes quicker to Toranomon, but times to the other main business districts are much the same. On how little of the area is in the flood projection, Higashi-Nagasaki comes out ahead."
     }
   ],
   "goodFor": [
@@ -84,7 +84,7 @@
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Nerima-Kasugacho",
   "tagline": "Shinjuku in 24 minutes and Shibuya in 34 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Nerima City, served by Toei Oedo Line. Journey times to the main business districts are 43 minutes to Otemachi, 24 minutes to Shinjuku, 34 minutes to Shibuya and 55 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 38.8 m above sea level, and the ground within 800 m varies in height by 2.8 m. The land around the station is close to level.",
+  "summary": "The station is in Nerima City, served by Toei Oedo Line. Journey times to the main business districts are 43 minutes to Otemachi, 24 minutes to Shinjuku, 34 minutes to Shibuya and 53 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 38.8 m above sea level, and the ground within 800 m varies in height by 2.8 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 38.8 m above sea level. Within 800 m the ground ranges from 37.1 m to 39.9 m, a difference of 2.8 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is on the low side. What holds the figure down: only one line, the {line}, serving the station and little daily shopping within walking distance.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is on the low side. quiet surroundings pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down.",
   "neighbours": [
     {
       "slug": "toshimaen",
-      "lead": "For rail connections, Toshimaen; for safety, Nerima-Kasugacho. ",
-      "note": "About 1.5 km from Nerima-Kasugacho in a straight line. Toshimaen also has the Seibu Toshima Line, which Nerima-Kasugacho does not. With more lines, Toshimaen is the better connected of the two. To Toranomon, for instance, Toshimaen is 3 minutes quicker. A one-room flat also costs about ¥5,000 less at Toshimaen. On safety, though, Nerima-Kasugacho comes out ahead."
+      "lead": "For lower rent, Toshimaen; for safety, Nerima-Kasugacho. ",
+      "note": "About 1.5 km from Nerima-Kasugacho in a straight line. Both have the Toei Oedo Line. Toshimaen also has the Seibu Toshima Line, which Nerima-Kasugacho does not. Journey times to the main business districts are much the same. A one-room flat costs about ¥5,000 less at Toshimaen. On how easy the shopping is, Toshimaen comes out ahead. Within about 13 minutes' walk, Toshimaen has 11 supermarkets (まいばすけっと and ライフ and others) and Nerima-Kasugacho has 4."
     },
     {
       "slug": "hikarigaoka",
-      "lead": "Nerima-Kasugacho is ahead on how close the centre is and safety. ",
-      "note": "About 1.5 km from Nerima-Kasugacho in a straight line. It is served by the same lines as Nerima-Kasugacho. To Toranomon, for instance, Hikarigaoka takes 3 minutes longer. On safety, Nerima-Kasugacho comes out ahead."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "About 1.5 km from Nerima-Kasugacho in a straight line. It is served by the same lines as Nerima-Kasugacho. Journey times to the main business districts are much the same. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -81,7 +81,7 @@
     "環八通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
-    "lowFlood",
+    "quiet",
     "singleLine",
     "flat",
     "parkNear"

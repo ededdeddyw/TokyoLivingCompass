@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Shin-Koenji",
   "tagline": "Shinjuku in 12 minutes and Shibuya in 22 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Suginami City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 31 minutes to Otemachi, 12 minutes to Shinjuku, 22 minutes to Shibuya and 43 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 43 m above sea level, and the ground within 800 m varies in height by 6.7 m. The land around the station is close to level.",
+  "summary": "The station is in Suginami City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 31 minutes to Otemachi, 12 minutes to Shinjuku, 22 minutes to Shibuya and 40 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 43 m above sea level, and the ground within 800 m varies in height by 6.7 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 43 m above sea level. Within 800 m the ground ranges from 38 m to 44.7 m, a difference of 6.7 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "koenji",
-      "lead": "Koenji is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Shin-Koenji. Koenji also has the JR Chuo Rapid Line and JR Chuo-Sobu Line (Local), which Shin-Koenji does not. With more lines, Koenji is the better connected of the two. To Tokyo, for instance, Koenji is 6 minutes quicker. Rents, flood projections and the rest differ little."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Shin-Koenji. Shin-Koenji adds the Tokyo Metro Marunouchi Line; Koenji adds the JR Chuo Rapid Line and JR Chuo-Sobu Line (Local). Koenji is 6 minutes quicker to Tokyo, but times to the other main business districts are much the same. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "higashi-koenji",
-      "lead": "For how close the centre is, Higashi-Koenji; for lower rent, Shin-Koenji. ",
-      "note": "Close enough to walk to from Shin-Koenji. It is served by the same lines as Shin-Koenji. To Shibuya, for instance, Higashi-Koenji is 3 minutes quicker. A one-room flat costs about ¥6,000 more at Higashi-Koenji. On how easy the shopping is, Shin-Koenji comes out ahead."
+      "lead": "For what it offers families, Higashi-Koenji; for lower rent, Shin-Koenji. ",
+      "note": "Close enough to walk to from Shin-Koenji. It is served by the same lines as Shin-Koenji. Journey times to the main business districts are much the same. A one-room flat costs about ¥6,000 more at Higashi-Koenji. On how easy the shopping is, Shin-Koenji comes out ahead. Within about 13 minutes' walk, Shin-Koenji has 9 supermarkets (クイーンズ伊勢丹 and 三平ストア and others) and Higashi-Koenji has 5."
     }
   ],
   "goodFor": [
@@ -92,7 +92,7 @@
     "stationNote": "Only the Tokyo Metro Marunouchi Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

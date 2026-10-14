@@ -2,8 +2,8 @@
   "slug": "sugamoshinden",
   "locale": "en",
   "name": "Sugamoshinden",
-  "tagline": "Shinjuku in 23 minutes and Shibuya in 28 minutes. Served by 1 line. A one-room flat rents for roughly ¥100,000 to ¥110,000.",
-  "summary": "The station is in Toshima City, where the Tokyo Metropolitan Bureau of Transportation run 1 line between them. Journey times to the main business districts are 29 minutes to Otemachi, 23 minutes to Shinjuku, 28 minutes to Shibuya and 48 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 19.1 m above sea level, and the ground within 800 m varies in height by 8.7 m. The land around the station has gentle slopes.",
+  "tagline": "Shinjuku in 23 minutes and Otemachi in 29 minutes. Served by 1 line. A one-room flat rents for roughly ¥100,000 to ¥110,000.",
+  "summary": "The station is in Toshima City, where the Tokyo Metropolitan Bureau of Transportation run 1 line between them. Journey times to the main business districts are 29 minutes to Otemachi, 23 minutes to Shinjuku, 31 minutes to Shibuya and 47 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 19.1 m above sea level, and the ground within 800 m varies in height by 8.7 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 19.1 m above sea level. Within 800 m the ground ranges from 19.1 m to 27.8 m, a difference of 8.7 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "otsuka",
-      "lead": "For rail connections, Otsuka; for quiet, Sugamoshinden. ",
-      "note": "Close enough to walk to from Sugamoshinden. Otsuka also has the JR Yamanote Line, which Sugamoshinden does not. With more lines, Otsuka is the better connected of the two. To Tokyo, for instance, Otsuka is 8 minutes quicker. On quiet, though, Sugamoshinden comes out ahead."
+      "lead": "For how close the centre is, Otsuka; for quiet, Sugamoshinden. ",
+      "note": "Close enough to walk to from Sugamoshinden. Both have the Tokyo Sakura Tram (Toden Arakawa Line). Otsuka also has the JR Yamanote Line, which Sugamoshinden does not. Otsuka is at least 8 minutes quicker to Tokyo and Shinjuku. On quiet, though, Sugamoshinden comes out ahead."
     },
     {
       "slug": "koshinzuka",
-      "lead": "Sugamoshinden is ahead on how close the centre is and lower rent. ",
-      "note": "Close enough to walk to from Sugamoshinden. It is served by the same lines as Sugamoshinden. To Toranomon, for instance, Koshinzuka takes 3 minutes longer. A one-room flat costs about ¥6,000 more at Koshinzuka. On the number of medical facilities, Sugamoshinden comes out ahead."
+      "lead": "Sugamoshinden is ahead on lower rent and the number of medical facilities. ",
+      "note": "Close enough to walk to from Sugamoshinden. It is served by the same lines as Sugamoshinden. Journey times to the main business districts are much the same. A one-room flat costs about ¥6,000 more at Koshinzuka. On the number of medical facilities, Sugamoshinden comes out ahead. Within about 13 minutes' walk, Sugamoshinden has 39 clinics and pharmacies and Koshinzuka has 28."
     }
   ],
   "goodFor": [

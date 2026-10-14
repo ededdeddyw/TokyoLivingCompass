@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Oji-Kamiya",
   "tagline": "Otemachi in 29 minutes and Tokyo in 30 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Kita City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 29 minutes to Otemachi, 32 minutes to Shinjuku, 38 minutes to Shibuya and 44 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 1.7 m above sea level, and the ground within 800 m varies in height by 2.8 m. The land around the station is close to level.",
+  "summary": "The station is in Kita City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 29 minutes to Otemachi, 32 minutes to Shinjuku, 40 minutes to Shibuya and 44 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 1.7 m above sea level, and the ground within 800 m varies in height by 2.8 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 1.7 m above sea level. Within 800 m the ground ranges from 1.7 m to 4.5 m, a difference of 2.8 m."
@@ -57,12 +57,12 @@
     {
       "slug": "higashi-jujo",
       "lead": "Higashi-Jujo is ahead on how close the centre is and lower rent. ",
-      "note": "Close enough to walk to from Oji-Kamiya. Higashi-Jujo has the JR Keihin-Tohoku Line, a different set from Oji-Kamiya. To Shibuya, for instance, Higashi-Jujo is 10 minutes quicker. A one-room flat costs about ¥12,000 less at Higashi-Jujo. On how little of the area is in the flood projection, Higashi-Jujo comes out ahead."
+      "note": "Close enough to walk to from Oji-Kamiya. Oji-Kamiya adds the Tokyo Metro Namboku Line; Higashi-Jujo adds the JR Keihin-Tohoku Line. Higashi-Jujo is at least 9 minutes quicker to Shibuya and Shinjuku. A one-room flat also costs about ¥12,000 less at Higashi-Jujo."
     },
     {
       "slug": "oji",
-      "lead": "For rail connections, Oji; for quiet, Oji-Kamiya. ",
-      "note": "About 1.5 km from Oji-Kamiya in a straight line. Oji also has the JR Keihin-Tohoku Line and Tokyo Sakura Tram (Toden Arakawa Line), which Oji-Kamiya does not. With more lines, Oji is the better connected of the two. To Tokyo, for instance, Oji is 8 minutes quicker. On quiet, though, Oji-Kamiya comes out ahead."
+      "lead": "For how close the centre is, Oji; for quiet, Oji-Kamiya. ",
+      "note": "About 1.5 km from Oji-Kamiya in a straight line. Both have the Tokyo Metro Namboku Line. Oji also has the JR Keihin-Tohoku Line and Tokyo Sakura Tram (Toden Arakawa Line), which Oji-Kamiya does not. Oji is at least 8 minutes quicker to Shibuya and Tokyo. On quiet, though, Oji-Kamiya comes out ahead."
     }
   ],
   "goodFor": [
@@ -89,7 +89,7 @@
     "stationNote": "Only the Tokyo Metro Namboku Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

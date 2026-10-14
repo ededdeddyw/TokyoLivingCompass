@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Zoshigaya",
   "tagline": "Shinjuku in 15 minutes and Shibuya in 16 minutes. Served by 2 lines. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Toshima City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 26 minutes to Otemachi, 15 minutes to Shinjuku, 16 minutes to Shibuya and 41 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 28.5 m above sea level, and the ground within 800 m varies in height by 7.4 m. The land around the station is close to level.",
+  "summary": "The station is in Toshima City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 26 minutes to Otemachi, 15 minutes to Shinjuku, 16 minutes to Shibuya and 37 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 28.5 m above sea level, and the ground within 800 m varies in height by 7.4 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 28.5 m above sea level. Within 800 m the ground ranges from 24.3 m to 31.7 m, a difference of 7.4 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "gakushuinshita",
-      "lead": "For the number of medical facilities, Gakushuinshita; for rail connections, Zoshigaya. ",
-      "note": "Close enough to walk to from Zoshigaya. Gakushuinshita has only the Tokyo Sakura Tram (Toden Arakawa Line), so Zoshigaya is the better connected. To Tokyo, for instance, Gakushuinshita takes 8 minutes longer. A one-room flat also costs about ¥12,000 more at Gakushuinshita. On the number of medical facilities, though, Gakushuinshita comes out ahead."
+      "lead": "For the number of medical facilities, Gakushuinshita; for how close the centre is, Zoshigaya. ",
+      "note": "Close enough to walk to from Zoshigaya. Both have the Tokyo Sakura Tram (Toden Arakawa Line). Zoshigaya also has the Tokyo Metro Fukutoshin Line, which Gakushuinshita does not. Zoshigaya is at least 8 minutes quicker to Roppongi and Tokyo. A one-room flat also costs about ¥12,000 more at Gakushuinshita. On the number of medical facilities, though, Gakushuinshita comes out ahead. Within about 13 minutes' walk, Gakushuinshita has 18 clinics and pharmacies and Zoshigaya has 10."
     },
     {
       "slug": "toden-zoshigaya",
-      "lead": "For the number of medical facilities, Toden-Zoshigaya; for rail connections, Zoshigaya. ",
-      "note": "Close enough to walk to from Zoshigaya. Toden-Zoshigaya has only the Tokyo Sakura Tram (Toden Arakawa Line), so Zoshigaya is the better connected. To Shibuya, for instance, Toden-Zoshigaya takes 8 minutes longer. On the number of places to eat out, though, Toden-Zoshigaya comes out ahead."
+      "lead": "For the number of medical facilities, Toden-Zoshigaya; for how close the centre is, Zoshigaya. ",
+      "note": "Close enough to walk to from Zoshigaya. Both have the Tokyo Sakura Tram (Toden Arakawa Line). Zoshigaya also has the Tokyo Metro Fukutoshin Line, which Toden-Zoshigaya does not. Zoshigaya is at least 8 minutes quicker to Roppongi and Shibuya. On the number of places to eat out, though, Toden-Zoshigaya comes out ahead. Within about 13 minutes' walk, Toden-Zoshigaya has 132 restaurants and Zoshigaya has 45."
     }
   ],
   "goodFor": [

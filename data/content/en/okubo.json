@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Okubo",
   "tagline": "Shinjuku in 3 minutes and Shibuya in 13 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Shinjuku City, where JR East run 1 line between them. Journey times to the main business districts are 28 minutes to Otemachi, 3 minutes to Shinjuku, 13 minutes to Shibuya and 34 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 38.2 m above sea level, and the ground within 800 m varies in height by 7.9 m. The land around the station is close to level.",
+  "summary": "The station is in Shinjuku City, where JR East run 1 line between them. Journey times to the main business districts are 28 minutes to Otemachi, 3 minutes to Shinjuku, 13 minutes to Shibuya and 32 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 38.2 m above sea level, and the ground within 800 m varies in height by 7.9 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 38.2 m above sea level. Within 800 m the ground ranges from 30.3 m to 38.2 m, a difference of 7.9 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "shin-okubo",
-      "lead": "Shin-Okubo is ahead on how close the centre is, and little else separates the two. ",
-      "note": "Close enough to walk to from Okubo. Shin-Okubo has the JR Yamanote Line, a different set from Okubo. To Otemachi, for instance, Shin-Okubo is 4 minutes quicker. Rents, flood projections and the rest differ little."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Okubo. Okubo adds the JR Chuo-Sobu Line (Local); Shin-Okubo adds the JR Yamanote Line. Shin-Okubo is 5 minutes quicker to Shinagawa, but times to the other main business districts are much the same. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "seibu-shinjuku",
       "lead": "For how little of the area is in the flood projection, Seibu-Shinjuku; for how close the centre is, Okubo. ",
-      "note": "Close enough to walk to from Okubo. Seibu-Shinjuku has the Seibu Shinjuku Line, a different set from Okubo. To Shinjuku, for instance, Seibu-Shinjuku takes 13 minutes longer. A one-room flat costs about ¥38,000 more at Seibu-Shinjuku. On how little of the area is in the flood projection, Seibu-Shinjuku comes out ahead."
+      "note": "Close enough to walk to from Okubo. Okubo adds the JR Chuo-Sobu Line (Local); Seibu-Shinjuku adds the Seibu Shinjuku Line. Okubo is at least 13 minutes quicker to Roppongi and Toranomon. A one-room flat also costs about ¥38,000 more at Seibu-Shinjuku. On how little of the area is in the flood projection, though, Seibu-Shinjuku comes out ahead."
     }
   ],
   "goodFor": [
@@ -93,7 +93,7 @@
     "stationNote": "Only the JR Chuo-Sobu Line (Local) serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

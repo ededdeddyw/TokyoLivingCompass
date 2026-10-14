@@ -2,8 +2,8 @@
   "slug": "keisei-hikifune",
   "locale": "en",
   "name": "Keisei-Hikifune",
-  "tagline": "Tokyo in 25 minutes and Otemachi in 25 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Sumida City, where Keisei run 1 line between them. Journey times to the main business districts are 25 minutes to Otemachi, 41 minutes to Shinjuku, 43 minutes to Shibuya and 38 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands -0.2 m above sea level, and the ground within 800 m varies in height by 1.0 m. The land around the station is close to level.",
+  "tagline": "Tokyo in 22 minutes and Otemachi in 24 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
+  "summary": "The station is in Sumida City, where Keisei run 1 line between them. Journey times to the main business districts are 24 minutes to Otemachi, 37 minutes to Shinjuku, 43 minutes to Shibuya and 34 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands -0.2 m above sea level, and the ground within 800 m varies in height by 1.0 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at -0.2 m above sea level. Within 800 m the ground ranges from -1.2 m to -0.2 m, a difference of 1.0 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "hikifune",
-      "lead": "For rail connections, Hikifune; for lower rent, Keisei-Hikifune. ",
-      "note": "Close enough to walk to from Keisei-Hikifune. Hikifune also has the Tobu Skytree Line and Tobu Kameido Line, which Keisei-Hikifune does not. With more lines, Hikifune is the better connected of the two. To Shinjuku, for instance, Hikifune is 3 minutes quicker. A one-room flat, though, costs about ¥5,000 more at Hikifune."
+      "lead": "Keisei-Hikifune is ahead on lower rent, and little else separates the two. ",
+      "note": "Close enough to walk to from Keisei-Hikifune. Keisei-Hikifune adds the Keisei Oshiage Line; Hikifune adds the Tobu Skytree Line and Tobu Kameido Line. Journey times to the main business districts are much the same. A one-room flat costs about ¥5,000 more at Hikifune."
     },
     {
       "slug": "higashi-mukojima",
       "lead": "For lower rent, Higashi-Mukojima; for quiet, Keisei-Hikifune. ",
-      "note": "Close enough to walk to from Keisei-Hikifune. Higashi-Mukojima has the Tobu Skytree Line, a different set from Keisei-Hikifune. Journey times to the main business districts are much the same. A one-room flat costs about ¥6,000 less at Higashi-Mukojima. On quiet, Keisei-Hikifune comes out ahead."
+      "note": "Close enough to walk to from Keisei-Hikifune. Keisei-Hikifune adds the Keisei Oshiage Line; Higashi-Mukojima adds the Tobu Skytree Line. Keisei-Hikifune is 5 minutes quicker to Shinjuku, but times to the other main business districts are much the same. A one-room flat costs about ¥6,000 less at Higashi-Mukojima. On quiet, Keisei-Hikifune comes out ahead."
     }
   ],
   "goodFor": [
@@ -90,7 +90,7 @@
     "stationNote": "Only the Keisei Oshiage Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Morning trains are very crowded: this station sits on the busiest stretch of the Keisei Oshiage Line. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Yoyogi-Hachiman",
   "tagline": "Shinjuku in 6 minutes and Shibuya in 11 minutes. Served by 2 lines. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
-  "summary": "The station is in Shibuya City, where Odakyu and Tokyo Metro run 2 lines between them. Journey times to the main business districts are 19 minutes to Otemachi, 6 minutes to Shinjuku, 11 minutes to Shibuya and 34 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 20.8 m above sea level, and the ground within 800 m varies in height by 15.3 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shibuya City, where Odakyu and Tokyo Metro run 2 lines between them. Journey times to the main business districts are 19 minutes to Otemachi, 6 minutes to Shinjuku, 11 minutes to Shibuya and 26 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 20.8 m above sea level, and the ground within 800 m varies in height by 15.3 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 20.8 m above sea level. Within 800 m the ground ranges from 20.6 m to 35.9 m, a difference of 15.3 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is on the high side. What pushes the figure up: a small projected flood depth. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What pushes the figure up: a small projected flood depth. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "yoyogi-uehara",
-      "lead": "Yoyogi-Uehara is ahead on lower rent and safety. ",
+      "lead": "For lower rent, Yoyogi-Uehara; for quiet, Yoyogi-Hachiman. ",
       "note": "Close enough to walk to from Yoyogi-Hachiman. It is served by the same lines as Yoyogi-Hachiman. Journey times to the main business districts are much the same. A one-room flat costs about ¥26,000 less at Yoyogi-Uehara. On what it offers families, Yoyogi-Uehara comes out ahead."
     },
     {
       "slug": "sangubashi",
-      "lead": "For lower rent, Sangubashi; for rail connections, Yoyogi-Hachiman. ",
-      "note": "About 1 km from Yoyogi-Hachiman in a straight line. Sangubashi has only the Odakyu Odawara Line, so Yoyogi-Hachiman is the better connected. To Toranomon, for instance, Sangubashi takes 7 minutes longer. A one-room flat, though, costs about ¥18,000 less at Sangubashi."
+      "lead": "For lower rent, Sangubashi; for how close the centre is, Yoyogi-Hachiman. ",
+      "note": "About 1 km from Yoyogi-Hachiman in a straight line. Both have the Odakyu Odawara Line. Yoyogi-Hachiman also has the Tokyo Metro Chiyoda Line, which Sangubashi does not. Yoyogi-Hachiman is at least 7 minutes quicker to Toranomon and Otemachi. A one-room flat, though, costs about ¥18,000 less at Sangubashi."
     }
   ],
   "goodFor": [
@@ -73,8 +73,8 @@
     "People avoiding projected flood inundation areas"
   ],
   "noiseSources": [
-    "The 首都高速中央環状線 viaduct runs right beside the station. It is an expressway, so traffic is audible day and night",
-    "山手通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
+    "山手通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road",
+    "井ノ頭通り (2 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "quiet",
@@ -86,10 +86,10 @@
     "groceries": "There are 7 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
-    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
-    "noiseSources": "At this station, check the traffic noise before the noise people make."
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"
 }

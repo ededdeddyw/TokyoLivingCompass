@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Kita-Sando",
   "tagline": "Shibuya in 5 minutes and Shinjuku in 10 minutes. Served by 1 line. A one-room flat rents for roughly ¥150,000 to ¥160,000.",
-  "summary": "The station is in Shibuya City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 23 minutes to Otemachi, 10 minutes to Shinjuku, 5 minutes to Shibuya and 31 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 25.5 m above sea level, and the ground within 800 m varies in height by 10.0 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shibuya City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 23 minutes to Otemachi, 10 minutes to Shinjuku, 5 minutes to Shibuya and 26 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 25.5 m above sea level, and the ground within 800 m varies in height by 10.0 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 25.5 m above sea level. Within 800 m the ground ranges from 25.5 m to 35.5 m, a difference of 10.0 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "yoyogi",
-      "lead": "Yoyogi is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Kita-Sando. Yoyogi also has the JR Yamanote Line, JR Chuo-Sobu Line (Local) and Toei Oedo Line, which Kita-Sando does not. With more lines, Yoyogi is the better connected of the two. To Roppongi, for instance, Yoyogi is 16 minutes quicker. A one-room flat also costs about ¥18,000 less at Yoyogi."
+      "lead": "Yoyogi is ahead on how close the centre is and lower rent. ",
+      "note": "Close enough to walk to from Kita-Sando. Kita-Sando adds the Tokyo Metro Fukutoshin Line; Yoyogi adds the JR Yamanote Line, JR Chuo-Sobu Line (Local) and Toei Oedo Line. Yoyogi is at least 8 minutes quicker to Roppongi and Shinjuku. A one-room flat also costs about ¥18,000 less at Yoyogi."
     },
     {
       "slug": "sendagaya",
-      "lead": "For lower rent, Sendagaya; for how close the centre is, Kita-Sando. ",
-      "note": "Close enough to walk to from Kita-Sando. Sendagaya has the JR Chuo-Sobu Line (Local), a different set from Kita-Sando. To Shibuya, for instance, Sendagaya takes 9 minutes longer. A one-room flat costs about ¥20,000 less at Sendagaya. On safety, Sendagaya comes out ahead."
+      "lead": "For lower rent, Sendagaya; for the number of places to eat out, Kita-Sando. ",
+      "note": "Close enough to walk to from Kita-Sando. Kita-Sando adds the Tokyo Metro Fukutoshin Line; Sendagaya adds the JR Chuo-Sobu Line (Local). Which is faster depends on where you are going: Kita-Sando is 9 minutes quicker to Shibuya, Sendagaya is 8 minutes quicker to Roppongi. A one-room flat costs about ¥20,000 less at Sendagaya. On safety, Sendagaya comes out ahead."
     }
   ],
   "goodFor": [

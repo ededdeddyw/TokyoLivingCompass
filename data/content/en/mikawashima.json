@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Mikawashima",
   "tagline": "Tokyo in 16 minutes and Otemachi in 22 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Arakawa City, served by JR Joban Line. Journey times to the main business districts are 22 minutes to Otemachi, 33 minutes to Shinjuku, 39 minutes to Shibuya and 30 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 3.3 m above sea level, and the ground within 800 m varies in height by 2.7 m. The land around the station is close to level.",
+  "summary": "The station is in Arakawa City, served by JR Joban Line. Journey times to the main business districts are 22 minutes to Otemachi, 33 minutes to Shinjuku, 40 minutes to Shibuya and 33 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 3.3 m above sea level, and the ground within 800 m varies in height by 2.7 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 3.3 m above sea level. Within 800 m the ground ranges from 1.5 m to 4.2 m, a difference of 2.7 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is on the low side. What holds the figure down: a large projected flood depth and only one line, the {line}, serving the station. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What holds the figure down: a large projected flood depth and only one line, the {line}, serving the station. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "shim-mikawashima",
-      "lead": "Mikawashima is ahead on how close the centre is, and little else separates the two. ",
-      "note": "Close enough to walk to from Mikawashima. Shim-Mikawashima has the Keisei Main Line, a different set from Mikawashima. To Tokyo, for instance, Shim-Mikawashima takes 4 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Mikawashima. Mikawashima adds the JR Joban Line; Shim-Mikawashima adds the Keisei Main Line. Journey times to the main business districts are much the same. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "nippori",
-      "lead": "Nippori is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Mikawashima. Nippori has 5 lines that Mikawashima does not. With more lines, Nippori is the better connected of the two. To Shibuya, for instance, Nippori is 7 minutes quicker. Rents, flood projections and the rest differ little."
+      "lead": "Nippori is ahead on how close the centre is and how little of the area is in the flood projection. ",
+      "note": "Close enough to walk to from Mikawashima. Both have the JR Joban Line. Nippori also has the 5 lines, which Mikawashima does not. Nippori is at least 6 minutes quicker to Roppongi and Shinjuku. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -90,9 +90,9 @@
     "groceries": "There are 19 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the JR Joban Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
+    "congestion": "This station sits on the busiest stretch of the JR Joban Line, but at 142% passengers are not shoulder to shoulder. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

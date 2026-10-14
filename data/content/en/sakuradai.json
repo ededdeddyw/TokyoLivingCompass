@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Sakuradai",
   "tagline": "Shinjuku in 22 minutes and Shibuya in 27 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Nerima City, where Seibu run 1 line between them. Journey times to the main business districts are 33 minutes to Otemachi, 22 minutes to Shinjuku, 27 minutes to Shibuya and 48 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 38.9 m above sea level, and the ground within 800 m varies in height by 4.2 m. The land around the station is close to level.",
+  "summary": "The station is in Nerima City, where Seibu run 1 line between them. Journey times to the main business districts are 33 minutes to Otemachi, 22 minutes to Shinjuku, 27 minutes to Shibuya and 43 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 38.9 m above sea level, and the ground within 800 m varies in height by 4.2 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 38.9 m above sea level. Within 800 m the ground ranges from 35.8 m to 40 m, a difference of 4.2 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "shin-sakuradai",
-      "lead": "For safety, Shin-Sakuradai; for how close the centre is, Sakuradai. ",
-      "note": "Close enough to walk to from Sakuradai. Shin-Sakuradai has the Seibu Yurakucho Line, a different set from Sakuradai. To Shinjuku, for instance, Shin-Sakuradai takes 5 minutes longer. On what it offers families, Shin-Sakuradai comes out ahead."
+      "lead": "Shin-Sakuradai is ahead on what it offers families, and little else separates the two. ",
+      "note": "Close enough to walk to from Sakuradai. Sakuradai adds the Seibu Ikebukuro Line; Shin-Sakuradai adds the Seibu Yurakucho Line. Journey times to the main business districts are much the same. On what it offers families, Shin-Sakuradai comes out ahead."
     },
     {
       "slug": "nerima",
-      "lead": "For rail connections, Nerima; for quiet, Sakuradai. ",
-      "note": "Close enough to walk to from Sakuradai. Nerima also has the Seibu Yurakucho Line, Seibu Toshima Line and Toei Oedo Line, which Sakuradai does not. With more lines, Nerima is the better connected of the two. To Roppongi, for instance, Nerima is 7 minutes quicker. On quiet, though, Sakuradai comes out ahead."
+      "lead": "For how easy the shopping is, Nerima; for quiet, Sakuradai. ",
+      "note": "Close enough to walk to from Sakuradai. Both have the Seibu Ikebukuro Line. Nerima also has the Seibu Yurakucho Line, Seibu Toshima Line and Toei Oedo Line, which Sakuradai does not. Which is faster depends on where you are going: Sakuradai is 5 minutes quicker to Shinagawa, Nerima is 7 minutes quicker to Roppongi. On the number of places to eat out, Nerima comes out ahead. Within about 13 minutes' walk, Nerima has 57 restaurants and Sakuradai has 44."
     }
   ],
   "goodFor": [

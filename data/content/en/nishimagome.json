@@ -2,8 +2,8 @@
   "slug": "nishimagome",
   "locale": "en",
   "name": "Nishi-Magome",
-  "tagline": "Shinagawa in 23 minutes and Shibuya in 26 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Ota City, served by Toei Asakusa Line. Journey times to the main business districts are 34 minutes to Otemachi, 34 minutes to Shinjuku, 26 minutes to Shibuya and 23 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 11.8 m above sea level, and the ground within 800 m varies in height by 15.8 m. The land around the station has gentle slopes.",
+  "tagline": "Shinagawa in 19 minutes and Shibuya in 26 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
+  "summary": "The station is in Ota City, served by Toei Asakusa Line. Journey times to the main business districts are 34 minutes to Otemachi, 34 minutes to Shinjuku, 26 minutes to Shibuya and 19 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 11.8 m above sea level, and the ground within 800 m varies in height by 15.8 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 11.8 m above sea level. Within 800 m the ground ranges from 8.4 m to 24.2 m, a difference of 15.8 m."
@@ -49,13 +49,13 @@
   "neighbours": [
     {
       "slug": "magome",
-      "lead": "For how close the centre is, Magome; for lower rent, Nishi-Magome. ",
-      "note": "About 1 km from Nishi-Magome in a straight line. It is served by the same lines as Nishi-Magome. To Toranomon, for instance, Magome is 3 minutes quicker. A one-room flat costs about ¥6,000 more at Magome."
+      "lead": "Nishi-Magome is ahead on lower rent, and little else separates the two. ",
+      "note": "About 1 km from Nishi-Magome in a straight line. It is served by the same lines as Nishi-Magome. Journey times to the main business districts are much the same. A one-room flat costs about ¥6,000 more at Magome."
     },
     {
       "slug": "ikegami",
       "lead": "For the number of medical facilities, Ikegami; for how close the centre is, Nishi-Magome. ",
-      "note": "About 1.5 km from Nishi-Magome in a straight line. Ikegami has the Tokyu Ikegami Line, a different set from Nishi-Magome. To Roppongi, for instance, Ikegami takes 13 minutes longer. On how little of the area is in the flood projection, Nishi-Magome comes out ahead."
+      "note": "About 1.5 km from Nishi-Magome in a straight line. Nishi-Magome adds the Toei Asakusa Line; Ikegami adds the Tokyu Ikegami Line. Nishi-Magome is at least 12 minutes quicker to Roppongi and Shibuya. On the number of places to eat out, though, Ikegami comes out ahead. Within about 13 minutes' walk, Ikegami has 35 restaurants and Nishi-Magome has 8."
     }
   ],
   "goodFor": [

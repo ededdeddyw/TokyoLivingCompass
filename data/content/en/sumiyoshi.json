@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Sumiyoshi",
   "tagline": "Otemachi in 12 minutes and Tokyo in 16 minutes. Served by 2 lines. A one-room flat rents for roughly ¥110,000 to ¥120,000.",
-  "summary": "The station is in Koto City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 12 minutes to Otemachi, 26 minutes to Shinjuku, 30 minutes to Shibuya and 31 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 0.1 m above sea level, and the ground within 800 m varies in height by 1.4 m. The land around the station is close to level.",
+  "summary": "The station is in Koto City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 12 minutes to Otemachi, 26 minutes to Shinjuku, 30 minutes to Shibuya and 27 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 0.1 m above sea level, and the ground within 800 m varies in height by 1.4 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 0.1 m above sea level. Within 800 m the ground ranges from 0 m to 1.4 m, a difference of 1.4 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "kikukawa",
-      "lead": "For safety, Kikukawa; for rail connections, Sumiyoshi. ",
-      "note": "Close enough to walk to from Sumiyoshi. Kikukawa has only the Toei Shinjuku Line, so Sumiyoshi is the better connected. To Otemachi, for instance, Kikukawa takes 7 minutes longer. On safety, though, Kikukawa comes out ahead."
+      "lead": "Kikukawa is ahead on safety and what it offers families. ",
+      "note": "Close enough to walk to from Sumiyoshi. Both have the Toei Shinjuku Line. Sumiyoshi also has the Tokyo Metro Hanzomon Line, which Kikukawa does not. Sumiyoshi is 7 minutes quicker to Otemachi, but times to the other main business districts are much the same. On what it offers families, Kikukawa comes out ahead."
     },
     {
       "slug": "kinshicho",
-      "lead": "Kinshicho is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Sumiyoshi. Kinshicho also has the JR Chuo-Sobu Line (Local) and JR Sobu Main Line, which Sumiyoshi does not. With more lines, Kinshicho is the better connected of the two. To Shinagawa, for instance, Kinshicho is 8 minutes quicker. Rents, flood projections and the rest differ little."
+      "lead": "Kinshicho is ahead on how close the centre is and how easy the shopping is. ",
+      "note": "Close enough to walk to from Sumiyoshi. Both have the Tokyo Metro Hanzomon Line. Sumiyoshi adds the Toei Shinjuku Line; Kinshicho adds the JR Chuo-Sobu Line (Local) and JR Sobu Main Line. Kinshicho is at least 7 minutes quicker to Shinagawa and Tokyo. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -90,7 +90,7 @@
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Morning trains are very crowded: this station sits on the busiest stretch of the Toei Shinjuku Line. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

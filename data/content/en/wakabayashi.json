@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Wakabayashi",
   "tagline": "Shibuya in 17 minutes and Shinjuku in 27 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Setagaya City, where Tokyu run 1 line between them. Journey times to the main business districts are 41 minutes to Otemachi, 27 minutes to Shinjuku, 17 minutes to Shibuya and 43 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 29.7 m above sea level, and the ground within 800 m varies in height by 10.1 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Setagaya City, where Tokyu run 1 line between them. Journey times to the main business districts are 37 minutes to Otemachi, 27 minutes to Shinjuku, 17 minutes to Shibuya and 37 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 29.7 m above sea level, and the ground within 800 m varies in height by 10.1 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 29.7 m above sea level. Within 800 m the ground ranges from 27.5 m to 37.6 m, a difference of 10.1 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "shoin-jinja-mae",
-      "lead": "For safety, Shoin-Jinja-Mae; for how close the centre is, Wakabayashi. ",
-      "note": "Close enough to walk to from Wakabayashi. It is served by the same lines as Wakabayashi. To Tokyo, for instance, Shoin-Jinja-Mae takes 3 minutes longer. On the number of places to eat out, Shoin-Jinja-Mae comes out ahead."
+      "lead": "For the number of places to eat out, Shoin-Jinja-Mae; for quiet, Wakabayashi. ",
+      "note": "Close enough to walk to from Wakabayashi. It is served by the same lines as Wakabayashi. Journey times to the main business districts are much the same. On the number of places to eat out, Shoin-Jinja-Mae comes out ahead. Within about 13 minutes' walk, Shoin-Jinja-Mae has 55 restaurants and Wakabayashi has 51."
     },
     {
       "slug": "nishi-taishido",
-      "lead": "For how close the centre is, Nishi-Taishido; for lower rent, Wakabayashi. ",
-      "note": "Close enough to walk to from Wakabayashi. It is served by the same lines as Wakabayashi. To Roppongi, for instance, Nishi-Taishido is 4 minutes quicker. A one-room flat costs about ¥6,000 more at Nishi-Taishido. On the number of medical facilities, Nishi-Taishido comes out ahead."
+      "lead": "For the number of medical facilities, Nishi-Taishido; for lower rent, Wakabayashi. ",
+      "note": "Close enough to walk to from Wakabayashi. It is served by the same lines as Wakabayashi. Journey times to the main business districts are much the same. A one-room flat costs about ¥6,000 more at Nishi-Taishido. On the number of medical facilities, Nishi-Taishido comes out ahead. Within about 13 minutes' walk, Nishi-Taishido has 43 clinics and pharmacies and Wakabayashi has 14."
     }
   ],
   "goodFor": [
@@ -77,7 +77,6 @@
   ],
   "tags": [
     "quiet",
-    "pricey",
     "lowFlood",
     "singleLine"
   ],

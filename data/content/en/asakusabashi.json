@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥120,000 to ¥130,000. Set against how long it takes to reach the central business districts, that is on the low side. plenty of places to eat out pushes the figure up. On the other side, a large projected flood depth holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥120,000 to ¥130,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. plenty of places to eat out pushes the figure up. On the other side, a large projected flood depth holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "bakurocho",
-      "lead": "For rail connections, Bakurocho; for lower rent, Asakusabashi. ",
-      "note": "Close enough to walk to from Asakusabashi. Bakurocho also has the JR Sobu Main Line and Toei Shinjuku Line, which Asakusabashi does not. With more lines, Bakurocho is the better connected of the two. To Tokyo, for instance, Bakurocho is 7 minutes quicker. A one-room flat, though, costs about ¥6,000 more at Bakurocho."
+      "lead": "For how close the centre is, Bakurocho; for lower rent, Asakusabashi. ",
+      "note": "Close enough to walk to from Asakusabashi. Both have the Toei Asakusa Line. Asakusabashi adds the JR Chuo-Sobu Line (Local); Bakurocho adds the JR Sobu Main Line and Toei Shinjuku Line. Bakurocho is at least 7 minutes quicker to Shinagawa and Tokyo. A one-room flat, though, costs about ¥6,000 more at Bakurocho."
     },
     {
       "slug": "kuramae",
-      "lead": "Asakusabashi is ahead on how close the centre is and how easy the shopping is. ",
-      "note": "Close enough to walk to from Asakusabashi. Kuramae has the Toei Oedo Line and Toei Asakusa Line, a different set from Asakusabashi. To Shinjuku, for instance, Kuramae takes 6 minutes longer. On how easy the shopping is, Asakusabashi comes out ahead."
+      "lead": "Asakusabashi is ahead on how easy the shopping is, and little else separates the two. ",
+      "note": "Close enough to walk to from Asakusabashi. Both have the Toei Asakusa Line. Asakusabashi adds the JR Chuo-Sobu Line (Local); Kuramae adds the Toei Oedo Line. Journey times to the main business districts are much the same. On how easy the shopping is, Asakusabashi comes out ahead. Within about 13 minutes' walk, Asakusabashi has 14 supermarkets (肉のハナマサ and まいばすけっと and others) and Kuramae has 10."
     }
   ],
   "goodFor": [
@@ -89,9 +89,9 @@
     "groceries": "There are 14 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
-    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

@@ -2,8 +2,8 @@
   "slug": "shinjuku-nishiguchi",
   "locale": "en",
   "name": "Shinjuku-Nishiguchi",
-  "tagline": "Shinjuku in 16 minutes and Shibuya in 17 minutes. Served by 1 line. A one-room flat rents for roughly ¥120,000 to ¥130,000.",
-  "summary": "The station is in Shinjuku City, served by Toei Oedo Line. Journey times to the main business districts are 22 minutes to Otemachi, 16 minutes to Shinjuku, 17 minutes to Shibuya and 41 minutes to Shinagawa. A one-room flat rents for roughly ¥120,000 to ¥130,000. The station stands 33.6 m above sea level, and the ground within 800 m varies in height by 10.9 m. The land around the station has gentle slopes.",
+  "tagline": "Shinjuku in 3 minutes and Shibuya in 13 minutes. Served by 1 line. A one-room flat rents for roughly ¥120,000 to ¥130,000.",
+  "summary": "The station is in Shinjuku City, served by Toei Oedo Line. Journey times to the main business districts are 22 minutes to Otemachi, 3 minutes to Shinjuku, 13 minutes to Shibuya and 32 minutes to Shinagawa. A one-room flat rents for roughly ¥120,000 to ¥130,000. The station stands 33.6 m above sea level, and the ground within 800 m varies in height by 10.9 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 33.6 m above sea level. Within 800 m the ground ranges from 30 m to 40.9 m, a difference of 10.9 m."
@@ -57,12 +57,12 @@
     {
       "slug": "seibu-shinjuku",
       "lead": "Shinjuku-Nishiguchi is ahead on how close the centre is and lower rent. ",
-      "note": "Close enough to walk to from Shinjuku-Nishiguchi. Seibu-Shinjuku has the Seibu Shinjuku Line, a different set from Shinjuku-Nishiguchi. To Toranomon, for instance, Seibu-Shinjuku takes 8 minutes longer. A one-room flat costs about ¥8,000 more at Seibu-Shinjuku."
+      "note": "Close enough to walk to from Shinjuku-Nishiguchi. Shinjuku-Nishiguchi adds the Toei Oedo Line; Seibu-Shinjuku adds the Seibu Shinjuku Line. Shinjuku-Nishiguchi is at least 18 minutes quicker to Roppongi and Toranomon. A one-room flat also costs about ¥8,000 more at Seibu-Shinjuku."
     },
     {
       "slug": "shinjuku",
-      "lead": "For rail connections, Shinjuku; for how little of the area is in the flood projection, Shinjuku-Nishiguchi. ",
-      "note": "Close enough to walk to from Shinjuku-Nishiguchi. Shinjuku has 12 lines that Shinjuku-Nishiguchi does not. With more lines, Shinjuku is the better connected of the two. To Roppongi, for instance, Shinjuku is 21 minutes quicker. On how easy the shopping is, though, Shinjuku-Nishiguchi comes out ahead."
+      "lead": "For how close the centre is, Shinjuku; for how little of the area is in the flood projection, Shinjuku-Nishiguchi. ",
+      "note": "Close enough to walk to from Shinjuku-Nishiguchi. Both have the Toei Oedo Line. Shinjuku also has the 12 lines, which Shinjuku-Nishiguchi does not. Shinjuku is at least 8 minutes quicker to Tokyo and Shinagawa. On how easy the shopping is, though, Shinjuku-Nishiguchi comes out ahead. Within about 13 minutes' walk, Shinjuku-Nishiguchi has 11 supermarkets (TOMIZ and ドン・キホーテUNY and others) and Shinjuku has 4."
     }
   ],
   "goodFor": [
@@ -78,9 +78,9 @@
   ],
   "tags": [
     "someBustle",
-    "pricey",
     "lowFlood",
     "singleLine",
+    "singleFriendly",
     "diningRich",
     "lateNight"
   ],

@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Higashi-Nakano",
   "tagline": "Shinjuku in 7 minutes and Shibuya in 17 minutes. Served by 2 lines. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Nakano City, where JR East and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 31 minutes to Otemachi, 7 minutes to Shinjuku, 17 minutes to Shibuya and 38 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 34.2 m above sea level, and the ground within 800 m varies in height by 15.9 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Nakano City, where JR East and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 28 minutes to Otemachi, 7 minutes to Shinjuku, 17 minutes to Shibuya and 36 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 34.2 m above sea level, and the ground within 800 m varies in height by 15.9 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 34.2 m above sea level. Within 800 m the ground ranges from 20.6 m to 36.5 m, a difference of 15.9 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "ochiai",
-      "lead": "For quiet, Ochiai; for rail connections, Higashi-Nakano. ",
-      "note": "Close enough to walk to from Higashi-Nakano. Ochiai has only the Tokyo Metro Tozai Line, so Higashi-Nakano is the better connected. To Roppongi, for instance, Ochiai takes 12 minutes longer. On quiet, though, Ochiai comes out ahead."
+      "lead": "Higashi-Nakano is ahead on how little of the area is in the flood projection, and little else separates the two. ",
+      "note": "Close enough to walk to from Higashi-Nakano. Higashi-Nakano adds the JR Chuo-Sobu Line (Local) and Toei Oedo Line; Ochiai adds the Tokyo Metro Tozai Line. Which is faster depends on where you are going: Higashi-Nakano is 13 minutes quicker to Roppongi, Ochiai is 9 minutes quicker to Otemachi. On how little of the area is in the flood projection, Higashi-Nakano comes out ahead."
     },
     {
       "slug": "nakai",
-      "lead": "For how close the centre is, Nakai; for the number of medical facilities, Higashi-Nakano. ",
-      "note": "Close enough to walk to from Higashi-Nakano. Nakai has the Seibu Shinjuku Line and Toei Oedo Line, a different set from Higashi-Nakano. To Otemachi, for instance, Nakai is 7 minutes quicker. On how easy the shopping is, Higashi-Nakano comes out ahead."
+      "lead": "For what it offers families, Nakai; for the number of medical facilities, Higashi-Nakano. ",
+      "note": "Close enough to walk to from Higashi-Nakano. Both have the Toei Oedo Line. Higashi-Nakano adds the JR Chuo-Sobu Line (Local); Nakai adds the Seibu Shinjuku Line. Journey times to the main business districts are much the same. On how easy the shopping is, Higashi-Nakano comes out ahead. Within about 13 minutes' walk, Higashi-Nakano has 12 supermarkets (サミット and ライフ and others) and Nakai has 6."
     }
   ],
   "goodFor": [
@@ -75,7 +75,6 @@
     "The data does not show a drawback particular to this station"
   ],
   "noiseSources": [
-    "The 首都高速中央環状線 viaduct runs right beside the station. It is an expressway, so traffic is audible day and night",
     "山手通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
@@ -91,7 +90,7 @@
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "This station sits on the busiest stretch of the Toei Oedo Line, but at 147% passengers are not shoulder to shoulder. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Oku",
   "tagline": "Tokyo in 19 minutes and Otemachi in 26 minutes. Served by 2 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Kita City, where JR East run 2 lines between them. Journey times to the main business districts are 26 minutes to Otemachi, 29 minutes to Shinjuku, 34 minutes to Shibuya and 34 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 4.7 m above sea level, and the ground within 800 m varies in height by 17.4 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Kita City, where JR East run 2 lines between them. Journey times to the main business districts are 26 minutes to Otemachi, 29 minutes to Shinjuku, 34 minutes to Shibuya and 37 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 4.7 m above sea level, and the ground within 800 m varies in height by 17.4 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 4.7 m above sea level. Within 800 m the ground ranges from 2.1 m to 19.5 m, a difference of 17.4 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "arakawa-shakomae",
-      "lead": "Oku is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Oku. Arakawa-Shakomae has only the Tokyo Sakura Tram (Toden Arakawa Line), so Oku is the better connected. To Tokyo, for instance, Arakawa-Shakomae takes 17 minutes longer. A one-room flat also costs about ¥6,000 more at Arakawa-Shakomae."
+      "lead": "Oku is ahead on how close the centre is and lower rent. ",
+      "note": "Close enough to walk to from Oku. Oku adds the JR Utsunomiya Line and JR Takasaki Line; Arakawa-Shakomae adds the Tokyo Sakura Tram (Toden Arakawa Line). Oku is at least 14 minutes quicker to Tokyo and Toranomon. A one-room flat also costs about ¥6,000 more at Arakawa-Shakomae."
     },
     {
       "slug": "arakawa-yuenchimae",
-      "lead": "Oku is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Oku. Arakawa-Yuenchimae has only the Tokyo Sakura Tram (Toden Arakawa Line), so Oku is the better connected. To Tokyo, for instance, Arakawa-Yuenchimae takes 18 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "Oku is ahead on how close the centre is, and little else separates the two. ",
+      "note": "Close enough to walk to from Oku. Oku adds the JR Utsunomiya Line and JR Takasaki Line; Arakawa-Yuenchimae adds the Tokyo Sakura Tram (Toden Arakawa Line). Oku is at least 17 minutes quicker to Tokyo and Toranomon. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [

@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Azabu-Juban",
   "tagline": "Roppongi in 2 minutes and Shinjuku in 12 minutes. Served by 2 lines. A one-room flat rents for roughly ¥160,000 to ¥170,000.",
-  "summary": "The station is in Minato City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 21 minutes to Otemachi, 12 minutes to Shinjuku, 16 minutes to Shibuya and 22 minutes to Shinagawa. A one-room flat rents for roughly ¥160,000 to ¥170,000. The station stands 5.1 m above sea level, and the ground within 800 m varies in height by 25.3 m. The land around the station rises and falls sharply.",
+  "summary": "The station is in Minato City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 21 minutes to Otemachi, 12 minutes to Shinjuku, 16 minutes to Shibuya and 18 minutes to Shinagawa. A one-room flat rents for roughly ¥160,000 to ¥170,000. The station stands 5.1 m above sea level, and the ground within 800 m varies in height by 25.3 m. The land around the station rises and falls sharply.",
   "terrain": {
     "slope": "hilly",
     "note": "The station sits lower than the ground around it, at 5.1 m above sea level. Within 800 m the ground ranges from 4.3 m to 29.6 m, a difference of 25.3 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "akabanebashi",
-      "lead": "For quiet, Akabanebashi; for rail connections, Azabu-Juban. ",
-      "note": "Close enough to walk to from Azabu-Juban. Akabanebashi has only the Toei Oedo Line, so Azabu-Juban is the better connected. To Otemachi, for instance, Akabanebashi takes 3 minutes longer. A one-room flat also costs about ¥9,000 more at Akabanebashi. On quiet, though, Akabanebashi comes out ahead."
+      "lead": "For quiet, Akabanebashi; for lower rent, Azabu-Juban. ",
+      "note": "Close enough to walk to from Azabu-Juban. Both have the Toei Oedo Line. Azabu-Juban also has the Tokyo Metro Namboku Line, which Akabanebashi does not. Journey times to the main business districts are much the same. A one-room flat costs about ¥9,000 more at Akabanebashi. On how easy the shopping is, Azabu-Juban comes out ahead. Within about 13 minutes' walk, Azabu-Juban has 11 supermarkets (成城石井 and Picard and others) and Akabanebashi has 6."
     },
     {
       "slug": "roppongi",
       "lead": "For how close the centre is, Roppongi; for lower rent, Azabu-Juban. ",
-      "note": "Close enough to walk to from Azabu-Juban. Roppongi has the Tokyo Metro Hibiya Line and Toei Oedo Line, a different set from Azabu-Juban. To Toranomon, for instance, Roppongi is 7 minutes quicker. A one-room flat costs about ¥9,000 more at Roppongi. On safety, Azabu-Juban comes out ahead."
+      "note": "Close enough to walk to from Azabu-Juban. Both have the Toei Oedo Line. Azabu-Juban adds the Tokyo Metro Namboku Line; Roppongi adds the Tokyo Metro Hibiya Line. Roppongi is at least 5 minutes quicker to Toranomon and Tokyo. A one-room flat, though, costs about ¥9,000 more at Roppongi."
     }
   ],
   "goodFor": [
@@ -91,7 +91,7 @@
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the highest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

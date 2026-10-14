@@ -2,8 +2,8 @@
   "slug": "nishi-koyama",
   "locale": "en",
   "name": "Nishi-Koyama",
-  "tagline": "Shibuya in 19 minutes and Shinjuku in 27 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Shinagawa City, where Tokyu run 1 line between them. Journey times to the main business districts are 30 minutes to Otemachi, 27 minutes to Shinjuku, 19 minutes to Shibuya and 31 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 24.1 m above sea level, and the ground within 800 m varies in height by 14.0 m. The land around the station has gentle slopes.",
+  "tagline": "Shibuya in 19 minutes and Shinagawa in 20 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
+  "summary": "The station is in Shinagawa City, where Tokyu run 1 line between them. Journey times to the main business districts are 26 minutes to Otemachi, 27 minutes to Shinjuku, 19 minutes to Shibuya and 20 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 24.1 m above sea level, and the ground within 800 m varies in height by 14.0 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 24.1 m above sea level. Within 800 m the ground ranges from 22.5 m to 36.5 m, a difference of 14.0 m."
@@ -52,7 +52,7 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. schools and parks within walking distance and quiet surroundings pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is on the low side. schools and parks within walking distance and quiet surroundings pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "senzoku",
@@ -88,7 +88,7 @@
     "groceries": "There are 16 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tokyu Meguro Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."

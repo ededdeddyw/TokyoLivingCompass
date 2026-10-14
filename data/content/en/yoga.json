@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Yoga",
   "tagline": "Shibuya in 15 minutes and Shinjuku in 25 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Setagaya City, where Tokyu run 1 line between them. Journey times to the main business districts are 39 minutes to Otemachi, 25 minutes to Shinjuku, 15 minutes to Shibuya and 41 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 34.4 m above sea level, and the ground within 800 m varies in height by 11.5 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Setagaya City, where Tokyu run 1 line between them. Journey times to the main business districts are 35 minutes to Otemachi, 25 minutes to Shinjuku, 15 minutes to Shibuya and 36 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 34.4 m above sea level, and the ground within 800 m varies in height by 11.5 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 34.4 m above sea level. Within 800 m the ground ranges from 32.8 m to 44.3 m, a difference of 11.5 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What holds the figure down: only one line, the {line}, serving the station. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "sakura-shimmachi",
-      "lead": "For how close the centre is, Sakura-Shimmachi; for lower rent, Yoga. ",
-      "note": "About 1 km from Yoga in a straight line. It is served by the same lines as Yoga. To Tokyo, for instance, Sakura-Shimmachi is 3 minutes quicker. A one-room flat costs about ¥8,000 more at Sakura-Shimmachi. On safety, Yoga comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Sakura-Shimmachi; for lower rent, Yoga. ",
+      "note": "About 1 km from Yoga in a straight line. It is served by the same lines as Yoga. Journey times to the main business districts are much the same. A one-room flat costs about ¥8,000 more at Sakura-Shimmachi. On how easy the shopping is, Sakura-Shimmachi comes out ahead. Within about 13 minutes' walk, Sakura-Shimmachi has 9 supermarkets (ピーコックストア and 自然食品F&F桜新町店 and others) and Yoga has 5."
     },
     {
       "slug": "kaminoge",
       "lead": "For lower rent, Kaminoge; for how close the centre is, Yoga. ",
-      "note": "About 1.5 km from Yoga in a straight line. Kaminoge has the Tokyu Oimachi Line, a different set from Yoga. To Shinjuku, for instance, Kaminoge takes 11 minutes longer. A one-room flat costs about ¥6,000 less at Kaminoge. On the number of places to eat out, Yoga comes out ahead."
+      "note": "About 1.5 km from Yoga in a straight line. Yoga adds the Tokyu Den-en-toshi Line; Kaminoge adds the Tokyu Oimachi Line. Yoga is at least 11 minutes quicker to Shinjuku and Shibuya. A one-room flat, though, costs about ¥6,000 less at Kaminoge."
     }
   ],
   "goodFor": [

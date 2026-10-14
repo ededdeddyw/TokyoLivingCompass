@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Hirai",
   "tagline": "Tokyo in 21 minutes and Otemachi in 26 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Edogawa City, where JR East run 1 line between them. Journey times to the main business districts are 26 minutes to Otemachi, 34 minutes to Shinjuku, 44 minutes to Shibuya and 35 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 2.5 m above sea level, and the ground within 800 m varies in height by 5.1 m. The land around the station is close to level.",
+  "summary": "The station is in Edogawa City, where JR East run 1 line between them. Journey times to the main business districts are 26 minutes to Otemachi, 34 minutes to Shinjuku, 44 minutes to Shibuya and 31 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 2.5 m above sea level, and the ground within 800 m varies in height by 5.1 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 2.5 m above sea level. Within 800 m the ground ranges from -2.6 m to 2.5 m, a difference of 5.1 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "higashi-azuma",
-      "lead": "For safety, Higashi-Azuma; for how close the centre is, Hirai. ",
-      "note": "Close enough to walk to from Hirai. Higashi-Azuma has the Tobu Kameido Line, a different set from Hirai. To Shinjuku, for instance, Higashi-Azuma takes 5 minutes longer. A one-room flat costs about ¥7,000 more at Higashi-Azuma. On the number of places to eat out, Hirai comes out ahead."
+      "lead": "For quiet, Higashi-Azuma; for how close the centre is, Hirai. ",
+      "note": "Close enough to walk to from Hirai. Hirai adds the JR Chuo-Sobu Line (Local); Higashi-Azuma adds the Tobu Kameido Line. Hirai is at least 5 minutes quicker to Shinjuku and Shinagawa. A one-room flat also costs about ¥7,000 more at Higashi-Azuma. On quiet, though, Higashi-Azuma comes out ahead."
     },
     {
       "slug": "kameidosuijin",
-      "lead": "For how easy the shopping is, Kameidosuijin; for how close the centre is, Hirai. ",
-      "note": "About 1 km from Hirai in a straight line. Kameidosuijin has the Tobu Kameido Line, a different set from Hirai. To Shinjuku, for instance, Kameidosuijin takes 3 minutes longer. A one-room flat costs about ¥18,000 more at Kameidosuijin. On the number of places to eat out, Hirai comes out ahead."
+      "lead": "For how easy the shopping is, Kameidosuijin; for lower rent, Hirai. ",
+      "note": "About 1 km from Hirai in a straight line. Hirai adds the JR Chuo-Sobu Line (Local); Kameidosuijin adds the Tobu Kameido Line. Journey times to the main business districts are much the same. A one-room flat costs about ¥18,000 more at Kameidosuijin. On the number of places to eat out, Hirai comes out ahead. Within about 13 minutes' walk, Hirai has 20 restaurants and Kameidosuijin has 9."
     }
   ],
   "goodFor": [
@@ -91,7 +91,7 @@
     "stationNote": "Only the JR Chuo-Sobu Line (Local) serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

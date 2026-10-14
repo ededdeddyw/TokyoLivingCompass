@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Oshiage",
   "tagline": "Tokyo in 17 minutes and Otemachi in 17 minutes. Served by 4 lines.",
-  "summary": "The station is in Sumida City, where Tobu, Keisei, Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 4 lines between them. Journey times to the main business districts are 17 minutes to Otemachi, 33 minutes to Shinjuku, 36 minutes to Shibuya and 31 minutes to Shinagawa. The station stands 2 m above sea level, and the ground within 800 m varies in height by 2.6 m. The land around the station is close to level.",
+  "summary": "The station is in Sumida City, where Tobu, Keisei, Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 4 lines between them. Journey times to the main business districts are 17 minutes to Otemachi, 33 minutes to Shinjuku, 36 minutes to Shibuya and 30 minutes to Shinagawa. The station stands 2 m above sea level, and the ground within 800 m varies in height by 2.6 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 2 m above sea level. Within 800 m the ground ranges from -0.6 m to 2 m, a difference of 2.6 m."
@@ -45,13 +45,13 @@
   "neighbours": [
     {
       "slug": "tokyo-skytree",
-      "lead": "Oshiage is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Oshiage. Tokyo-Skytree has only the Tobu Skytree Line, so Oshiage is the better connected. To Shibuya, for instance, Tokyo-Skytree takes 6 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Oshiage. Both have the Tobu Skytree Line. Oshiage also has the Keisei Oshiage Line, Tokyo Metro Hanzomon Line and Toei Asakusa Line, which Tokyo-Skytree does not. Journey times to the main business districts are much the same. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "honjo-azumabashi",
-      "lead": "For how little of the area is in the flood projection, Honjo-Azumabashi; for rail connections, Oshiage. ",
-      "note": "Close enough to walk to from Oshiage. Honjo-Azumabashi has only the Toei Asakusa Line, so Oshiage is the better connected. Journey times to the main business districts are much the same. On how little of the area is in the flood projection, though, Honjo-Azumabashi comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Honjo-Azumabashi; for the number of medical facilities, Oshiage. ",
+      "note": "Close enough to walk to from Oshiage. Both have the Toei Asakusa Line. Oshiage also has the Tobu Skytree Line, Keisei Oshiage Line and Tokyo Metro Hanzomon Line, which Honjo-Azumabashi does not. Journey times to the main business districts are much the same. On the number of medical facilities, Oshiage comes out ahead. Within about 13 minutes' walk, Oshiage has 22 clinics and pharmacies and Honjo-Azumabashi has 14."
     }
   ],
   "goodFor": [
@@ -77,7 +77,7 @@
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "4 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Morning trains are very crowded: this station sits on the busiest stretch of the Keisei Oshiage Line. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

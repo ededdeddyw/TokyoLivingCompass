@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Nishi-Taishido",
   "tagline": "Shibuya in 14 minutes and Shinjuku in 24 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Setagaya City, where Tokyu run 1 line between them. Journey times to the main business districts are 38 minutes to Otemachi, 24 minutes to Shinjuku, 14 minutes to Shibuya and 40 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 30.6 m above sea level, and the ground within 800 m varies in height by 9.1 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Setagaya City, where Tokyu run 1 line between them. Journey times to the main business districts are 34 minutes to Otemachi, 24 minutes to Shinjuku, 14 minutes to Shibuya and 34 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 30.6 m above sea level, and the ground within 800 m varies in height by 9.1 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 30.6 m above sea level. Within 800 m the ground ranges from 25.8 m to 34.9 m, a difference of 9.1 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "sangen-jaya",
-      "lead": "For rail connections, Sangen-Jaya; for quiet, Nishi-Taishido. ",
-      "note": "Close enough to walk to from Nishi-Taishido. Sangen-Jaya also has the Tokyu Den-en-toshi Line, which Nishi-Taishido does not. With more lines, Sangen-Jaya is the better connected of the two. To Toranomon, for instance, Sangen-Jaya is 7 minutes quicker. On quiet, though, Nishi-Taishido comes out ahead."
+      "lead": "For how close the centre is, Sangen-Jaya; for quiet, Nishi-Taishido. ",
+      "note": "Close enough to walk to from Nishi-Taishido. Both have the Tokyu Setagaya Line. Sangen-Jaya also has the Tokyu Den-en-toshi Line, which Nishi-Taishido does not. Sangen-Jaya is at least 7 minutes quicker to Toranomon and Tokyo. On quiet, though, Nishi-Taishido comes out ahead."
     },
     {
       "slug": "wakabayashi",
-      "lead": "For lower rent, Wakabayashi; for how close the centre is, Nishi-Taishido. ",
-      "note": "Close enough to walk to from Nishi-Taishido. It is served by the same lines as Nishi-Taishido. To Roppongi, for instance, Wakabayashi takes 4 minutes longer. A one-room flat costs about ¥6,000 less at Wakabayashi. On the number of medical facilities, Nishi-Taishido comes out ahead."
+      "lead": "For lower rent, Wakabayashi; for the number of medical facilities, Nishi-Taishido. ",
+      "note": "Close enough to walk to from Nishi-Taishido. It is served by the same lines as Nishi-Taishido. Journey times to the main business districts are much the same. A one-room flat costs about ¥6,000 less at Wakabayashi. On the number of medical facilities, Nishi-Taishido comes out ahead. Within about 13 minutes' walk, Nishi-Taishido has 43 clinics and pharmacies and Wakabayashi has 14."
     }
   ],
   "goodFor": [
@@ -76,7 +76,7 @@
     "世田谷通り (1 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
-    "pricey",
+    "lowFlood",
     "singleLine",
     "shoppingEasy",
     "medicalRich"

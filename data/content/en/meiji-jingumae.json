@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Meiji-Jingumae",
   "tagline": "Shibuya in 3 minutes and Shinjuku in 5 minutes. Served by 3 lines.",
-  "summary": "The station is in Shibuya City, where JR East and Tokyo Metro run 3 lines between them. Journey times to the main business districts are 16 minutes to Otemachi, 5 minutes to Shinjuku, 3 minutes to Shibuya and 29 minutes to Shinagawa. The station stands 28.3 m above sea level, and the ground within 800 m varies in height by 16.8 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shibuya City, where JR East and Tokyo Metro run 3 lines between them. Journey times to the main business districts are 16 minutes to Otemachi, 5 minutes to Shinjuku, 3 minutes to Shibuya and 18 minutes to Shinagawa. The station stands 28.3 m above sea level, and the ground within 800 m varies in height by 16.8 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 28.3 m above sea level. Within 800 m the ground ranges from 17 m to 33.8 m, a difference of 16.8 m."
@@ -24,13 +24,13 @@
   "neighbours": [
     {
       "slug": "omote-sando",
-      "lead": "For how little of the area is in the flood projection, Omote-Sando; for how close the centre is, Meiji-Jingumae. ",
-      "note": "Close enough to walk to from Meiji-Jingumae. Omote-Sando has the Tokyo Metro Ginza Line, Tokyo Metro Chiyoda Line and Tokyo Metro Hanzomon Line, a different set from Meiji-Jingumae. To Shinjuku, for instance, Omote-Sando takes 8 minutes longer. On the number of medical facilities, Omote-Sando comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Omote-Sando; for quiet, Meiji-Jingumae. ",
+      "note": "Close enough to walk to from Meiji-Jingumae. Both have the Tokyo Metro Chiyoda Line. Meiji-Jingumae adds the JR Yamanote Line and Tokyo Metro Fukutoshin Line; Omote-Sando adds the Tokyo Metro Ginza Line and Tokyo Metro Hanzomon Line. Which is faster depends on where you are going: Meiji-Jingumae is 11 minutes quicker to Shinjuku, Omote-Sando is 7 minutes quicker to Toranomon. On the number of medical facilities, Omote-Sando comes out ahead. Within about 13 minutes' walk, Omote-Sando has 39 clinics and pharmacies and Meiji-Jingumae has 7."
     },
     {
       "slug": "kita-sando",
-      "lead": "For how easy the shopping is, Kita-Sando; for rail connections, Meiji-Jingumae. ",
-      "note": "About 1 km from Meiji-Jingumae in a straight line. Kita-Sando has only the Tokyo Metro Fukutoshin Line, so Meiji-Jingumae is the better connected. To Roppongi, for instance, Kita-Sando takes 7 minutes longer. On how easy the shopping is, though, Kita-Sando comes out ahead."
+      "lead": "For how easy the shopping is, Kita-Sando; for how close the centre is, Meiji-Jingumae. ",
+      "note": "About 1 km from Meiji-Jingumae in a straight line. Both have the Tokyo Metro Fukutoshin Line. Meiji-Jingumae also has the JR Yamanote Line and Tokyo Metro Chiyoda Line, which Kita-Sando does not. Meiji-Jingumae is at least 7 minutes quicker to Shinagawa and Roppongi. On how easy the shopping is, though, Kita-Sando comes out ahead. Within about 13 minutes' walk, Kita-Sando has 4 supermarkets (オーケーストア and コープ and others) and Meiji-Jingumae has 1."
     }
   ],
   "goodFor": [
@@ -57,7 +57,7 @@
     "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

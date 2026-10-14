@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Kinshicho",
   "tagline": "Tokyo in 9 minutes and Otemachi in 14 minutes. Served by 3 lines. A one-room flat rents for roughly ¥110,000 to ¥120,000.",
-  "summary": "The station is in Sumida City, where JR East and Tokyo Metro run 3 lines between them. Journey times to the main business districts are 14 minutes to Otemachi, 27 minutes to Shinjuku, 33 minutes to Shibuya and 23 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 5.5 m above sea level, and the ground within 800 m varies in height by 6.0 m. The land around the station is close to level.",
+  "summary": "The station is in Sumida City, where JR East and Tokyo Metro run 3 lines between them. Journey times to the main business districts are 14 minutes to Otemachi, 27 minutes to Shinjuku, 33 minutes to Shibuya and 19 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 5.5 m above sea level, and the ground within 800 m varies in height by 6.0 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 5.5 m above sea level. Within 800 m the ground ranges from -0.5 m to 5.5 m, a difference of 6.0 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "sumiyoshi",
-      "lead": "Kinshicho is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Kinshicho. Sumiyoshi has only the Tokyo Metro Hanzomon Line and Toei Shinjuku Line, so Kinshicho is the better connected. To Shinagawa, for instance, Sumiyoshi takes 8 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "Kinshicho is ahead on how close the centre is and how easy the shopping is. ",
+      "note": "Close enough to walk to from Kinshicho. Both have the Tokyo Metro Hanzomon Line. Kinshicho adds the JR Chuo-Sobu Line (Local) and JR Sobu Main Line; Sumiyoshi adds the Toei Shinjuku Line. Kinshicho is at least 7 minutes quicker to Shinagawa and Tokyo. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "kameido",
-      "lead": "For lower rent, Kameido; for rail connections, Kinshicho. ",
-      "note": "About 1 km from Kinshicho in a straight line. Kameido has only the JR Chuo-Sobu Line (Local) and Tobu Kameido Line, so Kinshicho is the better connected. To Shinagawa, for instance, Kameido takes 8 minutes longer. A one-room flat, though, costs about ¥13,000 less at Kameido."
+      "lead": "For lower rent, Kameido; for how close the centre is, Kinshicho. ",
+      "note": "About 1 km from Kinshicho in a straight line. Both have the JR Chuo-Sobu Line (Local). Kinshicho adds the JR Sobu Main Line and Tokyo Metro Hanzomon Line; Kameido adds the Tobu Kameido Line. Kinshicho is at least 8 minutes quicker to Toranomon and Shinagawa. A one-room flat, though, costs about ¥13,000 less at Kameido."
     }
   ],
   "goodFor": [
@@ -93,7 +93,7 @@
     "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Morning trains are very crowded: this station sits on the busiest stretch of the JR Sobu Main Line. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

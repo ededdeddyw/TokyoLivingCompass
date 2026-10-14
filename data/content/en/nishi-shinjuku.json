@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Nishi-Shinjuku",
   "tagline": "Shinjuku in 2 minutes and Shibuya in 12 minutes. Served by 1 line. A one-room flat rents for roughly ¥100,000 to ¥110,000.",
-  "summary": "The station is in Shinjuku City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 22 minutes to Otemachi, 2 minutes to Shinjuku, 12 minutes to Shibuya and 33 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 37.5 m above sea level, and the ground within 800 m varies in height by 13.6 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shinjuku City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 22 minutes to Otemachi, 2 minutes to Shinjuku, 12 minutes to Shibuya and 31 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 37.5 m above sea level, and the ground within 800 m varies in height by 13.6 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 37.5 m above sea level. Within 800 m the ground ranges from 25.8 m to 39.4 m, a difference of 13.6 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "tochomae",
-      "lead": "Nishi-Shinjuku is ahead on how close the centre is and lower rent. ",
-      "note": "Close enough to walk to from Nishi-Shinjuku. Tochomae has the Toei Oedo Line, a different set from Nishi-Shinjuku. To Shinjuku, for instance, Tochomae takes 16 minutes longer. A one-room flat costs about ¥17,000 more at Tochomae."
+      "lead": "Nishi-Shinjuku is ahead on lower rent, and little else separates the two. ",
+      "note": "Close enough to walk to from Nishi-Shinjuku. Nishi-Shinjuku adds the Tokyo Metro Marunouchi Line; Tochomae adds the Toei Oedo Line. Tochomae is 5 minutes quicker to Roppongi, but times to the other main business districts are much the same. A one-room flat costs about ¥17,000 more at Tochomae."
     },
     {
       "slug": "shinjuku-nishiguchi",
-      "lead": "For how easy the shopping is, Shinjuku-Nishiguchi; for how close the centre is, Nishi-Shinjuku. ",
-      "note": "Close enough to walk to from Nishi-Shinjuku. Shinjuku-Nishiguchi has the Toei Oedo Line, a different set from Nishi-Shinjuku. To Shinjuku, for instance, Shinjuku-Nishiguchi takes 14 minutes longer. A one-room flat costs about ¥18,000 more at Shinjuku-Nishiguchi. On how easy the shopping is, Shinjuku-Nishiguchi comes out ahead."
+      "lead": "For how easy the shopping is, Shinjuku-Nishiguchi; for lower rent, Nishi-Shinjuku. ",
+      "note": "Close enough to walk to from Nishi-Shinjuku. Nishi-Shinjuku adds the Tokyo Metro Marunouchi Line; Shinjuku-Nishiguchi adds the Toei Oedo Line. Journey times to the main business districts are much the same. A one-room flat costs about ¥18,000 more at Shinjuku-Nishiguchi. On how easy the shopping is, Shinjuku-Nishiguchi comes out ahead. Within about 13 minutes' walk, Shinjuku-Nishiguchi has 11 supermarkets (TOMIZ and ドン・キホーテUNY and others) and Nishi-Shinjuku has 9."
     }
   ],
   "goodFor": [
@@ -89,7 +89,7 @@
     "stationNote": "Only the Tokyo Metro Marunouchi Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

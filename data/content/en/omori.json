@@ -2,8 +2,8 @@
   "slug": "omori",
   "locale": "en",
   "name": "Omori",
-  "tagline": "Shinagawa in 9 minutes and Tokyo in 23 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Ota City, where JR East run 1 line between them. Journey times to the main business districts are 29 minutes to Otemachi, 30 minutes to Shinjuku, 25 minutes to Shibuya and 9 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 6.2 m above sea level, and the ground within 800 m varies in height by 15.0 m. The land around the station has gentle slopes.",
+  "tagline": "Shinagawa in 9 minutes and Shibuya in 22 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
+  "summary": "The station is in Ota City, where JR East run 1 line between them. Journey times to the main business districts are 29 minutes to Otemachi, 28 minutes to Shinjuku, 22 minutes to Shibuya and 9 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 6.2 m above sea level, and the ground within 800 m varies in height by 15.0 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 6.2 m above sea level. Within 800 m the ground ranges from 1.7 m to 16.7 m, a difference of 15.0 m."
@@ -57,12 +57,12 @@
     {
       "slug": "omorikaigan",
       "lead": "Omori is ahead on how close the centre is and lower rent. ",
-      "note": "Close enough to walk to from Omori. Omorikaigan has the Keikyu Main Line, a different set from Omori. To Shinjuku, for instance, Omorikaigan takes 12 minutes longer. A one-room flat costs about ¥7,000 more at Omorikaigan. On the number of places to eat out, Omori comes out ahead."
+      "note": "Close enough to walk to from Omori. Omori adds the JR Keihin-Tohoku Line; Omorikaigan adds the Keikyu Main Line. Omori is at least 9 minutes quicker to Shinjuku and Shibuya. A one-room flat also costs about ¥7,000 more at Omorikaigan."
     },
     {
       "slug": "heiwajima",
-      "lead": "For quiet, Heiwajima; for how close the centre is, Omori. ",
-      "note": "About 1.5 km from Omori in a straight line. Heiwajima has the Keikyu Main Line, a different set from Omori. To Shinjuku, for instance, Heiwajima takes 14 minutes longer. On the number of places to eat out, Omori comes out ahead."
+      "lead": "For safety, Heiwajima; for how close the centre is, Omori. ",
+      "note": "About 1.5 km from Omori in a straight line. Omori adds the JR Keihin-Tohoku Line; Heiwajima adds the Keikyu Main Line. Omori is at least 11 minutes quicker to Shinjuku and Shibuya. On safety, though, Heiwajima comes out ahead."
     }
   ],
   "goodFor": [
@@ -88,7 +88,7 @@
     "stationNote": "Only the JR Keihin-Tohoku Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

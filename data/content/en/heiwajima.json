@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Heiwajima",
   "tagline": "Shinagawa in 13 minutes and Tokyo in 27 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Ota City, served by Keikyu Main Line. Journey times to the main business districts are 33 minutes to Otemachi, 44 minutes to Shinjuku, 39 minutes to Shibuya and 13 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 2 m above sea level, and the ground within 800 m varies in height by 0.9 m. The land around the station is close to level.",
+  "summary": "The station is in Ota City, served by Keikyu Main Line. Journey times to the main business districts are 34 minutes to Otemachi, 41 minutes to Shinjuku, 33 minutes to Shibuya and 13 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 2 m above sea level, and the ground within 800 m varies in height by 0.9 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 2 m above sea level. Within 800 m the ground ranges from 1.5 m to 2.4 m, a difference of 0.9 m."
@@ -57,12 +57,12 @@
     {
       "slug": "omorimachi",
       "lead": "Omorimachi is ahead on lower rent and how easy the shopping is. ",
-      "note": "Close enough to walk to from Heiwajima. It is served by the same lines as Heiwajima. Journey times to the main business districts are much the same. A one-room flat costs about ¥9,000 less at Omorimachi. On how easy the shopping is, Omorimachi comes out ahead."
+      "note": "Close enough to walk to from Heiwajima. It is served by the same lines as Heiwajima. Journey times to the main business districts are much the same. A one-room flat costs about ¥9,000 less at Omorimachi. On how easy the shopping is, Omorimachi comes out ahead. Within about 13 minutes' walk, Omorimachi has 9 supermarkets (まいばすけっと and マルエツ and others) and Heiwajima has 6."
     },
     {
       "slug": "omorikaigan",
       "lead": "For the number of medical facilities, Omorikaigan; for lower rent, Heiwajima. ",
-      "note": "Close enough to walk to from Heiwajima. It is served by the same lines as Heiwajima. Journey times to the main business districts are much the same. A one-room flat costs about ¥11,000 more at Omorikaigan. On the number of places to eat out, Omorikaigan comes out ahead."
+      "note": "Close enough to walk to from Heiwajima. It is served by the same lines as Heiwajima. Journey times to the main business districts are much the same. A one-room flat costs about ¥11,000 more at Omorikaigan. On safety, Heiwajima comes out ahead."
     }
   ],
   "goodFor": [
@@ -80,6 +80,7 @@
   ],
   "tags": [
     "quiet",
+    "goodValue",
     "singleLine",
     "flat"
   ],

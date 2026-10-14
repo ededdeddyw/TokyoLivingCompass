@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Shinjuku-Gyoemmae",
   "tagline": "Shinjuku in 3 minutes and Shibuya in 13 minutes. Served by 1 line. A one-room flat rents for roughly ¥140,000 to ¥150,000.",
-  "summary": "The station is in Shinjuku City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 17 minutes to Otemachi, 3 minutes to Shinjuku, 13 minutes to Shibuya and 29 minutes to Shinagawa. A one-room flat rents for roughly ¥140,000 to ¥150,000. The station stands 34.1 m above sea level, and the ground within 800 m varies in height by 4.1 m. The land around the station is close to level.",
+  "summary": "The station is in Shinjuku City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 17 minutes to Otemachi, 3 minutes to Shinjuku, 13 minutes to Shibuya and 30 minutes to Shinagawa. A one-room flat rents for roughly ¥140,000 to ¥150,000. The station stands 34.1 m above sea level, and the ground within 800 m varies in height by 4.1 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 34.1 m above sea level. Within 800 m the ground ranges from 32.2 m to 36.3 m, a difference of 4.1 m."
@@ -49,13 +49,13 @@
   "neighbours": [
     {
       "slug": "shinjuku-sanchome",
-      "lead": "For rail connections, Shinjuku-Sanchome; for how little of the area is in the flood projection, Shinjuku-Gyoemmae. ",
-      "note": "Close enough to walk to from Shinjuku-Gyoemmae. Shinjuku-Sanchome also has the Tokyo Metro Fukutoshin Line and Toei Shinjuku Line, which Shinjuku-Gyoemmae does not. With more lines, Shinjuku-Sanchome is the better connected of the two. To Shibuya, for instance, Shinjuku-Sanchome is 5 minutes quicker. On how little of the area is in the flood projection, though, Shinjuku-Gyoemmae comes out ahead."
+      "lead": "For the number of medical facilities, Shinjuku-Sanchome; for how little of the area is in the flood projection, Shinjuku-Gyoemmae. ",
+      "note": "Close enough to walk to from Shinjuku-Gyoemmae. Both have the Tokyo Metro Marunouchi Line. Shinjuku-Sanchome also has the Tokyo Metro Fukutoshin Line and Toei Shinjuku Line, which Shinjuku-Gyoemmae does not. Shinjuku-Sanchome is 5 minutes quicker to Shibuya, but times to the other main business districts are much the same. On the number of medical facilities, Shinjuku-Sanchome comes out ahead. Within about 13 minutes' walk, Shinjuku-Sanchome has 52 clinics and pharmacies and Shinjuku-Gyoemmae has 14."
     },
     {
       "slug": "sendagaya",
       "lead": "For lower rent, Sendagaya; for how close the centre is, Shinjuku-Gyoemmae. ",
-      "note": "Close enough to walk to from Shinjuku-Gyoemmae. Sendagaya has the JR Chuo-Sobu Line (Local), a different set from Shinjuku-Gyoemmae. To Toranomon, for instance, Sendagaya takes 6 minutes longer. A one-room flat costs about ¥11,000 less at Sendagaya. On the number of places to eat out, Shinjuku-Gyoemmae comes out ahead."
+      "note": "Close enough to walk to from Shinjuku-Gyoemmae. Shinjuku-Gyoemmae adds the Tokyo Metro Marunouchi Line; Sendagaya adds the JR Chuo-Sobu Line (Local). Shinjuku-Gyoemmae is at least 5 minutes quicker to Toranomon and Otemachi. A one-room flat, though, costs about ¥11,000 less at Sendagaya."
     }
   ],
   "goodFor": [
@@ -69,13 +69,13 @@
     "People who want to finish their shopping on foot"
   ],
   "noiseSources": [
-    "甲州街道 (2 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
+    "The nearest big road, 靖国通り, is far enough that little traffic noise reaches the station area"
   ],
   "tags": [
     "lowFlood",
-    "fastToCenter",
     "singleLine",
-    "flat"
+    "flat",
+    "cafeRich"
   ],
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
@@ -84,8 +84,8 @@
     "stationNote": "Only the Tokyo Metro Marunouchi Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
-    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
+    "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
   },
   "authoredBy": "data-generated"
 }

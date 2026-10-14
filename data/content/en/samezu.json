@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Samezu",
   "tagline": "Shinagawa in 6 minutes and Tokyo in 21 minutes. Served by 1 line. A one-room flat rents for roughly ¥110,000 to ¥120,000.",
-  "summary": "The station is in Shinagawa City, where Keikyu run 1 line between them. Journey times to the main business districts are 27 minutes to Otemachi, 37 minutes to Shinjuku, 32 minutes to Shibuya and 6 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 3.1 m above sea level, and the ground within 800 m varies in height by 13.7 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shinagawa City, where Keikyu run 1 line between them. Journey times to the main business districts are 28 minutes to Otemachi, 35 minutes to Shinjuku, 27 minutes to Shibuya and 6 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 3.1 m above sea level, and the ground within 800 m varies in height by 13.7 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 3.1 m above sea level. Within 800 m the ground ranges from 1 m to 14.7 m, a difference of 13.7 m."
@@ -52,7 +52,7 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥110,000 to ¥120,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What holds the figure down: only one line, the {line}, serving the station. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥110,000 to ¥120,000. Set against how long it takes to reach the central business districts, that is on the low side. What holds the figure down: only one line, the {line}, serving the station. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "aomono-yokocho",
@@ -61,8 +61,8 @@
     },
     {
       "slug": "oimachi",
-      "lead": "Oimachi is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Samezu. Oimachi also has the JR Keihin-Tohoku Line, Tokyu Oimachi Line and Rinkai Line, which Samezu does not. With more lines, Oimachi is the better connected of the two. To Shinjuku, for instance, Oimachi is 16 minutes quicker. Rents, flood projections and the rest differ little."
+      "lead": "Oimachi is ahead on how close the centre is and how little of the area is in the flood projection. ",
+      "note": "Close enough to walk to from Samezu. Samezu adds the Keikyu Main Line; Oimachi adds the JR Keihin-Tohoku Line, Tokyu Oimachi Line and Rinkai Line. Oimachi is at least 14 minutes quicker to Shinjuku and Shibuya. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -86,7 +86,7 @@
     "groceries": "There are 7 supermarkets within walking distance, and the nearest is 7 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Keikyu Main Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."

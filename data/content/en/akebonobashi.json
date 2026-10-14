@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Akebonobashi",
   "tagline": "Shinjuku in 5 minutes and Shibuya in 15 minutes. Served by 1 line. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
-  "summary": "The station is in Shinjuku City, where the Tokyo Metropolitan Bureau of Transportation run 1 line between them. Journey times to the main business districts are 15 minutes to Otemachi, 5 minutes to Shinjuku, 15 minutes to Shibuya and 34 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 19.7 m above sea level, and the ground within 800 m varies in height by 13.8 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shinjuku City, where the Tokyo Metropolitan Bureau of Transportation run 1 line between them. Journey times to the main business districts are 15 minutes to Otemachi, 5 minutes to Shinjuku, 15 minutes to Shibuya and 33 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 19.7 m above sea level, and the ground within 800 m varies in height by 13.8 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 19.7 m above sea level. Within 800 m the ground ranges from 19.7 m to 33.5 m, a difference of 13.8 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is on the low side. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "yotsuya-sanchome",
       "lead": "For how close the centre is, Yotsuya-Sanchome; for quiet, Akebonobashi. ",
-      "note": "Close enough to walk to from Akebonobashi. Yotsuya-Sanchome has the Tokyo Metro Marunouchi Line, a different set from Akebonobashi. To Toranomon, for instance, Yotsuya-Sanchome is 8 minutes quicker. A one-room flat costs about ¥5,000 less at Yotsuya-Sanchome. On quiet, Akebonobashi comes out ahead."
+      "note": "Close enough to walk to from Akebonobashi. Akebonobashi adds the Toei Shinjuku Line; Yotsuya-Sanchome adds the Tokyo Metro Marunouchi Line. Yotsuya-Sanchome is at least 8 minutes quicker to Tokyo and Toranomon. A one-room flat also costs about ¥5,000 less at Yotsuya-Sanchome. On quiet, though, Akebonobashi comes out ahead."
     },
     {
       "slug": "ushigome-yanagicho",
       "lead": "For lower rent, Ushigome-Yanagicho; for how close the centre is, Akebonobashi. ",
-      "note": "Close enough to walk to from Akebonobashi. Ushigome-Yanagicho has the Toei Oedo Line, a different set from Akebonobashi. To Shinjuku, for instance, Ushigome-Yanagicho takes 13 minutes longer. A one-room flat costs about ¥16,000 less at Ushigome-Yanagicho. On the number of places to eat out, Akebonobashi comes out ahead."
+      "note": "Close enough to walk to from Akebonobashi. Akebonobashi adds the Toei Shinjuku Line; Ushigome-Yanagicho adds the Toei Oedo Line. Akebonobashi is at least 5 minutes quicker to Toranomon and Shinagawa. A one-room flat, though, costs about ¥16,000 less at Ushigome-Yanagicho."
     }
   ],
   "goodFor": [
@@ -87,9 +87,9 @@
     "groceries": "There are 11 supermarkets within walking distance, and the nearest is 4 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Toei Shinjuku Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

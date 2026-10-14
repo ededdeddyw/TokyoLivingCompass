@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Meidaimae",
   "tagline": "Shinjuku in 10 minutes and Shibuya in 13 minutes. Served by 2 lines. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Setagaya City, where Keio run 2 lines between them. Journey times to the main business districts are 35 minutes to Otemachi, 10 minutes to Shinjuku, 13 minutes to Shibuya and 39 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 41.2 m above sea level, and the ground within 800 m varies in height by 11.4 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Setagaya City, where Keio run 2 lines between them. Journey times to the main business districts are 35 minutes to Otemachi, 10 minutes to Shinjuku, 13 minutes to Shibuya and 33 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 41.2 m above sea level, and the ground within 800 m varies in height by 11.4 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 41.2 m above sea level. Within 800 m the ground ranges from 36.9 m to 48.3 m, a difference of 11.4 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "higashi-matsubara",
-      "lead": "For quiet, Higashi-Matsubara; for rail connections, Meidaimae. ",
-      "note": "Close enough to walk to from Meidaimae. Higashi-Matsubara has only the Keio Inokashira Line, so Meidaimae is the better connected. To Tokyo, for instance, Higashi-Matsubara takes 7 minutes longer. On quiet, though, Higashi-Matsubara comes out ahead."
+      "lead": "For quiet, Higashi-Matsubara; for how close the centre is, Meidaimae. ",
+      "note": "Close enough to walk to from Meidaimae. Both have the Keio Inokashira Line. Meidaimae also has the Keio Line, which Higashi-Matsubara does not. Meidaimae is at least 7 minutes quicker to Tokyo and Shinjuku. On quiet, though, Higashi-Matsubara comes out ahead."
     },
     {
       "slug": "daitabashi",
-      "lead": "Meidaimae is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Meidaimae. Daitabashi has only the Keio Line, so Meidaimae is the better connected. To Shibuya, for instance, Daitabashi takes 5 minutes longer. A one-room flat also costs about ¥8,000 more at Daitabashi."
+      "lead": "Meidaimae is ahead on lower rent and how easy the shopping is. ",
+      "note": "Close enough to walk to from Meidaimae. Both have the Keio Line. Meidaimae also has the Keio Inokashira Line, which Daitabashi does not. Meidaimae is 5 minutes quicker to Shibuya, but times to the other main business districts are much the same. A one-room flat costs about ¥8,000 more at Daitabashi. On how easy the shopping is, Meidaimae comes out ahead. Within about 13 minutes' walk, Meidaimae has 8 supermarkets (京王ストアエクスプレス and AZUMA and others) and Daitabashi has 5."
     }
   ],
   "goodFor": [
@@ -89,7 +89,7 @@
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
+    "congestion": "This station sits on the busiest stretch of the Keio Line, but at 145% passengers are not shoulder to shoulder. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

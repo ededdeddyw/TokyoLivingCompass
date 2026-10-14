@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Hanzomon",
   "tagline": "Otemachi in 8 minutes and Shibuya in 11 minutes. Served by 1 line. A one-room flat rents for roughly ¥160,000 to ¥170,000.",
-  "summary": "The station is in Chiyoda City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 8 minutes to Otemachi, 17 minutes to Shinjuku, 11 minutes to Shibuya and 25 minutes to Shinagawa. A one-room flat rents for roughly ¥160,000 to ¥170,000. The station stands 29.4 m above sea level, and the ground within 800 m varies in height by 20.8 m. The land around the station rises and falls sharply.",
+  "summary": "The station is in Chiyoda City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 8 minutes to Otemachi, 17 minutes to Shinjuku, 11 minutes to Shibuya and 27 minutes to Shinagawa. A one-room flat rents for roughly ¥160,000 to ¥170,000. The station stands 29.4 m above sea level, and the ground within 800 m varies in height by 20.8 m. The land around the station rises and falls sharply.",
   "terrain": {
     "slope": "hilly",
     "note": "The station sits on the higher side of the ground around it, at 29.4 m above sea level. Within 800 m the ground ranges from 10 m to 30.8 m, a difference of 20.8 m."
@@ -57,12 +57,12 @@
     {
       "slug": "kojimachi",
       "lead": "Hanzomon is ahead on how close the centre is and lower rent. ",
-      "note": "Close enough to walk to from Hanzomon. Kojimachi has the Tokyo Metro Yurakucho Line, a different set from Hanzomon. To Otemachi, for instance, Kojimachi takes 6 minutes longer. A one-room flat costs about ¥8,000 more at Kojimachi. On quiet, Hanzomon comes out ahead."
+      "note": "Close enough to walk to from Hanzomon. Hanzomon adds the Tokyo Metro Hanzomon Line; Kojimachi adds the Tokyo Metro Yurakucho Line. Hanzomon is at least 6 minutes quicker to Roppongi and Otemachi. A one-room flat also costs about ¥8,000 more at Kojimachi."
     },
     {
       "slug": "ichigaya",
-      "lead": "For rail connections, Ichigaya; for how little of the area is in the flood projection, Hanzomon. ",
-      "note": "Close enough to walk to from Hanzomon. Ichigaya has 4 lines that Hanzomon does not. With more lines, Ichigaya is the better connected of the two. To Shinjuku, for instance, Ichigaya is 9 minutes quicker. A one-room flat also costs about ¥31,000 less at Ichigaya. On how easy the shopping is, though, Hanzomon comes out ahead."
+      "lead": "For lower rent, Ichigaya; for how little of the area is in the flood projection, Hanzomon. ",
+      "note": "Close enough to walk to from Hanzomon. Hanzomon adds the Tokyo Metro Hanzomon Line; Ichigaya adds the 4 lines. Which is faster depends on where you are going: Hanzomon is 7 minutes quicker to Shibuya, Ichigaya is 9 minutes quicker to Shinjuku. A one-room flat costs about ¥31,000 less at Ichigaya. On how easy the shopping is, Hanzomon comes out ahead. Within about 13 minutes' walk, Hanzomon has 11 supermarkets (マルエツプチ and COCOS and others) and Ichigaya has 7."
     }
   ],
   "goodFor": [
@@ -77,7 +77,6 @@
     "People who want to hold the rent down"
   ],
   "noiseSources": [
-    "The 首都高速都心環状線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
     "新宿通り (3 lanes each way) runs just outside the station. Traffic on it never stops"
   ],
   "tags": [
@@ -96,7 +95,7 @@
     "rentRange": "Set against how long the commute takes, rents here are among the highest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
-    "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"
 }

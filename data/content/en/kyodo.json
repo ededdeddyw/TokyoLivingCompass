@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Kyodo",
   "tagline": "Shinjuku in 18 minutes and Shibuya in 20 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Setagaya City, where Odakyu run 1 line between them. Journey times to the main business districts are 36 minutes to Otemachi, 18 minutes to Shinjuku, 20 minutes to Shibuya and 46 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 38.5 m above sea level, and the ground within 800 m varies in height by 5.4 m. The land around the station is close to level.",
+  "summary": "The station is in Setagaya City, where Odakyu run 1 line between them. Journey times to the main business districts are 33 minutes to Otemachi, 18 minutes to Shinjuku, 20 minutes to Shibuya and 40 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 38.5 m above sea level, and the ground within 800 m varies in height by 5.4 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 38.5 m above sea level. Within 800 m the ground ranges from 35.2 m to 40.6 m, a difference of 5.4 m."
@@ -57,12 +57,12 @@
     {
       "slug": "miyanosaka",
       "lead": "For quiet, Miyanosaka; for how close the centre is, Kyodo. ",
-      "note": "Close enough to walk to from Kyodo. Miyanosaka has the Tokyu Setagaya Line, a different set from Kyodo. To Tokyo, for instance, Miyanosaka takes 7 minutes longer. On how easy the shopping is, Kyodo comes out ahead."
+      "note": "Close enough to walk to from Kyodo. Kyodo adds the Odakyu Odawara Line; Miyanosaka adds the Tokyu Setagaya Line. Kyodo is at least 6 minutes quicker to Toranomon and Tokyo. On quiet, though, Miyanosaka comes out ahead."
     },
     {
       "slug": "gotokuji",
-      "lead": "For rail connections, Gotokuji; for how easy the shopping is, Kyodo. ",
-      "note": "About 1 km from Kyodo in a straight line. Gotokuji also has the Tokyu Setagaya Line, which Kyodo does not. With more lines, Gotokuji is the better connected of the two. To Toranomon, for instance, Gotokuji is 3 minutes quicker. On how easy the shopping is, though, Kyodo comes out ahead."
+      "lead": "Kyodo is ahead on how easy the shopping is and the number of places to eat out. ",
+      "note": "About 1 km from Kyodo in a straight line. Both have the Odakyu Odawara Line. Gotokuji also has the Tokyu Setagaya Line, which Kyodo does not. Journey times to the main business districts are much the same. On how easy the shopping is, Kyodo comes out ahead. Within about 13 minutes' walk, Kyodo has 12 supermarkets (Odakyu and まいばすけっと and others) and Gotokuji has 6."
     }
   ],
   "goodFor": [
@@ -79,6 +79,7 @@
   ],
   "tags": [
     "someBustle",
+    "goodValue",
     "singleLine",
     "familyFriendly",
     "flat"
@@ -90,7 +91,7 @@
     "stationNote": "Only the Odakyu Odawara Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

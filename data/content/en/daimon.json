@@ -2,8 +2,8 @@
   "slug": "daimon",
   "locale": "en",
   "name": "Daimon",
-  "tagline": "Roppongi in 6 minutes and Tokyo in 10 minutes. Served by 2 lines. A one-room flat rents for roughly ¥150,000 to ¥160,000.",
-  "summary": "The station is in Minato City, where the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 16 minutes to Otemachi, 16 minutes to Shinjuku, 20 minutes to Shibuya and 13 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 3.2 m above sea level, and the ground within 800 m varies in height by 2.1 m. The land around the station is close to level.",
+  "tagline": "Roppongi in 6 minutes and Shinagawa in 9 minutes. Served by 2 lines. A one-room flat rents for roughly ¥150,000 to ¥160,000.",
+  "summary": "The station is in Minato City, where the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 16 minutes to Otemachi, 16 minutes to Shinjuku, 20 minutes to Shibuya and 9 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 3.2 m above sea level, and the ground within 800 m varies in height by 2.1 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 3.2 m above sea level. Within 800 m the ground ranges from 1.1 m to 3.2 m, a difference of 2.1 m."
@@ -42,13 +42,13 @@
   "neighbours": [
     {
       "slug": "hamamatsucho",
-      "lead": "For rail connections, Hamamatsucho; for how close the centre is, Daimon. ",
-      "note": "Close enough to walk to from Daimon. Hamamatsucho also has the JR Yamanote Line, JR Keihin-Tohoku Line and Tokyo Monorail, which Daimon does not. With more lines, Hamamatsucho is the better connected of the two. To Roppongi, for instance, Hamamatsucho takes 12 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "For quiet, Hamamatsucho; for how close the centre is, Daimon. ",
+      "note": "Close enough to walk to from Daimon. Daimon adds the Toei Oedo Line and Toei Asakusa Line; Hamamatsucho adds the JR Yamanote Line, JR Keihin-Tohoku Line and Tokyo Monorail. Daimon is at least 11 minutes quicker to Roppongi and Shinjuku. On quiet, though, Hamamatsucho comes out ahead."
     },
     {
       "slug": "shibakoen",
-      "lead": "For how little of the area is in the flood projection, Shibakoen; for rail connections, Daimon. ",
-      "note": "Close enough to walk to from Daimon. Shibakoen has only the Toei Mita Line, so Daimon is the better connected. To Roppongi, for instance, Shibakoen takes 14 minutes longer. On what it offers families, though, Shibakoen comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Shibakoen; for the number of places to eat out, Daimon. ",
+      "note": "Close enough to walk to from Daimon. Daimon adds the Toei Oedo Line and Toei Asakusa Line; Shibakoen adds the Toei Mita Line. Which is faster depends on where you are going: Daimon is 14 minutes quicker to Roppongi, Shibakoen is 7 minutes quicker to Otemachi. On what it offers families, Shibakoen comes out ahead."
     }
   ],
   "goodFor": [

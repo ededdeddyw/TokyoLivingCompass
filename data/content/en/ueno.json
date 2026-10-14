@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Ueno",
   "tagline": "Tokyo in 5 minutes and Otemachi in 11 minutes. Served by 8 lines. A one-room flat rents for roughly ¥110,000 to ¥120,000.",
-  "summary": "The station is in Taito City, where JR East and Tokyo Metro run 8 lines between them. Journey times to the main business districts are 11 minutes to Otemachi, 23 minutes to Shinjuku, 30 minutes to Shibuya and 20 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 4.1 m above sea level, and the ground within 800 m varies in height by 15.4 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Taito City, where JR East and Tokyo Metro run 8 lines between them. Journey times to the main business districts are 11 minutes to Otemachi, 23 minutes to Shinjuku, 30 minutes to Shibuya and 22 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 4.1 m above sea level, and the ground within 800 m varies in height by 15.4 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 4.1 m above sea level. Within 800 m the ground ranges from 2 m to 17.4 m, a difference of 15.4 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥110,000 to ¥120,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. In plain yen, though, it is on the high side for the 23 wards. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥110,000 to ¥120,000. Set against how long it takes to reach the central business districts, that is on the low side. In plain yen, though, it is on the high side for the 23 wards. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "keisei-ueno",
-      "lead": "For how little of the area is in the flood projection, Keisei-Ueno; for rail connections, Ueno. ",
-      "note": "Close enough to walk to from Ueno. Keisei-Ueno has only the Keisei Main Line and Narita Sky Access Line, so Ueno is the better connected. To Tokyo, for instance, Keisei-Ueno takes 17 minutes longer. On how little of the area is in the flood projection, though, Keisei-Ueno comes out ahead."
+      "lead": "For how little of the area is in the flood projection, Keisei-Ueno; for how close the centre is, Ueno. ",
+      "note": "Close enough to walk to from Ueno. Ueno adds the 8 lines; Keisei-Ueno adds the Keisei Main Line and Narita Sky Access Line. Ueno is at least 17 minutes quicker to Otemachi and Tokyo. On how little of the area is in the flood projection, though, Keisei-Ueno comes out ahead."
     },
     {
       "slug": "inaricho",
-      "lead": "Ueno is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Ueno. Inaricho has only the Tokyo Metro Ginza Line, so Ueno is the better connected. To Tokyo, for instance, Inaricho takes 7 minutes longer. A one-room flat also costs about ¥7,000 more at Inaricho."
+      "lead": "For safety, Inaricho; for how close the centre is, Ueno. ",
+      "note": "Close enough to walk to from Ueno. Both have the Tokyo Metro Ginza Line. Ueno also has the 7 lines, which Inaricho does not. Ueno is at least 5 minutes quicker to Tokyo and Otemachi. A one-room flat also costs about ¥7,000 more at Inaricho. On safety, though, Inaricho comes out ahead."
     }
   ],
   "goodFor": [
@@ -79,20 +79,20 @@
   ],
   "tags": [
     "majorHub",
-    "goodValue",
     "manyLines",
     "singleFriendly",
     "shoppingEasy",
-    "diningRich"
+    "diningRich",
+    "lateNight"
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 22 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
     "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "8 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
-    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are some of the most heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

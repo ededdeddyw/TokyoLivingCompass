@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What holds the figure down: a climb from the station to much of the housing. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "korakuen",
-      "lead": "For lower rent, Korakuen; for how close the centre is, Suidobashi. ",
-      "note": "Close enough to walk to from Suidobashi. Korakuen has the Tokyo Metro Marunouchi Line and Tokyo Metro Namboku Line, a different set from Suidobashi. To Toranomon, for instance, Korakuen takes 3 minutes longer. A one-room flat costs about ¥26,000 less at Korakuen. On the number of places to eat out, Suidobashi comes out ahead."
+      "lead": "For lower rent, Korakuen; for the number of places to eat out, Suidobashi. ",
+      "note": "Close enough to walk to from Suidobashi. Suidobashi adds the JR Chuo-Sobu Line (Local) and Toei Mita Line; Korakuen adds the Tokyo Metro Marunouchi Line and Tokyo Metro Namboku Line. Journey times to the main business districts are much the same. A one-room flat costs about ¥26,000 less at Korakuen. On the number of places to eat out, Suidobashi comes out ahead. Within about 13 minutes' walk, Suidobashi has 247 restaurants and Korakuen has 135."
     },
     {
       "slug": "hongo-sanchome",
-      "lead": "For lower rent, Hongo-Sanchome; for how close the centre is, Suidobashi. ",
-      "note": "Close enough to walk to from Suidobashi. Hongo-Sanchome has the Tokyo Metro Marunouchi Line and Toei Oedo Line, a different set from Suidobashi. To Shibuya, for instance, Hongo-Sanchome takes 5 minutes longer. A one-room flat costs about ¥7,000 less at Hongo-Sanchome. On how little of the area is in the flood projection, Hongo-Sanchome comes out ahead."
+      "lead": "For lower rent, Hongo-Sanchome; for how easy the shopping is, Suidobashi. ",
+      "note": "Close enough to walk to from Suidobashi. Suidobashi adds the JR Chuo-Sobu Line (Local) and Toei Mita Line; Hongo-Sanchome adds the Tokyo Metro Marunouchi Line and Toei Oedo Line. Suidobashi is 5 minutes quicker to Shibuya, but times to the other main business districts are much the same. A one-room flat costs about ¥7,000 less at Hongo-Sanchome. On how little of the area is in the flood projection, Hongo-Sanchome comes out ahead."
     }
   ],
   "goodFor": [
@@ -92,7 +92,7 @@
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
   },
   "authoredBy": "data-generated"

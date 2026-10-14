@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Nippori",
   "tagline": "Tokyo in 13 minutes and Otemachi in 19 minutes. Served by 6 lines. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Arakawa City, where JR East, Keisei and the Tokyo Metropolitan Bureau of Transportation run 6 lines between them. Journey times to the main business districts are 19 minutes to Otemachi, 27 minutes to Shinjuku, 32 minutes to Shibuya and 27 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 6.3 m above sea level, and the ground within 800 m varies in height by 15.6 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Arakawa City, where JR East, Keisei and the Tokyo Metropolitan Bureau of Transportation run 6 lines between them. Journey times to the main business districts are 19 minutes to Otemachi, 27 minutes to Shinjuku, 35 minutes to Shibuya and 27 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 6.3 m above sea level, and the ground within 800 m varies in height by 15.6 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 6.3 m above sea level. Within 800 m the ground ranges from 3.7 m to 19.3 m, a difference of 15.6 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "nishi-nippori",
-      "lead": "For how close the centre is, Nishi-Nippori; for rail connections, Nippori. ",
-      "note": "Close enough to walk to from Nippori. Nishi-Nippori has 4 lines, so Nippori is the better connected. To Otemachi, for instance, Nishi-Nippori is 6 minutes quicker. Rents, flood projections and the rest differ little."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Nippori. Both have the JR Yamanote Line, JR Keihin-Tohoku Line and Nippori-Toneri Liner. Nippori adds the JR Joban Line, Keisei Main Line and Narita Sky Access Line; Nishi-Nippori adds the Tokyo Metro Chiyoda Line. Nishi-Nippori is 6 minutes quicker to Otemachi, but times to the other main business districts are much the same. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "sendagi",
-      "lead": "For how close the centre is, Sendagi; for rail connections, Nippori. ",
-      "note": "Close enough to walk to from Nippori. Sendagi has only the Tokyo Metro Chiyoda Line, so Nippori is the better connected. To Otemachi, for instance, Sendagi is 8 minutes quicker. A one-room flat, though, costs about ¥6,000 less at Sendagi."
+      "lead": "Sendagi is ahead on lower rent and how little of the area is in the flood projection. ",
+      "note": "Close enough to walk to from Nippori. Nippori adds the 6 lines; Sendagi adds the Tokyo Metro Chiyoda Line. Sendagi is 8 minutes quicker to Otemachi, but times to the other main business districts are much the same. A one-room flat costs about ¥6,000 less at Sendagi. On what it offers families, Sendagi comes out ahead."
     }
   ],
   "goodFor": [
@@ -91,7 +91,7 @@
     "stationNote": "6 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "This station sits on the busiest stretch of the JR Joban Line, but at 142% passengers are not shoulder to shoulder. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

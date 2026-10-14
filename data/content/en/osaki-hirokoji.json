@@ -2,8 +2,8 @@
   "slug": "osaki-hirokoji",
   "locale": "en",
   "name": "Osaki-Hirokoji",
-  "tagline": "Shibuya in 16 minutes and Shinagawa in 18 minutes. Served by 1 line. A one-room flat rents for roughly ¥120,000 to ¥130,000.",
-  "summary": "The station is in Shinagawa City, where Tokyu run 1 line between them. Journey times to the main business districts are 30 minutes to Otemachi, 25 minutes to Shinjuku, 16 minutes to Shibuya and 18 minutes to Shinagawa. A one-room flat rents for roughly ¥120,000 to ¥130,000. The station stands 6.6 m above sea level, and the ground within 800 m varies in height by 19.1 m. The land around the station has gentle slopes.",
+  "tagline": "Shinagawa in 12 minutes and Shibuya in 16 minutes. Served by 1 line. A one-room flat rents for roughly ¥120,000 to ¥130,000.",
+  "summary": "The station is in Shinagawa City, where Tokyu run 1 line between them. Journey times to the main business districts are 30 minutes to Otemachi, 25 minutes to Shinjuku, 16 minutes to Shibuya and 12 minutes to Shinagawa. A one-room flat rents for roughly ¥120,000 to ¥130,000. The station stands 6.6 m above sea level, and the ground within 800 m varies in height by 19.1 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 6.6 m above sea level. Within 800 m the ground ranges from 2.7 m to 21.8 m, a difference of 19.1 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "gotanda",
-      "lead": "For rail connections, Gotanda; for how easy the shopping is, Osaki-Hirokoji. ",
-      "note": "Close enough to walk to from Osaki-Hirokoji. Gotanda also has the JR Yamanote Line and Toei Asakusa Line, which Osaki-Hirokoji does not. With more lines, Gotanda is the better connected of the two. To Toranomon, for instance, Gotanda is 7 minutes quicker. On how easy the shopping is, though, Osaki-Hirokoji comes out ahead."
+      "lead": "For how close the centre is, Gotanda; for how easy the shopping is, Osaki-Hirokoji. ",
+      "note": "Close enough to walk to from Osaki-Hirokoji. Both have the Tokyu Ikegami Line. Gotanda also has the JR Yamanote Line and Toei Asakusa Line, which Osaki-Hirokoji does not. Gotanda is at least 7 minutes quicker to Toranomon and Shinjuku. On how easy the shopping is, though, Osaki-Hirokoji comes out ahead. Within about 13 minutes' walk, Osaki-Hirokoji has 12 supermarkets (東急ストア and 成城石井 and others) and Gotanda has 8."
     },
     {
       "slug": "osaki",
-      "lead": "For rail connections, Osaki; for how easy the shopping is, Osaki-Hirokoji. ",
-      "note": "Close enough to walk to from Osaki-Hirokoji. Osaki has 4 lines that Osaki-Hirokoji does not. With more lines, Osaki is the better connected of the two. To Shinjuku, for instance, Osaki is 12 minutes quicker. A one-room flat also costs about ¥10,000 less at Osaki. On how easy the shopping is, though, Osaki-Hirokoji comes out ahead."
+      "lead": "For how close the centre is, Osaki; for how easy the shopping is, Osaki-Hirokoji. ",
+      "note": "Close enough to walk to from Osaki-Hirokoji. Osaki-Hirokoji adds the Tokyu Ikegami Line; Osaki adds the 4 lines. Osaki is at least 9 minutes quicker to Shinjuku and Tokyo. A one-room flat also costs about ¥10,000 less at Osaki. On how easy the shopping is, though, Osaki-Hirokoji comes out ahead. Within about 13 minutes' walk, Osaki-Hirokoji has 12 supermarkets (東急ストア and 成城石井 and others) and Osaki has 7."
     }
   ],
   "goodFor": [
@@ -73,11 +73,11 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "The 首都高速中央環状線 viaduct runs right beside the station. It is an expressway, so traffic is audible day and night",
+    "The 首都高速2号目黒線 viaduct runs a short walk from the station. It is an expressway, so traffic is audible day and night",
     "山手通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
-    "pricey",
+    "lowFlood",
     "singleLine",
     "shoppingEasy",
     "parkNear"
@@ -89,8 +89,8 @@
     "stationNote": "Only the Tokyu Ikegami Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
-    "noiseSources": "At this station, check the traffic noise before the noise people make."
+    "congestion": "This station sits on the busiest stretch of the Tokyu Ikegami Line, but at 130% passengers are not shoulder to shoulder. ",
+    "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
   },
   "authoredBy": "data-generated"
 }

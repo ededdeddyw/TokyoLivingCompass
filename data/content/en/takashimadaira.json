@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Takashimadaira",
   "tagline": "Otemachi in 38 minutes and Tokyo in 44 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Itabashi City, served by Toei Mita Line. Journey times to the main business districts are 38 minutes to Otemachi, 46 minutes to Shinjuku, 52 minutes to Shibuya and 58 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 3.2 m above sea level, and the ground within 800 m varies in height by 2.4 m. The land around the station is close to level.",
+  "summary": "The station is in Itabashi City, served by Toei Mita Line. Journey times to the main business districts are 38 minutes to Otemachi, 46 minutes to Shinjuku, 55 minutes to Shibuya and 58 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 3.2 m above sea level, and the ground within 800 m varies in height by 2.4 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 3.2 m above sea level. Within 800 m the ground ranges from 2.6 m to 5 m, a difference of 2.4 m."
@@ -57,12 +57,12 @@
     {
       "slug": "shin-takashimadaira",
       "lead": "For lower rent, Shin-Takashimadaira; for how easy the shopping is, Takashimadaira. ",
-      "note": "Close enough to walk to from Takashimadaira. It is served by the same lines as Takashimadaira. Journey times to the main business districts are much the same. A one-room flat costs about ¥6,000 less at Shin-Takashimadaira. On safety, Shin-Takashimadaira comes out ahead."
+      "note": "Close enough to walk to from Takashimadaira. It is served by the same lines as Takashimadaira. Journey times to the main business districts are much the same. A one-room flat costs about ¥6,000 less at Shin-Takashimadaira. On how easy the shopping is, Takashimadaira comes out ahead. Within about 13 minutes' walk, Takashimadaira has 5 supermarkets (まいばすけっと and 東武ストア and others) and Shin-Takashimadaira has 3."
     },
     {
       "slug": "nishidai",
-      "lead": "For how close the centre is, Nishidai; for quiet, Takashimadaira. ",
-      "note": "About 1 km from Takashimadaira in a straight line. It is served by the same lines as Takashimadaira. To Toranomon, for instance, Nishidai is 3 minutes quicker. On how easy the shopping is, Nishidai comes out ahead."
+      "lead": "For safety, Nishidai; for quiet, Takashimadaira. ",
+      "note": "About 1 km from Takashimadaira in a straight line. It is served by the same lines as Takashimadaira. Journey times to the main business districts are much the same. On safety, Nishidai comes out ahead."
     }
   ],
   "goodFor": [
@@ -79,6 +79,7 @@
   ],
   "tags": [
     "quiet",
+    "pricey",
     "floodArea",
     "singleLine",
     "flat"

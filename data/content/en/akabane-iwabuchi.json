@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Akabane-Iwabuchi",
   "tagline": "Otemachi in 35 minutes and Tokyo in 36 minutes. Served by 2 lines. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Kita City, where Tokyo Metro and Saitama Railway run 2 lines between them. Journey times to the main business districts are 35 minutes to Otemachi, 38 minutes to Shinjuku, 44 minutes to Shibuya and 50 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 2.6 m above sea level, and the ground within 800 m varies in height by 3.5 m. The land around the station is close to level.",
+  "summary": "The station is in Kita City, where Tokyo Metro and Saitama Railway run 2 lines between them. Journey times to the main business districts are 35 minutes to Otemachi, 38 minutes to Shinjuku, 46 minutes to Shibuya and 50 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 2.6 m above sea level, and the ground within 800 m varies in height by 3.5 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 2.6 m above sea level. Within 800 m the ground ranges from 2.4 m to 5.9 m, a difference of 3.5 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "akabane",
-      "lead": "Akabane is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Akabane-Iwabuchi. Akabane has 5 lines that Akabane-Iwabuchi does not. With more lines, Akabane is the better connected of the two. To Shibuya, for instance, Akabane is 24 minutes quicker. Rents, flood projections and the rest differ little."
+      "lead": "Akabane is ahead on how close the centre is and how little of the area is in the flood projection. ",
+      "note": "Close enough to walk to from Akabane-Iwabuchi. Akabane-Iwabuchi adds the Tokyo Metro Namboku Line and Saitama Railway Line; Akabane adds the 5 lines. Akabane is at least 23 minutes quicker to Shibuya and Shinjuku. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "shimo",
-      "lead": "For how close the centre is, Shimo; for rail connections, Akabane-Iwabuchi. ",
-      "note": "About 1 km from Akabane-Iwabuchi in a straight line. Shimo has only the Tokyo Metro Namboku Line, so Akabane-Iwabuchi is the better connected. To Toranomon, for instance, Shimo is 3 minutes quicker. On what it offers families, though, Shimo comes out ahead."
+      "lead": "For safety, Shimo; for the number of medical facilities, Akabane-Iwabuchi. ",
+      "note": "About 1 km from Akabane-Iwabuchi in a straight line. Both have the Tokyo Metro Namboku Line. Akabane-Iwabuchi also has the Saitama Railway Line, which Shimo does not. Journey times to the main business districts are much the same. On what it offers families, Shimo comes out ahead."
     }
   ],
   "goodFor": [
@@ -78,10 +78,10 @@
     "環八通り (2 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
+    "pricey",
     "floodArea",
     "shoppingEasy",
-    "flat",
-    "medicalRich"
+    "flat"
   ],
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
@@ -90,7 +90,7 @@
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "This station sits on the busiest stretch of the Saitama Railway Line, but at 118% passengers are not shoulder to shoulder. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

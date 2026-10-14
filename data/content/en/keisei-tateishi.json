@@ -2,8 +2,8 @@
   "slug": "keisei-tateishi",
   "locale": "en",
   "name": "Keisei-Tateishi",
-  "tagline": "Tokyo in 33 minutes and Otemachi in 33 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Katsushika City, where Keisei run 1 line between them. Journey times to the main business districts are 33 minutes to Otemachi, 49 minutes to Shinjuku, 51 minutes to Shibuya and 46 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands -0.2 m above sea level, and the ground within 800 m varies in height by 3.4 m. The land around the station is close to level.",
+  "tagline": "Tokyo in 30 minutes and Otemachi in 32 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
+  "summary": "The station is in Katsushika City, where Keisei run 1 line between them. Journey times to the main business districts are 32 minutes to Otemachi, 45 minutes to Shinjuku, 51 minutes to Shibuya and 42 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands -0.2 m above sea level, and the ground within 800 m varies in height by 3.4 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at -0.2 m above sea level. Within 800 m the ground ranges from -1.4 m to 2 m, a difference of 3.4 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What holds the figure down: a large projected flood depth and only one line, the {line}, serving the station. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is on the low side. What holds the figure down: a large projected flood depth and only one line, the {line}, serving the station. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "aoto",
-      "lead": "For rail connections, Aoto; for how close the centre is, Keisei-Tateishi. ",
-      "note": "About 1 km from Keisei-Tateishi in a straight line. Aoto also has the Keisei Main Line and Narita Sky Access Line, which Keisei-Tateishi does not. With more lines, Aoto is the better connected of the two. To Shinagawa, for instance, Aoto takes 3 minutes longer. On safety, though, Keisei-Tateishi comes out ahead."
+      "lead": "Aoto is ahead on how little of the area is in the flood projection and how easy the shopping is. ",
+      "note": "About 1 km from Keisei-Tateishi in a straight line. Both have the Keisei Oshiage Line. Aoto also has the Keisei Main Line and Narita Sky Access Line, which Keisei-Tateishi does not. Journey times to the main business districts are much the same. On how easy the shopping is, Aoto comes out ahead. Within about 13 minutes' walk, Aoto has 9 supermarkets (ジュピター and リブレ京成 and others) and Keisei-Tateishi has 4."
     },
     {
       "slug": "ohanajaya",
       "lead": "For how easy the shopping is, Ohanajaya; for how close the centre is, Keisei-Tateishi. ",
-      "note": "About 1.5 km from Keisei-Tateishi in a straight line. Ohanajaya has the Keisei Main Line, a different set from Keisei-Tateishi. To Toranomon, for instance, Ohanajaya takes 3 minutes longer. On how easy the shopping is, Ohanajaya comes out ahead."
+      "note": "About 1.5 km from Keisei-Tateishi in a straight line. Keisei-Tateishi adds the Keisei Oshiage Line; Ohanajaya adds the Keisei Main Line. Keisei-Tateishi is at least 7 minutes quicker to Toranomon and Shinagawa. On how easy the shopping is, though, Ohanajaya comes out ahead. Within about 13 minutes' walk, Ohanajaya has 9 supermarkets (まいばすけっと and あきたや and others) and Keisei-Tateishi has 4."
     }
   ],
   "goodFor": [
@@ -88,9 +88,9 @@
     "groceries": "There are 4 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Keisei Oshiage Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

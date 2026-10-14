@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Kanda",
   "tagline": "Tokyo in 3 minutes and Otemachi in 9 minutes. Served by 4 lines. A one-room flat rents for roughly ¥140,000 to ¥150,000.",
-  "summary": "The station is in Chiyoda City, where JR East and Tokyo Metro run 4 lines between them. Journey times to the main business districts are 9 minutes to Otemachi, 13 minutes to Shinjuku, 22 minutes to Shibuya and 17 minutes to Shinagawa. A one-room flat rents for roughly ¥140,000 to ¥150,000. The station stands 4.6 m above sea level, and the ground within 800 m varies in height by 2.1 m. The land around the station is close to level.",
+  "summary": "The station is in Chiyoda City, where JR East and Tokyo Metro run 4 lines between them. Journey times to the main business districts are 9 minutes to Otemachi, 13 minutes to Shinjuku, 25 minutes to Shibuya and 17 minutes to Shinagawa. A one-room flat rents for roughly ¥140,000 to ¥150,000. The station stands 4.6 m above sea level, and the ground within 800 m varies in height by 2.1 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 4.6 m above sea level. Within 800 m the ground ranges from 3.8 m to 5.9 m, a difference of 2.1 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥140,000 to ¥150,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. In plain yen, though, it is on the high side for the 23 wards.",
+  "rentReason": "A one-room flat here goes for ¥140,000 to ¥150,000. Set against how long it takes to reach the central business districts, that is on the low side. In plain yen, though, it is on the high side for the 23 wards.",
   "neighbours": [
     {
       "slug": "awajicho",
-      "lead": "Kanda is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Kanda. Awajicho has only the Tokyo Metro Marunouchi Line and Toei Shinjuku Line, so Kanda is the better connected. To Shinagawa, for instance, Awajicho takes 11 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "Kanda is ahead on how close the centre is, and little else separates the two. ",
+      "note": "Close enough to walk to from Kanda. Kanda adds the 4 lines; Awajicho adds the Tokyo Metro Marunouchi Line and Toei Shinjuku Line. Kanda is at least 9 minutes quicker to Tokyo and Toranomon. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "mitsukoshimae",
-      "lead": "For how close the centre is, Mitsukoshimae; for rail connections, Kanda. ",
-      "note": "Close enough to walk to from Kanda. Mitsukoshimae has only the JR Sobu Main Line, Tokyo Metro Ginza Line and Tokyo Metro Hanzomon Line, so Kanda is the better connected. To Otemachi, for instance, Mitsukoshimae is 7 minutes quicker. On safety, though, Mitsukoshimae comes out ahead."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Kanda. Both have the Tokyo Metro Ginza Line. Kanda adds the JR Yamanote Line, JR Chuo Rapid Line and JR Keihin-Tohoku Line; Mitsukoshimae adds the JR Sobu Main Line and Tokyo Metro Hanzomon Line. Which is faster depends on where you are going: Kanda is 6 minutes quicker to Shinjuku, Mitsukoshimae is 7 minutes quicker to Otemachi. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -81,20 +81,20 @@
   ],
   "tags": [
     "majorHub",
-    "goodValue",
     "fastToCenter",
     "manyLines",
     "singleFriendly",
-    "shoppingEasy"
+    "shoppingEasy",
+    "diningRich"
   ],
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
     "groceries": "There are 13 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "4 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
-    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
   },
   "authoredBy": "data-generated"

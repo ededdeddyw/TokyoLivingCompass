@@ -2,8 +2,8 @@
   "slug": "minami-senju",
   "locale": "en",
   "name": "Minami-Senju",
-  "tagline": "Tokyo in 17 minutes and Otemachi in 23 minutes. Served by 3 lines. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Arakawa City, where JR East, Tokyo Metro and Tsukuba Express run 3 lines between them. Journey times to the main business districts are 23 minutes to Otemachi, 30 minutes to Shinjuku, 40 minutes to Shibuya and 31 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 1.1 m above sea level, and the ground within 800 m varies in height by 1.5 m. The land around the station is close to level.",
+  "tagline": "Tokyo in 17 minutes and Otemachi in 24 minutes. Served by 3 lines. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
+  "summary": "The station is in Arakawa City, where JR East, Tokyo Metro and Tsukuba Express run 3 lines between them. Journey times to the main business districts are 24 minutes to Otemachi, 33 minutes to Shinjuku, 43 minutes to Shibuya and 31 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 1.1 m above sea level, and the ground within 800 m varies in height by 1.5 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 1.1 m above sea level. Within 800 m the ground ranges from 0.7 m to 2.2 m, a difference of 1.5 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "minowabashi",
-      "lead": "Minami-Senju is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Minami-Senju. Minowabashi has only the Tokyo Sakura Tram (Toden Arakawa Line), so Minami-Senju is the better connected. To Tokyo, for instance, Minowabashi takes 21 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "For safety, Minowabashi; for how close the centre is, Minami-Senju. ",
+      "note": "Close enough to walk to from Minami-Senju. Minami-Senju adds the JR Joban Line, Tokyo Metro Hibiya Line and Tsukuba Express; Minowabashi adds the Tokyo Sakura Tram (Toden Arakawa Line). Minami-Senju is at least 21 minutes quicker to Tokyo and Shinagawa. On safety, though, Minowabashi comes out ahead."
     },
     {
       "slug": "minowa",
-      "lead": "For safety, Minowa; for rail connections, Minami-Senju. ",
-      "note": "Close enough to walk to from Minami-Senju. Minowa has only the Tokyo Metro Hibiya Line, so Minami-Senju is the better connected. To Shinjuku, for instance, Minowa takes 3 minutes longer. A one-room flat also costs about ¥8,000 more at Minowa. On safety, though, Minowa comes out ahead."
+      "lead": "For the number of medical facilities, Minowa; for lower rent, Minami-Senju. ",
+      "note": "Close enough to walk to from Minami-Senju. Both have the Tokyo Metro Hibiya Line. Minami-Senju also has the JR Joban Line and Tsukuba Express, which Minowa does not. Journey times to the main business districts are much the same. A one-room flat costs about ¥8,000 more at Minowa. On quiet, Minami-Senju comes out ahead."
     }
   ],
   "goodFor": [
@@ -90,7 +90,7 @@
     "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are some of the most heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

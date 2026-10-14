@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Uguisudani",
   "tagline": "Tokyo in 11 minutes and Otemachi in 17 minutes. Served by 2 lines. A one-room flat rents for roughly ¥110,000 to ¥120,000.",
-  "summary": "The station is in Taito City, where JR East run 2 lines between them. Journey times to the main business districts are 17 minutes to Otemachi, 25 minutes to Shinjuku, 34 minutes to Shibuya and 25 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 8.8 m above sea level, and the ground within 800 m varies in height by 16.9 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Taito City, where JR East run 2 lines between them. Journey times to the main business districts are 17 minutes to Otemachi, 25 minutes to Shinjuku, 37 minutes to Shibuya and 25 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 8.8 m above sea level, and the ground within 800 m varies in height by 16.9 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 8.8 m above sea level. Within 800 m the ground ranges from 2.8 m to 19.7 m, a difference of 16.9 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "iriya",
-      "lead": "Uguisudani is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Uguisudani. Iriya has only the Tokyo Metro Hibiya Line, so Uguisudani is the better connected. To Shinjuku, for instance, Iriya takes 5 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "Uguisudani is ahead on how close the centre is and how little of the area is in the flood projection. ",
+      "note": "Close enough to walk to from Uguisudani. Uguisudani adds the JR Yamanote Line and JR Keihin-Tohoku Line; Iriya adds the Tokyo Metro Hibiya Line. Uguisudani is at least 5 minutes quicker to Shinjuku and Shinagawa. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "ueno",
-      "lead": "Ueno is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Uguisudani. Ueno has 6 lines that Uguisudani does not. With more lines, Ueno is the better connected of the two. To Tokyo, for instance, Ueno is 6 minutes quicker. Rents, flood projections and the rest differ little."
+      "lead": "For how close the centre is, Ueno; for safety, Uguisudani. ",
+      "note": "Close enough to walk to from Uguisudani. Both have the JR Yamanote Line and JR Keihin-Tohoku Line. Ueno also has the 6 lines, which Uguisudani does not. Ueno is at least 6 minutes quicker to Shibuya and Tokyo. On safety, though, Uguisudani comes out ahead."
     }
   ],
   "goodFor": [
@@ -76,7 +76,7 @@
     "言問通り (1 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
-    "goodValue",
+    "singleFriendly",
     "shoppingEasy",
     "lateNight",
     "medicalRich"
@@ -88,7 +88,7 @@
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

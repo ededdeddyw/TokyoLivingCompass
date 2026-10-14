@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Sendagaya",
   "tagline": "Shinjuku in 4 minutes and Shibuya in 14 minutes. Served by 1 line. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
-  "summary": "The station is in Shibuya City, where JR East run 1 line between them. Journey times to the main business districts are 22 minutes to Otemachi, 4 minutes to Shinjuku, 14 minutes to Shibuya and 35 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 32.7 m above sea level, and the ground within 800 m varies in height by 11.4 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shibuya City, where JR East run 1 line between them. Journey times to the main business districts are 22 minutes to Otemachi, 4 minutes to Shinjuku, 14 minutes to Shibuya and 29 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 32.7 m above sea level, and the ground within 800 m varies in height by 11.4 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 32.7 m above sea level. Within 800 m the ground ranges from 22.9 m to 34.3 m, a difference of 11.4 m."
@@ -49,13 +49,13 @@
   "neighbours": [
     {
       "slug": "kokuritsu-kyogijo",
-      "lead": "Kokuritsu-Kyogijo is ahead on how close the centre is, and little else separates the two. ",
-      "note": "Close enough to walk to from Sendagaya. Kokuritsu-Kyogijo has the Toei Oedo Line, a different set from Sendagaya. To Roppongi, for instance, Kokuritsu-Kyogijo is 11 minutes quicker. Rents, flood projections and the rest differ little."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Sendagaya. Sendagaya adds the JR Chuo-Sobu Line (Local); Kokuritsu-Kyogijo adds the Toei Oedo Line. Which is faster depends on where you are going: Sendagaya is 5 minutes quicker to Tokyo, Kokuritsu-Kyogijo is 11 minutes quicker to Roppongi. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "kita-sando",
-      "lead": "For how close the centre is, Kita-Sando; for lower rent, Sendagaya. ",
-      "note": "Close enough to walk to from Sendagaya. Kita-Sando has the Tokyo Metro Fukutoshin Line, a different set from Sendagaya. To Shibuya, for instance, Kita-Sando is 9 minutes quicker. A one-room flat costs about ¥20,000 more at Kita-Sando. On safety, Sendagaya comes out ahead."
+      "lead": "For the number of places to eat out, Kita-Sando; for lower rent, Sendagaya. ",
+      "note": "Close enough to walk to from Sendagaya. Sendagaya adds the JR Chuo-Sobu Line (Local); Kita-Sando adds the Tokyo Metro Fukutoshin Line. Which is faster depends on where you are going: Sendagaya is 8 minutes quicker to Roppongi, Kita-Sando is 9 minutes quicker to Shibuya. A one-room flat costs about ¥20,000 more at Kita-Sando. On safety, Sendagaya comes out ahead."
     }
   ],
   "goodFor": [
@@ -71,7 +71,6 @@
     "四谷角筈線 (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
-    "pricey",
     "lowFlood",
     "fastToCenter",
     "singleLine"
@@ -83,7 +82,7 @@
     "stationNote": "Only the JR Chuo-Sobu Line (Local) serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Shimbamba",
   "tagline": "Shinagawa in 3 minutes and Tokyo in 18 minutes. Served by 1 line. A one-room flat rents for roughly ¥110,000 to ¥120,000.",
-  "summary": "The station is in Shinagawa City, where Keikyu run 1 line between them. Journey times to the main business districts are 24 minutes to Otemachi, 34 minutes to Shinjuku, 29 minutes to Shibuya and 3 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 3.7 m above sea level, and the ground within 800 m varies in height by 12.1 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shinagawa City, where Keikyu run 1 line between them. Journey times to the main business districts are 25 minutes to Otemachi, 32 minutes to Shinjuku, 24 minutes to Shibuya and 3 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 3.7 m above sea level, and the ground within 800 m varies in height by 12.1 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 3.7 m above sea level. Within 800 m the ground ranges from 2.1 m to 14.2 m, a difference of 12.1 m."
@@ -42,12 +42,12 @@
   "neighbours": [
     {
       "slug": "kitashinagawa",
-      "lead": "Shimbamba is ahead on lower rent and safety. ",
+      "lead": "Shimbamba is ahead on lower rent and what it offers families. ",
       "note": "Close enough to walk to from Shimbamba. It is served by the same lines as Shimbamba. Journey times to the main business districts are much the same. A one-room flat costs about ¥28,000 more at Kitashinagawa. On what it offers families, Shimbamba comes out ahead."
     },
     {
       "slug": "aomono-yokocho",
-      "lead": "For how easy the shopping is, Aomono-Yokocho; for safety, Shimbamba. ",
+      "lead": "For how easy the shopping is, Aomono-Yokocho; for what it offers families, Shimbamba. ",
       "note": "Close enough to walk to from Shimbamba. It is served by the same lines as Shimbamba. Journey times to the main business districts are much the same. On what it offers families, Shimbamba comes out ahead."
     }
   ],
@@ -60,8 +60,8 @@
     "People who want to finish their shopping on foot"
   ],
   "noiseSources": [
-    "The 首都高速中央環状線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
-    "第一京浜 (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
+    "第一京浜 (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road",
+    "山手通り (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "goodValue",

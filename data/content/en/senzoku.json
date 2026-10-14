@@ -2,8 +2,8 @@
   "slug": "senzoku",
   "locale": "en",
   "name": "Senzoku",
-  "tagline": "Shibuya in 21 minutes and Roppongi in 28 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Meguro City, served by Tokyu Meguro Line. Journey times to the main business districts are 32 minutes to Otemachi, 29 minutes to Shinjuku, 21 minutes to Shibuya and 29 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 35.1 m above sea level, and the ground within 800 m varies in height by 9.9 m. The land around the station has gentle slopes.",
+  "tagline": "Shibuya in 21 minutes and Shinagawa in 21 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
+  "summary": "The station is in Meguro City, served by Tokyu Meguro Line. Journey times to the main business districts are 28 minutes to Otemachi, 29 minutes to Shinjuku, 21 minutes to Shibuya and 21 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 35.1 m above sea level, and the ground within 800 m varies in height by 9.9 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 35.1 m above sea level. Within 800 m the ground ranges from 27.9 m to 37.8 m, a difference of 9.9 m."
@@ -52,12 +52,12 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. a small projected flood depth and schools and parks within walking distance pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is on the low side. a small projected flood depth and schools and parks within walking distance pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "kita-senzoku",
-      "lead": "For how close the centre is, Kita-Senzoku; for how easy the shopping is, Senzoku. ",
-      "note": "Close enough to walk to from Senzoku. Kita-Senzoku has the Tokyu Oimachi Line, a different set from Senzoku. To Shinagawa, for instance, Kita-Senzoku is 9 minutes quicker. On the number of medical facilities, Kita-Senzoku comes out ahead."
+      "lead": "For the number of medical facilities, Kita-Senzoku; for how close the centre is, Senzoku. ",
+      "note": "Close enough to walk to from Senzoku. Senzoku adds the Tokyu Meguro Line; Kita-Senzoku adds the Tokyu Oimachi Line. Senzoku is at least 8 minutes quicker to Roppongi and Otemachi. On the number of medical facilities, though, Kita-Senzoku comes out ahead. Within about 13 minutes' walk, Kita-Senzoku has 34 clinics and pharmacies and Senzoku has 14."
     },
     {
       "slug": "nishi-koyama",
@@ -87,7 +87,7 @@
     "groceries": "There are 12 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
     "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "Only the Tokyu Meguro Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."

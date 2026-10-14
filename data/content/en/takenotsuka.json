@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Takenotsuka",
   "tagline": "Tokyo in 38 minutes and Otemachi in 40 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Adachi City, served by Tobu Skytree Line. Journey times to the main business districts are 40 minutes to Otemachi, 51 minutes to Shinjuku, 61 minutes to Shibuya and 52 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 2.5 m above sea level, and the ground within 800 m varies in height by 1.0 m. The land around the station is close to level.",
+  "summary": "The station is in Adachi City, served by Tobu Skytree Line. Journey times to the main business districts are 40 minutes to Otemachi, 52 minutes to Shinjuku, 62 minutes to Shibuya and 54 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 2.5 m above sea level, and the ground within 800 m varies in height by 1.0 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 2.5 m above sea level. Within 800 m the ground ranges from 2.5 m to 3.5 m, a difference of 1.0 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. In plain yen, though, it is on the low side for the 23 wards. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is on the high side. In plain yen, though, it is on the low side for the 23 wards. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "toneri-koen",
-      "lead": "For safety, Toneri-Koen; for how close the centre is, Takenotsuka. ",
-      "note": "About 2 km from Takenotsuka in a straight line. Toneri-Koen has the Nippori-Toneri Liner, a different set from Takenotsuka. To Tokyo, for instance, Toneri-Koen takes 5 minutes longer. On how easy the shopping is, Takenotsuka comes out ahead."
+      "lead": "For safety, Toneri-Koen; for the number of medical facilities, Takenotsuka. ",
+      "note": "About 2 km from Takenotsuka in a straight line. Takenotsuka adds the Tobu Skytree Line; Toneri-Koen adds the Nippori-Toneri Liner. Takenotsuka is 5 minutes quicker to Tokyo, but times to the other main business districts are much the same. On how easy the shopping is, Takenotsuka comes out ahead. Within about 13 minutes' walk, Takenotsuka has 11 supermarkets (ピーコックストア and 西友 and others) and Toneri-Koen has 0."
     },
     {
       "slug": "nishiarai",
-      "lead": "For rail connections, Nishiarai; for the number of medical facilities, Takenotsuka. ",
-      "note": "About 2 km from Takenotsuka in a straight line. Nishiarai also has the Tobu Daishi Line, which Takenotsuka does not. With more lines, Nishiarai is the better connected of the two. To Toranomon, for instance, Nishiarai is 4 minutes quicker. On the number of medical facilities, though, Takenotsuka comes out ahead."
+      "lead": "Takenotsuka is ahead on the number of medical facilities, and little else separates the two. ",
+      "note": "About 2 km from Takenotsuka in a straight line. Both have the Tobu Skytree Line. Nishiarai also has the Tobu Daishi Line, which Takenotsuka does not. Journey times to the main business districts are much the same. On the number of medical facilities, Takenotsuka comes out ahead. Within about 13 minutes' walk, Takenotsuka has 27 clinics and pharmacies and Nishiarai has 12."
     }
   ],
   "goodFor": [
@@ -88,7 +88,7 @@
     "groceries": "There are 11 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tobu Skytree Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."

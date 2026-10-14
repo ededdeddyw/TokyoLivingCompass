@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Kosuge",
   "tagline": "Tokyo in 27 minutes and Otemachi in 29 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Adachi City, served by Tobu Skytree Line. Journey times to the main business districts are 29 minutes to Otemachi, 41 minutes to Shinjuku, 51 minutes to Shibuya and 41 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 1.8 m above sea level, and the ground within 800 m varies in height by 4.1 m. The land around the station is close to level.",
+  "summary": "The station is in Adachi City, served by Tobu Skytree Line. Journey times to the main business districts are 29 minutes to Otemachi, 41 minutes to Shinjuku, 52 minutes to Shibuya and 43 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 1.8 m above sea level, and the ground within 800 m varies in height by 4.1 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 1.8 m above sea level. Within 800 m the ground ranges from -0.9 m to 3.2 m, a difference of 4.1 m."
@@ -31,17 +31,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is on the low side. schools and parks within walking distance and quiet surroundings pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down.",
+  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. schools and parks within walking distance and quiet surroundings pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down.",
   "neighbours": [
     {
       "slug": "gotanno",
       "lead": "For lower rent, Gotanno; for how little of the area is in the flood projection, Kosuge. ",
-      "note": "Close enough to walk to from Kosuge. It is served by the same lines as Kosuge. Journey times to the main business districts are much the same. A one-room flat costs about ¥8,000 less at Gotanno. On the number of places to eat out, Gotanno comes out ahead."
+      "note": "Close enough to walk to from Kosuge. It is served by the same lines as Kosuge. Journey times to the main business districts are much the same. A one-room flat costs about ¥8,000 less at Gotanno. On the number of places to eat out, Gotanno comes out ahead. Within about 13 minutes' walk, Gotanno has 36 restaurants and Kosuge has 15."
     },
     {
       "slug": "ayase",
-      "lead": "For rail connections, Ayase; for how little of the area is in the flood projection, Kosuge. ",
-      "note": "About 1 km from Kosuge in a straight line. Ayase also has the JR Joban Line and Tokyo Metro Chiyoda Line, which Kosuge does not. With more lines, Ayase is the better connected of the two. To Shinjuku, for instance, Ayase is 3 minutes quicker. On safety, though, Kosuge comes out ahead."
+      "lead": "For the number of medical facilities, Ayase; for how little of the area is in the flood projection, Kosuge. ",
+      "note": "About 1 km from Kosuge in a straight line. Kosuge adds the Tobu Skytree Line; Ayase adds the JR Joban Line and Tokyo Metro Chiyoda Line. Journey times to the main business districts are much the same. On how easy the shopping is, Ayase comes out ahead. Within about 13 minutes' walk, Ayase has 14 supermarkets (東急ストア and イトーヨーカドー and others) and Kosuge has 1."
     }
   ],
   "goodFor": [
@@ -70,9 +70,9 @@
     "groceries": "There are 1 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tobu Skytree Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
+    "congestion": "This station sits on the busiest stretch of the Tobu Skytree Line, but at 142% passengers are not shoulder to shoulder. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

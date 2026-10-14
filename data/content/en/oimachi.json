@@ -3,9 +3,9 @@
   "locale": "en",
   "name": "Oimachi",
   "tagline": "Three lines, six minutes to Shinagawa and nineteen to Tokyo, and the shopping is done in the station buildings and the large supermarket. In exchange, the streets by the station stay busy late.",
-  "summary": "The JR Keihin-Tohoku Line, the Tokyu Oimachi Line and the Rinkai Line all serve the station: Shinagawa is 6 minutes, Tokyo 19, and Shibuya 16 changing at Osaki. Atre Oimachi and Hankyu Oimachi Garden connect directly to the station and there is an Ito-Yokado as well, so shopping and eating are finished right there. With three lines, one stopping still leaves a way round. In exchange, the old drinking streets by the station remain, and people are about until late.",
+  "summary": "The JR Keihin-Tohoku Line, the Tokyu Oimachi Line and the Rinkai Line all serve the station: Shinagawa is 5 minutes, Tokyo 19, and Shibuya 13 (direct on Rinkai Line trains that run through onto the Saikyo Line). Atre Oimachi and Hankyu Oimachi Garden connect directly to the station and there is an Ito-Yokado as well, so shopping and eating are finished right there. With three lines, one stopping still leaves a way round. In exchange, the old drinking streets by the station remain, and people are about until late.",
   "faces": {
-    "morning": "The Keihin-Tohoku Line arrives from the Omiya direction, so a seat at Oimachi essentially does not happen. Shinagawa being only 6 minutes away, the flow towards the station does not break between seven and nine. The Rinkai and Oimachi Lines are less crowded than that.",
+    "morning": "The Keihin-Tohoku Line arrives from the Omiya direction, so a seat at Oimachi essentially does not happen. Shinagawa being only 5 minutes away, the flow towards the station does not break between seven and nine. The Rinkai and Oimachi Lines are less crowded than that.",
     "daytime": "Shoppers gather at the station buildings and the shopping centres, and there are people about on weekday afternoons. One street out into the residential blocks it goes quiet, and the contrast with the station front is sharp.",
     "night": "The drinking streets, Higashi-Koji among them, trade past 23:00, and the seats fill with people stopping for a drink on the way home. The station front is lit into the small hours, though the scale is not that of a real entertainment district.",
     "weekend": "Shoppers make the area around the station buildings busy. It is not a place people visit as tourists, so the visitors are mainly residents of Shinagawa and Ota Cities."
@@ -105,7 +105,7 @@
   "hazards": "On the national hazard map, for the flood scenario based on the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of under 0.5 m. Two of the nine points within 400 m also fall inside it, all with projections under 0.5 m. Neither the station nor any of the nine points falls inside the storm surge or tsunami projections. The ground rises towards Zaimusu-zaka on the west side and is flat towards the sea on the east. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
   "stationNote": "The JR, Tokyu and Rinkai Line gates are all some way apart, and changing between them means several minutes' walk. The Rinkai Line in particular is deep underground and takes time to reach street level. Three lines is a real advantage, but allow for the distance between them.",
   "nightWalk": "The station front and the area around the shopping centres are lit into the small hours and the foot traffic does not stop. If your way home goes through the drinking streets, there are hours when you will pass people who have been drinking. One street back, the residential blocks have lamps and nothing feels unusually dark.",
-  "rentReason": "For somewhere 6 minutes from Shinagawa and 19 from Tokyo, rent is clearly lower than at Shinagawa or Osaki. The reasons are that the drinking streets by the station make it hard to call this a settled residential area, that the east side is low ground inside the projected flood area, and that the name is not widely known. Rent held down against this level of convenience is the reason to choose the place.",
+  "rentReason": "For somewhere 5 minutes from Shinagawa and 19 from Tokyo, rent is clearly lower than at Shinagawa or Osaki. The reasons are that the drinking streets by the station make it hard to call this a settled residential area, that the east side is low ground inside the projected flood area, and that the name is not widely known. Rent held down against this level of convenience is the reason to choose the place.",
   "rentRange": {
     "note": "Newer blocks near the station and older buildings along the tracks or near the drinking streets differ a great deal in rent. Even within the same ten-minute walk of Oimachi, the residential streets up Zaimusu-zaka and the commercial blocks by the station are completely different to live in.",
     "drivers": [
@@ -153,13 +153,13 @@
   "neighbours": [
     {
       "slug": "samezu",
-      "lead": "Oimachi is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Oimachi. Samezu has only the Keikyu Main Line, so Oimachi is the better connected. To Shinjuku, for instance, Samezu takes 16 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "Oimachi is ahead on how close the centre is and how little of the area is in the flood projection. ",
+      "note": "Close enough to walk to from Oimachi. Oimachi adds the JR Keihin-Tohoku Line, Tokyu Oimachi Line and Rinkai Line; Samezu adds the Keikyu Main Line. Oimachi is at least 14 minutes quicker to Shinjuku and Shibuya. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "aomono-yokocho",
-      "lead": "Oimachi is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Oimachi. Aomono-Yokocho has only the Keikyu Main Line, so Oimachi is the better connected. To Shinjuku, for instance, Aomono-Yokocho takes 15 minutes longer. A one-room flat also costs about ¥8,000 more at Aomono-Yokocho."
+      "lead": "Oimachi is ahead on how close the centre is and lower rent. ",
+      "note": "Close enough to walk to from Oimachi. Oimachi adds the JR Keihin-Tohoku Line, Tokyu Oimachi Line and Rinkai Line; Aomono-Yokocho adds the Keikyu Main Line. Oimachi is at least 13 minutes quicker to Shinjuku and Shibuya. A one-room flat also costs about ¥8,000 more at Aomono-Yokocho."
     }
   ],
   "tags": [
@@ -177,7 +177,7 @@
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
     "exits": "Leave by the central gate and your shopping is done; the east exit is the bar street, and the west exit is the way into the residential streets. There are five sets of gates, so which one you use depends on which way you travel.",
     "noiseSources": "At this station, check the traffic noise before the noise people make: 鮫洲大山線 runs 32 m away.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. "
+    "congestion": "Morning trains are very crowded: this station sits on the busiest stretch of the JR Keihin-Tohoku Line. "
   },
   "congestion": "JR Keihin-Tohoku Line runs at 159% of capacity in the morning peak. The busiest stretch of the line is 大井町→品川, which includes this station. Tokyu Oimachi Line runs at 118% of capacity in the morning peak. The busiest stretch is 九品仏→自由が丘, which this station is not on. Rinkai Line runs at 118% of capacity in the morning peak. The busiest stretch of the line is 大井町→品川シーサイド, which includes this station. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier."
 }

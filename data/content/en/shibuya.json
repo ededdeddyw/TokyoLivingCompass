@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Shibuya",
   "tagline": "Shibuya in 1 minute and Shinjuku in 5 minutes. Served by 10 lines. A one-room flat rents for roughly ¥150,000 to ¥160,000.",
-  "summary": "The station is in Shibuya City, where JR East, Keio, Tokyu and Tokyo Metro run 10 lines between them. Journey times to the main business districts are 19 minutes to Otemachi, 5 minutes to Shinjuku, 1 minute to Shibuya and 21 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 15.1 m above sea level, and the ground within 800 m varies in height by 20.7 m. The land around the station rises and falls sharply.",
+  "summary": "The station is in Shibuya City, where JR East, Keio, Tokyu and Tokyo Metro run 10 lines between them. Journey times to the main business districts are 19 minutes to Otemachi, 5 minutes to Shinjuku, 1 minute to Shibuya and 16 minutes to Shinagawa. A one-room flat rents for roughly ¥150,000 to ¥160,000. The station stands 15.1 m above sea level, and the ground within 800 m varies in height by 20.7 m. The land around the station rises and falls sharply.",
   "terrain": {
     "slope": "hilly",
     "note": "The station sits lower than the ground around it, at 15.1 m above sea level. Within 800 m the ground ranges from 10.6 m to 31.3 m, a difference of 20.7 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "shinsen",
-      "lead": "For quiet, Shinsen; for rail connections, Shibuya. ",
-      "note": "Close enough to walk to from Shibuya. Shinsen has only the Keio Inokashira Line, so Shibuya is the better connected. To Toranomon, for instance, Shinsen takes 7 minutes longer. On quiet, though, Shinsen comes out ahead."
+      "lead": "For quiet, Shinsen; for how close the centre is, Shibuya. ",
+      "note": "Close enough to walk to from Shibuya. Both have the Keio Inokashira Line. Shibuya also has the 9 lines, which Shinsen does not. Shibuya is at least 7 minutes quicker to Toranomon and Tokyo. On quiet, though, Shinsen comes out ahead."
     },
     {
       "slug": "meiji-jingumae",
-      "lead": "For quiet, Meiji-Jingumae; for rail connections, Shibuya. ",
-      "note": "About 1 km from Shibuya in a straight line. Meiji-Jingumae has only the JR Yamanote Line, Tokyo Metro Chiyoda Line and Tokyo Metro Fukutoshin Line, so Shibuya is the better connected. To Shinagawa, for instance, Meiji-Jingumae takes 8 minutes longer. On quiet, though, Meiji-Jingumae comes out ahead."
+      "lead": "For safety, Meiji-Jingumae; for the number of medical facilities, Shibuya. ",
+      "note": "About 1 km from Shibuya in a straight line. Both have the JR Yamanote Line and Tokyo Metro Fukutoshin Line. Shibuya adds the 8 lines; Meiji-Jingumae adds the Tokyo Metro Chiyoda Line. Journey times to the main business districts are much the same. On how easy the shopping is, Shibuya comes out ahead. Within about 13 minutes' walk, Shibuya has 10 supermarkets (フレッシュ大和田 and 東急ストア and others) and Meiji-Jingumae has 1."
     }
   ],
   "goodFor": [
@@ -93,7 +93,7 @@
     "stationNote": "10 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are some of the most heavily loaded in the morning. ",
+    "congestion": "This station sits on the busiest stretch of the Tokyu Den-en-toshi Line, but at 138% passengers are not shoulder to shoulder. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

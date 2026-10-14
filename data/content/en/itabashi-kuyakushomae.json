@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Itabashi-Kuyakushomae",
   "tagline": "Otemachi in 22 minutes and Tokyo in 28 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Itabashi City, served by Toei Mita Line. Journey times to the main business districts are 22 minutes to Otemachi, 30 minutes to Shinjuku, 36 minutes to Shibuya and 42 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 28.5 m above sea level, and the ground within 800 m varies in height by 11.5 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Itabashi City, served by Toei Mita Line. Journey times to the main business districts are 22 minutes to Otemachi, 30 minutes to Shinjuku, 39 minutes to Shibuya and 42 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 28.5 m above sea level, and the ground within 800 m varies in height by 11.5 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 28.5 m above sea level. Within 800 m the ground ranges from 19.4 m to 30.9 m, a difference of 11.5 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is on the low side. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "shimo-itabashi",
-      "lead": "For how close the centre is, Shimo-Itabashi; for lower rent, Itabashi-Kuyakushomae. ",
-      "note": "Close enough to walk to from Itabashi-Kuyakushomae. Shimo-Itabashi has the Tobu Tojo Line, a different set from Itabashi-Kuyakushomae. To Shibuya, for instance, Shimo-Itabashi is 15 minutes quicker. A one-room flat costs about ¥12,000 more at Shimo-Itabashi. On quiet, Shimo-Itabashi comes out ahead."
+      "lead": "For quiet, Shimo-Itabashi; for lower rent, Itabashi-Kuyakushomae. ",
+      "note": "Close enough to walk to from Itabashi-Kuyakushomae. Itabashi-Kuyakushomae adds the Toei Mita Line; Shimo-Itabashi adds the Tobu Tojo Line. Which is faster depends on where you are going: Itabashi-Kuyakushomae is 5 minutes quicker to Otemachi, Shimo-Itabashi is 18 minutes quicker to Shibuya. A one-room flat costs about ¥12,000 more at Shimo-Itabashi. On quiet, Shimo-Itabashi comes out ahead."
     },
     {
       "slug": "oyama",
-      "lead": "For how close the centre is, Oyama; for the number of places to eat out, Itabashi-Kuyakushomae. ",
-      "note": "Close enough to walk to from Itabashi-Kuyakushomae. Oyama has the Tobu Tojo Line, a different set from Itabashi-Kuyakushomae. To Shibuya, for instance, Oyama is 12 minutes quicker. On quiet, Oyama comes out ahead."
+      "lead": "For quiet, Oyama; for the number of places to eat out, Itabashi-Kuyakushomae. ",
+      "note": "Close enough to walk to from Itabashi-Kuyakushomae. Itabashi-Kuyakushomae adds the Toei Mita Line; Oyama adds the Tobu Tojo Line. Which is faster depends on where you are going: Itabashi-Kuyakushomae is 8 minutes quicker to Otemachi, Oyama is 15 minutes quicker to Shibuya. On quiet, Oyama comes out ahead."
     }
   ],
   "goodFor": [
@@ -87,7 +87,7 @@
     "groceries": "There are 11 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
     "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "Only the Toei Mita Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."

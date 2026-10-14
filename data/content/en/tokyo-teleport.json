@@ -2,8 +2,8 @@
   "slug": "tokyo-teleport",
   "locale": "en",
   "name": "Tokyo-Teleport",
-  "tagline": "Shinagawa in 22 minutes and Shibuya in 28 minutes. Served by 1 line.",
-  "summary": "The station is in Minato City, served by Rinkai Line. Journey times to the main business districts are 34 minutes to Otemachi, 33 minutes to Shinjuku, 28 minutes to Shibuya and 22 minutes to Shinagawa. The station stands 6 m above sea level, and the ground within 800 m varies in height by 2.8 m. The land around the station is close to level.",
+  "tagline": "Shinagawa in 22 minutes and Shibuya in 25 minutes. Served by 1 line.",
+  "summary": "The station is in Minato City, served by Rinkai Line. Journey times to the main business districts are 34 minutes to Otemachi, 31 minutes to Shinjuku, 25 minutes to Shibuya and 22 minutes to Shinagawa. The station stands 6 m above sea level, and the ground within 800 m varies in height by 2.8 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 6 m above sea level. Within 800 m the ground ranges from 4 m to 6.8 m, a difference of 2.8 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "odaiba-kaihinkoen",
-      "lead": "Odaiba-Kaihinkoen is ahead on how close the centre is, and little else separates the two. ",
-      "note": "Close enough to walk to from Tokyo-Teleport. Odaiba-Kaihinkoen has the Yurikamome, a different set from Tokyo-Teleport. To Toranomon, for instance, Odaiba-Kaihinkoen is 9 minutes quicker. Rents, flood projections and the rest differ little."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Tokyo-Teleport. Tokyo-Teleport adds the Rinkai Line; Odaiba-Kaihinkoen adds the Yurikamome. Which is faster depends on where you are going: Tokyo-Teleport is 11 minutes quicker to Shibuya, Odaiba-Kaihinkoen is 9 minutes quicker to Toranomon. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "aomi",
       "lead": "For quiet, Aomi; for how close the centre is, Tokyo-Teleport. ",
-      "note": "Close enough to walk to from Tokyo-Teleport. Aomi has the Yurikamome, a different set from Tokyo-Teleport. To Shibuya, for instance, Aomi takes 17 minutes longer. On quiet, Aomi comes out ahead."
+      "note": "Close enough to walk to from Tokyo-Teleport. Tokyo-Teleport adds the Rinkai Line; Aomi adds the Yurikamome. Tokyo-Teleport is at least 17 minutes quicker to Shibuya and Shinjuku. On quiet, though, Aomi comes out ahead."
     }
   ],
   "goodFor": [

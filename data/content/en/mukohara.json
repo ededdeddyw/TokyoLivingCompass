@@ -2,8 +2,8 @@
   "slug": "mukohara",
   "locale": "en",
   "name": "Mukohara",
-  "tagline": "Shinjuku in 23 minutes and Shibuya in 28 minutes. Served by 1 line. A one-room flat rents for roughly ¥100,000 to ¥110,000.",
-  "summary": "The station is in Toshima City, where the Tokyo Metropolitan Bureau of Transportation run 1 line between them. Journey times to the main business districts are 28 minutes to Otemachi, 23 minutes to Shinjuku, 28 minutes to Shibuya and 46 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 30.3 m above sea level, and the ground within 800 m varies in height by 12.6 m. The land around the station has gentle slopes.",
+  "tagline": "Shinjuku in 24 minutes and Otemachi in 28 minutes. Served by 1 line. A one-room flat rents for roughly ¥100,000 to ¥110,000.",
+  "summary": "The station is in Toshima City, where the Tokyo Metropolitan Bureau of Transportation run 1 line between them. Journey times to the main business districts are 28 minutes to Otemachi, 24 minutes to Shinjuku, 29 minutes to Shibuya and 48 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 30.3 m above sea level, and the ground within 800 m varies in height by 12.6 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 30.3 m above sea level. Within 800 m the ground ranges from 18.2 m to 30.8 m, a difference of 12.6 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "otsuka",
-      "lead": "Otsuka is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Mukohara. Otsuka also has the JR Yamanote Line, which Mukohara does not. With more lines, Otsuka is the better connected of the two. To Tokyo, for instance, Otsuka is 9 minutes quicker. Rents, flood projections and the rest differ little."
+      "lead": "Otsuka is ahead on how close the centre is and the number of places to eat out. ",
+      "note": "Close enough to walk to from Mukohara. Both have the Tokyo Sakura Tram (Toden Arakawa Line). Otsuka also has the JR Yamanote Line, which Mukohara does not. Otsuka is at least 9 minutes quicker to Tokyo and Shinjuku. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "shin-otsuka",
       "lead": "For how close the centre is, Shin-Otsuka; for the number of medical facilities, Mukohara. ",
-      "note": "Close enough to walk to from Mukohara. Shin-Otsuka has the Tokyo Metro Marunouchi Line, a different set from Mukohara. To Tokyo, for instance, Shin-Otsuka is 19 minutes quicker. On what it offers families, Shin-Otsuka comes out ahead."
+      "note": "Close enough to walk to from Mukohara. Mukohara adds the Tokyo Sakura Tram (Toden Arakawa Line); Shin-Otsuka adds the Tokyo Metro Marunouchi Line. Shin-Otsuka is at least 18 minutes quicker to Tokyo and Shinagawa. On the number of places to eat out, though, Mukohara comes out ahead. Within about 13 minutes' walk, Mukohara has 91 restaurants and Shin-Otsuka has 54."
     }
   ],
   "goodFor": [

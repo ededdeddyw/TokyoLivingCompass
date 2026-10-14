@@ -2,8 +2,8 @@
   "slug": "arakawa-yuenchimae",
   "locale": "en",
   "name": "Arakawa-Yuenchimae",
-  "tagline": "Otemachi in 36 minutes and Tokyo in 37 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Arakawa City, where the Tokyo Metropolitan Bureau of Transportation run 1 line between them. Journey times to the main business districts are 36 minutes to Otemachi, 43 minutes to Shinjuku, 48 minutes to Shibuya and 51 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 2.1 m above sea level, and the ground within 800 m varies in height by 3.3 m. The land around the station is close to level.",
+  "tagline": "Otemachi in 37 minutes and Tokyo in 38 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
+  "summary": "The station is in Arakawa City, where the Tokyo Metropolitan Bureau of Transportation run 1 line between them. Journey times to the main business districts are 37 minutes to Otemachi, 43 minutes to Shinjuku, 48 minutes to Shibuya and 53 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 2.1 m above sea level, and the ground within 800 m varies in height by 3.3 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 2.1 m above sea level. Within 800 m the ground ranges from 1.9 m to 5.2 m, a difference of 3.3 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "odai",
-      "lead": "For lower rent, Odai; for safety, Arakawa-Yuenchimae. ",
-      "note": "Close enough to walk to from Arakawa-Yuenchimae. It is served by the same lines as Arakawa-Yuenchimae. Journey times to the main business districts are much the same. A one-room flat costs about ¥5,000 less at Odai. On safety, Arakawa-Yuenchimae comes out ahead."
+      "lead": "Odai is ahead on lower rent, and little else separates the two. ",
+      "note": "Close enough to walk to from Arakawa-Yuenchimae. It is served by the same lines as Arakawa-Yuenchimae. Journey times to the main business districts are much the same. A one-room flat costs about ¥5,000 less at Odai."
     },
     {
       "slug": "arakawa-shakomae",
-      "lead": "For how close the centre is, Arakawa-Shakomae; for lower rent, Arakawa-Yuenchimae. ",
-      "note": "Close enough to walk to from Arakawa-Yuenchimae. It is served by the same lines as Arakawa-Yuenchimae. To Shinjuku, for instance, Arakawa-Shakomae is 3 minutes quicker. A one-room flat costs about ¥7,000 more at Arakawa-Shakomae. On quiet, Arakawa-Shakomae comes out ahead."
+      "lead": "For quiet, Arakawa-Shakomae; for lower rent, Arakawa-Yuenchimae. ",
+      "note": "Close enough to walk to from Arakawa-Yuenchimae. It is served by the same lines as Arakawa-Yuenchimae. Journey times to the main business districts are much the same. A one-room flat costs about ¥7,000 more at Arakawa-Shakomae. On quiet, Arakawa-Shakomae comes out ahead."
     }
   ],
   "goodFor": [

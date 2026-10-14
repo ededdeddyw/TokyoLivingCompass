@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥120,000 to ¥130,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. plenty of places to eat out pushes the figure up. On the other side, a large projected flood depth and only one line, the {line}, serving the station holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥120,000 to ¥130,000. Set against how long it takes to reach the central business districts, that is on the high side. plenty of places to eat out pushes the figure up. On the other side, a large projected flood depth and only one line, the {line}, serving the station holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "asakusa-tx",
-      "lead": "For lower rent, Asakusa (Tsukuba Express); for how close the centre is, Tawaramachi. ",
-      "note": "Close enough to walk to from Tawaramachi. Asakusa (Tsukuba Express) has the Tsukuba Express, a different set from Tawaramachi. To Shibuya, for instance, Asakusa (Tsukuba Express) takes 4 minutes longer. A one-room flat costs about ¥10,000 less at Asakusa (Tsukuba Express)."
+      "lead": "Asakusa (Tsukuba Express) is ahead on lower rent, and little else separates the two. ",
+      "note": "Close enough to walk to from Tawaramachi. Tawaramachi adds the Tokyo Metro Ginza Line; Asakusa (Tsukuba Express) adds the Tsukuba Express. Tawaramachi is 5 minutes quicker to Shibuya, but times to the other main business districts are much the same. A one-room flat costs about ¥10,000 less at Asakusa (Tsukuba Express)."
     },
     {
       "slug": "asakusa",
-      "lead": "For rail connections, Asakusa; for quiet, Tawaramachi. ",
-      "note": "Close enough to walk to from Tawaramachi. Asakusa also has the Tobu Skytree Line and Toei Asakusa Line, which Tawaramachi does not. With more lines, Asakusa is the better connected of the two. Journey times to the main business districts are much the same. A one-room flat also costs about ¥10,000 less at Asakusa. On quiet, though, Tawaramachi comes out ahead."
+      "lead": "For lower rent, Asakusa; for quiet, Tawaramachi. ",
+      "note": "Close enough to walk to from Tawaramachi. Both have the Tokyo Metro Ginza Line. Asakusa also has the Tobu Skytree Line and Toei Asakusa Line, which Tawaramachi does not. Journey times to the main business districts are much the same. A one-room flat costs about ¥10,000 less at Asakusa. On quiet, Tawaramachi comes out ahead."
     }
   ],
   "goodFor": [
@@ -90,9 +90,9 @@
     "groceries": "There are 14 supermarkets within walking distance, and the nearest is 6 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tokyo Metro Ginza Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

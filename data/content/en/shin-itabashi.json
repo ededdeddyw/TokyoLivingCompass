@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Shin-Itabashi",
   "tagline": "Otemachi in 20 minutes and Tokyo in 26 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Itabashi City, served by Toei Mita Line. Journey times to the main business districts are 20 minutes to Otemachi, 28 minutes to Shinjuku, 33 minutes to Shibuya and 40 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 28.8 m above sea level, and the ground within 800 m varies in height by 11.4 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Itabashi City, served by Toei Mita Line. Journey times to the main business districts are 20 minutes to Otemachi, 28 minutes to Shinjuku, 36 minutes to Shibuya and 40 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 28.8 m above sea level, and the ground within 800 m varies in height by 11.4 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 28.8 m above sea level. Within 800 m the ground ranges from 17.4 m to 28.8 m, a difference of 11.4 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "itabashi",
-      "lead": "For how close the centre is, Itabashi; for lower rent, Shin-Itabashi. ",
-      "note": "Close enough to walk to from Shin-Itabashi. Itabashi has the JR Saikyo Line, a different set from Shin-Itabashi. To Shinjuku, for instance, Itabashi is 17 minutes quicker. A one-room flat costs about ¥10,000 more at Itabashi. On quiet, Itabashi comes out ahead."
+      "lead": "For how easy the shopping is, Itabashi; for lower rent, Shin-Itabashi. ",
+      "note": "Close enough to walk to from Shin-Itabashi. Shin-Itabashi adds the Toei Mita Line; Itabashi adds the JR Saikyo Line. Which is faster depends on where you are going: Shin-Itabashi is 6 minutes quicker to Otemachi, Itabashi is 20 minutes quicker to Shibuya. A one-room flat costs about ¥10,000 more at Itabashi. On quiet, Itabashi comes out ahead."
     },
     {
       "slug": "shimo-itabashi",
-      "lead": "For how close the centre is, Shimo-Itabashi; for lower rent, Shin-Itabashi. ",
-      "note": "Close enough to walk to from Shin-Itabashi. Shimo-Itabashi has the Tobu Tojo Line, a different set from Shin-Itabashi. To Shinjuku, for instance, Shimo-Itabashi is 12 minutes quicker. A one-room flat costs about ¥11,000 more at Shimo-Itabashi. On quiet, Shimo-Itabashi comes out ahead."
+      "lead": "For quiet, Shimo-Itabashi; for lower rent, Shin-Itabashi. ",
+      "note": "Close enough to walk to from Shin-Itabashi. Shin-Itabashi adds the Toei Mita Line; Shimo-Itabashi adds the Tobu Tojo Line. Which is faster depends on where you are going: Shin-Itabashi is 7 minutes quicker to Otemachi, Shimo-Itabashi is 15 minutes quicker to Shibuya. A one-room flat costs about ¥11,000 more at Shimo-Itabashi. On quiet, Shimo-Itabashi comes out ahead."
     }
   ],
   "goodFor": [
@@ -79,7 +79,6 @@
     "中山道 (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
-    "goodValue",
     "lowFlood",
     "singleLine",
     "parkNear"

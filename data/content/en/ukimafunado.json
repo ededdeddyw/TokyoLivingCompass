@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Ukimafunado",
   "tagline": "Shinjuku in 23 minutes and Shibuya in 28 minutes. Served by 1 line. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Itabashi City, served by JR Saikyo Line. Journey times to the main business districts are 38 minutes to Otemachi, 23 minutes to Shinjuku, 28 minutes to Shibuya and 51 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 1.4 m above sea level, and the ground within 800 m varies in height by 1.6 m. The land around the station is close to level.",
+  "summary": "The station is in Itabashi City, served by JR Saikyo Line. Journey times to the main business districts are 38 minutes to Otemachi, 23 minutes to Shinjuku, 28 minutes to Shibuya and 45 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 1.4 m above sea level, and the ground within 800 m varies in height by 1.6 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 1.4 m above sea level. Within 800 m the ground ranges from 1.4 m to 3 m, a difference of 1.6 m."
@@ -57,12 +57,12 @@
     {
       "slug": "hasune",
       "lead": "For how easy the shopping is, Hasune; for how close the centre is, Ukimafunado. ",
-      "note": "About 1.5 km from Ukimafunado in a straight line. Hasune has the Toei Mita Line, a different set from Ukimafunado. To Shinjuku, for instance, Hasune takes 19 minutes longer. On safety, Ukimafunado comes out ahead."
+      "note": "About 1.5 km from Ukimafunado in a straight line. Ukimafunado adds the JR Saikyo Line; Hasune adds the Toei Mita Line. Ukimafunado is at least 19 minutes quicker to Shibuya and Shinjuku. On how easy the shopping is, though, Hasune comes out ahead. Within about 13 minutes' walk, Hasune has 9 supermarkets (スーパーみらべる and アコレ and others) and Ukimafunado has 4."
     },
     {
       "slug": "kita-akabane",
-      "lead": "Kita-Akabane is ahead on how close the centre is and the number of medical facilities. ",
-      "note": "About 1.5 km from Ukimafunado in a straight line. It is served by the same lines as Ukimafunado. To Tokyo, for instance, Kita-Akabane is 3 minutes quicker. On the number of medical facilities, Kita-Akabane comes out ahead."
+      "lead": "Kita-Akabane is ahead on the number of medical facilities, and little else separates the two. ",
+      "note": "About 1.5 km from Ukimafunado in a straight line. It is served by the same lines as Ukimafunado. Journey times to the main business districts are much the same. On the number of medical facilities, Kita-Akabane comes out ahead."
     }
   ],
   "goodFor": [
@@ -91,7 +91,7 @@
     "stationNote": "Only the JR Saikyo Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are some of the most heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

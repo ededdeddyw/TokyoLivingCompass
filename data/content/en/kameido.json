@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Kameido",
   "tagline": "Tokyo in 16 minutes and Otemachi in 21 minutes. Served by 2 lines. A one-room flat rents for roughly ¥100,000 to ¥110,000.",
-  "summary": "The station is in Koto City, where JR East and Tobu run 2 lines between them. Journey times to the main business districts are 21 minutes to Otemachi, 30 minutes to Shinjuku, 40 minutes to Shibuya and 31 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 0.1 m above sea level, and the ground within 800 m varies in height by 4.8 m. The land around the station is close to level.",
+  "summary": "The station is in Koto City, where JR East and Tobu run 2 lines between them. Journey times to the main business districts are 21 minutes to Otemachi, 30 minutes to Shinjuku, 40 minutes to Shibuya and 27 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 0.1 m above sea level, and the ground within 800 m varies in height by 4.8 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 0.1 m above sea level. Within 800 m the ground ranges from -1.5 m to 3.3 m, a difference of 4.8 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "kameidosuijin",
-      "lead": "For lower rent, Kameidosuijin; for rail connections, Kameido. ",
-      "note": "Close enough to walk to from Kameido. Kameidosuijin has only the Tobu Kameido Line, so Kameido is the better connected. To Toranomon, for instance, Kameidosuijin takes 7 minutes longer. A one-room flat, though, costs about ¥12,000 less at Kameidosuijin."
+      "lead": "For lower rent, Kameidosuijin; for how close the centre is, Kameido. ",
+      "note": "Close enough to walk to from Kameido. Both have the Tobu Kameido Line. Kameido also has the JR Chuo-Sobu Line (Local), which Kameidosuijin does not. Kameido is at least 7 minutes quicker to Toranomon and Tokyo. A one-room flat, though, costs about ¥12,000 less at Kameidosuijin."
     },
     {
       "slug": "nishi-ojima",
-      "lead": "For safety, Nishi-Ojima; for rail connections, Kameido. ",
-      "note": "Close enough to walk to from Kameido. Nishi-Ojima has only the Toei Shinjuku Line, so Kameido is the better connected. To Tokyo, for instance, Nishi-Ojima takes 3 minutes longer. On what it offers families, though, Nishi-Ojima comes out ahead."
+      "lead": "For safety, Nishi-Ojima; for how easy the shopping is, Kameido. ",
+      "note": "Close enough to walk to from Kameido. Kameido adds the JR Chuo-Sobu Line (Local) and Tobu Kameido Line; Nishi-Ojima adds the Toei Shinjuku Line. Journey times to the main business districts are much the same. On how easy the shopping is, Kameido comes out ahead. Within about 13 minutes' walk, Kameido has 11 supermarkets (Eataly and 肉のハナマサ and others) and Nishi-Ojima has 6."
     }
   ],
   "goodFor": [
@@ -88,7 +88,7 @@
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Kiyosumi-Shirakawa",
   "tagline": "Known as a coffee neighbourhood, but for a resident the real strength is that the Hanzomon and Oedo Lines together reach every direction of central Tokyo without a change.",
-  "summary": "The Hanzomon Line reaches Otemachi in 8 minutes with no change and Shibuya in 25. The Oedo Line reaches Roppongi and Shinjuku, again without changing. Between them, the two lines cover wherever in central Tokyo you might end up commuting. Roasters gathered here after Blue Bottle Coffee opened its first Japanese shop, and the density of cafes is among the highest in the city. In exchange, things close early and there is almost nothing of an entertainment district. The mix of surviving warehouses and galleries is unusual even for Tokyo, and people either take to it or do not.",
+  "summary": "The Hanzomon Line reaches Otemachi in 8 minutes with no change and Shibuya in 27. The Oedo Line reaches Roppongi and Shinjuku, again without changing. Between them, the two lines cover wherever in central Tokyo you might end up commuting. Roasters gathered here after Blue Bottle Coffee opened its first Japanese shop, and the density of cafes is among the highest in the city. In exchange, things close early and there is almost nothing of an entertainment district. The mix of surviving warehouses and galleries is unusual even for Tokyo, and people either take to it or do not.",
   "faces": {
     "morning": "People head steadily for the station during the commute, but it never gets as crowded as a terminal. Hanzomon Line trains come from Oshiage, so a seat is unlikely; the Oedo Line has more room.",
     "daytime": "Weekday afternoons go quite still. The cafes are open, but there are few people about and the area is quiet to live in. Parents with young children and older residents stand out.",
@@ -90,7 +90,7 @@
   "hazards": "On the national hazard map, for the flood scenario based on the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Eight of the nine points within 400 m of the station fall inside it. It is also inside the storm surge projection, with all nine points in the 0.5 to 3 m band. This is low ground around 1 m above sea level with almost no variation, so there is little to separate inside the area from outside. The projected depth differs block by block within the same station area, so check the ward hazard map for the specific address. Inland flooding from overwhelmed drains has no nationwide map; each ward publishes its own, and that is worth reading as well.",
   "stationNote": "The Hanzomon Line platform is comparatively shallow and close to the gates, but the Oedo Line platform is deep and takes several minutes to reach street level. Changing between the two means a walk, so allow more than the journey planner shows. There are lifts.",
   "nightWalk": "The roads from the station into the residential streets have lamps, and nothing feels unusually dark. After 20:00, though, there are fewer people about, so what divides opinion is not the light but how you feel about no one being there. Along Kiyosumi Garden it goes very quiet at night.",
-  "rentReason": "Rent is clearly good value for somewhere 8 minutes from Otemachi and 25 from Shibuya. The reasons are that this part of Koto City was not well known, that it is low ground with disaster risk, and that there are few shops of any size. Since it became known as a coffee neighbourhood, though, rents have been rising and the discount is not what it was.",
+  "rentReason": "Rent is clearly good value for somewhere 8 minutes from Otemachi and 27 from Shibuya. The reasons are that this part of Koto City was not well known, that it is low ground with disaster risk, and that there are few shops of any size. Since it became known as a coffee neighbourhood, though, rents have been rising and the discount is not what it was.",
   "rentRange": {
     "note": "Within the same ten-minute walk of Kiyosumi-Shirakawa you will find converted warehouses, newer mid-rise blocks and old timber-built flats side by side, and rent and comfort differ sharply between them. Decide on the average alone and the gap when you actually view a flat tends to be large.",
     "drivers": [
@@ -132,13 +132,13 @@
   "neighbours": [
     {
       "slug": "morishita",
-      "lead": "For lower rent, Morishita; for how close the centre is, Kiyosumi-Shirakawa. ",
-      "note": "Close enough to walk to from Kiyosumi-Shirakawa. Morishita has the Toei Oedo Line and Toei Shinjuku Line, a different set from Kiyosumi-Shirakawa. To Otemachi, for instance, Morishita takes 7 minutes longer. A one-room flat costs about ¥8,000 less at Morishita. On quiet, Kiyosumi-Shirakawa comes out ahead."
+      "lead": "For lower rent, Morishita; for quiet, Kiyosumi-Shirakawa. ",
+      "note": "Close enough to walk to from Kiyosumi-Shirakawa. Both have the Toei Oedo Line. Kiyosumi-Shirakawa adds the Tokyo Metro Hanzomon Line; Morishita adds the Toei Shinjuku Line. Which is faster depends on where you are going: Kiyosumi-Shirakawa is 7 minutes quicker to Otemachi, Morishita is 9 minutes quicker to Shinjuku. A one-room flat costs about ¥8,000 less at Morishita. On quiet, Kiyosumi-Shirakawa comes out ahead."
     },
     {
       "slug": "kikukawa",
-      "lead": "For lower rent, Kikukawa; for rail connections, Kiyosumi-Shirakawa. ",
-      "note": "Close enough to walk to from Kiyosumi-Shirakawa. Kikukawa has only the Toei Shinjuku Line, so Kiyosumi-Shirakawa is the better connected. To Otemachi, for instance, Kikukawa takes 11 minutes longer. A one-room flat, though, costs about ¥8,000 less at Kikukawa."
+      "lead": "For lower rent, Kikukawa; for quiet, Kiyosumi-Shirakawa. ",
+      "note": "Close enough to walk to from Kiyosumi-Shirakawa. Kiyosumi-Shirakawa adds the Tokyo Metro Hanzomon Line and Toei Oedo Line; Kikukawa adds the Toei Shinjuku Line. Which is faster depends on where you are going: Kiyosumi-Shirakawa is 11 minutes quicker to Otemachi, Kikukawa is 7 minutes quicker to Shinjuku. A one-room flat costs about ¥8,000 less at Kikukawa. On quiet, Kiyosumi-Shirakawa comes out ahead."
     }
   ],
   "tags": [

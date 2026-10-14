@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Minowa",
   "tagline": "Tokyo in 16 minutes and Otemachi in 22 minutes. Served by 1 line. A one-room flat rents for roughly ¥100,000 to ¥110,000.",
-  "summary": "The station is in Taito City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 22 minutes to Otemachi, 33 minutes to Shinjuku, 41 minutes to Shibuya and 30 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 3.5 m above sea level, and the ground within 800 m varies in height by 2.6 m. The land around the station is close to level.",
+  "summary": "The station is in Taito City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 22 minutes to Otemachi, 33 minutes to Shinjuku, 41 minutes to Shibuya and 33 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 3.5 m above sea level, and the ground within 800 m varies in height by 2.6 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 3.5 m above sea level. Within 800 m the ground ranges from 0.9 m to 3.5 m, a difference of 2.6 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥100,000 to ¥110,000. Set against how long it takes to reach the central business districts, that is on the low side. What holds the figure down: a large projected flood depth and only one line, the {line}, serving the station. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥100,000 to ¥110,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What holds the figure down: a large projected flood depth and only one line, the {line}, serving the station. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "minowabashi",
       "lead": "For lower rent, Minowabashi; for how close the centre is, Minowa. ",
-      "note": "Close enough to walk to from Minowa. Minowabashi has the Tokyo Sakura Tram (Toden Arakawa Line), a different set from Minowa. To Tokyo, for instance, Minowabashi takes 22 minutes longer. A one-room flat costs about ¥6,000 less at Minowabashi. On quiet, Minowabashi comes out ahead."
+      "note": "Close enough to walk to from Minowa. Minowa adds the Tokyo Metro Hibiya Line; Minowabashi adds the Tokyo Sakura Tram (Toden Arakawa Line). Minowa is at least 19 minutes quicker to Tokyo and Shinagawa. A one-room flat, though, costs about ¥6,000 less at Minowabashi."
     },
     {
       "slug": "arakawa-itchumae",
       "lead": "For lower rent, Arakawa-Itchumae; for how close the centre is, Minowa. ",
-      "note": "Close enough to walk to from Minowa. Arakawa-Itchumae has the Tokyo Sakura Tram (Toden Arakawa Line), a different set from Minowa. To Tokyo, for instance, Arakawa-Itchumae takes 20 minutes longer. A one-room flat costs about ¥11,000 less at Arakawa-Itchumae. On quiet, Arakawa-Itchumae comes out ahead."
+      "note": "Close enough to walk to from Minowa. Minowa adds the Tokyo Metro Hibiya Line; Arakawa-Itchumae adds the Tokyo Sakura Tram (Toden Arakawa Line). Minowa is at least 17 minutes quicker to Tokyo and Shinagawa. A one-room flat, though, costs about ¥11,000 less at Arakawa-Itchumae."
     }
   ],
   "goodFor": [
@@ -91,9 +91,9 @@
     "groceries": "There are 17 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tokyo Metro Hibiya Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are some of the most heavily loaded in the morning. ",
+    "congestion": "Morning trains are very crowded: this station sits on the busiest stretch of the Tokyo Metro Hibiya Line. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. What holds the figure down: only one line, the {line}, serving the station. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is on the low side. What holds the figure down: only one line, the {line}, serving the station. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "jujo",
-      "lead": "For how close the centre is, Jujo; for how easy the shopping is, Higashi-Jujo. ",
-      "note": "Close enough to walk to from Higashi-Jujo. Jujo has the JR Saikyo Line, a different set from Higashi-Jujo. To Shinjuku, for instance, Jujo is 9 minutes quicker. On how easy the shopping is, Higashi-Jujo comes out ahead."
+      "lead": "Higashi-Jujo is ahead on how easy the shopping is, and little else separates the two. ",
+      "note": "Close enough to walk to from Higashi-Jujo. Higashi-Jujo adds the JR Keihin-Tohoku Line; Jujo adds the JR Saikyo Line. Which is faster depends on where you are going: Higashi-Jujo is 5 minutes quicker to Tokyo, Jujo is 11 minutes quicker to Roppongi. On how easy the shopping is, Higashi-Jujo comes out ahead. Within about 13 minutes' walk, Higashi-Jujo has 14 supermarkets (The and みらべる and others) and Jujo has 9."
     },
     {
       "slug": "oji-kamiya",
       "lead": "Higashi-Jujo is ahead on how close the centre is and lower rent. ",
-      "note": "Close enough to walk to from Higashi-Jujo. Oji-Kamiya has the Tokyo Metro Namboku Line, a different set from Higashi-Jujo. To Shibuya, for instance, Oji-Kamiya takes 10 minutes longer. A one-room flat costs about ¥12,000 more at Oji-Kamiya. On how little of the area is in the flood projection, Higashi-Jujo comes out ahead."
+      "note": "Close enough to walk to from Higashi-Jujo. Higashi-Jujo adds the JR Keihin-Tohoku Line; Oji-Kamiya adds the Tokyo Metro Namboku Line. Higashi-Jujo is at least 9 minutes quicker to Shibuya and Shinjuku. A one-room flat also costs about ¥12,000 more at Oji-Kamiya."
     }
   ],
   "goodFor": [
@@ -86,9 +86,9 @@
     "groceries": "There are 14 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
     "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "Only the JR Keihin-Tohoku Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Shiinamachi",
   "tagline": "Shinjuku in 15 minutes and Shibuya in 20 minutes. Served by 1 line. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Toshima City, where Seibu run 1 line between them. Journey times to the main business districts are 26 minutes to Otemachi, 15 minutes to Shinjuku, 20 minutes to Shibuya and 41 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 30.6 m above sea level, and the ground within 800 m varies in height by 5.5 m. The land around the station is close to level.",
+  "summary": "The station is in Toshima City, where Seibu run 1 line between them. Journey times to the main business districts are 26 minutes to Otemachi, 15 minutes to Shinjuku, 20 minutes to Shibuya and 36 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 30.6 m above sea level, and the ground within 800 m varies in height by 5.5 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 30.6 m above sea level. Within 800 m the ground ranges from 29.6 m to 35.1 m, a difference of 5.5 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "kanamecho",
-      "lead": "For rail connections, Kanamecho; for how little of the area is in the flood projection, Shiinamachi. ",
-      "note": "Close enough to walk to from Shiinamachi. Kanamecho also has the Tokyo Metro Yurakucho Line and Tokyo Metro Fukutoshin Line, which Shiinamachi does not. With more lines, Kanamecho is the better connected of the two. To Toranomon, for instance, Kanamecho is 5 minutes quicker. On how easy the shopping is, though, Shiinamachi comes out ahead."
+      "lead": "Shiinamachi is ahead on how little of the area is in the flood projection and how easy the shopping is. ",
+      "note": "Close enough to walk to from Shiinamachi. Shiinamachi adds the Seibu Ikebukuro Line; Kanamecho adds the Tokyo Metro Yurakucho Line and Tokyo Metro Fukutoshin Line. Kanamecho is 5 minutes quicker to Toranomon, but times to the other main business districts are much the same. On how easy the shopping is, Shiinamachi comes out ahead. Within about 13 minutes' walk, Shiinamachi has 8 supermarkets (まいばすけっと and サミット and others) and Kanamecho has 4."
     },
     {
       "slug": "ochiai-minami-nagasaki",
-      "lead": "Ochiai-Minami-Nagasaki is ahead on how close the centre is and lower rent. ",
-      "note": "About 1 km from Shiinamachi in a straight line. Ochiai-Minami-Nagasaki has the Toei Oedo Line, a different set from Shiinamachi. To Roppongi, for instance, Ochiai-Minami-Nagasaki is 8 minutes quicker. A one-room flat costs about ¥5,000 less at Ochiai-Minami-Nagasaki."
+      "lead": "Ochiai-Minami-Nagasaki is ahead on lower rent, and little else separates the two. ",
+      "note": "About 1 km from Shiinamachi in a straight line. Shiinamachi adds the Seibu Ikebukuro Line; Ochiai-Minami-Nagasaki adds the Toei Oedo Line. Which is faster depends on where you are going: Shiinamachi is 6 minutes quicker to Otemachi, Ochiai-Minami-Nagasaki is 8 minutes quicker to Roppongi. A one-room flat costs about ¥5,000 less at Ochiai-Minami-Nagasaki."
     }
   ],
   "goodFor": [
@@ -76,10 +76,10 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "The 首都高速中央環状線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
     "山手通り (a main road) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
+    "quiet",
     "goodValue",
     "singleLine",
     "familyFriendly",
@@ -92,8 +92,8 @@
     "stationNote": "Only the Seibu Ikebukuro Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
-    "noiseSources": "At this station, check the traffic noise before the noise people make."
+    "congestion": "This station sits on the busiest stretch of the Seibu Ikebukuro Line, but at 130% passengers are not shoulder to shoulder. ",
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"
 }

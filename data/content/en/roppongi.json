@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Roppongi",
   "tagline": "Roppongi in 1 minute and Toranomon in 5 minutes. Served by 2 lines. A one-room flat rents for roughly ¥170,000 to ¥180,000.",
-  "summary": "The station is in Minato City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 16 minutes to Otemachi, 10 minutes to Shinjuku, 14 minutes to Shibuya and 24 minutes to Shinagawa. A one-room flat rents for roughly ¥170,000 to ¥180,000. The station stands 31.4 m above sea level, and the ground within 800 m varies in height by 16.5 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Minato City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 16 minutes to Otemachi, 10 minutes to Shinjuku, 14 minutes to Shibuya and 20 minutes to Shinagawa. A one-room flat rents for roughly ¥170,000 to ¥180,000. The station stands 31.4 m above sea level, and the ground within 800 m varies in height by 16.5 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 31.4 m above sea level. Within 800 m the ground ranges from 14.9 m to 31.4 m, a difference of 16.5 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "nogizaka",
-      "lead": "For lower rent, Nogizaka; for rail connections, Roppongi. ",
-      "note": "Close enough to walk to from Roppongi. Nogizaka has only the Tokyo Metro Chiyoda Line, so Roppongi is the better connected. To Roppongi, for instance, Nogizaka takes 16 minutes longer. A one-room flat, though, costs about ¥17,000 less at Nogizaka."
+      "lead": "For lower rent, Nogizaka; for how easy the shopping is, Roppongi. ",
+      "note": "Close enough to walk to from Roppongi. Roppongi adds the Tokyo Metro Hibiya Line and Toei Oedo Line; Nogizaka adds the Tokyo Metro Chiyoda Line. Which is faster depends on where you are going: Roppongi is 16 minutes quicker to Roppongi, Nogizaka is 5 minutes quicker to Otemachi. A one-room flat costs about ¥17,000 less at Nogizaka. On quiet, Nogizaka comes out ahead."
     },
     {
       "slug": "roppongi-itchome",
-      "lead": "For the number of medical facilities, Roppongi-Itchome; for rail connections, Roppongi. ",
-      "note": "Close enough to walk to from Roppongi. Roppongi-Itchome has only the Tokyo Metro Namboku Line, so Roppongi is the better connected. To Roppongi, for instance, Roppongi-Itchome takes 9 minutes longer. A one-room flat also costs about ¥9,000 more at Roppongi-Itchome. On the number of medical facilities, though, Roppongi-Itchome comes out ahead."
+      "lead": "For the number of medical facilities, Roppongi-Itchome; for how close the centre is, Roppongi. ",
+      "note": "Close enough to walk to from Roppongi. Roppongi adds the Tokyo Metro Hibiya Line and Toei Oedo Line; Roppongi-Itchome adds the Tokyo Metro Namboku Line. Roppongi is at least 6 minutes quicker to Roppongi and Shinjuku. A one-room flat also costs about ¥9,000 more at Roppongi-Itchome. On the number of medical facilities, though, Roppongi-Itchome comes out ahead. Within about 13 minutes' walk, Roppongi-Itchome has 30 clinics and pharmacies and Roppongi has 9."
     }
   ],
   "goodFor": [
@@ -91,7 +91,7 @@
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the highest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are some of the most heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

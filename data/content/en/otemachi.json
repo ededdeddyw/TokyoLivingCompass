@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Otemachi",
   "tagline": "Tokyo in 1 minute and Otemachi in 1 minute. Served by 5 lines. A one-room flat rents for roughly ¥160,000 to ¥170,000.",
-  "summary": "The station is in Chiyoda City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 5 lines between them. Journey times to the main business districts are 1 minute to Otemachi, 19 minutes to Shinjuku, 19 minutes to Shibuya and 16 minutes to Shinagawa. A one-room flat rents for roughly ¥160,000 to ¥170,000. The station stands 3 m above sea level, and the ground within 800 m varies in height by 3.9 m. The land around the station is close to level.",
+  "summary": "The station is in Chiyoda City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 5 lines between them. Journey times to the main business districts are 1 minute to Otemachi, 20 minutes to Shinjuku, 19 minutes to Shibuya and 16 minutes to Shinagawa. A one-room flat rents for roughly ¥160,000 to ¥170,000. The station stands 3 m above sea level, and the ground within 800 m varies in height by 3.9 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 3 m above sea level. Within 800 m the ground ranges from 0.5 m to 4.4 m, a difference of 3.9 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "tokyo",
-      "lead": "Tokyo is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Otemachi. Tokyo has 10 lines that Otemachi does not. With more lines, Tokyo is the better connected of the two. To Shinagawa, for instance, Tokyo is 6 minutes quicker. A one-room flat also costs about ¥7,000 less at Tokyo."
+      "lead": "Tokyo is ahead on how close the centre is and lower rent. ",
+      "note": "Close enough to walk to from Otemachi. Both have the Tokyo Metro Marunouchi Line. Otemachi adds the 4 lines; Tokyo adds the 10 lines. Tokyo is at least 5 minutes quicker to Shinagawa and Shinjuku. A one-room flat also costs about ¥7,000 less at Tokyo."
     },
     {
       "slug": "nijubashimae",
-      "lead": "Otemachi is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Otemachi. Nijubashimae has only the Tokyo Metro Chiyoda Line, so Otemachi is the better connected. To Tokyo, for instance, Nijubashimae takes 6 minutes longer. Rents, flood projections and the rest differ little."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Otemachi. Both have the Tokyo Metro Chiyoda Line. Otemachi also has the 4 lines, which Nijubashimae does not. Otemachi is 6 minutes quicker to Tokyo, but times to the other main business districts are much the same. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -92,7 +92,7 @@
     "stationNote": "5 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
   },
   "authoredBy": "data-generated"

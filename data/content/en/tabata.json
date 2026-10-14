@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Tabata",
   "tagline": "Tokyo in 16 minutes and Otemachi in 20 minutes. Served by 2 lines. A one-room flat rents for roughly ¥80,000 to ¥90,000.",
-  "summary": "The station is in Kita City, where JR East run 2 lines between them. Journey times to the main business districts are 20 minutes to Otemachi, 23 minutes to Shinjuku, 28 minutes to Shibuya and 30 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 6 m above sea level, and the ground within 800 m varies in height by 19.1 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Kita City, where JR East run 2 lines between them. Journey times to the main business districts are 20 minutes to Otemachi, 23 minutes to Shinjuku, 31 minutes to Shibuya and 30 minutes to Shinagawa. A one-room flat rents for roughly ¥80,000 to ¥90,000. The station stands 6 m above sea level, and the ground within 800 m varies in height by 19.1 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 6 m above sea level. Within 800 m the ground ranges from 3.8 m to 22.9 m, a difference of 19.1 m."
@@ -56,13 +56,13 @@
   "neighbours": [
     {
       "slug": "nishi-nippori",
-      "lead": "For rail connections, Nishi-Nippori; for lower rent, Tabata. ",
-      "note": "Close enough to walk to from Tabata. Nishi-Nippori also has the Tokyo Metro Chiyoda Line and Nippori-Toneri Liner, which Tabata does not. With more lines, Nishi-Nippori is the better connected of the two. To Otemachi, for instance, Nishi-Nippori is 7 minutes quicker. A one-room flat, though, costs about ¥7,000 more at Nishi-Nippori."
+      "lead": "Tabata is ahead on lower rent and what it offers families. ",
+      "note": "Close enough to walk to from Tabata. Both have the JR Yamanote Line and JR Keihin-Tohoku Line. Nishi-Nippori also has the Tokyo Metro Chiyoda Line and Nippori-Toneri Liner, which Tabata does not. Nishi-Nippori is 7 minutes quicker to Otemachi, but times to the other main business districts are much the same. A one-room flat costs about ¥7,000 more at Nishi-Nippori. On what it offers families, Tabata comes out ahead."
     },
     {
       "slug": "akado-shogakkomae",
-      "lead": "Tabata is ahead on rail connections and how close the centre is. ",
-      "note": "Close enough to walk to from Tabata. Akado-Shogakkomae has only the Nippori-Toneri Liner, so Tabata is the better connected. To Shibuya, for instance, Akado-Shogakkomae takes 11 minutes longer. A one-room flat also costs about ¥6,000 more at Akado-Shogakkomae."
+      "lead": "Tabata is ahead on how close the centre is and lower rent. ",
+      "note": "Close enough to walk to from Tabata. Tabata adds the JR Yamanote Line and JR Keihin-Tohoku Line; Akado-Shogakkomae adds the Nippori-Toneri Liner. Tabata is at least 11 minutes quicker to Shinjuku and Shibuya. A one-room flat also costs about ¥6,000 more at Akado-Shogakkomae."
     }
   ],
   "goodFor": [
@@ -90,7 +90,7 @@
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

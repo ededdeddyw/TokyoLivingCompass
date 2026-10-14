@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Kudanshita",
   "tagline": "Otemachi in 4 minutes and Tokyo in 10 minutes. Served by 3 lines. A one-room flat rents for roughly ¥140,000 to ¥150,000.",
-  "summary": "The station is in Chiyoda City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 3 lines between them. Journey times to the main business districts are 4 minutes to Otemachi, 11 minutes to Shinjuku, 14 minutes to Shibuya and 25 minutes to Shinagawa. A one-room flat rents for roughly ¥140,000 to ¥150,000. The station stands 4.6 m above sea level, and the ground within 800 m varies in height by 22.1 m. The land around the station rises and falls sharply.",
+  "summary": "The station is in Chiyoda City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 3 lines between them. Journey times to the main business districts are 4 minutes to Otemachi, 11 minutes to Shinjuku, 14 minutes to Shibuya and 24 minutes to Shinagawa. A one-room flat rents for roughly ¥140,000 to ¥150,000. The station stands 4.6 m above sea level, and the ground within 800 m varies in height by 22.1 m. The land around the station rises and falls sharply.",
   "terrain": {
     "slope": "hilly",
     "note": "The station sits lower than the ground around it, at 4.6 m above sea level. Within 800 m the ground ranges from 3.2 m to 25.3 m, a difference of 22.1 m."
@@ -50,12 +50,12 @@
     {
       "slug": "jimbocho",
       "lead": "Jimbocho is ahead on the number of medical facilities, and little else separates the two. ",
-      "note": "Close enough to walk to from Kudanshita. Jimbocho has the Tokyo Metro Hanzomon Line, Toei Mita Line and Toei Shinjuku Line, a different set from Kudanshita. Journey times to the main business districts are much the same. On the number of medical facilities, Jimbocho comes out ahead."
+      "note": "Close enough to walk to from Kudanshita. Both have the Tokyo Metro Hanzomon Line and Toei Shinjuku Line. Kudanshita adds the Tokyo Metro Tozai Line; Jimbocho adds the Toei Mita Line. Journey times to the main business districts are much the same. On the number of medical facilities, Jimbocho comes out ahead. Within about 13 minutes' walk, Jimbocho has 59 clinics and pharmacies and Kudanshita has 23."
     },
     {
       "slug": "takebashi",
-      "lead": "For lower rent, Takebashi; for rail connections, Kudanshita. ",
-      "note": "Close enough to walk to from Kudanshita. Takebashi has only the Tokyo Metro Tozai Line, so Kudanshita is the better connected. To Shinjuku, for instance, Takebashi takes 7 minutes longer. A one-room flat, though, costs about ¥5,000 less at Takebashi."
+      "lead": "For lower rent, Takebashi; for how close the centre is, Kudanshita. ",
+      "note": "Close enough to walk to from Kudanshita. Both have the Tokyo Metro Tozai Line. Kudanshita also has the Tokyo Metro Hanzomon Line and Toei Shinjuku Line, which Takebashi does not. Kudanshita is at least 7 minutes quicker to Shinjuku and Shibuya. A one-room flat, though, costs about ¥5,000 less at Takebashi."
     }
   ],
   "goodFor": [
@@ -84,7 +84,7 @@
     "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

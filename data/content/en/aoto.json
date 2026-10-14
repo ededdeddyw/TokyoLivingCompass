@@ -2,8 +2,8 @@
   "slug": "aoto",
   "locale": "en",
   "name": "Aoto",
-  "tagline": "Tokyo in 35 minutes and Otemachi in 35 minutes. Served by 3 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
-  "summary": "The station is in Katsushika City, where Keisei run 3 lines between them. Journey times to the main business districts are 35 minutes to Otemachi, 49 minutes to Shinjuku, 54 minutes to Shibuya and 49 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 0.5 m above sea level, and the ground within 800 m varies in height by 1.9 m. The land around the station is close to level.",
+  "tagline": "Tokyo in 33 minutes and Otemachi in 34 minutes. Served by 3 lines. A one-room flat rents for roughly ¥70,000 to ¥80,000.",
+  "summary": "The station is in Katsushika City, where Keisei run 3 lines between them. Journey times to the main business districts are 34 minutes to Otemachi, 47 minutes to Shinjuku, 53 minutes to Shibuya and 44 minutes to Shinagawa. A one-room flat rents for roughly ¥70,000 to ¥80,000. The station stands 0.5 m above sea level, and the ground within 800 m varies in height by 1.9 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 0.5 m above sea level. Within 800 m the ground ranges from -0.1 m to 1.8 m, a difference of 1.9 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. In plain yen, though, it is on the low side for the 23 wards. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "keisei-tateishi",
-      "lead": "For how close the centre is, Keisei-Tateishi; for rail connections, Aoto. ",
-      "note": "About 1 km from Aoto in a straight line. Keisei-Tateishi has only the Keisei Oshiage Line, so Aoto is the better connected. To Shinagawa, for instance, Keisei-Tateishi is 3 minutes quicker. On safety, though, Keisei-Tateishi comes out ahead."
+      "lead": "Aoto is ahead on how little of the area is in the flood projection and how easy the shopping is. ",
+      "note": "About 1 km from Aoto in a straight line. Both have the Keisei Oshiage Line. Aoto also has the Keisei Main Line and Narita Sky Access Line, which Keisei-Tateishi does not. Journey times to the main business districts are much the same. On how easy the shopping is, Aoto comes out ahead. Within about 13 minutes' walk, Aoto has 9 supermarkets (ジュピター and リブレ京成 and others) and Keisei-Tateishi has 4."
     },
     {
       "slug": "keisei-takasago",
-      "lead": "For rail connections, Keisei-Takasago; for how close the centre is, Aoto. ",
-      "note": "About 1 km from Aoto in a straight line. Keisei-Takasago also has the Keisei Kanamachi Line and Hokuso Line, which Aoto does not. With more lines, Keisei-Takasago is the better connected of the two. To Toranomon, for instance, Keisei-Takasago takes 3 minutes longer. On the number of medical facilities, though, Aoto comes out ahead."
+      "lead": "For what it offers families, Keisei-Takasago; for the number of medical facilities, Aoto. ",
+      "note": "About 1 km from Aoto in a straight line. Both have the Keisei Main Line, Keisei Oshiage Line and Narita Sky Access Line. Keisei-Takasago also has the Keisei Kanamachi Line and Hokuso Line, which Aoto does not. Journey times to the main business districts are much the same. On the number of medical facilities, Aoto comes out ahead. Within about 13 minutes' walk, Aoto has 34 clinics and pharmacies and Keisei-Takasago has 13."
     }
   ],
   "goodFor": [
@@ -87,7 +87,7 @@
     "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are heavily loaded in the morning. ",
+    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"
