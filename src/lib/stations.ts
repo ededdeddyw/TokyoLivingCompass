@@ -419,10 +419,13 @@ export function getStationPhotos(slug: string): StationPhoto[] {
   const one = photoCache[slug];
   const commons: StationPhoto[] = many && many.length > 0 ? many : one ? [one] : [];
   const local = localPhotoCache[slug] ?? [];
+  // 人が選んだ写真は、街の様子が伝わるものを選んでいるので、駅舎の写真のすぐ後ろに出す
+  const [head, ...rest] = commons;
   return [
     ...local.filter((p) => p.first),
-    ...commons,
+    ...(head ? [head] : []),
     ...local.filter((p) => !p.first),
+    ...rest,
   ];
 }
 
