@@ -708,7 +708,49 @@ export const stationPhotoSchema = z.object({
   licenseUrl: z.string().url().optional(),
 });
 export const stationPhotosFileSchema = z.record(z.string(), stationPhotoSchema.nullable());
-export type StationPhoto = z.infer<typeof stationPhotoSchema>;
+export type StationPhoto = z.infer<typeof stationPhotoSchema> & {
+  /** 何が写っているか（「東口駅前」など）。複数枚の写真で使う */
+  caption?: string;
+};
+
+/**
+ * Commons 以外から人が1枚ずつ選んで保存した写真（data/reference/local-photos.json）。
+ * 画像は public/photos/ に置くので、src は "/photos/…" の形になる。
+ * first が true の写真は、Commons の写真より前（1枚目）に出す。
+ */
+export const localPhotosFileSchema = z.object({
+  meta: z.object({ note: z.string() }),
+  stations: z.record(
+    z.string(),
+    z.array(
+      z.object({
+        file: z.string().min(1),
+        src: z.string().regex(/^\/photos\//),
+        page: z.string().url(),
+        author: z.string().min(1),
+        license: z.string().min(1),
+        licenseUrl: z.string().url().optional(),
+        caption: z.string().min(1),
+        kind: z.enum(["station", "area"]),
+        first: z.boolean(),
+      }),
+    ),
+  ),
+});
+
+/**
+ * 1駅に複数枚の写真。1枚目は駅舎か駅前、2枚目以降は街並みや周辺の施設。
+ * data/computed/station-gallery.json に置く。無い駅は station-photos.json の1枚を使う。
+ */
+export const stationGalleryFileSchema = z.record(
+  z.string(),
+  z.array(
+    stationPhotoSchema.extend({
+      caption: z.string().min(1),
+      kind: z.enum(["station", "area"]),
+    }),
+  ),
+);
 
 /** 区の公式ページへのリンク。保育園の空き状況・学区・ハザードマップ。 */
 const wardLinkSchema = z.object({ url: z.string().url(), title: z.string().min(1) });

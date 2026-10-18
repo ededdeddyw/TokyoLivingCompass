@@ -109,6 +109,9 @@ export type Dictionary = {
     wardHazardOnly: string;
     photoAlt: string;
     photoCredit: string;
+    photosTitle: string;
+    /** Commons 以外の写真の表示（ぱくたそなど） */
+    photoCreditOther: string;
   };
   station: {
     overall: string;
@@ -382,6 +385,8 @@ const ja: Dictionary = {
     wardHazardOnly: "大雨のときの浸水の想定は、住所によって変わります。区のハザードマップで確かめてください。",
     photoAlt: "{name}駅",
     photoCredit: "写真: {author}（{license}、Wikimedia Commons）",
+    photosTitle: "{name}駅と街の写真",
+    photoCreditOther: "写真: {author}",
   },
   station: {
     overall: "総合評価",
@@ -776,6 +781,8 @@ const en: Dictionary = {
     wardHazardOnly: "Projected flooding from heavy rain depends on your address. Check the ward’s hazard map.",
     photoAlt: "{name} Station",
     photoCredit: "Photo: {author} ({license}, Wikimedia Commons)",
+    photosTitle: "Photos of {name} Station and the area",
+    photoCreditOther: "Photo: {author}",
   },
   station: {
     overall: "Overall",
@@ -1173,6 +1180,8 @@ const zhHans: Dictionary = {
     wardHazardOnly: "暴雨时的预测浸水情况因住址而异，请查看区的灾害地图。",
     photoAlt: "{name}站",
     photoCredit: "照片：{author}（{license}，Wikimedia Commons）",
+    photosTitle: "{name}站及周边照片",
+    photoCreditOther: "照片：{author}",
   },
   station: {
     overall: "综合",
@@ -1562,6 +1571,8 @@ const ko: Dictionary = {
     wardHazardOnly: "폭우 때의 예상 침수는 주소에 따라 다릅니다. 구의 해저드 맵에서 확인하세요.",
     photoAlt: "{name}역",
     photoCredit: "사진: {author} ({license}, Wikimedia Commons)",
+    photosTitle: "{name}역과 주변 사진",
+    photoCreditOther: "사진: {author}",
   },
   station: {
     overall: "종합",
