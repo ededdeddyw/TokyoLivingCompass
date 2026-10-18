@@ -19,6 +19,7 @@ import { ScoreHighlights } from "@/components/station/ScoreHighlights";
 import { SectionNav } from "@/components/station/SectionNav";
 import { RentBands } from "@/components/RentBands";
 import { PersonaFit, type Destination } from "@/components/station/PersonaFit";
+import { PhotoStrip } from "@/components/station/PhotoStrip";
 import { RentHistoryTable } from "@/components/RentHistoryTable";
 import { RentSourceNote } from "@/components/RentSourceNote";
 import { OverallScore } from "@/components/OverallScore";
@@ -53,7 +54,7 @@ import {
   getLifestyleCommuteShare,
   getLocalizedStations,
   getRentAverages,
-  getStationPhoto,
+  getStationPhotos,
   getWardLinks,
   getStationContent,
   getTownTraits,
@@ -246,7 +247,8 @@ export default async function StationPage({
     locale === "en"
       ? station.ward.charAt(0).toUpperCase() + station.ward.slice(1)
       : station.wardNameJa;
-  const photo = getStationPhoto(station.slug);
+  const photos = getStationPhotos(station.slug);
+  const photo = photos[0] ?? null;
   const lineNames = resolveLines(station.lineIds).map((l) =>
     locale === "ja" ? l.nameJa : l.nameEn,
   );
@@ -363,6 +365,7 @@ export default async function StationPage({
               loading="eager"
             />
             <figcaption className="mt-1.5 text-[11px] leading-snug text-white/80">
+              {photo.caption && <span className="mr-1.5 font-semibold text-white">{photo.caption}</span>}
               <a href={photo.page} className="hover:underline" rel="noreferrer" target="_blank">
                 {dict.stationUi.photoCredit
                   .replace("{author}", photo.author)
@@ -396,6 +399,12 @@ export default async function StationPage({
       <p className="max-w-3xl text-[17px] leading-loose text-ink">{station.content.summary}</p>
 
       {townTraits && <TownTraits data={townTraits} dict={dict} />}
+
+      <PhotoStrip
+        photos={photos.slice(1)}
+        title={ui.photosTitle.replace("{name}", station.content.name)}
+        credit={ui.photoCredit}
+      />
 
       <Section id="rent" title={dict.station.rent}>
         {station.rentBands ? (

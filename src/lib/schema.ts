@@ -708,7 +708,24 @@ export const stationPhotoSchema = z.object({
   licenseUrl: z.string().url().optional(),
 });
 export const stationPhotosFileSchema = z.record(z.string(), stationPhotoSchema.nullable());
-export type StationPhoto = z.infer<typeof stationPhotoSchema>;
+export type StationPhoto = z.infer<typeof stationPhotoSchema> & {
+  /** 何が写っているか（「東口駅前」など）。複数枚の写真で使う */
+  caption?: string;
+};
+
+/**
+ * 1駅に複数枚の写真。1枚目は駅舎か駅前、2枚目以降は街並みや周辺の施設。
+ * data/computed/station-gallery.json に置く。無い駅は station-photos.json の1枚を使う。
+ */
+export const stationGalleryFileSchema = z.record(
+  z.string(),
+  z.array(
+    stationPhotoSchema.extend({
+      caption: z.string().min(1),
+      kind: z.enum(["station", "area"]),
+    }),
+  ),
+);
 
 /** 区の公式ページへのリンク。保育園の空き状況・学区・ハザードマップ。 */
 const wardLinkSchema = z.object({ url: z.string().url(), title: z.string().min(1) });

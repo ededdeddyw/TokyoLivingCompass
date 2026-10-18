@@ -26,6 +26,7 @@ import {
   type TownTraits,
   townTraitsFileSchema,
   stationPhotosFileSchema,
+  stationGalleryFileSchema,
   stationWardsFileSchema,
   wardLinksFileSchema,
   lifestyleFileSchema,
@@ -50,6 +51,7 @@ const COMPUTED_SCORES_FILE = join(DATA_DIR, "computed", "scores.json");
 const RENT_BANDS_FILE = join(DATA_DIR, "computed", "rent-bands.json");
 const TOWN_TRAITS_DIR = join(DATA_DIR, "town-traits");
 const PHOTOS_FILE = join(DATA_DIR, "computed", "station-photos.json");
+const GALLERY_FILE = join(DATA_DIR, "computed", "station-gallery.json");
 const LIFESTYLE_FILE = join(DATA_DIR, "computed", "lifestyle.json");
 const STATION_WARDS_FILE = join(DATA_DIR, "computed", "station-wards.json");
 const WARD_LINKS_FILE = join(DATA_DIR, "reference", "ward-links.json");
@@ -397,10 +399,20 @@ function readOptional<T>(file: string, schema: { safeParse(v: unknown): { succes
 
 let photoCache: Record<string, StationPhoto | null> | null = null;
 
-/** 駅の写真。Commons で自由に使える写真が見つからなかった駅は null。 */
-export function getStationPhoto(slug: string): StationPhoto | null {
+let galleryCache: Record<string, StationPhoto[]> | null = null;
+
+/**
+ * 駅の写真。1枚目が駅舎か駅前で、2枚目以降が街並みや周辺の施設。
+ * 複数枚の写真（station-gallery.json）があればそれを使い、無ければ1枚だけの写真を使う。
+ * Commons で自由に使える写真が見つからなかった駅は空。
+ */
+export function getStationPhotos(slug: string): StationPhoto[] {
+  galleryCache ??= readOptional(GALLERY_FILE, stationGalleryFileSchema, "駅の写真（複数枚）") ?? {};
+  const many = galleryCache[slug];
+  if (many && many.length > 0) return many;
   photoCache ??= readOptional(PHOTOS_FILE, stationPhotosFileSchema, "駅の写真") ?? {};
-  return photoCache[slug] ?? null;
+  const one = photoCache[slug];
+  return one ? [one] : [];
 }
 
 let wardLinkCache: { stationWards: Record<string, string[]>; links: Record<string, Omit<WardLinks, "wardCode">> } | null = null;
