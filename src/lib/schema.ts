@@ -714,6 +714,31 @@ export type StationPhoto = z.infer<typeof stationPhotoSchema> & {
 };
 
 /**
+ * Commons 以外から人が1枚ずつ選んで保存した写真（data/reference/local-photos.json）。
+ * 画像は public/photos/ に置くので、src は "/photos/…" の形になる。
+ * first が true の写真は、Commons の写真より前（1枚目）に出す。
+ */
+export const localPhotosFileSchema = z.object({
+  meta: z.object({ note: z.string() }),
+  stations: z.record(
+    z.string(),
+    z.array(
+      z.object({
+        file: z.string().min(1),
+        src: z.string().regex(/^\/photos\//),
+        page: z.string().url(),
+        author: z.string().min(1),
+        license: z.string().min(1),
+        licenseUrl: z.string().url().optional(),
+        caption: z.string().min(1),
+        kind: z.enum(["station", "area"]),
+        first: z.boolean(),
+      }),
+    ),
+  ),
+});
+
+/**
  * 1駅に複数枚の写真。1枚目は駅舎か駅前、2枚目以降は街並みや周辺の施設。
  * data/computed/station-gallery.json に置く。無い駅は station-photos.json の1枚を使う。
  */

@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "note": "Wikimedia Commons 以外から、人が1枚ずつ選んで保存した写真。画像は public/photos/ に置く。ぱくたそ（PAKUTASO）の写真は利用規約で直リンクとプログラムでの一括収集が禁止されているため、駅ごとに選んだものだけを保存して使う。規約: https://www.pakutaso.com/userpolicy.html（確認日 2026-10-18）"
+  },
+  "stations": {
+    "meiji-jingumae": [
+      {
+        "file": "meiji-jingumae-pakutaso-12800.webp",
+        "src": "/photos/meiji-jingumae-pakutaso-12800.webp",
+        "page": "https://www.pakutaso.com/20170858220post-12800.html",
+        "author": "ぱくたそ",
+        "license": "ぱくたそ利用規約",
+        "licenseUrl": "https://www.pakutaso.com/userpolicy.html",
+        "caption": "2017年の原宿駅前。木造の旧駅舎は2020年に解体",
+        "kind": "area",
+        "first": false
+      }
+    ]
+  }
+}
