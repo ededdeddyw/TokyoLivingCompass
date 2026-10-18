@@ -367,7 +367,7 @@ export default async function StationPage({
             <figcaption className="mt-1.5 text-[11px] leading-snug text-white/80">
               {photo.caption && <span className="mr-1.5 font-semibold text-white">{photo.caption}</span>}
               <a href={photo.page} className="hover:underline" rel="noreferrer" target="_blank">
-                {dict.stationUi.photoCredit
+                {(photo.src.startsWith("/") ? dict.stationUi.photoCreditOther : dict.stationUi.photoCredit)
                   .replace("{author}", photo.author)
                   .replace("{license}", photo.license)}
               </a>
@@ -404,6 +404,7 @@ export default async function StationPage({
         photos={photos.slice(1)}
         title={ui.photosTitle.replace("{name}", station.content.name)}
         credit={ui.photoCredit}
+        creditOther={ui.photoCreditOther}
       />
 
       <Section id="rent" title={dict.station.rent}>

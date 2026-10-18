@@ -13,7 +13,10 @@ export function PhotoStrip({
   photos,
   title,
   credit,
+  creditOther,
 }: {
+  /** Commons 以外（ぱくたそなど）の写真の表示。「写真: {author}」 */
+  creditOther: string;
   photos: StationPhoto[];
   title: string;
   /** 「写真: {author}（{license}、Wikimedia Commons）」 */
@@ -47,7 +50,9 @@ export function PhotoStrip({
                 rel="noreferrer"
                 target="_blank"
               >
-                {credit.replace("{author}", p.author).replace("{license}", p.license)}
+                {(p.src.startsWith("/") ? creditOther : credit)
+                  .replace("{author}", p.author)
+                  .replace("{license}", p.license)}
               </a>
             </div>
           </li>
