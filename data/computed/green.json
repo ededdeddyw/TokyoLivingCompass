@@ -1,0 +1,2982 @@
+{
+ "meta": {
+  "note": "駅から1km以内に端がかかる（公園を円とみなして半径を引いた距離で測る）、1ha以上の公園の面積の合計。同じ名前の公園は1つとして数える。",
+  "sources": [
+   {
+    "name": "国土数値情報 都市公園データ（P13、平成23年度）",
+    "url": "https://nlftp.mlit.go.jp/ksj/gml/data/P13/P13-11/P13-11_13_GML.zip"
+   },
+   {
+    "name": "OpenStreetMap（海上公園・国民公園の形）",
+    "url": "https://www.openstreetmap.org/"
+   }
+  ]
+ },
+ "stations": {
+  "adachi-odai": {
+   "greenHa": 25.9,
+   "parks": [
+    "荒川江北橋緑地",
+    "尾久の原公園",
+    "荒川遊園"
+   ]
+  },
+  "akabane": {
+   "greenHa": 14.1,
+   "parks": [
+    "赤羽自然観察公園",
+    "北運動公園",
+    "北区の清水坂公園"
+   ]
+  },
+  "akabane-iwabuchi": {
+   "greenHa": 16.5,
+   "parks": [
+    "新荒川大橋緑地",
+    "荒川赤羽緑地",
+    "赤羽緑道公園"
+   ]
+  },
+  "akabanebashi": {
+   "greenHa": 13.6,
+   "parks": [
+    "芝公園"
+   ]
+  },
+  "akado-shogakkomae": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "akasaka": {
+   "greenHa": 2.7,
+   "parks": [
+    "檜町公園",
+    "千代田区の清水谷公園"
+   ]
+  },
+  "akebonobashi": {
+   "greenHa": 57.4,
+   "parks": [
+    "新宿御苑"
+   ]
+  },
+  "akihabara": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "anamori-inari": {
+   "greenHa": 8.8,
+   "parks": [
+    "萩中公園",
+    "本羽田公園",
+    "東糀谷第一公園"
+   ]
+  },
+  "aoi": {
+   "greenHa": 21.2,
+   "parks": [
+    "東綾瀬公園",
+    "しょうぶ沼公園",
+    "一ツ家第一公園"
+   ]
+  },
+  "aomi": {
+   "greenHa": 53.6,
+   "parks": [
+    "シンボルプロムナード公園",
+    "潮風公園",
+    "お台場海浜公園"
+   ]
+  },
+  "aomono-yokocho": {
+   "greenHa": 15.7,
+   "parks": [
+    "京浜運河緑道公園",
+    "東品川海上公園",
+    "鮫洲運動公園"
+   ]
+  },
+  "aoto": {
+   "greenHa": 6.8,
+   "parks": [
+    "総合スポーツセンター運動公園",
+    "青戸平和公園"
+   ]
+  },
+  "aoyama-itchome": {
+   "greenHa": 11.2,
+   "parks": [
+    "明治公園",
+    "青山公園",
+    "檜町公園"
+   ]
+  },
+  "araiyakushi-mae": {
+   "greenHa": 14.8,
+   "parks": [
+    "中野区の平和の森公園",
+    "哲学堂公園",
+    "中野上高田公園"
+   ]
+  },
+  "arakawa-itchumae": {
+   "greenHa": 1.5,
+   "parks": [
+    "荒川公園"
+   ]
+  },
+  "arakawa-nanachome": {
+   "greenHa": 3.2,
+   "parks": [
+    "千住スポーツ公園",
+    "荒川公園"
+   ]
+  },
+  "arakawa-nichome": {
+   "greenHa": 1.5,
+   "parks": [
+    "荒川公園"
+   ]
+  },
+  "arakawa-shakomae": {
+   "greenHa": 17.1,
+   "parks": [
+    "飛鳥山公園",
+    "荒川遊園",
+    "旧古河庭園"
+   ]
+  },
+  "arakawa-yuenchimae": {
+   "greenHa": 5.1,
+   "parks": [
+    "荒川遊園"
+   ]
+  },
+  "arakawakuyakushomae": {
+   "greenHa": 1.5,
+   "parks": [
+    "荒川公園"
+   ]
+  },
+  "ariake": {
+   "greenHa": 26.1,
+   "parks": [
+    "東京臨海広域防災公園",
+    "有明親水海浜公園"
+   ]
+  },
+  "ariake-tennis-no-mori": {
+   "greenHa": 42.6,
+   "parks": [
+    "豊洲ぐるり公園",
+    "東京臨海広域防災公園",
+    "有明親水海浜公園"
+   ]
+  },
+  "asagaya": {
+   "greenHa": 20.3,
+   "parks": [
+    "善福寺川緑地",
+    "馬橋公園"
+   ]
+  },
+  "asakusa": {
+   "greenHa": 27.4,
+   "parks": [
+    "台東区の隅田公園",
+    "墨田区の隅田公園",
+    "大横川親水公園"
+   ]
+  },
+  "asakusa-tx": {
+   "greenHa": 18.8,
+   "parks": [
+    "台東区の隅田公園",
+    "墨田区の隅田公園"
+   ]
+  },
+  "asakusabashi": {
+   "greenHa": 8.1,
+   "parks": [
+    "隅田川公園",
+    "横網町公園",
+    "旧安田庭園"
+   ]
+  },
+  "asukayama": {
+   "greenHa": 18.9,
+   "parks": [
+    "北区の中央公園",
+    "飛鳥山公園",
+    "名主の滝公園"
+   ]
+  },
+  "awajicho": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "ayase": {
+   "greenHa": 15.9,
+   "parks": [
+    "東綾瀬公園"
+   ]
+  },
+  "azabu-juban": {
+   "greenHa": 20.3,
+   "parks": [
+    "芝公園",
+    "有栖川宮記念公園"
+   ]
+  },
+  "bakurocho": {
+   "greenHa": 4.7,
+   "parks": [
+    "隅田川公園"
+   ]
+  },
+  "chidoricho": {
+   "greenHa": 1.3,
+   "parks": [
+    "下丸子公園"
+   ]
+  },
+  "chikatetsu-akatsuka": {
+   "greenHa": 2.0,
+   "parks": [
+    "田柄川緑道"
+   ]
+  },
+  "chitose-funabashi": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "chitose-karasuyama": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "daiba": {
+   "greenHa": 56.6,
+   "parks": [
+    "シンボルプロムナード公園",
+    "潮風公園",
+    "お台場海浜公園"
+   ]
+  },
+  "daikanyama": {
+   "greenHa": 5.3,
+   "parks": [
+    "中目黒公園",
+    "菅刈公園",
+    "西郷山公園"
+   ]
+  },
+  "daimon": {
+   "greenHa": 42.9,
+   "parks": [
+    "浜離宮恩賜庭園",
+    "芝公園",
+    "旧芝離宮恩賜庭園"
+   ]
+  },
+  "daishimae": {
+   "greenHa": 2.1,
+   "parks": [
+    "西新井みどり公園",
+    "西新井さかえ公園"
+   ]
+  },
+  "daitabashi": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "den-en-chofu": {
+   "greenHa": 11.4,
+   "parks": [
+    "多摩川台公園",
+    "田園調布せせらぎ公園",
+    "宝来公園"
+   ]
+  },
+  "ebara-machi": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "ebara-nakanobu": {
+   "greenHa": 1.8,
+   "parks": [
+    "戸越公園"
+   ]
+  },
+  "ebisu": {
+   "greenHa": 2.2,
+   "parks": [
+    "中目黒公園"
+   ]
+  },
+  "edogawa": {
+   "greenHa": 44.0,
+   "parks": [
+    "小岩緑地",
+    "小岩菖蒲園"
+   ]
+  },
+  "edogawabashi": {
+   "greenHa": 3.2,
+   "parks": [
+    "新江戸川公園",
+    "江戸川公園"
+   ]
+  },
+  "eifukucho": {
+   "greenHa": 24.0,
+   "parks": [
+    "杉並区の和田堀公園",
+    "玉川上水第三公園"
+   ]
+  },
+  "ekoda": {
+   "greenHa": 5.9,
+   "parks": [
+    "江古田の森公園"
+   ]
+  },
+  "etchujima": {
+   "greenHa": 12.8,
+   "parks": [
+    "石川島公園",
+    "佃・新川公園",
+    "新月島公園"
+   ]
+  },
+  "fudo-mae": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "fujimidai": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "fujimigaoka": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "funabori": {
+   "greenHa": 5.8,
+   "parks": [
+    "宇喜田公園"
+   ]
+  },
+  "futako-tamagawa": {
+   "greenHa": 24.2,
+   "parks": [
+    "多摩川二子橋公園",
+    "兵庫島公園"
+   ]
+  },
+  "gaiemmae": {
+   "greenHa": 9.6,
+   "parks": [
+    "明治公園",
+    "青山公園"
+   ]
+  },
+  "gakugei-daigaku": {
+   "greenHa": 4.4,
+   "parks": [
+    "碑文谷公園"
+   ]
+  },
+  "gakushuinshita": {
+   "greenHa": 7.8,
+   "parks": [
+    "目白台運動公園",
+    "新江戸川公園",
+    "おとめ山公園"
+   ]
+  },
+  "ginza": {
+   "greenHa": 118.3,
+   "parks": [
+    "皇居外苑",
+    "浜離宮恩賜庭園",
+    "日比谷公園"
+   ]
+  },
+  "gokokuji": {
+   "greenHa": 9.9,
+   "parks": [
+    "目白台運動公園",
+    "教育の森公園",
+    "新江戸川公園"
+   ]
+  },
+  "gotanda": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "gotanno": {
+   "greenHa": 12.3,
+   "parks": [
+    "荒川千住新橋緑地"
+   ]
+  },
+  "gotokuji": {
+   "greenHa": 9.4,
+   "parks": [
+    "羽根木公園",
+    "若林公園"
+   ]
+  },
+  "hachiman-yama": {
+   "greenHa": 10.9,
+   "parks": [
+    "蘆花恒春園",
+    "塚山公園"
+   ]
+  },
+  "hakusan": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "hamacho": {
+   "greenHa": 4.7,
+   "parks": [
+    "隅田川公園"
+   ]
+  },
+  "hamadayama": {
+   "greenHa": 7.2,
+   "parks": [
+    "柏の宮公園",
+    "塚山公園"
+   ]
+  },
+  "hamamatsucho": {
+   "greenHa": 42.9,
+   "parks": [
+    "浜離宮恩賜庭園",
+    "芝公園",
+    "旧芝離宮恩賜庭園"
+   ]
+  },
+  "haneda-airport-terminal-1-2": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "haneda-airport-terminal-3": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "hanzomon": {
+   "greenHa": 69.3,
+   "parks": [
+    "北の丸公園",
+    "外濠公園",
+    "千鳥ヶ淵公園"
+   ]
+  },
+  "hasune": {
+   "greenHa": 4.6,
+   "parks": [
+    "城北公園",
+    "舟渡水辺公園"
+   ]
+  },
+  "hasunuma": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "hatagaya": {
+   "greenHa": 1.5,
+   "parks": [
+    "代々木大山公園"
+   ]
+  },
+  "hatanodai": {
+   "greenHa": 1.1,
+   "parks": [
+    "小池公園"
+   ]
+  },
+  "hatchobori": {
+   "greenHa": 8.6,
+   "parks": [
+    "石川島公園",
+    "佃・新川公園",
+    "築地公園"
+   ]
+  },
+  "hatsudai": {
+   "greenHa": 62.9,
+   "parks": [
+    "代々木公園",
+    "新宿中央公園"
+   ]
+  },
+  "heiwadai": {
+   "greenHa": 2.0,
+   "parks": [
+    "田柄川緑道"
+   ]
+  },
+  "heiwajima": {
+   "greenHa": 41.7,
+   "parks": [
+    "大森ふるさとの浜辺公園",
+    "大田区の平和の森公園",
+    "平和の森公園"
+   ]
+  },
+  "higashi-azuma": {
+   "greenHa": 10.3,
+   "parks": [
+    "亀戸中央公園"
+   ]
+  },
+  "higashi-ginza": {
+   "greenHa": 119.5,
+   "parks": [
+    "皇居外苑",
+    "浜離宮恩賜庭園",
+    "日比谷公園"
+   ]
+  },
+  "higashi-ikebukuro": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "higashi-jujo": {
+   "greenHa": 12.1,
+   "parks": [
+    "北区の中央公園",
+    "名主の滝公園",
+    "北区の清水坂公園"
+   ]
+  },
+  "higashi-kitazawa": {
+   "greenHa": 9.5,
+   "parks": [
+    "駒場公園",
+    "駒場野公園",
+    "代々木大山公園"
+   ]
+  },
+  "higashi-koenji": {
+   "greenHa": 2.7,
+   "parks": [
+    "蚕糸の森公園"
+   ]
+  },
+  "higashi-matsubara": {
+   "greenHa": 8.0,
+   "parks": [
+    "羽根木公園"
+   ]
+  },
+  "higashi-mukojima": {
+   "greenHa": 24.7,
+   "parks": [
+    "荒川四ツ木橋緑地",
+    "東白鬚公園",
+    "堤通公園"
+   ]
+  },
+  "higashi-nagasaki": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "higashi-nakano": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "higashi-ogu-sanchome": {
+   "greenHa": 20.8,
+   "parks": [
+    "荒川江北橋緑地",
+    "尾久の原公園"
+   ]
+  },
+  "higashi-ojima": {
+   "greenHa": 49.4,
+   "parks": [
+    "大島小松川公園",
+    "仙台堀川",
+    "荒川・砂町水辺"
+   ]
+  },
+  "higashi-shinjuku": {
+   "greenHa": 18.7,
+   "parks": [
+    "戸山公園"
+   ]
+  },
+  "hikarigaoka": {
+   "greenHa": 75.6,
+   "parks": [
+    "光が丘公園",
+    "夏の雲公園",
+    "四季の香公園"
+   ]
+  },
+  "hikawadai": {
+   "greenHa": 28.4,
+   "parks": [
+    "城北中央公園",
+    "高稲荷公園",
+    "茂呂山公園"
+   ]
+  },
+  "hikifune": {
+   "greenHa": 3.7,
+   "parks": [
+    "堤通公園",
+    "銅像堀公園",
+    "向島百花園"
+   ]
+  },
+  "hinode": {
+   "greenHa": 7.8,
+   "parks": [
+    "旧芝離宮恩賜庭園",
+    "晴海ふ頭公園"
+   ]
+  },
+  "hirai": {
+   "greenHa": 22.4,
+   "parks": [
+    "亀戸中央公園",
+    "平井運動公園",
+    "小松川運動公園"
+   ]
+  },
+  "hiro-o": {
+   "greenHa": 6.7,
+   "parks": [
+    "有栖川宮記念公園"
+   ]
+  },
+  "hon-komagome": {
+   "greenHa": 8.8,
+   "parks": [
+    "六義園"
+   ]
+  },
+  "honancho": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "hongo-sanchome": {
+   "greenHa": 8.9,
+   "parks": [
+    "小石川後楽園",
+    "旧岩崎邸庭園"
+   ]
+  },
+  "honjo-azumabashi": {
+   "greenHa": 27.4,
+   "parks": [
+    "台東区の隅田公園",
+    "墨田区の隅田公園",
+    "大横川親水公園"
+   ]
+  },
+  "horikiri": {
+   "greenHa": 38.7,
+   "parks": [
+    "汐入公園",
+    "荒川四ツ木橋緑地",
+    "東白鬚公園"
+   ]
+  },
+  "horikirishobuen": {
+   "greenHa": 4.8,
+   "parks": [
+    "堀切水辺公園",
+    "荒川小菅緑地公園"
+   ]
+  },
+  "ichigaya": {
+   "greenHa": 66.6,
+   "parks": [
+    "北の丸公園",
+    "外濠公園"
+   ]
+  },
+  "ichinoe": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "iidabashi": {
+   "greenHa": 73.7,
+   "parks": [
+    "北の丸公園",
+    "小石川後楽園",
+    "外濠公園"
+   ]
+  },
+  "ikebukuro": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "ikegami": {
+   "greenHa": 2.8,
+   "parks": [
+    "本門寺公園"
+   ]
+  },
+  "ikejiri-ohashi": {
+   "greenHa": 25.3,
+   "parks": [
+    "世田谷公園",
+    "烏山川緑道",
+    "駒場野公園"
+   ]
+  },
+  "ikenoue": {
+   "greenHa": 16.5,
+   "parks": [
+    "烏山川緑道",
+    "駒場公園",
+    "駒場野公園"
+   ]
+  },
+  "inaricho": {
+   "greenHa": 53.9,
+   "parks": [
+    "上野恩賜公園"
+   ]
+  },
+  "iogi": {
+   "greenHa": 5.2,
+   "parks": [
+    "井草森公園",
+    "妙正寺公園"
+   ]
+  },
+  "iriya": {
+   "greenHa": 53.9,
+   "parks": [
+    "上野恩賜公園"
+   ]
+  },
+  "ishikawadai": {
+   "greenHa": 10.2,
+   "parks": [
+    "洗足池公園",
+    "東調布公園"
+   ]
+  },
+  "itabashi": {
+   "greenHa": 7.9,
+   "parks": [
+    "北区の中央公園"
+   ]
+  },
+  "itabashi-kuyakushomae": {
+   "greenHa": 2.5,
+   "parks": [
+    "東板橋公園"
+   ]
+  },
+  "itabashihoncho": {
+   "greenHa": 2.5,
+   "parks": [
+    "東板橋公園"
+   ]
+  },
+  "iwamotocho": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "jimbocho": {
+   "greenHa": 62.8,
+   "parks": [
+    "北の丸公園"
+   ]
+  },
+  "jiyugaoka": {
+   "greenHa": 1.7,
+   "parks": [
+    "呑川本流緑道"
+   ]
+  },
+  "jujo": {
+   "greenHa": 14.6,
+   "parks": [
+    "北区の中央公園",
+    "東板橋公園",
+    "名主の滝公園"
+   ]
+  },
+  "kachidoki": {
+   "greenHa": 6.5,
+   "parks": [
+    "豊海運動公園",
+    "新月島公園",
+    "築地公園"
+   ]
+  },
+  "kagurazaka": {
+   "greenHa": 1.3,
+   "parks": [
+    "江戸川公園"
+   ]
+  },
+  "kajiwara": {
+   "greenHa": 17.1,
+   "parks": [
+    "飛鳥山公園",
+    "荒川遊園",
+    "旧古河庭園"
+   ]
+  },
+  "kamata": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "kameari": {
+   "greenHa": 15.3,
+   "parks": [
+    "足立区の中川公園",
+    "曳舟川親水公園"
+   ]
+  },
+  "kameido": {
+   "greenHa": 35.7,
+   "parks": [
+    "猿江恩賜公園",
+    "亀戸中央公園",
+    "錦糸公園"
+   ]
+  },
+  "kameidosuijin": {
+   "greenHa": 15.6,
+   "parks": [
+    "亀戸中央公園",
+    "竪川河川敷"
+   ]
+  },
+  "kami-igusa": {
+   "greenHa": 4.0,
+   "parks": [
+    "井草森公園"
+   ]
+  },
+  "kami-itabashi": {
+   "greenHa": 27.9,
+   "parks": [
+    "城北中央公園",
+    "板橋区平和公園"
+   ]
+  },
+  "kami-kitazawa": {
+   "greenHa": 8.5,
+   "parks": [
+    "柏の宮公園",
+    "塚山公園",
+    "玉川上水第二公園"
+   ]
+  },
+  "kami-nakazato": {
+   "greenHa": 12.0,
+   "parks": [
+    "飛鳥山公園",
+    "旧古河庭園",
+    "滝野川公園"
+   ]
+  },
+  "kami-shakujii": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "kamimachi": {
+   "greenHa": 1.4,
+   "parks": [
+    "若林公園"
+   ]
+  },
+  "kaminoge": {
+   "greenHa": 6.9,
+   "parks": [
+    "玉川野毛町公園",
+    "等々力渓谷公園"
+   ]
+  },
+  "kamiyacho": {
+   "greenHa": 13.6,
+   "parks": [
+    "芝公園"
+   ]
+  },
+  "kanamachi": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "kanamecho": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "kanda": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "kanegafuchi": {
+   "greenHa": 36.6,
+   "parks": [
+    "汐入公園",
+    "荒川四ツ木橋緑地",
+    "東白鬚公園"
+   ]
+  },
+  "kasai": {
+   "greenHa": 1.1,
+   "parks": [
+    "宇喜田東公園"
+   ]
+  },
+  "kasai-rinkai-koen": {
+   "greenHa": 129.4,
+   "parks": [
+    "葛西臨海公園",
+    "総合レクリエーション公園",
+    "葛西海浜公園"
+   ]
+  },
+  "kasuga": {
+   "greenHa": 7.1,
+   "parks": [
+    "小石川後楽園"
+   ]
+  },
+  "kasumigaseki": {
+   "greenHa": 91.9,
+   "parks": [
+    "皇居外苑",
+    "日比谷公園"
+   ]
+  },
+  "kayabacho": {
+   "greenHa": 6.0,
+   "parks": [
+    "石川島公園",
+    "佃・新川公園"
+   ]
+  },
+  "keikyu-kamata": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "keisei-hikifune": {
+   "greenHa": 3.7,
+   "parks": [
+    "堤通公園",
+    "銅像堀公園",
+    "向島百花園"
+   ]
+  },
+  "keisei-koiwa": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "keisei-takasago": {
+   "greenHa": 1.6,
+   "parks": [
+    "高砂北公園"
+   ]
+  },
+  "keisei-tateishi": {
+   "greenHa": 4.6,
+   "parks": [
+    "東立石緑地公園",
+    "渋江公園"
+   ]
+  },
+  "keisei-ueno": {
+   "greenHa": 55.7,
+   "parks": [
+    "上野恩賜公園",
+    "旧岩崎邸庭園"
+   ]
+  },
+  "kiba": {
+   "greenHa": 31.3,
+   "parks": [
+    "木場公園",
+    "豊住",
+    "木場親水"
+   ]
+  },
+  "kikukawa": {
+   "greenHa": 39.9,
+   "parks": [
+    "木場公園",
+    "猿江恩賜公園",
+    "竪川親水公園"
+   ]
+  },
+  "kinshicho": {
+   "greenHa": 21.4,
+   "parks": [
+    "猿江恩賜公園",
+    "錦糸公園",
+    "竪川親水公園"
+   ]
+  },
+  "kita-akabane": {
+   "greenHa": 11.1,
+   "parks": [
+    "桐ヶ丘中央公園",
+    "荒川赤羽緑地",
+    "赤羽緑道公園"
+   ]
+  },
+  "kita-ayase": {
+   "greenHa": 21.8,
+   "parks": [
+    "東綾瀬公園",
+    "しょうぶ沼公園",
+    "大谷田公園"
+   ]
+  },
+  "kita-ikebukuro": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "kita-sando": {
+   "greenHa": 63.2,
+   "parks": [
+    "新宿御苑",
+    "明治公園"
+   ]
+  },
+  "kita-senju": {
+   "greenHa": 2.8,
+   "parks": [
+    "千住スポーツ公園",
+    "荒川日ノ出町緑地"
+   ]
+  },
+  "kita-senzoku": {
+   "greenHa": 8.8,
+   "parks": [
+    "洗足池公園",
+    "小池公園"
+   ]
+  },
+  "kitashinagawa": {
+   "greenHa": 8.6,
+   "parks": [
+    "東品川海上公園",
+    "天王洲公園"
+   ]
+  },
+  "kiyosumi-shirakawa": {
+   "greenHa": 35.8,
+   "parks": [
+    "木場公園",
+    "清澄庭園",
+    "木場親水"
+   ]
+  },
+  "kodemmacho": {
+   "greenHa": 4.7,
+   "parks": [
+    "隅田川公園"
+   ]
+  },
+  "koenji": {
+   "greenHa": 1.9,
+   "parks": [
+    "馬橋公園"
+   ]
+  },
+  "kohoku": {
+   "greenHa": 1.6,
+   "parks": [
+    "上沼田東公園"
+   ]
+  },
+  "koiwa": {
+   "greenHa": 42.1,
+   "parks": [
+    "小岩緑地"
+   ]
+  },
+  "kojimachi": {
+   "greenHa": 65.4,
+   "parks": [
+    "北の丸公園",
+    "千鳥ヶ淵公園",
+    "千代田区の清水谷公園"
+   ]
+  },
+  "kojiya": {
+   "greenHa": 11.2,
+   "parks": [
+    "萩中公園",
+    "多摩川大師橋緑地"
+   ]
+  },
+  "kokkai-gijidomae": {
+   "greenHa": 91.9,
+   "parks": [
+    "皇居外苑",
+    "日比谷公園"
+   ]
+  },
+  "kokuritsu-kyogijo": {
+   "greenHa": 63.2,
+   "parks": [
+    "新宿御苑",
+    "明治公園"
+   ]
+  },
+  "kokusai-tenjijo": {
+   "greenHa": 51.9,
+   "parks": [
+    "シンボルプロムナード公園",
+    "東京臨海広域防災公園",
+    "有明親水海浜公園"
+   ]
+  },
+  "komaba-todaimae": {
+   "greenHa": 10.8,
+   "parks": [
+    "駒場公園",
+    "駒場野公園",
+    "北沢川緑道"
+   ]
+  },
+  "komagome": {
+   "greenHa": 14.7,
+   "parks": [
+    "六義園",
+    "旧古河庭園",
+    "滝野川公園"
+   ]
+  },
+  "komazawa-daigaku": {
+   "greenHa": 42.8,
+   "parks": [
+    "駒沢オリンピック公園",
+    "駒沢緑泉公園"
+   ]
+  },
+  "korakuen": {
+   "greenHa": 7.1,
+   "parks": [
+    "小石川後楽園"
+   ]
+  },
+  "koshinzuka": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "kosuge": {
+   "greenHa": 15.4,
+   "parks": [
+    "荒川千住新橋緑地",
+    "荒川小菅緑地公園",
+    "荒川日ノ出町緑地"
+   ]
+  },
+  "kotake-mukaihara": {
+   "greenHa": 1.0,
+   "parks": [
+    "茂呂山公園"
+   ]
+  },
+  "koya": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "kudanshita": {
+   "greenHa": 69.8,
+   "parks": [
+    "北の丸公園",
+    "小石川後楽園"
+   ]
+  },
+  "kugahara": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "kugayama": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "kuhombutsu": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "kumanomae": {
+   "greenHa": 25.9,
+   "parks": [
+    "荒川江北橋緑地",
+    "尾久の原公園",
+    "荒川遊園"
+   ]
+  },
+  "kuramae": {
+   "greenHa": 5.7,
+   "parks": [
+    "隅田川緑道",
+    "横網町公園",
+    "旧安田庭園"
+   ]
+  },
+  "kyobashi": {
+   "greenHa": 77.1,
+   "parks": [
+    "皇居外苑",
+    "築地公園"
+   ]
+  },
+  "kyodo": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "machiya": {
+   "greenHa": 7.7,
+   "parks": [
+    "尾久の原公園",
+    "荒川公園"
+   ]
+  },
+  "machiya-nichome": {
+   "greenHa": 7.7,
+   "parks": [
+    "尾久の原公園",
+    "荒川公園"
+   ]
+  },
+  "magome": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "matsubara": {
+   "greenHa": 1.2,
+   "parks": [
+    "玉川上水第三公園"
+   ]
+  },
+  "meguro": {
+   "greenHa": 1.0,
+   "parks": [
+    "目黒区民センター公園"
+   ]
+  },
+  "meidaimae": {
+   "greenHa": 1.2,
+   "parks": [
+    "玉川上水第三公園"
+   ]
+  },
+  "meiji-jingumae": {
+   "greenHa": 60.9,
+   "parks": [
+    "代々木公園",
+    "明治公園",
+    "渋谷区の宮下公園"
+   ]
+  },
+  "mejiro": {
+   "greenHa": 1.5,
+   "parks": [
+    "おとめ山公園"
+   ]
+  },
+  "midorigaoka": {
+   "greenHa": 9.4,
+   "parks": [
+    "洗足池公園",
+    "呑川本流緑道"
+   ]
+  },
+  "mikawashima": {
+   "greenHa": 1.5,
+   "parks": [
+    "荒川公園"
+   ]
+  },
+  "minami-asagaya": {
+   "greenHa": 18.4,
+   "parks": [
+    "善福寺川緑地"
+   ]
+  },
+  "minami-senju": {
+   "greenHa": 14.4,
+   "parks": [
+    "汐入公園",
+    "瑞光橋公園"
+   ]
+  },
+  "minami-shinjuku": {
+   "greenHa": 66.2,
+   "parks": [
+    "新宿御苑",
+    "新宿中央公園"
+   ]
+  },
+  "minami-sunamachi": {
+   "greenHa": 5.1,
+   "parks": [
+    "南砂三丁目",
+    "南砂緑道"
+   ]
+  },
+  "minowa": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "minowabashi": {
+   "greenHa": 1.5,
+   "parks": [
+    "荒川公園"
+   ]
+  },
+  "minumadai-shinsuikoen": {
+   "greenHa": 1.9,
+   "parks": [
+    "見沼代親水公園"
+   ]
+  },
+  "mita": {
+   "greenHa": 13.6,
+   "parks": [
+    "芝公園"
+   ]
+  },
+  "mitsukoshimae": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "miyanomae": {
+   "greenHa": 25.9,
+   "parks": [
+    "荒川江北橋緑地",
+    "尾久の原公園",
+    "荒川遊園"
+   ]
+  },
+  "miyanosaka": {
+   "greenHa": 1.4,
+   "parks": [
+    "若林公園"
+   ]
+  },
+  "mizue": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "monzen-nakacho": {
+   "greenHa": 45.1,
+   "parks": [
+    "木場公園",
+    "清澄庭園",
+    "石川島公園"
+   ]
+  },
+  "morishita": {
+   "greenHa": 12.8,
+   "parks": [
+    "清澄庭園",
+    "隅田川公園"
+   ]
+  },
+  "motohasunuma": {
+   "greenHa": 6.8,
+   "parks": [
+    "赤羽自然観察公園",
+    "見次公園"
+   ]
+  },
+  "mukohara": {
+   "greenHa": 1.5,
+   "parks": [
+    "文京区の大塚公園"
+   ]
+  },
+  "musashi-koyama": {
+   "greenHa": 12.1,
+   "parks": [
+    "林試の森公園"
+   ]
+  },
+  "musashi-nitta": {
+   "greenHa": 13.6,
+   "parks": [
+    "多摩川ガス橋緑地",
+    "下丸子公園"
+   ]
+  },
+  "musashi-seki": {
+   "greenHa": 4.9,
+   "parks": [
+    "武蔵関公園"
+   ]
+  },
+  "myogadani": {
+   "greenHa": 3.7,
+   "parks": [
+    "教育の森公園",
+    "文京区の大塚公園"
+   ]
+  },
+  "nagahara": {
+   "greenHa": 8.8,
+   "parks": [
+    "洗足池公園",
+    "小池公園"
+   ]
+  },
+  "nagatacho": {
+   "greenHa": 2.7,
+   "parks": [
+    "千鳥ヶ淵公園",
+    "千代田区の清水谷公園"
+   ]
+  },
+  "naka-itabashi": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "nakai": {
+   "greenHa": 5.2,
+   "parks": [
+    "落合中央公園",
+    "中野上高田公園",
+    "西落合公園"
+   ]
+  },
+  "nakameguro": {
+   "greenHa": 5.3,
+   "parks": [
+    "中目黒公園",
+    "菅刈公園",
+    "西郷山公園"
+   ]
+  },
+  "nakamurabashi": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "nakano": {
+   "greenHa": 1.0,
+   "parks": [
+    "新井薬師公園"
+   ]
+  },
+  "nakano-fujimicho": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "nakano-sakaue": {
+   "greenHa": 8.8,
+   "parks": [
+    "新宿中央公園"
+   ]
+  },
+  "nakano-shimbashi": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "nakanobu": {
+   "greenHa": 3.2,
+   "parks": [
+    "戸越公園",
+    "西大井広場公園"
+   ]
+  },
+  "narimasu": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "nerima": {
+   "greenHa": 1.1,
+   "parks": [
+    "学田公園"
+   ]
+  },
+  "nerima-kasugacho": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "nerima-takanodai": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "nezu": {
+   "greenHa": 55.7,
+   "parks": [
+    "上野恩賜公園",
+    "旧岩崎邸庭園"
+   ]
+  },
+  "nihombashi": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "nijubashimae": {
+   "greenHa": 91.9,
+   "parks": [
+    "皇居外苑",
+    "日比谷公園"
+   ]
+  },
+  "ningyocho": {
+   "greenHa": 7.4,
+   "parks": [
+    "隅田川公園",
+    "佃・新川公園"
+   ]
+  },
+  "nippori": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "nishi-eifuku": {
+   "greenHa": 31.3,
+   "parks": [
+    "杉並区の和田堀公園",
+    "柏の宮公園",
+    "塚山公園"
+   ]
+  },
+  "nishi-kasai": {
+   "greenHa": 11.7,
+   "parks": [
+    "宇喜田公園",
+    "行船公園",
+    "宇喜田中央公園"
+   ]
+  },
+  "nishi-koyama": {
+   "greenHa": 12.1,
+   "parks": [
+    "林試の森公園"
+   ]
+  },
+  "nishi-nippori": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "nishi-ogikubo": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "nishi-oi": {
+   "greenHa": 5.3,
+   "parks": [
+    "しながわ中央公園",
+    "戸越公園",
+    "西大井広場公園"
+   ]
+  },
+  "nishi-ojima": {
+   "greenHa": 21.0,
+   "parks": [
+    "猿江恩賜公園",
+    "竪川河川敷",
+    "竪川親水公園"
+   ]
+  },
+  "nishi-shinjuku": {
+   "greenHa": 8.8,
+   "parks": [
+    "新宿中央公園"
+   ]
+  },
+  "nishi-shinjuku-gochome": {
+   "greenHa": 8.8,
+   "parks": [
+    "新宿中央公園"
+   ]
+  },
+  "nishi-sugamo": {
+   "greenHa": 7.9,
+   "parks": [
+    "北区の中央公園"
+   ]
+  },
+  "nishi-taishido": {
+   "greenHa": 7.6,
+   "parks": [
+    "烏山川緑道",
+    "世田谷区の蛇崩川緑道"
+   ]
+  },
+  "nishi-takashimadaira": {
+   "greenHa": 26.9,
+   "parks": [
+    "赤塚公園",
+    "成増北第一公園"
+   ]
+  },
+  "nishi-waseda": {
+   "greenHa": 22.3,
+   "parks": [
+    "戸山公園",
+    "西戸山公園",
+    "甘泉園公園"
+   ]
+  },
+  "nishiarai": {
+   "greenHa": 2.3,
+   "parks": [
+    "ベルモント公園",
+    "西新井さかえ公園"
+   ]
+  },
+  "nishiaraidaishi-nishi": {
+   "greenHa": 5.7,
+   "parks": [
+    "上沼田東公園",
+    "谷在家公園",
+    "江北北部緑道公園"
+   ]
+  },
+  "nishidai": {
+   "greenHa": 12.8,
+   "parks": [
+    "高島平緑地",
+    "城北公園",
+    "舟渡水辺公園"
+   ]
+  },
+  "nishigahara": {
+   "greenHa": 12.0,
+   "parks": [
+    "飛鳥山公園",
+    "旧古河庭園",
+    "滝野川公園"
+   ]
+  },
+  "nishigahara-yonchome": {
+   "greenHa": 8.9,
+   "parks": [
+    "飛鳥山公園",
+    "滝野川公園"
+   ]
+  },
+  "nishimagome": {
+   "greenHa": 2.8,
+   "parks": [
+    "本門寺公園"
+   ]
+  },
+  "nogata": {
+   "greenHa": 5.5,
+   "parks": [
+    "中野区の平和の森公園"
+   ]
+  },
+  "nogizaka": {
+   "greenHa": 5.5,
+   "parks": [
+    "青山公園",
+    "檜町公園"
+   ]
+  },
+  "numabe": {
+   "greenHa": 12.2,
+   "parks": [
+    "多摩川台公園",
+    "田園調布せせらぎ公園",
+    "多摩川丸子橋緑地"
+   ]
+  },
+  "numabukuro": {
+   "greenHa": 11.7,
+   "parks": [
+    "中野区の平和の森公園",
+    "哲学堂公園",
+    "新井薬師公園"
+   ]
+  },
+  "ochanomizu": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "ochiai": {
+   "greenHa": 4.0,
+   "parks": [
+    "落合中央公園",
+    "中野上高田公園"
+   ]
+  },
+  "ochiai-minami-nagasaki": {
+   "greenHa": 8.3,
+   "parks": [
+    "哲学堂公園",
+    "中野上高田公園",
+    "西落合公園"
+   ]
+  },
+  "odai": {
+   "greenHa": 19.7,
+   "parks": [
+    "荒川江北橋緑地",
+    "荒川遊園"
+   ]
+  },
+  "odaiba-kaihinkoen": {
+   "greenHa": 56.6,
+   "parks": [
+    "シンボルプロムナード公園",
+    "潮風公園",
+    "お台場海浜公園"
+   ]
+  },
+  "ogi-ohashi": {
+   "greenHa": 14.6,
+   "parks": [
+    "荒川江北橋緑地"
+   ]
+  },
+  "ogikubo": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "ohanajaya": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "oi-keibajo-mae": {
+   "greenHa": 25.0,
+   "parks": [
+    "しながわ区民公園",
+    "京浜運河緑道公園",
+    "八潮公園"
+   ]
+  },
+  "oimachi": {
+   "greenHa": 3.5,
+   "parks": [
+    "しながわ中央公園",
+    "鮫洲運動公園"
+   ]
+  },
+  "oizumi-gakuen": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "oji": {
+   "greenHa": 18.9,
+   "parks": [
+    "北区の中央公園",
+    "飛鳥山公園",
+    "名主の滝公園"
+   ]
+  },
+  "oji-kamiya": {
+   "greenHa": 2.1,
+   "parks": [
+    "名主の滝公園"
+   ]
+  },
+  "ojima": {
+   "greenHa": 15.7,
+   "parks": [
+    "仙台堀川",
+    "竪川河川敷"
+   ]
+  },
+  "okachimachi": {
+   "greenHa": 55.7,
+   "parks": [
+    "上野恩賜公園",
+    "旧岩崎邸庭園"
+   ]
+  },
+  "oku": {
+   "greenHa": 9.7,
+   "parks": [
+    "荒川遊園",
+    "旧古河庭園",
+    "滝野川公園"
+   ]
+  },
+  "okubo": {
+   "greenHa": 2.2,
+   "parks": [
+    "西戸山公園"
+   ]
+  },
+  "okusawa": {
+   "greenHa": 1.7,
+   "parks": [
+    "呑川本流緑道"
+   ]
+  },
+  "omokagebashi": {
+   "greenHa": 25.0,
+   "parks": [
+    "戸山公園",
+    "目白台運動公園",
+    "新江戸川公園"
+   ]
+  },
+  "omori": {
+   "greenHa": 14.0,
+   "parks": [
+    "しながわ区民公園",
+    "大井水神公園"
+   ]
+  },
+  "omorikaigan": {
+   "greenHa": 41.7,
+   "parks": [
+    "しながわ区民公園",
+    "大田区の平和の森公園",
+    "平和の森公園"
+   ]
+  },
+  "omorimachi": {
+   "greenHa": 36.4,
+   "parks": [
+    "大森ふるさとの浜辺公園",
+    "大田区の平和の森公園",
+    "平和の森公園"
+   ]
+  },
+  "omote-sando": {
+   "greenHa": 1.1,
+   "parks": [
+    "渋谷区の宮下公園"
+   ]
+  },
+  "omurai": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "onarimon": {
+   "greenHa": 42.9,
+   "parks": [
+    "浜離宮恩賜庭園",
+    "芝公園",
+    "旧芝離宮恩賜庭園"
+   ]
+  },
+  "ontakesan": {
+   "greenHa": 4.5,
+   "parks": [
+    "東調布公園",
+    "多摩川丸子橋緑地"
+   ]
+  },
+  "ookayama": {
+   "greenHa": 9.4,
+   "parks": [
+    "洗足池公園",
+    "呑川本流緑道"
+   ]
+  },
+  "osaki": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "osaki-hirokoji": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "oshiage": {
+   "greenHa": 25.1,
+   "parks": [
+    "台東区の隅田公園",
+    "墨田区の隅田公園",
+    "大横川親水公園"
+   ]
+  },
+  "otemachi": {
+   "greenHa": 138.5,
+   "parks": [
+    "皇居外苑",
+    "北の丸公園"
+   ]
+  },
+  "otorii": {
+   "greenHa": 13.6,
+   "parks": [
+    "萩中公園",
+    "多摩川大師橋緑地",
+    "本羽田公園"
+   ]
+  },
+  "otsuka": {
+   "greenHa": 1.5,
+   "parks": [
+    "文京区の大塚公園"
+   ]
+  },
+  "oyama": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "oyamadai": {
+   "greenHa": 6.9,
+   "parks": [
+    "玉川野毛町公園",
+    "等々力渓谷公園"
+   ]
+  },
+  "roka-koen": {
+   "greenHa": 8.0,
+   "parks": [
+    "蘆花恒春園"
+   ]
+  },
+  "rokucho": {
+   "greenHa": 7.7,
+   "parks": [
+    "総合スポーツセンター公園",
+    "一ツ家第一公園"
+   ]
+  },
+  "rokugodote": {
+   "greenHa": 48.0,
+   "parks": [
+    "大田区の多摩川緑地",
+    "多摩川六郷橋緑地"
+   ]
+  },
+  "roppongi": {
+   "greenHa": 5.5,
+   "parks": [
+    "青山公園",
+    "檜町公園"
+   ]
+  },
+  "roppongi-itchome": {
+   "greenHa": 1.6,
+   "parks": [
+    "檜町公園"
+   ]
+  },
+  "ryogoku": {
+   "greenHa": 10.4,
+   "parks": [
+    "隅田川公園",
+    "隅田川緑道",
+    "横網町公園"
+   ]
+  },
+  "ryutsu-center": {
+   "greenHa": 77.1,
+   "parks": [
+    "東京港野鳥公園",
+    "大森ふるさとの浜辺公園",
+    "大田区の平和の森公園"
+   ]
+  },
+  "saginomiya": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "sakaecho": {
+   "greenHa": 12.0,
+   "parks": [
+    "飛鳥山公園",
+    "旧古河庭園",
+    "滝野川公園"
+   ]
+  },
+  "sakura-shimmachi": {
+   "greenHa": 1.5,
+   "parks": [
+    "駒沢緑泉公園"
+   ]
+  },
+  "sakuradai": {
+   "greenHa": 5.9,
+   "parks": [
+    "江古田の森公園"
+   ]
+  },
+  "sakuradamon": {
+   "greenHa": 93.5,
+   "parks": [
+    "皇居外苑",
+    "日比谷公園",
+    "千鳥ヶ淵公園"
+   ]
+  },
+  "sakurajosui": {
+   "greenHa": 5.4,
+   "parks": [
+    "塚山公園",
+    "玉川上水第二公園",
+    "玉川上水第三公園"
+   ]
+  },
+  "samezu": {
+   "greenHa": 12.7,
+   "parks": [
+    "京浜運河緑道公園",
+    "八潮公園",
+    "鮫洲運動公園"
+   ]
+  },
+  "sangen-jaya": {
+   "greenHa": 17.4,
+   "parks": [
+    "世田谷公園",
+    "烏山川緑道",
+    "世田谷区の蛇崩川緑道"
+   ]
+  },
+  "sangubashi": {
+   "greenHa": 54.1,
+   "parks": [
+    "代々木公園"
+   ]
+  },
+  "sasazuka": {
+   "greenHa": 1.5,
+   "parks": [
+    "代々木大山公園"
+   ]
+  },
+  "seibijo": {
+   "greenHa": 1.1,
+   "parks": [
+    "東糀谷第一公園"
+   ]
+  },
+  "seibu-shinjuku": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "seijogakuen-mae": {
+   "greenHa": 6.7,
+   "parks": [
+    "次大夫堀公園",
+    "成城三丁目緑地",
+    "成城みつ池緑地"
+   ]
+  },
+  "sendagaya": {
+   "greenHa": 63.2,
+   "parks": [
+    "新宿御苑",
+    "明治公園"
+   ]
+  },
+  "sendagi": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "sengakuji": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "sengoku": {
+   "greenHa": 10.0,
+   "parks": [
+    "六義園",
+    "六義公園"
+   ]
+  },
+  "senjuohashi": {
+   "greenHa": 1.8,
+   "parks": [
+    "千住スポーツ公園"
+   ]
+  },
+  "senkawa": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "senzoku": {
+   "greenHa": 7.7,
+   "parks": [
+    "洗足池公園"
+   ]
+  },
+  "senzoku-ike": {
+   "greenHa": 8.8,
+   "parks": [
+    "洗足池公園",
+    "小池公園"
+   ]
+  },
+  "setagaya": {
+   "greenHa": 1.4,
+   "parks": [
+    "若林公園"
+   ]
+  },
+  "setagaya-daita": {
+   "greenHa": 8.0,
+   "parks": [
+    "羽根木公園"
+   ]
+  },
+  "shakujii-koen": {
+   "greenHa": 20.1,
+   "parks": [
+    "石神井公園"
+   ]
+  },
+  "shibakoen": {
+   "greenHa": 17.9,
+   "parks": [
+    "芝公園",
+    "旧芝離宮恩賜庭園"
+   ]
+  },
+  "shibamata": {
+   "greenHa": 7.9,
+   "parks": [
+    "柴又公園",
+    "高砂北公園",
+    "新宿交通公園"
+   ]
+  },
+  "shibaura-futo": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "shibuya": {
+   "greenHa": 1.1,
+   "parks": [
+    "渋谷区の宮下公園"
+   ]
+  },
+  "shiinamachi": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "shijo-mae": {
+   "greenHa": 31.8,
+   "parks": [
+    "豊洲ぐるり公園",
+    "有明親水海浜公園",
+    "豊洲"
+   ]
+  },
+  "shim-mikawashima": {
+   "greenHa": 1.5,
+   "parks": [
+    "荒川公園"
+   ]
+  },
+  "shimbamba": {
+   "greenHa": 8.6,
+   "parks": [
+    "東品川海上公園",
+    "天王洲公園"
+   ]
+  },
+  "shimbashi": {
+   "greenHa": 41.2,
+   "parks": [
+    "浜離宮恩賜庭園",
+    "日比谷公園"
+   ]
+  },
+  "shimo": {
+   "greenHa": 3.5,
+   "parks": [
+    "北運動公園",
+    "赤羽公園"
+   ]
+  },
+  "shimo-igusa": {
+   "greenHa": 1.2,
+   "parks": [
+    "妙正寺公園"
+   ]
+  },
+  "shimo-itabashi": {
+   "greenHa": 2.5,
+   "parks": [
+    "東板橋公園"
+   ]
+  },
+  "shimo-kitazawa": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "shimo-ochiai": {
+   "greenHa": 5.9,
+   "parks": [
+    "西戸山公園",
+    "落合中央公園",
+    "おとめ山公園"
+   ]
+  },
+  "shimo-shimmei": {
+   "greenHa": 5.3,
+   "parks": [
+    "しながわ中央公園",
+    "戸越公園",
+    "西大井広場公園"
+   ]
+  },
+  "shimo-takaido": {
+   "greenHa": 1.2,
+   "parks": [
+    "玉川上水第三公園"
+   ]
+  },
+  "shimomaruko": {
+   "greenHa": 13.6,
+   "parks": [
+    "多摩川ガス橋緑地",
+    "下丸子公園"
+   ]
+  },
+  "shimura-sakaue": {
+   "greenHa": 8.4,
+   "parks": [
+    "小豆沢公園",
+    "見次公園"
+   ]
+  },
+  "shimura-sanchome": {
+   "greenHa": 10.9,
+   "parks": [
+    "小豆沢公園",
+    "城北公園",
+    "見次公園"
+   ]
+  },
+  "shin-egota": {
+   "greenHa": 5.9,
+   "parks": [
+    "江古田の森公園"
+   ]
+  },
+  "shin-itabashi": {
+   "greenHa": 10.4,
+   "parks": [
+    "北区の中央公園",
+    "東板橋公園"
+   ]
+  },
+  "shin-kiba": {
+   "greenHa": 64.1,
+   "parks": [
+    "夢の島公園",
+    "辰巳の森海浜公園"
+   ]
+  },
+  "shin-koenji": {
+   "greenHa": 2.7,
+   "parks": [
+    "蚕糸の森公園"
+   ]
+  },
+  "shin-koiwa": {
+   "greenHa": 8.6,
+   "parks": [
+    "新小岩公園",
+    "小松川境川親水公園"
+   ]
+  },
+  "shin-koshinzuka": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "shin-nakano": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "shin-okachimachi": {
+   "greenHa": 53.9,
+   "parks": [
+    "上野恩賜公園"
+   ]
+  },
+  "shin-okubo": {
+   "greenHa": 2.2,
+   "parks": [
+    "西戸山公園"
+   ]
+  },
+  "shin-otsuka": {
+   "greenHa": 3.7,
+   "parks": [
+    "教育の森公園",
+    "文京区の大塚公園"
+   ]
+  },
+  "shin-sakuradai": {
+   "greenHa": 5.9,
+   "parks": [
+    "江古田の森公園"
+   ]
+  },
+  "shin-seibijo": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "shin-shibamata": {
+   "greenHa": 6.8,
+   "parks": [
+    "柴又公園",
+    "高砂北公園"
+   ]
+  },
+  "shin-takashimadaira": {
+   "greenHa": 98.0,
+   "parks": [
+    "荒川戸田橋緑地",
+    "赤塚公園",
+    "高島平緑地"
+   ]
+  },
+  "shin-toyosu": {
+   "greenHa": 31.8,
+   "parks": [
+    "豊洲ぐるり公園",
+    "有明親水海浜公園",
+    "豊洲"
+   ]
+  },
+  "shinagawa": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "shinagawa-seaside": {
+   "greenHa": 18.2,
+   "parks": [
+    "京浜運河緑道公園",
+    "東品川海上公園",
+    "八潮公園"
+   ]
+  },
+  "shinanomachi": {
+   "greenHa": 63.2,
+   "parks": [
+    "新宿御苑",
+    "明治公園"
+   ]
+  },
+  "shindaita": {
+   "greenHa": 8.0,
+   "parks": [
+    "羽根木公園"
+   ]
+  },
+  "shinjuku": {
+   "greenHa": 66.2,
+   "parks": [
+    "新宿御苑",
+    "新宿中央公園"
+   ]
+  },
+  "shinjuku-gyoemmae": {
+   "greenHa": 57.4,
+   "parks": [
+    "新宿御苑"
+   ]
+  },
+  "shinjuku-nishiguchi": {
+   "greenHa": 66.2,
+   "parks": [
+    "新宿御苑",
+    "新宿中央公園"
+   ]
+  },
+  "shinjuku-sanchome": {
+   "greenHa": 57.4,
+   "parks": [
+    "新宿御苑"
+   ]
+  },
+  "shinonome": {
+   "greenHa": 14.9,
+   "parks": [
+    "東京臨海広域防災公園",
+    "東雲水辺"
+   ]
+  },
+  "shinozaki": {
+   "greenHa": 31.4,
+   "parks": [
+    "篠崎公園",
+    "ポニーランド"
+   ]
+  },
+  "shinsen": {
+   "greenHa": 4.1,
+   "parks": [
+    "菅刈公園",
+    "渋谷区の宮下公園",
+    "西郷山公園"
+   ]
+  },
+  "shiodome": {
+   "greenHa": 45.5,
+   "parks": [
+    "浜離宮恩賜庭園",
+    "日比谷公園",
+    "旧芝離宮恩賜庭園"
+   ]
+  },
+  "shiomi": {
+   "greenHa": 68.1,
+   "parks": [
+    "夢の島公園",
+    "辰巳の森海浜公園",
+    "潮見運動"
+   ]
+  },
+  "shirokane-takanawa": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "shirokanedai": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "shoin-jinja-mae": {
+   "greenHa": 1.4,
+   "parks": [
+    "若林公園"
+   ]
+  },
+  "showajima": {
+   "greenHa": 12.8,
+   "parks": [
+    "大森ふるさとの浜辺公園"
+   ]
+  },
+  "soshigaya-okura": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "suehirocho": {
+   "greenHa": 55.7,
+   "parks": [
+    "上野恩賜公園",
+    "旧岩崎邸庭園"
+   ]
+  },
+  "sugamo": {
+   "greenHa": 10.0,
+   "parks": [
+    "六義園",
+    "六義公園"
+   ]
+  },
+  "sugamoshinden": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "suidobashi": {
+   "greenHa": 69.8,
+   "parks": [
+    "北の丸公園",
+    "小石川後楽園"
+   ]
+  },
+  "sumiyoshi": {
+   "greenHa": 26.6,
+   "parks": [
+    "猿江恩賜公園",
+    "錦糸公園",
+    "竪川河川敷"
+   ]
+  },
+  "tabata": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "tachiaigawa": {
+   "greenHa": 16.5,
+   "parks": [
+    "しながわ区民公園",
+    "鮫洲運動公園",
+    "大井水神公園"
+   ]
+  },
+  "takadanobaba": {
+   "greenHa": 5.9,
+   "parks": [
+    "西戸山公園",
+    "落合中央公園",
+    "おとめ山公園"
+   ]
+  },
+  "takaido": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "takanawa-gateway": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "takanawadai": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "takashimadaira": {
+   "greenHa": 98.0,
+   "parks": [
+    "荒川戸田橋緑地",
+    "赤塚公園",
+    "高島平緑地"
+   ]
+  },
+  "takebashi": {
+   "greenHa": 138.5,
+   "parks": [
+    "皇居外苑",
+    "北の丸公園"
+   ]
+  },
+  "takenotsuka": {
+   "greenHa": 2.5,
+   "parks": [
+    "諏訪木東公園",
+    "栗六公園"
+   ]
+  },
+  "takeshiba": {
+   "greenHa": 34.8,
+   "parks": [
+    "浜離宮恩賜庭園",
+    "旧芝離宮恩賜庭園",
+    "晴海ふ頭公園"
+   ]
+  },
+  "takinogawa-itchome": {
+   "greenHa": 16.8,
+   "parks": [
+    "北区の中央公園",
+    "飛鳥山公園",
+    "滝野川公園"
+   ]
+  },
+  "tamachi": {
+   "greenHa": 13.6,
+   "parks": [
+    "芝公園"
+   ]
+  },
+  "tamagawa": {
+   "greenHa": 13.4,
+   "parks": [
+    "多摩川台公園",
+    "田園調布せせらぎ公園",
+    "多摩川丸子橋緑地"
+   ]
+  },
+  "tameike-sanno": {
+   "greenHa": 1.1,
+   "parks": [
+    "千代田区の清水谷公園"
+   ]
+  },
+  "tatsumi": {
+   "greenHa": 65.8,
+   "parks": [
+    "夢の島公園",
+    "辰巳の森海浜公園",
+    "東雲水辺"
+   ]
+  },
+  "tawaramachi": {
+   "greenHa": 2.3,
+   "parks": [
+    "隅田川緑道"
+   ]
+  },
+  "telecom-center": {
+   "greenHa": 41.3,
+   "parks": [
+    "シンボルプロムナード公園",
+    "潮風公園"
+   ]
+  },
+  "tenkubashi": {
+   "greenHa": 1.1,
+   "parks": [
+    "東糀谷第一公園"
+   ]
+  },
+  "tennozu-isle": {
+   "greenHa": 10.5,
+   "parks": [
+    "東品川海上公園",
+    "天王洲公園",
+    "港南緑水公園"
+   ]
+  },
+  "tobu-nerima": {
+   "greenHa": 2.0,
+   "parks": [
+    "田柄川緑道"
+   ]
+  },
+  "tochomae": {
+   "greenHa": 8.8,
+   "parks": [
+    "新宿中央公園"
+   ]
+  },
+  "todaimae": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "toden-zoshigaya": {
+   "greenHa": 3.0,
+   "parks": [
+    "目白台運動公園"
+   ]
+  },
+  "todoroki": {
+   "greenHa": 17.7,
+   "parks": [
+    "多摩川遊園",
+    "玉川野毛町公園",
+    "等々力渓谷公園"
+   ]
+  },
+  "togoshi": {
+   "greenHa": 1.8,
+   "parks": [
+    "戸越公園"
+   ]
+  },
+  "togoshi-koen": {
+   "greenHa": 5.3,
+   "parks": [
+    "しながわ中央公園",
+    "戸越公園",
+    "西大井広場公園"
+   ]
+  },
+  "tokiwadai": {
+   "greenHa": 1.9,
+   "parks": [
+    "板橋区平和公園"
+   ]
+  },
+  "tokyo": {
+   "greenHa": 75.7,
+   "parks": [
+    "皇居外苑"
+   ]
+  },
+  "tokyo-big-sight": {
+   "greenHa": 39.0,
+   "parks": [
+    "シンボルプロムナード公園",
+    "東京臨海広域防災公園"
+   ]
+  },
+  "tokyo-international-cruise-terminal": {
+   "greenHa": 52.5,
+   "parks": [
+    "シンボルプロムナード公園",
+    "潮風公園",
+    "お台場海浜公園"
+   ]
+  },
+  "tokyo-skytree": {
+   "greenHa": 25.1,
+   "parks": [
+    "台東区の隅田公園",
+    "墨田区の隅田公園",
+    "大横川親水公園"
+   ]
+  },
+  "tokyo-teleport": {
+   "greenHa": 56.6,
+   "parks": [
+    "シンボルプロムナード公園",
+    "潮風公園",
+    "お台場海浜公園"
+   ]
+  },
+  "toneri": {
+   "greenHa": 67.3,
+   "parks": [
+    "舎人公園",
+    "入谷緑地公園",
+    "見沼代親水公園"
+   ]
+  },
+  "toneri-koen": {
+   "greenHa": 66.5,
+   "parks": [
+    "舎人公園",
+    "入谷緑地公園",
+    "江北北部緑道公園"
+   ]
+  },
+  "toranomon": {
+   "greenHa": 91.9,
+   "parks": [
+    "皇居外苑",
+    "日比谷公園"
+   ]
+  },
+  "toritsu-daigaku": {
+   "greenHa": 6.1,
+   "parks": [
+    "碑文谷公園",
+    "呑川本流緑道"
+   ]
+  },
+  "toritsu-kasei": {
+   "greenHa": 1.1,
+   "parks": [
+    "学田公園"
+   ]
+  },
+  "toshimaen": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "toyocho": {
+   "greenHa": 32.4,
+   "parks": [
+    "木場公園",
+    "横十間川親水",
+    "豊住"
+   ]
+  },
+  "toyosu": {
+   "greenHa": 6.9,
+   "parks": [
+    "豊洲",
+    "新月島公園",
+    "豊洲六丁目"
+   ]
+  },
+  "tsukiji": {
+   "greenHa": 27.6,
+   "parks": [
+    "浜離宮恩賜庭園",
+    "築地公園",
+    "あかつき公園"
+   ]
+  },
+  "tsukijishijo": {
+   "greenHa": 27.6,
+   "parks": [
+    "浜離宮恩賜庭園",
+    "築地公園",
+    "あかつき公園"
+   ]
+  },
+  "tsukishima": {
+   "greenHa": 9.4,
+   "parks": [
+    "石川島公園",
+    "新月島公園",
+    "越中島"
+   ]
+  },
+  "uchisaiwaicho": {
+   "greenHa": 116.9,
+   "parks": [
+    "皇居外苑",
+    "浜離宮恩賜庭園",
+    "日比谷公園"
+   ]
+  },
+  "ueno": {
+   "greenHa": 55.7,
+   "parks": [
+    "上野恩賜公園",
+    "旧岩崎邸庭園"
+   ]
+  },
+  "uguisudani": {
+   "greenHa": 53.9,
+   "parks": [
+    "上野恩賜公園"
+   ]
+  },
+  "ukimafunado": {
+   "greenHa": 11.7,
+   "parks": [
+    "浮間公園"
+   ]
+  },
+  "umegaoka": {
+   "greenHa": 9.4,
+   "parks": [
+    "羽根木公園",
+    "若林公園"
+   ]
+  },
+  "umejima": {
+   "greenHa": 2.3,
+   "parks": [
+    "ベルモント公園",
+    "西新井さかえ公園"
+   ]
+  },
+  "umeyashiki": {
+   "greenHa": 2.2,
+   "parks": [
+    "旧呑川緑地"
+   ]
+  },
+  "unoki": {
+   "greenHa": 1.3,
+   "parks": [
+    "下丸子公園"
+   ]
+  },
+  "ushida": {
+   "greenHa": 16.0,
+   "parks": [
+    "汐入公園",
+    "荒川小菅緑地公園",
+    "荒川日ノ出町緑地"
+   ]
+  },
+  "ushigome-kagurazaka": {
+   "greenHa": 3.9,
+   "parks": [
+    "外濠公園"
+   ]
+  },
+  "ushigome-yanagicho": {
+   "greenHa": 18.7,
+   "parks": [
+    "戸山公園"
+   ]
+  },
+  "wakabayashi": {
+   "greenHa": 1.4,
+   "parks": [
+    "若林公園"
+   ]
+  },
+  "wakamatsu-kawada": {
+   "greenHa": 18.7,
+   "parks": [
+    "戸山公園"
+   ]
+  },
+  "waseda": {
+   "greenHa": 26.3,
+   "parks": [
+    "戸山公園",
+    "目白台運動公園",
+    "新江戸川公園"
+   ]
+  },
+  "waseda-toden": {
+   "greenHa": 26.3,
+   "parks": [
+    "戸山公園",
+    "目白台運動公園",
+    "新江戸川公園"
+   ]
+  },
+  "yaguchi-no-watashi": {
+   "greenHa": 2.5,
+   "parks": [
+    "多摩川大橋緑地"
+   ]
+  },
+  "yahiro": {
+   "greenHa": 10.7,
+   "parks": [
+    "荒川四ツ木橋緑地"
+   ]
+  },
+  "yazaike": {
+   "greenHa": 69.8,
+   "parks": [
+    "舎人公園",
+    "上沼田東公園",
+    "谷在家公園"
+   ]
+  },
+  "yoga": {
+   "greenHa": 39.2,
+   "parks": [
+    "砧公園"
+   ]
+  },
+  "yotsugi": {
+   "greenHa": 12.3,
+   "parks": [
+    "荒川四ツ木橋緑地",
+    "渋江公園"
+   ]
+  },
+  "yotsuya": {
+   "greenHa": 1.1,
+   "parks": [
+    "千代田区の清水谷公園"
+   ]
+  },
+  "yotsuya-sanchome": {
+   "greenHa": 57.4,
+   "parks": [
+    "新宿御苑"
+   ]
+  },
+  "yoyogi": {
+   "greenHa": 57.4,
+   "parks": [
+    "新宿御苑"
+   ]
+  },
+  "yoyogi-hachiman": {
+   "greenHa": 54.1,
+   "parks": [
+    "代々木公園"
+   ]
+  },
+  "yoyogi-uehara": {
+   "greenHa": 59.6,
+   "parks": [
+    "代々木公園",
+    "駒場公園",
+    "代々木大山公園"
+   ]
+  },
+  "yukigaya-otsuka": {
+   "greenHa": 6.0,
+   "parks": [
+    "田園調布せせらぎ公園",
+    "東調布公園"
+   ]
+  },
+  "yurakucho": {
+   "greenHa": 91.9,
+   "parks": [
+    "皇居外苑",
+    "日比谷公園"
+   ]
+  },
+  "yushima": {
+   "greenHa": 55.7,
+   "parks": [
+    "上野恩賜公園",
+    "旧岩崎邸庭園"
+   ]
+  },
+  "yutenji": {
+   "greenHa": 0.0,
+   "parks": []
+  },
+  "zoshigaya": {
+   "greenHa": 4.5,
+   "parks": [
+    "目白台運動公園",
+    "甘泉園公園"
+   ]
+  },
+  "zoshiki": {
+   "greenHa": 12.9,
+   "parks": [
+    "多摩川六郷橋緑地"
+   ]
+  }
+ }
+}

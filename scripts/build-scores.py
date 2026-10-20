@@ -10,7 +10,7 @@
   transitConvenience 路線数と事業者の多様性
   shopping           徒歩圏のスーパーの数と価格帯の幅
   healthcare         徒歩圏のクリニック・薬局と、総合病院までの距離
-  nature             徒歩圏の公園の数
+  nature             徒歩圏の広い公園の面積（7割）と、公園の数（3割）
   food / cafe / nightlife / fitness  徒歩圏の飲食店・カフェ・酒場・ジムの数
   rentValue / rentLow  通勤の速さに対する家賃の安さと、絶対額の安さ
   quietness          人の音（駅から300m以内の飲み屋・飲食店の数と、用途地域の容積率）と、
@@ -263,6 +263,8 @@ def main():
         return doc[key] if key else doc
 
     terrain = computed("terrain.json", "stations")
+    # 駅から1km以内の広い公園の面積（scripts/build-green.py）
+    green = computed("green.json", "stations")
     roads = computed("roads.json", "stations")
     hazard = computed("hazard.json", "stations")
     bands = computed("rent-bands.json")
@@ -323,6 +325,8 @@ def main():
                                     + counts["childcare"][s["slug"]] for s in roster}
     pct = {c: percentile_scores(counts[c]) for c in counts}
     pct_near = {c: percentile_scores(near[c]) for c in near}
+    pct_green = percentile_scores({s["slug"]: (green.get(s["slug"]) or {}).get("greenHa", 0)
+                                   for s in roster})
 
     # 用途地域の容積率。駅前がどれだけ高い建物の建つ街として計画されているか。
     pct_far = percentile_scores(
@@ -379,7 +383,10 @@ def main():
             scores["healthcare"] = clamp(
                 pct["dailyCare"][slug] * 0.6
                 + hospital_nearness(e["nearestHospitalM"]) * 40)
-            scores["nature"] = pct["park"][slug]
+            # 公園の数だけで測ると、小さな公園の多い住宅街が高く出て、
+            # 葛西臨海公園駅が2点、新宿御苑前駅が35点になっていた。
+            # 歩いて行ける広い公園（1ha以上）の面積を主に見て、数も残す。
+            scores["nature"] = clamp(pct_green[slug] * 0.7 + pct["park"][slug] * 0.3)
             # 外食・カフェ・夜の店は、800m圏だけで測ると隣の駅と圏が重なって
             # 駅ごとの差が消える。門前仲町は駅から300m以内に55軒あるのに対し、
             # 清澄白河は14軒だが、800m圏では79軒と95軒で逆転していた。

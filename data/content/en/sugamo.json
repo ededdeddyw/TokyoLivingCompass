@@ -70,7 +70,7 @@
     "People commuting towards Shinjuku",
     "People who get around by bicycle or with a pushchair",
     "People who want to finish their shopping on foot",
-    "People who want a park close by"
+    "People avoiding projected flood inundation areas"
   ],
   "notFor": [
     "The data does not show a drawback particular to this station"
@@ -80,8 +80,8 @@
   ],
   "tags": [
     "lowFlood",
+    "shoppingEasy",
     "flat",
-    "parkNear",
     "medicalRich"
   ],
   "leads": {

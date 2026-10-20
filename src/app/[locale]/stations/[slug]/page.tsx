@@ -570,9 +570,10 @@ export default async function StationPage({
                 outdoorDest={lifestyle.outdoorDest.map(toDest)}
                 indoorDest={lifestyle.indoorDest.map(toDest)}
                 days={
-                  // 下書き（データから組み立てただけで、人がまだ読んでいないもの）は出さない
+                  // 下書きは出さない。データだけから組み立てたもの（generated）は、そう添えて出す
                   station.content.personaDaysStatus === "draft" ? undefined : station.content.personaDays
                 }
+                generated={station.content.personaDaysStatus === "generated"}
                 labels={ui.personaFit}
               />
             </div>

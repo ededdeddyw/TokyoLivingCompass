@@ -184,28 +184,11 @@ def main():
     terrain = json.load(open(os.path.join(ROOT, "data", "computed", "terrain.json"), encoding="utf-8"))
     terrain = terrain.get("stations", terrain)
 
-    # 1〜2. 広い公園と、駅から歩いて行ける範囲の面積
-    parks = [p for p in load_p13() + load_extra() if p["area"] >= BIG_PARK_M2]
-    # 「中央公園」のように、ほかの区にも同じ名前の公園があるものは「北区の中央公園」と書く。
-    # 名前だけでは、読み手がどの公園なのか分からない。
-    by_name = {}
-    for p in load_p13():
-        by_name.setdefault(p["name"], set()).add(p["ward"])
-    for p in parks:
-        if len(by_name.get(p["name"], ())) > 1 and p.get("ward"):
-            p["name"] = f"{p['ward']}の{p['name']}"
-    green, green_names = {}, {}
-    for st in roster:
-        here = (st["lat"], st["lon"])
-        # 同じ公園が、区画ごと・形の取り方ごとに複数登録されていることがある。
-        # 名前ごとにいちばん大きいものだけを数える。
-        by_name = {}
-        for p in parks:
-            if distance_m(here, p["at"]) <= WALK_M:
-                by_name[p["name"]] = max(by_name.get(p["name"], 0), p["area"])
-        total = sum(by_name.values())
-        green[st["slug"]] = math.log1p(total / 10_000)   # ha の対数。広さの差を頭打ちにする
-        green_names[st["slug"]] = sorted(by_name, key=by_name.get, reverse=True)[:3]
+    # 1〜2. 駅から歩いて行ける範囲の、広い公園の面積（scripts/build-green.py が出す）
+    greens = json.load(open(os.path.join(ROOT, "data", "computed", "green.json"),
+                            encoding="utf-8"))["stations"]
+    green = {slug: math.log1p(g["greenHa"]) for slug, g in greens.items()}  # ha の対数。広さの差を頭打ちにする
+    green_names = {slug: g["parks"] for slug, g in greens.items()}
     outdoor_local = percentile(green)
 
     # 屋内で楽しめる場所の多さ。外食・カフェ・買い物の店の多さで見る。
@@ -314,7 +297,7 @@ def main():
     json.dump({"meta": meta, "stations": out}, open(OUT, "w", encoding="utf-8"),
               ensure_ascii=False, indent=1, sort_keys=True)
     open(OUT, "a", encoding="utf-8").write("\n")
-    print(f"広い公園: {len(parks)}か所 / 駅: {len(out)} → {OUT}")
+    print(f"駅: {len(out)} → {OUT}")
 
 
 if __name__ == "__main__":

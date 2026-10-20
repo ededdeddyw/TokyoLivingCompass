@@ -78,8 +78,7 @@
   "tags": [
     "lowFlood",
     "fastToCenter",
-    "singleLine",
-    "parkNear"
+    "singleLine"
   ],
   "leads": {
     "terrain": "駅の周りにはゆるやかな坂があり、どの区画に住むかで毎日の移動の負担が変わります。",
@@ -166,5 +165,5 @@
       "care": "家賃の額そのものは、23区の駅の中では高いほうです。"
     }
   },
-  "personaDaysStatus": "draft"
+  "personaDaysStatus": "generated"
 }

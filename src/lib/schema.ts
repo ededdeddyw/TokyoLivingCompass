@@ -568,11 +568,13 @@ export const stationContentSchema = z.object({
     )
     .optional(),
   /**
-   * draft    = scripts/build-persona-days.py が組み立てた下書き。画面には出さない
-   * reviewed = 人が読み直した。画面に出す
+   * draft     = 下書き。画面には出さない
+   * generated = scripts/build-persona-days.py がデータだけから組み立てた。
+   *             「データから自動で組み立てた想定」と添えて画面に出す（2026-10-20 に利用者と決めた）
+   * reviewed  = 人が読み直した。画面に出す
    * 省略したときは reviewed として扱う（人が最初から書いた駅）
    */
-  personaDaysStatus: z.enum(["draft", "reviewed"]).optional(),
+  personaDaysStatus: z.enum(["draft", "generated", "reviewed"]).optional(),
 
   /**
    * 東京在住者コメント。公開版は人間が書く（docs/02-data-model.md §4）。
