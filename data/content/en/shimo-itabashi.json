@@ -68,7 +68,6 @@
   "goodFor": [
     "People commuting towards Shinjuku",
     "People who want to finish their shopping on foot",
-    "People who want a park close by",
     "People living alone who want to hold the rent down"
   ],
   "notFor": [
@@ -81,9 +80,9 @@
   ],
   "tags": [
     "quiet",
+    "lowFlood",
     "singleLine",
-    "shoppingEasy",
-    "parkNear"
+    "shoppingEasy"
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",

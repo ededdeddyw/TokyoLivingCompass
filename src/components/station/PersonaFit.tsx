@@ -34,6 +34,8 @@ type Props = {
   outdoorDest: Destination[];
   indoorDest: Destination[];
   days?: Partial<Record<Persona, PersonaDay>>;
+  /** 人が読み直していない、データだけから組み立てた1日か */
+  generated?: boolean;
   labels: PersonaFitLabels;
 };
 
@@ -77,7 +79,7 @@ function Chips<T extends string>({
   );
 }
 
-export function PersonaFit({ scores, commuteShare, outdoorDest, indoorDest, days, labels }: Props) {
+export function PersonaFit({ scores, commuteShare, outdoorDest, indoorDest, days, generated = false, labels }: Props) {
   const [persona, setPersona] = useState<Persona>("single");
   const [style, setStyle] = useState<PlayStyle>("indoor");
 
@@ -170,7 +172,7 @@ export function PersonaFit({ scores, commuteShare, outdoorDest, indoorDest, days
         {day ? (
           <>
             <p className="mt-1 text-xs text-ink-soft">
-              {day.who} {labels.assumedNote}
+              {day.who} {generated ? labels.assumedNoteGenerated : labels.assumedNote}
             </p>
             <div className="mt-3 grid gap-4 sm:grid-cols-2">
               {(

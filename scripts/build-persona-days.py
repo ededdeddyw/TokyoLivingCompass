@@ -6,13 +6,13 @@
   python3 scripts/build-persona-days.py            # 人がまだ読んでいない駅だけ作り直す
   python3 scripts/build-persona-days.py osaki ...  # 指定した駅だけ
 
-出力: data/content/ja/{slug}.json の personaDays（personaDaysStatus は "draft"）
+出力: data/content/ja/{slug}.json の personaDays（personaDaysStatus は "generated"）
 
 なぜ要るのか。
   1日の過ごし方は、458駅 × 4層 × 3場面で、人の手では書けない量になる。
   そこで、すでに持っているデータ（所要時間・確認済みの食料品店・地図データ上の店と公園・
-  電車で行きやすい行き先・地形・騒音）から下書きを作る。下書きは画面に出さない。
-  人が読み直して personaDaysStatus を "reviewed" にした駅から出す（docs/18-persona-days.md §6.7）。
+  電車で行きやすい行き先・地形・騒音）から組み立てる。画面では「データから自動で組み立てた想定」と添えて出す。
+  人が読み直した駅は personaDaysStatus を "reviewed" にする（docs/18-persona-days.md §6.7）。
 
 決まり。
   - 店・施設・数字は、データにあるものだけを使う。データが無い場面は書かない。
@@ -310,7 +310,8 @@ class Station:
         put("senior", "退職した夫婦の想定です。",
             keep(["通勤はありません。", self.medical_line(), self.hospital_line(), slope]),
             keep([quiet, indoor_trip]),
-            keep(outdoor[:1] + [self.small_park_line()]))
+            # 近所の散歩。広い公園が無い駅では outdoor[0] が小さな公園の文になるので、重ねない
+            list(dict.fromkeys(keep(outdoor[:1] + [self.small_park_line()]))))
         return days
 
 
@@ -336,19 +337,20 @@ def main():
         if not os.path.exists(path):
             continue
         st = Station(slug, ctx)
-        if st.content.get("personaDays") and st.content.get("personaDaysStatus") != "draft":
+        if st.content.get("personaDays") and st.content.get("personaDaysStatus") == "reviewed":
             skipped += 1
             continue
         days = st.build()
         if not days:
             continue
         st.content["personaDays"] = days
-        st.content["personaDaysStatus"] = "draft"
+        # データだけから組み立てた。人が読み直した駅（reviewed）とは分けて、画面でそう添える
+        st.content["personaDaysStatus"] = "generated"
         with open(path, "w", encoding="utf-8") as f:
             json.dump(st.content, f, ensure_ascii=False, indent=2)
             f.write("\n")
         written += 1
-    print(f"下書きを作った駅: {written} / 人が読み直した駅（触らない）: {skipped}")
+    print(f"組み立てた駅: {written} / 人が読み直した駅（触らない）: {skipped}")
 
 
 if __name__ == "__main__":

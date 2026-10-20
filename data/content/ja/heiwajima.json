@@ -79,10 +79,10 @@
     "環七通り（片側2車線）が駅のすぐ近くにあります。通りに面した部屋では、朝夕の車の音が入ります"
   ],
   "tags": [
-    "quiet",
     "goodValue",
     "singleLine",
-    "flat"
+    "flat",
+    "parkNear"
   ],
   "leads": {
     "terrain": "駅の周りはほぼ平坦で、坂を気にせず住む場所を選べます。",
@@ -170,5 +170,5 @@
       "care": "歩いて行ける範囲の病院やクリニックは少なめです。"
     }
   },
-  "personaDaysStatus": "draft"
+  "personaDaysStatus": "generated"
 }

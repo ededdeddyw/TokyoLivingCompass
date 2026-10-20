@@ -66,8 +66,7 @@
     }
   ],
   "goodFor": [
-    "People commuting towards Shinjuku",
-    "People who want a park close by"
+    "People commuting towards Shinjuku"
   ],
   "notFor": [
     "People avoiding projected flood inundation areas",
@@ -80,8 +79,8 @@
   "tags": [
     "goodValue",
     "lowFlood",
-    "singleLine",
-    "parkNear"
+    "fastToCenter",
+    "singleLine"
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",

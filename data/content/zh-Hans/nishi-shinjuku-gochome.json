@@ -66,8 +66,7 @@
     }
   ],
   "goodFor": [
-    "到新宿方向通勤的人",
-    "看重公园就在附近的人"
+    "到新宿方向通勤的人"
   ],
   "notFor": [
     "希望避开洪水浸水想定区域的人",
@@ -80,8 +79,8 @@
   "tags": [
     "goodValue",
     "lowFlood",
-    "singleLine",
-    "parkNear"
+    "fastToCenter",
+    "singleLine"
   ],
   "leads": {
     "terrain": "车站周边有缓坡，住在哪个街区会改变每天出行的费力程度。",

@@ -67,7 +67,6 @@
   ],
   "goodFor": [
     "自転車やベビーカーで動くことが多い人",
-    "公園が近いことを重視する人",
     "家賃を抑えたい単身者"
   ],
   "notFor": [
@@ -83,8 +82,7 @@
     "floodArea",
     "singleLine",
     "familyFriendly",
-    "flat",
-    "parkNear"
+    "flat"
   ],
   "leads": {
     "terrain": "駅の周りはほぼ平坦で、坂を気にせず住む場所を選べます。",
@@ -171,5 +169,5 @@
       "care": "大雨のときの浸水の想定か高潮の想定がある区画が多いので、住所ごとにハザードマップで確かめます。"
     }
   },
-  "personaDaysStatus": "draft"
+  "personaDaysStatus": "generated"
 }

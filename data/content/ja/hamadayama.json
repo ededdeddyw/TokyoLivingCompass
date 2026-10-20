@@ -67,7 +67,6 @@
   ],
   "goodFor": [
     "自転車やベビーカーで動くことが多い人",
-    "公園が近いことを重視する人",
     "家賃を抑えたい単身者"
   ],
   "notFor": [
@@ -80,8 +79,7 @@
     "lowFlood",
     "singleLine",
     "familyFriendly",
-    "flat",
-    "parkNear"
+    "flat"
   ],
   "leads": {
     "terrain": "駅の周りはほぼ平坦で、坂を気にせず住む場所を選べます。",
@@ -169,5 +167,5 @@
       "care": "駅のまわりで日々の買い物ができる店は少なめです。"
     }
   },
-  "personaDaysStatus": "draft"
+  "personaDaysStatus": "generated"
 }

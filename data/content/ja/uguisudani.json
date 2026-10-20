@@ -67,7 +67,8 @@
   ],
   "goodFor": [
     "大手町・丸の内方面へ通勤する人",
-    "徒歩圏で買い物を済ませたい人"
+    "徒歩圏で買い物を済ませたい人",
+    "広い公園の近くに住みたい人"
   ],
   "notFor": [
     "この駅ならではの弱点は、データからは読み取れていません"
@@ -76,9 +77,9 @@
     "言問通り（片側1車線）が駅のすぐ近くにあります。通りに面した部屋では、朝夕の車の音が入ります"
   ],
   "tags": [
-    "singleFriendly",
     "shoppingEasy",
     "lateNight",
+    "parkNear",
     "medicalRich"
   ],
   "leads": {
@@ -168,5 +169,5 @@
       "care": "家賃の額そのものは、23区の駅の中では高いほうです。"
     }
   },
-  "personaDaysStatus": "draft"
+  "personaDaysStatus": "generated"
 }

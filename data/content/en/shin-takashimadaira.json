@@ -60,6 +60,7 @@
   ],
   "goodFor": [
     "People who get around by bicycle or with a pushchair",
+    "People who want a large park within walking distance",
     "People living alone who want to hold the rent down"
   ],
   "notFor": [
@@ -75,7 +76,8 @@
     "quiet",
     "floodArea",
     "singleLine",
-    "flat"
+    "flat",
+    "parkNear"
   ],
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
