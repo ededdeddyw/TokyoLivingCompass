@@ -48,6 +48,9 @@ DISCOUNT = ["オオゼキ", "業務スーパー", "ロピア", "西友", "オー
             "ビッグ・エー", "Big-A", "肉のハナマサ", "食品館あおば", "サンディ", "A･Colle"]
 PREMIUM = ["成城石井", "紀ノ国屋", "明治屋", "クイーンズ伊勢丹", "福島屋", "北野エース",
            "プレッセ", "三浦屋", "信濃屋", "Shinanoya", "ピカール", "Picard", "Bio c", "Bio C"]
+# 地図データでは病院として登録されているが、一般の人はかからない施設
+# （宮内庁病院、拘置所・刑務所の医務部、自衛隊の病院）
+RESTRICTED_HOSPITAL = re.compile(r"宮内庁|拘置所|刑務所|医務部|自衛隊|防衛医")
 
 
 def tier_of(name):
@@ -661,6 +664,9 @@ def build(st, ctx):
 
     # ── 医療（OpenStreetMap） ──────────────────────
     cl, ph, hp = by_cat.get("clinic", []), by_cat.get("pharmacy", []), by_cat.get("hospital", [])
+    # 一般の人がかからない病院は、いちばん近い病院として挙げない。
+    # 東京駅で宮内庁病院（皇室と宮内庁の職員などのための病院）を挙げていた。
+    hp = [h for h in hp if not RESTRICTED_HOSPITAL.search(h["name"])]
     if cl or ph or hp:
         if cl or ph:
             counts = [x for x in (

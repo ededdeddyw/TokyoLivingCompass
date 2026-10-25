@@ -192,7 +192,9 @@ class Station:
         return first_sentence(self.content.get("medical"))
 
     def hospital_line(self):
-        hs = [p for p in self.nearest("hospital", 15) if "病院" in p["name"]]
+        # 宮内庁病院や拘置所の医務部のように、一般の人がかからない病院は挙げない
+        hs = [p for p in self.nearest("hospital", 15)
+              if "病院" in p["name"] and not re.search(r"宮内庁|拘置所|刑務所|医務部|自衛隊|防衛医", p["name"])]
         if hs:
             return f"病院では、地図データ上の{hs[0]['name']}まで歩いて{hs[0]['walkMinutes']}分ほどです。"
         return None
