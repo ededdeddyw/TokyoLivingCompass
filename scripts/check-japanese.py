@@ -368,6 +368,16 @@ def main():
                 merged.append(f)
         findings[before:] = merged
 
+    # 写真の下に添える一言。短い1文なので、語句と文末だけを見る（連発は数えない）
+    for name in ("flickr-photos.json", "local-photos.json"):
+        p = os.path.join(ROOT, "data", "reference", name)
+        if not os.path.exists(p):
+            continue
+        stations = json.load(open(p, encoding="utf-8"))["stations"]
+        for slug, photos in stations.items():
+            for i, photo in enumerate(photos):
+                check_text(name, f"{slug}[{i}].caption", photo["caption"], findings, taigen=False)
+
     for p in sorted(glob.glob(os.path.join(ROOT, "docs", "*.md"))):
         label = os.path.basename(p)
         # ルール集そのものと、原文として保存している構想は対象外

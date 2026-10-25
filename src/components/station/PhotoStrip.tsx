@@ -2,8 +2,10 @@ import { Camera } from "lucide-react";
 
 import type { StationPhoto } from "@/lib/schema";
 
+import { photoCredit, type PhotoCredits } from "./InlinePhotos";
+
 /**
- * 駅と街の写真を横に並べる。1枚目は駅名の帯に出すので、ここには2枚目以降を渡す。
+ * 駅と街の写真を横に並べる。記事の途中に置ききれなかった写真を、記事の最後にまとめて出す。
  *
  * 地下鉄の駅は、基本情報欄の写真が出口だけのことが多く、街の様子が伝わらなかった。
  * 駅前・街並み・周辺の施設の写真を並べ、どんな街かを目で確かめられるようにする。
@@ -12,15 +14,11 @@ import type { StationPhoto } from "@/lib/schema";
 export function PhotoStrip({
   photos,
   title,
-  credit,
-  creditOther,
+  credits,
 }: {
-  /** Commons 以外（ぱくたそなど）の写真の表示。「写真: {author}」 */
-  creditOther: string;
   photos: StationPhoto[];
   title: string;
-  /** 「写真: {author}（{license}、Wikimedia Commons）」 */
-  credit: string;
+  credits: PhotoCredits;
 }) {
   if (photos.length === 0) return null;
   return (
@@ -50,9 +48,7 @@ export function PhotoStrip({
                 rel="noreferrer"
                 target="_blank"
               >
-                {(p.src.startsWith("/") ? creditOther : credit)
-                  .replace("{author}", p.author)
-                  .replace("{license}", p.license)}
+                {photoCredit(p, credits)}
               </a>
             </div>
           </li>

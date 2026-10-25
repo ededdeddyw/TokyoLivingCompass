@@ -170,13 +170,45 @@ function WardLinkList({
   );
 }
 
+const SIMPLE_FIELDS = [
+  "family",
+  "medical",
+  "stationNote",
+  // 混雑率は「駅の使い勝手」のすぐ後ろに置く。毎朝どの電車に乗るかの話なので、
+  // 路線の説明を読んだ直後に見えたほうが読み手がつなげやすい。
+  "congestion",
+  "nightWalk",
+  "residents",
+  "housingStock",
+  "outlook",
+] as const;
+
+/**
+ * 「暮らしの手ざわり」に出す欄のうち、写真を後ろに差し込める欄の key（出す順）。
+ * 災害の欄の隣には、街の様子の写真を置かない。
+ */
+export function lifeBlockKeys(content: StationContent): string[] {
+  const keys: string[] = [];
+  if (content.faces) keys.push("faces");
+  if (content.terrain) keys.push("terrain");
+  if (content.groceries && content.groceries.length > 0) keys.push("groceries");
+  if (content.exits && content.exits.length > 0) keys.push("exits");
+  if (content.rentRange) keys.push("rentRange");
+  if (content.noiseSources && content.noiseSources.length > 0) keys.push("noise");
+  for (const field of SIMPLE_FIELDS) if (content[field]) keys.push(field);
+  return keys;
+}
+
 export function StationDepth({
   content,
   dict,
   neighbourNames,
   locale,
   wardLinks = [],
+  photoAfter = {},
 }: {
+  /** 欄の key → その欄の後ろに差し込む写真 */
+  photoAfter?: Record<string, React.ReactNode>;
   /** 駅のまわりにかかる区の公式ページ。所在地の区が先頭 */
   wardLinks?: WardLinks[];
   content: StationContent;
@@ -371,19 +403,7 @@ export function StationDepth({
     );
   }
 
-  const simple = [
-    "family",
-    "medical",
-    "stationNote",
-    // 混雑率は「駅の使い勝手」のすぐ後ろに置く。毎朝どの電車に乗るかの話なので、
-    // 路線の説明を読んだ直後に見えたほうが読み手がつなげやすい。
-    "congestion",
-    "nightWalk",
-    "residents",
-    "housingStock",
-    "outlook",
-  ] as const;
-  for (const field of simple) {
+  for (const field of SIMPLE_FIELDS) {
     const text = content[field];
     if (!text) continue;
     blocks.push(
@@ -496,7 +516,7 @@ export function StationDepth({
       {blocks.length > 0 && (
         <section id="life" className="space-y-4">
           <h2 className="text-xl font-bold text-ink">{d.heading}</h2>
-          <div className="grid items-start gap-4 lg:grid-cols-2">{blocks}</div>
+          <div className="grid items-start gap-4 lg:grid-cols-2">{withPhotos(blocks, photoAfter)}</div>
         </section>
       )}
       {compare.length > 0 && (
@@ -507,4 +527,35 @@ export function StationDepth({
       )}
     </>
   );
+}
+
+/**
+ * 欄のあいだに写真を差し込む。写真は2列の幅いっぱいに置くので、行の途中
+ * （左の欄だけ置いた状態）で差し込むと右が空く。行が閉じるまで後ろへずらす。
+ */
+function withPhotos(
+  blocks: React.ReactNode[],
+  photoAfter: Record<string, React.ReactNode>,
+): React.ReactNode[] {
+  const out: React.ReactNode[] = [];
+  let pending: React.ReactNode[] = [];
+  let half = false;
+  for (const b of blocks) {
+    const el = b as React.ReactElement<{ wide?: boolean }>;
+    out.push(b);
+    half = el.props.wide ? false : !half;
+    const photo = photoAfter[String(el.key)];
+    if (photo) {
+      pending.push(
+        <div key={`photo-${String(el.key)}`} className="lg:col-span-2">
+          {photo}
+        </div>,
+      );
+    }
+    if (!half && pending.length > 0) {
+      out.push(...pending);
+      pending = [];
+    }
+  }
+  return [...out, ...pending];
 }

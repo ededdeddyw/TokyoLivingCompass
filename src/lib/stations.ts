@@ -28,6 +28,7 @@ import {
   stationPhotosFileSchema,
   stationGalleryFileSchema,
   localPhotosFileSchema,
+  flickrPhotosFileSchema,
   stationWardsFileSchema,
   wardLinksFileSchema,
   lifestyleFileSchema,
@@ -53,6 +54,7 @@ const RENT_BANDS_FILE = join(DATA_DIR, "computed", "rent-bands.json");
 const TOWN_TRAITS_DIR = join(DATA_DIR, "town-traits");
 const PHOTOS_FILE = join(DATA_DIR, "computed", "station-photos.json");
 const LOCAL_PHOTOS_FILE = join(DATA_DIR, "reference", "local-photos.json");
+const FLICKR_PHOTOS_FILE = join(DATA_DIR, "reference", "flickr-photos.json");
 const GALLERY_FILE = join(DATA_DIR, "computed", "station-gallery.json");
 const LIFESTYLE_FILE = join(DATA_DIR, "computed", "lifestyle.json");
 const STATION_WARDS_FILE = join(DATA_DIR, "computed", "station-wards.json");
@@ -408,6 +410,7 @@ let galleryCache: Record<string, StationPhoto[]> | null = null;
  * 複数枚の写真（station-gallery.json）があればそれを使い、無ければ1枚だけの写真を使う。
  * Commons で自由に使える写真が見つからなかった駅は空。
  */
+let flickrCache: z.infer<typeof flickrPhotosFileSchema>["stations"] | null = null;
 let localPhotoCache: Record<string, (StationPhoto & { first: boolean })[]> | null = null;
 
 export function getStationPhotos(slug: string): StationPhoto[] {
@@ -418,13 +421,17 @@ export function getStationPhotos(slug: string): StationPhoto[] {
   const many = galleryCache[slug];
   const one = photoCache[slug];
   const commons: StationPhoto[] = many && many.length > 0 ? many : one ? [one] : [];
-  const local = localPhotoCache[slug] ?? [];
+  flickrCache ??=
+    readOptional(FLICKR_PHOTOS_FILE, flickrPhotosFileSchema, "Flickr から選んだ写真")?.stations ?? {};
+  const local = (localPhotoCache[slug] ?? []).map((p) => ({ ...p, source: "local" as const }));
+  const flickr = (flickrCache[slug] ?? []).map((p) => ({ ...p, source: "flickr" as const }));
   // 人が選んだ写真は、街の様子が伝わるものを選んでいるので、駅舎の写真のすぐ後ろに出す
   const [head, ...rest] = commons;
   return [
     ...local.filter((p) => p.first),
     ...(head ? [head] : []),
     ...local.filter((p) => !p.first),
+    ...flickr,
     ...rest,
   ];
 }

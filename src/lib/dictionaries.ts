@@ -114,6 +114,7 @@ export type Dictionary = {
     photosTitle: string;
     /** Commons 以外の写真の表示（ぱくたそなど） */
     photoCreditOther: string;
+    photoCreditFlickr: string;
   };
   station: {
     overall: string;
@@ -390,6 +391,7 @@ const ja: Dictionary = {
     photoCredit: "写真: {author}（{license}、Wikimedia Commons）",
     photosTitle: "{name}駅と街の写真",
     photoCreditOther: "写真: {author}",
+    photoCreditFlickr: "写真: {author}（{license}、Flickr）",
   },
   station: {
     overall: "総合評価",
@@ -787,6 +789,7 @@ const en: Dictionary = {
     photoCredit: "Photo: {author} ({license}, Wikimedia Commons)",
     photosTitle: "Photos of {name} Station and the area",
     photoCreditOther: "Photo: {author}",
+    photoCreditFlickr: "Photo: {author} ({license}, Flickr)",
   },
   station: {
     overall: "Overall",
@@ -1187,6 +1190,7 @@ const zhHans: Dictionary = {
     photoCredit: "照片：{author}（{license}，Wikimedia Commons）",
     photosTitle: "{name}站及周边照片",
     photoCreditOther: "照片：{author}",
+    photoCreditFlickr: "照片：{author}（{license}，Flickr）",
   },
   station: {
     overall: "综合",
@@ -1579,6 +1583,7 @@ const ko: Dictionary = {
     photoCredit: "사진: {author} ({license}, Wikimedia Commons)",
     photosTitle: "{name}역과 주변 사진",
     photoCreditOther: "사진: {author}",
+    photoCreditFlickr: "사진: {author} ({license}, Flickr)",
   },
   station: {
     overall: "종합",
