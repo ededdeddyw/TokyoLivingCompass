@@ -377,6 +377,11 @@ def main():
         for slug, photos in stations.items():
             for i, photo in enumerate(photos):
                 check_text(name, f"{slug}[{i}].caption", photo["caption"], findings, taigen=False)
+    gallery = os.path.join(ROOT, "data", "computed", "station-gallery.json")
+    if os.path.exists(gallery):
+        for slug, photos in json.load(open(gallery, encoding="utf-8")).items():
+            for i, photo in enumerate(photos):
+                check_text("station-gallery.json", f"{slug}[{i}].caption", photo["caption"], findings, taigen=False)
 
     for p in sorted(glob.glob(os.path.join(ROOT, "docs", "*.md"))):
         label = os.path.basename(p)
