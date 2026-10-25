@@ -20,15 +20,17 @@ import { SectionNav } from "@/components/station/SectionNav";
 import { RentBands } from "@/components/RentBands";
 import { PersonaFit, type Destination } from "@/components/station/PersonaFit";
 import { PhotoStrip } from "@/components/station/PhotoStrip";
+import { InlinePhotos, photoCredit, type PhotoCredits } from "@/components/station/InlinePhotos";
 import { RentHistoryTable } from "@/components/RentHistoryTable";
 import { RentSourceNote } from "@/components/RentSourceNote";
 import { OverallScore } from "@/components/OverallScore";
 import { ScoreGrid } from "@/components/ScoreGrid";
-import { StationDepth } from "@/components/StationDepth";
+import { StationDepth, lifeBlockKeys } from "@/components/StationDepth";
 import { SeedNotice } from "@/components/SeedNotice";
 import { TownTraits } from "@/components/TownTraits";
 import { getDictionary } from "@/lib/dictionaries";
 import { formatYen } from "@/lib/format";
+import { placePhotos } from "@/lib/photo-placement";
 import { ACTIVE_LOCALES, isActiveLocale, type ActiveLocale } from "@/lib/i18n";
 import {
   absoluteUrl,
@@ -249,6 +251,15 @@ export default async function StationPage({
       : station.wardNameJa;
   const photos = getStationPhotos(station.slug);
   const photo = photos[0] ?? null;
+  const credits: PhotoCredits = {
+    commons: dict.stationUi.photoCredit,
+    flickr: dict.stationUi.photoCreditFlickr,
+    other: dict.stationUi.photoCreditOther,
+  };
+  // 2枚目以降は、記事の途中の該当する欄の前後に散らして置く
+  const placed = placePhotos(photos.slice(1), lifeBlockKeys(station.content));
+  const inline = (key: string) =>
+    placed.slots[key] ? <InlinePhotos photos={placed.slots[key]} credits={credits} /> : null;
   const lineNames = resolveLines(station.lineIds).map((l) =>
     locale === "ja" ? l.nameJa : l.nameEn,
   );
@@ -367,9 +378,7 @@ export default async function StationPage({
             <figcaption className="mt-1.5 text-[11px] leading-snug text-white/80">
               {photo.caption && <span className="mr-1.5 font-semibold text-white">{photo.caption}</span>}
               <a href={photo.page} className="hover:underline" rel="noreferrer" target="_blank">
-                {(photo.src.startsWith("/") ? dict.stationUi.photoCreditOther : dict.stationUi.photoCredit)
-                  .replace("{author}", photo.author)
-                  .replace("{license}", photo.license)}
+                {photoCredit(photo, credits)}
               </a>
             </figcaption>
           </figure>
@@ -400,12 +409,7 @@ export default async function StationPage({
 
       {townTraits && <TownTraits data={townTraits} dict={dict} />}
 
-      <PhotoStrip
-        photos={photos.slice(1)}
-        title={ui.photosTitle.replace("{name}", station.content.name)}
-        credit={ui.photoCredit}
-        creditOther={ui.photoCreditOther}
-      />
+      {inline("intro")}
 
       <Section id="rent" title={dict.station.rent}>
         {station.rentBands ? (
@@ -463,6 +467,7 @@ export default async function StationPage({
             <RentHistoryTable history={station.rentHistory} dict={dict} />
           </div>
         )}
+        {inline("rent")}
       </Section>
 
       <Section id="commute" title={dict.station.commute}>
@@ -483,6 +488,7 @@ export default async function StationPage({
           </p>
         )}
         <p className="text-xs leading-relaxed text-ink-soft">{dict.commuteNote}</p>
+        {inline("commute")}
       </Section>
 
       <Section id="scores" title={dict.station.scores}>
@@ -508,6 +514,7 @@ export default async function StationPage({
             </details>
           </>
         )}
+        {inline("scores")}
       </Section>
 
       <div className="grid gap-4 sm:grid-cols-2">
@@ -547,6 +554,15 @@ export default async function StationPage({
         neighbourNames={neighbourNames}
         locale={locale}
         wardLinks={getWardLinks(station)}
+        photoAfter={Object.fromEntries(
+          Object.keys(placed.slots).map((key) => [key, inline(key)]),
+        )}
+      />
+
+      <PhotoStrip
+        photos={placed.rest}
+        title={ui.photosTitle.replace("{name}", station.content.name)}
+        credits={credits}
       />
 
       {/*

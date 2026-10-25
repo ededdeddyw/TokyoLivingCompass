@@ -711,9 +711,42 @@ export const stationPhotoSchema = z.object({
 });
 export const stationPhotosFileSchema = z.record(z.string(), stationPhotoSchema.nullable());
 export type StationPhoto = z.infer<typeof stationPhotoSchema> & {
-  /** 何が写っているか（「東口駅前」など）。複数枚の写真で使う */
+  /** 何が写っているか（「東口駅前」など）、または写真の下に添える一言 */
   caption?: string;
+  /** 出典。クレジットの書き方が変わる。省略時は Wikimedia Commons */
+  source?: "commons" | "local" | "flickr";
+  /** 記事のどの欄の近くに置くか。省略時は空いている欄に順に置く */
+  near?: PhotoNear;
+  kind?: "station" | "area";
 };
+
+/** 写真を差し込む先の欄。駅と路線（stationNote）と、買い物と店（groceries） */
+export const PHOTO_NEARS = ["stationNote", "groceries"] as const;
+export type PhotoNear = (typeof PHOTO_NEARS)[number];
+
+/**
+ * Flickr で CC ライセンスが付いた写真のうち、利用者が駅ごとに選んだもの
+ * （data/reference/flickr-photos.json）。画像は Flickr の配信 URL をそのまま使う。
+ * caption は写真の下に添える一言で、写真と Flickr のタイトルから読み取れることだけを書く。
+ */
+export const flickrPhotosFileSchema = z.object({
+  meta: z.object({ note: z.string() }),
+  stations: z.record(
+    z.string(),
+    z.array(
+      z.object({
+        file: z.string().min(1),
+        src: z.string().regex(/^https:\/\/live\.staticflickr\.com\//),
+        page: z.string().regex(/^https:\/\/www\.flickr\.com\/photos\//),
+        author: z.string().min(1),
+        license: z.string().regex(/^(CC BY|CC BY-SA|CC0) /),
+        licenseUrl: z.string().url(),
+        caption: z.string().min(1).max(60),
+        near: z.enum(PHOTO_NEARS).optional(),
+      }),
+    ),
+  ),
+});
 
 /**
  * Commons 以外から人が1枚ずつ選んで保存した写真（data/reference/local-photos.json）。
