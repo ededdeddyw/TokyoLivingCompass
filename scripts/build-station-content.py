@@ -49,8 +49,8 @@ DISCOUNT = ["オオゼキ", "業務スーパー", "ロピア", "西友", "オー
 PREMIUM = ["成城石井", "紀ノ国屋", "明治屋", "クイーンズ伊勢丹", "福島屋", "北野エース",
            "プレッセ", "三浦屋", "信濃屋", "Shinanoya", "ピカール", "Picard", "Bio c", "Bio C"]
 # 地図データでは病院として登録されているが、一般の人はかからない施設
-# （宮内庁病院、拘置所・刑務所の医務部、自衛隊の病院）
-RESTRICTED_HOSPITAL = re.compile(r"宮内庁|拘置所|刑務所|医務部|自衛隊|防衛医")
+# （宮内庁病院、拘置所・刑務所の医務部、自衛隊の病院）と、病院の名前を含む訪問看護の事業所
+RESTRICTED_HOSPITAL = re.compile(r"宮内庁|拘置所|刑務所|医務部|自衛隊|防衛医|訪問看護|ステーション")
 
 
 def tier_of(name):
@@ -334,6 +334,71 @@ def bustle_tag(slug, ctx):
     return "someBustle" if bustle_ratio(slug, ctx) >= SOME_BUSTLE_RATIO else None
 
 
+# 路線の駅の並び（駅データ.jp）。build-commutes.py が .cache/roster/ に保存したものを読む
+LINE_CACHE = os.path.join(ROOT, ".cache", "roster")
+EKIDATA_LINE = "https://raw.githubusercontent.com/ny-a/ekidata/gh-pages/api/l/{}.json"
+
+
+def line_sequence(lid, ctx):
+    """路線の駅の並び。[(駅グループコード, 駅名)]。取れなければ None"""
+    cache = ctx.setdefault("_lineSeq", {})
+    if lid in cache:
+        return cache[lid]
+    path = os.path.join(LINE_CACHE, f"line_{lid}.json")
+    seq = None
+    try:
+        if not os.path.exists(path):
+            import urllib.request
+            os.makedirs(LINE_CACHE, exist_ok=True)
+            with urllib.request.urlopen(EKIDATA_LINE.format(lid), timeout=60) as res:
+                open(path, "wb").write(res.read())
+        data = json.load(open(path, encoding="utf-8"))
+        seq = [(str(x["station_g_cd"]), x["station_name"]) for x in data["station_l"]]
+    except Exception:  # noqa: BLE001 路線の並びが取れない路線は、向きを判定しない
+        seq = None
+    cache[lid] = seq
+    return seq
+
+
+def peak_position(slug, lid, v, ctx):
+    """この駅と、路線でいちばん混む区間との位置関係。
+
+    "on": 区間の両端のどちらかがこの駅
+    "before": 区間へ向かう列車がこの駅を通ってから区間に入る（朝、この駅から乗ると混む区間を通る）
+    "after": 区間を通り過ぎた先にあり、区間の向きの列車に乗っても区間を通らない
+    None: 並びが分からない
+
+    公表される最混雑区間は、朝に混む向きで書かれている（例: 木場→門前仲町）。
+    葛西は木場より外側にあるので、大手町へ向かう列車はこの区間を通る。
+    これを「この駅はその区間に入りません」とだけ書くと、混まないように読めてしまう。
+    """
+    if slug in (v.get("fromSlug"), v.get("toSlug")):
+        return "on"
+    seq = line_sequence(lid, ctx)
+    if not seq:
+        return None
+    roster = ctx["rosterBySlug"]
+
+    def index(st_slug, st_name):
+        if st_slug and st_slug in roster:
+            g = str(roster[st_slug].get("groupCode"))
+            for i, (gc, _) in enumerate(seq):
+                if gc == g:
+                    return i
+        for i, (_, n) in enumerate(seq):
+            if n == st_name:
+                return i
+        return None
+
+    i_s = index(slug, None)
+    i_f = index(v.get("fromSlug"), v["fromStation"])
+    i_t = index(v.get("toSlug"), v["toStation"])
+    if None in (i_s, i_f, i_t) or i_f == i_t:
+        return None
+    step = 1 if i_t > i_f else -1
+    return "before" if (i_f - i_s) * step > 0 else "after"
+
+
 def congestion_text(slug, lines, line_ids, ctx):
     """朝の混雑率の節を組み立てる。路線ごとに、公表されている最混雑区間と値を書く。
 
@@ -356,10 +421,18 @@ def congestion_text(slug, lines, line_ids, ctx):
     rows.sort(key=lambda r: -r[0])
     bits = []
     off_peak_seen = False
-    for rate, _, name, v in rows[:3]:
+    before_seen = False
+    for rate, lid, name, v in rows[:3]:
         section = f"{v['fromStation']}→{v['toStation']}"
-        if slug in (v.get("fromSlug"), v.get("toSlug")):
+        pos = peak_position(slug, lid, v, ctx)
+        if pos == "on":
             key = "congestionOnPeak"
+        elif pos == "before":
+            key = "congestionBefore2" if before_seen else "congestionBefore"
+            before_seen = True
+            bits.append(p_[key].format(line=name, rate=rate, section=section,
+                                       toward=v["toStation"]))
+            continue
         else:
             # 2つめ以降は言い方を変える。同じ文末が続くと読みにくい（ルール22）
             key = "congestionOffPeak2" if off_peak_seen else "congestionOffPeak"
@@ -387,7 +460,7 @@ def congestion_lead(slug, line_ids, ctx):
     使える路線の値だけで「とても高い」と書くと、大崎のように、どの路線でも
     いちばん混む区間の外にある駅まで、毎朝その混み方の電車に乗るように読める。
     本文は「この駅はその区間に入りません」と書いているので、一言と本文が食い違う。
-    そこで、この駅がいちばん混む区間に入るかどうかを先に見る。
+    そこで、この駅がいちばん混む区間に入るか、区間の手前にあるかを先に見る。
     """
     p_, cong = ctx["p"], ctx["congestion"]
     rows = [(cong[i]["rate"], i) for i in line_ids if i in cong and i in ctx["lines"]]
@@ -396,15 +469,23 @@ def congestion_lead(slug, line_ids, ctx):
     on_peak = sorted(((r, i) for r, i in rows
                       if slug in (cong[i].get("fromSlug"), cong[i].get("toSlug"))),
                      reverse=True)
+    # いちばん混む区間の手前にある駅も、朝その区間を通る列車に乗ることになる
+    before = sorted(((r, i) for r, i in rows
+                     if peak_position(slug, i, cong[i], ctx) == "before"),
+                    reverse=True)
     top = max(r for r, _ in rows)
 
     def name(i):
         return line_name(p_["lineName"](ctx["lines"][i]))
 
-    if on_peak:
+    if on_peak and (not before or on_peak[0][0] >= before[0][0]):
         rate, lid = on_peak[0]
         key = "leadCongestionOnPeakHigh" if rate >= 150 else "leadCongestionOnPeakLow"
         return p_[key].format(line=name(lid), rate=rate)
+    if before:
+        rate, lid = before[0]
+        key = "leadCongestionBeforeHigh" if rate >= 150 else "leadCongestionBeforeLow"
+        return p_[key].format(line=name(lid), rate=rate, toward=cong[lid]["toStation"])
     if top >= 150:
         return p_["leadCongestionOffPeakHigh"]
     if slug in ctx["congestionEase"]:

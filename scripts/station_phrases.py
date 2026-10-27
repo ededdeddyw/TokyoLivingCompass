@@ -149,6 +149,10 @@ PHRASES = {
                             "この駅を含む{section}が、{line}でいちばん混む区間にあたります。",
         "congestionOffPeak": "{line}の朝の混雑率は{rate}%です。"
                              "いちばん混むのは{section}で、この駅はその区間に入りません。",
+        "congestionBefore": "{line}の朝の混雑率は{rate}%です。"
+                            "いちばん混むのは{section}です。この駅から{toward}方面へ向かう列車は、この区間を通ります。",
+        "congestionBefore2": "{line}は{rate}%です。"
+                             "こちらも{toward}方面へ向かう列車は、いちばん混む{section}を通ります。",
         "congestionOffPeak2": "{line}は{rate}%です。"
                               "こちらでいちばん混むのは{section}で、やはりこの駅は外にあります。",
         "congestionUnknown": "{lines}の混雑率は、国土交通省の調査では公表されていません。",
@@ -170,6 +174,10 @@ PHRASES = {
         "leadCongestionOnPeakHigh": "朝の電車はかなり混みます。{line}でいちばん混む区間に、この駅が入っています。",
         "leadCongestionOnPeakLow": "{line}でいちばん混む区間にこの駅が入りますが、混雑率は{rate}%で、"
                                    "肩が触れ合わない程度です。",
+        "leadCongestionBeforeHigh": "朝の電車はかなり混みます。{toward}方面へ向かう{line}の列車は、"
+                                    "この先でいちばん混む区間を通ります。",
+        "leadCongestionBeforeLow": "{toward}方面へ向かう{line}の列車は、この先でいちばん混む区間を通りますが、"
+                                   "混雑率は{rate}%で、肩が触れ合わない程度です。",
         "leadCongestionOffPeakHigh": "朝の混み方は、路線の数字ほどではありません。"
                                      "通る路線の混雑率は高めですが、この駅はいちばん混む区間の外にあります。",
         "leadCongestion5": "使える路線の朝の混雑率は、23区の駅の中ではかなり低いほうです。",
@@ -468,6 +476,10 @@ PHRASES = {
                             "which includes this station. ",
         "congestionOffPeak": "{line} runs at {rate}% of capacity in the morning peak. "
                              "The busiest stretch is {section}, which this station is not on. ",
+        "congestionBefore": "{line} runs at {rate}% of capacity in the morning peak. "
+                            "The busiest stretch is {section}; trains from here toward {toward} pass through it. ",
+        "congestionBefore2": "{line} runs at {rate}%. Trains from here toward {toward} also pass "
+                             "through its busiest stretch, {section}. ",
         "congestionOffPeak2": "{line} runs at {rate}%. Its busiest stretch is {section}, "
                               "which this station is likewise not on. ",
         "congestionUnknown": "{lines} is not covered by the ministry's congestion survey. ",
@@ -488,6 +500,10 @@ PHRASES = {
                                     "busiest stretch of the {line}. ",
         "leadCongestionOnPeakLow": "This station sits on the busiest stretch of the {line}, but at "
                                    "{rate}% passengers are not shoulder to shoulder. ",
+        "leadCongestionBeforeHigh": "Morning trains are very crowded: {line} trains toward {toward} "
+                                    "pass through the line's busiest stretch further on. ",
+        "leadCongestionBeforeLow": "{line} trains toward {toward} pass through the line's busiest stretch, "
+                                   "but at {rate}% passengers are not shoulder to shoulder. ",
         "leadCongestionOffPeakHigh": "Mornings here are less crowded than the line figures suggest: "
                                      "the lines are busy, but this station is outside their busiest stretches. ",
         "leadCongestion5": "Among the 23 wards' stations, the lines here are very lightly "
@@ -769,6 +785,8 @@ PHRASES = {
 
         "congestionOnPeak": "{line}早高峰的拥挤率为{rate}%。全线最拥挤的区间是{section}，本站在该区间内。",
         "congestionOffPeak": "{line}早高峰的拥挤率为{rate}%。最拥挤的区间是{section}，本站不在该区间内。",
+        "congestionBefore": "{line}早高峰的拥挤率为{rate}%。最拥挤的区间是{section}，从本站开往{toward}方向的列车会经过该区间。",
+        "congestionBefore2": "{line}为{rate}%。从本站开往{toward}方向的列车同样会经过最拥挤的区间{section}。",
         "congestionOffPeak2": "{line}为{rate}%。该线最拥挤的区间是{section}，本站同样不在其中。",
         "congestionUnknown": "{lines}的拥挤率未在国土交通省的调查中公布。",
         "congestionAllUnknown": "{lines}的早高峰拥挤率未在国土交通省的调查中公布。"
@@ -780,6 +798,8 @@ PHRASES = {
         "congestionTrailer": "这是全线最拥挤区间的数值，本站乘车的区间未必相同。",
         "leadCongestionOnPeakHigh": "早高峰的列车非常拥挤。本站位于{line}最拥挤的区间内。",
         "leadCongestionOnPeakLow": "本站位于{line}最拥挤的区间内，但拥挤率为{rate}%，乘客之间肩膀不会相碰。",
+        "leadCongestionBeforeHigh": "早高峰的列车非常拥挤。开往{toward}方向的{line}列车会经过前方最拥挤的区间。",
+        "leadCongestionBeforeLow": "开往{toward}方向的{line}列车会经过最拥挤的区间，但拥挤率为{rate}%，乘客之间肩膀不会相碰。",
         "leadCongestionOffPeakHigh": "早高峰的拥挤程度不像线路数字那么高。线路的拥挤率偏高，但本站不在最拥挤的区间内。",
         "leadCongestion5": "可使用线路的早高峰拥挤率，在23区的车站中非常低。",
         "leadCongestion4": "可使用线路的早高峰拥挤率，在23区的车站中偏低。",
@@ -1039,6 +1059,10 @@ PHRASES = {
                             "노선에서 가장 혼잡한 구간은 {section}이며, 이 역이 그 구간에 들어간다. ",
         "congestionOffPeak": "{line}의 아침 혼잡률은 {rate}%이다. "
                              "가장 혼잡한 구간은 {section}이고, 이 역은 그 구간에 들어가지 않는다. ",
+        "congestionBefore": "{line}의 아침 혼잡률은 {rate}%이다. "
+                            "가장 혼잡한 구간은 {section}이며, 이 역에서 {toward} 방면으로 가는 열차는 이 구간을 지난다. ",
+        "congestionBefore2": "{line}은 {rate}%이다. {toward} 방면으로 가는 열차는 "
+                             "가장 혼잡한 구간인 {section}을 지난다. ",
         "congestionOffPeak2": "{line}은 {rate}%이다. 이 노선에서 가장 혼잡한 구간은 {section}이며, "
                               "이 역도 그 구간에 들어가지 않는다. ",
         "congestionUnknown": "{lines}의 혼잡률은 국토교통성 조사에서 공표되지 않았다. ",
@@ -1058,6 +1082,10 @@ PHRASES = {
         "leadCongestionOnPeakHigh": "아침 열차는 상당히 붐빈다. 이 역은 {line}에서 가장 붐비는 구간에 들어간다. ",
         "leadCongestionOnPeakLow": "이 역은 {line}에서 가장 붐비는 구간에 들어가지만, 혼잡률은 {rate}%로 "
                                    "어깨가 닿지 않는 정도이다. ",
+        "leadCongestionBeforeHigh": "아침 열차는 상당히 붐빈다. {toward} 방면으로 가는 {line} 열차는 "
+                                    "앞쪽의 가장 붐비는 구간을 지난다. ",
+        "leadCongestionBeforeLow": "{toward} 방면으로 가는 {line} 열차는 가장 붐비는 구간을 지나지만, "
+                                   "혼잡률은 {rate}%로 어깨가 닿지 않는 정도이다. ",
         "leadCongestionOffPeakHigh": "아침 혼잡은 노선의 수치만큼은 아니다. 노선의 혼잡률은 높은 편이지만, "
                                      "이 역은 가장 붐비는 구간 밖에 있다. ",
         "leadCongestion5": "이용할 수 있는 노선의 아침 혼잡률은 23구의 역 중에서 매우 낮은 편이다. ",
