@@ -176,8 +176,8 @@ PHRASES = {
                                    "肩が触れ合わない程度です。",
         "leadCongestionBeforeHigh": "朝の電車はかなり混みます。{toward}方面へ向かう{line}の列車は、"
                                     "この先でいちばん混む区間を通ります。",
-        "leadCongestionBeforeLow": "{toward}方面へ向かう{line}の列車は、この先でいちばん混む区間を通りますが、"
-                                   "混雑率は{rate}%で、肩が触れ合わない程度です。",
+        "leadCongestionBeforeLow": "{toward}方面へ向かう{line}の列車は、この先でいちばん混む区間を通ります。"
+                                   "ただし混雑率は{rate}%で、肩が触れ合わない程度です。",
         "leadCongestionOffPeakHigh": "朝の混み方は、路線の数字ほどではありません。"
                                      "通る路線の混雑率は高めですが、この駅はいちばん混む区間の外にあります。",
         "leadCongestion5": "使える路線の朝の混雑率は、23区の駅の中ではかなり低いほうです。",
