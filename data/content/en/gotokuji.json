@@ -41,7 +41,7 @@
   ],
   "medical": "Within an 800 m walk of the station there are 17 clinics and 16 pharmacies. Day-to-day care is available close to the station. The nearest hospital is うめとぴあ, about 9 minutes' walk from the station. The next nearest is 児玉新生会児玉経堂病院, about 18 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station: Odakyu Odawara Line and Tokyu Setagaya Line. The lines are split between operators (Odakyu runs 1 line and Tokyu runs 1 line), so when one line stops you can change to a line run by a different company.",
-  "congestion": "Odakyu Odawara Line runs at 150% of capacity in the morning peak. The busiest stretch is 世田谷代田→下北沢, which this station is not on. Tokyu Setagaya Line is not covered by the ministry's congestion survey. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
+  "congestion": "Odakyu Odawara Line runs at 150% of capacity in the morning peak. The busiest stretch is 世田谷代田→下北沢; trains from here toward 下北沢 pass through it. Tokyu Setagaya Line is not covered by the ministry's congestion survey. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
     "note": "Around this station, One room ¥70,000 to ¥80,000 and 1K ¥90,000 to ¥100,000. 1LDK ¥160,000 to ¥170,000 and 2LDK ¥220,000 to ¥230,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
@@ -89,7 +89,7 @@
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
-    "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
+    "congestion": "Morning trains are very crowded: Odakyu Odawara Line trains toward 下北沢 pass through the line's busiest stretch further on. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"
