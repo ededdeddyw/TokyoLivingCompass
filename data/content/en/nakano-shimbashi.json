@@ -2,8 +2,8 @@
   "slug": "nakano-shimbashi",
   "locale": "en",
   "name": "Nakano-Shimbashi",
-  "tagline": "Shinjuku in 28 minutes and Shibuya in 38 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Nakano City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 48 minutes to Otemachi, 28 minutes to Shinjuku, 38 minutes to Shibuya and 57 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 28.3 m above sea level, and the ground within 800 m varies in height by 10.3 m. The land around the station has gentle slopes.",
+  "tagline": "Shinjuku in 7 minutes and Shibuya in 17 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
+  "summary": "The station is in Nakano City, where Tokyo Metro run 1 line between them. Journey times to the main business districts are 26 minutes to Otemachi, 7 minutes to Shinjuku, 17 minutes to Shibuya and 35 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 28.3 m above sea level, and the ground within 800 m varies in height by 10.3 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 28.3 m above sea level. Within 800 m the ground ranges from 26.6 m to 36.9 m, a difference of 10.3 m."
@@ -52,7 +52,7 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is among the highest in the 23 wards. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. What holds the figure down: only one line, the {line}, serving the station. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "nakano-fujimicho",
@@ -61,11 +61,12 @@
     },
     {
       "slug": "shin-nakano",
-      "lead": "For how close the centre is, Shin-Nakano; for quiet, Nakano-Shimbashi. ",
-      "note": "Close enough to walk to from Nakano-Shimbashi. It is served by the same lines as Nakano-Shimbashi. Shin-Nakano is at least 21 minutes quicker to Tokyo and Shinjuku. On quiet, though, Nakano-Shimbashi comes out ahead."
+      "lead": "Nakano-Shimbashi is ahead on quiet, and little else separates the two. ",
+      "note": "Close enough to walk to from Nakano-Shimbashi. It is served by the same lines as Nakano-Shimbashi. Journey times to the main business districts are much the same. On quiet, Nakano-Shimbashi comes out ahead."
     }
   ],
   "goodFor": [
+    "People commuting towards Shinjuku",
     "People living alone who want to hold the rent down"
   ],
   "notFor": [
@@ -76,7 +77,7 @@
   ],
   "tags": [
     "quiet",
-    "pricey",
+    "goodValue",
     "singleLine",
     "medicalRich"
   ],
@@ -85,7 +86,7 @@
     "groceries": "There are 7 supermarkets within walking distance, and the nearest is 4 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tokyo Metro Marunouchi Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "Set against how long the commute takes, rents here are among the highest in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
     "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."

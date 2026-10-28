@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 7 clinics and 6 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 佐藤病院, about 2 minutes' walk from the station. The next nearest is 竹内病院, about 30 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 7 clinics and 6 pharmacies. The nearest hospital is 佐藤病院, about 2 minutes' walk from the station. The next nearest is 竹内病院, about 30 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Sakura Tram (Toden Arakawa Line).",
   "congestion": "The ministry's congestion survey does not publish figures for Tokyo Sakura Tram (Toden Arakawa Line). It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
@@ -52,7 +52,7 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. In plain yen, though, it is on the low side for the 23 wards.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is on the high side. In plain yen, though, it is on the low side for the 23 wards.",
   "neighbours": [
     {
       "slug": "miyanomae",
@@ -67,8 +67,7 @@
   ],
   "goodFor": [
     "People who get around by bicycle or with a pushchair",
-    "People who want a large park within walking distance",
-    "People living alone who want to hold the rent down"
+    "People who want a large park within walking distance"
   ],
   "notFor": [
     "People avoiding projected flood inundation areas",
@@ -89,7 +88,7 @@
     "groceries": "There are 7 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tokyo Sakura Tram (Toden Arakawa Line) serves this station, so when it stops you walk to another station.",
-    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
