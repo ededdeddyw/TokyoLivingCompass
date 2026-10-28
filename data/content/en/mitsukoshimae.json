@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 27 clinics and 18 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 同仁記念会明和病院, about 16 minutes' walk from the station. The next nearest is 秋葉原メディカルクリニック, about 19 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 27 clinics and 18 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 同仁記念会明和病院, about 16 minutes' walk from the station. The next nearest is 神尾記念病院, about 21 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "3 lines serve the station. JR Sobu Main Line run through it. Tokyo Metro Ginza Line also call here. Tokyo Metro Hanzomon Line are available too. The lines are split between operators (JR East runs 1 line and Tokyo Metro runs 2 lines), so when one line stops you can change to a line run by a different company.",
   "congestion": "JR Sobu Main Line runs at 160% of capacity in the morning peak. The busiest stretch is 新小岩→錦糸町, which this station is not on. Tokyo Metro Ginza Line runs at 153%. Its busiest stretch is 赤坂見附→溜池山王, which this station is likewise not on. Tokyo Metro Hanzomon Line runs at 111%. Its busiest stretch is 渋谷→表参道, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -73,10 +73,11 @@
     "People who want to finish their shopping on foot"
   ],
   "notFor": [
-    "The data does not show a drawback particular to this station"
+    "People who want a large park within walking distance",
+    "People who want to hold the rent down"
   ],
   "noiseSources": [
-    "The 首都高速都心環状線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
+    "The 首都高速都心環状線 viaduct runs a short walk from the station. It is an expressway, so traffic is audible day and night",
     "中央通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
@@ -95,7 +96,7 @@
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
     "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
-    "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"
 }

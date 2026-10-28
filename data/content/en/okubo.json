@@ -8,7 +8,7 @@
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 38.2 m above sea level. Within 800 m the ground ranges from 30.3 m to 38.2 m, a difference of 7.9 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 3 also fall inside the area, and the deepest projection is 0.5 to 3 m. On the whole, the flood projection here is on the small side for the 23 wards.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 3 also fall inside the area, and the deepest projection is 0.5 to 3 m. The station itself is inside the projected area, but few of the points around it are. Compared with other stations in the 23 wards, the flood projection here is on the small side.",
   "groceries": [
     {
       "name": "業務スーパー",
@@ -72,7 +72,6 @@
     "People living alone who want to hold the rent down"
   ],
   "notFor": [
-    "People avoiding projected flood inundation areas",
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
@@ -91,7 +90,7 @@
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the JR Chuo-Sobu Line (Local) serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
-    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
     "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },

@@ -18,7 +18,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 2 pharmacies. The nearest hospital is フジテレビ湾岸スタジオビル診療所, about 8 minutes' walk from the station. The next nearest is 癌研有明病院, about 40 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 1 clinic and 2 pharmacies. The nearest hospital is 癌研有明病院, about 40 minutes' walk from the station. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Yurikamome.",
   "congestion": "Yurikamome runs at 92% of capacity in the morning peak. The busiest stretch is 汐留→竹芝, which this station is not on. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "neighbours": [
@@ -34,7 +34,8 @@
     }
   ],
   "goodFor": [
-    "The data does not show a clear group this station suits"
+    "People who want to keep traffic noise out",
+    "People who want an area with few recorded crimes"
   ],
   "notFor": [
     "People who want another route when service is suspended",
@@ -42,7 +43,7 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "The 首都高速湾岸線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
+    "The 首都高速湾岸線 viaduct runs a short walk from the station. It is an expressway, so traffic is audible day and night",
     "台場青海線 (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
@@ -55,9 +56,9 @@
     "groceries": "There are 1 supermarkets within walking distance, and the nearest is 8 minutes on foot.",
     "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "Only the Yurikamome serves this station, so when it stops you walk to another station.",
-    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
-    "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"
 }

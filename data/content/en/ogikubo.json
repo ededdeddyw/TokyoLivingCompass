@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 46.7 m above sea level. Within 800 m the ground ranges from 41.6 m to 52.3 m, a difference of 10.7 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 4 also fall inside the area, and the deepest projection is 0.5 to 3 m. On the whole, the flood projection here is on the small side for the 23 wards.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 4 also fall inside the area, and the deepest projection is 0.5 to 3 m. The station itself is inside the projected area, but few of the points around it are. Compared with other stations in the 23 wards, the flood projection here is on the small side.",
   "groceries": [
     {
       "name": "西友 荻窪店",
@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 26 clinics and 24 pharmacies. Day-to-day care is available close to the station. The nearest hospital is にれの木クリニック, about 4 minutes' walk from the station. The next nearest is 保険医療センター, about 5 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 28 clinics and 24 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 保険医療センター, about 5 minutes' walk from the station. The next nearest is 東京衛生アドベンチスト病院, about 8 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "3 lines serve the station. JR Chuo Rapid Line run through it. JR Chuo-Sobu Line (Local) also call here. Tokyo Metro Marunouchi Line are available too. The lines are split between operators (JR East runs 2 lines and Tokyo Metro runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "JR Chuo Rapid Line runs at 158% of capacity in the morning peak. The busiest stretch is 中野→新宿; trains from here toward 新宿 pass through it. Tokyo Metro Marunouchi Line runs at 154% of capacity in the morning peak. The busiest stretch is 新大塚→茗荷谷, which this station is not on. JR Chuo-Sobu Line (Local) runs at 151%. Its busiest stretch is 錦糸町→両国, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -71,7 +71,8 @@
     "People living alone who want to hold the rent down"
   ],
   "notFor": [
-    "People avoiding projected flood inundation areas"
+    "People who want a large park within walking distance",
+    "People who want to keep traffic noise out"
   ],
   "noiseSources": [
     "青梅街道 (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"

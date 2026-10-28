@@ -8,7 +8,7 @@
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 2.6 m above sea level. Within 800 m the ground ranges from 2 m to 7.7 m, a difference of 5.7 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 6 also fall inside the area, and the deepest projection is 0.5 to 3 m. For storm surge, 5 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the small side for the 23 wards.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 6 also fall inside the area, and the deepest projection is 0.5 to 3 m. For storm surge, 5 of the nine points also fall inside the projected area. The station itself is inside the projected area, but few of the points around it are. Compared with other stations in the 23 wards, the flood projection here is on the small side.",
   "groceries": [
     {
       "name": "まいばすけっと",
@@ -55,7 +55,6 @@
     "People who get around by bicycle or with a pushchair"
   ],
   "notFor": [
-    "People avoiding projected flood inundation areas",
     "People who want another route when service is suspended",
     "People who want to finish their shopping on foot",
     "People who want plenty of places to eat out"
@@ -75,9 +74,9 @@
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Keikyu Main Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
-    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
-    "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"
 }

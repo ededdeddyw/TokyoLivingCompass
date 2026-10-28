@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 20.8 m above sea level. Within 800 m the ground ranges from 20.6 m to 35.9 m, a difference of 15.3 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 2 also fall inside the area, and the deepest projection is 0.5 to 3 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 2 also fall inside the area, and the deepest projection is 0.5 to 3 m. The station itself is inside the projected area, but few of the points around it are. Compared with other stations in the 23 wards, the flood projection here is on the small side.",
   "groceries": [
     {
       "name": "マルマンストア",
@@ -71,7 +71,7 @@
     "People who want a large park within walking distance"
   ],
   "notFor": [
-    "People avoiding projected flood inundation areas"
+    "People who want to hold the rent down"
   ],
   "noiseSources": [
     "山手通り (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road",
@@ -79,7 +79,6 @@
   ],
   "tags": [
     "quiet",
-    "lowFlood",
     "fastToCenter",
     "parkNear"
   ],
@@ -89,7 +88,7 @@
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
-    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
     "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },

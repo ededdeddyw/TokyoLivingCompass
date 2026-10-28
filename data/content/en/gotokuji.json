@@ -8,7 +8,7 @@
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 35.2 m above sea level. Within 800 m the ground ranges from 32.9 m to 40.4 m, a difference of 7.5 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 4 also fall inside the area, and the deepest projection is 0.5 to 3 m. On the whole, the flood projection here is on the small side for the 23 wards.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 4 also fall inside the area, and the deepest projection is 0.5 to 3 m. The station itself is inside the projected area, but few of the points around it are. Compared with other stations in the 23 wards, the flood projection here is on the small side.",
   "groceries": [
     {
       "name": "つるかめストア",
@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 17 clinics and 16 pharmacies. Day-to-day care is available close to the station. The nearest hospital is うめとぴあ, about 9 minutes' walk from the station. The next nearest is 児玉新生会児玉経堂病院, about 18 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 16 clinics and 16 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 児玉新生会児玉経堂病院, about 18 minutes' walk from the station. The next nearest is 菊池外科病院, about 19 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station: Odakyu Odawara Line and Tokyu Setagaya Line. The lines are split between operators (Odakyu runs 1 line and Tokyu runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "Odakyu Odawara Line runs at 150% of capacity in the morning peak. The busiest stretch is 世田谷代田→下北沢; trains from here toward 下北沢 pass through it. Tokyu Setagaya Line is not covered by the ministry's congestion survey. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -71,7 +71,7 @@
     "People living alone who want to hold the rent down"
   ],
   "notFor": [
-    "People avoiding projected flood inundation areas"
+    "People who want a large park within walking distance"
   ],
   "noiseSources": [
     "瀬田貫井線 (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
@@ -88,7 +88,7 @@
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
-    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
     "congestion": "Morning trains are very crowded: Odakyu Odawara Line trains toward 下北沢 pass through the line's busiest stretch further on. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },

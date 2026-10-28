@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 64 clinics and 49 pharmacies. Day-to-day care is available close to the station. The nearest hospital is アイシークリニック上野院, about 7 minutes' walk from the station. The next nearest is 全仁会上野病院, about 9 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 65 clinics and 49 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 全仁会上野病院, about 9 minutes' walk from the station. The next nearest is ライフ・エクステンション研究所付属永寿総合病院, about 10 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station: Keisei Main Line and Narita Sky Access Line. Both lines are run by Keisei, so a fault affecting that company can stop them together.",
   "congestion": "Keisei Main Line runs at 137% of capacity in the morning peak. The busiest stretch is 大神宮下→京成船橋, which this station is not on. Narita Sky Access Line is not covered by the ministry's congestion survey. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -69,10 +69,11 @@
     "People who want to finish their shopping on foot"
   ],
   "notFor": [
-    "The data does not show a drawback particular to this station"
+    "Families who want schools and nurseries close by",
+    "People who want an area with few recorded crimes"
   ],
   "noiseSources": [
-    "The 首都高速1号上野線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
+    "The 首都高速1号上野線 viaduct runs a short walk from the station. It is an expressway, so traffic is audible day and night",
     "中央通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
@@ -91,7 +92,7 @@
     "rentRange": "Set against how long the commute takes, rents here are among the highest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
-    "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
+    "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"
 }

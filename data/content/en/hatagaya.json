@@ -8,7 +8,7 @@
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 39 m above sea level. Within 800 m the ground ranges from 34.7 m to 42.2 m, a difference of 7.5 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 2 also fall inside the area, and the deepest projection is 0.5 to 3 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 2 also fall inside the area, and the deepest projection is 0.5 to 3 m. The station itself is inside the projected area, but few of the points around it are. Compared with other stations in the 23 wards, the flood projection here is on the small side.",
   "groceries": [
     {
       "name": "成城石井",
@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 11 clinics and 8 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 東洋病院, about 10 minutes' walk from the station. The next nearest is 温光会内藤病院, about 16 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 9 clinics and 8 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 回心堂病院, about 2 minutes' walk from the station. The next nearest is クロス病院, about 2 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station: Keio Line and Keio New Line. Both lines are run by Keio, so a fault affecting that company can stop them together.",
   "congestion": "Keio Line runs at 145% of capacity in the morning peak. The busiest stretch is 下高井戸→明大前, which this station is not on. Keio New Line is not covered by the ministry's congestion survey. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -71,14 +71,14 @@
     "People living alone who want to hold the rent down"
   ],
   "notFor": [
-    "People avoiding projected flood inundation areas"
+    "People who want to keep traffic noise out",
+    "People who want a large park within walking distance"
   ],
   "noiseSources": [
     "The 首都高速4号新宿線 viaduct runs right beside the station. It is an expressway, so traffic is audible day and night",
     "甲州街道 (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
-    "lowFlood",
     "flat",
     "medicalRich"
   ],
@@ -88,7 +88,7 @@
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
-    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },

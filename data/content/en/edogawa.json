@@ -8,7 +8,7 @@
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 2.9 m above sea level. Within 800 m the ground ranges from 1.5 m to 8 m, a difference of 6.5 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. Of the nine points within 400 m of the station, 5 also fall inside the area, and the deepest projection is 3 to 5 m. For storm surge, 4 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the small side for the 23 wards.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. Of the nine points within 400 m of the station, 5 also fall inside the area, and the deepest projection is 3 to 5 m. For storm surge, 4 of the nine points also fall inside the projected area. The station itself is inside the projected area, but few of the points around it are. Compared with other stations in the 23 wards, the flood projection here is on the small side.",
   "groceries": [
     {
       "name": "リブレ京成",
@@ -56,14 +56,13 @@
     "People living alone who want to hold the rent down"
   ],
   "notFor": [
-    "People avoiding projected flood inundation areas",
     "People who want another route when service is suspended",
     "People who want to finish their shopping on foot",
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "The nearest big road, 千葉街道, is far enough that little traffic noise reaches the station area",
-    "The nearest big road, 蔵前橋通り, is far enough that little traffic noise reaches the station area"
+    "千葉街道 (2 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening",
+    "蔵前橋通り (a main road) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "quiet",
@@ -77,7 +76,7 @@
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Keisei Main Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
-    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
     "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },

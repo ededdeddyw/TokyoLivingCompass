@@ -8,7 +8,7 @@
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 38.8 m above sea level. Within 800 m the ground ranges from 37.1 m to 39.9 m, a difference of 2.8 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 4 also fall inside the area, and the deepest projection is less than 0.5 m. On the whole, the flood projection here is on the small side for the 23 wards.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 4 also fall inside the area, and the deepest projection is less than 0.5 m. The station itself is inside the projected area, but few of the points around it are. Compared with other stations in the 23 wards, the flood projection here is on the small side.",
   "groceries": [
     {
       "name": "スーパーみらべる 練馬春日町店",
@@ -70,18 +70,16 @@
     "People living alone who want to hold the rent down"
   ],
   "notFor": [
-    "People avoiding projected flood inundation areas",
     "People who want another route when service is suspended",
     "People who want to finish their shopping on foot",
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "南田中町旭町線（支線1）（補助第172号線） (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road",
+    "南田中町旭町線 (1 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road",
     "環八通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "quiet",
-    "lowFlood",
     "singleLine",
     "flat"
   ],
@@ -91,7 +89,7 @@
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Toei Oedo Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
-    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
     "congestion": "Toei Oedo Line trains toward 東中野 pass through the line's busiest stretch, but at 147% passengers are not shoulder to shoulder. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
