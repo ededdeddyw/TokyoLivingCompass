@@ -82,13 +82,18 @@ def sort_medical(clinics, hospitals):
         else:
             hp.append(x)
     # 同じ病院が、法人名つき（「樺島会樺島病院」）と、つかない名前（「樺島病院」）で
-    # 2回登録されていることがある。片方の名前がもう片方の末尾と一致すれば同じ病院とみなす。
-    uniq = []
+    # 2回登録されていることがある。頭の「〇〇会」を落とした名前が同じなら同じ病院とみなす。
+    # 末尾の一致だけで見ると、浮間舟渡病院と舟渡病院のような別の病院までまとめてしまう。
+    def base(n):
+        n = re.sub(r"\s", "", n)
+        m = re.match(r"^.{1,6}?会(.+病院.*)$", n)
+        return m.group(1) if m else n
+
+    uniq, seen = [], set()
     for x in sorted(hp, key=lambda h: h["distanceM"]):
-        name = re.sub(r"\s", "", x["name"])
-        if any(name.endswith(u) or u.endswith(name)
-               for u in (re.sub(r"\s", "", y["name"]) for y in uniq)):
+        if base(x["name"]) in seen:
             continue
+        seen.add(base(x["name"]))
         uniq.append(x)
     return cl, uniq
 
