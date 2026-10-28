@@ -520,7 +520,7 @@
      "score": 74
     },
     "single-outdoor": {
-     "base": 38,
+     "base": 39,
      "life": 59,
      "play": 38,
      "score": 47
@@ -529,7 +529,7 @@
    "transitConvenience": 32
   },
   "akasaka": {
-   "commute": 83,
+   "commute": 84,
    "greenHa": 2.7,
    "greenParks": [
     "檜町公園",
@@ -581,13 +581,13 @@
      "base": 75,
      "life": 65,
      "play": 63,
-     "score": 16
+     "score": 17
     },
     "dinks-outdoor": {
      "base": 82,
      "life": 65,
      "play": 66,
-     "score": 20
+     "score": 21
     },
     "family-indoor": {
      "base": 15,
@@ -614,16 +614,16 @@
      "score": 11
     },
     "single-indoor": {
-     "base": 65,
-     "life": 58,
+     "base": 67,
+     "life": 59,
      "play": 63,
      "score": 12
     },
     "single-outdoor": {
      "base": 77,
-     "life": 58,
+     "life": 59,
      "play": 66,
-     "score": 14
+     "score": 15
     }
    },
    "transitConvenience": 32
@@ -1106,7 +1106,7 @@
      "play": 62
     },
     "senior-outdoor": {
-     "base": 62,
+     "base": 63,
      "life": 55,
      "play": 78
     },
@@ -1828,7 +1828,7 @@
      "base": 39,
      "life": 55,
      "play": 44,
-     "score": 77
+     "score": 78
     }
    },
    "transitConvenience": 32
@@ -3031,7 +3031,7 @@
      "score": 99
     },
     "single-outdoor": {
-     "base": 80,
+     "base": 81,
      "life": 59,
      "play": 68,
      "score": 100
@@ -3120,7 +3120,7 @@
      "score": 5
     },
     "senior-outdoor": {
-     "base": 61,
+     "base": 62,
      "life": 56,
      "play": 76,
      "score": 8
@@ -3419,7 +3419,7 @@
      "score": 96
     },
     "senior-outdoor": {
-     "base": 64,
+     "base": 65,
      "life": 71,
      "play": 43,
      "score": 97
@@ -4737,7 +4737,7 @@
      "base": 91,
      "life": 73,
      "play": 63,
-     "score": 52
+     "score": 53
     }
    },
    "transitConvenience": 32
@@ -4833,7 +4833,7 @@
      "base": 14,
      "life": 38,
      "play": 61,
-     "score": 40
+     "score": 41
     },
     "single-outdoor": {
      "base": 39,
@@ -5179,7 +5179,7 @@
      "to": "hikarigaoka"
     },
     {
-     "minutes": 19,
+     "minutes": 23,
      "parks": [
       "城北中央公園",
       "高稲荷公園",
@@ -5413,7 +5413,7 @@
      "base": 57,
      "life": 59,
      "play": 54,
-     "score": 90
+     "score": 91
     },
     "senior-indoor": {
      "base": 11,
@@ -5711,7 +5711,7 @@
      "score": 58
     },
     "family-outdoor": {
-     "base": 82,
+     "base": 83,
      "life": 68,
      "play": 53,
      "score": 52
@@ -5928,7 +5928,7 @@
      "score": 4
     },
     "senior-outdoor": {
-     "base": 60,
+     "base": 61,
      "life": 50,
      "play": 91,
      "score": 11
@@ -6445,7 +6445,7 @@
      "score": 79
     },
     "single-outdoor": {
-     "base": 40,
+     "base": 41,
      "life": 50,
      "play": 53,
      "score": 76
@@ -7200,7 +7200,7 @@
      "base": 36,
      "life": 42,
      "play": 64,
-     "score": 72
+     "score": 73
     },
     "family-indoor": {
      "base": 31,
@@ -7757,8 +7757,8 @@
      "to": "ikebukuro"
     },
     {
-     "minutes": 12,
-     "to": "nerima"
+     "minutes": 7,
+     "to": "narimasu"
     }
    ],
    "outdoorDest": [
@@ -7781,13 +7781,13 @@
      "to": "iidabashi"
     },
     {
-     "minutes": 25,
+     "minutes": 20,
      "parks": [
-      "光が丘公園",
-      "夏の雲公園",
-      "四季の香公園"
+      "戸山公園",
+      "西戸山公園",
+      "甘泉園公園"
      ],
-     "to": "hikarigaoka"
+     "to": "nishi-waseda"
     }
    ],
    "rentLow": 87,
@@ -7905,7 +7905,7 @@
      "base": 42,
      "life": 37,
      "play": 75,
-     "score": 48
+     "score": 49
     },
     "family-indoor": {
      "base": 46,
@@ -8409,7 +8409,7 @@
      "base": 57,
      "life": 49,
      "play": 66,
-     "score": 21
+     "score": 20
     },
     "family-indoor": {
      "base": 58,
@@ -8853,7 +8853,7 @@
    "transitConvenience": 32
   },
   "higashi-nakano": {
-   "commute": 65,
+   "commute": 64,
    "greenHa": 0.0,
    "greenParks": [],
    "indoorDest": [
@@ -8901,13 +8901,13 @@
      "base": 81,
      "life": 70,
      "play": 60,
-     "score": 74
+     "score": 73
     },
     "dinks-outdoor": {
      "base": 67,
      "life": 70,
      "play": 43,
-     "score": 66
+     "score": 65
     },
     "family-indoor": {
      "base": 54,
@@ -8937,13 +8937,13 @@
      "base": 69,
      "life": 62,
      "play": 60,
-     "score": 65
+     "score": 64
     },
     "single-outdoor": {
      "base": 53,
      "life": 62,
      "play": 43,
-     "score": 53
+     "score": 52
     }
    },
    "transitConvenience": 57
@@ -9287,21 +9287,19 @@
      "to": "hikarigaoka"
     },
     {
-     "minutes": 22,
-     "parks": [
-      "城北中央公園",
-      "高稲荷公園",
-      "茂呂山公園"
-     ],
-     "to": "hikawadai"
-    },
-    {
      "minutes": 27,
      "parks": [
       "新宿御苑",
       "新宿中央公園"
      ],
      "to": "shinjuku"
+    },
+    {
+     "minutes": 23,
+     "parks": [
+      "石神井公園"
+     ],
+     "to": "shakujii-koen"
     }
    ],
    "rentLow": 88,
@@ -9375,7 +9373,7 @@
      "to": "chikatetsu-akatsuka"
     },
     {
-     "minutes": 9,
+     "minutes": 13,
      "to": "nerima"
     }
    ],
@@ -9399,13 +9397,11 @@
      "to": "iidabashi"
     },
     {
-     "minutes": 22,
+     "minutes": 21,
      "parks": [
-      "光が丘公園",
-      "夏の雲公園",
-      "四季の香公園"
+      "新宿御苑"
      ],
-     "to": "hikarigaoka"
+     "to": "shinjuku-sanchome"
     }
    ],
    "rentLow": 87,
@@ -9657,7 +9653,7 @@
      "base": 34,
      "life": 47,
      "play": 59,
-     "score": 5
+     "score": 4
     },
     "single-outdoor": {
      "base": 52,
@@ -10429,7 +10425,7 @@
      "score": 80
     },
     "dinks-outdoor": {
-     "base": 33,
+     "base": 34,
      "life": 53,
      "play": 46,
      "score": 81
@@ -11873,7 +11869,7 @@
      "base": 14,
      "life": 39,
      "play": 49,
-     "score": 48
+     "score": 49
     }
    },
    "transitConvenience": 32
@@ -12335,7 +12331,7 @@
      "base": 37,
      "life": 49,
      "play": 62,
-     "score": 7
+     "score": 6
     },
     "dinks-outdoor": {
      "base": 39,
@@ -12451,7 +12447,7 @@
      "score": 39
     },
     "family-outdoor": {
-     "base": 83,
+     "base": 84,
      "life": 66,
      "play": 58,
      "score": 40
@@ -15231,7 +15227,7 @@
      "base": 94,
      "life": 72,
      "play": 71,
-     "score": 40
+     "score": 41
     },
     "dinks-outdoor": {
      "base": 97,
@@ -15685,7 +15681,7 @@
      "base": 10,
      "life": 32,
      "play": 54,
-     "score": 47
+     "score": 48
     }
    },
    "transitConvenience": 32
@@ -15746,7 +15742,7 @@
      "base": 18,
      "life": 41,
      "play": 60,
-     "score": 73
+     "score": 74
     },
     "dinks-outdoor": {
      "base": 45,
@@ -16666,7 +16662,7 @@
      "score": 98
     },
     "family-outdoor": {
-     "base": 81,
+     "base": 82,
      "life": 69,
      "play": 50,
      "score": 98
@@ -19107,7 +19103,7 @@
    "transitConvenience": 32
   },
   "magome": {
-   "commute": 58,
+   "commute": 57,
    "greenHa": 0.0,
    "greenParks": [],
    "indoorDest": [
@@ -20261,7 +20257,7 @@
      "base": 60,
      "life": 58,
      "play": 65,
-     "score": 50
+     "score": 51
     },
     "family-outdoor": {
      "base": 53,
@@ -21488,7 +21484,7 @@
      "base": 79,
      "life": 64,
      "play": 63,
-     "score": 38
+     "score": 39
     },
     "single-outdoor": {
      "base": 60,
@@ -21659,7 +21655,7 @@
      "base": 45,
      "life": 49,
      "play": 59,
-     "score": 65
+     "score": 66
     },
     "family-indoor": {
      "base": 95,
@@ -21755,7 +21751,7 @@
      "score": 90
     },
     "dinks-outdoor": {
-     "base": 32,
+     "base": 33,
      "life": 59,
      "play": 36,
      "score": 83
@@ -22441,7 +22437,7 @@
      "to": "hikarigaoka"
     },
     {
-     "minutes": 18,
+     "minutes": 22,
      "parks": [
       "城北中央公園",
       "高稲荷公園",
@@ -23122,20 +23118,20 @@
      "to": "hikarigaoka"
     },
     {
-     "minutes": 9,
+     "minutes": 10,
+     "parks": [
+      "石神井公園"
+     ],
+     "to": "shakujii-koen"
+    },
+    {
+     "minutes": 13,
      "parks": [
       "城北中央公園",
       "高稲荷公園",
       "茂呂山公園"
      ],
      "to": "hikawadai"
-    },
-    {
-     "minutes": 10,
-     "parks": [
-      "石神井公園"
-     ],
-     "to": "shakujii-koen"
     }
    ],
    "rentLow": 79,
@@ -23174,7 +23170,7 @@
      "base": 65,
      "life": 69,
      "play": 48,
-     "score": 90
+     "score": 91
     },
     "single-indoor": {
      "base": 59,
@@ -23220,21 +23216,19 @@
      "to": "hikarigaoka"
     },
     {
-     "minutes": 19,
-     "parks": [
-      "城北中央公園",
-      "高稲荷公園",
-      "茂呂山公園"
-     ],
-     "to": "hikawadai"
-    },
-    {
      "minutes": 24,
      "parks": [
       "新宿御苑",
       "新宿中央公園"
      ],
      "to": "shinjuku"
+    },
+    {
+     "minutes": 20,
+     "parks": [
+      "石神井公園"
+     ],
+     "to": "shakujii-koen"
     }
    ],
    "rentLow": 89,
@@ -23326,7 +23320,7 @@
      "to": "hikarigaoka"
     },
     {
-     "minutes": 22,
+     "minutes": 26,
      "parks": [
       "城北中央公園",
       "高稲荷公園",
@@ -24329,7 +24323,7 @@
      "score": 95
     },
     "dinks-outdoor": {
-     "base": 31,
+     "base": 32,
      "life": 63,
      "play": 30,
      "score": 77
@@ -25472,7 +25466,7 @@
      "score": 88
     },
     "single-indoor": {
-     "base": 17,
+     "base": 18,
      "life": 44,
      "play": 55,
      "score": 60
@@ -25892,7 +25886,7 @@
    "transitConvenience": 32
   },
   "nogizaka": {
-   "commute": 80,
+   "commute": 81,
    "greenHa": 5.5,
    "greenParks": [
     "青山公園",
@@ -25945,7 +25939,7 @@
      "base": 52,
      "life": 48,
      "play": 72,
-     "score": 6
+     "score": 7
     },
     "dinks-outdoor": {
      "base": 52,
@@ -25981,7 +25975,7 @@
      "base": 43,
      "life": 43,
      "play": 72,
-     "score": 4
+     "score": 5
     },
     "single-outdoor": {
      "base": 44,
@@ -27243,13 +27237,11 @@
      "to": "hikarigaoka"
     },
     {
-     "minutes": 28,
+     "minutes": 15,
      "parks": [
-      "城北中央公園",
-      "高稲荷公園",
-      "茂呂山公園"
+      "江古田の森公園"
      ],
-     "to": "hikawadai"
+     "to": "sakuradai"
     }
    ],
    "rentLow": 97,
@@ -28005,7 +27997,7 @@
      "base": 53,
      "life": 63,
      "play": 42,
-     "score": 15
+     "score": 14
     }
    },
    "transitConvenience": 32
@@ -28421,7 +28413,7 @@
    "transitConvenience": 32
   },
   "omote-sando": {
-   "commute": 85,
+   "commute": 86,
    "greenHa": 1.1,
    "greenParks": [
     "渋谷区の宮下公園"
@@ -30761,13 +30753,12 @@
      "to": "shakujii-koen"
     },
     {
-     "minutes": 16,
+     "minutes": 22,
      "parks": [
-      "城北中央公園",
-      "高稲荷公園",
-      "茂呂山公園"
+      "新宿御苑",
+      "新宿中央公園"
      ],
-     "to": "hikawadai"
+     "to": "shinjuku"
     }
    ],
    "rentLow": 74,
@@ -30803,7 +30794,7 @@
      "score": 90
     },
     "senior-outdoor": {
-     "base": 63,
+     "base": 64,
      "life": 65,
      "play": 56,
      "score": 84
@@ -32759,13 +32750,11 @@
      "to": "hikarigaoka"
     },
     {
-     "minutes": 24,
+     "minutes": 11,
      "parks": [
-      "城北中央公園",
-      "高稲荷公園",
-      "茂呂山公園"
+      "江古田の森公園"
      ],
-     "to": "hikawadai"
+     "to": "sakuradai"
     }
    ],
    "rentLow": 91,
@@ -33117,7 +33106,7 @@
      "score": 2
     },
     "single-outdoor": {
-     "base": 2,
+     "base": 3,
      "life": 31,
      "play": 40,
      "score": 0
@@ -34400,7 +34389,7 @@
      "base": 39,
      "life": 56,
      "play": 44,
-     "score": 71
+     "score": 72
     },
     "family-indoor": {
      "base": 33,
@@ -34786,13 +34775,13 @@
      "to": "shinjuku"
     },
     {
-     "minutes": 18,
+     "minutes": 3,
      "parks": [
-      "城北中央公園",
-      "高稲荷公園",
-      "茂呂山公園"
+      "哲学堂公園",
+      "中野上高田公園",
+      "西落合公園"
      ],
-     "to": "hikawadai"
+     "to": "ochiai-minami-nagasaki"
     }
    ],
    "rentLow": 68,
@@ -35334,7 +35323,7 @@
      "score": 33
     },
     "single-indoor": {
-     "base": 67,
+     "base": 66,
      "life": 55,
      "play": 69,
      "score": 30
@@ -35402,7 +35391,7 @@
      "base": 56,
      "life": 64,
      "play": 44,
-     "score": 47
+     "score": 48
     },
     "family-indoor": {
      "base": 34,
@@ -35737,7 +35726,7 @@
      "base": 68,
      "life": 63,
      "play": 50,
-     "score": 49
+     "score": 50
     }
    },
    "transitConvenience": 32
@@ -35758,20 +35747,11 @@
      "to": "nerima"
     },
     {
-     "minutes": 13,
-     "to": "chikatetsu-akatsuka"
+     "minutes": 21,
+     "to": "iidabashi"
     }
    ],
    "outdoorDest": [
-    {
-     "minutes": 6,
-     "parks": [
-      "城北中央公園",
-      "高稲荷公園",
-      "茂呂山公園"
-     ],
-     "to": "hikawadai"
-    },
     {
      "minutes": 16,
      "parks": [
@@ -35780,6 +35760,15 @@
       "四季の香公園"
      ],
      "to": "hikarigaoka"
+    },
+    {
+     "minutes": 10,
+     "parks": [
+      "城北中央公園",
+      "高稲荷公園",
+      "茂呂山公園"
+     ],
+     "to": "hikawadai"
     },
     {
      "minutes": 21,
@@ -35800,10 +35789,10 @@
      "score": 79
     },
     "dinks-outdoor": {
-     "base": 34,
+     "base": 31,
      "life": 46,
-     "play": 57,
-     "score": 73
+     "play": 54,
+     "score": 71
     },
     "family-indoor": {
      "base": 82,
@@ -35812,10 +35801,10 @@
      "score": 89
     },
     "family-outdoor": {
-     "base": 85,
+     "base": 81,
      "life": 67,
-     "play": 57,
-     "score": 91
+     "play": 54,
+     "score": 90
     },
     "senior-indoor": {
      "base": 68,
@@ -35824,10 +35813,10 @@
      "score": 91
     },
     "senior-outdoor": {
-     "base": 65,
+     "base": 60,
      "life": 65,
-     "play": 57,
-     "score": 91
+     "play": 54,
+     "score": 89
     },
     "single-indoor": {
      "base": 48,
@@ -35836,10 +35825,10 @@
      "score": 85
     },
     "single-outdoor": {
-     "base": 41,
+     "base": 37,
      "life": 47,
-     "play": 57,
-     "score": 78
+     "play": 54,
+     "score": 76
     }
    },
    "transitConvenience": 32
@@ -37901,7 +37890,7 @@
      "base": 3,
      "life": 25,
      "play": 56,
-     "score": 39
+     "score": 40
     },
     "dinks-outdoor": {
      "base": 12,
@@ -38029,7 +38018,7 @@
      "base": 78,
      "life": 80,
      "play": 30,
-     "score": 89
+     "score": 90
     },
     "single-indoor": {
      "base": 83,
@@ -38414,7 +38403,7 @@
      "score": 24
     },
     "family-outdoor": {
-     "base": 84,
+     "base": 85,
      "life": 51,
      "play": 94,
      "score": 38
@@ -39050,7 +39039,7 @@
    "transitConvenience": 52
   },
   "takanawadai": {
-   "commute": 75,
+   "commute": 74,
    "greenHa": 0.0,
    "greenParks": [],
    "indoorDest": [
@@ -39133,14 +39122,14 @@
      "score": 1
     },
     "single-indoor": {
-     "base": 18,
-     "life": 36,
+     "base": 17,
+     "life": 35,
      "play": 67,
      "score": 3
     },
     "single-outdoor": {
-     "base": 3,
-     "life": 36,
+     "base": 2,
+     "life": 35,
      "play": 33,
      "score": 0
     }
@@ -40950,7 +40939,7 @@
      "base": 33,
      "life": 37,
      "play": 74,
-     "score": 39
+     "score": 40
     },
     "single-outdoor": {
      "base": 29,
@@ -41554,7 +41543,7 @@
    "transitConvenience": 32
   },
   "tokyo-skytree": {
-   "commute": 54,
+   "commute": 50,
    "greenHa": 25.1,
    "greenParks": [
     "台東区の隅田公園",
@@ -41567,7 +41556,7 @@
      "to": "asakusa"
     },
     {
-     "minutes": 5,
+     "minutes": 9,
      "to": "kinshicho"
     },
     {
@@ -41610,19 +41599,19 @@
      "base": 75,
      "life": 58,
      "play": 74,
-     "score": 41
+     "score": 39
     },
     "dinks-outdoor": {
      "base": 79,
      "life": 58,
      "play": 74,
-     "score": 50
+     "score": 46
     },
     "family-indoor": {
      "base": 81,
      "life": 64,
      "play": 74,
-     "score": 52
+     "score": 50
     },
     "family-outdoor": {
      "base": 90,
@@ -41644,15 +41633,15 @@
     },
     "single-indoor": {
      "base": 77,
-     "life": 56,
+     "life": 55,
      "play": 74,
-     "score": 41
+     "score": 38
     },
     "single-outdoor": {
-     "base": 81,
-     "life": 56,
+     "base": 80,
+     "life": 55,
      "play": 74,
-     "score": 50
+     "score": 47
     }
    },
    "transitConvenience": 32
@@ -42263,7 +42252,7 @@
      "score": 95
     },
     "single-outdoor": {
-     "base": 39,
+     "base": 40,
      "life": 58,
      "play": 40,
      "score": 84
@@ -42300,21 +42289,19 @@
      "to": "hikarigaoka"
     },
     {
-     "minutes": 16,
-     "parks": [
-      "城北中央公園",
-      "高稲荷公園",
-      "茂呂山公園"
-     ],
-     "to": "hikawadai"
-    },
-    {
      "minutes": 21,
      "parks": [
       "新宿御苑",
       "新宿中央公園"
      ],
      "to": "shinjuku"
+    },
+    {
+     "minutes": 17,
+     "parks": [
+      "石神井公園"
+     ],
+     "to": "shakujii-koen"
     }
    ],
    "rentLow": 84,
@@ -42841,7 +42828,7 @@
      "base": 43,
      "life": 52,
      "play": 62,
-     "score": 17
+     "score": 16
     },
     "dinks-outdoor": {
      "base": 61,
@@ -43552,7 +43539,7 @@
      "base": 33,
      "life": 50,
      "play": 50,
-     "score": 46
+     "score": 47
     },
     "family-indoor": {
      "base": 86,
@@ -43862,7 +43849,7 @@
      "base": 96,
      "life": 78,
      "play": 72,
-     "score": 51
+     "score": 52
     },
     "family-outdoor": {
      "base": 99,
@@ -44180,7 +44167,7 @@
      "score": 44
     },
     "single-indoor": {
-     "base": 66,
+     "base": 65,
      "life": 47,
      "play": 81,
      "score": 25
@@ -44883,7 +44870,7 @@
      "base": 16,
      "life": 34,
      "play": 58,
-     "score": 76
+     "score": 77
     }
    },
    "transitConvenience": 32
@@ -45473,10 +45460,10 @@
      "base": 58,
      "life": 54,
      "play": 65,
-     "score": 64
+     "score": 65
     },
     "single-outdoor": {
-     "base": 37,
+     "base": 38,
      "life": 54,
      "play": 44,
      "score": 48
@@ -45841,7 +45828,7 @@
      "base": 64,
      "life": 59,
      "play": 56,
-     "score": 49
+     "score": 50
     },
     "family-indoor": {
      "base": 100,
