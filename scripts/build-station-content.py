@@ -57,8 +57,8 @@ RESTRICTED_HOSPITAL = re.compile(r"宮内庁|拘置所|刑務所|医務部|自�
 # 名前で振り分け直す。
 HOSPITAL_IN_CLINIC = re.compile(r"病院")
 NOT_HOSPITAL = re.compile(r"クリニック|[Cc]linic|診療所|動物|歯科|訪問看護|ステーション|健診|健康医学|透析")
-CLINIC_NAME = re.compile(r"クリニック|[Cc]linic|医院|診療所|歯科|整形外科|皮膚科|眼科|耳鼻|泌尿器|美容|内科")
-NOT_MEDICAL = re.compile(r"接骨|整骨|保健福祉|うめとぴあ|動物|犬猫|ペット|獣医|[Vv]et")
+CLINIC_NAME = re.compile(r"クリニック|[Cc]linic|医院|診療所|歯科|整形外科|皮膚科|眼科|耳鼻|泌尿器|美容|内科|婦人科|小児科")
+NOT_MEDICAL = re.compile(r"接骨|整骨|保健福祉|うめとぴあ|動物|犬猫|ペット|獣医|[Vv]et|^予定$|BOWOW")
 
 
 def sort_medical(clinics, hospitals):
@@ -91,12 +91,18 @@ def sort_medical(clinics, hospitals):
         m = re.match(r"^.{1,6}?会(.+病院.*)$", n)
         return m.group(1) if m else n
 
-    uniq, seen = [], set()
+    # 「浴風会」と「浴風会病院」のように、末尾の「病院」の有無だけが違うものも同じとみなす
+    def key(n):
+        b = base(n)
+        return b[:-2] if b.endswith("病院") else b
+
+    # 重なったときは、名前に「病院」が付くほうを残す（「浴風会」より「浴風会病院」）
+    chosen = {}
     for x in sorted(hp, key=lambda h: h["distanceM"]):
-        if base(x["name"]) in seen:
-            continue
-        seen.add(base(x["name"]))
-        uniq.append(x)
+        k = key(x["name"])
+        if k not in chosen or ("病院" in x["name"] and "病院" not in chosen[k]["name"]):
+            chosen[k] = x
+    uniq = sorted(chosen.values(), key=lambda h: h["distanceM"])
     return cl, uniq
 
 
@@ -108,13 +114,17 @@ SHOP_NAME_FIX = [("TRAIAL", "TRIAL"), ("ハマナサ", "ハナマサ"), ("店店
                  ("Maruetsu petit", "マルエツプチ"), ("Maruetsu", "マルエツ")]
 
 
+# 地図データで店名の代わりにブランドの英字が入っているもの
+SHOP_NAME_WHOLE = {"ok": "オーケー", "comodi-iida": "コモディイイダ"}
+
+
 def grocery_pois(pois):
     """スーパーとして使える店だけを、店名の誤記を直して返す。"""
     out = []
     for x in pois:
         if NOT_GROCERY.search(x["name"]):
             continue
-        name = x["name"]
+        name = SHOP_NAME_WHOLE.get(x["name"], x["name"])
         for a, b in SHOP_NAME_FIX:
             name = name.replace(a, b)
         out.append({**x, "name": name})
@@ -909,7 +919,8 @@ def build(st, ctx):
                     count=len(ph), pharmacyWord=word(p, "pharmacy", len(ph))) if ph else "") if x]
             bits = [p["medicalCounts"].format(items=join(p, counts))]
             # 数が少ない駅にまで「選べます」と書くと、事実と合わない。
-            if len(cl) + len(ph) >= 10:
+            # 薬局だけが多い駅もあるので、クリニックの数で見る（雑司が谷はクリニック3件だった）
+            if len(cl) >= 10:
                 bits.append(p["medicalEnough"])
         else:
             bits = [p["medicalNone"]]
@@ -1205,7 +1216,10 @@ def build(st, ctx):
         good.append(p["goodNature"])
     if not haz.get("aroundCount"):
         good.append(p["goodDry"])
-    if band and "oneRoom" in band["bands"] and band["bands"]["oneRoom"]["low"] <= 90000:
+    # 金額は安くても、通勤時間のわりに高い駅（家賃の理由に「かなり高い水準」と書く駅）には
+    # 「家賃を抑えたい単身者」を挙げない。中野富士見町で、タグの「割高」と食い違っていた。
+    if (band and "oneRoom" in band["bands"] and band["bands"]["oneRoom"]["low"] <= 90000
+            and sc.get("rentValue", 100) > 40):
         good.append(p["goodCheap"])
 
     # 駅の地点が区域に入っても、まわりで入る地点が少なく浸水の想定が小さい駅（赤坂など）では、

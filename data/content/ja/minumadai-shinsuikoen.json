@@ -11,8 +11,8 @@
   "hazards": "駅の地点は、大雨のときの洪水浸水想定区域（想定最大規模）の外にあります。ただし駅のまわり400m以内で見た9地点のうち8地点は区域に入り、その中で最も深い想定は0.5〜3mです。高潮の想定区域にも、9地点のうち1地点が入ります。総じて、大雨のときの浸水の想定は23区の駅の平均くらいです。",
   "groceries": [
     {
-      "name": "ok",
-      "tier": "standard",
+      "name": "オーケー",
+      "tier": "discount",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/6480683938",
       "verifiedAt": "2026-09-24"
@@ -25,7 +25,7 @@
       "verifiedAt": "2026-09-24"
     },
     {
-      "name": "comodi-iida",
+      "name": "コモディイイダ",
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/5534456767",
@@ -66,8 +66,7 @@
     }
   ],
   "goodFor": [
-    "自転車やベビーカーで動くことが多い人",
-    "家賃を抑えたい単身者"
+    "自転車やベビーカーで動くことが多い人"
   ],
   "notFor": [
     "運転見合わせのときに別の経路が欲しい人",

@@ -86,6 +86,13 @@ LINE_SPEED = {
 EXTRA_EDGES = {
     "11302": [("品川", "大崎")],
     "99301": [("新宿", "都庁前")],
+    # 丸ノ内線の方南町支線は、列の末尾に「荻窪, 中野新橋, …」と続けて入っている。
+    # そのままでは荻窪と中野新橋がつながり、中野新橋から新宿が28分になっていた（実際は10分ほど）。
+    "28002": [("中野坂上", "中野新橋")],
+}
+# 列の並びのせいで、実際にはつながっていない駅どうしがつながってしまう組み合わせ。
+REMOVE_EDGES = {
+    "28002": [("荻窪", "中野新橋")],
 }
 
 # 直通運転。境目の駅で路線が変わっても、同じ列車に乗ったまま行ける組み合わせ。
@@ -173,9 +180,10 @@ def build_graph():
             names.setdefault(g, s["station_name"])
             station_lines[g].add(line_cd)
 
+        removed = {frozenset(x) for x in REMOVE_EDGES.get(line_cd, [])}
         for a, b in zip(seq, seq[1:]):
             ga, gb = str(a["station_g_cd"]), str(b["station_g_cd"])
-            if ga == gb:
+            if ga == gb or frozenset((a["station_name"], b["station_name"])) in removed:
                 continue
             minutes = km(coords[ga], coords[gb]) / speed * 60 + DWELL_MIN
             edges[(ga, line_cd)].append(((gb, line_cd), minutes, False))

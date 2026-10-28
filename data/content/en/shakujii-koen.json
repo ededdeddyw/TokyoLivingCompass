@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 8 clinics and 7 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 慈誠会練馬高野台病院, about 9 minutes' walk from the station. The next nearest is 順天堂大学医学部附属 練馬病院, about 13 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 8 clinics and 7 pharmacies. The nearest hospital is 慈誠会練馬高野台病院, about 9 minutes' walk from the station. The next nearest is 順天堂大学医学部附属 練馬病院, about 13 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Seibu Ikebukuro Line.",
   "congestion": "Seibu Ikebukuro Line runs at 130% of capacity in the morning peak. The busiest stretch is 椎名町→池袋; trains from here toward 池袋 pass through it. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -52,7 +52,7 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. a small projected flood depth and schools and parks within walking distance pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is on the high side. a small projected flood depth and schools and parks within walking distance pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "nerima-takanodai",
@@ -66,8 +66,7 @@
     }
   ],
   "goodFor": [
-    "People who get around by bicycle or with a pushchair",
-    "People living alone who want to hold the rent down"
+    "People who get around by bicycle or with a pushchair"
   ],
   "notFor": [
     "People who want another route when service is suspended"
@@ -86,7 +85,7 @@
     "groceries": "There are 5 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
     "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "Only the Seibu Ikebukuro Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
     "congestion": "Seibu Ikebukuro Line trains toward 池袋 pass through the line's busiest stretch, but at 130% passengers are not shoulder to shoulder. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
