@@ -865,8 +865,14 @@ def build(st, ctx):
                 if "disaster" in scores else "")
         # 駅の地点が区域に入るのに「とても小さいほう」とだけ書くと、直前の文と食い違って読める。
         # 中井は駅の地点が0.5〜3mの区域に入るが、まわりで入る地点が少ないので点は高い。
-        if haz.get("atStation") and "disaster" in scores and five(scores["disaster"]) >= 3.5:
-            tail = p["hazardTrailerAtStationSmall"]
+        if "disaster" in scores and five(scores["disaster"]) >= 3.5:
+            # まわりの9地点の多くが区域に入るのに点が高いのは、想定される深さが浅いから。
+            # そのときに「区域に入る地点は少なめ」と書くと、直前の数と食い違う（新馬場で6地点）。
+            around = max(haz.get("aroundCount") or 0, tide.get("aroundCount") or 0)
+            if around >= 5:
+                tail = p["hazardTrailerAtStationShallow"]
+            elif haz.get("atStation"):
+                tail = p["hazardTrailerAtStationSmall"]
         c["hazards"] = (head + detail + tide_txt + tail).strip()
 
     # ── 買い物（OpenStreetMap） ────────────────────

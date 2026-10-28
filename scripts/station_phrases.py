@@ -124,6 +124,8 @@ PHRASES = {
         "floodAroundOnly": "ただし駅のまわり400m以内で見た9地点のうち{count}地点は区域に入り、"
                            "その中で最も深い想定は{deepest}です。",
         "hightide": "高潮の想定区域にも、9地点のうち{count}地点が入ります。",
+        "hazardTrailerAtStationShallow": "区域に入る地点は多いものの、想定される深さは浅めです。"
+                                         "23区の駅の中で比べると、大雨のときの浸水の想定は小さいほうです。",
         "hazardTrailerAtStationSmall": "駅の地点は区域に入りますが、まわりで区域に入る地点は少なめです。"
                                        "23区の駅の中で比べると、大雨のときの浸水の想定は小さいほうです。",
         "hazardTrailer5": "総じて、大雨のときの浸水の想定は23区の駅の中でもとても小さいほうです。",
@@ -458,6 +460,8 @@ PHRASES = {
                            "area, and the deepest projection there is {deepest}. ",
         "hightide": "For storm surge, {count} of the nine points also fall inside the "
                     "projected area. ",
+        "hazardTrailerAtStationShallow": "Many of the points are inside the projected area, but the projected depths are shallow. "
+                                         "Compared with other stations in the 23 wards, the flood projection here is on the small side. ",
         "hazardTrailerAtStationSmall": "The station itself is inside the projected area, but few of the points around it are. "
                                        "Compared with other stations in the 23 wards, the flood projection here is on the small side. ",
         "hazardTrailer5": "On the whole, the flood projection here is among the smallest "
@@ -794,6 +798,7 @@ PHRASES = {
         "floodAroundOnly": "不过车站400米以内查看的九个点中，有{count}个点被划入区域，"
                            "其中推算最深的水深为{deepest}。",
         "hightide": "风暴潮方面，九个点中也有{count}个点被划入想定区域。",
+        "hazardTrailerAtStationShallow": "位于区域内的地点较多，但推算的浸水深度较浅。与23区的车站相比，浸水推算偏小。",
         "hazardTrailerAtStationSmall": "车站所在地点位于浸水推算区域内，但周边位于区域内的地点较少。与23区的车站相比，浸水推算偏小。",
         "hazardTrailer5": "总的来说，大雨时的浸水推算在23区的车站中非常小。",
         "hazardTrailer4": "总的来说，大雨时的浸水推算在23区的车站中偏小。",
@@ -1077,6 +1082,8 @@ PHRASES = {
         "floodAroundOnly": "다만 역에서 400m 안의 아홉 지점 가운데 {count}곳은 구역에 들어가며, "
                            "그중 가장 깊게 상정된 깊이는 {deepest}이다. ",
         "hightide": "폭풍해일에 대해서도 아홉 지점 가운데 {count}곳이 상정 구역에 들어간다. ",
+        "hazardTrailerAtStationShallow": "구역에 들어가는 지점은 많지만, 상정되는 깊이는 얕은 편이다. "
+                                         "23구의 역과 비교하면 침수 상정은 작은 편이다. ",
         "hazardTrailerAtStationSmall": "역 지점은 구역에 들어가지만, 주변에서 구역에 들어가는 지점은 적은 편이다. "
                                        "23구의 역과 비교하면 침수 상정은 작은 편이다. ",
         "hazardTrailer5": "전체적으로 큰비가 올 때의 침수 상정은 23구의 역 중에서 매우 작은 편이다. ",
