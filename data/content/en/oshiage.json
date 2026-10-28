@@ -25,17 +25,17 @@
       "verifiedAt": "2026-09-24"
     },
     {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/5749125969",
+      "verifiedAt": "2026-09-24"
+    },
+    {
       "name": "Poisson Okuda ポワソンオクダ",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/13937699701",
-      "verifiedAt": "2026-09-24"
-    },
-    {
-      "name": "アコレ",
-      "tier": "discount",
-      "walkMinutes": 10,
-      "sourceUrl": "https://www.openstreetmap.org/node/5749125939",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -45,8 +45,8 @@
   "neighbours": [
     {
       "slug": "tokyo-skytree",
-      "lead": "Rent, commute and flood projections differ little. ",
-      "note": "Close enough to walk to from Oshiage. Both have the Tobu Skytree Line. Oshiage also has the Keisei Oshiage Line, Tokyo Metro Hanzomon Line and Toei Asakusa Line, which Tokyo-Skytree does not. Journey times to the main business districts are much the same. Rents, flood projections and the rest differ little."
+      "lead": "Oshiage is ahead on how close the centre is, and little else separates the two. ",
+      "note": "Close enough to walk to from Oshiage. Both have the Tobu Skytree Line. Oshiage also has the Keisei Oshiage Line, Tokyo Metro Hanzomon Line and Toei Asakusa Line, which Tokyo-Skytree does not. Oshiage is at least 6 minutes quicker to Shibuya and Otemachi. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "honjo-azumabashi",

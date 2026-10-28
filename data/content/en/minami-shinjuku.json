@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Minami-Shinjuku",
   "tagline": "Shinjuku in 1 minute and Shibuya in 11 minutes. Served by 1 line. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
-  "summary": "The station is in Shibuya City, where Odakyu run 1 line between them. Journey times to the main business districts are 28 minutes to Otemachi, 1 minute to Shinjuku, 11 minutes to Shibuya and 30 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 30.9 m above sea level, and the ground within 800 m varies in height by 11.9 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shibuya City, where Odakyu run 1 line between them. Journey times to the main business districts are 26 minutes to Otemachi, 1 minute to Shinjuku, 11 minutes to Shibuya and 30 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 30.9 m above sea level, and the ground within 800 m varies in height by 11.9 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 30.9 m above sea level. Within 800 m the ground ranges from 26.7 m to 38.6 m, a difference of 11.9 m."
@@ -30,13 +30,6 @@
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/node/6011377090",
       "verifiedAt": "2026-09-24"
-    },
-    {
-      "name": "ドン・キホーテUNY",
-      "tier": "standard",
-      "walkMinutes": 13,
-      "sourceUrl": "https://www.openstreetmap.org/node/10992424505",
-      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "Within an 800 m walk of the station there are 6 clinics and 10 pharmacies. Day-to-day care is available close to the station. The nearest hospital is JR東京総合病院, about 5 minutes' walk from the station. The next nearest is 参宮橋脊椎外科病院, about 6 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
@@ -52,7 +45,7 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is on the high side. quiet surroundings pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is on the high side. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "yoyogi",
@@ -76,10 +69,10 @@
     "The 首都高速4号新宿線 viaduct runs a short walk from the station. It is an expressway, so traffic is audible day and night"
   ],
   "tags": [
-    "quiet",
     "fastToCenter",
     "singleLine",
-    "cafeRich"
+    "cafeRich",
+    "parkNear"
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",

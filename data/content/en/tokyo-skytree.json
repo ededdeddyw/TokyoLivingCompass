@@ -2,8 +2,8 @@
   "slug": "tokyo-skytree",
   "locale": "en",
   "name": "Tokyo-Skytree",
-  "tagline": "Tokyo in 19 minutes and Otemachi in 19 minutes. Served by 1 line. A one-room flat rents for roughly ¥100,000 to ¥110,000.",
-  "summary": "The station is in Sumida City, served by Tobu Skytree Line. Journey times to the main business districts are 19 minutes to Otemachi, 35 minutes to Shinjuku, 38 minutes to Shibuya and 30 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 0.6 m above sea level, and the ground within 800 m varies in height by 2 m. The land around the station is close to level.",
+  "tagline": "Tokyo in 22 minutes and Otemachi in 23 minutes. Served by 1 line. A one-room flat rents for roughly ¥100,000 to ¥110,000.",
+  "summary": "The station is in Sumida City, served by Tobu Skytree Line. Journey times to the main business districts are 23 minutes to Otemachi, 35 minutes to Shinjuku, 42 minutes to Shibuya and 34 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 0.6 m above sea level, and the ground within 800 m varies in height by 2 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 0.6 m above sea level. Within 800 m the ground ranges from 0 m to 2 m, a difference of 2 m."
@@ -18,6 +18,13 @@
       "verifiedAt": "2026-09-24"
     },
     {
+      "name": "まいばすけっと とうきょうスカイツリー駅南店",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/11187136937",
+      "verifiedAt": "2026-09-24"
+    },
+    {
       "name": "ライフ",
       "tier": "standard",
       "walkMinutes": 7,
@@ -29,13 +36,6 @@
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/13937699701",
-      "verifiedAt": "2026-09-24"
-    },
-    {
-      "name": "マルエツ プチ",
-      "tier": "standard",
-      "walkMinutes": 12,
-      "sourceUrl": "https://www.openstreetmap.org/node/5832218684",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -56,17 +56,16 @@
   "neighbours": [
     {
       "slug": "oshiage",
-      "lead": "Rent, commute and flood projections differ little. ",
-      "note": "Close enough to walk to from Tokyo-Skytree. Both have the Tobu Skytree Line. Oshiage also has the Keisei Oshiage Line, Tokyo Metro Hanzomon Line and Toei Asakusa Line, which Tokyo-Skytree does not. Journey times to the main business districts are much the same. Rents, flood projections and the rest differ little."
+      "lead": "Oshiage is ahead on how close the centre is, and little else separates the two. ",
+      "note": "Close enough to walk to from Tokyo-Skytree. Both have the Tobu Skytree Line. Oshiage also has the Keisei Oshiage Line, Tokyo Metro Hanzomon Line and Toei Asakusa Line, which Tokyo-Skytree does not. Oshiage is at least 6 minutes quicker to Shibuya and Otemachi. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "honjo-azumabashi",
       "lead": "For how close the centre is, Honjo-Azumabashi; for lower rent, Tokyo-Skytree. ",
-      "note": "Close enough to walk to from Tokyo-Skytree. Tokyo-Skytree adds the Tobu Skytree Line; Honjo-Azumabashi adds the Toei Asakusa Line. Honjo-Azumabashi is at least 5 minutes quicker to Roppongi and Toranomon. A one-room flat, though, costs about ¥6,000 more at Honjo-Azumabashi."
+      "note": "Close enough to walk to from Tokyo-Skytree. Tokyo-Skytree adds the Tobu Skytree Line; Honjo-Azumabashi adds the Toei Asakusa Line. Honjo-Azumabashi is at least 6 minutes quicker to Shinagawa and Roppongi. A one-room flat, though, costs about ¥6,000 more at Honjo-Azumabashi."
     }
   ],
   "goodFor": [
-    "People commuting to Otemachi and Marunouchi",
     "People who get around by bicycle or with a pushchair"
   ],
   "notFor": [

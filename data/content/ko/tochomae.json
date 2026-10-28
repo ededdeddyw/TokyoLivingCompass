@@ -11,17 +11,10 @@
   "hazards": "상정할 수 있는 최대 규모의 강우를 전제로 한 홍수 침수 상정 구역에서, 역이 있는 지점도, 역에서 400m 안의 아홉 지점도 모두 구역 밖에 있다. 전체적으로 큰비가 올 때의 침수 상정은 23구의 역 중에서 매우 작은 편이다.",
   "groceries": [
     {
-      "name": "Maruetsu petit",
+      "name": "マルエツプチ",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/1933369878",
-      "verifiedAt": "2026-09-24"
-    },
-    {
-      "name": "はんこ屋さん21 西新宿店",
-      "tier": "standard",
-      "walkMinutes": 9,
-      "sourceUrl": "https://www.openstreetmap.org/node/7943618751",
       "verifiedAt": "2026-09-24"
     },
     {
@@ -36,6 +29,13 @@
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/4919935621",
+      "verifiedAt": "2026-09-24"
+    },
+    {
+      "name": "もとまちUNION",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/1933369881",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -83,7 +83,7 @@
   ],
   "leads": {
     "terrain": "역 주변에는 완만한 언덕이 있어, 어느 구획에 사는지에 따라 매일의 이동 부담이 달라진다.",
-    "groceries": "걸어갈 수 있는 슈퍼마켓이 8곳 있고, 가장 가까운 곳까지는 걸어서 7분이다.",
+    "groceries": "걸어갈 수 있는 슈퍼마켓이 6곳 있고, 가장 가까운 곳까지는 걸어서 7분이다.",
     "hazards": "역이 있는 지점도 그 주변도, 큰비가 올 때의 침수 예상 구역 밖에 있다.",
     "stationNote": "쓸 수 있는 노선은 都営大江戸線 하나뿐이라, 이 노선이 멈추면 다른 역까지 걸어가게 된다.",
     "rentRange": "통근 시간과 임대료 시세의 관계는, 23구 역의 평균 정도다.",

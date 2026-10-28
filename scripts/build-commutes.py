@@ -157,6 +157,7 @@ def build_graph():
     edges = collections.defaultdict(list)   # node -> [(node, minutes, is_transfer)]
     coords, names = {}, {}
     station_lines = collections.defaultdict(set)
+    line_seq = {}
 
     for line_cd in GRAPH_LINES:
         data = json.load(
@@ -165,6 +166,7 @@ def build_graph():
         )
         speed = LINE_SPEED.get(line_cd, DEFAULT_SPEED)
         seq = data["station_l"]
+        line_seq[line_cd] = [str(s["station_g_cd"]) for s in seq]
         for s in seq:
             g = str(s["station_g_cd"])
             coords.setdefault(g, (s["lat"], s["lon"]))
@@ -186,15 +188,76 @@ def build_graph():
             edges[(ga, line_cd)].append(((gb, line_cd), minutes, False))
             edges[(gb, line_cd)].append(((ga, line_cd), minutes, False))
 
-    # 直通運転は、乗り換えとして数えない
+    # 直通運転は、乗り換えとして数えない。
+    # ただし直通する向きは決まっている。東西線は中野で中央・総武線の三鷹方面にだけ乗り入れ、
+    # 新宿方面には行かない。境目の駅で2路線を無条件につなぐと、落合から新宿が
+    # 「乗り換えなし」になっていた。そこで、直通列車の走る区間（la の片側＋境目＋lb の片側）を
+    # 1本の仮の路線として足す。もとの2路線どうしは、境目の駅で乗り換えとして扱う。
+    through_parts, chains = [], []
+
+    def add_chain(vline, chain, *junctions):
+        chains.append((vline, chain, {j for j in junctions if j}))
+
     for la, lb, station in THROUGH_SERVICES:
         cands = [g for g, n in names.items()
                  if n.startswith(station) and la in station_lines[g] and lb in station_lines[g]]
         if not cands:
             raise SystemExit(f"直通運転の境目の駅が見つかりません: {station}（{la}・{lb}）")
-        for g in cands:
-            edges[(g, la)].append(((g, lb), THROUGH_MIN, False))
-            edges[(g, lb)].append(((g, la), THROUGH_MIN, False))
+        g = cands[0]
+        seq_a, seq_b = line_seq[la], line_seq[lb]
+        ia, ib = seq_a.index(g), seq_b.index(g)
+
+        def sides(seq, i):
+            out = []
+            if i > 0:
+                out.append(list(reversed(seq[:i])))
+            if i < len(seq) - 1:
+                out.append(seq[i + 1:])
+            return out
+
+        # 直通列車は境目でまっすぐ進む。la 側の隣の駅と lb 側の隣の駅が
+        # いちばん離れる組み合わせを、直通する向きとみなす。
+        side_a, side_b = max(
+            ((x, y) for x in sides(seq_a, ia) for y in sides(seq_b, ib)),
+            key=lambda xy: km(coords[xy[0][0]], coords[xy[1][0]]))
+        through_parts.append((la, side_a, g, lb, side_b))
+        add_chain(f"through:{la}>{lb}",
+                  [(la, x) for x in reversed(side_a)] + [(la, g)] + [(lb, x) for x in side_b], g)
+
+    # 両端で直通する路線（都営浅草線は押上で京成線、泉岳寺で京急線に乗り入れる）は、
+    # 2つの直通をつないだ列車も走る（京成線から浅草線を通って京急線へ）。
+    # 2組の直通で同じ路線が真ん中にあれば、境目から境目までをはさんでつなぐ。
+    for i, (la1, sa1, g1, lb1, sb1) in enumerate(through_parts):
+        for la2, sa2, g2, lb2, sb2 in through_parts[i + 1:]:
+            for mid, outer1, outer1_line, outer2, outer2_line in (
+                    (la1, sb1, lb1, sb2, lb2) if la1 == la2 else (None,) * 5,
+                    (la1, sb1, lb1, sa2, la2) if la1 == lb2 else (None,) * 5,
+                    (lb1, sa1, la1, sb2, lb2) if lb1 == la2 else (None,) * 5,
+                    (lb1, sa1, la1, sa2, la2) if lb1 == lb2 else (None,) * 5):
+                if mid is None or g1 == g2:
+                    continue
+                seq = line_seq[mid]
+                i1, i2 = seq.index(g1), seq.index(g2)
+                middle = seq[i1:i2 + 1] if i1 < i2 else list(reversed(seq[i2:i1 + 1]))
+                # 外側の区間が、真ん中の区間と重ならないこと（境目でまっすぐ進むこと）
+                if set(outer1) & set(middle) or set(outer2) & set(middle):
+                    continue
+                add_chain(f"through:{outer1_line}>{mid}>{outer2_line}",
+                          [(outer1_line, x) for x in reversed(outer1)]
+                          + [(mid, x) for x in middle]
+                          + [(outer2_line, x) for x in outer2], None, g1, g2)
+
+    for vline, chain, junctions in chains:
+        for k in range(len(chain) - 1):
+            (la_, ga), (lb_, gb) = chain[k], chain[k + 1]
+            station_lines[ga].add(vline)
+            station_lines[gb].add(vline)
+            speed = LINE_SPEED.get(lb_ if gb not in junctions else la_, DEFAULT_SPEED)
+            minutes = km(coords[ga], coords[gb]) / speed * 60 + DWELL_MIN
+            if ga in junctions or gb in junctions:
+                minutes += THROUGH_MIN / 2
+            edges[(ga, vline)].append(((gb, vline), minutes, False))
+            edges[(gb, vline)].append(((ga, vline), minutes, False))
 
     # 同一駅内の乗り換え
     for g, lines in station_lines.items():

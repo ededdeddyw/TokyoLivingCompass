@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Itabashi",
   "tagline": "Shinjuku in 11 minutes and Shibuya in 16 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Itabashi City, served by JR Saikyo Line. Journey times to the main business districts are 26 minutes to Otemachi, 11 minutes to Shinjuku, 16 minutes to Shibuya and 33 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 26.5 m above sea level, and the ground within 800 m varies in height by 6.5 m. The land around the station is close to level.",
+  "summary": "The station is in Kita City, served by JR Saikyo Line. Journey times to the main business districts are 26 minutes to Otemachi, 11 minutes to Shinjuku, 16 minutes to Shibuya and 33 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 26.5 m above sea level, and the ground within 800 m varies in height by 6.5 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 26.5 m above sea level. Within 800 m the ground ranges from 22.3 m to 28.8 m, a difference of 6.5 m."
@@ -52,7 +52,7 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. quiet surroundings pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. What holds the figure down: only one line, the {line}, serving the station. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "shin-itabashi",
@@ -79,9 +79,9 @@
     "The 首都高速中央環状線 viaduct runs a short walk from the station. It is an expressway, so traffic is audible day and night"
   ],
   "tags": [
-    "quiet",
     "goodValue",
     "singleLine",
+    "shoppingEasy",
     "flat"
   ],
   "leads": {

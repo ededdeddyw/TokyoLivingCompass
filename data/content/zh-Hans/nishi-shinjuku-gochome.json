@@ -3,27 +3,13 @@
   "locale": "zh-Hans",
   "name": "西新宿五丁目",
   "tagline": "到新宿3分钟、到涩谷13分钟。有1条线路经过。一室户的租金大致为10万至11万日元。",
-  "summary": "车站位于渋谷区，有都営大江戸線经过。到主要商务区的所需时间为：到大手町28分钟、到新宿3分钟、到涩谷13分钟、到品川32分钟。一室户的租金大致为10万至11万日元。车站海拔28米，周边800米范围内的高低差为15.2米。车站周围的地形有缓坡。",
+  "summary": "车站位于新宿区，有都営大江戸線经过。到主要商务区的所需时间为：到大手町28分钟、到新宿3分钟、到涩谷13分钟、到品川32分钟。一室户的租金大致为10万至11万日元。车站海拔28米，周边800米范围内的高低差为15.2米。车站周围的地形有缓坡。",
   "terrain": {
     "slope": "some",
     "note": "车站所在的位置低于周围，海拔28米。周边800米范围内，海拔从25.4米到40.6米，相差15.2米。"
   },
   "hazards": "在按可能出现的最大降雨量推算的洪水浸水想定区域中，车站所在的地点被划入区域，推算的水深为0.5至3米。车站400米以内查看的九个点中，也有4个点被划入区域，其中推算最深的水深为0.5至3米。车站所在地点位于浸水推算区域内，但周边位于区域内的地点较少。与23区的车站相比，浸水推算偏小。",
   "groceries": [
-    {
-      "name": "ワカムラ米店",
-      "tier": "standard",
-      "walkMinutes": 3,
-      "sourceUrl": "https://www.openstreetmap.org/node/7943606077",
-      "verifiedAt": "2026-09-24"
-    },
-    {
-      "name": "はんこ屋さん21 西新宿店",
-      "tier": "standard",
-      "walkMinutes": 5,
-      "sourceUrl": "https://www.openstreetmap.org/node/7943618751",
-      "verifiedAt": "2026-09-24"
-    },
     {
       "name": "ピアゴ",
       "tier": "standard",
@@ -32,10 +18,24 @@
       "verifiedAt": "2026-09-24"
     },
     {
-      "name": "Maruetsu petit",
+      "name": "マルエツプチ",
       "tier": "standard",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/1933369878",
+      "verifiedAt": "2026-09-24"
+    },
+    {
+      "name": "サミット",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/way/201879523",
+      "verifiedAt": "2026-09-24"
+    },
+    {
+      "name": "ライフ",
+      "tier": "standard",
+      "walkMinutes": 13,
+      "sourceUrl": "https://www.openstreetmap.org/node/3461232593",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -83,7 +83,7 @@
   ],
   "leads": {
     "terrain": "车站周边有缓坡，住在哪个街区会改变每天出行的费力程度。",
-    "groceries": "步行可达的超市有8家，最近的一家步行3分钟。",
+    "groceries": "步行可达的超市有6家，最近的一家步行6分钟。",
     "hazards": "车站所在的地点，被划入大雨时的浸水想定区域。",
     "stationNote": "可用的线路只有都営大江戸線一条，这条线停运时就要走到别的车站。",
     "rentRange": "相对于通勤所需的时间，这里的租金行情在23区的车站中相当低。",

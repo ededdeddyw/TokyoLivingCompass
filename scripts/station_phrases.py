@@ -132,11 +132,11 @@ PHRASES = {
         "hazardTrailer2": "総じて、大雨のときの浸水の想定は23区の駅の中では大きいほうです。",
         "hazardTrailer1": "総じて、大雨のときの浸水の想定は23区の駅の中でもとても大きいほうです。",
 
-        "medicalCounts": "駅から歩いて800m以内に、{items}あります。",
+        "medicalCounts": "駅から歩いて13分ほどの範囲に、{items}あります。",
         "medicalEnough": "日常のかかりつけは、駅の近くで選べます。",
         "medicalClinics": "クリニックが{count}{clinicWord}",
         "medicalPharmacies": "薬局が{count}{pharmacyWord}",
-        "medicalNone": "駅から歩いて800m以内には、OpenStreetMap に登録されている"
+        "medicalNone": "駅から歩いて13分ほどの範囲には、OpenStreetMap に登録されている"
                        "クリニックも薬局も見当たりません。",
         # 距離はメートルで書かない。どこから測った値なのかが読み手に伝わらず、
         # 細かい数字そのものも求められていない。駅から歩いて何分かで書く。

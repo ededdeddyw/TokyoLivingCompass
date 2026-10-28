@@ -3,27 +3,13 @@
   "locale": "en",
   "name": "Nishi-Shinjuku-Gochome",
   "tagline": "Shinjuku in 3 minutes and Shibuya in 13 minutes. Served by 1 line. A one-room flat rents for roughly ¥100,000 to ¥110,000.",
-  "summary": "The station is in Shibuya City, served by Toei Oedo Line. Journey times to the main business districts are 28 minutes to Otemachi, 3 minutes to Shinjuku, 13 minutes to Shibuya and 32 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 28 m above sea level, and the ground within 800 m varies in height by 15.2 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Shinjuku City, served by Toei Oedo Line. Journey times to the main business districts are 28 minutes to Otemachi, 3 minutes to Shinjuku, 13 minutes to Shibuya and 32 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 28 m above sea level, and the ground within 800 m varies in height by 15.2 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 28 m above sea level. Within 800 m the ground ranges from 25.4 m to 40.6 m, a difference of 15.2 m."
   },
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 0.5 to 3 m. Of the nine points within 400 m of the station, 4 also fall inside the area, and the deepest projection is 0.5 to 3 m. The station itself is inside the projected area, but few of the points around it are. Compared with other stations in the 23 wards, the flood projection here is on the small side.",
   "groceries": [
-    {
-      "name": "ワカムラ米店",
-      "tier": "standard",
-      "walkMinutes": 3,
-      "sourceUrl": "https://www.openstreetmap.org/node/7943606077",
-      "verifiedAt": "2026-09-24"
-    },
-    {
-      "name": "はんこ屋さん21 西新宿店",
-      "tier": "standard",
-      "walkMinutes": 5,
-      "sourceUrl": "https://www.openstreetmap.org/node/7943618751",
-      "verifiedAt": "2026-09-24"
-    },
     {
       "name": "ピアゴ",
       "tier": "standard",
@@ -32,10 +18,24 @@
       "verifiedAt": "2026-09-24"
     },
     {
-      "name": "Maruetsu petit",
+      "name": "マルエツプチ",
       "tier": "standard",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/node/1933369878",
+      "verifiedAt": "2026-09-24"
+    },
+    {
+      "name": "サミット",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/way/201879523",
+      "verifiedAt": "2026-09-24"
+    },
+    {
+      "name": "ライフ",
+      "tier": "standard",
+      "walkMinutes": 13,
+      "sourceUrl": "https://www.openstreetmap.org/node/3461232593",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -83,7 +83,7 @@
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
-    "groceries": "There are 8 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
+    "groceries": "There are 6 supermarkets within walking distance, and the nearest is 6 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Toei Oedo Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",

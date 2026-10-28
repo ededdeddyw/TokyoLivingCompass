@@ -52,7 +52,7 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥100,000 to ¥110,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. a small projected flood depth and quiet surroundings pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥100,000 to ¥110,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "togoshi-koen",
@@ -66,8 +66,8 @@
     }
   ],
   "goodFor": [
-    "People who want to keep traffic noise out",
-    "Families who want schools and nurseries close by"
+    "Families who want schools and nurseries close by",
+    "People commuting to the central office districts"
   ],
   "notFor": [
     "People who want another route when service is suspended",
@@ -77,7 +77,6 @@
     "鮫洲大山線 (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
-    "quiet",
     "lowFlood",
     "singleLine"
   ],

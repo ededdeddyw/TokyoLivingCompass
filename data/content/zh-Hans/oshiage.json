@@ -25,17 +25,17 @@
       "verifiedAt": "2026-09-24"
     },
     {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/5749125969",
+      "verifiedAt": "2026-09-24"
+    },
+    {
       "name": "Poisson Okuda ポワソンオクダ",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/13937699701",
-      "verifiedAt": "2026-09-24"
-    },
-    {
-      "name": "アコレ",
-      "tier": "discount",
-      "walkMinutes": 10,
-      "sourceUrl": "https://www.openstreetmap.org/node/5749125939",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -45,8 +45,8 @@
   "neighbours": [
     {
       "slug": "tokyo-skytree",
-      "lead": "租金、通勤、灾害推算都没有太大差别。",
-      "note": "从押上〈スカイツリー前〉走得到的距离。两站都能用東武伊勢崎線。押上〈スカイツリー前〉还能用とうきょうスカイツリー没有的京成押上線、東京メトロ半蔵門線、都営浅草線。到主要商务区的时间几乎没有差别。租金行情、浸水推算等其他条件没有太大差别。"
+      "lead": "离市中心的近是押上〈スカイツリー前〉更强，其他条件没有太大差别。",
+      "note": "从押上〈スカイツリー前〉走得到的距离。两站都能用東武伊勢崎線。押上〈スカイツリー前〉还能用とうきょうスカイツリー没有的京成押上線、東京メトロ半蔵門線、都営浅草線。去涩谷和大手町，押上〈スカイツリー前〉至少快6分钟。租金行情、浸水推算等其他条件没有太大差别。"
     },
     {
       "slug": "honjo-azumabashi",
