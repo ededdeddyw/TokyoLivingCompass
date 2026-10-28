@@ -58,7 +58,7 @@ RESTRICTED_HOSPITAL = re.compile(r"宮内庁|拘置所|刑務所|医務部|自�
 HOSPITAL_IN_CLINIC = re.compile(r"病院")
 NOT_HOSPITAL = re.compile(r"クリニック|[Cc]linic|診療所|動物|歯科|訪問看護|ステーション|健診|健康医学|透析")
 CLINIC_NAME = re.compile(r"クリニック|[Cc]linic|医院|診療所|歯科|整形外科|皮膚科|眼科|耳鼻|泌尿器|美容|内科")
-NOT_MEDICAL = re.compile(r"接骨|整骨|保健福祉|うめとぴあ")
+NOT_MEDICAL = re.compile(r"接骨|整骨|保健福祉|うめとぴあ|動物|犬猫|ペット|獣医|[Vv]et")
 
 
 def sort_medical(clinics, hospitals):
