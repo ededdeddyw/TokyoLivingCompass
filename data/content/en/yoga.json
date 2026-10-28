@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 34.4 m above sea level. Within 800 m the ground ranges from 32.8 m to 44.3 m, a difference of 11.5 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 4 also fall inside the area, and the deepest projection is 0.5 to 3 m. On the whole, the flood projection here is on the small side for the 23 wards.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 4 also fall inside the area, and the deepest projection is 0.5 to 3 m. The station itself is inside the projected area, but few of the points around it are. Compared with other stations in the 23 wards, the flood projection here is on the small side.",
   "groceries": [
     {
       "name": "オーケーストア",
@@ -69,7 +69,6 @@
     "People living alone who want to hold the rent down"
   ],
   "notFor": [
-    "People avoiding projected flood inundation areas",
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
@@ -78,7 +77,6 @@
   ],
   "tags": [
     "quiet",
-    "lowFlood",
     "singleLine"
   ],
   "leads": {
@@ -87,7 +85,7 @@
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tokyu Den-en-toshi Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
-    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
     "congestion": "Tokyu Den-en-toshi Line trains toward 渋谷 pass through the line's busiest stretch, but at 138% passengers are not shoulder to shoulder. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },

@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 18 clinics and 15 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 第一病院, about 11 minutes' walk from the station. The next nearest is 一秀会葛飾橋病院, about 29 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 16 clinics and 15 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 高山整形外科病院, about 6 minutes' walk from the station. The next nearest is 第一病院, about 11 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station: JR Joban Line and Keisei Kanamachi Line. The lines are split between operators (JR East runs 1 line and Keisei runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "JR Joban Line runs at 142% of capacity in the morning peak. The busiest stretch is 三河島→日暮里; trains from here toward 日暮里 pass through it. Keisei Kanamachi Line is not covered by the ministry's congestion survey. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -73,8 +73,8 @@
     "People avoiding projected flood inundation areas"
   ],
   "noiseSources": [
-    "The nearest big road, 水戸街道, is far enough that little traffic noise reaches the station area",
-    "The nearest big road, 柴又街道, is far enough that little traffic noise reaches the station area"
+    "水戸街道 (1 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening",
+    "柴又街道 (1 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "floodArea",
@@ -88,7 +88,7 @@
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
-    "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
     "congestion": "JR Joban Line trains toward 日暮里 pass through the line's busiest stretch, but at 142% passengers are not shoulder to shoulder. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },

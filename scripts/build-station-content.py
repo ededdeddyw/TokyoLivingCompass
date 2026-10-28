@@ -51,6 +51,52 @@ PREMIUM = ["成城石井", "紀ノ国屋", "明治屋", "クイーンズ伊勢�
 # 地図データでは病院として登録されているが、一般の人はかからない施設
 # （宮内庁病院、拘置所・刑務所の医務部、自衛隊の病院）と、病院の名前を含む訪問看護の事業所
 RESTRICTED_HOSPITAL = re.compile(r"宮内庁|拘置所|刑務所|医務部|自衛隊|防衛医|訪問看護|ステーション")
+# 地図データの「病院」と「診療所」の区別は、登録した人によってぶれる。
+# 東武練馬では、歩いて6分の東武練馬中央病院が診療所として登録され、
+# いちばん近い病院を39分先と書いていた。反対に、整形外科医院や歯科を病院に挙げていた。
+# 名前で振り分け直す。
+HOSPITAL_IN_CLINIC = re.compile(r"病院")
+NOT_HOSPITAL = re.compile(r"クリニック|[Cc]linic|診療所|動物|歯科|訪問看護|ステーション|健診|健康医学|透析")
+CLINIC_NAME = re.compile(r"クリニック|[Cc]linic|医院|診療所|歯科|整形外科|皮膚科|眼科|耳鼻|泌尿器|美容|内科")
+NOT_MEDICAL = re.compile(r"接骨|整骨|保健福祉|うめとぴあ")
+
+
+def sort_medical(clinics, hospitals):
+    """名前から、病院と診療所を振り分け直す。病院は同じ名前を1つにまとめる。"""
+    cl, hp = [], []
+    for x in clinics:
+        if NOT_MEDICAL.search(x["name"]):
+            continue
+        if HOSPITAL_IN_CLINIC.search(x["name"]) and not NOT_HOSPITAL.search(x["name"]):
+            hp.append(x)
+        else:
+            cl.append(x)
+    for x in hospitals:
+        if NOT_MEDICAL.search(x["name"]):
+            continue
+        # 歯科病院は、入院や急な病気のときにかかる先として挙げると読み手を誤らせる
+        if ("病院" not in x["name"] and CLINIC_NAME.search(x["name"])) or "歯科" in x["name"]:
+            # 病院は2.5kmまで集めているが、クリニックの数は800m以内で数えている
+            if x["distanceM"] <= 800:
+                cl.append(x)
+        else:
+            hp.append(x)
+    seen, uniq = set(), []
+    for x in sorted(hp, key=lambda h: h["distanceM"]):
+        if x["name"] in seen:
+            continue
+        seen.add(x["name"])
+        uniq.append(x)
+    return cl, uniq
+
+
+def clean_road_name(name):
+    """地図データの道路名を、読み手に見せる形に直す。
+    「日大通り;瀬田貫井線」「首都高速都心環状線(第2通行帯)」
+    「南田中町旭町線（支線2）（補助第230号線）」のような登録上の表記を落とす。"""
+    name = name.split(";")[0]
+    name = re.sub(r"[（(][^）)]*[）)]", "", name)
+    return name.strip()
 
 
 def tier_of(name):
@@ -157,6 +203,15 @@ def five(score):
     return round(min(5.0, max(1.0, 1 + score / 25)) * 2) / 2
 
 
+GOOD_FALLBACK = [("commute", "goodCommute"), ("family", "goodFamily"),
+                 ("healthcare", "goodMedical"), ("safety", "goodSafety"),
+                 ("food", "goodFood"), ("rentValue", "goodValue"), ("quietness", "goodQuiet")]
+BAD_FALLBACK = [("commute", "badCommute"), ("healthcare", "badMedical"),
+                ("family", "badFamily"), ("nature", "badNature"), ("safety", "badSafety"),
+                ("rentLow", "badExpensive"), ("quietness", "badQuiet"), ("shopping", "badShopping"),
+                ("food", "badFood")]
+
+
 def band_key(prefix, score):
     """スコアを5段階の文型キーにする（leadHazard5 〜 leadHazard1）。"""
     v = five(score)
@@ -227,6 +282,11 @@ FILL_FLOOR = 65     # 全458駅の上位3分の1にあたる
 
 def station_tags(sc, st, ter, ctx=None):
     picked = [t for t, ok in TAG_RULES if ok(sc, st, ter)]
+    # 駅の地点が浸水想定区域に入る駅に「浸水の想定が小さい」のタグを付けると、
+    # 災害の節と食い違って読める（中井・用賀）。
+    at_station = bool(ctx and ctx["haz"].get(st["slug"], {}).get("flood", {}).get("atStation"))
+    if at_station and "lowFlood" in picked:
+        picked.remove("lowFlood")
     if ctx is not None:
         bustle = bustle_tag(st["slug"], ctx)
         if bustle:
@@ -247,6 +307,8 @@ def station_tags(sc, st, ter, ctx=None):
             if len(picked) >= MIN_TAGS:
                 break
             if tag in picked or sc.get(axis, 0) < FILL_FLOOR:
+                continue
+            if tag == "lowFlood" and at_station:
                 continue
             trial = picked + [tag]
             if tag in drop_conflicts(list(trial)):
@@ -634,6 +696,32 @@ def compare_lead(p, a, b, ctx):
     return p["nbPickNone"]
 
 
+# これより離れた道路は「駅から離れています。車の音が少なく、落ち着いています」と書く。
+# 本文と一言で同じ境目を使う。
+NOISE_FAR_M = 250
+
+
+def care_rank(slug, ctx):
+    """歩いて行けるクリニックと薬局の数が、23区の駅の中でどのあたりか（0〜100）。
+
+    「一言でいうと」は数の話をしているので、病院までの距離を混ぜた医療の点数から
+    決めると、クリニックが2件の駅に「平均くらい」と出ていた。数そのもので並べる。
+    """
+    if "_careRank" not in ctx:
+        counts = {}
+        for s_, pois in ctx["pois"].items():
+            cat = {}
+            for x in pois:
+                cat.setdefault(x["category"], []).append(x)
+            cl, _ = sort_medical(cat.get("clinic", []), cat.get("hospital", []))
+            counts[s_] = len(cl) + len(cat.get("pharmacy", []))
+        ordered = sorted(counts.values())
+        n = len(ordered)
+        ctx["_careRank"] = {s_: 100 * sum(1 for x in ordered if x < v) / max(n - 1, 1)
+                            for s_, v in counts.items()}
+    return ctx["_careRank"].get(slug)
+
+
 def build(st, ctx):
     """1駅ぶんのコンテンツを組み立てる。データの無い層は入れない。"""
     p = ctx["p"]
@@ -723,6 +811,10 @@ def build(st, ctx):
         scores = ctx["sc"].get(slug, {})
         tail = (p[band_key("hazardTrailer", scores["disaster"])]
                 if "disaster" in scores else "")
+        # 駅の地点が区域に入るのに「とても小さいほう」とだけ書くと、直前の文と食い違って読める。
+        # 中井は駅の地点が0.5〜3mの区域に入るが、まわりで入る地点が少ないので点は高い。
+        if haz.get("atStation") and "disaster" in scores and five(scores["disaster"]) >= 3.5:
+            tail = p["hazardTrailerAtStationSmall"]
         c["hazards"] = (head + detail + tide_txt + tail).strip()
 
     # ── 買い物（OpenStreetMap） ────────────────────
@@ -744,7 +836,8 @@ def build(st, ctx):
         } for s in picked]
 
     # ── 医療（OpenStreetMap） ──────────────────────
-    cl, ph, hp = by_cat.get("clinic", []), by_cat.get("pharmacy", []), by_cat.get("hospital", [])
+    cl, hp = sort_medical(by_cat.get("clinic", []), by_cat.get("hospital", []))
+    ph = by_cat.get("pharmacy", [])
     # 一般の人がかからない病院は、いちばん近い病院として挙げない。
     # 東京駅で宮内庁病院（皇室と宮内庁の職員などのための病院）を挙げていた。
     hp = [h for h in hp if not RESTRICTED_HOSPITAL.search(h["name"])]
@@ -1056,7 +1149,9 @@ def build(st, ctx):
     if band and "oneRoom" in band["bands"] and band["bands"]["oneRoom"]["low"] <= 90000:
         good.append(p["goodCheap"])
 
-    if haz.get("atStation"):
+    # 駅の地点が区域に入っても、まわりで入る地点が少なく浸水の想定が小さい駅（赤坂など）では、
+    # 「浸水の想定を避けたい人」に向かないと書くと、災害の節と食い違う。
+    if haz.get("atStation") and five(sc.get("disaster", 0)) < 3.5:
         bad.append(p["badFlood"])
     if ter.get("slope") == "hilly":
         bad.append(p["badHilly"])
@@ -1068,6 +1163,18 @@ def build(st, ctx):
         bad.append(p["badFood"])
     if band and "oneRoom" in band["bands"] and band["bands"]["oneRoom"]["low"] >= 150000:
         bad.append(p["badExpensive"])
+    # 決まった条件に1つも当たらない駅では、23区の中で上のほう・下のほうにある軸から補う。
+    # 「データからは読み取れていません」のような作業用の文を画面に出さない。
+    if not good:
+        for axis, key in sorted(GOOD_FALLBACK, key=lambda ak: -sc.get(ak[0], 0)):
+            if sc.get(axis, 0) >= 60 and len(good) < 2:
+                good.append(p[key])
+    for limit in (40, 45):
+        if bad:
+            break
+        for axis, key in sorted(BAD_FALLBACK, key=lambda ak: sc.get(ak[0], 100)):
+            if sc.get(axis, 100) <= limit and len(bad) < 2:
+                bad.append(p[key])
     c["goodFor"] = good[:5] or [p["goodUnknown"]]
     c["notFor"] = bad[:5] or [p["badUnknown"]]
 
@@ -1089,7 +1196,7 @@ def build(st, ctx):
         side = road_side(v)
         if cls == "motorway":
             key = "noiseRoadMotorway"
-        elif v["m"] > 200:
+        elif v["m"] > NOISE_FAR_M:
             key = "noiseRoadFar"
         else:
             wide = (v.get("lanes") or 0) >= (3 if v.get("oneway") else 6)
@@ -1097,9 +1204,9 @@ def build(st, ctx):
                    else "noiseRoadAtStation" if v["m"] <= 100
                    else "noiseRoadBig" if wide else "noiseRoadMid")
         where = (p["roadWhereAtStation"] if v["m"] <= 100
-                 else p["roadWhereNear"] if v["m"] <= 300
+                 else p["roadWhereNear"] if v["m"] <= NOISE_FAR_M
                  else p["roadWhereAway"])
-        return p[key].format(name=v["name"], m=v["m"], side=side, where=where)
+        return p[key].format(name=clean_road_name(v["name"]), m=v["m"], side=side, where=where)
 
     # 音の出どころは2本まで書く。高速道路は音の質が違うので、
     # 一般道より近くなくても先に出す。
@@ -1111,9 +1218,12 @@ def build(st, ctx):
     # 変数名を lines にすると、上で組み立てた路線名の一覧を上書きしてしまう。
     # 実際、菊川の「駅の使い勝手」の一言が
     # 「使える路線は新大橋通り（大通り）が2m先にあるの1本だけである」になっていた。
+    # 2本目には「離れていて車の音が少ない」と書く道路を入れない。
+    # 1本目で「駅のそばに大通り」と書いたあとに続けると、同じ駅について食い違う
+    # （西新宿で「青梅街道が駅のすぐそば」と「車の音が少なく落ち着いています」が並んでいた）。
     noise = []
     for cls, v in ordered:
-        if v["m"] <= 250 or (cls == "motorway" and v["m"] <= 400) or not noise:
+        if v["m"] <= NOISE_FAR_M or (cls == "motorway" and v["m"] <= 400) or not noise:
             noise.append(road_line(cls, v))
         if len(noise) == 2:
             break
@@ -1147,16 +1257,20 @@ def build(st, ctx):
         leads["stationNote"] = p[key].format(count=len(lines))
     if "rentValue" in sc:
         leads["rentRange"] = p[band_key("leadRent", sc["rentValue"])]
-    if "healthcare" in sc:
-        leads["medical"] = p[band_key("leadMedical", sc["healthcare"])]
+    rank = care_rank(slug, ctx)
+    if rank is not None and (cl or ph):
+        leads["medical"] = p[band_key("leadMedical", rank)]
     lead = congestion_lead(slug, st["lineIds"], ctx)
     if lead:
         leads["congestion"] = lead
     if near_road and near_road[1].get("name"):
-        cls, v = near_road
-        key = ("leadNoiseLoud" if (cls == "motorway" and v["m"] <= 200) or v["m"] <= 60
-               else "leadNoiseMid" if v["m"] <= 250 else "leadNoiseQuiet")
-        leads["noiseSources"] = p[key].format(name=v["name"], m=v["m"])
+        # 一言は、本文に書いたすべての道路から決める。1本目だけで決めると、
+        # 溜池山王のように首都高の高架がそばにあるのに「大きな通りから離れており」になる。
+        loud = any((c_ == "motorway" and v["m"] <= 200) or v["m"] <= 60 for c_, v in ordered)
+        mid = any((c_ == "motorway" and v["m"] <= 400) or v["m"] <= NOISE_FAR_M
+                  for c_, v in ordered)
+        key = "leadNoiseLoud" if loud else "leadNoiseMid" if mid else "leadNoiseQuiet"
+        leads["noiseSources"] = p[key]
     if leads:
         c["leads"] = leads
 

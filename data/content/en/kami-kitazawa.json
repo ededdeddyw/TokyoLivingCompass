@@ -8,7 +8,7 @@
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 44.3 m above sea level. Within 800 m the ground ranges from 42.9 m to 47.8 m, a difference of 4.9 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 2 also fall inside the area, and the deepest projection is less than 0.5 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 2 also fall inside the area, and the deepest projection is less than 0.5 m. The station itself is inside the projected area, but few of the points around it are. Compared with other stations in the 23 wards, the flood projection here is on the small side.",
   "groceries": [
     {
       "name": "サミット 上北沢店",
@@ -57,7 +57,6 @@
     "People living alone who want to hold the rent down"
   ],
   "notFor": [
-    "People avoiding projected flood inundation areas",
     "People who want another route when service is suspended",
     "People who want to finish their shopping on foot"
   ],
@@ -67,7 +66,7 @@
   ],
   "tags": [
     "quiet",
-    "lowFlood",
+    "goodValue",
     "singleLine",
     "flat"
   ],
@@ -77,7 +76,7 @@
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Keio Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
-    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
     "congestion": "Keio Line trains toward 明大前 pass through the line's busiest stretch, but at 145% passengers are not shoulder to shoulder. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },

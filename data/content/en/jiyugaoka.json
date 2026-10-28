@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 23.7 m above sea level. Within 800 m the ground ranges from 23.7 m to 37.3 m, a difference of 13.6 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 2 also fall inside the area, and the deepest projection is 0.5 to 3 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 2 also fall inside the area, and the deepest projection is 0.5 to 3 m. The station itself is inside the projected area, but few of the points around it are. Compared with other stations in the 23 wards, the flood projection here is on the small side.",
   "groceries": [
     {
       "name": "成城石井 自由が丘店",
@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 13 clinics and 13 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 奥沢病院, about 7 minutes' walk from the station. The next nearest is おくさわ脳卒中リハビリテーション病院, about 10 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 12 clinics and 13 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 奥沢病院, about 7 minutes' walk from the station. The next nearest is おくさわ脳卒中リハビリテーション病院, about 10 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station: Tokyu Toyoko Line and Tokyu Oimachi Line. Both lines are run by Tokyu, so a fault affecting that company can stop them together.",
   "congestion": "Tokyu Toyoko Line runs at 124% of capacity in the morning peak. The busiest stretch is 祐天寺→中目黒; trains from here toward 中目黒 pass through it. Tokyu Oimachi Line runs at 118% of capacity in the morning peak. The busiest stretch of the line is 九品仏→自由が丘, which includes this station. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -69,16 +69,17 @@
     "People who want to finish their shopping on foot"
   ],
   "notFor": [
-    "People avoiding projected flood inundation areas"
+    "People who want a large park within walking distance",
+    "People who want to hold the rent down"
   ],
   "noiseSources": [
-    "The nearest big road, 自由通り, is far enough that little traffic noise reaches the station area"
+    "自由通り (1 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "majorHub",
-    "lowFlood",
     "shoppingEasy",
-    "cafeRich"
+    "cafeRich",
+    "medicalRich"
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",

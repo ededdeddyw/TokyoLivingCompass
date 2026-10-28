@@ -8,7 +8,7 @@
     "slope": "flat",
     "note": "The station sits lower than the ground around it, at 28.8 m above sea level. Within 800 m the ground ranges from 27.9 m to 34.6 m, a difference of 6.7 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 4 also fall inside the area, and the deepest projection is 0.5 to 3 m. On the whole, the flood projection here is on the small side for the 23 wards.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 4 also fall inside the area, and the deepest projection is 0.5 to 3 m. The station itself is inside the projected area, but few of the points around it are. Compared with other stations in the 23 wards, the flood projection here is on the small side.",
   "groceries": [
     {
       "name": "まいばすけっと",
@@ -32,7 +32,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 8 clinics and 6 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 恭和会恭和記念病院, about 10 minutes' walk from the station. The next nearest is 敬愛病院, about 12 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 5 clinics and 6 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 要町病院, about 2 minutes' walk from the station. The next nearest is 原整形外科病院, about 6 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station. Tokyo Metro Yurakucho Line run through it. Tokyo Metro Fukutoshin Line also call here. Both lines are run by Tokyo Metro, so a fault affecting that company can stop them together.",
   "congestion": "Tokyo Metro Yurakucho Line runs at 153% of capacity in the morning peak. The busiest stretch is 東池袋→護国寺; trains from here toward 護国寺 pass through it. Tokyo Metro Fukutoshin Line runs at 117% of capacity in the morning peak. The busiest stretch of the line is 要町→池袋, which includes this station. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -64,7 +64,6 @@
     "People living alone who want to hold the rent down"
   ],
   "notFor": [
-    "People avoiding projected flood inundation areas",
     "People who want to finish their shopping on foot"
   ],
   "noiseSources": [
@@ -74,7 +73,6 @@
   "tags": [
     "quiet",
     "goodValue",
-    "lowFlood",
     "flat"
   ],
   "leads": {
@@ -83,7 +81,7 @@
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
-    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
     "congestion": "Morning trains are very crowded: Tokyo Metro Yurakucho Line trains toward 護国寺 pass through the line's busiest stretch further on. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },

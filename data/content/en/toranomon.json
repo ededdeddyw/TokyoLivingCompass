@@ -8,7 +8,7 @@
     "slope": "hilly",
     "note": "The station sits lower than the ground around it, at 5.5 m above sea level. Within 800 m the ground ranges from 4.2 m to 24.7 m, a difference of 20.5 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 1 also fall inside the area, and the deepest projection is less than 0.5 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 1 also fall inside the area, and the deepest projection is less than 0.5 m. The station itself is inside the projected area, but few of the points around it are. Compared with other stations in the 23 wards, the flood projection here is on the small side.",
   "groceries": [
     {
       "name": "肉のハナマサ",
@@ -64,7 +64,6 @@
     "People who want a large park within walking distance"
   ],
   "notFor": [
-    "People avoiding projected flood inundation areas",
     "People who would rather not walk up and down slopes",
     "People who want to finish their shopping on foot",
     "People who want to hold the rent down"
@@ -76,10 +75,10 @@
   "tags": [
     "lively",
     "pricey",
-    "lowFlood",
     "fastToCenter",
     "diningRich",
-    "lateNight"
+    "lateNight",
+    "hilly"
   ],
   "leads": {
     "terrain": "The ground around the station rises and falls sharply, and living above or below the slope changes how much effort getting about takes.",

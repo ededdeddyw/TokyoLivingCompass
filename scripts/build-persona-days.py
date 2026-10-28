@@ -192,11 +192,11 @@ class Station:
         return first_sentence(self.content.get("medical"))
 
     def hospital_line(self):
-        # 宮内庁病院や拘置所の医務部のように、一般の人がかからない病院は挙げない
-        hs = [p for p in self.nearest("hospital", 15)
-              if "病院" in p["name"] and not re.search(r"宮内庁|拘置所|刑務所|医務部|自衛隊|防衛医|訪問看護|ステーション", p["name"])]
-        if hs:
-            return f"病院では、地図データ上の{hs[0]['name']}まで歩いて{hs[0]['walkMinutes']}分ほどです。"
+        # 本文の「医療」と同じ病院を挙げる。地図データの病院と診療所の区別はぶれるので、
+        # 本文を組み立てる側（build-station-content.py の sort_medical）で振り分け直している。
+        for sent in re.split(r"(?<=。)", self.content.get("medical") or ""):
+            if sent.startswith("病院では、"):
+                return sent
         return None
 
     def nursery_line(self):

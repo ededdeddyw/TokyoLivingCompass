@@ -32,7 +32,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 8 clinics and 11 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 二誠会村上病院, about 17 minutes' walk from the station. The next nearest is 東京さくら病院, about 20 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 7 clinics and 11 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 二誠会村上病院, about 17 minutes' walk from the station. The next nearest is 東京さくら病院, about 20 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Toei Shinjuku Line.",
   "congestion": "Toei Shinjuku Line runs at 152% of capacity in the morning peak. The busiest stretch is 西大島→住吉; trains from here toward 住吉 pass through it. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -69,8 +69,8 @@
     "People who want to finish their shopping on foot"
   ],
   "noiseSources": [
-    "The 京葉道路 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
-    "The nearest big road, 京葉道路, is far enough that little traffic noise reaches the station area"
+    "The 京葉道路 viaduct runs a short walk from the station. It is an expressway, so traffic is audible day and night",
+    "京葉道路 (3 lanes each way) runs just outside the station. Traffic on it never stops"
   ],
   "tags": [
     "floodArea",
@@ -84,9 +84,9 @@
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Toei Shinjuku Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
-    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
     "congestion": "Morning trains are very crowded: Toei Shinjuku Line trains toward 住吉 pass through the line's busiest stretch further on. ",
-    "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
+    "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"
 }

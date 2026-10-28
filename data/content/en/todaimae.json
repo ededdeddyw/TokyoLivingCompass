@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 21.6 m above sea level. Within 800 m the ground ranges from 7.8 m to 21.8 m, a difference of 14.0 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 1 also fall inside the area, and the deepest projection is less than 0.5 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 1 also fall inside the area, and the deepest projection is less than 0.5 m. The station itself is inside the projected area, but few of the points around it are. Compared with other stations in the 23 wards, the flood projection here is on the small side.",
   "groceries": [
     {
       "name": "まいばすけっと",
@@ -72,7 +72,6 @@
     "People living alone who want to hold the rent down"
   ],
   "notFor": [
-    "People avoiding projected flood inundation areas",
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
@@ -81,7 +80,6 @@
   ],
   "tags": [
     "goodValue",
-    "lowFlood",
     "singleLine",
     "familyFriendly",
     "medicalRich"

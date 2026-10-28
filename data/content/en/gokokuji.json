@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 13 m above sea level. Within 800 m the ground ranges from 13 m to 32.7 m, a difference of 19.7 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 1 also fall inside the area, and the deepest projection is less than 0.5 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 1 also fall inside the area, and the deepest projection is less than 0.5 m. The station itself is inside the projected area, but few of the points around it are. Compared with other stations in the 23 wards, the flood projection here is on the small side.",
   "groceries": [
     {
       "name": "マルエツプチ",
@@ -57,7 +57,6 @@
     "People living alone who want to hold the rent down"
   ],
   "notFor": [
-    "People avoiding projected flood inundation areas",
     "People who want another route when service is suspended",
     "People who want to finish their shopping on foot"
   ],
@@ -67,7 +66,6 @@
   ],
   "tags": [
     "goodValue",
-    "lowFlood",
     "singleLine"
   ],
   "leads": {
@@ -76,7 +74,6 @@
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tokyo Metro Yurakucho Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
-    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
     "congestion": "Morning trains are very crowded: this station sits on the busiest stretch of the Tokyo Metro Yurakucho Line. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },

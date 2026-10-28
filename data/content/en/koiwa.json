@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 12 clinics and 9 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 仁生社江戸川病院, about 19 minutes' walk from the station. The next nearest is 片山病院, about 24 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 10 clinics and 9 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 岩倉病院, about 3 minutes' walk from the station. The next nearest is 岩井医療財団岩井整形外科内科病院, about 5 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: JR Chuo-Sobu Line (Local).",
   "congestion": "JR Chuo-Sobu Line (Local) runs at 151% of capacity in the morning peak. The busiest stretch is 錦糸町→両国; trains from here toward 両国 pass through it. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -76,7 +76,7 @@
     "People who want another route when service is suspended"
   ],
   "noiseSources": [
-    "The nearest big road, 蔵前橋通り, is far enough that little traffic noise reaches the station area"
+    "蔵前橋通り (a main road) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
     "floodArea",
@@ -90,7 +90,7 @@
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the JR Chuo-Sobu Line (Local) serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
-    "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
+    "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
     "congestion": "Morning trains are very crowded: JR Chuo-Sobu Line (Local) trains toward 両国 pass through the line's busiest stretch further on. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },

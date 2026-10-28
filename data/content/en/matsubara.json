@@ -8,7 +8,7 @@
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 37.7 m above sea level. Within 800 m the ground ranges from 35.1 m to 45.9 m, a difference of 10.8 m."
   },
-  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 4 also fall inside the area, and the deepest projection is 0.5 to 3 m. On the whole, the flood projection here is on the small side for the 23 wards.",
+  "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 4 also fall inside the area, and the deepest projection is 0.5 to 3 m. The station itself is inside the projected area, but few of the points around it are. Compared with other stations in the 23 wards, the flood projection here is on the small side.",
   "groceries": [
     {
       "name": "まいばすけっと",
@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 13 clinics and 14 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 吉川内科小児科病院, about 11 minutes' walk from the station. The next nearest is うめとぴあ, about 13 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within an 800 m walk of the station there are 13 clinics and 14 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 吉川内科小児科病院, about 11 minutes' walk from the station. The next nearest is 児玉新生会児玉経堂病院, about 17 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyu Setagaya Line.",
   "congestion": "The ministry's congestion survey does not publish figures for Tokyu Setagaya Line. It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
@@ -69,7 +69,6 @@
     "People living alone who want to hold the rent down"
   ],
   "notFor": [
-    "People avoiding projected flood inundation areas",
     "People who want another route when service is suspended",
     "People who want to finish their shopping on foot"
   ],
@@ -78,7 +77,6 @@
   ],
   "tags": [
     "quiet",
-    "lowFlood",
     "singleLine",
     "medicalRich"
   ],
