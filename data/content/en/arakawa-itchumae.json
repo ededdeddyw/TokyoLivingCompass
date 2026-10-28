@@ -18,6 +18,13 @@
       "verifiedAt": "2026-09-24"
     },
     {
+      "name": "ヨークフーズ 三ノ輪 三ノ輪店",
+      "tier": "standard",
+      "walkMinutes": 4,
+      "sourceUrl": "https://www.openstreetmap.org/node/6452298325",
+      "verifiedAt": "2026-09-24"
+    },
+    {
       "name": "業務スーパー 三ノ輪店",
       "tier": "discount",
       "walkMinutes": 4,
@@ -29,13 +36,6 @@
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/7964743013",
-      "verifiedAt": "2026-09-24"
-    },
-    {
-      "name": "オリンピック 三ノ輪店",
-      "tier": "standard",
-      "walkMinutes": 6,
-      "sourceUrl": "https://www.openstreetmap.org/way/234260961",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -52,7 +52,7 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is on the high side. quiet surroundings pushes the figure up. On the other side, a large projected flood depth and only one line, the {line}, serving the station holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is on the high side. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "arakawakuyakushomae",
@@ -78,7 +78,6 @@
     "明治通り (2 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
-    "quiet",
     "pricey",
     "floodArea",
     "singleLine",

@@ -18,13 +18,6 @@
       "verifiedAt": "2026-09-24"
     },
     {
-      "name": "井口精米店",
-      "tier": "standard",
-      "walkMinutes": 13,
-      "sourceUrl": "https://www.openstreetmap.org/node/3286765724",
-      "verifiedAt": "2026-09-24"
-    },
-    {
       "name": "オオゼキ 高井戸店",
       "tier": "discount",
       "walkMinutes": 13,
@@ -36,6 +29,13 @@
       "tier": "standard",
       "walkMinutes": 13,
       "sourceUrl": "https://www.openstreetmap.org/node/4119703622",
+      "verifiedAt": "2026-09-24"
+    },
+    {
+      "name": "サミット 久我山店",
+      "tier": "standard",
+      "walkMinutes": 13,
+      "sourceUrl": "https://www.openstreetmap.org/node/602885609",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -84,7 +84,7 @@
   ],
   "leads": {
     "terrain": "车站周边基本平坦，选住处时不必考虑坡道。",
-    "groceries": "步行可达的超市有7家，最近的一家步行4分钟。",
+    "groceries": "步行可达的超市有6家，最近的一家步行4分钟。",
     "hazards": "车站所在的地点，被划入大雨时的浸水想定区域。",
     "stationNote": "可用的线路只有京王井の頭線一条，这条线停运时就要走到别的车站。",
     "rentRange": "通勤时间与租金行情的关系，与23区车站的平均水平相当。",

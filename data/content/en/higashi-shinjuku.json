@@ -11,13 +11,6 @@
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls outside the projected inundation area. Even so, 2 of the nine points within 400 m fall inside the area, and the deepest projection there is less than 0.5 m. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
-      "name": "免税店",
-      "tier": "standard",
-      "walkMinutes": 4,
-      "sourceUrl": "https://www.openstreetmap.org/node/2704703878",
-      "verifiedAt": "2026-09-24"
-    },
-    {
       "name": "Asia Superstore",
       "tier": "standard",
       "walkMinutes": 4,
@@ -36,6 +29,13 @@
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/2705533200",
+      "verifiedAt": "2026-09-24"
+    },
+    {
+      "name": "業務スーパー 新宿店",
+      "tier": "discount",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/2704049854",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -85,7 +85,7 @@
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
-    "groceries": "There are 12 supermarkets within walking distance, and the nearest is 4 minutes on foot.",
+    "groceries": "There are 11 supermarkets within walking distance, and the nearest is 4 minutes on foot.",
     "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",

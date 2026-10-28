@@ -11,17 +11,10 @@
   "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
-      "name": "Maruetsu petit",
+      "name": "マルエツプチ",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/1933369878",
-      "verifiedAt": "2026-09-24"
-    },
-    {
-      "name": "はんこ屋さん21 西新宿店",
-      "tier": "standard",
-      "walkMinutes": 9,
-      "sourceUrl": "https://www.openstreetmap.org/node/7943618751",
       "verifiedAt": "2026-09-24"
     },
     {
@@ -36,6 +29,13 @@
       "tier": "standard",
       "walkMinutes": 10,
       "sourceUrl": "https://www.openstreetmap.org/node/4919935621",
+      "verifiedAt": "2026-09-24"
+    },
+    {
+      "name": "もとまちUNION",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/1933369881",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -83,7 +83,7 @@
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
-    "groceries": "There are 8 supermarkets within walking distance, and the nearest is 7 minutes on foot.",
+    "groceries": "There are 6 supermarkets within walking distance, and the nearest is 7 minutes on foot.",
     "hazards": "Neither the station nor the ground around it falls inside the projected flood area.",
     "stationNote": "Only the Toei Oedo Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",

@@ -25,17 +25,17 @@
       "verifiedAt": "2026-09-24"
     },
     {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 5,
+      "sourceUrl": "https://www.openstreetmap.org/node/5749125969",
+      "verifiedAt": "2026-09-24"
+    },
+    {
       "name": "Poisson Okuda ポワソンオクダ",
       "tier": "standard",
       "walkMinutes": 7,
       "sourceUrl": "https://www.openstreetmap.org/node/13937699701",
-      "verifiedAt": "2026-09-24"
-    },
-    {
-      "name": "アコレ",
-      "tier": "discount",
-      "walkMinutes": 10,
-      "sourceUrl": "https://www.openstreetmap.org/node/5749125939",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -45,8 +45,8 @@
   "neighbours": [
     {
       "slug": "tokyo-skytree",
-      "lead": "임대료도 통근도 재해 상정도 큰 차이가 없다. ",
-      "note": "押上〈スカイツリー前〉에서 걸어갈 수 있는 거리에 있다. 두 역 모두 東武伊勢崎線을(를) 쓸 수 있다. 押上〈スカイツリー前〉에서는 とうきょうスカイツリー에서 쓸 수 없는 京成押上線, 東京メトロ半蔵門線, 都営浅草線도 쓸 수 있다. 주요 업무지구까지 걸리는 시간은 거의 차이가 없다. 임대료 시세나 침수 상정 등 다른 조건에는 큰 차이가 없다."
+      "lead": "도심까지의 가까움는 押上〈スカイツリー前〉가 앞서고, 다른 조건에는 큰 차이가 없다. ",
+      "note": "押上〈スカイツリー前〉에서 걸어갈 수 있는 거리에 있다. 두 역 모두 東武伊勢崎線을(를) 쓸 수 있다. 押上〈スカイツリー前〉에서는 とうきょうスカイツリー에서 쓸 수 없는 京成押上線, 東京メトロ半蔵門線, 都営浅草線도 쓸 수 있다. 시부야와 오테마치까지는 押上〈スカイツリー前〉이(가) 6분 이상 빠르다. 임대료 시세나 침수 상정 등 다른 조건에는 큰 차이가 없다."
     },
     {
       "slug": "honjo-azumabashi",

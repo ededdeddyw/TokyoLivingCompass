@@ -3,7 +3,7 @@
   "locale": "ko",
   "name": "富士見台",
   "tagline": "신주쿠까지 29분, 시부야까지 34분. 1개 노선이 지난다. 원룸 임대료는 대략 7만~8만엔이다.",
-  "summary": "역은 나카노구에 있으며, 西武池袋線 노선이 지난다. 주요 업무지구까지 걸리는 시간은 오테마치까지 40분, 신주쿠까지 29분, 시부야까지 34분, 시나가와까지 50분이다. 원룸 임대료는 대략 7만~8만엔이다. 역의 표고는 43.6m이고, 주변 800m 안의 표고 차이는 8.9m이다. 역 주변의 땅은 완만한 언덕이 있다.",
+  "summary": "역은 네리마구에 있으며, 西武池袋線 노선이 지난다. 주요 업무지구까지 걸리는 시간은 오테마치까지 40분, 신주쿠까지 29분, 시부야까지 34분, 시나가와까지 50분이다. 원룸 임대료는 대략 7만~8만엔이다. 역의 표고는 43.6m이고, 주변 800m 안의 표고 차이는 8.9m이다. 역 주변의 땅은 완만한 언덕이 있다.",
   "terrain": {
     "slope": "some",
     "note": "역은 주변 중에서는 높은 쪽에 있고, 표고는 43.6m이다. 주변 800m 안의 표고는 35.9m부터 44.8m까지 나뉘며, 그 차이는 8.9m이다."
@@ -18,17 +18,10 @@
       "verifiedAt": "2026-09-24"
     },
     {
-      "name": "TRAIAL GO 富士見台駅北店",
-      "tier": "standard",
-      "walkMinutes": 2,
-      "sourceUrl": "https://www.openstreetmap.org/node/13347255927",
-      "verifiedAt": "2026-09-24"
-    },
-    {
       "name": "TRIAL GO 富士見台駅北店",
       "tier": "standard",
       "walkMinutes": 2,
-      "sourceUrl": "https://www.openstreetmap.org/node/13347385001",
+      "sourceUrl": "https://www.openstreetmap.org/node/13347255927",
       "verifiedAt": "2026-09-24"
     },
     {
@@ -36,6 +29,13 @@
       "tier": "standard",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/6109221772",
+      "verifiedAt": "2026-09-24"
+    },
+    {
+      "name": "ザ・ガーデン自由が丘",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/6108071328",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -52,7 +52,7 @@
       "구조 대비 전용 면적"
     ]
   },
-  "rentReason": "원룸 시세는 7만~8만엔이다. 도심 업무지구까지 걸리는 시간에 비하면, 23구 역의 평균 정도다. 역 주변이 조용한 점이 시세를 끌어올리는 한편, 쓸 수 있는 노선이 {line} 하나뿐인 점이 시세를 낮추고 있다. 다만 2LDK에서는 출처마다 값이 3만 엔 이상 벌어져 있다. 집계 대상이 다르므로 폭을 두고 보는 편이 좋다.",
+  "rentReason": "원룸 시세는 7만~8만엔이다. 도심 업무지구까지 걸리는 시간에 비하면, 23구 역의 평균 정도다. 시세를 낮추는 요인으로는 쓸 수 있는 노선이 {line} 하나뿐인 점이 있다. 다만 2LDK에서는 출처마다 값이 3만 엔 이상 벌어져 있다. 집계 대상이 다르므로 폭을 두고 보는 편이 좋다.",
   "neighbours": [
     {
       "slug": "nakamurabashi",
@@ -76,7 +76,6 @@
     "千川通り（편도 1차선）가 역 가까이에 있다. 길에 면한 방에서는 아침저녁 차 소리가 들어온다"
   ],
   "tags": [
-    "quiet",
     "lowFlood",
     "singleLine",
     "shoppingEasy"

@@ -100,6 +100,27 @@ def sort_medical(clinics, hospitals):
     return cl, uniq
 
 
+# 地図データでスーパーとして登録されているが、食料品の店ではないもの
+# （西新宿五丁目で米店とはんこ屋、東新宿で免税店を「日常の買い物」に挙げていた）。
+NOT_GROCERY = re.compile(r"はんこ|印章|印鑑|米店|米穀|免税|Duty|ドラッグ|薬局")
+# 地図データの店名の誤記。見つかったものだけを直す。
+SHOP_NAME_FIX = [("TRAIAL", "TRIAL"), ("ハマナサ", "ハナマサ"), ("店店", "店"),
+                 ("Maruetsu petit", "マルエツプチ"), ("Maruetsu", "マルエツ")]
+
+
+def grocery_pois(pois):
+    """スーパーとして使える店だけを、店名の誤記を直して返す。"""
+    out = []
+    for x in pois:
+        if NOT_GROCERY.search(x["name"]):
+            continue
+        name = x["name"]
+        for a, b in SHOP_NAME_FIX:
+            name = name.replace(a, b)
+        out.append({**x, "name": name})
+    return out
+
+
 def clean_road_name(name):
     """地図データの道路名を、読み手に見せる形に直す。
     「日大通り;瀬田貫井線」「首都高速都心環状線(第2通行帯)」
@@ -295,6 +316,9 @@ def station_tags(sc, st, ter, ctx=None):
     # 駅の地点が浸水想定区域に入る駅に「浸水の想定が小さい」のタグを付けると、
     # 災害の節と食い違って読める（中井・用賀）。
     at_station = bool(ctx and ctx["haz"].get(st["slug"], {}).get("flood", {}).get("atStation"))
+    noisy_road = bool(ctx and road_is_near(ctx["roads"].get(st["slug"])))
+    if noisy_road and "quiet" in picked:
+        picked.remove("quiet")
     if at_station and "lowFlood" in picked:
         picked.remove("lowFlood")
     if ctx is not None:
@@ -319,6 +343,8 @@ def station_tags(sc, st, ter, ctx=None):
             if tag in picked or sc.get(axis, 0) < FILL_FLOOR:
                 continue
             if tag == "lowFlood" and at_station:
+                continue
+            if tag == "quiet" and noisy_road:
                 continue
             trial = picked + [tag]
             if tag in drop_conflicts(list(trial)):
@@ -711,6 +737,22 @@ def compare_lead(p, a, b, ctx):
 NOISE_FAR_M = 250
 
 
+def road_is_near(road):
+    """本文の「音が気になりうる場所」に、駅の近くの道路として書く道路があるか。
+
+    静かさの点は人の音と車の音を混ぜて出すので、駅のそばに大通りがあっても
+    酒場が少なければ高く出る（高島平は高島通りが駅のそばにあるのに87点だった）。
+    「静か」のタグや「駅のまわりが静か」という理由は、道路の話と食い違わないときだけ出す。
+    """
+    for cls in ("motorway", "trunk", "primary", "secondary"):
+        v = (road or {}).get(cls)
+        if not v or not v.get("name"):
+            continue
+        if v["m"] <= (400 if cls == "motorway" else NOISE_FAR_M):
+            return True
+    return False
+
+
 def care_rank(slug, ctx):
     """歩いて行けるクリニックと薬局の数が、23区の駅の中でどのあたりか（0〜100）。
 
@@ -828,11 +870,12 @@ def build(st, ctx):
         c["hazards"] = (head + detail + tide_txt + tail).strip()
 
     # ── 買い物（OpenStreetMap） ────────────────────
-    sup = by_cat.get("supermarket", [])
+    sup = grocery_pois(by_cat.get("supermarket", []))
     if sup:
         picked, chains = [], set()
         for s in sup:
-            key = s["name"][:4]
+            # 同じチェーンを「Maruetsu petit」と「マルエツプチ」のように2回挙げないよう、ブランドで見る
+            key = s.get("brand") or s["name"][:4]
             if key in chains:
                 continue
             chains.add(key)
@@ -967,7 +1010,7 @@ def build(st, ctx):
                 up.append(p["rentFactorDry"])
             if sc.get("family", 0) >= 80:
                 up.append(p["rentFactorFamily"])
-            if sc.get("quietness", 0) >= 75:
+            if sc.get("quietness", 0) >= 75 and not road_is_near(road):
                 up.append(p["rentFactorQuiet"])
             if sc.get("food", 0) >= 85:
                 up.append(p["rentFactorFood"])
@@ -1177,6 +1220,8 @@ def build(st, ctx):
     # 「データからは読み取れていません」のような作業用の文を画面に出さない。
     if not good:
         for axis, key in sorted(GOOD_FALLBACK, key=lambda ak: -sc.get(ak[0], 0)):
+            if axis == "quietness" and road_is_near(road):
+                continue
             if sc.get(axis, 0) >= 60 and len(good) < 2:
                 good.append(p[key])
     for limit in (40, 45):
@@ -1231,10 +1276,15 @@ def build(st, ctx):
     # 2本目には「離れていて車の音が少ない」と書く道路を入れない。
     # 1本目で「駅のそばに大通り」と書いたあとに続けると、同じ駅について食い違う
     # （西新宿で「青梅街道が駅のすぐそば」と「車の音が少なく落ち着いています」が並んでいた）。
-    noise = []
+    # 同じ道路が、上りと下りや道路の格の違いで2回登録されていることがある（千石の白山通り）。
+    # 名前が同じなら、2本目は書かない。
+    noise, named = [], set()
     for cls, v in ordered:
+        if clean_road_name(v["name"]) in named:
+            continue
         if v["m"] <= NOISE_FAR_M or (cls == "motorway" and v["m"] <= 400) or not noise:
             noise.append(road_line(cls, v))
+            named.add(clean_road_name(v["name"]))
         if len(noise) == 2:
             break
     if noise:
@@ -1249,7 +1299,7 @@ def build(st, ctx):
     slope = ter.get("slope")
     if slope in ("flat", "some", "hilly"):
         leads["terrain"] = p["leadTerrain" + slope.capitalize()]
-    shops = by_cat.get("supermarket", [])
+    shops = grocery_pois(by_cat.get("supermarket", []))
     if shops:
         nearest = min(x["walkMinutes"] for x in shops)
         key = "leadGroceriesMany" if len(shops) >= 3 else "leadGroceriesFew"

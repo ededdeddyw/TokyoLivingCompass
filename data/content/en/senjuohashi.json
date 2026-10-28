@@ -23,13 +23,6 @@
       "walkMinutes": 4,
       "sourceUrl": "https://www.openstreetmap.org/node/5231966201",
       "verifiedAt": "2026-09-24"
-    },
-    {
-      "name": "ライフ 南千住店",
-      "tier": "standard",
-      "walkMinutes": 12,
-      "sourceUrl": "https://www.openstreetmap.org/way/266274282",
-      "verifiedAt": "2026-09-24"
     }
   ],
   "medical": "Within an 800 m walk of the station there are 5 clinics and 6 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 美誠会井出病院, about 13 minutes' walk from the station. The next nearest is 愛里病院, about 13 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
@@ -73,7 +66,6 @@
     "墨堤通り (2 lanes each way) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
-    "quiet",
     "floodArea",
     "singleLine",
     "flat"

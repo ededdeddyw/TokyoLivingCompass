@@ -25,17 +25,17 @@
       "verifiedAt": "2026-09-24"
     },
     {
+      "name": "まいばすけっと",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/12848312452",
+      "verifiedAt": "2026-09-24"
+    },
+    {
       "name": "ライフ 大森中店",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/way/211451597",
-      "verifiedAt": "2026-09-24"
-    },
-    {
-      "name": "ライフ",
-      "tier": "standard",
-      "walkMinutes": 12,
-      "sourceUrl": "https://www.openstreetmap.org/node/4426093420",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -78,9 +78,9 @@
     "第一京浜（单向2车道）就在车站旁边。看车站附近的房子时，要确认是否临街"
   ],
   "tags": [
-    "quiet",
     "singleLine",
     "familyFriendly",
+    "shoppingEasy",
     "flat"
   ],
   "leads": {
