@@ -75,7 +75,9 @@ def sort_medical(clinics, hospitals):
         if NOT_MEDICAL.search(x["name"]):
             continue
         # 歯科病院は、入院や急な病気のときにかかる先として挙げると読み手を誤らせる
-        if ("病院" not in x["name"] and CLINIC_NAME.search(x["name"])) or "歯科" in x["name"]:
+        # 「大田病院附属大森中診療所」のように、病院の名前を含む診療所も診療所に回す
+        if (("病院" not in x["name"] and CLINIC_NAME.search(x["name"])) or "歯科" in x["name"]
+                or re.search(r"診療所|クリニック|[Cc]linic", x["name"])):
             # 病院は2.5kmまで集めているが、クリニックの数は800m以内で数えている
             if x["distanceM"] <= 800:
                 cl.append(x)
