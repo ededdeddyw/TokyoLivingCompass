@@ -108,7 +108,7 @@ def sort_medical(clinics, hospitals):
 
 # 地図データでスーパーとして登録されているが、食料品の店ではないもの
 # （西新宿五丁目で米店とはんこ屋、東新宿で免税店を「日常の買い物」に挙げていた）。
-NOT_GROCERY = re.compile(r"はんこ|印章|印鑑|米店|米穀|免税|Duty|ドラッグ|薬局|セブン|ローソン|ファミリーマート|ミニストップ|7-Eleven|Lawson|FamilyMart")
+NOT_GROCERY = re.compile(r"はんこ|印章|印鑑|米店|米穀|免税|Duty|ドラッグ|薬局|セブン|ローソン|ファミリーマート|ミニストップ|7-Eleven|Lawson|FamilyMart|Coffee|珈琲|コーヒー")
 # 地図データの店名の誤記。見つかったものだけを直す。
 SHOP_NAME_FIX = [("TRAIAL", "TRIAL"), ("ハマナサ", "ハナマサ"), ("店店", "店"),
                  ("Maruetsu petit", "マルエツプチ"), ("Maruetsu", "マルエツ")]
@@ -867,7 +867,8 @@ def build(st, ctx):
                                    deepest=depth_label[haz["deepest"]])
         else:
             detail = ""
-        tide_txt = (p["hightide"].format(count=tide["aroundCount"])
+        tide_txt = (p["hightideAll" if tide["aroundCount"] >= 9 else "hightide"].format(
+                        count=tide["aroundCount"])
                     if tide.get("aroundCount") else "")
         # 事実を並べて終わらせず、23区の中でどのあたりなのかで締める（ルール49）。
         scores = ctx["sc"].get(slug, {})
@@ -878,9 +879,13 @@ def build(st, ctx):
         if "disaster" in scores and five(scores["disaster"]) >= 3.5:
             # まわりの9地点の多くが区域に入るのに点が高いのは、想定される深さが浅いから。
             # そのときに「区域に入る地点は少なめ」と書くと、直前の数と食い違う（新馬場で6地点）。
-            around = max(haz.get("aroundCount") or 0, tide.get("aroundCount") or 0)
-            if around >= 5:
-                tail = p["hazardTrailerAtStationShallow"]
+            # 「深さは浅め」と書くのは、大雨と高潮のどちらの想定も3m未満のときだけにする
+            # （江戸川は駅の地点が3〜5mなのに「浅め」と出ていた）。
+            shallow = all((x.get("deepest") or "0.5m未満") in ("0.5m未満", "0.5〜3m")
+                          for x in (haz, tide))
+            if (haz.get("aroundCount") or 0) >= 5:
+                if shallow:
+                    tail = p["hazardTrailerAtStationShallow"]
             elif haz.get("atStation"):
                 tail = p["hazardTrailerAtStationSmall"]
         c["hazards"] = (head + detail + tide_txt + tail).strip()
@@ -891,7 +896,7 @@ def build(st, ctx):
         picked, chains = [], set()
         for s in sup:
             # 同じチェーンを「Maruetsu petit」と「マルエツプチ」のように2回挙げないよう、ブランドで見る
-            key = s.get("brand") or s["name"][:4]
+            key = (s.get("brand") or s["name"])[:4]
             if key in chains:
                 continue
             chains.add(key)
@@ -1238,11 +1243,13 @@ def build(st, ctx):
         bad.append(p["badExpensive"])
     # 決まった条件に1つも当たらない駅では、23区の中で上のほう・下のほうにある軸から補う。
     # 「データからは読み取れていません」のような作業用の文を画面に出さない。
-    if not good:
+    for limit in (60, 50):
+        if good:
+            break
         for axis, key in sorted(GOOD_FALLBACK, key=lambda ak: -sc.get(ak[0], 0)):
             if axis == "quietness" and road_is_near(road):
                 continue
-            if sc.get(axis, 0) >= 60 and len(good) < 2:
+            if sc.get(axis, 0) >= limit and len(good) < 2:
                 good.append(p[key])
     for limit in (40, 45):
         if bad:
