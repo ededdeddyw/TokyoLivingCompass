@@ -107,6 +107,9 @@ THROUGH_SERVICES = [
     ("28008", "21002", "押上"),        # 半蔵門線 ↔ 東武伊勢崎線（スカイツリーライン）
     ("28005", "25001", "代々木上原"),  # 千代田線 ↔ 小田急線
     ("99302", "27001", "泉岳寺"),      # 都営浅草線 ↔ 京急本線
+    # 京急空港線は京急蒲田で本線に入り、品川方面へ直通する。直通の向きを品川側に指定する
+    # （向きを指定しないと、隣の駅どうしがいちばん離れる組み合わせで横浜方面が選ばれる）。
+    ("27002", "27001", "京急蒲田", "品川"),  # 京急空港線 ↔ 京急本線
     ("99302", "23002", "押上"),        # 都営浅草線 ↔ 京成押上線
     ("99304", "24007", "新宿"),        # 都営新宿線 ↔ 京王新線
     ("28004", "11313", "中野"),        # 東西線 ↔ JR中央・総武線
@@ -116,6 +119,16 @@ THROUGH_SERVICES = [
     ("11314", "11308", "東京"),        # JR総武快速線 ↔ 横須賀線
 ]
 THROUGH_MIN = 1.0
+# 駅グループは別だが、歩いて行き来できる駅。西武新宿から新宿へは歩いて行けるのに、
+# 鉄道だけでつなぐと「16分・乗り換え1回」になっていた。
+# 歩いて着く先がオフィス駅なら乗り換えには数えず、歩いた先で別の路線に乗るときは
+# 乗り換え1回として数える。分数は駅どうしの直線距離（路線ごとの座標のうち、いちばん近い組み合わせ）
+# から、scripts/fetch-pois.py と同じ見込み（道のりは直線の1.3倍、分速80m）で出す。
+# 西武新宿から丸ノ内線の新宿まで約440mで、7分ほどになる。
+WALK_LINKS = [
+    ("西武新宿", "新宿"),
+]
+WALK_LINE = "walk"
 
 DWELL_MIN = 0.4        # 1駅あたりの停車時間
 TRANSFER_MIN = 5.0     # 乗り換え1回あたり（徒歩＋待ち）
@@ -165,6 +178,8 @@ def build_graph():
     coords, names = {}, {}
     station_lines = collections.defaultdict(set)
     line_seq = {}
+    # 同じ駅でも路線ごとに座標が違う。歩いて行き来する距離は、いちばん近い組み合わせで測る
+    all_points = collections.defaultdict(list)
 
     for line_cd in GRAPH_LINES:
         data = json.load(
@@ -175,6 +190,7 @@ def build_graph():
         seq = data["station_l"]
         line_seq[line_cd] = [str(s["station_g_cd"]) for s in seq]
         for s in seq:
+            all_points[str(s["station_g_cd"])].append((s["lat"], s["lon"]))
             g = str(s["station_g_cd"])
             coords.setdefault(g, (s["lat"], s["lon"]))
             names.setdefault(g, s["station_name"])
@@ -206,7 +222,7 @@ def build_graph():
     def add_chain(vline, chain, *junctions):
         chains.append((vline, chain, {j for j in junctions if j}))
 
-    for la, lb, station in THROUGH_SERVICES:
+    for la, lb, station, *toward in THROUGH_SERVICES:
         cands = [g for g, n in names.items()
                  if n.startswith(station) and la in station_lines[g] and lb in station_lines[g]]
         if not cands:
@@ -225,9 +241,11 @@ def build_graph():
 
         # 直通列車は境目でまっすぐ進む。la 側の隣の駅と lb 側の隣の駅が
         # いちばん離れる組み合わせを、直通する向きとみなす。
-        side_a, side_b = max(
-            ((x, y) for x in sides(seq_a, ia) for y in sides(seq_b, ib)),
-            key=lambda xy: km(coords[xy[0][0]], coords[xy[1][0]]))
+        pairs = [(x, y) for x in sides(seq_a, ia) for y in sides(seq_b, ib)]
+        if toward:
+            pairs = [(x, y) for x, y in pairs
+                     if any(names[gb] == toward[0] for gb in y)] or pairs
+        side_a, side_b = max(pairs, key=lambda xy: km(coords[xy[0][0]], coords[xy[1][0]]))
         through_parts.append((la, side_a, g, lb, side_b))
         add_chain(f"through:{la}>{lb}",
                   [(la, x) for x in reversed(side_a)] + [(la, g)] + [(lb, x) for x in side_b], g)
@@ -267,11 +285,29 @@ def build_graph():
             edges[(ga, vline)].append(((gb, vline), minutes, False))
             edges[(gb, vline)].append(((ga, vline), minutes, False))
 
+    # 歩いて行き来できる駅
+    by_name_all = {n: g for g, n in names.items()}
+    for na, nb in WALK_LINKS:
+        ga, gb = by_name_all[na], by_name_all[nb]
+        straight_km = min(km(pa, pb) / 1.15 for pa in all_points[ga] for pb in all_points[gb])
+        minutes = straight_km * 1000 * 1.3 / 80
+        for g in (ga, gb):
+            station_lines[g].add(WALK_LINE)
+        edges[(ga, WALK_LINE)].append(((gb, WALK_LINE), minutes, False))
+        edges[(gb, WALK_LINE)].append(((ga, WALK_LINE), minutes, False))
+
     # 同一駅内の乗り換え
+    # 経路はオフィス駅の側から逆向きにたどる。歩いて来て列車に乗るのが乗り換え1回で、
+    # 列車を降りて歩いてオフィス駅に着くのは乗り換えに数えない。逆向きにたどるので、
+    # 路線→徒歩 の辺を乗り換えとし、徒歩→路線 の辺は時間も回数も足さない。
     for g, lines in station_lines.items():
         for la in lines:
             for lb in lines:
-                if la != lb:
+                if la == lb:
+                    continue
+                if la == WALK_LINE:
+                    edges[(g, la)].append(((g, lb), 0.0, False))
+                else:
                     edges[(g, la)].append(((g, lb), TRANSFER_MIN, True))
 
     return edges, coords, names, station_lines

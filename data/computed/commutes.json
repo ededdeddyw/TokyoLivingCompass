@@ -2592,8 +2592,8 @@
   "shimo-ochiai": [
     {
       "to": "shinjuku",
-      "minutes": 14,
-      "transfers": 1
+      "minutes": 13,
+      "transfers": 0
     },
     {
       "to": "shibuya",
@@ -3443,22 +3443,22 @@
   "seibu-shinjuku": [
     {
       "to": "shinjuku",
-      "minutes": 16,
-      "transfers": 1
+      "minutes": 7,
+      "transfers": 0
     },
     {
       "to": "shibuya",
-      "minutes": 24,
+      "minutes": 17,
       "transfers": 1
     },
     {
       "to": "tokyo",
-      "minutes": 30,
-      "transfers": 2
+      "minutes": 27,
+      "transfers": 1
     },
     {
       "to": "shinagawa",
-      "minutes": 39,
+      "minutes": 36,
       "transfers": 1
     },
     {
@@ -3468,12 +3468,12 @@
     },
     {
       "to": "toranomon",
-      "minutes": 40,
+      "minutes": 31,
       "transfers": 2
     },
     {
       "to": "roppongi",
-      "minutes": 32,
+      "minutes": 22,
       "transfers": 1
     }
   ],
@@ -7698,38 +7698,38 @@
   "otorii": [
     {
       "to": "shinjuku",
-      "minutes": 55,
-      "transfers": 2
-    },
-    {
-      "to": "shibuya",
-      "minutes": 48,
-      "transfers": 2
-    },
-    {
-      "to": "tokyo",
-      "minutes": 42,
-      "transfers": 2
-    },
-    {
-      "to": "shinagawa",
-      "minutes": 27,
+      "minutes": 52,
       "transfers": 1
     },
     {
+      "to": "shibuya",
+      "minutes": 44,
+      "transfers": 1
+    },
+    {
+      "to": "tokyo",
+      "minutes": 38,
+      "transfers": 1
+    },
+    {
+      "to": "shinagawa",
+      "minutes": 23,
+      "transfers": 0
+    },
+    {
       "to": "otemachi",
-      "minutes": 49,
-      "transfers": 2
+      "minutes": 45,
+      "transfers": 1
     },
     {
       "to": "toranomon",
-      "minutes": 46,
-      "transfers": 2
+      "minutes": 42,
+      "transfers": 1
     },
     {
       "to": "roppongi",
-      "minutes": 47,
-      "transfers": 2
+      "minutes": 43,
+      "transfers": 1
     }
   ],
   "tenkubashi": [
@@ -7750,8 +7750,8 @@
     },
     {
       "to": "shinagawa",
-      "minutes": 31,
-      "transfers": 1
+      "minutes": 27,
+      "transfers": 0
     },
     {
       "to": "otemachi",
@@ -7765,8 +7765,8 @@
     },
     {
       "to": "roppongi",
-      "minutes": 46,
-      "transfers": 2
+      "minutes": 47,
+      "transfers": 1
     }
   ],
   "heiwajima": [
@@ -7861,7 +7861,7 @@
     },
     {
       "to": "shinagawa",
-      "minutes": 34,
+      "minutes": 33,
       "transfers": 1
     },
     {
@@ -7898,7 +7898,7 @@
     },
     {
       "to": "shinagawa",
-      "minutes": 41,
+      "minutes": 38,
       "transfers": 1
     },
     {
@@ -8290,75 +8290,75 @@
   "anamori-inari": [
     {
       "to": "shinjuku",
-      "minutes": 53,
-      "transfers": 2
+      "minutes": 54,
+      "transfers": 1
     },
     {
       "to": "shibuya",
-      "minutes": 48,
-      "transfers": 2
+      "minutes": 45,
+      "transfers": 1
     },
     {
       "to": "tokyo",
-      "minutes": 42,
-      "transfers": 2
+      "minutes": 39,
+      "transfers": 1
     },
     {
       "to": "shinagawa",
-      "minutes": 29,
-      "transfers": 1
+      "minutes": 25,
+      "transfers": 0
     },
     {
       "to": "otemachi",
       "minutes": 47,
-      "transfers": 3
+      "transfers": 1
     },
     {
       "to": "toranomon",
-      "minutes": 48,
-      "transfers": 2
+      "minutes": 44,
+      "transfers": 1
     },
     {
       "to": "roppongi",
-      "minutes": 49,
-      "transfers": 2
+      "minutes": 45,
+      "transfers": 1
     }
   ],
   "kojiya": [
     {
       "to": "shinjuku",
-      "minutes": 54,
-      "transfers": 2
-    },
-    {
-      "to": "shibuya",
-      "minutes": 45,
-      "transfers": 2
-    },
-    {
-      "to": "tokyo",
-      "minutes": 39,
-      "transfers": 2
-    },
-    {
-      "to": "shinagawa",
-      "minutes": 25,
+      "minutes": 50,
       "transfers": 1
     },
     {
+      "to": "shibuya",
+      "minutes": 41,
+      "transfers": 1
+    },
+    {
+      "to": "tokyo",
+      "minutes": 35,
+      "transfers": 1
+    },
+    {
+      "to": "shinagawa",
+      "minutes": 21,
+      "transfers": 0
+    },
+    {
       "to": "otemachi",
-      "minutes": 47,
-      "transfers": 2
+      "minutes": 43,
+      "transfers": 1
     },
     {
       "to": "toranomon",
-      "minutes": 44,
-      "transfers": 2
+      "minutes": 40,
+      "transfers": 1
     },
     {
       "to": "roppongi",
-      "minutes": 45,
-      "transfers": 2
+      "minutes": 41,
+      "transfers": 1
     }
   ],
   "haneda-airport-terminal-1-2": [
@@ -8379,8 +8379,8 @@
     },
     {
       "to": "shinagawa",
-      "minutes": 37,
-      "transfers": 1
+      "minutes": 33,
+      "transfers": 0
     },
     {
       "to": "otemachi",
@@ -8395,7 +8395,7 @@
     {
       "to": "roppongi",
       "minutes": 54,
-      "transfers": 2
+      "transfers": 1
     }
   ],
   "haneda-airport-terminal-3": [
@@ -8416,8 +8416,8 @@
     },
     {
       "to": "shinagawa",
-      "minutes": 34,
-      "transfers": 1
+      "minutes": 30,
+      "transfers": 0
     },
     {
       "to": "otemachi",
@@ -8431,8 +8431,8 @@
     },
     {
       "to": "roppongi",
-      "minutes": 49,
-      "transfers": 2
+      "minutes": 50,
+      "transfers": 1
     }
   ],
   "kamata": [
@@ -10917,8 +10917,8 @@
   "araiyakushi-mae": [
     {
       "to": "shinjuku",
-      "minutes": 17,
-      "transfers": 1
+      "minutes": 18,
+      "transfers": 0
     },
     {
       "to": "shibuya",
@@ -10991,8 +10991,8 @@
   "numabukuro": [
     {
       "to": "shinjuku",
-      "minutes": 19,
-      "transfers": 1
+      "minutes": 20,
+      "transfers": 0
     },
     {
       "to": "shibuya",
@@ -11065,8 +11065,8 @@
   "toritsu-kasei": [
     {
       "to": "shinjuku",
-      "minutes": 23,
-      "transfers": 1
+      "minutes": 24,
+      "transfers": 0
     },
     {
       "to": "shibuya",
@@ -11103,7 +11103,7 @@
     {
       "to": "shinjuku",
       "minutes": 22,
-      "transfers": 1
+      "transfers": 0
     },
     {
       "to": "shibuya",
@@ -11140,7 +11140,7 @@
     {
       "to": "shinjuku",
       "minutes": 25,
-      "transfers": 1
+      "transfers": 0
     },
     {
       "to": "shibuya",
@@ -11176,8 +11176,8 @@
   "shimo-igusa": [
     {
       "to": "shinjuku",
-      "minutes": 27,
-      "transfers": 1
+      "minutes": 28,
+      "transfers": 0
     },
     {
       "to": "shibuya",
@@ -11250,8 +11250,8 @@
   "iogi": [
     {
       "to": "shinjuku",
-      "minutes": 29,
-      "transfers": 1
+      "minutes": 30,
+      "transfers": 0
     },
     {
       "to": "shibuya",
@@ -14581,7 +14581,7 @@
     {
       "to": "shinjuku",
       "minutes": 32,
-      "transfers": 1
+      "transfers": 0
     },
     {
       "to": "shibuya",
@@ -14618,7 +14618,7 @@
     {
       "to": "shinjuku",
       "minutes": 34,
-      "transfers": 1
+      "transfers": 0
     },
     {
       "to": "shibuya",
@@ -14988,7 +14988,7 @@
     {
       "to": "shinjuku",
       "minutes": 37,
-      "transfers": 1
+      "transfers": 0
     },
     {
       "to": "shibuya",

@@ -2,8 +2,8 @@
   "slug": "seibu-shinjuku",
   "locale": "en",
   "name": "Seibu-Shinjuku",
-  "tagline": "Shinjuku in 16 minutes and Shibuya in 24 minutes. Served by 1 line. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
-  "summary": "The station is in Shinjuku City, where Seibu run 1 line between them. Journey times to the main business districts are 24 minutes to Otemachi, 16 minutes to Shinjuku, 24 minutes to Shibuya and 39 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 36.9 m above sea level, and the ground within 800 m varies in height by 5.7 m. The land around the station is close to level.",
+  "tagline": "Shinjuku in 7 minutes and Shibuya in 17 minutes. Served by 1 line. A one-room flat rents for roughly ¥130,000 to ¥140,000.",
+  "summary": "The station is in Shinjuku City, where Seibu run 1 line between them. Journey times to the main business districts are 24 minutes to Otemachi, 7 minutes to Shinjuku, 17 minutes to Shibuya and 36 minutes to Shinagawa. A one-room flat rents for roughly ¥130,000 to ¥140,000. The station stands 36.9 m above sea level, and the ground within 800 m varies in height by 5.7 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 36.9 m above sea level. Within 800 m the ground ranges from 32 m to 37.7 m, a difference of 5.7 m."
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is among the highest in the 23 wards. a small projected flood depth and plenty of places to eat out pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is on the high side. a small projected flood depth and plenty of places to eat out pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "shinjuku-nishiguchi",
       "lead": "Shinjuku-Nishiguchi is ahead on how close the centre is and lower rent. ",
-      "note": "Close enough to walk to from Seibu-Shinjuku. Seibu-Shinjuku adds the Seibu Shinjuku Line; Shinjuku-Nishiguchi adds the Toei Oedo Line. Shinjuku-Nishiguchi is at least 18 minutes quicker to Roppongi and Toranomon. A one-room flat also costs about ¥8,000 less at Shinjuku-Nishiguchi."
+      "note": "Close enough to walk to from Seibu-Shinjuku. Seibu-Shinjuku adds the Seibu Shinjuku Line; Shinjuku-Nishiguchi adds the Toei Oedo Line. Shinjuku-Nishiguchi is at least 9 minutes quicker to Toranomon and Roppongi. A one-room flat also costs about ¥8,000 less at Shinjuku-Nishiguchi."
     },
     {
       "slug": "shin-okubo",
       "lead": "Shin-Okubo is ahead on how close the centre is and lower rent. ",
-      "note": "Close enough to walk to from Seibu-Shinjuku. Seibu-Shinjuku adds the Seibu Shinjuku Line; Shin-Okubo adds the JR Yamanote Line. Shin-Okubo is at least 13 minutes quicker to Roppongi and Shinjuku. A one-room flat also costs about ¥34,000 less at Shin-Okubo."
+      "note": "Close enough to walk to from Seibu-Shinjuku. Seibu-Shinjuku adds the Seibu Shinjuku Line; Shin-Okubo adds the JR Yamanote Line. Shin-Okubo is at least 5 minutes quicker to Shinagawa and Shibuya. A one-room flat also costs about ¥34,000 less at Shin-Okubo."
     }
   ],
   "goodFor": [
@@ -89,7 +89,7 @@
     "groceries": "There are 19 supermarkets within walking distance, and the nearest is 6 minutes on foot.",
     "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "Only the Seibu Shinjuku Line serves this station, so when it stops you walk to another station.",
-    "rentRange": "Set against how long the commute takes, rents here are among the highest in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is among the highest in the 23 wards.",
     "congestion": "Morning loading on the lines here is about average for the 23 wards' stations. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
