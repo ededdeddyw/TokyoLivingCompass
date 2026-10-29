@@ -108,7 +108,7 @@ def sort_medical(clinics, hospitals):
 
 # 地図データでスーパーとして登録されているが、食料品の店ではないもの
 # （西新宿五丁目で米店とはんこ屋、東新宿で免税店を「日常の買い物」に挙げていた）。
-NOT_GROCERY = re.compile(r"はんこ|印章|印鑑|米店|米穀|免税|Duty|ドラッグ|薬局")
+NOT_GROCERY = re.compile(r"はんこ|印章|印鑑|米店|米穀|免税|Duty|ドラッグ|薬局|セブン|ローソン|ファミリーマート|ミニストップ|7-Eleven|Lawson|FamilyMart")
 # 地図データの店名の誤記。見つかったものだけを直す。
 SHOP_NAME_FIX = [("TRAIAL", "TRIAL"), ("ハマナサ", "ハナマサ"), ("店店", "店"),
                  ("Maruetsu petit", "マルエツプチ"), ("Maruetsu", "マルエツ")]
