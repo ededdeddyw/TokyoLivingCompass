@@ -25,17 +25,17 @@
       "verifiedAt": "2026-09-24"
     },
     {
-      "name": "セブン-イレブン 世田谷玉川2丁目",
-      "tier": "standard",
-      "walkMinutes": 5,
-      "sourceUrl": "https://www.openstreetmap.org/node/1059766666",
-      "verifiedAt": "2026-09-24"
-    },
-    {
       "name": "富士ガーデン 二子新地駅前店",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/9197425052",
+      "verifiedAt": "2026-09-24"
+    },
+    {
+      "name": "マルエツ",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/1932525065",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -80,7 +80,7 @@
   ],
   "leads": {
     "terrain": "车站周边有缓坡，住在哪个街区会改变每天出行的费力程度。",
-    "groceries": "步行可达的超市有7家，最近的一家步行3分钟。",
+    "groceries": "步行可达的超市有6家，最近的一家步行3分钟。",
     "hazards": "车站所在的地点，被划入大雨时的浸水想定区域。",
     "stationNote": "有2条线路可用。换乘的选择与23区车站的平均水平相当。",
     "rentRange": "通勤时间与租金行情的关系，与23区车站的平均水平相当。",

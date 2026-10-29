@@ -25,17 +25,17 @@
       "verifiedAt": "2026-09-24"
     },
     {
-      "name": "セブン-イレブン 世田谷玉川2丁目",
-      "tier": "standard",
-      "walkMinutes": 5,
-      "sourceUrl": "https://www.openstreetmap.org/node/1059766666",
-      "verifiedAt": "2026-09-24"
-    },
-    {
       "name": "富士ガーデン 二子新地駅前店",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/9197425052",
+      "verifiedAt": "2026-09-24"
+    },
+    {
+      "name": "マルエツ",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/1932525065",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -80,7 +80,7 @@
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
-    "groceries": "There are 7 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
+    "groceries": "There are 6 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",

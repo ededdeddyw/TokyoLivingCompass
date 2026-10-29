@@ -25,17 +25,17 @@
       "verifiedAt": "2026-09-24"
     },
     {
-      "name": "Lawson Store 100",
-      "tier": "standard",
-      "walkMinutes": 7,
-      "sourceUrl": "https://www.openstreetmap.org/node/3199596761",
-      "verifiedAt": "2026-09-24"
-    },
-    {
       "name": "まいばすけっと 新井薬師駅前北店",
       "tier": "standard",
       "walkMinutes": 9,
       "sourceUrl": "https://www.openstreetmap.org/node/5603283242",
+      "verifiedAt": "2026-09-24"
+    },
+    {
+      "name": "MARUSHO PICO",
+      "tier": "standard",
+      "walkMinutes": 9,
+      "sourceUrl": "https://www.openstreetmap.org/node/5608314572",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -84,7 +84,7 @@
   ],
   "leads": {
     "terrain": "역 주변에는 완만한 언덕이 있어, 어느 구획에 사는지에 따라 매일의 이동 부담이 달라진다.",
-    "groceries": "걸어갈 수 있는 슈퍼마켓이 12곳 있고, 가장 가까운 곳까지는 걸어서 2분이다.",
+    "groceries": "걸어갈 수 있는 슈퍼마켓이 11곳 있고, 가장 가까운 곳까지는 걸어서 2분이다.",
     "hazards": "역이 있는 지점이 큰비가 올 때의 침수 예상 구역에 들어간다.",
     "stationNote": "쓸 수 있는 노선은 西武新宿線 하나뿐이라, 이 노선이 멈추면 다른 역까지 걸어가게 된다.",
     "rentRange": "통근에 걸리는 시간에 비해, 임대료 시세는 낮은 편이다.",
