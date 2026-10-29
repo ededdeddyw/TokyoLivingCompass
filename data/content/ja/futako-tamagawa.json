@@ -25,17 +25,17 @@
       "verifiedAt": "2026-09-24"
     },
     {
-      "name": "セブン-イレブン 世田谷玉川2丁目",
-      "tier": "standard",
-      "walkMinutes": 5,
-      "sourceUrl": "https://www.openstreetmap.org/node/1059766666",
-      "verifiedAt": "2026-09-24"
-    },
-    {
       "name": "富士ガーデン 二子新地駅前店",
       "tier": "standard",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/9197425052",
+      "verifiedAt": "2026-09-24"
+    },
+    {
+      "name": "マルエツ",
+      "tier": "standard",
+      "walkMinutes": 12,
+      "sourceUrl": "https://www.openstreetmap.org/node/1932525065",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -80,7 +80,7 @@
   ],
   "leads": {
     "terrain": "駅の周りにはゆるやかな坂があり、どの区画に住むかで毎日の移動の負担が変わります。",
-    "groceries": "歩いて行けるスーパーが7軒あり、いちばん近い店までは徒歩3分です。",
+    "groceries": "歩いて行けるスーパーが6軒あり、いちばん近い店までは徒歩3分です。",
     "hazards": "駅の地点が、大雨のときの浸水想定区域に入っています。",
     "stationNote": "2路線が使えます。乗り換えの選択肢は23区の駅の平均くらいです。",
     "rentRange": "通勤にかかる時間と家賃の相場の関係は、23区の駅の平均くらいです。",

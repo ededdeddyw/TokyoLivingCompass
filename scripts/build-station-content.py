@@ -108,7 +108,7 @@ def sort_medical(clinics, hospitals):
 
 # 地図データでスーパーとして登録されているが、食料品の店ではないもの
 # （西新宿五丁目で米店とはんこ屋、東新宿で免税店を「日常の買い物」に挙げていた）。
-NOT_GROCERY = re.compile(r"はんこ|印章|印鑑|米店|米穀|免税|Duty|ドラッグ|薬局|セブン|ローソン|ファミリーマート|ミニストップ|7-Eleven|Lawson|FamilyMart|Coffee|珈琲|コーヒー")
+NOT_GROCERY = re.compile(r"はんこ|印章|印鑑|米店|米穀|免税|Duty|ドラッグ|薬局|セブン|ローソン|ファミリーマート|ミニストップ|7-Eleven|Lawson|FamilyMart|Coffee|珈琲")
 # 地図データの店名の誤記。見つかったものだけを直す。
 SHOP_NAME_FIX = [("TRAIAL", "TRIAL"), ("ハマナサ", "ハナマサ"), ("店店", "店"),
                  ("Maruetsu petit", "マルエツプチ"), ("Maruetsu", "マルエツ")]
@@ -884,8 +884,8 @@ def build(st, ctx):
             shallow = all((x.get("deepest") or "0.5m未満") in ("0.5m未満", "0.5〜3m")
                           for x in (haz, tide))
             if (haz.get("aroundCount") or 0) >= 5:
-                if shallow:
-                    tail = p["hazardTrailerAtStationShallow"]
+                # 区域に入る地点が多く、深い想定もある駅は「小さいほう」と書かず、平均くらいに留める
+                tail = p["hazardTrailerAtStationShallow"] if shallow else p["hazardTrailer3"]
             elif haz.get("atStation"):
                 tail = p["hazardTrailerAtStationSmall"]
         c["hazards"] = (head + detail + tide_txt + tail).strip()

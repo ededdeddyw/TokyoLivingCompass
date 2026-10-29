@@ -18,13 +18,6 @@
       "verifiedAt": "2026-09-24"
     },
     {
-      "name": "ヨークフーズ 三ノ輪 三ノ輪店",
-      "tier": "standard",
-      "walkMinutes": 4,
-      "sourceUrl": "https://www.openstreetmap.org/node/6452298325",
-      "verifiedAt": "2026-09-24"
-    },
-    {
       "name": "業務スーパー 三ノ輪店",
       "tier": "discount",
       "walkMinutes": 4,
@@ -36,6 +29,13 @@
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/7964743013",
+      "verifiedAt": "2026-09-24"
+    },
+    {
+      "name": "オリンピック 三ノ輪店",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/way/234260961",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -85,7 +85,7 @@
   ],
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
-    "groceries": "There are 17 supermarkets within walking distance, and the nearest is 4 minutes on foot.",
+    "groceries": "There are 16 supermarkets within walking distance, and the nearest is 4 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tokyo Sakura Tram (Toden Arakawa Line) serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",

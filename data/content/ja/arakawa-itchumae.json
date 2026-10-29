@@ -18,13 +18,6 @@
       "verifiedAt": "2026-09-24"
     },
     {
-      "name": "ヨークフーズ 三ノ輪 三ノ輪店",
-      "tier": "standard",
-      "walkMinutes": 4,
-      "sourceUrl": "https://www.openstreetmap.org/node/6452298325",
-      "verifiedAt": "2026-09-24"
-    },
-    {
       "name": "業務スーパー 三ノ輪店",
       "tier": "discount",
       "walkMinutes": 4,
@@ -36,6 +29,13 @@
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/node/7964743013",
+      "verifiedAt": "2026-09-24"
+    },
+    {
+      "name": "オリンピック 三ノ輪店",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/way/234260961",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -85,7 +85,7 @@
   ],
   "leads": {
     "terrain": "駅の周りはほぼ平坦で、坂を気にせず住む場所を選べます。",
-    "groceries": "歩いて行けるスーパーが17軒あり、いちばん近い店までは徒歩4分です。",
+    "groceries": "歩いて行けるスーパーが16軒あり、いちばん近い店までは徒歩4分です。",
     "hazards": "駅の地点が、大雨のときの浸水想定区域に入っています。",
     "stationNote": "使える路線は都電荒川線の1本だけです。止まった日は、別の駅まで歩いて別の路線に乗り換えることになります。",
     "rentRange": "通勤にかかる時間に対して、家賃の相場は高いほうです。",

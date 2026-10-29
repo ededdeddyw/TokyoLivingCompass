@@ -25,17 +25,17 @@
       "verifiedAt": "2026-09-24"
     },
     {
-      "name": "セブンイレブン東日暮里3丁目東店",
-      "tier": "standard",
-      "walkMinutes": 8,
-      "sourceUrl": "https://www.openstreetmap.org/node/7966487084",
-      "verifiedAt": "2026-09-24"
-    },
-    {
       "name": "ヨークフーズ 三ノ輪店",
       "tier": "standard",
       "walkMinutes": 8,
       "sourceUrl": "https://www.openstreetmap.org/way/190432712",
+      "verifiedAt": "2026-09-24"
+    },
+    {
+      "name": "Big-A",
+      "tier": "discount",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/5483985283",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -85,7 +85,7 @@
   ],
   "leads": {
     "terrain": "车站周边基本平坦，选住处时不必考虑坡道。",
-    "groceries": "步行可达的超市有17家，最近的一家步行5分钟。",
+    "groceries": "步行可达的超市有16家，最近的一家步行5分钟。",
     "hazards": "车站所在的地点，被划入大雨时的浸水想定区域。",
     "stationNote": "可用的线路只有都電荒川線一条，这条线停运时就要走到别的车站。",
     "rentRange": "相对于通勤所需的时间，这里的租金行情偏高。",
