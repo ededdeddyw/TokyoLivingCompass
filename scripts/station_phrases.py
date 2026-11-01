@@ -258,8 +258,8 @@ PHRASES = {
         "rentFactorFamily": "学校や公園が歩いて行けること",
         "rentFactorQuiet": "駅のまわりが静かなこと",
         "rentFactorFood": "外食できる店が多いこと",
-        "rentWideSpread": "ただし{layouts}は出典の値が3万円以上ひらいているため、"
-                          "集計の対象が違うぶん幅を持って見てください。",
+        "rentWideSpread": "ただし{layouts}は、出典の値が3万円以上ひらいています。"
+                          "集計の対象が違うぶん、幅を持って見てください。",
         "rentWideSep": "・",
 
         "leadTerrainFlat": "駅の周りはほぼ平坦で、坂を気にせず住む場所を選べます。",

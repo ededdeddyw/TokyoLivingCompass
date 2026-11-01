@@ -1471,17 +1471,17 @@
       "oneK": {
         "high": 150000,
         "low": 140000,
-        "mean": 144050,
-        "sourceCount": 2,
+        "mean": 142367,
+        "sourceCount": 3,
         "sourceMax": 146100,
-        "sourceMin": 142000,
+        "sourceMin": 139000,
         "wideSpread": false
       },
       "oneLDK": {
         "high": 240000,
         "low": 230000,
-        "mean": 234500,
-        "sourceCount": 2,
+        "mean": 234667,
+        "sourceCount": 3,
         "sourceMax": 246000,
         "sourceMin": 223000,
         "wideSpread": false
@@ -1489,23 +1489,23 @@
       "oneRoom": {
         "high": 160000,
         "low": 150000,
-        "mean": 151950,
-        "sourceCount": 2,
-        "sourceMax": 157000,
+        "mean": 155700,
+        "sourceCount": 3,
+        "sourceMax": 163200,
         "sourceMin": 146900,
         "wideSpread": false
       },
       "twoLDK": {
-        "high": 310000,
-        "low": 300000,
-        "mean": 306350,
-        "sourceCount": 2,
+        "high": 320000,
+        "low": 310000,
+        "mean": 310000,
+        "sourceCount": 3,
         "sourceMax": 334000,
         "sourceMin": 278700,
         "wideSpread": true
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -1516,6 +1516,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/shinochanomizu-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/awajicho_06321-st/price/"
       }
     ],
     "verified": true
@@ -1579,23 +1584,23 @@
       "oneK": {
         "high": 150000,
         "low": 140000,
-        "mean": 141400,
-        "sourceCount": 2,
+        "mean": 144000,
+        "sourceCount": 3,
         "sourceMax": 152000,
         "sourceMin": 130800,
         "wideSpread": false
       },
       "oneLDK": {
-        "high": 310000,
-        "low": 300000,
-        "mean": 309650,
-        "sourceCount": 2,
-        "sourceMax": 317000,
+        "high": 320000,
+        "low": 310000,
+        "mean": 313800,
+        "sourceCount": 3,
+        "sourceMax": 322100,
         "sourceMin": 302300,
         "wideSpread": false
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -1606,6 +1611,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/azabujuban-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/azabujuban_09214-st/price/"
       }
     ],
     "verified": true
@@ -1937,43 +1947,43 @@
   "daimon": {
     "bands": {
       "oneK": {
-        "high": 140000,
-        "low": 130000,
-        "mean": 138650,
-        "sourceCount": 2,
-        "sourceMax": 149000,
+        "high": 150000,
+        "low": 140000,
+        "mean": 142200,
+        "sourceCount": 3,
+        "sourceMax": 149300,
         "sourceMin": 128300,
         "wideSpread": false
       },
       "oneLDK": {
-        "high": 290000,
-        "low": 280000,
-        "mean": 281800,
-        "sourceCount": 2,
+        "high": 280000,
+        "low": 270000,
+        "mean": 276867,
+        "sourceCount": 3,
         "sourceMax": 294000,
-        "sourceMin": 269600,
+        "sourceMin": 267000,
         "wideSpread": false
       },
       "oneRoom": {
         "high": 160000,
         "low": 150000,
-        "mean": 150100,
-        "sourceCount": 2,
+        "mean": 150433,
+        "sourceCount": 3,
         "sourceMax": 168000,
         "sourceMin": 132200,
         "wideSpread": true
       },
       "twoLDK": {
-        "high": 460000,
-        "low": 450000,
-        "mean": 451850,
-        "sourceCount": 2,
-        "sourceMax": 488000,
+        "high": 480000,
+        "low": 470000,
+        "mean": 472933,
+        "sourceCount": 3,
+        "sourceMax": 515100,
         "sourceMin": 415700,
         "wideSpread": true
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -1984,6 +1994,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/hamamatsucho-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/daimon_06403-st/price/"
       }
     ],
     "verified": true
@@ -2855,34 +2870,43 @@
   "gaiemmae": {
     "bands": {
       "oneK": {
-        "high": 170000,
-        "low": 160000,
-        "mean": 167300,
-        "sourceCount": 2,
-        "sourceMax": 173000,
+        "high": 180000,
+        "low": 170000,
+        "mean": 170933,
+        "sourceCount": 3,
+        "sourceMax": 178200,
         "sourceMin": 161600,
         "wideSpread": false
       },
       "oneLDK": {
-        "high": 330000,
-        "low": 320000,
-        "mean": 326800,
-        "sourceCount": 2,
+        "high": 340000,
+        "low": 330000,
+        "mean": 330133,
+        "sourceCount": 3,
         "sourceMax": 345000,
         "sourceMin": 308600,
         "wideSpread": true
       },
+      "oneRoom": {
+        "high": 180000,
+        "low": 170000,
+        "mean": 179333,
+        "sourceCount": 3,
+        "sourceMax": 212000,
+        "sourceMin": 156400,
+        "wideSpread": true
+      },
       "twoLDK": {
-        "high": 490000,
-        "low": 480000,
-        "mean": 484050,
-        "sourceCount": 2,
+        "high": 500000,
+        "low": 490000,
+        "mean": 494800,
+        "sourceCount": 3,
         "sourceMax": 554000,
         "sourceMin": 414100,
         "wideSpread": true
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -2893,6 +2917,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/gaiemmae-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/gaiemmae_06315-st/price/"
       }
     ],
     "verified": true
@@ -3010,32 +3039,41 @@
       "oneK": {
         "high": 150000,
         "low": 140000,
-        "mean": 147450,
-        "sourceCount": 2,
+        "mean": 147867,
+        "sourceCount": 3,
         "sourceMax": 160000,
         "sourceMin": 134900,
         "wideSpread": false
       },
       "oneLDK": {
-        "high": 260000,
-        "low": 250000,
-        "mean": 253700,
-        "sourceCount": 2,
-        "sourceMax": 259000,
+        "high": 280000,
+        "low": 270000,
+        "mean": 270000,
+        "sourceCount": 3,
+        "sourceMax": 302600,
         "sourceMin": 248400,
-        "wideSpread": false
+        "wideSpread": true
+      },
+      "oneRoom": {
+        "high": 170000,
+        "low": 160000,
+        "mean": 164933,
+        "sourceCount": 3,
+        "sourceMax": 197000,
+        "sourceMin": 146800,
+        "wideSpread": true
       },
       "twoLDK": {
-        "high": 370000,
-        "low": 360000,
-        "mean": 361750,
-        "sourceCount": 2,
-        "sourceMax": 387000,
+        "high": 380000,
+        "low": 370000,
+        "mean": 373800,
+        "sourceCount": 3,
+        "sourceMax": 397900,
         "sourceMin": 336500,
         "wideSpread": true
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -3046,6 +3084,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/ginza-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/ginza_06311-st/price/"
       }
     ],
     "verified": true
@@ -3487,41 +3530,41 @@
       "oneK": {
         "high": 140000,
         "low": 130000,
-        "mean": 138650,
-        "sourceCount": 2,
+        "mean": 139933,
+        "sourceCount": 3,
         "sourceMax": 149000,
         "sourceMin": 128300,
         "wideSpread": false
       },
       "oneLDK": {
-        "high": 290000,
-        "low": 280000,
-        "mean": 281800,
-        "sourceCount": 2,
-        "sourceMax": 294000,
+        "high": 300000,
+        "low": 290000,
+        "mean": 290300,
+        "sourceCount": 3,
+        "sourceMax": 307300,
         "sourceMin": 269600,
-        "wideSpread": false
+        "wideSpread": true
       },
       "oneRoom": {
         "high": 160000,
         "low": 150000,
-        "mean": 150100,
-        "sourceCount": 2,
+        "mean": 150633,
+        "sourceCount": 3,
         "sourceMax": 168000,
         "sourceMin": 132200,
         "wideSpread": true
       },
       "twoLDK": {
-        "high": 460000,
-        "low": 450000,
-        "mean": 451850,
-        "sourceCount": 2,
-        "sourceMax": 488000,
+        "high": 480000,
+        "low": 470000,
+        "mean": 479967,
+        "sourceCount": 3,
+        "sourceMax": 536200,
         "sourceMin": 415700,
         "wideSpread": true
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -3532,6 +3575,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/hamamatsucho-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/hamamatsucho_00572-st/price/"
       }
     ],
     "verified": true
@@ -3539,43 +3587,43 @@
   "hanzomon": {
     "bands": {
       "oneK": {
-        "high": 160000,
-        "low": 150000,
-        "mean": 154200,
-        "sourceCount": 2,
-        "sourceMax": 161000,
+        "high": 170000,
+        "low": 160000,
+        "mean": 165633,
+        "sourceCount": 3,
+        "sourceMax": 188500,
         "sourceMin": 147400,
-        "wideSpread": false
+        "wideSpread": true
       },
       "oneLDK": {
         "high": 320000,
         "low": 310000,
-        "mean": 313100,
-        "sourceCount": 2,
+        "mean": 311900,
+        "sourceCount": 3,
         "sourceMax": 316000,
-        "sourceMin": 310200,
+        "sourceMin": 309500,
         "wideSpread": false
       },
       "oneRoom": {
-        "high": 170000,
-        "low": 160000,
-        "mean": 166950,
-        "sourceCount": 2,
-        "sourceMax": 168000,
+        "high": 180000,
+        "low": 170000,
+        "mean": 177067,
+        "sourceCount": 3,
+        "sourceMax": 197300,
         "sourceMin": 165900,
-        "wideSpread": false
+        "wideSpread": true
       },
       "twoLDK": {
-        "high": 510000,
-        "low": 500000,
-        "mean": 501800,
-        "sourceCount": 2,
+        "high": 500000,
+        "low": 490000,
+        "mean": 494967,
+        "sourceCount": 3,
         "sourceMax": 554000,
         "sourceMin": 449600,
         "wideSpread": true
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -3586,6 +3634,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/hanzomon-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/hanzomon_06391-st/price/"
       }
     ],
     "verified": true
@@ -3811,17 +3864,17 @@
       "oneK": {
         "high": 140000,
         "low": 130000,
-        "mean": 134250,
-        "sourceCount": 2,
+        "mean": 133967,
+        "sourceCount": 3,
         "sourceMax": 139000,
         "sourceMin": 129500,
         "wideSpread": false
       },
       "oneLDK": {
-        "high": 230000,
-        "low": 220000,
-        "mean": 226950,
-        "sourceCount": 2,
+        "high": 240000,
+        "low": 230000,
+        "mean": 230233,
+        "sourceCount": 3,
         "sourceMax": 246000,
         "sourceMin": 207900,
         "wideSpread": true
@@ -3829,8 +3882,8 @@
       "oneRoom": {
         "high": 150000,
         "low": 140000,
-        "mean": 143350,
-        "sourceCount": 2,
+        "mean": 146267,
+        "sourceCount": 3,
         "sourceMax": 153000,
         "sourceMin": 133700,
         "wideSpread": false
@@ -3838,14 +3891,14 @@
       "twoLDK": {
         "high": 320000,
         "low": 310000,
-        "mean": 310550,
-        "sourceCount": 2,
+        "mean": 313233,
+        "sourceCount": 3,
         "sourceMax": 338000,
         "sourceMin": 283100,
         "wideSpread": true
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -3856,6 +3909,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/hatchobori-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/hatchobori_00714-st/price/"
       }
     ],
     "verified": true
@@ -4079,43 +4137,34 @@
   "higashi-ginza": {
     "bands": {
       "oneK": {
-        "high": 150000,
-        "low": 140000,
-        "mean": 143150,
-        "sourceCount": 2,
+        "high": 140000,
+        "low": 130000,
+        "mean": 138900,
+        "sourceCount": 3,
         "sourceMax": 148000,
-        "sourceMin": 138300,
+        "sourceMin": 130400,
         "wideSpread": false
       },
       "oneLDK": {
         "high": 250000,
         "low": 240000,
-        "mean": 241900,
-        "sourceCount": 2,
-        "sourceMax": 252000,
+        "mean": 249400,
+        "sourceCount": 3,
+        "sourceMax": 264400,
         "sourceMin": 231800,
-        "wideSpread": false
-      },
-      "oneRoom": {
-        "high": 170000,
-        "low": 160000,
-        "mean": 161550,
-        "sourceCount": 2,
-        "sourceMax": 175000,
-        "sourceMin": 148100,
-        "wideSpread": false
+        "wideSpread": true
       },
       "twoLDK": {
-        "high": 340000,
-        "low": 330000,
-        "mean": 330350,
-        "sourceCount": 2,
-        "sourceMax": 356000,
+        "high": 350000,
+        "low": 340000,
+        "mean": 343433,
+        "sourceCount": 3,
+        "sourceMax": 369600,
         "sourceMin": 304700,
         "wideSpread": true
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -4126,6 +4175,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/higashiginza-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/higashiginza_06343-st/price/"
       }
     ],
     "verified": true
@@ -4896,41 +4950,41 @@
       "oneK": {
         "high": 140000,
         "low": 130000,
-        "mean": 138350,
-        "sourceCount": 2,
+        "mean": 136267,
+        "sourceCount": 3,
         "sourceMax": 140000,
-        "sourceMin": 136700,
+        "sourceMin": 132100,
         "wideSpread": false
       },
       "oneLDK": {
-        "high": 250000,
-        "low": 240000,
-        "mean": 242150,
-        "sourceCount": 2,
+        "high": 240000,
+        "low": 230000,
+        "mean": 231200,
+        "sourceCount": 3,
         "sourceMax": 251000,
-        "sourceMin": 233300,
-        "wideSpread": false
+        "sourceMin": 209300,
+        "wideSpread": true
       },
       "oneRoom": {
         "high": 150000,
         "low": 140000,
-        "mean": 148450,
-        "sourceCount": 2,
+        "mean": 148533,
+        "sourceCount": 3,
         "sourceMax": 160000,
         "sourceMin": 136900,
         "wideSpread": false
       },
       "twoLDK": {
-        "high": 360000,
-        "low": 350000,
-        "mean": 353450,
-        "sourceCount": 2,
+        "high": 350000,
+        "low": 340000,
+        "mean": 341867,
+        "sourceCount": 3,
         "sourceMax": 390000,
         "sourceMin": 316900,
         "wideSpread": true
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -4941,6 +4995,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/hinode-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/hinode_09198-st/price/"
       }
     ],
     "verified": true
@@ -5004,41 +5063,41 @@
       "oneK": {
         "high": 150000,
         "low": 140000,
-        "mean": 147950,
-        "sourceCount": 2,
+        "mean": 147967,
+        "sourceCount": 3,
         "sourceMax": 160000,
         "sourceMin": 135900,
         "wideSpread": false
       },
       "oneLDK": {
-        "high": 290000,
-        "low": 280000,
-        "mean": 284550,
-        "sourceCount": 2,
+        "high": 300000,
+        "low": 290000,
+        "mean": 290067,
+        "sourceCount": 3,
         "sourceMax": 309000,
         "sourceMin": 260100,
         "wideSpread": true
       },
       "oneRoom": {
-        "high": 160000,
-        "low": 150000,
-        "mean": 152750,
-        "sourceCount": 2,
-        "sourceMax": 165000,
+        "high": 170000,
+        "low": 160000,
+        "mean": 161200,
+        "sourceCount": 3,
+        "sourceMax": 178100,
         "sourceMin": 140500,
-        "wideSpread": false
+        "wideSpread": true
       },
       "twoLDK": {
-        "high": 490000,
-        "low": 480000,
-        "mean": 487600,
-        "sourceCount": 2,
+        "high": 470000,
+        "low": 460000,
+        "mean": 464533,
+        "sourceCount": 3,
         "sourceMax": 562000,
         "sourceMin": 413200,
         "wideSpread": true
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -5049,6 +5108,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/hiro-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/hiro_06347-st/price/"
       }
     ],
     "verified": true
@@ -6357,19 +6421,19 @@
   "kachidoki": {
     "bands": {
       "oneK": {
-        "high": 150000,
-        "low": 140000,
-        "mean": 140000,
-        "sourceCount": 2,
+        "high": 140000,
+        "low": 130000,
+        "mean": 137567,
+        "sourceCount": 3,
         "sourceMax": 140000,
-        "sourceMin": 140000,
+        "sourceMin": 132700,
         "wideSpread": false
       },
       "oneLDK": {
         "high": 240000,
         "low": 230000,
-        "mean": 234150,
-        "sourceCount": 2,
+        "mean": 236367,
+        "sourceCount": 3,
         "sourceMax": 248000,
         "sourceMin": 220300,
         "wideSpread": false
@@ -6377,23 +6441,23 @@
       "oneRoom": {
         "high": 160000,
         "low": 150000,
-        "mean": 151800,
-        "sourceCount": 2,
+        "mean": 150833,
+        "sourceCount": 3,
         "sourceMax": 152000,
-        "sourceMin": 151600,
+        "sourceMin": 148900,
         "wideSpread": false
       },
       "twoLDK": {
-        "high": 350000,
-        "low": 340000,
-        "mean": 342600,
-        "sourceCount": 2,
-        "sourceMax": 387000,
+        "high": 370000,
+        "low": 360000,
+        "mean": 360000,
+        "sourceCount": 3,
+        "sourceMax": 394800,
         "sourceMin": 298200,
         "wideSpread": true
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -6404,6 +6468,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/kachidoki-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/kachidoki_09701-st/price/"
       }
     ],
     "verified": true
@@ -7113,25 +7182,25 @@
   "kamiyacho": {
     "bands": {
       "oneK": {
-        "high": 150000,
-        "low": 140000,
-        "mean": 147050,
-        "sourceCount": 2,
-        "sourceMax": 168000,
+        "high": 170000,
+        "low": 160000,
+        "mean": 163267,
+        "sourceCount": 3,
+        "sourceMax": 195700,
         "sourceMin": 126100,
         "wideSpread": true
       },
       "twoLDK": {
-        "high": 620000,
-        "low": 610000,
-        "mean": 611250,
-        "sourceCount": 2,
+        "high": 600000,
+        "low": 590000,
+        "mean": 597067,
+        "sourceCount": 3,
         "sourceMax": 617000,
-        "sourceMin": 605500,
-        "wideSpread": false
+        "sourceMin": 568700,
+        "wideSpread": true
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -7142,6 +7211,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/kamiyacho-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/kamiyacho_06345-st/price/"
       }
     ],
     "verified": true
@@ -7529,17 +7603,17 @@
       "oneK": {
         "high": 140000,
         "low": 130000,
-        "mean": 132800,
-        "sourceCount": 2,
+        "mean": 130500,
+        "sourceCount": 3,
         "sourceMax": 134000,
-        "sourceMin": 131600,
+        "sourceMin": 125900,
         "wideSpread": false
       },
       "oneLDK": {
         "high": 230000,
         "low": 220000,
-        "mean": 220300,
-        "sourceCount": 2,
+        "mean": 223233,
+        "sourceCount": 3,
         "sourceMax": 242000,
         "sourceMin": 198600,
         "wideSpread": true
@@ -7547,23 +7621,23 @@
       "oneRoom": {
         "high": 150000,
         "low": 140000,
-        "mean": 141450,
-        "sourceCount": 2,
-        "sourceMax": 150000,
+        "mean": 145067,
+        "sourceCount": 3,
+        "sourceMax": 152300,
         "sourceMin": 132900,
         "wideSpread": false
       },
       "twoLDK": {
-        "high": 290000,
-        "low": 280000,
-        "mean": 288050,
-        "sourceCount": 2,
+        "high": 300000,
+        "low": 290000,
+        "mean": 290333,
+        "sourceCount": 3,
         "sourceMax": 308000,
         "sourceMin": 268100,
         "wideSpread": true
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -7574,6 +7648,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/kayabacho-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/kayabacho_06341-st/price/"
       }
     ],
     "verified": true
@@ -8231,8 +8310,8 @@
       "oneK": {
         "high": 150000,
         "low": 140000,
-        "mean": 144900,
-        "sourceCount": 2,
+        "mean": 145267,
+        "sourceCount": 3,
         "sourceMax": 150000,
         "sourceMin": 139800,
         "wideSpread": false
@@ -8240,8 +8319,8 @@
       "oneLDK": {
         "high": 260000,
         "low": 250000,
-        "mean": 252550,
-        "sourceCount": 2,
+        "mean": 253400,
+        "sourceCount": 3,
         "sourceMax": 279000,
         "sourceMin": 226100,
         "wideSpread": true
@@ -8249,23 +8328,23 @@
       "oneRoom": {
         "high": 160000,
         "low": 150000,
-        "mean": 156900,
-        "sourceCount": 2,
-        "sourceMax": 157800,
+        "mean": 157933,
+        "sourceCount": 3,
+        "sourceMax": 160000,
         "sourceMin": 156000,
         "wideSpread": false
       },
       "twoLDK": {
-        "high": 380000,
-        "low": 370000,
-        "mean": 373700,
-        "sourceCount": 2,
+        "high": 400000,
+        "low": 390000,
+        "mean": 392300,
+        "sourceCount": 3,
         "sourceMax": 435000,
         "sourceMin": 312400,
         "wideSpread": true
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -8276,6 +8355,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/kitasando-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/kitasando_10052-st/price/"
       }
     ],
     "verified": true
@@ -8393,8 +8477,8 @@
       "oneK": {
         "high": 130000,
         "low": 120000,
-        "mean": 126100,
-        "sourceCount": 2,
+        "mean": 125433,
+        "sourceCount": 3,
         "sourceMax": 140000,
         "sourceMin": 112200,
         "wideSpread": false
@@ -8402,32 +8486,32 @@
       "oneLDK": {
         "high": 240000,
         "low": 230000,
-        "mean": 237750,
-        "sourceCount": 2,
+        "mean": 236367,
+        "sourceCount": 3,
         "sourceMax": 254000,
         "sourceMin": 221500,
         "wideSpread": true
       },
       "oneRoom": {
-        "high": 150000,
-        "low": 140000,
-        "mean": 140000,
-        "sourceCount": 2,
+        "high": 140000,
+        "low": 130000,
+        "mean": 137300,
+        "sourceCount": 3,
         "sourceMax": 161000,
         "sourceMin": 119000,
         "wideSpread": true
       },
       "twoLDK": {
-        "high": 390000,
-        "low": 380000,
-        "mean": 381450,
-        "sourceCount": 2,
+        "high": 370000,
+        "low": 360000,
+        "mean": 367000,
+        "sourceCount": 3,
         "sourceMax": 418000,
-        "sourceMin": 344900,
+        "sourceMin": 338100,
         "wideSpread": true
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -8438,6 +8522,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/kitashinagawa-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/kitashinagawa_05135-st/price/"
       }
     ],
     "verified": true
@@ -8506,8 +8595,8 @@
       "oneK": {
         "high": 140000,
         "low": 130000,
-        "mean": 133300,
-        "sourceCount": 2,
+        "mean": 134667,
+        "sourceCount": 3,
         "sourceMax": 139000,
         "sourceMin": 127600,
         "wideSpread": false
@@ -8515,8 +8604,8 @@
       "oneLDK": {
         "high": 220000,
         "low": 210000,
-        "mean": 216150,
-        "sourceCount": 2,
+        "mean": 217233,
+        "sourceCount": 3,
         "sourceMax": 228000,
         "sourceMin": 204300,
         "wideSpread": false
@@ -8524,8 +8613,8 @@
       "oneRoom": {
         "high": 150000,
         "low": 140000,
-        "mean": 141650,
-        "sourceCount": 2,
+        "mean": 140367,
+        "sourceCount": 3,
         "sourceMax": 148000,
         "sourceMin": 135300,
         "wideSpread": false
@@ -8533,14 +8622,14 @@
       "twoLDK": {
         "high": 290000,
         "low": 280000,
-        "mean": 288550,
-        "sourceCount": 2,
+        "mean": 285733,
+        "sourceCount": 3,
         "sourceMax": 302000,
         "sourceMin": 275100,
         "wideSpread": false
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -8551,6 +8640,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/kodemmacho-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/kodemmacho_06339-st/price/"
       }
     ],
     "verified": true
@@ -8727,41 +8821,41 @@
       "oneK": {
         "high": 170000,
         "low": 160000,
-        "mean": 160900,
-        "sourceCount": 2,
-        "sourceMax": 169000,
+        "mean": 168467,
+        "sourceCount": 3,
+        "sourceMax": 183600,
         "sourceMin": 152800,
-        "wideSpread": false
+        "wideSpread": true
       },
       "oneLDK": {
         "high": 320000,
         "low": 310000,
-        "mean": 319600,
-        "sourceCount": 2,
+        "mean": 318800,
+        "sourceCount": 3,
         "sourceMax": 326000,
         "sourceMin": 313200,
         "wideSpread": false
       },
       "oneRoom": {
-        "high": 180000,
-        "low": 170000,
-        "mean": 175150,
-        "sourceCount": 2,
-        "sourceMax": 176000,
+        "high": 190000,
+        "low": 180000,
+        "mean": 180233,
+        "sourceCount": 3,
+        "sourceMax": 190400,
         "sourceMin": 174300,
         "wideSpread": false
       },
       "twoLDK": {
-        "high": 510000,
-        "low": 500000,
-        "mean": 504250,
-        "sourceCount": 2,
+        "high": 490000,
+        "low": 480000,
+        "mean": 484333,
+        "sourceCount": 3,
         "sourceMax": 525000,
-        "sourceMin": 483500,
+        "sourceMin": 444500,
         "wideSpread": true
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -8772,6 +8866,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/kojimachi-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/kojimachi_06383-st/price/"
       }
     ],
     "verified": true
@@ -9744,20 +9843,29 @@
       "oneK": {
         "high": 150000,
         "low": 140000,
-        "mean": 141750,
-        "sourceCount": 2,
+        "mean": 143033,
+        "sourceCount": 3,
         "sourceMax": 160000,
         "sourceMin": 123500,
         "wideSpread": true
       },
       "oneLDK": {
-        "high": 270000,
-        "low": 260000,
-        "mean": 265000,
-        "sourceCount": 2,
+        "high": 250000,
+        "low": 240000,
+        "mean": 249900,
+        "sourceCount": 3,
         "sourceMax": 310000,
-        "sourceMin": 220000,
+        "sourceMin": 219700,
         "wideSpread": true
+      },
+      "oneRoom": {
+        "high": 170000,
+        "low": 160000,
+        "mean": 162267,
+        "sourceCount": 3,
+        "sourceMax": 170000,
+        "sourceMin": 155300,
+        "wideSpread": false
       },
       "twoLDK": {
         "high": 300000,
@@ -9769,7 +9877,7 @@
         "wideSpread": false
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -9780,6 +9888,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/kyobashi-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/kyobashi_06310-st/price/"
       }
     ],
     "verified": true
@@ -10158,6 +10271,60 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/meidaimae-st/"
+      }
+    ],
+    "verified": true
+  },
+  "meiji-jingumae": {
+    "bands": {
+      "oneK": {
+        "high": 170000,
+        "low": 160000,
+        "mean": 169600,
+        "sourceCount": 2,
+        "sourceMax": 170000,
+        "sourceMin": 169200,
+        "wideSpread": false
+      },
+      "oneLDK": {
+        "high": 330000,
+        "low": 320000,
+        "mean": 325950,
+        "sourceCount": 2,
+        "sourceMax": 326900,
+        "sourceMin": 325000,
+        "wideSpread": false
+      },
+      "oneRoom": {
+        "high": 190000,
+        "low": 180000,
+        "mean": 188600,
+        "sourceCount": 2,
+        "sourceMax": 196000,
+        "sourceMin": 181200,
+        "wideSpread": false
+      },
+      "twoLDK": {
+        "high": 580000,
+        "low": 570000,
+        "mean": 572200,
+        "sourceCount": 2,
+        "sourceMax": 626400,
+        "sourceMin": 518000,
+        "wideSpread": true
+      }
+    },
+    "retrievedAt": "2026-11-01",
+    "sources": [
+      {
+        "name": "Yahoo!不動産",
+        "retrievedAt": "2026-09-13",
+        "url": "https://realestate.yahoo.co.jp/rent/price/03/13/r/2346/2165/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/meijijingumae_06372-st/price/"
       }
     ],
     "verified": true
@@ -10653,8 +10820,8 @@
       "oneK": {
         "high": 80000,
         "low": 70000,
-        "mean": 78500,
-        "sourceCount": 2,
+        "mean": 77133,
+        "sourceCount": 3,
         "sourceMax": 87000,
         "sourceMin": 70000,
         "wideSpread": false
@@ -10671,23 +10838,23 @@
       "oneRoom": {
         "high": 90000,
         "low": 80000,
-        "mean": 81500,
-        "sourceCount": 2,
+        "mean": 81167,
+        "sourceCount": 3,
         "sourceMax": 97000,
         "sourceMin": 66000,
         "wideSpread": true
       },
       "twoLDK": {
-        "high": 110000,
-        "low": 100000,
-        "mean": 102000,
-        "sourceCount": 2,
-        "sourceMax": 108000,
+        "high": 120000,
+        "low": 110000,
+        "mean": 114433,
+        "sourceCount": 3,
+        "sourceMax": 139300,
         "sourceMin": 96000,
-        "wideSpread": false
+        "wideSpread": true
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -10698,6 +10865,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/minumadaishinsuikoen-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/minumadaishinsuikoen_10025-st/price/"
       }
     ],
     "verified": true
@@ -11481,43 +11653,43 @@
   "nagatacho": {
     "bands": {
       "oneK": {
-        "high": 170000,
-        "low": 160000,
-        "mean": 164250,
-        "sourceCount": 2,
-        "sourceMax": 171000,
+        "high": 180000,
+        "low": 170000,
+        "mean": 174167,
+        "sourceCount": 3,
+        "sourceMax": 194000,
         "sourceMin": 157500,
-        "wideSpread": false
+        "wideSpread": true
       },
       "oneLDK": {
-        "high": 310000,
-        "low": 300000,
-        "mean": 305800,
-        "sourceCount": 2,
-        "sourceMax": 317000,
+        "high": 340000,
+        "low": 330000,
+        "mean": 339433,
+        "sourceCount": 3,
+        "sourceMax": 406700,
         "sourceMin": 294600,
-        "wideSpread": false
+        "wideSpread": true
       },
       "oneRoom": {
         "high": 180000,
         "low": 170000,
-        "mean": 170100,
-        "sourceCount": 2,
-        "sourceMax": 178000,
+        "mean": 179100,
+        "sourceCount": 3,
+        "sourceMax": 197100,
         "sourceMin": 162200,
-        "wideSpread": false
+        "wideSpread": true
       },
       "twoLDK": {
-        "high": 500000,
-        "low": 490000,
-        "mean": 498750,
-        "sourceCount": 2,
-        "sourceMax": 533000,
+        "high": 530000,
+        "low": 520000,
+        "mean": 526767,
+        "sourceCount": 3,
+        "sourceMax": 582800,
         "sourceMin": 464500,
         "wideSpread": true
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -11528,6 +11700,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/akasakamitsuke-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/nagatacho_06384-st/price/"
       }
     ],
     "verified": true
@@ -12303,32 +12480,32 @@
       "oneK": {
         "high": 140000,
         "low": 130000,
-        "mean": 132950,
-        "sourceCount": 2,
+        "mean": 130533,
+        "sourceCount": 3,
         "sourceMax": 135000,
-        "sourceMin": 130900,
+        "sourceMin": 125700,
         "wideSpread": false
       },
       "oneLDK": {
-        "high": 250000,
-        "low": 240000,
-        "mean": 249700,
-        "sourceCount": 2,
+        "high": 270000,
+        "low": 260000,
+        "mean": 260400,
+        "sourceCount": 3,
         "sourceMax": 290000,
         "sourceMin": 209400,
         "wideSpread": true
       },
       "twoLDK": {
-        "high": 300000,
-        "low": 290000,
-        "mean": 297150,
-        "sourceCount": 2,
-        "sourceMax": 323000,
+        "high": 370000,
+        "low": 360000,
+        "mean": 366667,
+        "sourceCount": 3,
+        "sourceMax": 505700,
         "sourceMin": 271300,
         "wideSpread": true
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -12339,6 +12516,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/nihombashi-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/nihombashi_06309-st/price/"
       }
     ],
     "verified": true
@@ -13931,16 +14113,25 @@
         "wideSpread": false
       },
       "oneLDK": {
-        "high": 210000,
-        "low": 200000,
-        "mean": 202500,
-        "sourceCount": 2,
-        "sourceMax": 216000,
+        "high": 240000,
+        "low": 230000,
+        "mean": 230667,
+        "sourceCount": 3,
+        "sourceMax": 287000,
         "sourceMin": 189000,
-        "wideSpread": false
+        "wideSpread": true
+      },
+      "twoLDK": {
+        "high": 410000,
+        "low": 400000,
+        "mean": 406500,
+        "sourceCount": 2,
+        "sourceMax": 528000,
+        "sourceMin": 285000,
+        "wideSpread": true
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -13951,6 +14142,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/odaibakaihinkoen-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/odaibakaihinkoen_09200-st/price/"
       }
     ],
     "verified": true
@@ -14881,34 +15077,43 @@
   "omote-sando": {
     "bands": {
       "oneK": {
-        "high": 160000,
-        "low": 150000,
-        "mean": 155350,
-        "sourceCount": 2,
-        "sourceMax": 167000,
+        "high": 170000,
+        "low": 160000,
+        "mean": 162500,
+        "sourceCount": 3,
+        "sourceMax": 176800,
         "sourceMin": 143700,
-        "wideSpread": false
+        "wideSpread": true
       },
       "oneLDK": {
-        "high": 320000,
-        "low": 310000,
-        "mean": 319450,
-        "sourceCount": 2,
-        "sourceMax": 338000,
+        "high": 340000,
+        "low": 330000,
+        "mean": 337067,
+        "sourceCount": 3,
+        "sourceMax": 372300,
         "sourceMin": 300900,
         "wideSpread": true
       },
+      "oneRoom": {
+        "high": 180000,
+        "low": 170000,
+        "mean": 176233,
+        "sourceCount": 3,
+        "sourceMax": 198000,
+        "sourceMin": 164500,
+        "wideSpread": true
+      },
       "twoLDK": {
-        "high": 540000,
-        "low": 530000,
-        "mean": 531600,
-        "sourceCount": 2,
+        "high": 550000,
+        "low": 540000,
+        "mean": 541700,
+        "sourceCount": 3,
         "sourceMax": 580000,
         "sourceMin": 483200,
         "wideSpread": true
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -14919,6 +15124,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/omotesando-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/omotesando_06316-st/price/"
       }
     ],
     "verified": true
@@ -14982,41 +15192,41 @@
       "oneK": {
         "high": 160000,
         "low": 150000,
-        "mean": 155000,
-        "sourceCount": 2,
+        "mean": 152333,
+        "sourceCount": 3,
         "sourceMax": 159000,
-        "sourceMin": 151000,
+        "sourceMin": 147000,
         "wideSpread": false
       },
       "oneLDK": {
         "high": 310000,
         "low": 300000,
-        "mean": 309600,
-        "sourceCount": 2,
+        "mean": 307400,
+        "sourceCount": 3,
         "sourceMax": 321000,
         "sourceMin": 298200,
         "wideSpread": false
       },
       "oneRoom": {
-        "high": 170000,
-        "low": 160000,
-        "mean": 161700,
-        "sourceCount": 2,
+        "high": 160000,
+        "low": 150000,
+        "mean": 159400,
+        "sourceCount": 3,
         "sourceMax": 174000,
         "sourceMin": 149400,
         "wideSpread": false
       },
       "twoLDK": {
-        "high": 410000,
-        "low": 400000,
-        "mean": 407500,
-        "sourceCount": 2,
-        "sourceMax": 437000,
+        "high": 420000,
+        "low": 410000,
+        "mean": 417400,
+        "sourceCount": 3,
+        "sourceMax": 437200,
         "sourceMin": 378000,
         "wideSpread": true
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -15027,6 +15237,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/onarimon-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/onarimon_06409-st/price/"
       }
     ],
     "verified": true
@@ -15203,8 +15418,8 @@
       "oneK": {
         "high": 120000,
         "low": 110000,
-        "mean": 119750,
-        "sourceCount": 2,
+        "mean": 117633,
+        "sourceCount": 3,
         "sourceMax": 127000,
         "sourceMin": 112500,
         "wideSpread": false
@@ -15212,8 +15427,8 @@
       "oneLDK": {
         "high": 240000,
         "low": 230000,
-        "mean": 230250,
-        "sourceCount": 2,
+        "mean": 234700,
+        "sourceCount": 3,
         "sourceMax": 251000,
         "sourceMin": 209500,
         "wideSpread": true
@@ -15221,23 +15436,23 @@
       "oneRoom": {
         "high": 130000,
         "low": 120000,
-        "mean": 120900,
-        "sourceCount": 2,
-        "sourceMax": 126000,
+        "mean": 122933,
+        "sourceCount": 3,
+        "sourceMax": 127000,
         "sourceMin": 115800,
         "wideSpread": false
       },
       "twoLDK": {
-        "high": 320000,
-        "low": 310000,
-        "mean": 313750,
-        "sourceCount": 2,
-        "sourceMax": 356000,
+        "high": 340000,
+        "low": 330000,
+        "mean": 334867,
+        "sourceCount": 3,
+        "sourceMax": 377100,
         "sourceMin": 271500,
         "wideSpread": true
       }
     },
-    "retrievedAt": "2026-09-13",
+    "retrievedAt": "2026-11-01",
     "sources": [
       {
         "name": "Yahoo!不動産",
@@ -15248,6 +15463,11 @@
         "name": "アットホーム",
         "retrievedAt": "2026-09-13",
         "url": "https://www.athome.co.jp/chintai/souba/tokyo/osakihirokoji-st/"
+      },
+      {
+        "name": "LIFULL HOME'S",
+        "retrievedAt": "2026-11-01",
+        "url": "https://www.homes.co.jp/chintai/tokyo/osakihirokoji_05114-st/price/"
       }
     ],
     "verified": true
