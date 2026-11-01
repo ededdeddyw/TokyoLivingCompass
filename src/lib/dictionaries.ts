@@ -147,6 +147,7 @@ export type Dictionary = {
     minutes: string;
     transfers: string;
     noTransfer: string;
+    onFoot: string;
     yes: string;
     no: string;
     backToList: string;
@@ -423,6 +424,7 @@ const ja: Dictionary = {
     minutes: "分",
     transfers: "乗換",
     noTransfer: "直通",
+    onFoot: "徒歩",
     yes: "あり",
     no: "なし",
     backToList: "駅一覧へ戻る",
@@ -821,6 +823,7 @@ const en: Dictionary = {
     minutes: "min",
     transfers: "transfers",
     noTransfer: "direct",
+    onFoot: "on foot",
     yes: "Yes",
     no: "No",
     backToList: "Back to all stations",
@@ -1222,6 +1225,7 @@ const zhHans: Dictionary = {
     minutes: "分钟",
     transfers: "次换乘",
     noTransfer: "直达",
+    onFoot: "步行",
     yes: "有",
     no: "无",
     backToList: "返回车站一览",
@@ -1615,6 +1619,7 @@ const ko: Dictionary = {
     minutes: "분",
     transfers: "회 환승",
     noTransfer: "직통",
+    onFoot: "도보",
     yes: "있음",
     no: "없음",
     backToList: "역 목록으로 돌아가기",

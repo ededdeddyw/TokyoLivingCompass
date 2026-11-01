@@ -795,6 +795,8 @@ def build(st, ctx):
     lines = [line_name(p["lineName"](l)) for l in line_objs]
     companies = [l["company"] for l in line_objs]
     com = {e["to"]: e["minutes"] for e in ctx["com"].get(slug, [])}
+    # 電車に乗らず歩いて着く行き先（西武新宿→新宿）。「新宿へ歩いて7分」と書き分ける
+    walk = {e["to"] for e in ctx["com"].get(slug, []) if e.get("walk")}
     ter = ctx["ter"].get(slug, {})
     road = ctx["roads"].get(slug, {})
     haz = ctx["haz"].get(slug, {}).get("flood", {})
@@ -808,7 +810,8 @@ def build(st, ctx):
 
     # ── 見出しと要約 ───────────────────────────────
     fastest = sorted(com.items(), key=lambda kv: kv[1])[:2]
-    reach = join(p, (p["reachItem"].format(hub=p["hubs"][h], minutes=m,
+    reach = join(p, (p["reachItemWalk" if h in walk else "reachItem"].format(
+                                           hub=p["hubs"][h], minutes=m,
                                            minuteWord=word(p, "minute", m))
                      for h, m in fastest))
     rent_txt = ""
@@ -830,7 +833,8 @@ def build(st, ctx):
     parts = [where]
     hub_order = ["otemachi", "shinjuku", "shibuya", "shinagawa"]
     parts.append(p["summaryCommute"].format(items=join(p, (
-        p["commuteItem"].format(hub=p["hubs"][h], minutes=com[h],
+        p["commuteItemWalk" if h in walk else "commuteItem"].format(
+                                hub=p["hubs"][h], minutes=com[h],
                                 minuteWord=word(p, "minute", com[h]))
         for h in hub_order if h in com))))
     if rent_txt:
