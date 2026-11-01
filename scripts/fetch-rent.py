@@ -6,6 +6,7 @@
   python3 scripts/fetch-rent.py                      # 未取得の駅だけ
   python3 scripts/fetch-rent.py --refresh            # 取得済みも取り直す
   python3 scripts/fetch-rent.py --site Yahoo!不動産   # 1社だけ取る
+  python3 scripts/fetch-rent.py --slug shibakoen     # 1駅だけ取る（何度でも指定できる）
 
 取りに行くのは、物件一覧ではなく各社が自社の掲載物件を集計して公開している
 統計ページである（docs/08-data-sources-rent.md §E-2）。robots.txt で
@@ -122,6 +123,8 @@ def main():
     ap.add_argument("--refresh", action="store_true")
     ap.add_argument("--site", action="append", default=[],
                     help="このサイトだけ取る。何度でも指定できる")
+    ap.add_argument("--slug", action="append", default=[],
+                    help="この駅だけ取る。何度でも指定できる")
     args = ap.parse_args()
 
     cfg = json.load(open(SOURCES, encoding="utf-8"))
@@ -129,6 +132,8 @@ def main():
     today = time.strftime("%Y-%m-%d")
 
     for slug, ids in stations.items():
+        if args.slug and slug not in args.slug:
+            continue
         path = os.path.join(SURVEY, f"{slug}.json")
         old = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
         if old and not args.refresh:
