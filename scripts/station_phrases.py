@@ -96,6 +96,7 @@ PHRASES = {
         "reachItemWalk": "{hub}へ歩いて{minutes}{minuteWord}",
         "tagline": "{reach}で着きます。{lineCount}{lineWord}が乗り入れます。{rent}",
         "taglineRent": "ワンルームの家賃相場はおよそ{low}〜{high}{unit}です。",
+        "taglineRentOneK": "1Kの家賃相場はおよそ{low}〜{high}{unit}です。",
 
         "summaryWhere": "この駅は{ward}にあり、{lines}が乗り入れます。",
         "summaryWhereMany": "この駅は{ward}にあり、{operators}の{count}{lineWord}が乗り入れます。",
@@ -222,6 +223,8 @@ PHRASES = {
         "rentDrivers": ["築年数と構造", "駅からの距離", "幹線道路や線路に面しているか",
                         "坂の上か下か", "間取りに対する専有面積"],
         "rentReason": "駅周辺のワンルームの家賃相場は{low}〜{high}{unit}です。",
+        "rentReasonOneK": "駅周辺の1Kの家賃相場は{low}〜{high}{unit}です。",
+        "rentNoteInverted": "この駅では、ワンルームの相場が1Kより高く出ています。各サイトに掲載された物件の平均なので、間取りの広さの順と相場の順が逆になることがあります。",
         # 相場の数字を繰り返すだけでは、見出しの「理由」に答えていない（ルール49）。
         # 通勤時間に対してどの位置にあるかを書き、押し上げ・押し下げの材料を添える。
         "rentLevel5": "都心のオフィス街までの所要時間から見ると、"
@@ -435,6 +438,7 @@ PHRASES = {
         "reachItemWalk": "{hub} in {minutes} {minuteWord} on foot",
         "tagline": "{reach}. Served by {lineCount} {lineWord}. {rent}",
         "taglineRent": "A one-room flat rents for roughly {low} to {high}.",
+        "taglineRentOneK": "A 1K flat rents for roughly {low} to {high}.",
 
         "summaryWhere": "The station is in {ward}, served by {lines}. ",
         "summaryWhereMany": "The station is in {ward}, where {operators} run {count} {lineWord} between them. ",
@@ -578,6 +582,8 @@ PHRASES = {
                         "Whether it sits at the top or the bottom of a slope",
                         "Floor area for the layout"],
         "rentReason": "A one-room flat here goes for {low} to {high}. ",
+        "rentReasonOneK": "A 1K flat here goes for {low} to {high}. ",
+        "rentNoteInverted": " Here the one-room figure comes out above the 1K figure. Because these are averages of listed properties, the order of the figures can differ from the order of the floor areas.",
         "rentLevel5": "Set against how long it takes to reach the central business districts, "
                       "that is among the lowest in the 23 wards. ",
         "rentLevel4": "Set against how long it takes to reach the central business districts, "
@@ -782,6 +788,7 @@ PHRASES = {
         "reachItemWalk": "步行到{hub}{minutes}{minuteWord}",
         "tagline": "{reach}。有{lineCount}{lineWord}经过。{rent}",
         "taglineRent": "一室户的租金大致为{low}至{high}{unit}。",
+        "taglineRentOneK": "1K的租金大致为{low}至{high}{unit}。",
 
         "summaryWhere": "车站位于{ward}，有{lines}经过。",
         "summaryWhereMany": "车站位于{ward}，{operators}共有{count}{lineWord}经过。",
@@ -879,6 +886,8 @@ PHRASES = {
         "rentDrivers": ["房龄和建筑结构", "离车站的步行距离", "是否临主干道或铁路",
                         "在坡上还是坡下", "相对于户型的实际面积"],
         "rentReason": "一室户的行情为{low}至{high}{unit}。",
+        "rentReasonOneK": "1K的行情为{low}至{high}{unit}。",
+        "rentNoteInverted": "本站一室户的行情高于1K。由于这些是各网站所刊登房源的平均值，行情的高低顺序有时会与面积大小相反。",
         "rentLevel5": "按到主要商务区所需的时间来看，在23区的车站中相当便宜。",
         "rentLevel4": "按到主要商务区所需的时间来看，属于偏低的水平。",
         "rentLevel3": "按到主要商务区所需的时间来看，与23区车站的平均水平相当。",
@@ -1069,6 +1078,7 @@ PHRASES = {
         "reachItemWalk": "{hub}까지 걸어서 {minutes}{minuteWord}",
         "tagline": "{reach}. {lineCount}{lineWord}이 지난다. {rent}",
         "taglineRent": "원룸 임대료는 대략 {low}~{high}{unit}이다.",
+        "taglineRentOneK": "1K 임대료는 대략 {low}~{high}{unit}이다.",
 
         "summaryWhere": "역은 {ward}에 있으며, {lines} 노선이 지난다. ",
         "summaryWhereMany": "역은 {ward}에 있으며, {operators}의 {count}{lineWord}이 지난다. ",
@@ -1186,6 +1196,8 @@ PHRASES = {
         "rentDrivers": ["건축 연수와 구조", "역에서의 도보 거리", "간선도로나 선로에 면해 있는지",
                         "언덕 위인지 아래인지", "구조 대비 전용 면적"],
         "rentReason": "원룸 시세는 {low}~{high}{unit}이다. ",
+        "rentReasonOneK": "1K 시세는 {low}~{high}{unit}이다. ",
+        "rentNoteInverted": " 이 역에서는 원룸 시세가 1K보다 높게 나온다. 각 사이트에 게재된 물건의 평균이므로, 시세의 순서가 면적의 순서와 반대가 될 수 있다.",
         "rentLevel5": "도심 업무지구까지 걸리는 시간에 비하면, 23구의 역 중에서도 상당히 싼 편이다. ",
         "rentLevel4": "도심 업무지구까지 걸리는 시간에 비하면, 싼 편이다. ",
         "rentLevel3": "도심 업무지구까지 걸리는 시간에 비하면, 23구 역의 평균 정도다. ",

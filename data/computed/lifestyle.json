@@ -294,7 +294,7 @@
      "base": 6,
      "life": 34,
      "play": 55,
-     "score": 34
+     "score": 35
     },
     "family-outdoor": {
      "base": 9,
@@ -377,55 +377,55 @@
      "to": "kokuritsu-kyogijo"
     }
    ],
-   "rentLow": 1,
+   "rentLow": 8,
    "segments": {
     "dinks-indoor": {
      "base": 63,
      "life": 57,
      "play": 68,
-     "score": 8
+     "score": 12
     },
     "dinks-outdoor": {
      "base": 78,
      "life": 57,
      "play": 74,
-     "score": 11
+     "score": 17
     },
     "family-indoor": {
      "base": 67,
      "life": 60,
      "play": 68,
-     "score": 20
+     "score": 25
     },
     "family-outdoor": {
      "base": 85,
      "life": 60,
      "play": 74,
-     "score": 21
+     "score": 27
     },
     "senior-indoor": {
      "base": 59,
      "life": 62,
      "play": 68,
-     "score": 14
+     "score": 17
     },
     "senior-outdoor": {
      "base": 79,
      "life": 62,
      "play": 74,
-     "score": 12
+     "score": 18
     },
     "single-indoor": {
      "base": 69,
      "life": 57,
      "play": 68,
-     "score": 9
+     "score": 13
     },
     "single-outdoor": {
      "base": 82,
      "life": 57,
      "play": 74,
-     "score": 12
+     "score": 19
     }
    },
    "transitConvenience": 32
@@ -575,19 +575,19 @@
      "to": "yotsuya-sanchome"
     }
    ],
-   "rentLow": 5,
+   "rentLow": 4,
    "segments": {
     "dinks-indoor": {
      "base": 75,
      "life": 65,
      "play": 63,
-     "score": 16
+     "score": 15
     },
     "dinks-outdoor": {
      "base": 82,
      "life": 65,
      "play": 66,
-     "score": 20
+     "score": 18
     },
     "family-indoor": {
      "base": 15,
@@ -605,25 +605,25 @@
      "base": 49,
      "life": 61,
      "play": 63,
-     "score": 13
+     "score": 12
     },
     "senior-outdoor": {
      "base": 63,
      "life": 61,
      "play": 66,
-     "score": 11
+     "score": 10
     },
     "single-indoor": {
      "base": 67,
      "life": 59,
      "play": 63,
-     "score": 12
+     "score": 11
     },
     "single-outdoor": {
      "base": 77,
      "life": 59,
      "play": 66,
-     "score": 15
+     "score": 14
     }
    },
    "transitConvenience": 32
@@ -691,7 +691,7 @@
      "base": 28,
      "life": 46,
      "play": 62,
-     "score": 17
+     "score": 18
     },
     "family-outdoor": {
      "base": 63,
@@ -715,7 +715,7 @@
      "base": 65,
      "life": 59,
      "play": 62,
-     "score": 20
+     "score": 19
     },
     "single-outdoor": {
      "base": 93,
@@ -805,7 +805,7 @@
      "base": 79,
      "life": 73,
      "play": 49,
-     "score": 28
+     "score": 27
     },
     "single-indoor": {
      "base": 99,
@@ -885,7 +885,7 @@
      "base": 55,
      "life": 53,
      "play": 59,
-     "score": 61
+     "score": 62
     },
     "family-indoor": {
      "base": 61,
@@ -981,7 +981,7 @@
      "base": 17,
      "life": 30,
      "play": 78,
-     "score": 83
+     "score": 82
     },
     "dinks-outdoor": {
      "base": 15,
@@ -1192,7 +1192,7 @@
      "base": 15,
      "life": 41,
      "play": 57,
-     "score": 15
+     "score": 16
     },
     "family-outdoor": {
      "base": 24,
@@ -1377,31 +1377,31 @@
      "to": "toranomon"
     }
    ],
-   "rentLow": 4,
+   "rentLow": 3,
    "segments": {
     "dinks-indoor": {
      "base": 40,
      "life": 48,
      "play": 66,
-     "score": 13
+     "score": 12
     },
     "dinks-outdoor": {
      "base": 59,
      "life": 48,
      "play": 70,
-     "score": 16
+     "score": 15
     },
     "family-indoor": {
      "base": 59,
      "life": 58,
      "play": 66,
-     "score": 24
+     "score": 23
     },
     "family-outdoor": {
      "base": 74,
      "life": 58,
      "play": 70,
-     "score": 25
+     "score": 24
     },
     "senior-indoor": {
      "base": 42,
@@ -1413,19 +1413,19 @@
      "base": 56,
      "life": 57,
      "play": 70,
-     "score": 8
+     "score": 7
     },
     "single-indoor": {
      "base": 59,
      "life": 54,
      "play": 66,
-     "score": 19
+     "score": 18
     },
     "single-outdoor": {
      "base": 73,
      "life": 54,
      "play": 70,
-     "score": 24
+     "score": 22
     }
    },
    "transitConvenience": 73
@@ -1603,7 +1603,7 @@
      "base": 55,
      "life": 63,
      "play": 42,
-     "score": 49
+     "score": 50
     },
     "senior-indoor": {
      "base": 96,
@@ -1896,7 +1896,7 @@
      "base": 45,
      "life": 47,
      "play": 63,
-     "score": 63
+     "score": 64
     },
     "family-indoor": {
      "base": 86,
@@ -2235,7 +2235,7 @@
      "base": 32,
      "life": 34,
      "play": 72,
-     "score": 3
+     "score": 2
     }
    },
    "transitConvenience": 32
@@ -2289,7 +2289,7 @@
      "to": "ariake"
     }
    ],
-   "rentLow": 15,
+   "rentLow": 14,
    "segments": {
     "dinks-indoor": {
      "base": 3,
@@ -2331,7 +2331,7 @@
      "base": 3,
      "life": 24,
      "play": 62,
-     "score": 1
+     "score": 0
     },
     "single-outdoor": {
      "base": 23,
@@ -2507,7 +2507,7 @@
      "base": 39,
      "life": 51,
      "play": 60,
-     "score": 33
+     "score": 34
     },
     "family-outdoor": {
      "base": 65,
@@ -2701,7 +2701,7 @@
      "base": 96,
      "life": 79,
      "play": 68,
-     "score": 75
+     "score": 76
     },
     "family-indoor": {
      "base": 45,
@@ -2725,7 +2725,7 @@
      "base": 93,
      "life": 71,
      "play": 68,
-     "score": 42
+     "score": 43
     },
     "single-indoor": {
      "base": 95,
@@ -2887,19 +2887,19 @@
      "to": "akebonobashi"
     }
    ],
-   "rentLow": 15,
+   "rentLow": 14,
    "segments": {
     "dinks-indoor": {
      "base": 95,
      "life": 77,
      "play": 64,
-     "score": 42
+     "score": 40
     },
     "dinks-outdoor": {
      "base": 83,
      "life": 77,
      "play": 49,
-     "score": 37
+     "score": 35
     },
     "family-indoor": {
      "base": 34,
@@ -2917,25 +2917,25 @@
      "base": 71,
      "life": 68,
      "play": 64,
-     "score": 25
+     "score": 24
     },
     "senior-outdoor": {
      "base": 64,
      "life": 68,
      "play": 49,
-     "score": 18
+     "score": 17
     },
     "single-indoor": {
      "base": 93,
      "life": 71,
      "play": 64,
-     "score": 37
+     "score": 34
     },
     "single-outdoor": {
      "base": 78,
      "life": 71,
      "play": 49,
-     "score": 27
+     "score": 26
     }
    },
    "transitConvenience": 57
@@ -3087,55 +3087,55 @@
      "to": "azabu-juban"
     }
    ],
-   "rentLow": 1,
+   "rentLow": 7,
    "segments": {
     "dinks-indoor": {
      "base": 76,
      "life": 66,
      "play": 62,
-     "score": 17
+     "score": 22
     },
     "dinks-outdoor": {
      "base": 91,
      "life": 66,
      "play": 76,
-     "score": 33
+     "score": 41
     },
     "family-indoor": {
      "base": 40,
      "life": 51,
      "play": 62,
-     "score": 13
+     "score": 16
     },
     "family-outdoor": {
      "base": 63,
      "life": 51,
      "play": 76,
-     "score": 17
+     "score": 20
     },
     "senior-indoor": {
      "base": 35,
      "life": 56,
      "play": 62,
-     "score": 5
+     "score": 9
     },
     "senior-outdoor": {
      "base": 61,
      "life": 56,
      "play": 76,
-     "score": 8
+     "score": 11
     },
     "single-indoor": {
      "base": 81,
      "life": 66,
      "play": 62,
-     "score": 17
+     "score": 22
     },
     "single-outdoor": {
      "base": 93,
      "life": 66,
      "play": 76,
-     "score": 32
+     "score": 43
     }
    },
    "transitConvenience": 57
@@ -3210,7 +3210,7 @@
      "base": 49,
      "life": 51,
      "play": 66,
-     "score": 28
+     "score": 29
     },
     "senior-indoor": {
      "base": 82,
@@ -3532,7 +3532,7 @@
      "base": 17,
      "life": 52,
      "play": 33,
-     "score": 42
+     "score": 41
     }
    },
    "transitConvenience": 32
@@ -3780,7 +3780,7 @@
      "to": "ikejiri-ohashi"
     }
    ],
-   "rentLow": 7,
+   "rentLow": 6,
    "segments": {
     "dinks-indoor": {
      "base": 88,
@@ -3792,19 +3792,19 @@
      "base": 74,
      "life": 65,
      "play": 57,
-     "score": 12
+     "score": 11
     },
     "family-indoor": {
      "base": 66,
      "life": 58,
      "play": 73,
-     "score": 23
+     "score": 22
     },
     "family-outdoor": {
      "base": 58,
      "life": 58,
      "play": 57,
-     "score": 16
+     "score": 15
     },
     "senior-indoor": {
      "base": 74,
@@ -3816,19 +3816,19 @@
      "base": 64,
      "life": 65,
      "play": 57,
-     "score": 12
+     "score": 11
     },
     "single-indoor": {
      "base": 94,
      "life": 66,
      "play": 73,
-     "score": 21
+     "score": 20
     },
     "single-outdoor": {
      "base": 79,
      "life": 66,
      "play": 57,
-     "score": 13
+     "score": 12
     }
    },
    "transitConvenience": 32
@@ -3883,7 +3883,7 @@
      "to": "kokuritsu-kyogijo"
     }
    ],
-   "rentLow": 6,
+   "rentLow": 5,
    "segments": {
     "dinks-indoor": {
      "base": 43,
@@ -3895,7 +3895,7 @@
      "base": 87,
      "life": 55,
      "play": 86,
-     "score": 35
+     "score": 33
     },
     "family-indoor": {
      "base": 11,
@@ -3907,7 +3907,7 @@
      "base": 32,
      "life": 36,
      "play": 86,
-     "score": 11
+     "score": 10
     },
     "senior-indoor": {
      "base": 7,
@@ -3919,19 +3919,19 @@
      "base": 47,
      "life": 48,
      "play": 86,
-     "score": 7
+     "score": 6
     },
     "single-indoor": {
      "base": 50,
      "life": 56,
      "play": 57,
-     "score": 12
+     "score": 11
     },
     "single-outdoor": {
      "base": 91,
      "life": 56,
      "play": 86,
-     "score": 39
+     "score": 36
     }
    },
    "transitConvenience": 52
@@ -4194,13 +4194,13 @@
      "base": 30,
      "life": 32,
      "play": 83,
-     "score": 49
+     "score": 50
     },
     "dinks-outdoor": {
      "base": 9,
      "life": 32,
      "play": 54,
-     "score": 28
+     "score": 27
     },
     "family-indoor": {
      "base": 86,
@@ -4293,7 +4293,7 @@
      "base": 88,
      "life": 69,
      "play": 66,
-     "score": 77
+     "score": 78
     },
     "dinks-outdoor": {
      "base": 43,
@@ -4317,7 +4317,7 @@
      "base": 94,
      "life": 76,
      "play": 66,
-     "score": 82
+     "score": 81
     },
     "senior-outdoor": {
      "base": 59,
@@ -4488,25 +4488,25 @@
      "to": "toranomon"
     }
    ],
-   "rentLow": 7,
+   "rentLow": 6,
    "segments": {
     "dinks-indoor": {
      "base": 70,
      "life": 61,
      "play": 66,
-     "score": 30
+     "score": 28
     },
     "dinks-outdoor": {
      "base": 64,
      "life": 61,
      "play": 53,
-     "score": 24
+     "score": 23
     },
     "family-indoor": {
      "base": 29,
      "life": 46,
      "play": 66,
-     "score": 15
+     "score": 14
     },
     "family-outdoor": {
      "base": 21,
@@ -4518,7 +4518,7 @@
      "base": 49,
      "life": 60,
      "play": 66,
-     "score": 14
+     "score": 13
     },
     "senior-outdoor": {
      "base": 35,
@@ -4530,13 +4530,13 @@
      "base": 73,
      "life": 60,
      "play": 66,
-     "score": 29
+     "score": 28
     },
     "single-outdoor": {
      "base": 64,
      "life": 60,
      "play": 53,
-     "score": 22
+     "score": 21
     }
    },
    "transitConvenience": 85
@@ -4695,13 +4695,13 @@
      "base": 86,
      "life": 72,
      "play": 60,
-     "score": 36
+     "score": 35
     },
     "dinks-outdoor": {
      "base": 89,
      "life": 72,
      "play": 63,
-     "score": 45
+     "score": 46
     },
     "family-indoor": {
      "base": 56,
@@ -4839,7 +4839,7 @@
      "base": 39,
      "life": 38,
      "play": 69,
-     "score": 62
+     "score": 63
     }
    },
    "transitConvenience": 32
@@ -4932,7 +4932,7 @@
      "base": 48,
      "life": 48,
      "play": 69,
-     "score": 88
+     "score": 87
     },
     "single-outdoor": {
      "base": 33,
@@ -4998,7 +4998,7 @@
      "base": 55,
      "life": 46,
      "play": 79,
-     "score": 18
+     "score": 19
     },
     "dinks-outdoor": {
      "base": 51,
@@ -5040,7 +5040,7 @@
      "base": 69,
      "life": 51,
      "play": 68,
-     "score": 21
+     "score": 22
     }
    },
    "transitConvenience": 32
@@ -5108,19 +5108,19 @@
      "base": 56,
      "life": 56,
      "play": 65,
-     "score": 29
+     "score": 30
     },
     "family-outdoor": {
      "base": 25,
      "life": 56,
      "play": 32,
-     "score": 16
+     "score": 15
     },
     "senior-indoor": {
      "base": 55,
      "life": 61,
      "play": 65,
-     "score": 24
+     "score": 25
     },
     "senior-outdoor": {
      "base": 16,
@@ -5132,7 +5132,7 @@
      "base": 78,
      "life": 62,
      "play": 65,
-     "score": 28
+     "score": 29
     },
     "single-outdoor": {
      "base": 34,
@@ -5613,7 +5613,7 @@
      "base": 57,
      "life": 55,
      "play": 62,
-     "score": 13
+     "score": 14
     },
     "senior-indoor": {
      "base": 51,
@@ -5738,7 +5738,7 @@
      "base": 39,
      "life": 49,
      "play": 53,
-     "score": 20
+     "score": 21
     }
    },
    "transitConvenience": 32
@@ -5834,7 +5834,7 @@
      "base": 92,
      "life": 66,
      "play": 71,
-     "score": 48
+     "score": 49
     },
     "single-outdoor": {
      "base": 82,
@@ -5895,19 +5895,19 @@
      "to": "kojimachi"
     }
    ],
-   "rentLow": 8,
+   "rentLow": 10,
    "segments": {
     "dinks-indoor": {
      "base": 30,
      "life": 48,
      "play": 59,
-     "score": 14
+     "score": 17
     },
     "dinks-outdoor": {
      "base": 81,
      "life": 48,
      "play": 91,
-     "score": 44
+     "score": 50
     },
     "family-indoor": {
      "base": 2,
@@ -5919,7 +5919,7 @@
      "base": 10,
      "life": 25,
      "play": 91,
-     "score": 8
+     "score": 9
     },
     "senior-indoor": {
      "base": 11,
@@ -5931,19 +5931,19 @@
      "base": 60,
      "life": 50,
      "play": 91,
-     "score": 11
+     "score": 13
     },
     "single-indoor": {
      "base": 20,
      "life": 42,
      "play": 59,
-     "score": 10
+     "score": 11
     },
     "single-outdoor": {
      "base": 77,
      "life": 42,
      "play": 91,
-     "score": 38
+     "score": 42
     }
    },
    "transitConvenience": 80
@@ -6003,13 +6003,13 @@
      "base": 35,
      "life": 40,
      "play": 75,
-     "score": 25
+     "score": 26
     },
     "dinks-outdoor": {
      "base": 36,
      "life": 40,
      "play": 67,
-     "score": 25
+     "score": 24
     },
     "family-indoor": {
      "base": 64,
@@ -6115,7 +6115,7 @@
      "base": 28,
      "life": 49,
      "play": 56,
-     "score": 21
+     "score": 20
     },
     "family-outdoor": {
      "base": 10,
@@ -6127,7 +6127,7 @@
      "base": 14,
      "life": 52,
      "play": 56,
-     "score": 10
+     "score": 11
     },
     "senior-outdoor": {
      "base": 3,
@@ -6545,7 +6545,7 @@
      "base": 50,
      "life": 63,
      "play": 40,
-     "score": 30
+     "score": 29
     }
    },
    "transitConvenience": 32
@@ -6607,7 +6607,7 @@
      "base": 76,
      "life": 65,
      "play": 60,
-     "score": 29
+     "score": 28
     },
     "family-indoor": {
      "base": 43,
@@ -6801,37 +6801,37 @@
      "to": "ryutsu-center"
     }
    ],
-   "rentLow": 6,
+   "rentLow": 5,
    "segments": {
     "dinks-indoor": {
      "base": 61,
      "life": 54,
      "play": 70,
-     "score": 18
+     "score": 17
     },
     "dinks-outdoor": {
      "base": 85,
      "life": 54,
      "play": 85,
-     "score": 35
+     "score": 33
     },
     "family-indoor": {
      "base": 22,
      "life": 40,
      "play": 70,
-     "score": 12
+     "score": 11
     },
     "family-outdoor": {
      "base": 40,
      "life": 40,
      "play": 85,
-     "score": 14
+     "score": 13
     },
     "senior-indoor": {
      "base": 36,
      "life": 53,
      "play": 70,
-     "score": 9
+     "score": 8
     },
     "senior-outdoor": {
      "base": 66,
@@ -6843,13 +6843,13 @@
      "base": 67,
      "life": 54,
      "play": 70,
-     "score": 19
+     "score": 18
     },
     "single-outdoor": {
      "base": 88,
      "life": 54,
      "play": 85,
-     "score": 36
+     "score": 33
     }
    },
    "transitConvenience": 73
@@ -7086,19 +7086,19 @@
      "to": "yotsuya-sanchome"
     }
    ],
-   "rentLow": 3,
+   "rentLow": 2,
    "segments": {
     "dinks-indoor": {
      "base": 96,
      "life": 76,
      "play": 68,
-     "score": 27
+     "score": 26
     },
     "dinks-outdoor": {
      "base": 100,
      "life": 76,
      "play": 91,
-     "score": 64
+     "score": 61
     },
     "family-indoor": {
      "base": 63,
@@ -7110,31 +7110,31 @@
      "base": 91,
      "life": 58,
      "play": 91,
-     "score": 31
+     "score": 30
     },
     "senior-indoor": {
      "base": 79,
      "life": 68,
      "play": 68,
-     "score": 21
+     "score": 20
     },
     "senior-outdoor": {
      "base": 99,
      "life": 68,
      "play": 91,
-     "score": 34
+     "score": 32
     },
     "single-indoor": {
      "base": 97,
      "life": 74,
      "play": 68,
-     "score": 26
+     "score": 24
     },
     "single-outdoor": {
      "base": 100,
      "life": 74,
      "play": 91,
-     "score": 65
+     "score": 63
     }
    },
    "transitConvenience": 32
@@ -7396,7 +7396,7 @@
      "base": 60,
      "life": 62,
      "play": 50,
-     "score": 33
+     "score": 34
     },
     "family-indoor": {
      "base": 47,
@@ -7408,7 +7408,7 @@
      "base": 54,
      "life": 60,
      "play": 50,
-     "score": 39
+     "score": 40
     },
     "senior-indoor": {
      "base": 38,
@@ -7588,19 +7588,19 @@
      "to": "tsukiji"
     }
    ],
-   "rentLow": 19,
+   "rentLow": 18,
    "segments": {
     "dinks-indoor": {
      "base": 80,
      "life": 66,
      "play": 64,
-     "score": 39
+     "score": 38
     },
     "dinks-outdoor": {
      "base": 82,
      "life": 66,
      "play": 64,
-     "score": 48
+     "score": 45
     },
     "family-indoor": {
      "base": 26,
@@ -7612,7 +7612,7 @@
      "base": 30,
      "life": 44,
      "play": 64,
-     "score": 18
+     "score": 17
     },
     "senior-indoor": {
      "base": 44,
@@ -7630,13 +7630,13 @@
      "base": 84,
      "life": 66,
      "play": 64,
-     "score": 41
+     "score": 39
     },
     "single-outdoor": {
      "base": 85,
      "life": 66,
      "play": 64,
-     "score": 51
+     "score": 50
     }
    },
    "transitConvenience": 57
@@ -7724,13 +7724,13 @@
      "base": 54,
      "life": 51,
      "play": 84,
-     "score": 27
+     "score": 26
     },
     "single-indoor": {
      "base": 20,
      "life": 50,
      "play": 47,
-     "score": 11
+     "score": 10
     },
     "single-outdoor": {
      "base": 82,
@@ -8000,13 +8000,13 @@
      "base": 18,
      "life": 32,
      "play": 75,
-     "score": 40
+     "score": 39
     },
     "dinks-outdoor": {
      "base": 13,
      "life": 32,
      "play": 61,
-     "score": 33
+     "score": 32
     },
     "family-indoor": {
      "base": 74,
@@ -8095,7 +8095,7 @@
      "to": "jimbocho"
     }
    ],
-   "rentLow": 11,
+   "rentLow": 9,
    "segments": {
     "dinks-indoor": {
      "base": 20,
@@ -8107,7 +8107,7 @@
      "base": 77,
      "life": 46,
      "play": 89,
-     "score": 31
+     "score": 29
     },
     "family-indoor": {
      "base": 1,
@@ -8119,19 +8119,19 @@
      "base": 6,
      "life": 23,
      "play": 89,
-     "score": 6
+     "score": 5
     },
     "senior-indoor": {
      "base": 4,
      "life": 45,
      "play": 56,
-     "score": 1
+     "score": 0
     },
     "senior-outdoor": {
      "base": 42,
      "life": 45,
      "play": 89,
-     "score": 9
+     "score": 7
     },
     "single-indoor": {
      "base": 10,
@@ -8143,7 +8143,7 @@
      "base": 69,
      "life": 38,
      "play": 89,
-     "score": 21
+     "score": 19
     }
    },
    "transitConvenience": 57
@@ -8235,13 +8235,13 @@
      "base": 62,
      "life": 53,
      "play": 69,
-     "score": 42
+     "score": 43
     },
     "single-outdoor": {
      "base": 30,
      "life": 53,
      "play": 41,
-     "score": 20
+     "score": 21
     }
    },
    "transitConvenience": 57
@@ -8409,7 +8409,7 @@
      "base": 56,
      "life": 49,
      "play": 66,
-     "score": 20
+     "score": 21
     },
     "family-indoor": {
      "base": 58,
@@ -8500,7 +8500,7 @@
      "base": 51,
      "life": 55,
      "play": 63,
-     "score": 49
+     "score": 50
     },
     "dinks-outdoor": {
      "base": 54,
@@ -8524,7 +8524,7 @@
      "base": 28,
      "life": 54,
      "play": 63,
-     "score": 35
+     "score": 36
     },
     "senior-outdoor": {
      "base": 22,
@@ -8608,7 +8608,7 @@
      "base": 47,
      "life": 49,
      "play": 61,
-     "score": 55
+     "score": 56
     },
     "family-indoor": {
      "base": 64,
@@ -8638,7 +8638,7 @@
      "base": 60,
      "life": 48,
      "play": 76,
-     "score": 67
+     "score": 68
     },
     "single-outdoor": {
      "base": 49,
@@ -8706,13 +8706,13 @@
      "base": 36,
      "life": 44,
      "play": 69,
-     "score": 48
+     "score": 49
     },
     "dinks-outdoor": {
      "base": 49,
      "life": 44,
      "play": 70,
-     "score": 62
+     "score": 63
     },
     "family-indoor": {
      "base": 42,
@@ -8730,7 +8730,7 @@
      "base": 42,
      "life": 56,
      "play": 69,
-     "score": 55
+     "score": 54
     },
     "senior-outdoor": {
      "base": 52,
@@ -8847,7 +8847,7 @@
      "base": 1,
      "life": 38,
      "play": 27,
-     "score": 26
+     "score": 25
     }
    },
    "transitConvenience": 32
@@ -8931,7 +8931,7 @@
      "base": 54,
      "life": 68,
      "play": 43,
-     "score": 41
+     "score": 42
     },
     "single-indoor": {
      "base": 69,
@@ -9020,7 +9020,7 @@
      "base": 78,
      "life": 58,
      "play": 72,
-     "score": 83
+     "score": 82
     },
     "senior-indoor": {
      "base": 46,
@@ -9142,7 +9142,7 @@
      "base": 13,
      "life": 32,
      "play": 69,
-     "score": 40
+     "score": 41
     },
     "single-outdoor": {
      "base": 37,
@@ -9213,7 +9213,7 @@
      "base": 80,
      "life": 56,
      "play": 78,
-     "score": 41
+     "score": 40
     },
     "family-indoor": {
      "base": 18,
@@ -9249,7 +9249,7 @@
      "base": 79,
      "life": 53,
      "play": 78,
-     "score": 40
+     "score": 39
     }
    },
    "transitConvenience": 57
@@ -9434,7 +9434,7 @@
      "base": 45,
      "life": 54,
      "play": 75,
-     "score": 84
+     "score": 85
     },
     "senior-outdoor": {
      "base": 54,
@@ -9520,7 +9520,7 @@
      "base": 25,
      "life": 46,
      "play": 51,
-     "score": 31
+     "score": 30
     },
     "family-indoor": {
      "base": 72,
@@ -9611,7 +9611,7 @@
      "to": "higashi-ginza"
     }
    ],
-   "rentLow": 12,
+   "rentLow": 10,
    "segments": {
     "dinks-indoor": {
      "base": 11,
@@ -9623,25 +9623,25 @@
      "base": 29,
      "life": 38,
      "play": 65,
-     "score": 4
+     "score": 3
     },
     "family-indoor": {
      "base": 12,
      "life": 37,
      "play": 59,
-     "score": 6
+     "score": 5
     },
     "family-outdoor": {
      "base": 12,
      "life": 37,
      "play": 65,
-     "score": 6
+     "score": 5
     },
     "senior-indoor": {
      "base": 18,
      "life": 52,
      "play": 59,
-     "score": 7
+     "score": 5
     },
     "senior-outdoor": {
      "base": 28,
@@ -9659,7 +9659,7 @@
      "base": 52,
      "life": 47,
      "play": 65,
-     "score": 6
+     "score": 5
     }
    },
    "transitConvenience": 32
@@ -9813,25 +9813,25 @@
      "to": "meiji-jingumae"
     }
    ],
-   "rentLow": 5,
+   "rentLow": 4,
    "segments": {
     "dinks-indoor": {
      "base": 71,
      "life": 61,
      "play": 67,
-     "score": 16
+     "score": 14
     },
     "dinks-outdoor": {
      "base": 73,
      "life": 61,
      "play": 63,
-     "score": 14
+     "score": 12
     },
     "family-indoor": {
      "base": 49,
      "life": 52,
      "play": 67,
-     "score": 17
+     "score": 16
     },
     "family-outdoor": {
      "base": 46,
@@ -9843,25 +9843,25 @@
      "base": 45,
      "life": 58,
      "play": 67,
-     "score": 12
+     "score": 11
     },
     "senior-outdoor": {
      "base": 44,
      "life": 58,
      "play": 63,
-     "score": 6
+     "score": 5
     },
     "single-indoor": {
      "base": 76,
      "life": 60,
      "play": 67,
-     "score": 15
+     "score": 14
     },
     "single-outdoor": {
      "base": 75,
      "life": 60,
      "play": 63,
-     "score": 13
+     "score": 12
     }
    },
    "transitConvenience": 32
@@ -9926,7 +9926,7 @@
      "base": 75,
      "life": 64,
      "play": 61,
-     "score": 63
+     "score": 64
     },
     "family-indoor": {
      "base": 97,
@@ -10016,13 +10016,13 @@
      "base": 21,
      "life": 43,
      "play": 61,
-     "score": 31
+     "score": 32
     },
     "dinks-outdoor": {
      "base": 6,
      "life": 43,
      "play": 33,
-     "score": 14
+     "score": 15
     },
     "family-indoor": {
      "base": 45,
@@ -10052,7 +10052,7 @@
      "base": 9,
      "life": 33,
      "play": 61,
-     "score": 23
+     "score": 22
     },
     "single-outdoor": {
      "base": 1,
@@ -10111,7 +10111,7 @@
      "to": "okachimachi"
     }
    ],
-   "rentLow": 21,
+   "rentLow": 20,
    "segments": {
     "dinks-indoor": {
      "base": 85,
@@ -10123,19 +10123,19 @@
      "base": 91,
      "life": 70,
      "play": 71,
-     "score": 64
+     "score": 61
     },
     "family-indoor": {
      "base": 42,
      "life": 52,
      "play": 63,
-     "score": 25
+     "score": 24
     },
     "family-outdoor": {
      "base": 58,
      "life": 52,
      "play": 71,
-     "score": 29
+     "score": 27
     },
     "senior-indoor": {
      "base": 61,
@@ -10147,19 +10147,19 @@
      "base": 84,
      "life": 65,
      "play": 71,
-     "score": 32
+     "score": 30
     },
     "single-indoor": {
      "base": 74,
      "life": 61,
      "play": 63,
-     "score": 32
+     "score": 31
     },
     "single-outdoor": {
      "base": 86,
      "life": 61,
      "play": 71,
-     "score": 50
+     "score": 47
     }
    },
    "transitConvenience": 57
@@ -10517,31 +10517,31 @@
      "to": "sakuradamon"
     }
    ],
-   "rentLow": 10,
+   "rentLow": 9,
    "segments": {
     "dinks-indoor": {
      "base": 68,
      "life": 58,
      "play": 70,
-     "score": 27
+     "score": 26
     },
     "dinks-outdoor": {
      "base": 93,
      "life": 58,
      "play": 92,
-     "score": 61
+     "score": 59
     },
     "family-indoor": {
      "base": 68,
      "life": 60,
      "play": 70,
-     "score": 31
+     "score": 30
     },
     "family-outdoor": {
      "base": 94,
      "life": 60,
      "play": 92,
-     "score": 45
+     "score": 44
     },
     "senior-indoor": {
      "base": 49,
@@ -10553,13 +10553,13 @@
      "base": 88,
      "life": 58,
      "play": 92,
-     "score": 24
+     "score": 22
     },
     "single-indoor": {
      "base": 81,
      "life": 61,
      "play": 70,
-     "score": 33
+     "score": 32
     },
     "single-outdoor": {
      "base": 96,
@@ -10628,7 +10628,7 @@
      "base": 28,
      "life": 56,
      "play": 38,
-     "score": 85
+     "score": 86
     },
     "family-indoor": {
      "base": 67,
@@ -10718,13 +10718,13 @@
      "to": "shinanomachi"
     }
    ],
-   "rentLow": 16,
+   "rentLow": 15,
    "segments": {
     "dinks-indoor": {
      "base": 95,
      "life": 78,
      "play": 64,
-     "score": 64
+     "score": 61
     },
     "dinks-outdoor": {
      "base": 100,
@@ -10736,19 +10736,19 @@
      "base": 62,
      "life": 59,
      "play": 64,
-     "score": 33
+     "score": 32
     },
     "family-outdoor": {
      "base": 93,
      "life": 59,
      "play": 92,
-     "score": 50
+     "score": 49
     },
     "senior-indoor": {
      "base": 74,
      "life": 68,
      "play": 64,
-     "score": 26
+     "score": 25
     },
     "senior-outdoor": {
      "base": 99,
@@ -10760,13 +10760,13 @@
      "base": 94,
      "life": 74,
      "play": 64,
-     "score": 58
+     "score": 56
     },
     "single-outdoor": {
      "base": 100,
      "life": 74,
      "play": 92,
-     "score": 95
+     "score": 94
     }
    },
    "transitConvenience": 98
@@ -10841,7 +10841,7 @@
      "base": 4,
      "life": 41,
      "play": 40,
-     "score": 27
+     "score": 26
     },
     "senior-indoor": {
      "base": 86,
@@ -10928,7 +10928,7 @@
      "base": 29,
      "life": 58,
      "play": 36,
-     "score": 46
+     "score": 47
     },
     "family-indoor": {
      "base": 82,
@@ -11129,7 +11129,7 @@
      "base": 56,
      "life": 48,
      "play": 76,
-     "score": 23
+     "score": 24
     },
     "dinks-outdoor": {
      "base": 50,
@@ -11233,7 +11233,7 @@
      "base": 99,
      "life": 76,
      "play": 88,
-     "score": 84
+     "score": 85
     },
     "family-indoor": {
      "base": 54,
@@ -11527,7 +11527,7 @@
      "base": 59,
      "life": 52,
      "play": 71,
-     "score": 71
+     "score": 72
     },
     "dinks-outdoor": {
      "base": 43,
@@ -11670,7 +11670,7 @@
      "base": 44,
      "life": 48,
      "play": 58,
-     "score": 42
+     "score": 41
     }
    },
    "transitConvenience": 32
@@ -11734,7 +11734,7 @@
      "base": 52,
      "life": 58,
      "play": 50,
-     "score": 61
+     "score": 62
     },
     "family-indoor": {
      "base": 27,
@@ -11864,7 +11864,7 @@
      "base": 13,
      "life": 39,
      "play": 58,
-     "score": 48
+     "score": 49
     },
     "single-outdoor": {
      "base": 14,
@@ -11956,7 +11956,7 @@
      "base": 77,
      "life": 73,
      "play": 47,
-     "score": 28
+     "score": 27
     },
     "single-indoor": {
      "base": 96,
@@ -12018,55 +12018,55 @@
      "to": "akebonobashi"
     }
    ],
-   "rentLow": 13,
+   "rentLow": 12,
    "segments": {
     "dinks-indoor": {
      "base": 89,
      "life": 73,
      "play": 63,
-     "score": 44
+     "score": 43
     },
     "dinks-outdoor": {
      "base": 98,
      "life": 73,
      "play": 91,
-     "score": 86
+     "score": 85
     },
     "family-indoor": {
      "base": 20,
      "life": 42,
      "play": 63,
-     "score": 14
+     "score": 13
     },
     "family-outdoor": {
      "base": 54,
      "life": 42,
      "play": 91,
-     "score": 23
+     "score": 22
     },
     "senior-indoor": {
      "base": 50,
      "life": 61,
      "play": 63,
-     "score": 18
+     "score": 17
     },
     "senior-outdoor": {
      "base": 94,
      "life": 61,
      "play": 91,
-     "score": 31
+     "score": 29
     },
     "single-indoor": {
      "base": 79,
      "life": 64,
      "play": 63,
-     "score": 33
+     "score": 32
     },
     "single-outdoor": {
      "base": 97,
      "life": 64,
      "play": 91,
-     "score": 77
+     "score": 76
     }
    },
    "transitConvenience": 73
@@ -12131,7 +12131,7 @@
      "base": 61,
      "life": 67,
      "play": 41,
-     "score": 29
+     "score": 28
     },
     "family-indoor": {
      "base": 90,
@@ -12143,7 +12143,7 @@
      "base": 67,
      "life": 68,
      "play": 41,
-     "score": 41
+     "score": 42
     },
     "senior-indoor": {
      "base": 97,
@@ -12326,7 +12326,7 @@
      "to": "ginza"
     }
    ],
-   "rentLow": 12,
+   "rentLow": 11,
    "segments": {
     "dinks-indoor": {
      "base": 37,
@@ -12344,31 +12344,31 @@
      "base": 55,
      "life": 58,
      "play": 62,
-     "score": 22
+     "score": 21
     },
     "family-outdoor": {
      "base": 54,
      "life": 58,
      "play": 55,
-     "score": 18
+     "score": 17
     },
     "senior-indoor": {
      "base": 46,
      "life": 60,
      "play": 62,
-     "score": 15
+     "score": 14
     },
     "senior-outdoor": {
      "base": 42,
      "life": 60,
      "play": 55,
-     "score": 10
+     "score": 9
     },
     "single-indoor": {
      "base": 44,
      "life": 51,
      "play": 62,
-     "score": 7
+     "score": 6
     },
     "single-outdoor": {
      "base": 48,
@@ -12427,55 +12427,55 @@
      "to": "waseda"
     }
    ],
-   "rentLow": 24,
+   "rentLow": 23,
    "segments": {
     "dinks-indoor": {
      "base": 99,
      "life": 81,
      "play": 64,
-     "score": 53
+     "score": 52
     },
     "dinks-outdoor": {
      "base": 94,
      "life": 81,
      "play": 58,
-     "score": 57
+     "score": 56
     },
     "family-indoor": {
      "base": 74,
      "life": 66,
      "play": 64,
-     "score": 39
+     "score": 38
     },
     "family-outdoor": {
      "base": 83,
      "life": 66,
      "play": 58,
-     "score": 40
+     "score": 38
     },
     "senior-indoor": {
      "base": 72,
      "life": 68,
      "play": 64,
-     "score": 31
+     "score": 30
     },
     "senior-outdoor": {
      "base": 77,
      "life": 68,
      "play": 58,
-     "score": 30
+     "score": 28
     },
     "single-indoor": {
      "base": 98,
      "life": 78,
      "play": 64,
-     "score": 50
+     "score": 48
     },
     "single-outdoor": {
      "base": 93,
      "life": 78,
      "play": 58,
-     "score": 56
+     "score": 52
     }
    },
    "transitConvenience": 32
@@ -12641,7 +12641,7 @@
      "base": 39,
      "life": 67,
      "play": 27,
-     "score": 65
+     "score": 66
     },
     "family-indoor": {
      "base": 24,
@@ -12653,7 +12653,7 @@
      "base": 2,
      "life": 41,
      "play": 27,
-     "score": 24
+     "score": 23
     },
     "senior-indoor": {
      "base": 76,
@@ -12843,7 +12843,7 @@
      "base": 73,
      "life": 49,
      "play": 81,
-     "score": 54
+     "score": 55
     },
     "family-indoor": {
      "base": 36,
@@ -12945,7 +12945,7 @@
      "base": 26,
      "life": 33,
      "play": 71,
-     "score": 21
+     "score": 22
     },
     "family-indoor": {
      "base": 36,
@@ -12981,7 +12981,7 @@
      "base": 43,
      "life": 39,
      "play": 71,
-     "score": 31
+     "score": 30
     }
    },
    "transitConvenience": 32
@@ -13080,7 +13080,7 @@
      "base": 13,
      "life": 46,
      "play": 38,
-     "score": 68
+     "score": 67
     }
    },
    "transitConvenience": 32
@@ -13175,7 +13175,7 @@
      "base": 28,
      "life": 35,
      "play": 74,
-     "score": 76
+     "score": 77
     },
     "single-outdoor": {
      "base": 37,
@@ -13282,7 +13282,7 @@
      "base": 15,
      "life": 39,
      "play": 50,
-     "score": 49
+     "score": 50
     }
    },
    "transitConvenience": 32
@@ -13336,13 +13336,13 @@
      "to": "kami-nakazato"
     }
    ],
-   "rentLow": 63,
+   "rentLow": 64,
    "segments": {
     "dinks-indoor": {
      "base": 73,
      "life": 53,
      "play": 79,
-     "score": 82
+     "score": 83
     },
     "dinks-outdoor": {
      "base": 56,
@@ -13354,37 +13354,37 @@
      "base": 93,
      "life": 70,
      "play": 79,
-     "score": 85
+     "score": 86
     },
     "family-outdoor": {
      "base": 89,
      "life": 70,
      "play": 60,
-     "score": 81
+     "score": 83
     },
     "senior-indoor": {
      "base": 83,
      "life": 65,
      "play": 79,
-     "score": 81
+     "score": 82
     },
     "senior-outdoor": {
      "base": 69,
      "life": 65,
      "play": 60,
-     "score": 74
+     "score": 75
     },
     "single-indoor": {
      "base": 84,
      "life": 55,
      "play": 79,
-     "score": 87
+     "score": 88
     },
     "single-outdoor": {
      "base": 65,
      "life": 55,
      "play": 60,
-     "score": 74
+     "score": 76
     }
    },
    "transitConvenience": 32
@@ -13445,7 +13445,7 @@
      "base": 7,
      "life": 50,
      "play": 23,
-     "score": 52
+     "score": 53
     },
     "family-indoor": {
      "base": 74,
@@ -13481,7 +13481,7 @@
      "base": 5,
      "life": 48,
      "play": 23,
-     "score": 52
+     "score": 53
     }
    },
    "transitConvenience": 32
@@ -13546,7 +13546,7 @@
      "base": 18,
      "life": 49,
      "play": 39,
-     "score": 26
+     "score": 25
     },
     "family-indoor": {
      "base": 84,
@@ -14023,19 +14023,19 @@
      "to": "suidobashi"
     }
    ],
-   "rentLow": 17,
+   "rentLow": 16,
    "segments": {
     "dinks-indoor": {
      "base": 98,
      "life": 79,
      "play": 67,
-     "score": 72
+     "score": 71
     },
     "dinks-outdoor": {
      "base": 87,
      "life": 79,
      "play": 50,
-     "score": 66
+     "score": 64
     },
     "family-indoor": {
      "base": 32,
@@ -14053,25 +14053,25 @@
      "base": 90,
      "life": 74,
      "play": 67,
-     "score": 34
+     "score": 33
     },
     "senior-outdoor": {
      "base": 82,
      "life": 74,
      "play": 50,
-     "score": 26
+     "score": 25
     },
     "single-indoor": {
      "base": 96,
      "life": 74,
      "play": 67,
-     "score": 68
+     "score": 67
     },
     "single-outdoor": {
      "base": 83,
      "life": 74,
      "play": 50,
-     "score": 57
+     "score": 56
     }
    },
    "transitConvenience": 85
@@ -14169,13 +14169,13 @@
      "base": 8,
      "life": 27,
      "play": 67,
-     "score": 38
+     "score": 37
     },
     "single-outdoor": {
      "base": 24,
      "life": 27,
      "play": 75,
-     "score": 58
+     "score": 57
     }
    },
    "transitConvenience": 32
@@ -14335,7 +14335,7 @@
      "base": 3,
      "life": 25,
      "play": 57,
-     "score": 51
+     "score": 52
     },
     "dinks-outdoor": {
      "base": 37,
@@ -14633,19 +14633,19 @@
      "base": 77,
      "life": 62,
      "play": 66,
-     "score": 40
+     "score": 39
     },
     "family-indoor": {
      "base": 21,
      "life": 43,
      "play": 63,
-     "score": 16
+     "score": 17
     },
     "family-outdoor": {
      "base": 28,
      "life": 43,
      "play": 66,
-     "score": 17
+     "score": 16
     },
     "senior-indoor": {
      "base": 42,
@@ -14669,7 +14669,7 @@
      "base": 81,
      "life": 61,
      "play": 66,
-     "score": 43
+     "score": 42
     }
    },
    "transitConvenience": 52
@@ -14732,7 +14732,7 @@
      "base": 50,
      "life": 66,
      "play": 38,
-     "score": 56
+     "score": 57
     },
     "family-indoor": {
      "base": 21,
@@ -14768,7 +14768,7 @@
      "base": 46,
      "life": 62,
      "play": 38,
-     "score": 54
+     "score": 55
     }
    },
    "transitConvenience": 52
@@ -14835,7 +14835,7 @@
      "base": 20,
      "life": 43,
      "play": 49,
-     "score": 26
+     "score": 25
     },
     "family-indoor": {
      "base": 72,
@@ -15264,7 +15264,7 @@
      "base": 86,
      "life": 62,
      "play": 71,
-     "score": 30
+     "score": 31
     },
     "single-outdoor": {
      "base": 96,
@@ -15360,7 +15360,7 @@
      "base": 53,
      "life": 52,
      "play": 79,
-     "score": 25
+     "score": 24
     },
     "single-indoor": {
      "base": 37,
@@ -15682,7 +15682,7 @@
      "base": 10,
      "life": 32,
      "play": 54,
-     "score": 47
+     "score": 48
     }
    },
    "transitConvenience": 32
@@ -15859,7 +15859,7 @@
      "base": 35,
      "life": 60,
      "play": 34,
-     "score": 42
+     "score": 43
     },
     "senior-indoor": {
      "base": 98,
@@ -15877,7 +15877,7 @@
      "base": 85,
      "life": 48,
      "play": 92,
-     "score": 73
+     "score": 74
     },
     "single-outdoor": {
      "base": 12,
@@ -15936,7 +15936,7 @@
      "to": "ichigaya"
     }
    ],
-   "rentLow": 8,
+   "rentLow": 7,
    "segments": {
     "dinks-indoor": {
      "base": 23,
@@ -15954,25 +15954,25 @@
      "base": 16,
      "life": 36,
      "play": 71,
-     "score": 8
+     "score": 7
     },
     "family-outdoor": {
      "base": 30,
      "life": 36,
      "play": 83,
-     "score": 9
+     "score": 8
     },
     "senior-indoor": {
      "base": 18,
      "life": 48,
      "play": 71,
-     "score": 5
+     "score": 4
     },
     "senior-outdoor": {
      "base": 39,
      "life": 48,
      "play": 83,
-     "score": 6
+     "score": 5
     },
     "single-indoor": {
      "base": 33,
@@ -15984,7 +15984,7 @@
      "base": 63,
      "life": 39,
      "play": 83,
-     "score": 7
+     "score": 6
     }
    },
    "transitConvenience": 32
@@ -16150,7 +16150,7 @@
      "base": 63,
      "life": 58,
      "play": 57,
-     "score": 47
+     "score": 48
     },
     "family-indoor": {
      "base": 97,
@@ -16241,7 +16241,7 @@
      "to": "daimon"
     }
    ],
-   "rentLow": 14,
+   "rentLow": 13,
    "segments": {
     "dinks-indoor": {
      "base": 19,
@@ -16253,13 +16253,13 @@
      "base": 19,
      "life": 40,
      "play": 55,
-     "score": 3
+     "score": 2
     },
     "family-indoor": {
      "base": 13,
      "life": 36,
      "play": 64,
-     "score": 9
+     "score": 8
     },
     "family-outdoor": {
      "base": 4,
@@ -16271,7 +16271,7 @@
      "base": 14,
      "life": 49,
      "play": 64,
-     "score": 6
+     "score": 5
     },
     "senior-outdoor": {
      "base": 10,
@@ -16289,7 +16289,7 @@
      "base": 23,
      "life": 40,
      "play": 55,
-     "score": 3
+     "score": 2
     }
    },
    "transitConvenience": 32
@@ -16392,7 +16392,7 @@
      "base": 95,
      "life": 65,
      "play": 83,
-     "score": 76
+     "score": 75
     }
    },
    "transitConvenience": 57
@@ -16486,13 +16486,13 @@
      "base": 96,
      "life": 76,
      "play": 64,
-     "score": 41
+     "score": 42
     },
     "single-outdoor": {
      "base": 93,
      "life": 76,
      "play": 62,
-     "score": 50
+     "score": 51
     }
    },
    "transitConvenience": 32
@@ -16844,55 +16844,55 @@
      "to": "akebonobashi"
     }
    ],
-   "rentLow": 2,
+   "rentLow": 1,
    "segments": {
     "dinks-indoor": {
      "base": 83,
      "life": 74,
      "play": 55,
-     "score": 15
+     "score": 13
     },
     "dinks-outdoor": {
      "base": 99,
      "life": 74,
      "play": 92,
-     "score": 54
+     "score": 52
     },
     "family-indoor": {
      "base": 42,
      "life": 55,
      "play": 55,
-     "score": 13
+     "score": 12
     },
     "family-outdoor": {
      "base": 88,
      "life": 55,
      "play": 92,
-     "score": 26
+     "score": 25
     },
     "senior-indoor": {
      "base": 56,
      "life": 66,
      "play": 55,
-     "score": 13
+     "score": 12
     },
     "senior-outdoor": {
      "base": 97,
      "life": 66,
      "play": 92,
-     "score": 28
+     "score": 26
     },
     "single-indoor": {
      "base": 82,
      "life": 71,
      "play": 55,
-     "score": 13
+     "score": 12
     },
     "single-outdoor": {
      "base": 100,
      "life": 71,
      "play": 92,
-     "score": 51
+     "score": 50
     }
    },
    "transitConvenience": 32
@@ -16982,7 +16982,7 @@
      "base": 61,
      "life": 63,
      "play": 59,
-     "score": 62
+     "score": 63
     },
     "single-indoor": {
      "base": 49,
@@ -17046,7 +17046,7 @@
      "to": "hanzomon"
     }
    ],
-   "rentLow": 4,
+   "rentLow": 3,
    "segments": {
     "dinks-indoor": {
      "base": 23,
@@ -17058,7 +17058,7 @@
      "base": 76,
      "life": 40,
      "play": 97,
-     "score": 23
+     "score": 21
     },
     "family-indoor": {
      "base": 8,
@@ -17082,7 +17082,7 @@
      "base": 86,
      "life": 55,
      "play": 97,
-     "score": 19
+     "score": 18
     },
     "single-indoor": {
      "base": 35,
@@ -17094,7 +17094,7 @@
      "base": 86,
      "life": 44,
      "play": 97,
-     "score": 29
+     "score": 27
     }
    },
    "transitConvenience": 52
@@ -17148,7 +17148,7 @@
      "to": "hanzomon"
     }
    ],
-   "rentLow": 14,
+   "rentLow": 12,
    "segments": {
     "dinks-indoor": {
      "base": 18,
@@ -17160,43 +17160,43 @@
      "base": 45,
      "life": 32,
      "play": 84,
-     "score": 8
+     "score": 7
     },
     "family-indoor": {
      "base": 34,
      "life": 44,
      "play": 74,
-     "score": 17
+     "score": 15
     },
     "family-outdoor": {
      "base": 50,
      "life": 44,
      "play": 84,
-     "score": 19
+     "score": 18
     },
     "senior-indoor": {
      "base": 53,
      "life": 57,
      "play": 74,
-     "score": 19
+     "score": 18
     },
     "senior-outdoor": {
      "base": 76,
      "life": 57,
      "play": 84,
-     "score": 21
+     "score": 20
     },
     "single-indoor": {
      "base": 34,
      "life": 38,
      "play": 74,
-     "score": 8
+     "score": 6
     },
     "single-outdoor": {
      "base": 62,
      "life": 38,
      "play": 84,
-     "score": 12
+     "score": 11
     }
    },
    "transitConvenience": 32
@@ -17250,7 +17250,7 @@
      "to": "shinonome"
     }
    ],
-   "rentLow": 15,
+   "rentLow": 14,
    "segments": {
     "dinks-indoor": {
      "base": 4,
@@ -17268,7 +17268,7 @@
      "base": 5,
      "life": 34,
      "play": 51,
-     "score": 3
+     "score": 2
     },
     "family-outdoor": {
      "base": 19,
@@ -17286,7 +17286,7 @@
      "base": 53,
      "life": 52,
      "play": 79,
-     "score": 14
+     "score": 13
     },
     "single-indoor": {
      "base": 5,
@@ -17359,7 +17359,7 @@
      "base": 39,
      "life": 37,
      "play": 82,
-     "score": 13
+     "score": 12
     },
     "dinks-outdoor": {
      "base": 18,
@@ -17383,7 +17383,7 @@
      "base": 47,
      "life": 52,
      "play": 82,
-     "score": 22
+     "score": 23
     },
     "senior-outdoor": {
      "base": 20,
@@ -18064,13 +18064,13 @@
      "base": 9,
      "life": 37,
      "play": 60,
-     "score": 76
+     "score": 77
     },
     "dinks-outdoor": {
      "base": 3,
      "life": 37,
      "play": 36,
-     "score": 56
+     "score": 57
     },
     "family-indoor": {
      "base": 53,
@@ -18193,13 +18193,13 @@
      "base": 72,
      "life": 53,
      "play": 90,
-     "score": 13
+     "score": 14
     },
     "single-indoor": {
      "base": 78,
      "life": 61,
      "play": 66,
-     "score": 24
+     "score": 23
     },
     "single-outdoor": {
      "base": 96,
@@ -18296,7 +18296,7 @@
      "base": 40,
      "life": 37,
      "play": 80,
-     "score": 75
+     "score": 76
     },
     "single-outdoor": {
      "base": 1,
@@ -18364,7 +18364,7 @@
      "base": 8,
      "life": 45,
      "play": 33,
-     "score": 50
+     "score": 51
     },
     "family-indoor": {
      "base": 32,
@@ -18479,13 +18479,13 @@
      "base": 61,
      "life": 57,
      "play": 83,
-     "score": 33
+     "score": 34
     },
     "senior-outdoor": {
      "base": 8,
      "life": 57,
      "play": 31,
-     "score": 9
+     "score": 8
     },
     "single-indoor": {
      "base": 73,
@@ -18497,7 +18497,7 @@
      "base": 10,
      "life": 48,
      "play": 31,
-     "score": 3
+     "score": 2
     }
    },
    "transitConvenience": 32
@@ -18676,7 +18676,7 @@
      "base": 45,
      "life": 51,
      "play": 64,
-     "score": 27
+     "score": 26
     },
     "senior-indoor": {
      "base": 64,
@@ -18752,55 +18752,55 @@
      "to": "suehirocho"
     }
    ],
-   "rentLow": 10,
+   "rentLow": 16,
    "segments": {
     "dinks-indoor": {
      "base": 73,
      "life": 65,
      "play": 62,
-     "score": 24
+     "score": 31
     },
     "dinks-outdoor": {
      "base": 95,
      "life": 65,
      "play": 87,
-     "score": 59
+     "score": 70
     },
     "family-indoor": {
      "base": 14,
      "life": 37,
      "play": 62,
-     "score": 10
+     "score": 12
     },
     "family-outdoor": {
      "base": 37,
      "life": 37,
      "play": 87,
-     "score": 14
+     "score": 18
     },
     "senior-indoor": {
      "base": 50,
      "life": 62,
      "play": 62,
-     "score": 16
+     "score": 19
     },
     "senior-outdoor": {
      "base": 91,
      "life": 62,
      "play": 87,
-     "score": 25
+     "score": 32
     },
     "single-indoor": {
      "base": 70,
      "life": 61,
      "play": 62,
-     "score": 21
+     "score": 29
     },
     "single-outdoor": {
      "base": 94,
      "life": 61,
      "play": 87,
-     "score": 56
+     "score": 68
     }
    },
    "transitConvenience": 57
@@ -18862,7 +18862,7 @@
      "base": 69,
      "life": 74,
      "play": 37,
-     "score": 84
+     "score": 83
     },
     "family-indoor": {
      "base": 92,
@@ -19190,7 +19190,7 @@
      "base": 17,
      "life": 45,
      "play": 52,
-     "score": 30
+     "score": 31
     },
     "single-outdoor": {
      "base": 4,
@@ -19272,7 +19272,7 @@
      "base": 77,
      "life": 70,
      "play": 43,
-     "score": 71
+     "score": 70
     },
     "senior-indoor": {
      "base": 65,
@@ -19296,7 +19296,7 @@
      "base": 19,
      "life": 46,
      "play": 43,
-     "score": 33
+     "score": 32
     }
    },
    "transitConvenience": 32
@@ -19350,19 +19350,19 @@
      "to": "onarimon"
     }
    ],
-   "rentLow": 13,
+   "rentLow": 12,
    "segments": {
     "dinks-indoor": {
      "base": 58,
      "life": 59,
      "play": 61,
-     "score": 26
+     "score": 25
     },
     "dinks-outdoor": {
      "base": 40,
      "life": 59,
      "play": 41,
-     "score": 15
+     "score": 14
     },
     "family-indoor": {
      "base": 35,
@@ -19374,7 +19374,7 @@
      "base": 18,
      "life": 50,
      "play": 41,
-     "score": 12
+     "score": 11
     },
     "senior-indoor": {
      "base": 15,
@@ -19392,13 +19392,13 @@
      "base": 66,
      "life": 60,
      "play": 61,
-     "score": 29
+     "score": 28
     },
     "single-outdoor": {
      "base": 47,
      "life": 60,
      "play": 41,
-     "score": 17
+     "score": 16
     }
    },
    "transitConvenience": 90
@@ -19480,7 +19480,7 @@
      "base": 31,
      "life": 58,
      "play": 54,
-     "score": 43
+     "score": 44
     },
     "senior-outdoor": {
      "base": 25,
@@ -19758,7 +19758,7 @@
      "base": 81,
      "life": 69,
      "play": 60,
-     "score": 51
+     "score": 52
     },
     "family-indoor": {
      "base": 95,
@@ -19862,7 +19862,7 @@
      "base": 35,
      "life": 44,
      "play": 75,
-     "score": 38
+     "score": 39
     },
     "family-outdoor": {
      "base": 14,
@@ -20052,7 +20052,7 @@
      "base": 74,
      "life": 55,
      "play": 71,
-     "score": 83
+     "score": 82
     },
     "family-indoor": {
      "base": 32,
@@ -20169,7 +20169,7 @@
      "base": 26,
      "life": 49,
      "play": 73,
-     "score": 12
+     "score": 13
     },
     "senior-outdoor": {
      "base": 48,
@@ -20270,19 +20270,19 @@
      "base": 20,
      "life": 50,
      "play": 65,
-     "score": 31
+     "score": 32
     },
     "senior-outdoor": {
      "base": 12,
      "life": 50,
      "play": 53,
-     "score": 27
+     "score": 26
     },
     "single-indoor": {
      "base": 13,
      "life": 34,
      "play": 65,
-     "score": 22
+     "score": 21
     },
     "single-outdoor": {
      "base": 11,
@@ -20458,7 +20458,7 @@
      "base": 32,
      "life": 56,
      "play": 41,
-     "score": 35
+     "score": 36
     },
     "senior-indoor": {
      "base": 75,
@@ -20542,13 +20542,13 @@
      "base": 1,
      "life": 25,
      "play": 41,
-     "score": 28
+     "score": 27
     },
     "dinks-outdoor": {
      "base": 2,
      "life": 25,
      "play": 52,
-     "score": 44
+     "score": 45
     },
     "family-indoor": {
      "base": 16,
@@ -20637,31 +20637,31 @@
      "to": "shibakoen"
     }
    ],
-   "rentLow": 11,
+   "rentLow": 10,
    "segments": {
     "dinks-indoor": {
      "base": 89,
      "life": 74,
      "play": 60,
-     "score": 33
+     "score": 32
     },
     "dinks-outdoor": {
      "base": 96,
      "life": 74,
      "play": 75,
-     "score": 64
+     "score": 61
     },
     "family-indoor": {
      "base": 39,
      "life": 51,
      "play": 60,
-     "score": 18
+     "score": 17
     },
     "family-outdoor": {
      "base": 63,
      "life": 51,
      "play": 75,
-     "score": 23
+     "score": 21
     },
     "senior-indoor": {
      "base": 77,
@@ -20679,13 +20679,13 @@
      "base": 86,
      "life": 70,
      "play": 60,
-     "score": 31
+     "score": 30
     },
     "single-outdoor": {
      "base": 95,
      "life": 70,
      "play": 75,
-     "score": 57
+     "score": 56
     }
    },
    "transitConvenience": 52
@@ -20734,25 +20734,25 @@
      "to": "suehirocho"
     }
    ],
-   "rentLow": 13,
+   "rentLow": 12,
    "segments": {
     "dinks-indoor": {
      "base": 90,
      "life": 75,
      "play": 62,
-     "score": 50
+     "score": 48
     },
     "dinks-outdoor": {
      "base": 82,
      "life": 75,
      "play": 51,
-     "score": 45
+     "score": 43
     },
     "family-indoor": {
      "base": 23,
      "life": 44,
      "play": 62,
-     "score": 15
+     "score": 14
     },
     "family-outdoor": {
      "base": 16,
@@ -20764,7 +20764,7 @@
      "base": 67,
      "life": 68,
      "play": 62,
-     "score": 23
+     "score": 22
     },
     "senior-outdoor": {
      "base": 68,
@@ -20776,13 +20776,13 @@
      "base": 93,
      "life": 73,
      "play": 62,
-     "score": 50
+     "score": 48
     },
     "single-outdoor": {
      "base": 84,
      "life": 73,
      "play": 51,
-     "score": 48
+     "score": 46
     }
    },
    "transitConvenience": 73
@@ -20951,7 +20951,7 @@
      "base": 24,
      "life": 50,
      "play": 43,
-     "score": 36
+     "score": 35
     },
     "family-indoor": {
      "base": 89,
@@ -21140,31 +21140,31 @@
      "to": "kudanshita"
     }
    ],
-   "rentLow": 25,
+   "rentLow": 24,
    "segments": {
     "dinks-indoor": {
      "base": 34,
      "life": 52,
      "play": 56,
-     "score": 17
+     "score": 16
     },
     "dinks-outdoor": {
      "base": 75,
      "life": 52,
      "play": 78,
-     "score": 40
+     "score": 38
     },
     "family-indoor": {
      "base": 44,
      "life": 56,
      "play": 56,
-     "score": 27
+     "score": 26
     },
     "family-outdoor": {
      "base": 78,
      "life": 56,
      "play": 78,
-     "score": 42
+     "score": 41
     },
     "senior-indoor": {
      "base": 4,
@@ -21176,19 +21176,19 @@
      "base": 29,
      "life": 47,
      "play": 78,
-     "score": 14
+     "score": 13
     },
     "single-indoor": {
      "base": 37,
      "life": 52,
      "play": 56,
-     "score": 17
+     "score": 16
     },
     "single-outdoor": {
      "base": 78,
      "life": 52,
      "play": 78,
-     "score": 43
+     "score": 41
     }
    },
    "transitConvenience": 57
@@ -21245,13 +21245,13 @@
      "base": 82,
      "life": 69,
      "play": 62,
-     "score": 44
+     "score": 45
     },
     "dinks-outdoor": {
      "base": 92,
      "life": 69,
      "play": 73,
-     "score": 70
+     "score": 69
     },
     "family-indoor": {
      "base": 88,
@@ -21549,7 +21549,7 @@
      "base": 91,
      "life": 68,
      "play": 74,
-     "score": 50
+     "score": 51
     },
     "dinks-outdoor": {
      "base": 79,
@@ -21856,7 +21856,7 @@
      "base": 23,
      "life": 41,
      "play": 56,
-     "score": 10
+     "score": 11
     },
     "family-indoor": {
      "base": 43,
@@ -21886,7 +21886,7 @@
      "base": 29,
      "life": 40,
      "play": 67,
-     "score": 14
+     "score": 15
     },
     "single-outdoor": {
      "base": 26,
@@ -21958,7 +21958,7 @@
      "base": 63,
      "life": 63,
      "play": 49,
-     "score": 67
+     "score": 66
     },
     "family-indoor": {
      "base": 98,
@@ -21994,7 +21994,7 @@
      "base": 61,
      "life": 60,
      "play": 49,
-     "score": 66
+     "score": 65
     }
    },
    "transitConvenience": 32
@@ -22046,19 +22046,19 @@
      "to": "yotsuya-sanchome"
     }
    ],
-   "rentLow": 3,
+   "rentLow": 2,
    "segments": {
     "dinks-indoor": {
      "base": 77,
      "life": 70,
      "play": 58,
-     "score": 31
+     "score": 30
     },
     "dinks-outdoor": {
      "base": 89,
      "life": 70,
      "play": 66,
-     "score": 47
+     "score": 44
     },
     "family-indoor": {
      "base": 16,
@@ -22070,7 +22070,7 @@
      "base": 23,
      "life": 41,
      "play": 66,
-     "score": 10
+     "score": 9
     },
     "senior-indoor": {
      "base": 59,
@@ -22082,19 +22082,19 @@
      "base": 81,
      "life": 66,
      "play": 66,
-     "score": 15
+     "score": 14
     },
     "single-indoor": {
      "base": 75,
      "life": 65,
      "play": 58,
-     "score": 28
+     "score": 26
     },
     "single-outdoor": {
      "base": 86,
      "life": 65,
      "play": 66,
-     "score": 44
+     "score": 42
     }
    },
    "transitConvenience": 88
@@ -22192,7 +22192,7 @@
      "base": 4,
      "life": 39,
      "play": 34,
-     "score": 34
+     "score": 33
     }
    },
    "transitConvenience": 32
@@ -22295,7 +22295,7 @@
      "base": 43,
      "life": 47,
      "play": 59,
-     "score": 51
+     "score": 52
     }
    },
    "transitConvenience": 57
@@ -22379,13 +22379,13 @@
      "base": 40,
      "life": 58,
      "play": 64,
-     "score": 17
+     "score": 16
     },
     "senior-outdoor": {
      "base": 30,
      "life": 58,
      "play": 53,
-     "score": 9
+     "score": 8
     },
     "single-indoor": {
      "base": 51,
@@ -22495,7 +22495,7 @@
      "base": 37,
      "life": 60,
      "play": 35,
-     "score": 83
+     "score": 82
     }
    },
    "transitConvenience": 32
@@ -22653,7 +22653,7 @@
      "base": 16,
      "life": 48,
      "play": 40,
-     "score": 18
+     "score": 19
     },
     "family-indoor": {
      "base": 67,
@@ -22751,7 +22751,7 @@
      "base": 54,
      "life": 49,
      "play": 65,
-     "score": 50
+     "score": 51
     },
     "family-indoor": {
      "base": 12,
@@ -22769,13 +22769,13 @@
      "base": 24,
      "life": 54,
      "play": 60,
-     "score": 25
+     "score": 26
     },
     "senior-outdoor": {
      "base": 34,
      "life": 54,
      "play": 65,
-     "score": 29
+     "score": 30
     },
     "single-indoor": {
      "base": 21,
@@ -22871,7 +22871,7 @@
      "base": 39,
      "life": 65,
      "play": 42,
-     "score": 34
+     "score": 35
     },
     "single-indoor": {
      "base": 62,
@@ -22950,7 +22950,7 @@
      "base": 52,
      "life": 64,
      "play": 41,
-     "score": 47
+     "score": 48
     },
     "family-indoor": {
      "base": 96,
@@ -23258,7 +23258,7 @@
      "base": 46,
      "life": 62,
      "play": 40,
-     "score": 82
+     "score": 81
     },
     "senior-indoor": {
      "base": 47,
@@ -23282,7 +23282,7 @@
      "base": 6,
      "life": 38,
      "play": 40,
-     "score": 56
+     "score": 57
     }
    },
    "transitConvenience": 32
@@ -23529,55 +23529,55 @@
      "to": "suehirocho"
     }
    ],
-   "rentLow": 13,
+   "rentLow": 19,
    "segments": {
     "dinks-indoor": {
      "base": 75,
      "life": 65,
      "play": 63,
-     "score": 32
+     "score": 41
     },
     "dinks-outdoor": {
      "base": 63,
      "life": 65,
      "play": 46,
-     "score": 25
+     "score": 33
     },
     "family-indoor": {
      "base": 15,
      "life": 37,
      "play": 63,
-     "score": 11
+     "score": 13
     },
     "family-outdoor": {
      "base": 4,
      "life": 37,
      "play": 46,
-     "score": 5
+     "score": 7
     },
     "senior-indoor": {
      "base": 45,
      "life": 59,
      "play": 63,
-     "score": 16
+     "score": 19
     },
     "senior-outdoor": {
      "base": 25,
      "life": 59,
      "play": 46,
-     "score": 5
+     "score": 9
     },
     "single-indoor": {
      "base": 78,
      "life": 63,
      "play": 63,
-     "score": 32
+     "score": 42
     },
     "single-outdoor": {
      "base": 63,
      "life": 63,
      "play": 46,
-     "score": 22
+     "score": 31
     }
    },
    "transitConvenience": 73
@@ -23720,37 +23720,37 @@
      "to": "okachimachi"
     }
    ],
-   "rentLow": 22,
+   "rentLow": 21,
    "segments": {
     "dinks-indoor": {
      "base": 97,
      "life": 73,
      "play": 74,
-     "score": 71
+     "score": 69
     },
     "dinks-outdoor": {
      "base": 93,
      "life": 73,
      "play": 70,
-     "score": 76
+     "score": 75
     },
     "family-indoor": {
      "base": 50,
      "life": 50,
      "play": 74,
-     "score": 30
+     "score": 29
     },
     "family-outdoor": {
      "base": 51,
      "life": 50,
      "play": 70,
-     "score": 29
+     "score": 28
     },
     "senior-indoor": {
      "base": 80,
      "life": 66,
      "play": 74,
-     "score": 32
+     "score": 31
     },
     "senior-outdoor": {
      "base": 85,
@@ -23762,13 +23762,13 @@
      "base": 99,
      "life": 74,
      "play": 74,
-     "score": 78
+     "score": 76
     },
     "single-outdoor": {
      "base": 95,
      "life": 74,
      "play": 70,
-     "score": 82
+     "score": 80
     }
    },
    "transitConvenience": 73
@@ -24365,7 +24365,7 @@
      "base": 12,
      "life": 51,
      "play": 30,
-     "score": 61
+     "score": 62
     }
    },
    "transitConvenience": 52
@@ -24429,13 +24429,13 @@
      "base": 11,
      "life": 38,
      "play": 49,
-     "score": 27
+     "score": 26
     },
     "family-indoor": {
      "base": 97,
      "life": 76,
      "play": 78,
-     "score": 86
+     "score": 85
     },
     "family-outdoor": {
      "base": 91,
@@ -24453,7 +24453,7 @@
      "base": 26,
      "life": 58,
      "play": 49,
-     "score": 29
+     "score": 28
     },
     "single-indoor": {
      "base": 56,
@@ -24625,7 +24625,7 @@
      "base": 35,
      "life": 52,
      "play": 57,
-     "score": 14
+     "score": 13
     },
     "dinks-outdoor": {
      "base": 62,
@@ -24655,7 +24655,7 @@
      "base": 43,
      "life": 56,
      "play": 65,
-     "score": 18
+     "score": 19
     },
     "single-indoor": {
      "base": 27,
@@ -24729,7 +24729,7 @@
      "base": 53,
      "life": 49,
      "play": 64,
-     "score": 32
+     "score": 31
     },
     "family-indoor": {
      "base": 18,
@@ -24741,7 +24741,7 @@
      "base": 15,
      "life": 38,
      "play": 64,
-     "score": 20
+     "score": 19
     },
     "senior-indoor": {
      "base": 43,
@@ -24759,13 +24759,13 @@
      "base": 52,
      "life": 48,
      "play": 70,
-     "score": 31
+     "score": 32
     },
     "single-outdoor": {
      "base": 54,
      "life": 48,
      "play": 64,
-     "score": 31
+     "score": 30
     }
    },
    "transitConvenience": 32
@@ -24822,7 +24822,7 @@
      "base": 35,
      "life": 44,
      "play": 69,
-     "score": 37
+     "score": 36
     },
     "dinks-outdoor": {
      "base": 27,
@@ -25156,7 +25156,7 @@
      "base": 56,
      "life": 54,
      "play": 77,
-     "score": 33
+     "score": 34
     },
     "single-indoor": {
      "base": 39,
@@ -25168,7 +25168,7 @@
      "base": 64,
      "life": 44,
      "play": 77,
-     "score": 32
+     "score": 31
     }
    },
    "transitConvenience": 32
@@ -25676,7 +25676,7 @@
      "base": 51,
      "life": 43,
      "play": 77,
-     "score": 44
+     "score": 45
     },
     "single-outdoor": {
      "base": 30,
@@ -25770,7 +25770,7 @@
      "base": 4,
      "life": 52,
      "play": 36,
-     "score": 26
+     "score": 25
     },
     "single-indoor": {
      "base": 7,
@@ -25936,13 +25936,13 @@
      "to": "kita-sando"
     }
    ],
-   "rentLow": 2,
+   "rentLow": 1,
    "segments": {
     "dinks-indoor": {
      "base": 52,
      "life": 48,
      "play": 72,
-     "score": 7
+     "score": 6
     },
     "dinks-outdoor": {
      "base": 52,
@@ -25966,25 +25966,25 @@
      "base": 48,
      "life": 57,
      "play": 72,
-     "score": 11
+     "score": 10
     },
     "senior-outdoor": {
      "base": 44,
      "life": 57,
      "play": 65,
-     "score": 5
+     "score": 4
     },
     "single-indoor": {
      "base": 43,
      "life": 43,
      "play": 72,
-     "score": 5
+     "score": 4
     },
     "single-outdoor": {
      "base": 44,
      "life": 43,
      "play": 65,
-     "score": 4
+     "score": 3
     }
    },
    "transitConvenience": 32
@@ -26044,7 +26044,7 @@
      "base": 8,
      "life": 29,
      "play": 70,
-     "score": 41
+     "score": 42
     },
     "dinks-outdoor": {
      "base": 7,
@@ -26086,7 +26086,7 @@
      "base": 4,
      "life": 24,
      "play": 56,
-     "score": 30
+     "score": 29
     }
    },
    "transitConvenience": 32
@@ -26238,19 +26238,19 @@
      "to": "yushima"
     }
    ],
-   "rentLow": 19,
+   "rentLow": 18,
    "segments": {
     "dinks-indoor": {
      "base": 98,
      "life": 77,
      "play": 71,
-     "score": 79
+     "score": 76
     },
     "dinks-outdoor": {
      "base": 84,
      "life": 77,
      "play": 51,
-     "score": 66
+     "score": 65
     },
     "family-indoor": {
      "base": 52,
@@ -26268,25 +26268,25 @@
      "base": 89,
      "life": 71,
      "play": 71,
-     "score": 36
+     "score": 34
     },
     "senior-outdoor": {
      "base": 77,
      "life": 71,
      "play": 51,
-     "score": 25
+     "score": 24
     },
     "single-indoor": {
      "base": 97,
      "life": 73,
      "play": 71,
-     "score": 76
+     "score": 73
     },
     "single-outdoor": {
      "base": 83,
      "life": 73,
      "play": 51,
-     "score": 63
+     "score": 60
     }
    },
    "transitConvenience": 85
@@ -26388,7 +26388,7 @@
      "base": 74,
      "life": 64,
      "play": 55,
-     "score": 67
+     "score": 66
     }
    },
    "transitConvenience": 32
@@ -26650,19 +26650,19 @@
      "to": "ariake-tennis-no-mori"
     }
    ],
-   "rentLow": 7,
+   "rentLow": 10,
    "segments": {
     "dinks-indoor": {
      "base": 9,
      "life": 36,
      "play": 59,
-     "score": 1
+     "score": 2
     },
     "dinks-outdoor": {
      "base": 48,
      "life": 36,
      "play": 81,
-     "score": 3
+     "score": 4
     },
     "family-indoor": {
      "base": 8,
@@ -26674,7 +26674,7 @@
      "base": 21,
      "life": 34,
      "play": 81,
-     "score": 5
+     "score": 6
     },
     "senior-indoor": {
      "base": 9,
@@ -26686,19 +26686,19 @@
      "base": 40,
      "life": 49,
      "play": 81,
-     "score": 6
+     "score": 8
     },
     "single-indoor": {
      "base": 11,
      "life": 37,
      "play": 59,
-     "score": 1
+     "score": 2
     },
     "single-outdoor": {
      "base": 55,
      "life": 37,
      "play": 81,
-     "score": 2
+     "score": 4
     }
    },
    "transitConvenience": 32
@@ -27259,7 +27259,7 @@
      "base": 6,
      "life": 42,
      "play": 34,
-     "score": 56
+     "score": 57
     },
     "family-indoor": {
      "base": 17,
@@ -27493,7 +27493,7 @@
      "base": 80,
      "life": 61,
      "play": 68,
-     "score": 74
+     "score": 75
     },
     "single-outdoor": {
      "base": 61,
@@ -27584,7 +27584,7 @@
      "base": 29,
      "life": 52,
      "play": 68,
-     "score": 34
+     "score": 35
     },
     "senior-outdoor": {
      "base": 30,
@@ -27678,7 +27678,7 @@
      "base": 53,
      "life": 43,
      "play": 89,
-     "score": 34
+     "score": 35
     },
     "senior-indoor": {
      "base": 87,
@@ -27791,7 +27791,7 @@
      "base": 26,
      "life": 55,
      "play": 57,
-     "score": 77
+     "score": 76
     },
     "single-indoor": {
      "base": 65,
@@ -27964,13 +27964,13 @@
      "base": 46,
      "life": 61,
      "play": 42,
-     "score": 11
+     "score": 12
     },
     "family-indoor": {
      "base": 84,
      "life": 70,
      "play": 65,
-     "score": 45
+     "score": 46
     },
     "family-outdoor": {
      "base": 75,
@@ -27988,7 +27988,7 @@
      "base": 61,
      "life": 70,
      "play": 42,
-     "score": 30
+     "score": 31
     },
     "single-indoor": {
      "base": 79,
@@ -28078,7 +28078,7 @@
      "base": 55,
      "life": 49,
      "play": 75,
-     "score": 30
+     "score": 31
     },
     "senior-indoor": {
      "base": 41,
@@ -28090,7 +28090,7 @@
      "base": 60,
      "life": 56,
      "play": 75,
-     "score": 33
+     "score": 34
     },
     "single-indoor": {
      "base": 56,
@@ -28368,13 +28368,13 @@
      "base": 46,
      "life": 48,
      "play": 69,
-     "score": 70
+     "score": 71
     },
     "dinks-outdoor": {
      "base": 67,
      "life": 48,
      "play": 75,
-     "score": 85
+     "score": 86
     },
     "family-indoor": {
      "base": 79,
@@ -28463,7 +28463,7 @@
      "to": "hanzomon"
     }
    ],
-   "rentLow": 2,
+   "rentLow": 1,
    "segments": {
     "dinks-indoor": {
      "base": 67,
@@ -28475,13 +28475,13 @@
      "base": 69,
      "life": 65,
      "play": 52,
-     "score": 15
+     "score": 14
     },
     "family-indoor": {
      "base": 27,
      "life": 48,
      "play": 57,
-     "score": 12
+     "score": 11
     },
     "family-outdoor": {
      "base": 26,
@@ -28505,13 +28505,13 @@
      "base": 53,
      "life": 58,
      "play": 57,
-     "score": 11
+     "score": 10
     },
     "single-outdoor": {
      "base": 58,
      "life": 58,
      "play": 52,
-     "score": 10
+     "score": 9
     }
    },
    "transitConvenience": 68
@@ -28604,7 +28604,7 @@
      "base": 29,
      "life": 37,
      "play": 72,
-     "score": 25
+     "score": 26
     },
     "single-outdoor": {
      "base": 3,
@@ -28664,31 +28664,31 @@
      "to": "jimbocho"
     }
    ],
-   "rentLow": 5,
+   "rentLow": 4,
    "segments": {
     "dinks-indoor": {
      "base": 56,
      "life": 53,
      "play": 68,
-     "score": 8
+     "score": 7
     },
     "dinks-outdoor": {
      "base": 83,
      "life": 53,
      "play": 86,
-     "score": 17
+     "score": 16
     },
     "family-indoor": {
      "base": 32,
      "life": 45,
      "play": 68,
-     "score": 11
+     "score": 10
     },
     "family-outdoor": {
      "base": 57,
      "life": 45,
      "play": 86,
-     "score": 15
+     "score": 14
     },
     "senior-indoor": {
      "base": 38,
@@ -28700,19 +28700,19 @@
      "base": 73,
      "life": 55,
      "play": 86,
-     "score": 13
+     "score": 12
     },
     "single-indoor": {
      "base": 74,
      "life": 58,
      "play": 68,
-     "score": 12
+     "score": 11
     },
     "single-outdoor": {
      "base": 92,
      "life": 58,
      "play": 86,
-     "score": 26
+     "score": 23
     }
    },
    "transitConvenience": 32
@@ -28993,25 +28993,25 @@
      "base": 25,
      "life": 54,
      "play": 61,
-     "score": 19
+     "score": 18
     },
     "senior-outdoor": {
      "base": 6,
      "life": 54,
      "play": 34,
-     "score": 4
+     "score": 5
     },
     "single-indoor": {
      "base": 51,
      "life": 54,
      "play": 61,
-     "score": 39
+     "score": 38
     },
     "single-outdoor": {
      "base": 23,
      "life": 54,
      "play": 34,
-     "score": 19
+     "score": 20
     }
    },
    "transitConvenience": 85
@@ -29063,13 +29063,13 @@
      "to": "meiji-jingumae"
     }
    ],
-   "rentLow": 23,
+   "rentLow": 22,
    "segments": {
     "dinks-indoor": {
      "base": 64,
      "life": 62,
      "play": 60,
-     "score": 19
+     "score": 18
     },
     "dinks-outdoor": {
      "base": 30,
@@ -29087,13 +29087,13 @@
      "base": 6,
      "life": 48,
      "play": 30,
-     "score": 8
+     "score": 7
     },
     "senior-indoor": {
      "base": 49,
      "life": 62,
      "play": 60,
-     "score": 23
+     "score": 22
     },
     "senior-outdoor": {
      "base": 16,
@@ -29111,7 +29111,7 @@
      "base": 31,
      "life": 61,
      "play": 30,
-     "score": 5
+     "score": 6
     }
    },
    "transitConvenience": 32
@@ -29259,19 +29259,19 @@
      "to": "yushima"
     }
    ],
-   "rentLow": 9,
+   "rentLow": 8,
    "segments": {
     "dinks-indoor": {
      "base": 30,
      "life": 48,
      "play": 60,
-     "score": 15
+     "score": 13
     },
     "dinks-outdoor": {
      "base": 87,
      "life": 48,
      "play": 98,
-     "score": 55
+     "score": 54
     },
     "family-indoor": {
      "base": 3,
@@ -29289,7 +29289,7 @@
      "base": 11,
      "life": 49,
      "play": 60,
-     "score": 4
+     "score": 3
     },
     "senior-outdoor": {
      "base": 71,
@@ -29307,7 +29307,7 @@
      "base": 91,
      "life": 48,
      "play": 98,
-     "score": 63
+     "score": 61
     }
    },
    "transitConvenience": 93
@@ -29369,7 +29369,7 @@
      "base": 25,
      "life": 46,
      "play": 59,
-     "score": 38
+     "score": 37
     },
     "dinks-outdoor": {
      "base": 42,
@@ -29399,13 +29399,13 @@
      "base": 37,
      "life": 56,
      "play": 62,
-     "score": 61
+     "score": 62
     },
     "single-indoor": {
      "base": 11,
      "life": 37,
      "play": 59,
-     "score": 27
+     "score": 28
     },
     "single-outdoor": {
      "base": 28,
@@ -30111,7 +30111,7 @@
      "base": 70,
      "life": 54,
      "play": 66,
-     "score": 13
+     "score": 14
     }
    },
    "transitConvenience": 57
@@ -30192,7 +30192,7 @@
      "base": 53,
      "life": 64,
      "play": 59,
-     "score": 11
+     "score": 12
     },
     "senior-outdoor": {
      "base": 58,
@@ -30275,7 +30275,7 @@
      "base": 80,
      "life": 62,
      "play": 69,
-     "score": 45
+     "score": 46
     },
     "family-indoor": {
      "base": 65,
@@ -30311,7 +30311,7 @@
      "base": 75,
      "life": 56,
      "play": 69,
-     "score": 42
+     "score": 41
     }
    },
    "transitConvenience": 57
@@ -30506,13 +30506,13 @@
      "base": 34,
      "life": 51,
      "play": 55,
-     "score": 77
+     "score": 78
     },
     "single-outdoor": {
      "base": 14,
      "life": 51,
      "play": 32,
-     "score": 60
+     "score": 61
     }
    },
    "transitConvenience": 32
@@ -30573,7 +30573,7 @@
      "base": 81,
      "life": 59,
      "play": 76,
-     "score": 52
+     "score": 53
     },
     "dinks-outdoor": {
      "base": 68,
@@ -30615,7 +30615,7 @@
      "base": 77,
      "life": 63,
      "play": 59,
-     "score": 52
+     "score": 53
     }
    },
    "transitConvenience": 32
@@ -30713,7 +30713,7 @@
      "base": 44,
      "life": 53,
      "play": 50,
-     "score": 30
+     "score": 29
     }
    },
    "transitConvenience": 32
@@ -30776,7 +30776,7 @@
      "base": 30,
      "life": 45,
      "play": 56,
-     "score": 62
+     "score": 63
     },
     "family-indoor": {
      "base": 47,
@@ -31185,7 +31185,7 @@
      "base": 26,
      "life": 46,
      "play": 62,
-     "score": 30
+     "score": 31
     },
     "family-outdoor": {
      "base": 44,
@@ -31197,7 +31197,7 @@
      "base": 61,
      "life": 66,
      "play": 62,
-     "score": 40
+     "score": 41
     },
     "senior-outdoor": {
      "base": 90,
@@ -31283,25 +31283,25 @@
      "base": 19,
      "life": 39,
      "play": 69,
-     "score": 14
+     "score": 15
     },
     "family-outdoor": {
      "base": 36,
      "life": 39,
      "play": 81,
-     "score": 19
+     "score": 18
     },
     "senior-indoor": {
      "base": 26,
      "life": 51,
      "play": 69,
-     "score": 17
+     "score": 16
     },
     "senior-outdoor": {
      "base": 50,
      "life": 51,
      "play": 81,
-     "score": 20
+     "score": 19
     },
     "single-indoor": {
      "base": 26,
@@ -31376,7 +31376,7 @@
      "base": 27,
      "life": 49,
      "play": 48,
-     "score": 28
+     "score": 27
     },
     "family-indoor": {
      "base": 23,
@@ -31400,7 +31400,7 @@
      "base": 13,
      "life": 53,
      "play": 48,
-     "score": 20
+     "score": 21
     },
     "single-indoor": {
      "base": 24,
@@ -31412,7 +31412,7 @@
      "base": 29,
      "life": 48,
      "play": 48,
-     "score": 27
+     "score": 26
     }
    },
    "transitConvenience": 52
@@ -31566,7 +31566,7 @@
      "base": 90,
      "life": 67,
      "play": 73,
-     "score": 29
+     "score": 30
     },
     "dinks-outdoor": {
      "base": 56,
@@ -31711,7 +31711,7 @@
      "base": 12,
      "life": 40,
      "play": 46,
-     "score": 55
+     "score": 56
     }
    },
    "transitConvenience": 32
@@ -31764,7 +31764,7 @@
      "to": "meiji-jingumae"
     }
    ],
-   "rentLow": 14,
+   "rentLow": 12,
    "segments": {
     "dinks-indoor": {
      "base": 22,
@@ -31776,43 +31776,43 @@
      "base": 62,
      "life": 39,
      "play": 84,
-     "score": 12
+     "score": 10
     },
     "family-indoor": {
      "base": 37,
      "life": 48,
      "play": 66,
-     "score": 16
+     "score": 15
     },
     "family-outdoor": {
      "base": 64,
      "life": 48,
      "play": 84,
-     "score": 22
+     "score": 21
     },
     "senior-indoor": {
      "base": 29,
      "life": 52,
      "play": 66,
-     "score": 12
+     "score": 10
     },
     "senior-outdoor": {
      "base": 61,
      "life": 52,
      "play": 84,
-     "score": 16
+     "score": 15
     },
     "single-indoor": {
      "base": 41,
      "life": 46,
      "play": 66,
-     "score": 8
+     "score": 7
     },
     "single-outdoor": {
      "base": 77,
      "life": 46,
      "play": 84,
-     "score": 19
+     "score": 17
     }
    },
    "transitConvenience": 32
@@ -31959,7 +31959,7 @@
      "to": "mita"
     }
    ],
-   "rentLow": 10,
+   "rentLow": 9,
    "segments": {
     "dinks-indoor": {
      "base": 19,
@@ -31971,7 +31971,7 @@
      "base": 5,
      "life": 38,
      "play": 39,
-     "score": 2
+     "score": 1
     },
     "family-indoor": {
      "base": 9,
@@ -31983,13 +31983,13 @@
      "base": 1,
      "life": 32,
      "play": 39,
-     "score": 1
+     "score": 0
     },
     "senior-indoor": {
      "base": 6,
      "life": 44,
      "play": 65,
-     "score": 2
+     "score": 1
     },
     "senior-outdoor": {
      "base": 1,
@@ -32001,7 +32001,7 @@
      "base": 23,
      "life": 40,
      "play": 65,
-     "score": 6
+     "score": 5
     },
     "single-outdoor": {
      "base": 7,
@@ -32107,7 +32107,7 @@
      "base": 81,
      "life": 59,
      "play": 71,
-     "score": 53
+     "score": 54
     }
    },
    "transitConvenience": 32
@@ -32201,7 +32201,7 @@
      "base": 23,
      "life": 36,
      "play": 71,
-     "score": 32
+     "score": 33
     },
     "single-outdoor": {
      "base": 10,
@@ -32305,7 +32305,7 @@
      "base": 3,
      "life": 36,
      "play": 33,
-     "score": 40
+     "score": 39
     }
    },
    "transitConvenience": 52
@@ -32368,7 +32368,7 @@
      "base": 67,
      "life": 61,
      "play": 57,
-     "score": 54
+     "score": 55
     },
     "family-indoor": {
      "base": 100,
@@ -32404,7 +32404,7 @@
      "base": 83,
      "life": 69,
      "play": 57,
-     "score": 75
+     "score": 74
     }
    },
    "transitConvenience": 32
@@ -32469,7 +32469,7 @@
      "base": 48,
      "life": 55,
      "play": 52,
-     "score": 61
+     "score": 62
     },
     "family-indoor": {
      "base": 92,
@@ -32600,13 +32600,13 @@
      "base": 23,
      "life": 40,
      "play": 65,
-     "score": 20
+     "score": 19
     },
     "single-outdoor": {
      "base": 5,
      "life": 40,
      "play": 36,
-     "score": 6
+     "score": 7
     }
    },
    "transitConvenience": 32
@@ -32671,7 +32671,7 @@
      "base": 66,
      "life": 52,
      "play": 67,
-     "score": 53
+     "score": 54
     },
     "family-indoor": {
      "base": 45,
@@ -32683,7 +32683,7 @@
      "base": 45,
      "life": 50,
      "play": 67,
-     "score": 44
+     "score": 45
     },
     "senior-indoor": {
      "base": 81,
@@ -32859,55 +32859,55 @@
      "to": "shibakoen"
     }
    ],
-   "rentLow": 3,
+   "rentLow": 8,
    "segments": {
     "dinks-indoor": {
      "base": 75,
      "life": 61,
      "play": 68,
-     "score": 11
+     "score": 15
     },
     "dinks-outdoor": {
      "base": 90,
      "life": 61,
      "play": 80,
-     "score": 21
+     "score": 26
     },
     "family-indoor": {
      "base": 67,
      "life": 60,
      "play": 68,
-     "score": 21
+     "score": 24
     },
     "family-outdoor": {
      "base": 87,
      "life": 60,
      "play": 80,
-     "score": 26
+     "score": 30
     },
     "senior-indoor": {
      "base": 79,
      "life": 68,
      "play": 68,
-     "score": 21
+     "score": 23
     },
     "senior-outdoor": {
      "base": 95,
      "life": 68,
      "play": 80,
-     "score": 24
+     "score": 29
     },
     "single-indoor": {
      "base": 89,
      "life": 67,
      "play": 68,
-     "score": 16
+     "score": 20
     },
     "single-outdoor": {
      "base": 95,
      "life": 67,
      "play": 80,
-     "score": 29
+     "score": 38
     }
    },
    "transitConvenience": 32
@@ -33061,13 +33061,13 @@
      "to": "higashi-ginza"
     }
    ],
-   "rentLow": 14,
+   "rentLow": 13,
    "segments": {
     "dinks-indoor": {
      "base": 4,
      "life": 30,
      "play": 52,
-     "score": 2
+     "score": 1
     },
     "dinks-outdoor": {
      "base": 1,
@@ -33103,7 +33103,7 @@
      "base": 4,
      "life": 31,
      "play": 52,
-     "score": 2
+     "score": 1
     },
     "single-outdoor": {
      "base": 3,
@@ -33162,19 +33162,19 @@
      "to": "hanzomon"
     }
    ],
-   "rentLow": 5,
+   "rentLow": 4,
    "segments": {
     "dinks-indoor": {
      "base": 62,
      "life": 59,
      "play": 63,
-     "score": 24
+     "score": 23
     },
     "dinks-outdoor": {
      "base": 61,
      "life": 59,
      "play": 54,
-     "score": 22
+     "score": 21
     },
     "family-indoor": {
      "base": 11,
@@ -33192,7 +33192,7 @@
      "base": 35,
      "life": 56,
      "play": 63,
-     "score": 8
+     "score": 7
     },
     "senior-outdoor": {
      "base": 25,
@@ -33204,13 +33204,13 @@
      "base": 46,
      "life": 51,
      "play": 63,
-     "score": 18
+     "score": 17
     },
     "single-outdoor": {
      "base": 45,
      "life": 51,
      "play": 54,
-     "score": 14
+     "score": 12
     }
    },
    "transitConvenience": 100
@@ -33363,7 +33363,7 @@
      "to": "ariake"
     }
    ],
-   "rentLow": 7,
+   "rentLow": 6,
    "segments": {
     "dinks-indoor": {
      "base": 2,
@@ -33399,7 +33399,7 @@
      "base": 20,
      "life": 45,
      "play": 74,
-     "score": 3
+     "score": 2
     },
     "single-indoor": {
      "base": 1,
@@ -33578,7 +33578,7 @@
      "base": 16,
      "life": 39,
      "play": 54,
-     "score": 7
+     "score": 8
     },
     "family-indoor": {
      "base": 52,
@@ -33669,19 +33669,19 @@
      "to": "hanzomon"
     }
    ],
-   "rentLow": 6,
+   "rentLow": 5,
    "segments": {
     "dinks-indoor": {
      "base": 42,
      "life": 53,
      "play": 59,
-     "score": 20
+     "score": 19
     },
     "dinks-outdoor": {
      "base": 82,
      "life": 53,
      "play": 84,
-     "score": 51
+     "score": 49
     },
     "family-indoor": {
      "base": 3,
@@ -33693,7 +33693,7 @@
      "base": 11,
      "life": 29,
      "play": 84,
-     "score": 9
+     "score": 8
     },
     "senior-indoor": {
      "base": 30,
@@ -33711,13 +33711,13 @@
      "base": 25,
      "life": 45,
      "play": 59,
-     "score": 14
+     "score": 13
     },
     "single-outdoor": {
      "base": 75,
      "life": 45,
      "play": 84,
-     "score": 41
+     "score": 38
     }
    },
    "transitConvenience": 100
@@ -33814,7 +33814,7 @@
      "base": 18,
      "life": 40,
      "play": 61,
-     "score": 34
+     "score": 33
     },
     "single-outdoor": {
      "base": 15,
@@ -33884,7 +33884,7 @@
      "base": 1,
      "life": 32,
      "play": 33,
-     "score": 27
+     "score": 26
     },
     "family-indoor": {
      "base": 76,
@@ -34083,7 +34083,7 @@
      "base": 35,
      "life": 58,
      "play": 39,
-     "score": 37
+     "score": 36
     },
     "family-indoor": {
      "base": 39,
@@ -34107,7 +34107,7 @@
      "base": 15,
      "life": 58,
      "play": 39,
-     "score": 22
+     "score": 21
     },
     "single-indoor": {
      "base": 44,
@@ -34186,7 +34186,7 @@
      "base": 57,
      "life": 56,
      "play": 57,
-     "score": 38
+     "score": 37
     },
     "family-indoor": {
      "base": 85,
@@ -34283,13 +34283,13 @@
      "base": 16,
      "life": 35,
      "play": 70,
-     "score": 11
+     "score": 10
     },
     "dinks-outdoor": {
      "base": 5,
      "life": 35,
      "play": 44,
-     "score": 5
+     "score": 4
     },
     "family-indoor": {
      "base": 68,
@@ -34307,7 +34307,7 @@
      "base": 41,
      "life": 56,
      "play": 70,
-     "score": 27
+     "score": 28
     },
     "senior-outdoor": {
      "base": 14,
@@ -34484,7 +34484,7 @@
      "base": 46,
      "life": 44,
      "play": 76,
-     "score": 69
+     "score": 70
     },
     "dinks-outdoor": {
      "base": 30,
@@ -34927,7 +34927,7 @@
      "base": 19,
      "life": 44,
      "play": 56,
-     "score": 26
+     "score": 27
     },
     "single-outdoor": {
      "base": 34,
@@ -34987,7 +34987,7 @@
      "to": "kokusai-tenjijo"
     }
    ],
-   "rentLow": 47,
+   "rentLow": 48,
    "segments": {
     "dinks-indoor": {
      "base": 1,
@@ -34999,19 +34999,19 @@
      "base": 15,
      "life": 19,
      "play": 84,
-     "score": 27
+     "score": 29
     },
     "family-indoor": {
      "base": 2,
      "life": 27,
      "play": 57,
-     "score": 16
+     "score": 17
     },
     "family-outdoor": {
      "base": 9,
      "life": 27,
      "play": 84,
-     "score": 26
+     "score": 27
     },
     "senior-indoor": {
      "base": 2,
@@ -35029,13 +35029,13 @@
      "base": 2,
      "life": 25,
      "play": 57,
-     "score": 13
+     "score": 14
     },
     "single-outdoor": {
      "base": 31,
      "life": 25,
      "play": 84,
-     "score": 41
+     "score": 43
     }
    },
    "transitConvenience": 78
@@ -35233,7 +35233,7 @@
      "base": 18,
      "life": 34,
      "play": 59,
-     "score": 94
+     "score": 95
     }
    },
    "transitConvenience": 52
@@ -35320,13 +35320,13 @@
      "base": 37,
      "life": 69,
      "play": 32,
-     "score": 32
+     "score": 33
     },
     "single-indoor": {
      "base": 66,
      "life": 55,
      "play": 69,
-     "score": 29
+     "score": 30
     },
     "single-outdoor": {
      "base": 22,
@@ -35379,19 +35379,19 @@
      "to": "sangubashi"
     }
    ],
-   "rentLow": 48,
+   "rentLow": 47,
    "segments": {
     "dinks-indoor": {
      "base": 61,
      "life": 64,
      "play": 56,
-     "score": 52
+     "score": 51
     },
     "dinks-outdoor": {
      "base": 56,
      "life": 64,
      "play": 44,
-     "score": 47
+     "score": 44
     },
     "family-indoor": {
      "base": 34,
@@ -35403,7 +35403,7 @@
      "base": 26,
      "life": 52,
      "play": 44,
-     "score": 36
+     "score": 34
     },
     "senior-indoor": {
      "base": 66,
@@ -35415,19 +35415,19 @@
      "base": 62,
      "life": 70,
      "play": 44,
-     "score": 50
+     "score": 49
     },
     "single-indoor": {
      "base": 49,
      "life": 57,
      "play": 56,
-     "score": 43
+     "score": 42
     },
     "single-outdoor": {
      "base": 42,
      "life": 57,
      "play": 44,
-     "score": 38
+     "score": 36
     }
    },
    "transitConvenience": 32
@@ -35495,7 +35495,7 @@
      "base": 56,
      "life": 53,
      "play": 74,
-     "score": 32
+     "score": 33
     },
     "family-outdoor": {
      "base": 82,
@@ -35507,7 +35507,7 @@
      "base": 92,
      "life": 72,
      "play": 74,
-     "score": 44
+     "score": 45
     },
     "senior-outdoor": {
      "base": 100,
@@ -35595,7 +35595,7 @@
      "base": 23,
      "life": 41,
      "play": 70,
-     "score": 22
+     "score": 21
     },
     "family-outdoor": {
      "base": 14,
@@ -35625,7 +35625,7 @@
      "base": 66,
      "life": 57,
      "play": 58,
-     "score": 30
+     "score": 29
     }
    },
    "transitConvenience": 32
@@ -35828,7 +35828,7 @@
      "base": 37,
      "life": 47,
      "play": 54,
-     "score": 76
+     "score": 77
     }
    },
    "transitConvenience": 32
@@ -36176,7 +36176,7 @@
      "to": "tokyo-big-sight"
     }
    ],
-   "rentLow": 8,
+   "rentLow": 15,
    "segments": {
     "dinks-indoor": {
      "base": 5,
@@ -36188,37 +36188,37 @@
      "base": 20,
      "life": 27,
      "play": 74,
-     "score": 1
+     "score": 2
     },
     "family-indoor": {
      "base": 7,
      "life": 33,
      "play": 61,
-     "score": 2
+     "score": 4
     },
     "family-outdoor": {
      "base": 11,
      "life": 33,
      "play": 74,
-     "score": 2
+     "score": 5
     },
     "senior-indoor": {
      "base": 12,
      "life": 50,
      "play": 61,
-     "score": 4
+     "score": 7
     },
     "senior-outdoor": {
      "base": 33,
      "life": 50,
      "play": 74,
-     "score": 5
+     "score": 9
     },
     "single-indoor": {
      "base": 3,
      "life": 25,
      "play": 61,
-     "score": 0
+     "score": 1
     },
     "single-outdoor": {
      "base": 18,
@@ -36273,37 +36273,37 @@
      "to": "omorikaigan"
     }
    ],
-   "rentLow": 11,
+   "rentLow": 15,
    "segments": {
     "dinks-indoor": {
      "base": 21,
      "life": 41,
      "play": 63,
-     "score": 11
+     "score": 14
     },
     "dinks-outdoor": {
      "base": 5,
      "life": 41,
      "play": 34,
-     "score": 4
+     "score": 5
     },
     "family-indoor": {
      "base": 4,
      "life": 28,
      "play": 63,
-     "score": 5
+     "score": 8
     },
     "family-outdoor": {
      "base": 1,
      "life": 28,
      "play": 34,
-     "score": 0
+     "score": 1
     },
     "senior-indoor": {
      "base": 5,
      "life": 44,
      "play": 63,
-     "score": 2
+     "score": 4
     },
     "senior-outdoor": {
      "base": 1,
@@ -36315,13 +36315,13 @@
      "base": 15,
      "life": 37,
      "play": 63,
-     "score": 9
+     "score": 12
     },
     "single-outdoor": {
      "base": 4,
      "life": 37,
      "play": 34,
-     "score": 2
+     "score": 4
     }
    },
    "transitConvenience": 98
@@ -36383,7 +36383,7 @@
      "base": 16,
      "life": 39,
      "play": 63,
-     "score": 9
+     "score": 8
     },
     "dinks-outdoor": {
      "base": 32,
@@ -36407,7 +36407,7 @@
      "base": 27,
      "life": 54,
      "play": 63,
-     "score": 20
+     "score": 21
     },
     "senior-outdoor": {
      "base": 33,
@@ -36419,7 +36419,7 @@
      "base": 21,
      "life": 40,
      "play": 63,
-     "score": 10
+     "score": 9
     },
     "single-outdoor": {
      "base": 38,
@@ -36525,7 +36525,7 @@
      "base": 54,
      "life": 34,
      "play": 84,
-     "score": 12
+     "score": 13
     }
    },
    "transitConvenience": 32
@@ -36621,7 +36621,7 @@
      "base": 35,
      "life": 43,
      "play": 67,
-     "score": 30
+     "score": 31
     },
     "single-outdoor": {
      "base": 33,
@@ -36678,25 +36678,25 @@
      "to": "ichigaya"
     }
    ],
-   "rentLow": 18,
+   "rentLow": 17,
    "segments": {
     "dinks-indoor": {
      "base": 33,
      "life": 49,
      "play": 61,
-     "score": 25
+     "score": 24
     },
     "dinks-outdoor": {
      "base": 76,
      "life": 49,
      "play": 84,
-     "score": 57
+     "score": 56
     },
     "family-indoor": {
      "base": 2,
      "life": 25,
      "play": 61,
-     "score": 7
+     "score": 6
     },
     "family-outdoor": {
      "base": 7,
@@ -36708,7 +36708,7 @@
      "base": 16,
      "life": 51,
      "play": 61,
-     "score": 10
+     "score": 9
     },
     "senior-outdoor": {
      "base": 55,
@@ -36720,13 +36720,13 @@
      "base": 12,
      "life": 37,
      "play": 61,
-     "score": 15
+     "score": 14
     },
     "single-outdoor": {
      "base": 60,
      "life": 37,
      "play": 84,
-     "score": 39
+     "score": 37
     }
    },
    "transitConvenience": 100
@@ -36776,7 +36776,7 @@
      "to": "ichigaya"
     }
    ],
-   "rentLow": 12,
+   "rentLow": 11,
    "segments": {
     "dinks-indoor": {
      "base": 15,
@@ -36788,7 +36788,7 @@
      "base": 51,
      "life": 34,
      "play": 85,
-     "score": 9
+     "score": 8
     },
     "family-indoor": {
      "base": 7,
@@ -36800,13 +36800,13 @@
      "base": 12,
      "life": 28,
      "play": 85,
-     "score": 7
+     "score": 6
     },
     "senior-indoor": {
      "base": 23,
      "life": 50,
      "play": 70,
-     "score": 9
+     "score": 8
     },
     "senior-outdoor": {
      "base": 51,
@@ -36876,19 +36876,19 @@
      "to": "higashi-shinjuku"
     }
    ],
-   "rentLow": 18,
+   "rentLow": 17,
    "segments": {
     "dinks-indoor": {
      "base": 71,
      "life": 63,
      "play": 64,
-     "score": 21
+     "score": 20
     },
     "dinks-outdoor": {
      "base": 94,
      "life": 63,
      "play": 86,
-     "score": 49
+     "score": 47
     },
     "family-indoor": {
      "base": 13,
@@ -36900,7 +36900,7 @@
      "base": 29,
      "life": 35,
      "play": 86,
-     "score": 14
+     "score": 13
     },
     "senior-indoor": {
      "base": 58,
@@ -36912,19 +36912,19 @@
      "base": 93,
      "life": 63,
      "play": 86,
-     "score": 36
+     "score": 35
     },
     "single-indoor": {
      "base": 55,
      "life": 54,
      "play": 64,
-     "score": 15
+     "score": 14
     },
     "single-outdoor": {
      "base": 88,
      "life": 54,
      "play": 86,
-     "score": 36
+     "score": 34
     }
    },
    "transitConvenience": 32
@@ -36975,19 +36975,19 @@
      "to": "meiji-jingumae"
     }
    ],
-   "rentLow": 9,
+   "rentLow": 8,
    "segments": {
     "dinks-indoor": {
      "base": 41,
      "life": 53,
      "play": 59,
-     "score": 12
+     "score": 11
     },
     "dinks-outdoor": {
      "base": 81,
      "life": 53,
      "play": 83,
-     "score": 34
+     "score": 32
     },
     "family-indoor": {
      "base": 4,
@@ -37011,7 +37011,7 @@
      "base": 65,
      "life": 54,
      "play": 83,
-     "score": 13
+     "score": 12
     },
     "single-indoor": {
      "base": 22,
@@ -37023,7 +37023,7 @@
      "base": 72,
      "life": 44,
      "play": 83,
-     "score": 21
+     "score": 20
     }
    },
    "transitConvenience": 73
@@ -37281,55 +37281,55 @@
      "to": "ikenoue"
     }
    ],
-   "rentLow": 10,
+   "rentLow": 8,
    "segments": {
     "dinks-indoor": {
      "base": 68,
      "life": 58,
      "play": 69,
-     "score": 13
+     "score": 11
     },
     "dinks-outdoor": {
      "base": 61,
      "life": 58,
      "play": 56,
-     "score": 8
+     "score": 7
     },
     "family-indoor": {
      "base": 18,
      "life": 39,
      "play": 69,
-     "score": 11
+     "score": 10
     },
     "family-outdoor": {
      "base": 9,
      "life": 39,
      "play": 56,
-     "score": 5
+     "score": 4
     },
     "senior-indoor": {
      "base": 70,
      "life": 66,
      "play": 69,
-     "score": 22
+     "score": 21
     },
     "senior-outdoor": {
      "base": 66,
      "life": 66,
      "play": 56,
-     "score": 14
+     "score": 13
     },
     "single-indoor": {
      "base": 63,
      "life": 54,
      "play": 69,
-     "score": 11
+     "score": 9
     },
     "single-outdoor": {
      "base": 56,
      "life": 54,
      "play": 56,
-     "score": 6
+     "score": 5
     }
    },
    "transitConvenience": 32
@@ -37385,7 +37385,7 @@
      "to": "monzen-nakacho"
     }
    ],
-   "rentLow": 4,
+   "rentLow": 3,
    "segments": {
     "dinks-indoor": {
      "base": 20,
@@ -37409,19 +37409,19 @@
      "base": 6,
      "life": 27,
      "play": 81,
-     "score": 3
+     "score": 2
     },
     "senior-indoor": {
      "base": 17,
      "life": 51,
      "play": 61,
-     "score": 3
+     "score": 2
     },
     "senior-outdoor": {
      "base": 50,
      "life": 51,
      "play": 81,
-     "score": 7
+     "score": 6
     },
     "single-indoor": {
      "base": 27,
@@ -37433,7 +37433,7 @@
      "base": 70,
      "life": 44,
      "play": 81,
-     "score": 14
+     "score": 13
     }
    },
    "transitConvenience": 57
@@ -37499,7 +37499,7 @@
      "base": 60,
      "life": 37,
      "play": 87,
-     "score": 28
+     "score": 27
     },
     "family-indoor": {
      "base": 53,
@@ -37586,13 +37586,13 @@
      "to": "azabu-juban"
     }
    ],
-   "rentLow": 9,
+   "rentLow": 7,
    "segments": {
     "dinks-indoor": {
      "base": 39,
      "life": 49,
      "play": 64,
-     "score": 10
+     "score": 8
     },
     "dinks-outdoor": {
      "base": 17,
@@ -37604,7 +37604,7 @@
      "base": 23,
      "life": 43,
      "play": 64,
-     "score": 12
+     "score": 11
     },
     "family-outdoor": {
      "base": 5,
@@ -37616,7 +37616,7 @@
      "base": 18,
      "life": 50,
      "play": 64,
-     "score": 5
+     "score": 4
     },
     "senior-outdoor": {
      "base": 3,
@@ -37628,13 +37628,13 @@
      "base": 45,
      "life": 50,
      "play": 64,
-     "score": 11
+     "score": 9
     },
     "single-outdoor": {
      "base": 21,
      "life": 50,
      "play": 39,
-     "score": 4
+     "score": 3
     }
    },
    "transitConvenience": 57
@@ -37685,13 +37685,13 @@
      "to": "azabu-juban"
     }
    ],
-   "rentLow": 8,
+   "rentLow": 6,
    "segments": {
     "dinks-indoor": {
      "base": 51,
      "life": 48,
      "play": 73,
-     "score": 11
+     "score": 9
     },
     "dinks-outdoor": {
      "base": 14,
@@ -37703,19 +37703,19 @@
      "base": 82,
      "life": 65,
      "play": 73,
-     "score": 35
+     "score": 33
     },
     "family-outdoor": {
      "base": 54,
      "life": 65,
      "play": 37,
-     "score": 18
+     "score": 16
     },
     "senior-indoor": {
      "base": 51,
      "life": 57,
      "play": 73,
-     "score": 15
+     "score": 14
     },
     "senior-outdoor": {
      "base": 13,
@@ -37727,13 +37727,13 @@
      "base": 69,
      "life": 54,
      "play": 73,
-     "score": 16
+     "score": 15
     },
     "single-outdoor": {
      "base": 27,
      "life": 54,
      "play": 37,
-     "score": 4
+     "score": 3
     }
    },
    "transitConvenience": 57
@@ -37790,7 +37790,7 @@
      "base": 57,
      "life": 56,
      "play": 65,
-     "score": 32
+     "score": 33
     },
     "dinks-outdoor": {
      "base": 32,
@@ -37932,7 +37932,7 @@
      "base": 16,
      "life": 27,
      "play": 69,
-     "score": 73
+     "score": 74
     }
    },
    "transitConvenience": 32
@@ -38083,25 +38083,25 @@
      "to": "iidabashi"
     }
    ],
-   "rentLow": 20,
+   "rentLow": 19,
    "segments": {
     "dinks-indoor": {
      "base": 99,
      "life": 76,
      "play": 73,
-     "score": 50
+     "score": 49
     },
     "dinks-outdoor": {
      "base": 99,
      "life": 76,
      "play": 89,
-     "score": 79
+     "score": 78
     },
     "family-indoor": {
      "base": 37,
      "life": 45,
      "play": 73,
-     "score": 20
+     "score": 19
     },
     "family-outdoor": {
      "base": 62,
@@ -38113,25 +38113,25 @@
      "base": 94,
      "life": 74,
      "play": 73,
-     "score": 41
+     "score": 40
     },
     "senior-outdoor": {
      "base": 100,
      "life": 74,
      "play": 89,
-     "score": 63
+     "score": 61
     },
     "single-indoor": {
      "base": 95,
      "life": 69,
      "play": 73,
-     "score": 42
+     "score": 41
     },
     "single-outdoor": {
      "base": 99,
      "life": 69,
      "play": 89,
-     "score": 74
+     "score": 72
     }
    },
    "transitConvenience": 32
@@ -38300,7 +38300,7 @@
      "base": 68,
      "life": 56,
      "play": 79,
-     "score": 46
+     "score": 47
     },
     "family-outdoor": {
      "base": 24,
@@ -38382,25 +38382,25 @@
      "to": "shinanomachi"
     }
    ],
-   "rentLow": 17,
+   "rentLow": 16,
    "segments": {
     "dinks-indoor": {
      "base": 93,
      "life": 73,
      "play": 67,
-     "score": 45
+     "score": 43
     },
     "dinks-outdoor": {
      "base": 100,
      "life": 73,
      "play": 94,
-     "score": 86
+     "score": 84
     },
     "family-indoor": {
      "base": 44,
      "life": 51,
      "play": 67,
-     "score": 24
+     "score": 22
     },
     "family-outdoor": {
      "base": 84,
@@ -38418,19 +38418,19 @@
      "base": 97,
      "life": 64,
      "play": 94,
-     "score": 43
+     "score": 41
     },
     "single-indoor": {
      "base": 92,
      "life": 69,
      "play": 67,
-     "score": 42
+     "score": 40
     },
     "single-outdoor": {
      "base": 99,
      "life": 69,
      "play": 94,
-     "score": 85
+     "score": 83
     }
    },
    "transitConvenience": 57
@@ -38491,7 +38491,7 @@
      "base": 72,
      "life": 63,
      "play": 64,
-     "score": 43
+     "score": 44
     },
     "dinks-outdoor": {
      "base": 90,
@@ -38521,7 +38521,7 @@
      "base": 82,
      "life": 60,
      "play": 80,
-     "score": 44
+     "score": 45
     },
     "single-indoor": {
      "base": 68,
@@ -38593,7 +38593,7 @@
      "base": 58,
      "life": 68,
      "play": 38,
-     "score": 78
+     "score": 79
     },
     "family-indoor": {
      "base": 93,
@@ -38715,7 +38715,7 @@
      "base": 30,
      "life": 54,
      "play": 63,
-     "score": 25
+     "score": 26
     },
     "senior-outdoor": {
      "base": 37,
@@ -38818,13 +38818,13 @@
      "base": 48,
      "life": 59,
      "play": 66,
-     "score": 30
+     "score": 31
     },
     "senior-outdoor": {
      "base": 45,
      "life": 59,
      "play": 59,
-     "score": 29
+     "score": 28
     },
     "single-indoor": {
      "base": 70,
@@ -38888,19 +38888,19 @@
      "to": "ikenoue"
     }
    ],
-   "rentLow": 77,
+   "rentLow": 76,
    "segments": {
     "dinks-indoor": {
      "base": 40,
      "life": 55,
      "play": 56,
-     "score": 70
+     "score": 69
     },
     "dinks-outdoor": {
      "base": 20,
      "life": 55,
      "play": 32,
-     "score": 52
+     "score": 50
     },
     "family-indoor": {
      "base": 79,
@@ -38912,19 +38912,19 @@
      "base": 66,
      "life": 71,
      "play": 32,
-     "score": 78
+     "score": 77
     },
     "senior-indoor": {
      "base": 63,
      "life": 69,
      "play": 56,
-     "score": 86
+     "score": 84
     },
     "senior-outdoor": {
      "base": 35,
      "life": 69,
      "play": 32,
-     "score": 75
+     "score": 74
     },
     "single-indoor": {
      "base": 16,
@@ -38936,7 +38936,7 @@
      "base": 5,
      "life": 42,
      "play": 32,
-     "score": 33
+     "score": 31
     }
    },
    "transitConvenience": 32
@@ -38985,13 +38985,13 @@
      "to": "tamachi"
     }
    ],
-   "rentLow": 9,
+   "rentLow": 11,
    "segments": {
     "dinks-indoor": {
      "base": 27,
      "life": 36,
      "play": 76,
-     "score": 6
+     "score": 7
     },
     "dinks-outdoor": {
      "base": 2,
@@ -39009,7 +39009,7 @@
      "base": 1,
      "life": 31,
      "play": 37,
-     "score": 0
+     "score": 1
     },
     "senior-indoor": {
      "base": 17,
@@ -39027,7 +39027,7 @@
      "base": 35,
      "life": 37,
      "play": 76,
-     "score": 6
+     "score": 8
     },
     "single-outdoor": {
      "base": 5,
@@ -39083,7 +39083,7 @@
      "to": "mita"
     }
    ],
-   "rentLow": 11,
+   "rentLow": 10,
    "segments": {
     "dinks-indoor": {
      "base": 20,
@@ -39101,13 +39101,13 @@
      "base": 14,
      "life": 35,
      "play": 67,
-     "score": 8
+     "score": 7
     },
     "family-outdoor": {
      "base": 2,
      "life": 35,
      "play": 33,
-     "score": 1
+     "score": 0
     },
     "senior-indoor": {
      "base": 31,
@@ -39287,55 +39287,55 @@
      "to": "monzen-nakacho"
     }
    ],
-   "rentLow": 3,
+   "rentLow": 17,
    "segments": {
     "dinks-indoor": {
      "base": 54,
      "life": 52,
      "play": 67,
-     "score": 7
+     "score": 16
     },
     "dinks-outdoor": {
      "base": 91,
      "life": 52,
      "play": 97,
-     "score": 25
+     "score": 45
     },
     "family-indoor": {
      "base": 19,
      "life": 40,
      "play": 67,
-     "score": 8
+     "score": 13
     },
     "family-outdoor": {
      "base": 56,
      "life": 40,
      "play": 97,
-     "score": 13
+     "score": 23
     },
     "senior-indoor": {
      "base": 39,
      "life": 56,
      "play": 67,
-     "score": 8
+     "score": 16
     },
     "senior-outdoor": {
      "base": 87,
      "life": 56,
      "play": 97,
-     "score": 19
+     "score": 29
     },
     "single-indoor": {
      "base": 57,
      "life": 52,
      "play": 67,
-     "score": 6
+     "score": 17
     },
     "single-outdoor": {
      "base": 93,
      "life": 52,
      "play": 97,
-     "score": 25
+     "score": 51
     }
    },
    "transitConvenience": 32
@@ -39506,13 +39506,13 @@
      "base": 44,
      "life": 34,
      "play": 80,
-     "score": 4
+     "score": 3
     },
     "family-indoor": {
      "base": 11,
      "life": 31,
      "play": 71,
-     "score": 3
+     "score": 2
     },
     "family-outdoor": {
      "base": 13,
@@ -39695,19 +39695,19 @@
      "to": "tamachi"
     }
    ],
-   "rentLow": 15,
+   "rentLow": 13,
    "segments": {
     "dinks-indoor": {
      "base": 88,
      "life": 71,
      "play": 63,
-     "score": 35
+     "score": 31
     },
     "dinks-outdoor": {
      "base": 94,
      "life": 71,
      "play": 74,
-     "score": 57
+     "score": 54
     },
     "family-indoor": {
      "base": 33,
@@ -39719,31 +39719,31 @@
      "base": 48,
      "life": 48,
      "play": 74,
-     "score": 21
+     "score": 19
     },
     "senior-indoor": {
      "base": 76,
      "life": 69,
      "play": 63,
-     "score": 26
+     "score": 25
     },
     "senior-outdoor": {
      "base": 95,
      "life": 69,
      "play": 74,
-     "score": 35
+     "score": 33
     },
     "single-indoor": {
      "base": 85,
      "life": 67,
      "play": 63,
-     "score": 31
+     "score": 29
     },
     "single-outdoor": {
      "base": 92,
      "life": 67,
      "play": 74,
-     "score": 53
+     "score": 49
     }
    },
    "transitConvenience": 52
@@ -39798,37 +39798,37 @@
      "to": "todoroki"
     }
    ],
-   "rentLow": 64,
+   "rentLow": 63,
    "segments": {
     "dinks-indoor": {
      "base": 19,
      "life": 32,
      "play": 76,
-     "score": 51
+     "score": 50
     },
     "dinks-outdoor": {
      "base": 11,
      "life": 32,
      "play": 57,
-     "score": 39
+     "score": 37
     },
     "family-indoor": {
      "base": 26,
      "life": 40,
      "play": 76,
-     "score": 47
+     "score": 45
     },
     "family-outdoor": {
      "base": 10,
      "life": 40,
      "play": 57,
-     "score": 43
+     "score": 42
     },
     "senior-indoor": {
      "base": 25,
      "life": 48,
      "play": 76,
-     "score": 45
+     "score": 43
     },
     "senior-outdoor": {
      "base": 11,
@@ -39840,13 +39840,13 @@
      "base": 11,
      "life": 26,
      "play": 76,
-     "score": 45
+     "score": 44
     },
     "single-outdoor": {
      "base": 6,
      "life": 26,
      "play": 57,
-     "score": 31
+     "score": 30
     }
    },
    "transitConvenience": 68
@@ -39897,19 +39897,19 @@
      "to": "shimbashi"
     }
    ],
-   "rentLow": 4,
+   "rentLow": 3,
    "segments": {
     "dinks-indoor": {
      "base": 72,
      "life": 64,
      "play": 63,
-     "score": 20
+     "score": 19
     },
     "dinks-outdoor": {
      "base": 75,
      "life": 64,
      "play": 59,
-     "score": 21
+     "score": 20
     },
     "family-indoor": {
      "base": 13,
@@ -39921,7 +39921,7 @@
      "base": 8,
      "life": 36,
      "play": 59,
-     "score": 4
+     "score": 3
     },
     "senior-indoor": {
      "base": 52,
@@ -39933,7 +39933,7 @@
      "base": 57,
      "life": 62,
      "play": 59,
-     "score": 8
+     "score": 7
     },
     "single-indoor": {
      "base": 66,
@@ -39945,7 +39945,7 @@
      "base": 71,
      "life": 59,
      "play": 59,
-     "score": 16
+     "score": 15
     }
    },
    "transitConvenience": 52
@@ -40013,25 +40013,25 @@
      "base": 32,
      "life": 26,
      "play": 85,
-     "score": 8
+     "score": 9
     },
     "family-indoor": {
      "base": 25,
      "life": 43,
      "play": 67,
-     "score": 19
+     "score": 20
     },
     "family-outdoor": {
      "base": 50,
      "life": 43,
      "play": 85,
-     "score": 27
+     "score": 26
     },
     "senior-indoor": {
      "base": 20,
      "life": 50,
      "play": 67,
-     "score": 18
+     "score": 17
     },
     "senior-outdoor": {
      "base": 53,
@@ -40043,7 +40043,7 @@
      "base": 9,
      "life": 30,
      "play": 67,
-     "score": 4
+     "score": 5
     },
     "single-outdoor": {
      "base": 44,
@@ -40141,7 +40141,7 @@
      "base": 97,
      "life": 73,
      "play": 70,
-     "score": 49
+     "score": 50
     },
     "single-outdoor": {
      "base": 90,
@@ -40398,7 +40398,7 @@
      "to": "hamamatsucho"
     }
    ],
-   "rentLow": 17,
+   "rentLow": 25,
    "segments": {
     "dinks-indoor": {
      "base": 2,
@@ -40410,43 +40410,43 @@
      "base": 6,
      "life": 24,
      "play": 61,
-     "score": 2
+     "score": 4
     },
     "family-indoor": {
      "base": 7,
      "life": 37,
      "play": 51,
-     "score": 7
+     "score": 10
     },
     "family-outdoor": {
      "base": 9,
      "life": 37,
      "play": 61,
-     "score": 7
+     "score": 12
     },
     "senior-indoor": {
      "base": 2,
      "life": 41,
      "play": 51,
-     "score": 0
+     "score": 2
     },
     "senior-outdoor": {
      "base": 4,
      "life": 41,
      "play": 61,
-     "score": 2
+     "score": 3
     },
     "single-indoor": {
      "base": 2,
      "life": 27,
      "play": 51,
-     "score": 2
+     "score": 3
     },
     "single-outdoor": {
      "base": 9,
      "life": 27,
      "play": 61,
-     "score": 2
+     "score": 4
     }
    },
    "transitConvenience": 52
@@ -40504,7 +40504,7 @@
      "base": 25,
      "life": 42,
      "play": 65,
-     "score": 78
+     "score": 79
     },
     "dinks-outdoor": {
      "base": 17,
@@ -40546,7 +40546,7 @@
      "base": 19,
      "life": 41,
      "play": 50,
-     "score": 72
+     "score": 73
     }
    },
    "transitConvenience": 32
@@ -40627,25 +40627,25 @@
      "base": 39,
      "life": 57,
      "play": 65,
-     "score": 17
+     "score": 16
     },
     "senior-outdoor": {
      "base": 45,
      "life": 57,
      "play": 65,
-     "score": 13
+     "score": 14
     },
     "single-indoor": {
      "base": 36,
      "life": 45,
      "play": 65,
-     "score": 9
+     "score": 8
     },
     "single-outdoor": {
      "base": 49,
      "life": 45,
      "play": 65,
-     "score": 9
+     "score": 10
     }
    },
    "transitConvenience": 32
@@ -40726,7 +40726,7 @@
      "base": 100,
      "life": 80,
      "play": 75,
-     "score": 85
+     "score": 86
     },
     "senior-outdoor": {
      "base": 92,
@@ -40814,7 +40814,7 @@
      "base": 33,
      "life": 43,
      "play": 74,
-     "score": 26
+     "score": 27
     },
     "family-outdoor": {
      "base": 12,
@@ -40844,7 +40844,7 @@
      "base": 36,
      "life": 50,
      "play": 50,
-     "score": 12
+     "score": 13
     }
    },
    "transitConvenience": 32
@@ -40903,7 +40903,7 @@
      "base": 24,
      "life": 35,
      "play": 74,
-     "score": 33
+     "score": 34
     },
     "dinks-outdoor": {
      "base": 22,
@@ -41035,7 +41035,7 @@
      "base": 46,
      "life": 66,
      "play": 45,
-     "score": 26
+     "score": 25
     },
     "single-indoor": {
      "base": 79,
@@ -41138,13 +41138,13 @@
      "base": 73,
      "life": 73,
      "play": 45,
-     "score": 49
+     "score": 50
     },
     "single-indoor": {
      "base": 81,
      "life": 59,
      "play": 72,
-     "score": 49
+     "score": 50
     },
     "single-outdoor": {
      "base": 51,
@@ -41301,25 +41301,25 @@
      "to": "shimbashi"
     }
    ],
-   "rentLow": 10,
+   "rentLow": 9,
    "segments": {
     "dinks-indoor": {
      "base": 55,
      "life": 52,
      "play": 69,
-     "score": 30
+     "score": 29
     },
     "dinks-outdoor": {
      "base": 86,
      "life": 52,
      "play": 89,
-     "score": 62
+     "score": 60
     },
     "family-indoor": {
      "base": 7,
      "life": 29,
      "play": 69,
-     "score": 10
+     "score": 8
     },
     "family-outdoor": {
      "base": 17,
@@ -41337,19 +41337,19 @@
      "base": 72,
      "life": 54,
      "play": 89,
-     "score": 17
+     "score": 16
     },
     "single-indoor": {
      "base": 54,
      "life": 50,
      "play": 69,
-     "score": 29
+     "score": 27
     },
     "single-outdoor": {
      "base": 86,
      "life": 50,
      "play": 89,
-     "score": 62
+     "score": 60
     }
    },
    "transitConvenience": 98
@@ -41695,7 +41695,7 @@
      "to": "shinonome"
     }
    ],
-   "rentLow": 6,
+   "rentLow": 5,
    "segments": {
     "dinks-indoor": {
      "base": 5,
@@ -41719,13 +41719,13 @@
      "base": 20,
      "life": 34,
      "play": 81,
-     "score": 4
+     "score": 3
     },
     "senior-indoor": {
      "base": 9,
      "life": 53,
      "play": 50,
-     "score": 2
+     "score": 1
     },
     "senior-outdoor": {
      "base": 57,
@@ -42004,7 +42004,7 @@
      "to": "hanzomon"
     }
    ],
-   "rentLow": 1,
+   "rentLow": 2,
    "segments": {
     "dinks-indoor": {
      "base": 47,
@@ -42016,13 +42016,13 @@
      "base": 94,
      "life": 59,
      "play": 93,
-     "score": 43
+     "score": 44
     },
     "family-indoor": {
      "base": 6,
      "life": 33,
      "play": 55,
-     "score": 2
+     "score": 3
     },
     "family-outdoor": {
      "base": 33,
@@ -42034,7 +42034,7 @@
      "base": 15,
      "life": 53,
      "play": 55,
-     "score": 1
+     "score": 2
     },
     "senior-outdoor": {
      "base": 76,
@@ -42046,13 +42046,13 @@
      "base": 30,
      "life": 48,
      "play": 55,
-     "score": 5
+     "score": 6
     },
     "single-outdoor": {
      "base": 87,
      "life": 48,
      "play": 93,
-     "score": 29
+     "score": 30
     }
    },
    "transitConvenience": 52
@@ -42112,7 +42112,7 @@
      "base": 51,
      "life": 48,
      "play": 72,
-     "score": 22
+     "score": 21
     },
     "dinks-outdoor": {
      "base": 25,
@@ -42255,7 +42255,7 @@
      "base": 40,
      "life": 58,
      "play": 40,
-     "score": 84
+     "score": 85
     }
    },
    "transitConvenience": 32
@@ -42418,7 +42418,7 @@
      "base": 77,
      "life": 54,
      "play": 78,
-     "score": 44
+     "score": 43
     },
     "family-indoor": {
      "base": 29,
@@ -42448,13 +42448,13 @@
      "base": 26,
      "life": 48,
      "play": 54,
-     "score": 14
+     "score": 15
     },
     "single-outdoor": {
      "base": 74,
      "life": 48,
      "play": 78,
-     "score": 41
+     "score": 40
     }
    },
    "transitConvenience": 32
@@ -42516,13 +42516,13 @@
      "base": 26,
      "life": 52,
      "play": 50,
-     "score": 12
+     "score": 11
     },
     "dinks-outdoor": {
      "base": 53,
      "life": 52,
      "play": 59,
-     "score": 19
+     "score": 20
     },
     "family-indoor": {
      "base": 12,
@@ -42540,7 +42540,7 @@
      "base": 23,
      "life": 58,
      "play": 50,
-     "score": 16
+     "score": 15
     },
     "senior-outdoor": {
      "base": 39,
@@ -42614,25 +42614,25 @@
      "to": "tatsumi"
     }
    ],
-   "rentLow": 16,
+   "rentLow": 15,
    "segments": {
     "dinks-indoor": {
      "base": 32,
      "life": 47,
      "play": 64,
-     "score": 12
+     "score": 11
     },
     "dinks-outdoor": {
      "base": 69,
      "life": 47,
      "play": 79,
-     "score": 26
+     "score": 25
     },
     "family-indoor": {
      "base": 10,
      "life": 33,
      "play": 64,
-     "score": 10
+     "score": 9
     },
     "family-outdoor": {
      "base": 18,
@@ -42644,7 +42644,7 @@
      "base": 11,
      "life": 48,
      "play": 64,
-     "score": 7
+     "score": 6
     },
     "senior-outdoor": {
      "base": 33,
@@ -42656,13 +42656,13 @@
      "base": 41,
      "life": 48,
      "play": 64,
-     "score": 14
+     "score": 13
     },
     "single-outdoor": {
      "base": 75,
      "life": 48,
      "play": 79,
-     "score": 29
+     "score": 27
     }
    },
    "transitConvenience": 52
@@ -42718,7 +42718,7 @@
      "to": "higashi-ginza"
     }
    ],
-   "rentLow": 15,
+   "rentLow": 14,
    "segments": {
     "dinks-indoor": {
      "base": 7,
@@ -42760,13 +42760,13 @@
      "base": 7,
      "life": 35,
      "play": 54,
-     "score": 3
+     "score": 2
     },
     "single-outdoor": {
      "base": 38,
      "life": 35,
      "play": 73,
-     "score": 5
+     "score": 6
     }
    },
    "transitConvenience": 32
@@ -42864,7 +42864,7 @@
      "base": 37,
      "life": 48,
      "play": 62,
-     "score": 13
+     "score": 12
     },
     "single-outdoor": {
      "base": 55,
@@ -42948,13 +42948,13 @@
      "base": 13,
      "life": 25,
      "play": 93,
-     "score": 3
+     "score": 4
     },
     "senior-indoor": {
      "base": 26,
      "life": 55,
      "play": 59,
-     "score": 4
+     "score": 5
     },
     "senior-outdoor": {
      "base": 82,
@@ -43146,7 +43146,7 @@
      "base": 61,
      "life": 46,
      "play": 87,
-     "score": 38
+     "score": 39
     },
     "senior-indoor": {
      "base": 68,
@@ -43170,7 +43170,7 @@
      "base": 94,
      "life": 62,
      "play": 87,
-     "score": 80
+     "score": 81
     }
    },
    "transitConvenience": 52
@@ -43234,7 +43234,7 @@
      "base": 4,
      "life": 28,
      "play": 54,
-     "score": 41
+     "score": 40
     },
     "family-indoor": {
      "base": 55,
@@ -43539,7 +43539,7 @@
      "base": 33,
      "life": 50,
      "play": 50,
-     "score": 46
+     "score": 47
     },
     "family-indoor": {
      "base": 86,
@@ -43639,7 +43639,7 @@
      "base": 9,
      "life": 44,
      "play": 37,
-     "score": 43
+     "score": 42
     },
     "family-indoor": {
      "base": 89,
@@ -43675,7 +43675,7 @@
      "base": 7,
      "life": 41,
      "play": 37,
-     "score": 41
+     "score": 40
     }
    },
    "transitConvenience": 32
@@ -43843,7 +43843,7 @@
      "base": 96,
      "life": 82,
      "play": 65,
-     "score": 60
+     "score": 61
     },
     "family-indoor": {
      "base": 96,
@@ -43942,7 +43942,7 @@
      "base": 83,
      "life": 58,
      "play": 77,
-     "score": 42
+     "score": 41
     },
     "family-indoor": {
      "base": 54,
@@ -44041,7 +44041,7 @@
      "base": 12,
      "life": 43,
      "play": 42,
-     "score": 7
+     "score": 8
     },
     "family-indoor": {
      "base": 50,
@@ -44077,7 +44077,7 @@
      "base": 21,
      "life": 48,
      "play": 42,
-     "score": 11
+     "score": 12
     }
    },
    "transitConvenience": 32
@@ -44134,7 +44134,7 @@
      "base": 65,
      "life": 49,
      "play": 81,
-     "score": 26
+     "score": 27
     },
     "dinks-outdoor": {
      "base": 66,
@@ -44176,7 +44176,7 @@
      "base": 67,
      "life": 47,
      "play": 74,
-     "score": 23
+     "score": 24
     }
    },
    "transitConvenience": 32
@@ -44530,7 +44530,7 @@
      "base": 11,
      "life": 32,
      "play": 58,
-     "score": 46
+     "score": 47
     },
     "family-indoor": {
      "base": 41,
@@ -44566,7 +44566,7 @@
      "base": 11,
      "life": 32,
      "play": 58,
-     "score": 50
+     "score": 51
     }
    },
    "transitConvenience": 32
@@ -44628,7 +44628,7 @@
      "base": 3,
      "life": 28,
      "play": 54,
-     "score": 43
+     "score": 44
     },
     "dinks-outdoor": {
      "base": 37,
@@ -44768,7 +44768,7 @@
      "base": 69,
      "life": 44,
      "play": 80,
-     "score": 61
+     "score": 62
     }
    },
    "transitConvenience": 32
@@ -44921,19 +44921,19 @@
      "to": "shinanomachi"
     }
    ],
-   "rentLow": 12,
+   "rentLow": 11,
    "segments": {
     "dinks-indoor": {
      "base": 55,
      "life": 62,
      "play": 54,
-     "score": 26
+     "score": 25
     },
     "dinks-outdoor": {
      "base": 67,
      "life": 62,
      "play": 54,
-     "score": 32
+     "score": 31
     },
     "family-indoor": {
      "base": 57,
@@ -44945,7 +44945,7 @@
      "base": 67,
      "life": 62,
      "play": 54,
-     "score": 30
+     "score": 29
     },
     "senior-indoor": {
      "base": 19,
@@ -44963,13 +44963,13 @@
      "base": 64,
      "life": 64,
      "play": 54,
-     "score": 31
+     "score": 30
     },
     "single-outdoor": {
      "base": 73,
      "life": 64,
      "play": 54,
-     "score": 37
+     "score": 34
     }
    },
    "transitConvenience": 93
@@ -45025,7 +45025,7 @@
      "base": 52,
      "life": 62,
      "play": 52,
-     "score": 19
+     "score": 20
     },
     "dinks-outdoor": {
      "base": 93,
@@ -45049,7 +45049,7 @@
      "base": 31,
      "life": 59,
      "play": 52,
-     "score": 16
+     "score": 15
     },
     "senior-outdoor": {
      "base": 85,
@@ -45118,31 +45118,31 @@
      "to": "ichigaya"
     }
    ],
-   "rentLow": 14,
+   "rentLow": 13,
    "segments": {
     "dinks-indoor": {
      "base": 46,
      "life": 45,
      "play": 73,
-     "score": 19
+     "score": 18
     },
     "dinks-outdoor": {
      "base": 69,
      "life": 45,
      "play": 81,
-     "score": 30
+     "score": 28
     },
     "family-indoor": {
      "base": 17,
      "life": 37,
      "play": 73,
-     "score": 13
+     "score": 12
     },
     "family-outdoor": {
      "base": 29,
      "life": 37,
      "play": 81,
-     "score": 15
+     "score": 14
     },
     "senior-indoor": {
      "base": 54,
@@ -45154,19 +45154,19 @@
      "base": 75,
      "life": 58,
      "play": 81,
-     "score": 21
+     "score": 20
     },
     "single-indoor": {
      "base": 54,
      "life": 47,
      "play": 73,
-     "score": 22
+     "score": 21
     },
     "single-outdoor": {
      "base": 76,
      "life": 47,
      "play": 81,
-     "score": 34
+     "score": 32
     }
    },
    "transitConvenience": 73
@@ -45354,13 +45354,13 @@
      "base": 81,
      "life": 59,
      "play": 84,
-     "score": 35
+     "score": 36
     },
     "single-indoor": {
      "base": 60,
      "life": 58,
      "play": 61,
-     "score": 28
+     "score": 29
     },
     "single-outdoor": {
      "base": 91,
@@ -45424,7 +45424,7 @@
      "base": 66,
      "life": 60,
      "play": 65,
-     "score": 69
+     "score": 70
     },
     "dinks-outdoor": {
      "base": 47,
@@ -45517,7 +45517,7 @@
      "to": "shimbashi"
     }
    ],
-   "rentLow": 8,
+   "rentLow": 7,
    "segments": {
     "dinks-indoor": {
      "base": 33,
@@ -45529,13 +45529,13 @@
      "base": 77,
      "life": 46,
      "play": 89,
-     "score": 48
+     "score": 46
     },
     "family-indoor": {
      "base": 2,
      "life": 23,
      "play": 64,
-     "score": 4
+     "score": 3
     },
     "family-outdoor": {
      "base": 7,
@@ -45553,19 +45553,19 @@
      "base": 42,
      "life": 46,
      "play": 89,
-     "score": 7
+     "score": 6
     },
     "single-indoor": {
      "base": 32,
      "life": 43,
      "play": 64,
-     "score": 18
+     "score": 16
     },
     "single-outdoor": {
      "base": 76,
      "life": 43,
      "play": 89,
-     "score": 46
+     "score": 44
     }
    },
    "transitConvenience": 100
@@ -45617,19 +45617,19 @@
      "to": "suidobashi"
     }
    ],
-   "rentLow": 16,
+   "rentLow": 15,
    "segments": {
     "dinks-indoor": {
      "base": 94,
      "life": 72,
      "play": 69,
-     "score": 34
+     "score": 33
     },
     "dinks-outdoor": {
      "base": 98,
      "life": 72,
      "play": 89,
-     "score": 69
+     "score": 67
     },
     "family-indoor": {
      "base": 26,
@@ -45647,25 +45647,25 @@
      "base": 80,
      "life": 68,
      "play": 69,
-     "score": 28
+     "score": 27
     },
     "senior-outdoor": {
      "base": 98,
      "life": 68,
      "play": 89,
-     "score": 45
+     "score": 44
     },
     "single-indoor": {
      "base": 88,
      "life": 65,
      "play": 69,
-     "score": 27
+     "score": 25
     },
     "single-outdoor": {
      "base": 98,
      "life": 65,
      "play": 89,
-     "score": 60
+     "score": 58
     }
    },
    "transitConvenience": 32
@@ -45840,7 +45840,7 @@
      "base": 98,
      "life": 80,
      "play": 56,
-     "score": 77
+     "score": 78
     },
     "senior-indoor": {
      "base": 99,
@@ -45917,19 +45917,19 @@
      "to": "omorikaigan"
     }
    ],
-   "rentLow": 76,
+   "rentLow": 77,
    "segments": {
     "dinks-indoor": {
      "base": 31,
      "life": 52,
      "play": 55,
-     "score": 61
+     "score": 64
     },
     "dinks-outdoor": {
      "base": 64,
      "life": 52,
      "play": 66,
-     "score": 82
+     "score": 84
     },
     "family-indoor": {
      "base": 37,
@@ -45941,31 +45941,31 @@
      "base": 53,
      "life": 53,
      "play": 66,
-     "score": 70
+     "score": 71
     },
     "senior-indoor": {
      "base": 21,
      "life": 55,
      "play": 55,
-     "score": 54
+     "score": 55
     },
     "senior-outdoor": {
      "base": 41,
      "life": 55,
      "play": 66,
-     "score": 76
+     "score": 77
     },
     "single-indoor": {
      "base": 29,
      "life": 48,
      "play": 55,
-     "score": 56
+     "score": 58
     },
     "single-outdoor": {
      "base": 59,
      "life": 48,
      "play": 66,
-     "score": 81
+     "score": 84
     }
    },
    "transitConvenience": 32

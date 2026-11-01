@@ -815,9 +815,13 @@ def build(st, ctx):
                                            minuteWord=word(p, "minute", m))
                      for h, m in fastest))
     rent_txt = ""
-    if band and "oneRoom" in band["bands"]:
-        b = band["bands"]["oneRoom"]
-        rent_txt = p["taglineRent"].format(low=money(b["low"]), high=money(b["high"]), unit=unit)
+    # 見出しにはワンルームの相場を出す。ワンルームを帯にしなかった駅（出典が1社だけ、
+    # 1Kより大きく高く出たなど）では、1Kの相場を出す。
+    head_layout = next((l for l in ("oneRoom", "oneK") if band and l in band["bands"]), None)
+    if head_layout:
+        b = band["bands"][head_layout]
+        key = "taglineRent" if head_layout == "oneRoom" else "taglineRentOneK"
+        rent_txt = p[key].format(low=money(b["low"]), high=money(b["high"]), unit=unit)
     c["tagline"] = p["tagline"].format(
         reach=reach, lineCount=len(lines), lineWord=word(p, "line", len(lines)),
         rent=rent_txt).strip()
@@ -1006,6 +1010,10 @@ def build(st, ctx):
         for g in groups[1:]:
             note.append(p["rentNoteMore"].format(items=rent_items(g)))
         note.append(p["rentNoteTrailer"])
+        # ワンルームの帯が1Kより上に出る駅には、そうなりうる理由を添える。
+        # 相場は掲載物件の平均なので、間取りの広さの順と相場の順が逆になることがある。
+        if "oneRoom" in b and "oneK" in b and b["oneRoom"]["low"] > b["oneK"]["low"]:
+            note.append(p["rentNoteInverted"])
         c["rentRange"] = {
             "note": "".join(note),
             "drivers": list(p["rentDrivers"]),
@@ -1014,6 +1022,9 @@ def build(st, ctx):
         if "oneRoom" in b:
             reason.append(p["rentReason"].format(
                 low=money(b["oneRoom"]["low"]), high=money(b["oneRoom"]["high"]), unit=unit))
+        elif "oneK" in b:
+            reason.append(p["rentReasonOneK"].format(
+                low=money(b["oneK"]["low"]), high=money(b["oneK"]["high"]), unit=unit))
         # 「家賃がこの水準である理由」の節なので、相場の数字を繰り返すだけで
         # 終わらせない。通勤時間に対してどの位置にあるかを書き、
         # 相場を押し上げている材料と抑えている材料を添える（ルール49）。
