@@ -2,8 +2,8 @@
   "slug": "higashi-ginza",
   "locale": "en",
   "name": "Higashi-Ginza",
-  "tagline": "Toranomon in 6 minutes and Tokyo in 9 minutes. Served by 2 lines. A one-room flat rents for roughly ¥160,000 to ¥170,000.",
-  "summary": "The station is in Chuo City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 10 minutes to Otemachi, 22 minutes to Shinjuku, 22 minutes to Shibuya and 13 minutes to Shinagawa. A one-room flat rents for roughly ¥160,000 to ¥170,000. The station stands 2.9 m above sea level, and the ground within 800 m varies in height by 1.9 m. The land around the station is close to level.",
+  "tagline": "Toranomon in 6 minutes and Tokyo in 9 minutes. Served by 2 lines. A 1K flat rents for roughly ¥130,000 to ¥140,000.",
+  "summary": "The station is in Chuo City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 2 lines between them. Journey times to the main business districts are 10 minutes to Otemachi, 22 minutes to Shinjuku, 22 minutes to Shibuya and 13 minutes to Shinagawa. A 1K flat rents for roughly ¥130,000 to ¥140,000. The station stands 2.9 m above sea level, and the ground within 800 m varies in height by 1.9 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 2.9 m above sea level. Within 800 m the ground ranges from 2.1 m to 4 m, a difference of 1.9 m."
@@ -22,7 +22,7 @@
   "stationNote": "2 lines serve the station. Tokyo Metro Hibiya Line run through it. Toei Asakusa Line also call here. The lines are split between operators (Tokyo Metro runs 1 line and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "Tokyo Metro Hibiya Line runs at 163% of capacity in the morning peak. The busiest stretch is 三ノ輪→入谷, which this station is not on. Toei Asakusa Line runs at 123%. Its busiest stretch is 本所吾妻橋→浅草, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "Around this station, One room ¥160,000 to ¥170,000 and 1K ¥140,000 to ¥150,000. 1LDK ¥240,000 to ¥250,000 and 2LDK ¥330,000 to ¥340,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road. Here the one-room figure comes out above the 1K figure. Because these are averages of listed properties, the order of the figures can differ from the order of the floor areas.",
+    "note": "Around this station, 1K ¥130,000 to ¥140,000 and 1LDK ¥240,000 to ¥250,000. 2LDK ¥340,000 to ¥350,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -31,7 +31,7 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥160,000 to ¥170,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. plenty of places to eat out pushes the figure up. On the other side, many bars by the station and voices outside late at night holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A 1K flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is on the low side. plenty of places to eat out pushes the figure up. On the other side, many bars by the station and voices outside late at night holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "ginza",
@@ -40,8 +40,8 @@
     },
     {
       "slug": "tsukijishijo",
-      "lead": "For lower rent, Tsukijishijo; for how close the centre is, Higashi-Ginza. ",
-      "note": "Close enough to walk to from Higashi-Ginza. Higashi-Ginza adds the Tokyo Metro Hibiya Line and Toei Asakusa Line; Tsukijishijo adds the Toei Oedo Line. Higashi-Ginza is at least 9 minutes quicker to Otemachi and Toranomon. A one-room flat, though, costs about ¥14,000 less at Tsukijishijo."
+      "lead": "Higashi-Ginza is ahead on how close the centre is and the number of medical facilities. ",
+      "note": "Close enough to walk to from Higashi-Ginza. Higashi-Ginza adds the Tokyo Metro Hibiya Line and Toei Asakusa Line; Tsukijishijo adds the Toei Oedo Line. Higashi-Ginza is at least 9 minutes quicker to Otemachi and Toranomon. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -50,14 +50,14 @@
     "People who want a large park within walking distance"
   ],
   "notFor": [
-    "People avoiding projected flood inundation areas",
-    "People who want to hold the rent down"
+    "People avoiding projected flood inundation areas"
   ],
   "noiseSources": [
     "The 首都高速都心環状線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
     "晴海通り (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
+    "goodValue",
     "fastToCenter",
     "diningRich",
     "flat",
@@ -68,7 +68,7 @@
     "groceries": "The map data has far fewer supermarkets registered here than at nearby stations, so the count cannot be compared.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
-    "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
     "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."

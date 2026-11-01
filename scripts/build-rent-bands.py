@@ -123,6 +123,9 @@ def main():
     today = max((v["retrievedAt"] for v in out.values()), default=None)
     if today:
         for slug, v in out.items():
+            # その日に1社も取り直していない駅は、同じ値を新しい日付で積まない
+            if v["retrievedAt"] != today:
+                continue
             hist.setdefault(slug, {})[today] = {
                 t: b["mean"] for t, b in v["bands"].items()
             }
