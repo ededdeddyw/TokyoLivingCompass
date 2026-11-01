@@ -62,5 +62,12 @@
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
+  "nonResidential": {
+    "note": "Almost no one lives around this station. In the map data, within about 13 minutes' walk there are 0 schools or nurseries and 0 supermarkets. If you are looking for a place to live, see the nearby stations too.",
+    "nearby": [
+      "heiwajima",
+      "omorikaigan"
+    ]
+  },
   "authoredBy": "data-generated"
 }

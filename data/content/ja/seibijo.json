@@ -60,6 +60,13 @@
     "medical": "歩いて行けるクリニックと薬局の数は、23区の駅の中では少ないほうです。",
     "noiseSources": "沿道の部屋かどうかで、部屋の中で聞こえる車の音がはっきり変わります。"
   },
+  "nonResidential": {
+    "note": "この駅の出入口は羽田空港の整備地区の中にあり、まわりは航空会社の施設です。住む場所を探すなら、近くの駅のページもあわせて見てください。",
+    "nearby": [
+      "tenkubashi",
+      "anamori-inari"
+    ]
+  },
   "authoredBy": "data-generated",
   "personaDays": {
     "single": {

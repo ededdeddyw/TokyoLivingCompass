@@ -79,6 +79,7 @@ export default async function StationsPage({
       {gatedCount > 0 && (
         <p className="text-xs text-ink-soft">{dict.list.gateNote}</p>
       )}
+      <p className="text-xs text-ink-soft">{dict.list.nonResidentialNote}</p>
 
       <ol className="grid gap-4 sm:grid-cols-2">
         {stations.map(({ station, overall }, index) => (
@@ -89,7 +90,9 @@ export default async function StationsPage({
               dict={dict}
               overall={overall}
               preset={preset}
-              footnote={`#${index + 1}`}
+              footnote={
+                station.nonResidential ? dict.list.nonResidentialTag : `#${index + 1}`
+              }
             />
           </li>
         ))}

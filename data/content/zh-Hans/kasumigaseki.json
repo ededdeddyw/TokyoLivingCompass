@@ -52,5 +52,12 @@
     "congestion": "早高峰的拥挤程度不像线路数字那么高。线路的拥挤率偏高，但本站不在最拥挤的区间内。",
     "noiseSources": "这个车站要先确认车声，而不是人声。"
   },
+  "nonResidential": {
+    "note": "本站周边几乎没有住宅。根据地图数据，步行约13分钟范围内的学校、幼儿园和保育园为0处，超市为0家。如果在找住处，也请看看附近车站的页面。",
+    "nearby": [
+      "kokkai-gijidomae",
+      "toranomon"
+    ]
+  },
   "authoredBy": "data-generated"
 }

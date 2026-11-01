@@ -27,6 +27,7 @@ import { OverallScore } from "@/components/OverallScore";
 import { ScoreGrid } from "@/components/ScoreGrid";
 import { StationDepth, lifeBlockKeys } from "@/components/StationDepth";
 import { SeedNotice } from "@/components/SeedNotice";
+import { NonResidentialNotice } from "@/components/station/NonResidentialNotice";
 import { TownTraits } from "@/components/TownTraits";
 import { getDictionary } from "@/lib/dictionaries";
 import { formatYen } from "@/lib/format";
@@ -404,6 +405,18 @@ export default async function StationPage({
       <SectionNav label={dict.stationUi.nav.traits} items={navItems} />
 
       {station.dataQuality === "seed" && <SeedNotice dict={dict} />}
+
+      {station.content.nonResidential && (
+        <NonResidentialNotice
+          note={station.content.nonResidential.note}
+          nearby={station.content.nonResidential.nearby.flatMap((slug) => {
+            const other = getLocalizedStation(slug, locale as ActiveLocale);
+            return other ? [{ slug, name: other.content.name }] : [];
+          })}
+          locale={locale}
+          dict={dict}
+        />
+      )}
 
       <p className="max-w-3xl text-[17px] leading-loose text-ink">{station.content.summary}</p>
 

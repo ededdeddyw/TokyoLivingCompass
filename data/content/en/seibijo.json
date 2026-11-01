@@ -60,5 +60,12 @@
     "medical": "The number of clinics and pharmacies within walking distance is low for the 23 wards.",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
+  "nonResidential": {
+    "note": "This station's exits are inside the Haneda Airport maintenance area, surrounded by airline facilities. If you are looking for a place to live, see the nearby stations too.",
+    "nearby": [
+      "tenkubashi",
+      "anamori-inari"
+    ]
+  },
   "authoredBy": "data-generated"
 }

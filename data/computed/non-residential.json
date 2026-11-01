@@ -1,0 +1,119 @@
+{
+  "haneda-airport-terminal-1-2": {
+    "basis": "pois",
+    "schools": 0,
+    "supermarkets": 0,
+    "nearby": [
+      "tenkubashi",
+      "anamori-inari"
+    ]
+  },
+  "haneda-airport-terminal-3": {
+    "basis": "pois",
+    "schools": 0,
+    "supermarkets": 0,
+    "nearby": [
+      "tenkubashi",
+      "anamori-inari"
+    ]
+  },
+  "kasumigaseki": {
+    "basis": "pois",
+    "schools": 0,
+    "supermarkets": 0,
+    "nearby": [
+      "kokkai-gijidomae",
+      "toranomon"
+    ]
+  },
+  "ryutsu-center": {
+    "basis": "pois",
+    "schools": 0,
+    "supermarkets": 0,
+    "nearby": [
+      "heiwajima",
+      "omorikaigan"
+    ]
+  },
+  "sakuradamon": {
+    "basis": "pois",
+    "schools": 0,
+    "supermarkets": 0,
+    "nearby": [
+      "kokkai-gijidomae",
+      "uchisaiwaicho"
+    ]
+  },
+  "seibijo": {
+    "basis": "manual",
+    "schools": 5,
+    "supermarkets": 0,
+    "nearby": [
+      "tenkubashi",
+      "anamori-inari"
+    ]
+  },
+  "shijo-mae": {
+    "basis": "pois",
+    "schools": 1,
+    "supermarkets": 0,
+    "nearby": [
+      "shin-toyosu",
+      "ariake-tennis-no-mori"
+    ]
+  },
+  "shin-kiba": {
+    "basis": "pois",
+    "schools": 0,
+    "supermarkets": 0,
+    "nearby": [
+      "tatsumi",
+      "shiomi"
+    ]
+  },
+  "shin-seibijo": {
+    "basis": "pois",
+    "schools": 0,
+    "supermarkets": 0,
+    "nearby": [
+      "tenkubashi",
+      "anamori-inari"
+    ]
+  },
+  "showajima": {
+    "basis": "manual",
+    "schools": 3,
+    "supermarkets": 1,
+    "nearby": [
+      "heiwajima",
+      "omorimachi"
+    ]
+  },
+  "telecom-center": {
+    "basis": "pois",
+    "schools": 1,
+    "supermarkets": 0,
+    "nearby": [
+      "aomi",
+      "tokyo-teleport"
+    ]
+  },
+  "tokyo-big-sight": {
+    "basis": "pois",
+    "schools": 1,
+    "supermarkets": 0,
+    "nearby": [
+      "kokusai-tenjijo",
+      "ariake"
+    ]
+  },
+  "tokyo-international-cruise-terminal": {
+    "basis": "pois",
+    "schools": 0,
+    "supermarkets": 1,
+    "nearby": [
+      "daiba",
+      "aomi"
+    ]
+  }
+}

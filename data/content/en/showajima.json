@@ -69,5 +69,12 @@
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
+  "nonResidential": {
+    "note": "The area around this station is factories and warehouses, and almost no one lives here. If you are looking for a place to live, see the nearby stations too.",
+    "nearby": [
+      "heiwajima",
+      "omorimachi"
+    ]
+  },
   "authoredBy": "data-generated"
 }

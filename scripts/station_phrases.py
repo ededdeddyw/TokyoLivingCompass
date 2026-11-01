@@ -132,6 +132,13 @@ PHRASES = {
                                          "23区の駅の中で比べると、大雨のときの浸水の想定は小さいほうです。",
         "hazardTrailerAtStationSmall": "駅の地点は区域に入りますが、まわりで区域に入る地点は少なめです。"
                                        "23区の駅の中で比べると、大雨のときの浸水の想定は小さいほうです。",
+        "nonResidentialPois": "この駅のまわりには、住宅がほとんどありません。地図データでは、駅から歩いて13分ほどの範囲にある"
+                              "学校・幼稚園・保育園は{schools}か所、スーパーは{shops}軒です。"
+                              "住む場所を探すなら、近くの駅のページもあわせて見てください。",
+        "nonResidential_showajima": "この駅のまわりは工場と倉庫で、住んでいる人はほとんどいません。"
+                                    "住む場所を探すなら、近くの駅のページもあわせて見てください。",
+        "nonResidential_seibijo": "この駅の出入口は羽田空港の整備地区の中にあり、まわりは航空会社の施設です。"
+                                  "住む場所を探すなら、近くの駅のページもあわせて見てください。",
         "hazardTrailer5": "総じて、大雨のときの浸水の想定は23区の駅の中でもとても小さいほうです。",
         "hazardTrailer4": "総じて、大雨のときの浸水の想定は23区の駅の中では小さいほうです。",
         "hazardTrailer3": "総じて、大雨のときの浸水の想定は23区の駅の平均くらいです。",
@@ -475,6 +482,13 @@ PHRASES = {
                                          "Compared with other stations in the 23 wards, the flood projection here is on the small side. ",
         "hazardTrailerAtStationSmall": "The station itself is inside the projected area, but few of the points around it are. "
                                        "Compared with other stations in the 23 wards, the flood projection here is on the small side. ",
+        "nonResidentialPois": "Almost no one lives around this station. In the map data, within about 13 minutes' walk "
+                              "there are {schools} schools or nurseries and {shops} supermarkets. "
+                              "If you are looking for a place to live, see the nearby stations too.",
+        "nonResidential_showajima": "The area around this station is factories and warehouses, and almost no one lives here. "
+                                    "If you are looking for a place to live, see the nearby stations too.",
+        "nonResidential_seibijo": "This station's exits are inside the Haneda Airport maintenance area, surrounded by airline facilities. "
+                                  "If you are looking for a place to live, see the nearby stations too.",
         "hazardTrailer5": "On the whole, the flood projection here is among the smallest "
                           "in the 23 wards.",
         "hazardTrailer4": "On the whole, the flood projection here is on the small side "
@@ -817,6 +831,9 @@ PHRASES = {
         "hightideAll": "风暴潮方面，九个点中也有{count}个点被划入想定区域。",
         "hazardTrailerAtStationShallow": "位于区域内的地点较多，但推算的浸水深度较浅。与23区的车站相比，浸水推算偏小。",
         "hazardTrailerAtStationSmall": "车站所在地点位于浸水推算区域内，但周边位于区域内的地点较少。与23区的车站相比，浸水推算偏小。",
+        "nonResidentialPois": "本站周边几乎没有住宅。根据地图数据，步行约13分钟范围内的学校、幼儿园和保育园为{schools}处，超市为{shops}家。如果在找住处，也请看看附近车站的页面。",
+        "nonResidential_showajima": "本站周边是工厂和仓库，几乎没有人居住。如果在找住处，也请看看附近车站的页面。",
+        "nonResidential_seibijo": "本站的出入口位于羽田机场的维修区内，周围是航空公司的设施。如果在找住处，也请看看附近车站的页面。",
         "hazardTrailer5": "总的来说，大雨时的浸水推算在23区的车站中非常小。",
         "hazardTrailer4": "总的来说，大雨时的浸水推算在23区的车站中偏小。",
         "hazardTrailer3": "总的来说，大雨时的浸水推算与23区车站的平均水平相当。",
@@ -1109,6 +1126,10 @@ PHRASES = {
                                          "23구의 역과 비교하면 침수 상정은 작은 편이다. ",
         "hazardTrailerAtStationSmall": "역 지점은 구역에 들어가지만, 주변에서 구역에 들어가는 지점은 적은 편이다. "
                                        "23구의 역과 비교하면 침수 상정은 작은 편이다. ",
+        "nonResidentialPois": "이 역 주변에는 주택이 거의 없다. 지도 데이터로는 걸어서 13분 정도 범위에 학교·유치원·보육원이 {schools}곳, "
+                              "슈퍼마켓이 {shops}곳 있다. 살 곳을 찾는다면 가까운 역의 페이지도 함께 보기 바란다.",
+        "nonResidential_showajima": "이 역 주변은 공장과 창고이며, 사는 사람이 거의 없다. 살 곳을 찾는다면 가까운 역의 페이지도 함께 보기 바란다.",
+        "nonResidential_seibijo": "이 역의 출입구는 하네다 공항의 정비 지구 안에 있고, 주변은 항공사의 시설이다. 살 곳을 찾는다면 가까운 역의 페이지도 함께 보기 바란다.",
         "hazardTrailer5": "전체적으로 큰비가 올 때의 침수 상정은 23구의 역 중에서 매우 작은 편이다. ",
         "hazardTrailer4": "전체적으로 큰비가 올 때의 침수 상정은 23구의 역 중에서 작은 편이다. ",
         "hazardTrailer3": "전체적으로 큰비가 올 때의 침수 상정은 23구 역의 평균 정도다. ",

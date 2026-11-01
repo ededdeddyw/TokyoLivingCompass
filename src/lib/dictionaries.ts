@@ -151,6 +151,8 @@ export type Dictionary = {
     yes: string;
     no: string;
     backToList: string;
+    nonResidentialTitle: string;
+    nonResidentialNearby: string;
   };
   list: {
     heading: string;
@@ -158,6 +160,8 @@ export type Dictionary = {
     sortBy: string;
     perspective: string;
     gateNote: string;
+    nonResidentialNote: string;
+    nonResidentialTag: string;
   };
   find: {
     heading: string;
@@ -428,6 +432,8 @@ const ja: Dictionary = {
     yes: "あり",
     no: "なし",
     backToList: "駅一覧へ戻る",
+    nonResidentialTitle: "住宅がほとんどない駅です",
+    nonResidentialNearby: "住む場所として見るなら、近くのこの駅",
   },
   list: {
     heading: "掲載駅一覧",
@@ -436,6 +442,8 @@ const ja: Dictionary = {
     perspective: "評価の視点",
     gateNote:
       "選んだ区分で重く見る軸が下位3割に入る駅は、一覧の後ろにまとめています。",
+    nonResidentialNote: "空港・倉庫街・官庁街など、まわりに住宅がほとんどない駅は、一覧の最後にまとめています。",
+    nonResidentialTag: "住宅がほとんどない駅",
   },
   find: {
     heading: "勤務先から住む駅を探す",
@@ -827,6 +835,8 @@ const en: Dictionary = {
     yes: "Yes",
     no: "No",
     backToList: "Back to all stations",
+    nonResidentialTitle: "Almost no one lives around this station",
+    nonResidentialNearby: "For somewhere to live, see these nearby stations",
   },
   list: {
     heading: "All stations",
@@ -835,6 +845,8 @@ const en: Dictionary = {
     perspective: "Ranked for",
     gateNote:
       "Stations in the bottom 30% on an axis this segment leans on are grouped at the end of the list.",
+    nonResidentialNote: "Stations with almost no housing around them (airports, warehouse districts, government districts) are listed at the end.",
+    nonResidentialTag: "Almost no housing nearby",
   },
   find: {
     heading: "Find where to live, starting from your office",
@@ -1229,6 +1241,8 @@ const zhHans: Dictionary = {
     yes: "有",
     no: "无",
     backToList: "返回车站一览",
+    nonResidentialTitle: "本站周边几乎没有住宅",
+    nonResidentialNearby: "如果在找住处，请看附近的这些车站",
   },
   list: {
     heading: "全部车站",
@@ -1236,6 +1250,8 @@ const zhHans: Dictionary = {
     sortBy: "排序",
     perspective: "按什么排序",
     gateNote: "在本区分重视的评价轴上处于后30%的车站，统一排在列表末尾。",
+    nonResidentialNote: "机场、仓库区、政府机关区等周边几乎没有住宅的车站，统一排在列表末尾。",
+    nonResidentialTag: "周边几乎没有住宅",
   },
   find: {
     heading: "从公司位置出发，找该住哪里",
@@ -1623,6 +1639,8 @@ const ko: Dictionary = {
     yes: "있음",
     no: "없음",
     backToList: "역 목록으로 돌아가기",
+    nonResidentialTitle: "주변에 주택이 거의 없는 역입니다",
+    nonResidentialNearby: "살 곳을 찾는다면 가까운 이 역들",
   },
   list: {
     heading: "역 전체",
@@ -1631,6 +1649,8 @@ const ko: Dictionary = {
     perspective: "무엇을 기준으로",
     gateNote:
       "이 구분에서 중요하게 보는 축이 하위 30%에 해당하는 역은 목록 뒤쪽에 모았습니다.",
+    nonResidentialNote: "공항·창고 지구·관청가 등 주변에 주택이 거의 없는 역은 목록 끝에 모았습니다.",
+    nonResidentialTag: "주변에 주택이 거의 없음",
   },
   find: {
     heading: "회사 위치에서 시작해 살 곳을 찾는다",

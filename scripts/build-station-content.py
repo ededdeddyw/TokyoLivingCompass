@@ -1376,6 +1376,15 @@ def build(st, ctx):
     if leads:
         c["leads"] = leads
 
+    # 住宅がほとんどない駅（scripts/build-non-residential.py）。冒頭で知らせ、近くの駅へ案内する
+    nr = ctx["nonResidential"].get(slug)
+    if nr:
+        key = ("nonResidentialPois" if nr["basis"] == "pois" else f"nonResidential_{slug}")
+        c["nonResidential"] = {
+            "note": p[key].format(schools=nr["schools"], shops=nr["supermarkets"]),
+            "nearby": nr["nearby"],
+        }
+
     c["authoredBy"] = "data-generated"
     return c
 
@@ -1447,6 +1456,7 @@ def main():
         # 位置に直した値。低いほうが高い点になる
         "congestionEase": ease,
         "haz": load("computed/hazard.json")["stations"],
+        "nonResidential": load("computed/non-residential.json"),
         "bands": load("computed/rent-bands.json"),
         "pois": pois_doc["stations"],
         "poiDate": pois_doc["meta"]["retrievedAt"],
