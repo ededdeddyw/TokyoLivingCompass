@@ -269,7 +269,7 @@ PHRASES = {
         "leadGroceriesFew": "歩いて行けるスーパーは{count}軒で、いちばん近い店までは徒歩{minutes}分です。",
         "leadGroceriesNone": "駅から歩いて行けるスーパーを OpenStreetMap では確認できませんでした。",
         "leadGroceriesGap": "地図データでは、まわりの駅よりスーパーの登録が大きく少なく、数では比べられません。",
-        "medicalGap": "地図データ（OpenStreetMap）に登録されている、駅から歩いて13分ほどの範囲のクリニックは{clinics}件、薬局は{pharmacies}件です。"
+        "medicalGap": "地図データ（OpenStreetMap）では、駅から歩いて13分ほどの範囲にクリニックが{clinics}件、薬局が{pharmacies}件です。"
                       "まわりの駅と比べて登録が大きく少ないため、実際にはもっと多い可能性があります。",
         "leadMedicalGap": "地図データでは、まわりの駅よりクリニックの登録が大きく少なく、数では比べられません。",
         # 本文の締めが23区の中での位置を書くので、一言では駅の地点そのものを書く。
