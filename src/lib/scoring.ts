@@ -166,9 +166,11 @@ export function weakestAxes(station: Station, count: number): ScoreAxis[] {
 export function commuteTo(
   station: Station,
   office: OfficeHub,
-): { minutes: number; transfers: number } | null {
+): { minutes: number; transfers: number; walk?: boolean } | null {
   const found = station.commutes.find((c) => c.to === office);
-  return found ? { minutes: found.minutes, transfers: found.transfers } : null;
+  return found
+    ? { minutes: found.minutes, transfers: found.transfers, walk: found.walk }
+    : null;
 }
 
 /** 逆引き検索の入力（docs/01-requirements.md F5）。 */
@@ -187,6 +189,8 @@ export type MatchResult = {
   fit: number;
   minutes: number;
   transfers: number;
+  /** 電車に乗らず歩いて着く */
+  walk?: boolean;
   rent: number;
   strengths: ScoreAxis[];
   weaknesses: ScoreAxis[];
@@ -249,6 +253,7 @@ export function rankStations(
       fit: Math.min(100, Math.round(weighted + commuteBonus)),
       minutes: commute.minutes,
       transfers: commute.transfers,
+      walk: commute.walk,
       rent,
       strengths: strongestAxes(station, 3),
       weaknesses: weakestAxes(station, 2),

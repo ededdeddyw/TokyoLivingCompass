@@ -86,6 +86,8 @@ export const commuteSchema = z.object({
   to: z.enum(OFFICE_HUBS),
   minutes: z.number().int().min(0).max(180),
   transfers: z.number().int().min(0).max(5),
+  /** 電車に乗らず、歩いて着く（西武新宿→新宿）。「直通」ではなく「徒歩」と出す */
+  walk: z.boolean().optional(),
 });
 
 /**

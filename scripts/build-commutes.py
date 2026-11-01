@@ -321,33 +321,41 @@ def dijkstra(edges, station_lines, origin_group):
     人は数分の差なら乗り換えない経路を選ぶ（大崎→東京は、品川で東海道線に
     乗り換えるより山手線に乗ったままのほうが普通である）。出力する分数は実際の時間のまま。
     """
-    best = {}   # node -> (選ぶためのコスト, 所要時間, 乗換回数)
+    # node -> (選ぶためのコスト, 所要時間, 乗換回数, 歩いただけか)
+    # 歩いただけか: 電車に乗らずに着いた経路（西武新宿→新宿）。本文で「歩いて7分」と書き分ける
+    best = {}
     heap = []
     for line in station_lines[origin_group]:
         node = (origin_group, line)
-        best[node] = (BOARD_MIN, BOARD_MIN, 0)
-        heapq.heappush(heap, (BOARD_MIN, BOARD_MIN, 0, node))
+        walked = line == WALK_LINE
+        best[node] = (BOARD_MIN, BOARD_MIN, 0, walked)
+        heapq.heappush(heap, (BOARD_MIN, BOARD_MIN, 0, not walked, node))
 
     while heap:
-        choice, cost, transfers, node = heapq.heappop(heap)
+        choice, cost, transfers, not_walked, node = heapq.heappop(heap)
         if best.get(node, (math.inf,))[0] < choice:
             continue
         for nxt, minutes, is_transfer in edges[node]:
             nc = cost + minutes
             nt = transfers + (1 if is_transfer else 0)
             nchoice = choice + minutes + (TRANSFER_AVERSION if is_transfer else 0)
+            nwalked = (not not_walked) and nxt[1] == WALK_LINE
             cur = best.get(nxt)
             if cur is None or nchoice < cur[0] - 1e-9:
-                best[nxt] = (nchoice, nc, nt)
-                heapq.heappush(heap, (nchoice, nc, nt, nxt))
+                best[nxt] = (nchoice, nc, nt, nwalked)
+                heapq.heappush(heap, (nchoice, nc, nt, not nwalked, nxt))
 
     # 駅単位に畳む。同じ駅でも到達に使う路線で結果が違うため、選ぶためのコストが最小のものを採る。
+    # コストが同じなら、歩いただけで着く経路を採る。
     per_station = {}
-    for (g, _line), (choice, cost, transfers) in best.items():
+    for (g, _line), (choice, cost, transfers, walked) in best.items():
         cur = per_station.get(g)
-        if cur is None or choice < cur[0]:
-            per_station[g] = (choice, cost, transfers)
-    return {g: (cost, transfers) for g, (_c, cost, transfers) in per_station.items()}
+        if (cur is None or choice < cur[0] - 1e-9
+                or (abs(choice - cur[0]) <= 1e-9 and walked and not cur[3])):
+            per_station[g] = (choice, cost, transfers, walked)
+    # オフィス駅そのものは、歩いて着いたことにはしない
+    return {g: (cost, transfers, walked and g != origin_group)
+            for g, (_c, cost, transfers, walked) in per_station.items()}
 
 
 def main():
@@ -385,12 +393,15 @@ def main():
             found = results[hub].get(g)
             if not found:
                 continue
-            minutes, transfers = found
-            commutes.append({
+            minutes, transfers, walked = found
+            entry = {
                 "to": hub,
                 "minutes": max(1, round(minutes)),
                 "transfers": transfers,
-            })
+            }
+            if walked:
+                entry["walk"] = True
+            commutes.append(entry)
         if len(commutes) == len(OFFICE_HUBS):
             out[station["slug"]] = commutes
         else:

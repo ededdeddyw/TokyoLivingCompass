@@ -272,7 +272,9 @@ export default async function WorkPage({
                     <p className="mt-3 text-sm tabular-nums text-ink-soft">
                       {officeName} {result.minutes} {dict.station.minutes}
                       {" · "}
-                      {result.transfers === 0
+                      {result.walk
+                        ? dict.station.onFoot
+                        : result.transfers === 0
                         ? dict.station.noTransfer
                         : `${dict.station.transfers} ${result.transfers}`}
                       {" · "}

@@ -1,4 +1,4 @@
-import { ArrowRightLeft, CircleCheck } from "lucide-react";
+import { ArrowRightLeft, CircleCheck, Footprints } from "lucide-react";
 
 import type { Dictionary } from "@/lib/dictionaries";
 import type { Commute } from "@/lib/schema";
@@ -6,7 +6,7 @@ import type { Commute } from "@/lib/schema";
 /**
  * 主なオフィス街への所要時間を、短い順に横棒で並べる。
  * 棒の長さは、いちばん遠いオフィス街を基準にした相対の長さである。
- * 乗り換えの有無はアイコンと文字で示す。
+ * 乗り換えの有無はアイコンと文字で示す。電車に乗らず歩いて着く行き先は「徒歩」と出す。
  */
 export function CommuteBars({ commutes, dict }: { commutes: Commute[]; dict: Dictionary }) {
   const sorted = [...commutes].sort((a, b) => a.minutes - b.minutes);
@@ -27,7 +27,12 @@ export function CommuteBars({ commutes, dict }: { commutes: Commute[]; dict: Dic
               {c.minutes}
               <span className="text-xs font-normal text-ink-soft"> {dict.station.minutes}</span>
             </span>
-            {c.transfers === 0 ? (
+            {c.walk ? (
+              <span className="flex w-16 items-center gap-1 text-xs text-good">
+                <Footprints aria-hidden="true" className="size-3.5" />
+                {dict.station.onFoot}
+              </span>
+            ) : c.transfers === 0 ? (
               <span className="flex w-16 items-center gap-1 text-xs text-good">
                 <CircleCheck aria-hidden="true" className="size-3.5" />
                 {dict.station.noTransfer}

@@ -92,6 +92,8 @@ PHRASES = {
 
         "commuteItem": "{hub}へ{minutes}{minuteWord}",
         "reachItem": "{hub}へ{minutes}{minuteWord}",
+        "commuteItemWalk": "{hub}へ歩いて{minutes}{minuteWord}",
+        "reachItemWalk": "{hub}へ歩いて{minutes}{minuteWord}",
         "tagline": "{reach}で着きます。{lineCount}{lineWord}が乗り入れます。{rent}",
         "taglineRent": "ワンルームの家賃相場はおよそ{low}〜{high}{unit}です。",
 
@@ -429,6 +431,8 @@ PHRASES = {
 
         "commuteItem": "{minutes} {minuteWord} to {hub}",
         "reachItem": "{hub} in {minutes} {minuteWord}",
+        "commuteItemWalk": "{minutes} {minuteWord} on foot to {hub}",
+        "reachItemWalk": "{hub} in {minutes} {minuteWord} on foot",
         "tagline": "{reach}. Served by {lineCount} {lineWord}. {rent}",
         "taglineRent": "A one-room flat rents for roughly {low} to {high}.",
 
@@ -774,6 +778,8 @@ PHRASES = {
 
         "commuteItem": "到{hub}{minutes}{minuteWord}",
         "reachItem": "到{hub}{minutes}{minuteWord}",
+        "commuteItemWalk": "步行到{hub}{minutes}{minuteWord}",
+        "reachItemWalk": "步行到{hub}{minutes}{minuteWord}",
         "tagline": "{reach}。有{lineCount}{lineWord}经过。{rent}",
         "taglineRent": "一室户的租金大致为{low}至{high}{unit}。",
 
@@ -1059,6 +1065,8 @@ PHRASES = {
 
         "commuteItem": "{hub}까지 {minutes}{minuteWord}",
         "reachItem": "{hub}까지 {minutes}{minuteWord}",
+        "commuteItemWalk": "{hub}까지 걸어서 {minutes}{minuteWord}",
+        "reachItemWalk": "{hub}까지 걸어서 {minutes}{minuteWord}",
         "tagline": "{reach}. {lineCount}{lineWord}이 지난다. {rent}",
         "taglineRent": "원룸 임대료는 대략 {low}~{high}{unit}이다.",
 
