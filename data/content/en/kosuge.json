@@ -31,7 +31,7 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. schools and parks within walking distance pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down.",
+  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. schools and parks within walking distance pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down.",
   "neighbours": [
     {
       "slug": "gotanno",
@@ -41,7 +41,7 @@
     {
       "slug": "ayase",
       "lead": "For the number of medical facilities, Ayase; for how little of the area is in the flood projection, Kosuge. ",
-      "note": "About 1 km from Kosuge in a straight line. Kosuge adds the Tobu Skytree Line; Ayase adds the JR Joban Line and Tokyo Metro Chiyoda Line. Journey times to the main business districts are much the same. On how easy the shopping is, Ayase comes out ahead. Within about 13 minutes' walk, Ayase has 14 supermarkets (東急ストア and イトーヨーカドー and others) and Kosuge has 1."
+      "note": "About 1 km from Kosuge in a straight line. Kosuge adds the Tobu Skytree Line; Ayase adds the JR Joban Line and Tokyo Metro Chiyoda Line. Journey times to the main business districts are much the same. On the number of places to eat out, Ayase comes out ahead. Within about 13 minutes' walk, Ayase has 50 restaurants and Kosuge has 15."
     }
   ],
   "goodFor": [
@@ -51,7 +51,6 @@
   "notFor": [
     "People avoiding projected flood inundation areas",
     "People who want another route when service is suspended",
-    "People who want to finish their shopping on foot",
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
@@ -64,7 +63,7 @@
   ],
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
-    "groceries": "There are 1 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
+    "groceries": "The map data has far fewer supermarkets registered here than at nearby stations, so the count cannot be compared.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tobu Skytree Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",

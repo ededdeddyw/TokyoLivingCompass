@@ -266,6 +266,9 @@ def main():
     # 駅から1km以内の広い公園の面積（scripts/build-green.py）
     green = computed("green.json", "stations")
     roads = computed("roads.json", "stations")
+    gaps_path = os.path.join(ROOT, "data", "computed", "coverage-gaps.json")
+    coverage_gaps = (json.load(open(gaps_path, encoding="utf-8"))
+                     if os.path.exists(gaps_path) else {})
     hazard = computed("hazard.json", "stations")
     bands = computed("rent-bands.json")
     zoning = computed("zoning.json", "stations")
@@ -458,6 +461,13 @@ def main():
         fs = flood_score(hazard.get(station["slug"]))
         if fs is not None:
             scores["disaster"] = fs
+
+        # 地図データの登録がまわりの駅より大きく少ない駅は、その数から出す点を出さない
+        # （scripts/build-coverage-gaps.py）。少ないと言い切って外れるより、測れていないとする。
+        for cat, axis in (("clinic", "healthcare"), ("supermarket", "shopping"),
+                          ("restaurant", "food")):
+            if cat in coverage_gaps.get(station["slug"], {}):
+                scores.pop(axis, None)
 
         if scores:
             out[station["slug"]] = scores

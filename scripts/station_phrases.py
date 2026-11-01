@@ -268,6 +268,10 @@ PHRASES = {
         "leadGroceriesMany": "歩いて行けるスーパーが{count}軒あり、いちばん近い店までは徒歩{minutes}分です。",
         "leadGroceriesFew": "歩いて行けるスーパーは{count}軒で、いちばん近い店までは徒歩{minutes}分です。",
         "leadGroceriesNone": "駅から歩いて行けるスーパーを OpenStreetMap では確認できませんでした。",
+        "leadGroceriesGap": "地図データでは、まわりの駅よりスーパーの登録が大きく少なく、数では比べられません。",
+        "medicalGap": "地図データ（OpenStreetMap）に登録されている、駅から歩いて13分ほどの範囲のクリニックは{clinics}件、薬局は{pharmacies}件です。"
+                      "まわりの駅と比べて登録が大きく少ないため、実際にはもっと多い可能性があります。",
+        "leadMedicalGap": "地図データでは、まわりの駅よりクリニックの登録が大きく少なく、数では比べられません。",
         # 本文の締めが23区の中での位置を書くので、一言では駅の地点そのものを書く。
         "leadHazardAtStation": "駅の地点が、大雨のときの浸水想定区域に入っています。",
         "leadHazardNear": "駅の地点は区域の外ですが、まわりには浸水が想定される区画があります。",
@@ -634,6 +638,10 @@ PHRASES = {
         "leadGroceriesMany": "There are {count} supermarkets within walking distance, and the nearest is {minutes} minutes on foot.",
         "leadGroceriesFew": "There are {count} supermarkets within walking distance, and the nearest is {minutes} minutes on foot.",
         "leadGroceriesNone": "OpenStreetMap records no supermarket within walking distance of the station.",
+        "leadGroceriesGap": "The map data has far fewer supermarkets registered here than at nearby stations, so the count cannot be compared.",
+        "medicalGap": "Within about a 13-minute walk, the map data (OpenStreetMap) lists {clinics} clinics and {pharmacies} pharmacies. "
+                      "That is far fewer than at nearby stations, so there may well be more in reality. ",
+        "leadMedicalGap": "The map data has far fewer clinics registered here than at nearby stations, so the count cannot be compared.",
         "leadHazardAtStation": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
         "leadHazardNear": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
         "leadHazardNone": "Neither the station nor the ground around it falls inside the projected flood area.",
@@ -935,6 +943,9 @@ PHRASES = {
         "leadGroceriesMany": "步行可达的超市有{count}家，最近的一家步行{minutes}分钟。",
         "leadGroceriesFew": "步行可达的超市有{count}家，最近的一家步行{minutes}分钟。",
         "leadGroceriesNone": "OpenStreetMap 上查不到车站步行范围内的超市。",
+        "leadGroceriesGap": "地图数据中登记的超市远少于周边车站，无法用数量比较。",
+        "medicalGap": "地图数据（OpenStreetMap）中登记的、步行约13分钟范围内的诊所为{clinics}家，药店为{pharmacies}家。与周边车站相比登记明显偏少，实际可能更多。",
+        "leadMedicalGap": "地图数据中登记的诊所远少于周边车站，无法用数量比较。",
         "leadHazardAtStation": "车站所在的地点，被划入大雨时的浸水想定区域。",
         "leadHazardNear": "车站所在的地点在区域之外，但周边有被划入浸水想定区域的街区。",
         "leadHazardNone": "车站所在的地点及其周边，都在大雨时的浸水想定区域之外。",
@@ -1249,6 +1260,10 @@ PHRASES = {
         "leadGroceriesMany": "걸어갈 수 있는 슈퍼마켓이 {count}곳 있고, 가장 가까운 곳까지는 걸어서 {minutes}분이다.",
         "leadGroceriesFew": "걸어갈 수 있는 슈퍼마켓은 {count}곳이고, 가장 가까운 곳까지는 걸어서 {minutes}분이다.",
         "leadGroceriesNone": "역에서 걸어갈 수 있는 슈퍼마켓을 OpenStreetMap에서는 확인할 수 없었다.",
+        "leadGroceriesGap": "지도 데이터에 등록된 슈퍼마켓이 주변 역보다 크게 적어, 수로는 비교할 수 없다.",
+        "medicalGap": "지도 데이터(OpenStreetMap)에 등록된, 걸어서 13분 정도 범위의 의원은 {clinics}곳, 약국은 {pharmacies}곳이다. "
+                      "주변 역과 비교해 등록이 크게 적으므로, 실제로는 더 많을 수 있다. ",
+        "leadMedicalGap": "지도 데이터에 등록된 의원이 주변 역보다 크게 적어, 수로는 비교할 수 없다.",
         "leadHazardAtStation": "역이 있는 지점이 큰비가 올 때의 침수 예상 구역에 들어간다.",
         "leadHazardNear": "역이 있는 지점은 구역 밖이지만, 주변에는 침수가 상정된 구획이 있다.",
         "leadHazardNone": "역이 있는 지점도 그 주변도, 큰비가 올 때의 침수 예상 구역 밖에 있다.",

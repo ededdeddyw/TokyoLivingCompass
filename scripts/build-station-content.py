@@ -923,8 +923,12 @@ def build(st, ctx):
     # 一般の人がかからない病院は、いちばん近い病院として挙げない。
     # 東京駅で宮内庁病院（皇室と宮内庁の職員などのための病院）を挙げていた。
     hp = [h for h in hp if not RESTRICTED_HOSPITAL.search(h["name"])]
-    if cl or ph or hp:
-        if cl or ph:
+    gap = ctx["coverageGaps"].get(slug, {})
+    if cl or ph or hp or "clinic" in gap:
+        if "clinic" in gap:
+            # 登録が少ない駅では、数を言い切らず「実際にはもっと多い可能性」を添える
+            bits = [p["medicalGap"].format(clinics=len(cl), pharmacies=len(ph))]
+        elif cl or ph:
             counts = [x for x in (
                 p["medicalClinics"].format(
                     count=len(cl), clinicWord=word(p, "clinic", len(cl))) if cl else "",
@@ -1342,7 +1346,9 @@ def build(st, ctx):
     if slope in ("flat", "some", "hilly"):
         leads["terrain"] = p["leadTerrain" + slope.capitalize()]
     shops = grocery_pois(by_cat.get("supermarket", []))
-    if shops:
+    if "supermarket" in gap:
+        leads["groceries"] = p["leadGroceriesGap"]
+    elif shops:
         nearest = min(x["walkMinutes"] for x in shops)
         key = "leadGroceriesMany" if len(shops) >= 3 else "leadGroceriesFew"
         leads["groceries"] = p[key].format(count=len(shops), minutes=nearest)
@@ -1360,7 +1366,9 @@ def build(st, ctx):
     if "rentValue" in sc:
         leads["rentRange"] = p[band_key("leadRent", sc["rentValue"])]
     rank = care_rank(slug, ctx)
-    if rank is not None and (cl or ph):
+    if "clinic" in gap:
+        leads["medical"] = p["leadMedicalGap"]
+    elif rank is not None and (cl or ph):
         leads["medical"] = p[band_key("leadMedical", rank)]
     lead = congestion_lead(slug, st["lineIds"], ctx)
     if lead:
@@ -1457,6 +1465,7 @@ def main():
         "congestionEase": ease,
         "haz": load("computed/hazard.json")["stations"],
         "nonResidential": load("computed/non-residential.json"),
+        "coverageGaps": load("computed/coverage-gaps.json"),
         "bands": load("computed/rent-bands.json"),
         "pois": pois_doc["stations"],
         "poiDate": pois_doc["meta"]["retrievedAt"],

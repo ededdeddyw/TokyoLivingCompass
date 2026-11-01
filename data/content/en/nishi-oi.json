@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 1 clinic. The nearest hospital is 仁生堂大村病院, about 13 minutes' walk from the station. The next nearest is 佐花会大井中央病院, about 18 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within about a 13-minute walk, the map data (OpenStreetMap) lists 1 clinics and 0 pharmacies. That is far fewer than at nearby stations, so there may well be more in reality. The nearest hospital is 仁生堂大村病院, about 13 minutes' walk from the station. The next nearest is 佐花会大井中央病院, about 18 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "2 lines serve the station. JR Yokosuka Line run through it. JR Shonan-Shinjuku Line also call here. Both lines are run by JR East, so a fault affecting that company can stop them together.",
   "congestion": "JR Yokosuka Line runs at 138% of capacity in the morning peak. The busiest stretch of the line is 武蔵小杉→西大井, which includes this station. JR Shonan-Shinjuku Line is not covered by the ministry's congestion survey. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -56,7 +56,7 @@
   "neighbours": [
     {
       "slug": "togoshi-koen",
-      "lead": "For the number of medical facilities, Togoshi-Koen; for how close the centre is, Nishi-Oi. ",
+      "lead": "For how easy the shopping is, Togoshi-Koen; for how close the centre is, Nishi-Oi. ",
       "note": "Close enough to walk to from Nishi-Oi. Nishi-Oi adds the JR Yokosuka Line and JR Shonan-Shinjuku Line; Togoshi-Koen adds the Tokyu Oimachi Line. Nishi-Oi is at least 13 minutes quicker to Tokyo and Otemachi. On how easy the shopping is, though, Togoshi-Koen comes out ahead. Within about 13 minutes' walk, Togoshi-Koen has 9 supermarkets (スーパーおおぜき and オーケーストア and others) and Nishi-Oi has 5."
     },
     {
@@ -70,7 +70,7 @@
     "People living alone who want to hold the rent down"
   ],
   "notFor": [
-    "People who want plenty of places to eat out"
+    "People who want to finish their shopping on foot"
   ],
   "noiseSources": [
     "The nearest big road, 第二京浜, is far enough that little traffic noise reaches the station area"
@@ -88,7 +88,7 @@
     "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
-    "medical": "The number of clinics and pharmacies within walking distance is low for the 23 wards.",
+    "medical": "The map data has far fewer clinics registered here than at nearby stations, so the count cannot be compared.",
     "congestion": "This station sits on the busiest stretch of the JR Yokosuka Line, but at 138% passengers are not shoulder to shoulder. ",
     "noiseSources": "The big roads are far enough that traffic noise is unlikely to bother you."
   },

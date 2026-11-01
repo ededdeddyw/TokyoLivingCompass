@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 1 clinic and 2 pharmacies. The nearest hospital is 厚生病院, about 4 minutes' walk from the station. The next nearest is 墨田中央病院, about 6 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within about a 13-minute walk, the map data (OpenStreetMap) lists 1 clinics and 2 pharmacies. That is far fewer than at nearby stations, so there may well be more in reality. The nearest hospital is 厚生病院, about 4 minutes' walk from the station. The next nearest is 墨田中央病院, about 6 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tobu Kameido Line.",
   "congestion": "The ministry's congestion survey does not publish figures for Tobu Kameido Line. It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
@@ -70,8 +70,7 @@
   ],
   "notFor": [
     "People avoiding projected flood inundation areas",
-    "People who want another route when service is suspended",
-    "People who want plenty of places to eat out"
+    "People who want another route when service is suspended"
   ],
   "noiseSources": [
     "明治通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road",
@@ -90,7 +89,7 @@
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tobu Kameido Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
-    "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
+    "medical": "The map data has far fewer clinics registered here than at nearby stations, so the count cannot be compared.",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."
   },
   "authoredBy": "data-generated"

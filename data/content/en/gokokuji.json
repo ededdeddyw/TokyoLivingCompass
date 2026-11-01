@@ -25,7 +25,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station, OpenStreetMap records neither a clinic nor a pharmacy. The nearest hospital is 小石川東京病院, about 9 minutes' walk from the station. The next nearest is 都立大塚病院, about 14 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within about a 13-minute walk, the map data (OpenStreetMap) lists 0 clinics and 0 pharmacies. That is far fewer than at nearby stations, so there may well be more in reality. The nearest hospital is 小石川東京病院, about 9 minutes' walk from the station. The next nearest is 都立大塚病院, about 14 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Tokyo Metro Yurakucho Line.",
   "congestion": "Tokyo Metro Yurakucho Line runs at 153% of capacity in the morning peak. The busiest stretch of the line is 東池袋→護国寺, which includes this station. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -38,12 +38,12 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is on the low side. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥90,000 to ¥100,000. Set against how long it takes to reach the central business districts, that is on the low side. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "shin-otsuka",
-      "lead": "Shin-Otsuka is ahead on the number of medical facilities and how easy the shopping is. ",
-      "note": "Close enough to walk to from Gokokuji. Gokokuji adds the Tokyo Metro Yurakucho Line; Shin-Otsuka adds the Tokyo Metro Marunouchi Line. Which is faster depends on where you are going: Gokokuji is 6 minutes quicker to Toranomon, Shin-Otsuka is 10 minutes quicker to Tokyo. On how easy the shopping is, Shin-Otsuka comes out ahead. Within about 13 minutes' walk, Shin-Otsuka has 13 supermarkets (マルエツプチ and シマダヤ and others) and Gokokuji has 2."
+      "lead": "Rent, commute and flood projections differ little. ",
+      "note": "Close enough to walk to from Gokokuji. Gokokuji adds the Tokyo Metro Yurakucho Line; Shin-Otsuka adds the Tokyo Metro Marunouchi Line. Which is faster depends on where you are going: Gokokuji is 6 minutes quicker to Toranomon, Shin-Otsuka is 10 minutes quicker to Tokyo. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "myogadani",
@@ -57,8 +57,7 @@
     "People living alone who want to hold the rent down"
   ],
   "notFor": [
-    "People who want another route when service is suspended",
-    "People who want to finish their shopping on foot"
+    "People who want another route when service is suspended"
   ],
   "noiseSources": [
     "The 首都高速5号池袋線 viaduct runs right beside the station. It is an expressway, so traffic is audible day and night",
@@ -70,10 +69,11 @@
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
-    "groceries": "There are 2 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
+    "groceries": "The map data has far fewer supermarkets registered here than at nearby stations, so the count cannot be compared.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "Only the Tokyo Metro Yurakucho Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "medical": "The map data has far fewer clinics registered here than at nearby stations, so the count cannot be compared.",
     "congestion": "Morning trains are very crowded: this station sits on the busiest stretch of the Tokyo Metro Yurakucho Line. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
