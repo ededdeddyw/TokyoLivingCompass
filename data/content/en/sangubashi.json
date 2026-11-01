@@ -39,7 +39,7 @@
       "verifiedAt": "2026-09-24"
     }
   ],
-  "medical": "Within an 800 m walk of the station there are 1 clinic and 2 pharmacies. The nearest hospital is 参宮橋脊椎外科病院, about 7 minutes' walk from the station. The next nearest is 温光会内藤病院, about 12 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
+  "medical": "Within about a 13-minute walk, the map data (OpenStreetMap) lists 1 clinics and 2 pharmacies. That is far fewer than at nearby stations, so there may well be more in reality. The nearest hospital is 参宮橋脊椎外科病院, about 7 minutes' walk from the station. The next nearest is 温光会内藤病院, about 12 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Odakyu Odawara Line.",
   "congestion": "Odakyu Odawara Line runs at 150% of capacity in the morning peak. The busiest stretch is 世田谷代田→下北沢, which this station is not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
@@ -56,7 +56,7 @@
   "neighbours": [
     {
       "slug": "minami-shinjuku",
-      "lead": "For the number of medical facilities, Minami-Shinjuku; for lower rent, Sangubashi. ",
+      "lead": "For the number of places to eat out, Minami-Shinjuku; for lower rent, Sangubashi. ",
       "note": "Close enough to walk to from Sangubashi. It is served by the same lines as Sangubashi. Journey times to the main business districts are much the same. A one-room flat costs about ¥14,000 more at Minami-Shinjuku. On the number of places to eat out, Minami-Shinjuku comes out ahead. Within about 13 minutes' walk, Minami-Shinjuku has 134 restaurants and Sangubashi has 38."
     },
     {
@@ -88,7 +88,7 @@
     "hazards": "Neither the station nor the ground around it falls inside the projected flood area.",
     "stationNote": "Only the Odakyu Odawara Line serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
-    "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
+    "medical": "The map data has far fewer clinics registered here than at nearby stations, so the count cannot be compared.",
     "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },

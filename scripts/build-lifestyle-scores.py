@@ -183,6 +183,17 @@ def main():
     scores = json.load(open(os.path.join(ROOT, "data", "computed", "scores.json"), encoding="utf-8"))
     terrain = json.load(open(os.path.join(ROOT, "data", "computed", "terrain.json"), encoding="utf-8"))
     terrain = terrain.get("stations", terrain)
+    # 地図データの登録が大きく少ない駅は、医療・買い物・外食の点を出していない
+    # （scripts/build-coverage-gaps.py）。ここでは点が無いぶんを、上にも下にも寄せない
+    # 中ほどの50として扱う。抜いたまま重みを配り直すと、低かった軸が消えて点が跳ね上がる。
+    gaps_path = os.path.join(ROOT, "data", "computed", "coverage-gaps.json")
+    gaps = json.load(open(gaps_path, encoding="utf-8")) if os.path.exists(gaps_path) else {}
+    for slug, cats in gaps.items():
+        sc = scores.setdefault(slug, {})
+        for cat, axis in (("clinic", "healthcare"), ("supermarket", "shopping"),
+                          ("restaurant", "food")):
+            if cat in cats and axis not in sc:
+                sc[axis] = 50
 
     # 1〜2. 駅から歩いて行ける範囲の、広い公園の面積（scripts/build-green.py が出す）
     greens = json.load(open(os.path.join(ROOT, "data", "computed", "green.json"),

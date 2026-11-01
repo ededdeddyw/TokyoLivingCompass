@@ -292,6 +292,7 @@ python3 scripts/build-commutes.py    # 所要時間（458駅 × 7オフィス街
 python3 scripts/build-scores.py      # 計算で出せるスコア軸
 python3 scripts/build-rent-bands.py  # 家賃の帯（data/rent-survey/ の観測値から）
 python3 scripts/build-non-residential.py  # まわりに住宅がほとんどない駅（空港・倉庫街など）
+python3 scripts/build-coverage-gaps.py  # 地図データの登録がまわりの駅より大きく少ない駅
 python3 scripts/fetch-passengers.py  # 駅別乗降客数（国土数値情報 S12）
 python3 scripts/fetch-congestion.py  # 路線ごとの朝の混雑率（国土交通省の調査）
 python3 scripts/fetch-zoning.py      # 駅周辺の用途地域と容積率（国土数値情報 A29）

@@ -45,17 +45,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. a small projected flood depth and schools and parks within walking distance pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥80,000 to ¥90,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. a small projected flood depth and schools and parks within walking distance pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "todaimae",
       "lead": "For the number of medical facilities, Todaimae; for lower rent, Nezu. ",
-      "note": "Close enough to walk to from Nezu. Nezu adds the Tokyo Metro Chiyoda Line; Todaimae adds the Tokyo Metro Namboku Line. Nezu is 7 minutes quicker to Otemachi, but times to the other main business districts are much the same. A one-room flat costs about ¥10,000 more at Todaimae. On how easy the shopping is, Todaimae comes out ahead. Within about 13 minutes' walk, Todaimae has 12 supermarkets (まいばすけっと and オリンピック and others) and Nezu has 3."
+      "note": "Close enough to walk to from Nezu. Nezu adds the Tokyo Metro Chiyoda Line; Todaimae adds the Tokyo Metro Namboku Line. Nezu is 7 minutes quicker to Otemachi, but times to the other main business districts are much the same. A one-room flat costs about ¥10,000 more at Todaimae. On quiet, Todaimae comes out ahead."
     },
     {
       "slug": "sendagi",
-      "lead": "For how easy the shopping is, Sendagi; for lower rent, Nezu. ",
-      "note": "Close enough to walk to from Nezu. It is served by the same lines as Nezu. Journey times to the main business districts are much the same. A one-room flat costs about ¥7,000 more at Sendagi. On how easy the shopping is, Sendagi comes out ahead. Within about 13 minutes' walk, Sendagi has 9 supermarkets (まいばすけっと and マルエツプチ and others) and Nezu has 3."
+      "lead": "For quiet, Sendagi; for lower rent, Nezu. ",
+      "note": "Close enough to walk to from Nezu. It is served by the same lines as Nezu. Journey times to the main business districts are much the same. A one-room flat costs about ¥7,000 more at Sendagi. On quiet, Sendagi comes out ahead."
     }
   ],
   "goodFor": [
@@ -64,8 +64,7 @@
     "People living alone who want to hold the rent down"
   ],
   "notFor": [
-    "People who want another route when service is suspended",
-    "People who want to finish their shopping on foot"
+    "People who want another route when service is suspended"
   ],
   "noiseSources": [
     "不忍通り (2 lanes each way) runs right beside the station, so for a flat close to the station, check whether it faces the road",
@@ -79,7 +78,7 @@
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
-    "groceries": "There are 3 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
+    "groceries": "The map data has far fewer supermarkets registered here than at nearby stations, so the count cannot be compared.",
     "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "Only the Tokyo Metro Chiyoda Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",

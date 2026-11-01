@@ -22,7 +22,7 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥110,000 to ¥120,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥110,000 to ¥120,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. a small projected flood depth pushes the figure up. On the other side, only one line, the {line}, serving the station holds it down. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "kokuritsu-kyogijo",
@@ -31,8 +31,8 @@
     },
     {
       "slug": "sendagaya",
-      "lead": "For how easy the shopping is, Sendagaya; for lower rent, Shinanomachi. ",
-      "note": "Close enough to walk to from Shinanomachi. It is served by the same lines as Shinanomachi. Journey times to the main business districts are much the same. A one-room flat costs about ¥22,000 more at Sendagaya. On how easy the shopping is, Sendagaya comes out ahead. Within about 13 minutes' walk, Sendagaya has 3 supermarkets (ピアゴ and コープ and others) and Shinanomachi has 0."
+      "lead": "Shinanomachi is ahead on lower rent, and little else separates the two. ",
+      "note": "Close enough to walk to from Shinanomachi. It is served by the same lines as Shinanomachi. Journey times to the main business districts are much the same. A one-room flat costs about ¥22,000 more at Sendagaya."
     }
   ],
   "goodFor": [
@@ -41,9 +41,7 @@
     "People who want a large park within walking distance"
   ],
   "notFor": [
-    "People who want another route when service is suspended",
-    "People who want to finish their shopping on foot",
-    "People who want plenty of places to eat out"
+    "People who want another route when service is suspended"
   ],
   "noiseSources": [
     "The 首都高速4号新宿線 viaduct runs right beside the station. It is an expressway, so traffic is audible day and night",
@@ -57,7 +55,7 @@
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
-    "groceries": "OpenStreetMap records no supermarket within walking distance of the station.",
+    "groceries": "The map data has far fewer supermarkets registered here than at nearby stations, so the count cannot be compared.",
     "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
     "stationNote": "Only the JR Chuo-Sobu Line (Local) serves this station, so when it stops you walk to another station.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",
