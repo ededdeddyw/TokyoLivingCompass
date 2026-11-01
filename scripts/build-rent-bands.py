@@ -84,6 +84,24 @@ def main():
                           f"（{bands[smaller]['sourceMin']}〜{bands[smaller]['sourceMax']}円）")
                     del bands[smaller]
 
+        # 隣り合う間取りの差が大きすぎるときも、同じ理由で帯にしない（2026-11-01）。
+        # 掲載の平均なので、狭い間取りが広い間取りより高く出たり、広い間取りだけが
+        # 高額物件に引っぱられたりする。読み手には相場の誤りに見えるため、出さない。
+        #   - ワンルームが1Kより2万円以上高い（天王洲アイルで3.6万円高かった）
+        #   - 1LDKが1Kの2.5倍を超える（神谷町・虎ノ門）
+        #   - 2LDKが1LDKの2倍を超える（竹橋で3.4倍、芝公園で2.2倍）
+        for name, ok in (
+                ("oneRoom", lambda b: "oneK" not in b
+                 or b["oneRoom"]["mean"] - b["oneK"]["mean"] < 20000),
+                ("oneLDK", lambda b: "oneK" not in b
+                 or b["oneLDK"]["mean"] <= b["oneK"]["mean"] * 2.5),
+                ("twoLDK", lambda b: "oneLDK" not in b
+                 or b["twoLDK"]["mean"] <= b["oneLDK"]["mean"] * 2.0)):
+            if name in bands and not ok(bands):
+                print(f"  {slug}: {name} が隣の間取りと離れすぎているため、帯にしなかった"
+                      f"（{bands[name]['sourceMin']}〜{bands[name]['sourceMax']}円）")
+                del bands[name]
+
         if not bands:
             print(f"  {slug}: 2サイト以上そろった間取りがないため、帯を作らなかった")
             continue

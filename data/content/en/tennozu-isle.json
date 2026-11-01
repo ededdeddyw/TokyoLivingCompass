@@ -2,8 +2,8 @@
   "slug": "tennozu-isle",
   "locale": "en",
   "name": "Tennozu-Isle",
-  "tagline": "Shinagawa in 17 minutes and Tokyo in 18 minutes. Served by 2 lines. A one-room flat rents for roughly ¥160,000 to ¥170,000.",
-  "summary": "The station is in Shinagawa City, where Tokyo Monorail and Tokyo Waterfront Area Rapid Transit run 2 lines between them. Journey times to the main business districts are 24 minutes to Otemachi, 25 minutes to Shinjuku, 20 minutes to Shibuya and 17 minutes to Shinagawa. A one-room flat rents for roughly ¥160,000 to ¥170,000. The station stands 2.5 m above sea level, and the ground within 800 m varies in height by 2.7 m. The land around the station is close to level.",
+  "tagline": "Shinagawa in 17 minutes and Tokyo in 18 minutes. Served by 2 lines. A 1K flat rents for roughly ¥120,000 to ¥130,000.",
+  "summary": "The station is in Shinagawa City, where Tokyo Monorail and Tokyo Waterfront Area Rapid Transit run 2 lines between them. Journey times to the main business districts are 24 minutes to Otemachi, 25 minutes to Shinjuku, 20 minutes to Shibuya and 17 minutes to Shinagawa. A 1K flat rents for roughly ¥120,000 to ¥130,000. The station stands 2.5 m above sea level, and the ground within 800 m varies in height by 2.7 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 2.5 m above sea level. Within 800 m the ground ranges from 1.2 m to 3.9 m, a difference of 2.7 m."
@@ -13,7 +13,7 @@
   "stationNote": "2 lines serve the station: Tokyo Monorail and Rinkai Line. The lines are split between operators (Tokyo Monorail runs 1 line and Tokyo Waterfront Area Rapid Transit runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "Rinkai Line runs at 118% of capacity in the morning peak. The busiest stretch is 大井町→品川シーサイド, which this station is not on. Tokyo Monorail is not covered by the ministry's congestion survey. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "Around this station, One room ¥160,000 to ¥170,000 and 1K ¥120,000 to ¥130,000. 1LDK ¥210,000 to ¥220,000 and 2LDK ¥300,000 to ¥310,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, 1K ¥120,000 to ¥130,000 and 1LDK ¥210,000 to ¥220,000. 2LDK ¥300,000 to ¥310,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -22,17 +22,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥160,000 to ¥170,000. Set against how long it takes to reach the central business districts, that is on the high side. For One room, 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A 1K flat here goes for ¥120,000 to ¥130,000. Set against how long it takes to reach the central business districts, that is on the high side. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "shimbamba",
-      "lead": "Shimbamba is ahead on lower rent and how easy the shopping is. ",
-      "note": "Close enough to walk to from Tennozu-Isle. Tennozu-Isle adds the Tokyo Monorail and Rinkai Line; Shimbamba adds the Keikyu Main Line. Which is faster depends on where you are going: Tennozu-Isle is 7 minutes quicker to Shinjuku, Shimbamba is 14 minutes quicker to Shinagawa. A one-room flat costs about ¥50,000 less at Shimbamba. On what it offers families, Shimbamba comes out ahead."
+      "lead": "Shimbamba is ahead on how easy the shopping is and what it offers families. ",
+      "note": "Close enough to walk to from Tennozu-Isle. Tennozu-Isle adds the Tokyo Monorail and Rinkai Line; Shimbamba adds the Keikyu Main Line. Which is faster depends on where you are going: Tennozu-Isle is 7 minutes quicker to Shinjuku, Shimbamba is 14 minutes quicker to Shinagawa. On what it offers families, Shimbamba comes out ahead."
     },
     {
       "slug": "kitashinagawa",
-      "lead": "Kitashinagawa is ahead on lower rent and the number of medical facilities. ",
-      "note": "About 1 km from Tennozu-Isle in a straight line. Tennozu-Isle adds the Tokyo Monorail and Rinkai Line; Kitashinagawa adds the Keikyu Main Line. Which is faster depends on where you are going: Tennozu-Isle is 5 minutes quicker to Shinjuku, Kitashinagawa is 15 minutes quicker to Shinagawa. A one-room flat costs about ¥22,000 less at Kitashinagawa. On the number of places to eat out, Kitashinagawa comes out ahead. Within about 13 minutes' walk, Kitashinagawa has 51 restaurants and Tennozu-Isle has 7."
+      "lead": "Kitashinagawa is ahead on the number of medical facilities and how easy the shopping is. ",
+      "note": "About 1 km from Tennozu-Isle in a straight line. Tennozu-Isle adds the Tokyo Monorail and Rinkai Line; Kitashinagawa adds the Keikyu Main Line. Which is faster depends on where you are going: Tennozu-Isle is 5 minutes quicker to Shinjuku, Kitashinagawa is 15 minutes quicker to Shinagawa. On the number of places to eat out, Kitashinagawa comes out ahead. Within about 13 minutes' walk, Kitashinagawa has 51 restaurants and Tennozu-Isle has 7."
     }
   ],
   "goodFor": [
@@ -40,15 +40,13 @@
   ],
   "notFor": [
     "People who want to finish their shopping on foot",
-    "People who want plenty of places to eat out",
-    "People who want to hold the rent down"
+    "People who want plenty of places to eat out"
   ],
   "noiseSources": [
     "The 首都高速1号羽田線 viaduct runs right beside the station. It is an expressway, so traffic is audible day and night",
     "海岸通り (3 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
-    "pricey",
     "fastToCenter",
     "flat"
   ],

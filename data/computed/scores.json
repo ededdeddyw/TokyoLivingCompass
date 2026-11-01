@@ -14,7 +14,7 @@
     "safety": 61,
     "disaster": 66,
     "family": 32,
-    "rentValue": 20,
+    "rentValue": 15,
     "rentLow": 6
   },
   "nijubashimae": {
@@ -48,7 +48,7 @@
     "safety": 11,
     "disaster": 52,
     "family": 5,
-    "rentValue": 5,
+    "rentValue": 3,
     "rentLow": 3
   },
   "hanzomon": {
@@ -66,8 +66,8 @@
     "safety": 62,
     "disaster": 100,
     "family": 31,
-    "rentValue": 5,
-    "rentLow": 3
+    "rentValue": 4,
+    "rentLow": 2
   },
   "kokkai-gijidomae": {
     "commute": 90,
@@ -84,8 +84,8 @@
     "safety": 19,
     "disaster": 88,
     "family": 5,
-    "rentValue": 9,
-    "rentLow": 4
+    "rentValue": 8,
+    "rentLow": 3
   },
   "otemachi": {
     "commute": 89,
@@ -102,8 +102,8 @@
     "safety": 27,
     "disaster": 52,
     "family": 6,
-    "rentValue": 60,
-    "rentLow": 9
+    "rentValue": 55,
+    "rentLow": 8
   },
   "iwamotocho": {
     "commute": 72,
@@ -120,7 +120,7 @@
     "safety": 44,
     "disaster": 38,
     "family": 23,
-    "rentValue": 48,
+    "rentValue": 45,
     "rentLow": 22
   },
   "ichigaya": {
@@ -138,8 +138,8 @@
     "safety": 62,
     "disaster": 79,
     "family": 60,
-    "rentValue": 25,
-    "rentLow": 10
+    "rentValue": 21,
+    "rentLow": 9
   },
   "ochanomizu": {
     "commute": 85,
@@ -156,8 +156,8 @@
     "safety": 41,
     "disaster": 76,
     "family": 30,
-    "rentValue": 91,
-    "rentLow": 19
+    "rentValue": 88,
+    "rentLow": 18
   },
   "yurakucho": {
     "commute": 96,
@@ -174,8 +174,8 @@
     "safety": 29,
     "disaster": 52,
     "family": 3,
-    "rentValue": 89,
-    "rentLow": 8
+    "rentValue": 83,
+    "rentLow": 7
   },
   "suehirocho": {
     "commute": 74,
@@ -192,8 +192,8 @@
     "safety": 20,
     "disaster": 59,
     "family": 20,
-    "rentValue": 46,
-    "rentLow": 20
+    "rentValue": 43,
+    "rentLow": 19
   },
   "tokyo": {
     "commute": 93,
@@ -210,8 +210,8 @@
     "safety": 29,
     "disaster": 45,
     "family": 6,
-    "rentValue": 87,
-    "rentLow": 10
+    "rentValue": 83,
+    "rentLow": 9
   },
   "sakuradamon": {
     "commute": 84,
@@ -244,8 +244,8 @@
     "safety": 48,
     "disaster": 72,
     "family": 28,
-    "rentValue": 40,
-    "rentLow": 17
+    "rentValue": 36,
+    "rentLow": 16
   },
   "nagatacho": {
     "commute": 94,
@@ -262,8 +262,8 @@
     "safety": 32,
     "disaster": 94,
     "family": 7,
-    "rentValue": 10,
-    "rentLow": 3
+    "rentValue": 8,
+    "rentLow": 2
   },
   "awajicho": {
     "commute": 73,
@@ -280,8 +280,8 @@
     "safety": 40,
     "disaster": 66,
     "family": 24,
-    "rentValue": 19,
-    "rentLow": 15
+    "rentValue": 16,
+    "rentLow": 14
   },
   "tameike-sanno": {
     "commute": 90,
@@ -298,8 +298,8 @@
     "safety": 23,
     "disaster": 72,
     "family": 6,
-    "rentValue": 9,
-    "rentLow": 4
+    "rentValue": 8,
+    "rentLow": 3
   },
   "jimbocho": {
     "commute": 85,
@@ -316,8 +316,8 @@
     "safety": 59,
     "disaster": 52,
     "family": 18,
-    "rentValue": 71,
-    "rentLow": 13
+    "rentValue": 66,
+    "rentLow": 12
   },
   "kanda": {
     "commute": 84,
@@ -334,8 +334,8 @@
     "safety": 42,
     "disaster": 59,
     "family": 16,
-    "rentValue": 76,
-    "rentLow": 17
+    "rentValue": 72,
+    "rentLow": 16
   },
   "akihabara": {
     "commute": 76,
@@ -352,7 +352,7 @@
     "safety": 41,
     "disaster": 28,
     "family": 23,
-    "rentValue": 70,
+    "rentValue": 66,
     "rentLow": 22
   },
   "takebashi": {
@@ -370,8 +370,8 @@
     "safety": 52,
     "disaster": 79,
     "family": 17,
-    "rentValue": 4,
-    "rentLow": 3
+    "rentValue": 54,
+    "rentLow": 17
   },
   "kasumigaseki": {
     "commute": 96,
@@ -404,8 +404,8 @@
     "safety": 55,
     "disaster": 79,
     "family": 47,
-    "rentValue": 31,
-    "rentLow": 16
+    "rentValue": 27,
+    "rentLow": 15
   },
   "kojimachi": {
     "commute": 79,
@@ -422,8 +422,8 @@
     "safety": 64,
     "disaster": 82,
     "family": 37,
-    "rentValue": 3,
-    "rentLow": 2
+    "rentValue": 1,
+    "rentLow": 1
   },
   "mitsukoshimae": {
     "commute": 88,
@@ -440,8 +440,8 @@
     "safety": 53,
     "disaster": 59,
     "family": 15,
-    "rentValue": 82,
-    "rentLow": 13
+    "rentValue": 79,
+    "rentLow": 12
   },
   "kyobashi": {
     "commute": 84,
@@ -458,8 +458,8 @@
     "safety": 38,
     "disaster": 52,
     "family": 13,
-    "rentValue": 44,
-    "rentLow": 10
+    "rentValue": 74,
+    "rentLow": 16
   },
   "ningyocho": {
     "commute": 80,
@@ -476,8 +476,8 @@
     "safety": 50,
     "disaster": 28,
     "family": 34,
-    "rentValue": 85,
-    "rentLow": 22
+    "rentValue": 83,
+    "rentLow": 21
   },
   "hatchobori": {
     "commute": 83,
@@ -494,8 +494,8 @@
     "safety": 57,
     "disaster": 18,
     "family": 34,
-    "rentValue": 81,
-    "rentLow": 19
+    "rentValue": 77,
+    "rentLow": 18
   },
   "kachidoki": {
     "commute": 72,
@@ -512,8 +512,8 @@
     "safety": 52,
     "disaster": 82,
     "family": 60,
-    "rentValue": 12,
-    "rentLow": 12
+    "rentValue": 10,
+    "rentLow": 11
   },
   "kodemmacho": {
     "commute": 71,
@@ -530,7 +530,7 @@
     "safety": 53,
     "disaster": 38,
     "family": 27,
-    "rentValue": 34,
+    "rentValue": 30,
     "rentLow": 20
   },
   "nihombashi": {
@@ -548,8 +548,8 @@
     "safety": 40,
     "disaster": 38,
     "family": 16,
-    "rentValue": 65,
-    "rentLow": 13
+    "rentValue": 91,
+    "rentLow": 19
   },
   "tsukishima": {
     "commute": 75,
@@ -566,7 +566,7 @@
     "safety": 56,
     "disaster": 72,
     "family": 69,
-    "rentValue": 39,
+    "rentValue": 34,
     "rentLow": 18
   },
   "higashi-ginza": {
@@ -584,8 +584,8 @@
     "safety": 17,
     "disaster": 52,
     "family": 8,
-    "rentValue": 59,
-    "rentLow": 11
+    "rentValue": 54,
+    "rentLow": 9
   },
   "hamacho": {
     "commute": 69,
@@ -602,7 +602,7 @@
     "safety": 51,
     "disaster": 28,
     "family": 41,
-    "rentValue": 35,
+    "rentValue": 31,
     "rentLow": 22
   },
   "tsukiji": {
@@ -620,8 +620,8 @@
     "safety": 49,
     "disaster": 38,
     "family": 22,
-    "rentValue": 65,
-    "rentLow": 16
+    "rentValue": 60,
+    "rentLow": 15
   },
   "tsukijishijo": {
     "commute": 76,
@@ -638,8 +638,8 @@
     "safety": 16,
     "disaster": 52,
     "family": 9,
-    "rentValue": 27,
-    "rentLow": 15
+    "rentValue": 24,
+    "rentLow": 14
   },
   "kayabacho": {
     "commute": 79,
@@ -656,7 +656,7 @@
     "safety": 52,
     "disaster": 38,
     "family": 31,
-    "rentValue": 75,
+    "rentValue": 71,
     "rentLow": 20
   },
   "ginza": {
@@ -674,8 +674,8 @@
     "safety": 16,
     "disaster": 66,
     "family": 4,
-    "rentValue": 77,
-    "rentLow": 8
+    "rentValue": 94,
+    "rentLow": 10
   },
   "bakurocho": {
     "commute": 79,
@@ -692,7 +692,7 @@
     "safety": 56,
     "disaster": 38,
     "family": 31,
-    "rentValue": 84,
+    "rentValue": 80,
     "rentLow": 22
   },
   "odaiba-kaihinkoen": {
@@ -710,8 +710,8 @@
     "safety": 40,
     "disaster": 88,
     "family": 2,
-    "rentValue": 1,
-    "rentLow": 7
+    "rentValue": 2,
+    "rentLow": 10
   },
   "mita": {
     "commute": 84,
@@ -728,8 +728,8 @@
     "safety": 42,
     "disaster": 72,
     "family": 34,
-    "rentValue": 53,
-    "rentLow": 11
+    "rentValue": 47,
+    "rentLow": 10
   },
   "nogizaka": {
     "commute": 81,
@@ -746,8 +746,8 @@
     "safety": 23,
     "disaster": 100,
     "family": 14,
-    "rentValue": 3,
-    "rentLow": 2
+    "rentValue": 2,
+    "rentLow": 1
   },
   "roppongi": {
     "commute": 90,
@@ -764,7 +764,7 @@
     "safety": 13,
     "disaster": 94,
     "family": 12,
-    "rentValue": 4,
+    "rentValue": 3,
     "rentLow": 1
   },
   "roppongi-itchome": {
@@ -782,7 +782,7 @@
     "safety": 29,
     "disaster": 100,
     "family": 17,
-    "rentValue": 1,
+    "rentValue": 0,
     "rentLow": 0
   },
   "shinagawa": {
@@ -800,8 +800,8 @@
     "safety": 20,
     "disaster": 54,
     "family": 11,
-    "rentValue": 48,
-    "rentLow": 11
+    "rentValue": 61,
+    "rentLow": 15
   },
   "gaiemmae": {
     "commute": 85,
@@ -836,8 +836,8 @@
     "safety": 47,
     "disaster": 38,
     "family": 26,
-    "rentValue": 24,
-    "rentLow": 6
+    "rentValue": 20,
+    "rentLow": 5
   },
   "hiro-o": {
     "commute": 85,
@@ -854,8 +854,8 @@
     "safety": 41,
     "disaster": 79,
     "family": 40,
-    "rentValue": 8,
-    "rentLow": 5
+    "rentValue": 7,
+    "rentLow": 4
   },
   "onarimon": {
     "commute": 78,
@@ -872,8 +872,8 @@
     "safety": 44,
     "disaster": 66,
     "family": 27,
-    "rentValue": 5,
-    "rentLow": 5
+    "rentValue": 4,
+    "rentLow": 4
   },
   "shimbashi": {
     "commute": 95,
@@ -890,8 +890,8 @@
     "safety": 11,
     "disaster": 70,
     "family": 7,
-    "rentValue": 50,
-    "rentLow": 6
+    "rentValue": 43,
+    "rentLow": 5
   },
   "hinode": {
     "commute": 70,
@@ -908,8 +908,8 @@
     "safety": 45,
     "disaster": 79,
     "family": 15,
-    "rentValue": 9,
-    "rentLow": 12
+    "rentValue": 8,
+    "rentLow": 10
   },
   "tokyo-teleport": {
     "commute": 54,
@@ -926,8 +926,8 @@
     "safety": 40,
     "disaster": 94,
     "family": 3,
-    "rentValue": 0,
-    "rentLow": 6
+    "rentValue": 1,
+    "rentLow": 5
   },
   "shiodome": {
     "commute": 85,
@@ -944,8 +944,8 @@
     "safety": 6,
     "disaster": 52,
     "family": 8,
-    "rentValue": 8,
-    "rentLow": 4
+    "rentValue": 6,
+    "rentLow": 3
   },
   "sengakuji": {
     "commute": 78,
@@ -962,8 +962,8 @@
     "safety": 19,
     "disaster": 79,
     "family": 9,
-    "rentValue": 20,
-    "rentLow": 10
+    "rentValue": 15,
+    "rentLow": 9
   },
   "hamamatsucho": {
     "commute": 82,
@@ -980,8 +980,8 @@
     "safety": 44,
     "disaster": 38,
     "family": 29,
-    "rentValue": 10,
-    "rentLow": 6
+    "rentValue": 9,
+    "rentLow": 5
   },
   "tamachi": {
     "commute": 79,
@@ -998,8 +998,8 @@
     "safety": 36,
     "disaster": 64,
     "family": 28,
-    "rentValue": 40,
-    "rentLow": 15
+    "rentValue": 35,
+    "rentLow": 13
   },
   "shirokanedai": {
     "commute": 77,
@@ -1016,8 +1016,8 @@
     "safety": 71,
     "disaster": 93,
     "family": 69,
-    "rentValue": 9,
-    "rentLow": 8
+    "rentValue": 8,
+    "rentLow": 6
   },
   "shirokane-takanawa": {
     "commute": 80,
@@ -1034,8 +1034,8 @@
     "safety": 42,
     "disaster": 84,
     "family": 24,
-    "rentValue": 18,
-    "rentLow": 9
+    "rentValue": 14,
+    "rentLow": 7
   },
   "kamiyacho": {
     "commute": 88,
@@ -1070,7 +1070,7 @@
     "safety": 34,
     "disaster": 72,
     "family": 10,
-    "rentValue": 2,
+    "rentValue": 1,
     "rentLow": 2
   },
   "shibakoen": {
@@ -1088,8 +1088,8 @@
     "safety": 52,
     "disaster": 59,
     "family": 59,
-    "rentValue": 2,
-    "rentLow": 3
+    "rentValue": 10,
+    "rentLow": 8
   },
   "shibaura-futo": {
     "commute": 65,
@@ -1106,8 +1106,8 @@
     "safety": 47,
     "disaster": 79,
     "family": 7,
-    "rentValue": 6,
-    "rentLow": 14
+    "rentValue": 5,
+    "rentLow": 13
   },
   "toranomon": {
     "commute": 94,
@@ -1124,8 +1124,8 @@
     "safety": 31,
     "disaster": 94,
     "family": 5,
-    "rentValue": 4,
-    "rentLow": 1
+    "rentValue": 6,
+    "rentLow": 2
   },
   "omote-sando": {
     "commute": 86,
@@ -1142,8 +1142,8 @@
     "safety": 35,
     "disaster": 100,
     "family": 35,
-    "rentValue": 4,
-    "rentLow": 2
+    "rentValue": 3,
+    "rentLow": 1
   },
   "akasaka": {
     "commute": 84,
@@ -1160,8 +1160,8 @@
     "safety": 24,
     "disaster": 82,
     "family": 8,
-    "rentValue": 7,
-    "rentLow": 5
+    "rentValue": 6,
+    "rentLow": 4
   },
   "akabanebashi": {
     "commute": 80,
@@ -1178,8 +1178,8 @@
     "safety": 51,
     "disaster": 79,
     "family": 63,
-    "rentValue": 2,
-    "rentLow": 1
+    "rentValue": 15,
+    "rentLow": 8
   },
   "aoyama-itchome": {
     "commute": 94,
@@ -1196,8 +1196,8 @@
     "safety": 65,
     "disaster": 100,
     "family": 56,
-    "rentValue": 12,
-    "rentLow": 4
+    "rentValue": 10,
+    "rentLow": 3
   },
   "takanawa-gateway": {
     "commute": 78,
@@ -1214,8 +1214,8 @@
     "safety": 16,
     "disaster": 72,
     "family": 9,
-    "rentValue": 15,
-    "rentLow": 9
+    "rentValue": 27,
+    "rentLow": 11
   },
   "takanawadai": {
     "commute": 74,
@@ -1232,8 +1232,8 @@
     "safety": 31,
     "disaster": 100,
     "family": 10,
-    "rentValue": 12,
-    "rentLow": 11
+    "rentValue": 11,
+    "rentLow": 10
   },
   "azabu-juban": {
     "commute": 83,
@@ -1250,8 +1250,8 @@
     "safety": 44,
     "disaster": 72,
     "family": 39,
-    "rentValue": 3,
-    "rentLow": 1
+    "rentValue": 19,
+    "rentLow": 7
   },
   "shimo-ochiai": {
     "commute": 59,
@@ -1286,7 +1286,7 @@
     "safety": 51,
     "disaster": 86,
     "family": 74,
-    "rentValue": 92,
+    "rentValue": 91,
     "rentLow": 51
   },
   "shinanomachi": {
@@ -1304,7 +1304,7 @@
     "safety": 62,
     "disaster": 88,
     "family": 39,
-    "rentValue": 49,
+    "rentValue": 45,
     "rentLow": 20
   },
   "yotsuya": {
@@ -1322,8 +1322,8 @@
     "safety": 61,
     "disaster": 88,
     "family": 71,
-    "rentValue": 67,
-    "rentLow": 12
+    "rentValue": 62,
+    "rentLow": 11
   },
   "yotsuya-sanchome": {
     "commute": 81,
@@ -1340,7 +1340,7 @@
     "safety": 41,
     "disaster": 100,
     "family": 33,
-    "rentValue": 85,
+    "rentValue": 82,
     "rentLow": 21
   },
   "kokuritsu-kyogijo": {
@@ -1358,8 +1358,8 @@
     "safety": 49,
     "disaster": 94,
     "family": 28,
-    "rentValue": 43,
-    "rentLow": 14
+    "rentValue": 38,
+    "rentLow": 12
   },
   "okubo": {
     "commute": 70,
@@ -1394,7 +1394,7 @@
     "safety": 0,
     "disaster": 88,
     "family": 13,
-    "rentValue": 88,
+    "rentValue": 87,
     "rentLow": 31
   },
   "shinjuku": {
@@ -1412,8 +1412,8 @@
     "safety": 0,
     "disaster": 79,
     "family": 5,
-    "rentValue": 90,
-    "rentLow": 18
+    "rentValue": 88,
+    "rentLow": 17
   },
   "shinjuku-sanchome": {
     "commute": 81,
@@ -1430,8 +1430,8 @@
     "safety": 0,
     "disaster": 79,
     "family": 7,
-    "rentValue": 25,
-    "rentLow": 9
+    "rentValue": 21,
+    "rentLow": 8
   },
   "shinjuku-gyoemmae": {
     "commute": 79,
@@ -1448,8 +1448,8 @@
     "safety": 0,
     "disaster": 100,
     "family": 11,
-    "rentValue": 35,
-    "rentLow": 12
+    "rentValue": 29,
+    "rentLow": 11
   },
   "shinjuku-nishiguchi": {
     "commute": 74,
@@ -1466,8 +1466,8 @@
     "safety": 0,
     "disaster": 94,
     "family": 6,
-    "rentValue": 32,
-    "rentLow": 18
+    "rentValue": 27,
+    "rentLow": 17
   },
   "waseda": {
     "commute": 66,
@@ -1516,7 +1516,7 @@
     "safety": 38,
     "disaster": 93,
     "family": 22,
-    "rentValue": 49,
+    "rentValue": 45,
     "rentLow": 21
   },
   "higashi-shinjuku": {
@@ -1534,7 +1534,7 @@
     "safety": 0,
     "disaster": 88,
     "family": 10,
-    "rentValue": 52,
+    "rentValue": 48,
     "rentLow": 21
   },
   "edogawabashi": {
@@ -1552,7 +1552,7 @@
     "safety": 67,
     "disaster": 59,
     "family": 53,
-    "rentValue": 43,
+    "rentValue": 42,
     "rentLow": 26
   },
   "ushigome-yanagicho": {
@@ -1570,7 +1570,7 @@
     "safety": 40,
     "disaster": 70,
     "family": 23,
-    "rentValue": 58,
+    "rentValue": 55,
     "rentLow": 27
   },
   "ushigome-kagurazaka": {
@@ -1588,7 +1588,7 @@
     "safety": 63,
     "disaster": 94,
     "family": 80,
-    "rentValue": 24,
+    "rentValue": 22,
     "rentLow": 19
   },
   "kagurazaka": {
@@ -1606,8 +1606,8 @@
     "safety": 63,
     "disaster": 72,
     "family": 59,
-    "rentValue": 41,
-    "rentLow": 24
+    "rentValue": 38,
+    "rentLow": 23
   },
   "wakamatsu-kawada": {
     "commute": 69,
@@ -1624,7 +1624,7 @@
     "safety": 23,
     "disaster": 76,
     "family": 14,
-    "rentValue": 67,
+    "rentValue": 64,
     "rentLow": 28
   },
   "nishi-shinjuku": {
@@ -1642,7 +1642,7 @@
     "safety": 0,
     "disaster": 86,
     "family": 8,
-    "rentValue": 75,
+    "rentValue": 73,
     "rentLow": 24
   },
   "nishi-waseda": {
@@ -1660,7 +1660,7 @@
     "safety": 19,
     "disaster": 94,
     "family": 16,
-    "rentValue": 74,
+    "rentValue": 73,
     "rentLow": 36
   },
   "seibu-shinjuku": {
@@ -1678,7 +1678,7 @@
     "safety": 0,
     "disaster": 94,
     "family": 11,
-    "rentValue": 11,
+    "rentValue": 10,
     "rentLow": 19
   },
   "tochomae": {
@@ -1696,7 +1696,7 @@
     "safety": 0,
     "disaster": 100,
     "family": 9,
-    "rentValue": 40,
+    "rentValue": 36,
     "rentLow": 17
   },
   "omokagebashi": {
@@ -1714,7 +1714,7 @@
     "safety": 44,
     "disaster": 79,
     "family": 32,
-    "rentValue": 6,
+    "rentValue": 5,
     "rentLow": 34
   },
   "takadanobaba": {
@@ -1750,7 +1750,7 @@
     "safety": 57,
     "disaster": 94,
     "family": 75,
-    "rentValue": 65,
+    "rentValue": 63,
     "rentLow": 37
   },
   "korakuen": {
@@ -1768,7 +1768,7 @@
     "safety": 44,
     "disaster": 79,
     "family": 23,
-    "rentValue": 94,
+    "rentValue": 93,
     "rentLow": 29
   },
   "shin-otsuka": {
@@ -1786,7 +1786,7 @@
     "safety": 52,
     "disaster": 86,
     "family": 45,
-    "rentValue": 91,
+    "rentValue": 90,
     "rentLow": 43
   },
   "kasuga": {
@@ -1804,7 +1804,7 @@
     "safety": 46,
     "disaster": 86,
     "family": 26,
-    "rentValue": 88,
+    "rentValue": 87,
     "rentLow": 29
   },
   "hongo-sanchome": {
@@ -1822,8 +1822,8 @@
     "safety": 43,
     "disaster": 94,
     "family": 38,
-    "rentValue": 61,
-    "rentLow": 21
+    "rentValue": 58,
+    "rentLow": 20
   },
   "hon-komagome": {
     "commute": 62,
@@ -1858,7 +1858,7 @@
     "safety": 68,
     "disaster": 94,
     "family": 92,
-    "rentValue": 91,
+    "rentValue": 90,
     "rentLow": 45
   },
   "nezu": {
@@ -1912,7 +1912,7 @@
     "safety": 56,
     "disaster": 82,
     "family": 53,
-    "rentValue": 81,
+    "rentValue": 79,
     "rentLow": 32
   },
   "gokokuji": {
@@ -1930,7 +1930,7 @@
     "safety": 70,
     "disaster": 94,
     "family": 59,
-    "rentValue": 80,
+    "rentValue": 79,
     "rentLow": 42
   },
   "minowa": {
@@ -1948,7 +1948,7 @@
     "safety": 43,
     "disaster": 28,
     "family": 49,
-    "rentValue": 50,
+    "rentValue": 49,
     "rentLow": 47
   },
   "ueno": {
@@ -1966,7 +1966,7 @@
     "safety": 20,
     "disaster": 60,
     "family": 15,
-    "rentValue": 79,
+    "rentValue": 77,
     "rentLow": 28
   },
   "keisei-ueno": {
@@ -1984,7 +1984,7 @@
     "safety": 15,
     "disaster": 79,
     "family": 14,
-    "rentValue": 5,
+    "rentValue": 4,
     "rentLow": 28
   },
   "iriya": {
@@ -2002,7 +2002,7 @@
     "safety": 49,
     "disaster": 44,
     "family": 36,
-    "rentValue": 48,
+    "rentValue": 46,
     "rentLow": 37
   },
   "sendagi": {
@@ -2038,7 +2038,7 @@
     "safety": 21,
     "disaster": 45,
     "family": 21,
-    "rentValue": 66,
+    "rentValue": 63,
     "rentLow": 24
   },
   "shin-okachimachi": {
@@ -2056,7 +2056,7 @@
     "safety": 42,
     "disaster": 28,
     "family": 43,
-    "rentValue": 30,
+    "rentValue": 28,
     "rentLow": 25
   },
   "asakusa": {
@@ -2074,7 +2074,7 @@
     "safety": 58,
     "disaster": 28,
     "family": 44,
-    "rentValue": 56,
+    "rentValue": 54,
     "rentLow": 35
   },
   "asakusa-tx": {
@@ -2092,7 +2092,7 @@
     "safety": 50,
     "disaster": 28,
     "family": 38,
-    "rentValue": 38,
+    "rentValue": 37,
     "rentLow": 35
   },
   "asakusabashi": {
@@ -2110,7 +2110,7 @@
     "safety": 52,
     "disaster": 28,
     "family": 38,
-    "rentValue": 52,
+    "rentValue": 48,
     "rentLow": 25
   },
   "yushima": {
@@ -2128,8 +2128,8 @@
     "safety": 15,
     "disaster": 79,
     "family": 15,
-    "rentValue": 24,
-    "rentLow": 16
+    "rentValue": 21,
+    "rentLow": 15
   },
   "tawaramachi": {
     "commute": 62,
@@ -2146,7 +2146,7 @@
     "safety": 51,
     "disaster": 28,
     "family": 38,
-    "rentValue": 27,
+    "rentValue": 26,
     "rentLow": 28
   },
   "inaricho": {
@@ -2164,7 +2164,7 @@
     "safety": 49,
     "disaster": 28,
     "family": 38,
-    "rentValue": 44,
+    "rentValue": 43,
     "rentLow": 27
   },
   "kuramae": {
@@ -2182,7 +2182,7 @@
     "safety": 63,
     "disaster": 36,
     "family": 41,
-    "rentValue": 43,
+    "rentValue": 42,
     "rentLow": 27
   },
   "uguisudani": {
@@ -2200,7 +2200,7 @@
     "safety": 42,
     "disaster": 66,
     "family": 21,
-    "rentValue": 68,
+    "rentValue": 67,
     "rentLow": 33
   },
   "tokyo-skytree": {
@@ -2236,7 +2236,7 @@
     "safety": 63,
     "disaster": 38,
     "family": 72,
-    "rentValue": 37,
+    "rentValue": 36,
     "rentLow": 30
   },
   "keisei-hikifune": {
@@ -2254,7 +2254,7 @@
     "safety": 52,
     "disaster": 28,
     "family": 67,
-    "rentValue": 48,
+    "rentValue": 49,
     "rentLow": 58
   },
   "yahiro": {
@@ -2272,7 +2272,7 @@
     "safety": 43,
     "disaster": 45,
     "family": 55,
-    "rentValue": 59,
+    "rentValue": 60,
     "rentLow": 80
   },
   "omurai": {
@@ -2324,7 +2324,7 @@
     "safety": 55,
     "disaster": 28,
     "family": 68,
-    "rentValue": 42,
+    "rentValue": 43,
     "rentLow": 53
   },
   "honjo-azumabashi": {
@@ -2378,7 +2378,7 @@
     "safety": 42,
     "disaster": 28,
     "family": 51,
-    "rentValue": 54,
+    "rentValue": 55,
     "rentLow": 65
   },
   "kikukawa": {
@@ -2396,7 +2396,7 @@
     "safety": 67,
     "disaster": 28,
     "family": 97,
-    "rentValue": 37,
+    "rentValue": 36,
     "rentLow": 30
   },
   "kinshicho": {
@@ -2414,7 +2414,7 @@
     "safety": 33,
     "disaster": 36,
     "family": 28,
-    "rentValue": 78,
+    "rentValue": 76,
     "rentLow": 32
   },
   "kanegafuchi": {
@@ -2466,7 +2466,7 @@
     "safety": 37,
     "disaster": 28,
     "family": 35,
-    "rentValue": 39,
+    "rentValue": 37,
     "rentLow": 41
   },
   "kameidosuijin": {
@@ -2484,7 +2484,7 @@
     "safety": 33,
     "disaster": 18,
     "family": 36,
-    "rentValue": 19,
+    "rentValue": 18,
     "rentLow": 53
   },
   "sumiyoshi": {
@@ -2502,7 +2502,7 @@
     "safety": 38,
     "disaster": 28,
     "family": 32,
-    "rentValue": 63,
+    "rentValue": 61,
     "rentLow": 34
   },
   "minami-sunamachi": {
@@ -2539,7 +2539,7 @@
     "disaster": 94,
     "family": 3,
     "rentValue": 2,
-    "rentLow": 15
+    "rentLow": 14
   },
   "ojima": {
     "commute": 53,
@@ -2575,7 +2575,7 @@
     "disaster": 100,
     "family": 3,
     "rentValue": 0,
-    "rentLow": 7
+    "rentLow": 6
   },
   "shin-kiba": {
     "commute": 60,
@@ -2592,8 +2592,8 @@
     "safety": 53,
     "disaster": 88,
     "family": 2,
-    "rentValue": 76,
-    "rentLow": 47
+    "rentValue": 78,
+    "rentLow": 48
   },
   "shin-toyosu": {
     "commute": 52,
@@ -2610,8 +2610,8 @@
     "safety": 36,
     "disaster": 100,
     "family": 8,
-    "rentValue": 1,
-    "rentLow": 8
+    "rentValue": 3,
+    "rentLow": 15
   },
   "ariake": {
     "commute": 43,
@@ -2628,7 +2628,7 @@
     "safety": 52,
     "disaster": 100,
     "family": 4,
-    "rentValue": 3,
+    "rentValue": 2,
     "rentLow": 23
   },
   "ariake-tennis-no-mori": {
@@ -2647,7 +2647,7 @@
     "disaster": 100,
     "family": 4,
     "rentValue": 1,
-    "rentLow": 15
+    "rentLow": 14
   },
   "kiba": {
     "commute": 63,
@@ -2664,7 +2664,7 @@
     "safety": 62,
     "disaster": 28,
     "family": 85,
-    "rentValue": 41,
+    "rentValue": 40,
     "rentLow": 30
   },
   "tokyo-big-sight": {
@@ -2698,7 +2698,7 @@
     "safety": 52,
     "disaster": 18,
     "family": 90,
-    "rentValue": 68,
+    "rentValue": 69,
     "rentLow": 70
   },
   "toyocho": {
@@ -2752,7 +2752,7 @@
     "safety": 63,
     "disaster": 38,
     "family": 97,
-    "rentValue": 69,
+    "rentValue": 68,
     "rentLow": 29
   },
   "kiyosumi-shirakawa": {
@@ -2770,7 +2770,7 @@
     "safety": 73,
     "disaster": 28,
     "family": 99,
-    "rentValue": 66,
+    "rentValue": 63,
     "rentLow": 26
   },
   "shiomi": {
@@ -2788,7 +2788,7 @@
     "safety": 67,
     "disaster": 88,
     "family": 40,
-    "rentValue": 62,
+    "rentValue": 61,
     "rentLow": 34
   },
   "nishi-ojima": {
@@ -2806,7 +2806,7 @@
     "safety": 57,
     "disaster": 18,
     "family": 61,
-    "rentValue": 47,
+    "rentValue": 46,
     "rentLow": 45
   },
   "toyosu": {
@@ -2824,7 +2824,7 @@
     "safety": 43,
     "disaster": 66,
     "family": 25,
-    "rentValue": 29,
+    "rentValue": 27,
     "rentLow": 25
   },
   "etchujima": {
@@ -2842,7 +2842,7 @@
     "safety": 55,
     "disaster": 52,
     "family": 66,
-    "rentValue": 63,
+    "rentValue": 59,
     "rentLow": 23
   },
   "tatsumi": {
@@ -2860,7 +2860,7 @@
     "safety": 61,
     "disaster": 72,
     "family": 31,
-    "rentValue": 20,
+    "rentValue": 18,
     "rentLow": 29
   },
   "monzen-nakacho": {
@@ -2878,8 +2878,8 @@
     "safety": 63,
     "disaster": 38,
     "family": 77,
-    "rentValue": 49,
-    "rentLow": 25
+    "rentValue": 45,
+    "rentLow": 24
   },
   "aomi": {
     "commute": 41,
@@ -2912,7 +2912,7 @@
     "safety": 54,
     "disaster": 94,
     "family": 62,
-    "rentValue": 53,
+    "rentValue": 52,
     "rentLow": 36
   },
   "fudo-mae": {
@@ -2930,7 +2930,7 @@
     "safety": 44,
     "disaster": 72,
     "family": 47,
-    "rentValue": 54,
+    "rentValue": 51,
     "rentLow": 24
   },
   "nakanobu": {
@@ -2948,7 +2948,7 @@
     "safety": 69,
     "disaster": 94,
     "family": 99,
-    "rentValue": 82,
+    "rentValue": 81,
     "rentLow": 46
   },
   "gotanda": {
@@ -2966,7 +2966,7 @@
     "safety": 40,
     "disaster": 60,
     "family": 49,
-    "rentValue": 71,
+    "rentValue": 67,
     "rentLow": 20
   },
   "kitashinagawa": {
@@ -2984,8 +2984,8 @@
     "safety": 34,
     "disaster": 72,
     "family": 19,
-    "rentValue": 14,
-    "rentLow": 14
+    "rentValue": 11,
+    "rentLow": 13
   },
   "daiba": {
     "commute": 50,
@@ -3018,7 +3018,7 @@
     "safety": 50,
     "disaster": 59,
     "family": 32,
-    "rentValue": 46,
+    "rentValue": 44,
     "rentLow": 30
   },
   "oimachi": {
@@ -3054,7 +3054,7 @@
     "safety": 72,
     "disaster": 66,
     "family": 30,
-    "rentValue": 17,
+    "rentValue": 16,
     "rentLow": 36
   },
   "osaki": {
@@ -3072,7 +3072,7 @@
     "safety": 44,
     "disaster": 59,
     "family": 39,
-    "rentValue": 99,
+    "rentValue": 98,
     "rentLow": 27
   },
   "osaki-hirokoji": {
@@ -3090,8 +3090,8 @@
     "safety": 36,
     "disaster": 72,
     "family": 29,
-    "rentValue": 22,
-    "rentLow": 23
+    "rentValue": 19,
+    "rentLow": 22
   },
   "tennozu-isle": {
     "commute": 67,
@@ -3108,8 +3108,8 @@
     "safety": 51,
     "disaster": 66,
     "family": 35,
-    "rentValue": 11,
-    "rentLow": 17
+    "rentValue": 30,
+    "rentLow": 25
   },
   "togoshi-koen": {
     "commute": 58,
@@ -3144,7 +3144,7 @@
     "safety": 68,
     "disaster": 72,
     "family": 98,
-    "rentValue": 72,
+    "rentValue": 71,
     "rentLow": 33
   },
   "shimbamba": {
@@ -3162,7 +3162,7 @@
     "safety": 50,
     "disaster": 59,
     "family": 77,
-    "rentValue": 78,
+    "rentValue": 76,
     "rentLow": 31
   },
   "hatanodai": {
@@ -3214,7 +3214,7 @@
     "safety": 67,
     "disaster": 94,
     "family": 88,
-    "rentValue": 62,
+    "rentValue": 60,
     "rentLow": 31
   },
   "meguro": {
@@ -3232,8 +3232,8 @@
     "safety": 42,
     "disaster": 76,
     "family": 40,
-    "rentValue": 45,
-    "rentLow": 13
+    "rentValue": 41,
+    "rentLow": 12
   },
   "tachiaigawa": {
     "commute": 59,
@@ -3250,7 +3250,7 @@
     "safety": 68,
     "disaster": 59,
     "family": 79,
-    "rentValue": 54,
+    "rentValue": 53,
     "rentLow": 40
   },
   "ebara-nakanobu": {
@@ -3268,7 +3268,7 @@
     "safety": 66,
     "disaster": 94,
     "family": 98,
-    "rentValue": 55,
+    "rentValue": 53,
     "rentLow": 43
   },
   "ebara-machi": {
@@ -3322,7 +3322,7 @@
     "safety": 64,
     "disaster": 72,
     "family": 80,
-    "rentValue": 64,
+    "rentValue": 62,
     "rentLow": 38
   },
   "aomono-yokocho": {
@@ -3340,7 +3340,7 @@
     "safety": 35,
     "disaster": 66,
     "family": 27,
-    "rentValue": 60,
+    "rentValue": 58,
     "rentLow": 31
   },
   "samezu": {
@@ -3358,7 +3358,7 @@
     "safety": 36,
     "disaster": 66,
     "family": 34,
-    "rentValue": 60,
+    "rentValue": 59,
     "rentLow": 36
   },
   "nakameguro": {
@@ -3376,7 +3376,7 @@
     "safety": 40,
     "disaster": 86,
     "family": 54,
-    "rentValue": 55,
+    "rentValue": 50,
     "rentLow": 16
   },
   "gakugei-daigaku": {
@@ -3394,7 +3394,7 @@
     "safety": 59,
     "disaster": 100,
     "family": 72,
-    "rentValue": 78,
+    "rentValue": 76,
     "rentLow": 39
   },
   "ikejiri-ohashi": {
@@ -3412,7 +3412,7 @@
     "safety": 62,
     "disaster": 79,
     "family": 59,
-    "rentValue": 78,
+    "rentValue": 75,
     "rentLow": 26
   },
   "senzoku": {
@@ -3448,7 +3448,7 @@
     "safety": 48,
     "disaster": 94,
     "family": 74,
-    "rentValue": 86,
+    "rentValue": 85,
     "rentLow": 34
   },
   "midorigaoka": {
@@ -3466,7 +3466,7 @@
     "safety": 67,
     "disaster": 79,
     "family": 90,
-    "rentValue": 21,
+    "rentValue": 20,
     "rentLow": 41
   },
   "jiyugaoka": {
@@ -3502,7 +3502,7 @@
     "safety": 69,
     "disaster": 72,
     "family": 89,
-    "rentValue": 33,
+    "rentValue": 30,
     "rentLow": 35
   },
   "komaba-todaimae": {
@@ -3520,7 +3520,7 @@
     "safety": 46,
     "disaster": 100,
     "family": 53,
-    "rentValue": 42,
+    "rentValue": 39,
     "rentLow": 24
   },
   "shimomaruko": {
@@ -3538,7 +3538,7 @@
     "safety": 73,
     "disaster": 44,
     "family": 92,
-    "rentValue": 33,
+    "rentValue": 34,
     "rentLow": 76
   },
   "kugahara": {
@@ -3556,7 +3556,7 @@
     "safety": 56,
     "disaster": 82,
     "family": 91,
-    "rentValue": 32,
+    "rentValue": 33,
     "rentLow": 80
   },
   "keikyu-kamata": {
@@ -3592,7 +3592,7 @@
     "safety": 70,
     "disaster": 60,
     "family": 40,
-    "rentValue": 28,
+    "rentValue": 29,
     "rentLow": 81
   },
   "kita-senzoku": {
@@ -3610,7 +3610,7 @@
     "safety": 64,
     "disaster": 94,
     "family": 85,
-    "rentValue": 41,
+    "rentValue": 42,
     "rentLow": 52
   },
   "chidoricho": {
@@ -3646,8 +3646,8 @@
     "safety": 37,
     "disaster": 94,
     "family": 18,
-    "rentValue": 87,
-    "rentLow": 64
+    "rentValue": 86,
+    "rentLow": 63
   },
   "ookayama": {
     "commute": 56,
@@ -3700,7 +3700,7 @@
     "safety": 37,
     "disaster": 52,
     "family": 46,
-    "rentValue": 50,
+    "rentValue": 49,
     "rentLow": 46
   },
   "omorimachi": {
@@ -3718,7 +3718,7 @@
     "safety": 65,
     "disaster": 38,
     "family": 76,
-    "rentValue": 73,
+    "rentValue": 75,
     "rentLow": 72
   },
   "otorii": {
@@ -3754,7 +3754,7 @@
     "safety": 72,
     "disaster": 45,
     "family": 50,
-    "rentValue": 30,
+    "rentValue": 31,
     "rentLow": 73
   },
   "heiwajima": {
@@ -3790,7 +3790,7 @@
     "safety": 54,
     "disaster": 100,
     "family": 78,
-    "rentValue": 36,
+    "rentValue": 38,
     "rentLow": 75
   },
   "seibijo": {
@@ -3808,7 +3808,7 @@
     "safety": 76,
     "disaster": 52,
     "family": 45,
-    "rentValue": 27,
+    "rentValue": 28,
     "rentLow": 72
   },
   "shin-seibijo": {
@@ -3842,7 +3842,7 @@
     "safety": 57,
     "disaster": 66,
     "family": 42,
-    "rentValue": 83,
+    "rentValue": 84,
     "rentLow": 88
   },
   "umeyashiki": {
@@ -3878,7 +3878,7 @@
     "safety": 74,
     "disaster": 38,
     "family": 99,
-    "rentValue": 28,
+    "rentValue": 29,
     "rentLow": 72
   },
   "ikegami": {
@@ -3896,7 +3896,7 @@
     "safety": 58,
     "disaster": 38,
     "family": 93,
-    "rentValue": 23,
+    "rentValue": 25,
     "rentLow": 71
   },
   "numabe": {
@@ -3914,7 +3914,7 @@
     "safety": 41,
     "disaster": 86,
     "family": 18,
-    "rentValue": 50,
+    "rentValue": 51,
     "rentLow": 78
   },
   "senzoku-ike": {
@@ -3932,7 +3932,7 @@
     "safety": 67,
     "disaster": 100,
     "family": 86,
-    "rentValue": 59,
+    "rentValue": 61,
     "rentLow": 65
   },
   "ryutsu-center": {
@@ -3950,7 +3950,7 @@
     "safety": 57,
     "disaster": 79,
     "family": 12,
-    "rentValue": 39,
+    "rentValue": 41,
     "rentLow": 56
   },
   "den-en-chofu": {
@@ -3968,7 +3968,7 @@
     "safety": 66,
     "disaster": 100,
     "family": 65,
-    "rentValue": 85,
+    "rentValue": 86,
     "rentLow": 60
   },
   "yaguchi-no-watashi": {
@@ -4004,7 +4004,7 @@
     "safety": 69,
     "disaster": 93,
     "family": 95,
-    "rentValue": 53,
+    "rentValue": 54,
     "rentLow": 68
   },
   "anamori-inari": {
@@ -4040,7 +4040,7 @@
     "safety": 69,
     "disaster": 38,
     "family": 80,
-    "rentValue": 14,
+    "rentValue": 13,
     "rentLow": 58
   },
   "haneda-airport-terminal-1-2": {
@@ -4089,7 +4089,7 @@
     "safety": 22,
     "disaster": 38,
     "family": 19,
-    "rentValue": 73,
+    "rentValue": 74,
     "rentLow": 61
   },
   "hasunuma": {
@@ -4143,7 +4143,7 @@
     "safety": 72,
     "disaster": 100,
     "family": 93,
-    "rentValue": 68,
+    "rentValue": 69,
     "rentLow": 60
   },
   "zoshiki": {
@@ -4161,8 +4161,8 @@
     "safety": 50,
     "disaster": 28,
     "family": 61,
-    "rentValue": 37,
-    "rentLow": 76
+    "rentValue": 41,
+    "rentLow": 77
   },
   "yukigaya-otsuka": {
     "commute": 45,
@@ -4179,7 +4179,7 @@
     "safety": 71,
     "disaster": 94,
     "family": 95,
-    "rentValue": 38,
+    "rentValue": 39,
     "rentLow": 65
   },
   "magome": {
@@ -4215,7 +4215,7 @@
     "safety": 68,
     "disaster": 52,
     "family": 91,
-    "rentValue": 43,
+    "rentValue": 44,
     "rentLow": 80
   },
   "sangen-jaya": {
@@ -4233,7 +4233,7 @@
     "safety": 34,
     "disaster": 66,
     "family": 24,
-    "rentValue": 90,
+    "rentValue": 89,
     "rentLow": 40
   },
   "kami-kitazawa": {
@@ -4251,7 +4251,7 @@
     "safety": 66,
     "disaster": 88,
     "family": 83,
-    "rentValue": 74,
+    "rentValue": 75,
     "rentLow": 75
   },
   "kamimachi": {
@@ -4269,7 +4269,7 @@
     "safety": 60,
     "disaster": 86,
     "family": 89,
-    "rentValue": 26,
+    "rentValue": 25,
     "rentLow": 62
   },
   "kaminoge": {
@@ -4323,7 +4323,7 @@
     "safety": 50,
     "disaster": 79,
     "family": 39,
-    "rentValue": 88,
+    "rentValue": 89,
     "rentLow": 69
   },
   "setagaya": {
@@ -4341,7 +4341,7 @@
     "safety": 47,
     "disaster": 86,
     "family": 70,
-    "rentValue": 13,
+    "rentValue": 12,
     "rentLow": 51
   },
   "setagaya-daita": {
@@ -4359,7 +4359,7 @@
     "safety": 34,
     "disaster": 79,
     "family": 30,
-    "rentValue": 86,
+    "rentValue": 85,
     "rentLow": 48
   },
   "kuhombutsu": {
@@ -4377,7 +4377,7 @@
     "safety": 62,
     "disaster": 79,
     "family": 57,
-    "rentValue": 8,
+    "rentValue": 9,
     "rentLow": 33
   },
   "futako-tamagawa": {
@@ -4431,7 +4431,7 @@
     "safety": 71,
     "disaster": 66,
     "family": 96,
-    "rentValue": 60,
+    "rentValue": 63,
     "rentLow": 78
   },
   "chitose-karasuyama": {
@@ -4449,7 +4449,7 @@
     "safety": 61,
     "disaster": 94,
     "family": 60,
-    "rentValue": 63,
+    "rentValue": 65,
     "rentLow": 88
   },
   "chitose-funabashi": {
@@ -4467,7 +4467,7 @@
     "safety": 68,
     "disaster": 100,
     "family": 85,
-    "rentValue": 66,
+    "rentValue": 67,
     "rentLow": 69
   },
   "okusawa": {
@@ -4521,7 +4521,7 @@
     "safety": 70,
     "disaster": 94,
     "family": 65,
-    "rentValue": 27,
+    "rentValue": 26,
     "rentLow": 56
   },
   "seijogakuen-mae": {
@@ -4539,7 +4539,7 @@
     "safety": 65,
     "disaster": 79,
     "family": 67,
-    "rentValue": 45,
+    "rentValue": 47,
     "rentLow": 82
   },
   "shindaita": {
@@ -4557,7 +4557,7 @@
     "safety": 34,
     "disaster": 82,
     "family": 29,
-    "rentValue": 79,
+    "rentValue": 78,
     "rentLow": 48
   },
   "meidaimae": {
@@ -4593,7 +4593,7 @@
     "safety": 46,
     "disaster": 93,
     "family": 47,
-    "rentValue": 51,
+    "rentValue": 47,
     "rentLow": 29
   },
   "higashi-matsubara": {
@@ -4611,7 +4611,7 @@
     "safety": 50,
     "disaster": 79,
     "family": 43,
-    "rentValue": 89,
+    "rentValue": 90,
     "rentLow": 59
   },
   "matsubara": {
@@ -4629,7 +4629,7 @@
     "safety": 67,
     "disaster": 72,
     "family": 81,
-    "rentValue": 38,
+    "rentValue": 40,
     "rentLow": 66
   },
   "shoin-jinja-mae": {
@@ -4647,7 +4647,7 @@
     "safety": 48,
     "disaster": 72,
     "family": 60,
-    "rentValue": 14,
+    "rentValue": 13,
     "rentLow": 47
   },
   "sakurajosui": {
@@ -4683,7 +4683,7 @@
     "safety": 64,
     "disaster": 100,
     "family": 68,
-    "rentValue": 57,
+    "rentValue": 55,
     "rentLow": 47
   },
   "umegaoka": {
@@ -4719,7 +4719,7 @@
     "safety": 43,
     "disaster": 79,
     "family": 46,
-    "rentValue": 58,
+    "rentValue": 56,
     "rentLow": 31
   },
   "yoga": {
@@ -4755,7 +4755,7 @@
     "safety": 88,
     "disaster": 88,
     "family": 100,
-    "rentValue": 44,
+    "rentValue": 46,
     "rentLow": 71
   },
   "todoroki": {
@@ -4773,7 +4773,7 @@
     "safety": 70,
     "disaster": 79,
     "family": 53,
-    "rentValue": 31,
+    "rentValue": 30,
     "rentLow": 63
   },
   "kyodo": {
@@ -4809,7 +4809,7 @@
     "safety": 77,
     "disaster": 93,
     "family": 96,
-    "rentValue": 61,
+    "rentValue": 64,
     "rentLow": 83
   },
   "wakabayashi": {
@@ -4845,7 +4845,7 @@
     "safety": 35,
     "disaster": 79,
     "family": 24,
-    "rentValue": 27,
+    "rentValue": 26,
     "rentLow": 38
   },
   "gotokuji": {
@@ -4881,7 +4881,7 @@
     "safety": 68,
     "disaster": 94,
     "family": 55,
-    "rentValue": 72,
+    "rentValue": 71,
     "rentLow": 41
   },
   "yoyogi": {
@@ -4899,8 +4899,8 @@
     "safety": 23,
     "disaster": 88,
     "family": 13,
-    "rentValue": 61,
-    "rentLow": 14
+    "rentValue": 57,
+    "rentLow": 13
   },
   "yoyogi-uehara": {
     "commute": 71,
@@ -4917,7 +4917,7 @@
     "safety": 71,
     "disaster": 76,
     "family": 89,
-    "rentValue": 69,
+    "rentValue": 65,
     "rentLow": 26
   },
   "yoyogi-hachiman": {
@@ -4935,7 +4935,7 @@
     "safety": 56,
     "disaster": 86,
     "family": 49,
-    "rentValue": 37,
+    "rentValue": 34,
     "rentLow": 18
   },
   "daikanyama": {
@@ -4953,8 +4953,8 @@
     "safety": 37,
     "disaster": 94,
     "family": 43,
-    "rentValue": 6,
-    "rentLow": 7
+    "rentValue": 5,
+    "rentLow": 6
   },
   "hatsudai": {
     "commute": 56,
@@ -4971,7 +4971,7 @@
     "safety": 36,
     "disaster": 79,
     "family": 21,
-    "rentValue": 20,
+    "rentValue": 19,
     "rentLow": 32
   },
   "kita-sando": {
@@ -4989,8 +4989,8 @@
     "safety": 28,
     "disaster": 86,
     "family": 20,
-    "rentValue": 7,
-    "rentLow": 8
+    "rentValue": 5,
+    "rentLow": 7
   },
   "sendagaya": {
     "commute": 75,
@@ -5007,8 +5007,8 @@
     "safety": 58,
     "disaster": 86,
     "family": 36,
-    "rentValue": 23,
-    "rentLow": 14
+    "rentValue": 20,
+    "rentLow": 12
   },
   "minami-shinjuku": {
     "commute": 73,
@@ -5025,7 +5025,7 @@
     "safety": 8,
     "disaster": 79,
     "family": 6,
-    "rentValue": 25,
+    "rentValue": 23,
     "rentLow": 17
   },
   "sangubashi": {
@@ -5043,7 +5043,7 @@
     "safety": 27,
     "disaster": 100,
     "family": 20,
-    "rentValue": 45,
+    "rentValue": 44,
     "rentLow": 23
   },
   "hatagaya": {
@@ -5061,7 +5061,7 @@
     "safety": 58,
     "disaster": 86,
     "family": 61,
-    "rentValue": 23,
+    "rentValue": 22,
     "rentLow": 39
   },
   "ebisu": {
@@ -5079,8 +5079,8 @@
     "safety": 29,
     "disaster": 88,
     "family": 27,
-    "rentValue": 42,
-    "rentLow": 7
+    "rentValue": 35,
+    "rentLow": 6
   },
   "meiji-jingumae": {
     "commute": 85,
@@ -5113,8 +5113,8 @@
     "safety": 0,
     "disaster": 86,
     "family": 9,
-    "rentValue": 16,
-    "rentLow": 5
+    "rentValue": 12,
+    "rentLow": 4
   },
   "shinsen": {
     "commute": 73,
@@ -5131,8 +5131,8 @@
     "safety": 2,
     "disaster": 94,
     "family": 15,
-    "rentValue": 8,
-    "rentLow": 10
+    "rentValue": 7,
+    "rentLow": 8
   },
   "sasazuka": {
     "commute": 65,
@@ -5167,7 +5167,7 @@
     "safety": 27,
     "disaster": 72,
     "family": 16,
-    "rentValue": 96,
+    "rentValue": 95,
     "rentLow": 36
   },
   "nakano": {
@@ -5239,7 +5239,7 @@
     "safety": 51,
     "disaster": 79,
     "family": 52,
-    "rentValue": 93,
+    "rentValue": 92,
     "rentLow": 44
   },
   "fujimidai": {
@@ -5257,7 +5257,7 @@
     "safety": 49,
     "disaster": 72,
     "family": 54,
-    "rentValue": 46,
+    "rentValue": 48,
     "rentLow": 85
   },
   "shin-nakano": {
@@ -5275,8 +5275,8 @@
     "safety": 47,
     "disaster": 88,
     "family": 34,
-    "rentValue": 94,
-    "rentLow": 48
+    "rentValue": 93,
+    "rentLow": 47
   },
   "araiyakushi-mae": {
     "commute": 53,
@@ -5329,7 +5329,7 @@
     "safety": 55,
     "disaster": 66,
     "family": 84,
-    "rentValue": 76,
+    "rentValue": 77,
     "rentLow": 73
   },
   "ochiai": {
@@ -5347,7 +5347,7 @@
     "safety": 47,
     "disaster": 66,
     "family": 50,
-    "rentValue": 73,
+    "rentValue": 72,
     "rentLow": 50
   },
   "toritsu-kasei": {
@@ -5365,7 +5365,7 @@
     "safety": 47,
     "disaster": 88,
     "family": 79,
-    "rentValue": 71,
+    "rentValue": 72,
     "rentLow": 84
   },
   "nogata": {
@@ -5383,7 +5383,7 @@
     "safety": 44,
     "disaster": 86,
     "family": 68,
-    "rentValue": 80,
+    "rentValue": 81,
     "rentLow": 85
   },
   "saginomiya": {
@@ -5401,7 +5401,7 @@
     "safety": 45,
     "disaster": 76,
     "family": 67,
-    "rentValue": 55,
+    "rentValue": 56,
     "rentLow": 83
   },
   "shimo-igusa": {
@@ -5419,7 +5419,7 @@
     "safety": 62,
     "disaster": 72,
     "family": 91,
-    "rentValue": 49,
+    "rentValue": 52,
     "rentLow": 86
   },
   "kugayama": {
@@ -5437,7 +5437,7 @@
     "safety": 56,
     "disaster": 86,
     "family": 53,
-    "rentValue": 51,
+    "rentValue": 53,
     "rentLow": 87
   },
   "iogi": {
@@ -5455,7 +5455,7 @@
     "safety": 79,
     "disaster": 82,
     "family": 100,
-    "rentValue": 36,
+    "rentValue": 39,
     "rentLow": 89
   },
   "minami-asagaya": {
@@ -5491,7 +5491,7 @@
     "safety": 65,
     "disaster": 82,
     "family": 67,
-    "rentValue": 44,
+    "rentValue": 45,
     "rentLow": 81
   },
   "shin-koenji": {
@@ -5581,7 +5581,7 @@
     "safety": 74,
     "disaster": 94,
     "family": 99,
-    "rentValue": 65,
+    "rentValue": 68,
     "rentLow": 76
   },
   "ogikubo": {
@@ -5617,7 +5617,7 @@
     "safety": 64,
     "disaster": 79,
     "family": 93,
-    "rentValue": 81,
+    "rentValue": 82,
     "rentLow": 78
   },
   "nishi-ogikubo": {
@@ -5635,7 +5635,7 @@
     "safety": 50,
     "disaster": 86,
     "family": 76,
-    "rentValue": 77,
+    "rentValue": 78,
     "rentLow": 78
   },
   "asagaya": {
@@ -5671,8 +5671,8 @@
     "safety": 63,
     "disaster": 86,
     "family": 88,
-    "rentValue": 48,
-    "rentLow": 77
+    "rentValue": 50,
+    "rentLow": 76
   },
   "koenji": {
     "commute": 63,
@@ -5743,7 +5743,7 @@
     "safety": 66,
     "disaster": 76,
     "family": 83,
-    "rentValue": 95,
+    "rentValue": 96,
     "rentLow": 77
   },
   "mukohara": {
@@ -5761,7 +5761,7 @@
     "safety": 35,
     "disaster": 93,
     "family": 18,
-    "rentValue": 12,
+    "rentValue": 11,
     "rentLow": 41
   },
   "otsuka": {
@@ -5815,7 +5815,7 @@
     "safety": 52,
     "disaster": 100,
     "family": 58,
-    "rentValue": 69,
+    "rentValue": 68,
     "rentLow": 39
   },
   "sugamoshinden": {
@@ -5833,7 +5833,7 @@
     "safety": 41,
     "disaster": 88,
     "family": 26,
-    "rentValue": 13,
+    "rentValue": 12,
     "rentLow": 44
   },
   "koshinzuka": {
@@ -5851,7 +5851,7 @@
     "safety": 39,
     "disaster": 94,
     "family": 43,
-    "rentValue": 8,
+    "rentValue": 7,
     "rentLow": 43
   },
   "shin-koshinzuka": {
@@ -5869,7 +5869,7 @@
     "safety": 50,
     "disaster": 94,
     "family": 79,
-    "rentValue": 7,
+    "rentValue": 6,
     "rentLow": 43
   },
   "higashi-ikebukuro": {
@@ -5887,7 +5887,7 @@
     "safety": 16,
     "disaster": 94,
     "family": 20,
-    "rentValue": 71,
+    "rentValue": 70,
     "rentLow": 38
   },
   "higashi-nagasaki": {
@@ -5905,7 +5905,7 @@
     "safety": 67,
     "disaster": 100,
     "family": 81,
-    "rentValue": 93,
+    "rentValue": 94,
     "rentLow": 76
   },
   "shiinamachi": {
@@ -5923,7 +5923,7 @@
     "safety": 59,
     "disaster": 88,
     "family": 87,
-    "rentValue": 92,
+    "rentValue": 91,
     "rentLow": 59
   },
   "ikebukuro": {
@@ -5959,7 +5959,7 @@
     "safety": 54,
     "disaster": 72,
     "family": 86,
-    "rentValue": 75,
+    "rentValue": 73,
     "rentLow": 40
   },
   "ochiai-minami-nagasaki": {
@@ -6031,7 +6031,7 @@
     "safety": 21,
     "disaster": 100,
     "family": 16,
-    "rentValue": 18,
+    "rentValue": 17,
     "rentLow": 38
   },
   "zoshigaya": {
@@ -6049,7 +6049,7 @@
     "safety": 63,
     "disaster": 100,
     "family": 91,
-    "rentValue": 72,
+    "rentValue": 71,
     "rentLow": 43
   },
   "komagome": {
@@ -6067,7 +6067,7 @@
     "safety": 53,
     "disaster": 66,
     "family": 49,
-    "rentValue": 70,
+    "rentValue": 69,
     "rentLow": 49
   },
   "kami-nakazato": {
@@ -6086,7 +6086,7 @@
     "disaster": 68,
     "family": 75,
     "rentValue": 82,
-    "rentLow": 63
+    "rentLow": 64
   },
   "kita-akabane": {
     "commute": 47,
@@ -6175,7 +6175,7 @@
     "safety": 66,
     "disaster": 60,
     "family": 73,
-    "rentValue": 79,
+    "rentValue": 80,
     "rentLow": 72
   },
   "sakaecho": {
@@ -6193,7 +6193,7 @@
     "safety": 50,
     "disaster": 52,
     "family": 51,
-    "rentValue": 10,
+    "rentValue": 9,
     "rentLow": 50
   },
   "kajiwara": {
@@ -6211,7 +6211,7 @@
     "safety": 56,
     "disaster": 28,
     "family": 91,
-    "rentValue": 17,
+    "rentValue": 18,
     "rentLow": 66
   },
   "takinogawa-itchome": {
@@ -6229,7 +6229,7 @@
     "safety": 47,
     "disaster": 82,
     "family": 64,
-    "rentValue": 15,
+    "rentValue": 14,
     "rentLow": 58
   },
   "oji": {
@@ -6265,7 +6265,7 @@
     "safety": 70,
     "disaster": 18,
     "family": 77,
-    "rentValue": 32,
+    "rentValue": 31,
     "rentLow": 61
   },
   "tabata": {
@@ -6301,7 +6301,7 @@
     "safety": 53,
     "disaster": 72,
     "family": 72,
-    "rentValue": 59,
+    "rentValue": 60,
     "rentLow": 57
   },
   "nishigahara-yonchome": {
@@ -6319,7 +6319,7 @@
     "safety": 46,
     "disaster": 94,
     "family": 73,
-    "rentValue": 15,
+    "rentValue": 14,
     "rentLow": 59
   },
   "akabane": {
@@ -6391,7 +6391,7 @@
     "safety": 48,
     "disaster": 28,
     "family": 48,
-    "rentValue": 6,
+    "rentValue": 4,
     "rentLow": 51
   },
   "mikawashima": {
@@ -6427,7 +6427,7 @@
     "safety": 28,
     "disaster": 28,
     "family": 31,
-    "rentValue": 58,
+    "rentValue": 59,
     "rentLow": 55
   },
   "miyanomae": {
@@ -6463,7 +6463,7 @@
     "safety": 61,
     "disaster": 28,
     "family": 74,
-    "rentValue": 31,
+    "rentValue": 32,
     "rentLow": 90
   },
   "shim-mikawashima": {
@@ -6481,7 +6481,7 @@
     "safety": 34,
     "disaster": 28,
     "family": 21,
-    "rentValue": 39,
+    "rentValue": 38,
     "rentLow": 51
   },
   "nippori": {
@@ -6499,7 +6499,7 @@
     "safety": 36,
     "disaster": 72,
     "family": 24,
-    "rentValue": 87,
+    "rentValue": 86,
     "rentLow": 48
   },
   "higashi-ogu-sanchome": {
@@ -6517,7 +6517,7 @@
     "safety": 55,
     "disaster": 28,
     "family": 61,
-    "rentValue": 36,
+    "rentValue": 38,
     "rentLow": 75
   },
   "kumanomae": {
@@ -6535,7 +6535,7 @@
     "safety": 54,
     "disaster": 18,
     "family": 76,
-    "rentValue": 67,
+    "rentValue": 69,
     "rentLow": 81
   },
   "machiya": {
@@ -6571,7 +6571,7 @@
     "safety": 54,
     "disaster": 28,
     "family": 50,
-    "rentValue": 38,
+    "rentValue": 40,
     "rentLow": 69
   },
   "arakawa-itchumae": {
@@ -6607,7 +6607,7 @@
     "safety": 59,
     "disaster": 28,
     "family": 58,
-    "rentValue": 38,
+    "rentValue": 40,
     "rentLow": 66
   },
   "arakawa-nichome": {
@@ -6625,7 +6625,7 @@
     "safety": 50,
     "disaster": 28,
     "family": 43,
-    "rentValue": 47,
+    "rentValue": 48,
     "rentLow": 82
   },
   "arakawakuyakushomae": {
@@ -6679,7 +6679,7 @@
     "safety": 60,
     "disaster": 28,
     "family": 94,
-    "rentValue": 16,
+    "rentValue": 15,
     "rentLow": 82
   },
   "nishi-nippori": {
@@ -6715,7 +6715,7 @@
     "safety": 55,
     "disaster": 28,
     "family": 56,
-    "rentValue": 55,
+    "rentValue": 56,
     "rentLow": 62
   },
   "tokiwadai": {
@@ -6733,7 +6733,7 @@
     "safety": 49,
     "disaster": 52,
     "family": 80,
-    "rentValue": 73,
+    "rentValue": 74,
     "rentLow": 82
   },
   "kami-itabashi": {
@@ -6751,7 +6751,7 @@
     "safety": 53,
     "disaster": 88,
     "family": 54,
-    "rentValue": 62,
+    "rentValue": 64,
     "rentLow": 85
   },
   "naka-itabashi": {
@@ -6769,7 +6769,7 @@
     "safety": 42,
     "disaster": 79,
     "family": 69,
-    "rentValue": 77,
+    "rentValue": 78,
     "rentLow": 78
   },
   "chikatetsu-akatsuka": {
@@ -6787,7 +6787,7 @@
     "safety": 46,
     "disaster": 100,
     "family": 50,
-    "rentValue": 45,
+    "rentValue": 47,
     "rentLow": 88
   },
   "oyama": {
@@ -6823,7 +6823,7 @@
     "safety": 64,
     "disaster": 45,
     "family": 51,
-    "rentValue": 26,
+    "rentValue": 25,
     "rentLow": 83
   },
   "shimura-sakaue": {
@@ -6841,7 +6841,7 @@
     "safety": 56,
     "disaster": 100,
     "family": 64,
-    "rentValue": 28,
+    "rentValue": 29,
     "rentLow": 81
   },
   "narimasu": {
@@ -6859,7 +6859,7 @@
     "safety": 41,
     "disaster": 100,
     "family": 17,
-    "rentValue": 46,
+    "rentValue": 49,
     "rentLow": 97
   },
   "shin-itabashi": {
@@ -6895,7 +6895,7 @@
     "safety": 34,
     "disaster": 18,
     "family": 47,
-    "rentValue": 21,
+    "rentValue": 23,
     "rentLow": 96
   },
   "motohasunuma": {
@@ -6913,7 +6913,7 @@
     "safety": 52,
     "disaster": 82,
     "family": 71,
-    "rentValue": 35,
+    "rentValue": 37,
     "rentLow": 74
   },
   "itabashi": {
@@ -6967,7 +6967,7 @@
     "safety": 47,
     "disaster": 94,
     "family": 44,
-    "rentValue": 56,
+    "rentValue": 57,
     "rentLow": 77
   },
   "ukimafunado": {
@@ -6985,7 +6985,7 @@
     "safety": 64,
     "disaster": 18,
     "family": 63,
-    "rentValue": 63,
+    "rentValue": 65,
     "rentLow": 84
   },
   "hasune": {
@@ -7003,7 +7003,7 @@
     "safety": 56,
     "disaster": 18,
     "family": 37,
-    "rentValue": 21,
+    "rentValue": 22,
     "rentLow": 84
   },
   "nishidai": {
@@ -7021,7 +7021,7 @@
     "safety": 51,
     "disaster": 18,
     "family": 22,
-    "rentValue": 20,
+    "rentValue": 21,
     "rentLow": 86
   },
   "nishi-takashimadaira": {
@@ -7039,7 +7039,7 @@
     "safety": 57,
     "disaster": 18,
     "family": 49,
-    "rentValue": 21,
+    "rentValue": 23,
     "rentLow": 98
   },
   "takashimadaira": {
@@ -7075,7 +7075,7 @@
     "safety": 75,
     "disaster": 79,
     "family": 95,
-    "rentValue": 31,
+    "rentValue": 33,
     "rentLow": 90
   },
   "kami-shakujii": {
@@ -7093,7 +7093,7 @@
     "safety": 63,
     "disaster": 93,
     "family": 81,
-    "rentValue": 30,
+    "rentValue": 32,
     "rentLow": 93
   },
   "nakamurabashi": {
@@ -7111,7 +7111,7 @@
     "safety": 54,
     "disaster": 59,
     "family": 68,
-    "rentValue": 56,
+    "rentValue": 57,
     "rentLow": 85
   },
   "hikarigaoka": {
@@ -7129,7 +7129,7 @@
     "safety": 54,
     "disaster": 72,
     "family": 76,
-    "rentValue": 36,
+    "rentValue": 37,
     "rentLow": 88
   },
   "oizumi-gakuen": {
@@ -7147,7 +7147,7 @@
     "safety": 23,
     "disaster": 94,
     "family": 22,
-    "rentValue": 29,
+    "rentValue": 31,
     "rentLow": 97
   },
   "kotake-mukaihara": {
@@ -7183,7 +7183,7 @@
     "safety": 51,
     "disaster": 79,
     "family": 68,
-    "rentValue": 69,
+    "rentValue": 70,
     "rentLow": 87
   },
   "shin-sakuradai": {
@@ -7201,7 +7201,7 @@
     "safety": 53,
     "disaster": 100,
     "family": 74,
-    "rentValue": 69,
+    "rentValue": 70,
     "rentLow": 79
   },
   "shin-egota": {
@@ -7219,7 +7219,7 @@
     "safety": 65,
     "disaster": 76,
     "family": 70,
-    "rentValue": 74,
+    "rentValue": 75,
     "rentLow": 68
   },
   "tobu-nerima": {
@@ -7237,7 +7237,7 @@
     "safety": 42,
     "disaster": 79,
     "family": 42,
-    "rentValue": 54,
+    "rentValue": 56,
     "rentLow": 89
   },
   "sakuradai": {
@@ -7255,7 +7255,7 @@
     "safety": 36,
     "disaster": 88,
     "family": 27,
-    "rentValue": 64,
+    "rentValue": 66,
     "rentLow": 74
   },
   "musashi-seki": {
@@ -7273,7 +7273,7 @@
     "safety": 61,
     "disaster": 86,
     "family": 78,
-    "rentValue": 22,
+    "rentValue": 24,
     "rentLow": 95
   },
   "hikawadai": {
@@ -7291,7 +7291,7 @@
     "safety": 60,
     "disaster": 72,
     "family": 83,
-    "rentValue": 86,
+    "rentValue": 87,
     "rentLow": 87
   },
   "ekoda": {
@@ -7327,7 +7327,7 @@
     "safety": 65,
     "disaster": 86,
     "family": 87,
-    "rentValue": 30,
+    "rentValue": 32,
     "rentLow": 91
   },
   "nerima": {
@@ -7363,7 +7363,7 @@
     "safety": 67,
     "disaster": 76,
     "family": 70,
-    "rentValue": 59,
+    "rentValue": 62,
     "rentLow": 89
   },
   "nerima-takanodai": {
@@ -7381,7 +7381,7 @@
     "safety": 75,
     "disaster": 88,
     "family": 95,
-    "rentValue": 32,
+    "rentValue": 33,
     "rentLow": 89
   },
   "toshimaen": {
@@ -7399,7 +7399,7 @@
     "safety": 43,
     "disaster": 82,
     "family": 36,
-    "rentValue": 64,
+    "rentValue": 65,
     "rentLow": 84
   },
   "gotanno": {
@@ -7417,7 +7417,7 @@
     "safety": 49,
     "disaster": 18,
     "family": 74,
-    "rentValue": 56,
+    "rentValue": 58,
     "rentLow": 93
   },
   "rokucho": {
@@ -7435,7 +7435,7 @@
     "safety": 62,
     "disaster": 28,
     "family": 72,
-    "rentValue": 83,
+    "rentValue": 85,
     "rentLow": 99
   },
   "kita-senju": {
@@ -7453,7 +7453,7 @@
     "safety": 30,
     "disaster": 18,
     "family": 18,
-    "rentValue": 85,
+    "rentValue": 86,
     "rentLow": 77
   },
   "kita-ayase": {
@@ -7471,7 +7471,7 @@
     "safety": 61,
     "disaster": 28,
     "family": 73,
-    "rentValue": 47,
+    "rentValue": 50,
     "rentLow": 92
   },
   "senjuohashi": {
@@ -7489,7 +7489,7 @@
     "safety": 62,
     "disaster": 18,
     "family": 65,
-    "rentValue": 29,
+    "rentValue": 28,
     "rentLow": 62
   },
   "horikiri": {
@@ -7507,7 +7507,7 @@
     "safety": 39,
     "disaster": 54,
     "family": 19,
-    "rentValue": 83,
+    "rentValue": 84,
     "rentLow": 94
   },
   "daishimae": {
@@ -7543,7 +7543,7 @@
     "safety": 60,
     "disaster": 45,
     "family": 84,
-    "rentValue": 40,
+    "rentValue": 43,
     "rentLow": 83
   },
   "ogi-ohashi": {
@@ -7561,7 +7561,7 @@
     "safety": 55,
     "disaster": 18,
     "family": 58,
-    "rentValue": 75,
+    "rentValue": 78,
     "rentLow": 99
   },
   "umejima": {
@@ -7579,7 +7579,7 @@
     "safety": 60,
     "disaster": 18,
     "family": 84,
-    "rentValue": 41,
+    "rentValue": 44,
     "rentLow": 94
   },
   "kohoku": {
@@ -7597,7 +7597,7 @@
     "safety": 72,
     "disaster": 28,
     "family": 98,
-    "rentValue": 45,
+    "rentValue": 48,
     "rentLow": 96
   },
   "ushida": {
@@ -7633,7 +7633,7 @@
     "safety": 36,
     "disaster": 38,
     "family": 41,
-    "rentValue": 29,
+    "rentValue": 31,
     "rentLow": 99
   },
   "ayase": {
@@ -7651,7 +7651,7 @@
     "safety": 42,
     "disaster": 18,
     "family": 52,
-    "rentValue": 61,
+    "rentValue": 64,
     "rentLow": 87
   },
   "toneri": {
@@ -7669,7 +7669,7 @@
     "safety": 64,
     "disaster": 38,
     "family": 78,
-    "rentValue": 18,
+    "rentValue": 20,
     "rentLow": 100
   },
   "toneri-koen": {
@@ -7687,7 +7687,7 @@
     "safety": 67,
     "disaster": 28,
     "family": 46,
-    "rentValue": 22,
+    "rentValue": 24,
     "rentLow": 98
   },
   "nishiarai": {
@@ -7705,7 +7705,7 @@
     "safety": 48,
     "disaster": 28,
     "family": 61,
-    "rentValue": 33,
+    "rentValue": 35,
     "rentLow": 95
   },
   "nishiaraidaishi-nishi": {
@@ -7723,7 +7723,7 @@
     "safety": 63,
     "disaster": 28,
     "family": 80,
-    "rentValue": 35,
+    "rentValue": 39,
     "rentLow": 96
   },
   "minumadai-shinsuikoen": {
@@ -7741,7 +7741,7 @@
     "safety": 52,
     "disaster": 45,
     "family": 61,
-    "rentValue": 15,
+    "rentValue": 17,
     "rentLow": 100
   },
   "yazaike": {
@@ -7777,7 +7777,7 @@
     "safety": 62,
     "disaster": 54,
     "family": 71,
-    "rentValue": 68,
+    "rentValue": 69,
     "rentLow": 87
   },
   "aoi": {
@@ -7795,7 +7795,7 @@
     "safety": 53,
     "disaster": 18,
     "family": 78,
-    "rentValue": 86,
+    "rentValue": 88,
     "rentLow": 93
   },
   "koya": {
@@ -7813,7 +7813,7 @@
     "safety": 49,
     "disaster": 28,
     "family": 77,
-    "rentValue": 64,
+    "rentValue": 68,
     "rentLow": 98
   },
   "ohanajaya": {
@@ -7831,7 +7831,7 @@
     "safety": 61,
     "disaster": 18,
     "family": 97,
-    "rentValue": 26,
+    "rentValue": 27,
     "rentLow": 90
   },
   "kameari": {
@@ -7849,7 +7849,7 @@
     "safety": 39,
     "disaster": 18,
     "family": 43,
-    "rentValue": 31,
+    "rentValue": 32,
     "rentLow": 91
   },
   "keisei-tateishi": {
@@ -7867,7 +7867,7 @@
     "safety": 63,
     "disaster": 18,
     "family": 79,
-    "rentValue": 57,
+    "rentValue": 59,
     "rentLow": 91
   },
   "keisei-takasago": {
@@ -7885,7 +7885,7 @@
     "safety": 65,
     "disaster": 28,
     "family": 82,
-    "rentValue": 34,
+    "rentValue": 35,
     "rentLow": 92
   },
   "yotsugi": {
@@ -7903,7 +7903,7 @@
     "safety": 54,
     "disaster": 45,
     "family": 52,
-    "rentValue": 80,
+    "rentValue": 81,
     "rentLow": 92
   },
   "horikirishobuen": {
@@ -7921,7 +7921,7 @@
     "safety": 44,
     "disaster": 18,
     "family": 44,
-    "rentValue": 43,
+    "rentValue": 46,
     "rentLow": 90
   },
   "shin-koiwa": {
@@ -7975,7 +7975,7 @@
     "safety": 81,
     "disaster": 38,
     "family": 89,
-    "rentValue": 19,
+    "rentValue": 20,
     "rentLow": 97
   },
   "kanamachi": {
@@ -7993,7 +7993,7 @@
     "safety": 71,
     "disaster": 28,
     "family": 88,
-    "rentValue": 34,
+    "rentValue": 36,
     "rentLow": 99
   },
   "aoto": {
@@ -8011,7 +8011,7 @@
     "safety": 48,
     "disaster": 36,
     "family": 55,
-    "rentValue": 47,
+    "rentValue": 50,
     "rentLow": 92
   },
   "ichinoe": {
@@ -8029,7 +8029,7 @@
     "safety": 80,
     "disaster": 28,
     "family": 98,
-    "rentValue": 70,
+    "rentValue": 71,
     "rentLow": 94
   },
   "keisei-koiwa": {
@@ -8047,7 +8047,7 @@
     "safety": 53,
     "disaster": 28,
     "family": 92,
-    "rentValue": 11,
+    "rentValue": 12,
     "rentLow": 95
   },
   "koiwa": {
@@ -8065,7 +8065,7 @@
     "safety": 28,
     "disaster": 28,
     "family": 25,
-    "rentValue": 71,
+    "rentValue": 73,
     "rentLow": 97
   },
   "hirai": {
@@ -8083,7 +8083,7 @@
     "safety": 42,
     "disaster": 18,
     "family": 75,
-    "rentValue": 90,
+    "rentValue": 92,
     "rentLow": 86
   },
   "edogawa": {
@@ -8119,7 +8119,7 @@
     "safety": 62,
     "disaster": 28,
     "family": 69,
-    "rentValue": 57,
+    "rentValue": 59,
     "rentLow": 98
   },
   "shinozaki": {
@@ -8137,7 +8137,7 @@
     "safety": 54,
     "disaster": 28,
     "family": 58,
-    "rentValue": 36,
+    "rentValue": 41,
     "rentLow": 99
   },
   "funabori": {
@@ -8173,7 +8173,7 @@
     "safety": 38,
     "disaster": 28,
     "family": 42,
-    "rentValue": 78,
+    "rentValue": 80,
     "rentLow": 91
   },
   "kasai-rinkai-koen": {
@@ -8191,7 +8191,7 @@
     "safety": 64,
     "disaster": 100,
     "family": 11,
-    "rentValue": 98,
+    "rentValue": 99,
     "rentLow": 93
   },
   "nishi-kasai": {
@@ -8209,7 +8209,7 @@
     "safety": 39,
     "disaster": 36,
     "family": 48,
-    "rentValue": 84,
+    "rentValue": 85,
     "rentLow": 86
   }
 }

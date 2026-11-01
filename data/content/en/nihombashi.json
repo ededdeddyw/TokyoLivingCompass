@@ -2,8 +2,8 @@
   "slug": "nihombashi",
   "locale": "en",
   "name": "Nihombashi",
-  "tagline": "Otemachi in 3 minutes and Toranomon in 8 minutes. Served by 3 lines. A one-room flat rents for roughly ¥160,000 to ¥170,000.",
-  "summary": "The station is in Chuo City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 3 lines between them. Journey times to the main business districts are 3 minutes to Otemachi, 21 minutes to Shinjuku, 21 minutes to Shibuya and 17 minutes to Shinagawa. A one-room flat rents for roughly ¥160,000 to ¥170,000. The station stands 4 m above sea level, and the ground within 800 m varies in height by 2.9 m. The land around the station is close to level.",
+  "tagline": "Otemachi in 3 minutes and Toranomon in 8 minutes. Served by 3 lines. A 1K flat rents for roughly ¥130,000 to ¥140,000.",
+  "summary": "The station is in Chuo City, where Tokyo Metro and the Tokyo Metropolitan Bureau of Transportation run 3 lines between them. Journey times to the main business districts are 3 minutes to Otemachi, 21 minutes to Shinjuku, 21 minutes to Shibuya and 17 minutes to Shinagawa. A 1K flat rents for roughly ¥130,000 to ¥140,000. The station stands 4 m above sea level, and the ground within 800 m varies in height by 2.9 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 4 m above sea level. Within 800 m the ground ranges from 2.1 m to 5 m, a difference of 2.9 m."
@@ -43,7 +43,7 @@
   "stationNote": "3 lines serve the station. Tokyo Metro Ginza Line run through it. Tokyo Metro Tozai Line also call here. Toei Asakusa Line are available too. The lines are split between operators (Tokyo Metro runs 2 lines and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "Tokyo Metro Tozai Line runs at 160% of capacity in the morning peak. The busiest stretch is 木場→門前仲町, which this station is not on. Tokyo Metro Ginza Line runs at 153%. Its busiest stretch is 赤坂見附→溜池山王, which this station is likewise not on. Toei Asakusa Line runs at 123%. Its busiest stretch is 本所吾妻橋→浅草, which this station is likewise not on. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "Around this station, One room ¥160,000 to ¥170,000 and 1K ¥130,000 to ¥140,000. 1LDK ¥240,000 to ¥250,000 and 2LDK ¥290,000 to ¥300,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
+    "note": "Around this station, 1K ¥130,000 to ¥140,000 and 1LDK ¥240,000 to ¥250,000. 2LDK ¥290,000 to ¥300,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -52,17 +52,17 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥160,000 to ¥170,000. Set against how long it takes to reach the central business districts, that is on the low side. In plain yen, though, it is on the high side for the 23 wards. For One room, 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A 1K flat here goes for ¥130,000 to ¥140,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. In plain yen, though, it is on the high side for the 23 wards. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "mitsukoshimae",
-      "lead": "Mitsukoshimae is ahead on how close the centre is and lower rent. ",
-      "note": "Close enough to walk to from Nihombashi. Both have the Tokyo Metro Ginza Line. Nihombashi adds the Tokyo Metro Tozai Line and Toei Asakusa Line; Mitsukoshimae adds the JR Sobu Main Line and Tokyo Metro Hanzomon Line. Mitsukoshimae is at least 5 minutes quicker to Tokyo and Shinagawa. A one-room flat also costs about ¥15,000 less at Mitsukoshimae."
+      "lead": "Mitsukoshimae is ahead on how close the centre is and how little of the area is in the flood projection. ",
+      "note": "Close enough to walk to from Nihombashi. Both have the Tokyo Metro Ginza Line. Nihombashi adds the Tokyo Metro Tozai Line and Toei Asakusa Line; Mitsukoshimae adds the JR Sobu Main Line and Tokyo Metro Hanzomon Line. Mitsukoshimae is at least 5 minutes quicker to Tokyo and Shinagawa. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "kayabacho",
-      "lead": "For lower rent, Kayabacho; for how close the centre is, Nihombashi. ",
-      "note": "Close enough to walk to from Nihombashi. Both have the Tokyo Metro Tozai Line. Nihombashi adds the Tokyo Metro Ginza Line and Toei Asakusa Line; Kayabacho adds the Tokyo Metro Hibiya Line. Nihombashi is at least 6 minutes quicker to Shinagawa and Shibuya. A one-room flat, though, costs about ¥21,000 less at Kayabacho."
+      "lead": "Nihombashi is ahead on how close the centre is, and little else separates the two. ",
+      "note": "Close enough to walk to from Nihombashi. Both have the Tokyo Metro Tozai Line. Nihombashi adds the Tokyo Metro Ginza Line and Toei Asakusa Line; Kayabacho adds the Tokyo Metro Hibiya Line. Nihombashi is at least 6 minutes quicker to Shinagawa and Shibuya. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -71,8 +71,7 @@
     "People who get around by bicycle or with a pushchair"
   ],
   "notFor": [
-    "People avoiding projected flood inundation areas",
-    "People who want to hold the rent down"
+    "People avoiding projected flood inundation areas"
   ],
   "noiseSources": [
     "The 首都高速都心環状線 viaduct runs just outside the station. It is an expressway, so traffic is audible day and night",
@@ -80,6 +79,7 @@
   ],
   "tags": [
     "lively",
+    "goodValue",
     "fastToCenter",
     "diningRich",
     "flat",
@@ -90,7 +90,7 @@
     "groceries": "There are 9 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "3 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
-    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
+    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
     "congestion": "Mornings here are less crowded than the line figures suggest: the lines are busy, but this station is outside their busiest stretches. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
