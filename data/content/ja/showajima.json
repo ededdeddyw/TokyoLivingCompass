@@ -69,6 +69,13 @@
     "rentRange": "通勤にかかる時間に対して、家賃の相場は23区の駅の中でもかなり低いほうです。",
     "noiseSources": "人の声より先に、車の音を確かめたい駅です。"
   },
+  "nonResidential": {
+    "note": "この駅のまわりは工場と倉庫で、住んでいる人はほとんどいません。住む場所を探すなら、近くの駅のページもあわせて見てください。",
+    "nearby": [
+      "heiwajima",
+      "omorimachi"
+    ]
+  },
   "authoredBy": "data-generated",
   "personaDays": {
     "single": {

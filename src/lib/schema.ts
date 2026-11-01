@@ -280,6 +280,8 @@ export type Station = RosterStation & {
   sources?: Sources;
   dataQuality: "roster" | "seed" | "reviewed" | "verified";
   lastReviewedAt?: string;
+  /** まわりに住宅がほとんどない駅（空港・倉庫街など）。住む駅として勧める一覧から外す */
+  nonResidential?: boolean;
 };
 export type Line = z.infer<typeof lineSchema>;
 export type RosterStation = z.infer<typeof rosterStationSchema>;
@@ -488,6 +490,13 @@ export const stationContentSchema = z.object({
 
   // --- 必須 ---
   tagline: z.string().min(1),
+  /**
+   * まわりに住宅がほとんどない駅（scripts/build-non-residential.py）。
+   * 駅ページの冒頭で知らせ、住む場所として見るなら近くのどの駅かを示す。
+   */
+  nonResidential: z
+    .object({ note: z.string().min(1), nearby: z.array(z.string().min(1)) })
+    .optional(),
   summary: z.string().min(1),
   goodFor: z.array(z.string()).min(1),
   notFor: z.array(z.string()).min(1),
@@ -779,6 +788,17 @@ export const localPhotosFileSchema = z.object({
  * 1駅に複数枚の写真。1枚目は駅舎か駅前、2枚目以降は街並みや周辺の施設。
  * data/computed/station-gallery.json に置く。無い駅は station-photos.json の1枚を使う。
  */
+/** data/computed/non-residential.json */
+export const nonResidentialFileSchema = z.record(
+  z.string(),
+  z.object({
+    basis: z.enum(["pois", "manual"]),
+    schools: z.number().int().min(0),
+    supermarkets: z.number().int().min(0),
+    nearby: z.array(z.string()),
+  }),
+);
+
 export const stationGalleryFileSchema = z.record(
   z.string(),
   z.array(

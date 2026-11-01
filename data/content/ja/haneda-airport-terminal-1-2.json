@@ -46,6 +46,13 @@
     "stationNote": "2路線が使えます。乗り換えの選択肢は23区の駅の平均くらいです。",
     "noiseSources": "人の声より先に、車の音を確かめたい駅です。"
   },
+  "nonResidential": {
+    "note": "この駅のまわりには、住宅がほとんどありません。地図データでは、駅から歩いて13分ほどの範囲にある学校・幼稚園・保育園は0か所、スーパーは0軒です。住む場所を探すなら、近くの駅のページもあわせて見てください。",
+    "nearby": [
+      "tenkubashi",
+      "anamori-inari"
+    ]
+  },
   "authoredBy": "data-generated",
   "personaDays": {
     "single": {

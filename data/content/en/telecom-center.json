@@ -50,5 +50,12 @@
     "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
+  "nonResidential": {
+    "note": "Almost no one lives around this station. In the map data, within about 13 minutes' walk there are 1 schools or nurseries and 0 supermarkets. If you are looking for a place to live, see the nearby stations too.",
+    "nearby": [
+      "aomi",
+      "tokyo-teleport"
+    ]
+  },
   "authoredBy": "data-generated"
 }

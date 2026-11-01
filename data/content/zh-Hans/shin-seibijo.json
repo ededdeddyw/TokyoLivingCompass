@@ -45,5 +45,12 @@
     "stationNote": "可用的线路只有東京モノレール一条，这条线停运时就要走到别的车站。",
     "noiseSources": "是否临街，屋里听到的车声会明显不同。"
   },
+  "nonResidential": {
+    "note": "本站周边几乎没有住宅。根据地图数据，步行约13分钟范围内的学校、幼儿园和保育园为0处，超市为0家。如果在找住处，也请看看附近车站的页面。",
+    "nearby": [
+      "tenkubashi",
+      "anamori-inari"
+    ]
+  },
   "authoredBy": "data-generated"
 }

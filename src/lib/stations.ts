@@ -27,6 +27,7 @@ import {
   townTraitsFileSchema,
   stationPhotosFileSchema,
   stationGalleryFileSchema,
+  nonResidentialFileSchema,
   localPhotosFileSchema,
   flickrPhotosFileSchema,
   stationWardsFileSchema,
@@ -57,6 +58,7 @@ const LOCAL_PHOTOS_FILE = join(DATA_DIR, "reference", "local-photos.json");
 const FLICKR_PHOTOS_FILE = join(DATA_DIR, "reference", "flickr-photos.json");
 const GALLERY_FILE = join(DATA_DIR, "computed", "station-gallery.json");
 const LIFESTYLE_FILE = join(DATA_DIR, "computed", "lifestyle.json");
+const NON_RESIDENTIAL_FILE = join(DATA_DIR, "computed", "non-residential.json");
 const STATION_WARDS_FILE = join(DATA_DIR, "computed", "station-wards.json");
 const WARD_LINKS_FILE = join(DATA_DIR, "reference", "ward-links.json");
 /**
@@ -204,6 +206,8 @@ export function getAllStations(): Station[] {
   const commutes = getComputedCommutes();
   const computedScores = getComputedScores();
   const rentBands = getRentBands();
+  const nonResidential =
+    readOptional(NON_RESIDENTIAL_FILE, nonResidentialFileSchema, "住宅がほとんどない駅") ?? {};
 
   stationCache = getRoster().map((base) => {
     const profile = profiles.get(base.slug);
@@ -225,6 +229,7 @@ export function getAllStations(): Station[] {
       sources: profile?.sources,
       dataQuality: profile?.dataQuality ?? "roster",
       lastReviewedAt: profile?.lastReviewedAt,
+      nonResidential: base.slug in nonResidential || undefined,
     };
   });
 

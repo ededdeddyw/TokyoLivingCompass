@@ -52,6 +52,13 @@
     "congestion": "朝の混み方は、路線の数字ほどではありません。通る路線の混雑率は高めですが、この駅はいちばん混む区間の外にあります。",
     "noiseSources": "人の声より先に、車の音を確かめたい駅です。"
   },
+  "nonResidential": {
+    "note": "この駅のまわりには、住宅がほとんどありません。地図データでは、駅から歩いて13分ほどの範囲にある学校・幼稚園・保育園は0か所、スーパーは0軒です。住む場所を探すなら、近くの駅のページもあわせて見てください。",
+    "nearby": [
+      "kokkai-gijidomae",
+      "toranomon"
+    ]
+  },
   "authoredBy": "data-generated",
   "personaDays": {
     "single": {

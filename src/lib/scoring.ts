@@ -122,6 +122,7 @@ export type SegmentRank<T extends Station = Station> = {
  *
  * 重みつき平均で並べたうえで、区分が重く見る軸（weights.ts の SEGMENT_GATES）が
  * 下位3割に入る駅を後ろへ回す。スコアが1軸も無い駅はさらに後ろに置く。
+ * 住宅がほとんどない駅（空港・倉庫街など）は、いちばん最後にまとめる。
  */
 export function rankBySegment<T extends Station>(
   stations: readonly T[],
@@ -142,6 +143,10 @@ export function rankBySegment<T extends Station>(
       return { station, overall: overallScore(station, weights), gatedBy };
     })
     .sort((a, b) => {
+      // 住宅がほとんどない駅は、一覧の最後にまとめる
+      const na = a.station.nonResidential ? 1 : 0;
+      const nb = b.station.nonResidential ? 1 : 0;
+      if (na !== nb) return na - nb;
       if (a.gatedBy.length !== b.gatedBy.length) {
         return a.gatedBy.length - b.gatedBy.length;
       }
@@ -216,6 +221,8 @@ export function rankStations(
   let excludedForMissingRent = 0;
 
   for (const station of stations) {
+    // 住宅がほとんどない駅（空港・倉庫街など）は、住む駅の候補として出さない
+    if (station.nonResidential) continue;
     const commute = commuteTo(station, criteria.office);
     if (!commute) continue;
     if (commute.minutes > criteria.maxMinutes) continue;
