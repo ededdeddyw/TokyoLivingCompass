@@ -2,8 +2,8 @@
   "slug": "hatsudai",
   "locale": "en",
   "name": "Hatsudai",
-  "tagline": "Shinjuku in 11 minutes and Shibuya in 21 minutes. Served by 2 lines. A one-room flat rents for roughly ¥100,000 to ¥110,000.",
-  "summary": "The station is in Shibuya City, where Keio run 2 lines between them. Journey times to the main business districts are 32 minutes to Otemachi, 11 minutes to Shinjuku, 21 minutes to Shibuya and 40 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 41.3 m above sea level, and the ground within 800 m varies in height by 11.2 m. The land around the station has gentle slopes.",
+  "tagline": "Shinjuku in 11 minutes and Shibuya in 21 minutes. Served by 1 line. A one-room flat rents for roughly ¥100,000 to ¥110,000.",
+  "summary": "The station is in Shibuya City, served by Keio New Line. Journey times to the main business districts are 32 minutes to Otemachi, 11 minutes to Shinjuku, 21 minutes to Shibuya and 40 minutes to Shinagawa. A one-room flat rents for roughly ¥100,000 to ¥110,000. The station stands 41.3 m above sea level, and the ground within 800 m varies in height by 11.2 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits on the higher side of the ground around it, at 41.3 m above sea level. Within 800 m the ground ranges from 30.3 m to 41.5 m, a difference of 11.2 m."
@@ -40,8 +40,8 @@
     }
   ],
   "medical": "Within an 800 m walk of the station there are 6 clinics and 6 pharmacies. The nearest hospital is 温光会内藤病院, about 3 minutes' walk from the station. The next nearest is 東洋病院, about 10 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
-  "stationNote": "2 lines serve the station: Keio Line and Keio New Line. Both lines are run by Keio, so a fault affecting that company can stop them together.",
-  "congestion": "Keio Line runs at 145% of capacity in the morning peak. The busiest stretch is 下高井戸→明大前, which this station is not on. Keio New Line is not covered by the ministry's congestion survey. At 100%, the ministry's scale describes every passenger either seated or able to hold a strap or pillar. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
+  "stationNote": "1 line serve the station: Keio New Line.",
+  "congestion": "The ministry's congestion survey does not publish figures for Keio New Line. It covers the major commuter stretches, and this line is not among them. ",
   "rentRange": {
     "note": "Around this station, One room ¥100,000 to ¥110,000 and 1K ¥110,000 to ¥120,000. 1LDK ¥190,000 to ¥200,000 and 2LDK ¥290,000 to ¥300,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
@@ -57,12 +57,12 @@
     {
       "slug": "sangubashi",
       "lead": "For how close the centre is, Sangubashi; for lower rent, Hatsudai. ",
-      "note": "Close enough to walk to from Hatsudai. Hatsudai adds the Keio Line and Keio New Line; Sangubashi adds the Odakyu Odawara Line. Sangubashi is at least 8 minutes quicker to Toranomon and Tokyo. A one-room flat, though, costs about ¥13,000 more at Sangubashi."
+      "note": "Close enough to walk to from Hatsudai. Hatsudai adds the Keio New Line; Sangubashi adds the Odakyu Odawara Line. Sangubashi is at least 8 minutes quicker to Toranomon and Tokyo. A one-room flat, though, costs about ¥13,000 more at Sangubashi."
     },
     {
       "slug": "nishi-shinjuku-gochome",
       "lead": "Nishi-Shinjuku-Gochome is ahead on how close the centre is and quiet. ",
-      "note": "Close enough to walk to from Hatsudai. Hatsudai adds the Keio Line and Keio New Line; Nishi-Shinjuku-Gochome adds the Toei Oedo Line. Nishi-Shinjuku-Gochome is at least 13 minutes quicker to Toranomon and Roppongi. Rents, flood projections and the rest differ little."
+      "note": "Close enough to walk to from Hatsudai. Hatsudai adds the Keio New Line; Nishi-Shinjuku-Gochome adds the Toei Oedo Line. Nishi-Shinjuku-Gochome is at least 13 minutes quicker to Toranomon and Roppongi. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -70,8 +70,7 @@
     "People who want a large park within walking distance"
   ],
   "notFor": [
-    "People who want to keep traffic noise out",
-    "Families who want schools and nurseries close by"
+    "People who want another route when service is suspended"
   ],
   "noiseSources": [
     "The 首都高速4号新宿線 viaduct runs right beside the station. It is an expressway, so traffic is audible day and night",
@@ -80,17 +79,16 @@
   "tags": [
     "pricey",
     "lowFlood",
-    "cafeRich",
+    "singleLine",
     "parkNear"
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
     "groceries": "There are 7 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
     "hazards": "The station itself is outside the projected flood area, but blocks nearby are inside it.",
-    "stationNote": "2 lines serve the station. The choice of connections is about average for the 23 wards.",
+    "stationNote": "Only the Keio New Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the low side for the 23 wards.",
-    "congestion": "Among the 23 wards' stations, the lines here are lightly loaded in the morning. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"
