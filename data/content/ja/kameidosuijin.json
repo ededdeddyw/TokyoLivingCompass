@@ -18,6 +18,13 @@
       "verifiedAt": "2026-09-24"
     },
     {
+      "name": "Eataly",
+      "tier": "standard",
+      "walkMinutes": 10,
+      "sourceUrl": "https://www.openstreetmap.org/node/5174668322",
+      "verifiedAt": "2026-09-24"
+    },
+    {
       "name": "肉のハナマサ 亀戸店",
       "tier": "discount",
       "walkMinutes": 12,
@@ -29,13 +36,6 @@
       "tier": "standard",
       "walkMinutes": 12,
       "sourceUrl": "https://www.openstreetmap.org/node/5834196344",
-      "verifiedAt": "2026-09-24"
-    },
-    {
-      "name": "ライフ",
-      "tier": "standard",
-      "walkMinutes": 13,
-      "sourceUrl": "https://www.openstreetmap.org/node/5809824798",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -85,7 +85,7 @@
   ],
   "leads": {
     "terrain": "駅の周りはほぼ平坦で、坂を気にせず住む場所を選べます。",
-    "groceries": "歩いて行けるスーパーが7軒あり、いちばん近い店までは徒歩7分です。",
+    "groceries": "歩いて行けるスーパーが8軒あり、いちばん近い店までは徒歩7分です。",
     "hazards": "駅の地点が、大雨のときの浸水想定区域に入っています。",
     "stationNote": "使える路線は東武亀戸線の1本だけです。止まった日は、別の駅まで歩いて別の路線に乗り換えることになります。",
     "rentRange": "通勤にかかる時間に対して、家賃の相場は高いほうです。",

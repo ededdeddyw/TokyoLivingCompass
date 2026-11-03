@@ -11,6 +11,13 @@
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of less than 0.5 m. Of the nine points within 400 m of the station, 8 also fall inside the area, and the deepest projection is 0.5 to 3 m. For storm surge, 6 of the nine points also fall inside the projected area. On the whole, the flood projection here is about average for the 23 wards.",
   "groceries": [
     {
+      "name": "Eataly 丸の内店",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/13027480843",
+      "verifiedAt": "2026-09-24"
+    },
+    {
       "name": "成城石井 東京駅一番街店",
       "tier": "premium",
       "walkMinutes": 4,
@@ -80,7 +87,7 @@
   ],
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
-    "groceries": "There are 4 supermarkets within walking distance, and the nearest is 4 minutes on foot.",
+    "groceries": "There are 5 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "11 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",

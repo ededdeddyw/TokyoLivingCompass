@@ -11,6 +11,13 @@
   "hazards": "On the flood hazard map for the largest rainfall the government models, the station itself falls inside the projected inundation area, to a projected depth of 3 to 5 m. All nine points within 400 m of the station fall inside the area too, and the deepest projection among them is 3 to 5 m. For storm surge, 9 of the nine points also fall inside the projected area. On the whole, the flood projection here is on the large side for the 23 wards.",
   "groceries": [
     {
+      "name": "Eataly",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/5174668322",
+      "verifiedAt": "2026-09-24"
+    },
+    {
       "name": "肉のハナマサ 亀戸店",
       "tier": "discount",
       "walkMinutes": 5,
@@ -29,13 +36,6 @@
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/way/619704641",
-      "verifiedAt": "2026-09-24"
-    },
-    {
-      "name": "LAWSON STORE 100",
-      "tier": "standard",
-      "walkMinutes": 6,
-      "sourceUrl": "https://www.openstreetmap.org/node/5834196344",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -83,7 +83,7 @@
   ],
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
-    "groceries": "There are 10 supermarkets within walking distance, and the nearest is 5 minutes on foot.",
+    "groceries": "There are 11 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "2 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "The balance between commuting time and rent is about average for the 23 wards.",

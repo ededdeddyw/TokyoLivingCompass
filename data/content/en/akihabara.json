@@ -18,6 +18,13 @@
       "verifiedAt": "2026-09-24"
     },
     {
+      "name": "日本百貨店しょくひんかん",
+      "tier": "standard",
+      "walkMinutes": 3,
+      "sourceUrl": "https://www.openstreetmap.org/node/2724694059",
+      "verifiedAt": "2026-09-24"
+    },
+    {
       "name": "福島屋 秋葉原店",
       "tier": "premium",
       "walkMinutes": 4,
@@ -29,13 +36,6 @@
       "tier": "standard",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/8986264202",
-      "verifiedAt": "2026-09-24"
-    },
-    {
-      "name": "まいばすけっと 岩本町駅南店",
-      "tier": "standard",
-      "walkMinutes": 7,
-      "sourceUrl": "https://www.openstreetmap.org/node/7881028882",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -89,7 +89,7 @@
   ],
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",
-    "groceries": "There are 19 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
+    "groceries": "There are 20 supermarkets within walking distance, and the nearest is 3 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "5 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",

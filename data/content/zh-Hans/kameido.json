@@ -11,6 +11,13 @@
   "hazards": "在按可能出现的最大降雨量推算的洪水浸水想定区域中，车站所在的地点被划入区域，推算的水深为3至5米。车站400米以内查看的九个点也全部被划入区域，其中推算最深的水深为3至5米。风暴潮方面，九个点中也有9个点被划入想定区域。总的来说，大雨时的浸水推算在23区的车站中偏大。",
   "groceries": [
     {
+      "name": "Eataly",
+      "tier": "standard",
+      "walkMinutes": 2,
+      "sourceUrl": "https://www.openstreetmap.org/node/5174668322",
+      "verifiedAt": "2026-09-24"
+    },
+    {
       "name": "肉のハナマサ 亀戸店",
       "tier": "discount",
       "walkMinutes": 5,
@@ -29,13 +36,6 @@
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/way/619704641",
-      "verifiedAt": "2026-09-24"
-    },
-    {
-      "name": "LAWSON STORE 100",
-      "tier": "standard",
-      "walkMinutes": 6,
-      "sourceUrl": "https://www.openstreetmap.org/node/5834196344",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -83,7 +83,7 @@
   ],
   "leads": {
     "terrain": "车站周边基本平坦，选住处时不必考虑坡道。",
-    "groceries": "步行可达的超市有10家，最近的一家步行5分钟。",
+    "groceries": "步行可达的超市有11家，最近的一家步行2分钟。",
     "hazards": "车站所在的地点，被划入大雨时的浸水想定区域。",
     "stationNote": "有2条线路可用，换乘的选择在23区的车站中偏多。",
     "rentRange": "通勤时间与租金行情的关系，与23区车站的平均水平相当。",

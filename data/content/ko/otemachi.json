@@ -18,6 +18,13 @@
       "verifiedAt": "2026-09-24"
     },
     {
+      "name": "Eataly 丸の内店",
+      "tier": "standard",
+      "walkMinutes": 7,
+      "sourceUrl": "https://www.openstreetmap.org/node/13027480843",
+      "verifiedAt": "2026-09-24"
+    },
+    {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 11,
@@ -29,13 +36,6 @@
       "tier": "premium",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/11370968865",
-      "verifiedAt": "2026-09-24"
-    },
-    {
-      "name": "サミット",
-      "tier": "standard",
-      "walkMinutes": 13,
-      "sourceUrl": "https://www.openstreetmap.org/node/11342776829",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -88,7 +88,7 @@
   ],
   "leads": {
     "terrain": "역 주변은 거의 평탄해서, 언덕을 신경 쓰지 않고 살 곳을 고를 수 있다.",
-    "groceries": "걸어갈 수 있는 슈퍼마켓이 4곳 있고, 가장 가까운 곳까지는 걸어서 2분이다.",
+    "groceries": "걸어갈 수 있는 슈퍼마켓이 5곳 있고, 가장 가까운 곳까지는 걸어서 2분이다.",
     "hazards": "역이 있는 지점이 큰비가 올 때의 침수 예상 구역에 들어간다.",
     "stationNote": "5개 노선을 쓸 수 있어, 환승 선택지는 23구의 역 중에서 많은 편이다.",
     "rentRange": "통근에 걸리는 시간에 비해, 임대료 시세는 낮은 편이다.",
