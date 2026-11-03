@@ -763,6 +763,10 @@ def road_is_near(road):
     return False
 
 
+# データと街の特色から書いて読み直す節（docs/19-depth-sections.md）
+DEPTH_FIELDS = ("faces", "nightWalk", "residents", "housingStock", "outlook")
+
+
 def care_rank(slug, ctx):
     """歩いて行けるクリニックと薬局の数が、23区の駅の中でどのあたりか（0〜100）。
 
@@ -1533,6 +1537,15 @@ def main():
             for field in ("personaDays", "personaDaysStatus"):
                 if field in existing:
                     c[field] = existing[field]
+            # 朝昼夜のようす・夜道・住む人・住まい・見通しは、データと街の特色から人（エージェント）が
+            # 書いて読み直す層（docs/19-depth-sections.md）。組み立て直しても消さない。
+            for field in DEPTH_FIELDS + ("depthStatus",):
+                if field in existing:
+                    c[field] = existing[field]
+            kept = {f: existing.get("leads", {}).get(f) for f in DEPTH_FIELDS
+                    if existing.get("leads", {}).get(f)}
+            if kept:
+                c.setdefault("leads", {}).update(kept)
         made += 1
         if not args.dry_run:
             json.dump(c, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)

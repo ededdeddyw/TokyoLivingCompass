@@ -586,6 +586,11 @@ export const stationContentSchema = z.object({
    * 省略したときは reviewed として扱う（人が最初から書いた駅）
    */
   personaDaysStatus: z.enum(["draft", "generated", "reviewed"]).optional(),
+  /**
+   * データから組み立てた駅で、朝昼夜のようす・夜道・住む人・住まい・見通しの節を
+   * データと街の特色から書いて読み直したかどうか（docs/19-depth-sections.md）。
+   */
+  depthStatus: z.enum(["reviewed"]).optional(),
 
   /**
    * 東京在住者コメント。公開版は人間が書く（docs/02-data-model.md §4）。
