@@ -41,7 +41,7 @@
   ],
   "medical": "Within an 800 m walk of the station there are 9 clinics and 9 pharmacies. The nearest hospital is 竹内病院, about 16 minutes' walk from the station. The next nearest is はせがわ病院, about 27 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "1 line serve the station: Nippori-Toneri Liner.",
-  "congestion": "The ministry's congestion survey does not publish figures for Nippori-Toneri Liner. It covers the major commuter stretches, and this line is not among them. ",
+  "congestion": "Nippori-Toneri Liner runs at 176% of capacity in the morning peak. The busiest stretch of the line is 赤土小学校前→西日暮里, which includes this station. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
     "note": "Around this station, One room ¥90,000 to ¥100,000 and 1K ¥90,000 to ¥100,000. 1LDK ¥140,000 to ¥150,000 and 2LDK ¥200,000 to ¥210,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
@@ -91,6 +91,7 @@
     "stationNote": "Only the Nippori-Toneri Liner serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is about average for the 23 wards.",
+    "congestion": "Morning trains are very crowded: this station sits on the busiest stretch of the Nippori-Toneri Liner. ",
     "noiseSources": "At this station, check the traffic noise before the noise people make."
   },
   "authoredBy": "data-generated"

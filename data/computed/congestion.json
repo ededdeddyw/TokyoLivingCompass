@@ -94,7 +94,7 @@
       "fromStation": "亀有",
       "rate": 128,
       "riders": "35,710",
-      "table": "最混雑区間",
+      "table": "主要区間",
       "toSlug": "ayase",
       "toStation": "綾瀬",
       "window": "7:19～8:19"
@@ -527,6 +527,17 @@
       "toSlug": "keisei-takasago",
       "toStation": "京成高砂",
       "window": "7:00～8:00"
+    },
+    "99342": {
+      "capacity": "4,924",
+      "fromSlug": "akado-shogakkomae",
+      "fromStation": "赤土小学校前",
+      "rate": 176,
+      "riders": "8,681",
+      "table": "最混雑区間",
+      "toSlug": "nishi-nippori",
+      "toStation": "西日暮里",
+      "window": "7:30～8:30"
     }
   },
   "meta": {
@@ -545,7 +556,6 @@
     "京成金町線",
     "京王新線",
     "成田スカイアクセス",
-    "日暮里・舎人ライナー",
     "東京モノレール",
     "東急世田谷線",
     "東武亀戸線",

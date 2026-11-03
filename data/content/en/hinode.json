@@ -60,8 +60,8 @@
     "People who want plenty of places to eat out"
   ],
   "noiseSources": [
-    "新橋日の出ふ頭線 (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road",
-    "海岸通り (4 lanes each way) runs right beside the station. Traffic on it never stops, so for a flat close to the station, check whether it faces the road"
+    "An expressway runs right beside the station (its name is not recorded in the map data). Traffic on it is audible day and night",
+    "新橋日の出ふ頭線 (a main road) runs right beside the station, so for a flat close to the station, check whether it faces the road"
   ],
   "tags": [
     "pricey",
@@ -76,8 +76,7 @@
     "stationNote": "Only the Yurikamome serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the high side.",
     "medical": "The map data has far fewer clinics registered here than at nearby stations, so the count cannot be compared.",
-    "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. ",
-    "noiseSources": "At this station, check the traffic noise before the noise people make."
+    "congestion": "Among the 23 wards' stations, the lines here are very lightly loaded in the morning. "
   },
   "authoredBy": "data-generated"
 }

@@ -766,6 +766,19 @@
     "rentValue": 0,
     "rentLow": 0
   },
+  "daiba": {
+    "commute": 50,
+    "transitConvenience": 32,
+    "shopping": 20,
+    "healthcare": 35,
+    "nature": 61,
+    "cafe": 43,
+    "fitness": 0,
+    "singleLife": 40,
+    "safety": 40,
+    "disaster": 94,
+    "family": 1
+  },
   "shinagawa": {
     "commute": 83,
     "transitConvenience": 98,
@@ -889,21 +902,6 @@
     "family": 15,
     "rentValue": 10,
     "rentLow": 14
-  },
-  "tokyo-teleport": {
-    "commute": 54,
-    "transitConvenience": 32,
-    "shopping": 37,
-    "healthcare": 38,
-    "nature": 62,
-    "cafe": 35,
-    "fitness": 0,
-    "singleLife": 44,
-    "safety": 40,
-    "disaster": 94,
-    "family": 3,
-    "rentValue": 1,
-    "rentLow": 6
   },
   "shiodome": {
     "commute": 85,
@@ -1506,24 +1504,6 @@
     "rentValue": 50,
     "rentLow": 21
   },
-  "edogawabashi": {
-    "commute": 66,
-    "transitConvenience": 32,
-    "shopping": 79,
-    "healthcare": 64,
-    "nature": 37,
-    "food": 79,
-    "cafe": 73,
-    "nightlife": 65,
-    "fitness": 70,
-    "quietness": 26,
-    "singleLife": 75,
-    "safety": 67,
-    "disaster": 59,
-    "family": 53,
-    "rentValue": 42,
-    "rentLow": 27
-  },
   "ushigome-yanagicho": {
     "commute": 68,
     "transitConvenience": 32,
@@ -1596,6 +1576,42 @@
     "rentValue": 66,
     "rentLow": 28
   },
+  "ochiai": {
+    "commute": 58,
+    "transitConvenience": 32,
+    "shopping": 79,
+    "healthcare": 90,
+    "nature": 42,
+    "food": 71,
+    "cafe": 49,
+    "nightlife": 50,
+    "fitness": 70,
+    "quietness": 47,
+    "singleLife": 70,
+    "safety": 47,
+    "disaster": 66,
+    "family": 50,
+    "rentValue": 72,
+    "rentLow": 50
+  },
+  "ochiai-minami-nagasaki": {
+    "commute": 57,
+    "transitConvenience": 32,
+    "shopping": 50,
+    "healthcare": 64,
+    "nature": 53,
+    "food": 31,
+    "cafe": 17,
+    "nightlife": 11,
+    "fitness": 14,
+    "quietness": 66,
+    "singleLife": 40,
+    "safety": 60,
+    "disaster": 82,
+    "family": 71,
+    "rentValue": 97,
+    "rentLow": 73
+  },
   "nishi-shinjuku": {
     "commute": 75,
     "transitConvenience": 32,
@@ -1613,6 +1629,24 @@
     "family": 8,
     "rentValue": 75,
     "rentLow": 24
+  },
+  "nishi-shinjuku-gochome": {
+    "commute": 72,
+    "transitConvenience": 32,
+    "shopping": 50,
+    "healthcare": 66,
+    "nature": 55,
+    "food": 61,
+    "cafe": 43,
+    "nightlife": 46,
+    "fitness": 14,
+    "quietness": 60,
+    "singleLife": 65,
+    "safety": 27,
+    "disaster": 72,
+    "family": 16,
+    "rentValue": 95,
+    "rentLow": 36
   },
   "nishi-waseda": {
     "commute": 65,
@@ -1721,6 +1755,24 @@
     "family": 75,
     "rentValue": 64,
     "rentLow": 37
+  },
+  "sendagi": {
+    "commute": 64,
+    "transitConvenience": 32,
+    "shopping": 65,
+    "healthcare": 92,
+    "nature": 22,
+    "food": 62,
+    "cafe": 84,
+    "nightlife": 32,
+    "fitness": 39,
+    "quietness": 64,
+    "singleLife": 67,
+    "safety": 73,
+    "disaster": 94,
+    "family": 94,
+    "rentValue": 95,
+    "rentLow": 52
   },
   "korakuen": {
     "commute": 76,
@@ -1847,6 +1899,42 @@
     "rentValue": 98,
     "rentLow": 50
   },
+  "edogawabashi": {
+    "commute": 66,
+    "transitConvenience": 32,
+    "shopping": 79,
+    "healthcare": 64,
+    "nature": 37,
+    "food": 79,
+    "cafe": 73,
+    "nightlife": 65,
+    "fitness": 70,
+    "quietness": 26,
+    "singleLife": 75,
+    "safety": 67,
+    "disaster": 59,
+    "family": 53,
+    "rentValue": 42,
+    "rentLow": 27
+  },
+  "yushima": {
+    "commute": 74,
+    "transitConvenience": 32,
+    "shopping": 91,
+    "healthcare": 99,
+    "nature": 69,
+    "food": 100,
+    "cafe": 98,
+    "nightlife": 100,
+    "fitness": 99,
+    "quietness": 29,
+    "singleLife": 93,
+    "safety": 15,
+    "disaster": 79,
+    "family": 15,
+    "rentValue": 29,
+    "rentLow": 17
+  },
   "hakusan": {
     "commute": 66,
     "transitConvenience": 32,
@@ -1965,24 +2053,6 @@
     "rentValue": 54,
     "rentLow": 37
   },
-  "sendagi": {
-    "commute": 64,
-    "transitConvenience": 32,
-    "shopping": 65,
-    "healthcare": 92,
-    "nature": 22,
-    "food": 62,
-    "cafe": 84,
-    "nightlife": 32,
-    "fitness": 39,
-    "quietness": 64,
-    "singleLife": 67,
-    "safety": 73,
-    "disaster": 94,
-    "family": 94,
-    "rentValue": 95,
-    "rentLow": 52
-  },
   "okachimachi": {
     "commute": 73,
     "transitConvenience": 98,
@@ -2072,24 +2142,6 @@
     "family": 38,
     "rentValue": 50,
     "rentLow": 25
-  },
-  "yushima": {
-    "commute": 74,
-    "transitConvenience": 32,
-    "shopping": 91,
-    "healthcare": 99,
-    "nature": 69,
-    "food": 100,
-    "cafe": 98,
-    "nightlife": 100,
-    "fitness": 99,
-    "quietness": 29,
-    "singleLife": 93,
-    "safety": 15,
-    "disaster": 79,
-    "family": 15,
-    "rentValue": 29,
-    "rentLow": 17
   },
   "tawaramachi": {
     "commute": 63,
@@ -2592,6 +2644,21 @@
     "rentValue": 40,
     "rentLow": 30
   },
+  "tokyo-teleport": {
+    "commute": 54,
+    "transitConvenience": 32,
+    "shopping": 37,
+    "healthcare": 38,
+    "nature": 62,
+    "cafe": 35,
+    "fitness": 0,
+    "singleLife": 44,
+    "safety": 40,
+    "disaster": 94,
+    "family": 3,
+    "rentValue": 1,
+    "rentLow": 6
+  },
   "tokyo-big-sight": {
     "commute": 41,
     "transitConvenience": 32,
@@ -2607,6 +2674,22 @@
     "safety": 54,
     "disaster": 100,
     "family": 2
+  },
+  "tokyo-international-cruise-terminal": {
+    "commute": 47,
+    "transitConvenience": 32,
+    "shopping": 9,
+    "healthcare": 42,
+    "nature": 58,
+    "food": 7,
+    "cafe": 21,
+    "nightlife": 1,
+    "fitness": 0,
+    "quietness": 80,
+    "singleLife": 27,
+    "safety": 65,
+    "disaster": 84,
+    "family": 1
   },
   "higashi-ojima": {
     "commute": 49,
@@ -2897,19 +2980,6 @@
     "rentValue": 17,
     "rentLow": 16
   },
-  "daiba": {
-    "commute": 50,
-    "transitConvenience": 32,
-    "shopping": 20,
-    "healthcare": 35,
-    "nature": 61,
-    "cafe": 43,
-    "fitness": 0,
-    "singleLife": 40,
-    "safety": 40,
-    "disaster": 94,
-    "family": 1
-  },
   "shinagawa-seaside": {
     "commute": 64,
     "transitConvenience": 32,
@@ -2993,6 +3063,24 @@
     "family": 29,
     "rentValue": 14,
     "rentLow": 21
+  },
+  "omorikaigan": {
+    "commute": 56,
+    "transitConvenience": 32,
+    "shopping": 66,
+    "healthcare": 56,
+    "nature": 66,
+    "food": 29,
+    "cafe": 43,
+    "nightlife": 46,
+    "fitness": 77,
+    "quietness": 52,
+    "singleLife": 55,
+    "safety": 37,
+    "disaster": 52,
+    "family": 46,
+    "rentValue": 49,
+    "rentLow": 46
   },
   "tennozu-isle": {
     "commute": 67,
@@ -3079,22 +3167,6 @@
     "family": 94,
     "rentValue": 65,
     "rentLow": 56
-  },
-  "tokyo-international-cruise-terminal": {
-    "commute": 47,
-    "transitConvenience": 32,
-    "shopping": 9,
-    "healthcare": 42,
-    "nature": 58,
-    "food": 7,
-    "cafe": 21,
-    "nightlife": 1,
-    "fitness": 0,
-    "quietness": 80,
-    "singleLife": 27,
-    "safety": 65,
-    "disaster": 84,
-    "family": 1
   },
   "musashi-koyama": {
     "commute": 66,
@@ -3286,20 +3358,6 @@
     "family": 72,
     "rentValue": 78,
     "rentLow": 40
-  },
-  "ikejiri-ohashi": {
-    "commute": 73,
-    "transitConvenience": 32,
-    "shopping": 44,
-    "nature": 68,
-    "cafe": 51,
-    "fitness": 0,
-    "singleLife": 50,
-    "safety": 62,
-    "disaster": 79,
-    "family": 59,
-    "rentValue": 77,
-    "rentLow": 26
   },
   "senzoku": {
     "commute": 59,
@@ -3553,24 +3611,6 @@
     "family": 41,
     "rentValue": 96,
     "rentLow": 55
-  },
-  "omorikaigan": {
-    "commute": 56,
-    "transitConvenience": 32,
-    "shopping": 66,
-    "healthcare": 56,
-    "nature": 66,
-    "food": 29,
-    "cafe": 43,
-    "nightlife": 46,
-    "fitness": 77,
-    "quietness": 52,
-    "singleLife": 55,
-    "safety": 37,
-    "disaster": 52,
-    "family": 46,
-    "rentValue": 49,
-    "rentLow": 46
   },
   "omorimachi": {
     "commute": 50,
@@ -4265,24 +4305,6 @@
     "rentValue": 92,
     "rentLow": 57
   },
-  "hachiman-yama": {
-    "commute": 46,
-    "transitConvenience": 32,
-    "shopping": 44,
-    "healthcare": 59,
-    "nature": 55,
-    "food": 59,
-    "cafe": 20,
-    "nightlife": 38,
-    "fitness": 0,
-    "quietness": 62,
-    "singleLife": 35,
-    "safety": 71,
-    "disaster": 66,
-    "family": 96,
-    "rentValue": 61,
-    "rentLow": 78
-  },
   "chitose-karasuyama": {
     "commute": 42,
     "transitConvenience": 32,
@@ -4564,6 +4586,20 @@
     "family": 46,
     "rentValue": 57,
     "rentLow": 31
+  },
+  "ikejiri-ohashi": {
+    "commute": 73,
+    "transitConvenience": 32,
+    "shopping": 44,
+    "nature": 68,
+    "cafe": 51,
+    "fitness": 0,
+    "singleLife": 50,
+    "safety": 62,
+    "disaster": 79,
+    "family": 59,
+    "rentValue": 77,
+    "rentLow": 26
   },
   "yoga": {
     "commute": 52,
@@ -4991,24 +5027,6 @@
     "rentValue": 89,
     "rentLow": 45
   },
-  "nishi-shinjuku-gochome": {
-    "commute": 72,
-    "transitConvenience": 32,
-    "shopping": 50,
-    "healthcare": 66,
-    "nature": 55,
-    "food": 61,
-    "cafe": 43,
-    "nightlife": 46,
-    "fitness": 14,
-    "quietness": 60,
-    "singleLife": 65,
-    "safety": 27,
-    "disaster": 72,
-    "family": 16,
-    "rentValue": 95,
-    "rentLow": 36
-  },
   "nakano": {
     "commute": 68,
     "transitConvenience": 73,
@@ -5081,24 +5099,6 @@
     "rentValue": 93,
     "rentLow": 45
   },
-  "fujimidai": {
-    "commute": 40,
-    "transitConvenience": 32,
-    "shopping": 74,
-    "healthcare": 60,
-    "nature": 23,
-    "food": 41,
-    "cafe": 14,
-    "nightlife": 31,
-    "fitness": 70,
-    "quietness": 78,
-    "singleLife": 43,
-    "safety": 49,
-    "disaster": 72,
-    "family": 54,
-    "rentValue": 46,
-    "rentLow": 86
-  },
   "shin-nakano": {
     "commute": 65,
     "transitConvenience": 32,
@@ -5135,6 +5135,24 @@
     "rentValue": 77,
     "rentLow": 63
   },
+  "shin-egota": {
+    "commute": 51,
+    "transitConvenience": 32,
+    "shopping": 50,
+    "healthcare": 56,
+    "nature": 26,
+    "food": 32,
+    "cafe": 8,
+    "nightlife": 18,
+    "fitness": 57,
+    "quietness": 69,
+    "singleLife": 36,
+    "safety": 65,
+    "disaster": 76,
+    "family": 70,
+    "rentValue": 74,
+    "rentLow": 68
+  },
   "higashi-nakano": {
     "commute": 64,
     "transitConvenience": 57,
@@ -5170,24 +5188,6 @@
     "family": 84,
     "rentValue": 76,
     "rentLow": 73
-  },
-  "ochiai": {
-    "commute": 58,
-    "transitConvenience": 32,
-    "shopping": 79,
-    "healthcare": 90,
-    "nature": 42,
-    "food": 71,
-    "cafe": 49,
-    "nightlife": 50,
-    "fitness": 70,
-    "quietness": 47,
-    "singleLife": 70,
-    "safety": 47,
-    "disaster": 66,
-    "family": 50,
-    "rentValue": 72,
-    "rentLow": 50
   },
   "toritsu-kasei": {
     "commute": 45,
@@ -5243,6 +5243,24 @@
     "rentValue": 55,
     "rentLow": 83
   },
+  "kami-igusa": {
+    "commute": 35,
+    "transitConvenience": 32,
+    "shopping": 44,
+    "healthcare": 31,
+    "nature": 40,
+    "food": 24,
+    "cafe": 6,
+    "nightlife": 17,
+    "fitness": 14,
+    "quietness": 78,
+    "singleLife": 23,
+    "safety": 75,
+    "disaster": 79,
+    "family": 95,
+    "rentValue": 31,
+    "rentLow": 90
+  },
   "shimo-igusa": {
     "commute": 40,
     "transitConvenience": 32,
@@ -5289,6 +5307,24 @@
     "family": 100,
     "rentValue": 35,
     "rentLow": 89
+  },
+  "hachiman-yama": {
+    "commute": 46,
+    "transitConvenience": 32,
+    "shopping": 44,
+    "healthcare": 59,
+    "nature": 55,
+    "food": 59,
+    "cafe": 20,
+    "nightlife": 38,
+    "fitness": 0,
+    "quietness": 62,
+    "singleLife": 35,
+    "safety": 71,
+    "disaster": 66,
+    "family": 96,
+    "rentValue": 61,
+    "rentLow": 78
   },
   "minami-asagaya": {
     "commute": 53,
@@ -5779,24 +5815,6 @@
     "rentValue": 74,
     "rentLow": 40
   },
-  "ochiai-minami-nagasaki": {
-    "commute": 57,
-    "transitConvenience": 32,
-    "shopping": 50,
-    "healthcare": 64,
-    "nature": 53,
-    "food": 31,
-    "cafe": 17,
-    "nightlife": 11,
-    "fitness": 14,
-    "quietness": 66,
-    "singleLife": 40,
-    "safety": 60,
-    "disaster": 82,
-    "family": 71,
-    "rentValue": 97,
-    "rentLow": 73
-  },
   "nishi-sugamo": {
     "commute": 55,
     "transitConvenience": 32,
@@ -5985,6 +6003,21 @@
     "rentValue": 79,
     "rentLow": 72
   },
+  "itabashi": {
+    "commute": 62,
+    "transitConvenience": 32,
+    "shopping": 79,
+    "healthcare": 53,
+    "nature": 55,
+    "cafe": 8,
+    "fitness": 39,
+    "singleLife": 51,
+    "safety": 36,
+    "disaster": 79,
+    "family": 52,
+    "rentValue": 89,
+    "rentLow": 51
+  },
   "sakaecho": {
     "commute": 42,
     "transitConvenience": 32,
@@ -6020,6 +6053,21 @@
     "family": 91,
     "rentValue": 16,
     "rentLow": 67
+  },
+  "ukimafunado": {
+    "commute": 44,
+    "transitConvenience": 32,
+    "shopping": 20,
+    "healthcare": 17,
+    "nature": 40,
+    "cafe": 6,
+    "fitness": 0,
+    "singleLife": 32,
+    "safety": 64,
+    "disaster": 18,
+    "family": 63,
+    "rentValue": 63,
+    "rentLow": 84
   },
   "takinogawa-itchome": {
     "commute": 41,
@@ -6567,24 +6615,6 @@
     "rentValue": 76,
     "rentLow": 78
   },
-  "chikatetsu-akatsuka": {
-    "commute": 39,
-    "transitConvenience": 73,
-    "shopping": 86,
-    "healthcare": 78,
-    "nature": 31,
-    "food": 76,
-    "cafe": 60,
-    "nightlife": 84,
-    "fitness": 0,
-    "quietness": 21,
-    "singleLife": 60,
-    "safety": 46,
-    "disaster": 100,
-    "family": 50,
-    "rentValue": 45,
-    "rentLow": 88
-  },
   "oyama": {
     "commute": 52,
     "transitConvenience": 32,
@@ -6693,20 +6723,23 @@
     "rentValue": 34,
     "rentLow": 74
   },
-  "itabashi": {
-    "commute": 62,
+  "tobu-nerima": {
+    "commute": 40,
     "transitConvenience": 32,
-    "shopping": 79,
-    "healthcare": 53,
-    "nature": 55,
-    "cafe": 8,
+    "shopping": 50,
+    "healthcare": 30,
+    "nature": 30,
+    "food": 44,
+    "cafe": 30,
+    "nightlife": 74,
     "fitness": 39,
-    "singleLife": 51,
-    "safety": 36,
+    "quietness": 59,
+    "singleLife": 35,
+    "safety": 42,
     "disaster": 79,
-    "family": 52,
-    "rentValue": 89,
-    "rentLow": 51
+    "family": 42,
+    "rentValue": 53,
+    "rentLow": 89
   },
   "itabashi-kuyakushomae": {
     "commute": 48,
@@ -6740,21 +6773,6 @@
     "family": 44,
     "rentValue": 56,
     "rentLow": 78
-  },
-  "ukimafunado": {
-    "commute": 44,
-    "transitConvenience": 32,
-    "shopping": 20,
-    "healthcare": 17,
-    "nature": 40,
-    "cafe": 6,
-    "fitness": 0,
-    "singleLife": 32,
-    "safety": 64,
-    "disaster": 18,
-    "family": 63,
-    "rentValue": 63,
-    "rentLow": 84
   },
   "hasune": {
     "commute": 35,
@@ -6822,24 +6840,6 @@
     "rentValue": 14,
     "rentLow": 90
   },
-  "kami-igusa": {
-    "commute": 35,
-    "transitConvenience": 32,
-    "shopping": 44,
-    "healthcare": 31,
-    "nature": 40,
-    "food": 24,
-    "cafe": 6,
-    "nightlife": 17,
-    "fitness": 14,
-    "quietness": 78,
-    "singleLife": 23,
-    "safety": 75,
-    "disaster": 79,
-    "family": 95,
-    "rentValue": 31,
-    "rentLow": 90
-  },
   "kami-shakujii": {
     "commute": 33,
     "transitConvenience": 32,
@@ -6894,6 +6894,24 @@
     "rentValue": 35,
     "rentLow": 88
   },
+  "chikatetsu-akatsuka": {
+    "commute": 39,
+    "transitConvenience": 73,
+    "shopping": 86,
+    "healthcare": 78,
+    "nature": 31,
+    "food": 76,
+    "cafe": 60,
+    "nightlife": 84,
+    "fitness": 0,
+    "quietness": 21,
+    "singleLife": 60,
+    "safety": 46,
+    "disaster": 100,
+    "family": 50,
+    "rentValue": 45,
+    "rentLow": 88
+  },
   "oizumi-gakuen": {
     "commute": 31,
     "transitConvenience": 32,
@@ -6911,6 +6929,24 @@
     "family": 22,
     "rentValue": 29,
     "rentLow": 97
+  },
+  "fujimidai": {
+    "commute": 40,
+    "transitConvenience": 32,
+    "shopping": 74,
+    "healthcare": 60,
+    "nature": 23,
+    "food": 41,
+    "cafe": 14,
+    "nightlife": 31,
+    "fitness": 70,
+    "quietness": 78,
+    "singleLife": 43,
+    "safety": 49,
+    "disaster": 72,
+    "family": 54,
+    "rentValue": 46,
+    "rentLow": 86
   },
   "kotake-mukaihara": {
     "commute": 51,
@@ -6958,42 +6994,6 @@
     "family": 74,
     "rentValue": 68,
     "rentLow": 79
-  },
-  "shin-egota": {
-    "commute": 51,
-    "transitConvenience": 32,
-    "shopping": 50,
-    "healthcare": 56,
-    "nature": 26,
-    "food": 32,
-    "cafe": 8,
-    "nightlife": 18,
-    "fitness": 57,
-    "quietness": 69,
-    "singleLife": 36,
-    "safety": 65,
-    "disaster": 76,
-    "family": 70,
-    "rentValue": 74,
-    "rentLow": 68
-  },
-  "tobu-nerima": {
-    "commute": 40,
-    "transitConvenience": 32,
-    "shopping": 50,
-    "healthcare": 30,
-    "nature": 30,
-    "food": 44,
-    "cafe": 30,
-    "nightlife": 74,
-    "fitness": 39,
-    "quietness": 59,
-    "singleLife": 35,
-    "safety": 42,
-    "disaster": 79,
-    "family": 42,
-    "rentValue": 53,
-    "rentLow": 89
   },
   "sakuradai": {
     "commute": 47,

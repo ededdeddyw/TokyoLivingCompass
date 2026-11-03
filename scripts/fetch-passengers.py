@@ -90,6 +90,29 @@ def normalise(name):
     return out
 
 
+# 駅の値として使う年。2020年と2021年はコロナ禍で大きく落ちている（汐留は2019年の6.2万人が2021年に2.6万人）。
+# 池尻大橋は2021年が527人と、2019年の6.3万人から桁が2つ落ちており、値そのものが壊れている。
+# 落ちる前の2019年を使い、2019年が無い駅だけ、取れている最後の年を使う。
+BASE_YEAR = 2019
+
+
+def summarise(by_year, operators):
+    """駅1つぶんの値をまとめる。年ごとの値がすべて同じ駅は、推計とみなして印を付ける。"""
+    years = {int(y): v for y, v in by_year.items()}
+    base = BASE_YEAR if years.get(BASE_YEAR, 0) > 0 else max(y for y, v in years.items() if v > 0)
+    # 都電荒川線の停留場は、2018〜2021年の4年ぶんがすべて同じ値で入っている。
+    # 毎年数えた値ではないとみて、比べるときに使わないよう印を付ける。
+    vals = [v for v in years.values() if v > 0]
+    flat = len(vals) >= 3 and len(set(vals)) == 1
+    return {
+        "daily": years[base],
+        "year": base,
+        "byYear": {str(y): v for y, v in sorted(years.items())},
+        "operators": operators,
+        **({"sameEveryYear": True} if flat else {}),
+    }
+
+
 def main():
     download()
     stations = json.load(open(ROSTER, encoding="utf-8"))
@@ -129,12 +152,7 @@ def main():
         latest = max((y for y, v in by_year.items() if v > 0), default=None)
         if latest is None:
             continue
-        out[st["slug"]] = {
-            "daily": by_year[latest],
-            "year": latest,
-            "byYear": {str(y): v for y, v in sorted(by_year.items())},
-            "operators": sorted({c for c, _ in best}),
-        }
+        out[st["slug"]] = summarise(by_year, sorted({c for c, _ in best}))
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     json.dump({
@@ -143,7 +161,9 @@ def main():
             "sourceUrl": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S12-v3_1.html",
             "unit": "1日あたりの乗降客数（人）",
             "note": "同じ駅に乗り入れる事業者・路線ごとの値を足した。"
-                    "事業者が駅全体をまとめて報告している場合、重複する行は0で入っている",
+                    "事業者が駅全体をまとめて報告している場合、重複する行は0で入っている。"
+                    "daily はコロナ禍の前の2019年の値（無ければ取れている最後の年）。"
+                    "sameEveryYear は4年ぶんがすべて同じ値の駅で、毎年数えた値ではないとみられる",
         },
         "stations": out,
     }, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=2, sort_keys=True)
