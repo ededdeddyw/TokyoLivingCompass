@@ -533,6 +533,7 @@ def congestion_text(slug, lines, line_ids, ctx):
     pos_of = {lid: peak_position(slug, lid, v, ctx) for _, lid, _, v in rows}
     must = [r for r in rows if pos_of[r[1]] in ("on", "before")]
     rest = [r for r in rows if r not in must]
+    published = {lid for _, lid, _, _ in rows}
     rows = sorted((must + rest)[:max(3, len(must))], key=lambda r: -r[0])
     bits = []
     off_peak_seen = False
@@ -560,8 +561,8 @@ def congestion_text(slug, lines, line_ids, ctx):
     bits.append(p_[f"congestionScale{step}"])
     bits.append(p_["congestionTrailer"])
     # 公表されていない路線があることも書く。都電荒川線のように調査の対象外がある
-    known = {lid for _, lid, _, _ in rows}
-    unknown = [n for lid, n in zip(line_ids, lines) if lid not in known]
+    # 4番め以下で書かなかった路線は、公表されていないわけではないので、ここに入れない
+    unknown = [n for lid, n in zip(line_ids, lines) if lid not in published]
     if unknown:
         bits.insert(min(len(rows), 3),
                     p_["congestionUnknown"].format(lines=join(p_, unknown)))
