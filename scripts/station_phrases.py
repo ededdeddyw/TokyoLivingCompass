@@ -308,6 +308,9 @@ PHRASES = {
                              "駅に近い物件を見るときは、通りに面していないかを確かめてください",
         "noiseRoadMotorway": "{name}の高架が{where}を通ります。"
                              "高速道路なので、車の音は昼も夜も続きます",
+        # 地図データに名前の無い高速道路（日の出）。名前と高架かどうかは書かない
+        "noiseRoadMotorwayUnnamed": "高速道路が{where}を通ります。地図データに道路の名前は登録されていません。"
+                                    "高速道路なので、車の音は昼も夜も続きます",
         "noiseRoadBig": "{name}（{side}の大通り）が{where}にあります。一日中、車の通りが絶えません",
         "noiseRoadMid": "{name}（{side}）が{where}にあります。"
                         "通りに面した部屋では、朝夕の車の音が入ります",
@@ -678,6 +681,8 @@ PHRASES = {
                              "so for a flat close to the station, check whether it faces the road",
         "noiseRoadMotorway": "The {name} viaduct runs {where}. It is an expressway, "
                              "so traffic is audible day and night",
+        "noiseRoadMotorwayUnnamed": "An expressway runs {where} (its name is not recorded in the map data). "
+                                    "Traffic on it is audible day and night",
         "noiseRoadBig": "{name} ({side}) runs {where}. Traffic on it never stops",
         "noiseRoadMid": "{name} ({side}) runs {where}. In a flat facing it, "
                         "the cars are audible morning and evening",
@@ -985,6 +990,7 @@ PHRASES = {
         "noiseRoadVeryNear": "{name}（{side}的大马路）{where}。一整天车流不断，"
                              "看车站附近的房子时，要确认是否临街",
         "noiseRoadMotorway": "{name}的高架{where}经过。是高速公路，车声白天黑夜都不停",
+        "noiseRoadMotorwayUnnamed": "高速公路{where}经过（地图数据中没有登记道路名称）。车声白天黑夜都不停",
         "noiseRoadBig": "{name}（{side}的大马路）{where}。一整天车流不断",
         "noiseRoadMid": "{name}（{side}）{where}。临街的房间，早晚车声会进到屋里",
         "noiseRoadAtStation": "{name}（{side}）{where}。看车站附近的房子时，要确认是否临街",
@@ -1307,6 +1313,7 @@ PHRASES = {
         "noiseRoadVeryNear": "{name}（{side}의 큰길）가 {where}을 지난다. 하루 종일 차가 끊이지 않으니, "
                              "역에서 가까운 집은 길에 면해 있는지 확인하고 싶다",
         "noiseRoadMotorway": "{name} 고가가 {where}을 지난다. 고속도로라 차 소리가 낮에도 밤에도 이어진다",
+        "noiseRoadMotorwayUnnamed": "고속도로가 {where}을 지난다(지도 데이터에 도로 이름은 등록되어 있지 않다). 차 소리가 낮에도 밤에도 이어진다",
         "noiseRoadBig": "{name}（{side}의 큰길）가 {where}에 있다. 하루 종일 차가 끊이지 않는다",
         "noiseRoadMid": "{name}（{side}）가 {where}에 있다. 길에 면한 방에서는 아침저녁 차 소리가 들어온다",
         "noiseRoadAtStation": "{name}（{side}）가 {where}에 있다. 역에서 가까운 집을 볼 때는 "

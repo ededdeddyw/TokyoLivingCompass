@@ -35,6 +35,11 @@ import zipfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, "data", "poi", "A29-19_13_GML.zip")
+# 県境の駅は、駅から500mの円の一部が隣の県に入る。六郷土手は円の半分が川崎市側で、
+# 東京都の分だけを読むと、円の51%にしか用途地域が無かった。
+# 隣の3県（埼玉・千葉・神奈川）の市町村ごとのファイルも読み、23区のまわりの区画だけを使う。
+NEIGHBOUR_PREFS = ("11", "12", "14")
+NEIGHBOUR_BOX = (139.55, 35.45, 140.05, 35.90)   # 経度・緯度の範囲（23区とそのまわり）
 OUT = os.path.join(ROOT, "data", "computed", "zoning.json")
 URL = "https://nlftp.mlit.go.jp/ksj/gml/data/A29/A29-19/A29-19_13_GML.zip"
 PAGE = "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A29-v2_1.html"
@@ -73,15 +78,34 @@ def log(msg):
     print(msg, flush=True)
 
 
-def download():
-    if os.path.exists(CACHE):
+def download(url=URL, cache=CACHE):
+    if os.path.exists(cache):
         return
-    os.makedirs(os.path.dirname(CACHE), exist_ok=True)
-    log(f"ダウンロード: {URL}")
-    with urllib.request.urlopen(URL, timeout=900) as res, open(CACHE, "wb") as f:
+    os.makedirs(os.path.dirname(cache), exist_ok=True)
+    log(f"ダウンロード: {url}")
+    with urllib.request.urlopen(url, timeout=900) as res, open(cache, "wb") as f:
         while chunk := res.read(1 << 20):
             f.write(chunk)
-    log(f"保存: {CACHE}（{os.path.getsize(CACHE):,} バイト）")
+    log(f"保存: {cache}（{os.path.getsize(cache):,} バイト）")
+
+
+def neighbour_files():
+    """隣の県の zip。[(zipのパス, そのzipで読むシェープファイルの名前)]"""
+    out = []
+    for pref in NEIGHBOUR_PREFS:
+        url = URL.replace("_13_", f"_{pref}_")
+        cache = CACHE.replace("_13_", f"_{pref}_")
+        download(url, cache)
+        with zipfile.ZipFile(cache) as z:
+            names = [n for n in z.namelist() if n.endswith(".shp")]
+        out.append((cache, names))
+    return out
+
+
+def near_tokyo(box):
+    xmin, ymin, xmax, ymax = box
+    bx0, by0, bx1, by1 = NEIGHBOUR_BOX
+    return xmax >= bx0 and xmin <= bx1 and ymax >= by0 and ymin <= by1
 
 
 def read_dbf(data):
@@ -158,24 +182,27 @@ def load_zones():
         shp_names = [n for n in z.namelist() if n.endswith("_13000.shp")]
         if not shp_names:
             raise SystemExit("A29 の 13000 のシェープファイルが見つかりません")
-        for shp_name in shp_names:
-            polygons = read_shp_polygons(z.read(shp_name))
-            rows = read_dbf(z.read(shp_name[:-4] + ".dbf"))
-            if len(polygons) != len(rows):
-                raise SystemExit(f"{shp_name}: 図形と属性の数が合いません")
-            for poly, row in zip(polygons, rows):
-                if poly is None:
-                    continue
-                try:
-                    zone = int(row["A29_004"])
-                except ValueError:
-                    continue
-                zones.append({
-                    "box": poly["box"],
-                    "rings": poly["rings"],
-                    "zone": zone,
-                    "far": int(row["A29_007"]) if row["A29_007"] else None,
-                })
+    sources = [(CACHE, shp_names, False)] + [(c, n, True) for c, n in neighbour_files()]
+    for cache, shp_names, neighbour in sources:
+        with zipfile.ZipFile(cache) as z:
+            for shp_name in shp_names:
+                polygons = read_shp_polygons(z.read(shp_name))
+                rows = read_dbf(z.read(shp_name[:-4] + ".dbf"))
+                if len(polygons) != len(rows):
+                    raise SystemExit(f"{shp_name}: 図形と属性の数が合いません")
+                for poly, row in zip(polygons, rows):
+                    if poly is None or (neighbour and not near_tokyo(poly["box"])):
+                        continue
+                    try:
+                        zone = int(row["A29_004"])
+                    except ValueError:
+                        continue
+                    zones.append({
+                        "box": poly["box"],
+                        "rings": poly["rings"],
+                        "zone": zone,
+                        "far": int(row["A29_007"]) if row["A29_007"] else None,
+                    })
     log(f"用途地域の区画: {len(zones):,} 件")
     return zones
 

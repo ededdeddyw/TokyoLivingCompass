@@ -138,20 +138,41 @@ def rows_of(path, names):
     for page in pypdf.PdfReader(path).pages:
         cells = []
 
+        last = [None]
+
         def visit(text, cm, tm, font, size):
             t = text.strip()
-            if t:
-                cells.append((round(tm[5], 1), round(tm[4], 1), t))
+            if not t:
+                return
+            # 令和7年度の資料は、混雑率の欄だけ位置（テキスト行列）が (0, 0) で入っている。
+            # そのまま並べると混雑率が行から外れ、両数（「8.1×36」の36）を混雑率として読んでいた
+            # （2026-11-03、東海道本線が17%、東西線が27%になった）。
+            # 位置の無い文字は、書かれた順のとおり、直前の文字のすぐ右に置く。
+            if tm[4] == 0 and tm[5] == 0 and last[0] is not None:
+                y, x = last[0]
+                last[0] = (y, x + 0.01)
+                cells.append((y, x + 0.01, t))
+                return
+            last[0] = (round(tm[5], 1), round(tm[4], 1))
+            cells.append((*last[0], t))
 
         page.extract_text(visitor_text=visit)
-        bands = []
-        for y, x, t in sorted(cells, key=lambda c: (-c[0], c[1])):
-            if bands and abs(bands[-1][0] - y) <= 1.5:
-                bands[-1][1].append((x, t))
-            else:
-                bands.append([y, [(x, t)]])
+        # 行は「7:30～8:30」の時間帯の欄を目印にして組む。駅名の1文字だけが上下にずれて
+        # 置かれる行がある（ゆりかもめの「汐留」は「汐」が下へ、「留」が上へ5ほどずれていた）ので、
+        # 文字ごとに、いちばん近い時間帯の欄の行に入れる（離れすぎていれば捨てる）。
+        anchors = sorted({y for y, x, t in cells if re.match(r"^\d{1,2}:\d{2}[～~]", t)})
+        grouped = {}
+        for y, x, t in cells:
+            if not anchors:
+                break
+            near = min(anchors, key=lambda a: abs(a - y))
+            if abs(near - y) <= 8.0:
+                grouped.setdefault(near, []).append((x, t))
+        bands = [[y, grouped[y]] for y in sorted(grouped, reverse=True)]
         for _, row in bands:
-            row.sort()
+            # 同じ x に2文字あるとき（線名の列の文字と駅名の文字が重なる）、文字の並びは
+            # 書かれた順に残す。文字で並べると「川崎」が「崎川」、「土呂」が「呂土」になる。
+            row.sort(key=lambda c: c[0])
             time_x = next((x for x, t in row if re.match(r"^\d{1,2}:\d{2}[～~]", t)), None)
             if time_x is None:
                 continue

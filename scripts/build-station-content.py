@@ -806,7 +806,7 @@ def road_is_near(road):
     """
     for cls in ("motorway", "trunk", "primary", "secondary"):
         v = (road or {}).get(cls)
-        if not v or not v.get("name"):
+        if not v or not (v.get("name") or cls == "motorway"):
             continue
         if v["m"] <= (400 if cls == "motorway" else NOISE_FAR_M):
             return True
@@ -1361,6 +1361,10 @@ def build(st, ctx):
         """道路名だけでは、どれくらいうるさいのかが読み手に伝わらない。
         高速道路か一般道か、片側何車線か、駅から何m先かを添える（ルール42）。"""
         side = road_side(v)
+        if cls == "motorway" and not v.get("name"):
+            return p["noiseRoadMotorwayUnnamed"].format(where=(
+                p["roadWhereAtStation"] if v["m"] <= 100
+                else p["roadWhereNear"] if v["m"] <= NOISE_FAR_M else p["roadWhereAway"]))
         if cls == "motorway":
             key = "noiseRoadMotorway"
         elif v["m"] > NOISE_FAR_M:
@@ -1379,7 +1383,7 @@ def build(st, ctx):
     # 一般道より近くなくても先に出す。
     ordered = sorted(
         ((cls, v) for cls in ("motorway", "trunk", "primary", "secondary")
-         if (v := road.get(cls)) and v.get("name")),
+         if (v := road.get(cls)) and (v.get("name") or cls == "motorway")),
         key=lambda t: (t[0] != "motorway" or t[1]["m"] > 400, t[1]["m"]))
     near_road = ordered[0] if ordered else None
     # 変数名を lines にすると、上で組み立てた路線名の一覧を上書きしてしまう。
@@ -1392,11 +1396,11 @@ def build(st, ctx):
     # 名前が同じなら、2本目は書かない。
     noise, named = [], set()
     for cls, v in ordered:
-        if clean_road_name(v["name"]) in named:
+        if v.get("name") and clean_road_name(v["name"]) in named:
             continue
         if v["m"] <= NOISE_FAR_M or (cls == "motorway" and v["m"] <= 400) or not noise:
             noise.append(road_line(cls, v))
-            named.add(clean_road_name(v["name"]))
+            named.add(clean_road_name(v["name"]) if v.get("name") else cls)
         if len(noise) == 2:
             break
     if noise:
