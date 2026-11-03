@@ -527,12 +527,19 @@ def congestion_text(slug, lines, line_ids, ctx):
             return None, None
         return p_["congestionAllUnknown"].format(lines=join(p_, lines)), None
     rows.sort(key=lambda r: -r[0])
+    # 書くのは3路線まで。ただし、この駅がいちばん混む区間に入る路線と、その手前にある路線は
+    # 混雑率が4番め以下でも残す。一言（congestion_lead）はこの2つから選ぶので、
+    # 本文から落とすと、一言にだけ出てくる路線ができる（目黒の東急目黒線、有楽町の山手線）。
+    pos_of = {lid: peak_position(slug, lid, v, ctx) for _, lid, _, v in rows}
+    must = [r for r in rows if pos_of[r[1]] in ("on", "before")]
+    rest = [r for r in rows if r not in must]
+    rows = sorted((must + rest)[:max(3, len(must))], key=lambda r: -r[0])
     bits = []
     off_peak_seen = False
     before_seen = False
-    for rate, lid, name, v in rows[:3]:
+    for rate, lid, name, v in rows:
         section = f"{v['fromStation']}→{v['toStation']}"
-        pos = peak_position(slug, lid, v, ctx)
+        pos = pos_of[lid]
         if pos == "on":
             key = "congestionOnPeak"
         elif pos == "before":
