@@ -2,8 +2,8 @@
   "slug": "nippori",
   "locale": "en",
   "name": "Nippori",
-  "tagline": "Tokyo in 13 minutes and Otemachi in 19 minutes. Served by 6 lines. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Arakawa City, where JR East, Keisei and the Tokyo Metropolitan Bureau of Transportation run 6 lines between them. Journey times to the main business districts are 19 minutes to Otemachi, 27 minutes to Shinjuku, 35 minutes to Shibuya and 27 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 6.3 m above sea level, and the ground within 800 m varies in height by 15.6 m. The land around the station has gentle slopes.",
+  "tagline": "Tokyo in 10 minutes and Otemachi in 16 minutes. Served by 6 lines. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
+  "summary": "The station is in Arakawa City, where JR East, Keisei and the Tokyo Metropolitan Bureau of Transportation run 6 lines between them. Journey times to the main business districts are 16 minutes to Otemachi, 27 minutes to Shinjuku, 35 minutes to Shibuya and 22 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 6.3 m above sea level, and the ground within 800 m varies in height by 15.6 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 6.3 m above sea level. Within 800 m the ground ranges from 3.7 m to 19.3 m, a difference of 15.6 m."
@@ -41,7 +41,7 @@
   ],
   "medical": "Within an 800 m walk of the station there are 14 clinics and 19 pharmacies. Day-to-day care is available close to the station. The nearest hospital is はせがわ病院, about 5 minutes' walk from the station. The next nearest is 神経科土田病院, about 12 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "6 lines serve the station. JR Yamanote Line and JR Joban Line run through it. JR Keihin-Tohoku Line and Keisei Main Line also call here. Narita Sky Access Line are available too. Nippori-Toneri Liner stop here as well. The lines are split between operators (JR East runs 3 lines, Keisei runs 2 lines and the Tokyo Metropolitan Bureau of Transportation runs 1 line), so when one line stops you can change to a line run by a different company.",
-  "congestion": "JR Keihin-Tohoku Line runs at 159% of capacity in the morning peak. The busiest stretch is 大井町→品川, which this station is not on. JR Joban Line runs at 142% of capacity in the morning peak. The busiest stretch of the line is 三河島→日暮里, which includes this station. Keisei Main Line runs at 137%. Its busiest stretch is 大神宮下→京成船橋, which this station is likewise not on. Narita Sky Access Line and Nippori-Toneri Liner is not covered by the ministry's congestion survey. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
+  "congestion": "JR Keihin-Tohoku Line runs at 159% of capacity in the morning peak. The busiest stretch is 大井町→品川, which this station is not on. JR Joban Line runs at 142% of capacity in the morning peak. The busiest stretch of the line is 三河島→日暮里, which includes this station. JR Yamanote Line runs at 136% of capacity in the morning peak. The busiest stretch is 新大久保→新宿; trains from here toward 新宿 pass through it. Narita Sky Access Line and Nippori-Toneri Liner is not covered by the ministry's congestion survey. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
     "note": "Around this station, One room ¥90,000 to ¥100,000 and 1K ¥110,000 to ¥120,000. 1LDK ¥170,000 to ¥180,000 and 2LDK ¥220,000 to ¥230,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
@@ -57,12 +57,12 @@
     {
       "slug": "nishi-nippori",
       "lead": "Rent, commute and flood projections differ little. ",
-      "note": "Close enough to walk to from Nippori. Both have the JR Yamanote Line, JR Keihin-Tohoku Line and Nippori-Toneri Liner. Nippori adds the JR Joban Line, Keisei Main Line and Narita Sky Access Line; Nishi-Nippori adds the Tokyo Metro Chiyoda Line. Nishi-Nippori is 6 minutes quicker to Otemachi, but times to the other main business districts are much the same. Rents, flood projections and the rest differ little."
+      "note": "Close enough to walk to from Nippori. Both have the JR Yamanote Line, JR Keihin-Tohoku Line and Nippori-Toneri Liner. Nippori adds the JR Joban Line, Keisei Main Line and Narita Sky Access Line; Nishi-Nippori adds the Tokyo Metro Chiyoda Line. Nippori is 6 minutes quicker to Shinagawa, but times to the other main business districts are much the same. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "sendagi",
       "lead": "Sendagi is ahead on lower rent and how little of the area is in the flood projection. ",
-      "note": "Close enough to walk to from Nippori. Nippori adds the 6 lines; Sendagi adds the Tokyo Metro Chiyoda Line. Sendagi is 8 minutes quicker to Otemachi, but times to the other main business districts are much the same. A one-room flat costs about ¥6,000 less at Sendagi. On what it offers families, Sendagi comes out ahead."
+      "note": "Close enough to walk to from Nippori. Nippori adds the 6 lines; Sendagi adds the Tokyo Metro Chiyoda Line. Which is faster depends on where you are going: Nippori is 9 minutes quicker to Shinagawa, Sendagi is 5 minutes quicker to Otemachi. A one-room flat costs about ¥6,000 less at Sendagi. On what it offers families, Sendagi comes out ahead."
     }
   ],
   "goodFor": [

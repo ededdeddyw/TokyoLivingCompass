@@ -11,13 +11,6 @@
   "hazards": "駅の地点も、駅から400m以内で見た9地点も、大雨のときの洪水浸水想定区域（想定最大規模）の外にあります。総じて、大雨のときの浸水の想定は23区の駅の中でもとても小さいほうです。",
   "groceries": [
     {
-      "name": "千歳船場駅",
-      "tier": "standard",
-      "walkMinutes": 1,
-      "sourceUrl": "https://www.openstreetmap.org/node/1919639293",
-      "verifiedAt": "2026-09-24"
-    },
-    {
       "name": "マルエツ 千歳船橋店",
       "tier": "standard",
       "walkMinutes": 2,
@@ -36,6 +29,13 @@
       "tier": "discount",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/1350848121",
+      "verifiedAt": "2026-09-24"
+    },
+    {
+      "name": "業務スーパー",
+      "tier": "discount",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/10177684158",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -84,7 +84,7 @@
   ],
   "leads": {
     "terrain": "駅の周りにはゆるやかな坂があり、どの区画に住むかで毎日の移動の負担が変わります。",
-    "groceries": "歩いて行けるスーパーが7軒あり、いちばん近い店までは徒歩1分です。",
+    "groceries": "歩いて行けるスーパーが6軒あり、いちばん近い店までは徒歩2分です。",
     "hazards": "駅の地点も、そのまわりも、大雨のときの浸水想定区域の外にあります。",
     "stationNote": "使える路線は小田急線の1本だけです。止まった日は、別の駅まで歩いて別の路線に乗り換えることになります。",
     "rentRange": "通勤にかかる時間に対して、家賃の相場は低いほうです。",

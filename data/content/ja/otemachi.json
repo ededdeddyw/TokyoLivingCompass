@@ -18,13 +18,6 @@
       "verifiedAt": "2026-09-24"
     },
     {
-      "name": "Eataly 丸の内店",
-      "tier": "standard",
-      "walkMinutes": 7,
-      "sourceUrl": "https://www.openstreetmap.org/node/13027480843",
-      "verifiedAt": "2026-09-24"
-    },
-    {
       "name": "まいばすけっと",
       "tier": "standard",
       "walkMinutes": 11,
@@ -36,6 +29,13 @@
       "tier": "premium",
       "walkMinutes": 11,
       "sourceUrl": "https://www.openstreetmap.org/node/11370968865",
+      "verifiedAt": "2026-09-24"
+    },
+    {
+      "name": "サミット",
+      "tier": "standard",
+      "walkMinutes": 13,
+      "sourceUrl": "https://www.openstreetmap.org/node/11342776829",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -88,7 +88,7 @@
   ],
   "leads": {
     "terrain": "駅の周りはほぼ平坦で、坂を気にせず住む場所を選べます。",
-    "groceries": "歩いて行けるスーパーが5軒あり、いちばん近い店までは徒歩2分です。",
+    "groceries": "歩いて行けるスーパーが4軒あり、いちばん近い店までは徒歩2分です。",
     "hazards": "駅の地点が、大雨のときの浸水想定区域に入っています。",
     "stationNote": "5路線が使え、乗り換えの選択肢は23区の駅の中では多いほうです。",
     "rentRange": "通勤にかかる時間に対して、家賃の相場は低いほうです。",

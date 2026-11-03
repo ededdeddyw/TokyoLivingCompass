@@ -108,7 +108,7 @@ def sort_medical(clinics, hospitals):
 
 # 地図データでスーパーとして登録されているが、食料品の店ではないもの
 # （西新宿五丁目で米店とはんこ屋、東新宿で免税店を「日常の買い物」に挙げていた）。
-NOT_GROCERY = re.compile(r"はんこ|印章|印鑑|米店|米穀|免税|Duty|ドラッグ|薬局|セブン|ローソン|ファミリーマート|ミニストップ|7-Eleven|Lawson|FamilyMart|Coffee|珈琲|駅$|百貨店|Eataly")
+NOT_GROCERY = re.compile(r"はんこ|印章|印鑑|米店|米穀|免税|Duty|ドラッグ|薬局|セブン|ローソン|ファミリーマート|ミニストップ|7-Eleven|Lawson|FamilyMart|Coffee|珈琲|^[^ 　]+駅$|百貨店$")
 # 地図データの店名の誤記。見つかったものだけを直す。
 SHOP_NAME_FIX = [("TRAIAL", "TRIAL"), ("ハマナサ", "ハナマサ"), ("店店", "店"),
                  ("Maruetsu petit", "マルエツプチ"), ("Maruetsu", "マルエツ")]
@@ -507,6 +507,26 @@ def peak_position(slug, lid, v, ctx):
     return "before" if (i_f - i_s) * step > 0 else "after"
 
 
+# 同じ路線でも、駅によって乗る列車が違うもの。常磐線は、綾瀬・亀有・金町には各駅停車しか止まらない。
+# 快速の最混雑区間（三河島→日暮里）をこの3駅に書くと、乗らない列車の混み方を伝えることになる。
+# 混雑率は scripts/fetch-congestion.py が緩行を "11320L" として別に持つ。
+LOCAL_LINES = {slug: {"11320": "11320L"} for slug in ("ayase", "kameari", "kanamachi")}
+
+
+def congestion_for(slug, congestion):
+    """この駅から乗る列車の混雑率を、路線IDで引けるようにする。"""
+    swap = LOCAL_LINES.get(slug)
+    if not swap:
+        return congestion
+    out = dict(congestion)
+    for lid, local in swap.items():
+        if local in congestion:
+            out[lid] = congestion[local]
+        else:
+            out.pop(lid, None)
+    return out
+
+
 def congestion_text(slug, lines, line_ids, ctx):
     """朝の混雑率の節を組み立てる。路線ごとに、公表されている最混雑区間と値を書く。
 
@@ -514,7 +534,7 @@ def congestion_text(slug, lines, line_ids, ctx):
     読み手にとっての意味が変わる。門前仲町は東西線の最混雑区間（木場→門前仲町）に
     入っており、毎朝その混み方の電車に乗ることになる。
     """
-    p_, cong = ctx["p"], ctx["congestion"]
+    p_, cong = ctx["p"], congestion_for(slug, ctx["congestion"])
     rows = []
     for lid, name in zip(line_ids, lines):
         v = cong.get(lid)
@@ -578,7 +598,7 @@ def congestion_lead(slug, line_ids, ctx):
     本文は「この駅はその区間に入りません」と書いているので、一言と本文が食い違う。
     そこで、この駅がいちばん混む区間に入るか、区間の手前にあるかを先に見る。
     """
-    p_, cong = ctx["p"], ctx["congestion"]
+    p_, cong = ctx["p"], congestion_for(slug, ctx["congestion"])
     rows = [(cong[i]["rate"], i) for i in line_ids if i in cong and i in ctx["lines"]]
     if not rows:
         return None
@@ -1438,7 +1458,8 @@ def main():
     # 低いほうが高い点になるように向きをそろえる。
     peak = {}
     for r in roster:
-        rates = [congestion[i]["rate"] for i in r["lineIds"] if i in congestion]
+        cong_r = congestion_for(r["slug"], congestion)
+        rates = [cong_r[i]["rate"] for i in r["lineIds"] if i in cong_r]
         if rates:
             peak[r["slug"]] = max(rates)
     order = sorted(peak.values())

@@ -11,13 +11,6 @@
   "hazards": "駅の地点が大雨のときの洪水浸水想定区域（想定最大規模）に入っており、想定される深さは3〜5mです。駅のまわり400m以内で見た9地点も、すべて区域に含まれます。その中で最も深い想定は3〜5mです。高潮の想定区域にも、9地点すべてが入ります。総じて、大雨のときの浸水の想定は23区の駅の中では大きいほうです。",
   "groceries": [
     {
-      "name": "Eataly",
-      "tier": "standard",
-      "walkMinutes": 2,
-      "sourceUrl": "https://www.openstreetmap.org/node/5174668322",
-      "verifiedAt": "2026-09-24"
-    },
-    {
       "name": "肉のハナマサ 亀戸店",
       "tier": "discount",
       "walkMinutes": 5,
@@ -36,6 +29,13 @@
       "tier": "standard",
       "walkMinutes": 6,
       "sourceUrl": "https://www.openstreetmap.org/way/619704641",
+      "verifiedAt": "2026-09-24"
+    },
+    {
+      "name": "LAWSON STORE 100",
+      "tier": "standard",
+      "walkMinutes": 6,
+      "sourceUrl": "https://www.openstreetmap.org/node/5834196344",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -83,7 +83,7 @@
   ],
   "leads": {
     "terrain": "駅の周りはほぼ平坦で、坂を気にせず住む場所を選べます。",
-    "groceries": "歩いて行けるスーパーが11軒あり、いちばん近い店までは徒歩2分です。",
+    "groceries": "歩いて行けるスーパーが10軒あり、いちばん近い店までは徒歩5分です。",
     "hazards": "駅の地点が、大雨のときの浸水想定区域に入っています。",
     "stationNote": "2路線が使え、乗り換えの選択肢は23区の駅の中では多いほうです。",
     "rentRange": "通勤にかかる時間と家賃の相場の関係は、23区の駅の平均くらいです。",

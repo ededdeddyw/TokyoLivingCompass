@@ -3,7 +3,7 @@
   "locale": "en",
   "name": "Ueno",
   "tagline": "Tokyo in 5 minutes and Otemachi in 11 minutes. Served by 8 lines. A one-room flat rents for roughly ¥110,000 to ¥120,000.",
-  "summary": "The station is in Taito City, where JR East and Tokyo Metro run 8 lines between them. Journey times to the main business districts are 11 minutes to Otemachi, 23 minutes to Shinjuku, 30 minutes to Shibuya and 22 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 4.1 m above sea level, and the ground within 800 m varies in height by 15.4 m. The land around the station has gentle slopes.",
+  "summary": "The station is in Taito City, where JR East and Tokyo Metro run 8 lines between them. Journey times to the main business districts are 11 minutes to Otemachi, 23 minutes to Shinjuku, 30 minutes to Shibuya and 18 minutes to Shinagawa. A one-room flat rents for roughly ¥110,000 to ¥120,000. The station stands 4.1 m above sea level, and the ground within 800 m varies in height by 15.4 m. The land around the station has gentle slopes.",
   "terrain": {
     "slope": "some",
     "note": "The station sits lower than the ground around it, at 4.1 m above sea level. Within 800 m the ground ranges from 2 m to 17.4 m, a difference of 15.4 m."
@@ -41,7 +41,7 @@
   ],
   "medical": "Within an 800 m walk of the station there are 52 clinics and 45 pharmacies. Day-to-day care is available close to the station. The nearest hospital is 全仁会上野病院, about 5 minutes' walk from the station. The next nearest is ライフ・エクステンション研究所付属永寿総合病院, about 8 minutes' walk. \"Hospital\" here means a facility OpenStreetMap records as one. OpenStreetMap does not record whether a facility admits inpatients or which departments it runs, so check each one on its own website. For which clinics open at night and at weekends, ask the emergency advice line of the ward you live in.",
   "stationNote": "8 lines serve the station. JR Yamanote Line and JR Utsunomiya Line run through it. JR Joban Line and JR Takasaki Line also call here. JR Keihin-Tohoku Line are available too. JR Ueno-Tokyo Line stop here as well. Tokyo Metro Ginza Line stop here as well. Tokyo Metro Hibiya Line stop here as well. The lines are split between operators (JR East runs 6 lines and Tokyo Metro runs 2 lines), so when one line stops you can change to a line run by a different company.",
-  "congestion": "Tokyo Metro Hibiya Line runs at 163% of capacity in the morning peak. The busiest stretch is 三ノ輪→入谷, which this station is not on. JR Keihin-Tohoku Line runs at 159%. Its busiest stretch is 大井町→品川, which this station is likewise not on. Tokyo Metro Ginza Line runs at 153%. Its busiest stretch is 赤坂見附→溜池山王, which this station is likewise not on. JR Ueno-Tokyo Line is not covered by the ministry's congestion survey. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
+  "congestion": "Tokyo Metro Hibiya Line runs at 163% of capacity in the morning peak. The busiest stretch is 三ノ輪→入谷, which this station is not on. JR Keihin-Tohoku Line runs at 159%. Its busiest stretch is 大井町→品川, which this station is likewise not on. JR Yamanote Line runs at 136% of capacity in the morning peak. The busiest stretch is 新大久保→新宿; trains from here toward 新宿 pass through it. JR Ueno-Tokyo Line is not covered by the ministry's congestion survey. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
     "note": "Around this station, One room ¥110,000 to ¥120,000 and 1K ¥130,000 to ¥140,000. 1LDK ¥200,000 to ¥210,000 and 2LDK ¥260,000 to ¥270,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road.",
     "drivers": [
@@ -57,12 +57,12 @@
     {
       "slug": "keisei-ueno",
       "lead": "For how little of the area is in the flood projection, Keisei-Ueno; for how close the centre is, Ueno. ",
-      "note": "Close enough to walk to from Ueno. Ueno adds the 8 lines; Keisei-Ueno adds the Keisei Main Line and Narita Sky Access Line. Ueno is at least 17 minutes quicker to Otemachi and Tokyo. On how little of the area is in the flood projection, though, Keisei-Ueno comes out ahead."
+      "note": "Close enough to walk to from Ueno. Ueno adds the 8 lines; Keisei-Ueno adds the Keisei Main Line and Narita Sky Access Line. Ueno is at least 14 minutes quicker to Tokyo and Shibuya. On how little of the area is in the flood projection, though, Keisei-Ueno comes out ahead."
     },
     {
       "slug": "inaricho",
       "lead": "For safety, Inaricho; for how close the centre is, Ueno. ",
-      "note": "Close enough to walk to from Ueno. Both have the Tokyo Metro Ginza Line. Ueno also has the 7 lines, which Inaricho does not. Ueno is at least 5 minutes quicker to Tokyo and Otemachi. A one-room flat also costs about ¥7,000 more at Inaricho. On safety, though, Inaricho comes out ahead."
+      "note": "Close enough to walk to from Ueno. Both have the Tokyo Metro Ginza Line. Ueno also has the 7 lines, which Inaricho does not. Ueno is at least 7 minutes quicker to Tokyo and Shinagawa. A one-room flat also costs about ¥7,000 more at Inaricho. On safety, though, Inaricho comes out ahead."
     }
   ],
   "goodFor": [
