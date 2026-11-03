@@ -95,6 +95,22 @@ REMOVE_EDGES = {
     "28002": [("荻窪", "中野新橋")],
 }
 
+# 快速と各駅停車で止まる駅が違い、各駅停車だけが別の路線へ直通するもの。
+# 常磐線は、綾瀬・亀有・金町には各駅停車しか止まらず、各駅停車は綾瀬から千代田線に直通する。
+# 1本の路線として扱うと、亀有から日暮里まで乗り換えなしで行けることになり、
+# 千代田線の大手町へは「乗り換え1回」と出ていた（実際は乗り換えなし）。
+# 快速は stops_skipped を通らずに両端（北千住と松戸）を結び、各駅停車は local の路線として持つ。
+LOCAL_SPLITS = {
+    "11320": {"local": "11320L", "stops": ["綾瀬", "亀有", "金町", "松戸"],
+              "rapid_skips": ("北千住", "松戸")},
+}
+
+# 上野東京ライン。常磐線・宇都宮線・高崎線の列車は、上野から東京・新橋・品川へそのまま走る。
+# 駅すぱあと形式のデータでは3路線とも上野で終わるため、北千住から東京が「乗り換え1回」になっていた。
+# 3路線の列の端に、上野から品川までの駅を足す。
+UENO_TOKYO = ["上野", "東京", "新橋", "品川"]
+UENO_TOKYO_LINES = ["11320", "11319", "11323"]
+
 # 直通運転。境目の駅で路線が変わっても、同じ列車に乗ったまま行ける組み合わせ。
 # 以前はこれを乗り換え1回として数えていたため、武蔵小山から大手町（目黒線→三田線）が
 # 「乗り換え1回」と出て、本文の「乗り換えなし」と食い違っていた。
@@ -117,6 +133,7 @@ THROUGH_SERVICES = [
     ("28010", "22003", "小竹向原"),    # 副都心線 ↔ 西武有楽町線
     ("11321", "99337", "大崎"),        # JR埼京線 ↔ りんかい線
     ("11314", "11308", "東京"),        # JR総武快速線 ↔ 横須賀線
+    ("11320L", "28005", "綾瀬", "北千住"),  # JR常磐線（各駅停車） ↔ 千代田線
 ]
 THROUGH_MIN = 1.0
 # 駅グループは別だが、歩いて行き来できる駅。西武新宿から新宿へは歩いて行けるのに、
@@ -197,6 +214,29 @@ def build_graph():
             station_lines[g].add(line_cd)
 
         removed = {frozenset(x) for x in REMOVE_EDGES.get(line_cd, [])}
+        split = LOCAL_SPLITS.get(line_cd)
+        if split:
+            stops = split["stops"]
+            by_name_l = {s["station_name"]: s for s in seq}
+            skipped = stops[:-1]
+            # 快速の止まらない駅を通る辺は、快速の路線から外す
+            names_seq = [s["station_name"] for s in seq]
+            for x, y in zip(names_seq, names_seq[1:]):
+                if x in skipped or y in skipped:
+                    removed.add(frozenset((x, y)))
+            for name in skipped:
+                station_lines[str(by_name_l[name]["station_g_cd"])].discard(line_cd)
+            # 各駅停車を、別の路線として足す
+            local = split["local"]
+            lseq = [by_name_l[n] for n in stops]
+            line_seq[local] = [str(s["station_g_cd"]) for s in lseq]
+            for s_ in lseq:
+                station_lines[str(s_["station_g_cd"])].add(local)
+            for a, b in zip(lseq, lseq[1:]):
+                ga, gb = str(a["station_g_cd"]), str(b["station_g_cd"])
+                minutes = km(coords[ga], coords[gb]) / speed * 60 + DWELL_MIN
+                edges[(ga, local)].append(((gb, local), minutes, False))
+                edges[(gb, local)].append(((ga, local), minutes, False))
         for a, b in zip(seq, seq[1:]):
             ga, gb = str(a["station_g_cd"]), str(b["station_g_cd"])
             if ga == gb or frozenset((a["station_name"], b["station_name"])) in removed:
@@ -206,11 +246,27 @@ def build_graph():
             edges[(gb, line_cd)].append(((ga, line_cd), minutes, False))
 
         by_name = {s["station_name"]: str(s["station_g_cd"]) for s in seq}
-        for na, nb in EXTRA_EDGES.get(line_cd, []):
+        extra = list(EXTRA_EDGES.get(line_cd, []))
+        if split:
+            extra.append(split["rapid_skips"])
+        for na, nb in extra:
             ga, gb = by_name[na], by_name[nb]
             minutes = km(coords[ga], coords[gb]) / speed * 60 + DWELL_MIN
             edges[(ga, line_cd)].append(((gb, line_cd), minutes, False))
             edges[(gb, line_cd)].append(((ga, line_cd), minutes, False))
+
+    by_name_all = {n: g for g, n in names.items()}
+    ut = [by_name_all[n] for n in UENO_TOKYO]
+    for line_cd in UENO_TOKYO_LINES:
+        speed = LINE_SPEED.get(line_cd, DEFAULT_SPEED)
+        for ga, gb in zip(ut, ut[1:]):
+            station_lines[ga].add(line_cd)
+            station_lines[gb].add(line_cd)
+            minutes = km(coords[ga], coords[gb]) / speed * 60 + DWELL_MIN
+            edges[(ga, line_cd)].append(((gb, line_cd), minutes, False))
+            edges[(gb, line_cd)].append(((ga, line_cd), minutes, False))
+        if line_seq[line_cd][0] == ut[0]:
+            line_seq[line_cd] = list(reversed(ut[1:])) + line_seq[line_cd]
 
     # 直通運転は、乗り換えとして数えない。
     # ただし直通する向きは決まっている。東西線は中野で中央・総武線の三鷹方面にだけ乗り入れ、
@@ -286,7 +342,6 @@ def build_graph():
             edges[(gb, vline)].append(((ga, vline), minutes, False))
 
     # 歩いて行き来できる駅
-    by_name_all = {n: g for g, n in names.items()}
     for na, nb in WALK_LINKS:
         ga, gb = by_name_all[na], by_name_all[nb]
         straight_km = min(km(pa, pb) / 1.15 for pa in all_points[ga] for pb in all_points[gb])

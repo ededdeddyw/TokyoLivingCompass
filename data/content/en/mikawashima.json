@@ -2,8 +2,8 @@
   "slug": "mikawashima",
   "locale": "en",
   "name": "Mikawashima",
-  "tagline": "Tokyo in 16 minutes and Otemachi in 22 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
-  "summary": "The station is in Arakawa City, served by JR Joban Line. Journey times to the main business districts are 22 minutes to Otemachi, 33 minutes to Shinjuku, 40 minutes to Shibuya and 33 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 3.3 m above sea level, and the ground within 800 m varies in height by 2.7 m. The land around the station is close to level.",
+  "tagline": "Tokyo in 12 minutes and Otemachi in 18 minutes. Served by 1 line. A one-room flat rents for roughly ¥90,000 to ¥100,000.",
+  "summary": "The station is in Arakawa City, served by JR Joban Line. Journey times to the main business districts are 18 minutes to Otemachi, 32 minutes to Shinjuku, 36 minutes to Shibuya and 24 minutes to Shinagawa. A one-room flat rents for roughly ¥90,000 to ¥100,000. The station stands 3.3 m above sea level, and the ground within 800 m varies in height by 2.7 m. The land around the station is close to level.",
   "terrain": {
     "slope": "flat",
     "note": "The station sits on the higher side of the ground around it, at 3.3 m above sea level. Within 800 m the ground ranges from 1.5 m to 4.2 m, a difference of 2.7 m."
@@ -56,16 +56,17 @@
   "neighbours": [
     {
       "slug": "shim-mikawashima",
-      "lead": "Rent, commute and flood projections differ little. ",
-      "note": "Close enough to walk to from Mikawashima. Mikawashima adds the JR Joban Line; Shim-Mikawashima adds the Keisei Main Line. Journey times to the main business districts are much the same. Rents, flood projections and the rest differ little."
+      "lead": "Mikawashima is ahead on how close the centre is, and little else separates the two. ",
+      "note": "Close enough to walk to from Mikawashima. Mikawashima adds the JR Joban Line; Shim-Mikawashima adds the Keisei Main Line. Mikawashima is at least 6 minutes quicker to Toranomon and Tokyo. Rents, flood projections and the rest differ little."
     },
     {
       "slug": "nippori",
-      "lead": "Nippori is ahead on how close the centre is and how little of the area is in the flood projection. ",
-      "note": "Close enough to walk to from Mikawashima. Both have the JR Joban Line. Nippori also has the 5 lines, which Mikawashima does not. Nippori is at least 6 minutes quicker to Roppongi and Shinjuku. Rents, flood projections and the rest differ little."
+      "lead": "Nippori is ahead on how little of the area is in the flood projection and the number of places to eat out. ",
+      "note": "Close enough to walk to from Mikawashima. Both have the JR Joban Line. Nippori also has the 5 lines, which Mikawashima does not. Nippori is 5 minutes quicker to Shinjuku, but times to the other main business districts are much the same. On how little of the area is in the flood projection, Nippori comes out ahead."
     }
   ],
   "goodFor": [
+    "People commuting to Otemachi and Marunouchi",
     "People who get around by bicycle or with a pushchair",
     "People who want to finish their shopping on foot",
     "People living alone who want to hold the rent down"

@@ -11,13 +11,6 @@
   "hazards": "On the flood hazard map for the largest rainfall the government models, neither the station nor any of the nine points within 400 m of it falls inside the projected inundation area. On the whole, the flood projection here is among the smallest in the 23 wards.",
   "groceries": [
     {
-      "name": "千歳船場駅",
-      "tier": "standard",
-      "walkMinutes": 1,
-      "sourceUrl": "https://www.openstreetmap.org/node/1919639293",
-      "verifiedAt": "2026-09-24"
-    },
-    {
       "name": "マルエツ 千歳船橋店",
       "tier": "standard",
       "walkMinutes": 2,
@@ -36,6 +29,13 @@
       "tier": "discount",
       "walkMinutes": 3,
       "sourceUrl": "https://www.openstreetmap.org/node/1350848121",
+      "verifiedAt": "2026-09-24"
+    },
+    {
+      "name": "業務スーパー",
+      "tier": "discount",
+      "walkMinutes": 11,
+      "sourceUrl": "https://www.openstreetmap.org/node/10177684158",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -84,7 +84,7 @@
   ],
   "leads": {
     "terrain": "There are gentle slopes around the station, and which block you live on changes how much effort getting about takes.",
-    "groceries": "There are 7 supermarkets within walking distance, and the nearest is 1 minutes on foot.",
+    "groceries": "There are 6 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
     "hazards": "Neither the station nor the ground around it falls inside the projected flood area.",
     "stationNote": "Only the Odakyu Odawara Line serves this station, so when it stops you walk to another station.",
     "rentRange": "Set against how long the commute takes, rents here are on the low side.",

@@ -11,13 +11,6 @@
   "hazards": "駅の地点も、駅から400m以内で見た9地点も、大雨のときの洪水浸水想定区域（想定最大規模）の外にあります。総じて、大雨のときの浸水の想定は23区の駅の中でもとても小さいほうです。",
   "groceries": [
     {
-      "name": "池袋東武百貨店",
-      "tier": "standard",
-      "walkMinutes": 1,
-      "sourceUrl": "https://www.openstreetmap.org/node/1955937785",
-      "verifiedAt": "2026-09-24"
-    },
-    {
       "name": "友誼商店",
       "tier": "standard",
       "walkMinutes": 3,
@@ -25,17 +18,24 @@
       "verifiedAt": "2026-09-24"
     },
     {
-      "name": "池袋西武百貨店",
-      "tier": "standard",
-      "walkMinutes": 3,
-      "sourceUrl": "https://www.openstreetmap.org/node/1955937706",
-      "verifiedAt": "2026-09-24"
-    },
-    {
       "name": "成城石井",
       "tier": "premium",
       "walkMinutes": 5,
       "sourceUrl": "https://www.openstreetmap.org/node/13762344521",
+      "verifiedAt": "2026-09-24"
+    },
+    {
+      "name": "まいばすけっと 南池袋3丁目店",
+      "tier": "standard",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/12003465376",
+      "verifiedAt": "2026-09-24"
+    },
+    {
+      "name": "赤札堂",
+      "tier": "discount",
+      "walkMinutes": 8,
+      "sourceUrl": "https://www.openstreetmap.org/node/1316188071",
       "verifiedAt": "2026-09-24"
     }
   ],
@@ -89,7 +89,7 @@
   ],
   "leads": {
     "terrain": "駅の周りはほぼ平坦で、坂を気にせず住む場所を選べます。",
-    "groceries": "歩いて行けるスーパーが13軒あり、いちばん近い店までは徒歩1分です。",
+    "groceries": "歩いて行けるスーパーが11軒あり、いちばん近い店までは徒歩3分です。",
     "hazards": "駅の地点も、そのまわりも、大雨のときの浸水想定区域の外にあります。",
     "stationNote": "9路線が使え、乗り換えの選択肢は23区の駅の中では多いほうです。",
     "rentRange": "通勤にかかる時間に対して、家賃の相場は23区の駅の中でもかなり低いほうです。",
