@@ -282,6 +282,11 @@ export type Station = RosterStation & {
   lastReviewedAt?: string;
   /** まわりに住宅がほとんどない駅（空港・倉庫街など）。住む駅として勧める一覧から外す */
   nonResidential?: boolean;
+  /**
+   * 表示名と違う名前の駅から乗る路線（路線ID → 駅）。築地の有楽町線は新富町駅から乗る。
+   * scripts/build-line-stations.py が出す
+   */
+  lineStations?: LineStations;
 };
 export type Line = z.infer<typeof lineSchema>;
 export type RosterStation = z.infer<typeof rosterStationSchema>;
@@ -794,6 +799,16 @@ export const localPhotosFileSchema = z.object({
  * data/computed/station-gallery.json に置く。無い駅は station-photos.json の1枚を使う。
  */
 /** data/computed/non-residential.json */
+/** 駅グループの中で、名前の違う駅から乗る路線（scripts/build-line-stations.py） */
+export const lineStationSchema = z.object({
+  nameJa: z.string().min(1),
+  nameRomaji: z.string().min(1).optional(),
+  walkMinutes: z.number().int().min(1),
+});
+export const lineStationsSchema = z.record(z.string(), lineStationSchema);
+export type LineStations = z.infer<typeof lineStationsSchema>;
+export const lineStationsFileSchema = z.record(z.string(), lineStationsSchema);
+
 export const nonResidentialFileSchema = z.record(
   z.string(),
   z.object({

@@ -264,6 +264,20 @@ export default async function StationPage({
   const lineNames = resolveLines(station.lineIds).map((l) =>
     locale === "ja" ? l.nameJa : l.nameEn,
   );
+  // 駅の上に出す路線名。名前の違う駅から乗る路線には、その駅名と歩く分数を添える
+  // （築地の有楽町線は新富町駅から乗る。scripts/build-line-stations.py）
+  const lineLabels = resolveLines(station.lineIds).map((l) => {
+    const name = locale === "ja" ? l.nameJa : l.nameEn;
+    const at = station.lineStations?.[l.id];
+    if (!at) return name;
+    const stationName = locale === "ja" || locale === "zh-Hans" || locale === "ko"
+      ? at.nameJa
+      : (at.nameRomaji ?? at.nameJa);
+    return dict.stationUi.lineAt
+      .replace("{line}", name)
+      .replace("{station}", stationName)
+      .replace("{minutes}", String(at.walkMinutes));
+  });
 
   // 冒頭の要点。家賃は1Kの帯（無ければワンルーム）、通勤はいちばん近いオフィス街
   const ui = dict.stationUi;
@@ -326,7 +340,7 @@ export default async function StationPage({
               <MapPin aria-hidden="true" className="size-3.5" />
               {station.wardNameJa}
             </span>
-            {lineNames.map((l) => (
+            {lineLabels.map((l) => (
               <span key={l} className="inline-flex items-center gap-1 rounded-full bg-white/15 px-2.5 py-1">
                 <TrainFront aria-hidden="true" className="size-3.5" />
                 {l}

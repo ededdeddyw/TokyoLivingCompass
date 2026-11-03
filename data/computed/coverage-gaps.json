@@ -19,6 +19,10 @@
     "clinic": {
       "count": 3,
       "peerMedian": 13.0
+    },
+    "restaurant": {
+      "count": 5,
+      "expected": 18
     }
   },
   "gokokuji": {
@@ -123,6 +127,10 @@
     "clinic": {
       "count": 1,
       "peerMedian": 5
+    },
+    "restaurant": {
+      "count": 10,
+      "expected": 22
     }
   },
   "meiji-jingumae": {
@@ -317,6 +325,384 @@
     "restaurant": {
       "count": 10,
       "peerMedian": 76
+    }
+  },
+  "aoi": {
+    "restaurant": {
+      "count": 8,
+      "expected": 21
+    }
+  },
+  "chidoricho": {
+    "restaurant": {
+      "count": 6,
+      "expected": 22
+    }
+  },
+  "daiba": {
+    "restaurant": {
+      "count": 15,
+      "expected": 72
+    }
+  },
+  "edogawa": {
+    "restaurant": {
+      "count": 7,
+      "expected": 18
+    }
+  },
+  "gakugei-daigaku": {
+    "restaurant": {
+      "count": 14,
+      "expected": 33
+    }
+  },
+  "hatchobori": {
+    "restaurant": {
+      "count": 153,
+      "expected": 381
+    }
+  },
+  "heiwadai": {
+    "restaurant": {
+      "count": 10,
+      "expected": 24
+    }
+  },
+  "higashi-mukojima": {
+    "restaurant": {
+      "count": 18,
+      "expected": 48
+    }
+  },
+  "higashi-nagasaki": {
+    "restaurant": {
+      "count": 10,
+      "expected": 46
+    }
+  },
+  "hikifune": {
+    "restaurant": {
+      "count": 15,
+      "expected": 95
+    }
+  },
+  "hirai": {
+    "restaurant": {
+      "count": 20,
+      "expected": 58
+    }
+  },
+  "iogi": {
+    "restaurant": {
+      "count": 5,
+      "expected": 20
+    }
+  },
+  "iriya": {
+    "restaurant": {
+      "count": 98,
+      "expected": 266
+    }
+  },
+  "itabashi": {
+    "restaurant": {
+      "count": 11,
+      "expected": 74
+    }
+  },
+  "itabashihoncho": {
+    "restaurant": {
+      "count": 14,
+      "expected": 48
+    }
+  },
+  "kameido": {
+    "restaurant": {
+      "count": 26,
+      "expected": 122
+    }
+  },
+  "kameidosuijin": {
+    "restaurant": {
+      "count": 9,
+      "expected": 31
+    }
+  },
+  "kami-itabashi": {
+    "restaurant": {
+      "count": 16,
+      "expected": 43
+    }
+  },
+  "kaminoge": {
+    "restaurant": {
+      "count": 10,
+      "expected": 22
+    }
+  },
+  "kanegafuchi": {
+    "restaurant": {
+      "count": 11,
+      "expected": 30
+    }
+  },
+  "kasai-rinkai-koen": {
+    "restaurant": {
+      "count": 2,
+      "expected": 15
+    }
+  },
+  "kayabacho": {
+    "restaurant": {
+      "count": 177,
+      "expected": 386
+    }
+  },
+  "keisei-hikifune": {
+    "restaurant": {
+      "count": 14,
+      "expected": 71
+    }
+  },
+  "kiba": {
+    "restaurant": {
+      "count": 16,
+      "expected": 38
+    }
+  },
+  "kohoku": {
+    "restaurant": {
+      "count": 9,
+      "expected": 24
+    }
+  },
+  "koiwa": {
+    "restaurant": {
+      "count": 34,
+      "expected": 70
+    }
+  },
+  "koya": {
+    "restaurant": {
+      "count": 7,
+      "expected": 20
+    }
+  },
+  "kugahara": {
+    "restaurant": {
+      "count": 6,
+      "expected": 18
+    }
+  },
+  "minumadai-shinsuikoen": {
+    "restaurant": {
+      "count": 7,
+      "expected": 18
+    }
+  },
+  "mizue": {
+    "restaurant": {
+      "count": 12,
+      "expected": 28
+    }
+  },
+  "motohasunuma": {
+    "restaurant": {
+      "count": 4,
+      "expected": 27
+    }
+  },
+  "naka-itabashi": {
+    "restaurant": {
+      "count": 18,
+      "expected": 45
+    }
+  },
+  "narimasu": {
+    "restaurant": {
+      "count": 20,
+      "expected": 42
+    }
+  },
+  "ningyocho": {
+    "restaurant": {
+      "count": 161,
+      "expected": 387
+    }
+  },
+  "nishi-sugamo": {
+    "restaurant": {
+      "count": 11,
+      "expected": 51
+    }
+  },
+  "nishi-takashimadaira": {
+    "restaurant": {
+      "count": 2,
+      "expected": 14
+    }
+  },
+  "nishigahara-yonchome": {
+    "restaurant": {
+      "count": 13,
+      "expected": 32
+    }
+  },
+  "nishimagome": {
+    "restaurant": {
+      "count": 8,
+      "expected": 19
+    }
+  },
+  "odaiba-kaihinkoen": {
+    "restaurant": {
+      "count": 17,
+      "expected": 37
+    }
+  },
+  "oimachi": {
+    "restaurant": {
+      "count": 33,
+      "expected": 77
+    }
+  },
+  "ojima": {
+    "restaurant": {
+      "count": 5,
+      "expected": 27
+    }
+  },
+  "omori": {
+    "restaurant": {
+      "count": 57,
+      "expected": 129
+    }
+  },
+  "oshiage": {
+    "restaurant": {
+      "count": 46,
+      "expected": 133
+    }
+  },
+  "oyama": {
+    "restaurant": {
+      "count": 16,
+      "expected": 46
+    }
+  },
+  "oyamadai": {
+    "restaurant": {
+      "count": 5,
+      "expected": 22
+    }
+  },
+  "rokucho": {
+    "restaurant": {
+      "count": 6,
+      "expected": 23
+    }
+  },
+  "ryogoku": {
+    "restaurant": {
+      "count": 81,
+      "expected": 162
+    }
+  },
+  "seijogakuen-mae": {
+    "restaurant": {
+      "count": 5,
+      "expected": 21
+    }
+  },
+  "senjuohashi": {
+    "restaurant": {
+      "count": 13,
+      "expected": 64
+    }
+  },
+  "senkawa": {
+    "restaurant": {
+      "count": 8,
+      "expected": 26
+    }
+  },
+  "shiinamachi": {
+    "restaurant": {
+      "count": 21,
+      "expected": 43
+    }
+  },
+  "shimomaruko": {
+    "restaurant": {
+      "count": 9,
+      "expected": 26
+    }
+  },
+  "shimura-sakaue": {
+    "restaurant": {
+      "count": 6,
+      "expected": 29
+    }
+  },
+  "shin-itabashi": {
+    "restaurant": {
+      "count": 18,
+      "expected": 50
+    }
+  },
+  "shin-koiwa": {
+    "restaurant": {
+      "count": 21,
+      "expected": 68
+    }
+  },
+  "shin-koshinzuka": {
+    "restaurant": {
+      "count": 19,
+      "expected": 40
+    }
+  },
+  "shin-takashimadaira": {
+    "restaurant": {
+      "count": 6,
+      "expected": 17
+    }
+  },
+  "takashimadaira": {
+    "restaurant": {
+      "count": 9,
+      "expected": 29
+    }
+  },
+  "takenotsuka": {
+    "restaurant": {
+      "count": 29,
+      "expected": 77
+    }
+  },
+  "tokiwadai": {
+    "restaurant": {
+      "count": 16,
+      "expected": 35
+    }
+  },
+  "tokyo-teleport": {
+    "restaurant": {
+      "count": 17,
+      "expected": 58
+    }
+  },
+  "unoki": {
+    "restaurant": {
+      "count": 5,
+      "expected": 20
+    }
+  },
+  "yazaike": {
+    "restaurant": {
+      "count": 6,
+      "expected": 17
     }
   }
 }

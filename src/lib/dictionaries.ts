@@ -77,6 +77,8 @@ export type Dictionary = {
     keyNearestValue: string;
     keyLines: string;
     keyLinesValue: string;
+    /** 名前の違う駅から乗る路線。築地の有楽町線は「有楽町線（新富町駅・徒歩5分）」 */
+    lineAt: string;
     strengths: string;
     weaknesses: string;
     strengthsNone: string;
@@ -329,6 +331,7 @@ const ja: Dictionary = {
     keyNearestValue: "{hub}へ{minutes}分",
     keyLines: "使える路線",
     keyLinesValue: "{count}路線",
+    lineAt: "{line}（{station}駅・徒歩{minutes}分）",
     strengths: "この駅の強み",
     weaknesses: "この駅の弱み",
     strengthsNone: "とくに目立つ強みは少ない駅です。",
@@ -732,6 +735,7 @@ const en: Dictionary = {
     keyNearestValue: "{minutes} min to {hub}",
     keyLines: "Lines",
     keyLinesValue: "{count} lines",
+    lineAt: "{line} (at {station}, {minutes} min walk)",
     strengths: "Strengths",
     weaknesses: "Weaknesses",
     strengthsNone: "No standout strengths.",
@@ -1138,6 +1142,7 @@ const zhHans: Dictionary = {
     keyNearestValue: "到{hub}{minutes}分钟",
     keyLines: "可用线路",
     keyLinesValue: "{count}条线路",
+    lineAt: "{line}（{station}站・步行{minutes}分钟）",
     strengths: "本站的优势",
     weaknesses: "本站的不足",
     strengthsNone: "没有特别突出的优势。",
@@ -1536,6 +1541,7 @@ const ko: Dictionary = {
     keyNearestValue: "{hub}까지 {minutes}분",
     keyLines: "이용 노선",
     keyLinesValue: "{count}개 노선",
+    lineAt: "{line}({station}역·도보 {minutes}분)",
     strengths: "이 역의 강점",
     weaknesses: "이 역의 약점",
     strengthsNone: "특별히 두드러진 강점은 적은 역입니다.",

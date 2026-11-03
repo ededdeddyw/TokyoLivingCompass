@@ -52,7 +52,7 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. quiet surroundings pushes the figure up. On the other side, a large projected flood depth and only one line, the {line}, serving the station holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥70,000 to ¥80,000. Set against how long it takes to reach the central business districts, that is about average for the 23 wards. What holds the figure down: a large projected flood depth and only one line, the {line}, serving the station. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "shinozaki",
@@ -62,7 +62,7 @@
     {
       "slug": "ichinoe",
       "lead": "For what it offers families, Ichinoe; for lower rent, Mizue. ",
-      "note": "About 1.5 km from Mizue in a straight line. It is served by the same lines as Mizue. Journey times to the main business districts are much the same. A one-room flat costs about ¥5,000 more at Ichinoe. On quiet, Mizue comes out ahead."
+      "note": "About 1.5 km from Mizue in a straight line. It is served by the same lines as Mizue. Journey times to the main business districts are much the same. A one-room flat costs about ¥5,000 more at Ichinoe. On how easy the shopping is, Mizue comes out ahead. Within about 13 minutes' walk, Mizue has 10 supermarkets (ライブ and まいばすけっと and others) and Ichinoe has 5."
     }
   ],
   "goodFor": [
@@ -71,17 +71,16 @@
   ],
   "notFor": [
     "People avoiding projected flood inundation areas",
-    "People who want another route when service is suspended",
-    "People who want plenty of places to eat out"
+    "People who want another route when service is suspended"
   ],
   "noiseSources": [
     "The nearest big road, 柴又街道, is far enough that little traffic noise reaches the station area"
   ],
   "tags": [
-    "quiet",
     "floodArea",
     "singleLine",
-    "flat"
+    "flat",
+    "medicalRich"
   ],
   "leads": {
     "terrain": "The ground around the station is almost level, so you can choose where to live without thinking about slopes.",

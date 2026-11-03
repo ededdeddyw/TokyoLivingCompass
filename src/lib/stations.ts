@@ -28,6 +28,7 @@ import {
   stationPhotosFileSchema,
   stationGalleryFileSchema,
   nonResidentialFileSchema,
+  lineStationsFileSchema,
   localPhotosFileSchema,
   flickrPhotosFileSchema,
   stationWardsFileSchema,
@@ -59,6 +60,7 @@ const FLICKR_PHOTOS_FILE = join(DATA_DIR, "reference", "flickr-photos.json");
 const GALLERY_FILE = join(DATA_DIR, "computed", "station-gallery.json");
 const LIFESTYLE_FILE = join(DATA_DIR, "computed", "lifestyle.json");
 const NON_RESIDENTIAL_FILE = join(DATA_DIR, "computed", "non-residential.json");
+const LINE_STATIONS_FILE = join(DATA_DIR, "computed", "line-stations.json");
 const STATION_WARDS_FILE = join(DATA_DIR, "computed", "station-wards.json");
 const WARD_LINKS_FILE = join(DATA_DIR, "reference", "ward-links.json");
 /**
@@ -208,6 +210,8 @@ export function getAllStations(): Station[] {
   const rentBands = getRentBands();
   const nonResidential =
     readOptional(NON_RESIDENTIAL_FILE, nonResidentialFileSchema, "住宅がほとんどない駅") ?? {};
+  const lineStations =
+    readOptional(LINE_STATIONS_FILE, lineStationsFileSchema, "名前の違う駅から乗る路線") ?? {};
 
   stationCache = getRoster().map((base) => {
     const profile = profiles.get(base.slug);
@@ -230,6 +234,7 @@ export function getAllStations(): Station[] {
       dataQuality: profile?.dataQuality ?? "roster",
       lastReviewedAt: profile?.lastReviewedAt,
       nonResidential: base.slug in nonResidential || undefined,
+      lineStations: lineStations[base.slug],
     };
   });
 
