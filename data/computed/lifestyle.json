@@ -21,7 +21,7 @@
  },
  "stations": {
   "adachi-odai": {
-   "commute": 43,
+   "commute": 45,
    "greenHa": 25.9,
    "greenParks": [
     "荒川江北橋緑地",
@@ -81,13 +81,13 @@
      "base": 57,
      "life": 48,
      "play": 69,
-     "score": 92
+     "score": 93
     },
     "family-indoor": {
      "base": 64,
      "life": 60,
      "play": 66,
-     "score": 84
+     "score": 85
     },
     "family-outdoor": {
      "base": 77,
@@ -108,16 +108,16 @@
      "score": 93
     },
     "single-indoor": {
-     "base": 14,
+     "base": 15,
      "life": 35,
      "play": 66,
-     "score": 71
+     "score": 72
     },
     "single-outdoor": {
-     "base": 30,
+     "base": 31,
      "life": 35,
      "play": 69,
-     "score": 81
+     "score": 84
     }
    },
    "transitConvenience": 32
@@ -214,7 +214,7 @@
      "base": 72,
      "life": 60,
      "play": 65,
-     "score": 99
+     "score": 98
     },
     "single-outdoor": {
      "base": 77,
@@ -318,7 +318,7 @@
      "base": 34,
      "life": 52,
      "play": 55,
-     "score": 59
+     "score": 58
     },
     "single-outdoor": {
      "base": 68,
@@ -401,7 +401,7 @@
      "base": 85,
      "life": 60,
      "play": 74,
-     "score": 28
+     "score": 27
     },
     "senior-indoor": {
      "base": 58,
@@ -431,7 +431,7 @@
    "transitConvenience": 32
   },
   "akado-shogakkomae": {
-   "commute": 49,
+   "commute": 50,
    "greenHa": 0.0,
    "greenParks": [],
    "indoorDest": [
@@ -481,19 +481,19 @@
      "base": 57,
      "life": 54,
      "play": 68,
-     "score": 60
+     "score": 61
     },
     "dinks-outdoor": {
      "base": 24,
      "life": 54,
      "play": 38,
-     "score": 34
+     "score": 35
     },
     "family-indoor": {
      "base": 61,
      "life": 58,
      "play": 68,
-     "score": 57
+     "score": 58
     },
     "family-outdoor": {
      "base": 35,
@@ -523,7 +523,7 @@
      "base": 38,
      "life": 59,
      "play": 38,
-     "score": 46
+     "score": 47
     }
    },
    "transitConvenience": 32
@@ -697,7 +697,7 @@
      "base": 63,
      "life": 46,
      "play": 87,
-     "score": 27
+     "score": 26
     },
     "senior-indoor": {
      "base": 53,
@@ -712,16 +712,16 @@
      "score": 37
     },
     "single-indoor": {
-     "base": 65,
+     "base": 64,
      "life": 59,
      "play": 62,
-     "score": 19
+     "score": 20
     },
     "single-outdoor": {
      "base": 93,
      "life": 59,
      "play": 87,
-     "score": 52
+     "score": 51
     }
    },
    "transitConvenience": 32
@@ -775,7 +775,7 @@
      "base": 100,
      "life": 81,
      "play": 71,
-     "score": 86
+     "score": 85
     },
     "dinks-outdoor": {
      "base": 88,
@@ -879,7 +879,7 @@
      "base": 33,
      "life": 53,
      "play": 56,
-     "score": 48
+     "score": 47
     },
     "dinks-outdoor": {
      "base": 53,
@@ -915,13 +915,13 @@
      "base": 21,
      "life": 45,
      "play": 56,
-     "score": 37
+     "score": 36
     },
     "single-outdoor": {
      "base": 39,
      "life": 45,
      "play": 59,
-     "score": 50
+     "score": 49
     }
    },
    "transitConvenience": 32
@@ -1017,13 +1017,13 @@
      "base": 29,
      "life": 33,
      "play": 78,
-     "score": 89
+     "score": 88
     },
     "single-outdoor": {
      "base": 24,
      "life": 33,
      "play": 66,
-     "score": 87
+     "score": 86
     }
    },
    "transitConvenience": 32
@@ -1383,7 +1383,7 @@
      "base": 37,
      "life": 48,
      "play": 66,
-     "score": 10
+     "score": 11
     },
     "dinks-outdoor": {
      "base": 57,
@@ -1492,7 +1492,7 @@
      "base": 84,
      "life": 67,
      "play": 66,
-     "score": 91
+     "score": 90
     },
     "family-indoor": {
      "base": 72,
@@ -1528,13 +1528,13 @@
      "base": 79,
      "life": 61,
      "play": 66,
-     "score": 89
+     "score": 88
     }
    },
    "transitConvenience": 32
   },
   "arakawa-itchumae": {
-   "commute": 37,
+   "commute": 38,
    "greenHa": 1.5,
    "greenParks": [
     "荒川公園"
@@ -1585,7 +1585,7 @@
      "base": 88,
      "life": 65,
      "play": 72,
-     "score": 64
+     "score": 65
     },
     "dinks-outdoor": {
      "base": 54,
@@ -1618,22 +1618,22 @@
      "score": 73
     },
     "single-indoor": {
-     "base": 88,
+     "base": 87,
      "life": 63,
      "play": 72,
-     "score": 65
+     "score": 67
     },
     "single-outdoor": {
      "base": 54,
      "life": 63,
      "play": 42,
-     "score": 37
+     "score": 38
     }
    },
    "transitConvenience": 32
   },
   "arakawa-nanachome": {
-   "commute": 45,
+   "commute": 46,
    "greenHa": 3.2,
    "greenParks": [
     "千住スポーツ公園",
@@ -1686,13 +1686,13 @@
      "base": 76,
      "life": 58,
      "play": 75,
-     "score": 80
+     "score": 81
     },
     "dinks-outdoor": {
      "base": 48,
      "life": 58,
      "play": 49,
-     "score": 60
+     "score": 62
     },
     "family-indoor": {
      "base": 76,
@@ -1722,19 +1722,19 @@
      "base": 82,
      "life": 58,
      "play": 75,
-     "score": 85
+     "score": 86
     },
     "single-outdoor": {
      "base": 54,
      "life": 58,
      "play": 49,
-     "score": 66
+     "score": 67
     }
    },
    "transitConvenience": 32
   },
   "arakawa-nichome": {
-   "commute": 42,
+   "commute": 43,
    "greenHa": 1.5,
    "greenParks": [
     "荒川公園"
@@ -1804,7 +1804,7 @@
      "base": 36,
      "life": 55,
      "play": 44,
-     "score": 65
+     "score": 66
     },
     "senior-indoor": {
      "base": 90,
@@ -1819,16 +1819,16 @@
      "score": 93
     },
     "single-indoor": {
-     "base": 75,
+     "base": 76,
      "life": 55,
      "play": 74,
-     "score": 95
+     "score": 96
     },
     "single-outdoor": {
-     "base": 38,
+     "base": 39,
      "life": 55,
      "play": 44,
-     "score": 78
+     "score": 79
     }
    },
    "transitConvenience": 32
@@ -1932,13 +1932,13 @@
      "base": 46,
      "life": 46,
      "play": 63,
-     "score": 67
+     "score": 66
     }
    },
    "transitConvenience": 32
   },
   "arakawa-yuenchimae": {
-   "commute": 34,
+   "commute": 35,
    "greenHa": 5.1,
    "greenParks": [
     "荒川遊園"
@@ -2004,7 +2004,7 @@
      "base": 69,
      "life": 65,
      "play": 60,
-     "score": 80
+     "score": 81
     },
     "family-outdoor": {
      "base": 68,
@@ -2028,19 +2028,19 @@
      "base": 30,
      "life": 46,
      "play": 60,
-     "score": 63
+     "score": 64
     },
     "single-outdoor": {
      "base": 26,
      "life": 46,
      "play": 49,
-     "score": 61
+     "score": 62
     }
    },
    "transitConvenience": 32
   },
   "arakawakuyakushomae": {
-   "commute": 38,
+   "commute": 39,
    "greenHa": 1.5,
    "greenParks": [
     "荒川公園"
@@ -2092,19 +2092,19 @@
      "base": 83,
      "life": 66,
      "play": 68,
-     "score": 87
+     "score": 88
     },
     "dinks-outdoor": {
      "base": 58,
      "life": 66,
      "play": 43,
-     "score": 70
+     "score": 71
     },
     "family-indoor": {
      "base": 83,
      "life": 68,
      "play": 68,
-     "score": 79
+     "score": 80
     },
     "family-outdoor": {
      "base": 70,
@@ -2128,7 +2128,7 @@
      "base": 88,
      "life": 66,
      "play": 68,
-     "score": 90
+     "score": 91
     },
     "single-outdoor": {
      "base": 63,
@@ -2400,7 +2400,7 @@
      "base": 95,
      "life": 76,
      "play": 67,
-     "score": 100
+     "score": 99
     },
     "family-indoor": {
      "base": 85,
@@ -2495,7 +2495,7 @@
      "base": 91,
      "life": 76,
      "play": 60,
-     "score": 69
+     "score": 68
     },
     "dinks-outdoor": {
      "base": 97,
@@ -2731,7 +2731,7 @@
      "base": 95,
      "life": 73,
      "play": 67,
-     "score": 56
+     "score": 55
     },
     "single-outdoor": {
      "base": 94,
@@ -3228,13 +3228,13 @@
      "base": 99,
      "life": 77,
      "play": 67,
-     "score": 74
+     "score": 73
     },
     "single-outdoor": {
      "base": 96,
      "life": 77,
      "play": 66,
-     "score": 81
+     "score": 80
     }
    },
    "transitConvenience": 73
@@ -3496,7 +3496,7 @@
      "base": 26,
      "life": 59,
      "play": 33,
-     "score": 48
+     "score": 47
     },
     "family-indoor": {
      "base": 93,
@@ -3526,13 +3526,13 @@
      "base": 57,
      "life": 52,
      "play": 69,
-     "score": 75
+     "score": 74
     },
     "single-outdoor": {
      "base": 17,
      "life": 52,
      "play": 33,
-     "score": 40
+     "score": 41
     }
    },
    "transitConvenience": 32
@@ -3937,7 +3937,7 @@
    "transitConvenience": 52
   },
   "daishimae": {
-   "commute": 27,
+   "commute": 28,
    "greenHa": 2.1,
    "greenParks": [
     "西新井みどり公園",
@@ -3992,7 +3992,7 @@
      "base": 8,
      "life": 44,
      "play": 49,
-     "score": 58
+     "score": 59
     },
     "dinks-outdoor": {
      "base": 7,
@@ -4028,13 +4028,13 @@
      "base": 9,
      "life": 41,
      "play": 49,
-     "score": 58
+     "score": 60
     },
     "single-outdoor": {
      "base": 8,
      "life": 41,
      "play": 38,
-     "score": 58
+     "score": 59
     }
    },
    "transitConvenience": 32
@@ -4329,7 +4329,7 @@
      "base": 77,
      "life": 61,
      "play": 66,
-     "score": 67
+     "score": 66
     },
     "single-outdoor": {
      "base": 28,
@@ -4400,7 +4400,7 @@
      "base": 44,
      "life": 64,
      "play": 38,
-     "score": 26
+     "score": 27
     },
     "family-indoor": {
      "base": 95,
@@ -4542,7 +4542,7 @@
    "transitConvenience": 85
   },
   "edogawa": {
-   "commute": 24,
+   "commute": 25,
    "greenHa": 44.0,
    "greenParks": [
     "小岩緑地",
@@ -4595,13 +4595,13 @@
      "base": 9,
      "life": 35,
      "play": 62,
-     "score": 55
+     "score": 56
     },
     "dinks-outdoor": {
      "base": 40,
      "life": 35,
      "play": 78,
-     "score": 83
+     "score": 84
     },
     "family-indoor": {
      "base": 70,
@@ -4629,15 +4629,15 @@
     },
     "single-indoor": {
      "base": 9,
-     "life": 33,
+     "life": 34,
      "play": 62,
-     "score": 56
+     "score": 57
     },
     "single-outdoor": {
      "base": 41,
-     "life": 33,
+     "life": 34,
      "play": 78,
-     "score": 87
+     "score": 88
     }
    },
    "transitConvenience": 32
@@ -4737,7 +4737,7 @@
      "base": 91,
      "life": 73,
      "play": 63,
-     "score": 55
+     "score": 54
     }
    },
    "transitConvenience": 32
@@ -4803,7 +4803,7 @@
      "base": 55,
      "life": 48,
      "play": 69,
-     "score": 75
+     "score": 74
     },
     "family-indoor": {
      "base": 60,
@@ -4833,10 +4833,10 @@
      "base": 14,
      "life": 38,
      "play": 61,
-     "score": 42
+     "score": 41
     },
     "single-outdoor": {
-     "base": 39,
+     "base": 38,
      "life": 38,
      "play": 69,
      "score": 63
@@ -4896,7 +4896,7 @@
      "base": 58,
      "life": 54,
      "play": 69,
-     "score": 91
+     "score": 90
     },
     "dinks-outdoor": {
      "base": 43,
@@ -4929,7 +4929,7 @@
      "score": 84
     },
     "single-indoor": {
-     "base": 48,
+     "base": 47,
      "life": 48,
      "play": 69,
      "score": 87
@@ -5230,7 +5230,7 @@
      "base": 60,
      "life": 53,
      "play": 69,
-     "score": 94
+     "score": 93
     },
     "single-outdoor": {
      "base": 24,
@@ -5336,7 +5336,7 @@
      "base": 14,
      "life": 49,
      "play": 35,
-     "score": 57
+     "score": 56
     }
    },
    "transitConvenience": 32
@@ -5401,7 +5401,7 @@
      "base": 34,
      "life": 48,
      "play": 54,
-     "score": 89
+     "score": 88
     },
     "family-indoor": {
      "base": 52,
@@ -5512,7 +5512,7 @@
      "base": 23,
      "life": 37,
      "play": 75,
-     "score": 48
+     "score": 47
     },
     "senior-indoor": {
      "base": 8,
@@ -5738,7 +5738,7 @@
      "base": 39,
      "life": 49,
      "play": 53,
-     "score": 21
+     "score": 22
     }
    },
    "transitConvenience": 32
@@ -6045,7 +6045,7 @@
      "base": 63,
      "life": 50,
      "play": 67,
-     "score": 42
+     "score": 43
     }
    },
    "transitConvenience": 32
@@ -6151,7 +6151,7 @@
    "transitConvenience": 78
   },
   "gotanno": {
-   "commute": 38,
+   "commute": 39,
    "greenHa": 12.3,
    "greenParks": [
     "荒川千住新橋緑地"
@@ -6205,7 +6205,7 @@
      "base": 38,
      "life": 48,
      "play": 67,
-     "score": 90
+     "score": 91
     },
     "dinks-outdoor": {
      "base": 39,
@@ -6223,7 +6223,7 @@
      "base": 50,
      "life": 55,
      "play": 58,
-     "score": 87
+     "score": 88
     },
     "senior-indoor": {
      "base": 21,
@@ -6342,13 +6342,13 @@
      "base": 61,
      "life": 56,
      "play": 65,
-     "score": 85
+     "score": 84
     },
     "single-outdoor": {
      "base": 73,
      "life": 56,
      "play": 67,
-     "score": 92
+     "score": 91
     }
    },
    "transitConvenience": 52
@@ -6743,7 +6743,7 @@
      "score": 74
     },
     "single-outdoor": {
-     "base": 58,
+     "base": 57,
      "life": 54,
      "play": 57,
      "score": 85
@@ -7104,7 +7104,7 @@
      "base": 62,
      "life": 58,
      "play": 68,
-     "score": 20
+     "score": 19
     },
     "family-outdoor": {
      "base": 91,
@@ -7134,7 +7134,7 @@
      "base": 100,
      "life": 74,
      "play": 91,
-     "score": 62
+     "score": 61
     }
    },
    "transitConvenience": 32
@@ -7390,25 +7390,25 @@
      "base": 43,
      "life": 62,
      "play": 48,
-     "score": 25
+     "score": 21
     },
     "dinks-outdoor": {
      "base": 58,
      "life": 62,
      "play": 50,
-     "score": 30
+     "score": 25
     },
     "family-indoor": {
      "base": 47,
      "life": 60,
      "play": 48,
-     "score": 37
+     "score": 35
     },
     "family-outdoor": {
      "base": 54,
      "life": 60,
      "play": 50,
-     "score": 40
+     "score": 37
     },
     "senior-indoor": {
      "base": 37,
@@ -7426,16 +7426,16 @@
      "base": 35,
      "life": 56,
      "play": 48,
-     "score": 20
+     "score": 17
     },
     "single-outdoor": {
      "base": 50,
      "life": 56,
      "play": 50,
-     "score": 25
+     "score": 20
     }
    },
-   "transitConvenience": 52
+   "transitConvenience": 32
   },
   "hatanodai": {
    "commute": 54,
@@ -7694,13 +7694,13 @@
      "base": 22,
      "life": 54,
      "play": 47,
-     "score": 11
+     "score": 9
     },
     "dinks-outdoor": {
      "base": 82,
      "life": 54,
      "play": 84,
-     "score": 46
+     "score": 39
     },
     "family-indoor": {
      "base": 8,
@@ -7712,7 +7712,7 @@
      "base": 38,
      "life": 39,
      "play": 84,
-     "score": 24
+     "score": 23
     },
     "senior-indoor": {
      "base": 4,
@@ -7730,16 +7730,16 @@
      "base": 19,
      "life": 50,
      "play": 47,
-     "score": 10
+     "score": 7
     },
     "single-outdoor": {
      "base": 81,
      "life": 50,
      "play": 84,
-     "score": 45
+     "score": 38
     }
    },
-   "transitConvenience": 52
+   "transitConvenience": 32
   },
   "heiwadai": {
    "commute": 43,
@@ -7796,7 +7796,7 @@
      "base": 12,
      "life": 35,
      "play": 68,
-     "score": 76
+     "score": 75
     },
     "dinks-outdoor": {
      "base": 6,
@@ -8006,7 +8006,7 @@
      "base": 32,
      "life": 43,
      "play": 61,
-     "score": 50
+     "score": 49
     },
     "family-indoor": {
      "base": 73,
@@ -8319,7 +8319,7 @@
      "base": 90,
      "life": 69,
      "play": 63,
-     "score": 92
+     "score": 91
     },
     "senior-indoor": {
      "base": 74,
@@ -8343,7 +8343,7 @@
      "base": 89,
      "life": 70,
      "play": 63,
-     "score": 99
+     "score": 98
     }
    },
    "transitConvenience": 32
@@ -8415,7 +8415,7 @@
      "base": 58,
      "life": 55,
      "play": 71,
-     "score": 35
+     "score": 36
     },
     "family-outdoor": {
      "base": 62,
@@ -8542,7 +8542,7 @@
      "base": 44,
      "life": 49,
      "play": 57,
-     "score": 47
+     "score": 46
     }
    },
    "transitConvenience": 32
@@ -8602,7 +8602,7 @@
      "base": 56,
      "life": 49,
      "play": 76,
-     "score": 63
+     "score": 62
     },
     "dinks-outdoor": {
      "base": 45,
@@ -8641,7 +8641,7 @@
      "score": 67
     },
     "single-outdoor": {
-     "base": 49,
+     "base": 48,
      "life": 48,
      "play": 61,
      "score": 59
@@ -8937,19 +8937,19 @@
      "base": 69,
      "life": 62,
      "play": 60,
-     "score": 66
+     "score": 65
     },
     "single-outdoor": {
      "base": 53,
      "life": 62,
      "play": 43,
-     "score": 54
+     "score": 53
     }
    },
    "transitConvenience": 57
   },
   "higashi-ogu-sanchome": {
-   "commute": 42,
+   "commute": 43,
    "greenHa": 20.8,
    "greenParks": [
     "荒川江北橋緑地",
@@ -9002,7 +9002,7 @@
      "base": 47,
      "life": 61,
      "play": 52,
-     "score": 70
+     "score": 71
     },
     "dinks-outdoor": {
      "base": 81,
@@ -9014,7 +9014,7 @@
      "base": 48,
      "life": 58,
      "play": 52,
-     "score": 62
+     "score": 63
     },
     "family-outdoor": {
      "base": 77,
@@ -9207,7 +9207,7 @@
      "base": 65,
      "life": 56,
      "play": 71,
-     "score": 28
+     "score": 27
     },
     "dinks-outdoor": {
      "base": 79,
@@ -9514,13 +9514,13 @@
      "base": 53,
      "life": 46,
      "play": 78,
-     "score": 50
+     "score": 49
     },
     "dinks-outdoor": {
      "base": 24,
      "life": 46,
      "play": 51,
-     "score": 28
+     "score": 29
     },
     "family-indoor": {
      "base": 71,
@@ -9550,7 +9550,7 @@
      "base": 63,
      "life": 48,
      "play": 78,
-     "score": 57
+     "score": 56
     },
     "single-outdoor": {
      "base": 31,
@@ -9755,7 +9755,7 @@
      "base": 16,
      "life": 34,
      "play": 69,
-     "score": 74
+     "score": 73
     },
     "single-outdoor": {
      "base": 27,
@@ -9852,7 +9852,7 @@
      "score": 5
     },
     "single-indoor": {
-     "base": 76,
+     "base": 75,
      "life": 60,
      "play": 67,
      "score": 13
@@ -10034,7 +10034,7 @@
      "base": 20,
      "life": 54,
      "play": 33,
-     "score": 37
+     "score": 38
     },
     "senior-indoor": {
      "base": 15,
@@ -10159,7 +10159,7 @@
      "base": 85,
      "life": 61,
      "play": 71,
-     "score": 48
+     "score": 47
     }
    },
    "transitConvenience": 57
@@ -10260,7 +10260,7 @@
      "base": 88,
      "life": 59,
      "play": 78,
-     "score": 64
+     "score": 63
     }
    },
    "transitConvenience": 32
@@ -10328,7 +10328,7 @@
      "base": 15,
      "life": 26,
      "play": 74,
-     "score": 79
+     "score": 78
     },
     "family-indoor": {
      "base": 14,
@@ -10358,7 +10358,7 @@
      "base": 6,
      "life": 23,
      "play": 71,
-     "score": 66
+     "score": 65
     },
     "single-outdoor": {
      "base": 14,
@@ -10370,7 +10370,7 @@
    "transitConvenience": 32
   },
   "horikirishobuen": {
-   "commute": 37,
+   "commute": 38,
    "greenHa": 4.8,
    "greenParks": [
     "堀切水辺公園",
@@ -10435,7 +10435,7 @@
      "base": 13,
      "life": 42,
      "play": 50,
-     "score": 50
+     "score": 51
     },
     "family-outdoor": {
      "base": 8,
@@ -10456,16 +10456,16 @@
      "score": 69
     },
     "single-indoor": {
-     "base": 7,
-     "life": 38,
+     "base": 8,
+     "life": 39,
      "play": 50,
-     "score": 54
+     "score": 55
     },
     "single-outdoor": {
      "base": 11,
-     "life": 38,
+     "life": 39,
      "play": 46,
-     "score": 62
+     "score": 63
     }
    },
    "transitConvenience": 32
@@ -10664,7 +10664,7 @@
      "base": 18,
      "life": 49,
      "play": 38,
-     "score": 80
+     "score": 79
     }
    },
    "transitConvenience": 32
@@ -10724,7 +10724,7 @@
      "base": 95,
      "life": 78,
      "play": 64,
-     "score": 62
+     "score": 61
     },
     "dinks-outdoor": {
      "base": 100,
@@ -10766,7 +10766,7 @@
      "base": 100,
      "life": 74,
      "play": 92,
-     "score": 95
+     "score": 94
     }
    },
    "transitConvenience": 98
@@ -10922,7 +10922,7 @@
      "base": 66,
      "life": 58,
      "play": 69,
-     "score": 78
+     "score": 77
     },
     "dinks-outdoor": {
      "base": 28,
@@ -11067,7 +11067,7 @@
      "base": 66,
      "life": 50,
      "play": 69,
-     "score": 22
+     "score": 23
     }
    },
    "transitConvenience": 32
@@ -11162,7 +11162,7 @@
      "score": 31
     },
     "single-indoor": {
-     "base": 63,
+     "base": 62,
      "life": 49,
      "play": 76,
      "score": 26
@@ -11227,7 +11227,7 @@
      "base": 99,
      "life": 76,
      "play": 72,
-     "score": 56
+     "score": 55
     },
     "dinks-outdoor": {
      "base": 99,
@@ -11269,7 +11269,7 @@
      "base": 99,
      "life": 72,
      "play": 88,
-     "score": 84
+     "score": 83
     }
    },
    "transitConvenience": 32
@@ -11376,7 +11376,7 @@
    "transitConvenience": 32
   },
   "iriya": {
-   "commute": 60,
+   "commute": 61,
    "greenHa": 53.9,
    "greenParks": [
     "上野恩賜公園"
@@ -11426,7 +11426,7 @@
      "base": 83,
      "life": 67,
      "play": 67,
-     "score": 45
+     "score": 46
     },
     "dinks-outdoor": {
      "base": 96,
@@ -11438,7 +11438,7 @@
      "base": 42,
      "life": 50,
      "play": 67,
-     "score": 32
+     "score": 33
     },
     "family-outdoor": {
      "base": 75,
@@ -11462,7 +11462,7 @@
      "base": 91,
      "life": 69,
      "play": 67,
-     "score": 52
+     "score": 53
     },
     "single-outdoor": {
      "base": 98,
@@ -11527,7 +11527,7 @@
      "base": 58,
      "life": 52,
      "play": 71,
-     "score": 70
+     "score": 69
     },
     "dinks-outdoor": {
      "base": 41,
@@ -11640,7 +11640,7 @@
      "base": 78,
      "life": 59,
      "play": 84,
-     "score": 63
+     "score": 62
     },
     "family-outdoor": {
      "base": 62,
@@ -12030,7 +12030,7 @@
      "base": 98,
      "life": 73,
      "play": 91,
-     "score": 85
+     "score": 84
     },
     "family-indoor": {
      "base": 19,
@@ -12246,7 +12246,7 @@
      "base": 90,
      "life": 70,
      "play": 63,
-     "score": 96
+     "score": 95
     },
     "senior-indoor": {
      "base": 83,
@@ -12439,7 +12439,7 @@
      "base": 94,
      "life": 81,
      "play": 58,
-     "score": 54
+     "score": 53
     },
     "family-indoor": {
      "base": 74,
@@ -12537,7 +12537,7 @@
      "base": 61,
      "life": 59,
      "play": 63,
-     "score": 65
+     "score": 64
     },
     "dinks-outdoor": {
      "base": 70,
@@ -12671,19 +12671,19 @@
      "base": 80,
      "life": 60,
      "play": 69,
-     "score": 92
+     "score": 91
     },
     "single-outdoor": {
      "base": 26,
      "life": 60,
      "play": 27,
-     "score": 56
+     "score": 55
     }
    },
    "transitConvenience": 73
   },
   "kameari": {
-   "commute": 34,
+   "commute": 36,
    "greenHa": 15.3,
    "greenParks": [
     "足立区の中川公園",
@@ -12699,7 +12699,7 @@
      "to": "ayase"
     },
     {
-     "minutes": 9,
+     "minutes": 11,
      "to": "kita-senju"
     }
    ],
@@ -12720,7 +12720,7 @@
      "to": "ayase"
     },
     {
-     "minutes": 17,
+     "minutes": 19,
      "parks": [
       "汐入公園",
       "荒川四ツ木橋緑地",
@@ -12747,13 +12747,13 @@
      "base": 20,
      "life": 44,
      "play": 60,
-     "score": 59
+     "score": 61
     },
     "family-outdoor": {
      "base": 33,
      "life": 44,
      "play": 69,
-     "score": 72
+     "score": 73
     },
     "senior-indoor": {
      "base": 13,
@@ -12768,16 +12768,16 @@
      "score": 87
     },
     "single-indoor": {
-     "base": 48,
+     "base": 49,
      "life": 54,
      "play": 60,
-     "score": 91
+     "score": 92
     },
     "single-outdoor": {
      "base": 73,
      "life": 54,
      "play": 69,
-     "score": 98
+     "score": 99
     }
    },
    "transitConvenience": 32
@@ -12837,7 +12837,7 @@
      "base": 52,
      "life": 49,
      "play": 73,
-     "score": 35
+     "score": 34
     },
     "dinks-outdoor": {
      "base": 72,
@@ -12879,7 +12879,7 @@
      "base": 78,
      "life": 50,
      "play": 81,
-     "score": 63
+     "score": 62
     }
    },
    "transitConvenience": 57
@@ -13080,7 +13080,7 @@
      "base": 13,
      "life": 46,
      "play": 38,
-     "score": 67
+     "score": 66
     }
    },
    "transitConvenience": 32
@@ -13258,7 +13258,7 @@
      "base": 82,
      "life": 69,
      "play": 50,
-     "score": 88
+     "score": 87
     },
     "senior-indoor": {
      "base": 75,
@@ -13348,7 +13348,7 @@
      "base": 53,
      "life": 53,
      "play": 60,
-     "score": 68
+     "score": 67
     },
     "family-indoor": {
      "base": 93,
@@ -13439,7 +13439,7 @@
      "base": 25,
      "life": 50,
      "play": 55,
-     "score": 80
+     "score": 79
     },
     "dinks-outdoor": {
      "base": 5,
@@ -13475,7 +13475,7 @@
      "base": 26,
      "life": 48,
      "play": 55,
-     "score": 83
+     "score": 82
     },
     "single-outdoor": {
      "base": 5,
@@ -13775,7 +13775,7 @@
      "base": 88,
      "life": 71,
      "play": 61,
-     "score": 17
+     "score": 18
     },
     "single-outdoor": {
      "base": 97,
@@ -13787,7 +13787,7 @@
    "transitConvenience": 32
   },
   "kanamachi": {
-   "commute": 31,
+   "commute": 32,
    "greenHa": 0.0,
    "greenParks": [],
    "indoorDest": [
@@ -13835,7 +13835,7 @@
      "base": 68,
      "life": 67,
      "play": 56,
-     "score": 99
+     "score": 100
     },
     "dinks-outdoor": {
      "base": 47,
@@ -13871,13 +13871,13 @@
      "base": 39,
      "life": 53,
      "play": 56,
-     "score": 96
+     "score": 97
     },
     "single-outdoor": {
      "base": 23,
      "life": 53,
      "play": 35,
-     "score": 91
+     "score": 92
     }
    },
    "transitConvenience": 57
@@ -14035,7 +14035,7 @@
      "base": 87,
      "life": 79,
      "play": 50,
-     "score": 62
+     "score": 61
     },
     "family-indoor": {
      "base": 32,
@@ -14169,7 +14169,7 @@
      "base": 7,
      "life": 27,
      "play": 67,
-     "score": 37
+     "score": 36
     },
     "single-outdoor": {
      "base": 24,
@@ -14276,7 +14276,7 @@
      "base": 35,
      "life": 56,
      "play": 41,
-     "score": 91
+     "score": 90
     }
    },
    "transitConvenience": 32
@@ -14341,7 +14341,7 @@
      "base": 35,
      "life": 25,
      "play": 90,
-     "score": 92
+     "score": 91
     },
     "family-indoor": {
      "base": 11,
@@ -14374,7 +14374,7 @@
      "score": 59
     },
     "single-outdoor": {
-     "base": 47,
+     "base": 46,
      "life": 28,
      "play": 90,
      "score": 97
@@ -14669,7 +14669,7 @@
      "base": 80,
      "life": 61,
      "play": 66,
-     "score": 39
+     "score": 40
     }
    },
    "transitConvenience": 52
@@ -14877,7 +14877,7 @@
    "transitConvenience": 32
   },
   "keisei-koiwa": {
-   "commute": 26,
+   "commute": 27,
    "greenHa": 0.0,
    "greenParks": [],
    "indoorDest": [
@@ -14969,7 +14969,7 @@
      "base": 40,
      "life": 56,
      "play": 44,
-     "score": 88
+     "score": 89
     }
    },
    "transitConvenience": 32
@@ -15027,7 +15027,7 @@
      "base": 7,
      "life": 44,
      "play": 47,
-     "score": 81
+     "score": 80
     },
     "dinks-outdoor": {
      "base": 17,
@@ -15176,7 +15176,7 @@
    "transitConvenience": 32
   },
   "keisei-ueno": {
-   "commute": 47,
+   "commute": 50,
    "greenHa": 55.7,
    "greenParks": [
     "上野恩賜公園",
@@ -15206,7 +15206,7 @@
      "to": "keisei-ueno"
     },
     {
-     "minutes": 22,
+     "minutes": 19,
      "parks": [
       "皇居外苑"
      ],
@@ -15228,25 +15228,25 @@
      "base": 94,
      "life": 72,
      "play": 71,
-     "score": 39
+     "score": 41
     },
     "dinks-outdoor": {
      "base": 97,
      "life": 72,
      "play": 89,
-     "score": 72
+     "score": 74
     },
     "family-indoor": {
      "base": 28,
      "life": 43,
      "play": 71,
-     "score": 19
+     "score": 20
     },
     "family-outdoor": {
      "base": 53,
      "life": 43,
      "play": 89,
-     "score": 26
+     "score": 27
     },
     "senior-indoor": {
      "base": 84,
@@ -15262,15 +15262,15 @@
     },
     "single-indoor": {
      "base": 86,
-     "life": 62,
+     "life": 63,
      "play": 71,
-     "score": 30
+     "score": 32
     },
     "single-outdoor": {
      "base": 96,
-     "life": 62,
+     "life": 63,
      "play": 89,
-     "score": 61
+     "score": 65
     }
    },
    "transitConvenience": 52
@@ -15646,7 +15646,7 @@
      "base": 26,
      "life": 45,
      "play": 54,
-     "score": 70
+     "score": 69
     },
     "family-indoor": {
      "base": 54,
@@ -15676,19 +15676,19 @@
      "base": 27,
      "life": 32,
      "play": 78,
-     "score": 71
+     "score": 70
     },
     "single-outdoor": {
      "base": 10,
      "life": 32,
      "play": 54,
-     "score": 49
+     "score": 48
     }
    },
    "transitConvenience": 32
   },
   "kita-ayase": {
-   "commute": 37,
+   "commute": 38,
    "greenHa": 21.8,
    "greenParks": [
     "東綾瀬公園",
@@ -15743,7 +15743,7 @@
      "base": 15,
      "life": 41,
      "play": 60,
-     "score": 71
+     "score": 72
     },
     "dinks-outdoor": {
      "base": 43,
@@ -15779,7 +15779,7 @@
      "base": 10,
      "life": 36,
      "play": 60,
-     "score": 68
+     "score": 69
     },
     "single-outdoor": {
      "base": 34,
@@ -15877,7 +15877,7 @@
      "base": 85,
      "life": 48,
      "play": 92,
-     "score": 76
+     "score": 75
     },
     "single-outdoor": {
      "base": 12,
@@ -16043,7 +16043,7 @@
      "base": 79,
      "life": 64,
      "play": 67,
-     "score": 100
+     "score": 99
     },
     "dinks-outdoor": {
      "base": 72,
@@ -16180,7 +16180,7 @@
      "base": 81,
      "life": 56,
      "play": 76,
-     "score": 65
+     "score": 64
     },
     "single-outdoor": {
      "base": 62,
@@ -16386,7 +16386,7 @@
      "base": 93,
      "life": 65,
      "play": 74,
-     "score": 53
+     "score": 52
     },
     "single-outdoor": {
      "base": 95,
@@ -16456,7 +16456,7 @@
      "base": 93,
      "life": 78,
      "play": 62,
-     "score": 47
+     "score": 46
     },
     "family-indoor": {
      "base": 36,
@@ -16596,7 +16596,7 @@
    "transitConvenience": 52
   },
   "kohoku": {
-   "commute": 35,
+   "commute": 36,
    "greenHa": 1.6,
    "greenParks": [
     "上沼田東公園"
@@ -16684,13 +16684,13 @@
      "base": 16,
      "life": 41,
      "play": 58,
-     "score": 82
+     "score": 83
     },
     "single-outdoor": {
      "base": 19,
      "life": 41,
      "play": 50,
-     "score": 79
+     "score": 80
     }
    },
    "transitConvenience": 32
@@ -16748,7 +16748,7 @@
      "base": 45,
      "life": 56,
      "play": 59,
-     "score": 94
+     "score": 93
     },
     "dinks-outdoor": {
      "base": 85,
@@ -16952,7 +16952,7 @@
      "base": 55,
      "life": 56,
      "play": 66,
-     "score": 46
+     "score": 45
     },
     "dinks-outdoor": {
      "base": 58,
@@ -16985,7 +16985,7 @@
      "score": 62
     },
     "single-indoor": {
-     "base": 49,
+     "base": 48,
      "life": 50,
      "play": 66,
      "score": 41
@@ -17295,7 +17295,7 @@
      "score": 1
     },
     "single-outdoor": {
-     "base": 46,
+     "base": 45,
      "life": 34,
      "play": 79,
      "score": 3
@@ -17407,7 +17407,7 @@
    "transitConvenience": 32
   },
   "komagome": {
-   "commute": 58,
+   "commute": 59,
    "greenHa": 14.7,
    "greenParks": [
     "六義園",
@@ -17461,7 +17461,7 @@
      "base": 99,
      "life": 78,
      "play": 69,
-     "score": 91
+     "score": 92
     },
     "dinks-outdoor": {
      "base": 97,
@@ -17497,7 +17497,7 @@
      "base": 95,
      "life": 72,
      "play": 69,
-     "score": 88
+     "score": 89
     },
     "single-outdoor": {
      "base": 95,
@@ -17573,7 +17573,7 @@
      "base": 58,
      "life": 60,
      "play": 60,
-     "score": 43
+     "score": 42
     },
     "family-outdoor": {
      "base": 88,
@@ -17808,7 +17808,7 @@
    "transitConvenience": 32
   },
   "kosuge": {
-   "commute": 40,
+   "commute": 41,
    "greenHa": 15.4,
    "greenParks": [
     "荒川千住新橋緑地",
@@ -17864,13 +17864,13 @@
      "base": 35,
      "life": 42,
      "play": 74,
-     "score": 79
+     "score": 80
     },
     "dinks-outdoor": {
      "base": 32,
      "life": 42,
      "play": 62,
-     "score": 74
+     "score": 75
     },
     "family-indoor": {
      "base": 85,
@@ -17882,7 +17882,7 @@
      "base": 86,
      "life": 66,
      "play": 62,
-     "score": 95
+     "score": 96
     },
     "senior-indoor": {
      "base": 60,
@@ -17900,13 +17900,13 @@
      "base": 41,
      "life": 42,
      "play": 74,
-     "score": 83
+     "score": 85
     },
     "single-outdoor": {
      "base": 34,
      "life": 42,
      "play": 62,
-     "score": 77
+     "score": 78
     }
    },
    "transitConvenience": 32
@@ -18014,7 +18014,7 @@
    "transitConvenience": 73
   },
   "koya": {
-   "commute": 37,
+   "commute": 39,
    "greenHa": 0.0,
    "greenParks": [],
    "indoorDest": [
@@ -18064,13 +18064,13 @@
      "base": 8,
      "life": 37,
      "play": 60,
-     "score": 74
+     "score": 76
     },
     "dinks-outdoor": {
      "base": 2,
      "life": 37,
      "play": 36,
-     "score": 55
+     "score": 57
     },
     "family-indoor": {
      "base": 53,
@@ -18100,13 +18100,13 @@
      "base": 8,
      "life": 33,
      "play": 60,
-     "score": 72
+     "score": 74
     },
     "single-outdoor": {
      "base": 2,
      "life": 33,
      "play": 36,
-     "score": 54
+     "score": 56
     }
    },
    "transitConvenience": 32
@@ -18260,7 +18260,7 @@
      "base": 36,
      "life": 39,
      "play": 80,
-     "score": 71
+     "score": 70
     },
     "dinks-outdoor": {
      "base": 1,
@@ -18296,7 +18296,7 @@
      "base": 39,
      "life": 37,
      "play": 80,
-     "score": 75
+     "score": 74
     },
     "single-outdoor": {
      "base": 1,
@@ -18391,7 +18391,7 @@
      "score": 69
     },
     "single-indoor": {
-     "base": 5,
+     "base": 4,
      "life": 34,
      "play": 49,
      "score": 43
@@ -18503,7 +18503,7 @@
    "transitConvenience": 32
   },
   "kumanomae": {
-   "commute": 46,
+   "commute": 48,
    "greenHa": 25.9,
    "greenParks": [
     "荒川江北橋緑地",
@@ -18557,13 +18557,13 @@
      "base": 37,
      "life": 49,
      "play": 65,
-     "score": 85
+     "score": 86
     },
     "dinks-outdoor": {
      "base": 57,
      "life": 49,
      "play": 69,
-     "score": 91
+     "score": 92
     },
     "family-indoor": {
      "base": 63,
@@ -18575,7 +18575,7 @@
      "base": 78,
      "life": 60,
      "play": 69,
-     "score": 91
+     "score": 92
     },
     "senior-indoor": {
      "base": 39,
@@ -18590,16 +18590,16 @@
      "score": 88
     },
     "single-indoor": {
-     "base": 46,
+     "base": 48,
      "life": 50,
      "play": 65,
-     "score": 89
+     "score": 91
     },
     "single-outdoor": {
-     "base": 66,
+     "base": 67,
      "life": 50,
      "play": 69,
-     "score": 96
+     "score": 97
     }
    },
    "transitConvenience": 52
@@ -18764,7 +18764,7 @@
      "base": 95,
      "life": 65,
      "play": 87,
-     "score": 61
+     "score": 60
     },
     "family-indoor": {
      "base": 14,
@@ -18856,7 +18856,7 @@
      "base": 93,
      "life": 74,
      "play": 65,
-     "score": 95
+     "score": 94
     },
     "dinks-outdoor": {
      "base": 68,
@@ -18904,7 +18904,7 @@
    "transitConvenience": 32
   },
   "machiya": {
-   "commute": 54,
+   "commute": 56,
    "greenHa": 7.7,
    "greenParks": [
     "尾久の原公園",
@@ -18956,13 +18956,13 @@
      "base": 79,
      "life": 65,
      "play": 67,
-     "score": 99
+     "score": 100
     },
     "dinks-outdoor": {
      "base": 76,
      "life": 65,
      "play": 61,
-     "score": 99
+     "score": 100
     },
     "family-indoor": {
      "base": 60,
@@ -18974,7 +18974,7 @@
      "base": 64,
      "life": 58,
      "play": 61,
-     "score": 87
+     "score": 88
     },
     "senior-indoor": {
      "base": 74,
@@ -19004,7 +19004,7 @@
    "transitConvenience": 78
   },
   "machiya-nichome": {
-   "commute": 44,
+   "commute": 45,
    "greenHa": 7.7,
    "greenParks": [
     "尾久の原公園",
@@ -19498,7 +19498,7 @@
      "base": 31,
      "life": 49,
      "play": 48,
-     "score": 59
+     "score": 58
     }
    },
    "transitConvenience": 52
@@ -19796,7 +19796,7 @@
      "base": 89,
      "life": 65,
      "play": 72,
-     "score": 53
+     "score": 52
     },
     "single-outdoor": {
      "base": 79,
@@ -19808,7 +19808,7 @@
    "transitConvenience": 32
   },
   "mikawashima": {
-   "commute": 53,
+   "commute": 61,
    "greenHa": 1.5,
    "greenParks": [
     "荒川公園"
@@ -19837,7 +19837,7 @@
      "to": "ueno"
     },
     {
-     "minutes": 16,
+     "minutes": 12,
      "parks": [
       "皇居外苑"
      ],
@@ -19858,25 +19858,25 @@
      "base": 81,
      "life": 60,
      "play": 75,
-     "score": 65
+     "score": 70
     },
     "dinks-outdoor": {
      "base": 56,
      "life": 60,
      "play": 51,
-     "score": 43
+     "score": 51
     },
     "family-indoor": {
      "base": 34,
      "life": 44,
      "play": 75,
-     "score": 39
+     "score": 40
     },
     "family-outdoor": {
      "base": 14,
      "life": 44,
      "play": 51,
-     "score": 27
+     "score": 29
     },
     "senior-indoor": {
      "base": 90,
@@ -19891,16 +19891,16 @@
      "score": 62
     },
     "single-indoor": {
-     "base": 84,
-     "life": 59,
+     "base": 85,
+     "life": 60,
      "play": 75,
-     "score": 69
+     "score": 76
     },
     "single-outdoor": {
      "base": 61,
-     "life": 59,
+     "life": 60,
      "play": 51,
-     "score": 48
+     "score": 57
     }
    },
    "transitConvenience": 32
@@ -19967,7 +19967,7 @@
      "base": 84,
      "life": 69,
      "play": 67,
-     "score": 80
+     "score": 79
     },
     "family-outdoor": {
      "base": 91,
@@ -19997,13 +19997,13 @@
      "base": 89,
      "life": 69,
      "play": 65,
-     "score": 98
+     "score": 97
     }
    },
    "transitConvenience": 32
   },
   "minami-senju": {
-   "commute": 53,
+   "commute": 56,
    "greenHa": 14.4,
    "greenParks": [
     "汐入公園",
@@ -20054,25 +20054,25 @@
      "base": 68,
      "life": 55,
      "play": 74,
-     "score": 78
+     "score": 79
     },
     "dinks-outdoor": {
      "base": 73,
      "life": 55,
      "play": 71,
-     "score": 82
+     "score": 85
     },
     "family-indoor": {
      "base": 31,
      "life": 43,
      "play": 74,
-     "score": 42
+     "score": 43
     },
     "family-outdoor": {
      "base": 33,
      "life": 43,
      "play": 71,
-     "score": 47
+     "score": 48
     },
     "senior-indoor": {
      "base": 64,
@@ -20087,16 +20087,16 @@
      "score": 67
     },
     "single-indoor": {
-     "base": 62,
-     "life": 50,
+     "base": 63,
+     "life": 51,
      "play": 74,
-     "score": 73
+     "score": 77
     },
     "single-outdoor": {
      "base": 70,
-     "life": 50,
+     "life": 51,
      "play": 71,
-     "score": 79
+     "score": 82
     }
    },
    "transitConvenience": 78
@@ -20254,7 +20254,7 @@
      "base": 10,
      "life": 35,
      "play": 65,
-     "score": 21
+     "score": 22
     },
     "dinks-outdoor": {
      "base": 10,
@@ -20302,7 +20302,7 @@
    "transitConvenience": 32
   },
   "minowa": {
-   "commute": 55,
+   "commute": 56,
    "greenHa": 0.0,
    "greenParks": [],
    "indoorDest": [
@@ -20355,7 +20355,7 @@
      "base": 71,
      "life": 72,
      "play": 45,
-     "score": 53
+     "score": 54
     },
     "family-indoor": {
      "base": 46,
@@ -20385,19 +20385,19 @@
      "base": 79,
      "life": 65,
      "play": 61,
-     "score": 55
+     "score": 56
     },
     "single-outdoor": {
      "base": 65,
      "life": 65,
      "play": 45,
-     "score": 46
+     "score": 47
     }
    },
    "transitConvenience": 32
   },
   "minowabashi": {
-   "commute": 34,
+   "commute": 36,
    "greenHa": 1.5,
    "greenParks": [
     "荒川公園"
@@ -20448,25 +20448,25 @@
      "base": 77,
      "life": 70,
      "play": 58,
-     "score": 46
+     "score": 48
     },
     "dinks-outdoor": {
      "base": 63,
      "life": 70,
      "play": 41,
-     "score": 35
+     "score": 36
     },
     "family-indoor": {
      "base": 47,
      "life": 56,
      "play": 58,
-     "score": 40
+     "score": 41
     },
     "family-outdoor": {
      "base": 32,
      "life": 56,
      "play": 41,
-     "score": 35
+     "score": 36
     },
     "senior-indoor": {
      "base": 75,
@@ -20484,19 +20484,19 @@
      "base": 65,
      "life": 62,
      "play": 58,
-     "score": 35
+     "score": 38
     },
     "single-outdoor": {
-     "base": 48,
+     "base": 49,
      "life": 62,
      "play": 41,
-     "score": 24
+     "score": 26
     }
    },
    "transitConvenience": 32
   },
   "minumadai-shinsuikoen": {
-   "commute": 23,
+   "commute": 24,
    "greenHa": 1.9,
    "greenParks": [
     "見沼代親水公園"
@@ -20550,13 +20550,13 @@
      "base": 0,
      "life": 25,
      "play": 41,
-     "score": 27
+     "score": 28
     },
     "dinks-outdoor": {
      "base": 1,
      "life": 25,
      "play": 52,
-     "score": 43
+     "score": 44
     },
     "family-indoor": {
      "base": 15,
@@ -20584,15 +20584,15 @@
     },
     "single-indoor": {
      "base": 1,
-     "life": 30,
+     "life": 31,
      "play": 41,
-     "score": 36
+     "score": 37
     },
     "single-outdoor": {
      "base": 6,
-     "life": 30,
+     "life": 31,
      "play": 52,
-     "score": 61
+     "score": 62
     }
    },
    "transitConvenience": 32
@@ -20693,7 +20693,7 @@
      "base": 95,
      "life": 70,
      "play": 75,
-     "score": 56
+     "score": 55
     }
    },
    "transitConvenience": 52
@@ -20796,7 +20796,7 @@
    "transitConvenience": 73
   },
   "miyanomae": {
-   "commute": 36,
+   "commute": 37,
    "greenHa": 25.9,
    "greenParks": [
     "荒川江北橋緑地",
@@ -20852,7 +20852,7 @@
      "base": 27,
      "life": 50,
      "play": 58,
-     "score": 61
+     "score": 63
     },
     "dinks-outdoor": {
      "base": 60,
@@ -20959,7 +20959,7 @@
      "base": 22,
      "life": 50,
      "play": 43,
-     "score": 35
+     "score": 34
     },
     "family-indoor": {
      "base": 88,
@@ -21058,7 +21058,7 @@
      "base": 30,
      "life": 57,
      "play": 39,
-     "score": 90
+     "score": 89
     },
     "family-indoor": {
      "base": 72,
@@ -21694,7 +21694,7 @@
      "base": 71,
      "life": 52,
      "play": 76,
-     "score": 86
+     "score": 85
     },
     "single-outdoor": {
      "base": 56,
@@ -22399,10 +22399,10 @@
      "base": 51,
      "life": 52,
      "play": 64,
-     "score": 18
+     "score": 19
     },
     "single-outdoor": {
-     "base": 47,
+     "base": 46,
      "life": 52,
      "play": 53,
      "score": 12
@@ -22467,7 +22467,7 @@
      "base": 54,
      "life": 70,
      "play": 35,
-     "score": 90
+     "score": 89
     },
     "family-indoor": {
      "base": 76,
@@ -22667,7 +22667,7 @@
      "base": 66,
      "life": 58,
      "play": 73,
-     "score": 51
+     "score": 50
     },
     "family-outdoor": {
      "base": 37,
@@ -22795,7 +22795,7 @@
      "base": 42,
      "life": 42,
      "play": 65,
-     "score": 43
+     "score": 44
     }
    },
    "transitConvenience": 57
@@ -22849,7 +22849,7 @@
      "base": 64,
      "life": 57,
      "play": 68,
-     "score": 49
+     "score": 48
     },
     "dinks-outdoor": {
      "base": 35,
@@ -22952,7 +22952,7 @@
      "base": 69,
      "life": 64,
      "play": 61,
-     "score": 61
+     "score": 60
     },
     "dinks-outdoor": {
      "base": 50,
@@ -22994,7 +22994,7 @@
      "base": 50,
      "life": 62,
      "play": 41,
-     "score": 47
+     "score": 46
     }
    },
    "transitConvenience": 57
@@ -23057,7 +23057,7 @@
      "base": 12,
      "life": 55,
      "play": 28,
-     "score": 87
+     "score": 86
     },
     "family-indoor": {
      "base": 40,
@@ -23352,7 +23352,7 @@
      "base": 20,
      "life": 56,
      "play": 31,
-     "score": 69
+     "score": 68
     },
     "family-indoor": {
      "base": 95,
@@ -23388,7 +23388,7 @@
      "base": 8,
      "life": 46,
      "play": 31,
-     "score": 55
+     "score": 54
     }
    },
    "transitConvenience": 32
@@ -23452,7 +23452,7 @@
      "base": 94,
      "life": 66,
      "play": 81,
-     "score": 93
+     "score": 92
     },
     "family-indoor": {
      "base": 89,
@@ -23482,7 +23482,7 @@
      "base": 80,
      "life": 59,
      "play": 72,
-     "score": 73
+     "score": 72
     },
     "single-outdoor": {
      "base": 90,
@@ -23585,7 +23585,7 @@
      "base": 62,
      "life": 63,
      "play": 46,
-     "score": 20
+     "score": 21
     }
    },
    "transitConvenience": 73
@@ -23670,7 +23670,7 @@
      "play": 87
     },
     "single-indoor": {
-     "base": 8,
+     "base": 7,
      "life": 37,
      "play": 53
     },
@@ -23752,7 +23752,7 @@
      "base": 51,
      "life": 50,
      "play": 70,
-     "score": 29
+     "score": 28
     },
     "senior-indoor": {
      "base": 80,
@@ -23776,13 +23776,13 @@
      "base": 95,
      "life": 74,
      "play": 70,
-     "score": 82
+     "score": 81
     }
    },
    "transitConvenience": 73
   },
   "nippori": {
-   "commute": 62,
+   "commute": 65,
    "greenHa": 0.0,
    "greenParks": [],
    "indoorDest": [
@@ -23808,7 +23808,7 @@
      "to": "uguisudani"
     },
     {
-     "minutes": 13,
+     "minutes": 10,
      "parks": [
       "皇居外苑"
      ],
@@ -23836,7 +23836,7 @@
      "base": 47,
      "life": 65,
      "play": 39,
-     "score": 67
+     "score": 70
     },
     "family-indoor": {
      "base": 46,
@@ -23863,16 +23863,16 @@
      "score": 41
     },
     "single-indoor": {
-     "base": 87,
-     "life": 61,
+     "base": 88,
+     "life": 62,
      "play": 74,
-     "score": 93
+     "score": 94
     },
     "single-outdoor": {
-     "base": 45,
-     "life": 61,
+     "base": 47,
+     "life": 62,
      "play": 39,
-     "score": 68
+     "score": 70
     }
    },
    "transitConvenience": 100
@@ -23972,7 +23972,7 @@
      "score": 59
     },
     "single-outdoor": {
-     "base": 57,
+     "base": 56,
      "life": 43,
      "play": 73,
      "score": 89
@@ -24078,7 +24078,7 @@
      "base": 65,
      "life": 55,
      "play": 60,
-     "score": 97
+     "score": 96
     }
    },
    "transitConvenience": 32
@@ -24171,7 +24171,7 @@
      "base": 99,
      "life": 72,
      "play": 76,
-     "score": 76
+     "score": 75
     },
     "single-outdoor": {
      "base": 88,
@@ -24367,13 +24367,13 @@
      "base": 50,
      "life": 51,
      "play": 66,
-     "score": 91
+     "score": 90
     },
     "single-outdoor": {
      "base": 12,
      "life": 51,
      "play": 30,
-     "score": 63
+     "score": 62
     }
    },
    "transitConvenience": 52
@@ -24541,7 +24541,7 @@
      "base": 65,
      "life": 47,
      "play": 76,
-     "score": 40
+     "score": 41
     },
     "family-indoor": {
      "base": 44,
@@ -24639,7 +24639,7 @@
      "base": 60,
      "life": 52,
      "play": 65,
-     "score": 22
+     "score": 21
     },
     "family-indoor": {
      "base": 5,
@@ -25032,7 +25032,7 @@
      "base": 4,
      "life": 27,
      "play": 58,
-     "score": 47
+     "score": 46
     },
     "dinks-outdoor": {
      "base": 22,
@@ -25182,7 +25182,7 @@
    "transitConvenience": 32
   },
   "nishiarai": {
-   "commute": 33,
+   "commute": 34,
    "greenHa": 2.3,
    "greenParks": [
     "ベルモント公園",
@@ -25285,7 +25285,7 @@
    "transitConvenience": 52
   },
   "nishiaraidaishi-nishi": {
-   "commute": 33,
+   "commute": 34,
    "greenHa": 5.7,
    "greenParks": [
     "上沼田東公園",
@@ -25341,13 +25341,13 @@
      "base": 14,
      "life": 45,
      "play": 55,
-     "score": 76
+     "score": 77
     },
     "dinks-outdoor": {
      "base": 33,
      "life": 45,
      "play": 59,
-     "score": 86
+     "score": 87
     },
     "family-indoor": {
      "base": 59,
@@ -25377,13 +25377,13 @@
      "base": 15,
      "life": 43,
      "play": 55,
-     "score": 79
+     "score": 80
     },
     "single-outdoor": {
      "base": 33,
      "life": 43,
      "play": 59,
-     "score": 90
+     "score": 91
     }
    },
    "transitConvenience": 32
@@ -25480,7 +25480,7 @@
      "base": 17,
      "life": 44,
      "play": 55,
-     "score": 60
+     "score": 59
     },
     "single-outdoor": {
      "base": 65,
@@ -25590,7 +25590,7 @@
      "base": 65,
      "life": 56,
      "play": 59,
-     "score": 65
+     "score": 64
     }
    },
    "transitConvenience": 32
@@ -25648,7 +25648,7 @@
      "base": 34,
      "life": 40,
      "play": 77,
-     "score": 34
+     "score": 33
     },
     "dinks-outdoor": {
      "base": 19,
@@ -25666,7 +25666,7 @@
      "base": 82,
      "life": 67,
      "play": 55,
-     "score": 66
+     "score": 65
     },
     "senior-indoor": {
      "base": 70,
@@ -25849,7 +25849,7 @@
      "base": 33,
      "life": 55,
      "play": 55,
-     "score": 85
+     "score": 84
     },
     "dinks-outdoor": {
      "base": 38,
@@ -25885,7 +25885,7 @@
      "base": 16,
      "life": 44,
      "play": 55,
-     "score": 72
+     "score": 71
     },
     "single-outdoor": {
      "base": 20,
@@ -26088,7 +26088,7 @@
      "base": 6,
      "life": 24,
      "play": 70,
-     "score": 38
+     "score": 37
     },
     "single-outdoor": {
      "base": 4,
@@ -26288,7 +26288,7 @@
      "base": 97,
      "life": 73,
      "play": 71,
-     "score": 75
+     "score": 74
     },
     "single-outdoor": {
      "base": 82,
@@ -26457,7 +26457,7 @@
      "base": 44,
      "life": 51,
      "play": 66,
-     "score": 79
+     "score": 78
     },
     "dinks-outdoor": {
      "base": 42,
@@ -26499,13 +26499,13 @@
      "base": 42,
      "life": 50,
      "play": 55,
-     "score": 78
+     "score": 77
     }
    },
    "transitConvenience": 32
   },
   "odai": {
-   "commute": 35,
+   "commute": 36,
    "greenHa": 19.7,
    "greenParks": [
     "荒川江北橋緑地",
@@ -26560,13 +26560,13 @@
      "base": 20,
      "life": 48,
      "play": 54,
-     "score": 70
+     "score": 71
     },
     "dinks-outdoor": {
      "base": 50,
      "life": 48,
      "play": 66,
-     "score": 90
+     "score": 91
     },
     "family-indoor": {
      "base": 49,
@@ -26602,7 +26602,7 @@
      "base": 57,
      "life": 48,
      "play": 66,
-     "score": 93
+     "score": 94
     }
    },
    "transitConvenience": 32
@@ -26712,7 +26712,7 @@
    "transitConvenience": 32
   },
   "ogi-ohashi": {
-   "commute": 39,
+   "commute": 41,
    "greenHa": 14.6,
    "greenParks": [
     "荒川江北橋緑地"
@@ -26764,7 +26764,7 @@
      "base": 21,
      "life": 44,
      "play": 61,
-     "score": 89
+     "score": 90
     },
     "dinks-outdoor": {
      "base": 39,
@@ -26800,13 +26800,13 @@
      "base": 7,
      "life": 31,
      "play": 61,
-     "score": 74
+     "score": 75
     },
     "single-outdoor": {
      "base": 16,
      "life": 31,
      "play": 64,
-     "score": 86
+     "score": 87
     }
    },
    "transitConvenience": 32
@@ -26896,7 +26896,7 @@
      "base": 60,
      "life": 57,
      "play": 63,
-     "score": 96
+     "score": 95
     },
     "single-outdoor": {
      "base": 35,
@@ -26908,7 +26908,7 @@
    "transitConvenience": 73
   },
   "ohanajaya": {
-   "commute": 34,
+   "commute": 35,
    "greenHa": 0.0,
    "greenParks": [],
    "indoorDest": [
@@ -26958,13 +26958,13 @@
      "base": 40,
      "life": 52,
      "play": 62,
-     "score": 85
+     "score": 86
     },
     "dinks-outdoor": {
      "base": 12,
      "life": 52,
      "play": 31,
-     "score": 62
+     "score": 63
     },
     "family-indoor": {
      "base": 79,
@@ -27000,7 +27000,7 @@
      "base": 14,
      "life": 51,
      "play": 31,
-     "score": 66
+     "score": 67
     }
    },
    "transitConvenience": 32
@@ -27261,7 +27261,7 @@
      "base": 14,
      "life": 42,
      "play": 59,
-     "score": 77
+     "score": 76
     },
     "dinks-outdoor": {
      "base": 5,
@@ -27297,7 +27297,7 @@
      "base": 11,
      "life": 38,
      "play": 59,
-     "score": 73
+     "score": 72
     },
     "single-outdoor": {
      "base": 3,
@@ -27363,7 +27363,7 @@
      "base": 71,
      "life": 68,
      "play": 56,
-     "score": 90
+     "score": 89
     },
     "dinks-outdoor": {
      "base": 86,
@@ -27465,13 +27465,13 @@
      "base": 78,
      "life": 63,
      "play": 68,
-     "score": 71
+     "score": 70
     },
     "dinks-outdoor": {
      "base": 58,
      "life": 63,
      "play": 47,
-     "score": 57
+     "score": 56
     },
     "family-indoor": {
      "base": 82,
@@ -27501,7 +27501,7 @@
      "base": 80,
      "life": 61,
      "play": 68,
-     "score": 74
+     "score": 73
     },
     "single-outdoor": {
      "base": 60,
@@ -27668,7 +27668,7 @@
      "base": 96,
      "life": 74,
      "play": 70,
-     "score": 75
+     "score": 74
     },
     "dinks-outdoor": {
      "base": 99,
@@ -27704,19 +27704,19 @@
      "base": 93,
      "life": 68,
      "play": 70,
-     "score": 69
+     "score": 68
     },
     "single-outdoor": {
      "base": 98,
      "life": 68,
      "play": 89,
-     "score": 94
+     "score": 93
     }
    },
    "transitConvenience": 98
   },
   "oku": {
-   "commute": 52,
+   "commute": 56,
    "greenHa": 9.7,
    "greenParks": [
     "荒川遊園",
@@ -27747,6 +27747,13 @@
      "to": "ueno"
     },
     {
+     "minutes": 16,
+     "parks": [
+      "皇居外苑"
+     ],
+     "to": "tokyo"
+    },
+    {
      "minutes": 0,
      "parks": [
       "荒川遊園",
@@ -27754,13 +27761,6 @@
       "滝野川公園"
      ],
      "to": "oku"
-    },
-    {
-     "minutes": 19,
-     "parks": [
-      "皇居外苑"
-     ],
-     "to": "tokyo"
     }
    ],
    "rentLow": 83,
@@ -27769,19 +27769,19 @@
      "base": 53,
      "life": 47,
      "play": 76,
-     "score": 93
+     "score": 95
     },
     "dinks-outdoor": {
      "base": 37,
      "life": 47,
      "play": 57,
-     "score": 88
+     "score": 90
     },
     "family-indoor": {
      "base": 77,
      "life": 62,
      "play": 76,
-     "score": 93
+     "score": 94
     },
     "family-outdoor": {
      "base": 69,
@@ -27802,16 +27802,16 @@
      "score": 76
     },
     "single-indoor": {
-     "base": 64,
-     "life": 49,
+     "base": 65,
+     "life": 50,
      "play": 76,
-     "score": 98
+     "score": 99
     },
     "single-outdoor": {
-     "base": 46,
-     "life": 49,
+     "base": 47,
+     "life": 50,
      "play": 57,
-     "score": 94
+     "score": 95
     }
    },
    "transitConvenience": 52
@@ -27867,7 +27867,7 @@
      "base": 75,
      "life": 61,
      "play": 69,
-     "score": 40
+     "score": 39
     },
     "dinks-outdoor": {
      "base": 67,
@@ -27966,7 +27966,7 @@
      "base": 67,
      "life": 61,
      "play": 65,
-     "score": 23
+     "score": 24
     },
     "dinks-outdoor": {
      "base": 43,
@@ -28110,7 +28110,7 @@
      "base": 75,
      "life": 52,
      "play": 75,
-     "score": 26
+     "score": 25
     }
    },
    "transitConvenience": 32
@@ -28176,7 +28176,7 @@
      "base": 80,
      "life": 63,
      "play": 67,
-     "score": 83
+     "score": 82
     },
     "family-indoor": {
      "base": 44,
@@ -28279,13 +28279,13 @@
      "base": 71,
      "life": 46,
      "play": 83,
-     "score": 49
+     "score": 48
     },
     "family-indoor": {
      "base": 28,
      "life": 49,
      "play": 56,
-     "score": 33
+     "score": 32
     },
     "family-outdoor": {
      "base": 65,
@@ -28376,7 +28376,7 @@
      "base": 67,
      "life": 58,
      "play": 69,
-     "score": 86
+     "score": 85
     },
     "dinks-outdoor": {
      "base": 80,
@@ -28388,7 +28388,7 @@
      "base": 79,
      "life": 66,
      "play": 69,
-     "score": 81
+     "score": 80
     },
     "family-outdoor": {
      "base": 91,
@@ -28790,7 +28790,7 @@
      "base": 93,
      "life": 71,
      "play": 75,
-     "score": 94
+     "score": 93
     },
     "family-outdoor": {
      "base": 76,
@@ -29116,7 +29116,7 @@
      "score": 17
     },
     "single-outdoor": {
-     "base": 31,
+     "base": 30,
      "life": 61,
      "play": 30,
      "score": 5
@@ -29223,7 +29223,7 @@
      "base": 85,
      "life": 59,
      "play": 74,
-     "score": 70
+     "score": 69
     }
    },
    "transitConvenience": 90
@@ -29323,7 +29323,7 @@
      "base": 91,
      "life": 48,
      "play": 98,
-     "score": 62
+     "score": 61
     }
    },
    "transitConvenience": 93
@@ -29397,7 +29397,7 @@
      "base": 57,
      "life": 60,
      "play": 59,
-     "score": 60
+     "score": 59
     },
     "family-outdoor": {
      "base": 72,
@@ -29495,7 +29495,7 @@
      "base": 51,
      "life": 53,
      "play": 68,
-     "score": 41
+     "score": 40
     },
     "family-outdoor": {
      "base": 29,
@@ -29519,7 +29519,7 @@
      "base": 87,
      "life": 65,
      "play": 68,
-     "score": 67
+     "score": 66
     },
     "single-outdoor": {
      "base": 63,
@@ -29617,7 +29617,7 @@
      "base": 57,
      "life": 43,
      "play": 81,
-     "score": 80
+     "score": 79
     },
     "single-outdoor": {
      "base": 8,
@@ -29781,7 +29781,7 @@
      "base": 95,
      "life": 75,
      "play": 67,
-     "score": 100
+     "score": 99
     },
     "dinks-outdoor": {
      "base": 83,
@@ -30297,7 +30297,7 @@
      "base": 65,
      "life": 59,
      "play": 70,
-     "score": 40
+     "score": 39
     },
     "family-outdoor": {
      "base": 75,
@@ -30423,7 +30423,7 @@
      "base": 3,
      "life": 25,
      "play": 58,
-     "score": 9
+     "score": 10
     },
     "single-outdoor": {
      "base": 35,
@@ -30504,7 +30504,7 @@
      "base": 42,
      "life": 64,
      "play": 32,
-     "score": 73
+     "score": 72
     },
     "senior-indoor": {
      "base": 69,
@@ -30625,7 +30625,7 @@
      "base": 92,
      "life": 63,
      "play": 76,
-     "score": 64
+     "score": 63
     },
     "single-outdoor": {
      "base": 76,
@@ -30828,7 +30828,7 @@
      "base": 36,
      "life": 46,
      "play": 56,
-     "score": 69
+     "score": 68
     }
    },
    "transitConvenience": 32
@@ -30917,7 +30917,7 @@
      "play": 92
     },
     "single-indoor": {
-     "base": 15,
+     "base": 14,
      "life": 35,
      "play": 67
     },
@@ -30990,7 +30990,7 @@
      "base": 38,
      "life": 52,
      "play": 51,
-     "score": 74
+     "score": 73
     },
     "family-indoor": {
      "base": 75,
@@ -31020,7 +31020,7 @@
      "base": 15,
      "life": 39,
      "play": 60,
-     "score": 55
+     "score": 54
     },
     "single-outdoor": {
      "base": 16,
@@ -31189,7 +31189,7 @@
      "base": 87,
      "life": 72,
      "play": 62,
-     "score": 67
+     "score": 66
     },
     "dinks-outdoor": {
      "base": 95,
@@ -31231,7 +31231,7 @@
      "base": 91,
      "life": 63,
      "play": 76,
-     "score": 83
+     "score": 82
     }
    },
    "transitConvenience": 52
@@ -31323,7 +31323,7 @@
      "base": 25,
      "life": 38,
      "play": 69,
-     "score": 7
+     "score": 8
     },
     "single-outdoor": {
      "base": 59,
@@ -31392,7 +31392,7 @@
      "base": 25,
      "life": 49,
      "play": 48,
-     "score": 27
+     "score": 28
     },
     "family-indoor": {
      "base": 23,
@@ -31883,7 +31883,7 @@
      "base": 98,
      "life": 72,
      "play": 77,
-     "score": 92
+     "score": 91
     },
     "dinks-outdoor": {
      "base": 68,
@@ -32129,7 +32129,7 @@
    "transitConvenience": 32
   },
   "senjuohashi": {
-   "commute": 44,
+   "commute": 46,
    "greenHa": 1.8,
    "greenParks": [
     "千住スポーツ公園"
@@ -32181,13 +32181,13 @@
      "base": 25,
      "life": 39,
      "play": 71,
-     "score": 33
+     "score": 35
     },
     "dinks-outdoor": {
      "base": 11,
      "life": 39,
      "play": 49,
-     "score": 21
+     "score": 22
     },
     "family-indoor": {
      "base": 52,
@@ -32321,7 +32321,7 @@
      "base": 3,
      "life": 36,
      "play": 33,
-     "score": 38
+     "score": 39
     }
    },
    "transitConvenience": 52
@@ -32396,7 +32396,7 @@
      "base": 99,
      "life": 83,
      "play": 57,
-     "score": 88
+     "score": 87
     },
     "senior-indoor": {
      "base": 96,
@@ -32479,7 +32479,7 @@
      "base": 50,
      "life": 55,
      "play": 62,
-     "score": 61
+     "score": 60
     },
     "dinks-outdoor": {
      "base": 46,
@@ -32491,7 +32491,7 @@
      "base": 92,
      "life": 76,
      "play": 62,
-     "score": 85
+     "score": 84
     },
     "family-outdoor": {
      "base": 92,
@@ -32512,7 +32512,7 @@
      "score": 78
     },
     "single-indoor": {
-     "base": 47,
+     "base": 46,
      "life": 52,
      "play": 62,
      "score": 58
@@ -32598,7 +32598,7 @@
      "base": 39,
      "life": 60,
      "play": 36,
-     "score": 39
+     "score": 40
     },
     "senior-indoor": {
      "base": 53,
@@ -32687,7 +32687,7 @@
      "base": 64,
      "life": 52,
      "play": 67,
-     "score": 51
+     "score": 50
     },
     "family-indoor": {
      "base": 45,
@@ -32723,7 +32723,7 @@
      "base": 64,
      "life": 50,
      "play": 67,
-     "score": 53
+     "score": 52
     }
    },
    "transitConvenience": 32
@@ -32779,7 +32779,7 @@
      "base": 42,
      "life": 56,
      "play": 56,
-     "score": 88
+     "score": 87
     },
     "dinks-outdoor": {
      "base": 69,
@@ -33433,7 +33433,7 @@
    "transitConvenience": 32
   },
   "shim-mikawashima": {
-   "commute": 51,
+   "commute": 53,
    "greenHa": 1.5,
    "greenParks": [
     "荒川公園"
@@ -33462,6 +33462,13 @@
      "to": "keisei-ueno"
     },
     {
+     "minutes": 18,
+     "parks": [
+      "皇居外苑"
+     ],
+     "to": "tokyo"
+    },
+    {
      "minutes": 8,
      "parks": [
       "汐入公園",
@@ -33469,14 +33476,6 @@
       "荒川日ノ出町緑地"
      ],
      "to": "ushida"
-    },
-    {
-     "minutes": 12,
-     "parks": [
-      "荒川江北橋緑地",
-      "尾久の原公園"
-     ],
-     "to": "higashi-ogu-sanchome"
     }
    ],
    "rentLow": 52,
@@ -33485,13 +33484,13 @@
      "base": 78,
      "life": 60,
      "play": 74,
-     "score": 60
+     "score": 62
     },
     "dinks-outdoor": {
      "base": 56,
      "life": 60,
      "play": 51,
-     "score": 41
+     "score": 43
     },
     "family-indoor": {
      "base": 36,
@@ -33521,13 +33520,13 @@
      "base": 83,
      "life": 59,
      "play": 74,
-     "score": 64
+     "score": 67
     },
     "single-outdoor": {
      "base": 61,
      "life": 59,
      "play": 51,
-     "score": 47
+     "score": 48
     }
    },
    "transitConvenience": 32
@@ -33624,7 +33623,7 @@
      "base": 13,
      "life": 37,
      "play": 62,
-     "score": 8
+     "score": 9
     },
     "single-outdoor": {
      "base": 17,
@@ -33676,13 +33675,12 @@
      "to": "shiodome"
     },
     {
-     "minutes": 13,
+     "minutes": 10,
      "parks": [
-      "北の丸公園",
-      "外濠公園",
-      "千鳥ヶ淵公園"
+      "上野恩賜公園",
+      "旧岩崎邸庭園"
      ],
-     "to": "hanzomon"
+     "to": "ueno"
     }
    ],
    "rentLow": 4,
@@ -33697,7 +33695,7 @@
      "base": 82,
      "life": 53,
      "play": 84,
-     "score": 44
+     "score": 43
     },
     "family-indoor": {
      "base": 3,
@@ -34238,7 +34236,7 @@
      "base": 68,
      "life": 59,
      "play": 57,
-     "score": 44
+     "score": 45
     }
    },
    "transitConvenience": 32
@@ -34405,7 +34403,7 @@
      "base": 37,
      "life": 56,
      "play": 44,
-     "score": 71
+     "score": 70
     },
     "family-indoor": {
      "base": 33,
@@ -34500,7 +34498,7 @@
      "base": 44,
      "life": 44,
      "play": 76,
-     "score": 68
+     "score": 67
     },
     "dinks-outdoor": {
      "base": 28,
@@ -34536,7 +34534,7 @@
      "base": 51,
      "life": 44,
      "play": 76,
-     "score": 77
+     "score": 76
     },
     "single-outdoor": {
      "base": 33,
@@ -34806,7 +34804,7 @@
      "base": 47,
      "life": 51,
      "play": 67,
-     "score": 66
+     "score": 65
     },
     "dinks-outdoor": {
      "base": 45,
@@ -34842,7 +34840,7 @@
      "base": 49,
      "life": 50,
      "play": 67,
-     "score": 70
+     "score": 69
     },
     "single-outdoor": {
      "base": 48,
@@ -35051,7 +35049,7 @@
      "base": 31,
      "life": 25,
      "play": 84,
-     "score": 41
+     "score": 42
     }
    },
    "transitConvenience": 78
@@ -35142,13 +35140,13 @@
      "base": 72,
      "life": 61,
      "play": 63,
-     "score": 84
+     "score": 83
     },
     "single-outdoor": {
      "base": 69,
      "life": 61,
      "play": 55,
-     "score": 82
+     "score": 81
     }
    },
    "transitConvenience": 32
@@ -35243,7 +35241,7 @@
      "base": 24,
      "life": 34,
      "play": 74,
-     "score": 97
+     "score": 96
     },
     "single-outdoor": {
      "base": 18,
@@ -35318,7 +35316,7 @@
      "base": 90,
      "life": 71,
      "play": 69,
-     "score": 58
+     "score": 57
     },
     "family-outdoor": {
      "base": 65,
@@ -35443,7 +35441,7 @@
      "base": 42,
      "life": 57,
      "play": 44,
-     "score": 38
+     "score": 37
     }
    },
    "transitConvenience": 32
@@ -35499,7 +35497,7 @@
      "base": 98,
      "life": 74,
      "play": 74,
-     "score": 59
+     "score": 58
     },
     "dinks-outdoor": {
      "base": 98,
@@ -35736,7 +35734,7 @@
      "base": 90,
      "life": 63,
      "play": 75,
-     "score": 72
+     "score": 71
     },
     "single-outdoor": {
      "base": 67,
@@ -35802,7 +35800,7 @@
      "base": 36,
      "life": 46,
      "play": 69,
-     "score": 77
+     "score": 76
     },
     "dinks-outdoor": {
      "base": 29,
@@ -36131,7 +36129,7 @@
      "base": 1,
      "life": 20,
      "play": 58,
-     "score": 36
+     "score": 35
     },
     "single-outdoor": {
      "base": 28,
@@ -36505,19 +36503,19 @@
      "base": 85,
      "life": 55,
      "play": 84,
-     "score": 36
+     "score": 35
     },
     "family-indoor": {
      "base": 50,
      "life": 54,
      "play": 66,
-     "score": 25
+     "score": 24
     },
     "family-outdoor": {
      "base": 78,
      "life": 54,
      "play": 84,
-     "score": 36
+     "score": 35
     },
     "senior-indoor": {
      "base": 45,
@@ -36613,7 +36611,7 @@
      "base": 29,
      "life": 45,
      "play": 67,
-     "score": 36
+     "score": 37
     },
     "family-outdoor": {
      "base": 25,
@@ -36637,7 +36635,7 @@
      "base": 34,
      "life": 43,
      "play": 67,
-     "score": 32
+     "score": 31
     },
     "single-outdoor": {
      "base": 33,
@@ -37303,7 +37301,7 @@
      "base": 67,
      "life": 58,
      "play": 69,
-     "score": 9
+     "score": 10
     },
     "dinks-outdoor": {
      "base": 59,
@@ -37515,7 +37513,7 @@
      "base": 58,
      "life": 37,
      "play": 87,
-     "score": 25
+     "score": 26
     },
     "family-indoor": {
      "base": 53,
@@ -37551,7 +37549,7 @@
      "base": 59,
      "life": 35,
      "play": 87,
-     "score": 23
+     "score": 24
     }
    },
    "transitConvenience": 32
@@ -38040,7 +38038,7 @@
      "base": 83,
      "life": 62,
      "play": 68,
-     "score": 90
+     "score": 89
     },
     "single-outdoor": {
      "base": 33,
@@ -38204,7 +38202,7 @@
      "base": 83,
      "life": 72,
      "play": 59,
-     "score": 62
+     "score": 61
     },
     "dinks-outdoor": {
      "base": 91,
@@ -38240,7 +38238,7 @@
      "base": 77,
      "life": 65,
      "play": 59,
-     "score": 54
+     "score": 53
     },
     "single-outdoor": {
      "base": 88,
@@ -38410,7 +38408,7 @@
      "base": 100,
      "life": 73,
      "play": 94,
-     "score": 84
+     "score": 83
     },
     "family-indoor": {
      "base": 44,
@@ -38507,13 +38505,13 @@
      "base": 71,
      "life": 63,
      "play": 64,
-     "score": 43
+     "score": 42
     },
     "dinks-outdoor": {
      "base": 90,
      "life": 63,
      "play": 80,
-     "score": 73
+     "score": 72
     },
     "family-indoor": {
      "base": 23,
@@ -39250,7 +39248,7 @@
      "base": 33,
      "life": 24,
      "play": 89,
-     "score": 79
+     "score": 78
     }
    },
    "transitConvenience": 32
@@ -39750,10 +39748,10 @@
      "score": 33
     },
     "single-indoor": {
-     "base": 85,
+     "base": 84,
      "life": 67,
      "play": 63,
-     "score": 31
+     "score": 30
     },
     "single-outdoor": {
      "base": 92,
@@ -40071,7 +40069,7 @@
    "transitConvenience": 32
   },
   "tawaramachi": {
-   "commute": 62,
+   "commute": 63,
    "greenHa": 2.3,
    "greenParks": [
     "隅田川緑道"
@@ -40121,7 +40119,7 @@
      "base": 96,
      "life": 75,
      "play": 70,
-     "score": 48
+     "score": 50
     },
     "dinks-outdoor": {
      "base": 89,
@@ -40139,7 +40137,7 @@
      "base": 43,
      "life": 52,
      "play": 60,
-     "score": 23
+     "score": 24
     },
     "senior-indoor": {
      "base": 85,
@@ -40163,7 +40161,7 @@
      "base": 90,
      "life": 73,
      "play": 60,
-     "score": 48
+     "score": 49
     }
    },
    "transitConvenience": 32
@@ -40754,7 +40752,7 @@
      "base": 100,
      "life": 74,
      "play": 75,
-     "score": 91
+     "score": 90
     },
     "single-outdoor": {
      "base": 78,
@@ -40931,7 +40929,7 @@
      "base": 63,
      "life": 56,
      "play": 74,
-     "score": 61
+     "score": 60
     },
     "family-outdoor": {
      "base": 61,
@@ -41160,7 +41158,7 @@
      "base": 81,
      "life": 59,
      "play": 72,
-     "score": 50
+     "score": 49
     },
     "single-outdoor": {
      "base": 50,
@@ -41224,7 +41222,7 @@
      "base": 25,
      "life": 36,
      "play": 77,
-     "score": 72
+     "score": 71
     },
     "dinks-outdoor": {
      "base": 6,
@@ -41266,7 +41264,7 @@
      "base": 8,
      "life": 36,
      "play": 46,
-     "score": 49
+     "score": 48
     }
    },
    "transitConvenience": 32
@@ -41765,7 +41763,7 @@
    "transitConvenience": 32
   },
   "toneri": {
-   "commute": 25,
+   "commute": 26,
    "greenHa": 67.3,
    "greenParks": [
     "舎人公園",
@@ -41827,7 +41825,7 @@
      "base": 38,
      "life": 29,
      "play": 85,
-     "score": 89
+     "score": 90
     },
     "family-indoor": {
      "base": 38,
@@ -41854,22 +41852,22 @@
      "score": 93
     },
     "single-indoor": {
-     "base": 4,
+     "base": 5,
      "life": 35,
      "play": 47,
-     "score": 52
+     "score": 54
     },
     "single-outdoor": {
-     "base": 56,
+     "base": 58,
      "life": 35,
      "play": 85,
-     "score": 97
+     "score": 98
     }
    },
    "transitConvenience": 32
   },
   "toneri-koen": {
-   "commute": 28,
+   "commute": 29,
    "greenHa": 66.5,
    "greenParks": [
     "舎人公園",
@@ -41931,7 +41929,7 @@
      "base": 20,
      "life": 22,
      "play": 85,
-     "score": 78
+     "score": 79
     },
     "family-indoor": {
      "base": 12,
@@ -41961,7 +41959,7 @@
      "base": 2,
      "life": 27,
      "play": 51,
-     "score": 41
+     "score": 42
     },
     "single-outdoor": {
      "base": 35,
@@ -42128,7 +42126,7 @@
      "base": 52,
      "life": 49,
      "play": 72,
-     "score": 22
+     "score": 23
     },
     "dinks-outdoor": {
      "base": 26,
@@ -42235,7 +42233,7 @@
      "base": 49,
      "life": 65,
      "play": 40,
-     "score": 88
+     "score": 87
     },
     "family-indoor": {
      "base": 90,
@@ -42368,7 +42366,7 @@
      "base": 25,
      "life": 52,
      "play": 39,
-     "score": 80
+     "score": 79
     }
    },
    "transitConvenience": 57
@@ -42994,7 +42992,7 @@
    "transitConvenience": 32
   },
   "ueno": {
-   "commute": 72,
+   "commute": 74,
    "greenHa": 55.7,
    "greenParks": [
     "上野恩賜公園",
@@ -43046,7 +43044,7 @@
      "base": 93,
      "life": 72,
      "play": 69,
-     "score": 76
+     "score": 78
     },
     "dinks-outdoor": {
      "base": 98,
@@ -43058,7 +43056,7 @@
      "base": 25,
      "life": 42,
      "play": 69,
-     "score": 24
+     "score": 25
     },
     "family-outdoor": {
      "base": 51,
@@ -43387,13 +43385,13 @@
      "base": 68,
      "life": 52,
      "play": 68,
-     "score": 88
+     "score": 87
     }
    },
    "transitConvenience": 32
   },
   "umejima": {
-   "commute": 35,
+   "commute": 36,
    "greenHa": 2.3,
    "greenParks": [
     "ベルモント公園",
@@ -43448,7 +43446,7 @@
      "base": 26,
      "life": 44,
      "play": 65,
-     "score": 84
+     "score": 85
     },
     "dinks-outdoor": {
      "base": 20,
@@ -43759,7 +43757,7 @@
      "base": 23,
      "life": 33,
      "play": 70,
-     "score": 56
+     "score": 55
     },
     "family-indoor": {
      "base": 4,
@@ -43958,7 +43956,7 @@
      "base": 82,
      "life": 58,
      "play": 77,
-     "score": 39
+     "score": 40
     },
     "family-indoor": {
      "base": 54,
@@ -44189,7 +44187,7 @@
      "score": 25
     },
     "single-outdoor": {
-     "base": 67,
+     "base": 66,
      "life": 47,
      "play": 74,
      "score": 23
@@ -44253,7 +44251,7 @@
      "base": 69,
      "life": 59,
      "play": 69,
-     "score": 41
+     "score": 40
     },
     "dinks-outdoor": {
      "base": 83,
@@ -44598,13 +44596,13 @@
      "base": 11,
      "life": 32,
      "play": 58,
-     "score": 51
+     "score": 50
     }
    },
    "transitConvenience": 32
   },
   "yazaike": {
-   "commute": 30,
+   "commute": 31,
    "greenHa": 69.8,
    "greenParks": [
     "舎人公園",
@@ -44660,13 +44658,13 @@
      "base": 3,
      "life": 28,
      "play": 54,
-     "score": 42
+     "score": 43
     },
     "dinks-outdoor": {
      "base": 36,
      "life": 28,
      "play": 86,
-     "score": 87
+     "score": 88
     },
     "family-indoor": {
      "base": 30,
@@ -44696,7 +44694,7 @@
      "base": 4,
      "life": 30,
      "play": 54,
-     "score": 49
+     "score": 50
     },
     "single-outdoor": {
      "base": 44,
@@ -44959,13 +44957,13 @@
      "base": 53,
      "life": 62,
      "play": 54,
-     "score": 24
+     "score": 25
     },
     "dinks-outdoor": {
      "base": 65,
      "life": 62,
      "play": 54,
-     "score": 29
+     "score": 30
     },
     "family-indoor": {
      "base": 57,
@@ -45272,7 +45270,7 @@
      "base": 85,
      "life": 58,
      "play": 80,
-     "score": 38
+     "score": 39
     },
     "senior-indoor": {
      "base": 63,
@@ -45362,7 +45360,7 @@
      "base": 89,
      "life": 59,
      "play": 84,
-     "score": 63
+     "score": 62
     },
     "family-indoor": {
      "base": 83,
@@ -45697,7 +45695,7 @@
      "base": 98,
      "life": 65,
      "play": 89,
-     "score": 62
+     "score": 61
     }
    },
    "transitConvenience": 32
@@ -45961,7 +45959,7 @@
      "base": 62,
      "life": 52,
      "play": 66,
-     "score": 84
+     "score": 83
     },
     "family-indoor": {
      "base": 37,
