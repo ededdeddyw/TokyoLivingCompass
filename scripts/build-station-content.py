@@ -58,7 +58,7 @@ RESTRICTED_HOSPITAL = re.compile(r"宮内庁|拘置所|刑務所|医務部|自�
 HOSPITAL_IN_CLINIC = re.compile(r"病院")
 NOT_HOSPITAL = re.compile(r"クリニック|[Cc]linic|診療所|動物|歯科|訪問看護|ステーション|健診|健康医学|透析")
 CLINIC_NAME = re.compile(r"クリニック|[Cc]linic|医院|診療所|歯科|整形外科|皮膚科|眼科|耳鼻|泌尿器|美容|内科|婦人科|小児科")
-NOT_MEDICAL = re.compile(r"接骨|整骨|保健福祉|うめとぴあ|動物|犬猫|ペット|獣医|[Vv]et|^予定$|BOWOW")
+NOT_MEDICAL = re.compile(r"接骨|整骨|保健福祉|うめとぴあ|動物|犬猫|ペット|獣医|[Vv]et|^予定$|BOWOW|^myhospital$")
 
 
 def sort_medical(clinics, hospitals):
@@ -108,7 +108,7 @@ def sort_medical(clinics, hospitals):
 
 # 地図データでスーパーとして登録されているが、食料品の店ではないもの
 # （西新宿五丁目で米店とはんこ屋、東新宿で免税店を「日常の買い物」に挙げていた）。
-NOT_GROCERY = re.compile(r"はんこ|印章|印鑑|米店|米穀|免税|Duty|ドラッグ|薬局|セブン|ローソン|ファミリーマート|ミニストップ|7-Eleven|Lawson|FamilyMart|Coffee|珈琲")
+NOT_GROCERY = re.compile(r"はんこ|印章|印鑑|米店|米穀|免税|Duty|ドラッグ|薬局|セブン|ローソン|ファミリーマート|ミニストップ|7-Eleven|Lawson|FamilyMart|Coffee|珈琲|駅$|百貨店|Eataly")
 # 地図データの店名の誤記。見つかったものだけを直す。
 SHOP_NAME_FIX = [("TRAIAL", "TRIAL"), ("ハマナサ", "ハナマサ"), ("店店", "店"),
                  ("Maruetsu petit", "マルエツプチ"), ("Maruetsu", "マルエツ")]
