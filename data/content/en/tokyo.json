@@ -43,7 +43,7 @@
   "stationNote": "11 lines serve the station. JR Tokaido Line and JR Yamanote Line run through it. JR Yokosuka Line and JR Chuo Main Line also call here. JR Chuo Rapid Line and JR Sobu Main Line are available too. JR Keiyo Line and Narita Express stop here as well. JR Keihin-Tohoku Line stop here as well. JR Ueno-Tokyo Line stop here as well. Tokyo Metro Marunouchi Line stop here as well. The lines are split between operators (JR East runs 10 lines and Tokyo Metro runs 1 line), so when one line stops you can change to a line run by a different company.",
   "congestion": "JR Sobu Main Line runs at 160% of capacity in the morning peak. The busiest stretch is 新小岩→錦糸町, which this station is not on. JR Tokaido Line runs at 159%. Its busiest stretch is 川崎→品川, which this station is likewise not on. JR Keihin-Tohoku Line runs at 159%. Its busiest stretch is 大井町→品川, which this station is likewise not on. JR Chuo Main Line, Narita Express and JR Ueno-Tokyo Line is not covered by the ministry's congestion survey. At 150%, the ministry's scale describes shoulders not quite touching, with crowding near the doors. The figures describe each line's busiest stretch, so the stretch you ride may be easier.",
   "rentRange": {
-    "note": "Around this station, One room ¥150,000 to ¥160,000 and 1K ¥140,000 to ¥150,000. 1LDK ¥250,000 to ¥260,000 and 2LDK ¥330,000 to ¥340,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road. Here the one-room figure comes out above the 1K figure. Because these are averages of listed properties, the order of the figures can differ from the order of the floor areas.",
+    "note": "Around this station, One room ¥150,000 to ¥160,000 and 1K ¥130,000 to ¥140,000. 1LDK ¥300,000 to ¥310,000 and 2LDK ¥330,000 to ¥340,000. These are the per-station averages published by LIFULL HOME'S, Yahoo! Real Estate and at home, averaged together and rounded down to the nearest ¥10,000 (our own survey). All three are asking rents, so what tenants finally agree can be lower. Within the same station area the figure moves a great deal with the age of the building, the walk from the station, and whether the flat faces a main road. Here the one-room figure comes out above the 1K figure. Because these are averages of listed properties, the order of the figures can differ from the order of the floor areas.",
     "drivers": [
       "Age and construction of the building",
       "Walking distance from the station",
@@ -52,7 +52,7 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥150,000 to ¥160,000. Set against how long it takes to reach the central business districts, that is among the lowest in the 23 wards. In plain yen, though, it is on the high side for the 23 wards. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥150,000 to ¥160,000. Set against how long it takes to reach the central business districts, that is on the low side. In plain yen, though, it is on the high side for the 23 wards. For 1LDK, 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "nijubashimae",
@@ -61,8 +61,8 @@
     },
     {
       "slug": "otemachi",
-      "lead": "Tokyo is ahead on how close the centre is and lower rent. ",
-      "note": "Close enough to walk to from Tokyo. Both have the Tokyo Metro Marunouchi Line. Tokyo adds the 10 lines; Otemachi adds the 4 lines. Tokyo is at least 5 minutes quicker to Shinagawa and Shinjuku. A one-room flat also costs about ¥7,000 more at Otemachi."
+      "lead": "Tokyo is ahead on how close the centre is, and little else separates the two. ",
+      "note": "Close enough to walk to from Tokyo. Both have the Tokyo Metro Marunouchi Line. Tokyo adds the 10 lines; Otemachi adds the 4 lines. Tokyo is at least 5 minutes quicker to Shinagawa and Shinjuku. Rents, flood projections and the rest differ little."
     }
   ],
   "goodFor": [
@@ -80,7 +80,6 @@
     "錦町有楽町線 (a main road) runs just outside the station. In a flat facing it, the cars are audible morning and evening"
   ],
   "tags": [
-    "goodValue",
     "fastToCenter",
     "manyLines",
     "flat",
@@ -91,7 +90,7 @@
     "groceries": "There are 5 supermarkets within walking distance, and the nearest is 2 minutes on foot.",
     "hazards": "The station itself sits inside the area projected to flood in the heaviest rainfall the government models.",
     "stationNote": "11 lines serve the station, and the choice of connections is wider than at most stations in the 23 wards.",
-    "rentRange": "Set against how long the commute takes, rents here are among the lowest in the 23 wards.",
+    "rentRange": "Set against how long the commute takes, rents here are on the low side.",
     "medical": "The number of clinics and pharmacies within walking distance is on the high side for the 23 wards.",
     "congestion": "JR Yamanote Line trains toward 新宿 pass through the line's busiest stretch, but at 136% passengers are not shoulder to shoulder. ",
     "noiseSources": "Whether a flat faces the road changes what you hear indoors."

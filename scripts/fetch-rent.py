@@ -37,6 +37,9 @@ TRIES = 6          # 1ページを取り直す回数
 # こうすると、相手が受け入れられる速さに自然と落ち着く。
 PACE_START = 8.0    # 最初の間隔（秒）
 PACE_MIN = 5.0      # これより速くはしない
+# サイトごとの最低間隔。LIFULL HOME'S は、5〜8秒の間隔で30件ほど取ると空の応答を返すようになった
+# （2026-11-01）。最初から間隔を長く取る。
+SITE_PACE_MIN = {"LIFULL HOME'S": 30.0}
 PACE_MAX = 90.0     # これより遅くはしない
 PACE_UP = 2.0       # 空の応答が返ったときに間隔を何倍にするか
 PACE_DOWN = 0.9     # うまく取れたときに間隔を何倍にするか
@@ -63,7 +66,7 @@ def fetch(url, site):
     これは「速すぎる」という合図とみなし、そのサイトの間隔を広げて待ち直す。
     うまく取れているあいだは間隔を少しずつ縮め、相手が受け入れられる速さを探る。
     """
-    pace.setdefault(site, PACE_START)
+    pace.setdefault(site, max(PACE_START, SITE_PACE_MIN.get(site, 0)))
     last = ""
     for attempt in range(TRIES):
         wait = pace[site] - (time.time() - last_hit.get(site, 0))
@@ -75,7 +78,7 @@ def fetch(url, site):
             with urllib.request.urlopen(req, timeout=70) as res:
                 body = res.read().decode("utf-8", errors="replace")
             if len(body) >= MIN_BYTES:
-                pace[site] = max(PACE_MIN, pace[site] * PACE_DOWN)
+                pace[site] = max(PACE_MIN, SITE_PACE_MIN.get(site, 0), pace[site] * PACE_DOWN)
                 return body
             last = f"応答が{len(body)}バイトしかない"
         except Exception as err:  # noqa: BLE001 — サイトごとに落ち方が違う
