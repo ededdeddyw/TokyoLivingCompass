@@ -214,6 +214,14 @@ RENAMED = {
 }
 
 # 区境に建つ駅。最近傍の町丁だけでは決まらないので、駅の所在地表記に合わせる。
+# 全国データでは路線に属しているが、その路線の列車が止まらない駅。
+# 京王新線は法律上は京王線の一部なので、初台・幡ヶ谷にも京王線が付いていた。
+# 京王線の列車は新宿から笹塚まで地上を走り、この2駅には止まらない。
+LINE_DROP = {
+    "初台": {"24001"},
+    "幡ヶ谷": {"24001"},
+}
+
 WARD_OVERRIDE = {
     "目黒": ("13109", "品川区", "shinagawa"),
     "御茶ノ水": ("13101", "千代田区", "chiyoda"),
@@ -349,6 +357,7 @@ def main():
 
     rows, outside, seen = [], 0, collections.Counter()
     used_romaji_fix, used_ward_override = set(), set()
+    used_line_drop = set()
     used_slug_override, used_name_override = set(), set()
     for gcd, entry in sorted(stations.items()):
         group = by_group.get(gcd)
@@ -384,6 +393,10 @@ def main():
         ids = set(membership[gcd])
         if group:
             ids |= {i for i in group["ekidata_line_ids"] if i in line_names}
+
+        if name in LINE_DROP:
+            ids -= LINE_DROP[name]
+            used_line_drop.add(name)
 
         raw = romaji_by_name.get(name, "")
         if not raw and group:
@@ -427,6 +440,7 @@ def main():
     # 効いていない上書き設定は、駅名の表記ゆれで黙って無視されている疑いがある。
     for label, table, used in (
         ("ROMAJI_FIX", ROMAJI_FIX, used_romaji_fix),
+        ("LINE_DROP", LINE_DROP, used_line_drop),
         ("WARD_OVERRIDE", WARD_OVERRIDE, used_ward_override),
         ("SLUG_OVERRIDE", SLUG_OVERRIDE, used_slug_override),
         ("NAME_OVERRIDE", NAME_OVERRIDE, used_name_override),
