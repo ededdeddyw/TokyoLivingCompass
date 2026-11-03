@@ -468,6 +468,10 @@ def line_sequence(lid, ctx):
     return seq
 
 
+# 環状線。列の両端（大崎と品川）もつながっている
+LOOP_LINES = {"11302"}
+
+
 def peak_position(slug, lid, v, ctx):
     """この駅と、路線でいちばん混む区間との位置関係。
 
@@ -504,6 +508,15 @@ def peak_position(slug, lid, v, ctx):
     if None in (i_s, i_f, i_t) or i_f == i_t:
         return None
     step = 1 if i_t > i_f else -1
+    if lid in LOOP_LINES:
+        # 環状線では、どの駅も一方の向きに乗り続ければいつかは区間を通る。
+        # 区間の先の駅（新宿）へ、区間の向きに回るほうが近い駅だけを「手前」とする。
+        # 高輪ゲートウェイから新宿へは渋谷回りで行くので、新大久保→新宿は通らない。
+        n = len(seq)
+        if abs(i_t - i_f) != 1:
+            step = -step   # 列の端どうし（品川→大崎）をまたぐ区間
+        ahead = ((i_t - i_s) * step) % n
+        return "before" if 0 < ahead < n - ahead else "after"
     return "before" if (i_f - i_s) * step > 0 else "after"
 
 
