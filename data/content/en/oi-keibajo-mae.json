@@ -45,21 +45,20 @@
       "Floor area for the layout"
     ]
   },
-  "rentReason": "A one-room flat here goes for ¥110,000 to ¥120,000. Set against how long it takes to reach the central business districts, that is on the high side. quiet surroundings pushes the figure up. On the other side, only one line, the {line}, serving the station and little daily shopping within walking distance holds it down. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
+  "rentReason": "A one-room flat here goes for ¥110,000 to ¥120,000. Set against how long it takes to reach the central business districts, that is on the high side. For 2LDK, though, the sources differ by ¥30,000 or more. They count different sets of properties, so read those figures as a range rather than a point.",
   "neighbours": [
     {
       "slug": "tachiaigawa",
-      "lead": "For how close the centre is, Tachiaigawa; for quiet, Oi-Keibajo-Mae. ",
-      "note": "Close enough to walk to from Oi-Keibajo-Mae. Oi-Keibajo-Mae adds the Tokyo Monorail; Tachiaigawa adds the Keikyu Main Line. Tachiaigawa is at least 8 minutes quicker to Shinagawa and Roppongi. A one-room flat also costs about ¥12,000 less at Tachiaigawa. On quiet, though, Oi-Keibajo-Mae comes out ahead."
+      "lead": "Tachiaigawa is ahead on how close the centre is and lower rent. ",
+      "note": "Close enough to walk to from Oi-Keibajo-Mae. Oi-Keibajo-Mae adds the Tokyo Monorail; Tachiaigawa adds the Keikyu Main Line. Tachiaigawa is at least 8 minutes quicker to Shinagawa and Roppongi. A one-room flat also costs about ¥12,000 less at Tachiaigawa."
     },
     {
       "slug": "samezu",
       "lead": "For how close the centre is, Samezu; for safety, Oi-Keibajo-Mae. ",
-      "note": "About 1 km from Oi-Keibajo-Mae in a straight line. Oi-Keibajo-Mae adds the Tokyo Monorail; Samezu adds the Keikyu Main Line. Samezu is at least 10 minutes quicker to Shinagawa and Roppongi. A one-room flat also costs about ¥6,000 less at Samezu. On quiet, though, Oi-Keibajo-Mae comes out ahead."
+      "note": "About 1 km from Oi-Keibajo-Mae in a straight line. Oi-Keibajo-Mae adds the Tokyo Monorail; Samezu adds the Keikyu Main Line. Samezu is at least 10 minutes quicker to Shinagawa and Roppongi. A one-room flat also costs about ¥6,000 less at Samezu. On safety, though, Oi-Keibajo-Mae comes out ahead."
     }
   ],
   "goodFor": [
-    "People who want to keep traffic noise out",
     "People who want an area with few recorded crimes"
   ],
   "notFor": [
@@ -70,7 +69,6 @@
     "The nearest big road, 海岸通り, is far enough that little traffic noise reaches the station area"
   ],
   "tags": [
-    "quiet",
     "pricey",
     "lowFlood",
     "singleLine"

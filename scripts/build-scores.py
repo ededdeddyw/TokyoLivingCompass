@@ -236,6 +236,17 @@ def road_noise(rec):
     return clamp(worst)
 
 
+# 地図データの登録が少ない種類ごとに、測れていないとして出さない軸。
+# 飲食店の登録が少ない駅は、酒場の登録も少ない（大山は酒場5軒、学芸大学は1軒）。
+# 酒場と飲食店の数から出す夜の店の多さと、人の音から出す静かさも、測れていないものとする。
+# 学芸大学は駅の両側に夜遅くまで開く店の並ぶ商店街があるのに、静かさが84点に出ていた。
+GAP_AXES = {
+    "clinic": ("healthcare",),
+    "supermarket": ("shopping",),
+    "restaurant": ("food", "nightlife", "quietness"),
+}
+
+
 def main():
     roster = json.load(
         open(os.path.join(ROOT, "data", "roster", "stations.json"), encoding="utf-8")
@@ -447,8 +458,10 @@ def main():
             family_raw[slug] = facilities * (1 - 0.6 * hub)
 
             # 一人暮らし適性は、自炊しなくても生活が回るかで見る。
+            # 飲食店の登録が少ない駅は、飲食店の多さを上にも下にも寄せない50として扱う
+            rest_pct = 50 if "restaurant" in coverage_gaps.get(slug, {}) else pct["restaurant"][slug]
             scores["singleLife"] = clamp(
-                pct["restaurant"][slug] * 0.35
+                rest_pct * 0.35
                 + pct["cafe"][slug] * 0.2
                 + pct["supermarket"][slug] * 0.2
                 + scores.get("commute", 50) * 0.25)
@@ -464,10 +477,10 @@ def main():
 
         # 地図データの登録がまわりの駅より大きく少ない駅は、その数から出す点を出さない
         # （scripts/build-coverage-gaps.py）。少ないと言い切って外れるより、測れていないとする。
-        for cat, axis in (("clinic", "healthcare"), ("supermarket", "shopping"),
-                          ("restaurant", "food")):
+        for cat, axes in GAP_AXES.items():
             if cat in coverage_gaps.get(station["slug"], {}):
-                scores.pop(axis, None)
+                for axis in axes:
+                    scores.pop(axis, None)
 
         if scores:
             out[station["slug"]] = scores

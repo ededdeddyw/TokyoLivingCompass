@@ -540,6 +540,15 @@ def congestion_for(slug, congestion):
     return out
 
 
+def line_at(slug, lid, name, ctx):
+    """名前の違う駅から乗る路線には、その駅名を添える（築地の有楽町線 → 有楽町線（新富町駅））"""
+    at = ctx.get("lineStations", {}).get(slug, {}).get(lid)
+    if not at:
+        return name
+    p_ = ctx["p"]
+    return p_["lineAtStation"].format(line=name, station=p_["lineAtStationName"](at))
+
+
 def congestion_text(slug, lines, line_ids, ctx):
     """朝の混雑率の節を組み立てる。路線ごとに、公表されている最混雑区間と値を書く。
 
@@ -552,7 +561,7 @@ def congestion_text(slug, lines, line_ids, ctx):
     for lid, name in zip(line_ids, lines):
         v = cong.get(lid)
         if v:
-            rows.append((v["rate"], lid, name, v))
+            rows.append((v["rate"], lid, line_at(slug, lid, name, ctx), v))
     if not rows:
         # 都電荒川線や東京モノレールは調査の対象に入っていない。
         # 黙って節を落とすと、調べていないのか混まないのかが読み手に分からない。
@@ -625,7 +634,7 @@ def congestion_lead(slug, line_ids, ctx):
     top = max(r for r, _ in rows)
 
     def name(i):
-        return line_name(p_["lineName"](ctx["lines"][i]))
+        return line_at(slug, i, line_name(p_["lineName"](ctx["lines"][i])), ctx)
 
     if on_peak and (not before or on_peak[0][0] >= before[0][0]):
         rate, lid = on_peak[0]
@@ -1031,6 +1040,18 @@ def build(st, ctx):
         note.append(p[key].format(
             count=len(lines), lineWord=word(p, "line", len(lines)),
             operator=p["company"][unique[0]]))
+    # 名前の違う駅から乗る路線は、どの駅から乗るのかを書く。路線名だけだと、
+    # 築地駅に有楽町線が止まるように読める（scripts/build-line-stations.py）
+    # 同じ駅から乗る路線は1文にまとめる（有楽町の日比谷線と三田線）。同じ文末が続かないよう2文目から変える
+    at_groups = {}
+    for lid, at in sorted(ctx["lineStations"].get(slug, {}).items(),
+                          key=lambda kv: st["lineIds"].index(kv[0])):
+        if lid in ctx["lines"]:
+            key = (p["lineAtStationName"](at), at["walkMinutes"])
+            at_groups.setdefault(key, []).append(line_name(p["lineName"](ctx["lines"][lid])))
+    for i, ((station_name, minutes), names) in enumerate(at_groups.items()):
+        note.append(p["stationLineAt" if i % 2 == 0 else "stationLineAt2"].format(
+            line=join(p, names), station=station_name, minutes=minutes))
     sc = ctx["sc"].get(slug, {})
     # 乗換の利便性の点数は、本文に書かない。「32点である」とだけ書いても、
     # 高いのか低いのかが読み手に伝わらない。点数は評価軸の表に出している。
@@ -1512,6 +1533,7 @@ def main():
         "haz": load("computed/hazard.json")["stations"],
         "nonResidential": load("computed/non-residential.json"),
         "coverageGaps": load("computed/coverage-gaps.json"),
+        "lineStations": load("computed/line-stations.json"),
         "bands": load("computed/rent-bands.json"),
         "pois": pois_doc["stations"],
         "poiDate": pois_doc["meta"]["retrievedAt"],

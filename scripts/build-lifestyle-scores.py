@@ -190,10 +190,11 @@ def main():
     gaps = json.load(open(gaps_path, encoding="utf-8")) if os.path.exists(gaps_path) else {}
     for slug, cats in gaps.items():
         sc = scores.setdefault(slug, {})
-        for cat, axis in (("clinic", "healthcare"), ("supermarket", "shopping"),
-                          ("restaurant", "food")):
-            if cat in cats and axis not in sc:
-                sc[axis] = 50
+        for cat, axes in (("clinic", ("healthcare",)), ("supermarket", ("shopping",)),
+                          ("restaurant", ("food", "nightlife", "quietness"))):
+            for axis in axes:
+                if cat in cats and axis not in sc:
+                    sc[axis] = 50
 
     # 1〜2. 駅から歩いて行ける範囲の、広い公園の面積（scripts/build-green.py が出す）
     greens = json.load(open(os.path.join(ROOT, "data", "computed", "green.json"),
