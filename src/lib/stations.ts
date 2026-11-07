@@ -3,6 +3,7 @@ import { join } from "node:path";
 
 import type { z } from "zod";
 
+import { FLOOD_DEPTH_RANK } from "./choose";
 import type { ActiveLocale } from "./i18n";
 import {
   computedCommutesSchema,
@@ -29,6 +30,9 @@ import {
   stationGalleryFileSchema,
   nonResidentialFileSchema,
   lineStationsFileSchema,
+  hazardFileSchema,
+  terrainFileSchema,
+  roadsFileSchema,
   localPhotosFileSchema,
   flickrPhotosFileSchema,
   stationWardsFileSchema,
@@ -61,6 +65,9 @@ const GALLERY_FILE = join(DATA_DIR, "computed", "station-gallery.json");
 const LIFESTYLE_FILE = join(DATA_DIR, "computed", "lifestyle.json");
 const NON_RESIDENTIAL_FILE = join(DATA_DIR, "computed", "non-residential.json");
 const LINE_STATIONS_FILE = join(DATA_DIR, "computed", "line-stations.json");
+const HAZARD_FILE = join(DATA_DIR, "computed", "hazard.json");
+const TERRAIN_FILE = join(DATA_DIR, "computed", "terrain.json");
+const ROADS_FILE = join(DATA_DIR, "computed", "roads.json");
 const STATION_WARDS_FILE = join(DATA_DIR, "computed", "station-wards.json");
 const WARD_LINKS_FILE = join(DATA_DIR, "reference", "ward-links.json");
 /**
@@ -482,4 +489,43 @@ export function getLifestyle(slug: string): Lifestyle | null {
 /** 公開用の点に含めた通勤の割合（層ごと） */
 export function getLifestyleCommuteShare(): Record<Persona, number> {
   return lifestyleFile().meta.commuteShare as Record<Persona, number>;
+}
+
+/** 条件で駅を消していく道具で使う、駅の地点の浸水・坂・高速道路の値（src/lib/choose.ts） */
+export type ChooseFacts = {
+  floodAtStation?: number | null;
+  hightideAtStation?: boolean;
+  hilly?: boolean;
+  motorwayNear?: boolean;
+};
+
+/**
+ * 高速道路が駅の近くにあるとみなす距離。本文の騒音の欄で、高速道路の音を「大きい」とする境目
+ * （scripts/build-station-content.py の loud）に合わせる。歩いて3分ほどにあたる
+ */
+const MOTORWAY_NEAR_M = 200;
+
+let chooseFactsCache: Record<string, ChooseFacts> | null = null;
+
+export function getChooseFacts(): Record<string, ChooseFacts> {
+  if (chooseFactsCache) return chooseFactsCache;
+  const hazard = readOptional(HAZARD_FILE, hazardFileSchema, "浸水の想定")?.stations ?? {};
+  const terrain = readOptional(TERRAIN_FILE, terrainFileSchema, "地形")?.stations ?? {};
+  const roads = readOptional(ROADS_FILE, roadsFileSchema, "幹線道路")?.stations ?? {};
+  const out: Record<string, ChooseFacts> = {};
+  for (const base of getRoster()) {
+    const h = hazard[base.slug];
+    const t = terrain[base.slug];
+    const r = roads[base.slug];
+    const flood = h?.flood?.atStation;
+    out[base.slug] = {
+      floodAtStation: h?.flood ? (flood ? (FLOOD_DEPTH_RANK[flood] ?? 0) : null) : undefined,
+      hightideAtStation: h?.hightide ? h.hightide.atStation !== null : undefined,
+      hilly: t?.slope ? t.slope === "hilly" : undefined,
+      // 道路のデータがある駅で高速道路の欄が無いのは、近くに高速道路が無いということ
+      motorwayNear: r ? (r.motorway ? r.motorway.m <= MOTORWAY_NEAR_M : false) : undefined,
+    };
+  }
+  chooseFactsCache = out;
+  return out;
 }
