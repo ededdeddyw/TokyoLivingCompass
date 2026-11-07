@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 
 import { SeedNotice } from "@/components/SeedNotice";
 import { StationCard } from "@/components/StationCard";
+import { CHOOSE_TEXT } from "@/lib/choose-text";
 import { getDictionary } from "@/lib/dictionaries";
 import { ACTIVE_LOCALES, isActiveLocale } from "@/lib/i18n";
 import { overallScoreForPreset } from "@/lib/scoring";
@@ -84,6 +85,12 @@ export default async function HomePage({
             className="rounded-md bg-accent px-4 py-2 text-sm font-medium text-white hover:opacity-90"
           >
             {dict.home.findCta}
+          </Link>
+          <Link
+            href={`/${locale}/choose`}
+            className="rounded-md bg-accent px-4 py-2 text-sm font-medium text-white hover:opacity-90"
+          >
+            {CHOOSE_TEXT[locale].homeCta}
           </Link>
           <Link
             href={`/${locale}/stations`}

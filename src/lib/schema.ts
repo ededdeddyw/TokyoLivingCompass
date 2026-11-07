@@ -799,6 +799,33 @@ export const localPhotosFileSchema = z.object({
  * data/computed/station-gallery.json に置く。無い駅は station-photos.json の1枚を使う。
  */
 /** data/computed/non-residential.json */
+/**
+ * 条件で駅を消していく道具（src/lib/choose.ts）が使う計算値。使う欄だけを確かめ、ほかは通す。
+ * 浸水は scripts/fetch-hazard.py、地形は scripts/fetch-terrain.py、道路は scripts/fetch-roads.py が出す。
+ */
+const atStationSchema = z.object({ atStation: z.string().nullable() }).passthrough();
+export const hazardFileSchema = z
+  .object({
+    stations: z.record(
+      z.string(),
+      z.object({ flood: atStationSchema.optional(), hightide: atStationSchema.optional() }).passthrough(),
+    ),
+  })
+  .passthrough();
+export const terrainFileSchema = z
+  .object({
+    stations: z.record(z.string(), z.object({ slope: z.string().nullable().optional() }).passthrough()),
+  })
+  .passthrough();
+export const roadsFileSchema = z
+  .object({
+    stations: z.record(
+      z.string(),
+      z.object({ motorway: z.object({ m: z.number() }).passthrough().nullable().optional() }).passthrough(),
+    ),
+  })
+  .passthrough();
+
 /** 駅グループの中で、名前の違う駅から乗る路線（scripts/build-line-stations.py） */
 export const lineStationSchema = z.object({
   nameJa: z.string().min(1),
